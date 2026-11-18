@@ -1,0 +1,86 @@
+# ===== NGUỒN SOẠN THẢO HSK 1 – BÀI 20 =====
+# Định dạng giống bai-01-05.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1.
+
+# 20 | Công việc và liên lạc
+
+@工作 | công tác
+- 动 | làm việc
+> 你在哪儿工作？ | Nǐ zài nǎr gōngzuò? | Bạn làm việc ở đâu?
+> 今天我工作了十个小时。 | Jīntiān wǒ gōngzuòle shí gè xiǎoshí. | Hôm nay tôi đã làm việc mười tiếng.
+- 名 | công việc, việc làm
+> 我想找一个新工作。 | Wǒ xiǎng zhǎo yí gè xīn gōngzuò. | Tôi muốn tìm một công việc mới.
+> 他的工作很忙。 | Tā de gōngzuò hěn máng. | Công việc của anh ấy rất bận.
+* Khác “công tác” (đi công tác) trong tiếng Việt: 工作 là làm việc, công việc.
+
+@公司 | công ty
+- 名 | công ty
+> 你们公司有多少人？ | Nǐmen gōngsī yǒu duōshao rén? | Công ty các bạn có bao nhiêu người?
+> 他明天不去公司。 | Tā míngtiān bú qù gōngsī. | Ngày mai anh ấy không đến công ty.
+
+@上班 | thượng ban
+- 动 | đi làm, vào làm
+> 你几点上班？ | Nǐ jǐ diǎn shàngbān? | Bạn đi làm lúc mấy giờ?
+> 我星期六不上班。 | Wǒ xīngqīliù bú shàngbān. | Thứ Bảy tôi không đi làm.
+* Từ ly hợp, không mang tân ngữ phía sau.
+
+@下班 | hạ ban
+- 动 | tan làm, hết giờ làm
+> 下班后你做什么？ | Xiàbān hòu nǐ zuò shénme? | Tan làm bạn làm gì?
+> 爸爸六点下班。 | Bàba liù diǎn xiàbān. | Bố tan làm lúc sáu giờ.
+* Từ ly hợp, giống 上班.
+
+@忙 | mang
+- 形 | bận, bận rộn
+> 你忙吗？ | Nǐ máng ma? | Bạn có bận không?
+> 这个星期我非常忙。 | Zhège xīngqī wǒ fēicháng máng. | Tuần này tôi vô cùng bận.
+- 动 | bận (làm việc gì)
+> 你在忙什么？ | Nǐ zài máng shénme? | Bạn đang bận làm gì thế?
+> 他忙了一天。 | Tā mángle yì tiān. | Anh ấy bận cả ngày.
+
+@事 | sự
+- 名 | việc, chuyện
+> 你有什么事？ | Nǐ yǒu shénme shì? | Bạn có việc gì không?
+> 我明天有事，不能去。 | Wǒ míngtiān yǒu shì, bù néng qù. | Mai tôi có việc, không đi được.
+
+@做 | tố
+- 动 | làm
+> 你在做什么？ | Nǐ zài zuò shénme? | Bạn đang làm gì?
+> 你爸爸做什么工作？ | Nǐ bàba zuò shénme gōngzuò? | Bố bạn làm nghề gì?
+* 做 (làm) và 作 trong 工作 cùng đọc zuò nhưng là hai chữ khác nhau.
+
+@觉得 | giác đắc
+- 动 | cảm thấy; thấy, cho rằng
+> 我觉得有点儿冷。 | Wǒ juéde yǒudiǎnr lěng. | Tôi thấy hơi lạnh.
+> 你觉得这个怎么样？ | Nǐ juéde zhège zěnmeyàng? | Bạn thấy cái này thế nào?
+* 觉 đọc jué trong 觉得, đọc jiào trong 睡觉.
+
+@电话 | điện thoại
+- 名 | điện thoại, cuộc gọi; số điện thoại
+> 你的电话是多少？ | Nǐ de diànhuà shì duōshao? | Số điện thoại của bạn là bao nhiêu?
+> 有你的电话。 | Yǒu nǐ de diànhuà. | Có người gọi điện cho bạn.
+* Điện thoại di động là 手机.
+
+@打电话 | đả điện thoại
+- cụm | gọi điện thoại
+> 他在打电话。 | Tā zài dǎ diànhuà. | Anh ấy đang gọi điện thoại.
+> 我明天打电话问一下。 | Wǒ míngtiān dǎ diànhuà wèn yíxià. | Mai tôi gọi điện hỏi thử.
+* Gọi cho ai: 给 + người + 打电话 (给妈妈打电话); giới từ 给 thuộc cấp 2.
+
+@见 | kiến
+- 动 | gặp; thấy
+> 我想见你。 | Wǒ xiǎng jiàn nǐ. | Tôi muốn gặp bạn.
+> 我们在哪儿见？ | Wǒmen zài nǎr jiàn? | Chúng ta gặp nhau ở đâu?
+* Thời gian + 见 là lời hẹn gặp: 明天见 (mai gặp), 下午见 (chiều gặp).
+
+@一下 | nhất hạ
+- 数量 | một chút, một lát, thử (làm nhanh, nhẹ nhàng)
+> 你看一下。 | Nǐ kàn yíxià. | Bạn xem thử đi.
+> 我去一下超市。 | Wǒ qù yíxià chāoshì. | Tôi đi siêu thị một chút.
+* Đặt sau động từ để câu nói nhẹ nhàng, lịch sự hơn. 一 đọc yí vì đứng trước thanh 4.
+* Theo danh sách chính thức, 一下 dùng như phó từ (“ngay lập tức”) thuộc cấp 4.
+
+@正在 | chính tại
+- 副 | đang (hành động đang diễn ra)
+> 我正在吃饭。 | Wǒ zhèngzài chī fàn. | Tôi đang ăn cơm.
+> 他正在打电话呢。 | Tā zhèngzài dǎ diànhuà ne. | Anh ấy đang gọi điện thoại.
+* 正在 nhấn mạnh hơn 在; cuối câu hay thêm 呢.

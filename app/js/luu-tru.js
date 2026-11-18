@@ -1,0 +1,153 @@
+// =========================================================
+// LƯU TRỮ TIẾN ĐỘ HỌC (trên chính máy/trình duyệt đang dùng – localStorage)
+// - Toàn bộ tiến độ nằm trong MỘT đối tượng `tienDo`, lưu dưới khóa KHOA.
+// - Có xuất/nhập file sao lưu (.json) để chuyển sang máy khác hoặc phòng mất dữ liệu.
+// =========================================================
+
+const KHOA = 'hoc-hsk-tien-do';
+const TEN_UNG_DUNG = 'hoc-tieng-trung-hsk';
+const PHIEN_BAN = 1;
+
+// Cài đặt mặc định – người dùng chỉnh trong màn hình Cài đặt
+export const CAI_DAT_MAC_DINH = {
+  soTuMoiMoiNgay: 15,     // số từ mới mỗi ngày
+  gioiHanOnMoiNgay: 200,  // tối đa số thẻ ôn mỗi ngày
+  tuPhatAm: true,         // tự đọc từ khi lật thẻ
+  tocDoDoc: 0.8,          // tốc độ giọng đọc (1 = bình thường)
+  giongDoc: '',           // tên giọng đọc đã chọn ('' = tự chọn)
+  kieuChuKhai: false,     // hiển thị chữ Hán kiểu viết tay (Khải thư)
+  phutMucTieu: { on: 15, moi: 15, nghe: 10, viet: 10, nguPhap: 10 },
+};
+
+function tienDoTrong() {
+  return {
+    phienBan: PHIEN_BAN,
+    the: {},        // trạng thái từng thẻ: khóa "1:爱" → { trangThai, buoc, khoangCach, heSo, han, ... }
+    nhatKy: {},     // theo ngày "2026-11-18" → { moi, on, giay: { on, moi } }
+    caiDat: { ...CAI_DAT_MAC_DINH },
+    saoLuuLanCuoi: null,
+  };
+}
+
+let tienDo = tienDoTrong();
+let luuDuoc = true; // false nếu trình duyệt chặn localStorage (chế độ ẩn danh…)
+
+/** Đọc tiến độ đã lưu. Gọi một lần khi mở app. */
+export function docTienDo() {
+  try {
+    const chuoi = localStorage.getItem(KHOA);
+    if (chuoi) tienDo = hopNhat(JSON.parse(chuoi));
+  } catch (e) {
+    luuDuoc = false;
+    console.warn('Không đọc được localStorage', e);
+  }
+  return tienDo;
+}
+
+/** Ghép dữ liệu cũ với giá trị mặc định (để bản cập nhật sau thêm cài đặt mới không bị lỗi). */
+function hopNhat(cu) {
+  const moi = tienDoTrong();
+  return {
+    ...moi,
+    ...cu,
+    caiDat: { ...moi.caiDat, ...(cu.caiDat || {}), phutMucTieu: { ...moi.caiDat.phutMucTieu, ...(cu.caiDat?.phutMucTieu || {}) } },
+    the: cu.the || {},
+    nhatKy: cu.nhatKy || {},
+  };
+}
+
+/** Ghi tiến độ xuống máy. Gọi sau mỗi lần thay đổi. */
+export function luu() {
+  if (!luuDuoc) return false;
+  try {
+    localStorage.setItem(KHOA, JSON.stringify(tienDo));
+    return true;
+  } catch (e) {
+    luuDuoc = false;
+    console.warn('Không lưu được', e);
+    return false;
+  }
+}
+
+export const coLuuDuoc = () => luuDuoc;
+export const layTienDo = () => tienDo;
+export const caiDat = () => tienDo.caiDat;
+
+// ---------- Ngày học ----------
+// Một "ngày học" bắt đầu lúc 4 giờ sáng (học khuya sau 0h vẫn tính cho hôm trước).
+export const GIO_BAT_DAU_NGAY = 4;
+
+export function ngayHoc(thoiDiem = Date.now()) {
+  const d = new Date(thoiDiem - GIO_BAT_DAU_NGAY * 3600 * 1000);
+  const t = (n) => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${t(d.getMonth() + 1)}-${t(d.getDate())}`;
+}
+
+/** Nhật ký của hôm nay (tự tạo nếu chưa có). */
+export function nhatKyHomNay() {
+  const k = ngayHoc();
+  if (!tienDo.nhatKy[k]) tienDo.nhatKy[k] = { moi: 0, on: 0, giay: {} };
+  return tienDo.nhatKy[k];
+}
+
+/** Cộng thêm số giây học cho một phần (on / moi / ...). */
+export function congGiay(phan, soGiay) {
+  const nk = nhatKyHomNay();
+  nk.giay[phan] = (nk.giay[phan] || 0) + soGiay;
+}
+
+/** Số ngày học liên tục tính đến hôm nay (hoặc hôm qua nếu hôm nay chưa học). */
+export function chuoiNgayHoc() {
+  const coHoc = (k) => {
+    const nk = tienDo.nhatKy[k];
+    return nk && (nk.moi > 0 || nk.on > 0);
+  };
+  let dem = 0;
+  let moc = Date.now();
+  if (!coHoc(ngayHoc(moc))) moc -= 86400000; // hôm nay chưa học thì đếm từ hôm qua
+  while (coHoc(ngayHoc(moc))) {
+    dem++;
+    moc -= 86400000;
+  }
+  return dem;
+}
+
+// ---------- Sao lưu ----------
+/** Tạo file sao lưu và tải về máy. */
+export function xuatSaoLuu() {
+  tienDo.saoLuuLanCuoi = new Date().toISOString();
+  luu();
+  const goi = { ungDung: TEN_UNG_DUNG, phienBan: PHIEN_BAN, xuatLuc: tienDo.saoLuuLanCuoi, tienDo };
+  const blob = new Blob([JSON.stringify(goi, null, 1)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `hoc-hsk-sao-luu-${ngayHoc()}.json`;
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+}
+
+/** Đọc file sao lưu người dùng chọn. Trả về Promise<số thẻ đã nhập>. Ném lỗi (tiếng Việt) nếu file sai. */
+export async function nhapSaoLuu(file) {
+  const chuoi = await file.text();
+  let goi;
+  try {
+    goi = JSON.parse(chuoi);
+  } catch {
+    throw new Error('File này không phải file sao lưu hợp lệ (không đọc được JSON).');
+  }
+  if (goi?.ungDung !== TEN_UNG_DUNG || !goi.tienDo) {
+    throw new Error('File này không phải file sao lưu của ứng dụng Học HSK.');
+  }
+  tienDo = hopNhat(goi.tienDo);
+  luu();
+  return Object.keys(tienDo.the).length;
+}
+
+/** Xóa toàn bộ tiến độ (giữ lại cài đặt). */
+export function xoaTienDo() {
+  const giuCaiDat = tienDo.caiDat;
+  tienDo = tienDoTrong();
+  tienDo.caiDat = giuCaiDat;
+  luu();
+}

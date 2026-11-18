@@ -1,0 +1,95 @@
+# ===== NGUỒN SOẠN THẢO HSK 1 – BÀI 6 =====
+# Định dạng giống bai-01-05.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1.
+
+# 6 | Bạn bè và tuổi tác
+
+@朋友 | bằng hữu
+- 名 | bạn, bạn bè
+> 他是我的好朋友。 | Tā shì wǒ de hǎo péngyou. | Anh ấy là bạn tốt của tôi.
+> 我在中国有很多朋友。 | Wǒ zài Zhōngguó yǒu hěn duō péngyou. | Tôi có nhiều bạn ở Trung Quốc.
+
+@男朋友 | nam bằng hữu
+- 名 | bạn trai, người yêu (nam)
+> 她有男朋友吗？ | Tā yǒu nánpéngyou ma? | Cô ấy có bạn trai chưa?
+> 我男朋友是医生。 | Wǒ nánpéngyou shì yīshēng. | Bạn trai tôi là bác sĩ.
+* 男朋友 thường được hiểu là người yêu. Bạn bè là nam thì chỉ cần nói 朋友.
+
+@女朋友 | nữ bằng hữu
+- 名 | bạn gái, người yêu (nữ)
+> 他的女朋友很漂亮。 | Tā de nǚpéngyou hěn piàoliang. | Bạn gái anh ấy rất xinh.
+> 你有女朋友吗？ | Nǐ yǒu nǚpéngyou ma? | Bạn có bạn gái chưa?
+
+@男 | nam
+- 形 | nam, thuộc giới nam
+> 我们老师是男的。 | Wǒmen lǎoshī shì nán de. | Giáo viên của chúng tôi là nam.
+> 那个男学生是我弟弟。 | Nàge nán xuéshēng shì wǒ dìdi. | Cậu học sinh nam kia là em trai tôi.
+* Thường đứng ngay trước danh từ (男老师 – thầy giáo) hoặc dùng “是男的”. Không nói 很男.
+
+@女 | nữ
+- 形 | nữ, thuộc giới nữ
+> 她是我的女同学。 | Tā shì wǒ de nǚ tóngxué. | Cô ấy là bạn học nữ của tôi.
+> 这个医生是女的。 | Zhège yīshēng shì nǚ de. | Bác sĩ này là nữ.
+
+@先生 | tiên sinh
+- 名 | ông, ngài, anh (cách gọi lịch sự với nam giới); chồng (của ai đó)
+> 先生，您好！ | Xiānsheng, nín hǎo! | Chào ông ạ!
+> 她先生是老师。 | Tā xiānsheng shì lǎoshī. | Chồng cô ấy là giáo viên.
+* Khác “tiên sinh” (thầy dạy học thời xưa) trong tiếng Việt: ngày nay 先生 là cách gọi lịch sự như “ông/anh”.
+
+@女士 | nữ sĩ
+- 名 | bà, cô, quý bà (cách gọi lịch sự với phụ nữ)
+> 女士们，先生们，大家好！ | Nǚshìmen, xiānshengmen, dàjiā hǎo! | Thưa quý bà, quý ông, xin chào mọi người!
+> 请问，女士，您要喝什么？ | Qǐngwèn, nǚshì, nín yào hē shénme? | Thưa cô, cô muốn uống gì ạ?
+* Khác “nữ sĩ” (nhà thơ nữ) trong tiếng Việt.
+
+@小朋友 | tiểu bằng hữu
+- 名 | em bé, các em nhỏ (cách gọi thân mật với trẻ em)
+> 小朋友，你几岁了？ | Xiǎopéngyǒu, nǐ jǐ suì le? | Bé ơi, con mấy tuổi rồi?
+> 这些小朋友都很喜欢唱歌。 | Zhèxiē xiǎopéngyǒu dōu hěn xǐhuan chàng gē. | Các em nhỏ này đều rất thích hát.
+
+@岁 | tuế
+- 量 | tuổi
+> 我今年二十岁。 | Wǒ jīnnián èrshí suì. | Năm nay tôi hai mươi tuổi.
+> 他儿子三岁了。 | Tā érzi sān suì le. | Con trai anh ấy ba tuổi rồi.
+* Hỏi tuổi trẻ nhỏ: 你几岁了？ Hỏi người lớn: 你多大了？
+
+@多 | đa
+- 形 | nhiều, đông
+> 这里人很多。 | Zhèlǐ rén hěn duō. | Ở đây rất đông người.
+> 他有很多书。 | Tā yǒu hěn duō shū. | Anh ấy có rất nhiều sách.
+- 动 | thêm, nhiều hơn, thừa ra (so với số vốn có)
+> 今天多了一个学生。 | Jīntiān duōle yí gè xuéshēng. | Hôm nay có thêm một học sinh.
+- 代 | bao nhiêu, bao (hỏi mức độ, đứng trước tính từ: 多大)
+> 你今年多大？ | Nǐ jīnnián duō dà? | Năm nay bạn bao nhiêu tuổi?
+* Theo danh sách chính thức, cách dùng của 多 như số từ (二十多 – hơn hai mươi) và phó từ thuộc cấp 2.
+
+@大 | đại
+- 形 | to, lớn, rộng; (tuổi) lớn; (mưa, gió) to
+> 这个房间很大。 | Zhège fángjiān hěn dà. | Căn phòng này rất rộng.
+> 今天雨很大。 | Jīntiān yǔ hěn dà. | Hôm nay mưa rất to.
+
+@小 | tiểu
+- 形 | nhỏ, bé; (tuổi) nhỏ
+> 我家很小。 | Wǒ jiā hěn xiǎo. | Nhà tôi rất nhỏ.
+> 我妹妹还小。 | Wǒ mèimei hái xiǎo. | Em gái tôi vẫn còn nhỏ.
+- 前缀 | tiền tố đặt trước họ để gọi thân mật người ít tuổi hơn: Tiểu…
+> 小白，你去哪儿？ | Xiǎo Bái, nǐ qù nǎr? | Tiểu Bạch, bạn đi đâu đấy?
+* 小 + họ (ví dụ 小白, với 白 là họ Bạch) là cách gọi thân mật đồng nghiệp, bạn bè trẻ tuổi hơn mình.
+
+@认识 | nhận thức
+- 动 | quen, quen biết (người); biết, nhận ra (chữ, đường…)
+> 认识你很高兴。 | Rènshi nǐ hěn gāoxìng. | Rất vui được làm quen với bạn.
+> 这个字你认识吗？ | Zhège zì nǐ rènshi ma? | Chữ này bạn có biết không?
+* Khác “nhận thức” trong tiếng Việt. Phân biệt: 认识 = quen người, nhận ra chữ; 知道 = biết một thông tin; 会 = biết làm (nhờ học).
+
+@高兴 | cao hứng
+- 形 | vui, vui mừng
+> 我今天很高兴。 | Wǒ jīntiān hěn gāoxìng. | Hôm nay tôi rất vui.
+> 妈妈不太高兴。 | Māma bú tài gāoxìng. | Mẹ không vui lắm.
+* Nghĩa là “vui” nói chung, rộng hơn “cao hứng” trong tiếng Việt.
+
+@也 | dã
+- 副 | cũng
+> 我也是学生。 | Wǒ yě shì xuéshēng. | Tôi cũng là học sinh.
+> 他喜欢喝茶，我也喜欢。 | Tā xǐhuan hē chá, wǒ yě xǐhuan. | Anh ấy thích uống trà, tôi cũng thích.
+* 也 luôn đứng sau chủ ngữ, trước động từ hoặc tính từ: nói 我也去, không nói 也我去.

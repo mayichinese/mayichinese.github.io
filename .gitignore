@@ -1,0 +1,6 @@
+# Từ điển đối chiếu quá lớn (18MB) – không đưa vào Git
+cong-cu/tu-dien-doi-chieu/
+
+# File tạm của Python
+__pycache__/
+*.pyc

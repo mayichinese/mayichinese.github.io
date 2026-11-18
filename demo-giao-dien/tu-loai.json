@@ -1,0 +1,21 @@
+{
+  "_ghiChu": "Bảng đổi ký hiệu từ loại (viết tắt trong file dữ liệu) sang tiếng Việt. Thêm dòng mới nếu dữ liệu có ký hiệu khác.",
+  "bang": {
+    "名": "danh từ",
+    "动": "động từ",
+    "形": "tính từ",
+    "副": "phó từ",
+    "代": "đại từ",
+    "数": "số từ",
+    "量": "lượng từ",
+    "数量": "số lượng từ",
+    "介": "giới từ",
+    "连": "liên từ",
+    "助": "trợ từ",
+    "叹": "thán từ",
+    "拟声": "từ tượng thanh",
+    "前缀": "tiền tố",
+    "后缀": "hậu tố",
+    "cụm": "cụm từ"
+  }
+}

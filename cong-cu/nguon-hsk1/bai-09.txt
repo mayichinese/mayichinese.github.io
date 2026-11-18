@@ -1,0 +1,85 @@
+# ===== NGUỒN SOẠN THẢO HSK 1 – BÀI 9 =====
+# Định dạng giống bai-01-05.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1.
+
+# 9 | Ở đây, ở kia
+
+@这 | giá
+- 代 | này, đây
+> 这是我妈妈。 | Zhè shì wǒ māma. | Đây là mẹ tôi.
+> 这本书是谁的？ | Zhè běn shū shì shéi de? | Quyển sách này là của ai?
+* Trong khẩu ngữ, khi đứng trước lượng từ, 这 hay đọc là zhèi (这个 zhèige).
+
+@那 | na
+- 代 | kia, đó, ấy
+> 那是我的学校。 | Nà shì wǒ de xuéxiào. | Kia là trường của tôi.
+> 那本书很好看。 | Nà běn shū hěn hǎokàn. | Quyển sách đó rất hay.
+* Phân biệt 那 nà (kia, đó – thanh 4) và 哪 nǎ (nào? – thanh 3).
+* Theo danh sách chính thức, 那 dùng như liên từ (“vậy thì”) thuộc cấp 2.
+
+@这个 | giá cá
+- 代 | cái này, người này
+> 这个多少钱？ | Zhège duōshao qián? | Cái này bao nhiêu tiền?
+> 我要这个。 | Wǒ yào zhège. | Tôi lấy cái này.
+
+@那个 | na cá
+- 代 | cái kia, cái đó, người kia
+> 那个人是我们老师。 | Nàge rén shì wǒmen lǎoshī. | Người kia là giáo viên của chúng tôi.
+> 我不喜欢那个。 | Wǒ bù xǐhuan nàge. | Tôi không thích cái đó.
+
+@这儿 | giá nhi
+- 代 | đây, chỗ này, ở đây
+> 我在这儿。 | Wǒ zài zhèr. | Tôi ở đây.
+> 这儿的菜很好吃。 | Zhèr de cài hěn hǎochī. | Đồ ăn ở đây rất ngon.
+
+@那儿 | na nhi
+- 代 | đó, chỗ đó, ở đó
+> 你的手机在那儿。 | Nǐ de shǒujī zài nàr. | Điện thoại của bạn ở đằng kia.
+> 我明天去你那儿。 | Wǒ míngtiān qù nǐ nàr. | Ngày mai tôi đến chỗ bạn.
+* Sau đại từ chỉ người, thêm 这儿/那儿 để chỉ nơi chốn: 去你那儿 = đến chỗ bạn (không nói 去你).
+
+@这里 | giá lý
+- 代 | đây, ở đây (= 这儿)
+> 这里是我的家。 | Zhèlǐ shì wǒ de jiā. | Đây là nhà tôi.
+> 请你在这里写名字。 | Qǐng nǐ zài zhèlǐ xiě míngzi. | Bạn vui lòng viết tên vào chỗ này.
+
+@那里 | na lý
+- 代 | đó, ở đó (= 那儿)
+> 那里有很多人。 | Nàlǐ yǒu hěn duō rén. | Ở đó có rất nhiều người.
+> 我想去那里看看。 | Wǒ xiǎng qù nàlǐ kànkan. | Tôi muốn đến đó xem thử.
+
+@这边 | giá biên
+- 代 | bên này, phía này
+> 请到这边来。 | Qǐng dào zhèbiān lái. | Mời qua bên này.
+> 这边人很少。 | Zhèbiān rén hěn shǎo. | Bên này ít người.
+
+@那边 | na biên
+- 代 | bên kia, phía kia
+> 超市在那边。 | Chāoshì zài nàbiān. | Siêu thị ở bên kia.
+> 那边的房间很大。 | Nàbiān de fángjiān hěn dà. | Phòng bên kia rất rộng.
+
+@这些 | giá ta
+- 代 | những … này
+> 这些是我的书。 | Zhèxiē shì wǒ de shū. | Đây là những quyển sách của tôi.
+> 这些苹果多少钱？ | Zhèxiē píngguǒ duōshao qián? | Những quả táo này bao nhiêu tiền?
+
+@那些 | na ta
+- 代 | những … kia, những … đó
+> 那些人是谁？ | Nàxiē rén shì shéi? | Những người kia là ai?
+> 那些东西都是我的。 | Nàxiē dōngxi dōu shì wǒ de. | Những đồ kia đều là của tôi.
+
+@些 | ta
+- 量 | một vài, một ít (lượng từ chỉ số lượng không xác định)
+> 我买了些水果。 | Wǒ mǎile xiē shuǐguǒ. | Tôi đã mua ít hoa quả.
+* 些 thường đi sau 这, 那, 哪, 一: 这些, 那些, 哪些, 一些.
+
+@有的 | hữu đích
+- 代 | có (người, cái)…, một số
+> 有的人喜欢喝茶，有的人喜欢喝水。 | Yǒude rén xǐhuan hē chá, yǒude rén xǐhuan hē shuǐ. | Có người thích uống trà, có người thích uống nước.
+> 这些书，有的是我的，有的是他的。 | Zhèxiē shū, yǒude shì wǒ de, yǒude shì tā de. | Những quyển sách này, có quyển của tôi, có quyển của anh ấy.
+* Thường dùng hai lần liên tiếp: 有的…，有的… (có người…, có người…).
+
+@有些 | hữu ta
+- 代 | một số, có một số
+> 有些学生不喜欢写汉字。 | Yǒuxiē xuéshēng bù xǐhuan xiě Hànzì. | Có một số học sinh không thích viết chữ Hán.
+> 这些问题，有些我不知道。 | Zhèxiē wèntí, yǒuxiē wǒ bù zhīdào. | Mấy câu hỏi này, có câu tôi không biết.
+* Theo danh sách chính thức, 有些 dùng như phó từ (“hơi, có phần”) thuộc cấp 3.

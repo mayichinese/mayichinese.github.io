@@ -1,0 +1,92 @@
+# ===== NGUỒN SOẠN THẢO HSK 1 – BÀI 15 =====
+# Định dạng giống bai-01-05.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1.
+
+# 15 | Ăn uống (2)
+
+@面条儿 | miến điều nhi
+- 名 | mì sợi
+> 我想吃面条儿。 | Wǒ xiǎng chī miàntiáor. | Tôi muốn ăn mì.
+> 这家的面条儿很好吃。 | Zhè jiā de miàntiáor hěn hǎochī. | Mì của quán này rất ngon.
+* 面 ở đây là chữ giản thể của 麵 (bột mì) nên âm Hán Việt là “miến”, khác 面 (mặt) đọc là “diện”.
+? hanViet | 面 ở đây = 麵 nên mình ghi “miến”; Hanzii ghi “miến bao” cho 面包 nhưng “diện điều nhi” cho 面条儿 — cần đối chiếu thêm
+
+@面包 | miến bao
+- 名 | bánh mì
+> 早上我吃面包，喝牛奶。 | Zǎoshang wǒ chī miànbāo, hē niúnǎi. | Buổi sáng tôi ăn bánh mì, uống sữa.
+> 这个面包多少钱？ | Zhège miànbāo duōshao qián? | Cái bánh mì này bao nhiêu tiền?
+
+@包子 | bao tử
+- 名 | bánh bao
+> 我想买四个包子。 | Wǒ xiǎng mǎi sì gè bāozi. | Tôi muốn mua bốn cái bánh bao.
+> 这里的包子很大。 | Zhèlǐ de bāozi hěn dà. | Bánh bao ở đây rất to.
+* Khác “bao tử” (dạ dày) trong tiếng Việt.
+
+@饺子 | giảo tử
+- 名 | sủi cảo, bánh chẻo
+> 你会做饺子吗？ | Nǐ huì zuò jiǎozi ma? | Bạn biết làm sủi cảo không?
+> 新年的时候，我们家吃饺子。 | Xīnnián de shíhou, wǒmen jiā chī jiǎozi. | Dịp năm mới, nhà chúng tôi ăn sủi cảo.
+
+@鸡蛋 | kê đản
+- 名 | trứng gà
+> 我早饭吃了一个鸡蛋。 | Wǒ zǎofàn chīle yí gè jīdàn. | Bữa sáng tôi đã ăn một quả trứng gà.
+> 鸡蛋多少钱一个？ | Jīdàn duōshao qián yí gè? | Trứng gà bao nhiêu tiền một quả?
+
+@水果 | thủy quả
+- 名 | hoa quả, trái cây
+> 你喜欢吃什么水果？ | Nǐ xǐhuan chī shénme shuǐguǒ? | Bạn thích ăn hoa quả gì?
+> 超市里有很多水果。 | Chāoshì li yǒu hěn duō shuǐguǒ. | Trong siêu thị có rất nhiều hoa quả.
+
+@苹果 | bình quả
+- 名 | quả táo
+> 一个苹果多少钱？ | Yí gè píngguǒ duōshao qián? | Một quả táo bao nhiêu tiền?
+> 他买了五个苹果。 | Tā mǎile wǔ gè píngguǒ. | Anh ấy đã mua năm quả táo.
+
+@想 | tưởng
+- 动 | muốn; nhớ (người, nơi chốn); nghĩ
+> 我想喝茶。 | Wǒ xiǎng hē chá. | Tôi muốn uống trà.
+> 我很想妈妈。 | Wǒ hěn xiǎng māma. | Tôi rất nhớ mẹ.
+> 你想一下。 | Nǐ xiǎng yíxià. | Bạn nghĩ một chút đi.
+* 想 (muốn) nhẹ nhàng hơn 要 (muốn, cần — ý chí mạnh hơn).
+
+@要 | yếu
+- 动 | muốn, lấy (khi gọi món, mua hàng); phải, cần; mất (bao lâu)
+> 你要什么？ | Nǐ yào shénme? | Bạn muốn lấy gì?
+> 明天我要上班。 | Míngtiān wǒ yào shàngbān. | Ngày mai tôi phải đi làm.
+> 去学校要十分钟。 | Qù xuéxiào yào shí fēnzhōng. | Đi đến trường mất mười phút.
+* Phủ định của 要 (muốn) thường là 不想; còn 不要 nghĩa là “đừng”.
+
+@不要 | bất yếu
+- 副 | đừng, không được
+> 不要说话！ | Búyào shuōhuà! | Đừng nói chuyện!
+> 你不要去那儿。 | Nǐ búyào qù nàr. | Bạn đừng đến đó.
+* 不 đọc bú vì đứng trước thanh 4 (yào).
+
+@一点儿 | nhất điểm nhi
+- 数量 | một chút, một ít
+> 我想喝一点儿水。 | Wǒ xiǎng hē yìdiǎnr shuǐ. | Tôi muốn uống một chút nước.
+> 便宜一点儿吧！ | Piányi yìdiǎnr ba! | Rẻ hơn một chút đi! (khi mặc cả)
+* Đặt SAU tính từ để so sánh nhẹ: 便宜一点儿 = rẻ hơn chút. Khác 有点儿 (đặt TRƯỚC tính từ, thường mang ý không hài lòng): 有点儿贵 = hơi đắt.
+
+@太 | thái
+- 副 | quá, lắm
+> 太好了！ | Tài hǎo le! | Tốt quá!
+> 这个太贵了。 | Zhège tài guì le. | Cái này đắt quá.
+* Thường dùng dạng 太…了. 不太 + tính từ = không … lắm (不太好 = không tốt lắm).
+
+@非常 | phi thường
+- 副 | rất, vô cùng (mạnh hơn 很)
+> 我非常喜欢中国菜。 | Wǒ fēicháng xǐhuan Zhōngguó cài. | Tôi vô cùng thích món Trung Quốc.
+> 今天非常冷。 | Jīntiān fēicháng lěng. | Hôm nay lạnh vô cùng.
+* Khác “phi thường” (khác thường, xuất chúng) trong tiếng Việt: 非常 chỉ có nghĩa là “rất”.
+
+@真 | chân
+- 副 | thật, thật là
+> 这个包子真好吃！ | Zhège bāozi zhēn hǎochī! | Bánh bao này ngon thật!
+> 今天真冷！ | Jīntiān zhēn lěng! | Hôm nay lạnh thật!
+* Theo danh sách chính thức, 真 dùng như tính từ (“thật, thật sự”) thuộc cấp 4.
+
+@只 | chích
+- 量 | con (lượng từ cho nhiều con vật); chiếc (một trong một đôi)
+> 我家有两只猫。 | Wǒ jiā yǒu liǎng zhī māo. | Nhà tôi có hai con mèo.
+> 那只狗很大。 | Nà zhī gǒu hěn dà. | Con chó kia rất to.
+* Chữ 只 còn đọc zhǐ (“chỉ”) — đó là một từ khác.

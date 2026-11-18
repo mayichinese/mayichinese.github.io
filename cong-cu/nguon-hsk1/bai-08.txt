@@ -1,0 +1,91 @@
+# ===== NGUỒN SOẠN THẢO HSK 1 – BÀI 8 =====
+# Định dạng giống bai-01-05.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1.
+
+# 8 | Cấp học và hỏi đáp
+
+@大学 | đại học
+- 名 | trường đại học, đại học
+> 我哥哥在大学工作。 | Wǒ gēge zài dàxué gōngzuò. | Anh tôi làm việc ở trường đại học.
+> 你想上哪个大学？ | Nǐ xiǎng shàng nǎge dàxué? | Bạn muốn học trường đại học nào?
+
+@大学生 | đại học sinh
+- 名 | sinh viên đại học
+> 我姐姐是大学生。 | Wǒ jiějie shì dàxuéshēng. | Chị tôi là sinh viên đại học.
+> 这些大学生都在学习汉语。 | Zhèxiē dàxuéshēng dōu zài xuéxí Hànyǔ. | Những sinh viên này đều đang học tiếng Trung.
+* Tiếng Việt gọi là “sinh viên”, không gọi là “học sinh”.
+
+@中学 | trung học
+- 名 | trường trung học (tương đương cấp 2 và cấp 3 ở Việt Nam)
+> 他是中学老师。 | Tā shì zhōngxué lǎoshī. | Anh ấy là giáo viên trung học.
+> 我弟弟今年上中学。 | Wǒ dìdi jīnnián shàng zhōngxué. | Em trai tôi năm nay lên trung học.
+
+@中学生 | trung học sinh
+- 名 | học sinh trung học
+> 他是中学生。 | Tā shì zhōngxuéshēng. | Cậu ấy là học sinh trung học.
+> 很多中学生都有手机。 | Hěn duō zhōngxuéshēng dōu yǒu shǒujī. | Nhiều học sinh trung học đều có điện thoại.
+
+@小学 | tiểu học
+- 名 | trường tiểu học
+> 我女儿在这个小学上学。 | Wǒ nǚ'ér zài zhège xiǎoxué shàngxué. | Con gái tôi học ở trường tiểu học này.
+> 我妈妈是小学老师。 | Wǒ māma shì xiǎoxué lǎoshī. | Mẹ tôi là giáo viên tiểu học.
+
+@小学生 | tiểu học sinh
+- 名 | học sinh tiểu học
+> 他儿子是小学生。 | Tā érzi shì xiǎoxuéshēng. | Con trai anh ấy là học sinh tiểu học.
+> 小学生下午四点下课。 | Xiǎoxuéshēng xiàwǔ sì diǎn xiàkè. | Học sinh tiểu học tan học lúc bốn giờ chiều.
+
+@问 | vấn
+- 动 | hỏi
+> 我可以问你一个问题吗？ | Wǒ kěyǐ wèn nǐ yí gè wèntí ma? | Tôi có thể hỏi bạn một câu được không?
+> 你去问老师吧。 | Nǐ qù wèn lǎoshī ba. | Bạn đi hỏi thầy/cô đi.
+* 问 có thể mang hai tân ngữ: 问 + người + điều muốn hỏi (问你一个问题).
+
+@问题 | vấn đề
+- 名 | câu hỏi; vấn đề, trục trặc
+> 这个问题很好。 | Zhège wèntí hěn hǎo. | Câu hỏi này rất hay.
+> 没问题！ | Méi wèntí! | Không vấn đề gì! / Được thôi!
+* Ngoài nghĩa “vấn đề”, 问题 rất hay dùng với nghĩa “câu hỏi”.
+
+@知道 | tri đạo
+- 动 | biết (một thông tin, sự việc)
+> 你知道他的名字吗？ | Nǐ zhīdào tā de míngzi ma? | Bạn có biết tên anh ấy không?
+> 我不知道。 | Wǒ bù zhīdào. | Tôi không biết.
+* Danh sách chính thức ghi zhīdào; trong khẩu ngữ chữ 道 thường đọc nhẹ: zhīdao.
+
+@对 | đối
+- 形 | đúng
+> 对，他是我哥哥。 | Duì, tā shì wǒ gēge. | Đúng, anh ấy là anh trai tôi.
+> 这个对吗？ | Zhège duì ma? | Cái này đúng không?
+- 介 | đối với, với
+> 他对我很好。 | Tā duì wǒ hěn hǎo. | Anh ấy đối xử với tôi rất tốt.
+* Theo danh sách chính thức, cách dùng của 对 như động từ, lượng từ thuộc cấp 4.
+
+@哪个 | na cá
+- 代 | cái nào, người nào
+> 你喜欢哪个？ | Nǐ xǐhuan nǎge? | Bạn thích cái nào?
+> 哪个是你的书？ | Nǎge shì nǐ de shū? | Quyển nào là sách của bạn?
+* Trong khẩu ngữ, 哪个 thường đọc là něige.
+
+@哪些 | na ta
+- 代 | những … nào, những cái nào (số nhiều)
+> 你认识哪些汉字？ | Nǐ rènshi nǎxiē Hànzì? | Bạn biết những chữ Hán nào?
+> 哪些是你的东西？ | Nǎxiē shì nǐ de dōngxi? | Những cái nào là đồ của bạn?
+
+@个 | cá
+- 量 | cái, chiếc, người… (lượng từ dùng phổ biến nhất)
+> 我有一个弟弟。 | Wǒ yǒu yí gè dìdi. | Tôi có một em trai.
+> 我想买两个苹果。 | Wǒ xiǎng mǎi liǎng gè píngguǒ. | Tôi muốn mua hai quả táo.
+* 一个 đọc yí gè (一 thành thanh 2 trước thanh 4). Trong câu, 个 thường đọc nhẹ thành ge.
+
+@的 | đích
+- 助 | trợ từ: của (chỉ sở hữu); nối phần bổ nghĩa với danh từ
+> 这是我的手机。 | Zhè shì wǒ de shǒujī. | Đây là điện thoại của tôi.
+> 她是一个很好的老师。 | Tā shì yí gè hěn hǎo de lǎoshī. | Cô ấy là một giáo viên rất tốt.
+* Thứ tự ngược với tiếng Việt: 我的书 = sách của tôi (người sở hữu đứng trước).
+* Với người thân, bạn thân thường bỏ 的: 我妈妈, 我朋友.
+
+@很 | ngận
+- 副 | rất
+> 今天很冷。 | Jīntiān hěn lěng. | Hôm nay rất lạnh.
+> 这个苹果很好吃。 | Zhège píngguǒ hěn hǎochī. | Quả táo này rất ngon.
+* Khi tính từ làm vị ngữ, người Trung Quốc thường thêm 很 dù không nhấn mạnh “rất”: 我很好 = Tôi khỏe. Không nói 我是好.

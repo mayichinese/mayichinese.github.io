@@ -1,0 +1,9006 @@
+{
+ "nguon": "HSK考试大纲 (2025) – HSK 词汇大纲, cấp 1–3. Chép nguyên văn, KHÔNG chỉnh sửa.",
+ "ghiChu": "dangCap '1（4）' và phần từ loại trong ngoặc '（动、量）' = cách dùng đó thuộc cấp cao hơn.",
+ "tu": [
+  {
+   "capDo": 1,
+   "soThuTu": 1,
+   "dangGoc": "爱",
+   "hanzi": "爱",
+   "pinyin": "ài",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 2,
+   "dangGoc": "八",
+   "hanzi": "八",
+   "pinyin": "bā",
+   "dangCap": "1",
+   "tuLoai": "数"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 3,
+   "dangGoc": "爸爸",
+   "hanzi": "爸爸",
+   "pinyin": "bàba",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 4,
+   "dangGoc": "吧",
+   "hanzi": "吧",
+   "pinyin": "ba",
+   "dangCap": "1",
+   "tuLoai": "助"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 5,
+   "dangGoc": "白天",
+   "hanzi": "白天",
+   "pinyin": "báitiān",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 6,
+   "dangGoc": "百",
+   "hanzi": "百",
+   "pinyin": "bǎi",
+   "dangCap": "1",
+   "tuLoai": "数"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 7,
+   "dangGoc": "半",
+   "hanzi": "半",
+   "pinyin": "bàn",
+   "dangCap": "1（4）",
+   "tuLoai": "数、（副）"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 8,
+   "dangGoc": "包子",
+   "hanzi": "包子",
+   "pinyin": "bāozi",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 9,
+   "dangGoc": "杯子",
+   "hanzi": "杯子",
+   "pinyin": "bēizi",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 10,
+   "dangGoc": "本1",
+   "hanzi": "本",
+   "pinyin": "běn",
+   "dangCap": "1",
+   "tuLoai": "量"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 11,
+   "dangGoc": "边",
+   "hanzi": "边",
+   "pinyin": "biān",
+   "dangCap": "1",
+   "tuLoai": "名、后缀"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 12,
+   "dangGoc": "病",
+   "hanzi": "病",
+   "pinyin": "bìng",
+   "dangCap": "1",
+   "tuLoai": "名、动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 13,
+   "dangGoc": "不",
+   "hanzi": "不",
+   "pinyin": "bù",
+   "dangCap": "1",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 14,
+   "dangGoc": "不客气",
+   "hanzi": "不客气",
+   "pinyin": "bú kèqi",
+   "dangCap": "1",
+   "tuLoai": ""
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 15,
+   "dangGoc": "不要",
+   "hanzi": "不要",
+   "pinyin": "búyào",
+   "dangCap": "1",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 16,
+   "dangGoc": "菜",
+   "hanzi": "菜",
+   "pinyin": "cài",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 17,
+   "dangGoc": "茶",
+   "hanzi": "茶",
+   "pinyin": "chá",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 18,
+   "dangGoc": "唱",
+   "hanzi": "唱",
+   "pinyin": "chàng",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 19,
+   "dangGoc": "超市",
+   "hanzi": "超市",
+   "pinyin": "chāoshì",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 20,
+   "dangGoc": "车",
+   "hanzi": "车",
+   "pinyin": "chē",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 21,
+   "dangGoc": "吃",
+   "hanzi": "吃",
+   "pinyin": "chī",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 22,
+   "dangGoc": "出租车",
+   "hanzi": "出租车",
+   "pinyin": "chūzūchē",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 23,
+   "dangGoc": "穿",
+   "hanzi": "穿",
+   "pinyin": "chuān",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 24,
+   "dangGoc": "打电话",
+   "hanzi": "打电话",
+   "pinyin": "dǎ diànhuà",
+   "dangCap": "1",
+   "tuLoai": ""
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 25,
+   "dangGoc": "大",
+   "hanzi": "大",
+   "pinyin": "dà",
+   "dangCap": "1",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 26,
+   "dangGoc": "大家",
+   "hanzi": "大家",
+   "pinyin": "dàjiā",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 27,
+   "dangGoc": "大学",
+   "hanzi": "大学",
+   "pinyin": "dàxué",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 28,
+   "dangGoc": "大学生",
+   "hanzi": "大学生",
+   "pinyin": "dàxuéshēng",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 29,
+   "dangGoc": "到",
+   "hanzi": "到",
+   "pinyin": "dào",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 30,
+   "dangGoc": "的",
+   "hanzi": "的",
+   "pinyin": "de",
+   "dangCap": "1",
+   "tuLoai": "助"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 31,
+   "dangGoc": "弟弟",
+   "hanzi": "弟弟",
+   "pinyin": "dìdi",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 32,
+   "dangGoc": "第",
+   "hanzi": "第",
+   "pinyin": "dì",
+   "dangCap": "1",
+   "tuLoai": "前缀"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 33,
+   "dangGoc": "点1",
+   "hanzi": "点",
+   "pinyin": "diǎn",
+   "dangCap": "1（3）",
+   "tuLoai": "量、（名）"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 34,
+   "dangGoc": "电话",
+   "hanzi": "电话",
+   "pinyin": "diànhuà",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 35,
+   "dangGoc": "电脑",
+   "hanzi": "电脑",
+   "pinyin": "diànnǎo",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 36,
+   "dangGoc": "电视",
+   "hanzi": "电视",
+   "pinyin": "diànshì",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 37,
+   "dangGoc": "电影",
+   "hanzi": "电影",
+   "pinyin": "diànyǐng",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 38,
+   "dangGoc": "电影院",
+   "hanzi": "电影院",
+   "pinyin": "diànyǐngyuàn",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 39,
+   "dangGoc": "店",
+   "hanzi": "店",
+   "pinyin": "diàn",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 40,
+   "dangGoc": "东西",
+   "hanzi": "东西",
+   "pinyin": "dōngxi",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 41,
+   "dangGoc": "都",
+   "hanzi": "都",
+   "pinyin": "dōu",
+   "dangCap": "1",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 42,
+   "dangGoc": "读",
+   "hanzi": "读",
+   "pinyin": "dú",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 43,
+   "dangGoc": "读书",
+   "hanzi": "读书",
+   "pinyin": "dúshū",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 44,
+   "dangGoc": "对",
+   "hanzi": "对",
+   "pinyin": "duì",
+   "dangCap": "1（4）",
+   "tuLoai": "形、介、（动、量）"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 45,
+   "dangGoc": "对不起",
+   "hanzi": "对不起",
+   "pinyin": "duìbuqǐ",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 46,
+   "dangGoc": "多",
+   "hanzi": "多",
+   "pinyin": "duō",
+   "dangCap": "1（2）",
+   "tuLoai": "形、动、代、（数、副）"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 47,
+   "dangGoc": "多少",
+   "hanzi": "多少",
+   "pinyin": "duōshao",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 48,
+   "dangGoc": "儿子",
+   "hanzi": "儿子",
+   "pinyin": "érzi",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 49,
+   "dangGoc": "二",
+   "hanzi": "二",
+   "pinyin": "èr",
+   "dangCap": "1",
+   "tuLoai": "数"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 50,
+   "dangGoc": "饭",
+   "hanzi": "饭",
+   "pinyin": "fàn",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 51,
+   "dangGoc": "饭店",
+   "hanzi": "饭店",
+   "pinyin": "fàndiàn",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 52,
+   "dangGoc": "房间",
+   "hanzi": "房间",
+   "pinyin": "fángjiān",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 53,
+   "dangGoc": "飞机",
+   "hanzi": "飞机",
+   "pinyin": "fēijī",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 54,
+   "dangGoc": "非常",
+   "hanzi": "非常",
+   "pinyin": "fēicháng",
+   "dangCap": "1",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 55,
+   "dangGoc": "分",
+   "hanzi": "分",
+   "pinyin": "fēn",
+   "dangCap": "1（3）",
+   "tuLoai": "量、（动、名）"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 56,
+   "dangGoc": "分钟",
+   "hanzi": "分钟",
+   "pinyin": "fēnzhōng",
+   "dangCap": "1",
+   "tuLoai": "量"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 57,
+   "dangGoc": "高兴",
+   "hanzi": "高兴",
+   "pinyin": "gāoxìng",
+   "dangCap": "1",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 58,
+   "dangGoc": "哥哥",
+   "hanzi": "哥哥",
+   "pinyin": "gēge",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 59,
+   "dangGoc": "歌",
+   "hanzi": "歌",
+   "pinyin": "gē",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 60,
+   "dangGoc": "个",
+   "hanzi": "个",
+   "pinyin": "gè",
+   "dangCap": "1",
+   "tuLoai": "量"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 61,
+   "dangGoc": "给",
+   "hanzi": "给",
+   "pinyin": "gěi",
+   "dangCap": "1（2）",
+   "tuLoai": "动、（介）"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 62,
+   "dangGoc": "工作",
+   "hanzi": "工作",
+   "pinyin": "gōngzuò",
+   "dangCap": "1",
+   "tuLoai": "动、名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 63,
+   "dangGoc": "公司",
+   "hanzi": "公司",
+   "pinyin": "gōngsī",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 64,
+   "dangGoc": "狗",
+   "hanzi": "狗",
+   "pinyin": "gǒu",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 65,
+   "dangGoc": "贵",
+   "hanzi": "贵",
+   "pinyin": "guì",
+   "dangCap": "1",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 66,
+   "dangGoc": "国",
+   "hanzi": "国",
+   "pinyin": "guó",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 67,
+   "dangGoc": "还",
+   "hanzi": "还",
+   "pinyin": "hái",
+   "dangCap": "1",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 68,
+   "dangGoc": "孩子",
+   "hanzi": "孩子",
+   "pinyin": "háizi",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 69,
+   "dangGoc": "汉语",
+   "hanzi": "汉语",
+   "pinyin": "Hànyǔ",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 70,
+   "dangGoc": "汉字",
+   "hanzi": "汉字",
+   "pinyin": "Hànzì",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 71,
+   "dangGoc": "好",
+   "hanzi": "好",
+   "pinyin": "hǎo",
+   "dangCap": "1（2）（4）",
+   "tuLoai": "形、（副）、（动）"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 72,
+   "dangGoc": "好吃",
+   "hanzi": "好吃",
+   "pinyin": "hǎochī",
+   "dangCap": "1",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 73,
+   "dangGoc": "好看",
+   "hanzi": "好看",
+   "pinyin": "hǎokàn",
+   "dangCap": "1",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 74,
+   "dangGoc": "好听",
+   "hanzi": "好听",
+   "pinyin": "hǎotīng",
+   "dangCap": "1",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 75,
+   "dangGoc": "好玩儿",
+   "hanzi": "好玩儿",
+   "pinyin": "hǎowánr",
+   "dangCap": "1",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 76,
+   "dangGoc": "号",
+   "hanzi": "号",
+   "pinyin": "hào",
+   "dangCap": "1",
+   "tuLoai": "名、量"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 77,
+   "dangGoc": "喝",
+   "hanzi": "喝",
+   "pinyin": "hē",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 78,
+   "dangGoc": "和1",
+   "hanzi": "和",
+   "pinyin": "hé",
+   "dangCap": "1",
+   "tuLoai": "介、连"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 79,
+   "dangGoc": "很",
+   "hanzi": "很",
+   "pinyin": "hěn",
+   "dangCap": "1",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 80,
+   "dangGoc": "后",
+   "hanzi": "后",
+   "pinyin": "hòu",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 81,
+   "dangGoc": "回",
+   "hanzi": "回",
+   "pinyin": "huí",
+   "dangCap": "1（3）",
+   "tuLoai": "动、（量）"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 82,
+   "dangGoc": "会1",
+   "hanzi": "会",
+   "pinyin": "huì",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 83,
+   "dangGoc": "火车",
+   "hanzi": "火车",
+   "pinyin": "huǒchē",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 84,
+   "dangGoc": "鸡蛋",
+   "hanzi": "鸡蛋",
+   "pinyin": "jīdàn",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 85,
+   "dangGoc": "几",
+   "hanzi": "几",
+   "pinyin": "jǐ",
+   "dangCap": "1",
+   "tuLoai": "代、数"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 86,
+   "dangGoc": "家",
+   "hanzi": "家",
+   "pinyin": "jiā",
+   "dangCap": "1（3）",
+   "tuLoai": "名、量、（后缀）"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 87,
+   "dangGoc": "家人",
+   "hanzi": "家人",
+   "pinyin": "jiārén",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 88,
+   "dangGoc": "见",
+   "hanzi": "见",
+   "pinyin": "jiàn",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 89,
+   "dangGoc": "件",
+   "hanzi": "件",
+   "pinyin": "jiàn",
+   "dangCap": "1",
+   "tuLoai": "量"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 90,
+   "dangGoc": "饺子",
+   "hanzi": "饺子",
+   "pinyin": "jiǎozi",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 91,
+   "dangGoc": "叫",
+   "hanzi": "叫",
+   "pinyin": "jiào",
+   "dangCap": "1（4）",
+   "tuLoai": "动、（介）"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 92,
+   "dangGoc": "姐姐",
+   "hanzi": "姐姐",
+   "pinyin": "jiějie",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 93,
+   "dangGoc": "今年",
+   "hanzi": "今年",
+   "pinyin": "jīnnián",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 94,
+   "dangGoc": "今天",
+   "hanzi": "今天",
+   "pinyin": "jīntiān",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 95,
+   "dangGoc": "九",
+   "hanzi": "九",
+   "pinyin": "jiǔ",
+   "dangCap": "1",
+   "tuLoai": "数"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 96,
+   "dangGoc": "觉得",
+   "hanzi": "觉得",
+   "pinyin": "juéde",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 97,
+   "dangGoc": "开",
+   "hanzi": "开",
+   "pinyin": "kāi",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 98,
+   "dangGoc": "开车",
+   "hanzi": "开车",
+   "pinyin": "kāichē",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 99,
+   "dangGoc": "看",
+   "hanzi": "看",
+   "pinyin": "kàn",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 100,
+   "dangGoc": "看病",
+   "hanzi": "看病",
+   "pinyin": "kànbìng",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 101,
+   "dangGoc": "看见",
+   "hanzi": "看见",
+   "pinyin": "kànjiàn",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 102,
+   "dangGoc": "可以",
+   "hanzi": "可以",
+   "pinyin": "kěyǐ",
+   "dangCap": "1",
+   "tuLoai": "动、形"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 103,
+   "dangGoc": "课",
+   "hanzi": "课",
+   "pinyin": "kè",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 104,
+   "dangGoc": "口",
+   "hanzi": "口",
+   "pinyin": "kǒu",
+   "dangCap": "1",
+   "tuLoai": "名、量"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 105,
+   "dangGoc": "块",
+   "hanzi": "块",
+   "pinyin": "kuài",
+   "dangCap": "1",
+   "tuLoai": "量"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 106,
+   "dangGoc": "来",
+   "hanzi": "来",
+   "pinyin": "lái",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 107,
+   "dangGoc": "老师",
+   "hanzi": "老师",
+   "pinyin": "lǎoshī",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 108,
+   "dangGoc": "了",
+   "hanzi": "了",
+   "pinyin": "le",
+   "dangCap": "1",
+   "tuLoai": "助"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 109,
+   "dangGoc": "冷",
+   "hanzi": "冷",
+   "pinyin": "lěng",
+   "dangCap": "1",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 110,
+   "dangGoc": "里",
+   "hanzi": "里",
+   "pinyin": "lǐ",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 111,
+   "dangGoc": "两1",
+   "hanzi": "两",
+   "pinyin": "liǎng",
+   "dangCap": "1",
+   "tuLoai": "数"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 112,
+   "dangGoc": "零",
+   "hanzi": "零",
+   "pinyin": "líng",
+   "dangCap": "1",
+   "tuLoai": "数"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 113,
+   "dangGoc": "六",
+   "hanzi": "六",
+   "pinyin": "liù",
+   "dangCap": "1",
+   "tuLoai": "数"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 114,
+   "dangGoc": "妈妈",
+   "hanzi": "妈妈",
+   "pinyin": "māma",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 115,
+   "dangGoc": "吗",
+   "hanzi": "吗",
+   "pinyin": "ma",
+   "dangCap": "1",
+   "tuLoai": "助"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 116,
+   "dangGoc": "买",
+   "hanzi": "买",
+   "pinyin": "mǎi",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 117,
+   "dangGoc": "卖",
+   "hanzi": "卖",
+   "pinyin": "mài",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 118,
+   "dangGoc": "忙",
+   "hanzi": "忙",
+   "pinyin": "máng",
+   "dangCap": "1",
+   "tuLoai": "形、动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 119,
+   "dangGoc": "猫",
+   "hanzi": "猫",
+   "pinyin": "māo",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 120,
+   "dangGoc": "没关系",
+   "hanzi": "没关系",
+   "pinyin": "méi guānxi",
+   "dangCap": "1",
+   "tuLoai": ""
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 121,
+   "dangGoc": "没事",
+   "hanzi": "没事",
+   "pinyin": "méishì",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 122,
+   "dangGoc": "没有",
+   "hanzi": "没有",
+   "pinyin": "méiyǒu",
+   "dangCap": "1",
+   "tuLoai": "动、副"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 123,
+   "dangGoc": "妹妹",
+   "hanzi": "妹妹",
+   "pinyin": "mèimei",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 124,
+   "dangGoc": "们",
+   "hanzi": "们",
+   "pinyin": "men",
+   "dangCap": "1",
+   "tuLoai": "后缀"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 125,
+   "dangGoc": "米饭",
+   "hanzi": "米饭",
+   "pinyin": "mǐfàn",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 126,
+   "dangGoc": "面包",
+   "hanzi": "面包",
+   "pinyin": "miànbāo",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 127,
+   "dangGoc": "面条儿",
+   "hanzi": "面条儿",
+   "pinyin": "miàntiáor",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 128,
+   "dangGoc": "名字",
+   "hanzi": "名字",
+   "pinyin": "míngzi",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 129,
+   "dangGoc": "明年",
+   "hanzi": "明年",
+   "pinyin": "míngnián",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 130,
+   "dangGoc": "明天",
+   "hanzi": "明天",
+   "pinyin": "míngtiān",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 131,
+   "dangGoc": "哪",
+   "hanzi": "哪",
+   "pinyin": "nǎ",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 132,
+   "dangGoc": "哪个",
+   "hanzi": "哪个",
+   "pinyin": "nǎge",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 133,
+   "dangGoc": "哪里",
+   "hanzi": "哪里",
+   "pinyin": "nǎlǐ",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 134,
+   "dangGoc": "哪儿",
+   "hanzi": "哪儿",
+   "pinyin": "nǎr",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 135,
+   "dangGoc": "哪些",
+   "hanzi": "哪些",
+   "pinyin": "nǎxiē",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 136,
+   "dangGoc": "那",
+   "hanzi": "那",
+   "pinyin": "nà",
+   "dangCap": "1（2）",
+   "tuLoai": "代、（连）"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 137,
+   "dangGoc": "那边",
+   "hanzi": "那边",
+   "pinyin": "nàbiān",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 138,
+   "dangGoc": "那个",
+   "hanzi": "那个",
+   "pinyin": "nàge",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 139,
+   "dangGoc": "那里",
+   "hanzi": "那里",
+   "pinyin": "nàlǐ",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 140,
+   "dangGoc": "那儿",
+   "hanzi": "那儿",
+   "pinyin": "nàr",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 141,
+   "dangGoc": "那些",
+   "hanzi": "那些",
+   "pinyin": "nàxiē",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 142,
+   "dangGoc": "男",
+   "hanzi": "男",
+   "pinyin": "nán",
+   "dangCap": "1",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 143,
+   "dangGoc": "男朋友",
+   "hanzi": "男朋友",
+   "pinyin": "nánpéngyou",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 144,
+   "dangGoc": "呢",
+   "hanzi": "呢",
+   "pinyin": "ne",
+   "dangCap": "1",
+   "tuLoai": "助"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 145,
+   "dangGoc": "能",
+   "hanzi": "能",
+   "pinyin": "néng",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 146,
+   "dangGoc": "你",
+   "hanzi": "你",
+   "pinyin": "nǐ",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 147,
+   "dangGoc": "你好",
+   "hanzi": "你好",
+   "pinyin": "nǐ hǎo",
+   "dangCap": "1",
+   "tuLoai": ""
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 148,
+   "dangGoc": "你们",
+   "hanzi": "你们",
+   "pinyin": "nǐmen",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 149,
+   "dangGoc": "年",
+   "hanzi": "年",
+   "pinyin": "nián",
+   "dangCap": "1",
+   "tuLoai": "名、量"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 150,
+   "dangGoc": "您",
+   "hanzi": "您",
+   "pinyin": "nín",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 151,
+   "dangGoc": "牛奶",
+   "hanzi": "牛奶",
+   "pinyin": "niúnǎi",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 152,
+   "dangGoc": "女",
+   "hanzi": "女",
+   "pinyin": "nǚ",
+   "dangCap": "1",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 153,
+   "dangGoc": "女儿",
+   "hanzi": "女儿",
+   "pinyin": "nǚ'ér",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 154,
+   "dangGoc": "女朋友",
+   "hanzi": "女朋友",
+   "pinyin": "nǚpéngyou",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 155,
+   "dangGoc": "女士",
+   "hanzi": "女士",
+   "pinyin": "nǚshì",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 156,
+   "dangGoc": "朋友",
+   "hanzi": "朋友",
+   "pinyin": "péngyou",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 157,
+   "dangGoc": "便宜",
+   "hanzi": "便宜",
+   "pinyin": "piányi",
+   "dangCap": "1",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 158,
+   "dangGoc": "漂亮",
+   "hanzi": "漂亮",
+   "pinyin": "piàoliang",
+   "dangCap": "1",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 159,
+   "dangGoc": "苹果",
+   "hanzi": "苹果",
+   "pinyin": "píngguǒ",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 160,
+   "dangGoc": "七",
+   "hanzi": "七",
+   "pinyin": "qī",
+   "dangCap": "1",
+   "tuLoai": "数"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 161,
+   "dangGoc": "起床",
+   "hanzi": "起床",
+   "pinyin": "qǐchuáng",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 162,
+   "dangGoc": "千",
+   "hanzi": "千",
+   "pinyin": "qiān",
+   "dangCap": "1",
+   "tuLoai": "数"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 163,
+   "dangGoc": "前",
+   "hanzi": "前",
+   "pinyin": "qián",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 164,
+   "dangGoc": "钱",
+   "hanzi": "钱",
+   "pinyin": "qián",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 165,
+   "dangGoc": "请",
+   "hanzi": "请",
+   "pinyin": "qǐng",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 166,
+   "dangGoc": "请问",
+   "hanzi": "请问",
+   "pinyin": "qǐngwèn",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 167,
+   "dangGoc": "去",
+   "hanzi": "去",
+   "pinyin": "qù",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 168,
+   "dangGoc": "去年",
+   "hanzi": "去年",
+   "pinyin": "qùnián",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 169,
+   "dangGoc": "热",
+   "hanzi": "热",
+   "pinyin": "rè",
+   "dangCap": "1",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 170,
+   "dangGoc": "人",
+   "hanzi": "人",
+   "pinyin": "rén",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 171,
+   "dangGoc": "认识",
+   "hanzi": "认识",
+   "pinyin": "rènshi",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 172,
+   "dangGoc": "日",
+   "hanzi": "日",
+   "pinyin": "rì",
+   "dangCap": "1（4）",
+   "tuLoai": "量、（名）"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 173,
+   "dangGoc": "三",
+   "hanzi": "三",
+   "pinyin": "sān",
+   "dangCap": "1",
+   "tuLoai": "数"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 174,
+   "dangGoc": "商店",
+   "hanzi": "商店",
+   "pinyin": "shāngdiàn",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 175,
+   "dangGoc": "上",
+   "hanzi": "上",
+   "pinyin": "shàng",
+   "dangCap": "1",
+   "tuLoai": "名、动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 176,
+   "dangGoc": "上班",
+   "hanzi": "上班",
+   "pinyin": "shàngbān",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 177,
+   "dangGoc": "上课",
+   "hanzi": "上课",
+   "pinyin": "shàngkè",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 178,
+   "dangGoc": "上午",
+   "hanzi": "上午",
+   "pinyin": "shàngwǔ",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 179,
+   "dangGoc": "上学",
+   "hanzi": "上学",
+   "pinyin": "shàngxué",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 180,
+   "dangGoc": "少",
+   "hanzi": "少",
+   "pinyin": "shǎo",
+   "dangCap": "1",
+   "tuLoai": "形、动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 181,
+   "dangGoc": "谁",
+   "hanzi": "谁",
+   "pinyin": "shéi/shuí",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 182,
+   "dangGoc": "什么",
+   "hanzi": "什么",
+   "pinyin": "shénme",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 183,
+   "dangGoc": "生病",
+   "hanzi": "生病",
+   "pinyin": "shēngbìng",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 184,
+   "dangGoc": "十",
+   "hanzi": "十",
+   "pinyin": "shí",
+   "dangCap": "1",
+   "tuLoai": "数"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 185,
+   "dangGoc": "时候",
+   "hanzi": "时候",
+   "pinyin": "shíhou",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 186,
+   "dangGoc": "时间",
+   "hanzi": "时间",
+   "pinyin": "shíjiān",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 187,
+   "dangGoc": "事",
+   "hanzi": "事",
+   "pinyin": "shì",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 188,
+   "dangGoc": "是",
+   "hanzi": "是",
+   "pinyin": "shì",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 189,
+   "dangGoc": "手机",
+   "hanzi": "手机",
+   "pinyin": "shǒujī",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 190,
+   "dangGoc": "书",
+   "hanzi": "书",
+   "pinyin": "shū",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 191,
+   "dangGoc": "书店",
+   "hanzi": "书店",
+   "pinyin": "shūdiàn",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 192,
+   "dangGoc": "水",
+   "hanzi": "水",
+   "pinyin": "shuǐ",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 193,
+   "dangGoc": "水果",
+   "hanzi": "水果",
+   "pinyin": "shuǐguǒ",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 194,
+   "dangGoc": "睡",
+   "hanzi": "睡",
+   "pinyin": "shuì",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 195,
+   "dangGoc": "睡觉",
+   "hanzi": "睡觉",
+   "pinyin": "shuìjiào",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 196,
+   "dangGoc": "说",
+   "hanzi": "说",
+   "pinyin": "shuō",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 197,
+   "dangGoc": "说话",
+   "hanzi": "说话",
+   "pinyin": "shuōhuà",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 198,
+   "dangGoc": "四",
+   "hanzi": "四",
+   "pinyin": "sì",
+   "dangCap": "1",
+   "tuLoai": "数"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 199,
+   "dangGoc": "岁",
+   "hanzi": "岁",
+   "pinyin": "suì",
+   "dangCap": "1",
+   "tuLoai": "量"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 200,
+   "dangGoc": "他",
+   "hanzi": "他",
+   "pinyin": "tā",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 201,
+   "dangGoc": "他们",
+   "hanzi": "他们",
+   "pinyin": "tāmen",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 202,
+   "dangGoc": "它",
+   "hanzi": "它",
+   "pinyin": "tā",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 203,
+   "dangGoc": "它们",
+   "hanzi": "它们",
+   "pinyin": "tāmen",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 204,
+   "dangGoc": "她",
+   "hanzi": "她",
+   "pinyin": "tā",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 205,
+   "dangGoc": "她们",
+   "hanzi": "她们",
+   "pinyin": "tāmen",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 206,
+   "dangGoc": "太",
+   "hanzi": "太",
+   "pinyin": "tài",
+   "dangCap": "1",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 207,
+   "dangGoc": "天",
+   "hanzi": "天",
+   "pinyin": "tiān",
+   "dangCap": "1",
+   "tuLoai": "名、量"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 208,
+   "dangGoc": "天气",
+   "hanzi": "天气",
+   "pinyin": "tiānqì",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 209,
+   "dangGoc": "听",
+   "hanzi": "听",
+   "pinyin": "tīng",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 210,
+   "dangGoc": "听见",
+   "hanzi": "听见",
+   "pinyin": "tīngjiàn",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 211,
+   "dangGoc": "同学",
+   "hanzi": "同学",
+   "pinyin": "tóngxué",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 212,
+   "dangGoc": "外",
+   "hanzi": "外",
+   "pinyin": "wài",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 213,
+   "dangGoc": "外边",
+   "hanzi": "外边",
+   "pinyin": "wàibian",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 214,
+   "dangGoc": "玩",
+   "hanzi": "玩",
+   "pinyin": "wán",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 215,
+   "dangGoc": "晚",
+   "hanzi": "晚",
+   "pinyin": "wǎn",
+   "dangCap": "1",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 216,
+   "dangGoc": "晚饭",
+   "hanzi": "晚饭",
+   "pinyin": "wǎnfàn",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 217,
+   "dangGoc": "晚上",
+   "hanzi": "晚上",
+   "pinyin": "wǎnshang",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 218,
+   "dangGoc": "喂1",
+   "hanzi": "喂",
+   "pinyin": "wèi",
+   "dangCap": "1",
+   "tuLoai": "叹"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 219,
+   "dangGoc": "问",
+   "hanzi": "问",
+   "pinyin": "wèn",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 220,
+   "dangGoc": "问题",
+   "hanzi": "问题",
+   "pinyin": "wèntí",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 221,
+   "dangGoc": "我",
+   "hanzi": "我",
+   "pinyin": "wǒ",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 222,
+   "dangGoc": "我们",
+   "hanzi": "我们",
+   "pinyin": "wǒmen",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 223,
+   "dangGoc": "五",
+   "hanzi": "五",
+   "pinyin": "wǔ",
+   "dangCap": "1",
+   "tuLoai": "数"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 224,
+   "dangGoc": "午饭",
+   "hanzi": "午饭",
+   "pinyin": "wǔfàn",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 225,
+   "dangGoc": "喜欢",
+   "hanzi": "喜欢",
+   "pinyin": "xǐhuan",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 226,
+   "dangGoc": "下",
+   "hanzi": "下",
+   "pinyin": "xià",
+   "dangCap": "1",
+   "tuLoai": "名、动、量"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 227,
+   "dangGoc": "下班",
+   "hanzi": "下班",
+   "pinyin": "xiàbān",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 228,
+   "dangGoc": "下课",
+   "hanzi": "下课",
+   "pinyin": "xiàkè",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 229,
+   "dangGoc": "下午",
+   "hanzi": "下午",
+   "pinyin": "xiàwǔ",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 230,
+   "dangGoc": "下雨",
+   "hanzi": "下雨",
+   "pinyin": "xià yǔ",
+   "dangCap": "1",
+   "tuLoai": ""
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 231,
+   "dangGoc": "先生",
+   "hanzi": "先生",
+   "pinyin": "xiānsheng",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 232,
+   "dangGoc": "现在",
+   "hanzi": "现在",
+   "pinyin": "xiànzài",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 233,
+   "dangGoc": "想",
+   "hanzi": "想",
+   "pinyin": "xiǎng",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 234,
+   "dangGoc": "小",
+   "hanzi": "小",
+   "pinyin": "xiǎo",
+   "dangCap": "1",
+   "tuLoai": "形、前缀"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 235,
+   "dangGoc": "小朋友",
+   "hanzi": "小朋友",
+   "pinyin": "xiǎopéngyǒu",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 236,
+   "dangGoc": "小时",
+   "hanzi": "小时",
+   "pinyin": "xiǎoshí",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 237,
+   "dangGoc": "小学",
+   "hanzi": "小学",
+   "pinyin": "xiǎoxué",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 238,
+   "dangGoc": "小学生",
+   "hanzi": "小学生",
+   "pinyin": "xiǎoxuéshēng",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 239,
+   "dangGoc": "些",
+   "hanzi": "些",
+   "pinyin": "xiē",
+   "dangCap": "1",
+   "tuLoai": "量"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 240,
+   "dangGoc": "写",
+   "hanzi": "写",
+   "pinyin": "xiě",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 241,
+   "dangGoc": "谢谢",
+   "hanzi": "谢谢",
+   "pinyin": "xièxie",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 242,
+   "dangGoc": "新",
+   "hanzi": "新",
+   "pinyin": "xīn",
+   "dangCap": "1",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 243,
+   "dangGoc": "星期",
+   "hanzi": "星期",
+   "pinyin": "xīngqī",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 244,
+   "dangGoc": "星期日",
+   "hanzi": "星期日",
+   "pinyin": "xīngqīrì",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 245,
+   "dangGoc": "星期天",
+   "hanzi": "星期天",
+   "pinyin": "xīngqītiān",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 246,
+   "dangGoc": "休息",
+   "hanzi": "休息",
+   "pinyin": "xiūxi",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 247,
+   "dangGoc": "学",
+   "hanzi": "学",
+   "pinyin": "xué",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 248,
+   "dangGoc": "学生",
+   "hanzi": "学生",
+   "pinyin": "xuéshēng",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 249,
+   "dangGoc": "学习",
+   "hanzi": "学习",
+   "pinyin": "xuéxí",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 250,
+   "dangGoc": "学校",
+   "hanzi": "学校",
+   "pinyin": "xuéxiào",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 251,
+   "dangGoc": "雪",
+   "hanzi": "雪",
+   "pinyin": "xuě",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 252,
+   "dangGoc": "要",
+   "hanzi": "要",
+   "pinyin": "yào",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 253,
+   "dangGoc": "也",
+   "hanzi": "也",
+   "pinyin": "yě",
+   "dangCap": "1",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 254,
+   "dangGoc": "一",
+   "hanzi": "一",
+   "pinyin": "yī",
+   "dangCap": "1",
+   "tuLoai": "数"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 255,
+   "dangGoc": "一半",
+   "hanzi": "一半",
+   "pinyin": "yíbàn",
+   "dangCap": "1",
+   "tuLoai": "数"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 256,
+   "dangGoc": "一点儿",
+   "hanzi": "一点儿",
+   "pinyin": "yìdiǎnr",
+   "dangCap": "1",
+   "tuLoai": "数量"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 257,
+   "dangGoc": "一下",
+   "hanzi": "一下",
+   "pinyin": "yíxià",
+   "dangCap": "1（4）",
+   "tuLoai": "数量、（副）"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 258,
+   "dangGoc": "一些",
+   "hanzi": "一些",
+   "pinyin": "yìxiē",
+   "dangCap": "1",
+   "tuLoai": "数量"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 259,
+   "dangGoc": "衣服",
+   "hanzi": "衣服",
+   "pinyin": "yīfu",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 260,
+   "dangGoc": "医生",
+   "hanzi": "医生",
+   "pinyin": "yīshēng",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 261,
+   "dangGoc": "医院",
+   "hanzi": "医院",
+   "pinyin": "yīyuàn",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 262,
+   "dangGoc": "椅子",
+   "hanzi": "椅子",
+   "pinyin": "yǐzi",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 263,
+   "dangGoc": "有",
+   "hanzi": "有",
+   "pinyin": "yǒu",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 264,
+   "dangGoc": "有的",
+   "hanzi": "有的",
+   "pinyin": "yǒude",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 265,
+   "dangGoc": "有点儿",
+   "hanzi": "有点儿",
+   "pinyin": "yǒudiǎnr",
+   "dangCap": "1",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 266,
+   "dangGoc": "有些",
+   "hanzi": "有些",
+   "pinyin": "yǒuxiē",
+   "dangCap": "1（3）",
+   "tuLoai": "代、（副）"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 267,
+   "dangGoc": "雨",
+   "hanzi": "雨",
+   "pinyin": "yǔ",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 268,
+   "dangGoc": "元",
+   "hanzi": "元",
+   "pinyin": "yuán",
+   "dangCap": "1",
+   "tuLoai": "量"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 269,
+   "dangGoc": "月",
+   "hanzi": "月",
+   "pinyin": "yuè",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 270,
+   "dangGoc": "再",
+   "hanzi": "再",
+   "pinyin": "zài",
+   "dangCap": "1",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 271,
+   "dangGoc": "再见",
+   "hanzi": "再见",
+   "pinyin": "zàijiàn",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 272,
+   "dangGoc": "在",
+   "hanzi": "在",
+   "pinyin": "zài",
+   "dangCap": "1",
+   "tuLoai": "动、介、副"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 273,
+   "dangGoc": "早",
+   "hanzi": "早",
+   "pinyin": "zǎo",
+   "dangCap": "1",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 274,
+   "dangGoc": "早饭",
+   "hanzi": "早饭",
+   "pinyin": "zǎofàn",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 275,
+   "dangGoc": "早上",
+   "hanzi": "早上",
+   "pinyin": "zǎoshang",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 276,
+   "dangGoc": "怎么",
+   "hanzi": "怎么",
+   "pinyin": "zěnme",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 277,
+   "dangGoc": "怎么样",
+   "hanzi": "怎么样",
+   "pinyin": "zěnmeyàng",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 278,
+   "dangGoc": "找",
+   "hanzi": "找",
+   "pinyin": "zhǎo",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 279,
+   "dangGoc": "这",
+   "hanzi": "这",
+   "pinyin": "zhè",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 280,
+   "dangGoc": "这边",
+   "hanzi": "这边",
+   "pinyin": "zhèbiān",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 281,
+   "dangGoc": "这个",
+   "hanzi": "这个",
+   "pinyin": "zhège",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 282,
+   "dangGoc": "这里",
+   "hanzi": "这里",
+   "pinyin": "zhèlǐ",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 283,
+   "dangGoc": "这儿",
+   "hanzi": "这儿",
+   "pinyin": "zhèr",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 284,
+   "dangGoc": "这些",
+   "hanzi": "这些",
+   "pinyin": "zhèxiē",
+   "dangCap": "1",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 285,
+   "dangGoc": "真",
+   "hanzi": "真",
+   "pinyin": "zhēn",
+   "dangCap": "1（4）",
+   "tuLoai": "副、（形）"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 286,
+   "dangGoc": "正在",
+   "hanzi": "正在",
+   "pinyin": "zhèngzài",
+   "dangCap": "1",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 287,
+   "dangGoc": "只",
+   "hanzi": "只",
+   "pinyin": "zhī",
+   "dangCap": "1",
+   "tuLoai": "量"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 288,
+   "dangGoc": "知道",
+   "hanzi": "知道",
+   "pinyin": "zhīdào",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 289,
+   "dangGoc": "中国",
+   "hanzi": "中国",
+   "pinyin": "Zhōngguó",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 290,
+   "dangGoc": "中文",
+   "hanzi": "中文",
+   "pinyin": "Zhōngwén",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 291,
+   "dangGoc": "中午",
+   "hanzi": "中午",
+   "pinyin": "zhōngwǔ",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 292,
+   "dangGoc": "中学",
+   "hanzi": "中学",
+   "pinyin": "zhōngxué",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 293,
+   "dangGoc": "中学生",
+   "hanzi": "中学生",
+   "pinyin": "zhōngxuéshēng",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 294,
+   "dangGoc": "住",
+   "hanzi": "住",
+   "pinyin": "zhù",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 295,
+   "dangGoc": "桌子",
+   "hanzi": "桌子",
+   "pinyin": "zhuōzi",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 296,
+   "dangGoc": "字",
+   "hanzi": "字",
+   "pinyin": "zì",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 297,
+   "dangGoc": "昨天",
+   "hanzi": "昨天",
+   "pinyin": "zuótiān",
+   "dangCap": "1",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 298,
+   "dangGoc": "坐",
+   "hanzi": "坐",
+   "pinyin": "zuò",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 299,
+   "dangGoc": "做",
+   "hanzi": "做",
+   "pinyin": "zuò",
+   "dangCap": "1",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 1,
+   "soThuTu": 300,
+   "dangGoc": "做饭",
+   "hanzi": "做饭",
+   "pinyin": "zuò fàn",
+   "dangCap": "1",
+   "tuLoai": ""
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 301,
+   "dangGoc": "啊",
+   "hanzi": "啊",
+   "pinyin": "a",
+   "dangCap": "2",
+   "tuLoai": "助"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 302,
+   "dangGoc": "爱好",
+   "hanzi": "爱好",
+   "pinyin": "àihào",
+   "dangCap": "2",
+   "tuLoai": "动、名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 303,
+   "dangGoc": "白色",
+   "hanzi": "白色",
+   "pinyin": "báisè",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 304,
+   "dangGoc": "班",
+   "hanzi": "班",
+   "pinyin": "bān",
+   "dangCap": "2（5）",
+   "tuLoai": "名、（量）"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 305,
+   "dangGoc": "帮",
+   "hanzi": "帮",
+   "pinyin": "bāng",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 306,
+   "dangGoc": "帮忙",
+   "hanzi": "帮忙",
+   "pinyin": "bāngmáng",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 307,
+   "dangGoc": "包",
+   "hanzi": "包",
+   "pinyin": "bāo",
+   "dangCap": "2",
+   "tuLoai": "动、名、量"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 308,
+   "dangGoc": "本子",
+   "hanzi": "本子",
+   "pinyin": "běnzi",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 309,
+   "dangGoc": "比",
+   "hanzi": "比",
+   "pinyin": "bǐ",
+   "dangCap": "2",
+   "tuLoai": "动、介"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 310,
+   "dangGoc": "笔",
+   "hanzi": "笔",
+   "pinyin": "bǐ",
+   "dangCap": "2（5）",
+   "tuLoai": "名、（量）"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 311,
+   "dangGoc": "别1",
+   "hanzi": "别",
+   "pinyin": "bié",
+   "dangCap": "2",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 312,
+   "dangGoc": "不错",
+   "hanzi": "不错",
+   "pinyin": "búcuò",
+   "dangCap": "2",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 313,
+   "dangGoc": "不好意思",
+   "hanzi": "不好意思",
+   "pinyin": "bù hǎoyìsi",
+   "dangCap": "2",
+   "tuLoai": ""
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 314,
+   "dangGoc": "长",
+   "hanzi": "长",
+   "pinyin": "cháng",
+   "dangCap": "2",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 315,
+   "dangGoc": "车站",
+   "hanzi": "车站",
+   "pinyin": "chēzhàn",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 316,
+   "dangGoc": "出",
+   "hanzi": "出",
+   "pinyin": "chū",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 317,
+   "dangGoc": "出国",
+   "hanzi": "出国",
+   "pinyin": "chūguó",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 318,
+   "dangGoc": "出来",
+   "hanzi": "出来",
+   "pinyin": "chūlái",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 319,
+   "dangGoc": "出门",
+   "hanzi": "出门",
+   "pinyin": "chūmén",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 320,
+   "dangGoc": "出去",
+   "hanzi": "出去",
+   "pinyin": "chūqù",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 321,
+   "dangGoc": "床",
+   "hanzi": "床",
+   "pinyin": "chuáng",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 322,
+   "dangGoc": "词",
+   "hanzi": "词",
+   "pinyin": "cí",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 323,
+   "dangGoc": "次",
+   "hanzi": "次",
+   "pinyin": "cì",
+   "dangCap": "2（7-9）",
+   "tuLoai": "量、（形）"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 324,
+   "dangGoc": "从",
+   "hanzi": "从",
+   "pinyin": "cóng",
+   "dangCap": "2（4）",
+   "tuLoai": "介、（副）"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 325,
+   "dangGoc": "从小",
+   "hanzi": "从小",
+   "pinyin": "cóngxiǎo",
+   "dangCap": "2",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 326,
+   "dangGoc": "错",
+   "hanzi": "错",
+   "pinyin": "cuò",
+   "dangCap": "2",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 327,
+   "dangGoc": "打1",
+   "hanzi": "打",
+   "pinyin": "dǎ",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 328,
+   "dangGoc": "打车",
+   "hanzi": "打车",
+   "pinyin": "dǎchē",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 329,
+   "dangGoc": "打开",
+   "hanzi": "打开",
+   "pinyin": "dǎkāi",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 330,
+   "dangGoc": "但",
+   "hanzi": "但",
+   "pinyin": "dàn",
+   "dangCap": "2（7-9）",
+   "tuLoai": "连、（副）"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 331,
+   "dangGoc": "但是",
+   "hanzi": "但是",
+   "pinyin": "dànshì",
+   "dangCap": "2",
+   "tuLoai": "连"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 332,
+   "dangGoc": "地",
+   "hanzi": "地",
+   "pinyin": "de",
+   "dangCap": "2",
+   "tuLoai": "助"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 333,
+   "dangGoc": "得",
+   "hanzi": "得",
+   "pinyin": "de",
+   "dangCap": "2",
+   "tuLoai": "助"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 334,
+   "dangGoc": "等1",
+   "hanzi": "等",
+   "pinyin": "děng",
+   "dangCap": "2（4）",
+   "tuLoai": "动、（介）"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 335,
+   "dangGoc": "地铁",
+   "hanzi": "地铁",
+   "pinyin": "dìtiě",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 336,
+   "dangGoc": "点2",
+   "hanzi": "点",
+   "pinyin": "diǎn",
+   "dangCap": "2（4）",
+   "tuLoai": "动、（名、量）"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 337,
+   "dangGoc": "懂",
+   "hanzi": "懂",
+   "pinyin": "dǒng",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 338,
+   "dangGoc": "动",
+   "hanzi": "动",
+   "pinyin": "dòng",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 339,
+   "dangGoc": "饭馆",
+   "hanzi": "饭馆",
+   "pinyin": "fànguǎn",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 340,
+   "dangGoc": "飞",
+   "hanzi": "飞",
+   "pinyin": "fēi",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 341,
+   "dangGoc": "高",
+   "hanzi": "高",
+   "pinyin": "gāo",
+   "dangCap": "2",
+   "tuLoai": "形、名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 342,
+   "dangGoc": "高中",
+   "hanzi": "高中",
+   "pinyin": "gāozhōng",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 343,
+   "dangGoc": "告诉",
+   "hanzi": "告诉",
+   "pinyin": "gàosu",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 344,
+   "dangGoc": "个子",
+   "hanzi": "个子",
+   "pinyin": "gèzi",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 345,
+   "dangGoc": "跟",
+   "hanzi": "跟",
+   "pinyin": "gēn",
+   "dangCap": "2（5）",
+   "tuLoai": "介、连、（名、动）"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 346,
+   "dangGoc": "公交车",
+   "hanzi": "公交车",
+   "pinyin": "gōngjiāochē",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 347,
+   "dangGoc": "过",
+   "hanzi": "过",
+   "pinyin": "guò",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 348,
+   "dangGoc": "过来",
+   "hanzi": "过来",
+   "pinyin": "guòlái",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 349,
+   "dangGoc": "过年",
+   "hanzi": "过年",
+   "pinyin": "guònián",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 350,
+   "dangGoc": "过去1",
+   "hanzi": "过去",
+   "pinyin": "guòqù",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 351,
+   "dangGoc": "过",
+   "hanzi": "过",
+   "pinyin": "guo",
+   "dangCap": "2",
+   "tuLoai": "助"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 352,
+   "dangGoc": "还是",
+   "hanzi": "还是",
+   "pinyin": "háishi",
+   "dangCap": "2",
+   "tuLoai": "副、连"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 353,
+   "dangGoc": "黑色",
+   "hanzi": "黑色",
+   "pinyin": "hēisè",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 354,
+   "dangGoc": "红茶",
+   "hanzi": "红茶",
+   "pinyin": "hóngchá",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 355,
+   "dangGoc": "红色",
+   "hanzi": "红色",
+   "pinyin": "hóngsè",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 356,
+   "dangGoc": "后面",
+   "hanzi": "后面",
+   "pinyin": "hòumiàn",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 357,
+   "dangGoc": "花1",
+   "hanzi": "花",
+   "pinyin": "huā",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 358,
+   "dangGoc": "花2",
+   "hanzi": "花",
+   "pinyin": "huā",
+   "dangCap": "2（6）",
+   "tuLoai": "名、（形）"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 359,
+   "dangGoc": "画",
+   "hanzi": "画",
+   "pinyin": "huà",
+   "dangCap": "2",
+   "tuLoai": "动、名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 360,
+   "dangGoc": "坏",
+   "hanzi": "坏",
+   "pinyin": "huài",
+   "dangCap": "2",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 361,
+   "dangGoc": "回来",
+   "hanzi": "回来",
+   "pinyin": "huílái",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 362,
+   "dangGoc": "回去",
+   "hanzi": "回去",
+   "pinyin": "huíqù",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 363,
+   "dangGoc": "机场",
+   "hanzi": "机场",
+   "pinyin": "jīchǎng",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 364,
+   "dangGoc": "机票",
+   "hanzi": "机票",
+   "pinyin": "jīpiào",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 365,
+   "dangGoc": "记得",
+   "hanzi": "记得",
+   "pinyin": "jìde",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 366,
+   "dangGoc": "间",
+   "hanzi": "间",
+   "pinyin": "jiān",
+   "dangCap": "2（4）",
+   "tuLoai": "量、（名）"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 367,
+   "dangGoc": "教",
+   "hanzi": "教",
+   "pinyin": "jiāo",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 368,
+   "dangGoc": "教室",
+   "hanzi": "教室",
+   "pinyin": "jiàoshì",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 369,
+   "dangGoc": "介绍",
+   "hanzi": "介绍",
+   "pinyin": "jièshào",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 370,
+   "dangGoc": "进",
+   "hanzi": "进",
+   "pinyin": "jìn",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 371,
+   "dangGoc": "进来",
+   "hanzi": "进来",
+   "pinyin": "jìnlái",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 372,
+   "dangGoc": "进去",
+   "hanzi": "进去",
+   "pinyin": "jìnqù",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 373,
+   "dangGoc": "近",
+   "hanzi": "近",
+   "pinyin": "jìn",
+   "dangCap": "2",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 374,
+   "dangGoc": "经常",
+   "hanzi": "经常",
+   "pinyin": "jīngcháng",
+   "dangCap": "2",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 375,
+   "dangGoc": "酒店",
+   "hanzi": "酒店",
+   "pinyin": "jiǔdiàn",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 376,
+   "dangGoc": "就",
+   "hanzi": "就",
+   "pinyin": "jiù",
+   "dangCap": "2（7-9）",
+   "tuLoai": "副、（介）"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 377,
+   "dangGoc": "咖啡",
+   "hanzi": "咖啡",
+   "pinyin": "kāfēi",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 378,
+   "dangGoc": "开始",
+   "hanzi": "开始",
+   "pinyin": "kāishǐ",
+   "dangCap": "2",
+   "tuLoai": "动、名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 379,
+   "dangGoc": "开学",
+   "hanzi": "开学",
+   "pinyin": "kāixué",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 380,
+   "dangGoc": "考",
+   "hanzi": "考",
+   "pinyin": "kǎo",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 381,
+   "dangGoc": "考试",
+   "hanzi": "考试",
+   "pinyin": "kǎoshì",
+   "dangCap": "2",
+   "tuLoai": "动、名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 382,
+   "dangGoc": "可能",
+   "hanzi": "可能",
+   "pinyin": "kěnéng",
+   "dangCap": "2",
+   "tuLoai": "形、名、动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 383,
+   "dangGoc": "裤子",
+   "hanzi": "裤子",
+   "pinyin": "kùzi",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 384,
+   "dangGoc": "快",
+   "hanzi": "快",
+   "pinyin": "kuài",
+   "dangCap": "2",
+   "tuLoai": "形、副"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 385,
+   "dangGoc": "快乐",
+   "hanzi": "快乐",
+   "pinyin": "kuàilè",
+   "dangCap": "2",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 386,
+   "dangGoc": "快要",
+   "hanzi": "快要",
+   "pinyin": "kuàiyào",
+   "dangCap": "2",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 387,
+   "dangGoc": "篮球",
+   "hanzi": "篮球",
+   "pinyin": "lánqiú",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 388,
+   "dangGoc": "累",
+   "hanzi": "累",
+   "pinyin": "lèi",
+   "dangCap": "2",
+   "tuLoai": "形、动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 389,
+   "dangGoc": "离",
+   "hanzi": "离",
+   "pinyin": "lí",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 390,
+   "dangGoc": "里面",
+   "hanzi": "里面",
+   "pinyin": "lǐmiàn",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 391,
+   "dangGoc": "楼",
+   "hanzi": "楼",
+   "pinyin": "lóu",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 392,
+   "dangGoc": "路",
+   "hanzi": "路",
+   "pinyin": "lù",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 393,
+   "dangGoc": "路上",
+   "hanzi": "路上",
+   "pinyin": "lùshang",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 394,
+   "dangGoc": "旅游",
+   "hanzi": "旅游",
+   "pinyin": "lǚyóu",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 395,
+   "dangGoc": "绿茶",
+   "hanzi": "绿茶",
+   "pinyin": "lǜchá",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 396,
+   "dangGoc": "绿色",
+   "hanzi": "绿色",
+   "pinyin": "lǜsè",
+   "dangCap": "2（4）",
+   "tuLoai": "名、（形）"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 397,
+   "dangGoc": "慢",
+   "hanzi": "慢",
+   "pinyin": "màn",
+   "dangCap": "2",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 398,
+   "dangGoc": "没意思",
+   "hanzi": "没意思",
+   "pinyin": "méi yìsi",
+   "dangCap": "2",
+   "tuLoai": ""
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 399,
+   "dangGoc": "每",
+   "hanzi": "每",
+   "pinyin": "měi",
+   "dangCap": "2（4）",
+   "tuLoai": "代、（副）"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 400,
+   "dangGoc": "门",
+   "hanzi": "门",
+   "pinyin": "mén",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 401,
+   "dangGoc": "门口",
+   "hanzi": "门口",
+   "pinyin": "ménkǒu",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 402,
+   "dangGoc": "门票",
+   "hanzi": "门票",
+   "pinyin": "ménpiào",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 403,
+   "dangGoc": "面1",
+   "hanzi": "面",
+   "pinyin": "miàn",
+   "dangCap": "2（5）",
+   "tuLoai": "后缀、（动、名、量）"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 404,
+   "dangGoc": "名",
+   "hanzi": "名",
+   "pinyin": "míng",
+   "dangCap": "2",
+   "tuLoai": "名、量"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 405,
+   "dangGoc": "拿",
+   "hanzi": "拿",
+   "pinyin": "ná",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 406,
+   "dangGoc": "那么",
+   "hanzi": "那么",
+   "pinyin": "nàme",
+   "dangCap": "2",
+   "tuLoai": "代、连"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 407,
+   "dangGoc": "那样",
+   "hanzi": "那样",
+   "pinyin": "nàyàng",
+   "dangCap": "2",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 408,
+   "dangGoc": "奶茶",
+   "hanzi": "奶茶",
+   "pinyin": "nǎichá",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 409,
+   "dangGoc": "奶奶",
+   "hanzi": "奶奶",
+   "pinyin": "nǎinai",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 410,
+   "dangGoc": "男孩儿",
+   "hanzi": "男孩儿",
+   "pinyin": "nánháir",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 411,
+   "dangGoc": "鸟",
+   "hanzi": "鸟",
+   "pinyin": "niǎo",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 412,
+   "dangGoc": "女孩儿",
+   "hanzi": "女孩儿",
+   "pinyin": "nǚháir",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 413,
+   "dangGoc": "旁边",
+   "hanzi": "旁边",
+   "pinyin": "pángbiān",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 414,
+   "dangGoc": "跑",
+   "hanzi": "跑",
+   "pinyin": "pǎo",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 415,
+   "dangGoc": "跑步",
+   "hanzi": "跑步",
+   "pinyin": "pǎobù",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 416,
+   "dangGoc": "票",
+   "hanzi": "票",
+   "pinyin": "piào",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 417,
+   "dangGoc": "妻子",
+   "hanzi": "妻子",
+   "pinyin": "qīzi",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 418,
+   "dangGoc": "起来",
+   "hanzi": "起来",
+   "pinyin": "qǐlái",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 419,
+   "dangGoc": "前面",
+   "hanzi": "前面",
+   "pinyin": "qiánmiàn",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 420,
+   "dangGoc": "晴",
+   "hanzi": "晴",
+   "pinyin": "qíng",
+   "dangCap": "2",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 421,
+   "dangGoc": "球",
+   "hanzi": "球",
+   "pinyin": "qiú",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 422,
+   "dangGoc": "让",
+   "hanzi": "让",
+   "pinyin": "ràng",
+   "dangCap": "2（4）",
+   "tuLoai": "动、（介）"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 423,
+   "dangGoc": "肉",
+   "hanzi": "肉",
+   "pinyin": "ròu",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 424,
+   "dangGoc": "商场",
+   "hanzi": "商场",
+   "pinyin": "shāngchǎng",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 425,
+   "dangGoc": "上来",
+   "hanzi": "上来",
+   "pinyin": "shànglái",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 426,
+   "dangGoc": "上面",
+   "hanzi": "上面",
+   "pinyin": "shàngmiàn",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 427,
+   "dangGoc": "上去",
+   "hanzi": "上去",
+   "pinyin": "shàngqù",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 428,
+   "dangGoc": "上网",
+   "hanzi": "上网",
+   "pinyin": "shàngwǎng",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 429,
+   "dangGoc": "身体",
+   "hanzi": "身体",
+   "pinyin": "shēntǐ",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 430,
+   "dangGoc": "生日",
+   "hanzi": "生日",
+   "pinyin": "shēngrì",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 431,
+   "dangGoc": "时",
+   "hanzi": "时",
+   "pinyin": "shí",
+   "dangCap": "2（6）",
+   "tuLoai": "名、（量）"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 432,
+   "dangGoc": "事情",
+   "hanzi": "事情",
+   "pinyin": "shìqing",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 433,
+   "dangGoc": "手",
+   "hanzi": "手",
+   "pinyin": "shǒu",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 434,
+   "dangGoc": "手表",
+   "hanzi": "手表",
+   "pinyin": "shǒubiǎo",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 435,
+   "dangGoc": "书包",
+   "hanzi": "书包",
+   "pinyin": "shūbāo",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 436,
+   "dangGoc": "舒服",
+   "hanzi": "舒服",
+   "pinyin": "shūfu",
+   "dangCap": "2",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 437,
+   "dangGoc": "送",
+   "hanzi": "送",
+   "pinyin": "sòng",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 438,
+   "dangGoc": "虽然",
+   "hanzi": "虽然",
+   "pinyin": "suīrán",
+   "dangCap": "2",
+   "tuLoai": "连"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 439,
+   "dangGoc": "所以",
+   "hanzi": "所以",
+   "pinyin": "suǒyǐ",
+   "dangCap": "2",
+   "tuLoai": "连"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 440,
+   "dangGoc": "疼",
+   "hanzi": "疼",
+   "pinyin": "téng",
+   "dangCap": "2（6）",
+   "tuLoai": "形、（动）"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 441,
+   "dangGoc": "踢",
+   "hanzi": "踢",
+   "pinyin": "tī",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 442,
+   "dangGoc": "题",
+   "hanzi": "题",
+   "pinyin": "tí",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 443,
+   "dangGoc": "条",
+   "hanzi": "条",
+   "pinyin": "tiáo",
+   "dangCap": "2（5）",
+   "tuLoai": "量、（名）"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 444,
+   "dangGoc": "跳舞",
+   "hanzi": "跳舞",
+   "pinyin": "tiàowǔ",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 445,
+   "dangGoc": "头",
+   "hanzi": "头",
+   "pinyin": "tóu",
+   "dangCap": "2（3）（5）",
+   "tuLoai": "名、（量）、（形）"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 446,
+   "dangGoc": "外国",
+   "hanzi": "外国",
+   "pinyin": "wàiguó",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 447,
+   "dangGoc": "外面",
+   "hanzi": "外面",
+   "pinyin": "wàimiàn",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 448,
+   "dangGoc": "完",
+   "hanzi": "完",
+   "pinyin": "wán",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 449,
+   "dangGoc": "万",
+   "hanzi": "万",
+   "pinyin": "wàn",
+   "dangCap": "2",
+   "tuLoai": "数"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 450,
+   "dangGoc": "网上",
+   "hanzi": "网上",
+   "pinyin": "wǎngshang",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 451,
+   "dangGoc": "往",
+   "hanzi": "往",
+   "pinyin": "wǎng",
+   "dangCap": "2",
+   "tuLoai": "动、介"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 452,
+   "dangGoc": "忘",
+   "hanzi": "忘",
+   "pinyin": "wàng",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 453,
+   "dangGoc": "为什么",
+   "hanzi": "为什么",
+   "pinyin": "wèi shénme",
+   "dangCap": "2",
+   "tuLoai": ""
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 454,
+   "dangGoc": "位",
+   "hanzi": "位",
+   "pinyin": "wèi",
+   "dangCap": "2",
+   "tuLoai": "量"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 455,
+   "dangGoc": "希望",
+   "hanzi": "希望",
+   "pinyin": "xīwàng",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 456,
+   "dangGoc": "洗",
+   "hanzi": "洗",
+   "pinyin": "xǐ",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 457,
+   "dangGoc": "洗手间",
+   "hanzi": "洗手间",
+   "pinyin": "xǐshǒujiān",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 458,
+   "dangGoc": "下来",
+   "hanzi": "下来",
+   "pinyin": "xiàlái",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 459,
+   "dangGoc": "下面",
+   "hanzi": "下面",
+   "pinyin": "xiàmiàn",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 460,
+   "dangGoc": "下去",
+   "hanzi": "下去",
+   "pinyin": "xiàqù",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 461,
+   "dangGoc": "小孩儿",
+   "hanzi": "小孩儿",
+   "pinyin": "xiǎoháir",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 462,
+   "dangGoc": "小时候",
+   "hanzi": "小时候",
+   "pinyin": "xiǎoshíhou",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 463,
+   "dangGoc": "笑",
+   "hanzi": "笑",
+   "pinyin": "xiào",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 464,
+   "dangGoc": "姓",
+   "hanzi": "姓",
+   "pinyin": "xìng",
+   "dangCap": "2",
+   "tuLoai": "名、动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 465,
+   "dangGoc": "姓名",
+   "hanzi": "姓名",
+   "pinyin": "xìngmíng",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 466,
+   "dangGoc": "颜色",
+   "hanzi": "颜色",
+   "pinyin": "yánsè",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 467,
+   "dangGoc": "眼睛",
+   "hanzi": "眼睛",
+   "pinyin": "yǎnjing",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 468,
+   "dangGoc": "药",
+   "hanzi": "药",
+   "pinyin": "yào",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 469,
+   "dangGoc": "药店",
+   "hanzi": "药店",
+   "pinyin": "yàodiàn",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 470,
+   "dangGoc": "爷爷",
+   "hanzi": "爷爷",
+   "pinyin": "yéye",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 471,
+   "dangGoc": "一会儿",
+   "hanzi": "一会儿",
+   "pinyin": "yíhuìr",
+   "dangCap": "2（3）",
+   "tuLoai": "数量、（副）"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 472,
+   "dangGoc": "一起",
+   "hanzi": "一起",
+   "pinyin": "yìqǐ",
+   "dangCap": "2",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 473,
+   "dangGoc": "已经",
+   "hanzi": "已经",
+   "pinyin": "yǐjīng",
+   "dangCap": "2",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 474,
+   "dangGoc": "意思",
+   "hanzi": "意思",
+   "pinyin": "yìsi",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 475,
+   "dangGoc": "因为",
+   "hanzi": "因为",
+   "pinyin": "yīnwèi",
+   "dangCap": "2",
+   "tuLoai": "介、连"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 476,
+   "dangGoc": "阴",
+   "hanzi": "阴",
+   "pinyin": "yīn",
+   "dangCap": "2",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 477,
+   "dangGoc": "游",
+   "hanzi": "游",
+   "pinyin": "yóu",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 478,
+   "dangGoc": "游泳",
+   "hanzi": "游泳",
+   "pinyin": "yóuyǒng",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 479,
+   "dangGoc": "有时",
+   "hanzi": "有时",
+   "pinyin": "yǒushí",
+   "dangCap": "2",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 480,
+   "dangGoc": "有意思",
+   "hanzi": "有意思",
+   "pinyin": "yǒu yìsi",
+   "dangCap": "2",
+   "tuLoai": ""
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 481,
+   "dangGoc": "右",
+   "hanzi": "右",
+   "pinyin": "yòu",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 482,
+   "dangGoc": "右边",
+   "hanzi": "右边",
+   "pinyin": "yòubian",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 483,
+   "dangGoc": "鱼",
+   "hanzi": "鱼",
+   "pinyin": "yú",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 484,
+   "dangGoc": "远",
+   "hanzi": "远",
+   "pinyin": "yuǎn",
+   "dangCap": "2",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 485,
+   "dangGoc": "运动",
+   "hanzi": "运动",
+   "pinyin": "yùndòng",
+   "dangCap": "2",
+   "tuLoai": "动、名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 486,
+   "dangGoc": "站1",
+   "hanzi": "站",
+   "pinyin": "zhàn",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 487,
+   "dangGoc": "丈夫",
+   "hanzi": "丈夫",
+   "pinyin": "zhàngfu",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 488,
+   "dangGoc": "这么",
+   "hanzi": "这么",
+   "pinyin": "zhème",
+   "dangCap": "2",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 489,
+   "dangGoc": "这样",
+   "hanzi": "这样",
+   "pinyin": "zhèyàng",
+   "dangCap": "2",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 490,
+   "dangGoc": "着",
+   "hanzi": "着",
+   "pinyin": "zhe",
+   "dangCap": "2",
+   "tuLoai": "助"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 491,
+   "dangGoc": "正",
+   "hanzi": "正",
+   "pinyin": "zhèng",
+   "dangCap": "2（5）",
+   "tuLoai": "副、（形）"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 492,
+   "dangGoc": "周",
+   "hanzi": "周",
+   "pinyin": "zhōu",
+   "dangCap": "2（6）",
+   "tuLoai": "名、（量）"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 493,
+   "dangGoc": "准备",
+   "hanzi": "准备",
+   "pinyin": "zhǔnbèi",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 494,
+   "dangGoc": "自己",
+   "hanzi": "自己",
+   "pinyin": "zìjǐ",
+   "dangCap": "2",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 495,
+   "dangGoc": "走",
+   "hanzi": "走",
+   "pinyin": "zǒu",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 496,
+   "dangGoc": "走路",
+   "hanzi": "走路",
+   "pinyin": "zǒulù",
+   "dangCap": "2",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 497,
+   "dangGoc": "足球",
+   "hanzi": "足球",
+   "pinyin": "zúqiú",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 498,
+   "dangGoc": "最",
+   "hanzi": "最",
+   "pinyin": "zuì",
+   "dangCap": "2",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 499,
+   "dangGoc": "左",
+   "hanzi": "左",
+   "pinyin": "zuǒ",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 2,
+   "soThuTu": 500,
+   "dangGoc": "左边",
+   "hanzi": "左边",
+   "pinyin": "zuǒbian",
+   "dangCap": "2",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 501,
+   "dangGoc": "阿姨",
+   "hanzi": "阿姨",
+   "pinyin": "āyí",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 502,
+   "dangGoc": "矮",
+   "hanzi": "矮",
+   "pinyin": "ǎi",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 503,
+   "dangGoc": "爱人",
+   "hanzi": "爱人",
+   "pinyin": "àiren",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 504,
+   "dangGoc": "安静",
+   "hanzi": "安静",
+   "pinyin": "ānjìng",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 505,
+   "dangGoc": "安全",
+   "hanzi": "安全",
+   "pinyin": "ānquán",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 506,
+   "dangGoc": "把",
+   "hanzi": "把",
+   "pinyin": "bǎ",
+   "dangCap": "3",
+   "tuLoai": "量、介"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 507,
+   "dangGoc": "班级",
+   "hanzi": "班级",
+   "pinyin": "bānjí",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 508,
+   "dangGoc": "搬",
+   "hanzi": "搬",
+   "pinyin": "bān",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 509,
+   "dangGoc": "搬家",
+   "hanzi": "搬家",
+   "pinyin": "bānjiā",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 510,
+   "dangGoc": "办",
+   "hanzi": "办",
+   "pinyin": "bàn",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 511,
+   "dangGoc": "办法",
+   "hanzi": "办法",
+   "pinyin": "bànfǎ",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 512,
+   "dangGoc": "办公室",
+   "hanzi": "办公室",
+   "pinyin": "bàngōngshì",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 513,
+   "dangGoc": "半天",
+   "hanzi": "半天",
+   "pinyin": "bàntiān",
+   "dangCap": "3",
+   "tuLoai": "数量"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 514,
+   "dangGoc": "帮助",
+   "hanzi": "帮助",
+   "pinyin": "bāngzhù",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 515,
+   "dangGoc": "饱",
+   "hanzi": "饱",
+   "pinyin": "bǎo",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 516,
+   "dangGoc": "报纸",
+   "hanzi": "报纸",
+   "pinyin": "bàozhǐ",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 517,
+   "dangGoc": "北",
+   "hanzi": "北",
+   "pinyin": "běi",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 518,
+   "dangGoc": "北方",
+   "hanzi": "北方",
+   "pinyin": "běifāng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 519,
+   "dangGoc": "被",
+   "hanzi": "被",
+   "pinyin": "bèi",
+   "dangCap": "3",
+   "tuLoai": "介"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 520,
+   "dangGoc": "比较",
+   "hanzi": "比较",
+   "pinyin": "bǐjiào",
+   "dangCap": "3",
+   "tuLoai": "动、介、副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 521,
+   "dangGoc": "比如",
+   "hanzi": "比如",
+   "pinyin": "bǐrú",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 522,
+   "dangGoc": "比赛",
+   "hanzi": "比赛",
+   "pinyin": "bǐsài",
+   "dangCap": "3",
+   "tuLoai": "动、名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 523,
+   "dangGoc": "笔记",
+   "hanzi": "笔记",
+   "pinyin": "bǐjì",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 524,
+   "dangGoc": "笔记本",
+   "hanzi": "笔记本",
+   "pinyin": "bǐjìběn",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 525,
+   "dangGoc": "必须",
+   "hanzi": "必须",
+   "pinyin": "bìxū",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 526,
+   "dangGoc": "变",
+   "hanzi": "变",
+   "pinyin": "biàn",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 527,
+   "dangGoc": "变成",
+   "hanzi": "变成",
+   "pinyin": "biànchéng",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 528,
+   "dangGoc": "变化",
+   "hanzi": "变化",
+   "pinyin": "biànhuà",
+   "dangCap": "3",
+   "tuLoai": "动、名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 529,
+   "dangGoc": "遍",
+   "hanzi": "遍",
+   "pinyin": "biàn",
+   "dangCap": "3",
+   "tuLoai": "量"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 530,
+   "dangGoc": "表演",
+   "hanzi": "表演",
+   "pinyin": "biǎoyǎn",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 531,
+   "dangGoc": "别的",
+   "hanzi": "别的",
+   "pinyin": "biéde",
+   "dangCap": "3",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 532,
+   "dangGoc": "别人",
+   "hanzi": "别人",
+   "pinyin": "biérén",
+   "dangCap": "3",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 533,
+   "dangGoc": "宾馆",
+   "hanzi": "宾馆",
+   "pinyin": "bīnguǎn",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 534,
+   "dangGoc": "冰",
+   "hanzi": "冰",
+   "pinyin": "bīng",
+   "dangCap": "3（5）",
+   "tuLoai": "名、（动）"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 535,
+   "dangGoc": "冰激凌",
+   "hanzi": "冰激凌",
+   "pinyin": "bīngjīlíng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 536,
+   "dangGoc": "冰箱",
+   "hanzi": "冰箱",
+   "pinyin": "bīngxiāng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 537,
+   "dangGoc": "病人",
+   "hanzi": "病人",
+   "pinyin": "bìngrén",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 538,
+   "dangGoc": "不但",
+   "hanzi": "不但",
+   "pinyin": "búdàn",
+   "dangCap": "3",
+   "tuLoai": "连"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 539,
+   "dangGoc": "不见",
+   "hanzi": "不见",
+   "pinyin": "bújiàn",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 540,
+   "dangGoc": "不久",
+   "hanzi": "不久",
+   "pinyin": "bùjiǔ",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 541,
+   "dangGoc": "不同",
+   "hanzi": "不同",
+   "pinyin": "bù tóng",
+   "dangCap": "3",
+   "tuLoai": ""
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 542,
+   "dangGoc": "不行",
+   "hanzi": "不行",
+   "pinyin": "bùxíng",
+   "dangCap": "3",
+   "tuLoai": "动、形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 543,
+   "dangGoc": "不用",
+   "hanzi": "不用",
+   "pinyin": "búyòng",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 544,
+   "dangGoc": "才1",
+   "hanzi": "才",
+   "pinyin": "cái",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 545,
+   "dangGoc": "菜单",
+   "hanzi": "菜单",
+   "pinyin": "càidān",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 546,
+   "dangGoc": "参加",
+   "hanzi": "参加",
+   "pinyin": "cānjiā",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 547,
+   "dangGoc": "草",
+   "hanzi": "草",
+   "pinyin": "cǎo",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 548,
+   "dangGoc": "草地",
+   "hanzi": "草地",
+   "pinyin": "cǎodì",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 549,
+   "dangGoc": "层",
+   "hanzi": "层",
+   "pinyin": "céng",
+   "dangCap": "3",
+   "tuLoai": "量"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 550,
+   "dangGoc": "查",
+   "hanzi": "查",
+   "pinyin": "chá",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 551,
+   "dangGoc": "差",
+   "hanzi": "差",
+   "pinyin": "chà",
+   "dangCap": "3",
+   "tuLoai": "形、动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 552,
+   "dangGoc": "差不多",
+   "hanzi": "差不多",
+   "pinyin": "chàbuduō",
+   "dangCap": "3",
+   "tuLoai": "形、副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 553,
+   "dangGoc": "尝",
+   "hanzi": "尝",
+   "pinyin": "cháng",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 554,
+   "dangGoc": "常",
+   "hanzi": "常",
+   "pinyin": "cháng",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 555,
+   "dangGoc": "常常",
+   "hanzi": "常常",
+   "pinyin": "chángcháng",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 556,
+   "dangGoc": "常见",
+   "hanzi": "常见",
+   "pinyin": "cháng jiàn",
+   "dangCap": "3",
+   "tuLoai": ""
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 557,
+   "dangGoc": "常用",
+   "hanzi": "常用",
+   "pinyin": "cháng yòng",
+   "dangCap": "3",
+   "tuLoai": ""
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 558,
+   "dangGoc": "衬衫",
+   "hanzi": "衬衫",
+   "pinyin": "chènshān",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 559,
+   "dangGoc": "成绩",
+   "hanzi": "成绩",
+   "pinyin": "chéngjì",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 560,
+   "dangGoc": "城市",
+   "hanzi": "城市",
+   "pinyin": "chéngshì",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 561,
+   "dangGoc": "迟到",
+   "hanzi": "迟到",
+   "pinyin": "chídào",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 562,
+   "dangGoc": "出发",
+   "hanzi": "出发",
+   "pinyin": "chūfā",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 563,
+   "dangGoc": "出生",
+   "hanzi": "出生",
+   "pinyin": "chūshēng",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 564,
+   "dangGoc": "出院",
+   "hanzi": "出院",
+   "pinyin": "chūyuàn",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 565,
+   "dangGoc": "初中",
+   "hanzi": "初中",
+   "pinyin": "chūzhōng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 566,
+   "dangGoc": "除了",
+   "hanzi": "除了",
+   "pinyin": "chúle",
+   "dangCap": "3",
+   "tuLoai": "介"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 567,
+   "dangGoc": "船",
+   "hanzi": "船",
+   "pinyin": "chuán",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 568,
+   "dangGoc": "春天",
+   "hanzi": "春天",
+   "pinyin": "chūntiān",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 569,
+   "dangGoc": "词典",
+   "hanzi": "词典",
+   "pinyin": "cídiǎn",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 570,
+   "dangGoc": "聪明",
+   "hanzi": "聪明",
+   "pinyin": "cōngmíng",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 571,
+   "dangGoc": "打扫",
+   "hanzi": "打扫",
+   "pinyin": "dǎsǎo",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 572,
+   "dangGoc": "打算",
+   "hanzi": "打算",
+   "pinyin": "dǎsuàn",
+   "dangCap": "3",
+   "tuLoai": "动、名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 573,
+   "dangGoc": "大概",
+   "hanzi": "大概",
+   "pinyin": "dàgài",
+   "dangCap": "3（6）",
+   "tuLoai": "形、副、（名）"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 574,
+   "dangGoc": "大人",
+   "hanzi": "大人",
+   "pinyin": "dàren",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 575,
+   "dangGoc": "大小",
+   "hanzi": "大小",
+   "pinyin": "dàxiǎo",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 576,
+   "dangGoc": "大熊猫",
+   "hanzi": "大熊猫",
+   "pinyin": "dàxióngmāo",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 577,
+   "dangGoc": "大衣",
+   "hanzi": "大衣",
+   "pinyin": "dàyī",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 578,
+   "dangGoc": "带",
+   "hanzi": "带",
+   "pinyin": "dài",
+   "dangCap": "3（5）",
+   "tuLoai": "动、（名）"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 579,
+   "dangGoc": "担心",
+   "hanzi": "担心",
+   "pinyin": "dānxīn",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 580,
+   "dangGoc": "蛋糕",
+   "hanzi": "蛋糕",
+   "pinyin": "dàngāo",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 581,
+   "dangGoc": "当然",
+   "hanzi": "当然",
+   "pinyin": "dāngrán",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 582,
+   "dangGoc": "到处",
+   "hanzi": "到处",
+   "pinyin": "dàochù",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 583,
+   "dangGoc": "得",
+   "hanzi": "得",
+   "pinyin": "dé",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 584,
+   "dangGoc": "得到",
+   "hanzi": "得到",
+   "pinyin": "dédào",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 585,
+   "dangGoc": "得分",
+   "hanzi": "得分",
+   "pinyin": "défēn",
+   "dangCap": "3",
+   "tuLoai": "动、名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 586,
+   "dangGoc": "的话",
+   "hanzi": "的话",
+   "pinyin": "dehuà",
+   "dangCap": "3",
+   "tuLoai": "助"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 587,
+   "dangGoc": "得",
+   "hanzi": "得",
+   "pinyin": "děi",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 588,
+   "dangGoc": "灯",
+   "hanzi": "灯",
+   "pinyin": "dēng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 589,
+   "dangGoc": "地",
+   "hanzi": "地",
+   "pinyin": "dì",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 590,
+   "dangGoc": "地点",
+   "hanzi": "地点",
+   "pinyin": "dìdiǎn",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 591,
+   "dangGoc": "地方",
+   "hanzi": "地方",
+   "pinyin": "dìfang",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 592,
+   "dangGoc": "地图",
+   "hanzi": "地图",
+   "pinyin": "dìtú",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 593,
+   "dangGoc": "电",
+   "hanzi": "电",
+   "pinyin": "diàn",
+   "dangCap": "3（5）",
+   "tuLoai": "名、（动）"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 594,
+   "dangGoc": "电梯",
+   "hanzi": "电梯",
+   "pinyin": "diàntī",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 595,
+   "dangGoc": "电子书",
+   "hanzi": "电子书",
+   "pinyin": "diànzǐshū",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 596,
+   "dangGoc": "丢",
+   "hanzi": "丢",
+   "pinyin": "diū",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 597,
+   "dangGoc": "东",
+   "hanzi": "东",
+   "pinyin": "dōng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 598,
+   "dangGoc": "东北",
+   "hanzi": "东北",
+   "pinyin": "dōngběi",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 599,
+   "dangGoc": "东方",
+   "hanzi": "东方",
+   "pinyin": "dōngfāng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 600,
+   "dangGoc": "东南",
+   "hanzi": "东南",
+   "pinyin": "dōngnán",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 601,
+   "dangGoc": "冬天",
+   "hanzi": "冬天",
+   "pinyin": "dōngtiān",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 602,
+   "dangGoc": "懂得",
+   "hanzi": "懂得",
+   "pinyin": "dǒngde",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 603,
+   "dangGoc": "动物",
+   "hanzi": "动物",
+   "pinyin": "dòngwù",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 604,
+   "dangGoc": "动物园",
+   "hanzi": "动物园",
+   "pinyin": "dòngwùyuán",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 605,
+   "dangGoc": "短",
+   "hanzi": "短",
+   "pinyin": "duǎn",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 606,
+   "dangGoc": "短裤",
+   "hanzi": "短裤",
+   "pinyin": "duǎnkù",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 607,
+   "dangGoc": "段",
+   "hanzi": "段",
+   "pinyin": "duàn",
+   "dangCap": "3",
+   "tuLoai": "量"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 608,
+   "dangGoc": "锻炼",
+   "hanzi": "锻炼",
+   "pinyin": "duànliàn",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 609,
+   "dangGoc": "对话",
+   "hanzi": "对话",
+   "pinyin": "duìhuà",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 610,
+   "dangGoc": "饿",
+   "hanzi": "饿",
+   "pinyin": "è",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 611,
+   "dangGoc": "而且",
+   "hanzi": "而且",
+   "pinyin": "érqiě",
+   "dangCap": "3",
+   "tuLoai": "连"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 612,
+   "dangGoc": "耳朵",
+   "hanzi": "耳朵",
+   "pinyin": "ěrduo",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 613,
+   "dangGoc": "耳机",
+   "hanzi": "耳机",
+   "pinyin": "ěrjī",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 614,
+   "dangGoc": "发",
+   "hanzi": "发",
+   "pinyin": "fā",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 615,
+   "dangGoc": "发烧",
+   "hanzi": "发烧",
+   "pinyin": "fāshāo",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 616,
+   "dangGoc": "发生",
+   "hanzi": "发生",
+   "pinyin": "fāshēng",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 617,
+   "dangGoc": "发现",
+   "hanzi": "发现",
+   "pinyin": "fāxiàn",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 618,
+   "dangGoc": "发展",
+   "hanzi": "发展",
+   "pinyin": "fāzhǎn",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 619,
+   "dangGoc": "方便",
+   "hanzi": "方便",
+   "pinyin": "fāngbiàn",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 620,
+   "dangGoc": "方便面",
+   "hanzi": "方便面",
+   "pinyin": "fāngbiànmiàn",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 621,
+   "dangGoc": "方法",
+   "hanzi": "方法",
+   "pinyin": "fāngfǎ",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 622,
+   "dangGoc": "方向",
+   "hanzi": "方向",
+   "pinyin": "fāngxiàng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 623,
+   "dangGoc": "房子",
+   "hanzi": "房子",
+   "pinyin": "fángzi",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 624,
+   "dangGoc": "放",
+   "hanzi": "放",
+   "pinyin": "fàng",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 625,
+   "dangGoc": "放假",
+   "hanzi": "放假",
+   "pinyin": "fàngjià",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 626,
+   "dangGoc": "放心",
+   "hanzi": "放心",
+   "pinyin": "fàngxīn",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 627,
+   "dangGoc": "放学",
+   "hanzi": "放学",
+   "pinyin": "fàngxué",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 628,
+   "dangGoc": "分开",
+   "hanzi": "分开",
+   "pinyin": "fēnkāi",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 629,
+   "dangGoc": "风",
+   "hanzi": "风",
+   "pinyin": "fēng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 630,
+   "dangGoc": "封",
+   "hanzi": "封",
+   "pinyin": "fēng",
+   "dangCap": "3（6）",
+   "tuLoai": "量、（动）"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 631,
+   "dangGoc": "夫妻",
+   "hanzi": "夫妻",
+   "pinyin": "fūqī",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 632,
+   "dangGoc": "服务",
+   "hanzi": "服务",
+   "pinyin": "fúwù",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 633,
+   "dangGoc": "附近",
+   "hanzi": "附近",
+   "pinyin": "fùjìn",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 634,
+   "dangGoc": "复习",
+   "hanzi": "复习",
+   "pinyin": "fùxí",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 635,
+   "dangGoc": "该1",
+   "hanzi": "该",
+   "pinyin": "gāi",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 636,
+   "dangGoc": "干净",
+   "hanzi": "干净",
+   "pinyin": "gānjìng",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 637,
+   "dangGoc": "感到",
+   "hanzi": "感到",
+   "pinyin": "gǎndào",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 638,
+   "dangGoc": "感冒",
+   "hanzi": "感冒",
+   "pinyin": "gǎnmào",
+   "dangCap": "3",
+   "tuLoai": "名、动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 639,
+   "dangGoc": "感兴趣",
+   "hanzi": "感兴趣",
+   "pinyin": "gǎn xìngqù",
+   "dangCap": "3",
+   "tuLoai": ""
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 640,
+   "dangGoc": "干",
+   "hanzi": "干",
+   "pinyin": "gàn",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 641,
+   "dangGoc": "刚",
+   "hanzi": "刚",
+   "pinyin": "gāng",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 642,
+   "dangGoc": "刚才",
+   "hanzi": "刚才",
+   "pinyin": "gāngcái",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 643,
+   "dangGoc": "刚刚",
+   "hanzi": "刚刚",
+   "pinyin": "gānggāng",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 644,
+   "dangGoc": "高铁",
+   "hanzi": "高铁",
+   "pinyin": "gāotiě",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 645,
+   "dangGoc": "根据",
+   "hanzi": "根据",
+   "pinyin": "gēnjù",
+   "dangCap": "3（5）",
+   "tuLoai": "动、介、（名）"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 646,
+   "dangGoc": "更",
+   "hanzi": "更",
+   "pinyin": "gèng",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 647,
+   "dangGoc": "工作日",
+   "hanzi": "工作日",
+   "pinyin": "gōngzuòrì",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 648,
+   "dangGoc": "公斤",
+   "hanzi": "公斤",
+   "pinyin": "gōngjīn",
+   "dangCap": "3",
+   "tuLoai": "量"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 649,
+   "dangGoc": "公园",
+   "hanzi": "公园",
+   "pinyin": "gōngyuán",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 650,
+   "dangGoc": "故事",
+   "hanzi": "故事",
+   "pinyin": "gùshi",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 651,
+   "dangGoc": "刮",
+   "hanzi": "刮",
+   "pinyin": "guā",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 652,
+   "dangGoc": "关",
+   "hanzi": "关",
+   "pinyin": "guān",
+   "dangCap": "3（5）",
+   "tuLoai": "动、（名）"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 653,
+   "dangGoc": "关机",
+   "hanzi": "关机",
+   "pinyin": "guānjī",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 654,
+   "dangGoc": "关系",
+   "hanzi": "关系",
+   "pinyin": "guānxì",
+   "dangCap": "3（4）",
+   "tuLoai": "名、（动）"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 655,
+   "dangGoc": "关心",
+   "hanzi": "关心",
+   "pinyin": "guānxīn",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 656,
+   "dangGoc": "关于",
+   "hanzi": "关于",
+   "pinyin": "guānyú",
+   "dangCap": "3",
+   "tuLoai": "介"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 657,
+   "dangGoc": "关注",
+   "hanzi": "关注",
+   "pinyin": "guānzhù",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 658,
+   "dangGoc": "国家",
+   "hanzi": "国家",
+   "pinyin": "guójiā",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 659,
+   "dangGoc": "过节",
+   "hanzi": "过节",
+   "pinyin": "guòjié",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 660,
+   "dangGoc": "过去2",
+   "hanzi": "过去",
+   "pinyin": "guòqù",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 661,
+   "dangGoc": "海",
+   "hanzi": "海",
+   "pinyin": "hǎi",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 662,
+   "dangGoc": "害怕",
+   "hanzi": "害怕",
+   "pinyin": "hàipà",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 663,
+   "dangGoc": "好多",
+   "hanzi": "好多",
+   "pinyin": "hǎoduō",
+   "dangCap": "3",
+   "tuLoai": "数"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 664,
+   "dangGoc": "好久",
+   "hanzi": "好久",
+   "pinyin": "hǎojiǔ",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 665,
+   "dangGoc": "好像",
+   "hanzi": "好像",
+   "pinyin": "hǎoxiàng",
+   "dangCap": "3",
+   "tuLoai": "动、副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 666,
+   "dangGoc": "号码",
+   "hanzi": "号码",
+   "pinyin": "hàomǎ",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 667,
+   "dangGoc": "合适",
+   "hanzi": "合适",
+   "pinyin": "héshì",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 668,
+   "dangGoc": "河",
+   "hanzi": "河",
+   "pinyin": "hé",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 669,
+   "dangGoc": "黑板",
+   "hanzi": "黑板",
+   "pinyin": "hēibǎn",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 670,
+   "dangGoc": "红绿灯",
+   "hanzi": "红绿灯",
+   "pinyin": "hóng-lǜdēng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 671,
+   "dangGoc": "后来",
+   "hanzi": "后来",
+   "pinyin": "hòulái",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 672,
+   "dangGoc": "后年",
+   "hanzi": "后年",
+   "pinyin": "hòunián",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 673,
+   "dangGoc": "后天",
+   "hanzi": "后天",
+   "pinyin": "hòutiān",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 674,
+   "dangGoc": "护照",
+   "hanzi": "护照",
+   "pinyin": "hùzhào",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 675,
+   "dangGoc": "花园",
+   "hanzi": "花园",
+   "pinyin": "huāyuán",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 676,
+   "dangGoc": "画家",
+   "hanzi": "画家",
+   "pinyin": "huàjiā",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 677,
+   "dangGoc": "欢迎",
+   "hanzi": "欢迎",
+   "pinyin": "huānyíng",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 678,
+   "dangGoc": "还",
+   "hanzi": "还",
+   "pinyin": "huán",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 679,
+   "dangGoc": "环境",
+   "hanzi": "环境",
+   "pinyin": "huánjìng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 680,
+   "dangGoc": "换",
+   "hanzi": "换",
+   "pinyin": "huàn",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 681,
+   "dangGoc": "黄色",
+   "hanzi": "黄色",
+   "pinyin": "huángsè",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 682,
+   "dangGoc": "回答",
+   "hanzi": "回答",
+   "pinyin": "huídá",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 683,
+   "dangGoc": "会2",
+   "hanzi": "会",
+   "pinyin": "huì",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 684,
+   "dangGoc": "会议",
+   "hanzi": "会议",
+   "pinyin": "huìyì",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 685,
+   "dangGoc": "或",
+   "hanzi": "或",
+   "pinyin": "huò",
+   "dangCap": "3（6）",
+   "tuLoai": "连、（副）"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 686,
+   "dangGoc": "或者",
+   "hanzi": "或者",
+   "pinyin": "huòzhě",
+   "dangCap": "3",
+   "tuLoai": "连"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 687,
+   "dangGoc": "几乎",
+   "hanzi": "几乎",
+   "pinyin": "jīhū",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 688,
+   "dangGoc": "机会",
+   "hanzi": "机会",
+   "pinyin": "jīhuì",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 689,
+   "dangGoc": "鸡",
+   "hanzi": "鸡",
+   "pinyin": "jī",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 690,
+   "dangGoc": "极",
+   "hanzi": "极",
+   "pinyin": "jí",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 691,
+   "dangGoc": "急",
+   "hanzi": "急",
+   "pinyin": "jí",
+   "dangCap": "3",
+   "tuLoai": "形、动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 692,
+   "dangGoc": "记",
+   "hanzi": "记",
+   "pinyin": "jì",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 693,
+   "dangGoc": "季",
+   "hanzi": "季",
+   "pinyin": "jì",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 694,
+   "dangGoc": "季节",
+   "hanzi": "季节",
+   "pinyin": "jìjié",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 695,
+   "dangGoc": "加",
+   "hanzi": "加",
+   "pinyin": "jiā",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 696,
+   "dangGoc": "假期",
+   "hanzi": "假期",
+   "pinyin": "jiàqī",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 697,
+   "dangGoc": "坚持",
+   "hanzi": "坚持",
+   "pinyin": "jiānchí",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 698,
+   "dangGoc": "检查",
+   "hanzi": "检查",
+   "pinyin": "jiǎnchá",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 699,
+   "dangGoc": "检票",
+   "hanzi": "检票",
+   "pinyin": "jiǎnpiào",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 700,
+   "dangGoc": "简单",
+   "hanzi": "简单",
+   "pinyin": "jiǎndān",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 701,
+   "dangGoc": "见面",
+   "hanzi": "见面",
+   "pinyin": "jiànmiàn",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 702,
+   "dangGoc": "健康",
+   "hanzi": "健康",
+   "pinyin": "jiànkāng",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 703,
+   "dangGoc": "讲",
+   "hanzi": "讲",
+   "pinyin": "jiǎng",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 704,
+   "dangGoc": "角",
+   "hanzi": "角",
+   "pinyin": "jiǎo",
+   "dangCap": "3",
+   "tuLoai": "量"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 705,
+   "dangGoc": "脚",
+   "hanzi": "脚",
+   "pinyin": "jiǎo",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 706,
+   "dangGoc": "接",
+   "hanzi": "接",
+   "pinyin": "jiē",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 707,
+   "dangGoc": "街",
+   "hanzi": "街",
+   "pinyin": "jiē",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 708,
+   "dangGoc": "节",
+   "hanzi": "节",
+   "pinyin": "jié",
+   "dangCap": "3（4）",
+   "tuLoai": "量、名、（动）"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 709,
+   "dangGoc": "节目",
+   "hanzi": "节目",
+   "pinyin": "jiémù",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 710,
+   "dangGoc": "节日",
+   "hanzi": "节日",
+   "pinyin": "jiérì",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 711,
+   "dangGoc": "结婚",
+   "hanzi": "结婚",
+   "pinyin": "jiéhūn",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 712,
+   "dangGoc": "结束",
+   "hanzi": "结束",
+   "pinyin": "jiéshù",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 713,
+   "dangGoc": "姐妹",
+   "hanzi": "姐妹",
+   "pinyin": "jiěmèi",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 714,
+   "dangGoc": "解决",
+   "hanzi": "解决",
+   "pinyin": "jiějué",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 715,
+   "dangGoc": "借",
+   "hanzi": "借",
+   "pinyin": "jiè",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 716,
+   "dangGoc": "斤",
+   "hanzi": "斤",
+   "pinyin": "jīn",
+   "dangCap": "3",
+   "tuLoai": "量"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 717,
+   "dangGoc": "经过",
+   "hanzi": "经过",
+   "pinyin": "jīngguò",
+   "dangCap": "3",
+   "tuLoai": "动、名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 718,
+   "dangGoc": "经理",
+   "hanzi": "经理",
+   "pinyin": "jīnglǐ",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 719,
+   "dangGoc": "久",
+   "hanzi": "久",
+   "pinyin": "jiǔ",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 720,
+   "dangGoc": "酒",
+   "hanzi": "酒",
+   "pinyin": "jiǔ",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 721,
+   "dangGoc": "旧",
+   "hanzi": "旧",
+   "pinyin": "jiù",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 722,
+   "dangGoc": "句",
+   "hanzi": "句",
+   "pinyin": "jù",
+   "dangCap": "3",
+   "tuLoai": "量"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 723,
+   "dangGoc": "句子",
+   "hanzi": "句子",
+   "pinyin": "jùzi",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 724,
+   "dangGoc": "决定",
+   "hanzi": "决定",
+   "pinyin": "juédìng",
+   "dangCap": "3",
+   "tuLoai": "动、名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 725,
+   "dangGoc": "卡",
+   "hanzi": "卡",
+   "pinyin": "kǎ",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 726,
+   "dangGoc": "开花",
+   "hanzi": "开花",
+   "pinyin": "kāihuā",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 727,
+   "dangGoc": "开会",
+   "hanzi": "开会",
+   "pinyin": "kāihuì",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 728,
+   "dangGoc": "开机",
+   "hanzi": "开机",
+   "pinyin": "kāijī",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 729,
+   "dangGoc": "开心",
+   "hanzi": "开心",
+   "pinyin": "kāixīn",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 730,
+   "dangGoc": "看来",
+   "hanzi": "看来",
+   "pinyin": "kànlái",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 731,
+   "dangGoc": "可",
+   "hanzi": "可",
+   "pinyin": "kě",
+   "dangCap": "3（5）",
+   "tuLoai": "连、（副）"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 732,
+   "dangGoc": "可爱",
+   "hanzi": "可爱",
+   "pinyin": "kě'ài",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 733,
+   "dangGoc": "可是",
+   "hanzi": "可是",
+   "pinyin": "kěshì",
+   "dangCap": "3",
+   "tuLoai": "连"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 734,
+   "dangGoc": "渴",
+   "hanzi": "渴",
+   "pinyin": "kě",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 735,
+   "dangGoc": "刻",
+   "hanzi": "刻",
+   "pinyin": "kè",
+   "dangCap": "3（5）",
+   "tuLoai": "量、（动）"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 736,
+   "dangGoc": "客人",
+   "hanzi": "客人",
+   "pinyin": "kèrén",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 737,
+   "dangGoc": "课本",
+   "hanzi": "课本",
+   "pinyin": "kèběn",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 738,
+   "dangGoc": "课文",
+   "hanzi": "课文",
+   "pinyin": "kèwén",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 739,
+   "dangGoc": "空调",
+   "hanzi": "空调",
+   "pinyin": "kōngtiáo",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 740,
+   "dangGoc": "哭",
+   "hanzi": "哭",
+   "pinyin": "kū",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 741,
+   "dangGoc": "筷子",
+   "hanzi": "筷子",
+   "pinyin": "kuàizi",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 742,
+   "dangGoc": "矿泉水",
+   "hanzi": "矿泉水",
+   "pinyin": "kuàngquánshuǐ",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 743,
+   "dangGoc": "来自",
+   "hanzi": "来自",
+   "pinyin": "láizì",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 744,
+   "dangGoc": "蓝",
+   "hanzi": "蓝",
+   "pinyin": "lán",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 745,
+   "dangGoc": "老",
+   "hanzi": "老",
+   "pinyin": "lǎo",
+   "dangCap": "3（4）",
+   "tuLoai": "形、前缀、（副）"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 746,
+   "dangGoc": "老人",
+   "hanzi": "老人",
+   "pinyin": "lǎorén",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 747,
+   "dangGoc": "离开",
+   "hanzi": "离开",
+   "pinyin": "líkāi",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 748,
+   "dangGoc": "礼物",
+   "hanzi": "礼物",
+   "pinyin": "lǐwù",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 749,
+   "dangGoc": "历史",
+   "hanzi": "历史",
+   "pinyin": "lìshǐ",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 750,
+   "dangGoc": "脸",
+   "hanzi": "脸",
+   "pinyin": "liǎn",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 751,
+   "dangGoc": "练",
+   "hanzi": "练",
+   "pinyin": "liàn",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 752,
+   "dangGoc": "练习",
+   "hanzi": "练习",
+   "pinyin": "liànxí",
+   "dangCap": "3",
+   "tuLoai": "动、名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 753,
+   "dangGoc": "凉快",
+   "hanzi": "凉快",
+   "pinyin": "liángkuai",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 754,
+   "dangGoc": "辆",
+   "hanzi": "辆",
+   "pinyin": "liàng",
+   "dangCap": "3",
+   "tuLoai": "量"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 755,
+   "dangGoc": "聊",
+   "hanzi": "聊",
+   "pinyin": "liáo",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 756,
+   "dangGoc": "聊天儿",
+   "hanzi": "聊天儿",
+   "pinyin": "liáotiānr",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 757,
+   "dangGoc": "了解",
+   "hanzi": "了解",
+   "pinyin": "liǎojiě",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 758,
+   "dangGoc": "邻居",
+   "hanzi": "邻居",
+   "pinyin": "línjū",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 759,
+   "dangGoc": "留学",
+   "hanzi": "留学",
+   "pinyin": "liúxué",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 760,
+   "dangGoc": "留学生",
+   "hanzi": "留学生",
+   "pinyin": "liúxuéshēng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 761,
+   "dangGoc": "楼梯",
+   "hanzi": "楼梯",
+   "pinyin": "lóutī",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 762,
+   "dangGoc": "路边",
+   "hanzi": "路边",
+   "pinyin": "lùbiān",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 763,
+   "dangGoc": "路口",
+   "hanzi": "路口",
+   "pinyin": "lùkǒu",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 764,
+   "dangGoc": "马",
+   "hanzi": "马",
+   "pinyin": "mǎ",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 765,
+   "dangGoc": "马路",
+   "hanzi": "马路",
+   "pinyin": "mǎlù",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 766,
+   "dangGoc": "马上",
+   "hanzi": "马上",
+   "pinyin": "mǎshàng",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 767,
+   "dangGoc": "满意",
+   "hanzi": "满意",
+   "pinyin": "mǎnyì",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 768,
+   "dangGoc": "毛",
+   "hanzi": "毛",
+   "pinyin": "máo",
+   "dangCap": "3（5）",
+   "tuLoai": "量、（名）"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 769,
+   "dangGoc": "米",
+   "hanzi": "米",
+   "pinyin": "mǐ",
+   "dangCap": "3",
+   "tuLoai": "量"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 770,
+   "dangGoc": "面前",
+   "hanzi": "面前",
+   "pinyin": "miànqián",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 771,
+   "dangGoc": "名单",
+   "hanzi": "名单",
+   "pinyin": "míngdān",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 772,
+   "dangGoc": "名人",
+   "hanzi": "名人",
+   "pinyin": "míngrén",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 773,
+   "dangGoc": "明白",
+   "hanzi": "明白",
+   "pinyin": "míngbai",
+   "dangCap": "3",
+   "tuLoai": "形、动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 774,
+   "dangGoc": "男人",
+   "hanzi": "男人",
+   "pinyin": "nánrén",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 775,
+   "dangGoc": "男生",
+   "hanzi": "男生",
+   "pinyin": "nánshēng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 776,
+   "dangGoc": "南",
+   "hanzi": "南",
+   "pinyin": "nán",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 777,
+   "dangGoc": "南方",
+   "hanzi": "南方",
+   "pinyin": "nánfāng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 778,
+   "dangGoc": "难",
+   "hanzi": "难",
+   "pinyin": "nán",
+   "dangCap": "3（6）",
+   "tuLoai": "形、（动）"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 779,
+   "dangGoc": "难过",
+   "hanzi": "难过",
+   "pinyin": "nánguò",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 780,
+   "dangGoc": "难看",
+   "hanzi": "难看",
+   "pinyin": "nánkàn",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 781,
+   "dangGoc": "难题",
+   "hanzi": "难题",
+   "pinyin": "nántí",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 782,
+   "dangGoc": "难听",
+   "hanzi": "难听",
+   "pinyin": "nántīng",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 783,
+   "dangGoc": "年级",
+   "hanzi": "年级",
+   "pinyin": "niánjí",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 784,
+   "dangGoc": "年轻",
+   "hanzi": "年轻",
+   "pinyin": "niánqīng",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 785,
+   "dangGoc": "牛",
+   "hanzi": "牛",
+   "pinyin": "niú",
+   "dangCap": "3（5）",
+   "tuLoai": "名、（形）"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 786,
+   "dangGoc": "努力",
+   "hanzi": "努力",
+   "pinyin": "nǔlì",
+   "dangCap": "3",
+   "tuLoai": "动、形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 787,
+   "dangGoc": "女人",
+   "hanzi": "女人",
+   "pinyin": "nǚrén",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 788,
+   "dangGoc": "女生",
+   "hanzi": "女生",
+   "pinyin": "nǚshēng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 789,
+   "dangGoc": "爬",
+   "hanzi": "爬",
+   "pinyin": "pá",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 790,
+   "dangGoc": "怕",
+   "hanzi": "怕",
+   "pinyin": "pà",
+   "dangCap": "3（4）",
+   "tuLoai": "动、（副）"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 791,
+   "dangGoc": "拍照",
+   "hanzi": "拍照",
+   "pinyin": "pāizhào",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 792,
+   "dangGoc": "盘子",
+   "hanzi": "盘子",
+   "pinyin": "pánzi",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 793,
+   "dangGoc": "胖",
+   "hanzi": "胖",
+   "pinyin": "pàng",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 794,
+   "dangGoc": "啤酒",
+   "hanzi": "啤酒",
+   "pinyin": "píjiǔ",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 795,
+   "dangGoc": "平时",
+   "hanzi": "平时",
+   "pinyin": "píngshí",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 796,
+   "dangGoc": "瓶子",
+   "hanzi": "瓶子",
+   "pinyin": "píngzi",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 797,
+   "dangGoc": "其实",
+   "hanzi": "其实",
+   "pinyin": "qíshí",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 798,
+   "dangGoc": "其他",
+   "hanzi": "其他",
+   "pinyin": "qítā",
+   "dangCap": "3",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 799,
+   "dangGoc": "奇怪",
+   "hanzi": "奇怪",
+   "pinyin": "qíguài",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 800,
+   "dangGoc": "骑",
+   "hanzi": "骑",
+   "pinyin": "qí",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 801,
+   "dangGoc": "起",
+   "hanzi": "起",
+   "pinyin": "qǐ",
+   "dangCap": "3（5）",
+   "tuLoai": "动、（量）"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 802,
+   "dangGoc": "起飞",
+   "hanzi": "起飞",
+   "pinyin": "qǐfēi",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 803,
+   "dangGoc": "汽车",
+   "hanzi": "汽车",
+   "pinyin": "qìchē",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 804,
+   "dangGoc": "铅笔",
+   "hanzi": "铅笔",
+   "pinyin": "qiānbǐ",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 805,
+   "dangGoc": "前年",
+   "hanzi": "前年",
+   "pinyin": "qiánnián",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 806,
+   "dangGoc": "前天",
+   "hanzi": "前天",
+   "pinyin": "qiántiān",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 807,
+   "dangGoc": "清楚",
+   "hanzi": "清楚",
+   "pinyin": "qīngchu",
+   "dangCap": "3",
+   "tuLoai": "形、动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 808,
+   "dangGoc": "请假",
+   "hanzi": "请假",
+   "pinyin": "qǐngjià",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 809,
+   "dangGoc": "请客",
+   "hanzi": "请客",
+   "pinyin": "qǐngkè",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 810,
+   "dangGoc": "秋天",
+   "hanzi": "秋天",
+   "pinyin": "qiūtiān",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 811,
+   "dangGoc": "球场",
+   "hanzi": "球场",
+   "pinyin": "qiúchǎng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 812,
+   "dangGoc": "裙子",
+   "hanzi": "裙子",
+   "pinyin": "qúnzi",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 813,
+   "dangGoc": "然后",
+   "hanzi": "然后",
+   "pinyin": "ránhòu",
+   "dangCap": "3",
+   "tuLoai": "连"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 814,
+   "dangGoc": "热情",
+   "hanzi": "热情",
+   "pinyin": "rèqíng",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 815,
+   "dangGoc": "认得",
+   "hanzi": "认得",
+   "pinyin": "rènde",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 816,
+   "dangGoc": "认为",
+   "hanzi": "认为",
+   "pinyin": "rènwéi",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 817,
+   "dangGoc": "认真",
+   "hanzi": "认真",
+   "pinyin": "rènzhēn",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 818,
+   "dangGoc": "容易",
+   "hanzi": "容易",
+   "pinyin": "róngyì",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 819,
+   "dangGoc": "如果",
+   "hanzi": "如果",
+   "pinyin": "rúguǒ",
+   "dangCap": "3",
+   "tuLoai": "连"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 820,
+   "dangGoc": "伞",
+   "hanzi": "伞",
+   "pinyin": "sǎn",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 821,
+   "dangGoc": "扫",
+   "hanzi": "扫",
+   "pinyin": "sǎo",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 822,
+   "dangGoc": "沙发",
+   "hanzi": "沙发",
+   "pinyin": "shāfā",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 823,
+   "dangGoc": "山",
+   "hanzi": "山",
+   "pinyin": "shān",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 824,
+   "dangGoc": "上衣",
+   "hanzi": "上衣",
+   "pinyin": "shàngyī",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 825,
+   "dangGoc": "勺子",
+   "hanzi": "勺子",
+   "pinyin": "sháozi",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 826,
+   "dangGoc": "身边",
+   "hanzi": "身边",
+   "pinyin": "shēnbiān",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 827,
+   "dangGoc": "身高",
+   "hanzi": "身高",
+   "pinyin": "shēngāo",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 828,
+   "dangGoc": "生活",
+   "hanzi": "生活",
+   "pinyin": "shēnghuó",
+   "dangCap": "3",
+   "tuLoai": "名、动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 829,
+   "dangGoc": "生气",
+   "hanzi": "生气",
+   "pinyin": "shēngqì",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 830,
+   "dangGoc": "声",
+   "hanzi": "声",
+   "pinyin": "shēng",
+   "dangCap": "3",
+   "tuLoai": "名、量"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 831,
+   "dangGoc": "声音",
+   "hanzi": "声音",
+   "pinyin": "shēngyīn",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 832,
+   "dangGoc": "世界",
+   "hanzi": "世界",
+   "pinyin": "shìjiè",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 833,
+   "dangGoc": "市",
+   "hanzi": "市",
+   "pinyin": "shì",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 834,
+   "dangGoc": "试",
+   "hanzi": "试",
+   "pinyin": "shì",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 835,
+   "dangGoc": "室",
+   "hanzi": "室",
+   "pinyin": "shì",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 836,
+   "dangGoc": "收",
+   "hanzi": "收",
+   "pinyin": "shōu",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 837,
+   "dangGoc": "收到",
+   "hanzi": "收到",
+   "pinyin": "shōudào",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 838,
+   "dangGoc": "受",
+   "hanzi": "受",
+   "pinyin": "shòu",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 839,
+   "dangGoc": "受到",
+   "hanzi": "受到",
+   "pinyin": "shòudào",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 840,
+   "dangGoc": "瘦",
+   "hanzi": "瘦",
+   "pinyin": "shòu",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 841,
+   "dangGoc": "叔叔",
+   "hanzi": "叔叔",
+   "pinyin": "shūshu",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 842,
+   "dangGoc": "树",
+   "hanzi": "树",
+   "pinyin": "shù",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 843,
+   "dangGoc": "数学",
+   "hanzi": "数学",
+   "pinyin": "shùxué",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 844,
+   "dangGoc": "刷",
+   "hanzi": "刷",
+   "pinyin": "shuā",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 845,
+   "dangGoc": "双",
+   "hanzi": "双",
+   "pinyin": "shuāng",
+   "dangCap": "3",
+   "tuLoai": "量"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 846,
+   "dangGoc": "水平",
+   "hanzi": "水平",
+   "pinyin": "shuǐpíng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 847,
+   "dangGoc": "司机",
+   "hanzi": "司机",
+   "pinyin": "sījī",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 848,
+   "dangGoc": "四季",
+   "hanzi": "四季",
+   "pinyin": "sìjì",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 849,
+   "dangGoc": "太阳",
+   "hanzi": "太阳",
+   "pinyin": "tàiyáng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 850,
+   "dangGoc": "糖",
+   "hanzi": "糖",
+   "pinyin": "táng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 851,
+   "dangGoc": "特别",
+   "hanzi": "特别",
+   "pinyin": "tèbié",
+   "dangCap": "3",
+   "tuLoai": "形、副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 852,
+   "dangGoc": "提高",
+   "hanzi": "提高",
+   "pinyin": "tígāo",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 853,
+   "dangGoc": "体育",
+   "hanzi": "体育",
+   "pinyin": "tǐyù",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 854,
+   "dangGoc": "体育馆",
+   "hanzi": "体育馆",
+   "pinyin": "tǐyùguǎn",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 855,
+   "dangGoc": "甜",
+   "hanzi": "甜",
+   "pinyin": "tián",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 856,
+   "dangGoc": "跳",
+   "hanzi": "跳",
+   "pinyin": "tiào",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 857,
+   "dangGoc": "听说",
+   "hanzi": "听说",
+   "pinyin": "tīngshuō",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 858,
+   "dangGoc": "挺",
+   "hanzi": "挺",
+   "pinyin": "tǐng",
+   "dangCap": "3（7-9）",
+   "tuLoai": "副、（动）"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 859,
+   "dangGoc": "同事",
+   "hanzi": "同事",
+   "pinyin": "tóngshì",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 860,
+   "dangGoc": "同意",
+   "hanzi": "同意",
+   "pinyin": "tóngyì",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 861,
+   "dangGoc": "头发",
+   "hanzi": "头发",
+   "pinyin": "tóufa",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 862,
+   "dangGoc": "突然",
+   "hanzi": "突然",
+   "pinyin": "tūrán",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 863,
+   "dangGoc": "图书馆",
+   "hanzi": "图书馆",
+   "pinyin": "túshūguǎn",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 864,
+   "dangGoc": "腿",
+   "hanzi": "腿",
+   "pinyin": "tuǐ",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 865,
+   "dangGoc": "外地",
+   "hanzi": "外地",
+   "pinyin": "wàidì",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 866,
+   "dangGoc": "外卖",
+   "hanzi": "外卖",
+   "pinyin": "wàimài",
+   "dangCap": "3",
+   "tuLoai": "动、名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 867,
+   "dangGoc": "外语",
+   "hanzi": "外语",
+   "pinyin": "wàiyǔ",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 868,
+   "dangGoc": "完成",
+   "hanzi": "完成",
+   "pinyin": "wánchéng",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 869,
+   "dangGoc": "晚点",
+   "hanzi": "晚点",
+   "pinyin": "wǎndiǎn",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 870,
+   "dangGoc": "晚会",
+   "hanzi": "晚会",
+   "pinyin": "wǎnhuì",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 871,
+   "dangGoc": "碗",
+   "hanzi": "碗",
+   "pinyin": "wǎn",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 872,
+   "dangGoc": "网球",
+   "hanzi": "网球",
+   "pinyin": "wǎngqiú",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 873,
+   "dangGoc": "网站",
+   "hanzi": "网站",
+   "pinyin": "wǎngzhàn",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 874,
+   "dangGoc": "忘记",
+   "hanzi": "忘记",
+   "pinyin": "wàngjì",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 875,
+   "dangGoc": "卫生间",
+   "hanzi": "卫生间",
+   "pinyin": "wèishēngjiān",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 876,
+   "dangGoc": "为",
+   "hanzi": "为",
+   "pinyin": "wèi",
+   "dangCap": "3",
+   "tuLoai": "介"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 877,
+   "dangGoc": "为了",
+   "hanzi": "为了",
+   "pinyin": "wèile",
+   "dangCap": "3",
+   "tuLoai": "介"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 878,
+   "dangGoc": "文化",
+   "hanzi": "文化",
+   "pinyin": "wénhuà",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 879,
+   "dangGoc": "屋子",
+   "hanzi": "屋子",
+   "pinyin": "wūzi",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 880,
+   "dangGoc": "西",
+   "hanzi": "西",
+   "pinyin": "xī",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 881,
+   "dangGoc": "西北",
+   "hanzi": "西北",
+   "pinyin": "xīběi",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 882,
+   "dangGoc": "西方",
+   "hanzi": "西方",
+   "pinyin": "xīfāng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 883,
+   "dangGoc": "西瓜",
+   "hanzi": "西瓜",
+   "pinyin": "xīguā",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 884,
+   "dangGoc": "西南",
+   "hanzi": "西南",
+   "pinyin": "xīnán",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 885,
+   "dangGoc": "习惯",
+   "hanzi": "习惯",
+   "pinyin": "xíguàn",
+   "dangCap": "3",
+   "tuLoai": "动、名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 886,
+   "dangGoc": "洗衣机",
+   "hanzi": "洗衣机",
+   "pinyin": "xǐyījī",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 887,
+   "dangGoc": "洗澡",
+   "hanzi": "洗澡",
+   "pinyin": "xǐzǎo",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 888,
+   "dangGoc": "喜爱",
+   "hanzi": "喜爱",
+   "pinyin": "xǐ'ài",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 889,
+   "dangGoc": "夏天",
+   "hanzi": "夏天",
+   "pinyin": "xiàtiān",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 890,
+   "dangGoc": "先",
+   "hanzi": "先",
+   "pinyin": "xiān",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 891,
+   "dangGoc": "相信",
+   "hanzi": "相信",
+   "pinyin": "xiāngxìn",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 892,
+   "dangGoc": "香蕉",
+   "hanzi": "香蕉",
+   "pinyin": "xiāngjiāo",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 893,
+   "dangGoc": "箱子",
+   "hanzi": "箱子",
+   "pinyin": "xiāngzi",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 894,
+   "dangGoc": "向",
+   "hanzi": "向",
+   "pinyin": "xiàng",
+   "dangCap": "3",
+   "tuLoai": "动、介"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 895,
+   "dangGoc": "相机",
+   "hanzi": "相机",
+   "pinyin": "xiàngjī",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 896,
+   "dangGoc": "像",
+   "hanzi": "像",
+   "pinyin": "xiàng",
+   "dangCap": "3（4）（7-9）",
+   "tuLoai": "动、（副）、（名）"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 897,
+   "dangGoc": "小区",
+   "hanzi": "小区",
+   "pinyin": "xiǎoqū",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 898,
+   "dangGoc": "小心",
+   "hanzi": "小心",
+   "pinyin": "xiǎoxīn",
+   "dangCap": "3",
+   "tuLoai": "动、形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 899,
+   "dangGoc": "校园",
+   "hanzi": "校园",
+   "pinyin": "xiàoyuán",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 900,
+   "dangGoc": "校长",
+   "hanzi": "校长",
+   "pinyin": "xiàozhǎng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 901,
+   "dangGoc": "鞋",
+   "hanzi": "鞋",
+   "pinyin": "xié",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 902,
+   "dangGoc": "心里",
+   "hanzi": "心里",
+   "pinyin": "xīnlǐ",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 903,
+   "dangGoc": "新年",
+   "hanzi": "新年",
+   "pinyin": "xīnnián",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 904,
+   "dangGoc": "新闻",
+   "hanzi": "新闻",
+   "pinyin": "xīnwén",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 905,
+   "dangGoc": "新鲜",
+   "hanzi": "新鲜",
+   "pinyin": "xīnxiān",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 906,
+   "dangGoc": "信",
+   "hanzi": "信",
+   "pinyin": "xìn",
+   "dangCap": "3",
+   "tuLoai": "动、名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 907,
+   "dangGoc": "信用卡",
+   "hanzi": "信用卡",
+   "pinyin": "xìnyòngkǎ",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 908,
+   "dangGoc": "行",
+   "hanzi": "行",
+   "pinyin": "xíng",
+   "dangCap": "3",
+   "tuLoai": "动、形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 909,
+   "dangGoc": "行李",
+   "hanzi": "行李",
+   "pinyin": "xíngli",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 910,
+   "dangGoc": "兴趣",
+   "hanzi": "兴趣",
+   "pinyin": "xìngqù",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 911,
+   "dangGoc": "休假",
+   "hanzi": "休假",
+   "pinyin": "xiūjià",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 912,
+   "dangGoc": "需要",
+   "hanzi": "需要",
+   "pinyin": "xūyào",
+   "dangCap": "3",
+   "tuLoai": "动、名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 913,
+   "dangGoc": "选",
+   "hanzi": "选",
+   "pinyin": "xuǎn",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 914,
+   "dangGoc": "选择",
+   "hanzi": "选择",
+   "pinyin": "xuǎnzé",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 915,
+   "dangGoc": "学期",
+   "hanzi": "学期",
+   "pinyin": "xuéqī",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 916,
+   "dangGoc": "牙",
+   "hanzi": "牙",
+   "pinyin": "yá",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 917,
+   "dangGoc": "牙刷",
+   "hanzi": "牙刷",
+   "pinyin": "yáshuā",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 918,
+   "dangGoc": "羊",
+   "hanzi": "羊",
+   "pinyin": "yáng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 919,
+   "dangGoc": "养",
+   "hanzi": "养",
+   "pinyin": "yǎng",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 920,
+   "dangGoc": "要求",
+   "hanzi": "要求",
+   "pinyin": "yāoqiú",
+   "dangCap": "3",
+   "tuLoai": "动、名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 921,
+   "dangGoc": "页",
+   "hanzi": "页",
+   "pinyin": "yè",
+   "dangCap": "3",
+   "tuLoai": "量"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 922,
+   "dangGoc": "一般",
+   "hanzi": "一般",
+   "pinyin": "yìbān",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 923,
+   "dangGoc": "一边",
+   "hanzi": "一边",
+   "pinyin": "yìbiān",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 924,
+   "dangGoc": "一定",
+   "hanzi": "一定",
+   "pinyin": "yídìng",
+   "dangCap": "3",
+   "tuLoai": "形、副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 925,
+   "dangGoc": "一共",
+   "hanzi": "一共",
+   "pinyin": "yígòng",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 926,
+   "dangGoc": "一块儿",
+   "hanzi": "一块儿",
+   "pinyin": "yíkuàir",
+   "dangCap": "3",
+   "tuLoai": "名、副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 927,
+   "dangGoc": "一样",
+   "hanzi": "一样",
+   "pinyin": "yíyàng",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 928,
+   "dangGoc": "一直",
+   "hanzi": "一直",
+   "pinyin": "yìzhí",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 929,
+   "dangGoc": "以后",
+   "hanzi": "以后",
+   "pinyin": "yǐhòu",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 930,
+   "dangGoc": "以前",
+   "hanzi": "以前",
+   "pinyin": "yǐqián",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 931,
+   "dangGoc": "以上",
+   "hanzi": "以上",
+   "pinyin": "yǐshàng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 932,
+   "dangGoc": "以外",
+   "hanzi": "以外",
+   "pinyin": "yǐwài",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 933,
+   "dangGoc": "以为",
+   "hanzi": "以为",
+   "pinyin": "yǐwéi",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 934,
+   "dangGoc": "以下",
+   "hanzi": "以下",
+   "pinyin": "yǐxià",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 935,
+   "dangGoc": "音乐",
+   "hanzi": "音乐",
+   "pinyin": "yīnyuè",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 936,
+   "dangGoc": "银行",
+   "hanzi": "银行",
+   "pinyin": "yínháng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 937,
+   "dangGoc": "银行卡",
+   "hanzi": "银行卡",
+   "pinyin": "yínhángkǎ",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 938,
+   "dangGoc": "饮料",
+   "hanzi": "饮料",
+   "pinyin": "yǐnliào",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 939,
+   "dangGoc": "应该",
+   "hanzi": "应该",
+   "pinyin": "yīnggāi",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 940,
+   "dangGoc": "影响",
+   "hanzi": "影响",
+   "pinyin": "yǐngxiǎng",
+   "dangCap": "3",
+   "tuLoai": "动、名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 941,
+   "dangGoc": "用",
+   "hanzi": "用",
+   "pinyin": "yòng",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 942,
+   "dangGoc": "邮件",
+   "hanzi": "邮件",
+   "pinyin": "yóujiàn",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 943,
+   "dangGoc": "邮箱",
+   "hanzi": "邮箱",
+   "pinyin": "yóuxiāng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 944,
+   "dangGoc": "游客",
+   "hanzi": "游客",
+   "pinyin": "yóukè",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 945,
+   "dangGoc": "游戏",
+   "hanzi": "游戏",
+   "pinyin": "yóuxì",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 946,
+   "dangGoc": "有关",
+   "hanzi": "有关",
+   "pinyin": "yǒuguān",
+   "dangCap": "3",
+   "tuLoai": "动、介"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 947,
+   "dangGoc": "有名",
+   "hanzi": "有名",
+   "pinyin": "yǒumíng",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 948,
+   "dangGoc": "有用",
+   "hanzi": "有用",
+   "pinyin": "yǒuyòng",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 949,
+   "dangGoc": "又",
+   "hanzi": "又",
+   "pinyin": "yòu",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 950,
+   "dangGoc": "羽毛球",
+   "hanzi": "羽毛球",
+   "pinyin": "yǔmáoqiú",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 951,
+   "dangGoc": "雨衣",
+   "hanzi": "雨衣",
+   "pinyin": "yǔyī",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 952,
+   "dangGoc": "语言",
+   "hanzi": "语言",
+   "pinyin": "yǔyán",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 953,
+   "dangGoc": "遇到",
+   "hanzi": "遇到",
+   "pinyin": "yùdào",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 954,
+   "dangGoc": "遇见",
+   "hanzi": "遇见",
+   "pinyin": "yùjiàn",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 955,
+   "dangGoc": "园",
+   "hanzi": "园",
+   "pinyin": "yuán",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 956,
+   "dangGoc": "员",
+   "hanzi": "员",
+   "pinyin": "yuán",
+   "dangCap": "3",
+   "tuLoai": "后缀"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 957,
+   "dangGoc": "愿意",
+   "hanzi": "愿意",
+   "pinyin": "yuànyì",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 958,
+   "dangGoc": "月亮",
+   "hanzi": "月亮",
+   "pinyin": "yuèliang",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 959,
+   "dangGoc": "越",
+   "hanzi": "越",
+   "pinyin": "yuè",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 960,
+   "dangGoc": "运动会",
+   "hanzi": "运动会",
+   "pinyin": "yùndònghuì",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 961,
+   "dangGoc": "运动员",
+   "hanzi": "运动员",
+   "pinyin": "yùndòngyuán",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 962,
+   "dangGoc": "咱们",
+   "hanzi": "咱们",
+   "pinyin": "zánmen",
+   "dangCap": "3",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 963,
+   "dangGoc": "脏",
+   "hanzi": "脏",
+   "pinyin": "zāng",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 964,
+   "dangGoc": "怎么办",
+   "hanzi": "怎么办",
+   "pinyin": "zěnme bàn",
+   "dangCap": "3",
+   "tuLoai": ""
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 965,
+   "dangGoc": "怎样",
+   "hanzi": "怎样",
+   "pinyin": "zěnyàng",
+   "dangCap": "3",
+   "tuLoai": "代"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 966,
+   "dangGoc": "站2",
+   "hanzi": "站",
+   "pinyin": "zhàn",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 967,
+   "dangGoc": "张",
+   "hanzi": "张",
+   "pinyin": "zhāng",
+   "dangCap": "3",
+   "tuLoai": "动、量"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 968,
+   "dangGoc": "长",
+   "hanzi": "长",
+   "pinyin": "zhǎng",
+   "dangCap": "3",
+   "tuLoai": "动、后缀"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 969,
+   "dangGoc": "着急",
+   "hanzi": "着急",
+   "pinyin": "zháojí",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 970,
+   "dangGoc": "照",
+   "hanzi": "照",
+   "pinyin": "zhào",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 971,
+   "dangGoc": "照顾",
+   "hanzi": "照顾",
+   "pinyin": "zhàogù",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 972,
+   "dangGoc": "照片",
+   "hanzi": "照片",
+   "pinyin": "zhàopiàn",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 973,
+   "dangGoc": "照相",
+   "hanzi": "照相",
+   "pinyin": "zhàoxiàng",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 974,
+   "dangGoc": "直到",
+   "hanzi": "直到",
+   "pinyin": "zhídào",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 975,
+   "dangGoc": "只",
+   "hanzi": "只",
+   "pinyin": "zhǐ",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 976,
+   "dangGoc": "只能",
+   "hanzi": "只能",
+   "pinyin": "zhǐ néng",
+   "dangCap": "3",
+   "tuLoai": ""
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 977,
+   "dangGoc": "只是",
+   "hanzi": "只是",
+   "pinyin": "zhǐshì",
+   "dangCap": "3",
+   "tuLoai": "副、连"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 978,
+   "dangGoc": "只要",
+   "hanzi": "只要",
+   "pinyin": "zhǐyào",
+   "dangCap": "3",
+   "tuLoai": "连"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 979,
+   "dangGoc": "只有",
+   "hanzi": "只有",
+   "pinyin": "zhǐyǒu",
+   "dangCap": "3",
+   "tuLoai": "连"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 980,
+   "dangGoc": "纸",
+   "hanzi": "纸",
+   "pinyin": "zhǐ",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 981,
+   "dangGoc": "中",
+   "hanzi": "中",
+   "pinyin": "zhōng",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 982,
+   "dangGoc": "中间",
+   "hanzi": "中间",
+   "pinyin": "zhōngjiān",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 983,
+   "dangGoc": "终于",
+   "hanzi": "终于",
+   "pinyin": "zhōngyú",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 984,
+   "dangGoc": "种",
+   "hanzi": "种",
+   "pinyin": "zhǒng",
+   "dangCap": "3",
+   "tuLoai": "量"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 985,
+   "dangGoc": "重要",
+   "hanzi": "重要",
+   "pinyin": "zhòngyào",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 986,
+   "dangGoc": "周末",
+   "hanzi": "周末",
+   "pinyin": "zhōumò",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 987,
+   "dangGoc": "主要",
+   "hanzi": "主要",
+   "pinyin": "zhǔyào",
+   "dangCap": "3",
+   "tuLoai": "形"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 988,
+   "dangGoc": "住院",
+   "hanzi": "住院",
+   "pinyin": "zhùyuàn",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 989,
+   "dangGoc": "注意",
+   "hanzi": "注意",
+   "pinyin": "zhùyì",
+   "dangCap": "3",
+   "tuLoai": "动"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 990,
+   "dangGoc": "子",
+   "hanzi": "子",
+   "pinyin": "zi",
+   "dangCap": "3",
+   "tuLoai": "后缀"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 991,
+   "dangGoc": "自行车",
+   "hanzi": "自行车",
+   "pinyin": "zìxíngchē",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 992,
+   "dangGoc": "字典",
+   "hanzi": "字典",
+   "pinyin": "zìdiǎn",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 993,
+   "dangGoc": "总",
+   "hanzi": "总",
+   "pinyin": "zǒng",
+   "dangCap": "3（5）",
+   "tuLoai": "副、（动、形）"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 994,
+   "dangGoc": "总是",
+   "hanzi": "总是",
+   "pinyin": "zǒngshì",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 995,
+   "dangGoc": "嘴",
+   "hanzi": "嘴",
+   "pinyin": "zuǐ",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 996,
+   "dangGoc": "最好",
+   "hanzi": "最好",
+   "pinyin": "zuìhǎo",
+   "dangCap": "3",
+   "tuLoai": "副"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 997,
+   "dangGoc": "最后",
+   "hanzi": "最后",
+   "pinyin": "zuìhòu",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 998,
+   "dangGoc": "最近",
+   "hanzi": "最近",
+   "pinyin": "zuìjìn",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 999,
+   "dangGoc": "作业",
+   "hanzi": "作业",
+   "pinyin": "zuòyè",
+   "dangCap": "3",
+   "tuLoai": "名"
+  },
+  {
+   "capDo": 3,
+   "soThuTu": 1000,
+   "dangGoc": "做客",
+   "hanzi": "做客",
+   "pinyin": "zuòkè",
+   "dangCap": "3",
+   "tuLoai": "动"
+  }
+ ]
+}

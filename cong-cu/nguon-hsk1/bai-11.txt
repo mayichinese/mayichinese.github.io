@@ -1,0 +1,94 @@
+# ===== NGUỒN SOẠN THẢO HSK 1 – BÀI 11 =====
+# Định dạng giống bai-01-05.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1.
+
+# 11 | Ngày tháng
+
+@今天 | kim thiên
+- 名 | hôm nay
+> 今天我很忙。 | Jīntiān wǒ hěn máng. | Hôm nay tôi rất bận.
+> 今天是星期五。 | Jīntiān shì xīngqīwǔ. | Hôm nay là thứ Sáu.
+* Từ chỉ thời gian đứng trước động từ: 我今天去 hoặc 今天我去, không nói 我去今天.
+
+@明天 | minh thiên
+- 名 | ngày mai
+> 明天见！ | Míngtiān jiàn! | Mai gặp lại nhé!
+> 明天你有课吗？ | Míngtiān nǐ yǒu kè ma? | Ngày mai bạn có tiết học không?
+
+@昨天 | tạc thiên
+- 名 | hôm qua
+> 昨天很冷。 | Zuótiān hěn lěng. | Hôm qua rất lạnh.
+> 你昨天去哪儿了？ | Nǐ zuótiān qù nǎr le? | Hôm qua bạn đi đâu?
+
+@天 | thiên
+- 名 | trời; ngày
+> 天很热。 | Tiān hěn rè. | Trời rất nóng.
+- 量 | ngày (đếm số ngày)
+> 我在中国住了三天。 | Wǒ zài Zhōngguó zhùle sān tiān. | Tôi đã ở Trung Quốc ba ngày.
+> 一个星期有七天。 | Yí gè xīngqī yǒu qī tiān. | Một tuần có bảy ngày.
+* Đếm ngày nói 三天, không thêm 个 (không nói 三个天).
+
+@今年 | kim niên
+- 名 | năm nay
+> 今年我想去中国。 | Jīnnián wǒ xiǎng qù Zhōngguó. | Năm nay tôi muốn đi Trung Quốc.
+> 我女儿今年上大学。 | Wǒ nǚ'ér jīnnián shàng dàxué. | Con gái tôi năm nay vào đại học.
+
+@明年 | minh niên
+- 名 | sang năm, năm sau
+> 明年我想去中国学习汉语。 | Míngnián wǒ xiǎng qù Zhōngguó xuéxí Hànyǔ. | Sang năm tôi muốn sang Trung Quốc học tiếng Trung.
+> 他明年上小学。 | Tā míngnián shàng xiǎoxué. | Sang năm cậu bé vào tiểu học.
+
+@去年 | khứ niên
+- 名 | năm ngoái, năm trước
+> 我去年去了中国。 | Wǒ qùnián qùle Zhōngguó. | Năm ngoái tôi đã đi Trung Quốc.
+> 去年我在大学工作。 | Qùnián wǒ zài dàxué gōngzuò. | Năm ngoái tôi làm việc ở trường đại học.
+* 去 ở đây nghĩa là “đã qua”, không phải “đi”.
+
+@年 | niên
+- 名 | năm
+> 新年好！ | Xīnnián hǎo! | Chúc mừng năm mới!
+- 量 | năm (đếm số năm)
+> 我学了两年汉语。 | Wǒ xuéle liǎng nián Hànyǔ. | Tôi đã học tiếng Trung hai năm.
+* Đếm năm nói 两年, không thêm 个 (không nói 两个年).
+
+@月 | nguyệt
+- 名 | tháng
+> 今天是几月几号？ | Jīntiān shì jǐ yuè jǐ hào? | Hôm nay là ngày mấy tháng mấy?
+> 他下个月去中国。 | Tā xià gè yuè qù Zhōngguó. | Tháng sau anh ấy đi Trung Quốc.
+* 一月 = tháng Một; 一个月 = một tháng (khoảng thời gian).
+
+@日 | nhật
+- 量 | ngày (trong ngày tháng, thường dùng trong văn viết)
+> 今天是十月一日。 | Jīntiān shì shíyuè yī rì. | Hôm nay là ngày 1 tháng 10.
+> 他七月二十日回国。 | Tā qīyuè èrshí rì huí guó. | Anh ấy về nước ngày 20 tháng 7.
+* Trong khẩu ngữ thường dùng 号 thay cho 日: 十月一号.
+* Theo danh sách chính thức, 日 dùng như danh từ thuộc cấp 4.
+
+@号 | hiệu
+- 名 | số (số thứ tự, số phòng…)
+> 我的房间是十二号。 | Wǒ de fángjiān shì shí'èr hào. | Phòng tôi là phòng số 12.
+- 量 | ngày (trong ngày tháng, dùng trong khẩu ngữ)
+> 今天几号？ | Jīntiān jǐ hào? | Hôm nay ngày mấy?
+> 我们十五号见吧。 | Wǒmen shíwǔ hào jiàn ba. | Chúng ta gặp nhau ngày 15 nhé.
+* Thứ tự ngày tháng ngược với tiếng Việt: năm → tháng → ngày (十月一号 = ngày 1 tháng 10).
+
+@星期 | tinh kỳ
+- 名 | tuần, tuần lễ; thứ (星期一 – thứ Hai)
+> 今天星期几？ | Jīntiān xīngqī jǐ? | Hôm nay thứ mấy?
+> 我星期一到星期五上班。 | Wǒ xīngqīyī dào xīngqīwǔ shàngbān. | Tôi đi làm từ thứ Hai đến thứ Sáu.
+* Chú ý lệch số: 星期一 = thứ HAI, 星期二 = thứ BA… 星期六 = thứ BẢY. Chủ nhật là 星期日 hoặc 星期天.
+
+@星期日 | tinh kỳ nhật
+- 名 | chủ nhật
+> 星期日我们不上课。 | Xīngqīrì wǒmen bú shàngkè. | Chủ nhật chúng tôi không học.
+* 星期日 hơi trang trọng hơn, hay gặp trong văn viết; khẩu ngữ thường nói 星期天.
+
+@星期天 | tinh kỳ thiên
+- 名 | chủ nhật
+> 星期天你想做什么？ | Xīngqītiān nǐ xiǎng zuò shénme? | Chủ nhật bạn muốn làm gì?
+> 这个星期天我去看电影。 | Zhège xīngqītiān wǒ qù kàn diànyǐng. | Chủ nhật này tôi đi xem phim.
+
+@第 | đệ
+- 前缀 | thứ (đặt trước số để chỉ thứ tự)
+> 我们学习第十课。 | Wǒmen xuéxí dì-shí kè. | Chúng ta học bài thứ mười.
+> 第二天他去了医院。 | Dì-èr tiān tā qùle yīyuàn. | Ngày hôm sau anh ấy đã đi bệnh viện.
+* 第一 = thứ nhất; 一 trong 第一 vẫn đọc yī (số thứ tự không biến điệu).

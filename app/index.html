@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Học tiếng Trung HSK</title>
+  <meta name="description" content="Tự học tiếng Trung theo HSK 3.0 – flashcard, ôn tập ngắt quãng">
+  <meta name="theme-color" content="#c0392b">
+  <!-- Cho phép "Thêm vào màn hình chính" trên điện thoại -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Học HSK">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Thanh trên cùng -->
+  <header class="thanh-tren">
+    <a href="#/" class="logo"><span class="logo-chu">学</span> Học HSK</a>
+    <span id="dong-ho" class="dong-ho" hidden></span>
+  </header>
+
+  <!-- Nội dung từng màn hình được vẽ vào đây (xem js/giao-dien.js) -->
+  <main id="noi-dung" class="noi-dung">
+    <p class="dang-tai">Đang tải dữ liệu…</p>
+  </main>
+
+  <!-- Thanh điều hướng dưới cùng (dễ bấm trên điện thoại) -->
+  <nav class="thanh-duoi">
+    <a href="#/" data-muc="trang-chu"><span class="bieu-tuong">🏠</span>Hôm nay</a>
+    <a href="#/bai" data-muc="bai"><span class="bieu-tuong">📚</span>Bài học</a>
+    <a href="#/cai-dat" data-muc="cai-dat"><span class="bieu-tuong">⚙️</span>Cài đặt</a>
+  </nav>
+
+  <!-- Thông báo nhỏ hiện lên rồi tự ẩn -->
+  <div id="thong-bao" class="thong-bao" role="status" aria-live="polite"></div>
+
+  <!-- Nếu trình duyệt quá cũ, không chạy được module -->
+  <script nomodule>
+    document.getElementById('noi-dung').innerHTML =
+      '<p class="loi">Trình duyệt này quá cũ. Hãy dùng Chrome, Edge hoặc Safari bản mới.</p>';
+  </script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

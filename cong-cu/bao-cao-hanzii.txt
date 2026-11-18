@@ -1,0 +1,16 @@
+ĐỐI CHIẾU ÂM HÁN VIỆT VỚI HANZII (https://hanzii.net)
+Khớp: 290 | Khác: 10 | Không có dữ liệu: 0
+
+== KHÁC (cần xem lại) ==
+你好: app ghi 'nễ hảo' — Hanzii ghi [nǐhǎo] nhĩ hảo
+你: app ghi 'nễ' — Hanzii ghi [nǐ] nhĩ
+你们: app ghi 'nễ môn' — Hanzii ghi [nǐmen] nhĩ môn
+爸爸: app ghi 'bá bá' — Hanzii ghi [bàba] BẢ BẢ
+时候: app ghi 'thời hậu' — Hanzii ghi [shíhou] THÌ HẬU
+时间: app ghi 'thời gian' — Hanzii ghi [shíjiān] THÌ GIAN
+小时: app ghi 'tiểu thời' — Hanzii ghi [xiǎoshí] TIỂU THÌ
+好吃: app ghi 'hảo ngật' — Hanzii ghi [hǎochī] HIẾU CẬT
+面条儿: app ghi 'miến điều nhi' — Hanzii ghi [miàntiáor] DIỆN ĐIỀU NHI
+只: app ghi 'chích' — Hanzii ghi [zhī] CHỈ
+
+== KHÔNG CÓ DỮ LIỆU ==

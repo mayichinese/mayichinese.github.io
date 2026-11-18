@@ -1,0 +1,101 @@
+# ===== NGUỒN SOẠN THẢO HSK 1 – BÀI 10 =====
+# Định dạng giống bai-01-05.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1.
+
+# 10 | Vị trí và đồ vật
+
+@在 | tại
+- 动 | ở, có mặt (ở đâu)
+> 妈妈在家。 | Māma zài jiā. | Mẹ ở nhà.
+> 你的书在桌子上。 | Nǐ de shū zài zhuōzi shang. | Sách của bạn ở trên bàn.
+- 介 | ở, tại (chỉ nơi xảy ra hành động)
+> 我在学校学习汉语。 | Wǒ zài xuéxiào xuéxí Hànyǔ. | Tôi học tiếng Trung ở trường.
+- 副 | đang (hành động đang diễn ra)
+> 他在看电视。 | Tā zài kàn diànshì. | Anh ấy đang xem tivi.
+* Trật tự khác tiếng Việt: nơi chốn đứng TRƯỚC động từ — 在学校学习 (học ở trường), không nói 学习在学校.
+
+@里 | lý
+- 名 | trong, bên trong
+> 家里有人吗？ | Jiā li yǒu rén ma? | Trong nhà có ai không?
+> 房间里有两个人。 | Fángjiān li yǒu liǎng gè rén. | Trong phòng có hai người.
+* Đứng SAU danh từ: 房间里 = trong phòng. Khi chỉ vị trí sau danh từ, 里 thường đọc nhẹ thành li.
+
+@上 | thượng
+- 名 | trên, phía trên; trước (thời gian: 上个星期 – tuần trước)
+> 桌子上有一个杯子。 | Zhuōzi shang yǒu yí gè bēizi. | Trên bàn có một cái cốc.
+> 上个星期我很忙。 | Shàng gè xīngqī wǒ hěn máng. | Tuần trước tôi rất bận.
+- 动 | lên (xe, lầu…); đi (học, làm), vào (đại học…)
+> 我们上车吧。 | Wǒmen shàng chē ba. | Chúng ta lên xe thôi.
+> 他上大学了。 | Tā shàng dàxué le. | Cậu ấy lên đại học rồi.
+* Đứng sau danh từ chỉ vị trí (桌子上), 上 thường đọc nhẹ thành shang.
+
+@下 | hạ
+- 名 | dưới, phía dưới; sau, tới (thời gian: 下个星期 – tuần sau)
+> 椅子下边有一只猫。 | Yǐzi xiàbian yǒu yì zhī māo. | Dưới ghế có một con mèo.
+> 下个星期我去中国。 | Xià gè xīngqī wǒ qù Zhōngguó. | Tuần sau tôi đi Trung Quốc.
+- 动 | xuống (xe, lầu…); (mưa, tuyết) rơi
+> 我在这儿下车。 | Wǒ zài zhèr xià chē. | Tôi xuống xe ở đây.
+> 外边下雪了。 | Wàibian xià xuě le. | Bên ngoài tuyết rơi rồi.
+- 量 | lần, cái (đếm số lần một động tác ngắn)
+* Lượng từ 下 hay gặp nhất trong 一下 (yíxià – một chút, một lát), học ở bài 20.
+
+@前 | tiền
+- 名 | trước, phía trước; trước (thời gian)
+> 我家前边有一个超市。 | Wǒ jiā qiánbian yǒu yí gè chāoshì. | Trước nhà tôi có một siêu thị.
+> 三天前我去了医院。 | Sān tiān qián wǒ qùle yīyuàn. | Ba ngày trước tôi đã đi bệnh viện.
+* Chỉ thời gian: số lượng đứng trước 前 — 三天前 = ba ngày trước.
+
+@后 | hậu
+- 名 | sau, phía sau; sau (thời gian)
+> 他在我后边。 | Tā zài wǒ hòubian. | Anh ấy ở phía sau tôi.
+> 下课后我们去吃饭。 | Xiàkè hòu wǒmen qù chī fàn. | Sau giờ học chúng ta đi ăn cơm.
+* Chỉ thời gian: sự việc đứng trước 后 — 下课后 = sau khi tan học (ngược thứ tự với tiếng Việt).
+
+@外 | ngoại
+- 名 | ngoài, bên ngoài
+> 他是外国人。 | Tā shì wàiguó rén. | Anh ấy là người nước ngoài.
+* Trong khẩu ngữ, khi chỉ vị trí thường dùng 外边 hơn là 外 đứng một mình.
+
+@外边 | ngoại biên
+- 名 | bên ngoài
+> 外边很冷。 | Wàibian hěn lěng. | Bên ngoài rất lạnh.
+> 孩子们在外边玩儿。 | Háizimen zài wàibian wánr. | Bọn trẻ đang chơi ở bên ngoài.
+
+@边 | biên
+- 名 | bên, cạnh, mép
+> 我家边上有一个超市。 | Wǒ jiā biānshang yǒu yí gè chāoshì. | Cạnh nhà tôi có một siêu thị.
+- 后缀 | hậu tố chỉ phương hướng, vị trí: phía…, bên… (前边, 后边, 外边…)
+> 医院在前边。 | Yīyuàn zài qiánbian. | Bệnh viện ở phía trước.
+* Khi làm hậu tố, 边 thường đọc nhẹ: qiánbian, wàibian.
+
+@桌子 | trác tử
+- 名 | cái bàn
+> 桌子上有很多书。 | Zhuōzi shang yǒu hěn duō shū. | Trên bàn có rất nhiều sách.
+> 我的桌子很小。 | Wǒ de zhuōzi hěn xiǎo. | Bàn của tôi rất nhỏ.
+
+@椅子 | ỷ tử
+- 名 | cái ghế
+> 这里有椅子，请坐。 | Zhèlǐ yǒu yǐzi, qǐng zuò. | Ở đây có ghế, mời ngồi.
+> 椅子上有一只猫。 | Yǐzi shang yǒu yì zhī māo. | Trên ghế có một con mèo.
+
+@东西 | đông tây
+- 名 | đồ, đồ vật, thứ
+> 我去超市买东西。 | Wǒ qù chāoshì mǎi dōngxi. | Tôi đi siêu thị mua đồ.
+> 这是什么东西？ | Zhè shì shénme dōngxi? | Đây là thứ gì vậy?
+* Đọc dōngxi (西 thanh nhẹ) = đồ vật; đọc dōngxī = phía đông và phía tây.
+
+@手机 | thủ cơ
+- 名 | điện thoại di động
+> 我的手机在哪儿？ | Wǒ de shǒujī zài nǎr? | Điện thoại của tôi đâu rồi?
+> 他在手机上看电影。 | Tā zài shǒujī shang kàn diànyǐng. | Anh ấy xem phim trên điện thoại.
+
+@电脑 | điện não
+- 名 | máy tính
+> 我的电脑是新的。 | Wǒ de diànnǎo shì xīn de. | Máy tính của tôi là máy mới.
+> 他在电脑上写汉字。 | Tā zài diànnǎo shang xiě Hànzì. | Anh ấy viết chữ Hán trên máy tính.
+* Nghĩa đen là “bộ não điện”.
+
+@一些 | nhất ta
+- 数量 | một ít, một vài, một số
+> 我想买一些水果。 | Wǒ xiǎng mǎi yìxiē shuǐguǒ. | Tôi muốn mua một ít hoa quả.
+> 我认识一些中国朋友。 | Wǒ rènshi yìxiē Zhōngguó péngyou. | Tôi quen một vài người bạn Trung Quốc.
+* 一 đọc yì vì đứng trước thanh 1 (xiē).

@@ -1,0 +1,98 @@
+# ===== NGUỒN SOẠN THẢO HSK 1 – BÀI 19 =====
+# Định dạng giống bai-01-05.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1.
+
+# 19 | Giải trí và sở thích
+
+@看 | khán
+- 动 | xem, nhìn; đọc (sách, báo); thăm (người)
+> 我喜欢看电影。 | Wǒ xǐhuan kàn diànyǐng. | Tôi thích xem phim.
+> 我明天去看妈妈。 | Wǒ míngtiān qù kàn māma. | Ngày mai tôi đi thăm mẹ.
+* 看 = nhìn, xem (hành động); 看见 = nhìn thấy (có kết quả).
+
+@看见 | khán kiến
+- 动 | nhìn thấy, trông thấy
+> 你看见我的手机了吗？ | Nǐ kànjiàn wǒ de shǒujī le ma? | Bạn có thấy điện thoại của tôi không?
+> 我没看见他。 | Wǒ méi kànjiàn tā. | Tôi không nhìn thấy anh ấy.
+* Phủ định dùng 没看见, không nói 不看见.
+
+@听 | thính
+- 动 | nghe
+> 你听，外边下雨了。 | Nǐ tīng, wàibian xià yǔ le. | Bạn nghe này, bên ngoài mưa rồi.
+> 我喜欢听中国歌。 | Wǒ xǐhuan tīng Zhōngguó gē. | Tôi thích nghe bài hát Trung Quốc.
+* 听 = nghe (hành động); 听见 = nghe thấy (có kết quả).
+
+@听见 | thính kiến
+- 动 | nghe thấy
+> 你听见了吗？ | Nǐ tīngjiàn le ma? | Bạn có nghe thấy không?
+> 我没听见你说什么。 | Wǒ méi tīngjiàn nǐ shuō shénme. | Tôi không nghe thấy bạn nói gì.
+
+@唱 | xướng
+- 动 | hát
+> 你会唱中国歌吗？ | Nǐ huì chàng Zhōngguó gē ma? | Bạn biết hát bài hát Trung Quốc không?
+> 孩子们在唱歌。 | Háizimen zài chàng gē. | Bọn trẻ đang hát.
+* 唱 là “hát”; đừng nhầm với 喝 hē (uống).
+
+@歌 | ca
+- 名 | bài hát
+> 这个歌很好听。 | Zhège gē hěn hǎotīng. | Bài hát này rất hay.
+> 我很喜欢唱歌。 | Wǒ hěn xǐhuan chàng gē. | Tôi rất thích hát.
+* Lượng từ chuẩn cho bài hát là 首 (học ở cấp sau); trong khẩu ngữ cũng hay nói 这个歌.
+
+@好听 | hảo thính
+- 形 | hay, dễ nghe (âm thanh, bài hát, giọng nói)
+> 你的名字很好听。 | Nǐ de míngzi hěn hǎotīng. | Tên của bạn nghe rất hay.
+> 这个歌真好听！ | Zhège gē zhēn hǎotīng! | Bài hát này hay thật!
+
+@好看 | hảo khán
+- 形 | đẹp (nhìn đẹp); hay (phim, sách)
+> 这件衣服很好看。 | Zhè jiàn yīfu hěn hǎokàn. | Cái áo này rất đẹp.
+> 这个电影不太好看。 | Zhège diànyǐng bú tài hǎokàn. | Bộ phim này không hay lắm.
+* 好 + động từ tạo thành tính từ: 好吃 (ngon), 好看 (đẹp, hay), 好听 (hay, dễ nghe), 好玩儿 (vui).
+
+@好玩儿 | hảo ngoạn nhi
+- 形 | vui, thú vị (để chơi)
+> 中国很好玩儿。 | Zhōngguó hěn hǎowánr. | Đi chơi Trung Quốc rất vui.
+> 那儿有什么好玩儿的？ | Nàr yǒu shénme hǎowánr de? | Ở đó có gì vui không?
+
+@玩 | ngoạn
+- 动 | chơi, đi chơi
+> 星期天我们去哪儿玩？ | Xīngqītiān wǒmen qù nǎr wán? | Chủ nhật chúng ta đi đâu chơi?
+> 你想来我家玩吗？ | Nǐ xiǎng lái wǒ jiā wán ma? | Bạn có muốn đến nhà tôi chơi không?
+* Người miền Bắc Trung Quốc thường nói 玩儿 (wánr).
+
+@电影 | điện ảnh
+- 名 | phim, phim điện ảnh
+> 我们去看电影吧。 | Wǒmen qù kàn diànyǐng ba. | Chúng ta đi xem phim đi.
+> 你喜欢看什么电影？ | Nǐ xǐhuan kàn shénme diànyǐng? | Bạn thích xem phim gì?
+
+@电影院 | điện ảnh viện
+- 名 | rạp chiếu phim
+> 电影院在超市后边。 | Diànyǐngyuàn zài chāoshì hòubian. | Rạp chiếu phim ở phía sau siêu thị.
+> 星期六电影院里人很多。 | Xīngqīliù diànyǐngyuàn li rén hěn duō. | Thứ Bảy trong rạp chiếu phim rất đông người.
+
+@电视 | điện thị
+- 名 | tivi, truyền hình
+> 爸爸在看电视。 | Bàba zài kàn diànshì. | Bố đang xem tivi.
+> 我家的电视是新的。 | Wǒ jiā de diànshì shì xīn de. | Tivi nhà tôi là tivi mới.
+
+@爱 | ái
+- 动 | yêu; thích, hay (làm gì)
+> 我爱我的家。 | Wǒ ài wǒ de jiā. | Tôi yêu gia đình tôi.
+> 他很爱看书。 | Tā hěn ài kàn shū. | Anh ấy rất thích đọc sách.
+* 爱 + động từ = hay, thích (làm gì): 爱说话 = hay nói chuyện.
+
+@喜欢 | hỉ hoan
+- 动 | thích
+> 你喜欢什么？ | Nǐ xǐhuan shénme? | Bạn thích gì?
+> 我很喜欢学习汉语。 | Wǒ hěn xǐhuan xuéxí Hànyǔ. | Tôi rất thích học tiếng Trung.
+* 喜欢 có mức độ nhẹ hơn 爱.
+
+@狗 | cẩu
+- 名 | con chó
+> 我家有一只小狗。 | Wǒ jiā yǒu yì zhī xiǎo gǒu. | Nhà tôi có một con chó nhỏ.
+> 你喜欢狗吗？ | Nǐ xǐhuan gǒu ma? | Bạn có thích chó không?
+
+@猫 | miêu
+- 名 | con mèo
+> 这只猫很漂亮。 | Zhè zhī māo hěn piàoliang. | Con mèo này rất đẹp.
+> 猫在椅子上睡觉。 | Māo zài yǐzi shang shuìjiào. | Con mèo đang ngủ trên ghế.

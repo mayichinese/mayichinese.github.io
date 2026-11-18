@@ -1,0 +1,91 @@
+# ===== NGUỒN SOẠN THẢO HSK 1 – BÀI 12 =====
+# Định dạng giống bai-01-05.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1.
+
+# 12 | Giờ giấc
+
+@现在 | hiện tại
+- 名 | bây giờ, hiện nay
+> 我现在很忙。 | Wǒ xiànzài hěn máng. | Bây giờ tôi đang rất bận.
+> 他现在在中国工作。 | Tā xiànzài zài Zhōngguó gōngzuò. | Hiện nay anh ấy làm việc ở Trung Quốc.
+
+@时候 | thời hậu
+- 名 | lúc, khi, thời điểm
+> 你什么时候去中国？ | Nǐ shénme shíhou qù Zhōngguó? | Khi nào bạn đi Trung Quốc?
+> 我在中国的时候，学了很多汉语。 | Wǒ zài Zhōngguó de shíhou, xuéle hěn duō Hànyǔ. | Lúc ở Trung Quốc, tôi đã học được nhiều tiếng Trung.
+* “… 的时候” = khi …, lúc … — sự việc đứng TRƯỚC 的时候 (ngược với tiếng Việt).
+
+@时间 | thời gian
+- 名 | thời gian
+> 你明天有时间吗？ | Nǐ míngtiān yǒu shíjiān ma? | Ngày mai bạn có thời gian không?
+> 我没有时间看电视。 | Wǒ méiyǒu shíjiān kàn diànshì. | Tôi không có thời gian xem tivi.
+* Phân biệt: 时间 = thời gian (một khoảng); 时候 = lúc, thời điểm.
+
+@点1 | điểm
+- 量 | giờ (chỉ thời điểm)
+> 我们几点见？ | Wǒmen jǐ diǎn jiàn? | Mấy giờ chúng ta gặp nhau?
+> 我早上七点起床。 | Wǒ zǎoshang qī diǎn qǐchuáng. | Tôi dậy lúc bảy giờ sáng.
+* Hai giờ nói 两点, không nói 二点.
+* Theo danh sách chính thức, 点 dùng như danh từ thuộc cấp 3.
+
+@分 | phân
+- 量 | phút (chỉ thời điểm); xu (đơn vị tiền nhỏ, 1 块 = 100 分)
+> 现在八点十分。 | Xiànzài bā diǎn shí fēn. | Bây giờ là tám giờ mười phút.
+> 他七点五十分到学校。 | Tā qī diǎn wǔshí fēn dào xuéxiào. | Anh ấy đến trường lúc bảy giờ năm mươi phút.
+* 分 chỉ thời điểm (八点十分); nói khoảng thời gian thì dùng 分钟 (十分钟).
+* Theo danh sách chính thức, 分 dùng như động từ (chia), danh từ (điểm số) thuộc cấp 3.
+
+@分钟 | phân chung
+- 量 | phút (khoảng thời gian)
+> 我休息十分钟。 | Wǒ xiūxi shí fēnzhōng. | Tôi nghỉ mười phút.
+> 他看了二十分钟书。 | Tā kànle èrshí fēnzhōng shū. | Anh ấy đọc sách hai mươi phút.
+
+@小时 | tiểu thời
+- 名 | giờ, tiếng đồng hồ (khoảng thời gian)
+> 我学习了两个小时。 | Wǒ xuéxíle liǎng gè xiǎoshí. | Tôi đã học hai tiếng.
+> 一天有二十四个小时。 | Yì tiān yǒu èrshísì gè xiǎoshí. | Một ngày có hai mươi bốn giờ.
+* Phân biệt: 两点 = lúc hai giờ (thời điểm); 两个小时 = hai tiếng (khoảng thời gian).
+
+@半 | bán
+- 数 | rưỡi, nửa
+> 现在三点半。 | Xiànzài sān diǎn bàn. | Bây giờ là ba giờ rưỡi.
+> 我学了半年汉语。 | Wǒ xuéle bàn nián Hànyǔ. | Tôi đã học tiếng Trung nửa năm.
+* 半 + lượng từ = nửa … (半个小时, 半年); số + lượng từ + 半 = … rưỡi (一个半小时 = một tiếng rưỡi).
+* Theo danh sách chính thức, 半 dùng như phó từ thuộc cấp 4.
+
+@一半 | nhất bán
+- 数 | một nửa
+> 这个苹果，我吃一半，你吃一半。 | Zhège píngguǒ, wǒ chī yíbàn, nǐ chī yíbàn. | Quả táo này, tôi ăn một nửa, bạn ăn một nửa.
+> 我们班一半的学生是中国人。 | Wǒmen bān yíbàn de xuéshēng shì Zhōngguó rén. | Một nửa số học sinh lớp chúng tôi là người Trung Quốc.
+* 一 đọc yí vì đứng trước thanh 4 (bàn).
+
+@早上 | tảo thượng
+- 名 | buổi sáng, sáng sớm
+> 早上好！ | Zǎoshang hǎo! | Chào buổi sáng!
+> 我早上喝牛奶。 | Wǒ zǎoshang hē niúnǎi. | Buổi sáng tôi uống sữa.
+
+@上午 | thượng ngọ
+- 名 | buổi sáng (đến trước 12 giờ trưa)
+> 我上午有课。 | Wǒ shàngwǔ yǒu kè. | Buổi sáng tôi có tiết học.
+> 明天上午十点见。 | Míngtiān shàngwǔ shí diǎn jiàn. | Mười giờ sáng mai gặp nhé.
+* 早上 = sáng sớm (khoảng 5–9 giờ); 上午 = cả buổi sáng cho đến trưa.
+
+@中午 | trung ngọ
+- 名 | buổi trưa
+> 中午你想吃什么？ | Zhōngwǔ nǐ xiǎng chī shénme? | Buổi trưa bạn muốn ăn gì?
+> 我中午休息一个小时。 | Wǒ zhōngwǔ xiūxi yí gè xiǎoshí. | Buổi trưa tôi nghỉ một tiếng.
+
+@下午 | hạ ngọ
+- 名 | buổi chiều
+> 下午我去超市。 | Xiàwǔ wǒ qù chāoshì. | Buổi chiều tôi đi siêu thị.
+> 今天下午没有课。 | Jīntiān xiàwǔ méiyǒu kè. | Chiều nay không có tiết học.
+
+@晚上 | vãn thượng
+- 名 | buổi tối
+> 晚上你做什么？ | Wǎnshang nǐ zuò shénme? | Buổi tối bạn làm gì?
+> 我晚上十一点睡觉。 | Wǒ wǎnshang shíyī diǎn shuìjiào. | Tôi đi ngủ lúc mười một giờ tối.
+* Mốc thời gian lớn đứng trước: 晚上十一点 (ngược với tiếng Việt “11 giờ tối”).
+
+@白天 | bạch thiên
+- 名 | ban ngày
+> 白天我在公司工作。 | Báitiān wǒ zài gōngsī gōngzuò. | Ban ngày tôi làm việc ở công ty.
+> 白天很热，晚上很冷。 | Báitiān hěn rè, wǎnshang hěn lěng. | Ban ngày rất nóng, buổi tối rất lạnh.

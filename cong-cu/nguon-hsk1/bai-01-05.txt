@@ -1,0 +1,428 @@
+# ===== NGUỒN SOẠN THẢO HSK 1 (bài 1–5) =====
+# Định dạng:
+#   # <số bài> | <tên bài>
+#   @<từ đúng như danh sách chính thức> | <âm Hán Việt>
+#   - <từ loại theo ký hiệu chính thức: 名 动 形 副 代 数 量 助 介 连 叹 前缀 后缀 数量, hoặc "cụm"> | <nghĩa tiếng Việt>
+#   > <câu ví dụ chữ Hán> | <pinyin> | <dịch tiếng Việt>
+#   * <ghi chú cách dùng>
+#   ? <trường cần kiểm tra: hanViet / nghia / viDu> | <lý do>
+
+# 1 | Chào hỏi và lịch sự
+
+@你好 | nễ hảo
+- cụm | xin chào (câu chào thông dụng)
+? hanViet | mình ghi “nễ”, Hanzii ghi “nhĩ hảo” — chọn một cách đọc
+> 你好！ | Nǐ hǎo! | Xin chào!
+> 老师，你好！ | Lǎoshī, nǐ hǎo! | Em chào thầy/cô ạ!
+
+@你 | nễ
+- 代 | bạn, anh, chị, em… (ngôi thứ hai số ít)
+? hanViet | mình ghi “nễ”, Hanzii ghi “nhĩ” — chọn một cách đọc
+> 你是学生吗？ | Nǐ shì xuéshēng ma? | Bạn là học sinh phải không?
+> 我爱你。 | Wǒ ài nǐ. | Anh yêu em. / Tôi yêu bạn.
+
+@我 | ngã
+- 代 | tôi, mình, em, anh… (ngôi thứ nhất số ít)
+> 我是中国人。 | Wǒ shì Zhōngguó rén. | Tôi là người Trung Quốc.
+> 我很好。 | Wǒ hěn hǎo. | Tôi khỏe.
+
+@您 | nâm
+- 代 | ông, bà, ngài, thầy, cô… (cách gọi lịch sự, kính trọng của 你)
+> 您好！ | Nín hǎo! | Chào ông/bà ạ!
+> 老师，您请坐。 | Lǎoshī, nín qǐng zuò. | Thưa thầy/cô, mời thầy/cô ngồi.
+
+@好 | hảo
+- 形 | tốt, hay, giỏi; khỏe; được, ổn (dùng để đồng ý)
+> 他是好人。 | Tā shì hǎo rén. | Anh ấy là người tốt.
+> 我很好，谢谢！ | Wǒ hěn hǎo, xièxie! | Tôi khỏe, cảm ơn!
+> 好，我们去吧。 | Hǎo, wǒmen qù ba. | Được, chúng ta đi thôi.
+
+@再见 | tái kiến
+- 动 | tạm biệt, hẹn gặp lại
+> 老师，再见！ | Lǎoshī, zàijiàn! | Em chào thầy/cô ạ! (khi ra về)
+> 再见，明天见！ | Zàijiàn, míngtiān jiàn! | Tạm biệt, mai gặp nhé!
+
+@谢谢 | tạ tạ
+- 动 | cảm ơn
+> 谢谢你！ | Xièxie nǐ! | Cảm ơn bạn!
+> 谢谢老师！ | Xièxie lǎoshī! | Em cảm ơn thầy/cô!
+
+@不客气 | bất khách khí
+- cụm | không có gì, đừng khách sáo (đáp lại lời cảm ơn)
+> ——谢谢你！——不客气。 | —Xièxie nǐ! —Bú kèqi. | — Cảm ơn bạn! — Không có gì.
+* 不 ở đây đọc bú vì đứng trước thanh 4 (kè).
+
+@对不起 | đối bất khởi
+- 动 | xin lỗi
+> 对不起，我来晚了。 | Duìbuqǐ, wǒ lái wǎn le. | Xin lỗi, tôi đến muộn.
+> 对不起，我不知道。 | Duìbuqǐ, wǒ bù zhīdào. | Xin lỗi, tôi không biết.
+
+@没关系 | một quan hệ
+- cụm | không sao, không có gì (đáp lại lời xin lỗi)
+> ——对不起！——没关系。 | —Duìbuqǐ! —Méi guānxi. | — Xin lỗi! — Không sao đâu.
+
+@没事 | một sự
+- 动 | không sao, không có chuyện gì; rảnh, không có việc gì
+> 我没事，谢谢。 | Wǒ méishì, xièxie. | Tôi không sao, cảm ơn.
+> 明天我没事。 | Míngtiān wǒ méishì. | Ngày mai tôi rảnh (không có việc gì).
+
+@请 | thỉnh
+- 动 | mời; xin, vui lòng (đề nghị lịch sự); mời, đãi (ăn uống)
+> 请坐！ | Qǐng zuò! | Mời ngồi!
+> 请喝茶。 | Qǐng hē chá. | Mời uống trà.
+> 今天我请你吃饭。 | Jīntiān wǒ qǐng nǐ chī fàn. | Hôm nay tôi mời bạn ăn cơm.
+
+@请问 | thỉnh vấn
+- 动 | xin hỏi, cho hỏi
+> 请问，你叫什么名字？ | Qǐngwèn, nǐ jiào shénme míngzi? | Xin hỏi, bạn tên là gì?
+> 请问，医院在哪儿？ | Qǐngwèn, yīyuàn zài nǎr? | Cho hỏi, bệnh viện ở đâu?
+
+@喂1 | uy
+- 叹 | a lô (khi gọi, nghe điện thoại); này (gọi người khác)
+> 喂，你好！ | Wèi, nǐ hǎo! | A lô, xin chào!
+> 喂，你在哪儿？ | Wèi, nǐ zài nǎr? | A lô, bạn đang ở đâu?
+* Khi nghe điện thoại, người Trung Quốc thường đọc thành wéi.
+
+@大家 | đại gia
+- 代 | mọi người
+> 大家好！ | Dàjiā hǎo! | Chào mọi người!
+> 大家都很高兴。 | Dàjiā dōu hěn gāoxìng. | Mọi người đều rất vui.
+* Khác với “đại gia” (người giàu) trong tiếng Việt: 大家 nghĩa là “mọi người”.
+
+# 2 | Tôi là ai?
+
+@他 | tha
+- 代 | anh ấy, ông ấy, cậu ấy (ngôi thứ ba, nam)
+> 他是我哥哥。 | Tā shì wǒ gēge. | Anh ấy là anh trai tôi.
+> 他不是老师。 | Tā bú shì lǎoshī. | Anh ấy không phải là giáo viên.
+
+@她 | tha
+- 代 | cô ấy, chị ấy, bà ấy (ngôi thứ ba, nữ)
+> 她是我妈妈。 | Tā shì wǒ māma. | Bà ấy là mẹ tôi.
+> 她叫什么名字？ | Tā jiào shénme míngzi? | Cô ấy tên là gì?
+* 他, 她, 它 đều đọc là tā, chỉ khác cách viết.
+
+@它 | tha
+- 代 | nó (chỉ con vật, đồ vật)
+> 我家有一只狗，它很小。 | Wǒ jiā yǒu yì zhī gǒu, tā hěn xiǎo. | Nhà tôi có một con chó, nó rất nhỏ.
+
+@我们 | ngã môn
+- 代 | chúng tôi, chúng ta
+> 我们是同学。 | Wǒmen shì tóngxué. | Chúng tôi là bạn học.
+> 我们去吃饭吧。 | Wǒmen qù chī fàn ba. | Chúng ta đi ăn cơm đi.
+
+@你们 | nễ môn
+- 代 | các bạn, các anh chị
+? hanViet | mình ghi “nễ”, Hanzii ghi “nhĩ môn” — chọn một cách đọc
+> 你们好！ | Nǐmen hǎo! | Chào các bạn!
+> 你们是哪国人？ | Nǐmen shì nǎ guó rén? | Các bạn là người nước nào?
+
+@他们 | tha môn
+- 代 | họ, các anh ấy (cũng dùng cho nhóm có cả nam và nữ)
+> 他们都是中国人。 | Tāmen dōu shì Zhōngguó rén. | Họ đều là người Trung Quốc.
+> 他们在学校。 | Tāmen zài xuéxiào. | Họ đang ở trường.
+
+@她们 | tha môn
+- 代 | các cô ấy, các chị ấy (nhóm toàn nữ)
+> 她们是我的同学。 | Tāmen shì wǒ de tóngxué. | Các cô ấy là bạn học của tôi.
+
+@它们 | tha môn
+- 代 | chúng nó (chỉ nhiều con vật, đồ vật)
+> 我有两只猫，它们都很漂亮。 | Wǒ yǒu liǎng zhī māo, tāmen dōu hěn piàoliang. | Tôi có hai con mèo, chúng đều rất đẹp.
+
+@们 | môn
+- 后缀 | hậu tố chỉ số nhiều, đặt sau đại từ hoặc danh từ chỉ người: các…, chúng…
+> 同学们好！ | Tóngxuémen hǎo! | Chào các bạn!
+> 老师们都很忙。 | Lǎoshīmen dōu hěn máng. | Các thầy cô đều rất bận.
+* Không dùng 们 khi phía trước đã có số lượng: nói 三个老师, không nói 三个老师们.
+
+@人 | nhân
+- 名 | người
+> 你是哪国人？ | Nǐ shì nǎ guó rén? | Bạn là người nước nào?
+> 那个人是谁？ | Nàge rén shì shéi? | Người kia là ai?
+
+@是 | thị
+- 动 | là
+> 我是学生。 | Wǒ shì xuéshēng. | Tôi là học sinh.
+> 这是我的书。 | Zhè shì wǒ de shū. | Đây là sách của tôi.
+* Phủ định: 不是 (bú shì) — không phải là.
+
+@不 | bất
+- 副 | không (phủ định ý muốn, thói quen, tính chất, hiện tại, tương lai)
+> 我不是老师。 | Wǒ bú shì lǎoshī. | Tôi không phải là giáo viên.
+> 今天不冷。 | Jīntiān bù lěng. | Hôm nay không lạnh.
+* Biến điệu: 不 đọc bù, nhưng đứng trước thanh 4 thì đọc bú (不是 bú shì, 不去 bú qù).
+* Phủ định việc đã xảy ra thì dùng 没(有), không dùng 不.
+
+@吗 | ma
+- 助 | trợ từ cuối câu hỏi có/không: …không?, …phải không?
+> 你是中国人吗？ | Nǐ shì Zhōngguó rén ma? | Bạn là người Trung Quốc phải không?
+> 你喜欢喝茶吗？ | Nǐ xǐhuan hē chá ma? | Bạn có thích uống trà không?
+
+@叫 | khiếu
+- 动 | tên là, gọi là; gọi (ai đó)
+> 我叫小明。 | Wǒ jiào Xiǎomíng. | Tôi tên là Tiểu Minh.
+> 妈妈叫我回家。 | Māma jiào wǒ huí jiā. | Mẹ gọi tôi về nhà.
+
+@名字 | danh tự
+- 名 | tên
+> 你叫什么名字？ | Nǐ jiào shénme míngzi? | Bạn tên là gì?
+> 我不知道他的名字。 | Wǒ bù zhīdào tā de míngzi. | Tôi không biết tên anh ấy.
+
+# 3 | Quốc gia và ngôn ngữ
+
+@中国 | Trung Quốc
+- 名 | Trung Quốc
+> 我想去中国。 | Wǒ xiǎng qù Zhōngguó. | Tôi muốn đi Trung Quốc.
+> 他是中国人。 | Tā shì Zhōngguó rén. | Anh ấy là người Trung Quốc.
+
+@国 | quốc
+- 名 | nước, quốc gia
+> 你是哪国人？ | Nǐ shì nǎ guó rén? | Bạn là người nước nào?
+> 中国是一个大国。 | Zhōngguó shì yí gè dà guó. | Trung Quốc là một nước lớn.
+
+@中文 | Trung văn
+- 名 | tiếng Trung, chữ Trung (ngôn ngữ, chữ viết của người Trung Quốc)
+> 你会说中文吗？ | Nǐ huì shuō Zhōngwén ma? | Bạn biết nói tiếng Trung không?
+> 这是一本中文书。 | Zhè shì yì běn Zhōngwén shū. | Đây là một quyển sách tiếng Trung.
+
+@汉语 | Hán ngữ
+- 名 | tiếng Hán, tiếng Trung (tiếng phổ thông)
+> 我在学习汉语。 | Wǒ zài xuéxí Hànyǔ. | Tôi đang học tiếng Trung.
+> 他的汉语很好。 | Tā de Hànyǔ hěn hǎo. | Tiếng Trung của anh ấy rất giỏi.
+
+@汉字 | Hán tự
+- 名 | chữ Hán
+> 你会写汉字吗？ | Nǐ huì xiě Hànzì ma? | Bạn biết viết chữ Hán không?
+> 这个汉字怎么读？ | Zhège Hànzì zěnme dú? | Chữ Hán này đọc thế nào?
+
+@字 | tự
+- 名 | chữ
+> 这个字我不认识。 | Zhège zì wǒ bú rènshi. | Chữ này tôi không biết.
+> 他的字很漂亮。 | Tā de zì hěn piàoliang. | Chữ của anh ấy rất đẹp.
+
+@说 | thuyết
+- 动 | nói
+> 他会说汉语。 | Tā huì shuō Hànyǔ. | Anh ấy biết nói tiếng Trung.
+> 请你再说一下。 | Qǐng nǐ zài shuō yíxià. | Bạn vui lòng nói lại một lần nữa.
+
+@说话 | thuyết thoại
+- 动 | nói chuyện, nói
+> 上课的时候不要说话。 | Shàngkè de shíhou búyào shuōhuà. | Trong giờ học đừng nói chuyện.
+> 他不太爱说话。 | Tā bú tài ài shuōhuà. | Anh ấy không thích nói chuyện lắm.
+* Từ ly hợp (động từ + tân ngữ): không thêm tân ngữ phía sau. Nói 和他说话, không nói 说话他.
+
+@呢 | ni
+- 助 | trợ từ cuối câu: hỏi lại “còn… thì sao?”; hỏi “… đâu?”; biểu thị hành động đang diễn ra
+> 我很好，你呢？ | Wǒ hěn hǎo, nǐ ne? | Tôi khỏe, còn bạn?
+> 我的手机呢？ | Wǒ de shǒujī ne? | Điện thoại của tôi đâu rồi?
+> 他在睡觉呢。 | Tā zài shuìjiào ne. | Anh ấy đang ngủ.
+
+@哪 | na
+- 代 | nào (để hỏi, đứng trước lượng từ hoặc danh từ)
+> 你是哪国人？ | Nǐ shì nǎ guó rén? | Bạn là người nước nào?
+> 你想买哪本书？ | Nǐ xiǎng mǎi nǎ běn shū? | Bạn muốn mua quyển sách nào?
+* Phân biệt: 哪 nǎ (nào? – thanh 3) và 那 nà (kia, đó – thanh 4).
+
+@哪儿 | na nhi
+- 代 | đâu, ở đâu
+> 你去哪儿？ | Nǐ qù nǎr? | Bạn đi đâu?
+> 你家在哪儿？ | Nǐ jiā zài nǎr? | Nhà bạn ở đâu?
+* 儿 ở đây là âm cuốn lưỡi (儿化), đọc dính vào âm trước: nǎr. Người miền Bắc Trung Quốc hay dùng 哪儿, miền Nam hay dùng 哪里.
+
+@哪里 | na lý
+- 代 | đâu, ở đâu (= 哪儿); (nói lặp 哪里哪里) đâu có, quá khen (đáp lại lời khen)
+> 请问，超市在哪里？ | Qǐngwèn, chāoshì zài nǎlǐ? | Xin hỏi, siêu thị ở đâu?
+> ——你的汉语真好！——哪里哪里。 | —Nǐ de Hànyǔ zhēn hǎo! —Nǎlǐ nǎlǐ. | — Tiếng Trung của bạn giỏi thật! — Đâu có, đâu có.
+* 哪里 thường đọc nhẹ thành nǎli; hai thanh 3 liền nhau nên chữ 哪 đọc gần như thanh 2.
+
+@什么 | thậm ma
+- 代 | gì, cái gì
+> 这是什么？ | Zhè shì shénme? | Đây là cái gì?
+> 你想吃什么？ | Nǐ xiǎng chī shénme? | Bạn muốn ăn gì?
+
+@谁 | thùy
+- 代 | ai
+> 他是谁？ | Tā shì shéi? | Anh ấy là ai?
+> 这是谁的书？ | Zhè shì shéi de shū? | Đây là sách của ai?
+* Có hai cách đọc: shéi (phổ biến trong khẩu ngữ) và shuí.
+
+@会1 | hội
+- 动 | biết (làm việc gì đó nhờ học, luyện tập mà có)
+> 我会说一点儿汉语。 | Wǒ huì shuō yìdiǎnr Hànyǔ. | Tôi biết nói một chút tiếng Trung.
+> 你会开车吗？ | Nǐ huì kāichē ma? | Bạn biết lái xe không?
+* 会 còn có nghĩa “sẽ (có khả năng xảy ra)”, ví dụ 明天会下雨 – Ngày mai sẽ mưa.
+
+# 4 | Số đếm
+
+@一 | nhất
+- 数 | một
+> 我有一个哥哥。 | Wǒ yǒu yí gè gēge. | Tôi có một anh trai.
+> 今天是一月一日。 | Jīntiān shì yīyuè yī rì. | Hôm nay là ngày 1 tháng 1.
+* Biến điệu: đọc yī khi đứng một mình, khi đếm, khi là số thứ tự; đọc yí trước thanh 4 (一个 yí gè); đọc yì trước thanh 1, 2, 3 (一本 yì běn).
+
+@二 | nhị
+- 数 | hai (dùng khi đếm, số thứ tự, số có nhiều chữ số)
+> 一、二、三！ | Yī, èr, sān! | Một, hai, ba!
+> 今天是二月二十号。 | Jīntiān shì èryuè èrshí hào. | Hôm nay là ngày 20 tháng 2.
+* Trước lượng từ dùng 两, không dùng 二: 两个人 (hai người).
+
+@三 | tam
+- 数 | ba
+> 我家有三口人。 | Wǒ jiā yǒu sān kǒu rén. | Nhà tôi có ba người.
+> 我学了三个月汉语。 | Wǒ xuéle sān gè yuè Hànyǔ. | Tôi đã học tiếng Trung ba tháng.
+
+@四 | tứ
+- 数 | bốn
+> 他今年四岁。 | Tā jīnnián sì suì. | Năm nay cậu bé bốn tuổi.
+> 我买了四个苹果。 | Wǒ mǎile sì gè píngguǒ. | Tôi đã mua bốn quả táo.
+* Chú ý phân biệt sì (bốn, 四) và shí (mười, 十).
+
+@五 | ngũ
+- 数 | năm (số 5)
+> 我家有五口人。 | Wǒ jiā yǒu wǔ kǒu rén. | Nhà tôi có năm người.
+> 现在五点。 | Xiànzài wǔ diǎn. | Bây giờ là năm giờ.
+
+@六 | lục
+- 数 | sáu
+> 我六点起床。 | Wǒ liù diǎn qǐchuáng. | Tôi dậy lúc sáu giờ.
+> 他六岁了。 | Tā liù suì le. | Cậu bé sáu tuổi rồi.
+
+@七 | thất
+- 数 | bảy
+> 一个星期有七天。 | Yí gè xīngqī yǒu qī tiān. | Một tuần có bảy ngày.
+> 七月很热。 | Qīyuè hěn rè. | Tháng bảy rất nóng.
+
+@八 | bát
+- 数 | tám
+> 我八点上课。 | Wǒ bā diǎn shàngkè. | Tôi vào học lúc tám giờ.
+> 这个八块钱。 | Zhège bā kuài qián. | Cái này tám đồng.
+
+@九 | cửu
+- 数 | chín
+> 九月我去中国。 | Jiǔyuè wǒ qù Zhōngguó. | Tháng chín tôi đi Trung Quốc.
+> 他晚上九点睡觉。 | Tā wǎnshang jiǔ diǎn shuìjiào. | Anh ấy đi ngủ lúc chín giờ tối.
+
+@十 | thập
+- 数 | mười
+> 他十岁了。 | Tā shí suì le. | Cậu bé mười tuổi rồi.
+> 今天是十二月十号。 | Jīntiān shì shí'èryuè shí hào. | Hôm nay là ngày 10 tháng 12.
+
+@零 | linh
+- 数 | số không; linh, lẻ (trong số đếm)
+> 这本书一百零五块。 | Zhè běn shū yìbǎi líng wǔ kuài. | Quyển sách này một trăm linh năm đồng.
+> 现在两点零五分。 | Xiànzài liǎng diǎn líng wǔ fēn. | Bây giờ là hai giờ năm phút.
+
+@两1 | lưỡng
+- 数 | hai (dùng trước lượng từ)
+> 我有两个妹妹。 | Wǒ yǒu liǎng gè mèimei. | Tôi có hai em gái.
+> 现在两点。 | Xiànzài liǎng diǎn. | Bây giờ là hai giờ.
+* 两 dùng trước lượng từ (两个, 两本, 两点); 二 dùng khi đếm, số thứ tự (第二) và trong số như 十二, 二十.
+
+@百 | bách
+- 数 | trăm
+> 这件衣服三百块。 | Zhè jiàn yīfu sānbǎi kuài. | Cái áo này ba trăm đồng.
+> 我们学校有一百个老师。 | Wǒmen xuéxiào yǒu yìbǎi gè lǎoshī. | Trường chúng tôi có một trăm giáo viên.
+
+@千 | thiên
+- 数 | nghìn
+> 这个电脑五千块。 | Zhège diànnǎo wǔqiān kuài. | Cái máy tính này năm nghìn đồng.
+> 这本书有一千个字。 | Zhè běn shū yǒu yìqiān gè zì. | Quyển sách này có một nghìn chữ.
+
+@几 | kỷ
+- 代 | mấy (hỏi số lượng, thường dưới 10)
+> 你家有几口人？ | Nǐ jiā yǒu jǐ kǒu rén? | Nhà bạn có mấy người?
+> 现在几点？ | Xiànzài jǐ diǎn? | Bây giờ là mấy giờ?
+- 数 | vài, mấy (số lượng nhỏ, không xác định)
+> 我有几个中国朋友。 | Wǒ yǒu jǐ gè Zhōngguó péngyou. | Tôi có vài người bạn Trung Quốc.
+
+# 5 | Gia đình
+
+@爸爸 | bá bá
+- 名 | bố, ba
+? hanViet | mình ghi “bá”, Hanzii ghi “bả bả” — cần đối chiếu
+> 我爸爸是医生。 | Wǒ bàba shì yīshēng. | Bố tôi là bác sĩ.
+> 爸爸在公司工作。 | Bàba zài gōngsī gōngzuò. | Bố làm việc ở công ty.
+
+@妈妈 | ma ma
+- 名 | mẹ, má
+> 妈妈在做饭。 | Māma zài zuò fàn. | Mẹ đang nấu cơm.
+> 我很爱我妈妈。 | Wǒ hěn ài wǒ māma. | Tôi rất yêu mẹ tôi.
+
+@哥哥 | ca ca
+- 名 | anh trai
+> 我哥哥是大学生。 | Wǒ gēge shì dàxuéshēng. | Anh trai tôi là sinh viên đại học.
+> 你有哥哥吗？ | Nǐ yǒu gēge ma? | Bạn có anh trai không?
+
+@姐姐 | thư thư
+- 名 | chị gái
+> 我姐姐很漂亮。 | Wǒ jiějie hěn piàoliang. | Chị gái tôi rất xinh.
+> 姐姐在医院工作。 | Jiějie zài yīyuàn gōngzuò. | Chị gái làm việc ở bệnh viện.
+
+@弟弟 | đệ đệ
+- 名 | em trai
+> 我弟弟今年八岁。 | Wǒ dìdi jīnnián bā suì. | Em trai tôi năm nay tám tuổi.
+> 弟弟喜欢看电视。 | Dìdi xǐhuan kàn diànshì. | Em trai thích xem tivi.
+
+@妹妹 | muội muội
+- 名 | em gái
+> 我有一个妹妹。 | Wǒ yǒu yí gè mèimei. | Tôi có một em gái.
+> 妹妹是小学生。 | Mèimei shì xiǎoxuéshēng. | Em gái là học sinh tiểu học.
+
+@儿子 | nhi tử
+- 名 | con trai
+> 他有一个儿子。 | Tā yǒu yí gè érzi. | Anh ấy có một đứa con trai.
+> 我儿子今年上小学。 | Wǒ érzi jīnnián shàng xiǎoxué. | Con trai tôi năm nay vào tiểu học.
+
+@女儿 | nữ nhi
+- 名 | con gái
+> 她女儿很漂亮。 | Tā nǚ'ér hěn piàoliang. | Con gái cô ấy rất xinh.
+> 我女儿喜欢唱歌。 | Wǒ nǚ'ér xǐhuan chàng gē. | Con gái tôi thích hát.
+
+@孩子 | hài tử
+- 名 | trẻ em, đứa trẻ; con (cái)
+> 你有孩子吗？ | Nǐ yǒu háizi ma? | Bạn có con chưa?
+> 这个孩子几岁了？ | Zhège háizi jǐ suì le? | Đứa bé này mấy tuổi rồi?
+
+@家 | gia
+- 名 | nhà, gia đình
+> 我家有四口人。 | Wǒ jiā yǒu sì kǒu rén. | Nhà tôi có bốn người.
+> 我回家了。 | Wǒ huí jiā le. | Tôi về nhà đây. / Tôi về nhà rồi.
+- 量 | lượng từ cho cửa hàng, công ty, nhà hàng…
+> 这家超市很大。 | Zhè jiā chāoshì hěn dà. | Siêu thị này rất rộng.
+> 他在一家公司工作。 | Tā zài yì jiā gōngsī gōngzuò. | Anh ấy làm việc ở một công ty.
+
+@家人 | gia nhân
+- 名 | người nhà, gia đình
+> 我很想家人。 | Wǒ hěn xiǎng jiārén. | Tôi rất nhớ người nhà.
+> 我的家人都很好。 | Wǒ de jiārén dōu hěn hǎo. | Người nhà tôi đều khỏe.
+* Khác “gia nhân” (người giúp việc) trong tiếng Việt: 家人 là người trong gia đình.
+
+@口 | khẩu
+- 名 | miệng; cửa, lối ra vào (trong từ ghép)
+- 量 | lượng từ đếm số người trong gia đình
+> 你家有几口人？ | Nǐ jiā yǒu jǐ kǒu rén? | Nhà bạn có mấy người?
+> 我家有三口人：爸爸、妈妈和我。 | Wǒ jiā yǒu sān kǒu rén: bàba, māma hé wǒ. | Nhà tôi có ba người: bố, mẹ và tôi.
+* Lượng từ 口 chỉ dùng cho người trong gia đình; đếm người nói chung dùng 个 (三个人).
+
+@有 | hữu
+- 动 | có (sở hữu); có (tồn tại ở đâu đó)
+> 我有一个姐姐。 | Wǒ yǒu yí gè jiějie. | Tôi có một chị gái.
+> 桌子上有一本书。 | Zhuōzi shang yǒu yì běn shū. | Trên bàn có một quyển sách.
+* Phủ định của 有 là 没有, không nói 不有.
+
+@没有 | một hữu
+- 动 | không có
+> 我没有哥哥。 | Wǒ méiyǒu gēge. | Tôi không có anh trai.
+> 家里没有人。 | Jiā li méiyǒu rén. | Trong nhà không có ai.
+- 副 | chưa, không (phủ định việc đã xảy ra)
+> 我昨天没有去学校。 | Wǒ zuótiān méiyǒu qù xuéxiào. | Hôm qua tôi không đến trường.
+> 他还没有起床。 | Tā hái méiyǒu qǐchuáng. | Anh ấy vẫn chưa dậy.
+
+@和1 | hòa
+- 介 | với, cùng với
+> 我想和你说话。 | Wǒ xiǎng hé nǐ shuōhuà. | Tôi muốn nói chuyện với bạn.
+- 连 | và
+> 我和他都是学生。 | Wǒ hé tā dōu shì xuéshēng. | Tôi và anh ấy đều là học sinh.
+> 我喜欢猫和狗。 | Wǒ xǐhuan māo hé gǒu. | Tôi thích mèo và chó.
+* 和 thường nối danh từ, đại từ; không dùng để nối hai câu như chữ “và” trong tiếng Việt.

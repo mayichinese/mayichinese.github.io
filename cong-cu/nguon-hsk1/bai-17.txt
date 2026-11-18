@@ -1,0 +1,95 @@
+# ===== NGUỒN SOẠN THẢO HSK 1 – BÀI 17 =====
+# Định dạng giống bai-01-05.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1.
+
+# 17 | Đi lại
+
+@坐 | tọa
+- 动 | ngồi; đi (tàu, xe, máy bay — phương tiện mình ngồi lên)
+> 你坐这儿吧。 | Nǐ zuò zhèr ba. | Bạn ngồi đây đi.
+> 我坐火车去。 | Wǒ zuò huǒchē qù. | Tôi đi bằng tàu hỏa.
+* Phương tiện đứng TRƯỚC động từ chính: 坐火车去 = đi bằng tàu hỏa (không nói 去坐火车 với nghĩa này).
+
+@开 | khai
+- 动 | mở; lái (xe); bật (máy); mở cửa (cửa hàng)
+> 他开出租车。 | Tā kāi chūzūchē. | Anh ấy lái taxi.
+> 超市几点开？ | Chāoshì jǐ diǎn kāi? | Siêu thị mấy giờ mở cửa?
+> 你开一下电视。 | Nǐ kāi yíxià diànshì. | Bạn bật tivi lên một chút.
+
+@开车 | khai xa
+- 动 | lái xe
+> 我爸爸开车去公司。 | Wǒ bàba kāichē qù gōngsī. | Bố tôi lái xe đến công ty.
+> 开车的时候不要打电话。 | Kāichē de shíhou búyào dǎ diànhuà. | Khi lái xe đừng gọi điện thoại.
+
+@车 | xa
+- 名 | xe (ô tô, xe cộ nói chung)
+> 你的车是新的吗？ | Nǐ de chē shì xīn de ma? | Xe của bạn là xe mới à?
+> 今天车很多。 | Jīntiān chē hěn duō. | Hôm nay rất đông xe.
+
+@出租车 | xuất tô xa
+- 名 | xe taxi
+> 我们坐出租车去吧。 | Wǒmen zuò chūzūchē qù ba. | Chúng ta đi taxi đi.
+> 这里出租车很少。 | Zhèlǐ chūzūchē hěn shǎo. | Ở đây ít taxi.
+* 出租 = cho thuê; 出租车 = xe cho thuê, tức là taxi.
+
+@火车 | hỏa xa
+- 名 | tàu hỏa
+> 坐火车要五个小时。 | Zuò huǒchē yào wǔ gè xiǎoshí. | Đi tàu hỏa mất năm tiếng.
+> 火车上人很多。 | Huǒchē shang rén hěn duō. | Trên tàu rất đông người.
+
+@飞机 | phi cơ
+- 名 | máy bay
+> 我坐飞机去中国。 | Wǒ zuò fēijī qù Zhōngguó. | Tôi đi Trung Quốc bằng máy bay.
+> 飞机几点到？ | Fēijī jǐ diǎn dào? | Máy bay mấy giờ đến?
+
+@住 | trú
+- 动 | ở, sống, cư trú
+> 你住在哪儿？ | Nǐ zhù zài nǎr? | Bạn sống ở đâu?
+> 他住在学校里。 | Tā zhù zài xuéxiào li. | Anh ấy ở trong trường.
+* Phân biệt: 我住在这儿 (tôi sống ở đây) khác 我在这儿 (tôi đang có mặt ở đây).
+
+@房间 | phòng gian
+- 名 | phòng, căn phòng
+> 我在房间里看书。 | Wǒ zài fángjiān li kàn shū. | Tôi đọc sách trong phòng.
+> 这个房间多少钱一天？ | Zhège fángjiān duōshao qián yì tiān? | Phòng này bao nhiêu tiền một ngày?
+
+@找 | trảo
+- 动 | tìm; tìm gặp (ai); trả lại (tiền thừa)
+> 你在找什么？ | Nǐ zài zhǎo shénme? | Bạn đang tìm gì vậy?
+> 有人找你。 | Yǒu rén zhǎo nǐ. | Có người tìm bạn.
+> 找你五块钱。 | Zhǎo nǐ wǔ kuài qián. | Trả lại bạn năm đồng tiền thừa.
+
+@怎么 | chẩm ma
+- 代 | thế nào, làm sao (hỏi cách thức); sao, tại sao (hỏi nguyên nhân, tỏ ý ngạc nhiên)
+> 这个字怎么写？ | Zhège zì zěnme xiě? | Chữ này viết thế nào?
+> 你怎么去学校？ | Nǐ zěnme qù xuéxiào? | Bạn đến trường bằng cách nào?
+> 你怎么没来？ | Nǐ zěnme méi lái? | Sao bạn không đến?
+
+@给 | cấp
+- 动 | cho, đưa
+> 妈妈给了我一百块钱。 | Māma gěile wǒ yìbǎi kuài qián. | Mẹ cho tôi một trăm đồng.
+> 请给我一杯水。 | Qǐng gěi wǒ yì bēi shuǐ. | Làm ơn cho tôi một cốc nước.
+* 给 có thể mang hai tân ngữ: 给 + người + vật.
+* Theo danh sách chính thức, 给 dùng như giới từ (“cho, giúp”) thuộc cấp 2.
+
+@能 | năng
+- 动 | có thể (có khả năng, có điều kiện)
+> 你明天能来吗？ | Nǐ míngtiān néng lái ma? | Ngày mai bạn có thể đến không?
+> 我病了，不能去上课。 | Wǒ bìng le, bù néng qù shàngkè. | Tôi ốm rồi, không thể đi học được.
+* Phân biệt: 会 = biết (nhờ học); 能 = có thể (có khả năng, điều kiện); 可以 = được phép.
+
+@可以 | khả dĩ
+- 动 | có thể, được (phép)
+> 我可以坐这儿吗？ | Wǒ kěyǐ zuò zhèr ma? | Tôi ngồi đây được không?
+> 上课的时候不可以打电话。 | Shàngkè de shíhou bù kěyǐ dǎ diànhuà. | Trong giờ học không được gọi điện thoại.
+- 形 | được, khá, tạm được
+> 这个菜还可以。 | Zhège cài hái kěyǐ. | Món này cũng được.
+* Trả lời câu xin phép: đồng ý nói 可以！; từ chối nói 不可以.
+
+@少 | thiểu
+- 形 | ít
+> 这里人很少。 | Zhèlǐ rén hěn shǎo. | Ở đây rất ít người.
+> 我的钱太少了。 | Wǒ de qián tài shǎo le. | Tiền của tôi ít quá.
+- 动 | thiếu, mất (so với số đúng)
+> 我们少一个人。 | Wǒmen shǎo yí gè rén. | Chúng ta thiếu một người.
+> 我的书少了一本。 | Wǒ de shū shǎole yì běn. | Sách của tôi bị mất một quyển.
+* Chữ 少 còn đọc shào (trẻ, như trong 少年) — là một từ khác.

@@ -1,0 +1,87 @@
+# ===== NGUỒN SOẠN THẢO HSK 1 – BÀI 16 =====
+# Định dạng giống bai-01-05.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1
+# (riêng các từ 商店, 店, 书店 chứa chữ 店 mà đề cương xếp vào chữ cấp 2).
+
+# 16 | Mua sắm
+
+@买 | mãi
+- 动 | mua
+> 我想买一件衣服。 | Wǒ xiǎng mǎi yí jiàn yīfu. | Tôi muốn mua một cái áo.
+> 你买什么了？ | Nǐ mǎi shénme le? | Bạn đã mua gì vậy?
+* Phân biệt 买 mǎi (mua – thanh 3) và 卖 mài (bán – thanh 4).
+
+@卖 | mại
+- 动 | bán
+> 这个超市卖水果吗？ | Zhège chāoshì mài shuǐguǒ ma? | Siêu thị này có bán hoa quả không?
+> 他在学校前边卖包子。 | Tā zài xuéxiào qiánbian mài bāozi. | Anh ấy bán bánh bao ở phía trước trường.
+* Mẹo nhớ: chữ 卖 (bán) = chữ 买 (mua) thêm 十 ở trên; đọc thanh 4.
+
+@钱 | tiền
+- 名 | tiền
+> 我没有钱了。 | Wǒ méiyǒu qián le. | Tôi hết tiền rồi.
+> 他很有钱。 | Tā hěn yǒu qián. | Anh ấy rất giàu (có nhiều tiền).
+
+@块 | khối
+- 量 | đồng (đơn vị tiền trong khẩu ngữ, = 元); miếng, cục
+> 这本书三十块。 | Zhè běn shū sānshí kuài. | Quyển sách này ba mươi đồng.
+> 我吃了一块面包。 | Wǒ chīle yí kuài miànbāo. | Tôi đã ăn một miếng bánh mì.
+* Khi nói giá: 块 dùng trong khẩu ngữ; 元 dùng trong văn viết (giá ghi trên nhãn).
+
+@元 | nguyên
+- 量 | đồng, tệ (đơn vị tiền Trung Quốc, thường dùng trong văn viết)
+> 这件衣服两百元。 | Zhè jiàn yīfu liǎngbǎi yuán. | Cái áo này hai trăm tệ.
+> 一个包子三元。 | Yí gè bāozi sān yuán. | Một cái bánh bao ba tệ.
+
+@多少 | đa thiểu
+- 代 | bao nhiêu
+> 你们学校有多少学生？ | Nǐmen xuéxiào yǒu duōshao xuéshēng? | Trường các bạn có bao nhiêu học sinh?
+> 这个手机多少钱？ | Zhège shǒujī duōshao qián? | Cái điện thoại này bao nhiêu tiền?
+* 几 dùng cho số lượng nhỏ (thường dưới 10) và cần lượng từ; 多少 dùng cho số bất kỳ, có thể bỏ lượng từ.
+
+@贵 | quý
+- 形 | đắt
+> 这里的水果很贵。 | Zhèlǐ de shuǐguǒ hěn guì. | Hoa quả ở đây rất đắt.
+> 不贵，很便宜。 | Bú guì, hěn piányi. | Không đắt, rẻ lắm.
+* Thường dùng với nghĩa “đắt”. Nghĩa kính trọng (“quý”) gặp trong câu hỏi họ lịch sự 您贵姓？
+
+@便宜 | tiện nghi
+- 形 | rẻ
+> 这个超市的东西很便宜。 | Zhège chāoshì de dōngxi hěn piányi. | Đồ ở siêu thị này rất rẻ.
+> 这件衣服很便宜。 | Zhè jiàn yīfu hěn piányi. | Cái áo này rất rẻ.
+* Khác “tiện nghi” (tiện lợi) trong tiếng Việt: 便宜 piányi nghĩa là “rẻ”. Chữ 便 ở đây đọc pián.
+
+@商店 | thương điếm
+- 名 | cửa hàng, cửa hiệu
+> 我去商店买东西。 | Wǒ qù shāngdiàn mǎi dōngxi. | Tôi đến cửa hàng mua đồ.
+> 那个商店的东西很贵。 | Nàge shāngdiàn de dōngxi hěn guì. | Đồ ở cửa hàng kia rất đắt.
+
+@超市 | siêu thị
+- 名 | siêu thị
+> 你去超市吗？ | Nǐ qù chāoshì ma? | Bạn có đi siêu thị không?
+> 超市里人很多。 | Chāoshì li rén hěn duō. | Trong siêu thị rất đông người.
+
+@店 | điếm
+- 名 | cửa hàng, quán
+> 这家店的包子很好吃。 | Zhè jiā diàn de bāozi hěn hǎochī. | Bánh bao của quán này rất ngon.
+> 他在一家小店工作。 | Tā zài yì jiā xiǎo diàn gōngzuò. | Anh ấy làm việc ở một quán nhỏ.
+* 店 hay ghép với chữ khác: 饭店 (nhà hàng), 商店 (cửa hàng), 书店 (hiệu sách).
+
+@书店 | thư điếm
+- 名 | hiệu sách
+> 我想去书店买书。 | Wǒ xiǎng qù shūdiàn mǎi shū. | Tôi muốn đến hiệu sách mua sách.
+> 学校里有一个书店。 | Xuéxiào li yǒu yí gè shūdiàn. | Trong trường có một hiệu sách.
+
+@衣服 | y phục
+- 名 | quần áo
+> 我想买新衣服。 | Wǒ xiǎng mǎi xīn yīfu. | Tôi muốn mua quần áo mới.
+> 这件衣服很漂亮。 | Zhè jiàn yīfu hěn piàoliang. | Cái áo này rất đẹp.
+
+@件 | kiện
+- 量 | cái, chiếc (áo, quần áo phần trên); việc, chuyện (lượng từ cho sự việc)
+> 我买了两件衣服。 | Wǒ mǎile liǎng jiàn yīfu. | Tôi đã mua hai cái áo.
+> 我有一件事想问你。 | Wǒ yǒu yí jiàn shì xiǎng wèn nǐ. | Tôi có một chuyện muốn hỏi bạn.
+
+@穿 | xuyên
+- 动 | mặc (quần áo); đi, mang (giày, tất)
+> 她穿了一件新衣服。 | Tā chuānle yí jiàn xīn yīfu. | Cô ấy mặc một cái áo mới.
+> 你穿这件很漂亮。 | Nǐ chuān zhè jiàn hěn piàoliang. | Bạn mặc cái này rất đẹp.

@@ -1,0 +1,85 @@
+# ===== NGUỒN SOẠN THẢO HSK 1 – BÀI 14 =====
+# Định dạng giống bai-01-05.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1
+# (riêng từ 饭店 chứa chữ 店 mà đề cương xếp vào chữ cấp 2).
+
+# 14 | Ăn uống (1)
+
+@吃 | ngật
+- 动 | ăn
+> 我不吃鸡蛋。 | Wǒ bù chī jīdàn. | Tôi không ăn trứng gà.
+> 你吃饭了吗？ | Nǐ chī fàn le ma? | Bạn ăn cơm chưa?
+* 你吃饭了吗？ cũng là câu hỏi thăm thân mật, giống “ăn cơm chưa?” trong tiếng Việt.
+
+@喝 | hát
+- 动 | uống
+> 你想喝什么？ | Nǐ xiǎng hē shénme? | Bạn muốn uống gì?
+> 我不喝茶，我喝水。 | Wǒ bù hē chá, wǒ hē shuǐ. | Tôi không uống trà, tôi uống nước.
+* Khác “hát” trong tiếng Việt: 喝 là uống; “hát” là 唱.
+
+@饭 | phạn
+- 名 | cơm; bữa ăn
+> 妈妈做的饭很好吃。 | Māma zuò de fàn hěn hǎochī. | Cơm mẹ nấu rất ngon.
+> 我还没吃饭。 | Wǒ hái méi chī fàn. | Tôi vẫn chưa ăn cơm.
+
+@米饭 | mễ phạn
+- 名 | cơm (gạo nấu chín)
+> 我喜欢吃米饭。 | Wǒ xǐhuan chī mǐfàn. | Tôi thích ăn cơm.
+* 饭 có thể chỉ bữa ăn nói chung; 米饭 chỉ đúng cơm gạo.
+
+@菜 | thái
+- 名 | món ăn, thức ăn; rau
+> 这个菜很好吃。 | Zhège cài hěn hǎochī. | Món này rất ngon.
+> 你喜欢吃中国菜吗？ | Nǐ xǐhuan chī Zhōngguó cài ma? | Bạn có thích ăn món Trung Quốc không?
+
+@茶 | trà
+- 名 | trà, chè
+> 中国人很喜欢喝茶。 | Zhōngguó rén hěn xǐhuan hē chá. | Người Trung Quốc rất thích uống trà.
+> 我要一杯茶。 | Wǒ yào yì bēi chá. | Tôi muốn một cốc trà.
+
+@水 | thủy
+- 名 | nước
+> 我想喝水。 | Wǒ xiǎng hē shuǐ. | Tôi muốn uống nước.
+> 这个水不能喝。 | Zhège shuǐ bù néng hē. | Nước này không uống được.
+
+@牛奶 | ngưu nãi
+- 名 | sữa bò, sữa
+> 早上我喝一杯牛奶。 | Zǎoshang wǒ hē yì bēi niúnǎi. | Buổi sáng tôi uống một cốc sữa.
+> 孩子们都喜欢喝牛奶。 | Háizimen dōu xǐhuan hē niúnǎi. | Bọn trẻ đều thích uống sữa.
+
+@杯子 | bôi tử
+- 名 | cái cốc, cái ly
+> 这是我的杯子。 | Zhè shì wǒ de bēizi. | Đây là cốc của tôi.
+> 杯子里有水。 | Bēizi li yǒu shuǐ. | Trong cốc có nước.
+* Khi làm lượng từ thì dùng 杯: 一杯茶 = một cốc trà.
+
+@好吃 | hảo ngật
+- 形 | ngon (đồ ăn)
+> 这个包子很好吃。 | Zhège bāozi hěn hǎochī. | Cái bánh bao này rất ngon.
+> 中国菜很好吃。 | Zhōngguó cài hěn hǎochī. | Món Trung Quốc rất ngon.
+* Đồ uống ngon thường nói 好喝 (hǎohē).
+
+@饭店 | phạn điếm
+- 名 | nhà hàng, quán ăn; khách sạn
+> 我们去饭店吃饭吧。 | Wǒmen qù fàndiàn chī fàn ba. | Chúng ta đi nhà hàng ăn cơm đi.
+> 他住在一个大饭店里。 | Tā zhù zài yí gè dà fàndiàn li. | Anh ấy ở trong một khách sạn lớn.
+* Tùy ngữ cảnh, 饭店 có thể là nhà hàng hoặc khách sạn.
+
+@早饭 | tảo phạn
+- 名 | bữa sáng
+> 你吃早饭了吗？ | Nǐ chī zǎofàn le ma? | Bạn ăn sáng chưa?
+> 我早饭吃了两个包子。 | Wǒ zǎofàn chīle liǎng gè bāozi. | Bữa sáng tôi ăn hai cái bánh bao.
+
+@午饭 | ngọ phạn
+- 名 | bữa trưa
+> 我们几点吃午饭？ | Wǒmen jǐ diǎn chī wǔfàn? | Mấy giờ chúng ta ăn trưa?
+> 午饭我想吃面条儿。 | Wǔfàn wǒ xiǎng chī miàntiáor. | Bữa trưa tôi muốn ăn mì.
+
+@晚饭 | vãn phạn
+- 名 | bữa tối
+> 晚饭后我们去看电影吧。 | Wǎnfàn hòu wǒmen qù kàn diànyǐng ba. | Sau bữa tối chúng ta đi xem phim nhé.
+> 晚上七点吃晚饭。 | Wǎnshang qī diǎn chī wǎnfàn. | Bảy giờ tối ăn bữa tối.
+
+@做饭 | tố phạn
+- cụm | nấu cơm, nấu ăn
+> 你会做饭吗？ | Nǐ huì zuò fàn ma? | Bạn biết nấu ăn không?
+> 今天我做饭，你休息吧。 | Jīntiān wǒ zuò fàn, nǐ xiūxi ba. | Hôm nay tôi nấu cơm, bạn nghỉ đi.

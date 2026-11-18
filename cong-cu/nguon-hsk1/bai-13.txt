@@ -1,0 +1,92 @@
+# ===== NGUỒN SOẠN THẢO HSK 1 – BÀI 13 =====
+# Định dạng giống bai-01-05.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1.
+
+# 13 | Sinh hoạt hằng ngày
+
+@起床 | khởi sàng
+- 动 | thức dậy, ra khỏi giường
+> 你几点起床？ | Nǐ jǐ diǎn qǐchuáng? | Bạn dậy lúc mấy giờ?
+> 起床了！ | Qǐchuáng le! | Dậy thôi! (Đến giờ dậy rồi!)
+
+@睡 | thụy
+- 动 | ngủ
+> 你睡了吗？ | Nǐ shuìle ma? | Bạn ngủ chưa?
+> 我昨天睡了八个小时。 | Wǒ zuótiān shuìle bā gè xiǎoshí. | Hôm qua tôi ngủ tám tiếng.
+
+@睡觉 | thụy giác
+- 动 | ngủ, đi ngủ
+> 孩子在睡觉。 | Háizi zài shuìjiào. | Đứa bé đang ngủ.
+> 你几点睡觉？ | Nǐ jǐ diǎn shuìjiào? | Bạn đi ngủ lúc mấy giờ?
+* Từ ly hợp: không mang tân ngữ phía sau. Muốn nói ngủ bao lâu thường dùng 睡: 睡了八个小时.
+* 觉 trong 睡觉 đọc jiào; trong 觉得 đọc jué.
+
+@休息 | hưu tức
+- 动 | nghỉ, nghỉ ngơi
+> 我们休息一下吧。 | Wǒmen xiūxi yíxià ba. | Chúng ta nghỉ một chút đi.
+> 星期天我在家休息。 | Xīngqītiān wǒ zài jiā xiūxi. | Chủ nhật tôi nghỉ ở nhà.
+* Nghĩa là nghỉ ngơi, không phải “nghỉ hưu”.
+
+@早 | tảo
+- 形 | sớm; (lời chào buổi sáng) chào
+> 现在还早。 | Xiànzài hái zǎo. | Bây giờ vẫn còn sớm.
+> 老师早！ | Lǎoshī zǎo! | Em chào thầy/cô buổi sáng ạ!
+* 早！ hoặc 早上好！ là lời chào buổi sáng.
+
+@晚 | vãn
+- 形 | muộn, trễ; khuya
+> 现在太晚了。 | Xiànzài tài wǎn le. | Bây giờ muộn quá rồi.
+> 今天我晚一点儿回家。 | Jīntiān wǒ wǎn yìdiǎnr huí jiā. | Hôm nay tôi về nhà muộn một chút.
+
+@了 | liễu
+- 助 | trợ từ: (sau động từ) hành động đã hoàn thành; (cuối câu) sự thay đổi, tình huống mới
+> 我买了一本书。 | Wǒ mǎile yì běn shū. | Tôi đã mua một quyển sách.
+> 下雨了。 | Xià yǔ le. | Trời mưa rồi.
+* 了 không hoàn toàn giống “đã”. Phủ định việc đã xảy ra dùng 没(有) và bỏ 了: 我没买书, không nói 我没买了书.
+
+@吧 | ba
+- 助 | trợ từ cuối câu: rủ rê, đề nghị (… đi, … nhé); đoán và hỏi lại để xác nhận (… phải không?)
+> 你明天来吧。 | Nǐ míngtiān lái ba. | Mai bạn đến nhé.
+> 你是老师吧？ | Nǐ shì lǎoshī ba? | Chắc anh là giáo viên phải không?
+* So sánh: 你是老师吗？ (hỏi thật, không biết) — 你是老师吧？ (đoán là đúng, hỏi lại cho chắc).
+
+@去 | khứ
+- 动 | đi, đến (nơi khác, rời xa chỗ người nói)
+> 你去不去？ | Nǐ qù bu qù? | Bạn có đi không?
+> 他去医院了。 | Tā qù yīyuàn le. | Anh ấy đi bệnh viện rồi.
+* 去 + nơi chốn trực tiếp (去学校), không cần thêm từ “đến”.
+
+@来 | lai
+- 动 | đến, tới (về phía người nói)
+> 你什么时候来中国？ | Nǐ shénme shíhou lái Zhōngguó? | Khi nào bạn đến Trung Quốc? (người nói đang ở Trung Quốc)
+> 他来了！ | Tā lái le! | Anh ấy đến rồi!
+* Phân biệt: 来 = đến gần chỗ người nói; 去 = đi xa chỗ người nói.
+
+@回 | hồi
+- 动 | về, trở về, quay lại
+> 我想回家。 | Wǒ xiǎng huí jiā. | Tôi muốn về nhà.
+> 他明年回国。 | Tā míngnián huí guó. | Sang năm anh ấy về nước.
+* Theo danh sách chính thức, 回 dùng như lượng từ (lần) thuộc cấp 3.
+
+@到 | đáo
+- 动 | đến, tới (nơi nào, thời điểm nào)
+> 我到学校了。 | Wǒ dào xuéxiào le. | Tôi đến trường rồi.
+> 火车几点到？ | Huǒchē jǐ diǎn dào? | Tàu hỏa mấy giờ đến?
+* Phân biệt: 去 nhấn mạnh hướng đi; 到 nhấn mạnh việc đã tới nơi.
+
+@再 | tái
+- 副 | lại, nữa (lặp lại một việc chưa xảy ra)
+> 明天再来吧。 | Míngtiān zài lái ba. | Mai lại đến nhé.
+> 我想再喝一杯茶。 | Wǒ xiǎng zài hē yì bēi chá. | Tôi muốn uống thêm một cốc trà nữa.
+* 再 dùng cho việc lặp lại trong tương lai (再见 = hẹn gặp lại).
+
+@还 | hoàn
+- 副 | còn, thêm nữa; vẫn, vẫn còn
+> 我有一个哥哥，还有一个妹妹。 | Wǒ yǒu yí gè gēge, hái yǒu yí gè mèimei. | Tôi có một anh trai, còn có một em gái nữa.
+> 他还在睡觉。 | Tā hái zài shuìjiào. | Anh ấy vẫn đang ngủ.
+* Phó từ 还 đọc hái. Chữ này còn đọc huán (trả lại) — là một từ khác.
+
+@都 | đô
+- 副 | đều, tất cả đều
+> 我们都是学生。 | Wǒmen dōu shì xuéshēng. | Chúng tôi đều là học sinh.
+> 这些书我都看了。 | Zhèxiē shū wǒ dōu kàn le. | Những quyển sách này tôi đều đọc hết rồi.
+* 都 đứng sau chủ ngữ, trước động từ, và chỉ bao quát những người/vật đứng TRƯỚC nó.

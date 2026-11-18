@@ -1,0 +1,86 @@
+# ===== NGUỒN SOẠN THẢO HSK 1 – BÀI 18 =====
+# Định dạng giống bai-01-05.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1.
+
+# 18 | Sức khỏe và thời tiết
+
+@病 | bệnh
+- 名 | bệnh
+> 他的病好了。 | Tā de bìng hǎo le. | Bệnh của anh ấy khỏi rồi.
+> 这是什么病？ | Zhè shì shénme bìng? | Đây là bệnh gì?
+- 动 | ốm, bị bệnh
+> 我病了。 | Wǒ bìng le. | Tôi ốm rồi.
+> 妈妈病了三天。 | Māma bìngle sān tiān. | Mẹ ốm ba ngày rồi.
+
+@生病 | sinh bệnh
+- 动 | ốm, bị bệnh
+> 他生病了，今天没来。 | Tā shēngbìng le, jīntiān méi lái. | Anh ấy bị ốm, hôm nay không đến.
+> 我很少生病。 | Wǒ hěn shǎo shēngbìng. | Tôi rất ít khi ốm.
+* Từ ly hợp: không mang tân ngữ phía sau; có thể tách ra, ví dụ 生了一个月的病 (ốm một tháng).
+
+@看病 | khán bệnh
+- 动 | đi khám bệnh; (bác sĩ) khám bệnh
+> 我下午去医院看病。 | Wǒ xiàwǔ qù yīyuàn kànbìng. | Chiều nay tôi đi bệnh viện khám bệnh.
+> 今天看病的人很多。 | Jīntiān kànbìng de rén hěn duō. | Hôm nay người đi khám bệnh rất đông.
+* Từ ly hợp. Chú ý: 看病 (đi khám bệnh) khác 看病人 (thăm người ốm).
+
+@医生 | y sinh
+- 名 | bác sĩ
+> 医生说我没事。 | Yīshēng shuō wǒ méishì. | Bác sĩ nói tôi không sao.
+> 他是这个医院的医生。 | Tā shì zhège yīyuàn de yīshēng. | Anh ấy là bác sĩ của bệnh viện này.
+
+@医院 | y viện
+- 名 | bệnh viện
+> 医院在哪儿？ | Yīyuàn zài nǎr? | Bệnh viện ở đâu?
+> 他在医院住了一个星期。 | Tā zài yīyuàn zhùle yí gè xīngqī. | Anh ấy nằm viện một tuần.
+
+@天气 | thiên khí
+- 名 | thời tiết
+> 今天天气怎么样？ | Jīntiān tiānqì zěnmeyàng? | Hôm nay thời tiết thế nào?
+> 天气很好，我们去外边玩儿吧。 | Tiānqì hěn hǎo, wǒmen qù wàibian wánr ba. | Thời tiết đẹp, chúng ta ra ngoài chơi đi.
+
+@冷 | lãnh
+- 形 | lạnh
+> 你冷吗？ | Nǐ lěng ma? | Bạn có lạnh không?
+> 晚上有点儿冷。 | Wǎnshang yǒudiǎnr lěng. | Buổi tối hơi lạnh.
+
+@热 | nhiệt
+- 形 | nóng
+> 今天太热了！ | Jīntiān tài rè le! | Hôm nay nóng quá!
+> 我想喝热水。 | Wǒ xiǎng hē rè shuǐ. | Tôi muốn uống nước nóng.
+
+@雨 | vũ
+- 名 | mưa
+> 雨太大了，我们不去了。 | Yǔ tài dà le, wǒmen bú qù le. | Mưa to quá, chúng ta không đi nữa.
+
+@下雨 | hạ vũ
+- cụm | mưa, trời mưa
+> 外边在下雨。 | Wàibian zài xià yǔ. | Bên ngoài đang mưa.
+> 下雨了，你不要去了。 | Xià yǔ le, nǐ búyào qù le. | Trời mưa rồi, bạn đừng đi nữa.
+* Tiếng Trung nói “rơi mưa”: động từ 下 đứng trước — 下雨 (mưa), 下雪 (tuyết rơi).
+
+@雪 | tuyết
+- 名 | tuyết
+> 我很喜欢雪。 | Wǒ hěn xǐhuan xuě. | Tôi rất thích tuyết.
+> 昨天的雪很大。 | Zuótiān de xuě hěn dà. | Hôm qua tuyết rơi rất dày.
+
+@怎么样 | chẩm ma dạng
+- 代 | thế nào, ra sao (hỏi tình hình, ý kiến); … được không? (hỏi ý kiến về một đề nghị)
+> 你的新工作怎么样？ | Nǐ de xīn gōngzuò zěnmeyàng? | Công việc mới của bạn thế nào?
+> 我们明天去，怎么样？ | Wǒmen míngtiān qù, zěnmeyàng? | Mai chúng ta đi, được không?
+* Phân biệt: 怎么 hỏi cách làm (怎么去？); 怎么样 hỏi tình hình, đánh giá (天气怎么样？).
+
+@有点儿 | hữu điểm nhi
+- 副 | hơi, có chút (thường mang ý không hài lòng)
+> 这件衣服有点儿贵。 | Zhè jiàn yīfu yǒudiǎnr guì. | Cái áo này hơi đắt.
+> 我今天有点儿忙。 | Wǒ jīntiān yǒudiǎnr máng. | Hôm nay tôi hơi bận.
+* Đứng TRƯỚC tính từ (有点儿贵); khác 一点儿 đứng SAU tính từ (便宜一点儿).
+
+@新 | tân
+- 形 | mới
+> 这是我的新手机。 | Zhè shì wǒ de xīn shǒujī. | Đây là điện thoại mới của tôi.
+> 他是新来的老师。 | Tā shì xīn lái de lǎoshī. | Anh ấy là giáo viên mới đến.
+
+@漂亮 | phiếu lượng
+- 形 | đẹp, xinh
+> 这里很漂亮。 | Zhèlǐ hěn piàoliang. | Ở đây rất đẹp.
+> 她是一个漂亮的女孩儿。 | Tā shì yí gè piàoliang de nǚháir. | Cô ấy là một cô gái xinh đẹp.

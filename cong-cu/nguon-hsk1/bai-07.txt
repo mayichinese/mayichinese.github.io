@@ -1,0 +1,86 @@
+# ===== NGUỒN SOẠN THẢO HSK 1 – BÀI 7 =====
+# Định dạng giống bai-01-05.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1.
+
+# 7 | Trường học
+
+@老师 | lão sư
+- 名 | thầy giáo, cô giáo, giáo viên
+> 我们的汉语老师是中国人。 | Wǒmen de Hànyǔ lǎoshī shì Zhōngguó rén. | Giáo viên tiếng Trung của chúng tôi là người Trung Quốc.
+> 老师，我有一个问题。 | Lǎoshī, wǒ yǒu yí gè wèntí. | Thưa thầy/cô, em có một câu hỏi.
+* Học sinh gọi thầy cô là 老师 hoặc họ + 老师, không gọi là 先生, 女士.
+
+@同学 | đồng học
+- 名 | bạn học, bạn cùng lớp; (thầy cô gọi học sinh) em, các em
+> 他是我的大学同学。 | Tā shì wǒ de dàxué tóngxué. | Anh ấy là bạn học đại học của tôi.
+> 同学们，我们上课了。 | Tóngxuémen, wǒmen shàngkè le. | Các em, chúng ta vào học nhé.
+
+@学 | học
+- 动 | học
+> 我想学汉语。 | Wǒ xiǎng xué Hànyǔ. | Tôi muốn học tiếng Trung.
+> 他在学开车。 | Tā zài xué kāichē. | Anh ấy đang học lái xe.
+* 学 thường đi với tân ngữ ngắn (学汉语, 学开车). 学习 trang trọng hơn và có thể đứng một mình (他很爱学习).
+
+@学习 | học tập
+- 动 | học, học tập
+> 他学习很好。 | Tā xuéxí hěn hǎo. | Cậu ấy học rất giỏi.
+> 我在中国学习。 | Wǒ zài Zhōngguó xuéxí. | Tôi học ở Trung Quốc.
+
+@学生 | học sinh
+- 名 | học sinh, sinh viên, học trò
+> 他是我的学生。 | Tā shì wǒ de xuéshēng. | Cậu ấy là học trò của tôi.
+> 我们学校有很多中国学生。 | Wǒmen xuéxiào yǒu hěn duō Zhōngguó xuéshēng. | Trường chúng tôi có nhiều học sinh Trung Quốc.
+* Danh sách chính thức ghi xuéshēng; trong khẩu ngữ thường đọc nhẹ thành xuésheng.
+
+@学校 | học hiệu
+- 名 | trường học
+> 我们学校很大。 | Wǒmen xuéxiào hěn dà. | Trường chúng tôi rất rộng.
+> 你几点去学校？ | Nǐ jǐ diǎn qù xuéxiào? | Mấy giờ bạn đến trường?
+
+@上学 | thượng học
+- 动 | đi học (đến trường)
+> 孩子们早上七点上学。 | Háizimen zǎoshang qī diǎn shàngxué. | Bọn trẻ đi học lúc bảy giờ sáng.
+> 今天不上学。 | Jīntiān bú shàngxué. | Hôm nay không đi học.
+* Phân biệt: 上学 = đến trường, đi học nói chung; 上课 = vào lớp, học một tiết/buổi cụ thể.
+
+@上课 | thượng khóa
+- 动 | vào học, lên lớp
+> 我们八点上课。 | Wǒmen bā diǎn shàngkè. | Chúng tôi vào học lúc tám giờ.
+> 老师在上课呢。 | Lǎoshī zài shàngkè ne. | Thầy/cô đang trong giờ dạy.
+* Từ ly hợp: có thể tách ra, ví dụ 上汉语课 (học giờ tiếng Trung).
+
+@下课 | hạ khóa
+- 动 | tan học, hết giờ học
+> 我们十一点下课。 | Wǒmen shíyī diǎn xiàkè. | Chúng tôi tan học lúc mười một giờ.
+> 下课了，我们去吃饭吧。 | Xiàkè le, wǒmen qù chī fàn ba. | Tan học rồi, chúng mình đi ăn cơm đi.
+* Từ ly hợp, giống 上课.
+
+@课 | khóa
+- 名 | bài học, tiết học, môn học
+> 今天有汉语课。 | Jīntiān yǒu Hànyǔ kè. | Hôm nay có tiết tiếng Trung.
+> 下午我没有课。 | Xiàwǔ wǒ méiyǒu kè. | Buổi chiều tôi không có tiết học.
+
+@书 | thư
+- 名 | sách
+> 这是我的汉语书。 | Zhè shì wǒ de Hànyǔ shū. | Đây là sách tiếng Trung của tôi.
+> 他喜欢看书。 | Tā xǐhuan kàn shū. | Anh ấy thích đọc sách.
+* Khác “thư” (lá thư) trong tiếng Việt: 书 là sách.
+
+@本1 | bản
+- 量 | quyển, cuốn (lượng từ cho sách, vở)
+> 我买了两本书。 | Wǒ mǎile liǎng běn shū. | Tôi đã mua hai quyển sách.
+> 这本书很好看。 | Zhè běn shū hěn hǎokàn. | Quyển sách này rất hay.
+
+@读 | độc
+- 动 | đọc (thành tiếng); học (ở một trường, một bậc học)
+> 请你读一下这个字。 | Qǐng nǐ dú yíxià zhège zì. | Bạn đọc thử chữ này nhé.
+> 我姐姐在读大学。 | Wǒ jiějie zài dú dàxué. | Chị tôi đang học đại học.
+
+@读书 | độc thư
+- 动 | đọc sách; đi học
+> 他很喜欢读书。 | Tā hěn xǐhuan dúshū. | Anh ấy rất thích đọc sách.
+> 我女儿在中国读书。 | Wǒ nǚ'ér zài Zhōngguó dúshū. | Con gái tôi đang đi học ở Trung Quốc.
+
+@写 | tả
+- 动 | viết
+> 你会写这个字吗？ | Nǐ huì xiě zhège zì ma? | Bạn biết viết chữ này không?
+> 我在写汉字。 | Wǒ zài xiě Hànzì. | Tôi đang viết chữ Hán.
