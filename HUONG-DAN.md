@@ -1,4 +1,4 @@
-# Hướng dẫn sử dụng app Học HSK (Giai đoạn 1)
+# Hướng dẫn sử dụng app Mayi Chinese (Giai đoạn 1)
 
 App chạy hoàn toàn trên trình duyệt, không cần đăng nhập, không cần mạng sau lần mở đầu tiên.
 Tiến độ học được lưu **ngay trong trình duyệt của máy đang dùng**.

@@ -4,6 +4,9 @@
 // - Có xuất/nhập file sao lưu (.json) để chuyển sang máy khác hoặc phòng mất dữ liệu.
 // =========================================================
 
+// CẢNH BÁO: KHÔNG đổi KHOA và TEN_UNG_DUNG (kể cả khi đổi tên app thành Mayi Chinese)
+//  - đổi KHOA → app không tìm thấy tiến độ đã lưu (mất hết tiến độ)
+//  - đổi TEN_UNG_DUNG → không nhập lại được các file sao lưu cũ
 const KHOA = 'hoc-hsk-tien-do';
 const TEN_UNG_DUNG = 'hoc-tieng-trung-hsk';
 const PHIEN_BAN = 1;
@@ -121,7 +124,7 @@ export function xuatSaoLuu() {
   const blob = new Blob([JSON.stringify(goi, null, 1)], { type: 'application/json' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
-  a.download = `hoc-hsk-sao-luu-${ngayHoc()}.json`;
+  a.download = `mayi-chinese-sao-luu-${ngayHoc()}.json`;
   document.body.appendChild(a);
   a.click();
   setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
@@ -137,7 +140,7 @@ export async function nhapSaoLuu(file) {
     throw new Error('File này không phải file sao lưu hợp lệ (không đọc được JSON).');
   }
   if (goi?.ungDung !== TEN_UNG_DUNG || !goi.tienDo) {
-    throw new Error('File này không phải file sao lưu của ứng dụng Học HSK.');
+    throw new Error('File này không phải file sao lưu của ứng dụng Mayi Chinese.');
   }
   tienDo = hopNhat(goi.tienDo);
   luu();

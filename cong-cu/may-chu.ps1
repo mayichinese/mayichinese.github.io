@@ -45,7 +45,7 @@ if (-not $listener) {
 
 $diaChi = "http://localhost:$cong/"
 Write-Host ''
-Write-Host '  HOC HSK dang chay tai: ' -NoNewline
+Write-Host '  MAYI CHINESE dang chay tai: ' -NoNewline
 Write-Host $diaChi -ForegroundColor Green
 Write-Host '  (Dong cua so nay de tat app)'
 Write-Host ''

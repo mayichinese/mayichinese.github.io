@@ -7,7 +7,8 @@
 // Khi thêm file mới vào app, nhớ thêm vào danh sách TAP_TIN và tăng PHIEN_BAN.
 // =========================================================
 
-const PHIEN_BAN = 'hoc-hsk-v1';
+// Tên bộ nhớ đệm (chỉ chứa file của app, KHÔNG chứa tiến độ học – tiến độ nằm ở localStorage)
+const PHIEN_BAN = 'mayi-v2';
 const TAP_TIN = [
   './',
   './index.html',
@@ -21,10 +22,14 @@ const TAP_TIN = [
   './js/du-lieu.js',
   './js/phat-am.js',
   './data/hsk1.json',
-  './icons/icon.svg',
+  './icons/favicon.ico',
+  './icons/favicon-32.png',
+  './icons/icon-180.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
-  './icons/icon-180.png',
+  './icons/icon-maskable-192.png',
+  './icons/icon-maskable-512.png',
+  './icons/logo-day-du.png',
 ];
 
 // Lần đầu cài: tải sẵn mọi file

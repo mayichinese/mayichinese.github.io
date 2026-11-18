@@ -518,7 +518,7 @@ async function veCaiDat() {
     <div class="o">
       <button class="nut" id="nut-xoa" style="color:var(--quen)">🗑 Xóa toàn bộ tiến độ học</button>
     </div>
-    <p class="phu" style="text-align:center">Học HSK · Giai đoạn 1</p>`;
+    <p class="phu" style="text-align:center">Mayi Chinese · Giai đoạn 1</p>`;
 
   // --- Lưu khi thay đổi ---
   const soNguyen = (el, min, max, macDinh) => {

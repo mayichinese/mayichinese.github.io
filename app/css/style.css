@@ -65,10 +65,7 @@ body.kieu-khai .han { font-family: var(--phong-khai); }
   border-bottom: 1px solid var(--vien);
 }
 .logo { font-weight: 700; text-decoration: none; color: var(--chu); display: flex; align-items: center; gap: 8px; }
-.logo-chu {
-  display: inline-grid; place-items: center; width: 32px; height: 32px; border-radius: 8px;
-  background: var(--chinh); color: #fff; font-family: var(--phong-han); font-size: 20px;
-}
+.logo-anh { width: 32px; height: 32px; border-radius: 8px; }
 .dong-ho { font-size: 15px; color: var(--chu-phu); font-variant-numeric: tabular-nums; }
 
 /* ---------- Thanh dưới ---------- */
