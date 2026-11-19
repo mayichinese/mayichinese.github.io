@@ -1,4 +1,4 @@
-Điểm ngữ pháp: 10 · câu ví dụ: 43 · bài điền từ: 30
+Điểm ngữ pháp: 15 · câu ví dụ: 66 · bài điền từ: 45
 LỖI: 0 · CẢNH BÁO: 0
 
 Đã ghi app\data\ngu-phap-hsk1.json

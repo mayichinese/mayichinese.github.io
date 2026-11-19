@@ -1,0 +1,102 @@
+# ===== NGỮ PHÁP HSK 1 – ĐỢT 3 (soạn tay) =====
+# Cách viết: xem đầu file cong-cu/ghep-ngu-phap.py. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1.
+# Sửa xong chạy: python -X utf8 cong-cu/ghep-ngu-phap.py
+
+## ji-duoshao
+@ Hỏi số lượng: 几 và 多少
+§ 疑问代词“几、多少” · 疑问句（2）特指问句
+= 几 + lượng từ + danh từ？  (số nhỏ, thường dưới 10)
+= 多少 + (lượng từ) + danh từ？  (số bất kỳ)
+- 几 dùng khi đoán số lượng nhỏ (thường dưới 10) và BẮT BUỘC có lượng từ: 你有几个哥哥？
+- 多少 dùng cho số bất kỳ, nhất là số lớn; có thể bỏ lượng từ: 你们学校有多少学生？
+- Hỏi giá luôn dùng 多少钱: 这个多少钱？
+- Hỏi tuổi trẻ nhỏ dùng 几岁: 你女儿几岁？
+! Không bỏ lượng từ sau 几: nói 几个人, không nói 几人.
+! Hỏi số lớn (học sinh cả trường, giá tiền) dùng 多少, không dùng 几.
+> 你/有/几个/哥哥？ | Nǐ yǒu jǐ gè gēge? | Bạn có mấy anh trai?
+> 你家/有/几口/人？ | Nǐ jiā yǒu jǐ kǒu rén? | Nhà bạn có mấy người?
+> 你们/学校/有/多少/学生？ | Nǐmen xuéxiào yǒu duōshao xuéshēng? | Trường các bạn có bao nhiêu học sinh?
+> 这个/苹果/多少/钱？ | Zhège píngguǒ duōshao qián? | Quả táo này bao nhiêu tiền?
+> 你/女儿/几/岁？ | Nǐ nǚ'ér jǐ suì? | Con gái bạn mấy tuổi?
+? 你有___个妹妹？ | 几 | 多; 什么; 谁 | Nǐ yǒu jǐ gè mèimei? | Bạn có mấy em gái?
+? 这件衣服___钱？ | 多少 | 几; 什么; 谁 | Zhè jiàn yīfu duōshao qián? | Bộ quần áo này bao nhiêu tiền?
+? 你儿子___岁？ | 几 | 什么; 哪; 谁 | Nǐ érzi jǐ suì? | Con trai bạn mấy tuổi?
+
+## ngay-gio
+@ Ngày tháng, thứ trong tuần, giờ
+§ 特殊表达法 · 时间表示法（1）年、月、日、星期表示法（2）钟点表示法 · 时量词
+= … 年 … 月 … 号 (日) 星期 …  (từ LỚN đến NHỎ)
+= … 点 … 分 / … 点半
+- Ngày tháng nói theo thứ tự từ lớn đến nhỏ: năm → tháng → ngày → thứ. Ngày 19 tháng 11 là 十一月十九号.
+- Năm đọc từng chữ số: 二零二六年 (èr líng èr liù nián).
+- Thứ: 星期一 … 星期六 là thứ Hai … thứ Bảy; Chủ nhật là 星期天 hoặc 星期日.
+- Giờ: 点 = giờ, 分 = phút, 半 = rưỡi: 八点 (8 giờ), 八点十分 (8 giờ 10), 八点半 (8 giờ rưỡi).
+- Nói ngày thường dùng 号; 日 hay dùng trong văn viết.
+! Ngược tiếng Việt: "ngày 19 tháng 11" là 十一月十九号 – tháng đứng trước, ngày đứng sau.
+! 星期一 là thứ HAI (không phải "thứ Một"): số sau 星期 nhỏ hơn số "thứ" của tiếng Việt một đơn vị.
+> 今天/是/十一月/十九号。 | Jīntiān shì shíyī yuè shíjiǔ hào. | Hôm nay là ngày 19 tháng 11.
+> 明天/是/星期五。 | Míngtiān shì xīngqīwǔ. | Ngày mai là thứ Sáu.
+> 现在/八点/半。 | Xiànzài bā diǎn bàn. | Bây giờ là tám giờ rưỡi.
+> 我/早上/七点/起床。 | Wǒ zǎoshang qī diǎn qǐchuáng. | Tôi dậy lúc bảy giờ sáng.
+~ 早上/七点/我/起床。
+? 明天是星期___。 | 六 | 号; 点; 月 | Míngtiān shì xīngqīliù. | Ngày mai là thứ Bảy.
+? 现在三点___。 | 半 | 号; 年; 星期 | Xiànzài sān diǎn bàn. | Bây giờ là ba giờ rưỡi.
+? 今天是五月一___。 | 号 | 点; 半; 星期 | Jīntiān shì wǔ yuè yī hào. | Hôm nay là ngày 1 tháng 5.
+
+## trang-ngu
+@ Thời gian và nơi chốn đứng TRƯỚC động từ
+§ 句子成分 · 状语（表示时间、处所的词语作状语）· 介词“在”（引出时间、处所）
+= Chủ ngữ + thời gian + 在 + nơi chốn + động từ (+ tân ngữ)
+= Thời gian + chủ ngữ + 在 + nơi chốn + động từ
+- Từ chỉ thời gian (今天, 明天, 早上, 八点…) đứng TRƯỚC động từ; có thể đứng trước hoặc sau chủ ngữ.
+- Làm việc gì ở đâu: 在 + nơi chốn, đặt TRƯỚC động từ: 我在家学习 (tôi học ở nhà).
+- Có cả hai thì thời gian trước, nơi chốn sau: 我明天在学校看书.
+! Rất khác tiếng Việt: "Tôi học ở nhà" là 我在家学习, không nói 我学习在家.
+! "Tôi ngủ lúc 9 giờ" là 我九点睡觉 – giờ giấc đặt trước động từ, không đặt cuối câu.
+> 我/在/家/学习。 | Wǒ zài jiā xuéxí. | Tôi học ở nhà.
+> 他/在/医院/工作。 | Tā zài yīyuàn gōngzuò. | Anh ấy làm việc ở bệnh viện.
+> 我/明天/在/学校/看/书。 | Wǒ míngtiān zài xuéxiào kàn shū. | Ngày mai tôi đọc sách ở trường.
+~ 明天/我/在/学校/看/书。
+> 我们/中午/在/饭店/吃/饭。 | Wǒmen zhōngwǔ zài fàndiàn chī fàn. | Buổi trưa chúng tôi ăn cơm ở nhà hàng.
+~ 中午/我们/在/饭店/吃/饭。
+> 妈妈/晚上/九点/睡觉。 | Māma wǎnshang jiǔ diǎn shuìjiào. | Mẹ đi ngủ lúc chín giờ tối.
+~ 晚上/九点/妈妈/睡觉。
+? 我___家学习。 | 在 | 是; 有; 很 | Wǒ zài jiā xuéxí. | Tôi học ở nhà.
+? 我明天___学校看书。 | 在 | 是; 有; 的 | Wǒ míngtiān zài xuéxiào kàn shū. | Ngày mai tôi đọc sách ở trường.
+? 我们中午在饭店___饭。 | 吃 | 喝; 是; 有 | Wǒmen zhōngwǔ zài fàndiàn chī fàn. | Buổi trưa chúng tôi ăn cơm ở nhà hàng.
+
+## vi-ngu-danh-tu
+@ Câu vị ngữ danh từ: nói ngày, giờ, tuổi, giá không cần 是
+§ 句型 · 主谓句3：名词谓语句 · 谓语（名词、代词、数词或数量短语作谓语）
+= Chủ ngữ + danh từ / số lượng
+= Phủ định: Chủ ngữ + 不是 + …
+- Khi nói ngày tháng, thứ, giờ, tuổi, giá tiền có thể bỏ 是: 今天星期四, 现在八点, 我二十岁, 这个五块.
+- Câu khẳng định có hoặc không có 是 đều đúng (今天是星期四 cũng được); câu PHỦ ĐỊNH bắt buộc dùng 不是.
+! Phủ định không nói 今天不星期四 – phải nói 今天不是星期四.
+! Nói tuổi không cần 有 hay 是: 我二十岁 (tôi 20 tuổi), không nói 我有二十岁.
+> 今天/星期四。 | Jīntiān xīngqīsì. | Hôm nay thứ Năm.
+> 我/二十/岁。 | Wǒ èrshí suì. | Tôi hai mươi tuổi.
+> 现在/十点/十分。 | Xiànzài shí diǎn shí fēn. | Bây giờ là mười giờ mười phút.
+> 这个/苹果/三/块。 | Zhège píngguǒ sān kuài. | Quả táo này ba đồng.
+> 今天/不是/星期天。 | Jīntiān bú shì xīngqītiān. | Hôm nay không phải Chủ nhật.
+? 今天不___星期一。 | 是 | 有; 很; 吗 | Jīntiān bú shì xīngqīyī. | Hôm nay không phải thứ Hai.
+? 我妹妹八___。 | 岁 | 年; 号; 点 | Wǒ mèimei bā suì. | Em gái tôi tám tuổi.
+? 这本书二十___。 | 块 | 岁; 号; 点 | Zhè běn shū èrshí kuài. | Quyển sách này hai mươi đồng.
+
+## tien
+@ Nói về tiền và hỏi giá
+§ 特殊表达法 · 数的表达法：钱数表示法 · 量词“块、元”
+= Số + 块 (văn nói) / 元 (văn viết, giá ghi trên bảng)
+= … 多少钱？  (hỏi giá)
+- Đơn vị tiền Trung Quốc: khi nói chuyện dùng 块, giá ghi trên bảng hoặc văn viết dùng 元. 十块 = 十元 = 10 đồng (tệ).
+- Hỏi giá: 这个多少钱？ / 这件衣服多少钱？
+- Số lớn: 一百 (100), 一千 (1000), 一百二十 (120); 200 thường nói 两百, 2000 nói 两千.
+! Hỏi giá không nói 几钱 – phải là 多少钱.
+! Trước 百, 千 thường dùng 两 (两百, 两千), giống quy tắc 两 + lượng từ.
+> 这个/杯子/多少/钱？ | Zhège bēizi duōshao qián? | Cái cốc này bao nhiêu tiền?
+> 这件/衣服/两百/块。 | Zhè jiàn yīfu liǎng bǎi kuài. | Bộ quần áo này hai trăm đồng.
+> 我/有/五十/块/钱。 | Wǒ yǒu wǔshí kuài qián. | Tôi có năm mươi đồng.
+> 这个/电脑/五千/元。 | Zhège diànnǎo wǔ qiān yuán. | Cái máy tính này năm nghìn tệ.
+? 这件衣服两___块。 | 百 | 个; 号; 岁 | Zhè jiàn yīfu liǎng bǎi kuài. | Bộ quần áo này hai trăm đồng.
+? 我有五十块___。 | 钱 | 元; 个; 本 | Wǒ yǒu wǔshí kuài qián. | Tôi có năm mươi đồng.
+? 这个电脑五千___。 | 元 | 个; 号; 本 | Zhège diànnǎo wǔ qiān yuán. | Cái máy tính này năm nghìn tệ.
