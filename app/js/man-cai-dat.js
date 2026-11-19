@@ -79,7 +79,7 @@ export async function veCaiDat(khung) {
 
     <div class="chan-trang">
       <img src="icons/icon-192.png" alt="" width="56" height="56">
-      <p class="chu-phu nho">Mayi Chinese · Giai đoạn 1</p>
+      <p class="chu-phu nho">Mayi Chinese · Giai đoạn 2</p>
     </div>`;
 
   const $ = (sel) => khung.querySelector(sel);

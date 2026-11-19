@@ -24,6 +24,11 @@
   - Giao diện: `js/app.js` (khởi động, chuyển màn hình), `js/giao-dien.js` (mảnh dùng chung, sáng/tối),
     mỗi màn hình một file `js/man-*.js`; `js/pinyin.js` tô màu thanh điệu; `css/style.css` (biến màu
     sáng/tối theo logo) + `css/man-hinh.css`.
+  - Giai đoạn 2: `js/man-luyen-viet.js` (100 chữ viết tay cấp 1–2, lịch ôn SM-2 riêng ở `tienDo.theViet`,
+    tự chấm theo số nét sai), `js/net-chu.js` + `lib/hanzi-writer.min.js` (Hanzi Writer 3.7.3, tải khi cần),
+    `js/man-thanh-dieu.js` (5 dạng bài, câu hỏi sinh từ hsk1.json; thống kê `tienDo.thanhDieu`).
+  - `data/net-chu-hsk1.json` (tạo bởi `cong-cu/tai-du-lieu-viet.py`) và `data/thanh-dieu-hsk1.json`
+    (tạo bởi `cong-cu/tao-du-lieu-thanh-dieu.py`, cần CC-CEDICT) – **file tự động, không sửa tay**.
   - `data/hsk1.json`: dữ liệu HSK 1 (20 bài, 300 từ, 625 câu ví dụ) – **file được tạo tự động, không sửa tay**.
   - `data/chinh-thuc/`: danh sách từ và chữ Hán chính thức HSK 3.0, trích từ đề cương 2025.
 - `cong-cu/` – script tạo và kiểm tra dữ liệu. `cong-cu/nguon-hsk1/bai-*.txt` là nguồn soạn tay.
@@ -36,7 +41,10 @@
   python -X utf8 cong-cu/ghep-du-lieu-hsk1.py
   python -X utf8 cong-cu/kiem-tra-pinyin-vi-du.py
   ```
+- Sau khi sửa từ vựng, chạy thêm `python -X utf8 cong-cu/tao-du-lieu-thanh-dieu.py` (chữ đa âm);
+  thêm chữ mới cần nét thì chạy `python -X utf8 cong-cu/tai-du-lieu-viet.py` (cần mạng).
 - Pinyin và từ loại lấy theo danh sách chính thức. Câu ví dụ tự đặt, không chép giáo trình.
+- Pinyin của 不/一 ghi theo cách đọc đã biến điệu (bú, yí, yì); hai thanh 3 liền nhau vẫn ghi thanh 3.
 
 ## Quy tắc quan trọng
 - **Tránh lỗi "Output blocked by content filtering policy"**: lỗi này xảy ra khi một lần trả lời

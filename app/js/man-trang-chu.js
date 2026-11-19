@@ -8,8 +8,8 @@
 //   - Tiến độ HSK 1
 // =========================================================
 
-import { caiDat, nhatKyHomNay, chuoiNgayHoc, coLuuDuoc, layTienDo, ngayHoc } from './luu-tru.js';
-import { loaiThe } from './lich-on.js';
+import { caiDat, nhatKyHomNay, chuoiNgayHoc, coLuuDuoc, layTienDo, ngayHoc, coHocNgay } from './luu-tru.js';
+import { loaiThe, dangHoc } from './lich-on.js';
 import { tatCaTu } from './du-lieu.js';
 import { tinhTrangPhatAm } from './phat-am.js';
 import { demHomNay, baiDangHoc, tuChuaHoc } from './phien-hoc.js';
@@ -35,8 +35,7 @@ function veTuanNay() {
   let soNgayHoc = 0;
   for (let i = 6; i >= 0; i--) {
     const khoa = ngayHoc(Date.now() - i * 86400000);
-    const nk = nhatKy[khoa];
-    const coHoc = !!nk && (nk.moi > 0 || nk.on > 0);
+    const coHoc = coHocNgay(nhatKy[khoa]);
     if (coHoc) soNgayHoc++;
     const thu = new Date(`${khoa}T12:00:00`).getDay();
     html += `
@@ -104,10 +103,28 @@ export function veTrangChu(khung) {
     : `<b>${dem.daHocMoi}/${cd.soTuMoiMoiNgay}</b> từ mới · Bài ${bai.so}: ${esc(bai.ten)}`;
   const tienDoMoi = Math.min(100, Math.round((dem.daHocMoi / cd.soTuMoiMoiNgay) * 100));
 
-  // Nút "Bắt đầu": chọn phần nên làm tiếp theo
+  // --- Phần 3: Nghe & thanh điệu (xong khi đủ số phút mục tiêu) ---
+  const ngheXong = phut('nghe') >= mt.nghe;
+  const moTaNghe = nk.thanh
+    ? `Đã trả lời <b>${nk.thanh}</b> câu hôm nay`
+    : 'Nghe chọn thanh, cặp thanh 2–3, biến điệu 不/一';
+  const tienDoNghe = Math.min(100, Math.round((phut('nghe') / mt.nghe) * 100));
+
+  // --- Phần 4: Viết chữ (đếm thẳng từ lịch ôn chữ viết, không cần tải dữ liệu nét) ---
+  const bayGio = Date.now();
+  const vietCanOn = Object.values(td.theViet).filter((t) => dangHoc(t) || t.han <= bayGio).length;
+  const vietMoi = nk.vietMoi || 0;
+  const vietConMoi = Math.max(0, cd.soChuVietMoiMoiNgay - vietMoi);
+  const vietXong = vietCanOn === 0 && vietConMoi === 0;
+  const moTaViet = `${vietCanOn ? `<b>${vietCanOn}</b> chữ cần ôn · ` : ''}<b>${vietMoi}/${cd.soChuVietMoiMoiNgay}</b> chữ mới`;
+  const tienDoViet = vietXong ? 100 : Math.min(100, Math.round((vietMoi / cd.soChuVietMoiMoiNgay) * 100));
+
+  // Nút "Bắt đầu": chọn phần nên làm tiếp theo (theo thứ tự kế hoạch 60 phút)
   let batDau;
   if (!onXong) batDau = { chu: `Ôn ${dem.onDenHan + dem.dangHocDenHan} thẻ`, href: '#/on' };
   else if (!moiXong) batDau = { chu: 'Học từ mới', href: '#/hoc-moi' };
+  else if (!ngheXong) batDau = { chu: 'Luyện thanh điệu', href: '#/thanh-dieu' };
+  else if (!vietXong) batDau = { chu: 'Luyện viết chữ', href: '#/luyen-viet/phien' };
   else batDau = { chu: 'Xem lại bài học', href: '#/bai' };
 
   // Cảnh báo
@@ -129,8 +146,10 @@ export function veTrangChu(khung) {
       href: '#/on', phanTram: tienDoOn, xong: onXong },
     { ma: 'moi', emoji: '✨', ten: 'Học từ mới', phut: phut('moi'), mucTieu: mt.moi, moTa: moTaMoi,
       href: bai ? '#/hoc-moi' : '', phanTram: tienDoMoi, xong: moiXong },
-    { ma: 'nghe', emoji: '🎧', ten: 'Nghe & thanh điệu', mucTieu: mt.nghe, moTa: 'Nghe một âm, chọn đúng thanh', href: '#/luyen-tap', sapCo: true },
-    { ma: 'viet', emoji: '✍️', ten: 'Viết chữ Hán', mucTieu: mt.viet, moTa: 'Thứ tự nét, tập viết theo', href: '#/luyen-tap', sapCo: true },
+    { ma: 'nghe', emoji: '🎧', ten: 'Nghe & thanh điệu', phut: phut('nghe'), mucTieu: mt.nghe, moTa: moTaNghe,
+      href: '#/thanh-dieu', phanTram: tienDoNghe, xong: ngheXong },
+    { ma: 'viet', emoji: '✍️', ten: 'Viết chữ Hán', phut: phut('viet'), mucTieu: mt.viet, moTa: moTaViet,
+      href: '#/luyen-viet', phanTram: tienDoViet, xong: vietXong },
     { ma: 'nguPhap', emoji: '🧩', ten: 'Ngữ pháp & trắc nghiệm', mucTieu: mt.nguPhap, moTa: 'Câu hỏi nhanh ôn bài', href: '#/luyen-tap', sapCo: true },
   ];
 

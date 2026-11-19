@@ -1,4 +1,4 @@
-# Hướng dẫn sử dụng app Mayi Chinese (Giai đoạn 1)
+# Hướng dẫn sử dụng app Mayi Chinese (Giai đoạn 2)
 
 App chạy hoàn toàn trên trình duyệt, không cần đăng nhập, không cần mạng sau lần mở đầu tiên.
 Tiến độ học được lưu **ngay trong trình duyệt của máy đang dùng**.
@@ -58,7 +58,7 @@ Tiến độ trên máy tính và trên điện thoại là **hai bản riêng**
 |---|---|
 | 🏠 **Hôm nay** | Xem việc cần làm hôm nay, chuỗi ngày học liên tục, 7 ngày trong tuần, kế hoạch 60 phút |
 | 📚 **Bài học** | Vào Ôn tập / Từ mới, chọn bài, tìm từ (chữ Hán, pinyin, nghĩa, Hán Việt) |
-| ✏️ **Luyện tập** | Luyện thanh điệu, luyện viết, trắc nghiệm: **Sắp có** |
+| ✏️ **Luyện tập** | 🎧 Luyện thanh điệu, ✍️ Luyện viết chữ Hán. Trắc nghiệm: **Sắp có** |
 | 📊 **Thống kê** | **Sắp có** |
 
 Hai nút ở góc trên bên phải: **🌙/☀️** chuyển nhanh giữa giao diện tối và sáng; nút **Cài đặt** (biểu tượng thanh trượt) mở phần cài đặt và sao lưu.
@@ -67,7 +67,7 @@ Mặc định app sáng/tối **theo máy**. Muốn quay lại chế độ này:
 **Màu thanh điệu:** pinyin và chữ Hán ở mặt sau thẻ được tô màu theo thanh, giúp nhớ thanh điệu:
 thanh 1 **đỏ**, thanh 2 **cam**, thanh 3 **xanh lá**, thanh 4 **xanh dương**, thanh nhẹ **xám**.
 
-Màn hình **Hôm nay** hiện 5 phần theo thứ tự. Giai đoạn 1 mới có phần 1 và 2. Nút **Bắt đầu** trên khung chào sẽ chọn sẵn việc nên làm tiếp theo.
+Màn hình **Hôm nay** hiện 5 phần theo thứ tự. Đã có phần 1–4; phần 5 (ngữ pháp, trắc nghiệm) làm ở Giai đoạn 3–4. Nút **Bắt đầu** trên khung chào sẽ chọn sẵn việc nên làm tiếp theo.
 
 1. **Ôn từ đến hạn (~15 phút):** app đưa ra chữ Hán trong ô chữ điền. Bạn tự nhớ lại cách đọc và nghĩa → chạm vào thẻ hoặc bấm **Lật thẻ** → tự chấm điểm:
    - **Quên:** không nhớ, sẽ hỏi lại sau vài phút.
@@ -78,11 +78,27 @@ Màn hình **Hôm nay** hiện 5 phần theo thứ tự. Giai đoạn 1 mới c�
    Dưới mỗi nút có ghi thời gian đến lần ôn tiếp theo. Hết phiên, app hiện bảng tổng kết số lần Quên / Khó / Nhớ / Dễ.
 2. **Học từ mới (~15 phút, mặc định 15 từ/ngày):** học lần lượt theo 20 bài chủ đề. Mỗi từ mới hiện đầy đủ thông tin trước (bấm **Đã hiểu – luyện tiếp**, hoặc **Đã biết từ này** nếu bạn đã thuộc), rồi được hỏi lại sau 1 phút và 10 phút. Mỗi lúc chỉ luyện tối đa 5 từ mới, để không bị ngợp. Muốn học từ mới của một bài cụ thể: **Bài học** → chọn bài → **Học từ mới của bài này**.
 
-Khi đang học thẻ, góc trên có **đồng hồ** đếm số phút đã học cho phần đó (chỉ đếm khi bạn đang thao tác).
+3. **Nghe & thanh điệu (~10 phút):** **Luyện tập → Luyện thanh điệu**. Mỗi phiên 10 câu, app đọc bằng giọng tiếng Trung của máy. Có 5 dạng bài:
+   - **Nghe 1 âm tiết:** nghe một chữ, chọn thanh 1–4.
+   - **Thanh 2 hay thanh 3?:** cặp người Việt hay nhầm nhất.
+   - **Từ 2 âm tiết:** chọn thanh cho âm 1 rồi âm 2 (có thanh nhẹ).
+   - **Biến điệu 不 và 一:** chọn cách đọc đúng (bù/bú, yī/yí/yì) trong câu ví dụ.
+   - **Hai thanh 3 liền nhau:** âm đầu đổi thành thanh 2 hay giữ thanh 3?
 
-Trên máy tính có phím tắt: **Space** để lật thẻ, các số **1 2 3 4** tương ứng Quên / Khó / Nhớ / Dễ.
+   Mỗi dạng có khung **📖 Quy tắc** giải thích ngắn. Câu sai được hỏi lại ở cuối phiên. Trang Luyện thanh điệu có **bảng thanh điệu** (chạm để nghe mẫu) và cho biết bạn **hay nhầm thanh nào với thanh nào**. Nút **🐢 Chậm** đọc chậm lại.
+   Chữ có nhiều cách đọc được loại khỏi bài "nghe 1 âm tiết", vì giọng máy có thể đọc khác pinyin trong dữ liệu.
+4. **Viết chữ Hán (~10 phút, mặc định 5 chữ mới/ngày):** **Luyện tập → Luyện viết chữ Hán**. Luyện **100 chữ cần viết tay cấp 1–2** theo đề cương HSK 2025. Chữ thuộc từ bạn đã học được xếp lên trước.
+   - Chữ mới học qua 3 bước: **xem thứ tự nét** → **viết theo nét mờ** → **viết không nhìn** (chỉ có pinyin và nghĩa làm gợi ý).
+   - Viết bằng ngón tay (điện thoại) hoặc chuột (máy tính), viết **đúng thứ tự nét**. Viết sai nét thì app báo, sai nhiều lần thì nét đúng tự sáng lên.
+   - App **tự chấm** ở bước viết không nhìn: không sai nét nào → Nhớ; sai 1–3 nét → Khó; sai từ 4 nét hoặc bấm 💡 Gợi ý → Quên. Rồi app xếp lịch ôn lại như thẻ từ.
+   - Chạm vào một chữ trong lưới 100 chữ để luyện riêng chữ đó.
+   - Mặt sau mỗi thẻ từ và trang xem từ có nút **✍️ Cách viết** để xem thứ tự nét của mọi chữ HSK 1.
 
-Đổi số từ mới mỗi ngày, tốc độ đọc, giọng đọc, giao diện sáng/tối, hoặc kiểu chữ viết tay (Khải thư) trong **Cài đặt**.
+Khi đang học, góc trên có **đồng hồ** đếm số phút đã học cho phần đó (chỉ đếm khi bạn đang thao tác).
+
+Trên máy tính có phím tắt: **Space** để lật thẻ (hoặc nghe lại trong bài thanh điệu), các số **1 2 3 4** tương ứng Quên / Khó / Nhớ / Dễ, hoặc các nút chọn thanh.
+
+Đổi số từ mới mỗi ngày, số chữ viết mới mỗi ngày, tốc độ đọc, giọng đọc, giao diện sáng/tối, hoặc kiểu chữ viết tay (Khải thư) trong **Cài đặt**.
 
 ## 5. Dữ liệu từ vựng: kiểm tra và sửa
 
@@ -113,12 +129,19 @@ Từ nào có dấu ⚠️ là chỗ còn **cần kiểm tra**. Danh sách các 
 
 Không nên sửa thẳng `app/data/hsk1.json`, vì lần chạy script sau sẽ ghi đè lên chỗ bạn đã sửa.
 
+**Dữ liệu luyện viết và thanh điệu (tạo tự động, không sửa tay):**
+- `app/data/net-chu-hsk1.json` (thứ tự nét) và `app/lib/hanzi-writer.min.js` (thư viện vẽ nét): tạo bằng
+  `python -X utf8 cong-cu/tai-du-lieu-viet.py` (cần mạng). Chỉ cần chạy lại khi thêm cấp HSK mới.
+  Dữ liệu nét lấy từ dự án Make Me a Hanzi (giấy phép Arphic, xem `app/data/GIAY-PHEP-net-chu.txt`).
+- `app/data/thanh-dieu-hsk1.json` (chữ đa âm): tạo bằng `python -X utf8 cong-cu/tao-du-lieu-thanh-dieu.py`.
+  Chạy lại sau khi sửa dữ liệu từ vựng.
+
 **Đối chiếu âm Hán Việt với Hanzii:** chạy `node cong-cu/doi-chieu-hanzii.mjs` (cần cài [Node.js](https://nodejs.org)). Kết quả nằm trong `cong-cu/bao-cao-hanzii.txt`.
 
 ## 6. Cấu trúc thư mục
 
 ```
-Mayi Chinese/
+MayiChinese/
 ├── CHAY-APP.bat            ← bấm đúp để chạy trên Windows
 ├── HUONG-DAN.md            ← file này
 ├── avatar.jpg              ← logo gốc Mayi Chinese
@@ -134,8 +157,12 @@ Mayi Chinese/
 │   │   ├── man-the-tu.js   ← thẻ từ (flashcard)
 │   │   ├── man-bai-hoc.js  ← Bài học, tìm từ, xem từ
 │   │   ├── man-cai-dat.js  ← Cài đặt, sao lưu
-│   │   ├── man-sap-co.js   ← Luyện tập, Thống kê (sắp có)
-│   │   ├── pinyin.js       ← tô màu thanh điệu
+│   │   ├── man-luyen-tap.js← trang chọn bài luyện
+│   │   ├── man-thanh-dieu.js ← luyện thanh điệu
+│   │   ├── man-luyen-viet.js ← luyện viết chữ Hán, hộp "Cách viết"
+│   │   ├── net-chu.js      ← vẽ thứ tự nét (dùng thư viện Hanzi Writer)
+│   │   ├── man-sap-co.js   ← Thống kê (sắp có)
+│   │   ├── pinyin.js       ← tô màu thanh điệu, tách âm tiết
 │   │   ├── bieu-tuong.js   ← các biểu tượng
 │   │   ├── phien-hoc.js    ← chọn thẻ tiếp theo khi học/ôn
 │   │   ├── lich-on.js      ← thuật toán lịch ôn (SM-2)
@@ -144,11 +171,16 @@ Mayi Chinese/
 │   │   └── phat-am.js      ← giọng đọc
 │   ├── data/hsk1.json      ← dữ liệu từ vựng đã ghép (do script tạo ra)
 │   ├── data/chinh-thuc/    ← danh sách chính thức HSK 1–3 (từ vựng, chữ Hán)
+│   ├── data/net-chu-hsk1.json   ← thứ tự nét chữ (do script tạo ra)
+│   ├── data/thanh-dieu-hsk1.json← chữ đa âm cho bài thanh điệu (do script tạo ra)
+│   ├── lib/                ← thư viện Hanzi Writer (vẽ và chấm nét chữ)
 │   └── sw.js               ← giúp chạy offline
 ├── cong-cu/                ← công cụ tạo và kiểm tra dữ liệu (chạy trên máy tính)
 │   ├── nguon-hsk1/         ← nội dung soạn tay của từng bài  ← SỬA Ở ĐÂY
 │   ├── ghep-du-lieu-hsk1.py
 │   ├── kiem-tra-pinyin-vi-du.py
+│   ├── tai-du-lieu-viet.py ← tải thư viện + dữ liệu nét chữ
+│   ├── tao-du-lieu-thanh-dieu.py ← đánh dấu chữ đa âm
 │   ├── doi-chieu-hanzii.mjs
 │   └── may-chu.ps1         ← máy chủ mini dùng cho CHAY-APP.bat
 └── tai-lieu/               ← đề cương thi HSK 2025 (PDF gốc)
