@@ -1,6 +1,7 @@
 // =========================================================
 // LUYỆN VIẾT CHỮ HÁN (Giai đoạn 2)
-//   #/luyen-viet            tổng quan: số chữ cần ôn / chữ mới hôm nay + lưới 100 chữ cần viết tay
+//   #/luyen-viet            tổng quan: số chữ cần ôn / chữ mới hôm nay + lưới chữ cần viết tay
+//                           (chọn Cấp 1–2: 100 chữ · Cấp 3: 150 chữ; chữ mới đi hết cấp 1–2 rồi mới sang cấp 3)
 //   #/luyen-viet/phien      phiên luyện hôm nay (chữ đến hạn ôn + chữ mới)
 //   #/luyen-viet/chu/<chữ>  luyện riêng một chữ
 //
@@ -46,7 +47,13 @@ function chuMoiTheoThuTu(vietTay) {
   return [...chua.filter(daGapTrongTu), ...chua.filter((c) => !daGapTrongTu(c))];
 }
 
-/** Đếm cho trang tổng quan và trang Hôm nay. Cần dữ liệu nét đã tải (danh sách vietTay12). */
+/** Mọi chữ cần viết tay (cấp 1–2 rồi cấp 3) */
+const tatCaChuViet = (duLieu) => [...duLieu.vietTay12, ...(duLieu.vietTay3 || [])];
+/** Chữ mới theo thứ tự: hết cấp 1–2 rồi mới đến cấp 3 */
+const chuMoiCacCap = (duLieu) => [...chuMoiTheoThuTu(duLieu.vietTay12), ...chuMoiTheoThuTu(duLieu.vietTay3 || [])];
+let capVietXem = null;   // lưới đang xem: '12' | '3'
+
+/** Đếm cho trang tổng quan và trang Hôm nay. Cần dữ liệu nét đã tải. */
 export function demViet(vietTay, bayGio = Date.now()) {
   const td = layTienDo();
   const cd = caiDat();
@@ -95,10 +102,17 @@ export async function veLuyenViet(khung) {
   }
   if (!khung.isConnected) return;
   const td = layTienDo();
-  const dem = demViet(duLieu.vietTay12);
-  const soBatDau = dem.canOn.length + Math.min(dem.conMoi, chuMoiTheoThuTu(duLieu.vietTay12).length);
+  const dem = demViet(tatCaChuViet(duLieu));
+  const soBatDau = dem.canOn.length + Math.min(dem.conMoi, chuMoiCacCap(duLieu).length);
+  const coCap3 = (duLieu.vietTay3 || []).length > 0;
+  // Mặc định xem cấp đang học: còn chữ cấp 1–2 chưa luyện thì xem cấp 1–2
+  if (!capVietXem || (capVietXem === '3' && !coCap3)) {
+    capVietXem = coCap3 && !chuMoiTheoThuTu(duLieu.vietTay12).length ? '3' : '12';
+  }
+  const dsXem = capVietXem === '3' ? duLieu.vietTay3 : duLieu.vietTay12;
+  const demXem = demViet(dsXem);
 
-  const oChu = duLieu.vietTay12.map((c) => `
+  const oChu = dsXem.map((c) => `
     <a class="o-chu-nho han ${loaiThe(td.theViet[c])}" href="#/luyen-viet/chu/${encodeURIComponent(c)}" title="Luyện riêng chữ này">${esc(c)}</a>`).join('');
 
   khung.innerHTML = `
@@ -122,11 +136,19 @@ export async function veLuyenViet(khung) {
         : '<span class="nut nut-rong" aria-disabled="true">✅ Hôm nay đã luyện xong – chạm một chữ bên dưới để luyện thêm</span>'}
     </p>
 
-    <h3 class="tieu-de-muc">100 chữ cần viết <small>${dem.tong - dem.thongKe['chua-hoc']}/${dem.tong} đã luyện</small></h3>
+    ${coCap3 ? `<div class="hang-chip" style="margin-top:14px">
+      <button class="chip ${capVietXem === '12' ? 'dang-chon' : ''}" data-cap-viet="12">Cấp 1–2 · ${duLieu.vietTay12.length} chữ</button>
+      <button class="chip ${capVietXem === '3' ? 'dang-chon' : ''}" data-cap-viet="3">Cấp 3 · ${duLieu.vietTay3.length} chữ</button>
+    </div>` : ''}
+    <h3 class="tieu-de-muc">${dsXem.length} chữ cần viết ${capVietXem === '3' ? 'cấp 3' : 'cấp 1–2'} <small>${demXem.tong - demXem.thongKe['chua-hoc']}/${demXem.tong} đã luyện</small></h3>
     ${CHU_THICH_CHAM}
     <div class="luoi-chu">${oChu}</div>
-    <p class="chu-phu nho" style="margin-top:18px">Danh sách theo Đề cương thi HSK 2025 (汉字大纲 – chữ cần viết tay cấp 1–2).
+    <p class="chu-phu nho" style="margin-top:18px">Danh sách theo Đề cương thi HSK 2025 (汉字大纲 – chữ cần viết tay cấp 1–2 và cấp 3).
+      Chữ mới đi theo thứ tự: hết cấp 1–2 rồi mới sang cấp 3; chữ thuộc từ bạn đã học được xếp lên trước.
       Dữ liệu nét chữ: Make Me a Hanzi / Hanzi Writer.</p>`;
+  khung.querySelectorAll('[data-cap-viet]').forEach((b) => {
+    b.onclick = () => { capVietXem = b.dataset.capViet; veLuyenViet(khung); };
+  });
 }
 
 // =========================================================
@@ -149,8 +171,8 @@ export function vePhienViet(khung, chuChon = null) {
     if (chuChon) {
       hangDoi = duLieu.net[chuChon] ? [chuChon] : [];
     } else {
-      const dem = demViet(duLieu.vietTay12);
-      hangDoi = [...dem.canOn, ...chuMoiTheoThuTu(duLieu.vietTay12).slice(0, dem.conMoi)];
+      const dem = demViet(tatCaChuViet(duLieu));
+      hangDoi = [...dem.canOn, ...chuMoiCacCap(duLieu).slice(0, dem.conMoi)];
     }
     if (!hangDoi.length) {
       khung.innerHTML = `

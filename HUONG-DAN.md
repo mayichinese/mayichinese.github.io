@@ -87,7 +87,7 @@ Màn hình **Hôm nay** hiện 5 phần theo thứ tự. Đã có đủ 5 phần
 
    Mỗi dạng có khung **📖 Quy tắc** giải thích ngắn. Câu sai được hỏi lại ở cuối phiên. Trang Luyện thanh điệu có **bảng thanh điệu** (chạm để nghe mẫu) và cho biết bạn **hay nhầm thanh nào với thanh nào**. Nút **🐢 Chậm** đọc chậm lại.
    Chữ có nhiều cách đọc được loại khỏi bài "nghe 1 âm tiết", vì giọng máy có thể đọc khác pinyin trong dữ liệu.
-4. **Viết chữ Hán (~10 phút, mặc định 5 chữ mới/ngày):** **Luyện tập → Luyện viết chữ Hán**. Luyện **100 chữ cần viết tay cấp 1–2** theo đề cương HSK 2025. Chữ thuộc từ bạn đã học được xếp lên trước.
+4. **Viết chữ Hán (~10 phút, mặc định 5 chữ mới/ngày):** **Luyện tập → Luyện viết chữ Hán**. Luyện **100 chữ cần viết tay cấp 1–2** và **150 chữ cấp 3** theo đề cương HSK 2025 (chọn bằng nút **Cấp 1–2 / Cấp 3**; chữ mới đi hết cấp 1–2 rồi mới sang cấp 3). Chữ thuộc từ bạn đã học được xếp lên trước.
    - Chữ mới học qua 3 bước: **xem thứ tự nét** → **viết theo nét mờ** → **viết không nhìn** (chỉ có pinyin và nghĩa làm gợi ý).
    - Viết bằng ngón tay (điện thoại) hoặc chuột (máy tính), viết **đúng thứ tự nét**. Viết sai nét thì app báo, sai nhiều lần thì nét đúng tự sáng lên.
    - App **tự chấm** ở bước viết không nhìn: không sai nét nào → Nhớ; sai 1–3 nét → Khó; sai từ 4 nét hoặc bấm 💡 Gợi ý → Quên. Rồi app xếp lịch ôn lại như thẻ từ.
@@ -155,7 +155,7 @@ Từ nào có dấu ⚠️ là chỗ còn **cần kiểm tra**. Danh sách các 
 Không nên sửa thẳng `app/data/hsk1.json`, vì lần chạy script sau sẽ ghi đè lên chỗ bạn đã sửa.
 
 **Dữ liệu luyện viết và thanh điệu (tạo tự động, không sửa tay):**
-- `app/data/net-chu-hsk1.json` (thứ tự nét) và `app/lib/hanzi-writer.min.js` (thư viện vẽ nét): tạo bằng
+- `app/data/net-chu-hsk1.json`, `app/data/net-chu-hsk23.json` (thứ tự nét; file 2 gồm 150 chữ viết tay cấp 3 và chữ của từ HSK 2–3) và `app/lib/hanzi-writer.min.js` (thư viện vẽ nét): tạo bằng
   `python -X utf8 cong-cu/tai-du-lieu-viet.py` (cần mạng). Chỉ cần chạy lại khi thêm cấp HSK mới.
   Dữ liệu nét lấy từ dự án Make Me a Hanzi (giấy phép Arphic, xem `app/data/GIAY-PHEP-net-chu.txt`).
 - `app/data/thanh-dieu-hsk1.json` (chữ đa âm): tạo bằng `python -X utf8 cong-cu/tao-du-lieu-thanh-dieu.py`.
@@ -221,7 +221,8 @@ MayiChinese/
 │   │   └── phat-am.js      ← giọng đọc
 │   ├── data/hsk1.json      ← dữ liệu từ vựng đã ghép (do script tạo ra)
 │   ├── data/chinh-thuc/    ← danh sách chính thức HSK 1–3 (từ vựng, chữ Hán)
-│   ├── data/net-chu-hsk1.json   ← thứ tự nét chữ (do script tạo ra)
+│   ├── data/net-chu-hsk1.json   ← thứ tự nét chữ HSK 1 + 100 chữ viết tay cấp 1–2 (do script tạo ra)
+│   ├── data/net-chu-hsk23.json  ← thứ tự nét chữ HSK 2–3 + 150 chữ viết tay cấp 3 (do script tạo ra)
 │   ├── data/thanh-dieu-hsk1.json← chữ đa âm cho bài thanh điệu (do script tạo ra)
 │   ├── data/ngu-phap-hsk1.json  ← 35 điểm ngữ pháp HSK 1 (do script tạo ra)
 │   ├── lib/                ← thư viện Hanzi Writer (vẽ và chấm nét chữ)

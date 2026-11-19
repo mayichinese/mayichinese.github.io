@@ -13,7 +13,7 @@ const CAC_PHAN = [
   { ma: 'nghe', emoji: '🎧', ten: 'Luyện thanh điệu', href: '#/thanh-dieu', phut: 'nghe',
     moTa: 'Nghe rồi chọn thanh; cặp thanh 2–3, biến điệu 不/一, hai thanh 3 liền nhau.' },
   { ma: 'viet', emoji: '✍️', ten: 'Luyện viết chữ Hán', href: '#/luyen-viet', phut: 'viet',
-    moTa: '100 chữ cần viết tay HSK 1–2: xem thứ tự nét, viết theo, viết không nhìn.' },
+    moTa: '250 chữ cần viết tay HSK 1–3 (100 chữ cấp 1–2, 150 chữ cấp 3): xem thứ tự nét, viết theo, viết không nhìn.' },
   { ma: 'nguPhap', emoji: '📝', ten: 'Trắc nghiệm', href: '#/trac-nghiem', phut: 'nguPhap',
     moTa: 'Chữ → nghĩa, nghĩa → chữ, nghe → chữ, chọn pinyin đúng. Câu sai vào sổ để ôn lại.' },
   { ma: 'on', emoji: '📋', ten: 'Thi thử HSK 1 · HSK 2', href: '#/thi-thu', nhan: '40 / 60 câu',

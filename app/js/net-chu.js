@@ -1,6 +1,6 @@
 // =========================================================
 // NÉT CHỮ – vẽ thứ tự nét và chấm bài viết bằng thư viện Hanzi Writer (app/lib/).
-// Dữ liệu nét nằm sẵn trong app/data/net-chu-hsk1.json (tạo bởi cong-cu/tai-du-lieu-viet.py)
+// Dữ liệu nét nằm sẵn trong app/data/net-chu-hsk1.json và net-chu-hsk23.json (tạo bởi cong-cu/tai-du-lieu-viet.py)
 // nên chạy được khi không có mạng.
 // Thư viện chỉ được tải khi cần (lần đầu mở Luyện viết hoặc "Cách viết").
 // =========================================================
@@ -23,14 +23,29 @@ function taiThuVien() {
   return henThuVien;
 }
 
-/** Tải dữ liệu nét chữ (một lần): { vietTay12: [chữ…], net: { chữ: dữ liệu nét } } */
+/**
+ * Tải dữ liệu nét chữ (một lần), gộp hai file:
+ *   data/net-chu-hsk1.json  – chữ trong từ HSK 1 + 100 chữ viết tay cấp 1–2 (bắt buộc)
+ *   data/net-chu-hsk23.json – chữ còn lại trong từ HSK 2–3 + 150 chữ viết tay cấp 3 (thiếu thì bỏ qua)
+ * Trả về { vietTay12: [chữ…], vietTay3: [chữ…], net: { chữ: dữ liệu nét } }
+ */
 export function taiNetChu() {
   if (!henDuLieu) {
-    henDuLieu = fetch('data/net-chu-hsk1.json')
+    const doc = (tep, batBuoc) => fetch(tep)
       .then((r) => {
-        if (!r.ok) throw new Error(`Không tìm thấy file data/net-chu-hsk1.json (mã lỗi ${r.status}).`);
+        if (!r.ok) {
+          if (!batBuoc) return null;
+          throw new Error(`Không tìm thấy file ${tep} (mã lỗi ${r.status}).`);
+        }
         return r.json();
       })
+      .catch((e) => { if (batBuoc) throw e; return null; });
+    henDuLieu = Promise.all([doc('data/net-chu-hsk1.json', true), doc('data/net-chu-hsk23.json', false)])
+      .then(([a, b]) => ({
+        vietTay12: a.vietTay12 || [],
+        vietTay3: b?.vietTay3 || [],
+        net: { ...(b?.net || {}), ...a.net },
+      }))
       .catch((e) => { henDuLieu = null; throw e; });
   }
   return henDuLieu;

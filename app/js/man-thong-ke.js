@@ -206,6 +206,7 @@ export async function veThongKe(khung) {
     <section class="khung" style="margin-top:12px">
       <div class="dong-tren"><b class="nhan nhan-chinh">HSK ${cap}</b></div>
       ${khoiCap('Từ vựng', demTheoLoai(tuCap, (t) => td.the[t.khoa]), tuCap.length, tuCap.length < tong ? `đã soạn ${tuCap.length}/${tong} từ` : '')}
+      ${cap === 3 && netChu?.vietTay3?.length ? khoiCap('Chữ viết tay (cấp 3)', demTheoLoai(netChu.vietTay3, (c) => td.theViet[c]), netChu.vietTay3.length) : ''}
       ${npCap.length ? khoiCap('Ngữ pháp', demTheoLoai(npCap, (d) => td.nguPhap.the[d.id]), npCap.length) : ''}
     </section>`;
     }).join('')}

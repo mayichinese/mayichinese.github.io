@@ -62,8 +62,9 @@
   Từ mới đi theo thứ tự HSK 1 → HSK 2. `tao-du-lieu-thanh-dieu.py` đọc mọi `hsk[0-9].json`. Soạn HSK 2: dừng báo sau mỗi 3 bài.
 - Giai đoạn 5.4 (HSK 3: đủ 500 từ; còn chữ viết tay cấp 3, ngữ pháp cấp 3, thi thử HSK 3): `cong-cu/nguon-hsk3/phan-bai.txt` (500 từ theo 18 bài sách 《新HSK教程 3》; 450 từ khớp
   bảng từ sách, 49 từ xếp tay theo chủ đề; mục trùng: `得(děi)`) + `bai-NN.txt` → `python -X utf8 cong-cu/ghep-du-lieu-cap.py 3`
-  → `app/data/hsk3.json` (chữ cho phép cấp 1–3). Mã bài '3-5'. Còn: 150 chữ viết tay cấp 3
-  (cần tải nét), ngữ pháp cấp 3, thi thử HSK 3.
+  → `app/data/hsk3.json` (chữ cho phép cấp 1–3). Mã bài '3-5'. Chữ viết tay cấp 3 (150) XONG: `data/net-chu-hsk23.json` (khóa vietTay3 + nét của
+  mọi chữ trong từ HSK 2–3; file 1 net-chu-hsk1.json giữ nguyên), net-chu.js gộp hai file; Luyện viết có chip Cấp 1–2 / Cấp 3,
+  chữ mới hết cấp 1–2 mới sang cấp 3. Còn: ngữ pháp cấp 3, thi thử HSK 3.
 - Giai đoạn 5.1: `js/man-thong-ke.js` (chỉ đọc tiến độ; biểu đồ SVG tự vẽ, màu `--bd-1…5` đã kiểm tra mù màu).
 - `CHAY-APP.bat` – chạy app trên máy (máy chủ nhỏ ở localhost). `HUONG-DAN.md` – hướng dẫn người dùng.
 
