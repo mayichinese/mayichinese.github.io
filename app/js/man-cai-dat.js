@@ -34,6 +34,8 @@ export async function veCaiDat(khung) {
         <input id="cd-moi" type="number" min="1" max="50" value="${cd.soTuMoiMoiNgay}"></div>
       <div class="dong-cai-dat"><label for="cd-on">Số thẻ ôn tối đa mỗi ngày</label>
         <input id="cd-on" type="number" min="10" max="999" value="${cd.gioiHanOnMoiNgay}"></div>
+      <div class="dong-cai-dat"><label for="cd-viet">Số chữ mới luyện viết mỗi ngày</label>
+        <input id="cd-viet" type="number" min="1" max="30" value="${cd.soChuVietMoiMoiNgay}"></div>
     </div>
 
     <h3 class="tieu-de-muc">Phát âm</h3>
@@ -100,6 +102,7 @@ export async function veCaiDat(khung) {
   };
   $('#cd-moi').onchange = (e) => { cd.soTuMoiMoiNgay = soNguyen(e.target, 1, 50, 15); e.target.value = cd.soTuMoiMoiNgay; luu(); thongBao('Đã lưu'); };
   $('#cd-on').onchange = (e) => { cd.gioiHanOnMoiNgay = soNguyen(e.target, 10, 999, 200); e.target.value = cd.gioiHanOnMoiNgay; luu(); thongBao('Đã lưu'); };
+  $('#cd-viet').onchange = (e) => { cd.soChuVietMoiMoiNgay = soNguyen(e.target, 1, 30, 5); e.target.value = cd.soChuVietMoiMoiNgay; luu(); thongBao('Đã lưu'); };
   $('#cd-tu-doc').onchange = (e) => { cd.tuPhatAm = e.target.checked; luu(); };
   $('#cd-toc-do').oninput = (e) => { cd.tocDoDoc = Number(e.target.value); $('#gt-toc-do').textContent = cd.tocDoDoc; luu(); };
 

@@ -20,6 +20,7 @@ export const CAI_DAT_MAC_DINH = {
   giongDoc: '',           // tên giọng đọc đã chọn ('' = tự chọn)
   kieuChuKhai: false,     // hiển thị chữ Hán kiểu viết tay (Khải thư)
   cheDo: 'tu-dong',       // giao diện: 'tu-dong' (theo máy) | 'sang' | 'toi'
+  soChuVietMoiMoiNgay: 5, // số chữ mới luyện viết mỗi ngày (Giai đoạn 2)
   phutMucTieu: { on: 15, moi: 15, nghe: 10, viet: 10, nguPhap: 10 },
 };
 
@@ -27,7 +28,11 @@ function tienDoTrong() {
   return {
     phienBan: PHIEN_BAN,
     the: {},        // trạng thái từng thẻ: khóa "1:爱" → { trangThai, buoc, khoangCach, heSo, han, ... }
-    nhatKy: {},     // theo ngày "2026-11-18" → { moi, on, giay: { on, moi } }
+    nhatKy: {},     // theo ngày "2026-11-18" → { moi, on, giay: { on, moi, viet, nghe }, vietMoi, viet, thanh }
+    // Giai đoạn 2 – lịch ôn chữ VIẾT TAY, theo từng chữ: "爱" → cùng dạng với `the` (thuật toán SM-2)
+    theViet: {},
+    // Giai đoạn 2 – thống kê luyện thanh: { dung, sai, nham: { "2>3": số lần nghe thanh 2 mà chọn thanh 3 } }
+    thanhDieu: { dung: 0, sai: 0, nham: {} },
     caiDat: { ...CAI_DAT_MAC_DINH },
     saoLuuLanCuoi: null,
   };
@@ -57,6 +62,8 @@ function hopNhat(cu) {
     caiDat: { ...moi.caiDat, ...(cu.caiDat || {}), phutMucTieu: { ...moi.caiDat.phutMucTieu, ...(cu.caiDat?.phutMucTieu || {}) } },
     the: cu.the || {},
     nhatKy: cu.nhatKy || {},
+    theViet: cu.theViet || {},
+    thanhDieu: { ...moi.thanhDieu, ...(cu.thanhDieu || {}), nham: { ...(cu.thanhDieu?.nham || {}) } },
   };
 }
 
@@ -100,11 +107,15 @@ export function congGiay(phan, soGiay) {
   nk.giay[phan] = (nk.giay[phan] || 0) + soGiay;
 }
 
+/** Ngày này có học không: học/ôn thẻ từ, luyện viết hoặc luyện thanh điệu. */
+export function coHocNgay(nk) {
+  return !!nk && (nk.moi > 0 || nk.on > 0 || nk.viet > 0 || nk.thanh > 0);
+}
+
 /** Số ngày học liên tục tính đến hôm nay (hoặc hôm qua nếu hôm nay chưa học). */
 export function chuoiNgayHoc() {
   const coHoc = (k) => {
-    const nk = tienDo.nhatKy[k];
-    return nk && (nk.moi > 0 || nk.on > 0);
+    return coHocNgay(tienDo.nhatKy[k]);
   };
   let dem = 0;
   let moc = Date.now();

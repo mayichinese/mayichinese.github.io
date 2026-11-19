@@ -11,7 +11,10 @@
 //   #/hoc-moi[/5]  Học từ mới (của bài 5)       → man-the-tu.js
 //   #/bai[/5]      Bài học / chi tiết bài 5     → man-bai-hoc.js
 //   #/tu/<khóa>    Xem một từ                   → man-bai-hoc.js
-//   #/luyen-tap    Luyện tập (sắp có)           → man-sap-co.js
+//   #/luyen-tap    Luyện tập (chọn bài luyện)   → man-luyen-tap.js
+//   #/luyen-viet   Luyện viết: tổng quan        → man-luyen-viet.js
+//   #/luyen-viet/phien        phiên luyện viết hôm nay
+//   #/luyen-viet/chu/<chữ>    luyện riêng một chữ
 //   #/thong-ke     Thống kê (sắp có)            → man-sap-co.js
 //   #/cai-dat      Cài đặt, sao lưu             → man-cai-dat.js
 // =========================================================
@@ -19,13 +22,15 @@
 import { docTienDo, caiDat } from './luu-tru.js';
 import { taiDuLieu, layTu } from './du-lieu.js';
 import { doc } from './phat-am.js';
-import { esc, datTieuDe, apDungGiaoDien, doiSangToi } from './giao-dien.js';
+import { esc, datTieuDe, apDungGiaoDien, doiSangToi, dongHopThoai } from './giao-dien.js';
 import { ganBieuTuong, bieuTuong } from './bieu-tuong.js';
 import { veTrangChu } from './man-trang-chu.js';
 import { vePhien } from './man-the-tu.js';
 import { veDanhSachBai, veBai, veTu } from './man-bai-hoc.js';
 import { veCaiDat } from './man-cai-dat.js';
-import { veLuyenTap, veThongKe } from './man-sap-co.js';
+import { veThongKe } from './man-sap-co.js';
+import { veLuyenTap } from './man-luyen-tap.js';
+import { veLuyenViet, vePhienViet, moCachViet } from './man-luyen-viet.js';
 
 const $noiDung = () => document.getElementById('noi-dung');
 let donDep = null; // hàm dọn dẹp của màn hình trước (tắt đồng hồ, bỏ phím tắt…)
@@ -35,13 +40,17 @@ let donDep = null; // hàm dọn dẹp của màn hình trước (tắt đồng 
 // =========================================================
 function veTheoDiaChi() {
   if (donDep) { donDep(); donDep = null; }
+  dongHopThoai();
   const duong = decodeURIComponent(location.hash.replace(/^#\/?/, '')).split('/');
   const [muc, thamSo] = duong;
   const khung = $noiDung();
   window.scrollTo(0, 0);
 
   // tô sáng mục đang chọn ở thanh điều hướng
-  const mucChon = { '': 'trang-chu', bai: 'bai', tu: 'bai', on: 'bai', 'hoc-moi': 'bai', 'luyen-tap': 'luyen-tap', 'thong-ke': 'thong-ke' }[muc] ?? '';
+  const mucChon = {
+    '': 'trang-chu', bai: 'bai', tu: 'bai', on: 'bai', 'hoc-moi': 'bai',
+    'luyen-tap': 'luyen-tap', 'luyen-viet': 'luyen-tap', 'thanh-dieu': 'luyen-tap', 'thong-ke': 'thong-ke',
+  }[muc] ?? '';
   document.querySelectorAll('.dieu-huong a[data-muc]').forEach((a) => {
     const chon = a.dataset.muc === mucChon;
     a.classList.toggle('dang-chon', chon);
@@ -66,6 +75,15 @@ function veTheoDiaChi() {
     const tu = layTu(khoa);
     datTieuDe('Xem từ', tu ? `#/bai/${tu.bai}` : '#/bai');
     veTu(khung, khoa);
+  } else if (muc === 'luyen-viet' && thamSo === 'phien') {
+    datTieuDe('Luyện viết', '#/luyen-viet');
+    donDep = vePhienViet(khung);
+  } else if (muc === 'luyen-viet' && thamSo === 'chu' && duong[2]) {
+    datTieuDe(`Luyện viết · ${duong[2]}`, '#/luyen-viet');
+    donDep = vePhienViet(khung, duong[2]);
+  } else if (muc === 'luyen-viet') {
+    datTieuDe('Luyện viết', '#/luyen-tap');
+    veLuyenViet(khung);
   } else if (muc === 'luyen-tap') {
     datTieuDe('Luyện tập');
     veLuyenTap(khung);
@@ -81,12 +99,18 @@ function veTheoDiaChi() {
   }
 }
 
-// Bấm vào bất kỳ nút loa nào (dùng chung cho mọi màn hình)
+// Bấm vào bất kỳ nút loa nào, hoặc nút "✍️ Cách viết" (dùng chung cho mọi màn hình)
 document.addEventListener('click', (e) => {
   const nut = e.target.closest('[data-doc]');
   if (nut) {
     e.stopPropagation();
     doc(nut.dataset.doc);
+    return;
+  }
+  const nutViet = e.target.closest('[data-cach-viet]');
+  if (nutViet) {
+    e.stopPropagation();
+    moCachViet(nutViet.dataset.cachViet);
   }
 });
 

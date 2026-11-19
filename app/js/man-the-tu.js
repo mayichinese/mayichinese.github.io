@@ -7,12 +7,12 @@
 // Phím tắt trên máy tính: Space/Enter = lật thẻ; 1/2/3/4 = Quên/Khó/Nhớ/Dễ
 // =========================================================
 
-import { caiDat, luu, nhatKyHomNay, congGiay, layTienDo } from './luu-tru.js';
+import { caiDat, layTienDo } from './luu-tru.js';
 import { DANH_GIA, moTaKhoangCach } from './lich-on.js';
 import { layTu } from './du-lieu.js';
 import { doc } from './phat-am.js';
 import { demHomNay, taoPhien, theTiepTheo, traLoi, daXemTuMoi, conLai, tuChuaHoc, baiDangHoc } from './phien-hoc.js';
-import { thongBao, oChuDien, htmlMatSau } from './giao-dien.js';
+import { oChuDien, htmlMatSau, batDongHo } from './giao-dien.js';
 
 const LUA_CHON = [
   { dg: DANH_GIA.QUEN, muc: 'quen', ten: 'Quên', emoji: '😵' },
@@ -35,29 +35,10 @@ export function vePhien(khung, loai, soBai = null) {
   let soTuMoiDaXem = 0;
   let hienTai = null;                // { khoa, kieu: 'gioi-thieu' | 'on' | 'luyen' }
   let matSau = false;                // đang xem mặt sau?
-  let lanTuongTac = Date.now();
   let luotThe = 0;                   // tăng mỗi khi sang thẻ mới (tránh hiệu ứng lật cũ vẽ đè thẻ mới)
 
   document.body.classList.add('dang-hoc');
-
-  // --- Đồng hồ: chỉ đếm khi trang đang mở và có thao tác trong 90 giây gần nhất ---
-  const $dongHo = document.getElementById('dong-ho');
-  $dongHo.hidden = false;
-  const capNhatDongHo = () => {
-    const giay = nhatKyHomNay().giay[phan] || 0;
-    $dongHo.textContent = `⏱ ${Math.floor(giay / 60)}:${String(giay % 60).padStart(2, '0')} / ${cd.phutMucTieu[phan]}′`;
-  };
-  let demLuu = 0;
-  const dongHo = setInterval(() => {
-    if (document.visibilityState !== 'visible' || Date.now() - lanTuongTac > 90000) return;
-    congGiay(phan, 1);
-    if (++demLuu % 10 === 0) luu();
-    capNhatDongHo();
-    if (nhatKyHomNay().giay[phan] === cd.phutMucTieu[phan] * 60) {
-      thongBao(`Đã đủ ${cd.phutMucTieu[phan]} phút cho phần này. Bạn có thể chuyển sang phần tiếp theo!`, 4000);
-    }
-  }, 1000);
-  capNhatDongHo();
+  const dungDongHo = batDongHo(phan); // đồng hồ tính phút học trên thanh trên cùng
 
   // --- Khung phiên học ---
   khung.innerHTML = `
@@ -80,7 +61,6 @@ export function vePhien(khung, loai, soBai = null) {
 
   // --- Phím tắt trên máy tính ---
   const phim = (e) => {
-    lanTuongTac = Date.now();
     if (!hienTai || e.target.closest?.('input, select, textarea')) return;
     const dangONut = e.target.closest?.('button, a');   // để nút đang chọn tự xử lý Enter/Space
     const laLat = (e.key === ' ' || e.key === 'Enter') && !dangONut;
@@ -92,9 +72,7 @@ export function vePhien(khung, loai, soBai = null) {
     if (matSau && ['1', '2', '3', '4'].includes(e.key)) danhGia(Number(e.key));
     else if (matSau && laLat) { e.preventDefault(); danhGia(DANH_GIA.NHO); }
   };
-  const chamVao = () => { lanTuongTac = Date.now(); };
   document.addEventListener('keydown', phim);
-  document.addEventListener('pointerdown', chamVao);
 
   // --- Thanh tiến độ phía trên ---
   function capNhatTienDo() {
@@ -213,11 +191,9 @@ export function vePhien(khung, loai, soBai = null) {
 
   /** Màn hình tổng kết cuối phiên */
   function veKetThuc() {
-    clearInterval(dongHo);   // xong phiên thì ngừng tính giờ
-    luu();
+    dungDongHo();   // xong phiên thì ngừng tính giờ (và lưu)
     hienTai = null;
     document.body.classList.remove('dang-hoc');
-    $dongHo.hidden = true;
     const dem = demHomNay();
     const tongTraLoi = ketQua.quen + ketQua.kho + ketQua.nho + ketQua.de;
     const tot = tongTraLoi ? (ketQua.nho + ketQua.de) / tongTraLoi : 1;
@@ -252,12 +228,9 @@ export function vePhien(khung, loai, soBai = null) {
 
   // --- Dọn dẹp khi rời màn hình ---
   return () => {
-    clearInterval(dongHo);
-    luu();
+    dungDongHo();
     document.removeEventListener('keydown', phim);
-    document.removeEventListener('pointerdown', chamVao);
     if (window.speechSynthesis) window.speechSynthesis.cancel();
     document.body.classList.remove('dang-hoc');
-    $dongHo.hidden = true;
   };
 }

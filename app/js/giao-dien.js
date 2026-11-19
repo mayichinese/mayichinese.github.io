@@ -8,7 +8,7 @@
 // Mỗi màn hình nằm ở một file riêng: man-*.js
 // =========================================================
 
-import { caiDat, luu, layTienDo } from './luu-tru.js';
+import { caiDat, luu, layTienDo, nhatKyHomNay, congGiay } from './luu-tru.js';
 import { TEN_TU_LOAI, nghiaNgan } from './du-lieu.js';
 import { loaiThe } from './lich-on.js';
 import { bieuTuong } from './bieu-tuong.js';
@@ -70,6 +70,73 @@ export function doiSangToi() {
 // Máy đổi sáng/tối (vd. tự tối buổi tối) → app đổi theo nếu đang để "Theo máy"
 truyVanToi.addEventListener?.('change', apDungGiaoDien);
 
+// ---------- Đồng hồ tính phút học (thanh trên cùng) ----------
+/**
+ * Bắt đầu đếm giờ cho một phần học ('on' | 'moi' | 'viet' | 'nghe').
+ * Chỉ đếm khi trang đang mở và có thao tác (chạm/bấm phím) trong 90 giây gần nhất.
+ * @returns {Function} hàm dừng đồng hồ (gọi khi xong phiên hoặc rời màn hình)
+ */
+export function batDongHo(phan) {
+  const cd = caiDat();
+  const mucTieu = cd.phutMucTieu[phan] || 10;
+  const $dongHo = document.getElementById('dong-ho');
+  let lanTuongTac = Date.now();
+  let demLuu = 0;
+  const veDongHo = () => {
+    const giay = nhatKyHomNay().giay[phan] || 0;
+    $dongHo.textContent = `⏱ ${Math.floor(giay / 60)}:${String(giay % 60).padStart(2, '0')} / ${mucTieu}′`;
+  };
+  const chamVao = () => { lanTuongTac = Date.now(); };
+  const henGioDem = setInterval(() => {
+    if (document.visibilityState !== 'visible' || Date.now() - lanTuongTac > 90000) return;
+    congGiay(phan, 1);
+    if (++demLuu % 10 === 0) luu();
+    veDongHo();
+    if (nhatKyHomNay().giay[phan] === mucTieu * 60) {
+      thongBao(`Đã đủ ${mucTieu} phút cho phần này. Bạn có thể chuyển sang phần tiếp theo!`, 4000);
+    }
+  }, 1000);
+  document.addEventListener('keydown', chamVao);
+  document.addEventListener('pointerdown', chamVao);
+  $dongHo.hidden = false;
+  veDongHo();
+  let daDung = false;
+  return () => {
+    if (daDung) return;
+    daDung = true;
+    clearInterval(henGioDem);
+    document.removeEventListener('keydown', chamVao);
+    document.removeEventListener('pointerdown', chamVao);
+    $dongHo.hidden = true;
+    luu();
+  };
+}
+
+// ---------- Hộp thoại (bảng trượt từ dưới lên) ----------
+let khiDongHop = null;
+/** Mở hộp thoại với nội dung HTML. Trả về phần tử hộp thoại. `khiDong`: chạy khi đóng. */
+export function moHopThoai(html, khiDong = null) {
+  dongHopThoai();
+  const lopPhu = document.getElementById('lop-phu');
+  lopPhu.innerHTML = `<div class="hop-thoai" role="dialog" aria-modal="true">${html}</div>`;
+  lopPhu.hidden = false;
+  lopPhu.onclick = (e) => {
+    if (e.target === lopPhu || e.target.closest('[data-dong]')) dongHopThoai();
+  };
+  khiDongHop = khiDong;
+  return lopPhu.firstElementChild;
+}
+export function dongHopThoai() {
+  const lopPhu = document.getElementById('lop-phu');
+  if (!lopPhu || lopPhu.hidden) return;
+  lopPhu.hidden = true;
+  lopPhu.innerHTML = '';
+  const f = khiDongHop;
+  khiDongHop = null;
+  if (f) f();
+}
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') dongHopThoai(); });
+
 // ---------- Các mảnh giao diện dùng lại ----------
 /** Nút loa: bấm để nghe đọc `chu` (xử lý chung trong app.js qua thuộc tính data-doc) */
 export function nutLoa(chu, nho = false) {
@@ -127,7 +194,10 @@ export function htmlMatSau(tu) {
       ${nghia}
       ${ghiChu}
       ${kiemTra}
-      <a class="lien-ket-ngoai" href="https://hanzii.net/search/word/${encodeURIComponent(tu.hanzi)}?hl=vi" target="_blank" rel="noopener">Tra thêm trên Hanzii ↗</a>
+      <div class="chan-mat-sau">
+        <button class="nut nut-nho" data-cach-viet="${esc(tu.hanzi)}"><span class="emoji">✍️</span> Cách viết</button>
+        <a class="lien-ket-ngoai" href="https://hanzii.net/search/word/${encodeURIComponent(tu.hanzi)}?hl=vi" target="_blank" rel="noopener">Tra thêm trên Hanzii ↗</a>
+      </div>
     </div>`;
 }
 

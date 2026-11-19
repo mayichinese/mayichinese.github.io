@@ -347,6 +347,31 @@ body.dang-hoc main { padding-bottom: calc(24px + env(safe-area-inset-bottom)); }
 }
 #thong-bao.hien { opacity: 1; transform: translate(-50%, 0); }
 
+/* ---------- 13b. Hộp thoại / bảng trượt từ dưới lên ---------- */
+#lop-phu {
+  position: fixed; inset: 0; z-index: 50;
+  display: flex; align-items: flex-end; justify-content: center;
+  background: var(--lop-phu);
+  animation: hien-dan .2s ease;
+}
+#lop-phu[hidden] { display: none; }
+.hop-thoai {
+  width: 100%; max-width: 560px; max-height: 90vh; overflow-y: auto;
+  padding: 20px 20px calc(24px + env(safe-area-inset-bottom));
+  background: var(--be-mat); color: var(--chu);
+  border: var(--vien-rong) solid var(--vien-the); border-bottom: 0;
+  border-radius: 26px 26px 0 0;
+  animation: truot-len .25s ease;
+}
+.hop-thoai h2 { margin: 0; font-size: 1.4rem; }
+.hop-thoai .dau-hop { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 4px; }
+@media (min-width: 700px) {
+  #lop-phu { align-items: center; }
+  .hop-thoai { border-radius: 26px; border-bottom: var(--vien-rong) solid var(--vien-the); box-shadow: var(--bong-the); }
+}
+@keyframes hien-dan { from { opacity: 0; } }
+@keyframes truot-len { from { transform: translateY(40px); opacity: 0; } }
+
 /* ---------- 14. Màn hình "Sắp có" ---------- */
 .chua-lam { text-align: center; padding: 32px 8px; }
 .chua-lam .emoji-to { font-size: 4rem; }
