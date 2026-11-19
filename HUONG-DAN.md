@@ -1,4 +1,4 @@
-# Hướng dẫn sử dụng app Mayi Chinese (Giai đoạn 2)
+# Hướng dẫn sử dụng app Mayi Chinese (Giai đoạn 3)
 
 App chạy hoàn toàn trên trình duyệt, không cần đăng nhập, không cần mạng sau lần mở đầu tiên.
 Tiến độ học được lưu **ngay trong trình duyệt của máy đang dùng**.
@@ -58,7 +58,7 @@ Tiến độ trên máy tính và trên điện thoại là **hai bản riêng**
 |---|---|
 | 🏠 **Hôm nay** | Xem việc cần làm hôm nay, chuỗi ngày học liên tục, 7 ngày trong tuần, kế hoạch 60 phút |
 | 📚 **Bài học** | Vào Ôn tập / Từ mới, chọn bài, tìm từ (chữ Hán, pinyin, nghĩa, Hán Việt) |
-| ✏️ **Luyện tập** | 🎧 Luyện thanh điệu, ✍️ Luyện viết chữ Hán. Trắc nghiệm: **Sắp có** |
+| ✏️ **Luyện tập** | 🎧 Luyện thanh điệu, ✍️ Luyện viết chữ Hán, 📝 Trắc nghiệm. Ngữ pháp: **Sắp có** |
 | 📊 **Thống kê** | **Sắp có** |
 
 Hai nút ở góc trên bên phải: **🌙/☀️** chuyển nhanh giữa giao diện tối và sáng; nút **Cài đặt** (biểu tượng thanh trượt) mở phần cài đặt và sao lưu.
@@ -67,7 +67,7 @@ Mặc định app sáng/tối **theo máy**. Muốn quay lại chế độ này:
 **Màu thanh điệu:** pinyin và chữ Hán ở mặt sau thẻ được tô màu theo thanh, giúp nhớ thanh điệu:
 thanh 1 **đỏ**, thanh 2 **cam**, thanh 3 **xanh lá**, thanh 4 **xanh dương**, thanh nhẹ **xám**.
 
-Màn hình **Hôm nay** hiện 5 phần theo thứ tự. Đã có phần 1–4; phần 5 (ngữ pháp, trắc nghiệm) làm ở Giai đoạn 3–4. Nút **Bắt đầu** trên khung chào sẽ chọn sẵn việc nên làm tiếp theo.
+Màn hình **Hôm nay** hiện 5 phần theo thứ tự. Đã có đủ 5 phần; riêng phần ngữ pháp trong phần 5 sẽ làm ở Giai đoạn 4. Nút **Bắt đầu** trên khung chào sẽ chọn sẵn việc nên làm tiếp theo.
 
 1. **Ôn từ đến hạn (~15 phút):** app đưa ra chữ Hán trong ô chữ điền. Bạn tự nhớ lại cách đọc và nghĩa → chạm vào thẻ hoặc bấm **Lật thẻ** → tự chấm điểm:
    - **Quên:** không nhớ, sẽ hỏi lại sau vài phút.
@@ -93,10 +93,16 @@ Màn hình **Hôm nay** hiện 5 phần theo thứ tự. Đã có phần 1–4; 
    - App **tự chấm** ở bước viết không nhìn: không sai nét nào → Nhớ; sai 1–3 nét → Khó; sai từ 4 nét hoặc bấm 💡 Gợi ý → Quên. Rồi app xếp lịch ôn lại như thẻ từ.
    - Chạm vào một chữ trong lưới 100 chữ để luyện riêng chữ đó.
    - Mặt sau mỗi thẻ từ và trang xem từ có nút **✍️ Cách viết** để xem thứ tự nét của mọi chữ HSK 1.
+5. **Trắc nghiệm (~10 phút):** **Luyện tập → Trắc nghiệm**. Mỗi lượt 10 câu, mỗi câu 4 lựa chọn, hỏi các **từ bạn đã học** (cần ít nhất 4 từ). Có 4 dạng, hoặc **🔀 Trộn 4 dạng** (nên làm hằng ngày):
+   - **Chữ Hán → nghĩa** · **Nghĩa → chữ Hán** · **Nghe → chọn chữ** · **Chữ Hán → pinyin**. Dạng cuối có các đáp án chỉ khác dấu thanh, nên phải nhớ đúng thanh.
+   - Đáp án sai không bao giờ trùng nghĩa với đáp án đúng. Bài nghe không có hai lựa chọn đọc giống nhau.
+   - **Câu sai:** từ đó vào **📒 Sổ câu sai**. Nếu từ đó đang ở lịch ôn thẻ từ thì **thẻ đến hạn ôn ngay hôm nay**. Câu sai còn được hỏi lại ở cuối lượt.
+   - **Ôn câu sai:** chỉ hỏi các từ trong sổ. Một từ được xóa khỏi sổ khi bạn trả lời đúng **2 lượt liên tiếp**.
+   - **Kiểm tra theo bài:** trong trang Trắc nghiệm chọn "Bài 1…20", hoặc vào **Bài học → chọn bài → 📝 Kiểm tra bài này**. Cách này hỏi cả những từ chưa học, hợp để tự kiểm tra trước hoặc sau khi học một bài.
 
 Khi đang học, góc trên có **đồng hồ** đếm số phút đã học cho phần đó (chỉ đếm khi bạn đang thao tác).
 
-Trên máy tính có phím tắt: **Space** để lật thẻ (hoặc nghe lại trong bài thanh điệu), các số **1 2 3 4** tương ứng Quên / Khó / Nhớ / Dễ, hoặc các nút chọn thanh.
+Trên máy tính có phím tắt: **Space** để lật thẻ (hoặc nghe lại trong bài thanh điệu / bài nghe), các số **1 2 3 4** tương ứng Quên / Khó / Nhớ / Dễ, các nút chọn thanh, hoặc 4 đáp án trắc nghiệm; **Enter** sang câu tiếp.
 
 Đổi số từ mới mỗi ngày, số chữ viết mới mỗi ngày, tốc độ đọc, giọng đọc, giao diện sáng/tối, hoặc kiểu chữ viết tay (Khải thư) trong **Cài đặt**.
 
@@ -161,6 +167,7 @@ MayiChinese/
 │   │   ├── man-thanh-dieu.js ← luyện thanh điệu
 │   │   ├── man-luyen-viet.js ← luyện viết chữ Hán, hộp "Cách viết"
 │   │   ├── net-chu.js      ← vẽ thứ tự nét (dùng thư viện Hanzi Writer)
+│   │   ├── man-trac-nghiem.js ← trắc nghiệm, sổ câu sai, kiểm tra theo bài
 │   │   ├── man-sap-co.js   ← Thống kê (sắp có)
 │   │   ├── pinyin.js       ← tô màu thanh điệu, tách âm tiết
 │   │   ├── bieu-tuong.js   ← các biểu tượng
