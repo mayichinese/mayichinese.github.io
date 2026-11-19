@@ -1,0 +1,23 @@
+Đã ghi app\data\hsk2.json
+Từ chính thức cấp 2: 200 | đã xếp bài: 200 | đã soạn: 42 | còn thiếu: 158 | câu ví dụ: 86 | có mục cần kiểm tra: 0
+  Bài  1: 11/11 ✓ Gặp gỡ và nhờ giúp đỡ
+  Bài  2: 16/16 ✓ Đi xe trong thành phố
+  Bài  3: 15/15 ✓ Đi du lịch
+  Bài  4:  0/14   Màu sắc và quần áo
+  Bài  5:  0/17   Đến chơi nhà bạn
+  Bài  6:  0/12   Sinh nhật
+  Bài  7:  0/15   Thể thao
+  Bài  8:  0/15   Vợ chồng và kỷ niệm
+  Bài  9:  0/15   Đồ uống và khoảng cách
+  Bài 10:  0/13   Học hành và thi cử
+  Bài 11:  0/13   Sức khỏe
+  Bài 12:  0/10   Thời tiết và thành phố
+  Bài 13:  0/11   Lớp học tiếng Trung
+  Bài 14:  0/13   Năm mới
+  Bài 15:  0/10   Chuyến đi xa
+
+LỖI (0):
+
+CẢNH BÁO (0):
+
+SAI THANH trong câu ví dụ – nên xem lại (0):

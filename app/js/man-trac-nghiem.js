@@ -12,7 +12,7 @@
 // =========================================================
 
 import { caiDat, layTienDo, luu, nhatKyHomNay } from './luu-tru.js';
-import { tatCaTu, layTu, nghiaNgan, danhSachBai, timBaiTheoMa, cheDoBai, nhanBai } from './du-lieu.js';
+import { tatCaTu, layTu, nghiaNgan, danhSachBai, timBaiTheoMa, cheDoBai, nhanBai, cacCapCoDuLieu } from './du-lieu.js';
 import { doc, tinhTrangPhatAm } from './phat-am.js';
 import { esc, batDongHo, nutLoa, tenTuLoai, dongTu } from './giao-dien.js';
 import { toMauPinyin, toMauChuHan, demChuHan, bienTheThanh } from './pinyin.js';
@@ -102,7 +102,7 @@ function chonNhieu(tu, hopLe, uuTien, khoaTrung) {
 /** Tạo một câu hỏi: { tu, dang, luaChon: [{ hien, dung }] } */
 function taoCau(tu, dang) {
   const soChu = demChuHan(tu.hanzi);
-  const cungBai = (w) => (w.bai === tu.bai ? 1 : 0);
+  const cungBai = (w) => (w.maBai === tu.maBai ? 1 : w.cap === tu.cap ? 0.3 : 0);
   const cungSoChu = (w) => (demChuHan(w.hanzi) === soChu ? 2 : 0);
   let dung;
   let nhieu;
@@ -223,9 +223,14 @@ export function veTracNghiem(khung) {
     </div>
 
     <h3 class="tieu-de-muc">Kiểm tra theo bài <small>hỏi cả từ chưa học</small></h3>
-    <div class="hang-chip">
-      ${danhSachBai(cheDoBai(caiDat())).map((b) => `<a class="chip" href="#/trac-nghiem/bai/${b.ma}" title="${esc(b.ten)}">${b.sach ? '📖 ' : ''}Bài ${b.so}</a>`).join('')}
-    </div>
+    ${cacCapCoDuLieu().map((cap) => {
+      const ds = danhSachBai(cheDoBai(caiDat()), cap).filter((b) => b.tu.length >= 4);
+      if (!ds.length) return '';
+      return `${cacCapCoDuLieu().length > 1 ? `<p class="chu-phu nho" style="margin:10px 2px 6px"><b>HSK ${cap}</b></p>` : ''}
+      <div class="hang-chip">
+        ${ds.map((b) => `<a class="chip" href="#/trac-nghiem/bai/${b.ma}" title="${esc(b.ten)}">${b.sach ? '📖 ' : ''}Bài ${b.so}</a>`).join('')}
+      </div>`;
+    }).join('')}
 
     <h3 class="tieu-de-muc">Kết quả của bạn</h3>
     <div class="khung">

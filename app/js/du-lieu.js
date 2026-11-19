@@ -1,6 +1,8 @@
 // =========================================================
-// ĐỌC DỮ LIỆU TỪ VỰNG từ file data/hsk1.json
-// (file này được tạo bởi cong-cu/ghep-du-lieu-hsk1.py từ danh sách chính thức + phần soạn tay)
+// ĐỌC DỮ LIỆU TỪ VỰNG từ data/hsk1.json, data/hsk2.json…
+// (tạo bởi cong-cu/ghep-du-lieu-hsk1.py và cong-cu/ghep-du-lieu-cap.py từ danh sách chính thức + phần soạn tay)
+// Mã bài: cấp 1 theo chủ đề là SỐ (3); cấp 1 theo sách là 's3'; cấp 2 trở lên là '2-3' (bài 3 của HSK 2,
+// chia theo thứ tự bài của sách 《新HSK教程 2》).
 // =========================================================
 
 // Tên tiếng Việt của các ký hiệu từ loại trong danh sách chính thức
@@ -10,10 +12,13 @@ export const TEN_TU_LOAI = {
   '连': 'liên từ', '叹': 'thán từ', '前缀': 'tiền tố', '后缀': 'hậu tố', 'cụm': 'cụm từ',
 };
 
-// Các cấp đã có dữ liệu. Giai đoạn sau sẽ thêm 'data/hsk2.json', 'data/hsk3.json'.
-const CAC_FILE = [{ cap: 1, duongDan: 'data/hsk1.json' }];
+// Các cấp có dữ liệu. tuyChon: thiếu file thì bỏ qua (cấp đang soạn).
+const CAC_FILE = [
+  { cap: 1, duongDan: 'data/hsk1.json' },
+  { cap: 2, duongDan: 'data/hsk2.json', tuyChon: true },
+];
 
-let baiHoc = [];       // [{ cap, so, ten, tu: [ ... ] }]
+let baiHoc = [];       // [{ cap, so, ma, ten, tu: [ ... ], soTu, sach: false }]
 let tuTheoKhoa = {};   // khóa "1:爱" → từ
 
 /** Tải toàn bộ dữ liệu. Ném lỗi có giải thích tiếng Việt nếu file hỏng. */
@@ -25,10 +30,12 @@ export async function taiDuLieu() {
     try {
       phanHoi = await fetch(f.duongDan, { cache: 'no-cache' });
     } catch (e) {
+      if (f.tuyChon) continue;
       throw new Error(`Không mở được file ${f.duongDan}.\n` +
         'Nếu bạn mở app bằng cách bấm đúp vào index.html thì trình duyệt sẽ chặn đọc file. ' +
         'Hãy chạy bằng file CHAY-APP.bat (xem HUONG-DAN.md).');
     }
+    if (!phanHoi.ok && f.tuyChon) continue;
     if (!phanHoi.ok) throw new Error(`Không tìm thấy file ${f.duongDan} (mã lỗi ${phanHoi.status}).`);
     const chuoi = await phanHoi.text();
     let json;
@@ -39,11 +46,13 @@ export async function taiDuLieu() {
         'Thường do thiếu/thừa dấu phẩy, dấu ngoặc kép hoặc ngoặc nhọn ở chỗ vừa sửa.');
     }
     for (const b of json.baiHoc || []) {
+      const ma = f.cap === 1 ? b.so : `${f.cap}-${b.so}`;
       const dsTu = (b.tu || [])
         .filter((t) => t.daSoan) // chỉ dùng từ đã soạn đủ nội dung
-        .map((t) => ({ ...t, cap: f.cap, khoa: `${f.cap}:${t.dangGoc}`, bai: b.so }));
+        .map((t) => ({ ...t, cap: f.cap, khoa: `${f.cap}:${t.dangGoc}`, bai: b.so, maBai: ma }));
       dsTu.forEach((t) => { tuTheoKhoa[t.khoa] = t; });
-      baiHoc.push({ cap: f.cap, so: b.so, ten: b.ten, tu: dsTu });
+      // soTu: số từ chính thức của bài (kể cả từ chưa soạn) – để hiện "đang soạn"
+      baiHoc.push({ cap: f.cap, so: b.so, ma, ten: b.ten, tu: dsTu, soTu: b.soTu ?? dsTu.length, sach: false });
     }
   }
   if (!baiHoc.length) throw new Error('File dữ liệu không có bài học nào.');
@@ -67,7 +76,7 @@ async function taiTheoSach() {
     baiSach = theoSach.bai.map((b) => ({
       ma: `s${b.so}`, cap: 1, so: b.so, ten: b.ten, sach: true,
       tu: tatCaTu().filter((t) => theoSach.tu[t.khoa] === b.so),
-    }));
+    })).map((b) => ({ ...b, soTu: b.tu.length }));
   } catch {
     theoSach = null; // không có file → chỉ dùng cách chia theo chủ đề
   }
@@ -79,26 +88,34 @@ export const tenSach = () => theoSach?.sach || '';
 export function cheDoBai(caiDatHienTai) {
   return caiDatHienTai?.cheDoBai === 'sach' && theoSach ? 'sach' : 'chu-de';
 }
-/** Danh sách bài theo một chế độ: [{ ma, so, ten, tu, sach }] */
-export function danhSachBai(cheDo) {
-  if (cheDo === 'sach' && theoSach) return baiSach;
-  return baiHoc.map((b) => ({ ...b, ma: b.so, sach: false }));
+/**
+ * Danh sách bài theo thứ tự học: HSK 1 (theo chủ đề hoặc theo sách) rồi đến HSK 2…
+ * cap: chỉ lấy một cấp. Mỗi bài: { ma, cap, so, ten, tu, sach }.
+ */
+export function danhSachBai(cheDo, cap = null) {
+  const cap1 = cheDo === 'sach' && theoSach ? baiSach : baiHoc.filter((b) => b.cap === 1);
+  const ds = [...cap1, ...baiHoc.filter((b) => b.cap > 1)];
+  return cap ? ds.filter((b) => b.cap === cap) : ds;
 }
-/** Tìm bài theo mã: số (chủ đề) hoặc 's3' (sách) */
+/** Các cấp đã có dữ liệu: [1, 2] */
+export const cacCapCoDuLieu = () => [...new Set(baiHoc.map((b) => b.cap))];
+/** Số từ chính thức của một cấp (kể cả từ chưa soạn xong) */
+export const tongTuCap = (cap) => baiHoc.filter((b) => b.cap === cap).reduce((s, b) => s + b.soTu, 0);
+/** Tìm bài theo mã: 3 (chủ đề), 's3' (sách cấp 1), '2-3' (bài 3 của HSK 2) */
 export function timBaiTheoMa(ma) {
   if (typeof ma === 'string' && /^s\d+$/.test(ma)) return baiSach.find((b) => b.ma === ma) || null;
-  const b = baiHoc.find((x) => x.so === Number(ma));
-  return b ? { ...b, ma: b.so, sach: false } : null;
+  if (typeof ma === 'string' && /^\d+-\d+$/.test(ma)) return baiHoc.find((b) => b.ma === ma) || null;
+  return baiHoc.find((b) => b.cap === 1 && b.so === Number(ma)) || null;
 }
-/** Đọc mã bài từ địa chỉ (#/bai/3 hoặc #/bai/s3) */
-export const maBaiTuDiaChi = (chuoi) => (/^s\d+$/.test(chuoi || '') ? chuoi : Number(chuoi));
+/** Đọc mã bài từ địa chỉ (#/bai/3, #/bai/s3, #/bai/2-3) */
+export const maBaiTuDiaChi = (chuoi) => (/^(s\d+|\d+-\d+)$/.test(chuoi || '') ? chuoi : Number(chuoi));
 /** Mã bài của một từ trong chế độ đang dùng */
 export function maBaiCuaTu(tu, cheDo) {
   if (cheDo === 'sach' && theoSach?.tu[tu.khoa]) return `s${theoSach.tu[tu.khoa]}`;
-  return tu.bai;
+  return tu.maBai;
 }
-/** Nhãn bài để hiện: "Bài 3" hoặc "Bài 3 (sách)" */
-export const nhanBai = (b) => (b.sach ? `Bài ${b.so} (sách)` : `Bài ${b.so}`);
+/** Nhãn bài để hiện: "Bài 3", "Bài 3 (sách)" hoặc "HSK 2 · Bài 3" */
+export const nhanBai = (b) => (b.sach ? `Bài ${b.so} (sách)` : b.cap > 1 ? `HSK ${b.cap} · Bài ${b.so}` : `Bài ${b.so}`);
 /** Bài trong sách của một điểm ngữ pháp (mã điểm → số bài), null nếu chưa gắn */
 export const baiSachCuaNguPhap = (ma) => theoSach?.nguPhap?.[ma] ?? null;
 /** Bài trong sách của một từ */

@@ -1,0 +1,95 @@
+# ===== NGUỒN SOẠN THẢO HSK 2 – BÀI 3 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–2.
+
+# 3 | Đi du lịch
+
+@不错 | bất thác
+- 形 | khá tốt, không tệ, hay
+> 这个饭店的菜很不错。 | Zhège fàndiàn de cài hěn búcuò. | Món ăn của nhà hàng này khá ngon.
+> 今天天气不错，我们出去玩儿吧。 | Jīntiān tiānqì búcuò, wǒmen chūqù wánr ba. | Hôm nay trời đẹp, chúng mình ra ngoài chơi đi.
+* Lời khen nhẹ nhàng, rất hay dùng. 不 trước thanh 4 đọc bú.
+
+@出去 | xuất khứ
+- 动 | đi ra, ra ngoài (rời xa chỗ người nói)
+> 他出去了，不在家。 | Tā chūqù le, bú zài jiā. | Anh ấy ra ngoài rồi, không có ở nhà.
+> 我们晚上出去吃饭吧。 | Wǒmen wǎnshang chūqù chī fàn ba. | Tối nay chúng mình ra ngoài ăn đi.
+* 出去 = ra (xa chỗ người nói); 出来 = ra (về phía người nói, bài 14).
+
+@回来 | hồi lai
+- 动 | trở về, quay lại (về chỗ người nói)
+> 妈妈什么时候回来？ | Māma shénme shíhou huílái? | Khi nào mẹ về?
+> 我下午五点回来。 | Wǒ xiàwǔ wǔ diǎn huílái. | Năm giờ chiều tôi về.
+* Dùng khi người nói đang ở nơi người kia sẽ về (ví dụ đang ở nhà).
+
+@回去 | hồi khứ
+- 动 | trở về (rời chỗ người nói, về nơi của mình)
+> 太晚了，我要回去了。 | Tài wǎn le, wǒ yào huíqù le. | Muộn quá, tôi phải về đây.
+> 你什么时候回去？ | Nǐ shénme shíhou huíqù? | Khi nào bạn về?
+* 回来 hay 回去 tùy chỗ người nói đứng: đang ở nhà bạn mà muốn về nhà mình thì nói 我回去了.
+
+@累 | lụy
+- 形 | mệt
+> 今天工作很多，我太累了。 | Jīntiān gōngzuò hěn duō, wǒ tài lèi le. | Hôm nay nhiều việc, tôi mệt quá.
+> 你累不累？休息一下吧。 | Nǐ lèi bu lèi? Xiūxi yíxià ba. | Bạn có mệt không? Nghỉ một chút đi.
+* 累 đọc lèi (thanh 4).
+
+@每 | mỗi
+- 代 | mỗi
+> 我每天早上喝一杯牛奶。 | Wǒ měi tiān zǎoshang hē yì bēi niúnǎi. | Mỗi sáng tôi uống một cốc sữa.
+> 每个人都有手机。 | Měi ge rén dōu yǒu shǒujī. | Mỗi người đều có điện thoại.
+* 每 thường đi với 都: 每天都…. Giữa 每 và danh từ thường có lượng từ (每个人), trừ 天, 年 (每天, 每年).
+
+@拿 | nã
+- 动 | cầm, lấy, mang
+> 你手里拿的是什么？ | Nǐ shǒu li ná de shì shénme? | Bạn đang cầm cái gì trong tay vậy?
+> 我去拿一下东西。 | Wǒ qù ná yíxià dōngxi. | Tôi đi lấy đồ một chút.
+* 拿来 = mang lại đây, 拿走 = cầm đi.
+
+@手 | thủ
+- 名 | tay
+> 我的手很冷。 | Wǒ de shǒu hěn lěng. | Tay tôi rất lạnh.
+> 他手里有一本书。 | Tā shǒu li yǒu yì běn shū. | Trong tay anh ấy có một cuốn sách.
+* 手机 = điện thoại (máy cầm tay). 洗手间 = nhà vệ sinh (bài 13).
+
+@送 | tống
+- 动 | tặng
+> 这本书是朋友送我的。 | Zhè běn shū shì péngyou sòng wǒ de. | Cuốn sách này là bạn tặng tôi.
+- 动 | đưa, tiễn (ai đó đi đâu)
+> 我送你去车站吧。 | Wǒ sòng nǐ qù chēzhàn ba. | Để tôi đưa bạn ra bến xe nhé.
+* 送 + người + vật = tặng ai cái gì: 送妈妈一件衣服.
+
+@完 | hoàn
+- 动 | xong, hết
+> 我看完这本书了。 | Wǒ kàn wán zhè běn shū le. | Tôi đọc xong cuốn sách này rồi.
+> 水喝完了，我去买吧。 | Shuǐ hē wán le, wǒ qù mǎi ba. | Nước uống hết rồi, để tôi đi mua.
+* Hay đứng sau động từ: 做完 (làm xong), 吃完 (ăn xong), 说完 (nói xong).
+
+@为什么 | vị thập ma
+- cụm | tại sao, vì sao
+> 你为什么不高兴？ | Nǐ wèi shénme bù gāoxìng? | Sao bạn không vui?
+> 他今天为什么没来上课？ | Tā jīntiān wèi shénme méi lái shàngkè? | Sao hôm nay anh ấy không đến lớp?
+* Trả lời bằng 因为… (bài 4). 为 ở đây đọc wèi (thanh 4).
+
+@洗 | tẩy
+- 动 | rửa, giặt
+> 我去洗手。 | Wǒ qù xǐ shǒu. | Tôi đi rửa tay.
+> 妈妈在洗衣服。 | Māma zài xǐ yīfu. | Mẹ đang giặt quần áo.
+* 洗手 = rửa tay, 洗衣服 = giặt quần áo, 洗手间 = nhà vệ sinh.
+
+@一起 | nhất khởi
+- 副 | cùng, cùng nhau
+> 我们一起去吃饭吧。 | Wǒmen yìqǐ qù chī fàn ba. | Chúng mình cùng đi ăn đi.
+> 我和朋友一起学汉语。 | Wǒ hé péngyou yìqǐ xué Hànyǔ. | Tôi học tiếng Hán cùng với bạn.
+* 和/跟 + người + 一起 + làm gì = cùng ai làm gì. 一 trước thanh 3 đọc yì.
+
+@这么 | giá ma
+- 代 | thế này, như thế này, đến thế
+> 今天怎么这么冷？ | Jīntiān zěnme zhème lěng? | Sao hôm nay lạnh thế này?
+> 这个字这么写。 | Zhège zì zhème xiě. | Chữ này viết như thế này.
+* 这么 + tính từ = …thế này. Chỉ cái ở xa thì dùng 那么 (bài 9).
+
+@自己 | tự kỷ
+- 代 | tự mình, bản thân
+> 这件事我自己做。 | Zhè jiàn shì wǒ zìjǐ zuò. | Việc này tôi tự làm.
+> 他自己一个人住。 | Tā zìjǐ yí ge rén zhù. | Anh ấy sống một mình.
+* Không phải “tự kỷ” (bệnh) trong tiếng Việt: 自己 chỉ là “tự mình, chính mình”.

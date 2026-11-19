@@ -1,0 +1,19 @@
+# PHÂN BÀI HSK 2 – theo thứ tự bài của sách 《新HSK教程 2》 (15 bài; tên bài tự đặt bằng tiếng Việt)
+# Mỗi dòng: số bài | tên bài | các từ (đúng dạng gốc trong danh sách chính thức, cách nhau bằng dấu cách)
+# Hai mục cùng viết 过: 过 = guò (động từ), 过(guo) = trợ từ chỉ kinh nghiệm.
+# Từ chính thức sách không dạy riêng được xếp tay vào bài hợp chủ đề.
+1 | Gặp gỡ và nhờ giúp đỡ | 帮忙 不好意思 次 懂 介绍 就 旅游 让 已经 意思 有时
+2 | Đi xe trong thành phố | 啊 别1 车站 打车 但 公交车 过来 还是 间 教室 名 票 外国 万 网上 远
+3 | Đi du lịch | 不错 出去 回来 回去 累 每 拿 手 送 完 为什么 洗 一起 这么 自己
+4 | Màu sắc và quần áo | 白色 过去1 过(guo) 黑色 红色 进去 裤子 绿色 商场 书包 所以 条 颜色 因为
+5 | Đến chơi nhà bạn | 等1 跟 进来 酒店 快 面1 奶茶 奶奶 上来 上去 下来 下去 爷爷 一会儿 准备 走 下面
+6 | Sinh nhật | 长 床 打开 地 过 画 快乐 肉 生日 舒服 忘 鱼
+7 | Thể thao | 爱好 从 打1 得 开始 篮球 跑 跑步 球 踢 往 游 游泳 运动 足球
+8 | Vợ chồng và kỷ niệm | 比 但是 点2 饭馆 花2 记得 妻子 手表 虽然 有意思 右 右边 丈夫 左 左边
+9 | Đồ uống và khoảng cách | 高 个子 坏 近 咖啡 离 门口 那么 男孩儿 旁边 这样 周 走路 红茶 绿茶
+10 | Học hành và thi cử | 帮 本子 笔 词 错 后面 开学 考 考试 快要 门 题 笑
+11 | Sức khỏe | 动 进 经常 路上 慢 身体 时 疼 头 药 药店 着 最
+12 | Thời tiết và thành phố | 从小 地铁 楼 晴 事情 外面 小时候 阴 站1 正
+13 | Lớp học tiếng Trung | 班 告诉 花1 教 可能 里面 那样 上面 上网 希望 洗手间
+14 | Năm mới | 包 过年 没意思 女孩儿 前面 跳舞 位 小孩儿 姓 眼睛 出 出来 起来
+15 | Chuyến đi xa | 出国 出门 飞 高中 机场 机票 路 门票 鸟 姓名

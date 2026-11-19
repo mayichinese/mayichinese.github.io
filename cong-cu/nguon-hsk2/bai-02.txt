@@ -1,0 +1,102 @@
+# ===== NGUỒN SOẠN THẢO HSK 2 – BÀI 2 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–2.
+
+# 2 | Đi xe trong thành phố
+
+@啊 | a
+- 助 | à, nhỉ, quá… (cuối câu, làm lời nói tự nhiên, thêm cảm xúc)
+> 今天天气真好啊！ | Jīntiān tiānqì zhēn hǎo a! | Hôm nay trời đẹp quá!
+> 这是谁的书啊？ | Zhè shì shéi de shū a? | Đây là sách của ai thế?
+* Đặt cuối câu cảm thán, câu hỏi hoặc lời nhắc nhở.
+
+@别1 | biệt
+- 副 | đừng
+> 别说话，老师来了。 | Bié shuōhuà, lǎoshī lái le. | Đừng nói chuyện, thầy đến rồi.
+> 下雨了，别出去了。 | Xià yǔ le, bié chūqù le. | Mưa rồi, đừng ra ngoài nữa.
+* Giống 不要: 别 + động từ = đừng làm gì. 别…了 = thôi đừng… nữa.
+
+@车站 | xa trạm
+- 名 | bến xe, nhà ga, trạm xe
+> 我在车站等你。 | Wǒ zài chēzhàn děng nǐ. | Tôi đợi bạn ở bến xe.
+> 请问，车站在哪儿？ | Qǐngwèn, chēzhàn zài nǎr? | Xin hỏi, bến xe ở đâu?
+* 火车站 = ga tàu hỏa, 公交车站 = trạm xe buýt.
+
+@打车 | đả xa
+- 动 | gọi taxi, đi taxi
+> 太晚了，我们打车回家吧。 | Tài wǎn le, wǒmen dǎchē huí jiā ba. | Muộn quá rồi, chúng ta đi taxi về nhà đi.
+> 你是打车来的吗？ | Nǐ shì dǎchē lái de ma? | Bạn đi taxi đến à?
+* Cách nói hằng ngày, nghĩa như 坐出租车.
+
+@但 | đãn
+- 连 | nhưng
+> 这件衣服很漂亮，但太贵了。 | Zhè jiàn yīfu hěn piàoliang, dàn tài guì le. | Bộ quần áo này rất đẹp nhưng đắt quá.
+> 我想去，但没有时间。 | Wǒ xiǎng qù, dàn méiyǒu shíjiān. | Tôi muốn đi nhưng không có thời gian.
+* Nghĩa như 但是 (bài 8), ngắn gọn hơn.
+
+@公交车 | công giao xa
+- 名 | xe buýt
+> 我每天坐公交车上班。 | Wǒ měi tiān zuò gōngjiāochē shàngbān. | Hằng ngày tôi đi xe buýt đi làm.
+> 公交车来了，快上车！ | Gōngjiāochē lái le, kuài shàng chē! | Xe buýt đến rồi, mau lên xe!
+* Đi xe buýt: 坐公交车.
+
+@过来 | quá lai
+- 动 | qua đây, lại đây (đi về phía người nói)
+> 你过来一下，我有事问你。 | Nǐ guòlái yíxià, wǒ yǒu shì wèn nǐ. | Bạn lại đây một chút, tôi có việc muốn hỏi.
+> 他从那边过来了。 | Tā cóng nàbian guòlái le. | Anh ấy từ bên kia đi qua đây rồi.
+* Ngược lại: 过去 (đi qua đó, rời xa người nói) – bài 4.
+
+@还是 | hoàn thị
+- 连 | hay, hay là (trong câu hỏi lựa chọn)
+> 你喝茶还是喝水？ | Nǐ hē chá háishi hē shuǐ? | Bạn uống trà hay uống nước?
+- 副 | …thì hơn (khuyên chọn cách tốt hơn); vẫn
+> 太远了，我们还是打车去吧。 | Tài yuǎn le, wǒmen háishi dǎchē qù ba. | Xa quá, chúng ta đi taxi thì hơn.
+> 他还是不懂。 | Tā háishi bù dǒng. | Anh ấy vẫn không hiểu.
+* Câu hỏi “A hay B” dùng 还是. 还是…吧 = …thì hơn.
+
+@间 | gian
+- 量 | căn, gian (lượng từ cho phòng)
+> 这间房间很大。 | Zhè jiān fángjiān hěn dà. | Căn phòng này rất rộng.
+> 我们学校有二十间教室。 | Wǒmen xuéxiào yǒu èrshí jiān jiàoshì. | Trường chúng tôi có hai mươi phòng học.
+* Dùng cho phòng: 一间教室, 一间房间.
+
+@教室 | giáo thất
+- 名 | phòng học, lớp học
+> 学生们都在教室里。 | Xuéshengmen dōu zài jiàoshì li. | Học sinh đều ở trong lớp.
+> 我们的教室在二楼。 | Wǒmen de jiàoshì zài èr lóu. | Lớp học của chúng tôi ở tầng hai.
+* 教 ở đây đọc jiào (thanh 4); động từ 教 “dạy” đọc jiāo (bài 13).
+
+@名 | danh
+- 量 | (lượng từ chỉ người, trang trọng); thứ hạng
+> 我们班有二十名学生。 | Wǒmen bān yǒu èrshí míng xuésheng. | Lớp chúng tôi có hai mươi học sinh.
+> 他考了第一名。 | Tā kǎo le dì yī míng. | Anh ấy thi đứng thứ nhất.
+* 名 trang trọng hơn 个: 三名学生 = 三个学生. 第一名 = hạng nhất.
+
+@票 | phiếu
+- 名 | vé
+> 你买票了吗？ | Nǐ mǎi piào le ma? | Bạn mua vé chưa?
+> 这个电影的票很贵。 | Zhège diànyǐng de piào hěn guì. | Vé của bộ phim này rất đắt.
+* 车票 = vé xe, 电影票 = vé xem phim, 机票 = vé máy bay (bài 15), 门票 = vé vào cửa.
+
+@外国 | ngoại quốc
+- 名 | nước ngoài
+> 他是外国人。 | Tā shì wàiguórén. | Anh ấy là người nước ngoài.
+> 我想去外国学习。 | Wǒ xiǎng qù wàiguó xuéxí. | Tôi muốn ra nước ngoài học.
+* 外国人 = người nước ngoài. 出国 = ra nước ngoài (bài 15).
+
+@万 | vạn
+- 数 | mười nghìn, vạn
+> 这个手机五千块，那个一万块。 | Zhège shǒujī wǔqiān kuài, nàge yíwàn kuài. | Điện thoại này năm nghìn tệ, cái kia mười nghìn tệ.
+> 这个学校有一万多个学生。 | Zhège xuéxiào yǒu yíwàn duō ge xuésheng. | Trường này có hơn mười nghìn học sinh.
+* Tiếng Trung đếm theo vạn: 一万 = 10.000, 十万 = 100.000. Không nói 十千.
+
+@网上 | võng thượng
+- 名 | trên mạng
+> 我在网上买了一本书。 | Wǒ zài wǎngshang mǎi le yì běn shū. | Tôi đã mua một cuốn sách trên mạng.
+> 网上的东西很便宜。 | Wǎngshang de dōngxi hěn piányi. | Đồ trên mạng rất rẻ.
+* 在网上 + làm gì. Còn 上网 (bài 13) là động từ “lên mạng”.
+
+@远 | viễn
+- 形 | xa
+> 你家远吗？ | Nǐ jiā yuǎn ma? | Nhà bạn có xa không?
+> 学校不远，我们走去吧。 | Xuéxiào bù yuǎn, wǒmen zǒu qù ba. | Trường không xa, mình đi bộ đến nhé.
+* Trái nghĩa: 近 (gần, bài 9). A 离 B 很远 = A cách B rất xa.

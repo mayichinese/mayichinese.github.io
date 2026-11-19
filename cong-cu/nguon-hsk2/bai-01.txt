@@ -1,0 +1,73 @@
+# ===== NGUỒN SOẠN THẢO HSK 2 – BÀI 1 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–2.
+# Ghép: python -X utf8 cong-cu/ghep-du-lieu-cap.py 2
+
+# 1 | Gặp gỡ và nhờ giúp đỡ
+
+@帮忙 | bang mang
+- 动 | giúp, giúp đỡ (một việc gì đó)
+> 谢谢你来帮忙！ | Xièxie nǐ lái bāngmáng! | Cảm ơn bạn đã đến giúp!
+> 我今天很忙，你可以帮忙吗？ | Wǒ jīntiān hěn máng, nǐ kěyǐ bāngmáng ma? | Hôm nay tôi rất bận, bạn giúp được không?
+* Không đặt người ngay sau 帮忙 (không nói 帮忙我). Muốn nói “giúp tôi” thì dùng 帮我 hoặc 帮我的忙.
+
+@不好意思 | bất hảo ý tư
+- cụm | ngại quá, xin lỗi (nhẹ nhàng, khi làm phiền ai)
+> 不好意思，我来晚了。 | Bù hǎoyìsi, wǒ lái wǎn le. | Xin lỗi, tôi đến muộn.
+> 不好意思，请问你叫什么名字？ | Bù hǎoyìsi, qǐngwèn nǐ jiào shénme míngzi? | Xin lỗi, cho hỏi bạn tên là gì?
+* Nhẹ hơn 对不起. Dùng khi làm phiền người khác, khi được khen hoặc khi thấy ngại.
+
+@次 | thứ
+- 量 | lần (đếm số lần làm việc gì)
+> 这个电影我看了三次。 | Zhège diànyǐng wǒ kàn le sān cì. | Bộ phim này tôi đã xem ba lần.
+> 我们下次再见吧！ | Wǒmen xià cì zàijiàn ba! | Lần sau chúng ta gặp lại nhé!
+* Động từ + số + 次: 看三次 (xem ba lần). Hỏi số lần: 几次？ 第一次 = lần đầu tiên.
+
+@懂 | đổng
+- 动 | hiểu
+> 你懂我的意思吗？ | Nǐ dǒng wǒ de yìsi ma? | Bạn hiểu ý tôi không?
+> 我不懂这个问题。 | Wǒ bù dǒng zhège wèntí. | Tôi không hiểu câu hỏi này.
+* 听懂 = nghe hiểu, 看懂 = đọc/xem hiểu. 听不懂 = nghe không hiểu.
+
+@介绍 | giới thiệu
+- 动 | giới thiệu
+> 我来介绍一下，这是我的同学。 | Wǒ lái jièshào yíxià, zhè shì wǒ de tóngxué. | Để tôi giới thiệu nhé, đây là bạn học của tôi.
+> 请你介绍一下你的家人。 | Qǐng nǐ jièshào yíxià nǐ de jiārén. | Mời bạn giới thiệu về gia đình mình.
+* 介绍 + 一下 nghe nhẹ nhàng, lịch sự. Giới thiệu A với B: 给 B 介绍 A.
+
+@就 | tựu
+- 副 | ngay, liền; đã… (xảy ra sớm, nhanh hơn mong đợi)
+> 你等一下，我现在就去。 | Nǐ děng yíxià, wǒ xiànzài jiù qù. | Bạn đợi chút, tôi đi ngay bây giờ.
+> 他早上六点就起床了。 | Tā zǎoshang liù diǎn jiù qǐchuáng le. | Anh ấy sáu giờ sáng đã dậy rồi.
+- 副 | chính là (nhấn mạnh)
+> 这就是我的学校。 | Zhè jiù shì wǒ de xuéxiào. | Đây chính là trường của tôi.
+* Thời gian + 就 + động từ + 了: nhấn mạnh việc xảy ra sớm.
+
+@旅游 | lữ du
+- 动 | đi du lịch
+> 我想去中国旅游。 | Wǒ xiǎng qù Zhōngguó lǚyóu. | Tôi muốn đi du lịch Trung Quốc.
+> 明年我们一家人去旅游吧！ | Míngnián wǒmen yì jiā rén qù lǚyóu ba! | Năm sau cả nhà mình đi du lịch nhé!
+* Nói 去 + nơi chốn + 旅游 (去中国旅游), không đặt nơi chốn ngay sau 旅游.
+
+@让 | nhượng
+- 动 | để, cho, bảo (ai làm gì)
+> 妈妈不让我玩手机。 | Māma bú ràng wǒ wán shǒujī. | Mẹ không cho tôi chơi điện thoại.
+> 老师让我们读这本书。 | Lǎoshī ràng wǒmen dú zhè běn shū. | Thầy giáo bảo chúng tôi đọc cuốn sách này.
+* A + 让 + B + làm gì. 让我看看 = để tôi xem nào.
+
+@已经 | dĩ kinh
+- 副 | đã, rồi
+> 我已经吃饭了。 | Wǒ yǐjīng chī fàn le. | Tôi ăn cơm rồi.
+> 现在已经十一点了。 | Xiànzài yǐjīng shíyī diǎn le. | Bây giờ đã mười một giờ rồi.
+* Thường đi với 了 ở cuối câu: 已经…了.
+
+@意思 | ý tư
+- 名 | ý, nghĩa
+> 这个字是什么意思？ | Zhège zì shì shénme yìsi? | Chữ này nghĩa là gì?
+> 我不知道他的意思。 | Wǒ bù zhīdào tā de yìsi. | Tôi không biết ý anh ấy.
+* Không phải “ý tứ” (tế nhị) trong tiếng Việt. 有意思 = thú vị, 没意思 = chán (học ở bài 8 và 14).
+
+@有时 | hữu thời
+- 副 | có lúc, đôi khi
+> 我有时在家吃饭，有时在外边吃。 | Wǒ yǒushí zài jiā chī fàn, yǒushí zài wàibian chī. | Tôi có lúc ăn ở nhà, có lúc ăn ở ngoài.
+> 他有时坐车去学校。 | Tā yǒushí zuò chē qù xuéxiào. | Đôi khi anh ấy đi xe đến trường.
+* Hay dùng thành cặp: 有时…有时… Văn nói cũng dùng 有时候.

@@ -2,8 +2,9 @@
 // BÀI HỌC
 //   #/bai          2 ô lớn (Ôn tập / Từ mới) + chọn cấp + chọn cách chia bài + lưới các bài + tìm từ
 //   #/bai/5        chi tiết bài 5 theo chủ đề        #/bai/s5  chi tiết bài 5 của sách 《新HSK教程 1》
+//   #/bai/2-5      chi tiết bài 5 của HSK 2 (HSK 2 chia theo thứ tự bài của sách 《新HSK教程 2》)
 //   #/tu/<khóa>    xem một từ
-// Cách chia bài (lưu ở caiDat.cheDoBai): 'chu-de' = 20 bài theo chủ đề, 'sach' = 15 bài theo sách.
+// Cách chia bài HSK 1 (lưu ở caiDat.cheDoBai): 'chu-de' = 20 bài theo chủ đề, 'sach' = 15 bài theo sách.
 // Tiến độ lưu theo TỪNG TỪ nên đổi cách chia không ảnh hưởng tiến độ.
 // =========================================================
 
@@ -11,11 +12,14 @@ import { layTienDo, caiDat, luu } from './luu-tru.js';
 import { loaiThe } from './lich-on.js';
 import {
   layTu, tatCaTu, nghiaNgan, danhSachBai, timBaiTheoMa, cheDoBai, coTheoSach, tenSach,
-  nhanBai, baiSachCuaTu, baiSachCuaNguPhap,
+  nhanBai, baiSachCuaTu, baiSachCuaNguPhap, cacCapCoDuLieu,
 } from './du-lieu.js';
-import { demHomNay, tuChuaHoc } from './phien-hoc.js';
+import { demHomNay, tuChuaHoc, baiDangHoc } from './phien-hoc.js';
 import { esc, boDau, htmlMatSau, dongTu, CHU_THICH_CHAM } from './giao-dien.js';
 import { taiNguPhap } from './man-ngu-phap.js';
+
+// Cấp đang xem trong lưới bài (mặc định: cấp của bài đang học dở)
+let capDangXem = null;
 
 // ---------- Danh sách bài ----------
 export function veDanhSachBai(khung) {
@@ -25,30 +29,45 @@ export function veDanhSachBai(khung) {
   const soCanOn = dem.onDenHan + dem.dangHocDenHan;
   const soChuaHoc = tuChuaHoc().length;
   const cheDo = cheDoBai(cd);
+  const coCap = cacCapCoDuLieu();
+  if (!coCap.includes(capDangXem)) capDangXem = baiDangHoc()?.cap || 1;
+  const cap = capDangXem;
 
   // Cấp chưa có dữ liệu thì khóa lại
-  const chipCap = [1, 2, 3].map((c) => (c === 1
-    ? '<span class="chip dang-chon">HSK 1</span>'
+  const chipCap = [1, 2, 3].map((c) => (coCap.includes(c)
+    ? `<button class="chip ${c === cap ? 'dang-chon' : ''}" data-cap="${c}">HSK ${c}</button>`
     : `<button class="chip" disabled title="Sắp có">HSK ${c} <span class="emoji">🔒</span></button>`)).join('');
 
-  const chipCheDo = coTheoSach() ? `
+  const chipCheDo = cap > 1
+    ? `<p class="chu-phu nho" style="margin:6px 2px 0">HSK ${cap} chia theo thứ tự bài của sách 《新HSK教程 ${cap}》. Bài nào chưa soạn xong sẽ hiện “Đang soạn”.</p>`
+    : coTheoSach() ? `
     <div class="nhom-chon chon-che-do-bai" id="chon-che-do">
       <button data-che-do="chu-de" class="${cheDo === 'chu-de' ? 'dang-chon' : ''}">🗂️ Chủ đề · 20 bài</button>
       <button data-che-do="sach" class="${cheDo === 'sach' ? 'dang-chon' : ''}">📖 Theo sách · 15 bài</button>
     </div>
     ${cheDo === 'sach' ? `<p class="chu-phu nho" style="margin:6px 2px 0">Theo thứ tự bài của ${esc(tenSach())}. Đổi cách chia không ảnh hưởng tiến độ.</p>` : ''}` : '';
 
-  const htmlLuoi = () => danhSachBai(cheDo).map((b) => {
+  const htmlLuoi = () => danhSachBai(cheDo, cap).map((b) => {
+    const nhan = b.sach ? `Bài ${b.so} (sách)` : `Bài ${b.so}`;
+    if (!b.tu.length) {
+      return `
+      <div class="o-bai dang-soan" aria-disabled="true">
+        <span class="so-bai">${nhan}</span>
+        <span class="xem-truoc emoji">📝</span>
+        <span class="ten-bai">${esc(b.ten)}</span>
+        <span class="chu-phu nho">Đang soạn · ${b.soTu} từ</span>
+      </div>`;
+    }
     const daHoc = b.tu.filter((t) => td.the[t.khoa]).length;
     const thuoc = b.tu.filter((t) => loaiThe(td.the[t.khoa]) === 'da-thuoc').length;
     const phanTram = b.tu.length ? Math.round((daHoc / b.tu.length) * 100) : 0;
     return `
       <a class="o-bai ${phanTram === 100 ? 'xong' : ''}" href="#/bai/${b.ma}">
-        <span class="so-bai">${nhanBai(b)}${phanTram === 100 ? ' <span class="emoji">✅</span>' : ''}</span>
+        <span class="so-bai">${nhan}${phanTram === 100 ? ' <span class="emoji">✅</span>' : ''}</span>
         <span class="xem-truoc han">${b.tu[0] ? esc(b.tu[0].hanzi) : ''}</span>
         <span class="ten-bai">${esc(b.ten)}</span>
         <span class="thanh-tien-do"><span style="width:${phanTram}%"></span></span>
-        <span class="chu-phu nho">${daHoc}/${b.tu.length} từ${thuoc ? ` · thuộc ${thuoc}` : ''}</span>
+        <span class="chu-phu nho">${daHoc}/${b.tu.length} từ${thuoc ? ` · thuộc ${thuoc}` : ''}${b.tu.length < b.soTu ? ' · đang soạn' : ''}</span>
       </a>`;
   }).join('');
 
@@ -73,6 +92,10 @@ export function veDanhSachBai(khung) {
     <input class="o-tim" id="o-tim" type="search" placeholder="🔍 Tìm từ: chữ Hán, pinyin, nghĩa, Hán Việt…" autocomplete="off">
     <div id="ket-qua"><div class="luoi-bai">${htmlLuoi()}</div></div>`;
 
+  // Đổi cấp
+  khung.querySelectorAll('[data-cap]').forEach((nut) => {
+    nut.onclick = () => { capDangXem = Number(nut.dataset.cap); veDanhSachBai(khung); };
+  });
   // Đổi cách chia bài
   khung.querySelectorAll('#chon-che-do [data-che-do]').forEach((nut) => {
     nut.onclick = () => {
@@ -149,7 +172,9 @@ export function veTu(khung, khoa) {
     <div class="khung trang-thai-tu">
       <div><b>Trạng thái:</b> ${moTa}${the ? ` · đã ôn ${the.soLanOn || 0} lần · quên ${the.soLanQuen || 0} lần` : ''}</div>
       ${lanToi ? `<div><b>Lần ôn tới:</b> ${lanToi}</div>` : ''}
-      <div class="chu-phu nho">Bài ${tu.bai} (theo chủ đề)${baiSach ? ` · Bài ${baiSach} trong sách` : ''}</div>
+      <div class="chu-phu nho">${tu.cap > 1
+        ? `HSK ${tu.cap} · Bài ${tu.bai} (theo sách 《新HSK教程 ${tu.cap}》)`
+        : `HSK 1 · Bài ${tu.bai} (theo chủ đề)${baiSach ? ` · Bài ${baiSach} trong sách` : ''}`}</div>
       <div class="chu-phu nho">Danh sách chính thức: STT ${tu.soThuTu} · từ loại ${esc(tu.tuLoaiChinhThuc || '(cụm từ)')}</div>
     </div>`;
 }

@@ -1,5 +1,5 @@
 {
- "_ghiChu": "File tạo tự động bởi cong-cu/tao-du-lieu-thanh-dieu.py – không sửa tay. daAm: chữ (từ một chữ của HSK 1) có nhiều cách đọc trong CC-CEDICT → không dùng trong bài \"nghe 1 âm tiết\" vì giọng máy có thể đọc khác.",
+ "_ghiChu": "File tạo tự động bởi cong-cu/tao-du-lieu-thanh-dieu.py – không sửa tay. daAm: chữ (từ một chữ của HSK 1, 2…) có nhiều cách đọc trong CC-CEDICT → không dùng trong bài \"nghe 1 âm tiết\" vì giọng máy có thể đọc khác.",
  "daAm": [
   "好",
   "喂",
@@ -31,6 +31,23 @@
   "雨",
   "看",
   "听",
-  "见"
+  "见",
+  "啊",
+  "别",
+  "间",
+  "远",
+  "累",
+  "过",
+  "长",
+  "地",
+  "打",
+  "得",
+  "跑",
+  "比",
+  "离",
+  "头",
+  "着",
+  "正",
+  "教"
  ]
 }

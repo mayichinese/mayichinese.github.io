@@ -10,7 +10,7 @@
 
 import { layTienDo, caiDat, chuoiNgayHoc, coHocNgay, ngayHoc } from './luu-tru.js';
 import { loaiThe } from './lich-on.js';
-import { tatCaTu } from './du-lieu.js';
+import { tatCaTu, tongTuCap } from './du-lieu.js';
 import { esc, dongTu } from './giao-dien.js';
 import { taiNetChu } from './net-chu.js';
 import { taiNguPhap } from './man-ngu-phap.js';
@@ -145,13 +145,16 @@ export async function veThongKe(khung) {
   // --- Theo cấp ---
   const tuCap1 = tatCaTu().filter((t) => t.cap === 1);
   const tkTu = demTheoLoai(tuCap1, (t) => td.the[t.khoa]);
+  const tuCap2 = tatCaTu().filter((t) => t.cap === 2);
+  const tkTu2 = demTheoLoai(tuCap2, (t) => td.the[t.khoa]);
+  const tong2 = tongTuCap(2);
   const vietTay = netChu?.vietTay12 || Object.keys(td.theViet);
   const tkViet = demTheoLoai(vietTay, (c) => td.theViet[c]);
   const tkNp = demTheoLoai(nguPhap, (d) => td.nguPhap.the[d.id]);
 
   // --- Hay sai ---
   const soSai = td.tracNghiem.soSai;
-  const tuHaySai = tuCap1
+  const tuHaySai = tatCaTu()
     .map((t) => ({ t, quen: td.the[t.khoa]?.soLanQuen || 0, sai: soSai[t.khoa]?.lanSai || 0 }))
     .filter((x) => x.quen + x.sai > 0)
     .sort((a, b) => (b.quen + b.sai) - (a.quen + a.sai))
@@ -194,8 +197,13 @@ export async function veThongKe(khung) {
       ${khoiCap('Từ vựng', tkTu, tuCap1.length)}
       ${khoiCap('Chữ viết tay (cấp 1–2)', tkViet, vietTay.length)}
       ${nguPhap.length ? khoiCap('Ngữ pháp', tkNp, nguPhap.length) : ''}
-      <p class="chu-phu nho" style="margin:12px 0 0">HSK 2, HSK 3: chưa có dữ liệu (đang soạn ở Giai đoạn 5).</p>
     </section>
+    ${tuCap2.length ? `
+    <section class="khung" style="margin-top:12px">
+      <div class="dong-tren"><b class="nhan nhan-chinh">HSK 2</b></div>
+      ${khoiCap('Từ vựng', tkTu2, tuCap2.length, tuCap2.length < tong2 ? `đã soạn ${tuCap2.length}/${tong2} từ` : '')}
+      <p class="chu-phu nho" style="margin:12px 0 0">Ngữ pháp và thi thử HSK 2, HSK 3: đang soạn (Giai đoạn 5).</p>
+    </section>` : '<p class="chu-phu nho" style="margin:12px 2px 0">HSK 2, HSK 3: chưa có dữ liệu (đang soạn ở Giai đoạn 5).</p>'}
 
     <h3 class="tieu-de-muc">Kết quả luyện tập</h3>
     <div class="hang-chi-so">

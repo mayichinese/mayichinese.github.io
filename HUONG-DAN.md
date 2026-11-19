@@ -57,7 +57,7 @@ Tiến độ trên máy tính và trên điện thoại là **hai bản riêng**
 | Mục | Dùng để |
 |---|---|
 | 🏠 **Hôm nay** | Xem việc cần làm hôm nay, chuỗi ngày học liên tục, 7 ngày trong tuần, kế hoạch 60 phút |
-| 📚 **Bài học** | Vào Ôn tập / Từ mới, chọn bài, tìm từ (chữ Hán, pinyin, nghĩa, Hán Việt). Chọn cách chia bài: **🗂️ Chủ đề** (20 bài) hoặc **📖 Theo sách** (15 bài theo 《新HSK教程 1》, để học song song với sách) – đổi lúc nào cũng được, tiến độ giữ nguyên |
+| 📚 **Bài học** | Vào Ôn tập / Từ mới, chọn cấp (**HSK 1 / HSK 2**), chọn bài, tìm từ (chữ Hán, pinyin, nghĩa, Hán Việt). HSK 1 có hai cách chia bài: **🗂️ Chủ đề** (20 bài) hoặc **📖 Theo sách** (15 bài theo 《新HSK教程 1》) – đổi lúc nào cũng được, tiến độ giữ nguyên. HSK 2 chia theo 15 bài của 《新HSK教程 2》; bài chưa soạn xong hiện **Đang soạn**. Nút **Từ mới** đưa từ HSK 1 trước, học hết HSK 1 mới sang HSK 2 (muốn học trước thì mở thẳng một bài HSK 2) |
 | ✏️ **Luyện tập** | 🎧 Luyện thanh điệu, ✍️ Luyện viết chữ Hán, 📝 Trắc nghiệm, 📋 Thi thử HSK 1, 🧩 Ngữ pháp |
 | 📊 **Thống kê** | Chuỗi ngày học (hiện tại, dài nhất), biểu đồ số phút học 7 / 30 ngày theo 5 phần (chạm cột để xem chi tiết, có cả dạng bảng), tiến độ từ vựng / chữ viết / ngữ pháp, tỉ lệ đúng, **những từ hay sai nhất**, chữ viết hay sai, thanh hay nhầm |
 
@@ -158,6 +158,13 @@ Không nên sửa thẳng `app/data/hsk1.json`, vì lần chạy script sau sẽ
 
 **Thứ tự bài theo sách:** `cong-cu/nguon-hsk1/theo-sach.txt` ghi pinyin + số bài của từng từ (chép từ bảng từ cuối sách 《新HSK教程 1》) và bài sách của từng điểm ngữ pháp (gần đúng). Sửa xong chạy `python -X utf8 cong-cu/tao-theo-sach.py` → tạo `app/data/theo-sach-hsk1.json` (báo cáo ở `cong-cu/bao-cao-theo-sach.txt`).
 
+**Từ vựng HSK 2:** soạn tay trong `cong-cu/nguon-hsk2/bai-01.txt` … (cùng cách viết như HSK 1). `phan-bai.txt` chia 200 từ theo 15 bài của sách 《新HSK教程 2》 (tên bài tự đặt). Hai mục cùng viết 过 được phân biệt: `过` = guò, `过(guo)` = trợ từ. Sửa xong chạy:
+   ```
+   python -X utf8 cong-cu/ghep-du-lieu-cap.py 2
+   python -X utf8 cong-cu/tao-du-lieu-thanh-dieu.py
+   ```
+   Lệnh thứ nhất tạo `app/data/hsk2.json` và kiểm tra luôn: từ loại, chữ ngoài cấp 1–2, pinyin câu ví dụ (so với CC-CEDICT). Báo cáo ở `cong-cu/bao-cao-hsk2.txt`. Từ chưa soạn sẽ không hiện trong app.
+
 **Dữ liệu ngữ pháp:** soạn tay trong `cong-cu/nguon-ngu-phap/cap1-01.txt` … `cap1-07.txt` (mỗi file 5 điểm; cách viết ghi ở đầu file `cong-cu/ghep-ngu-phap.py`). Sửa xong chạy:
    ```
    python -X utf8 cong-cu/ghep-ngu-phap.py
@@ -209,6 +216,8 @@ MayiChinese/
 │   └── sw.js               ← giúp chạy offline
 ├── cong-cu/                ← công cụ tạo và kiểm tra dữ liệu (chạy trên máy tính)
 │   ├── nguon-hsk1/         ← nội dung soạn tay của từng bài  ← SỬA Ở ĐÂY
+│   ├── nguon-hsk2/         ← từ vựng HSK 2 soạn tay (phan-bai.txt + bai-01 …)  ← SỬA Ở ĐÂY
+│   ├── ghep-du-lieu-cap.py ← ghép + kiểm tra từ vựng HSK 2 (và 3 sau này)
 │   ├── nguon-ngu-phap/     ← ngữ pháp soạn tay (cap1-01 … cap1-07)  ← SỬA Ở ĐÂY
 │   ├── ghep-ngu-phap.py    ← ghép + kiểm tra ngữ pháp
 │   ├── ghep-du-lieu-hsk1.py

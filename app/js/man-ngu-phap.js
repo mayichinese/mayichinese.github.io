@@ -45,10 +45,10 @@ function tron(mang) {
   return m;
 }
 
-/** Bài từ vựng xa nhất mà người học đã học ít nhất một từ */
+/** Bài từ vựng HSK 1 xa nhất mà người học đã học ít nhất một từ */
 function baiDaHocToi() {
   const td = layTienDo();
-  return tatCaTu().reduce((m, t) => (td.the[t.khoa] ? Math.max(m, t.bai) : m), 0);
+  return tatCaTu().reduce((m, t) => (t.cap === 1 && td.the[t.khoa] ? Math.max(m, t.bai) : m), 0);
 }
 
 /** Các điểm đến hạn ôn (đang học dở hoặc đã đến hạn) */

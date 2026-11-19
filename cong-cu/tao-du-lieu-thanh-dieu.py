@@ -4,7 +4,7 @@ TẠO DỮ LIỆU PHỤ CHO LUYỆN THANH ĐIỆU (Giai đoạn 2).
 
 Vấn đề: giọng đọc của máy (Web Speech) đọc MỘT chữ đứng riêng theo cách đọc phổ biến nhất.
 Với chữ đa âm (một chữ nhiều cách đọc), máy có thể đọc khác pinyin trong dữ liệu HSK
-→ bài "nghe 1 âm tiết" sẽ chấm sai. Script này tìm các từ MỘT chữ trong HSK 1 mà chữ đó
+→ bài "nghe 1 âm tiết" sẽ chấm sai. Script này tìm các từ MỘT chữ trong HSK 1, 2… mà chữ đó
 có nhiều cách đọc trong từ điển CC-CEDICT, để app KHÔNG dùng chúng trong bài nghe 1 âm tiết.
 (Từ 2 chữ trở lên thì máy đọc theo ngữ cảnh của từ nên ít sai hơn – vẫn dùng.)
 
@@ -18,7 +18,8 @@ from pathlib import Path
 
 GOC = Path(__file__).resolve().parent.parent
 CEDICT = GOC / 'cong-cu' / 'tu-dien-doi-chieu' / 'cedict.txt'
-HSK1 = GOC / 'app' / 'data' / 'hsk1.json'
+# Đọc mọi cấp đã có dữ liệu: hsk1.json, hsk2.json… (tên file kết quả giữ nguyên để app không phải đổi)
+CAC_CAP = sorted(GOC.glob('app/data/hsk[0-9].json'))
 FILE_RA = GOC / 'app' / 'data' / 'thanh-dieu-hsk1.json'
 
 def doc_cedict():
@@ -45,30 +46,29 @@ def doc_cedict():
 
 def main():
     cach_doc = doc_cedict()
-    hsk1 = json.loads(HSK1.read_text(encoding='utf-8'))
     da_am = []
     khong_co_trong_tu_dien = []
     tong_mot_chu = 0
-    for bai in hsk1['baiHoc']:
-        for tu in bai['tu']:
-            if len(tu['hanzi']) != 1:
-                continue
-            tong_mot_chu += 1
-            c = tu['hanzi']
-            ds = cach_doc.get(c)
-            if not ds:
-                khong_co_trong_tu_dien.append(c)
-                continue
-            if len(ds) > 1:
-                da_am.append(c)
+    cac_tu = [tu for f in CAC_CAP for bai in json.loads(f.read_text(encoding='utf-8'))['baiHoc'] for tu in bai['tu']]
+    for tu in cac_tu:
+        if len(tu['hanzi']) != 1 or tu['hanzi'] in da_am:
+            continue
+        tong_mot_chu += 1
+        c = tu['hanzi']
+        ds = cach_doc.get(c)
+        if not ds:
+            khong_co_trong_tu_dien.append(c)
+            continue
+        if len(ds) > 1:
+            da_am.append(c)
     goi = {
         '_ghiChu': 'File tạo tự động bởi cong-cu/tao-du-lieu-thanh-dieu.py – không sửa tay. '
-                   'daAm: chữ (từ một chữ của HSK 1) có nhiều cách đọc trong CC-CEDICT → '
+                   'daAm: chữ (từ một chữ của HSK 1, 2…) có nhiều cách đọc trong CC-CEDICT → '
                    'không dùng trong bài "nghe 1 âm tiết" vì giọng máy có thể đọc khác.',
         'daAm': da_am,
     }
     FILE_RA.write_text(json.dumps(goi, ensure_ascii=False, indent=1), encoding='utf-8')
-    print(f'Từ một chữ trong HSK 1: {tong_mot_chu}')
+    print(f'Đọc: {", ".join(f.name for f in CAC_CAP)} | từ một chữ: {tong_mot_chu}')
     print(f'  - đa âm (bị loại khỏi bài nghe 1 âm tiết): {len(da_am)}')
     print(f'  - không tìm thấy trong CC-CEDICT: {len(khong_co_trong_tu_dien)}')
     print(f'  - dùng được: {tong_mot_chu - len(da_am) - len(khong_co_trong_tu_dien)}')

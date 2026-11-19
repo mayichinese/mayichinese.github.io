@@ -1,0 +1,2800 @@
+{
+ "capDo": 2,
+ "nguon": "Danh sách chính thức HSK 3.0 (đề cương 2025) + phần soạn tay",
+ "baiHoc": [
+  {
+   "so": 1,
+   "ten": "Gặp gỡ và nhờ giúp đỡ",
+   "soTu": 11,
+   "daSoanXong": true,
+   "tu": [
+    {
+     "dangGoc": "帮忙",
+     "hanzi": "帮忙",
+     "pinyin": "bāngmáng",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 306,
+     "daSoan": true,
+     "hanViet": "bang mang",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "giúp, giúp đỡ (một việc gì đó)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "谢谢你来帮忙！",
+       "pinyin": "Xièxie nǐ lái bāngmáng!",
+       "dich": "Cảm ơn bạn đã đến giúp!",
+       "nghiaSo": 0
+      },
+      {
+       "han": "我今天很忙，你可以帮忙吗？",
+       "pinyin": "Wǒ jīntiān hěn máng, nǐ kěyǐ bāngmáng ma?",
+       "dich": "Hôm nay tôi rất bận, bạn giúp được không?",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Không đặt người ngay sau 帮忙 (không nói 帮忙我). Muốn nói “giúp tôi” thì dùng 帮我 hoặc 帮我的忙."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "不好意思",
+     "hanzi": "不好意思",
+     "pinyin": "bù hǎoyìsi",
+     "tuLoaiChinhThuc": "",
+     "soThuTu": 313,
+     "daSoan": true,
+     "hanViet": "bất hảo ý tư",
+     "nghia": [
+      {
+       "tuLoai": "cụm",
+       "nghia": "ngại quá, xin lỗi (nhẹ nhàng, khi làm phiền ai)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "不好意思，我来晚了。",
+       "pinyin": "Bù hǎoyìsi, wǒ lái wǎn le.",
+       "dich": "Xin lỗi, tôi đến muộn.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "不好意思，请问你叫什么名字？",
+       "pinyin": "Bù hǎoyìsi, qǐngwèn nǐ jiào shénme míngzi?",
+       "dich": "Xin lỗi, cho hỏi bạn tên là gì?",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Nhẹ hơn 对不起. Dùng khi làm phiền người khác, khi được khen hoặc khi thấy ngại."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "次",
+     "hanzi": "次",
+     "pinyin": "cì",
+     "tuLoaiChinhThuc": "量、（形）",
+     "soThuTu": 323,
+     "daSoan": true,
+     "hanViet": "thứ",
+     "nghia": [
+      {
+       "tuLoai": "量",
+       "nghia": "lần (đếm số lần làm việc gì)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "这个电影我看了三次。",
+       "pinyin": "Zhège diànyǐng wǒ kàn le sān cì.",
+       "dich": "Bộ phim này tôi đã xem ba lần.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "我们下次再见吧！",
+       "pinyin": "Wǒmen xià cì zàijiàn ba!",
+       "dich": "Lần sau chúng ta gặp lại nhé!",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Động từ + số + 次: 看三次 (xem ba lần). Hỏi số lần: 几次？ 第一次 = lần đầu tiên."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "懂",
+     "hanzi": "懂",
+     "pinyin": "dǒng",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 337,
+     "daSoan": true,
+     "hanViet": "đổng",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "hiểu"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "你懂我的意思吗？",
+       "pinyin": "Nǐ dǒng wǒ de yìsi ma?",
+       "dich": "Bạn hiểu ý tôi không?",
+       "nghiaSo": 0
+      },
+      {
+       "han": "我不懂这个问题。",
+       "pinyin": "Wǒ bù dǒng zhège wèntí.",
+       "dich": "Tôi không hiểu câu hỏi này.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "听懂 = nghe hiểu, 看懂 = đọc/xem hiểu. 听不懂 = nghe không hiểu."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "介绍",
+     "hanzi": "介绍",
+     "pinyin": "jièshào",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 369,
+     "daSoan": true,
+     "hanViet": "giới thiệu",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "giới thiệu"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我来介绍一下，这是我的同学。",
+       "pinyin": "Wǒ lái jièshào yíxià, zhè shì wǒ de tóngxué.",
+       "dich": "Để tôi giới thiệu nhé, đây là bạn học của tôi.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "请你介绍一下你的家人。",
+       "pinyin": "Qǐng nǐ jièshào yíxià nǐ de jiārén.",
+       "dich": "Mời bạn giới thiệu về gia đình mình.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "介绍 + 一下 nghe nhẹ nhàng, lịch sự. Giới thiệu A với B: 给 B 介绍 A."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "就",
+     "hanzi": "就",
+     "pinyin": "jiù",
+     "tuLoaiChinhThuc": "副、（介）",
+     "soThuTu": 376,
+     "daSoan": true,
+     "hanViet": "tựu",
+     "nghia": [
+      {
+       "tuLoai": "副",
+       "nghia": "ngay, liền; đã… (xảy ra sớm, nhanh hơn mong đợi)"
+      },
+      {
+       "tuLoai": "副",
+       "nghia": "chính là (nhấn mạnh)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "你等一下，我现在就去。",
+       "pinyin": "Nǐ děng yíxià, wǒ xiànzài jiù qù.",
+       "dich": "Bạn đợi chút, tôi đi ngay bây giờ.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "他早上六点就起床了。",
+       "pinyin": "Tā zǎoshang liù diǎn jiù qǐchuáng le.",
+       "dich": "Anh ấy sáu giờ sáng đã dậy rồi.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "这就是我的学校。",
+       "pinyin": "Zhè jiù shì wǒ de xuéxiào.",
+       "dich": "Đây chính là trường của tôi.",
+       "nghiaSo": 1
+      }
+     ],
+     "ghiChu": [
+      "Thời gian + 就 + động từ + 了: nhấn mạnh việc xảy ra sớm."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "旅游",
+     "hanzi": "旅游",
+     "pinyin": "lǚyóu",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 394,
+     "daSoan": true,
+     "hanViet": "lữ du",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "đi du lịch"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我想去中国旅游。",
+       "pinyin": "Wǒ xiǎng qù Zhōngguó lǚyóu.",
+       "dich": "Tôi muốn đi du lịch Trung Quốc.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "明年我们一家人去旅游吧！",
+       "pinyin": "Míngnián wǒmen yì jiā rén qù lǚyóu ba!",
+       "dich": "Năm sau cả nhà mình đi du lịch nhé!",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Nói 去 + nơi chốn + 旅游 (去中国旅游), không đặt nơi chốn ngay sau 旅游."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "让",
+     "hanzi": "让",
+     "pinyin": "ràng",
+     "tuLoaiChinhThuc": "动、（介）",
+     "soThuTu": 422,
+     "daSoan": true,
+     "hanViet": "nhượng",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "để, cho, bảo (ai làm gì)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "妈妈不让我玩手机。",
+       "pinyin": "Māma bú ràng wǒ wán shǒujī.",
+       "dich": "Mẹ không cho tôi chơi điện thoại.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "老师让我们读这本书。",
+       "pinyin": "Lǎoshī ràng wǒmen dú zhè běn shū.",
+       "dich": "Thầy giáo bảo chúng tôi đọc cuốn sách này.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "A + 让 + B + làm gì. 让我看看 = để tôi xem nào."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "已经",
+     "hanzi": "已经",
+     "pinyin": "yǐjīng",
+     "tuLoaiChinhThuc": "副",
+     "soThuTu": 473,
+     "daSoan": true,
+     "hanViet": "dĩ kinh",
+     "nghia": [
+      {
+       "tuLoai": "副",
+       "nghia": "đã, rồi"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我已经吃饭了。",
+       "pinyin": "Wǒ yǐjīng chī fàn le.",
+       "dich": "Tôi ăn cơm rồi.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "现在已经十一点了。",
+       "pinyin": "Xiànzài yǐjīng shíyī diǎn le.",
+       "dich": "Bây giờ đã mười một giờ rồi.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Thường đi với 了 ở cuối câu: 已经…了."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "意思",
+     "hanzi": "意思",
+     "pinyin": "yìsi",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 474,
+     "daSoan": true,
+     "hanViet": "ý tư",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "ý, nghĩa"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "这个字是什么意思？",
+       "pinyin": "Zhège zì shì shénme yìsi?",
+       "dich": "Chữ này nghĩa là gì?",
+       "nghiaSo": 0
+      },
+      {
+       "han": "我不知道他的意思。",
+       "pinyin": "Wǒ bù zhīdào tā de yìsi.",
+       "dich": "Tôi không biết ý anh ấy.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Không phải “ý tứ” (tế nhị) trong tiếng Việt. 有意思 = thú vị, 没意思 = chán (học ở bài 8 và 14)."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "有时",
+     "hanzi": "有时",
+     "pinyin": "yǒushí",
+     "tuLoaiChinhThuc": "副",
+     "soThuTu": 479,
+     "daSoan": true,
+     "hanViet": "hữu thời",
+     "nghia": [
+      {
+       "tuLoai": "副",
+       "nghia": "có lúc, đôi khi"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我有时在家吃饭，有时在外边吃。",
+       "pinyin": "Wǒ yǒushí zài jiā chī fàn, yǒushí zài wàibian chī.",
+       "dich": "Tôi có lúc ăn ở nhà, có lúc ăn ở ngoài.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "他有时坐车去学校。",
+       "pinyin": "Tā yǒushí zuò chē qù xuéxiào.",
+       "dich": "Đôi khi anh ấy đi xe đến trường.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Hay dùng thành cặp: 有时…有时… Văn nói cũng dùng 有时候."
+     ],
+     "canKiemTra": []
+    }
+   ]
+  },
+  {
+   "so": 2,
+   "ten": "Đi xe trong thành phố",
+   "soTu": 16,
+   "daSoanXong": true,
+   "tu": [
+    {
+     "dangGoc": "啊",
+     "hanzi": "啊",
+     "pinyin": "a",
+     "tuLoaiChinhThuc": "助",
+     "soThuTu": 301,
+     "daSoan": true,
+     "hanViet": "a",
+     "nghia": [
+      {
+       "tuLoai": "助",
+       "nghia": "à, nhỉ, quá… (cuối câu, làm lời nói tự nhiên, thêm cảm xúc)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "今天天气真好啊！",
+       "pinyin": "Jīntiān tiānqì zhēn hǎo a!",
+       "dich": "Hôm nay trời đẹp quá!",
+       "nghiaSo": 0
+      },
+      {
+       "han": "这是谁的书啊？",
+       "pinyin": "Zhè shì shéi de shū a?",
+       "dich": "Đây là sách của ai thế?",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Đặt cuối câu cảm thán, câu hỏi hoặc lời nhắc nhở."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "别1",
+     "hanzi": "别",
+     "pinyin": "bié",
+     "tuLoaiChinhThuc": "副",
+     "soThuTu": 311,
+     "daSoan": true,
+     "hanViet": "biệt",
+     "nghia": [
+      {
+       "tuLoai": "副",
+       "nghia": "đừng"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "别说话，老师来了。",
+       "pinyin": "Bié shuōhuà, lǎoshī lái le.",
+       "dich": "Đừng nói chuyện, thầy đến rồi.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "下雨了，别出去了。",
+       "pinyin": "Xià yǔ le, bié chūqù le.",
+       "dich": "Mưa rồi, đừng ra ngoài nữa.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Giống 不要: 别 + động từ = đừng làm gì. 别…了 = thôi đừng… nữa."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "车站",
+     "hanzi": "车站",
+     "pinyin": "chēzhàn",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 315,
+     "daSoan": true,
+     "hanViet": "xa trạm",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "bến xe, nhà ga, trạm xe"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我在车站等你。",
+       "pinyin": "Wǒ zài chēzhàn děng nǐ.",
+       "dich": "Tôi đợi bạn ở bến xe.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "请问，车站在哪儿？",
+       "pinyin": "Qǐngwèn, chēzhàn zài nǎr?",
+       "dich": "Xin hỏi, bến xe ở đâu?",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "火车站 = ga tàu hỏa, 公交车站 = trạm xe buýt."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "打车",
+     "hanzi": "打车",
+     "pinyin": "dǎchē",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 328,
+     "daSoan": true,
+     "hanViet": "đả xa",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "gọi taxi, đi taxi"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "太晚了，我们打车回家吧。",
+       "pinyin": "Tài wǎn le, wǒmen dǎchē huí jiā ba.",
+       "dich": "Muộn quá rồi, chúng ta đi taxi về nhà đi.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "你是打车来的吗？",
+       "pinyin": "Nǐ shì dǎchē lái de ma?",
+       "dich": "Bạn đi taxi đến à?",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Cách nói hằng ngày, nghĩa như 坐出租车."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "但",
+     "hanzi": "但",
+     "pinyin": "dàn",
+     "tuLoaiChinhThuc": "连、（副）",
+     "soThuTu": 330,
+     "daSoan": true,
+     "hanViet": "đãn",
+     "nghia": [
+      {
+       "tuLoai": "连",
+       "nghia": "nhưng"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "这件衣服很漂亮，但太贵了。",
+       "pinyin": "Zhè jiàn yīfu hěn piàoliang, dàn tài guì le.",
+       "dich": "Bộ quần áo này rất đẹp nhưng đắt quá.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "我想去，但没有时间。",
+       "pinyin": "Wǒ xiǎng qù, dàn méiyǒu shíjiān.",
+       "dich": "Tôi muốn đi nhưng không có thời gian.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Nghĩa như 但是 (bài 8), ngắn gọn hơn."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "公交车",
+     "hanzi": "公交车",
+     "pinyin": "gōngjiāochē",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 346,
+     "daSoan": true,
+     "hanViet": "công giao xa",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "xe buýt"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我每天坐公交车上班。",
+       "pinyin": "Wǒ měi tiān zuò gōngjiāochē shàngbān.",
+       "dich": "Hằng ngày tôi đi xe buýt đi làm.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "公交车来了，快上车！",
+       "pinyin": "Gōngjiāochē lái le, kuài shàng chē!",
+       "dich": "Xe buýt đến rồi, mau lên xe!",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Đi xe buýt: 坐公交车."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "过来",
+     "hanzi": "过来",
+     "pinyin": "guòlái",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 348,
+     "daSoan": true,
+     "hanViet": "quá lai",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "qua đây, lại đây (đi về phía người nói)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "你过来一下，我有事问你。",
+       "pinyin": "Nǐ guòlái yíxià, wǒ yǒu shì wèn nǐ.",
+       "dich": "Bạn lại đây một chút, tôi có việc muốn hỏi.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "他从那边过来了。",
+       "pinyin": "Tā cóng nàbian guòlái le.",
+       "dich": "Anh ấy từ bên kia đi qua đây rồi.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Ngược lại: 过去 (đi qua đó, rời xa người nói) – bài 4."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "还是",
+     "hanzi": "还是",
+     "pinyin": "háishi",
+     "tuLoaiChinhThuc": "副、连",
+     "soThuTu": 352,
+     "daSoan": true,
+     "hanViet": "hoàn thị",
+     "nghia": [
+      {
+       "tuLoai": "连",
+       "nghia": "hay, hay là (trong câu hỏi lựa chọn)"
+      },
+      {
+       "tuLoai": "副",
+       "nghia": "…thì hơn (khuyên chọn cách tốt hơn); vẫn"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "你喝茶还是喝水？",
+       "pinyin": "Nǐ hē chá háishi hē shuǐ?",
+       "dich": "Bạn uống trà hay uống nước?",
+       "nghiaSo": 0
+      },
+      {
+       "han": "太远了，我们还是打车去吧。",
+       "pinyin": "Tài yuǎn le, wǒmen háishi dǎchē qù ba.",
+       "dich": "Xa quá, chúng ta đi taxi thì hơn.",
+       "nghiaSo": 1
+      },
+      {
+       "han": "他还是不懂。",
+       "pinyin": "Tā háishi bù dǒng.",
+       "dich": "Anh ấy vẫn không hiểu.",
+       "nghiaSo": 1
+      }
+     ],
+     "ghiChu": [
+      "Câu hỏi “A hay B” dùng 还是. 还是…吧 = …thì hơn."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "间",
+     "hanzi": "间",
+     "pinyin": "jiān",
+     "tuLoaiChinhThuc": "量、（名）",
+     "soThuTu": 366,
+     "daSoan": true,
+     "hanViet": "gian",
+     "nghia": [
+      {
+       "tuLoai": "量",
+       "nghia": "căn, gian (lượng từ cho phòng)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "这间房间很大。",
+       "pinyin": "Zhè jiān fángjiān hěn dà.",
+       "dich": "Căn phòng này rất rộng.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "我们学校有二十间教室。",
+       "pinyin": "Wǒmen xuéxiào yǒu èrshí jiān jiàoshì.",
+       "dich": "Trường chúng tôi có hai mươi phòng học.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Dùng cho phòng: 一间教室, 一间房间."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "教室",
+     "hanzi": "教室",
+     "pinyin": "jiàoshì",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 368,
+     "daSoan": true,
+     "hanViet": "giáo thất",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "phòng học, lớp học"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "学生们都在教室里。",
+       "pinyin": "Xuéshengmen dōu zài jiàoshì li.",
+       "dich": "Học sinh đều ở trong lớp.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "我们的教室在二楼。",
+       "pinyin": "Wǒmen de jiàoshì zài èr lóu.",
+       "dich": "Lớp học của chúng tôi ở tầng hai.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "教 ở đây đọc jiào (thanh 4); động từ 教 “dạy” đọc jiāo (bài 13)."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "名",
+     "hanzi": "名",
+     "pinyin": "míng",
+     "tuLoaiChinhThuc": "名、量",
+     "soThuTu": 404,
+     "daSoan": true,
+     "hanViet": "danh",
+     "nghia": [
+      {
+       "tuLoai": "量",
+       "nghia": "(lượng từ chỉ người, trang trọng); thứ hạng"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我们班有二十名学生。",
+       "pinyin": "Wǒmen bān yǒu èrshí míng xuésheng.",
+       "dich": "Lớp chúng tôi có hai mươi học sinh.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "他考了第一名。",
+       "pinyin": "Tā kǎo le dì yī míng.",
+       "dich": "Anh ấy thi đứng thứ nhất.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "名 trang trọng hơn 个: 三名学生 = 三个学生. 第一名 = hạng nhất."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "票",
+     "hanzi": "票",
+     "pinyin": "piào",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 416,
+     "daSoan": true,
+     "hanViet": "phiếu",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "vé"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "你买票了吗？",
+       "pinyin": "Nǐ mǎi piào le ma?",
+       "dich": "Bạn mua vé chưa?",
+       "nghiaSo": 0
+      },
+      {
+       "han": "这个电影的票很贵。",
+       "pinyin": "Zhège diànyǐng de piào hěn guì.",
+       "dich": "Vé của bộ phim này rất đắt.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "车票 = vé xe, 电影票 = vé xem phim, 机票 = vé máy bay (bài 15), 门票 = vé vào cửa."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "外国",
+     "hanzi": "外国",
+     "pinyin": "wàiguó",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 446,
+     "daSoan": true,
+     "hanViet": "ngoại quốc",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "nước ngoài"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "他是外国人。",
+       "pinyin": "Tā shì wàiguórén.",
+       "dich": "Anh ấy là người nước ngoài.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "我想去外国学习。",
+       "pinyin": "Wǒ xiǎng qù wàiguó xuéxí.",
+       "dich": "Tôi muốn ra nước ngoài học.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "外国人 = người nước ngoài. 出国 = ra nước ngoài (bài 15)."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "万",
+     "hanzi": "万",
+     "pinyin": "wàn",
+     "tuLoaiChinhThuc": "数",
+     "soThuTu": 449,
+     "daSoan": true,
+     "hanViet": "vạn",
+     "nghia": [
+      {
+       "tuLoai": "数",
+       "nghia": "mười nghìn, vạn"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "这个手机五千块，那个一万块。",
+       "pinyin": "Zhège shǒujī wǔqiān kuài, nàge yíwàn kuài.",
+       "dich": "Điện thoại này năm nghìn tệ, cái kia mười nghìn tệ.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "这个学校有一万多个学生。",
+       "pinyin": "Zhège xuéxiào yǒu yíwàn duō ge xuésheng.",
+       "dich": "Trường này có hơn mười nghìn học sinh.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Tiếng Trung đếm theo vạn: 一万 = 10.000, 十万 = 100.000. Không nói 十千."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "网上",
+     "hanzi": "网上",
+     "pinyin": "wǎngshang",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 450,
+     "daSoan": true,
+     "hanViet": "võng thượng",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "trên mạng"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我在网上买了一本书。",
+       "pinyin": "Wǒ zài wǎngshang mǎi le yì běn shū.",
+       "dich": "Tôi đã mua một cuốn sách trên mạng.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "网上的东西很便宜。",
+       "pinyin": "Wǎngshang de dōngxi hěn piányi.",
+       "dich": "Đồ trên mạng rất rẻ.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "在网上 + làm gì. Còn 上网 (bài 13) là động từ “lên mạng”."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "远",
+     "hanzi": "远",
+     "pinyin": "yuǎn",
+     "tuLoaiChinhThuc": "形",
+     "soThuTu": 484,
+     "daSoan": true,
+     "hanViet": "viễn",
+     "nghia": [
+      {
+       "tuLoai": "形",
+       "nghia": "xa"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "你家远吗？",
+       "pinyin": "Nǐ jiā yuǎn ma?",
+       "dich": "Nhà bạn có xa không?",
+       "nghiaSo": 0
+      },
+      {
+       "han": "学校不远，我们走去吧。",
+       "pinyin": "Xuéxiào bù yuǎn, wǒmen zǒu qù ba.",
+       "dich": "Trường không xa, mình đi bộ đến nhé.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Trái nghĩa: 近 (gần, bài 9). A 离 B 很远 = A cách B rất xa."
+     ],
+     "canKiemTra": []
+    }
+   ]
+  },
+  {
+   "so": 3,
+   "ten": "Đi du lịch",
+   "soTu": 15,
+   "daSoanXong": true,
+   "tu": [
+    {
+     "dangGoc": "不错",
+     "hanzi": "不错",
+     "pinyin": "búcuò",
+     "tuLoaiChinhThuc": "形",
+     "soThuTu": 312,
+     "daSoan": true,
+     "hanViet": "bất thác",
+     "nghia": [
+      {
+       "tuLoai": "形",
+       "nghia": "khá tốt, không tệ, hay"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "这个饭店的菜很不错。",
+       "pinyin": "Zhège fàndiàn de cài hěn búcuò.",
+       "dich": "Món ăn của nhà hàng này khá ngon.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "今天天气不错，我们出去玩儿吧。",
+       "pinyin": "Jīntiān tiānqì búcuò, wǒmen chūqù wánr ba.",
+       "dich": "Hôm nay trời đẹp, chúng mình ra ngoài chơi đi.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Lời khen nhẹ nhàng, rất hay dùng. 不 trước thanh 4 đọc bú."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "出去",
+     "hanzi": "出去",
+     "pinyin": "chūqù",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 320,
+     "daSoan": true,
+     "hanViet": "xuất khứ",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "đi ra, ra ngoài (rời xa chỗ người nói)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "他出去了，不在家。",
+       "pinyin": "Tā chūqù le, bú zài jiā.",
+       "dich": "Anh ấy ra ngoài rồi, không có ở nhà.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "我们晚上出去吃饭吧。",
+       "pinyin": "Wǒmen wǎnshang chūqù chī fàn ba.",
+       "dich": "Tối nay chúng mình ra ngoài ăn đi.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "出去 = ra (xa chỗ người nói); 出来 = ra (về phía người nói, bài 14)."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "回来",
+     "hanzi": "回来",
+     "pinyin": "huílái",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 361,
+     "daSoan": true,
+     "hanViet": "hồi lai",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "trở về, quay lại (về chỗ người nói)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "妈妈什么时候回来？",
+       "pinyin": "Māma shénme shíhou huílái?",
+       "dich": "Khi nào mẹ về?",
+       "nghiaSo": 0
+      },
+      {
+       "han": "我下午五点回来。",
+       "pinyin": "Wǒ xiàwǔ wǔ diǎn huílái.",
+       "dich": "Năm giờ chiều tôi về.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Dùng khi người nói đang ở nơi người kia sẽ về (ví dụ đang ở nhà)."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "回去",
+     "hanzi": "回去",
+     "pinyin": "huíqù",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 362,
+     "daSoan": true,
+     "hanViet": "hồi khứ",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "trở về (rời chỗ người nói, về nơi của mình)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "太晚了，我要回去了。",
+       "pinyin": "Tài wǎn le, wǒ yào huíqù le.",
+       "dich": "Muộn quá, tôi phải về đây.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "你什么时候回去？",
+       "pinyin": "Nǐ shénme shíhou huíqù?",
+       "dich": "Khi nào bạn về?",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "回来 hay 回去 tùy chỗ người nói đứng: đang ở nhà bạn mà muốn về nhà mình thì nói 我回去了."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "累",
+     "hanzi": "累",
+     "pinyin": "lèi",
+     "tuLoaiChinhThuc": "形、动",
+     "soThuTu": 388,
+     "daSoan": true,
+     "hanViet": "lụy",
+     "nghia": [
+      {
+       "tuLoai": "形",
+       "nghia": "mệt"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "今天工作很多，我太累了。",
+       "pinyin": "Jīntiān gōngzuò hěn duō, wǒ tài lèi le.",
+       "dich": "Hôm nay nhiều việc, tôi mệt quá.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "你累不累？休息一下吧。",
+       "pinyin": "Nǐ lèi bu lèi? Xiūxi yíxià ba.",
+       "dich": "Bạn có mệt không? Nghỉ một chút đi.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "累 đọc lèi (thanh 4)."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "每",
+     "hanzi": "每",
+     "pinyin": "měi",
+     "tuLoaiChinhThuc": "代、（副）",
+     "soThuTu": 399,
+     "daSoan": true,
+     "hanViet": "mỗi",
+     "nghia": [
+      {
+       "tuLoai": "代",
+       "nghia": "mỗi"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我每天早上喝一杯牛奶。",
+       "pinyin": "Wǒ měi tiān zǎoshang hē yì bēi niúnǎi.",
+       "dich": "Mỗi sáng tôi uống một cốc sữa.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "每个人都有手机。",
+       "pinyin": "Měi ge rén dōu yǒu shǒujī.",
+       "dich": "Mỗi người đều có điện thoại.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "每 thường đi với 都: 每天都…. Giữa 每 và danh từ thường có lượng từ (每个人), trừ 天, 年 (每天, 每年)."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "拿",
+     "hanzi": "拿",
+     "pinyin": "ná",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 405,
+     "daSoan": true,
+     "hanViet": "nã",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "cầm, lấy, mang"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "你手里拿的是什么？",
+       "pinyin": "Nǐ shǒu li ná de shì shénme?",
+       "dich": "Bạn đang cầm cái gì trong tay vậy?",
+       "nghiaSo": 0
+      },
+      {
+       "han": "我去拿一下东西。",
+       "pinyin": "Wǒ qù ná yíxià dōngxi.",
+       "dich": "Tôi đi lấy đồ một chút.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "拿来 = mang lại đây, 拿走 = cầm đi."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "手",
+     "hanzi": "手",
+     "pinyin": "shǒu",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 433,
+     "daSoan": true,
+     "hanViet": "thủ",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "tay"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我的手很冷。",
+       "pinyin": "Wǒ de shǒu hěn lěng.",
+       "dich": "Tay tôi rất lạnh.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "他手里有一本书。",
+       "pinyin": "Tā shǒu li yǒu yì běn shū.",
+       "dich": "Trong tay anh ấy có một cuốn sách.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "手机 = điện thoại (máy cầm tay). 洗手间 = nhà vệ sinh (bài 13)."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "送",
+     "hanzi": "送",
+     "pinyin": "sòng",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 437,
+     "daSoan": true,
+     "hanViet": "tống",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "tặng"
+      },
+      {
+       "tuLoai": "动",
+       "nghia": "đưa, tiễn (ai đó đi đâu)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "这本书是朋友送我的。",
+       "pinyin": "Zhè běn shū shì péngyou sòng wǒ de.",
+       "dich": "Cuốn sách này là bạn tặng tôi.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "我送你去车站吧。",
+       "pinyin": "Wǒ sòng nǐ qù chēzhàn ba.",
+       "dich": "Để tôi đưa bạn ra bến xe nhé.",
+       "nghiaSo": 1
+      }
+     ],
+     "ghiChu": [
+      "送 + người + vật = tặng ai cái gì: 送妈妈一件衣服."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "完",
+     "hanzi": "完",
+     "pinyin": "wán",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 448,
+     "daSoan": true,
+     "hanViet": "hoàn",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "xong, hết"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我看完这本书了。",
+       "pinyin": "Wǒ kàn wán zhè běn shū le.",
+       "dich": "Tôi đọc xong cuốn sách này rồi.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "水喝完了，我去买吧。",
+       "pinyin": "Shuǐ hē wán le, wǒ qù mǎi ba.",
+       "dich": "Nước uống hết rồi, để tôi đi mua.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Hay đứng sau động từ: 做完 (làm xong), 吃完 (ăn xong), 说完 (nói xong)."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "为什么",
+     "hanzi": "为什么",
+     "pinyin": "wèi shénme",
+     "tuLoaiChinhThuc": "",
+     "soThuTu": 453,
+     "daSoan": true,
+     "hanViet": "vị thập ma",
+     "nghia": [
+      {
+       "tuLoai": "cụm",
+       "nghia": "tại sao, vì sao"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "你为什么不高兴？",
+       "pinyin": "Nǐ wèi shénme bù gāoxìng?",
+       "dich": "Sao bạn không vui?",
+       "nghiaSo": 0
+      },
+      {
+       "han": "他今天为什么没来上课？",
+       "pinyin": "Tā jīntiān wèi shénme méi lái shàngkè?",
+       "dich": "Sao hôm nay anh ấy không đến lớp?",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Trả lời bằng 因为… (bài 4). 为 ở đây đọc wèi (thanh 4)."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "洗",
+     "hanzi": "洗",
+     "pinyin": "xǐ",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 456,
+     "daSoan": true,
+     "hanViet": "tẩy",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "rửa, giặt"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我去洗手。",
+       "pinyin": "Wǒ qù xǐ shǒu.",
+       "dich": "Tôi đi rửa tay.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "妈妈在洗衣服。",
+       "pinyin": "Māma zài xǐ yīfu.",
+       "dich": "Mẹ đang giặt quần áo.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "洗手 = rửa tay, 洗衣服 = giặt quần áo, 洗手间 = nhà vệ sinh."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "一起",
+     "hanzi": "一起",
+     "pinyin": "yìqǐ",
+     "tuLoaiChinhThuc": "副",
+     "soThuTu": 472,
+     "daSoan": true,
+     "hanViet": "nhất khởi",
+     "nghia": [
+      {
+       "tuLoai": "副",
+       "nghia": "cùng, cùng nhau"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我们一起去吃饭吧。",
+       "pinyin": "Wǒmen yìqǐ qù chī fàn ba.",
+       "dich": "Chúng mình cùng đi ăn đi.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "我和朋友一起学汉语。",
+       "pinyin": "Wǒ hé péngyou yìqǐ xué Hànyǔ.",
+       "dich": "Tôi học tiếng Hán cùng với bạn.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "和/跟 + người + 一起 + làm gì = cùng ai làm gì. 一 trước thanh 3 đọc yì."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "这么",
+     "hanzi": "这么",
+     "pinyin": "zhème",
+     "tuLoaiChinhThuc": "代",
+     "soThuTu": 488,
+     "daSoan": true,
+     "hanViet": "giá ma",
+     "nghia": [
+      {
+       "tuLoai": "代",
+       "nghia": "thế này, như thế này, đến thế"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "今天怎么这么冷？",
+       "pinyin": "Jīntiān zěnme zhème lěng?",
+       "dich": "Sao hôm nay lạnh thế này?",
+       "nghiaSo": 0
+      },
+      {
+       "han": "这个字这么写。",
+       "pinyin": "Zhège zì zhème xiě.",
+       "dich": "Chữ này viết như thế này.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "这么 + tính từ = …thế này. Chỉ cái ở xa thì dùng 那么 (bài 9)."
+     ],
+     "canKiemTra": []
+    },
+    {
+     "dangGoc": "自己",
+     "hanzi": "自己",
+     "pinyin": "zìjǐ",
+     "tuLoaiChinhThuc": "代",
+     "soThuTu": 494,
+     "daSoan": true,
+     "hanViet": "tự kỷ",
+     "nghia": [
+      {
+       "tuLoai": "代",
+       "nghia": "tự mình, bản thân"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "这件事我自己做。",
+       "pinyin": "Zhè jiàn shì wǒ zìjǐ zuò.",
+       "dich": "Việc này tôi tự làm.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "他自己一个人住。",
+       "pinyin": "Tā zìjǐ yí ge rén zhù.",
+       "dich": "Anh ấy sống một mình.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Không phải “tự kỷ” (bệnh) trong tiếng Việt: 自己 chỉ là “tự mình, chính mình”."
+     ],
+     "canKiemTra": []
+    }
+   ]
+  },
+  {
+   "so": 4,
+   "ten": "Màu sắc và quần áo",
+   "soTu": 14,
+   "daSoanXong": false,
+   "tu": [
+    {
+     "dangGoc": "白色",
+     "hanzi": "白色",
+     "pinyin": "báisè",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 303,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "过去1",
+     "hanzi": "过去",
+     "pinyin": "guòqù",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 350,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "过(guo)",
+     "hanzi": "过",
+     "pinyin": "guo",
+     "tuLoaiChinhThuc": "助",
+     "soThuTu": 351,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "黑色",
+     "hanzi": "黑色",
+     "pinyin": "hēisè",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 353,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "红色",
+     "hanzi": "红色",
+     "pinyin": "hóngsè",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 355,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "进去",
+     "hanzi": "进去",
+     "pinyin": "jìnqù",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 372,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "裤子",
+     "hanzi": "裤子",
+     "pinyin": "kùzi",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 383,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "绿色",
+     "hanzi": "绿色",
+     "pinyin": "lǜsè",
+     "tuLoaiChinhThuc": "名、（形）",
+     "soThuTu": 396,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "商场",
+     "hanzi": "商场",
+     "pinyin": "shāngchǎng",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 424,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "书包",
+     "hanzi": "书包",
+     "pinyin": "shūbāo",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 435,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "所以",
+     "hanzi": "所以",
+     "pinyin": "suǒyǐ",
+     "tuLoaiChinhThuc": "连",
+     "soThuTu": 439,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "条",
+     "hanzi": "条",
+     "pinyin": "tiáo",
+     "tuLoaiChinhThuc": "量、（名）",
+     "soThuTu": 443,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "颜色",
+     "hanzi": "颜色",
+     "pinyin": "yánsè",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 466,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "因为",
+     "hanzi": "因为",
+     "pinyin": "yīnwèi",
+     "tuLoaiChinhThuc": "介、连",
+     "soThuTu": 475,
+     "daSoan": false
+    }
+   ]
+  },
+  {
+   "so": 5,
+   "ten": "Đến chơi nhà bạn",
+   "soTu": 17,
+   "daSoanXong": false,
+   "tu": [
+    {
+     "dangGoc": "等1",
+     "hanzi": "等",
+     "pinyin": "děng",
+     "tuLoaiChinhThuc": "动、（介）",
+     "soThuTu": 334,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "跟",
+     "hanzi": "跟",
+     "pinyin": "gēn",
+     "tuLoaiChinhThuc": "介、连、（名、动）",
+     "soThuTu": 345,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "进来",
+     "hanzi": "进来",
+     "pinyin": "jìnlái",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 371,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "酒店",
+     "hanzi": "酒店",
+     "pinyin": "jiǔdiàn",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 375,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "快",
+     "hanzi": "快",
+     "pinyin": "kuài",
+     "tuLoaiChinhThuc": "形、副",
+     "soThuTu": 384,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "面1",
+     "hanzi": "面",
+     "pinyin": "miàn",
+     "tuLoaiChinhThuc": "后缀、（动、名、量）",
+     "soThuTu": 403,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "奶茶",
+     "hanzi": "奶茶",
+     "pinyin": "nǎichá",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 408,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "奶奶",
+     "hanzi": "奶奶",
+     "pinyin": "nǎinai",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 409,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "上来",
+     "hanzi": "上来",
+     "pinyin": "shànglái",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 425,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "上去",
+     "hanzi": "上去",
+     "pinyin": "shàngqù",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 427,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "下来",
+     "hanzi": "下来",
+     "pinyin": "xiàlái",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 458,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "下去",
+     "hanzi": "下去",
+     "pinyin": "xiàqù",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 460,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "爷爷",
+     "hanzi": "爷爷",
+     "pinyin": "yéye",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 470,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "一会儿",
+     "hanzi": "一会儿",
+     "pinyin": "yíhuìr",
+     "tuLoaiChinhThuc": "数量、（副）",
+     "soThuTu": 471,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "准备",
+     "hanzi": "准备",
+     "pinyin": "zhǔnbèi",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 493,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "走",
+     "hanzi": "走",
+     "pinyin": "zǒu",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 495,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "下面",
+     "hanzi": "下面",
+     "pinyin": "xiàmiàn",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 459,
+     "daSoan": false
+    }
+   ]
+  },
+  {
+   "so": 6,
+   "ten": "Sinh nhật",
+   "soTu": 12,
+   "daSoanXong": false,
+   "tu": [
+    {
+     "dangGoc": "长",
+     "hanzi": "长",
+     "pinyin": "cháng",
+     "tuLoaiChinhThuc": "形",
+     "soThuTu": 314,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "床",
+     "hanzi": "床",
+     "pinyin": "chuáng",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 321,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "打开",
+     "hanzi": "打开",
+     "pinyin": "dǎkāi",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 329,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "地",
+     "hanzi": "地",
+     "pinyin": "de",
+     "tuLoaiChinhThuc": "助",
+     "soThuTu": 332,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "过",
+     "hanzi": "过",
+     "pinyin": "guò",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 347,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "画",
+     "hanzi": "画",
+     "pinyin": "huà",
+     "tuLoaiChinhThuc": "动、名",
+     "soThuTu": 359,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "快乐",
+     "hanzi": "快乐",
+     "pinyin": "kuàilè",
+     "tuLoaiChinhThuc": "形",
+     "soThuTu": 385,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "肉",
+     "hanzi": "肉",
+     "pinyin": "ròu",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 423,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "生日",
+     "hanzi": "生日",
+     "pinyin": "shēngrì",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 430,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "舒服",
+     "hanzi": "舒服",
+     "pinyin": "shūfu",
+     "tuLoaiChinhThuc": "形",
+     "soThuTu": 436,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "忘",
+     "hanzi": "忘",
+     "pinyin": "wàng",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 452,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "鱼",
+     "hanzi": "鱼",
+     "pinyin": "yú",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 483,
+     "daSoan": false
+    }
+   ]
+  },
+  {
+   "so": 7,
+   "ten": "Thể thao",
+   "soTu": 15,
+   "daSoanXong": false,
+   "tu": [
+    {
+     "dangGoc": "爱好",
+     "hanzi": "爱好",
+     "pinyin": "àihào",
+     "tuLoaiChinhThuc": "动、名",
+     "soThuTu": 302,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "从",
+     "hanzi": "从",
+     "pinyin": "cóng",
+     "tuLoaiChinhThuc": "介、（副）",
+     "soThuTu": 324,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "打1",
+     "hanzi": "打",
+     "pinyin": "dǎ",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 327,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "得",
+     "hanzi": "得",
+     "pinyin": "de",
+     "tuLoaiChinhThuc": "助",
+     "soThuTu": 333,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "开始",
+     "hanzi": "开始",
+     "pinyin": "kāishǐ",
+     "tuLoaiChinhThuc": "动、名",
+     "soThuTu": 378,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "篮球",
+     "hanzi": "篮球",
+     "pinyin": "lánqiú",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 387,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "跑",
+     "hanzi": "跑",
+     "pinyin": "pǎo",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 414,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "跑步",
+     "hanzi": "跑步",
+     "pinyin": "pǎobù",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 415,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "球",
+     "hanzi": "球",
+     "pinyin": "qiú",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 421,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "踢",
+     "hanzi": "踢",
+     "pinyin": "tī",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 441,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "往",
+     "hanzi": "往",
+     "pinyin": "wǎng",
+     "tuLoaiChinhThuc": "动、介",
+     "soThuTu": 451,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "游",
+     "hanzi": "游",
+     "pinyin": "yóu",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 477,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "游泳",
+     "hanzi": "游泳",
+     "pinyin": "yóuyǒng",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 478,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "运动",
+     "hanzi": "运动",
+     "pinyin": "yùndòng",
+     "tuLoaiChinhThuc": "动、名",
+     "soThuTu": 485,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "足球",
+     "hanzi": "足球",
+     "pinyin": "zúqiú",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 497,
+     "daSoan": false
+    }
+   ]
+  },
+  {
+   "so": 8,
+   "ten": "Vợ chồng và kỷ niệm",
+   "soTu": 15,
+   "daSoanXong": false,
+   "tu": [
+    {
+     "dangGoc": "比",
+     "hanzi": "比",
+     "pinyin": "bǐ",
+     "tuLoaiChinhThuc": "动、介",
+     "soThuTu": 309,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "但是",
+     "hanzi": "但是",
+     "pinyin": "dànshì",
+     "tuLoaiChinhThuc": "连",
+     "soThuTu": 331,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "点2",
+     "hanzi": "点",
+     "pinyin": "diǎn",
+     "tuLoaiChinhThuc": "动、（名、量）",
+     "soThuTu": 336,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "饭馆",
+     "hanzi": "饭馆",
+     "pinyin": "fànguǎn",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 339,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "花2",
+     "hanzi": "花",
+     "pinyin": "huā",
+     "tuLoaiChinhThuc": "名、（形）",
+     "soThuTu": 358,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "记得",
+     "hanzi": "记得",
+     "pinyin": "jìde",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 365,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "妻子",
+     "hanzi": "妻子",
+     "pinyin": "qīzi",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 417,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "手表",
+     "hanzi": "手表",
+     "pinyin": "shǒubiǎo",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 434,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "虽然",
+     "hanzi": "虽然",
+     "pinyin": "suīrán",
+     "tuLoaiChinhThuc": "连",
+     "soThuTu": 438,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "有意思",
+     "hanzi": "有意思",
+     "pinyin": "yǒu yìsi",
+     "tuLoaiChinhThuc": "",
+     "soThuTu": 480,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "右",
+     "hanzi": "右",
+     "pinyin": "yòu",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 481,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "右边",
+     "hanzi": "右边",
+     "pinyin": "yòubian",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 482,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "丈夫",
+     "hanzi": "丈夫",
+     "pinyin": "zhàngfu",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 487,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "左",
+     "hanzi": "左",
+     "pinyin": "zuǒ",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 499,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "左边",
+     "hanzi": "左边",
+     "pinyin": "zuǒbian",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 500,
+     "daSoan": false
+    }
+   ]
+  },
+  {
+   "so": 9,
+   "ten": "Đồ uống và khoảng cách",
+   "soTu": 15,
+   "daSoanXong": false,
+   "tu": [
+    {
+     "dangGoc": "高",
+     "hanzi": "高",
+     "pinyin": "gāo",
+     "tuLoaiChinhThuc": "形、名",
+     "soThuTu": 341,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "个子",
+     "hanzi": "个子",
+     "pinyin": "gèzi",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 344,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "坏",
+     "hanzi": "坏",
+     "pinyin": "huài",
+     "tuLoaiChinhThuc": "形",
+     "soThuTu": 360,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "近",
+     "hanzi": "近",
+     "pinyin": "jìn",
+     "tuLoaiChinhThuc": "形",
+     "soThuTu": 373,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "咖啡",
+     "hanzi": "咖啡",
+     "pinyin": "kāfēi",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 377,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "离",
+     "hanzi": "离",
+     "pinyin": "lí",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 389,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "门口",
+     "hanzi": "门口",
+     "pinyin": "ménkǒu",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 401,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "那么",
+     "hanzi": "那么",
+     "pinyin": "nàme",
+     "tuLoaiChinhThuc": "代、连",
+     "soThuTu": 406,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "男孩儿",
+     "hanzi": "男孩儿",
+     "pinyin": "nánháir",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 410,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "旁边",
+     "hanzi": "旁边",
+     "pinyin": "pángbiān",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 413,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "这样",
+     "hanzi": "这样",
+     "pinyin": "zhèyàng",
+     "tuLoaiChinhThuc": "代",
+     "soThuTu": 489,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "周",
+     "hanzi": "周",
+     "pinyin": "zhōu",
+     "tuLoaiChinhThuc": "名、（量）",
+     "soThuTu": 492,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "走路",
+     "hanzi": "走路",
+     "pinyin": "zǒulù",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 496,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "红茶",
+     "hanzi": "红茶",
+     "pinyin": "hóngchá",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 354,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "绿茶",
+     "hanzi": "绿茶",
+     "pinyin": "lǜchá",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 395,
+     "daSoan": false
+    }
+   ]
+  },
+  {
+   "so": 10,
+   "ten": "Học hành và thi cử",
+   "soTu": 13,
+   "daSoanXong": false,
+   "tu": [
+    {
+     "dangGoc": "帮",
+     "hanzi": "帮",
+     "pinyin": "bāng",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 305,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "本子",
+     "hanzi": "本子",
+     "pinyin": "běnzi",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 308,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "笔",
+     "hanzi": "笔",
+     "pinyin": "bǐ",
+     "tuLoaiChinhThuc": "名、（量）",
+     "soThuTu": 310,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "词",
+     "hanzi": "词",
+     "pinyin": "cí",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 322,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "错",
+     "hanzi": "错",
+     "pinyin": "cuò",
+     "tuLoaiChinhThuc": "形",
+     "soThuTu": 326,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "后面",
+     "hanzi": "后面",
+     "pinyin": "hòumiàn",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 356,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "开学",
+     "hanzi": "开学",
+     "pinyin": "kāixué",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 379,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "考",
+     "hanzi": "考",
+     "pinyin": "kǎo",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 380,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "考试",
+     "hanzi": "考试",
+     "pinyin": "kǎoshì",
+     "tuLoaiChinhThuc": "动、名",
+     "soThuTu": 381,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "快要",
+     "hanzi": "快要",
+     "pinyin": "kuàiyào",
+     "tuLoaiChinhThuc": "副",
+     "soThuTu": 386,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "门",
+     "hanzi": "门",
+     "pinyin": "mén",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 400,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "题",
+     "hanzi": "题",
+     "pinyin": "tí",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 442,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "笑",
+     "hanzi": "笑",
+     "pinyin": "xiào",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 463,
+     "daSoan": false
+    }
+   ]
+  },
+  {
+   "so": 11,
+   "ten": "Sức khỏe",
+   "soTu": 13,
+   "daSoanXong": false,
+   "tu": [
+    {
+     "dangGoc": "动",
+     "hanzi": "动",
+     "pinyin": "dòng",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 338,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "进",
+     "hanzi": "进",
+     "pinyin": "jìn",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 370,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "经常",
+     "hanzi": "经常",
+     "pinyin": "jīngcháng",
+     "tuLoaiChinhThuc": "副",
+     "soThuTu": 374,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "路上",
+     "hanzi": "路上",
+     "pinyin": "lùshang",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 393,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "慢",
+     "hanzi": "慢",
+     "pinyin": "màn",
+     "tuLoaiChinhThuc": "形",
+     "soThuTu": 397,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "身体",
+     "hanzi": "身体",
+     "pinyin": "shēntǐ",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 429,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "时",
+     "hanzi": "时",
+     "pinyin": "shí",
+     "tuLoaiChinhThuc": "名、（量）",
+     "soThuTu": 431,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "疼",
+     "hanzi": "疼",
+     "pinyin": "téng",
+     "tuLoaiChinhThuc": "形、（动）",
+     "soThuTu": 440,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "头",
+     "hanzi": "头",
+     "pinyin": "tóu",
+     "tuLoaiChinhThuc": "名、（量）、（形）",
+     "soThuTu": 445,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "药",
+     "hanzi": "药",
+     "pinyin": "yào",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 468,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "药店",
+     "hanzi": "药店",
+     "pinyin": "yàodiàn",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 469,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "着",
+     "hanzi": "着",
+     "pinyin": "zhe",
+     "tuLoaiChinhThuc": "助",
+     "soThuTu": 490,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "最",
+     "hanzi": "最",
+     "pinyin": "zuì",
+     "tuLoaiChinhThuc": "副",
+     "soThuTu": 498,
+     "daSoan": false
+    }
+   ]
+  },
+  {
+   "so": 12,
+   "ten": "Thời tiết và thành phố",
+   "soTu": 10,
+   "daSoanXong": false,
+   "tu": [
+    {
+     "dangGoc": "从小",
+     "hanzi": "从小",
+     "pinyin": "cóngxiǎo",
+     "tuLoaiChinhThuc": "副",
+     "soThuTu": 325,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "地铁",
+     "hanzi": "地铁",
+     "pinyin": "dìtiě",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 335,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "楼",
+     "hanzi": "楼",
+     "pinyin": "lóu",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 391,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "晴",
+     "hanzi": "晴",
+     "pinyin": "qíng",
+     "tuLoaiChinhThuc": "形",
+     "soThuTu": 420,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "事情",
+     "hanzi": "事情",
+     "pinyin": "shìqing",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 432,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "外面",
+     "hanzi": "外面",
+     "pinyin": "wàimiàn",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 447,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "小时候",
+     "hanzi": "小时候",
+     "pinyin": "xiǎoshíhou",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 462,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "阴",
+     "hanzi": "阴",
+     "pinyin": "yīn",
+     "tuLoaiChinhThuc": "形",
+     "soThuTu": 476,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "站1",
+     "hanzi": "站",
+     "pinyin": "zhàn",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 486,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "正",
+     "hanzi": "正",
+     "pinyin": "zhèng",
+     "tuLoaiChinhThuc": "副、（形）",
+     "soThuTu": 491,
+     "daSoan": false
+    }
+   ]
+  },
+  {
+   "so": 13,
+   "ten": "Lớp học tiếng Trung",
+   "soTu": 11,
+   "daSoanXong": false,
+   "tu": [
+    {
+     "dangGoc": "班",
+     "hanzi": "班",
+     "pinyin": "bān",
+     "tuLoaiChinhThuc": "名、（量）",
+     "soThuTu": 304,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "告诉",
+     "hanzi": "告诉",
+     "pinyin": "gàosu",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 343,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "花1",
+     "hanzi": "花",
+     "pinyin": "huā",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 357,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "教",
+     "hanzi": "教",
+     "pinyin": "jiāo",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 367,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "可能",
+     "hanzi": "可能",
+     "pinyin": "kěnéng",
+     "tuLoaiChinhThuc": "形、名、动",
+     "soThuTu": 382,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "里面",
+     "hanzi": "里面",
+     "pinyin": "lǐmiàn",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 390,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "那样",
+     "hanzi": "那样",
+     "pinyin": "nàyàng",
+     "tuLoaiChinhThuc": "代",
+     "soThuTu": 407,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "上面",
+     "hanzi": "上面",
+     "pinyin": "shàngmiàn",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 426,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "上网",
+     "hanzi": "上网",
+     "pinyin": "shàngwǎng",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 428,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "希望",
+     "hanzi": "希望",
+     "pinyin": "xīwàng",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 455,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "洗手间",
+     "hanzi": "洗手间",
+     "pinyin": "xǐshǒujiān",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 457,
+     "daSoan": false
+    }
+   ]
+  },
+  {
+   "so": 14,
+   "ten": "Năm mới",
+   "soTu": 13,
+   "daSoanXong": false,
+   "tu": [
+    {
+     "dangGoc": "包",
+     "hanzi": "包",
+     "pinyin": "bāo",
+     "tuLoaiChinhThuc": "动、名、量",
+     "soThuTu": 307,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "过年",
+     "hanzi": "过年",
+     "pinyin": "guònián",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 349,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "没意思",
+     "hanzi": "没意思",
+     "pinyin": "méi yìsi",
+     "tuLoaiChinhThuc": "",
+     "soThuTu": 398,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "女孩儿",
+     "hanzi": "女孩儿",
+     "pinyin": "nǚháir",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 412,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "前面",
+     "hanzi": "前面",
+     "pinyin": "qiánmiàn",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 419,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "跳舞",
+     "hanzi": "跳舞",
+     "pinyin": "tiàowǔ",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 444,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "位",
+     "hanzi": "位",
+     "pinyin": "wèi",
+     "tuLoaiChinhThuc": "量",
+     "soThuTu": 454,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "小孩儿",
+     "hanzi": "小孩儿",
+     "pinyin": "xiǎoháir",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 461,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "姓",
+     "hanzi": "姓",
+     "pinyin": "xìng",
+     "tuLoaiChinhThuc": "名、动",
+     "soThuTu": 464,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "眼睛",
+     "hanzi": "眼睛",
+     "pinyin": "yǎnjing",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 467,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "出",
+     "hanzi": "出",
+     "pinyin": "chū",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 316,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "出来",
+     "hanzi": "出来",
+     "pinyin": "chūlái",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 318,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "起来",
+     "hanzi": "起来",
+     "pinyin": "qǐlái",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 418,
+     "daSoan": false
+    }
+   ]
+  },
+  {
+   "so": 15,
+   "ten": "Chuyến đi xa",
+   "soTu": 10,
+   "daSoanXong": false,
+   "tu": [
+    {
+     "dangGoc": "出国",
+     "hanzi": "出国",
+     "pinyin": "chūguó",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 317,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "出门",
+     "hanzi": "出门",
+     "pinyin": "chūmén",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 319,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "飞",
+     "hanzi": "飞",
+     "pinyin": "fēi",
+     "tuLoaiChinhThuc": "动",
+     "soThuTu": 340,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "高中",
+     "hanzi": "高中",
+     "pinyin": "gāozhōng",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 342,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "机场",
+     "hanzi": "机场",
+     "pinyin": "jīchǎng",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 363,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "机票",
+     "hanzi": "机票",
+     "pinyin": "jīpiào",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 364,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "路",
+     "hanzi": "路",
+     "pinyin": "lù",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 392,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "门票",
+     "hanzi": "门票",
+     "pinyin": "ménpiào",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 402,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "鸟",
+     "hanzi": "鸟",
+     "pinyin": "niǎo",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 411,
+     "daSoan": false
+    },
+    {
+     "dangGoc": "姓名",
+     "hanzi": "姓名",
+     "pinyin": "xìngmíng",
+     "tuLoaiChinhThuc": "名",
+     "soThuTu": 465,
+     "daSoan": false
+    }
+   ]
+  }
+ ]
+}

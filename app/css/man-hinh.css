@@ -123,6 +123,11 @@ a.dong-ke-hoach:active { transform: translateY(3px); box-shadow: none; }
 .ten-bai { font-weight: 700; line-height: 1.3; min-height: 2.6em; }
 .o-bai .thanh-tien-do { height: 8px; }
 .o-bai.xong .thanh-tien-do > span { background: var(--xong); }
+/* Bài chưa soạn xong (HSK 2–3 đang soạn dần): mờ, không bấm được */
+.o-bai.dang-soan { opacity: .55; box-shadow: none; border-style: dashed; cursor: default; }
+.o-bai.dang-soan:hover { border-color: var(--vien-the); }
+.o-bai.dang-soan:active { transform: none; }
+.o-bai.dang-soan .xem-truoc { font-size: 1.6rem; }
 
 /* Chọn cách chia bài: theo chủ đề / theo sách */
 .chon-che-do-bai { margin-top: 12px; }
