@@ -1,0 +1,81 @@
+# ===== NGUỒN SOẠN THẢO HSK 2 – BÀI 10 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–2.
+
+# 10 | Học hành và thi cử
+
+@考试 | khảo thí
+- 名 | kỳ thi, bài thi
+> 明天有汉语考试。 | Míngtiān yǒu Hànyǔ kǎoshì. | Ngày mai có bài thi tiếng Hán.
+- 动 | thi
+> 我们下个星期考试。 | Wǒmen xià ge xīngqī kǎoshì. | Tuần sau chúng tôi thi.
+* 考试 không mang tân ngữ; muốn nói thi môn gì thì dùng 考 + môn: 考汉语.
+
+@考 | khảo
+- 动 | thi, kiểm tra
+> 明天考汉语。 | Míngtiān kǎo Hànyǔ. | Ngày mai thi tiếng Hán.
+> 你考得怎么样？ | Nǐ kǎo de zěnmeyàng? | Bạn thi thế nào?
+* 考 + môn / trường: 考大学 = thi đại học.
+
+@开学 | khai học
+- 动 | khai giảng, bắt đầu năm học
+> 我们九月一号开学。 | Wǒmen jiǔ yuè yī hào kāixué. | Chúng tôi khai giảng ngày 1 tháng 9.
+> 快开学了，我要买新书包。 | Kuài kāixué le, wǒ yào mǎi xīn shūbāo. | Sắp khai giảng rồi, tôi phải mua cặp mới.
+
+@快要 | khoái yếu
+- 副 | sắp, sắp sửa
+> 快要考试了，我每天都在学习。 | Kuàiyào kǎoshì le, wǒ měi tiān dōu zài xuéxí. | Sắp thi rồi, ngày nào tôi cũng học.
+> 电影快要开始了。 | Diànyǐng kuàiyào kāishǐ le. | Phim sắp bắt đầu rồi.
+* 快要…了 = sắp… rồi (giống 快…了, 要…了). Có thời gian cụ thể thì dùng 就要…了: 明天就要考试了 (không nói 明天快要…).
+
+@题 | đề
+- 名 | câu hỏi, câu (trong bài tập, bài thi)
+> 这个题我不会。 | Zhège tí wǒ bú huì. | Câu này tôi không biết làm.
+> 这次考试的题不多。 | Zhè cì kǎoshì de tí bù duō. | Đề thi lần này không nhiều câu.
+* 问题 (cấp 1) = câu hỏi, vấn đề.
+
+@词 | từ
+- 名 | từ
+> 这个词是什么意思？ | Zhège cí shì shénme yìsi? | Từ này nghĩa là gì?
+> 今天我们学了十个新词。 | Jīntiān wǒmen xué le shí ge xīn cí. | Hôm nay chúng tôi học mười từ mới.
+* 字 = chữ (một chữ Hán), 词 = từ (có thể gồm nhiều chữ): 朋友 là một từ gồm hai chữ.
+
+@笔 | bút
+- 名 | bút
+> 你有笔吗？ | Nǐ yǒu bǐ ma? | Bạn có bút không?
+> 我的笔不见了。 | Wǒ de bǐ bú jiàn le. | Bút của tôi mất đâu rồi.
+* 不见了 = biến đâu mất, không thấy đâu.
+
+@本子 | bản tử
+- 名 | quyển vở
+> 请在本子上写你的名字。 | Qǐng zài běnzi shang xiě nǐ de míngzi. | Hãy viết tên bạn lên vở.
+> 我买了三个本子。 | Wǒ mǎi le sān ge běnzi. | Tôi mua ba quyển vở.
+* 本 (cấp 1) là lượng từ của sách: 一本书. Còn 本子 là quyển vở.
+
+@错 | thác
+- 形 | sai
+> 你说错了。 | Nǐ shuō cuò le. | Bạn nói sai rồi.
+> 这个字写错了。 | Zhège zì xiě cuò le. | Chữ này viết sai rồi.
+* Trái nghĩa: 对 (đúng). Động từ + 错 = làm sai: 写错, 说错, 听错. 不错 = khá tốt (bài 3).
+
+@帮 | bang
+- 动 | giúp
+> 你能帮我一下吗？ | Nǐ néng bāng wǒ yíxià ma? | Bạn giúp tôi một chút được không?
+> 妈妈帮我买了一个本子。 | Māma bāng wǒ mǎi le yí ge běnzi. | Mẹ mua giúp tôi một quyển vở.
+* 帮 + người + làm gì. Khác 帮忙 (bài 1): 帮忙 không có người đứng ngay sau.
+
+@门 | môn
+- 名 | cửa
+> 请开门。 | Qǐng kāi mén. | Làm ơn mở cửa.
+> 你家的门是什么颜色的？ | Nǐ jiā de mén shì shénme yánsè de? | Cửa nhà bạn màu gì?
+* 门口 = cửa, cổng (bài 9). 出门 = ra khỏi nhà (bài 15).
+
+@后面 | hậu diện
+- 名 | phía sau, đằng sau
+> 我家后面有一个小商店。 | Wǒ jiā hòumiàn yǒu yí ge xiǎo shāngdiàn. | Sau nhà tôi có một cửa hàng nhỏ.
+> 坐在后面的同学，你们听得见吗？ | Zuò zài hòumiàn de tóngxué, nǐmen tīng de jiàn ma? | Các bạn ngồi phía sau có nghe thấy không?
+* Giống 后边. Trái nghĩa: 前面 (bài 14).
+
+@笑 | tiếu
+- 动 | cười
+> 你笑什么？ | Nǐ xiào shénme? | Bạn cười gì thế?
+> 孩子们都笑了。 | Háizimen dōu xiào le. | Bọn trẻ đều cười.

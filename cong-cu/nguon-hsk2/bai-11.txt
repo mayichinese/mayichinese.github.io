@@ -1,0 +1,81 @@
+# ===== NGUỒN SOẠN THẢO HSK 2 – BÀI 11 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–2.
+
+# 11 | Sức khỏe
+
+@身体 | thân thể
+- 名 | cơ thể; sức khỏe
+> 你身体怎么样？ | Nǐ shēntǐ zěnmeyàng? | Sức khỏe bạn thế nào?
+> 我爷爷身体很好。 | Wǒ yéye shēntǐ hěn hǎo. | Ông tôi rất khỏe.
+* Hỏi thăm sức khỏe: 身体好吗？ 身体 thường dùng với nghĩa “sức khỏe”.
+
+@头 | đầu
+- 名 | đầu
+> 我头很疼。 | Wǒ tóu hěn téng. | Tôi rất đau đầu.
+> 你头还疼吗？ | Nǐ tóu hái téng ma? | Bạn còn đau đầu không?
+* 头疼 = đau đầu.
+
+@疼 | đông
+- 形 | đau
+> 我的手很疼。 | Wǒ de shǒu hěn téng. | Tay tôi rất đau.
+> 你哪儿疼？ | Nǐ nǎr téng? | Bạn đau ở đâu?
+* Bộ phận cơ thể + 疼: 头疼, 手疼. Bác sĩ hay hỏi: 哪儿疼？
+
+@药 | dược
+- 名 | thuốc
+> 你吃药了吗？ | Nǐ chī yào le ma? | Bạn uống thuốc chưa?
+> 这个药一天吃三次。 | Zhège yào yì tiān chī sān cì. | Thuốc này một ngày uống ba lần.
+* Tiếng Trung nói 吃药 (“ăn” thuốc), không nói 喝药.
+
+@药店 | dược điếm
+- 名 | hiệu thuốc
+> 学校旁边有一家药店。 | Xuéxiào pángbiān yǒu yì jiā yàodiàn. | Cạnh trường có một hiệu thuốc.
+> 我去药店买药。 | Wǒ qù yàodiàn mǎi yào. | Tôi đi hiệu thuốc mua thuốc.
+
+@动 | động
+- 动 | động, cử động
+> 别动！ | Bié dòng! | Đừng cử động!
+> 我太累了，一点儿也不想动。 | Wǒ tài lèi le, yìdiǎnr yě bù xiǎng dòng. | Tôi mệt quá, chẳng muốn động đậy chút nào.
+* 运动 = vận động, thể thao (bài 7).
+
+@慢 | mạn
+- 形 | chậm
+> 请说慢一点儿。 | Qǐng shuō màn yìdiǎnr. | Xin nói chậm một chút.
+> 他走得很慢。 | Tā zǒu de hěn màn. | Anh ấy đi rất chậm.
+* Trái nghĩa: 快. 慢慢儿 / 慢慢地 = từ từ.
+
+@经常 | kinh thường
+- 副 | thường, thường xuyên
+> 我经常去那家饭馆吃饭。 | Wǒ jīngcháng qù nà jiā fànguǎn chī fàn. | Tôi thường đến quán đó ăn.
+> 他经常生病。 | Tā jīngcháng shēngbìng. | Anh ấy hay ốm.
+* Âm Hán Việt “kinh thường” nhưng nghĩa là “thường xuyên”, không phải “khinh thường”.
+
+@时 | thời
+- 名 | lúc, khi
+> 吃饭时别看手机。 | Chī fàn shí bié kàn shǒujī. | Lúc ăn cơm đừng xem điện thoại.
+> 上课时不能说话。 | Shàngkè shí bù néng shuōhuà. | Trong giờ học không được nói chuyện.
+* …时 = …的时候 (khi…), gọn hơn.
+
+@路上 | lộ thượng
+- 名 | trên đường, dọc đường
+> 路上车很多。 | Lùshang chē hěn duō. | Trên đường rất nhiều xe.
+> 我在回家的路上。 | Wǒ zài huí jiā de lùshang. | Tôi đang trên đường về nhà.
+* 在去…的路上 = đang trên đường đi….
+
+@进 | tiến
+- 动 | vào
+> 请进！ | Qǐng jìn! | Mời vào!
+> 他进了教室。 | Tā jìn le jiàoshì. | Anh ấy đi vào lớp.
+* 进 + nơi chốn = vào đâu. 进来 / 进去 = vào đây / vào đó (bài 5, 4).
+
+@着 | trứ
+- 助 | (trợ từ sau động từ: trạng thái đang kéo dài)
+> 门开着。 | Mén kāi zhe. | Cửa đang mở.
+> 他笑着说：“谢谢你！” | Tā xiào zhe shuō: “Xièxie nǐ!” | Anh ấy cười nói: “Cảm ơn bạn!”
+* Động từ + 着: trạng thái vẫn còn (门开着). Động từ 1 + 着 + động từ 2: vừa làm việc 1 vừa làm việc 2 (笑着说).
+
+@最 | tối
+- 副 | nhất
+> 我最喜欢吃中国菜。 | Wǒ zuì xǐhuan chī Zhōngguó cài. | Tôi thích ăn món Trung Quốc nhất.
+> 他是我们班个子最高的。 | Tā shì wǒmen bān gèzi zuì gāo de. | Cậu ấy cao nhất lớp tôi.
+* 最 + tính từ / động từ chỉ cảm xúc = …nhất. “Tối” như trong “tối đa, tối cao”.

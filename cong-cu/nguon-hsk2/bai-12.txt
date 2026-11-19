@@ -1,0 +1,63 @@
+# ===== NGUỒN SOẠN THẢO HSK 2 – BÀI 12 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–2.
+
+# 12 | Thời tiết và thành phố
+
+@晴 | tình
+- 形 | nắng, quang (trời)
+> 今天是晴天。 | Jīntiān shì qíngtiān. | Hôm nay trời nắng.
+> 下午天晴了，我们出去走走吧。 | Xiàwǔ tiān qíng le, wǒmen chūqù zǒuzou ba. | Chiều trời quang rồi, chúng mình ra ngoài đi dạo đi.
+* 晴天 = trời nắng, 阴天 = trời âm u, 下雨 = mưa.
+
+@阴 | âm
+- 形 | âm u, nhiều mây
+> 今天是阴天，可能会下雨。 | Jīntiān shì yīntiān, kěnéng huì xià yǔ. | Hôm nay trời âm u, có thể sẽ mưa.
+> 天阴了，快回家吧。 | Tiān yīn le, kuài huí jiā ba. | Trời sầm lại rồi, mau về nhà đi.
+
+@楼 | lâu
+- 名 | tòa nhà, nhà tầng; tầng
+> 我住在三楼。 | Wǒ zhù zài sān lóu. | Tôi sống ở tầng ba.
+> 那个高楼是酒店。 | Nàge gāo lóu shì jiǔdiàn. | Tòa nhà cao kia là khách sạn.
+* Số + 楼 = tầng mấy: 二楼 = tầng hai. 楼上 / 楼下 = trên lầu / dưới lầu.
+
+@地铁 | địa thiết
+- 名 | tàu điện ngầm
+> 我每天坐地铁上班。 | Wǒ měi tiān zuò dìtiě shàngbān. | Hằng ngày tôi đi tàu điện ngầm đi làm.
+> 坐地铁比打车快。 | Zuò dìtiě bǐ dǎchē kuài. | Đi tàu điện ngầm nhanh hơn đi taxi.
+* 地铁站 = ga tàu điện ngầm.
+
+@站1 | trạm
+- 名 | trạm, ga, bến
+> 下一站是哪儿？ | Xià yí zhàn shì nǎr? | Ga tiếp theo là đâu?
+> 地铁站离这儿很近。 | Dìtiě zhàn lí zhèr hěn jìn. | Ga tàu điện ngầm cách đây rất gần.
+* 车站, 地铁站, 公交车站. 站 còn là động từ “đứng” (cấp cao hơn).
+
+@外面 | ngoại diện
+- 名 | bên ngoài
+> 外面下雨了。 | Wàimiàn xià yǔ le. | Bên ngoài mưa rồi.
+> 外面太冷了，我们在家吧。 | Wàimiàn tài lěng le, wǒmen zài jiā ba. | Bên ngoài lạnh quá, mình ở nhà thôi.
+* Giống 外边. Trái nghĩa: 里面 (bài 13).
+
+@事情 | sự tình
+- 名 | việc, chuyện
+> 我有一件事情想问你。 | Wǒ yǒu yí jiàn shìqing xiǎng wèn nǐ. | Tôi có một việc muốn hỏi bạn.
+> 这件事情你知道吗？ | Zhè jiàn shìqing nǐ zhīdào ma? | Chuyện này bạn có biết không?
+* Nghĩa như 事 (cấp 1). Lượng từ: 件.
+
+@小时候 | tiểu thời hậu
+- 名 | lúc nhỏ, hồi bé
+> 小时候我住在奶奶家。 | Xiǎoshíhou wǒ zhù zài nǎinai jiā. | Hồi nhỏ tôi sống ở nhà bà nội.
+> 我小时候很喜欢画画儿。 | Wǒ xiǎoshíhou hěn xǐhuan huà huàr. | Lúc nhỏ tôi rất thích vẽ tranh.
+* Khác 小时 (tiếng đồng hồ, cấp 1).
+
+@从小 | tòng tiểu
+- 副 | từ nhỏ
+> 他从小就喜欢足球。 | Tā cóngxiǎo jiù xǐhuan zúqiú. | Anh ấy thích bóng đá từ nhỏ.
+> 我从小就会游泳。 | Wǒ cóngxiǎo jiù huì yóuyǒng. | Tôi biết bơi từ nhỏ.
+* Hay đi với 就: 从小就….
+
+@正 | chính
+- 副 | đang
+> 我正吃饭呢，一会儿给你打电话。 | Wǒ zhèng chī fàn ne, yíhuìr gěi nǐ dǎ diànhuà. | Tôi đang ăn cơm, lát nữa gọi lại cho bạn.
+> 外面正下着雨。 | Wàimiàn zhèng xià zhe yǔ. | Bên ngoài đang mưa.
+* 正 + động từ (+ 呢 / 着) = đang làm gì. Nghĩa như 正在 (cấp 1).
