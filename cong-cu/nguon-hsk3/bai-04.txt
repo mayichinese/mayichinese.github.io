@@ -1,0 +1,176 @@
+# ===== NGUỒN SOẠN THẢO HSK 3 – BÀI 4 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–3.
+
+# 4 | Khách sạn
+
+@别的 | biệt đích
+- 代 | cái khác, … khác
+> 你还要别的吗？ | Nǐ hái yào biéde ma? | Bạn còn cần gì khác không?
+> 这个房间太小了，有别的房间吗？ | Zhège fángjiān tài xiǎo le, yǒu biéde fángjiān ma? | Phòng này nhỏ quá, có phòng khác không?
+* 别的 + danh từ = … khác (别的人, 别的东西). Đừng nhầm với 别 (đừng).
+
+@宾馆 | tân quán
+- 名 | khách sạn, nhà khách
+> 我们住在学校旁边的宾馆。 | Wǒmen zhù zài xuéxiào pángbiān de bīnguǎn. | Chúng tôi ở khách sạn cạnh trường.
+> 这家宾馆又干净又便宜。 | Zhè jiā bīnguǎn yòu gānjìng yòu piányi. | Khách sạn này vừa sạch vừa rẻ.
+* Lượng từ: 家 (一家宾馆). 宾 (tân) = khách, 馆 (quán) = nhà → nhà cho khách ở.
+
+@除了 | trừ liễu
+- 介 | ngoài … ra; trừ …
+> 除了我，大家都去了。 | Chúle wǒ, dàjiā dōu qù le. | Trừ tôi ra, mọi người đều đi rồi.
+> 除了米饭，他还想吃面条。 | Chúle mǐfàn, tā hái xiǎng chī miàntiáo. | Ngoài cơm ra, anh ấy còn muốn ăn mì.
+* 除了 A，都… = trừ A (A không tính vào). 除了 A，还/也… = ngoài A còn có… (A có tính vào). Hay đi cùng 以外: 除了……以外.
+
+@干净 | can tịnh
+- 形 | sạch, sạch sẽ
+> 宾馆的房间很干净。 | Bīnguǎn de fángjiān hěn gānjìng. | Phòng khách sạn rất sạch sẽ.
+> 我的衣服已经洗干净了。 | Wǒ de yīfu yǐjīng xǐ gānjìng le. | Quần áo của tôi đã giặt sạch rồi.
+* Âm Hán Việt “can tịnh” nhưng nghĩa là sạch. Trái nghĩa: 脏 (zāng, bẩn – bài 16). 洗干净 = rửa/giặt sạch.
+
+@海 | hải
+- 名 | biển
+> 我们的宾馆就在海边。 | Wǒmen de bīnguǎn jiù zài hǎibiān. | Khách sạn của chúng tôi ở ngay bờ biển.
+> 我从来没看过海。 | Wǒ cónglái méi kàn guo hǎi. | Tôi chưa bao giờ nhìn thấy biển.
+* 海边 = bờ biển, ven biển.
+
+@欢迎 | hoan nghênh
+- 动 | chào mừng, hoan nghênh
+> 欢迎你来我家玩儿！ | Huānyíng nǐ lái wǒ jiā wánr! | Chào mừng bạn đến nhà tôi chơi!
+> 欢迎大家来中国！ | Huānyíng dàjiā lái Zhōngguó! | Chào mừng mọi người đến Trung Quốc!
+* 欢迎光临 là câu chào khách ở cửa hàng, khách sạn. 欢迎 + người + 来… = chào mừng ai đến…
+
+@假期 | giả kỳ
+- 名 | kỳ nghỉ
+> 假期你打算去哪儿？ | Jiàqī nǐ dǎsuàn qù nǎr? | Kỳ nghỉ bạn định đi đâu?
+> 这个假期我们去海边玩儿了。 | Zhège jiàqī wǒmen qù hǎibiān wánr le. | Kỳ nghỉ này chúng tôi đi biển chơi.
+* 假 ở đây đọc jià = nghỉ (như 放假, bài 6); khi đọc jiǎ mới có nghĩa là “giả”.
+
+@久 | cửu
+- 形 | lâu
+> 你等了多久？ | Nǐ děng le duō jiǔ? | Bạn đợi bao lâu rồi?
+> 我在宾馆住了很久。 | Wǒ zài bīnguǎn zhù le hěn jiǔ. | Tôi ở khách sạn rất lâu.
+* 多久 = bao lâu. 好久不见 = lâu rồi không gặp.
+
+@刻 | khắc
+- 量 | khắc (15 phút)
+> 现在三点一刻。 | Xiànzài sān diǎn yí kè. | Bây giờ là ba giờ mười lăm.
+> 我们八点三刻见。 | Wǒmen bā diǎn sān kè jiàn. | Chúng ta gặp nhau lúc tám giờ bốn lăm.
+* 一刻 = 15 phút, 三刻 = 45 phút. 30 phút thường nói 半, ít khi nói 两刻.
+
+@马 | mã
+- 名 | con ngựa
+> 你骑过马吗？ | Nǐ qí guo mǎ ma? | Bạn đã cưỡi ngựa bao giờ chưa?
+> 这些马跑得很快。 | Zhèxiē mǎ pǎo de hěn kuài. | Mấy con ngựa này chạy rất nhanh.
+* 马上 = ngay lập tức (bài 2) – không liên quan đến ngựa. 骑马 = cưỡi ngựa.
+
+@满意 | mãn ý
+- 动 | hài lòng
+> 你对这个房间满意吗？ | Nǐ duì zhège fángjiān mǎnyì ma? | Bạn có hài lòng với căn phòng này không?
+> 老师对我的作业很满意。 | Lǎoshī duì wǒ de zuòyè hěn mǎnyì. | Cô giáo rất hài lòng với bài tập của tôi.
+* Cấu trúc: 对 + ai/cái gì + (很)满意 = hài lòng với…
+
+@牛 | ngưu
+- 名 | con bò, con trâu
+> 这些牛在山上吃草。 | Zhèxiē niú zài shān shang chī cǎo. | Mấy con bò này đang ăn cỏ trên núi.
+> 我家以前养过一头牛。 | Wǒ jiā yǐqián yǎng guo yì tóu niú. | Nhà tôi trước đây từng nuôi một con bò.
+* 牛奶 = sữa bò, 牛肉 = thịt bò. Lượng từ: 头 (一头牛).
+
+@骑 | kỵ
+- 动 | cưỡi, đi (xe đạp, xe máy, ngựa)
+> 我每天骑自行车上班。 | Wǒ měi tiān qí zìxíngchē shàngbān. | Ngày nào tôi cũng đi xe đạp đi làm.
+> 小孩子都喜欢骑马。 | Xiǎo háizi dōu xǐhuan qí mǎ. | Trẻ con đều thích cưỡi ngựa.
+* Phương tiện phải ngồi “dạng chân” dùng 骑 (xe đạp, xe máy, ngựa); ô tô, tàu dùng 坐 hoặc 开.
+
+@起飞 | khởi phi
+- 动 | cất cánh
+> 飞机几点起飞？ | Fēijī jǐ diǎn qǐfēi? | Máy bay mấy giờ cất cánh?
+> 飞机已经起飞了。 | Fēijī yǐjīng qǐfēi le. | Máy bay đã cất cánh rồi.
+* 起飞 dùng cho máy bay. Máy bay đến nơi nói 到了 hoặc 飞机到了.
+
+@司机 | tư cơ
+- 名 | tài xế, lái xe
+> 我爸爸是出租车司机。 | Wǒ bàba shì chūzūchē sījī. | Bố tôi là tài xế taxi.
+> 司机，请送我去火车站。 | Sījī, qǐng sòng wǒ qù huǒchēzhàn. | Bác tài ơi, cho tôi ra ga tàu hỏa.
+* Âm Hán Việt “tư cơ” nhưng nghĩa là tài xế. Có thể gọi thẳng 司机 khi nói với tài xế.
+
+@特别 | đặc biệt
+- 副 | đặc biệt, vô cùng
+> 今天特别热。 | Jīntiān tèbié rè. | Hôm nay nóng vô cùng.
+> 我特别喜欢这家宾馆。 | Wǒ tèbié xǐhuan zhè jiā bīnguǎn. | Tôi đặc biệt thích khách sạn này.
+- 形 | đặc biệt, khác lạ
+> 这个礼物很特别。 | Zhège lǐwù hěn tèbié. | Món quà này rất đặc biệt.
+* Đứng trước tính từ/động từ = rất, cực kỳ (mạnh hơn 很). Đứng sau 很 = khác thường, đặc biệt.
+
+@晚点 | vãn điểm
+- 动 | trễ giờ, chậm chuyến (tàu, xe, máy bay)
+> 飞机晚点了两个小时。 | Fēijī wǎndiǎn le liǎng ge xiǎoshí. | Máy bay trễ hai tiếng.
+> 火车又晚点了。 | Huǒchē yòu wǎndiǎn le. | Tàu hỏa lại trễ giờ rồi.
+* Chỉ dùng cho tàu xe, máy bay chạy trễ giờ. Người đi muộn dùng 迟到 (bài 6).
+
+@先 | tiên
+- 副 | trước, trước tiên
+> 你先走吧，我等一下再走。 | Nǐ xiān zǒu ba, wǒ děng yíxià zài zǒu. | Bạn đi trước đi, tôi đợi một lát rồi đi.
+> 我们先吃饭，然后去看电影。 | Wǒmen xiān chīfàn, ránhòu qù kàn diànyǐng. | Chúng ta ăn cơm trước, sau đó đi xem phim.
+* 先……然后/再…… = trước tiên… sau đó… 先 đứng trước động từ.
+
+@相机 | tướng cơ
+- 名 | máy ảnh
+> 我的相机是新买的。 | Wǒ de xiàngjī shì xīn mǎi de. | Máy ảnh của tôi mới mua.
+> 出去玩儿别忘了带相机。 | Chūqù wánr bié wàng le dài xiàngjī. | Đi chơi đừng quên mang máy ảnh.
+* 相 ở đây đọc xiàng (thanh 4). Gọi đầy đủ là 照相机.
+
+@羊 | dương
+- 名 | con cừu, con dê
+> 山上有很多羊。 | Shān shang yǒu hěn duō yáng. | Trên núi có rất nhiều cừu.
+> 你吃过羊肉吗？ | Nǐ chī guo yángròu ma? | Bạn đã ăn thịt cừu bao giờ chưa?
+* 羊 chỉ chung cả cừu và dê. 羊肉 = thịt cừu/dê.
+
+@一定 | nhất định
+- 副 | nhất định, chắc chắn
+> 明天我一定来。 | Míngtiān wǒ yídìng lái. | Mai tôi nhất định sẽ đến.
+> 他没来，一定是病了。 | Tā méi lái, yídìng shì bìng le. | Anh ấy không đến, chắc chắn là ốm rồi.
+* 不一定 = chưa chắc. 一 đọc yí vì đứng trước thanh 4.
+
+@一样 | nhất dạng
+- 形 | giống nhau, như nhau
+> 我和姐姐一样高。 | Wǒ hé jiějie yíyàng gāo. | Tôi và chị gái cao bằng nhau.
+> 这两个箱子不一样。 | Zhè liǎng ge xiāngzi bù yíyàng. | Hai cái vali này không giống nhau.
+* A 和/跟 B 一样 (+ tính từ) = A giống/bằng B. 不 trước 一样 đọc bù (vì 一 đã đọc yí).
+
+@以外 | dĩ ngoại
+- 名 | ngoài (ra)
+> 除了他以外，大家都来了。 | Chúle tā yǐwài, dàjiā dōu lái le. | Ngoài anh ấy ra, mọi người đều đến cả rồi.
+> 除了周末以外，我每天都上班。 | Chúle zhōumò yǐwài, wǒ měi tiān dōu shàngbān. | Ngoài cuối tuần, ngày nào tôi cũng đi làm.
+* Hay dùng trong khung 除了……以外. Âm Hán Việt “dĩ ngoại” = ngoài ra.
+
+@一直 | nhất trực
+- 副 | thẳng (một hướng)
+> 一直往前走，就到宾馆了。 | Yìzhí wǎng qián zǒu, jiù dào bīnguǎn le. | Cứ đi thẳng về phía trước là đến khách sạn.
+- 副 | suốt, liên tục, luôn
+> 雨一直下到晚上。 | Yǔ yìzhí xià dào wǎnshang. | Mưa suốt đến tối.
+> 我一直想去中国看看。 | Wǒ yìzhí xiǎng qù Zhōngguó kànkan. | Tôi luôn muốn đến Trung Quốc xem thử.
+* 一 đọc yì vì đứng trước thanh 2.
+
+@月亮 | nguyệt lượng
+- 名 | mặt trăng
+> 今天晚上的月亮真大！ | Jīntiān wǎnshang de yuèliang zhēn dà! | Trăng tối nay to thật!
+> 我们一起坐在外面看月亮。 | Wǒmen yìqǐ zuò zài wàimiàn kàn yuèliang. | Chúng tôi cùng ngồi ngoài trời ngắm trăng.
+* 亮 ở đây đọc nhẹ (liang). Mặt trời là 太阳 (bài 5).
+
+@洗澡 | tẩy tảo
+- 动 | tắm
+> 我每天晚上洗澡。 | Wǒ měi tiān wǎnshang xǐzǎo. | Tối nào tôi cũng tắm.
+> 他正在洗澡，不能接电话。 | Tā zhèngzài xǐzǎo, bù néng jiē diànhuà. | Anh ấy đang tắm, không nghe điện thoại được.
+* Có thể tách ra: 洗个澡 (tắm một cái). 洗 là rửa/giặt, 洗澡 mới là tắm.
+
+@牙 | nha
+- 名 | răng
+> 吃饭以后要刷牙。 | Chīfàn yǐhòu yào shuā yá. | Ăn cơm xong phải đánh răng.
+> 他的牙又白又好看。 | Tā de yá yòu bái yòu hǎokàn. | Răng anh ấy vừa trắng vừa đẹp.
+* 刷牙 = đánh răng.
+
+@牙刷 | nha loát
+- 名 | bàn chải đánh răng
+> 我忘了带牙刷。 | Wǒ wàng le dài yáshuā. | Tôi quên mang bàn chải đánh răng.
+> 宾馆里有新的牙刷吗？ | Bīnguǎn li yǒu xīn de yáshuā ma? | Trong khách sạn có bàn chải mới không?
+* 刷 (bài 6) = chải, quẹt; 牙 + 刷 = cái chải răng.

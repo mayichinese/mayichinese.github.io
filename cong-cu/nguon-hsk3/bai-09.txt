@@ -1,0 +1,169 @@
+# ===== NGUỒN SOẠN THẢO HSK 3 – BÀI 9 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–3.
+
+# 9 | Thi đấu thể thao
+
+@比赛 | tỷ tái
+- 名 | trận đấu, cuộc thi
+> 昨天的足球比赛你看了吗？ | Zuótiān de zúqiú bǐsài nǐ kàn le ma? | Trận bóng đá hôm qua bạn xem chưa?
+> 这次比赛我们班得了第一名。 | Zhè cì bǐsài wǒmen bān dé le dì yī míng. | Cuộc thi lần này lớp chúng tôi đứng thứ nhất.
+- 动 | thi đấu, thi (xem ai hơn)
+> 我们来比赛，看谁跑得快。 | Wǒmen lái bǐsài, kàn shéi pǎo de kuài. | Chúng ta thi xem ai chạy nhanh hơn.
+* Dễ nhầm: 考试 = thi (kiểm tra kiến thức); 比赛 = thi đấu, cuộc thi (so tài).
+
+@参加 | tham gia
+- 动 | tham gia; dự
+> 你参加这次比赛吗？ | Nǐ cānjiā zhè cì bǐsài ma? | Bạn có tham gia cuộc thi lần này không?
+> 明天我要参加朋友的生日晚会。 | Míngtiān wǒ yào cānjiā péngyou de shēngrì wǎnhuì. | Mai tôi phải đi dự tiệc sinh nhật của bạn.
+* Âm Hán Việt và nghĩa giống tiếng Việt; còn dùng cho “dự” (tiệc, họp, thi).
+
+@成绩 | thành tích
+- 名 | kết quả, điểm số, thành tích
+> 他这次考试成绩很好。 | Tā zhè cì kǎoshì chéngjì hěn hǎo. | Lần thi này anh ấy đạt kết quả rất tốt.
+> 这次比赛他的成绩不太好。 | Zhè cì bǐsài tā de chéngjì bú tài hǎo. | Lần thi đấu này thành tích của anh ấy không tốt lắm.
+* Khác tiếng Việt: 成绩 không chỉ là “thành tích” lớn, mà cả điểm thi, kết quả học tập hằng ngày.
+
+@得到 | đắc đáo
+- 动 | nhận được, có được, đạt được
+> 他得到了很多人的帮助。 | Tā dédào le hěn duō rén de bāngzhù. | Anh ấy nhận được sự giúp đỡ của nhiều người.
+> 努力学习才能得到好成绩。 | Nǔlì xuéxí cái néng dédào hǎo chéngjì. | Phải học chăm chỉ mới đạt được kết quả tốt.
+* 得 ở đây đọc dé. Thường đi với thứ trừu tượng: 得到帮助 (được giúp đỡ), 得到机会 (có cơ hội).
+
+@得分 | đắc phân
+- 动 | ghi điểm, được điểm
+> 他又得分了！ | Tā yòu défēn le! | Anh ấy lại ghi điểm rồi!
+- 名 | điểm số (đạt được)
+> 这次考试你的得分是多少？ | Zhè cì kǎoshì nǐ de défēn shì duōshao? | Lần thi này bạn được bao nhiêu điểm?
+* 分 = điểm. 得 đọc dé.
+
+@好多 | hảo đa
+- 数 | rất nhiều
+> 他买了好多水果。 | Tā mǎi le hǎoduō shuǐguǒ. | Anh ấy mua rất nhiều hoa quả.
+> 好多人来看比赛。 | Hǎoduō rén lái kàn bǐsài. | Rất nhiều người đến xem trận đấu.
+* Văn nói, giống 很多; 好 ở đây = rất (như 好久 = rất lâu). Khác 好多了 = tốt hơn nhiều (身体好多了).
+
+@几乎 | cơ hồ
+- 副 | hầu như, gần như
+> 他几乎每天都去跑步。 | Tā jīhū měitiān dōu qù pǎobù. | Gần như ngày nào anh ấy cũng đi chạy bộ.
+> 我们班几乎每个人都会游泳。 | Wǒmen bān jīhū měi ge rén dōu huì yóuyǒng. | Lớp chúng tôi hầu như ai cũng biết bơi.
+* 几 ở đây đọc jī (thanh 1), khác 几 jǐ (mấy). Hay đi với 都.
+
+@卡 | ca
+- 名 | thẻ
+> 我可以用卡吗？ | Wǒ kěyǐ yòng kǎ ma? | Tôi dùng thẻ được không?
+> 进体育馆要先刷卡。 | Jìn tǐyùguǎn yào xiān shuā kǎ. | Vào nhà thi đấu phải quẹt thẻ trước.
+* Lượng từ: 张. 银行卡 = thẻ ngân hàng, 信用卡 = thẻ tín dụng, 刷卡 = quẹt thẻ.
+
+@练 | luyện
+- 动 | luyện, tập
+> 你的汉字写得不好，要多练。 | Nǐ de Hànzì xiě de bù hǎo, yào duō liàn. | Chữ Hán của bạn viết chưa đẹp, phải luyện nhiều.
+> 我每天早上练一个小时。 | Wǒ měitiān zǎoshang liàn yí ge xiǎoshí. | Sáng nào tôi cũng tập một tiếng.
+* Cách nói ngắn của 练习 (văn nói).
+
+@练习 | luyện tập
+- 动 | luyện tập
+> 我们一起练习说汉语吧。 | Wǒmen yìqǐ liànxí shuō Hànyǔ ba. | Chúng ta cùng luyện nói tiếng Hán đi.
+> 比赛以前要多练习。 | Bǐsài yǐqián yào duō liànxí. | Trước trận đấu phải luyện tập nhiều.
+- 名 | bài tập
+> 今天的练习你做完了吗？ | Jīntiān de liànxí nǐ zuò wán le ma? | Bài tập hôm nay bạn làm xong chưa?
+* Là danh từ = bài tập (gần nghĩa 作业).
+
+@男生 | nam sinh
+- 名 | học sinh nam, bạn nam
+> 我们班男生比女生多。 | Wǒmen bān nánshēng bǐ nǚshēng duō. | Lớp chúng tôi bạn nam nhiều hơn bạn nữ.
+> 那个高高的男生是谁？ | Nàge gāogāo de nánshēng shì shéi? | Bạn nam cao cao kia là ai?
+* Dùng cho học sinh, sinh viên, người trẻ. Trái nghĩa: 女生 (bạn nữ).
+
+@啤酒 | bì tửu
+- 名 | bia
+> 天太热了，我想喝一杯啤酒。 | Tiān tài rè le, wǒ xiǎng hē yì bēi píjiǔ. | Trời nóng quá, tôi muốn uống một cốc bia.
+> 看比赛的时候他喜欢喝啤酒。 | Kàn bǐsài de shíhou tā xǐhuan hē píjiǔ. | Lúc xem thi đấu anh ấy thích uống bia.
+* 酒 = rượu; 啤酒 = bia.
+
+@球场 | cầu trường
+- 名 | sân bóng
+> 学校的球场很大。 | Xuéxiào de qiúchǎng hěn dà. | Sân bóng của trường rất rộng.
+> 下午我们在球场见。 | Xiàwǔ wǒmen zài qiúchǎng jiàn. | Chiều nay chúng ta gặp nhau ở sân bóng.
+* 场 = sân, bãi (đọc chǎng): 机场 (sân bay), 球场 (sân bóng).
+
+@世界 | thế giới
+- 名 | thế giới
+> 世界很大，我想去看看。 | Shìjiè hěn dà, wǒ xiǎng qù kànkan. | Thế giới rộng lớn lắm, tôi muốn đi xem.
+> 他是世界上跑得最快的人。 | Tā shì shìjiè shang pǎo de zuì kuài de rén. | Anh ấy là người chạy nhanh nhất thế giới.
+* Âm Hán Việt và nghĩa giống tiếng Việt. 世界上 = trên thế giới.
+
+@受到 | thụ đáo
+- 动 | nhận được, được, bị (tác động từ người/việc khác)
+> 这个运动员受到了大家的欢迎。 | Zhège yùndòngyuán shòudào le dàjiā de huānyíng. | Vận động viên này được mọi người yêu thích.
+> 这件事受到了大家的关注。 | Zhè jiàn shì shòudào le dàjiā de guānzhù. | Việc này nhận được sự quan tâm của mọi người.
+* Hay đi với 欢迎, 影响, 关注, 帮助. Gần nghĩa 得到, nhưng 受到 nhấn mạnh việc chịu tác động từ người khác (được khen, bị ảnh hưởng…).
+
+@体育 | thể dục
+- 名 | thể thao, thể dục
+> 我最喜欢上体育课。 | Wǒ zuì xǐhuan shàng tǐyù kè. | Tôi thích nhất là học giờ thể dục.
+> 他很喜欢看体育比赛。 | Tā hěn xǐhuan kàn tǐyù bǐsài. | Anh ấy rất thích xem thi đấu thể thao.
+* Nghĩa rộng hơn “thể dục” tiếng Việt: 体育 = thể thao nói chung. 体育课 = giờ thể dục.
+
+@网球 | võng cầu
+- 名 | quần vợt, ten-nít
+> 你会打网球吗？ | Nǐ huì dǎ wǎngqiú ma? | Bạn có biết chơi quần vợt không?
+> 他每个星期打两次网球。 | Tā měi ge xīngqī dǎ liǎng cì wǎngqiú. | Mỗi tuần anh ấy chơi quần vợt hai lần.
+* 网 = lưới. Động từ đi kèm: 打.
+
+@为了 | vị liễu
+- 介 | để, vì (mục đích)
+> 为了身体健康，他每天跑步。 | Wèile shēntǐ jiànkāng, tā měitiān pǎobù. | Để có sức khỏe tốt, ngày nào anh ấy cũng chạy bộ.
+> 为了这次比赛，我们练习了三个月。 | Wèile zhè cì bǐsài, wǒmen liànxí le sān ge yuè. | Vì cuộc thi này, chúng tôi đã luyện tập ba tháng.
+* 为 đọc wèi. 为了 + mục đích (thường đứng đầu câu). Khác 因为 (vì – nói nguyên nhân).
+
+@校园 | hiệu viên
+- 名 | khuôn viên trường, sân trường
+> 我们的校园很漂亮。 | Wǒmen de xiàoyuán hěn piàoliang. | Khuôn viên trường chúng tôi rất đẹp.
+> 晚饭后我常在校园里走走。 | Wǎnfàn hòu wǒ cháng zài xiàoyuán li zǒuzou. | Sau bữa tối tôi hay đi dạo trong sân trường.
+* 校 = trường, 园 = vườn, khu đất. 校园里 = trong trường.
+
+@影响 | ảnh hưởng
+- 动 | ảnh hưởng (đến)
+> 晚上别玩手机，会影响睡觉。 | Wǎnshang bié wán shǒujī, huì yǐngxiǎng shuìjiào. | Buổi tối đừng chơi điện thoại, sẽ ảnh hưởng đến giấc ngủ.
+> 下雨影响了今天的比赛。 | Xià yǔ yǐngxiǎng le jīntiān de bǐsài. | Trời mưa đã ảnh hưởng đến trận đấu hôm nay.
+- 名 | ảnh hưởng
+> 爸爸对我的影响很大。 | Bàba duì wǒ de yǐngxiǎng hěn dà. | Bố có ảnh hưởng rất lớn đến tôi.
+* Âm Hán Việt và nghĩa giống tiếng Việt. 影响 + việc (không cần thêm chữ “đến”). A 对 B 的影响 = ảnh hưởng của A đối với B.
+
+@运动会 | vận động hội
+- 名 | hội thao, đại hội thể thao
+> 下个星期学校要开运动会。 | Xià ge xīngqī xuéxiào yào kāi yùndònghuì. | Tuần sau trường sẽ tổ chức hội thao.
+> 你参加运动会吗？ | Nǐ cānjiā yùndònghuì ma? | Bạn có tham gia hội thao không?
+* 开运动会 = tổ chức hội thao.
+
+@运动员 | vận động viên
+- 名 | vận động viên
+> 他是一个网球运动员。 | Tā shì yí ge wǎngqiú yùndòngyuán. | Anh ấy là một vận động viên quần vợt.
+> 运动员每天都要练习。 | Yùndòngyuán měitiān dōu yào liànxí. | Vận động viên ngày nào cũng phải luyện tập.
+* 员 = người làm việc gì (服务员 = nhân viên phục vụ).
+
+@只是 | chỉ thị
+- 副 | chỉ là, chẳng qua là
+> 我只是问问，不想买。 | Wǒ zhǐshì wènwen, bù xiǎng mǎi. | Tôi chỉ hỏi thôi, không định mua.
+> 他只是我的同学。 | Tā zhǐshì wǒ de tóngxué. | Anh ấy chỉ là bạn học của tôi.
+- 连 | có điều, chỉ có điều
+> 这件衣服很好看，只是有点儿贵。 | Zhè jiàn yīfu hěn hǎokàn, zhǐshì yǒudiǎnr guì. | Bộ quần áo này rất đẹp, chỉ có điều hơi đắt.
+* Là liên từ thì nhẹ hơn 但是 (nhưng). Không liên quan đến “chỉ thị” (ra lệnh) trong tiếng Việt.
+
+@主要 | chủ yếu
+- 形 | chủ yếu, chính
+> 主要的问题是没有时间。 | Zhǔyào de wèntí shì méiyǒu shíjiān. | Vấn đề chính là không có thời gian.
+> 我来中国主要是为了学汉语。 | Wǒ lái Zhōngguó zhǔyào shì wèile xué Hànyǔ. | Tôi đến Trung Quốc chủ yếu là để học tiếng Hán.
+* Âm Hán Việt và nghĩa giống tiếng Việt.
+
+@得 | đắc
+- 动 | được, đạt được; mắc (bệnh)
+> 这次考试我得了一百分。 | Zhè cì kǎoshì wǒ dé le yìbǎi fēn. | Lần thi này tôi được một trăm điểm.
+> 他得了感冒，今天没来。 | Tā dé le gǎnmào, jīntiān méi lái. | Anh ấy bị cảm nên hôm nay không đến.
+* Chữ đa âm: dé = được (ở đây); děi = phải (bài 8); de = trợ từ (跑得快).
+
+@受 | thụ
+- 动 | chịu, nhận, được
+> 这本书很受欢迎。 | Zhè běn shū hěn shòu huānyíng. | Cuốn sách này rất được ưa chuộng.
+> 他从小受爸爸的影响，很喜欢体育。 | Tā cóng xiǎo shòu bàba de yǐngxiǎng, hěn xǐhuan tǐyù. | Từ nhỏ anh ấy đã chịu ảnh hưởng của bố nên rất thích thể thao.
+* 受欢迎 = được ưa chuộng. 受 + 影响 = chịu ảnh hưởng. Gần nghĩa 受到.

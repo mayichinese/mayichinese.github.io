@@ -1,0 +1,185 @@
+# ===== NGUỒN SOẠN THẢO HSK 3 – BÀI 11 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–3.
+# Ghép: python -X utf8 cong-cu/ghep-du-lieu-cap.py 3
+
+# 11 | Công việc và giải quyết vấn đề
+
+@办法 | biện pháp
+- 名 | cách, cách làm, biện pháp
+> 你有什么好办法吗？ | Nǐ yǒu shénme hǎo bànfǎ ma? | Bạn có cách gì hay không?
+> 没办法，我们只能等。 | Méi bànfǎ, wǒmen zhǐ néng děng. | Hết cách rồi, chúng ta chỉ có thể đợi.
+* 想办法 = nghĩ cách. 没(有)办法 = hết cách, đành chịu.
+
+@别人 | biệt nhân
+- 代 | người khác
+> 这件事别告诉别人。 | Zhè jiàn shì bié gàosu biérén. | Việc này đừng nói với người khác.
+> 我们要多关心别人。 | Wǒmen yào duō guānxīn biérén. | Chúng ta nên quan tâm người khác nhiều hơn.
+* 别人 chỉ NGƯỜI; còn 别的 (bài 4) là “cái khác, … khác”: 别的东西.
+
+@城市 | thành thị
+- 名 | thành phố
+> 我们的城市不大，但是很干净。 | Wǒmen de chéngshì bú dà, dànshì hěn gānjìng. | Thành phố của chúng tôi không lớn nhưng rất sạch.
+> 你最喜欢哪个城市？ | Nǐ zuì xǐhuan nǎge chéngshì? | Bạn thích thành phố nào nhất?
+* 城市 là “thành phố” nói chung; tiếng Việt “thành thị” (đối lập nông thôn) cũng gần nghĩa này.
+
+@地点 | địa điểm
+- 名 | địa điểm, nơi
+> 请告诉我见面的地点。 | Qǐng gàosu wǒ jiànmiàn de dìdiǎn. | Hãy cho tôi biết địa điểm gặp mặt.
+> 考试的地点在三楼。 | Kǎoshì de dìdiǎn zài sān lóu. | Địa điểm thi ở tầng ba.
+* Hay đi cùng 时间: 时间和地点 (thời gian và địa điểm).
+
+@发 | phát
+- 动 | gửi (tin nhắn, thư điện tử, ảnh…)
+> 我把照片发给你了。 | Wǒ bǎ zhàopiàn fā gěi nǐ le. | Tôi gửi ảnh cho bạn rồi.
+> 经理让我发一个邮件给大家。 | Jīnglǐ ràng wǒ fā yí ge yóujiàn gěi dàjiā. | Giám đốc bảo tôi gửi một email cho mọi người.
+- 动 | phát (đồ cho từng người)
+> 老师给每个学生发了一本书。 | Lǎoshī gěi měi ge xuésheng fā le yì běn shū. | Thầy phát cho mỗi học sinh một cuốn sách.
+* 发给 + ai = gửi cho ai. Chữ này cũng có trong 发烧 (sốt, bài 8), 发现 (phát hiện, bài 1).
+
+@后天 | hậu thiên
+- 名 | ngày kia
+> 今天星期一，后天星期三。 | Jīntiān xīngqīyī, hòutiān xīngqīsān. | Hôm nay thứ hai, ngày kia thứ tư.
+> 我们后天下午开会。 | Wǒmen hòutiān xiàwǔ kāihuì. | Chiều ngày kia chúng ta họp.
+* 前天 – 昨天 – 今天 – 明天 – 后天. 后天 = ngày kia (sau ngày mai).
+
+@会议 | hội nghị
+- 名 | cuộc họp, hội nghị
+> 明天的会议很重要。 | Míngtiān de huìyì hěn zhòngyào. | Cuộc họp ngày mai rất quan trọng.
+> 会议九点开始。 | Huìyì jiǔ diǎn kāishǐ. | Cuộc họp bắt đầu lúc chín giờ.
+* Dùng cho cả buổi họp nhỏ ở công ty, không chỉ “hội nghị” lớn. 会议室 = phòng họp.
+
+@或 | hoặc
+- 连 | hoặc
+> 你可以坐地铁或打车去。 | Nǐ kěyǐ zuò dìtiě huò dǎchē qù. | Bạn có thể đi tàu điện ngầm hoặc gọi taxi.
+> 星期六或星期天我都在家。 | Xīngqīliù huò xīngqītiān wǒ dōu zài jiā. | Thứ bảy hoặc chủ nhật tôi đều ở nhà.
+* 或 = 或者, ngắn gọn hơn, hay gặp trong văn viết.
+
+@或者 | hoặc giả
+- 连 | hoặc, hay là
+> 我们明天或者后天去吧。 | Wǒmen míngtiān huòzhě hòutiān qù ba. | Chúng ta đi ngày mai hoặc ngày kia nhé.
+> 你可以给我打电话，或者给我发邮件。 | Nǐ kěyǐ gěi wǒ dǎ diànhuà, huòzhě gěi wǒ fā yóujiàn. | Bạn có thể gọi điện hoặc gửi email cho tôi.
+* Dễ nhầm: câu kể dùng 或者; câu HỎI “A hay B?” dùng 还是: 你喝茶还是喝咖啡？ Không phải “hoặc giả” (giả sử) như tiếng Việt cũ.
+
+@机会 | cơ hội
+- 名 | cơ hội, dịp
+> 这是一个很好的机会。 | Zhè shì yí ge hěn hǎo de jīhuì. | Đây là một cơ hội rất tốt.
+> 有机会我想去中国看看。 | Yǒu jīhuì wǒ xiǎng qù Zhōngguó kànkan. | Có dịp tôi muốn sang Trung Quốc xem.
+* 有机会 = có dịp, có cơ hội.
+
+@解决 | giải quyết
+- 动 | giải quyết
+> 这个问题很难解决。 | Zhège wèntí hěn nán jiějué. | Vấn đề này rất khó giải quyết.
+> 别着急，我们一起想办法解决。 | Bié zháojí, wǒmen yìqǐ xiǎng bànfǎ jiějué. | Đừng vội, chúng ta cùng nghĩ cách giải quyết.
+* 解决问题 = giải quyết vấn đề.
+
+@经理 | kinh lý
+- 名 | giám đốc, người quản lý (một bộ phận, công ty)
+> 张经理今天不在办公室。 | Zhāng jīnglǐ jīntiān bú zài bàngōngshì. | Hôm nay giám đốc Trương không có ở văn phòng.
+> 我要跟经理说一下这件事。 | Wǒ yào gēn jīnglǐ shuō yíxià zhè jiàn shì. | Tôi phải nói với giám đốc việc này.
+* Gọi: họ + 经理 (张经理). Nghĩa là người quản lý, giám đốc – không phải “kinh lý” (chức quan thời xưa).
+
+@开会 | khai hội
+- 动 | họp
+> 我们下午三点开会。 | Wǒmen xiàwǔ sān diǎn kāihuì. | Ba giờ chiều chúng ta họp.
+> 经理正在开会，请等一下。 | Jīnglǐ zhèngzài kāihuì, qǐng děng yíxià. | Giám đốc đang họp, xin đợi một chút.
+* 开会 là động từ (họp); 会议 là danh từ (cuộc họp). Có thể tách: 开了两个小时的会.
+
+@看来 | khán lai
+- 动 | xem ra, có vẻ như
+> 看来要下雨了。 | Kànlái yào xià yǔ le. | Xem ra sắp mưa rồi.
+> 他还没来，看来今天不会来了。 | Tā hái méi lái, kànlái jīntiān bú huì lái le. | Anh ấy vẫn chưa đến, xem ra hôm nay không đến rồi.
+* Thường đứng đầu câu, đưa ra nhận định dựa vào điều mình thấy.
+
+@离开 | ly khai
+- 动 | rời, rời khỏi, đi khỏi
+> 他已经离开公司了。 | Tā yǐjīng líkāi gōngsī le. | Anh ấy đã rời công ty rồi.
+> 离开房间的时候请关灯。 | Líkāi fángjiān de shíhou qǐng guān dēng. | Khi ra khỏi phòng xin hãy tắt đèn.
+* 离开 + nơi chốn / người. Chỉ là “rời đi”, không mang nghĩa chính trị như “ly khai” trong tiếng Việt.
+
+@怕 | phạ
+- 动 | sợ; lo (điều gì xảy ra)
+> 别怕，有我在。 | Bié pà, yǒu wǒ zài. | Đừng sợ, có tôi đây.
+> 我怕迟到，所以早点儿出门了。 | Wǒ pà chídào, suǒyǐ zǎo diǎnr chūmén le. | Tôi sợ đến muộn nên ra khỏi nhà sớm một chút.
+* 怕 + người / vật = sợ ai, cái gì; 怕 + sự việc = lo điều đó xảy ra.
+
+@请假 | thỉnh giả
+- 动 | xin nghỉ (phép)
+> 明天我要请假去医院。 | Míngtiān wǒ yào qǐngjià qù yīyuàn. | Mai tôi phải xin nghỉ để đi bệnh viện.
+> 你跟经理请假了吗？ | Nǐ gēn jīnglǐ qǐngjià le ma? | Bạn đã xin giám đốc cho nghỉ chưa?
+* Có thể tách: 请两天假 = xin nghỉ hai ngày. 假 ở đây đọc jià.
+
+@生活 | sinh hoạt
+- 名 | cuộc sống, đời sống
+> 你在这儿的生活怎么样？ | Nǐ zài zhèr de shēnghuó zěnmeyàng? | Cuộc sống của bạn ở đây thế nào?
+> 我很喜欢现在的生活。 | Wǒ hěn xǐhuan xiànzài de shēnghuó. | Tôi rất thích cuộc sống bây giờ.
+- 动 | sống, sinh sống
+> 他在中国生活了五年。 | Tā zài Zhōngguó shēnghuó le wǔ nián. | Anh ấy đã sống ở Trung Quốc năm năm.
+* Dễ nhầm: nghĩa chính là “cuộc sống, sống”, không phải “sinh hoạt” (hoạt động tập thể) như tiếng Việt.
+
+@声音 | thanh âm
+- 名 | âm thanh, tiếng; giọng nói
+> 外面是什么声音？ | Wàimiàn shì shénme shēngyīn? | Bên ngoài là tiếng gì vậy?
+> 她的声音很好听。 | Tā de shēngyīn hěn hǎotīng. | Giọng cô ấy rất hay.
+* 声音大 / 小 = tiếng to / nhỏ. 声 (bài 7) là lượng từ “tiếng”.
+
+@室 | thất
+- 名 | phòng
+> 会议室在三楼。 | Huìyìshì zài sān lóu. | Phòng họp ở tầng ba.
+> 这个教室很大。 | Zhège jiàoshì hěn dà. | Phòng học này rất rộng.
+* Thường ghép sau từ khác: 教室, 办公室, 会议室. Không dùng một mình như 房间.
+
+@同事 | đồng sự
+- 名 | đồng nghiệp
+> 他是我的同事。 | Tā shì wǒ de tóngshì. | Anh ấy là đồng nghiệp của tôi.
+> 我和同事们一起吃午饭。 | Wǒ hé tóngshìmen yìqǐ chī wǔfàn. | Tôi cùng các đồng nghiệp ăn trưa.
+* Người cùng chỗ làm = 同事; người cùng lớp = 同学.
+
+@为 | vị
+- 介 | vì, cho (làm gì vì ai, cho ai)
+> 妈妈为我做了很多好吃的。 | Māma wèi wǒ zuò le hěn duō hǎochī de. | Mẹ làm cho tôi rất nhiều món ngon.
+> 大家都为你高兴。 | Dàjiā dōu wèi nǐ gāoxìng. | Mọi người đều mừng cho bạn.
+* Đọc wèi (thanh 4). 为 + người + động từ / tính từ. Khác 为了 (để, nhằm – bài 9). 为什么 = tại sao.
+
+@休假 | hưu giả
+- 动 | nghỉ phép
+> 我下个月休假，想去海边玩儿。 | Wǒ xià ge yuè xiūjià, xiǎng qù hǎibiān wánr. | Tháng sau tôi nghỉ phép, muốn đi biển chơi.
+> 经理在休假，下星期才回来。 | Jīnglǐ zài xiūjià, xià xīngqī cái huílái. | Giám đốc đang nghỉ phép, tuần sau mới về.
+* 请假 = xin nghỉ; 休假 = nghỉ phép (đợt nghỉ theo chế độ). Dễ nhầm: 休假 không phải “nghỉ hưu”.
+
+@邮箱 | bưu tương
+- 名 | hộp thư điện tử, địa chỉ email; hòm thư
+> 请把你的邮箱告诉我。 | Qǐng bǎ nǐ de yóuxiāng gàosu wǒ. | Hãy cho tôi địa chỉ email của bạn.
+> 我每天早上先看一下邮箱。 | Wǒ měitiān zǎoshang xiān kàn yíxià yóuxiāng. | Sáng nào tôi cũng xem hộp thư trước.
+* Ngày nay 邮箱 thường là hộp thư điện tử. Một bức thư điện tử = 邮件 (bài 5).
+
+@愿意 | nguyện ý
+- 动 | bằng lòng, sẵn lòng, muốn
+> 你愿意跟我一起去吗？ | Nǐ yuànyì gēn wǒ yìqǐ qù ma? | Bạn có muốn đi cùng tôi không?
+> 他不愿意说这件事。 | Tā bú yuànyì shuō zhè jiàn shì. | Anh ấy không muốn nói về chuyện này.
+* 愿意 + động từ = sẵn lòng làm gì; gần nghĩa 想 nhưng nhấn mạnh sự tự nguyện, đồng ý.
+
+@只能 | chỉ năng
+- cụm | chỉ có thể, đành phải
+> 没有车了，我们只能走路回家。 | Méiyǒu chē le, wǒmen zhǐ néng zǒulù huí jiā. | Hết xe rồi, chúng ta đành đi bộ về nhà.
+> 今天太忙了，我只能晚上给你打电话。 | Jīntiān tài máng le, wǒ zhǐ néng wǎnshang gěi nǐ dǎ diànhuà. | Hôm nay bận quá, tôi chỉ có thể gọi cho bạn vào buổi tối.
+* 只 (chỉ) + 能 (có thể). 只能 + động từ = đành làm gì vì không còn cách khác.
+
+@不行 | bất hành
+- 动 | không được (không cho phép, không thể)
+> 不行，今天我没有时间。 | Bùxíng, jīntiān wǒ méiyǒu shíjiān. | Không được, hôm nay tôi không có thời gian.
+> 你一个人去不行，太晚了。 | Nǐ yí ge rén qù bùxíng, tài wǎn le. | Bạn đi một mình không được đâu, muộn quá rồi.
+- 形 | kém, không giỏi
+> 我的汉语还不行。 | Wǒ de Hànyǔ hái bùxíng. | Tiếng Hán của tôi còn kém.
+* Trái nghĩa với 行 (được, bài 6). Dùng để từ chối hoặc nói cái gì kém.
+
+@笔记本 | bút ký bản
+- 名 | cuốn sổ ghi chép; máy tính xách tay
+> 这个笔记本是我在书店买的。 | Zhège bǐjìběn shì wǒ zài shūdiàn mǎi de. | Cuốn sổ này tôi mua ở hiệu sách.
+> 我的笔记本电脑坏了。 | Wǒ de bǐjìběn diànnǎo huài le. | Máy tính xách tay của tôi hỏng rồi.
+* 笔记本电脑 (nói tắt 笔记本) = máy tính xách tay. Khác 笔记 (bài ghi chép – bài 10).
+
+@市 | thị
+- 名 | thành phố (đơn vị hành chính)
+> 我住在市中心。 | Wǒ zhù zài shì zhōngxīn. | Tôi sống ở trung tâm thành phố.
+> 这个市有很多公园。 | Zhège shì yǒu hěn duō gōngyuán. | Thành phố này có rất nhiều công viên.
+* Hay đi sau tên riêng (… 市 = thành phố …); 市中心 = trung tâm thành phố. Thành phố nói chung = 城市.

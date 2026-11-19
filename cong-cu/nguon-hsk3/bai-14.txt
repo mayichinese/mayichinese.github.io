@@ -1,0 +1,172 @@
+# ===== NGUỒN SOẠN THẢO HSK 3 – BÀI 14 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–3.
+# Ghép: python -X utf8 cong-cu/ghep-du-lieu-cap.py 3
+
+# 14 | Thư viện và sách báo
+
+@班级 | ban cấp
+- 名 | lớp (học)
+> 我们班级有三十个学生。 | Wǒmen bānjí yǒu sānshí ge xuésheng. | Lớp chúng tôi có ba mươi học sinh.
+> 学校里每个班级都要参加表演。 | Xuéxiào li měi ge bānjí dōu yào cānjiā biǎoyǎn. | Mỗi lớp trong trường đều phải tham gia biểu diễn.
+* Trang trọng hơn 班. Nói hằng ngày: 我们班.
+
+@报纸 | báo chỉ
+- 名 | báo, tờ báo
+> 爸爸每天早上看报纸。 | Bàba měi tiān zǎoshang kàn bàozhǐ. | Bố sáng nào cũng đọc báo.
+> 现在看报纸的人越来越少了。 | Xiànzài kàn bàozhǐ de rén yuè lái yuè shǎo le. | Bây giờ người đọc báo giấy ngày càng ít.
+* Đọc báo nói 看报纸 (không dùng 读).
+
+@被 | bị
+- 介 | bị, được (câu bị động)
+> 我的自行车被人骑走了。 | Wǒ de zìxíngchē bèi rén qí zǒu le. | Xe đạp của tôi bị người ta đạp đi mất rồi.
+> 蛋糕被弟弟吃完了。 | Dàngāo bèi dìdi chī wán le. | Bánh ngọt bị em trai ăn hết rồi.
+* Mẫu: A + 被 + B + động từ + 了/kết quả (A bị B làm gì). Sau động từ phải có thêm thành phần (了, 完, 走…), không để động từ trần.
+
+@表演 | biểu diễn
+- 动 | biểu diễn
+> 晚会上，她表演了一个节目。 | Wǎnhuì shang, tā biǎoyǎn le yí ge jiémù. | Ở buổi liên hoan, cô ấy biểu diễn một tiết mục.
+> 我们班要表演一个小故事。 | Wǒmen bān yào biǎoyǎn yí ge xiǎo gùshi. | Lớp chúng tôi sẽ diễn một câu chuyện nhỏ.
+
+@词典 | từ điển
+- 名 | từ điển (tra từ)
+> 不认识的词可以查词典。 | Bú rènshi de cí kěyǐ chá cídiǎn. | Từ nào không biết thì có thể tra từ điển.
+> 这本词典很有用。 | Zhè běn cídiǎn hěn yǒuyòng. | Cuốn từ điển này rất hữu ích.
+* 查词典 = tra từ điển. 词典 giải thích từ; 字典 giải thích từng chữ.
+
+@电子书 | điện tử thư
+- 名 | sách điện tử
+> 我在手机上看电子书。 | Wǒ zài shǒujī shang kàn diànzǐshū. | Tôi đọc sách điện tử trên điện thoại.
+> 电子书又便宜又方便。 | Diànzǐshū yòu piányi yòu fāngbiàn. | Sách điện tử vừa rẻ vừa tiện.
+
+@故事 | cố sự
+- 名 | câu chuyện
+> 妈妈每天晚上给我讲故事。 | Māma měi tiān wǎnshang gěi wǒ jiǎng gùshi. | Tối nào mẹ cũng kể chuyện cho tôi nghe.
+> 这个故事很有意思。 | Zhège gùshi hěn yǒu yìsi. | Câu chuyện này rất thú vị.
+* 讲故事 = kể chuyện. Không có nghĩa "chuyện cũ" như "cố sự" trong tiếng Việt. 事 đọc nhẹ: gùshi.
+
+@节 | tiết
+- 量 | tiết (học)
+> 今天上午有四节课。 | Jīntiān shàngwǔ yǒu sì jié kè. | Sáng nay có bốn tiết học.
+- 名 | ngày lễ, ngày tết
+> 过节的时候，我们一家人一起吃饭。 | Guòjié de shíhou, wǒmen yì jiā rén yìqǐ chīfàn. | Khi ăn tết (ngày lễ), cả nhà chúng tôi cùng ăn cơm.
+* 一节课 = một tiết học. 过节 = ăn tết, đón lễ. 春节 = Tết âm lịch.
+
+@节目 | tiết mục
+- 名 | tiết mục, chương trình (biểu diễn, truyền hình)
+> 这个电视节目很好看。 | Zhège diànshì jiémù hěn hǎokàn. | Chương trình truyền hình này rất hay.
+> 晚会上有很多好看的节目。 | Wǎnhuì shang yǒu hěn duō hǎokàn de jiémù. | Buổi liên hoan có nhiều tiết mục hay.
+
+@留学生 | lưu học sinh
+- 名 | du học sinh
+> 我是越南来的留学生。 | Wǒ shì Yuènán lái de liúxuéshēng. | Tôi là du học sinh đến từ Việt Nam.
+> 我们学校有很多留学生。 | Wǒmen xuéxiào yǒu hěn duō liúxuéshēng. | Trường chúng tôi có nhiều du học sinh.
+* 留学 = đi du học. Tiếng Việt hay nói "du học sinh", ít nói "lưu học sinh".
+
+@面前 | diện tiền
+- 名 | trước mặt
+> 他就站在我面前。 | Tā jiù zhàn zài wǒ miànqián. | Anh ấy đứng ngay trước mặt tôi.
+> 在大家面前说话，我有点儿不好意思。 | Zài dàjiā miànqián shuōhuà, wǒ yǒudiǎnr bù hǎoyìsi. | Nói chuyện trước mặt mọi người, tôi hơi ngại.
+* Mẫu: 在 + người + 面前.
+
+@名人 | danh nhân
+- 名 | người nổi tiếng
+> 这个名人常常上电视。 | Zhège míngrén chángcháng shàng diànshì. | Người nổi tiếng này hay lên tivi.
+> 很多名人来过这家饭馆。 | Hěn duō míngrén lái guo zhè jiā fànguǎn. | Nhiều người nổi tiếng đã từng đến quán ăn này.
+* Tiếng Việt "danh nhân" thường là người có công lớn trong lịch sử; 名人 rộng hơn: bất kỳ ai nổi tiếng (ca sĩ, diễn viên…).
+
+@女生 | nữ sinh
+- 名 | nữ sinh, bạn nữ
+> 我们班女生比男生多。 | Wǒmen bān nǚshēng bǐ nánshēng duō. | Lớp chúng tôi nữ nhiều hơn nam.
+> 那个女生是新来的留学生。 | Nàge nǚshēng shì xīn lái de liúxuéshēng. | Bạn nữ kia là du học sinh mới đến.
+* Cũng dùng chỉ cô gái trẻ nói chung. Trái nghĩa: 男生.
+
+@然后 | nhiên hậu
+- 连 | sau đó, rồi
+> 我们先吃饭，然后去看电影。 | Wǒmen xiān chīfàn, ránhòu qù kàn diànyǐng. | Chúng ta ăn cơm trước, sau đó đi xem phim.
+> 他先洗了澡，然后就睡觉了。 | Tā xiān xǐ le zǎo, ránhòu jiù shuìjiào le. | Anh ấy tắm trước, rồi đi ngủ luôn.
+* Mẫu: 先……，然后…… = trước…, sau đó….
+
+@跳 | khiêu
+- 动 | nhảy
+> 小狗跳到了桌子上。 | Xiǎo gǒu tiào dào le zhuōzi shang. | Con chó nhỏ nhảy lên bàn.
+> 她跳舞跳得很好。 | Tā tiàowǔ tiào de hěn hǎo. | Cô ấy nhảy múa rất giỏi.
+* 跳舞 = nhảy múa, khiêu vũ.
+
+@图书馆 | đồ thư quán
+- 名 | thư viện
+> 我常常去图书馆看书。 | Wǒ chángcháng qù túshūguǎn kàn shū. | Tôi thường đến thư viện đọc sách.
+> 图书馆里很安静。 | Túshūguǎn li hěn ānjìng. | Trong thư viện rất yên tĩnh.
+* 借书 = mượn sách, 还书 = trả sách (ở thư viện).
+
+@网站 | võng trạm
+- 名 | trang web
+> 你可以在这个网站上买火车票。 | Nǐ kěyǐ zài zhège wǎngzhàn shang mǎi huǒchēpiào. | Bạn có thể mua vé tàu trên trang web này.
+> 学校的网站上有考试的时间。 | Xuéxiào de wǎngzhàn shang yǒu kǎoshì de shíjiān. | Trên trang web của trường có lịch thi.
+* 网 = mạng, 站 = trạm → "trạm trên mạng" = trang web. Nói "trên trang web": 网站上.
+
+@忘记 | vong ký
+- 动 | quên
+> 对不起，我忘记你的名字了。 | Duìbuqǐ, wǒ wàngjì nǐ de míngzi le. | Xin lỗi, tôi quên tên bạn rồi.
+> 别忘记带护照。 | Bié wàngjì dài hùzhào. | Đừng quên mang hộ chiếu.
+* Nghĩa như 忘 (cấp 2). Trái nghĩa: 记得 (nhớ).
+
+@相信 | tương tín
+- 动 | tin, tin tưởng
+> 我相信你一定能考好。 | Wǒ xiāngxìn nǐ yídìng néng kǎo hǎo. | Tôi tin bạn nhất định sẽ thi tốt.
+> 他说的话，你别相信。 | Tā shuō de huà, nǐ bié xiāngxìn. | Lời anh ta nói, bạn đừng tin.
+* 相 ở đây đọc xiāng (thanh 1).
+
+@校长 | hiệu trưởng
+- 名 | hiệu trưởng
+> 我们的校长很年轻。 | Wǒmen de xiàozhǎng hěn niánqīng. | Hiệu trưởng của chúng tôi rất trẻ.
+> 校长在晚会上讲了话。 | Xiàozhǎng zài wǎnhuì shang jiǎng le huà. | Thầy hiệu trưởng đã phát biểu ở buổi liên hoan.
+* 长 ở đây đọc zhǎng (người đứng đầu), không đọc cháng.
+
+@新年 | tân niên
+- 名 | năm mới
+> 新年快乐！ | Xīnnián kuàilè! | Chúc mừng năm mới!
+> 新年的时候，我们一家人一起出去玩儿。 | Xīnnián de shíhou, wǒmen yì jiā rén yìqǐ chūqù wánr. | Dịp năm mới, cả nhà chúng tôi cùng đi chơi.
+* 新年 thường là Tết dương lịch (1/1); Tết âm lịch là 春节.
+
+@一块儿 | nhất khối nhi
+- 副 | cùng nhau
+> 我们一块儿去吧。 | Wǒmen yíkuàir qù ba. | Chúng mình cùng đi nhé.
+- 名 | cùng một chỗ
+> 我和他住在一块儿。 | Wǒ hé tā zhù zài yíkuàir. | Tôi và anh ấy ở cùng một chỗ.
+* Khẩu ngữ, nghĩa như 一起. 一 đọc yí vì 块 thanh 4.
+
+@怎么办 | chẩm ma biện
+- cụm | làm sao bây giờ, phải làm thế nào
+> 我的钱包丢了，怎么办？ | Wǒ de qiánbāo diū le, zěnme bàn? | Tôi mất ví rồi, làm sao bây giờ?
+> 明天下雨的话怎么办？ | Míngtiān xià yǔ dehuà zěnme bàn? | Nếu mai trời mưa thì làm thế nào?
+* Dùng khi gặp chuyện khó, hỏi cách giải quyết.
+
+@最好 | tối hảo
+- 副 | tốt nhất là, nên
+> 你最好早点儿睡觉。 | Nǐ zuìhǎo zǎo diǎnr shuìjiào. | Tốt nhất là bạn nên đi ngủ sớm.
+> 外面很冷，你最好多穿点儿衣服。 | Wàimiàn hěn lěng, nǐ zuìhǎo duō chuān diǎnr yīfu. | Bên ngoài lạnh, bạn nên mặc thêm áo.
+* Đứng trước động từ để khuyên. Khác 最好 + danh từ (tốt nhất): 他是最好的学生.
+
+@最后 | tối hậu
+- 名 | cuối cùng
+> 最后，他还是来了。 | Zuìhòu, tā háishi lái le. | Cuối cùng anh ấy vẫn đến.
+> 他是最后一个到的。 | Tā shì zuìhòu yí ge dào de. | Anh ấy là người đến sau cùng.
+* Mẫu kể theo thứ tự: 先……，然后……，最后……. Trái nghĩa: 最先 / 最早.
+
+@名单 | danh đơn
+- 名 | danh sách (tên người)
+> 参加晚会的名单在这儿。 | Cānjiā wǎnhuì de míngdān zài zhèr. | Danh sách người tham gia buổi liên hoan ở đây.
+> 你的名字不在名单上。 | Nǐ de míngzi bú zài míngdān shang. | Tên bạn không có trong danh sách.
+* 名单上 = trong danh sách.
+
+@字典 | tự điển
+- 名 | từ điển (tra chữ)
+> 这个字我不认识，我查查字典。 | Zhège zì wǒ bú rènshi, wǒ chácha zìdiǎn. | Chữ này tôi không biết, để tôi tra từ điển.
+> 这本字典是老师送给我的。 | Zhè běn zìdiǎn shì lǎoshī sòng gěi wǒ de. | Cuốn từ điển này là thầy giáo tặng tôi.
+* 字典 tra từng chữ (cách đọc, nghĩa của chữ); 词典 tra từ.
+
+@铅笔 | duyên bút
+- 名 | bút chì
+> 考试的时候要带铅笔。 | Kǎoshì de shíhou yào dài qiānbǐ. | Khi đi thi phải mang bút chì.
+> 我可以用一下你的铅笔吗？ | Wǒ kěyǐ yòng yíxià nǐ de qiānbǐ ma? | Tôi dùng bút chì của bạn một chút được không?
+* 铅 = chì (kim loại), 笔 = bút. Lượng từ: 支 (一支铅笔).

@@ -1,0 +1,186 @@
+# ===== NGUỒN SOẠN THẢO HSK 3 – BÀI 15 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–3.
+# Ghép: python -X utf8 cong-cu/ghep-du-lieu-cap.py 3
+
+# 15 | Thành phố và phương hướng
+
+@草地 | thảo địa
+- 名 | bãi cỏ, thảm cỏ
+> 孩子们在草地上玩儿。 | Háizimen zài cǎodì shang wánr. | Bọn trẻ chơi trên bãi cỏ.
+> 请不要在草地上走。 | Qǐng bú yào zài cǎodì shang zǒu. | Xin đừng đi trên bãi cỏ.
+
+@段 | đoạn
+- 量 | đoạn, quãng (đường, thời gian, bài viết)
+> 这段路不太好走。 | Zhè duàn lù bú tài hǎo zǒu. | Đoạn đường này hơi khó đi.
+> 这段时间我很忙。 | Zhè duàn shíjiān wǒ hěn máng. | Dạo này (khoảng thời gian này) tôi rất bận.
+* 一段时间 = một khoảng thời gian; 一段路 = một quãng đường.
+
+@放学 | phóng học
+- 动 | tan học
+> 下午四点放学。 | Xiàwǔ sì diǎn fàngxué. | Bốn giờ chiều tan học.
+> 放学以后，我们一起去打球吧。 | Fàngxué yǐhòu, wǒmen yìqǐ qù dǎ qiú ba. | Tan học xong, chúng mình cùng đi chơi bóng nhé.
+* 放学 = tan học (về nhà trong ngày); 下班 = tan làm; 放假 = được nghỉ (nhiều ngày).
+
+@附近 | phụ cận
+- 名 | gần đây, quanh đây, lân cận
+> 这附近有银行吗？ | Zhè fùjìn yǒu yínháng ma? | Gần đây có ngân hàng không?
+> 我家附近有一个大超市。 | Wǒ jiā fùjìn yǒu yí ge dà chāoshì. | Gần nhà tôi có một siêu thị lớn.
+* Nơi chốn + 附近 = gần chỗ đó (学校附近 = gần trường).
+
+@根据 | căn cứ
+- 介 | căn cứ vào, dựa vào, theo
+> 根据地图，银行就在前面。 | Gēnjù dìtú, yínháng jiù zài qiánmiàn. | Theo bản đồ thì ngân hàng ở ngay phía trước.
+> 老师根据学生的水平上课。 | Lǎoshī gēnjù xuésheng de shuǐpíng shàngkè. | Thầy giáo dạy học dựa theo trình độ của học sinh.
+* Giống tiếng Việt "căn cứ vào…". Hay đứng đầu câu: 根据……，…….
+
+@关系 | quan hệ
+- 名 | quan hệ, mối quan hệ
+> 我和同学的关系很好。 | Wǒ hé tóngxué de guānxì hěn hǎo. | Tôi với các bạn cùng lớp rất thân.
+> 你们两个是什么关系？ | Nǐmen liǎng ge shì shénme guānxì? | Hai bạn là quan hệ gì với nhau?
+* 没关系 = không sao. A 和 B 的关系很好 = A với B thân với nhau.
+
+@河 | hà
+- 名 | sông
+> 我家前面有一条河。 | Wǒ jiā qiánmiàn yǒu yì tiáo hé. | Trước nhà tôi có một con sông.
+> 夏天很多人在河里游泳。 | Xiàtiān hěn duō rén zài hé li yóuyǒng. | Mùa hè nhiều người bơi ở sông.
+* Lượng từ: 条 (一条河). 河边 = bờ sông.
+
+@经过 | kinh qua
+- 动 | đi qua, ngang qua; trải qua
+> 去学校要经过一个公园。 | Qù xuéxiào yào jīngguò yí ge gōngyuán. | Đi đến trường phải đi ngang qua một công viên.
+> 经过一年的学习，他的汉语好多了。 | Jīngguò yì nián de xuéxí, tā de Hànyǔ hǎo duō le. | Sau một năm học, tiếng Hán của anh ấy khá hơn nhiều.
+- 名 | quá trình, diễn biến (của sự việc)
+> 你说说这件事的经过。 | Nǐ shuōshuo zhè jiàn shì de jīngguò. | Bạn kể lại diễn biến chuyện này đi.
+* 经过 + nơi chốn = đi ngang qua; 经过 + thời gian/việc = sau khi trải qua.
+
+@可是 | khả thị
+- 连 | nhưng, nhưng mà
+> 这件衣服很好看，可是太贵了。 | Zhè jiàn yīfu hěn hǎokàn, kěshì tài guì le. | Cái áo này rất đẹp, nhưng đắt quá.
+> 我很想去，可是没有时间。 | Wǒ hěn xiǎng qù, kěshì méiyǒu shíjiān. | Tôi rất muốn đi, nhưng không có thời gian.
+* Nghĩa như 但是, hay dùng khi nói chuyện. Không có nghĩa "khả thị" (có thể là) như từng chữ.
+
+@蓝 | lam
+- 形 | xanh lam, xanh da trời
+> 今天的天很蓝。 | Jīntiān de tiān hěn lán. | Bầu trời hôm nay rất xanh.
+> 我喜欢蓝色的衣服。 | Wǒ xǐhuan lánsè de yīfu. | Tôi thích quần áo màu xanh dương.
+* Tiếng Việt "xanh" gộp nhiều màu; tiếng Hán tách ra: 蓝 = xanh dương, 绿 = xanh lá.
+
+@老人 | lão nhân
+- 名 | người già, người cao tuổi
+> 这位老人每天早上去公园。 | Zhè wèi lǎorén měi tiān zǎoshang qù gōngyuán. | Cụ già này sáng nào cũng ra công viên.
+> 我们要多帮助老人。 | Wǒmen yào duō bāngzhù lǎorén. | Chúng ta nên giúp đỡ người già nhiều hơn.
+* Nói lịch sự về một người: 这位老人.
+
+@聊 | liêu
+- 动 | nói chuyện, tán gẫu
+> 我们聊了一个晚上。 | Wǒmen liáo le yí ge wǎnshang. | Chúng tôi nói chuyện cả buổi tối.
+> 有时间我们再聊吧。 | Yǒu shíjiān wǒmen zài liáo ba. | Khi nào rảnh mình nói chuyện tiếp nhé.
+* 聊 có thể có nội dung đi sau (聊工作, 聊电影); 聊天儿 thì không.
+
+@了解 | liễu giải
+- 动 | hiểu, hiểu rõ; tìm hiểu
+> 我很了解他。 | Wǒ hěn liǎojiě tā. | Tôi rất hiểu anh ấy.
+> 我想多了解一下中国文化。 | Wǒ xiǎng duō liǎojiě yíxià Zhōngguó wénhuà. | Tôi muốn tìm hiểu thêm về văn hóa Trung Quốc.
+* 了 ở đây đọc liǎo, không đọc le. 知道 = biết (một thông tin); 了解 = hiểu rõ (người, sự việc).
+
+@马路 | mã lộ
+- 名 | đường cái, đường phố
+> 过马路的时候要小心。 | Guò mǎlù de shíhou yào xiǎoxīn. | Khi sang đường phải cẩn thận.
+> 马路对面有一家饭馆。 | Mǎlù duìmiàn yǒu yì jiā fànguǎn. | Bên kia đường có một quán ăn.
+* 过马路 = sang đường. Không liên quan đến "ngựa" (马) dù chữ có nghĩa là ngựa.
+
+@平时 | bình thời
+- 名 | ngày thường, bình thường
+> 我平时七点起床。 | Wǒ píngshí qī diǎn qǐchuáng. | Ngày thường tôi dậy lúc bảy giờ.
+> 他平时不太说话，今天说了很多。 | Tā píngshí bú tài shuōhuà, jīntiān shuō le hěn duō. | Bình thường anh ấy ít nói, hôm nay lại nói rất nhiều.
+* Đối lập với những ngày đặc biệt (cuối tuần, ngày lễ, hôm nay…).
+
+@外地 | ngoại địa
+- 名 | nơi khác, địa phương khác (không phải nơi mình ở)
+> 他是从外地来的。 | Tā shì cóng wàidì lái de. | Anh ấy từ nơi khác đến.
+> 我爸爸在外地工作。 | Wǒ bàba zài wàidì gōngzuò. | Bố tôi làm việc ở tỉnh khác.
+* 外地 là nơi khác trong cùng một nước, KHÔNG phải nước ngoài (外国). 外地人 = người nơi khác đến.
+
+@西北 | tây bắc
+- 名 | phía tây bắc
+> 学校的西北有一个公园。 | Xuéxiào de xīběi yǒu yí ge gōngyuán. | Phía tây bắc của trường có một công viên.
+> 中国西北的天气比较干。 | Zhōngguó xīběi de tiānqì bǐjiào gān. | Thời tiết vùng tây bắc Trung Quốc khá khô.
+* Thứ tự giống tiếng Việt: 东北 đông bắc, 西南 tây nam, 东南 đông nam.
+
+@养 | dưỡng
+- 动 | nuôi
+> 我家养了一只小狗。 | Wǒ jiā yǎng le yì zhī xiǎo gǒu. | Nhà tôi nuôi một con chó nhỏ.
+> 养孩子不容易。 | Yǎng háizi bù róngyì. | Nuôi con không dễ.
+* Dùng cho con vật, con cái, cây hoa. Hán Việt "dưỡng" như trong "nuôi dưỡng".
+
+@以上 | dĩ thượng
+- 名 | trở lên, trên (một con số)
+> 这个电影十八岁以上才能看。 | Zhège diànyǐng shíbā suì yǐshàng cái néng kàn. | Phim này từ mười tám tuổi trở lên mới được xem.
+> 我每天学习一个小时以上。 | Wǒ měi tiān xuéxí yí ge xiǎoshí yǐshàng. | Mỗi ngày tôi học từ một tiếng trở lên.
+* Số + 以上 = từ số đó trở lên. Trái nghĩa: 以下.
+
+@游客 | du khách
+- 名 | khách du lịch, du khách
+> 这里每年有很多游客。 | Zhèli měi nián yǒu hěn duō yóukè. | Ở đây năm nào cũng có nhiều du khách.
+> 周末公园里游客很多。 | Zhōumò gōngyuán li yóukè hěn duō. | Cuối tuần trong công viên có rất nhiều khách tham quan.
+
+@游戏 | du hí
+- 名 | trò chơi
+> 孩子们在草地上做游戏。 | Háizimen zài cǎodì shang zuò yóuxì. | Bọn trẻ đang chơi trò chơi trên bãi cỏ.
+> 别玩儿手机游戏了，快睡觉。 | Bié wánr shǒujī yóuxì le, kuài shuìjiào. | Đừng chơi game trên điện thoại nữa, mau đi ngủ.
+* 做游戏 = chơi trò chơi (cùng nhau); 玩儿游戏 = chơi game.
+
+@有名 | hữu danh
+- 形 | nổi tiếng, có tiếng
+> 这个饭馆很有名。 | Zhège fànguǎn hěn yǒumíng. | Quán ăn này rất nổi tiếng.
+> 他是一个有名的画家。 | Tā shì yí ge yǒumíng de huàjiā. | Ông ấy là một họa sĩ nổi tiếng.
+* 有名 là tính từ (很有名); 名人 là danh từ (người nổi tiếng).
+
+@遇见 | ngộ kiến
+- 动 | gặp (tình cờ)
+> 我在路上遇见了一个老同学。 | Wǒ zài lù shang yùjiàn le yí ge lǎo tóngxué. | Tôi tình cờ gặp một bạn học cũ trên đường.
+> 真没想到在这儿遇见你！ | Zhēn méi xiǎngdào zài zhèr yùjiàn nǐ! | Thật không ngờ lại gặp bạn ở đây!
+* 遇见 = gặp không hẹn trước; hẹn gặp nhau thì dùng 见面.
+
+@北 | bắc
+- 名 | phía bắc, hướng bắc
+> 我们往北走吧。 | Wǒmen wǎng běi zǒu ba. | Chúng ta đi về hướng bắc đi.
+> 学校在公园的北边。 | Xuéxiào zài gōngyuán de běibian. | Trường ở phía bắc công viên.
+* 往 + hướng + 走 = đi về hướng nào. 北边 = phía bắc.
+
+@东 | đông
+- 名 | phía đông, hướng đông
+> 太阳从东边出来。 | Tàiyáng cóng dōngbian chūlái. | Mặt trời mọc ở phía đông.
+> 一直往东走，就到了。 | Yìzhí wǎng dōng zǒu, jiù dào le. | Cứ đi thẳng về hướng đông là tới.
+* 东边 = phía đông.
+
+@南 | nam
+- 名 | phía nam, hướng nam
+> 我家在城市的南边。 | Wǒ jiā zài chéngshì de nánbian. | Nhà tôi ở phía nam thành phố.
+> 从这儿往南走五百米就是车站。 | Cóng zhèr wǎng nán zǒu wǔbǎi mǐ jiù shì chēzhàn. | Từ đây đi về hướng nam năm trăm mét là bến xe.
+* 南边 = phía nam.
+
+@西 | tây
+- 名 | phía tây, hướng tây
+> 他家在河的西边。 | Tā jiā zài hé de xībian. | Nhà anh ấy ở phía tây con sông.
+> 一直往西走，你会看到一个公园。 | Yìzhí wǎng xī zǒu, nǐ huì kàn dào yí ge gōngyuán. | Cứ đi thẳng về hướng tây, bạn sẽ thấy một công viên.
+* Dễ nhầm: 东西 đọc dōngxi (thanh nhẹ) = đồ vật; còn "phía đông và phía tây" mới đọc dōngxī.
+
+@中 | trung
+- 名 | trong, trong số; trong lúc
+> 他是我们三个人中最高的。 | Tā shì wǒmen sān ge rén zhōng zuì gāo de. | Anh ấy cao nhất trong ba chúng tôi.
+> 在学习中遇到问题，可以问老师。 | Zài xuéxí zhōng yù dào wèntí, kěyǐ wèn lǎoshī. | Trong lúc học gặp vấn đề thì có thể hỏi thầy cô.
+* ……中 = trong số…; 在……中 = trong (quá trình)….
+
+@草 | thảo
+- 名 | cỏ
+> 春天到了，草都绿了。 | Chūntiān dào le, cǎo dōu lǜ le. | Mùa xuân đến rồi, cỏ đều xanh cả.
+> 马在河边吃草。 | Mǎ zài hébiān chī cǎo. | Con ngựa đang ăn cỏ bên bờ sông.
+* 草地 = bãi cỏ.
+
+@以下 | dĩ hạ
+- 名 | trở xuống, dưới (một con số)
+> 六岁以下的孩子不用买票。 | Liù suì yǐxià de háizi bú yòng mǎi piào. | Trẻ em từ sáu tuổi trở xuống không phải mua vé.
+- 名 | sau đây, dưới đây
+> 请回答以下问题。 | Qǐng huídá yǐxià wèntí. | Hãy trả lời các câu hỏi sau đây.
+* Trái nghĩa: 以上. 以下 còn dùng để chỉ phần sắp nói tiếp (以下问题 = những câu hỏi sau đây).

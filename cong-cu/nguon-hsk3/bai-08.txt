@@ -1,0 +1,166 @@
+# ===== NGUỒN SOẠN THẢO HSK 3 – BÀI 8 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–3.
+
+# 8 | Sức khỏe và bệnh viện
+
+@病人 | bệnh nhân
+- 名 | người bệnh, bệnh nhân
+> 医生正在给病人看病。 | Yīshēng zhèngzài gěi bìngrén kànbìng. | Bác sĩ đang khám bệnh cho bệnh nhân.
+> 病人要多休息。 | Bìngrén yào duō xiūxi. | Người bệnh cần nghỉ ngơi nhiều.
+* Âm Hán Việt và nghĩa giống tiếng Việt. 看病 = khám bệnh, đi khám bệnh.
+
+@差不多 | sai bất đa
+- 形 | gần giống nhau, xấp xỉ
+> 我和哥哥身高差不多。 | Wǒ hé gēge shēngāo chàbuduō. | Tôi và anh trai cao xấp xỉ nhau.
+- 副 | gần như, hầu như; khoảng chừng
+> 我的感冒差不多好了。 | Wǒ de gǎnmào chàbuduō hǎo le. | Bệnh cảm của tôi gần khỏi rồi.
+> 我们差不多等了一个小时。 | Wǒmen chàbuduō děng le yí ge xiǎoshí. | Chúng tôi đợi gần một tiếng đồng hồ.
+* 差 ở đây đọc chà, 不 đọc nhẹ (bu). A 和 B 差不多 = A và B gần như nhau.
+
+@常 | thường
+- 副 | thường, hay
+> 我常去公园跑步。 | Wǒ cháng qù gōngyuán pǎobù. | Tôi hay ra công viên chạy bộ.
+> 你常来这儿吗？ | Nǐ cháng lái zhèr ma? | Bạn có hay đến đây không?
+* 常 = 常常 (thường xuyên). Phủ định: 不常 (không hay…).
+
+@出院 | xuất viện
+- 动 | ra viện, xuất viện
+> 他明天就可以出院了。 | Tā míngtiān jiù kěyǐ chūyuàn le. | Ngày mai anh ấy có thể ra viện rồi.
+> 奶奶出院以后身体好多了。 | Nǎinai chūyuàn yǐhòu shēntǐ hǎo duō le. | Bà nội ra viện xong sức khỏe tốt lên nhiều.
+* Trái nghĩa: 住院 (nằm viện).
+
+@担心 | đảm tâm
+- 动 | lo, lo lắng
+> 别担心，我没事。 | Bié dānxīn, wǒ méi shì. | Đừng lo, tôi không sao.
+> 妈妈很担心我的身体。 | Māma hěn dānxīn wǒ de shēntǐ. | Mẹ rất lo cho sức khỏe của tôi.
+* 担心 = lo (sợ có chuyện không hay); 关心 = quan tâm (để ý, chăm lo). 别担心 = đừng lo.
+
+@得(děi) | đắc
+- 动 | phải, cần phải
+> 你病了，得去医院看看。 | Nǐ bìng le, děi qù yīyuàn kànkan. | Bạn ốm rồi, phải đi bệnh viện khám xem.
+> 太晚了，我得走了。 | Tài wǎn le, wǒ děi zǒu le. | Muộn quá rồi, tôi phải đi đây.
+* Chữ đa âm: ở đây đọc děi = phải (văn nói). Phủ định dùng 不用 (không cần), không nói “不得”. 得 còn đọc dé (được) và de (trợ từ: 跑得快).
+
+@耳朵 | nhĩ đóa
+- 名 | tai
+> 我的耳朵有点儿疼。 | Wǒ de ěrduo yǒudiǎnr téng. | Tai tôi hơi đau.
+> 他耳朵不太好，你说话大声一点儿。 | Tā ěrduo bú tài hǎo, nǐ shuōhuà dàshēng yìdiǎnr. | Tai ông ấy không được tốt lắm, bạn nói to lên một chút.
+* 朵 đọc nhẹ: ěrduo.
+
+@发烧 | phát thiêu
+- 动 | sốt, bị sốt
+> 我发烧了，不能去上课。 | Wǒ fāshāo le, bù néng qù shàngkè. | Tôi bị sốt rồi, không đi học được.
+> 孩子昨天晚上发烧了。 | Háizi zuótiān wǎnshang fāshāo le. | Tối qua đứa bé bị sốt.
+* 烧 = đốt, nóng; 发烧 = người nóng lên, tức là bị sốt.
+
+@方法 | phương pháp
+- 名 | phương pháp, cách
+> 学汉语有什么好方法？ | Xué Hànyǔ yǒu shénme hǎo fāngfǎ? | Học tiếng Hán có phương pháp gì hay?
+> 这个方法很好，你也试试吧。 | Zhège fāngfǎ hěn hǎo, nǐ yě shìshi ba. | Cách này rất hay, bạn cũng thử xem.
+* Dùng cả cho “cách làm” việc hằng ngày, không chỉ trong sách vở. Gần nghĩa 办法 (cách giải quyết, bài 11).
+
+@感冒 | cảm mạo
+- 动 | bị cảm
+> 我感冒了，头很疼。 | Wǒ gǎnmào le, tóu hěn téng. | Tôi bị cảm, đầu rất đau.
+> 天冷了，小心别感冒。 | Tiān lěng le, xiǎoxīn bié gǎnmào. | Trời lạnh rồi, cẩn thận kẻo bị cảm.
+- 名 | bệnh cảm
+> 他的感冒还没好。 | Tā de gǎnmào hái méi hǎo. | Bệnh cảm của anh ấy vẫn chưa khỏi.
+* 感冒了 = bị cảm rồi. 感冒 và 发烧 hay đi cùng nhau.
+
+@关心 | quan tâm
+- 动 | quan tâm (đến)
+> 爸爸妈妈都很关心我。 | Bàba māma dōu hěn guānxīn wǒ. | Bố mẹ đều rất quan tâm đến tôi.
+> 老师很关心我们的学习。 | Lǎoshī hěn guānxīn wǒmen de xuéxí. | Thầy giáo rất quan tâm đến việc học của chúng tôi.
+* Âm Hán Việt và nghĩa giống tiếng Việt. 关心 + người/việc, không cần thêm “đến”. Khác 担心 (lo lắng).
+
+@健康 | kiện khang
+- 形 | khỏe mạnh
+> 爷爷八十岁了，还很健康。 | Yéye bāshí suì le, hái hěn jiànkāng. | Ông nội tám mươi tuổi rồi mà vẫn rất khỏe mạnh.
+> 多运动，身体才会健康。 | Duō yùndòng, shēntǐ cái huì jiànkāng. | Vận động nhiều thì cơ thể mới khỏe mạnh.
+* 身体健康 = sức khỏe tốt. Dùng như danh từ “sức khỏe”: 健康最重要.
+
+@开心 | khai tâm
+- 形 | vui, vui vẻ
+> 今天玩得很开心！ | Jīntiān wán de hěn kāixīn! | Hôm nay chơi rất vui!
+> 他出院了，大家都很开心。 | Tā chūyuàn le, dàjiā dōu hěn kāixīn. | Anh ấy ra viện rồi, mọi người đều rất vui.
+* Gần nghĩa 高兴. Không phải “khai tâm” (mở mang trí tuệ) trong tiếng Việt.
+
+@胖 | bàn
+- 形 | béo, mập
+> 我最近胖了两公斤。 | Wǒ zuìjìn pàng le liǎng gōngjīn. | Dạo này tôi béo lên hai ký.
+> 他小时候很胖。 | Tā xiǎo shíhou hěn pàng. | Hồi nhỏ anh ấy rất mập.
+* Trái nghĩa: 瘦 (gầy, bài 1). 胖了 = béo lên.
+
+@其他 | kỳ tha
+- 代 | khác, những … khác
+> 你还有其他问题吗？ | Nǐ hái yǒu qítā wèntí ma? | Bạn còn câu hỏi nào khác không?
+> 我只认识他，不认识其他人。 | Wǒ zhǐ rènshi tā, bú rènshi qítā rén. | Tôi chỉ quen anh ấy, không quen những người khác.
+* 其他 + danh từ = … khác. Gần nghĩa 别的 (bài 4).
+
+@体育馆 | thể dục quán
+- 名 | nhà thi đấu, nhà thể thao
+> 我们学校有一个很大的体育馆。 | Wǒmen xuéxiào yǒu yí ge hěn dà de tǐyùguǎn. | Trường chúng tôi có một nhà thi đấu rất lớn.
+> 下午我去体育馆打球。 | Xiàwǔ wǒ qù tǐyùguǎn dǎ qiú. | Chiều nay tôi đến nhà thể thao chơi bóng.
+* 馆 = tòa nhà công cộng: 体育馆, 图书馆 (thư viện).
+
+@突然 | đột nhiên
+- 形 | đột nhiên, bất ngờ, đột ngột
+> 他突然病了。 | Tā tūrán bìng le. | Anh ấy đột nhiên bị ốm.
+> 这件事太突然了。 | Zhè jiàn shì tài tūrán le. | Chuyện này đột ngột quá.
+* 突然 + động từ = đột nhiên làm gì; 很/太突然 = rất đột ngột.
+
+@腿 | thối
+- 名 | chân (phần từ hông đến cổ chân)
+> 我的腿很疼，走不了路。 | Wǒ de tuǐ hěn téng, zǒu bu liǎo lù. | Chân tôi rất đau, không đi được.
+> 他的腿很长。 | Tā de tuǐ hěn cháng. | Chân anh ấy rất dài.
+* Tiếng Việt đều gọi là “chân”, nhưng 腿 là phần cẳng/đùi, còn bàn chân là 脚 (bài 16).
+
+@习惯 | tập quán
+- 名 | thói quen
+> 早睡早起是好习惯。 | Zǎo shuì zǎo qǐ shì hǎo xíguàn. | Ngủ sớm dậy sớm là thói quen tốt.
+- 动 | quen (với)
+> 我已经习惯了这儿的生活。 | Wǒ yǐjīng xíguàn le zhèr de shēnghuó. | Tôi đã quen với cuộc sống ở đây rồi.
+> 你习惯吃中国菜吗？ | Nǐ xíguàn chī Zhōngguó cài ma? | Bạn có quen ăn món Trung Quốc không?
+* Nghĩa hay gặp là “thói quen” và “quen với”, không phải “tập quán” (phong tục) như trong tiếng Việt.
+
+@心里 | tâm lý
+- 名 | trong lòng
+> 他心里很着急。 | Tā xīnlǐ hěn zháojí. | Trong lòng anh ấy rất sốt ruột.
+> 有什么事别放在心里，说出来吧。 | Yǒu shénme shì bié fàng zài xīnlǐ, shuō chūlái ba. | Có chuyện gì thì đừng giữ trong lòng, nói ra đi.
+* 里 = bên trong: 心里 = trong lòng (cảm xúc, suy nghĩ). Dễ nhầm với “tâm lý” trong tiếng Việt (là 心理, chữ khác).
+
+@以后 | dĩ hậu
+- 名 | sau này; sau (khi)
+> 以后我想当医生。 | Yǐhòu wǒ xiǎng dāng yīshēng. | Sau này tôi muốn làm bác sĩ.
+> 吃饭以后别马上运动。 | Chī fàn yǐhòu bié mǎshàng yùndòng. | Ăn cơm xong đừng vận động ngay.
+* Đứng một mình = sau này; việc + 以后 = sau khi làm việc đó. Trái nghĩa: 以前.
+
+@羽毛球 | vũ mao cầu
+- 名 | cầu lông
+> 你会打羽毛球吗？ | Nǐ huì dǎ yǔmáoqiú ma? | Bạn có biết đánh cầu lông không?
+> 周末我常和朋友打羽毛球。 | Zhōumò wǒ cháng hé péngyou dǎ yǔmáoqiú. | Cuối tuần tôi hay đánh cầu lông với bạn.
+* Động từ đi kèm: 打 (打羽毛球, 打网球, 打篮球). 羽毛 = lông vũ.
+
+@种 | chủng
+- 量 | loại, kiểu
+> 这种水果叫什么？ | Zhè zhǒng shuǐguǒ jiào shénme? | Loại hoa quả này tên là gì?
+> 我喜欢这两种颜色。 | Wǒ xǐhuan zhè liǎng zhǒng yánsè. | Tôi thích hai màu này.
+* Chữ đa âm: đọc zhǒng = loại; đọc zhòng = trồng (cấp cao hơn). 这种 = loại này.
+
+@住院 | trú viện
+- 动 | nằm viện
+> 他病得很重，得住院。 | Tā bìng de hěn zhòng, děi zhùyuàn. | Anh ấy ốm nặng, phải nằm viện.
+> 奶奶住院一个星期了。 | Nǎinai zhùyuàn yí ge xīngqī le. | Bà nội nằm viện một tuần rồi.
+* Trái nghĩa: 出院 (ra viện). 住 = ở: 住院 = ở lại bệnh viện.
+
+@注意 | chú ý
+- 动 | chú ý, để ý; giữ gìn
+> 过马路要注意安全。 | Guò mǎlù yào zhùyì ānquán. | Qua đường phải chú ý an toàn.
+> 注意身体，别太累了。 | Zhùyì shēntǐ, bié tài lèi le. | Giữ gìn sức khỏe, đừng để mệt quá.
+* Âm Hán Việt và nghĩa giống tiếng Việt. 注意身体 = giữ gìn sức khỏe.
+
+@最近 | tối cận
+- 名 | dạo này, gần đây
+> 你最近怎么样？ | Nǐ zuìjìn zěnmeyàng? | Dạo này bạn thế nào?
+> 我最近工作很忙。 | Wǒ zuìjìn gōngzuò hěn máng. | Dạo này tôi bận công việc lắm.
+* 最近 = dạo này. Khi là 最 + 近 thì nghĩa là “gần nhất”: 最近的银行 = ngân hàng gần nhất.

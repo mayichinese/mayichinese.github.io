@@ -1,0 +1,170 @@
+# ===== NGUỒN SOẠN THẢO HSK 3 – BÀI 17 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–3.
+
+# 17 | Học hỏi người khác
+
+@比如 | tỷ như
+- 动 | ví dụ như, chẳng hạn như
+> 我喜欢很多动物，比如猫、狗和大熊猫。 | Wǒ xǐhuan hěn duō dòngwù, bǐrú māo, gǒu hé dàxióngmāo. | Tôi thích nhiều con vật, chẳng hạn như mèo, chó và gấu trúc.
+> 学汉语有很多好方法，比如多听多说。 | Xué Hànyǔ yǒu hěn duō hǎo fāngfǎ, bǐrú duō tīng duō shuō. | Học tiếng Hán có nhiều cách hay, ví dụ như nghe nhiều nói nhiều.
+* Cũng nói 比如说. Đứng trước các ví dụ được kể ra.
+
+@查 | tra
+- 动 | tra, tra cứu; kiểm tra
+> 不知道的事可以上网查一下。 | Bù zhīdào de shì kěyǐ shàngwǎng chá yíxià. | Việc gì không biết thì có thể lên mạng tra một chút.
+> 医生给我查了一下身体。 | Yīshēng gěi wǒ chá le yíxià shēntǐ. | Bác sĩ khám sức khỏe cho tôi một chút.
+* 查 = tìm thông tin (tra từ, tra đường) hoặc kiểm tra. 检查 (kiểm tra) trang trọng hơn.
+
+@常见 | thường kiến
+- cụm | thường gặp, phổ biến
+> 这是一种很常见的动物。 | Zhè shì yì zhǒng hěn chángjiàn de dòngwù. | Đây là một loài vật rất thường gặp.
+> 这个字在生活中很常见。 | Zhège zì zài shēnghuó zhōng hěn chángjiàn. | Chữ này rất hay gặp trong cuộc sống.
+* 常 (thường) + 见 (gặp). Ngược lại: 少见 (hiếm gặp).
+
+@聪明 | thông minh
+- 形 | thông minh
+> 这个孩子很聪明。 | Zhège háizi hěn cōngmíng. | Đứa trẻ này rất thông minh.
+> 小狗很聪明，它听得懂我的话。 | Xiǎo gǒu hěn cōngmíng, tā tīng de dǒng wǒ de huà. | Con chó con rất thông minh, nó hiểu được lời tôi nói.
+
+@到处 | đáo xứ
+- 副 | khắp nơi, chỗ nào cũng
+> 我到处找你，你去哪儿了？ | Wǒ dàochù zhǎo nǐ, nǐ qù nǎr le? | Tôi tìm bạn khắp nơi, bạn đi đâu vậy?
+> 春天到了，公园里到处都是花。 | Chūntiān dào le, gōngyuán li dàochù dōu shì huā. | Mùa xuân đến rồi, trong công viên đâu đâu cũng là hoa.
+* Hay đi với 都: 到处都是…… = chỗ nào cũng là…
+
+@方向 | phương hướng
+- 名 | hướng, phương hướng
+> 我们走错方向了。 | Wǒmen zǒucuò fāngxiàng le. | Chúng ta đi nhầm hướng rồi.
+> 火车站在哪个方向？ | Huǒchēzhàn zài nǎge fāngxiàng? | Ga tàu ở hướng nào?
+* 东、南、西、北 đều là 方向.
+
+@关机 | quan cơ
+- 动 | tắt máy (điện thoại, máy tính)
+> 我给他打电话，可他关机了。 | Wǒ gěi tā dǎ diànhuà, kě tā guānjī le. | Tôi gọi điện cho anh ấy, nhưng anh ấy tắt máy rồi.
+> 上课的时候请关机。 | Shàngkè de shíhou qǐng guānjī. | Trong giờ học xin hãy tắt máy.
+* Ngược lại: 开机 (bật máy). 关 = đóng, tắt; 机 = máy.
+
+@国家 | quốc gia
+- 名 | đất nước, quốc gia
+> 你去过哪些国家？ | Nǐ qùguo nǎxiē guójiā? | Bạn đã đến những nước nào?
+> 中国是一个很大的国家。 | Zhōngguó shì yí ge hěn dà de guójiā. | Trung Quốc là một đất nước rất lớn.
+* Lượng từ: 个 (一个国家).
+
+@害怕 | hại phạ
+- 动 | sợ, sợ hãi
+> 我害怕大狗。 | Wǒ hàipà dà gǒu. | Tôi sợ chó to.
+> 别害怕，我在你身边。 | Bié hàipà, wǒ zài nǐ shēnbiān. | Đừng sợ, có tôi ở bên cạnh bạn.
+* = 怕. 害 ở đây không mang nghĩa “làm hại” như chữ “hại” trong tiếng Việt.
+
+@回答 | hồi đáp
+- 动 | trả lời
+> 请回答我的问题。 | Qǐng huídá wǒ de wèntí. | Hãy trả lời câu hỏi của tôi.
+> 他回答得很好。 | Tā huídá de hěn hǎo. | Anh ấy trả lời rất tốt.
+* 回答问题 = trả lời câu hỏi. Trả lời tin nhắn thường nói 回 (回信息).
+
+@可 | khả
+- 连 | nhưng, nhưng mà
+> 我很想去，可没有时间。 | Wǒ hěn xiǎng qù, kě méiyǒu shíjiān. | Tôi rất muốn đi, nhưng không có thời gian.
+> 他说要来，可到现在还没来。 | Tā shuō yào lái, kě dào xiànzài hái méi lái. | Anh ấy bảo sẽ đến, nhưng đến giờ vẫn chưa đến.
+* = 可是 / 但是, dùng nhiều trong khẩu ngữ.
+
+@留学 | lưu học
+- 动 | du học
+> 我想去中国留学。 | Wǒ xiǎng qù Zhōngguó liúxué. | Tôi muốn đi Trung Quốc du học.
+> 她上大学的时候去日本留学了。 | Tā shàng dàxué de shíhou qù Rìběn liúxué le. | Hồi học đại học cô ấy đi Nhật Bản du học.
+* Tiếng Việt nói “du học”, tiếng Trung nói 留学. 留学生 = du học sinh. Tách được: 留过学.
+
+@楼梯 | lâu thê
+- 名 | cầu thang
+> 电梯坏了，我们走楼梯吧。 | Diàntī huài le, wǒmen zǒu lóutī ba. | Thang máy hỏng rồi, chúng ta đi cầu thang bộ nhé.
+> 上楼梯的时候要小心。 | Shàng lóutī de shíhou yào xiǎoxīn. | Lúc lên cầu thang phải cẩn thận.
+* 电梯 = thang máy; 楼梯 = cầu thang bộ.
+
+@难题 | nan đề
+- 名 | vấn đề khó, bài toán khó
+> 这是一个大难题。 | Zhè shì yí ge dà nántí. | Đây là một vấn đề rất khó.
+> 老师帮我解决了这个难题。 | Lǎoshī bāng wǒ jiějué le zhège nántí. | Thầy giáo giúp tôi giải quyết vấn đề khó này.
+* 难 (khó) + 题 (đề, câu hỏi). Hay đi với 解决 (giải quyết).
+
+@前天 | tiền thiên
+- 名 | hôm kia
+> 我前天去了动物园。 | Wǒ qiántiān qù le dòngwùyuán. | Hôm kia tôi đi sở thú.
+> 前天是星期一，今天是星期三。 | Qiántiān shì xīngqīyī, jīntiān shì xīngqīsān. | Hôm kia là thứ Hai, hôm nay là thứ Tư.
+* 前天 – 昨天 – 今天 – 明天 – 后天 (hôm kia – hôm qua – hôm nay – ngày mai – ngày kia).
+
+@认为 | nhận vi
+- 动 | cho rằng, nghĩ rằng
+> 我认为这个办法很好。 | Wǒ rènwéi zhège bànfǎ hěn hǎo. | Tôi cho rằng cách này rất hay.
+> 你认为他说得对吗？ | Nǐ rènwéi tā shuō de duì ma? | Bạn có cho rằng anh ấy nói đúng không?
+* Nêu ý kiến của mình. Khác 以为 (tưởng – thường là nghĩ sai).
+
+@容易 | dung dị
+- 形 | dễ, dễ dàng
+> 这个问题很容易。 | Zhège wèntí hěn róngyì. | Vấn đề này rất dễ.
+> 汉字不容易写。 | Hànzì bù róngyì xiě. | Chữ Hán không dễ viết.
+> 天冷的时候容易生病。 | Tiān lěng de shíhou róngyì shēngbìng. | Lúc trời lạnh dễ bị ốm.
+* 容易 + động từ = dễ (làm gì); cũng = dễ (xảy ra chuyện không hay). Trái nghĩa: 难.
+
+@生气 | sinh khí
+- 动 | tức giận, giận
+> 你别生气了。 | Nǐ bié shēngqì le. | Bạn đừng giận nữa.
+> 他为什么生气？ | Tā wèishénme shēngqì? | Sao anh ấy giận vậy?
+* Không phải “sinh khí” (sức sống) trong tiếng Việt. Giận ai: 生……的气 (他生我的气了).
+
+@同意 | đồng ý
+- 动 | đồng ý, tán thành
+> 我同意你的看法。 | Wǒ tóngyì nǐ de kànfǎ. | Tôi đồng ý với ý kiến của bạn.
+> 爸爸不同意我一个人去旅游。 | Bàba bù tóngyì wǒ yí ge rén qù lǚyóu. | Bố không đồng ý cho tôi đi du lịch một mình.
+* 同意 + người/ý kiến: không cần thêm chữ “với” như tiếng Việt.
+
+@屋子 | ốc tử
+- 名 | căn phòng, gian nhà
+> 屋子里很热，开开门吧。 | Wūzi li hěn rè, kāikai mén ba. | Trong phòng nóng quá, mở cửa ra đi.
+> 这间屋子很干净。 | Zhè jiān wūzi hěn gānjìng. | Căn phòng này rất sạch sẽ.
+* Gần nghĩa 房间. Lượng từ: 间 (一间屋子).
+
+@向 | hướng
+- 介 | về phía, hướng về; (học hỏi, hỏi…) ai
+> 一直向前走。 | Yìzhí xiàng qián zǒu. | Cứ đi thẳng về phía trước.
+> 我们应该向他学习。 | Wǒmen yīnggāi xiàng tā xuéxí. | Chúng ta nên học hỏi anh ấy.
+- 动 | hướng về, quay về (phía)
+> 我的房间向南。 | Wǒ de fángjiān xiàng nán. | Phòng tôi hướng nam.
+* 向……学习 = học hỏi ai. Chỉ hướng đi, 向 giống 往 (向前走 = 往前走).
+
+@有关 | hữu quan
+- 动 | có liên quan
+> 这件事跟他有关。 | Zhè jiàn shì gēn tā yǒuguān. | Việc này có liên quan đến anh ấy.
+- 介 | về, liên quan đến
+> 他看了很多有关动物的书。 | Tā kàn le hěn duō yǒuguān dòngwù de shū. | Anh ấy đã đọc nhiều sách về động vật.
+> 我想问一些有关留学的问题。 | Wǒ xiǎng wèn yìxiē yǒuguān liúxué de wèntí. | Tôi muốn hỏi vài câu hỏi về việc du học.
+* 跟/和……有关 = có liên quan đến…; 有关……的 + danh từ = 关于……的.
+
+@有用 | hữu dụng
+- 形 | có ích, hữu ích
+> 这本书对学汉语很有用。 | Zhè běn shū duì xué Hànyǔ hěn yǒuyòng. | Cuốn sách này rất có ích cho việc học tiếng Hán.
+> 你说的话很有用，谢谢！ | Nǐ shuō de huà hěn yǒuyòng, xièxie! | Lời bạn nói rất có ích, cảm ơn!
+* Phủ định: 没有用 / 没用 (vô ích). 对……有用 = có ích cho…
+
+@只有 | chỉ hữu
+- 连 | chỉ có (… mới…)
+> 只有多练习，才能说好汉语。 | Zhǐyǒu duō liànxí, cái néng shuō hǎo Hànyǔ. | Chỉ có luyện tập nhiều mới nói giỏi tiếng Hán được.
+> 只有你去，他才会来。 | Zhǐyǒu nǐ qù, tā cái huì lái. | Chỉ khi bạn đi thì anh ấy mới đến.
+* Mẫu 只有……才…… (điều kiện duy nhất). Khác 只要……就…… (chỉ cần… là…, bài 18).
+
+@哭 | khốc
+- 动 | khóc
+> 孩子为什么哭了？ | Háizi wèishénme kū le? | Sao đứa bé lại khóc thế?
+> 别哭了，我们再找找。 | Bié kū le, wǒmen zài zhǎozhao. | Đừng khóc nữa, chúng ta tìm lại xem.
+* Trái nghĩa: 笑 (cười).
+
+@前年 | tiền niên
+- 名 | năm kia (hai năm trước)
+> 我前年去过中国。 | Wǒ qiánnián qùguo Zhōngguó. | Năm kia tôi đã từng đi Trung Quốc.
+> 前年我还在上大学。 | Qiánnián wǒ hái zài shàng dàxué. | Năm kia tôi vẫn còn học đại học.
+* 前年 – 去年 – 今年 – 明年 – 后年 (năm kia – năm ngoái – năm nay – năm sau – năm sau nữa).
+
+@语言 | ngữ ngôn
+- 名 | ngôn ngữ, tiếng
+> 你会说几种语言？ | Nǐ huì shuō jǐ zhǒng yǔyán? | Bạn biết nói mấy thứ tiếng?
+> 学一种新的语言不容易。 | Xué yì zhǒng xīn de yǔyán bù róngyì. | Học một ngôn ngữ mới không dễ.
+* Thứ tự chữ ngược với tiếng Việt: 语言 = ngôn ngữ (không phải “ngụ ngôn”). Lượng từ: 种.

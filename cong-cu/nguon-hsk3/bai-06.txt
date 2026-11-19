@@ -1,0 +1,182 @@
+# ===== NGUỒN SOẠN THẢO HSK 3 – BÀI 6 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–3.
+
+# 6 | Đi tàu cao tốc
+
+@安静 | an tĩnh
+- 形 | yên tĩnh, yên lặng
+> 图书馆里很安静。 | Túshūguǎn li hěn ānjìng. | Trong thư viện rất yên tĩnh.
+> 请大家安静一下。 | Qǐng dàjiā ānjìng yíxià. | Xin mọi người giữ trật tự một chút.
+* Dùng cho nơi chốn (yên tĩnh) và cho người (im lặng, trật tự).
+
+@必须 | tất tu
+- 副 | phải, nhất thiết phải
+> 上车以前必须检票。 | Shàng chē yǐqián bìxū jiǎnpiào. | Trước khi lên tàu phải soát vé.
+> 你明天必须早点儿来。 | Nǐ míngtiān bìxū zǎo diǎnr lái. | Mai bạn nhất định phải đến sớm một chút.
+* Mạnh hơn 应该 và 要. Phủ định “không cần” nói 不用, không nói 不必须.
+
+@常用 | thường dụng
+- cụm | thường dùng, thông dụng
+> 这些是常用的汉字。 | Zhèxiē shì chángyòng de Hànzì. | Đây là những chữ Hán thường dùng.
+> 这个词很常用。 | Zhège cí hěn chángyòng. | Từ này rất thông dụng.
+* 常 (thường) + 用 (dùng). 常用词 = từ thông dụng.
+
+@迟到 | trì đáo
+- 动 | đến muộn, đến trễ
+> 对不起，我迟到了。 | Duìbuqǐ, wǒ chídào le. | Xin lỗi, tôi đến muộn.
+> 明天上课别迟到。 | Míngtiān shàngkè bié chídào. | Mai đi học đừng đến muộn nhé.
+* Người đến muộn dùng 迟到; tàu xe, máy bay chạy trễ dùng 晚点 (bài 4).
+
+@打算 | đả toán
+- 动 | định, dự định
+> 你打算什么时候回国？ | Nǐ dǎsuàn shénme shíhou huí guó? | Bạn định khi nào về nước?
+> 我打算坐高铁去。 | Wǒ dǎsuàn zuò gāotiě qù. | Tôi định đi tàu cao tốc.
+- 名 | dự định, kế hoạch
+> 放假以后你有什么打算？ | Fàngjià yǐhòu nǐ yǒu shénme dǎsuàn? | Nghỉ rồi bạn có dự định gì?
+* 打算 + động từ = định làm gì. Âm Hán Việt “đả toán” nhưng không phải “đánh”, mà là “tính toán, dự tính”.
+
+@电梯 | điện thê
+- 名 | thang máy
+> 我们坐电梯上去吧。 | Wǒmen zuò diàntī shàngqù ba. | Chúng mình đi thang máy lên đi.
+> 电梯坏了，我们只能走上去。 | Diàntī huài le, wǒmen zhǐ néng zǒu shàngqù. | Thang máy hỏng rồi, chúng ta đành đi bộ lên.
+* 坐电梯 = đi thang máy. 电 (điện) + 梯 (thang).
+
+@耳机 | nhĩ cơ
+- 名 | tai nghe
+> 在车上听音乐请用耳机。 | Zài chē shang tīng yīnyuè qǐng yòng ěrjī. | Nghe nhạc trên xe xin hãy dùng tai nghe.
+> 我的耳机不见了。 | Wǒ de ěrjī bújiàn le. | Tai nghe của tôi mất đâu rồi.
+* 耳 = tai (耳朵, bài 8), 机 = máy.
+
+@放假 | phóng giả
+- 动 | được nghỉ (lễ, hè, Tết…)
+> 我们下个星期放假。 | Wǒmen xià ge xīngqī fàngjià. | Tuần sau chúng tôi được nghỉ.
+> 放假的时候你去哪儿了？ | Fàngjià de shíhou nǐ qù nǎr le? | Hồi được nghỉ bạn đã đi đâu?
+* Có thể tách: 放三天假 (nghỉ ba ngày). 假 đọc jià. Kỳ nghỉ là 假期 (bài 4).
+
+@分开 | phân khai
+- 动 | tách ra, chia ra, xa nhau
+> 这两件事要分开说。 | Zhè liǎng jiàn shì yào fēnkāi shuō. | Hai việc này phải tách ra mà nói.
+> 我们一直在一起，没分开过。 | Wǒmen yìzhí zài yìqǐ, méi fēnkāi guo. | Chúng tôi luôn ở bên nhau, chưa từng xa nhau.
+* Trái nghĩa: 在一起 (ở cùng nhau).
+
+@该1 | cai
+- 动 | nên, phải; đến lúc
+> 时间不早了，我该走了。 | Shíjiān bù zǎo le, wǒ gāi zǒu le. | Muộn rồi, tôi phải đi đây.
+> 你该休息一下了。 | Nǐ gāi xiūxi yíxià le. | Bạn nên nghỉ ngơi một chút rồi.
+- 动 | đến lượt
+> 下一个该你了。 | Xià yí ge gāi nǐ le. | Người tiếp theo đến lượt bạn rồi.
+* 该……了 = đến lúc phải… rồi. Nghĩa giống 应该 nhưng khẩu ngữ hơn.
+
+@高铁 | cao thiết
+- 名 | tàu cao tốc, đường sắt cao tốc
+> 我们坐高铁去上海。 | Wǒmen zuò gāotiě qù Shànghǎi. | Chúng tôi đi tàu cao tốc đến Thượng Hải.
+> 坐高铁比坐飞机方便。 | Zuò gāotiě bǐ zuò fēijī fāngbiàn. | Đi tàu cao tốc tiện hơn đi máy bay.
+* 铁 (thiết) = sắt; 高铁 là cách nói tắt của “đường sắt tốc độ cao”.
+
+@红绿灯 | hồng lục đăng
+- 名 | đèn giao thông, đèn xanh đèn đỏ
+> 前面路口有红绿灯。 | Qiánmiàn lùkǒu yǒu hónglǜdēng. | Ngã tư phía trước có đèn giao thông.
+> 过马路要看红绿灯。 | Guò mǎlù yào kàn hónglǜdēng. | Qua đường phải nhìn đèn giao thông.
+* 红灯 = đèn đỏ, 绿灯 = đèn xanh.
+
+@后来 | hậu lai
+- 名 | sau đó, về sau (trong quá khứ)
+> 我开始不喜欢他，后来我们成了好朋友。 | Wǒ kāishǐ bù xǐhuan tā, hòulái wǒmen chéng le hǎo péngyou. | Lúc đầu tôi không thích anh ấy, về sau chúng tôi thành bạn thân.
+> 后来呢？后来怎么样了？ | Hòulái ne? Hòulái zěnmeyàng le? | Rồi sao nữa? Sau đó thế nào?
+* 后来 chỉ dùng cho chuyện ĐÃ xảy ra; nói về tương lai dùng 以后.
+
+@急 | cấp
+- 形 | gấp, vội
+> 别急，还有时间。 | Bié jí, hái yǒu shíjiān. | Đừng vội, vẫn còn thời gian.
+> 他有急事，先走了。 | Tā yǒu jí shì, xiān zǒu le. | Anh ấy có việc gấp nên đi trước rồi.
+- 动 | sốt ruột, cuống lên
+> 等了半天车还不来，他都急了。 | Děng le bàntiān chē hái bù lái, tā dōu jí le. | Đợi mãi xe vẫn chưa đến, anh ấy sốt ruột rồi.
+* Gần nghĩa 着急 (bài 1). 急事 = việc gấp.
+
+@检查 | kiểm tra
+- 动 | kiểm tra; khám (sức khỏe)
+> 上车以前要检查行李。 | Shàng chē yǐqián yào jiǎnchá xíngli. | Trước khi lên tàu phải kiểm tra hành lý.
+> 写完作业以后，再检查一下。 | Xiě wán zuòyè yǐhòu, zài jiǎnchá yíxià. | Làm xong bài tập rồi thì kiểm tra lại một lượt.
+* Nghĩa giống tiếng Việt. 检查身体 = khám sức khỏe.
+
+@检票 | kiểm phiếu
+- 动 | soát vé
+> 高铁马上要检票了。 | Gāotiě mǎshàng yào jiǎnpiào le. | Tàu cao tốc sắp soát vé rồi.
+> 请问，在哪儿检票？ | Qǐngwèn, zài nǎr jiǎnpiào? | Xin hỏi, soát vé ở đâu?
+* Âm Hán Việt “kiểm phiếu” nhưng nghĩa là soát vé (票 = vé), không phải kiểm phiếu bầu cử.
+
+@路口 | lộ khẩu
+- 名 | giao lộ, ngã rẽ, đầu đường
+> 到了前面的路口往左走。 | Dào le qiánmiàn de lùkǒu wǎng zuǒ zǒu. | Đến ngã rẽ phía trước thì đi về bên trái.
+> 我在路口等你。 | Wǒ zài lùkǒu děng nǐ. | Tôi đợi bạn ở đầu đường.
+* 路 (đường) + 口 (cửa, miệng) = chỗ đường giao nhau.
+
+@如果 | như quả
+- 连 | nếu
+> 如果明天下雨，我们就不去了。 | Rúguǒ míngtiān xià yǔ, wǒmen jiù bú qù le. | Nếu mai trời mưa thì chúng ta không đi nữa.
+> 如果你有时间，来我家玩儿吧。 | Rúguǒ nǐ yǒu shíjiān, lái wǒ jiā wánr ba. | Nếu bạn rảnh thì đến nhà tôi chơi nhé.
+* 如果……就…… = nếu… thì… Có thể thêm 的话 cuối vế đầu: 如果下雨的话.
+
+@沙发 | sa phát
+- 名 | ghế sô-pha
+> 他坐在沙发上看电视。 | Tā zuò zài shāfā shang kàn diànshì. | Anh ấy ngồi trên ghế sô-pha xem tivi.
+> 这个沙发很舒服。 | Zhège shāfā hěn shūfu. | Cái ghế sô-pha này rất êm.
+* Từ phiên âm từ tiếng Anh “sofa”, nên âm Hán Việt không mang nghĩa.
+
+@刷 | loát
+- 动 | chải, đánh (răng); quẹt (thẻ)
+> 我每天刷两次牙。 | Wǒ měi tiān shuā liǎng cì yá. | Mỗi ngày tôi đánh răng hai lần.
+> 我可以刷卡吗？ | Wǒ kěyǐ shuā kǎ ma? | Tôi quẹt thẻ được không?
+* 刷牙 = đánh răng, 刷卡 = quẹt thẻ. 牙刷 (bài 4) = bàn chải đánh răng.
+
+@小心 | tiểu tâm
+- 动 | cẩn thận, coi chừng
+> 小心！车来了。 | Xiǎoxīn! Chē lái le. | Coi chừng! Xe đến kìa.
+> 下雨了，路上小心。 | Xià yǔ le, lù shang xiǎoxīn. | Trời mưa rồi, đi đường cẩn thận nhé.
+- 形 | cẩn thận, chu đáo
+> 他做事很小心。 | Tā zuòshì hěn xiǎoxīn. | Anh ấy làm việc rất cẩn thận.
+* Âm Hán Việt “tiểu tâm” nhưng nghĩa là cẩn thận. 小心 + việc = coi chừng việc gì.
+
+@行 | hành
+- 动 | được, đồng ý
+> 我们明天去，行吗？ | Wǒmen míngtiān qù, xíng ma? | Mai chúng ta đi, được không?
+> 行，没问题。 | Xíng, méi wèntí. | Được, không vấn đề gì.
+- 形 | giỏi, cừ
+> 你真行！ | Nǐ zhēn xíng! | Bạn giỏi thật đấy!
+* 不行 = không được. Chữ đa âm: ở đây đọc xíng; trong 银行 đọc háng.
+
+@选择 | tuyển trạch
+- 动 | chọn, lựa chọn
+> 你可以选择坐高铁或者坐飞机。 | Nǐ kěyǐ xuǎnzé zuò gāotiě huòzhě zuò fēijī. | Bạn có thể chọn đi tàu cao tốc hoặc máy bay.
+> 他选择了这个工作。 | Tā xuǎnzé le zhège gōngzuò. | Anh ấy đã chọn công việc này.
+* Trang trọng hơn 选 (bài 2).
+
+@以前 | dĩ tiền
+- 名 | trước đây; trước khi
+> 以前我不会说汉语。 | Yǐqián wǒ bú huì shuō Hànyǔ. | Trước đây tôi không biết nói tiếng Hán.
+> 睡觉以前别喝咖啡。 | Shuìjiào yǐqián bié hē kāfēi. | Trước khi ngủ đừng uống cà phê.
+* Đứng đầu câu = trước đây; sau động từ/thời gian = trước khi, trước lúc. Ngược lại: 以后.
+
+@越 | việt
+- 副 | càng
+> 雨越下越大。 | Yǔ yuè xià yuè dà. | Mưa càng lúc càng to.
+> 汉语越学越有意思。 | Hànyǔ yuè xué yuè yǒu yìsi. | Tiếng Hán càng học càng thú vị.
+* 越 A 越 B = càng A càng B. 越来越 + tính từ = ngày càng…
+
+@安全 | an toàn
+- 形 | an toàn
+> 坐高铁很安全。 | Zuò gāotiě hěn ānquán. | Đi tàu cao tốc rất an toàn.
+> 晚上一个人走路不安全。 | Wǎnshang yí ge rén zǒulù bù ānquán. | Buổi tối đi bộ một mình không an toàn.
+* Nghĩa giống tiếng Việt. Hay nghe: 注意安全 (chú ý an toàn).
+
+@路边 | lộ biên
+- 名 | bên đường, ven đường
+> 我在路边等出租车。 | Wǒ zài lùbiān děng chūzūchē. | Tôi đứng bên đường đợi taxi.
+> 路边有很多小饭馆。 | Lùbiān yǒu hěn duō xiǎo fànguǎn. | Ven đường có rất nhiều quán ăn nhỏ.
+* 边 = bên, cạnh (海边 = bờ biển).
+
+@汽车 | khí xa
+- 名 | xe hơi, ô tô
+> 我爸爸开汽车上班。 | Wǒ bàba kāi qìchē shàngbān. | Bố tôi lái ô tô đi làm.
+> 路上的汽车越来越多。 | Lù shang de qìchē yuè lái yuè duō. | Ô tô trên đường ngày càng nhiều.
+* Âm Hán Việt “khí xa” = ô tô. 公共汽车 = xe buýt. 开车 = lái xe.

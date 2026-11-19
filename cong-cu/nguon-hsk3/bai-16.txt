@@ -1,0 +1,148 @@
+# ===== NGUỒN SOẠN THẢO HSK 3 – BÀI 16 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–3.
+
+# 16 | Động vật
+
+@半天 | bán thiên
+- 数量 | nửa ngày; mãi, một lúc lâu
+> 明天我只上半天班。 | Míngtiān wǒ zhǐ shàng bàntiān bān. | Mai tôi chỉ làm nửa ngày.
+> 我等了你半天了。 | Wǒ děng le nǐ bàntiān le. | Tôi đợi bạn mãi rồi đấy.
+> 他找了半天也没找到。 | Tā zhǎo le bàntiān yě méi zhǎodào. | Anh ấy tìm mãi mà vẫn không thấy.
+* Trong khẩu ngữ 半天 thường chỉ cảm giác “lâu lắm”, không phải đúng nửa ngày.
+
+@饱 | bão
+- 形 | no (ăn no)
+> 我吃饱了，谢谢！ | Wǒ chībǎo le, xièxie! | Tôi no rồi, cảm ơn!
+> 小狗吃得很饱，现在在睡觉。 | Xiǎo gǒu chī de hěn bǎo, xiànzài zài shuìjiào. | Con chó con ăn no lắm, giờ đang ngủ.
+* 吃饱了 = ăn no rồi. Trái nghĩa: 饿 (è, đói).
+
+@大人 | đại nhân
+- 名 | người lớn
+> 这个电影大人和孩子都喜欢看。 | Zhège diànyǐng dàren hé háizi dōu xǐhuan kàn. | Bộ phim này người lớn và trẻ con đều thích xem.
+> 孩子不能一个人去，要有大人带着。 | Háizi bù néng yí ge rén qù, yào yǒu dàren dài zhe. | Trẻ con không được đi một mình, phải có người lớn dẫn theo.
+* Không phải “đại nhân” (quan lớn) trong tiếng Việt: 大人 = người lớn, trái với 孩子 / 小孩儿.
+
+@大熊猫 | đại hùng miêu
+- 名 | gấu trúc (lớn)
+> 大熊猫很可爱。 | Dàxióngmāo hěn kě'ài. | Gấu trúc rất đáng yêu.
+> 我在动物园看到了大熊猫。 | Wǒ zài dòngwùyuán kàndào le dàxióngmāo. | Tôi đã thấy gấu trúc ở sở thú.
+* Cũng nói gọn 熊猫. Lượng từ: 只 (一只大熊猫).
+
+@动物 | động vật
+- 名 | động vật, con vật
+> 你喜欢什么动物？ | Nǐ xǐhuan shénme dòngwù? | Bạn thích con vật nào?
+> 猫和狗都是我喜欢的动物。 | Māo hé gǒu dōu shì wǒ xǐhuan de dòngwù. | Mèo và chó đều là những con vật tôi thích.
+* Lượng từ: 只 (một con) hoặc 种 (một loài).
+
+@动物园 | động vật viên
+- 名 | sở thú, vườn bách thú
+> 周末我们带孩子去动物园吧。 | Zhōumò wǒmen dài háizi qù dòngwùyuán ba. | Cuối tuần mình đưa con đi sở thú nhé.
+> 这个动物园里有很多动物。 | Zhège dòngwùyuán li yǒu hěn duō dòngwù. | Trong sở thú này có rất nhiều con vật.
+* 园 = vườn: 公园 (công viên), 动物园 (vườn thú).
+
+@关于 | quan vu
+- 介 | về, liên quan đến
+> 这是一本关于动物的书。 | Zhè shì yì běn guānyú dòngwù de shū. | Đây là một cuốn sách về động vật.
+> 关于这个问题，我们明天再说吧。 | Guānyú zhège wèntí, wǒmen míngtiān zài shuō ba. | Về vấn đề này, mai chúng ta bàn tiếp nhé.
+* Hai cách dùng: 关于……的 + danh từ (sách về…); hoặc 关于…… đứng đầu câu.
+
+@脚 | cước
+- 名 | bàn chân
+> 我的脚很疼。 | Wǒ de jiǎo hěn téng. | Chân tôi đau quá.
+> 走了一天，脚都累了。 | Zǒu le yì tiān, jiǎo dōu lèi le. | Đi bộ cả ngày, chân mỏi nhừ rồi.
+* 脚 là bàn chân (từ cổ chân trở xuống); cả cẳng chân là 腿 (tuǐ).
+
+@可爱 | khả ái
+- 形 | đáng yêu, dễ thương
+> 这只小猫真可爱！ | Zhè zhī xiǎo māo zhēn kě'ài! | Con mèo con này đáng yêu quá!
+> 她的女儿很可爱。 | Tā de nǚ'ér hěn kě'ài. | Con gái cô ấy rất dễ thương.
+* Hay dùng cho trẻ con, con vật, đồ vật nhỏ xinh.
+
+@脸 | kiểm
+- 名 | mặt, khuôn mặt
+> 早上起来先洗脸。 | Zǎoshang qǐlái xiān xǐ liǎn. | Sáng dậy rửa mặt trước.
+> 他的脸红了。 | Tā de liǎn hóng le. | Mặt anh ấy đỏ lên.
+* 洗脸 = rửa mặt. 脸红 = đỏ mặt (vì ngại hoặc nóng).
+
+@其实 | kỳ thực
+- 副 | thật ra, thực ra
+> 他看起来很年轻，其实已经五十岁了。 | Tā kàn qǐlái hěn niánqīng, qíshí yǐjīng wǔshí suì le. | Anh ấy trông rất trẻ, thật ra đã năm mươi tuổi rồi.
+> 这个问题其实不难。 | Zhège wèntí qíshí bù nán. | Vấn đề này thật ra không khó.
+* Dùng khi sự thật khác với vẻ bề ngoài hoặc điều người ta nghĩ.
+
+@奇怪 | kỳ quái
+- 形 | lạ, kỳ lạ
+> 真奇怪，他今天怎么没来？ | Zhēn qíguài, tā jīntiān zěnme méi lái? | Lạ thật, sao hôm nay anh ấy không đến nhỉ?
+> 这个动物长得很奇怪。 | Zhège dòngwù zhǎng de hěn qíguài. | Con vật này trông rất lạ.
+* Nghĩa nhẹ hơn “kỳ quái” trong tiếng Việt: chỉ là “lạ”. 奇 ở đây đọc qí.
+
+@认得 | nhận đắc
+- 动 | nhận ra, biết (người, chữ)
+> 你还认得我吗？ | Nǐ hái rènde wǒ ma? | Bạn còn nhận ra tôi không?
+> 这个字我不认得。 | Zhège zì wǒ bú rènde. | Chữ này tôi không biết.
+* Gần nghĩa 认识, nhưng 认得 thiên về “nhìn là nhận ra”. 得 ở đây đọc nhẹ: de.
+
+@身边 | thân biên
+- 名 | bên cạnh, bên mình
+> 有你在身边，我不害怕。 | Yǒu nǐ zài shēnbiān, wǒ bú hàipà. | Có bạn ở bên cạnh, tôi không sợ.
+> 我身边的朋友都喜欢运动。 | Wǒ shēnbiān de péngyou dōu xǐhuan yùndòng. | Bạn bè xung quanh tôi đều thích thể thao.
+* 在……身边 = ở bên cạnh ai.
+
+@喜爱 | hỉ ái
+- 动 | yêu thích
+> 大熊猫是大家都喜爱的动物。 | Dàxióngmāo shì dàjiā dōu xǐ'ài de dòngwù. | Gấu trúc là con vật ai cũng yêu thích.
+> 孩子们都很喜爱这只小狗。 | Háizimen dōu hěn xǐ'ài zhè zhī xiǎo gǒu. | Bọn trẻ đều rất yêu con chó con này.
+* Trang trọng hơn 喜欢, hay gặp trong văn viết.
+
+@脏 | tảng
+- 形 | bẩn
+> 你的手太脏了，快去洗洗。 | Nǐ de shǒu tài zāng le, kuài qù xǐxi. | Tay con bẩn quá, mau đi rửa đi.
+> 衣服脏了，要洗一下。 | Yīfu zāng le, yào xǐ yíxià. | Quần áo bẩn rồi, phải giặt một chút.
+* Đọc zāng. Trái nghĩa: 干净 (sạch).
+
+@照顾 | chiếu cố
+- 动 | chăm sóc, trông nom
+> 妈妈病了，我在家照顾她。 | Māma bìng le, wǒ zài jiā zhàogù tā. | Mẹ ốm, tôi ở nhà chăm sóc mẹ.
+> 谢谢你这几天的照顾。 | Xièxie nǐ zhè jǐ tiān de zhàogù. | Cảm ơn bạn đã chăm sóc tôi mấy hôm nay.
+* Khác “chiếu cố” (ưu ái, nể nang) trong tiếng Việt: 照顾 chủ yếu là chăm sóc người, con vật.
+
+@周末 | chu mạt
+- 名 | cuối tuần
+> 周末你打算做什么？ | Zhōumò nǐ dǎsuàn zuò shénme? | Cuối tuần bạn định làm gì?
+> 上个周末我去看了一个电影。 | Shàng ge zhōumò wǒ qù kàn le yí ge diànyǐng. | Cuối tuần trước tôi đi xem một bộ phim.
+* 周末 = thứ Bảy và Chủ nhật. 周 = 星期 (tuần).
+
+@嘴 | chủy
+- 名 | miệng, mồm
+> 请张开嘴，我看一下。 | Qǐng zhāngkāi zuǐ, wǒ kàn yíxià. | Hãy há miệng ra, tôi xem một chút.
+> 小狗嘴里有一个球。 | Xiǎo gǒu zuǐ li yǒu yí ge qiú. | Trong miệng con chó con có một quả bóng.
+* 嘴 là cái miệng (bộ phận cơ thể); 口 thường nằm trong từ ghép (门口, 一口水).
+
+@东北 | đông bắc
+- 名 | phía đông bắc; vùng Đông Bắc (Trung Quốc)
+> 他家在学校的东北方向。 | Tā jiā zài xuéxiào de dōngběi fāngxiàng. | Nhà anh ấy ở phía đông bắc của trường.
+> 东北的冬天非常冷。 | Dōngběi de dōngtiān fēicháng lěng. | Mùa đông ở vùng Đông Bắc rất lạnh.
+* Thứ tự giống tiếng Việt: 东 + 北 = đông bắc.
+
+@东南 | đông nam
+- 名 | phía đông nam
+> 公园在学校的东南方向，走路十分钟就到。 | Gōngyuán zài xuéxiào de dōngnán fāngxiàng, zǒulù shí fēnzhōng jiù dào. | Công viên ở phía đông nam của trường, đi bộ mười phút là tới.
+> 这个房间向东南，早上很亮。 | Zhège fángjiān xiàng dōngnán, zǎoshang hěn liàng. | Phòng này hướng đông nam, buổi sáng rất sáng.
+
+@西南 | tây nam
+- 名 | phía tây nam
+> 火车站在城市的西南。 | Huǒchēzhàn zài chéngshì de xīnán. | Ga tàu ở phía tây nam thành phố.
+> 从这儿往西南走，就能看到银行。 | Cóng zhèr wǎng xīnán zǒu, jiù néng kàndào yínháng. | Từ đây đi về phía tây nam là thấy ngân hàng.
+* Pinyin viết liền xīnán (xī + nán), đừng đọc nhầm thành “xin-an”.
+
+@西方 | tây phương
+- 名 | phía tây; phương Tây (các nước Âu – Mỹ)
+> 太阳从东方出来，从西方下去。 | Tàiyáng cóng dōngfāng chūlái, cóng xīfāng xiàqù. | Mặt trời mọc ở phía đông, lặn ở phía tây.
+> 很多西方人喜欢学汉语。 | Hěn duō xīfāngrén xǐhuan xué Hànyǔ. | Nhiều người phương Tây thích học tiếng Hán.
+* Chỉ hướng thường nói 西边 hơn; 西方 hay dùng với nghĩa “phương Tây”.
+
+@园 | viên
+- 名 | vườn
+> 我家后面有一个小花园。 | Wǒ jiā hòumiàn yǒu yí ge xiǎo huāyuán. | Sau nhà tôi có một khu vườn hoa nhỏ.
+> 学校里有一个小园子，里面有很多花。 | Xuéxiào li yǒu yí ge xiǎo yuánzi, lǐmiàn yǒu hěn duō huā. | Trong trường có một khu vườn nhỏ, bên trong có nhiều hoa.
+* 园 hay đứng cuối từ ghép: 公园, 动物园, 花园 (vườn hoa).

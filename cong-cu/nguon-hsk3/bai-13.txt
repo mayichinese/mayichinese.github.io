@@ -1,0 +1,179 @@
+# ===== NGUỒN SOẠN THẢO HSK 3 – BÀI 13 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–3.
+# Ghép: python -X utf8 cong-cu/ghep-du-lieu-cap.py 3
+
+# 13 | Hàng xóm mới
+
+@北方 | bắc phương
+- 名 | phương bắc, miền Bắc
+> 我是北方人，喜欢吃面条。 | Wǒ shì běifāngrén, xǐhuan chī miàntiáo. | Tôi là người miền Bắc, thích ăn mì.
+> 北方的冬天很冷。 | Běifāng de dōngtiān hěn lěng. | Mùa đông ở miền Bắc rất lạnh.
+* Ở Trung Quốc, 北方 thường chỉ vùng phía bắc sông Trường Giang. Trái nghĩa: 南方.
+
+@不同 | bất đồng
+- cụm | khác nhau, không giống
+> 南方和北方的天气很不同。 | Nánfāng hé běifāng de tiānqì hěn bù tóng. | Thời tiết miền Nam và miền Bắc rất khác nhau.
+> 我们两个人的想法不同。 | Wǒmen liǎng ge rén de xiǎngfǎ bù tóng. | Suy nghĩ của hai chúng tôi khác nhau.
+* A 和 B 不同 = A khác B. Tiếng Việt "bất đồng" hay hiểu là "không cùng ý kiến"; 不同 chỉ đơn giản là "khác nhau" (= 不一样).
+
+@的话 | đích thoại
+- 助 | nếu… thì (đặt cuối vế điều kiện)
+> 明天下雨的话，我们就不去了。 | Míngtiān xià yǔ dehuà, wǒmen jiù bú qù le. | Nếu mai trời mưa thì chúng ta không đi nữa.
+> 你有时间的话，来我家玩儿吧。 | Nǐ yǒu shíjiān dehuà, lái wǒ jiā wánr ba. | Nếu bạn có thời gian thì đến nhà tôi chơi nhé.
+* Hay đi cùng 如果: 如果……的话，就……. Đọc nhẹ "de", không phải "dì".
+
+@地图 | địa đồ
+- 名 | bản đồ
+> 你看看地图，我们现在在哪儿？ | Nǐ kànkan dìtú, wǒmen xiànzài zài nǎr? | Bạn xem bản đồ đi, chúng ta đang ở đâu?
+> 手机上的地图很方便。 | Shǒujī shang de dìtú hěn fāngbiàn. | Bản đồ trên điện thoại rất tiện.
+* Lượng từ: 张 (一张地图).
+
+@东方 | đông phương
+- 名 | phương đông
+> 太阳从东方出来了。 | Tàiyáng cóng dōngfāng chūlái le. | Mặt trời đã mọc ở phương đông.
+> 我很喜欢东方文化。 | Wǒ hěn xǐhuan dōngfāng wénhuà. | Tôi rất thích văn hóa phương Đông.
+* Trái nghĩa: 西方 (phương tây).
+
+@放 | phóng
+- 动 | đặt, để; cho (thêm) vào
+> 你把书放在桌子上吧。 | Nǐ bǎ shū fàng zài zhuōzi shang ba. | Bạn để sách lên bàn đi.
+> 我喝咖啡不放糖。 | Wǒ hē kāfēi bú fàng táng. | Tôi uống cà phê không cho đường.
+- 动 | được nghỉ (học, làm)
+> 学校下个星期放假。 | Xuéxiào xià ge xīngqī fàngjià. | Tuần sau trường được nghỉ.
+* Nghĩa chính là "đặt, để" chứ không phải "phóng, ném" như tiếng Việt. 放在 + nơi chốn = để ở đâu.
+
+@放心 | phóng tâm
+- 动 | yên tâm
+> 你放心吧，我会早点儿回来。 | Nǐ fàngxīn ba, wǒ huì zǎo diǎnr huílái. | Bạn yên tâm đi, tôi sẽ về sớm một chút.
+> 孩子一个人在家，妈妈不放心。 | Háizi yí ge rén zài jiā, māma bú fàngxīn. | Con ở nhà một mình, mẹ không yên tâm.
+* 放心 = yên tâm; ngược lại là 担心 (lo lắng).
+
+@夫妻 | phu thê
+- 名 | vợ chồng
+> 他们夫妻都是老师。 | Tāmen fūqī dōu shì lǎoshī. | Hai vợ chồng họ đều là giáo viên.
+> 楼上住着一对年轻夫妻。 | Lóu shàng zhù zhe yí duì niánqīng fūqī. | Tầng trên có một đôi vợ chồng trẻ.
+* 一对夫妻 = một đôi vợ chồng.
+
+@感到 | cảm đáo
+- 动 | cảm thấy
+> 走了一天的路，我感到很累。 | Zǒu le yì tiān de lù, wǒ gǎndào hěn lèi. | Đi bộ cả ngày, tôi cảm thấy rất mệt.
+> 听说他考得很好，大家都感到很高兴。 | Tīngshuō tā kǎo de hěn hǎo, dàjiā dōu gǎndào hěn gāoxìng. | Nghe nói anh ấy thi rất tốt, mọi người đều cảm thấy rất vui.
+* Sau 感到 thường là cảm giác, cảm xúc (累, 高兴…). Muốn nêu ý kiến thì dùng 觉得.
+
+@画家 | họa gia
+- 名 | họa sĩ
+> 我的邻居是一位画家。 | Wǒ de línjū shì yí wèi huàjiā. | Hàng xóm của tôi là một họa sĩ.
+> 她从小就想当画家。 | Tā cóng xiǎo jiù xiǎng dāng huàjiā. | Từ nhỏ cô ấy đã muốn làm họa sĩ.
+* 家 ở cuối từ = người chuyên một nghề (画家 họa sĩ, 作家 nhà văn).
+
+@加 | gia
+- 动 | cộng
+> 二加三是五。 | Èr jiā sān shì wǔ. | Hai cộng ba là năm.
+- 动 | thêm, cho thêm
+> 请在我的咖啡里加点儿牛奶。 | Qǐng zài wǒ de kāfēi li jiā diǎnr niúnǎi. | Làm ơn cho thêm chút sữa vào cà phê của tôi.
+* 加油 = cố lên!
+
+@酒 | tửu
+- 名 | rượu
+> 我不会喝酒。 | Wǒ bú huì hē jiǔ. | Tôi không biết uống rượu.
+> 开车不能喝酒。 | Kāichē bù néng hē jiǔ. | Lái xe thì không được uống rượu.
+* 喝酒 = uống rượu (nói chung cả bia rượu).
+
+@客人 | khách nhân
+- 名 | khách
+> 今天晚上家里有客人。 | Jīntiān wǎnshang jiā li yǒu kèrén. | Tối nay nhà có khách.
+> 客人来了，快去开门。 | Kèrén lái le, kuài qù kāimén. | Khách đến rồi, mau ra mở cửa.
+
+@来自 | lai tự
+- 动 | đến từ
+> 我来自越南。 | Wǒ láizì Yuènán. | Tôi đến từ Việt Nam.
+> 这些学生来自不同的国家。 | Zhèxiē xuésheng láizì bù tóng de guójiā. | Những học sinh này đến từ các nước khác nhau.
+* Cách nói trang trọng hơn 我是……人 / 我从……来.
+
+@礼物 | lễ vật
+- 名 | quà, món quà
+> 这是我送给你的礼物。 | Zhè shì wǒ sòng gěi nǐ de lǐwù. | Đây là quà tôi tặng bạn.
+> 生日的时候，朋友送了我很多礼物。 | Shēngrì de shíhou, péngyou sòng le wǒ hěn duō lǐwù. | Vào sinh nhật, bạn bè tặng tôi rất nhiều quà.
+* 送礼物 = tặng quà. Tiếng Việt "lễ vật" nghe trang trọng (đồ cúng, sính lễ), còn 礼物 chỉ là quà bình thường.
+
+@聊天儿 | liêu thiên nhi
+- 动 | nói chuyện, tán gẫu
+> 我们一边喝茶一边聊天儿。 | Wǒmen yìbiān hē chá yìbiān liáotiānr. | Chúng tôi vừa uống trà vừa nói chuyện.
+> 晚上我常常跟妈妈在网上聊天儿。 | Wǎnshang wǒ chángcháng gēn māma zài wǎngshang liáotiānr. | Buổi tối tôi thường nói chuyện với mẹ trên mạng.
+* 跟 + người + 聊天儿 = nói chuyện với ai. Không nói 聊天儿他. Có thể tách: 聊了一会儿天儿.
+
+@邻居 | lân cư
+- 名 | hàng xóm
+> 我的邻居很热情。 | Wǒ de línjū hěn rèqíng. | Hàng xóm của tôi rất nhiệt tình.
+> 我们和邻居的关系很好。 | Wǒmen hé línjū de guānxì hěn hǎo. | Chúng tôi với hàng xóm rất thân thiết.
+
+@南方 | nam phương
+- 名 | phương nam, miền Nam
+> 南方的冬天不太冷。 | Nánfāng de dōngtiān bú tài lěng. | Mùa đông ở miền Nam không lạnh lắm.
+> 很多南方人喜欢吃米饭。 | Hěn duō nánfāngrén xǐhuan chī mǐfàn. | Nhiều người miền Nam thích ăn cơm.
+* Trái nghĩa: 北方.
+
+@盘子 | bàn tử
+- 名 | cái đĩa
+> 桌子上放着几个盘子。 | Zhuōzi shang fàng zhe jǐ ge pánzi. | Trên bàn có để mấy cái đĩa.
+> 吃完饭，我来洗盘子。 | Chī wán fàn, wǒ lái xǐ pánzi. | Ăn xong, để tôi rửa đĩa.
+* 盘 (bàn) ở đây là cái đĩa, KHÔNG phải cái bàn (cái bàn là 桌子).
+
+@请客 | thỉnh khách
+- 动 | mời (ăn uống), đãi, bao
+> 今天我请客，大家别客气。 | Jīntiān wǒ qǐngkè, dàjiā bié kèqi. | Hôm nay tôi mời, mọi người đừng khách sáo.
+> 他找到了新工作，晚上要请客。 | Tā zhǎo dào le xīn gōngzuò, wǎnshang yào qǐngkè. | Anh ấy tìm được việc mới, tối nay sẽ khao.
+* 请客 = người nói trả tiền. Muốn nói rõ mời ai: 请 + người + 吃饭 (请你吃饭).
+
+@晚会 | vãn hội
+- 名 | buổi liên hoan, buổi dạ hội (buổi tối)
+> 新年晚会八点开始。 | Xīnnián wǎnhuì bā diǎn kāishǐ. | Buổi liên hoan năm mới bắt đầu lúc tám giờ.
+> 你参加明天的晚会吗？ | Nǐ cānjiā míngtiān de wǎnhuì ma? | Bạn có tham gia buổi liên hoan ngày mai không?
+* Hay đi với 参加 (tham gia) và 开 (tổ chức): 开晚会.
+
+@文化 | văn hóa
+- 名 | văn hóa
+> 我对中国文化很有兴趣。 | Wǒ duì Zhōngguó wénhuà hěn yǒu xìngqù. | Tôi rất có hứng thú với văn hóa Trung Quốc.
+> 每个国家都有自己的文化。 | Měi ge guójiā dōu yǒu zìjǐ de wénhuà. | Mỗi nước đều có văn hóa riêng.
+
+@一边 | nhất biên
+- 副 | vừa… vừa…
+> 他一边吃饭一边看电视。 | Tā yìbiān chīfàn yìbiān kàn diànshì. | Anh ấy vừa ăn cơm vừa xem tivi.
+> 我喜欢一边听音乐一边做作业。 | Wǒ xǐhuan yìbiān tīng yīnyuè yìbiān zuò zuòyè. | Tôi thích vừa nghe nhạc vừa làm bài tập.
+* Mẫu: 一边 + việc 1 + 一边 + việc 2 (hai việc cùng lúc, cùng một người làm).
+
+@直到 | trực đáo
+- 动 | mãi đến, cho đến tận
+> 他直到晚上十点才回家。 | Tā zhídào wǎnshang shí diǎn cái huí jiā. | Mãi đến mười giờ tối anh ấy mới về nhà.
+> 直到今天，我还记得那天的事。 | Zhídào jīntiān, wǒ hái jìde nà tiān de shì. | Cho đến hôm nay tôi vẫn còn nhớ chuyện hôm đó.
+* Hay đi với 才: 直到……才…… = mãi đến… mới….
+
+@做客 | tố khách
+- 动 | làm khách, đến chơi nhà ai
+> 欢迎你来我家做客！ | Huānyíng nǐ lái wǒ jiā zuòkè! | Chào mừng bạn đến nhà tôi chơi!
+> 周末我们去邻居家做客。 | Zhōumò wǒmen qù línjū jiā zuòkè. | Cuối tuần chúng tôi sang nhà hàng xóm chơi.
+* Phân biệt: 做客 = mình đi làm khách; 请客 = mình mời, mình trả tiền.
+
+@爱人 | ái nhân
+- 名 | vợ, chồng
+> 这是我爱人。 | Zhè shì wǒ àiren. | Đây là vợ (chồng) tôi.
+> 我爱人在医院工作。 | Wǒ àiren zài yīyuàn gōngzuò. | Vợ (chồng) tôi làm việc ở bệnh viện.
+* Dễ nhầm: 爱人 là vợ hoặc chồng đã cưới, KHÔNG phải "người yêu". Người yêu là 男朋友 / 女朋友.
+
+@姐妹 | tỷ muội
+- 名 | chị em gái
+> 她们两个是姐妹。 | Tāmen liǎng ge shì jiěmèi. | Hai người họ là chị em.
+> 你家有几个姐妹？ | Nǐ jiā yǒu jǐ ge jiěmèi? | Nhà bạn có mấy chị em gái?
+* 兄弟姐妹 = anh chị em (nói chung).
+
+@男人 | nam nhân
+- 名 | đàn ông
+> 那个男人是谁？ | Nàge nánrén shì shéi? | Người đàn ông kia là ai?
+> 门口站着一个年轻男人。 | Ménkǒu zhàn zhe yí ge niánqīng nánrén. | Ở cửa có một người đàn ông trẻ đang đứng.
+* 男人 / 女人 nói chung về giới. Gọi người lạ cho lịch sự dùng 先生 (ông, anh).
+
+@女人 | nữ nhân
+- 名 | phụ nữ, đàn bà
+> 那个女人是我们的新邻居。 | Nàge nǚrén shì wǒmen de xīn línjū. | Người phụ nữ kia là hàng xóm mới của chúng tôi.
+> 这个女人在找她的孩子。 | Zhège nǚrén zài zhǎo tā de háizi. | Người phụ nữ này đang tìm con.
+* Trái nghĩa: 男人. Gặp người lạ nên gọi lịch sự hơn, không gọi thẳng 女人.

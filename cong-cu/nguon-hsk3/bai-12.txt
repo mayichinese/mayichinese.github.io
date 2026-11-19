@@ -1,0 +1,177 @@
+# ===== NGUỒN SOẠN THẢO HSK 3 – BÀI 12 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–3.
+# Ghép: python -X utf8 cong-cu/ghep-du-lieu-cap.py 3
+
+# 12 | Bốn mùa
+
+@变 | biến
+- 动 | thay đổi, trở nên
+> 天气变冷了。 | Tiānqì biàn lěng le. | Trời trở lạnh rồi.
+> 你一点儿也没变。 | Nǐ yìdiǎnr yě méi biàn. | Bạn chẳng thay đổi chút nào.
+* 变 + tính từ + 了 = trở nên…: 变冷了, 变好了.
+
+@变成 | biến thành
+- 动 | biến thành, trở thành
+> 冬天水会变成冰。 | Dōngtiān shuǐ huì biànchéng bīng. | Mùa đông nước sẽ biến thành băng.
+> 那个小商店现在变成了一家大饭馆。 | Nàge xiǎo shāngdiàn xiànzài biànchéng le yì jiā dà fànguǎn. | Cửa hàng nhỏ ấy giờ đã thành một nhà hàng lớn.
+* 变成 + danh từ (biến thành cái gì); 变 + tính từ (trở nên thế nào).
+
+@变化 | biến hóa
+- 动 | thay đổi, biến đổi
+> 春天的天气变化得很快。 | Chūntiān de tiānqì biànhuà de hěn kuài. | Thời tiết mùa xuân thay đổi rất nhanh.
+- 名 | sự thay đổi
+> 这几年我们城市的变化很大。 | Zhè jǐ nián wǒmen chéngshì de biànhuà hěn dà. | Mấy năm nay thành phố chúng tôi thay đổi rất nhiều.
+> 你看到他的变化了吗？ | Nǐ kàndào tā de biànhuà le ma? | Bạn có thấy anh ấy thay đổi không?
+* 变化很大 = thay đổi nhiều. Nghĩa là “thay đổi”, không mang màu sắc thần kỳ như “biến hóa” trong tiếng Việt.
+
+@常常 | thường thường
+- 副 | thường, thường xuyên
+> 夏天这里常常下雨。 | Xiàtiān zhèlǐ chángcháng xià yǔ. | Mùa hè ở đây thường mưa.
+> 我常常跟朋友去公园跑步。 | Wǒ chángcháng gēn péngyou qù gōngyuán pǎobù. | Tôi thường cùng bạn bè ra công viên chạy bộ.
+* Nghĩa như 常 (bài 8). Phủ định thường nói 不常: 我不常去.
+
+@船 | thuyền
+- 名 | thuyền, tàu thủy
+> 我第一次坐船。 | Wǒ dì yī cì zuò chuán. | Đây là lần đầu tôi đi thuyền.
+> 海上有很多船。 | Hǎi shang yǒu hěn duō chuán. | Trên biển có rất nhiều tàu thuyền.
+* 坐船 = đi thuyền, đi tàu thủy. Lượng từ: 条 (一条船).
+
+@春天 | xuân thiên
+- 名 | mùa xuân
+> 春天来了，公园里开了很多花。 | Chūntiān lái le, gōngyuán li kāi le hěn duō huā. | Mùa xuân đến rồi, trong công viên nở rất nhiều hoa.
+> 我最喜欢春天。 | Wǒ zuì xǐhuan chūntiān. | Tôi thích nhất mùa xuân.
+* Bốn mùa: 春天 – 夏天 – 秋天 – 冬天.
+
+@地方 | địa phương
+- 名 | nơi, chỗ
+> 这是什么地方？ | Zhè shì shénme dìfang? | Đây là chỗ nào?
+> 我想找一个安静的地方看书。 | Wǒ xiǎng zhǎo yí ge ānjìng de dìfang kàn shū. | Tôi muốn tìm một chỗ yên tĩnh để đọc sách.
+* Dễ nhầm: 地方 = nơi, chỗ – không chỉ “địa phương” như tiếng Việt. Đọc dìfang (chữ 方 thanh nhẹ).
+
+@冬天 | đông thiên
+- 名 | mùa đông
+> 北方的冬天很冷。 | Běifāng de dōngtiān hěn lěng. | Mùa đông ở phương Bắc rất lạnh.
+> 冬天你常常做什么？ | Dōngtiān nǐ chángcháng zuò shénme? | Mùa đông bạn thường làm gì?
+
+@风 | phong
+- 名 | gió
+> 今天风很大。 | Jīntiān fēng hěn dà. | Hôm nay gió to.
+> 外面刮风了，多穿点儿衣服。 | Wàimiàn guā fēng le, duō chuān diǎnr yīfu. | Bên ngoài nổi gió rồi, mặc thêm áo vào.
+* 刮风 = có gió, gió thổi. Gió to nói 风很大 / 大风.
+
+@刚才 | cương tài
+- 名 | vừa nãy, lúc nãy
+> 刚才有人给你打电话。 | Gāngcái yǒu rén gěi nǐ dǎ diànhuà. | Lúc nãy có người gọi điện cho bạn.
+> 你刚才说什么？我没听清楚。 | Nǐ gāngcái shuō shénme? Wǒ méi tīng qīngchu. | Vừa nãy bạn nói gì? Tôi nghe không rõ.
+* 刚才 là danh từ chỉ thời gian, đứng trước hoặc sau chủ ngữ: 刚才他来了 / 他刚才来了.
+
+@工作日 | công tác nhật
+- 名 | ngày làm việc
+> 工作日我很忙，周末才有时间。 | Gōngzuòrì wǒ hěn máng, zhōumò cái yǒu shíjiān. | Ngày làm việc tôi rất bận, cuối tuần mới có thời gian.
+> 银行工作日九点开门。 | Yínháng gōngzuòrì jiǔ diǎn kāimén. | Ngày làm việc ngân hàng mở cửa lúc chín giờ.
+* Thứ hai đến thứ sáu là 工作日; thứ bảy, chủ nhật là 周末.
+
+@公园 | công viên
+- 名 | công viên
+> 我家旁边有一个公园。 | Wǒ jiā pángbiān yǒu yí ge gōngyuán. | Cạnh nhà tôi có một công viên.
+> 周末我们去公园走走吧。 | Zhōumò wǒmen qù gōngyuán zǒuzou ba. | Cuối tuần chúng mình đi dạo công viên nhé.
+
+@刮 | quát
+- 动 | (gió) thổi
+> 昨天刮了一天大风。 | Zuótiān guā le yì tiān dà fēng. | Hôm qua gió to thổi suốt cả ngày.
+> 刮风的时候别骑自行车。 | Guā fēng de shíhou bié qí zìxíngchē. | Lúc có gió to đừng đi xe đạp.
+* Hay đi với 风: 刮风, 刮大风.
+
+@关注 | quan chú
+- 动 | để ý theo dõi, quan tâm; theo dõi (trên mạng)
+> 最近大家都很关注这个新闻。 | Zuìjìn dàjiā dōu hěn guānzhù zhège xīnwén. | Dạo này mọi người đều rất quan tâm tin này.
+> 请大家关注我们。 | Qǐng dàjiā guānzhù wǒmen. | Mong mọi người theo dõi chúng tôi.
+* Trên mạng xã hội, 关注 = bấm “theo dõi” (follow). Khác 关心 (quan tâm, lo cho ai – bài 8).
+
+@季节 | quý tiết
+- 名 | mùa (trong năm)
+> 你最喜欢哪个季节？ | Nǐ zuì xǐhuan nǎge jìjié? | Bạn thích mùa nào nhất?
+> 现在是吃西瓜的季节。 | Xiànzài shì chī xīguā de jìjié. | Bây giờ đang là mùa ăn dưa hấu.
+* Một năm có 四个季节 (bốn mùa).
+
+@街 | nhai
+- 名 | phố, đường phố
+> 这条街上有很多饭馆。 | Zhè tiáo jiē shang yǒu hěn duō fànguǎn. | Trên con phố này có nhiều quán ăn.
+> 过街的时候要小心。 | Guò jiē de shíhou yào xiǎoxīn. | Khi qua đường phải cẩn thận.
+* Lượng từ: 条 (一条街). 上街 = ra phố.
+
+@借 | tá
+- 动 | mượn; cho mượn
+> 我可以借一下你的伞吗？ | Wǒ kěyǐ jiè yíxià nǐ de sǎn ma? | Tôi mượn ô của bạn một chút được không?
+> 我把自行车借给朋友了。 | Wǒ bǎ zìxíngchē jiè gěi péngyou le. | Tôi cho bạn mượn xe đạp rồi.
+* Dễ nhầm chiều: 借 + đồ = mượn; 借给 + ai = cho ai mượn; 跟 + ai + 借 = mượn của ai.
+
+@开花 | khai hoa
+- 动 | nở hoa, ra hoa
+> 春天到了，树都开花了。 | Chūntiān dào le, shù dōu kāihuā le. | Xuân đến, cây cối đều ra hoa rồi.
+> 这种花冬天也开花。 | Zhè zhǒng huā dōngtiān yě kāihuā. | Loài hoa này mùa đông cũng nở.
+* Có thể tách: 开了很多花 (nở rất nhiều hoa).
+
+@凉快 | lương khoái
+- 形 | mát, mát mẻ
+> 今天很凉快。 | Jīntiān hěn liángkuai. | Hôm nay trời mát.
+> 秋天到了，天气凉快了。 | Qiūtiān dào le, tiānqì liángkuai le. | Thu đến rồi, trời mát mẻ hơn.
+* Mát dễ chịu (nhất là sau những ngày nóng); 冷 = lạnh. Đọc liángkuai (chữ 快 thanh nhẹ).
+
+@秋天 | thu thiên
+- 名 | mùa thu
+> 秋天不冷也不热。 | Qiūtiān bù lěng yě bú rè. | Mùa thu không lạnh cũng không nóng.
+> 我打算秋天去中国旅游。 | Wǒ dǎsuàn qiūtiān qù Zhōngguó lǚyóu. | Tôi định mùa thu đi du lịch Trung Quốc.
+
+@伞 | tản
+- 名 | ô, dù
+> 外面下雨了，带把伞吧。 | Wàimiàn xià yǔ le, dài bǎ sǎn ba. | Ngoài trời mưa rồi, mang theo cái ô đi.
+> 我的伞忘在公司了。 | Wǒ de sǎn wàng zài gōngsī le. | Tôi để quên ô ở công ty rồi.
+* Lượng từ: 把 (一把伞 – bài 10). 打伞 = che ô, giương ô.
+
+@四季 | tứ quý
+- 名 | bốn mùa
+> 这里四季都有花。 | Zhèlǐ sìjì dōu yǒu huā. | Ở đây bốn mùa đều có hoa.
+> 这个城市四季都不太冷。 | Zhège chéngshì sìjì dōu bú tài lěng. | Thành phố này bốn mùa đều không lạnh lắm.
+* 四季 = bốn mùa (xuân, hạ, thu, đông), viết gọn của 四个季节.
+
+@夏天 | hạ thiên
+- 名 | mùa hè
+> 夏天太热了，我不想出门。 | Xiàtiān tài rè le, wǒ bù xiǎng chūmén. | Mùa hè nóng quá, tôi không muốn ra ngoài.
+> 夏天我们常常去海边游泳。 | Xiàtiān wǒmen chángcháng qù hǎibiān yóuyǒng. | Mùa hè chúng tôi thường ra biển bơi.
+
+@新闻 | tân văn
+- 名 | tin tức, thời sự
+> 我每天晚上看新闻。 | Wǒ měitiān wǎnshang kàn xīnwén. | Tối nào tôi cũng xem thời sự.
+> 你听说那个新闻了吗？ | Nǐ tīngshuō nàge xīnwén le ma? | Bạn nghe tin đó chưa?
+* Dễ nhầm: 新闻 = tin tức (thời sự), không phải “tân văn” hay “báo”. Tờ báo = 报纸.
+
+@雨衣 | vũ y
+- 名 | áo mưa
+> 下雨了，你带雨衣了吗？ | Xià yǔ le, nǐ dài yǔyī le ma? | Mưa rồi, bạn có mang áo mưa không?
+> 骑车的时候，雨衣比伞方便。 | Qí chē de shíhou, yǔyī bǐ sǎn fāngbiàn. | Lúc đi xe, áo mưa tiện hơn ô.
+* 穿雨衣 = mặc áo mưa. Lượng từ: 件.
+
+@冰 | băng
+- 名 | băng, nước đá
+> 我的饮料里不要冰。 | Wǒ de yǐnliào li bú yào bīng. | Đồ uống của tôi không cho đá.
+> 冰箱里有冰吗？ | Bīngxiāng li yǒu bīng ma? | Trong tủ lạnh có đá không?
+* Gọi đồ uống: 不要冰 = không đá. 冰箱 = tủ lạnh (bài 3).
+
+@冰激凌 | băng kích lăng
+- 名 | kem (để ăn)
+> 夏天我最喜欢吃冰激凌。 | Xiàtiān wǒ zuì xǐhuan chī bīngjīlíng. | Mùa hè tôi thích nhất là ăn kem.
+> 天太冷了，别吃冰激凌了。 | Tiān tài lěng le, bié chī bīngjīlíng le. | Trời lạnh quá, đừng ăn kem nữa.
+* Từ phiên âm “ice cream”, nên âm Hán Việt không mang nghĩa. Lượng từ: 个.
+
+@地 | địa
+- 名 | đất, mặt đất; sàn nhà
+> 下雨以后，地上都是水。 | Xià yǔ yǐhòu, dì shang dōu shì shuǐ. | Sau mưa, mặt đất toàn là nước.
+> 别坐在地上，太冷了。 | Bié zuò zài dì shang, tài lěng le. | Đừng ngồi dưới đất, lạnh lắm.
+* Ở đây đọc dì. 地上 = trên mặt đất / dưới sàn. Chữ đa âm: trợ từ 地 đọc de (认真地学习).
+
+@季 | quý
+- 名 | mùa
+> 现在是雨季，常常下雨。 | Xiànzài shì yǔjì, chángcháng xià yǔ. | Bây giờ là mùa mưa, trời hay mưa.
+> 夏季的时候这里人很多。 | Xiàjì de shíhou zhèlǐ rén hěn duō. | Vào mùa hè ở đây rất đông người.
+* Thường ghép: 春季, 夏季, 秋季, 冬季, 雨季 (trang trọng hơn 春天, 夏天…).

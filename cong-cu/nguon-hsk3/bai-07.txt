@@ -1,0 +1,188 @@
+# ===== NGUỒN SOẠN THẢO HSK 3 – BÀI 7 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–3.
+
+# 7 | Mua quần áo
+
+@矮 | ải
+- 形 | thấp (người, vật)
+> 我比哥哥矮一点儿。 | Wǒ bǐ gēge ǎi yìdiǎnr. | Tôi thấp hơn anh trai một chút.
+> 这张桌子太矮了。 | Zhè zhāng zhuōzi tài ǎi le. | Cái bàn này thấp quá.
+* Trái nghĩa: 高. Chỉ dùng cho chiều cao người, vật; giá cả, nhiệt độ “thấp” thì dùng 低 (dī).
+
+@不但 | bất đãn
+- 连 | không những, không chỉ
+> 这件衣服不但好看，而且很便宜。 | Zhè jiàn yīfu búdàn hǎokàn, érqiě hěn piányi. | Bộ quần áo này không những đẹp mà còn rẻ.
+> 他不但会说汉语，还会写汉字。 | Tā búdàn huì shuō Hànyǔ, hái huì xiě Hànzì. | Anh ấy không chỉ biết nói tiếng Hán mà còn biết viết chữ Hán.
+* Mẫu câu: 不但……而且/还…… = không những… mà còn…. 不但 luôn đọc búdàn.
+
+@大小 | đại tiểu
+- 名 | kích cỡ, cỡ (to nhỏ)
+> 这双鞋大小正合适。 | Zhè shuāng xié dàxiǎo zhèng héshì. | Đôi giày này cỡ vừa khít.
+> 你试试这件衣服的大小。 | Nǐ shìshi zhè jiàn yīfu de dàxiǎo. | Bạn thử xem cỡ của bộ quần áo này thế nào.
+* Hỏi cỡ có vừa không: 大小合适吗？
+
+@短裤 | đoản khố
+- 名 | quần đùi, quần soóc
+> 夏天我常穿短裤。 | Xiàtiān wǒ cháng chuān duǎnkù. | Mùa hè tôi hay mặc quần đùi.
+> 这条短裤多少钱？ | Zhè tiáo duǎnkù duōshao qián? | Cái quần soóc này bao nhiêu tiền?
+* Lượng từ: 条. 短裤 = quần ngắn; 裤子 = quần (nói chung).
+
+@而且 | nhi thả
+- 连 | mà còn, hơn nữa
+> 这儿的水果很新鲜，而且不贵。 | Zhèr de shuǐguǒ hěn xīnxiān, érqiě bú guì. | Hoa quả ở đây rất tươi, mà lại không đắt.
+> 她不但漂亮，而且很聪明。 | Tā búdàn piàoliang, érqiě hěn cōngming. | Cô ấy không những xinh đẹp mà còn rất thông minh.
+* Thường đi với 不但 ở vế trước. 而且 nối hai ý cùng chiều (thêm ý), không dùng để nối hai danh từ (nối danh từ dùng 和).
+
+@更 | cánh
+- 副 | càng, hơn (nữa)
+> 这件比那件更好看。 | Zhè jiàn bǐ nà jiàn gèng hǎokàn. | Cái này đẹp hơn cái kia.
+> 我喜欢喝茶，更喜欢喝咖啡。 | Wǒ xǐhuan hē chá, gèng xǐhuan hē kāfēi. | Tôi thích uống trà, càng thích uống cà phê hơn.
+* Đọc gèng (thanh 4). A 比 B 更 + tính từ; trong câu có 比 không dùng 很.
+
+@公斤 | công cân
+- 量 | ki-lô-gam (kg)
+> 我现在五十公斤。 | Wǒ xiànzài wǔshí gōngjīn. | Bây giờ tôi nặng năm mươi cân.
+> 这个西瓜有五公斤。 | Zhège xīguā yǒu wǔ gōngjīn. | Quả dưa hấu này nặng năm ký.
+* 1 公斤 = 1 kg (tiếng Việt gọi là một cân, một ký) = 2 斤. Dễ nhầm: 斤 chỉ bằng nửa ký.
+
+@合适 | hợp thích
+- 形 | vừa, vừa vặn; thích hợp
+> 这件衣服你穿很合适。 | Zhè jiàn yīfu nǐ chuān hěn héshì. | Bộ quần áo này bạn mặc rất vừa.
+> 现在去找他不太合适。 | Xiànzài qù zhǎo tā bú tài héshì. | Bây giờ đi tìm anh ấy không thích hợp lắm.
+* Dùng cho quần áo vừa người, hoặc việc/thời gian thích hợp. Hỏi: 合适不合适？
+
+@黄色 | hoàng sắc
+- 名 | màu vàng
+> 我想要那件黄色的。 | Wǒ xiǎng yào nà jiàn huángsè de. | Tôi muốn cái màu vàng kia.
+> 香蕉是黄色的。 | Xiāngjiāo shì huángsè de. | Chuối có màu vàng.
+* 黄色的 = cái màu vàng. Các màu đã học: 红色 (đỏ), 白色 (trắng), 黑色 (đen).
+
+@极 | cực
+- 副 | cực kỳ, vô cùng
+> 这儿的菜好吃极了！ | Zhèr de cài hǎochī jí le! | Món ăn ở đây ngon cực kỳ!
+> 今天热极了。 | Jīntiān rè jí le. | Hôm nay nóng kinh khủng.
+* Mẫu: tính từ + 极了 (đặt SAU tính từ), khác 很 / 非常 đặt trước.
+
+@结婚 | kết hôn
+- 动 | kết hôn, cưới
+> 我哥哥去年结婚了。 | Wǒ gēge qùnián jiéhūn le. | Anh trai tôi cưới vợ năm ngoái.
+> 他们结婚十年了。 | Tāmen jiéhūn shí nián le. | Họ cưới nhau được mười năm rồi.
+* 结婚 không mang tân ngữ: nói 和 / 跟 + người + 结婚, không nói “结婚她”.
+
+@斤 | cân
+- 量 | cân Trung Quốc (= nửa ký, 500 gam)
+> 苹果多少钱一斤？ | Píngguǒ duōshao qián yì jīn? | Táo bao nhiêu tiền nửa ký?
+> 我买了两斤香蕉。 | Wǒ mǎi le liǎng jīn xiāngjiāo. | Tôi mua một ký chuối.
+* Dễ nhầm: 一斤 chỉ là 0,5 kg; “một cân/một ký” của Việt Nam là 一公斤 (= 两斤). Ở chợ Trung Quốc hay tính giá theo 斤.
+
+@旧 | cựu
+- 形 | cũ
+> 这件衣服太旧了，别穿了。 | Zhè jiàn yīfu tài jiù le, bié chuān le. | Bộ quần áo này cũ quá rồi, đừng mặc nữa.
+> 我的自行车是旧的。 | Wǒ de zìxíngchē shì jiù de. | Xe đạp của tôi là xe cũ.
+* Trái nghĩa: 新. 旧 dùng cho đồ vật; người già thì nói 老, không nói 旧.
+
+@决定 | quyết định
+- 动 | quyết định
+> 我决定买这件红色的。 | Wǒ juédìng mǎi zhè jiàn hóngsè de. | Tôi quyết định mua cái màu đỏ này.
+> 你决定了吗？ | Nǐ juédìng le ma? | Bạn quyết định chưa?
+- 名 | quyết định (danh từ)
+> 这是一个很重要的决定。 | Zhè shì yí ge hěn zhòngyào de juédìng. | Đây là một quyết định rất quan trọng.
+* Âm Hán Việt và nghĩa giống tiếng Việt. 做决定 = đưa ra quyết định.
+
+@开机 | khai cơ
+- 动 | bật máy, mở máy (điện thoại, máy tính)
+> 你的手机开机了吗？ | Nǐ de shǒujī kāijī le ma? | Điện thoại của bạn bật máy chưa?
+> 飞机到了以后才能开机。 | Fēijī dào le yǐhòu cái néng kāijī. | Máy bay đến nơi rồi mới được bật máy.
+* Trái nghĩa: 关机 (tắt máy, bài 17). 开 ở đây là “bật, mở”, như 开灯 (bật đèn).
+
+@辆 | lượng
+- 量 | chiếc (lượng từ cho xe)
+> 我买了一辆自行车。 | Wǒ mǎi le yí liàng zìxíngchē. | Tôi mua một chiếc xe đạp.
+> 门口有两辆出租车。 | Ménkǒu yǒu liǎng liàng chūzūchē. | Ở cửa có hai chiếc taxi.
+* Dùng cho các loại xe: 一辆车, 一辆自行车. Chú ý 两辆 đọc liǎng liàng.
+
+@毛 | mao
+- 量 | hào (một phần mười đồng tệ, cách nói thường ngày)
+> 一个苹果五毛钱。 | Yí ge píngguǒ wǔ máo qián. | Một quả táo năm hào.
+> 这个两块五毛。 | Zhège liǎng kuài wǔ máo. | Cái này hai tệ năm hào.
+* 1 块 = 10 毛. Khi nói, 毛 = 角; 角 thường viết trên giá tiền. 两块五毛 cũng có thể nói gọn: 两块五.
+
+@裙子 | quần tử
+- 名 | váy
+> 她今天穿了一条红裙子。 | Tā jīntiān chuān le yì tiáo hóng qúnzi. | Hôm nay cô ấy mặc một chiếc váy đỏ.
+> 这条裙子有点儿长。 | Zhè tiáo qúnzi yǒudiǎnr cháng. | Chiếc váy này hơi dài.
+* Dễ nhầm: 裙子 (qúnzi) là VÁY, còn quần là 裤子 (kùzi). Lượng từ: 条.
+
+@声 | thanh
+- 名 | tiếng, âm thanh
+> 外面的雨声很大。 | Wàimiàn de yǔshēng hěn dà. | Tiếng mưa bên ngoài rất to.
+> 请大声说。 | Qǐng dàshēng shuō. | Hãy nói to lên.
+- 量 | tiếng (lần nói, gọi)
+> 你走的时候跟我说一声。 | Nǐ zǒu de shíhou gēn wǒ shuō yì shēng. | Lúc bạn đi thì nói với tôi một tiếng.
+* 大声 = to tiếng, 小声 = nhỏ tiếng. 说一声 = báo một tiếng.
+
+@试 | thí
+- 动 | thử
+> 我可以试试这件衣服吗？ | Wǒ kěyǐ shìshi zhè jiàn yīfu ma? | Tôi có thể thử bộ quần áo này không?
+> 你试一下，看大小合适不合适。 | Nǐ shì yíxià, kàn dàxiǎo héshì bu héshì. | Bạn thử một chút, xem cỡ có vừa không.
+* Hay nói 试试 / 试一下. 考试 = thi (âm Hán Việt “khảo thí”).
+
+@甜 | điềm
+- 形 | ngọt
+> 这个西瓜真甜！ | Zhège xīguā zhēn tián! | Quả dưa hấu này ngọt thật!
+> 我不喜欢吃太甜的东西。 | Wǒ bù xǐhuan chī tài tián de dōngxi. | Tôi không thích ăn đồ quá ngọt.
+
+@西瓜 | tây qua
+- 名 | dưa hấu
+> 夏天我最喜欢吃西瓜。 | Xiàtiān wǒ zuì xǐhuan chī xīguā. | Mùa hè tôi thích ăn dưa hấu nhất.
+> 这个西瓜多少钱？ | Zhège xīguā duōshao qián? | Quả dưa hấu này bao nhiêu tiền?
+* 西瓜 là dưa hấu, không phải “dưa tây”.
+
+@香蕉 | hương tiêu
+- 名 | chuối
+> 香蕉多少钱一斤？ | Xiāngjiāo duōshao qián yì jīn? | Chuối bao nhiêu tiền nửa ký?
+> 他买了很多香蕉。 | Tā mǎi le hěn duō xiāngjiāo. | Anh ấy mua rất nhiều chuối.
+
+@新鲜 | tân tiên
+- 形 | tươi; trong lành (không khí)
+> 这些菜很新鲜。 | Zhèxiē cài hěn xīnxiān. | Những rau này rất tươi.
+> 早上的空气很新鲜。 | Zǎoshang de kōngqì hěn xīnxiān. | Không khí buổi sáng rất trong lành.
+* Dùng cho đồ ăn tươi và không khí trong lành.
+
+@一共 | nhất cộng
+- 副 | tổng cộng, tất cả
+> 一共多少钱？ | Yígòng duōshao qián? | Tất cả bao nhiêu tiền?
+> 我们班一共有三十个学生。 | Wǒmen bān yígòng yǒu sānshí ge xuésheng. | Lớp chúng tôi có tất cả ba mươi học sinh.
+* Đọc yígòng (一 biến thành thanh 2 vì trước thanh 4). Hay dùng khi trả tiền: 一共多少钱？
+
+@自行车 | tự hành xa
+- 名 | xe đạp
+> 我每天骑自行车上班。 | Wǒ měitiān qí zìxíngchē shàngbān. | Hằng ngày tôi đi xe đạp đi làm.
+> 你的自行车是什么颜色的？ | Nǐ de zìxíngchē shì shénme yánsè de? | Xe đạp của bạn màu gì?
+* Động từ đi kèm: 骑 (đi, cưỡi). Lượng từ: 辆.
+
+@衬衫 | sấn sam
+- 名 | áo sơ mi
+> 他穿着一件白衬衫。 | Tā chuān zhe yí jiàn bái chènshān. | Anh ấy mặc một chiếc áo sơ mi trắng.
+> 这件衬衫有大一点儿的吗？ | Zhè jiàn chènshān yǒu dà yìdiǎnr de ma? | Áo sơ mi này có cỡ to hơn một chút không?
+* Lượng từ: 件.
+
+@上衣 | thượng y
+- 名 | áo (mặc phía trên)
+> 这件上衣多少钱？ | Zhè jiàn shàngyī duōshao qián? | Cái áo này bao nhiêu tiền?
+> 外面冷，多穿一件上衣吧。 | Wàimiàn lěng, duō chuān yí jiàn shàngyī ba. | Ngoài trời lạnh, mặc thêm một cái áo đi.
+* 上衣 là áo nói chung, đối lại với 裤子 / 裙子 (mặc phía dưới).
+
+@角 | giác
+- 量 | hào (một phần mười đồng tệ)
+> 一张纸一角钱。 | Yì zhāng zhǐ yì jiǎo qián. | Một tờ giấy một hào.
+> 这个面包四块五角。 | Zhège miànbāo sì kuài wǔ jiǎo. | Cái bánh mì này bốn tệ năm hào.
+* Đơn vị tiền: 元/块 > 角/毛 > 分. 角 thường viết trên giá tiền, khi nói hay dùng 毛.
+
+@老 | lão
+- 形 | già; cũ, lâu năm
+> 爷爷老了，走路很慢。 | Yéye lǎo le, zǒulù hěn màn. | Ông nội già rồi, đi lại rất chậm.
+> 他是我的老朋友。 | Tā shì wǒ de lǎo péngyou. | Anh ấy là bạn lâu năm của tôi.
+- 前缀 | (đặt trước họ để gọi thân mật người quen)
+> 老张，你去哪儿？ | Lǎo Zhāng, nǐ qù nǎr? | Anh Trương ơi, anh đi đâu đấy?
+* 老 + họ (老张) = cách gọi thân mật người quen lớn tuổi. 老朋友 = bạn lâu năm, không phải “bạn già”.

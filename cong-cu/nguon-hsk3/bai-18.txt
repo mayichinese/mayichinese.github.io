@@ -1,0 +1,160 @@
+# ===== NGUỒN SOẠN THẢO HSK 3 – BÀI 18 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–3.
+
+# 18 | Lễ Tết
+
+@阿姨 | a di
+- 名 | cô, dì (gọi phụ nữ trạc tuổi bố mẹ); cô giúp việc, cô trông trẻ
+> 阿姨，您好！ | Āyí, nín hǎo! | Cháu chào cô ạ!
+> 这位阿姨是我妈妈的朋友。 | Zhè wèi āyí shì wǒ māma de péngyou. | Cô này là bạn của mẹ tôi.
+* Không chỉ là dì ruột: trẻ con và người trẻ gọi lịch sự phụ nữ trạc tuổi bố mẹ là 阿姨. Cặp với 叔叔.
+
+@不久 | bất cửu
+- 形 | không lâu, chẳng bao lâu
+> 他们结婚不久就有了孩子。 | Tāmen jiéhūn bùjiǔ jiù yǒu le háizi. | Họ cưới nhau chẳng bao lâu thì có con.
+> 不久以后，我们又见面了。 | Bùjiǔ yǐhòu, wǒmen yòu jiànmiàn le. | Không lâu sau, chúng tôi lại gặp nhau.
+* 不久以后 = ít lâu sau; 不久以前 = cách đây không lâu.
+
+@出发 | xuất phát
+- 动 | xuất phát, khởi hành, lên đường
+> 我们明天早上七点出发。 | Wǒmen míngtiān zǎoshang qī diǎn chūfā. | Bảy giờ sáng mai chúng ta xuất phát.
+> 大家都到了吗？我们出发吧！ | Dàjiā dōu dào le ma? Wǒmen chūfā ba! | Mọi người đến đủ chưa? Chúng ta lên đường thôi!
+* 从……出发 = xuất phát từ đâu.
+
+@出生 | xuất sinh
+- 动 | sinh ra, ra đời
+> 我出生在一个小城市。 | Wǒ chūshēng zài yí ge xiǎo chéngshì. | Tôi sinh ra ở một thành phố nhỏ.
+> 她的孩子是春节出生的。 | Tā de háizi shì Chūnjié chūshēng de. | Con cô ấy sinh vào dịp Tết.
+* 是……出生的 = sinh vào lúc nào / ở đâu. Năm sinh, nơi sinh đều dùng 出生.
+
+@大概 | đại khái
+- 副 | khoảng, chừng; có lẽ
+> 从这儿到机场大概要一个小时。 | Cóng zhèr dào jīchǎng dàgài yào yí ge xiǎoshí. | Từ đây ra sân bay mất khoảng một tiếng.
+> 他大概不会来了。 | Tā dàgài bú huì lái le. | Có lẽ anh ấy sẽ không đến nữa.
+- 形 | sơ lược, đại khái
+> 我只知道大概的意思。 | Wǒ zhǐ zhīdào dàgài de yìsi. | Tôi chỉ biết đại khái ý nghĩa thôi.
+* 大概 + con số = khoảng. Tiếng Việt “đại khái” chủ yếu là nghĩa sơ lược; tiếng Trung hay dùng nghĩa “khoảng / có lẽ”.
+
+@懂得 | đổng đắc
+- 动 | hiểu, biết (đạo lý, cách làm)
+> 他很懂得照顾别人。 | Tā hěn dǒngde zhàogù biérén. | Anh ấy rất biết cách chăm sóc người khác.
+> 孩子长大了，懂得了很多事情。 | Háizi zhǎngdà le, dǒngde le hěn duō shìqing. | Con lớn rồi, hiểu được nhiều chuyện.
+* 懂得 thiên về hiểu ý nghĩa, đạo lý hoặc biết cách làm; 懂 thường là hiểu lời nói, bài học. 得 đọc nhẹ: de.
+
+@发生 | phát sinh
+- 动 | xảy ra
+> 这里发生了什么事？ | Zhèlǐ fāshēng le shénme shì? | Ở đây đã xảy ra chuyện gì?
+> 昨天路上发生了一件奇怪的事。 | Zuótiān lùshang fāshēng le yí jiàn qíguài de shì. | Hôm qua trên đường đã xảy ra một chuyện lạ.
+* Dùng cho sự việc, sự cố (xảy ra chuyện…). Hay đi với 了: 发生了……
+
+@发展 | phát triển
+- 动 | phát triển
+> 这个城市发展得很快。 | Zhège chéngshì fāzhǎn de hěn kuài. | Thành phố này phát triển rất nhanh.
+> 这几年，我们的学校发展得越来越好。 | Zhè jǐ nián, wǒmen de xuéxiào fāzhǎn de yuèláiyuè hǎo. | Mấy năm nay, trường chúng tôi phát triển ngày càng tốt.
+
+@刚 | cương
+- 副 | vừa, mới (xảy ra chưa lâu)
+> 我刚到家。 | Wǒ gāng dào jiā. | Tôi vừa về đến nhà.
+> 你来晚了，他刚走。 | Nǐ lái wǎn le, tā gāng zǒu. | Bạn đến muộn rồi, anh ấy vừa đi.
+* 刚 đứng ngay trước động từ, sau chủ ngữ. Khác 刚才 (lúc nãy) là danh từ thời gian, đứng được trước chủ ngữ.
+
+@刚刚 | cương cương
+- 副 | vừa mới
+> 电影刚刚开始。 | Diànyǐng gānggāng kāishǐ. | Phim vừa mới bắt đầu.
+> 我刚刚吃完饭。 | Wǒ gānggāng chīwán fàn. | Tôi vừa mới ăn cơm xong.
+* Giống 刚 nhưng nhấn mạnh hơn: “vừa mới xong”.
+
+@过节 | quá tiết
+- 动 | ăn Tết, đón lễ
+> 春节你回家过节吗？ | Chūnjié nǐ huí jiā guòjié ma? | Tết bạn có về nhà ăn Tết không?
+> 我们一家人在一起过节。 | Wǒmen yì jiā rén zài yìqǐ guòjié. | Cả nhà chúng tôi cùng nhau đón lễ.
+* 过 = trải qua, đón: 过年 (ăn Tết), 过生日 (đón sinh nhật).
+
+@过去2 | quá khứ
+- 名 | trước đây, quá khứ
+> 过去他不喜欢运动，现在每天都跑步。 | Guòqù tā bù xǐhuan yùndòng, xiànzài měi tiān dōu pǎobù. | Trước đây anh ấy không thích thể thao, bây giờ ngày nào cũng chạy bộ.
+> 那些都是过去的事了。 | Nàxiē dōu shì guòqù de shì le. | Đó đều là chuyện quá khứ rồi.
+* Ở đây là danh từ “trước kia”. Khác 过去 động từ “đi qua đó” (cấp 2, như 走过去).
+
+@坚持 | kiên trì
+- 动 | kiên trì, bền bỉ, giữ vững
+> 他每天坚持跑步。 | Tā měi tiān jiānchí pǎobù. | Ngày nào anh ấy cũng kiên trì chạy bộ.
+> 再坚持一下，马上就到了！ | Zài jiānchí yíxià, mǎshàng jiù dào le! | Cố thêm chút nữa, sắp tới nơi rồi!
+* 坚持 + động từ = kiên trì làm gì. Cũng có nghĩa “khăng khăng giữ ý mình”.
+
+@见面 | kiến diện
+- 动 | gặp mặt, gặp nhau
+> 我们明天在学校门口见面吧。 | Wǒmen míngtiān zài xuéxiào ménkǒu jiànmiàn ba. | Mai chúng ta gặp nhau ở cổng trường nhé.
+> 我们很久没见面了。 | Wǒmen hěn jiǔ méi jiànmiàn le. | Chúng ta lâu lắm không gặp nhau rồi.
+* 见面 không mang tân ngữ: nói 跟他见面 (gặp anh ấy), không nói 见面他. Tách được: 见过一次面.
+
+@节日 | tiết nhật
+- 名 | ngày lễ, ngày Tết
+> 春节是中国最重要的节日。 | Chūnjié shì Zhōngguó zuì zhòngyào de jiérì. | Tết Nguyên đán là ngày lễ quan trọng nhất của Trung Quốc.
+> 节日快乐！ | Jiérì kuàilè! | Chúc mừng ngày lễ!
+* 节 = lễ, Tết: 春节 (Tết Nguyên đán). 节日快乐 dùng để chúc trong mọi dịp lễ.
+
+@矿泉水 | khoáng tuyền thủy
+- 名 | nước khoáng
+> 请给我一瓶矿泉水。 | Qǐng gěi wǒ yì píng kuàngquánshuǐ. | Cho tôi một chai nước khoáng.
+> 出去玩的时候别忘了带矿泉水。 | Chūqù wán de shíhou bié wàng le dài kuàngquánshuǐ. | Lúc đi chơi đừng quên mang nước khoáng.
+* Lượng từ: 瓶 (chai).
+
+@起 | khởi
+- 动 | dậy, thức dậy
+> 你明天几点起？ | Nǐ míngtiān jǐ diǎn qǐ? | Mai mấy giờ bạn dậy?
+> 我今天起得很早。 | Wǒ jīntiān qǐ de hěn zǎo. | Hôm nay tôi dậy rất sớm.
+* 起 = 起床 (khẩu ngữ). 从……起 = kể từ… (从明天起 = từ mai trở đi).
+
+@收 | thu
+- 动 | nhận, thu
+> 你收到我的信息了吗？ | Nǐ shōudào wǒ de xìnxī le ma? | Bạn đã nhận được tin nhắn của tôi chưa?
+> 过春节的时候，孩子们会收到很多红包。 | Guò Chūnjié de shíhou, háizimen huì shōudào hěn duō hóngbāo. | Dịp Tết, trẻ con sẽ nhận được nhiều bao lì xì.
+* 收到 = nhận được; 收钱 = thu tiền. 红包 = bao lì xì.
+
+@叔叔 | thúc thúc
+- 名 | chú
+> 叔叔，请问去火车站怎么走？ | Shūshu, qǐngwèn qù huǒchēzhàn zěnme zǒu? | Chú ơi, cho cháu hỏi đến ga tàu đi thế nào ạ?
+> 我叔叔是医生。 | Wǒ shūshu shì yīshēng. | Chú tôi là bác sĩ.
+* Em trai của bố; cũng là cách gọi lịch sự đàn ông trạc tuổi bố mẹ. Cặp với 阿姨.
+
+@完成 | hoàn thành
+- 动 | hoàn thành, làm xong
+> 我已经完成作业了。 | Wǒ yǐjīng wánchéng zuòyè le. | Tôi đã làm xong bài tập rồi.
+> 这个工作明天以前能完成吗？ | Zhège gōngzuò míngtiān yǐqián néng wánchéng ma? | Công việc này có hoàn thành được trước ngày mai không?
+
+@学期 | học kỳ
+- 名 | học kỳ
+> 这个学期我有五门课。 | Zhège xuéqī wǒ yǒu wǔ mén kè. | Học kỳ này tôi có năm môn.
+> 一年有两个学期。 | Yì nián yǒu liǎng ge xuéqī. | Một năm có hai học kỳ.
+* 期 = kỳ. Lượng từ: 个.
+
+@怎样 | chẩm dạng
+- 代 | thế nào, ra sao
+> 这个菜怎样做？ | Zhège cài zěnyàng zuò? | Món này làm thế nào?
+> 你觉得这本书怎样？ | Nǐ juéde zhè běn shū zěnyàng? | Bạn thấy cuốn sách này thế nào?
+* = 怎么 / 怎么样, nghe trang trọng hơn, hay gặp trong văn viết.
+
+@只要 | chỉ yếu
+- 连 | chỉ cần (… là…)
+> 只要你努力，就一定能学好汉语。 | Zhǐyào nǐ nǔlì, jiù yídìng néng xuéhǎo Hànyǔ. | Chỉ cần bạn cố gắng là nhất định học giỏi tiếng Hán.
+> 只要有时间，我就去看你。 | Zhǐyào yǒu shíjiān, wǒ jiù qù kàn nǐ. | Chỉ cần có thời gian là tôi sẽ đến thăm bạn.
+* Mẫu 只要……就…… (chỉ cần… là…). So sánh 只有……才…… (chỉ có… mới…, bài 17).
+
+@总 | tổng
+- 副 | luôn, lúc nào cũng
+> 他上课总是来得很早。 | Tā shàngkè zǒngshì lái de hěn zǎo. | Anh ấy đi học lúc nào cũng đến rất sớm.
+> 你怎么总不在家？ | Nǐ zěnme zǒng bú zài jiā? | Sao lúc nào bạn cũng không có nhà vậy?
+* 总 = 总是 (luôn luôn). Không phải nghĩa “tổng” như trong tiếng Việt (nghĩa đó thuộc cấp cao hơn).
+
+@瓶子 | bình tử
+- 名 | cái chai, cái lọ
+> 这个瓶子里是什么？ | Zhège píngzi li shì shénme? | Trong cái chai này là gì vậy?
+> 请把空瓶子给我。 | Qǐng bǎ kōng píngzi gěi wǒ. | Hãy đưa cho tôi cái chai rỗng.
+* 瓶 làm lượng từ: 一瓶水 (một chai nước).
+
+@糖 | đường
+- 名 | đường; kẹo
+> 你喝咖啡要放糖吗？ | Nǐ hē kāfēi yào fàng táng ma? | Bạn uống cà phê có cho đường không?
+> 过年的时候，家里有很多糖。 | Guònián de shíhou, jiā li yǒu hěn duō táng. | Dịp Tết, trong nhà có rất nhiều kẹo.
+* 糖 vừa là đường vừa là kẹo: 吃糖 = ăn kẹo.

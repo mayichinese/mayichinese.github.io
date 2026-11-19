@@ -1,0 +1,197 @@
+# ===== NGUỒN SOẠN THẢO HSK 3 – BÀI 10 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–3.
+# Ghép: python -X utf8 cong-cu/ghep-du-lieu-cap.py 3
+
+# 10 | Học tập ở trường
+
+@把 | bả
+- 介 | đem, lấy (đưa tân ngữ lên trước động từ để nói đã xử lý nó thế nào)
+> 我把作业写完了。 | Wǒ bǎ zuòyè xiě wán le. | Tôi làm xong bài tập rồi.
+> 请把你的笔记给我看看。 | Qǐng bǎ nǐ de bǐjì gěi wǒ kànkan. | Cho tôi xem vở ghi của bạn với.
+- 量 | cái (đồ vật có tay cầm, chỗ cầm: ghế, ô…)
+> 教室里有三十把椅子。 | Jiàoshì li yǒu sānshí bǎ yǐzi. | Trong lớp có ba mươi cái ghế.
+* Câu chữ 把: 把 + vật + động từ + thành phần khác (完, 到, 给…, 了). Động từ không đứng trơ một mình: nói 把作业写完了, không nói 把作业写.
+
+@办公室 | biện công thất
+- 名 | văn phòng, phòng làm việc
+> 老师在办公室里。 | Lǎoshī zài bàngōngshì li. | Thầy giáo đang ở trong văn phòng.
+> 下课以后请到我的办公室来。 | Xiàkè yǐhòu qǐng dào wǒ de bàngōngshì lái. | Tan học thì đến văn phòng của tôi nhé.
+* Ở trường thường là phòng giáo viên.
+
+@笔记 | bút ký
+- 名 | bài ghi chép, vở ghi
+> 上课的时候他认真做笔记。 | Shàngkè de shíhou tā rènzhēn zuò bǐjì. | Trong giờ học anh ấy chăm chú ghi chép.
+> 我可以借你的笔记看看吗？ | Wǒ kěyǐ jiè nǐ de bǐjì kànkan ma? | Tôi mượn vở ghi của bạn xem một chút được không?
+* 做笔记 / 记笔记 = ghi chép bài. Khác 笔记本 (cuốn sổ; máy tính xách tay – bài 11).
+
+@遍 | biến
+- 量 | lần, lượt (làm trọn từ đầu đến cuối)
+> 请再说一遍。 | Qǐng zài shuō yí biàn. | Làm ơn nói lại một lần nữa.
+> 这本书我看了三遍。 | Zhè běn shū wǒ kàn le sān biàn. | Cuốn sách này tôi đọc ba lượt rồi.
+* Đứng sau động từ: 读两遍. 遍 nhấn mạnh làm trọn từ đầu đến cuối; 次 chỉ đếm số lần.
+
+@差 | sai
+- 形 | kém, tồi, dở
+> 我的数学成绩很差。 | Wǒ de shùxué chéngjì hěn chà. | Điểm toán của tôi rất kém.
+> 这家饭馆的菜太差了。 | Zhè jiā fànguǎn de cài tài chà le. | Đồ ăn quán này dở quá.
+- 动 | thiếu, còn thiếu
+> 现在差五分八点。 | Xiànzài chà wǔ fēn bā diǎn. | Bây giờ là tám giờ kém năm.
+> 我们还差一个人。 | Wǒmen hái chà yí ge rén. | Chúng ta còn thiếu một người.
+* Ở đây đọc chà (thanh 4). 差 + số phút + giờ = mấy giờ kém mấy phút. 差不多 = gần như (bài 8).
+
+@当然 | đương nhiên
+- 副 | đương nhiên, tất nhiên
+> 我当然记得你。 | Wǒ dāngrán jìde nǐ. | Tôi đương nhiên nhớ bạn.
+> 学外语当然要多说多练。 | Xué wàiyǔ dāngrán yào duō shuō duō liàn. | Học ngoại ngữ đương nhiên phải nói nhiều, luyện nhiều.
+* Có thể đứng một mình để trả lời: 当然！ = Tất nhiên rồi!
+
+@对话 | đối thoại
+- 动 | nói chuyện với nhau, đối thoại
+> 请你们两个人用汉语对话。 | Qǐng nǐmen liǎng ge rén yòng Hànyǔ duìhuà. | Hai bạn hãy đối thoại với nhau bằng tiếng Hán.
+> 我每天跟中国同学对话半个小时。 | Wǒ měitiān gēn Zhōngguó tóngxué duìhuà bàn ge xiǎoshí. | Mỗi ngày tôi nói chuyện với bạn học người Trung Quốc nửa tiếng.
+* Cách dùng: 跟 / 和 + ai + 对话.
+
+@复习 | phục tập
+- 动 | ôn tập, ôn bài
+> 明天考试，今天晚上我要复习。 | Míngtiān kǎoshì, jīntiān wǎnshang wǒ yào fùxí. | Mai thi, tối nay tôi phải ôn bài.
+> 下课以后要复习今天学的生词。 | Xiàkè yǐhòu yào fùxí jīntiān xué de shēngcí. | Tan học phải ôn lại từ mới học hôm nay.
+* 复习 là ôn lại bài đã học (không phải “phục hồi”).
+
+@黑板 | hắc bản
+- 名 | bảng đen, bảng (trong lớp)
+> 老师在黑板上写了几个汉字。 | Lǎoshī zài hēibǎn shang xiě le jǐ ge Hànzì. | Thầy viết mấy chữ Hán lên bảng.
+> 请大家看黑板。 | Qǐng dàjiā kàn hēibǎn. | Mời cả lớp nhìn lên bảng.
+* 在黑板上写 = viết lên bảng.
+
+@后年 | hậu niên
+- 名 | năm sau nữa
+> 姐姐后年结婚。 | Jiějie hòunián jiéhūn. | Năm sau nữa chị tôi cưới.
+> 我打算后年去中国学习。 | Wǒ dǎsuàn hòunián qù Zhōngguó xuéxí. | Tôi dự định năm sau nữa sang Trung Quốc học.
+* Thứ tự: 去年 – 今年 – 明年 – 后年. Dễ nhầm: 后年 là năm sau nữa (tương lai), không phải “năm kia” (quá khứ).
+
+@讲 | giảng
+- 动 | nói, kể; giảng giải
+> 老师讲得很清楚。 | Lǎoshī jiǎng de hěn qīngchu. | Thầy giảng rất dễ hiểu.
+> 你能给我讲讲这个句子吗？ | Nǐ néng gěi wǒ jiǎngjiang zhège jùzi ma? | Bạn giảng cho tôi câu này được không?
+* Gần nghĩa 说, nhưng hay dùng khi giảng bài, kể chuyện. 给 + ai + 讲 = giảng / kể cho ai nghe.
+
+@句 | cú
+- 量 | câu (lượng từ cho lời nói)
+> 我想跟你说几句话。 | Wǒ xiǎng gēn nǐ shuō jǐ jù huà. | Tôi muốn nói với bạn vài câu.
+> 他一句汉语也不会说。 | Tā yí jù Hànyǔ yě bú huì shuō. | Anh ấy một câu tiếng Hán cũng không biết nói.
+* 一句话 = một câu nói. Danh từ “câu” là 句子.
+
+@句子 | cú tử
+- 名 | câu
+> 这个句子是什么意思？ | Zhège jùzi shì shénme yìsi? | Câu này nghĩa là gì?
+> 请用这个词写一个句子。 | Qǐng yòng zhège cí xiě yí ge jùzi. | Hãy dùng từ này đặt một câu.
+* 句子 là danh từ (一个句子); 句 là lượng từ (一句话).
+
+@历史 | lịch sử
+- 名 | lịch sử
+> 我对中国历史很感兴趣。 | Wǒ duì Zhōngguó lìshǐ hěn gǎn xìngqù. | Tôi rất hứng thú với lịch sử Trung Quốc.
+> 这个城市有很长的历史。 | Zhège chéngshì yǒu hěn cháng de lìshǐ. | Thành phố này có lịch sử rất lâu đời.
+* 历史课 = giờ (môn) lịch sử.
+
+@明白 | minh bạch
+- 形 | rõ ràng, dễ hiểu
+> 老师讲得很明白。 | Lǎoshī jiǎng de hěn míngbai. | Thầy giảng rất rõ ràng.
+- 动 | hiểu, hiểu ra
+> 你明白我的意思吗？ | Nǐ míngbai wǒ de yìsi ma? | Bạn có hiểu ý tôi không?
+> 我听了两遍才明白。 | Wǒ tīng le liǎng biàn cái míngbai. | Tôi nghe hai lượt mới hiểu.
+* 我明白了！ = Tôi hiểu rồi! Gần nghĩa 懂. Đọc míngbai (chữ 白 thanh nhẹ).
+
+@难 | nan
+- 形 | khó
+> 这次考试很难。 | Zhè cì kǎoshì hěn nán. | Bài thi lần này rất khó.
+> 这个问题不难回答。 | Zhège wèntí bù nán huídá. | Câu hỏi này không khó trả lời.
+* 难 + động từ = khó làm gì: 难学 (khó học). Đã gặp trong 难看, 难听 (bài 5).
+
+@年级 | niên cấp
+- 名 | lớp (khối lớp), năm học thứ mấy
+> 我弟弟上小学三年级。 | Wǒ dìdi shàng xiǎoxué sān niánjí. | Em trai tôi học lớp ba tiểu học.
+> 你是几年级的学生？ | Nǐ shì jǐ niánjí de xuésheng? | Bạn là học sinh (sinh viên) năm thứ mấy?
+* 三年级 = lớp ba / năm thứ ba. Còn 班 là một lớp cụ thể (lớp A, lớp B).
+
+@努力 | nỗ lực
+- 形 | chăm chỉ, cố gắng
+> 他学习很努力。 | Tā xuéxí hěn nǔlì. | Anh ấy học rất chăm chỉ.
+- 动 | cố gắng, nỗ lực
+> 我会努力学好汉语。 | Wǒ huì nǔlì xué hǎo Hànyǔ. | Tôi sẽ cố gắng học giỏi tiếng Hán.
+> 大家再努力一下，就快完了。 | Dàjiā zài nǔlì yíxià, jiù kuài wán le. | Mọi người cố thêm chút nữa, sắp xong rồi.
+* 努力 + động từ = cố gắng làm gì. 很努力 = rất chăm.
+
+@清楚 | thanh sở
+- 形 | rõ, rõ ràng
+> 黑板上的字写得很清楚。 | Hēibǎn shang de zì xiě de hěn qīngchu. | Chữ trên bảng viết rất rõ.
+> 老师说得很清楚。 | Lǎoshī shuō de hěn qīngchu. | Thầy nói rất rõ ràng.
+- 动 | biết rõ, nắm rõ
+> 这件事你清楚吗？ | Zhè jiàn shì nǐ qīngchu ma? | Việc này bạn có nắm rõ không?
+> 我也不清楚他去哪儿了。 | Wǒ yě bù qīngchu tā qù nǎr le. | Tôi cũng không rõ anh ấy đi đâu rồi.
+* Đọc qīngchu (chữ 楚 thanh nhẹ). 看清楚 / 听清楚 = nhìn rõ / nghe rõ.
+
+@认真 | nhận chân
+- 形 | nghiêm túc, chăm chú, kỹ lưỡng
+> 他上课很认真。 | Tā shàngkè hěn rènzhēn. | Anh ấy học trên lớp rất nghiêm túc.
+> 请认真看看这个句子。 | Qǐng rènzhēn kànkan zhège jùzi. | Hãy xem kỹ câu này.
+* 认真 + động từ = làm gì đó một cách nghiêm túc: 认真学习. Nghĩa là “nghiêm túc”, không liên quan đến “nhận”.
+
+@数学 | số học
+- 名 | toán, môn toán
+> 我最喜欢的课是数学。 | Wǒ zuì xǐhuan de kè shì shùxué. | Môn tôi thích nhất là toán.
+> 他的数学很好，每次考试都考一百分。 | Tā de shùxué hěn hǎo, měi cì kǎoshì dōu kǎo yìbǎi fēn. | Anh ấy giỏi toán, lần thi nào cũng được một trăm điểm.
+* 数学 là môn toán nói chung, không chỉ “số học”. 数 ở đây đọc shù.
+
+@提高 | đề cao
+- 动 | nâng cao, tăng lên
+> 我想提高我的汉语水平。 | Wǒ xiǎng tígāo wǒ de Hànyǔ shuǐpíng. | Tôi muốn nâng cao trình độ tiếng Hán.
+> 这个月他的成绩提高了很多。 | Zhège yuè tā de chéngjì tígāo le hěn duō. | Tháng này thành tích của anh ấy tăng lên nhiều.
+* Hay đi với 水平, 成绩. Dễ nhầm: 提高 = nâng cao (trình độ, điểm…), không mang nghĩa “đề cao, coi trọng” như tiếng Việt.
+
+@外语 | ngoại ngữ
+- 名 | ngoại ngữ, tiếng nước ngoài
+> 你会说几种外语？ | Nǐ huì shuō jǐ zhǒng wàiyǔ? | Bạn biết nói mấy ngoại ngữ?
+> 学外语要每天练习。 | Xué wàiyǔ yào měitiān liànxí. | Học ngoại ngữ phải luyện tập mỗi ngày.
+
+@要求 | yêu cầu
+- 动 | yêu cầu, đòi hỏi
+> 老师要求我们每天写作业。 | Lǎoshī yāoqiú wǒmen měitiān xiě zuòyè. | Thầy yêu cầu chúng tôi ngày nào cũng làm bài tập.
+- 名 | yêu cầu, đòi hỏi
+> 这个工作对外语的要求很高。 | Zhège gōngzuò duì wàiyǔ de yāoqiú hěn gāo. | Công việc này yêu cầu ngoại ngữ rất cao.
+> 你有什么要求，可以跟我说。 | Nǐ yǒu shénme yāoqiú, kěyǐ gēn wǒ shuō. | Bạn có yêu cầu gì thì cứ nói với tôi.
+* 要求 + ai + làm gì = yêu cầu ai làm gì. 要求很高 = yêu cầu cao.
+
+@页 | hiệt
+- 量 | trang (sách, vở)
+> 请打开书，看第二十页。 | Qǐng dǎkāi shū, kàn dì èrshí yè. | Mời mở sách, xem trang hai mươi.
+> 这本书一共有三百页。 | Zhè běn shū yígòng yǒu sānbǎi yè. | Cuốn sách này có tất cả ba trăm trang.
+* 第 + số + 页 = trang thứ mấy.
+
+@一般 | nhất ban
+- 形 | thông thường, bình thường; thường thì
+> 我一般晚上十一点睡觉。 | Wǒ yìbān wǎnshang shíyī diǎn shuìjiào. | Tôi thường mười một giờ đêm đi ngủ.
+> 这家饭馆的菜很一般。 | Zhè jiā fànguǎn de cài hěn yìbān. | Đồ ăn quán này bình thường thôi.
+* 一般 trước động từ = thường thì. 很一般 = tàm tạm, không có gì đặc biệt. Đọc yìbān.
+
+@遇到 | ngộ đáo
+- 动 | gặp, gặp phải
+> 学习中遇到问题，可以问老师。 | Xuéxí zhōng yùdào wèntí, kěyǐ wèn lǎoshī. | Trong học tập gặp vấn đề gì có thể hỏi thầy cô.
+> 我昨天在商店遇到了一个老同学。 | Wǒ zuótiān zài shāngdiàn yùdào le yí ge lǎo tóngxué. | Hôm qua tôi tình cờ gặp một bạn học cũ ở cửa hàng.
+* 遇到 = gặp tình cờ hoặc gặp phải (khó khăn, vấn đề); hẹn gặp thì dùng 见.
+
+@作业 | tác nghiệp
+- 名 | bài tập (về nhà)
+> 今天的作业很多。 | Jīntiān de zuòyè hěn duō. | Bài tập hôm nay rất nhiều.
+> 你写完作业了吗？ | Nǐ xiě wán zuòyè le ma? | Con làm xong bài tập chưa?
+* 写作业 / 做作业 = làm bài tập. Không phải “tác nghiệp” (thao tác công việc) như tiếng Việt.
+
+@课本 | khóa bản
+- 名 | sách giáo khoa, sách học
+> 上课别忘了带课本。 | Shàngkè bié wàng le dài kèběn. | Đi học đừng quên mang sách.
+> 请打开课本，看第十页。 | Qǐng dǎkāi kèběn, kàn dì shí yè. | Mời mở sách ra, xem trang mười.
+
+@课文 | khóa văn
+- 名 | bài khóa, bài đọc trong sách
+> 请大家读一下课文。 | Qǐng dàjiā dú yíxià kèwén. | Mời cả lớp đọc bài khóa.
+> 我把课文读了三遍。 | Wǒ bǎ kèwén dú le sān biàn. | Tôi đọc bài khóa ba lượt rồi.
+* 课本 = cuốn sách; 课文 = bài đọc trong sách.

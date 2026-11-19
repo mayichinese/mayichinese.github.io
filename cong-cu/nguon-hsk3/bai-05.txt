@@ -1,0 +1,176 @@
+# ===== NGUỒN SOẠN THẢO HSK 3 – BÀI 5 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–3.
+
+# 5 | Chụp ảnh và sở thích
+
+@比较 | tỷ giảo
+- 副 | khá, tương đối
+> 今天比较冷。 | Jīntiān bǐjiào lěng. | Hôm nay khá lạnh.
+> 这家宾馆比较便宜。 | Zhè jiā bīnguǎn bǐjiào piányi. | Khách sạn này tương đối rẻ.
+- 动 | so sánh
+> 你比较一下这两个相机，看看哪个好。 | Nǐ bǐjiào yíxià zhè liǎng ge xiàngjī, kànkan nǎge hǎo. | Bạn so sánh hai cái máy ảnh này xem cái nào tốt.
+* 比较 + tính từ = khá… (mức vừa phải). Đừng nhầm với 比 (hơn) trong câu so sánh: A 比 B 高.
+
+@大衣 | đại y
+- 名 | áo khoác dài, áo măng tô
+> 外面很冷，穿上大衣吧。 | Wàimiàn hěn lěng, chuān shàng dàyī ba. | Bên ngoài lạnh lắm, mặc áo khoác vào đi.
+> 这件大衣是我妈妈买的。 | Zhè jiàn dàyī shì wǒ māma mǎi de. | Cái áo khoác này là mẹ tôi mua.
+* Lượng từ: 件. 大衣 là áo khoác dày, dài, mặc mùa đông.
+
+@电 | điện
+- 名 | điện; pin (điện thoại)
+> 我的手机没电了。 | Wǒ de shǒujī méi diàn le. | Điện thoại của tôi hết pin rồi.
+> 今天家里没电，不能看电视。 | Jīntiān jiā li méi diàn, bù néng kàn diànshì. | Hôm nay nhà mất điện, không xem tivi được.
+* 没电了 = hết pin / mất điện. 电 có trong nhiều từ đã học: 电视, 电脑, 电话, 电影.
+
+@锻炼 | đoán luyện
+- 动 | rèn luyện, tập thể dục
+> 我每天早上锻炼身体。 | Wǒ měi tiān zǎoshang duànliàn shēntǐ. | Sáng nào tôi cũng tập thể dục.
+> 多锻炼对身体好。 | Duō duànliàn duì shēntǐ hǎo. | Tập luyện nhiều tốt cho sức khỏe.
+* 锻炼身体 = rèn luyện thân thể, tập thể dục.
+
+@封 | phong
+- 量 | bức, lá (thư)
+> 我收到了一封信。 | Wǒ shōudào le yì fēng xìn. | Tôi nhận được một bức thư.
+> 他给我写了两封信。 | Tā gěi wǒ xiě le liǎng fēng xìn. | Anh ấy viết cho tôi hai bức thư.
+* Lượng từ của thư và email: 一封信, 一封邮件.
+
+@感兴趣 | cảm hứng thú
+- cụm | có hứng thú, thích thú (với…)
+> 我对音乐很感兴趣。 | Wǒ duì yīnyuè hěn gǎn xìngqù. | Tôi rất có hứng thú với âm nhạc.
+> 你对什么感兴趣？ | Nǐ duì shénme gǎn xìngqù? | Bạn thích (quan tâm) cái gì?
+* Cấu trúc: 对 + cái gì + (很)感兴趣. Phủ định: 不感兴趣. 兴 ở đây đọc xìng.
+
+@干 | cán
+- 动 | làm
+> 你在干什么？ | Nǐ zài gàn shénme? | Bạn đang làm gì thế?
+> 周末你想干什么？ | Zhōumò nǐ xiǎng gàn shénme? | Cuối tuần bạn muốn làm gì?
+* Khẩu ngữ, nghĩa giống 做. Chữ đa âm: đọc gàn (làm); đọc gān trong 干净 (sạch).
+
+@会2 | hội
+- 名 | cuộc họp, buổi họp
+> 下午我们有一个会。 | Xiàwǔ wǒmen yǒu yí ge huì. | Chiều nay chúng tôi có một cuộc họp.
+> 今天的会几点结束？ | Jīntiān de huì jǐ diǎn jiéshù? | Cuộc họp hôm nay mấy giờ kết thúc?
+* 会 ở cấp 1 là động từ “biết, sẽ”; ở đây là danh từ “cuộc họp”. 开会 = họp.
+
+@结束 | kết thúc
+- 动 | kết thúc, xong
+> 电影几点结束？ | Diànyǐng jǐ diǎn jiéshù? | Phim mấy giờ kết thúc?
+> 考试结束了，我们去玩儿吧！ | Kǎoshì jiéshù le, wǒmen qù wánr ba! | Thi xong rồi, chúng mình đi chơi thôi!
+* Trái nghĩa: 开始 (bắt đầu).
+
+@难过 | nan quá
+- 形 | buồn, đau lòng
+> 他考得不好，心里很难过。 | Tā kǎo de bù hǎo, xīnli hěn nánguò. | Anh ấy thi không tốt, trong lòng rất buồn.
+> 别难过了，明天会更好。 | Bié nánguò le, míngtiān huì gèng hǎo. | Đừng buồn nữa, ngày mai sẽ tốt hơn.
+* Âm Hán Việt “nan quá” nhưng nghĩa là buồn, đau lòng (về tâm trạng).
+
+@难看 | nan khán
+- 形 | xấu, khó coi
+> 这件衣服太难看了。 | Zhè jiàn yīfu tài nánkàn le. | Bộ quần áo này xấu quá.
+> 他的字写得很难看。 | Tā de zì xiě de hěn nánkàn. | Chữ anh ấy viết rất xấu.
+* Trái nghĩa: 好看 (đẹp). Cùng kiểu: 难听 (khó nghe) – 好听 (hay).
+
+@爬 | bà
+- 动 | leo, trèo; bò
+> 周末我们去爬山吧。 | Zhōumò wǒmen qù pá shān ba. | Cuối tuần chúng mình đi leo núi đi.
+> 孩子在地上爬。 | Háizi zài dì shang pá. | Đứa bé đang bò dưới đất.
+* 爬山 = leo núi.
+
+@拍照 | phách chiếu
+- 动 | chụp ảnh
+> 我们在这儿拍照吧。 | Wǒmen zài zhèr pāizhào ba. | Chúng mình chụp ảnh ở đây đi.
+> 这里不能拍照。 | Zhèli bù néng pāizhào. | Ở đây không được chụp ảnh.
+* Nghĩa giống 照相. Có thể tách: 拍张照 (chụp một tấm).
+
+@山 | sơn
+- 名 | núi
+> 山上的空气很好。 | Shān shang de kōngqì hěn hǎo. | Không khí trên núi rất trong lành.
+> 这里的山都很高。 | Zhèli de shān dōu hěn gāo. | Núi ở đây đều rất cao.
+* 爬山 = leo núi; 山上 = trên núi.
+
+@收到 | thu đáo
+- 动 | nhận được
+> 你收到我的邮件了吗？ | Nǐ shōudào wǒ de yóujiàn le ma? | Bạn nhận được email của tôi chưa?
+> 我昨天收到了妈妈的信。 | Wǒ zuótiān shōudào le māma de xìn. | Hôm qua tôi nhận được thư của mẹ.
+* Phủ định: 没收到 (chưa nhận được).
+
+@树 | thụ
+- 名 | cây
+> 公园里有很多树。 | Gōngyuán li yǒu hěn duō shù. | Trong công viên có rất nhiều cây.
+> 他们在树下拍照。 | Tāmen zài shù xià pāizhào. | Họ chụp ảnh dưới gốc cây.
+* 树 là cây (thân gỗ, cây to). 树下 = dưới gốc cây.
+
+@水平 | thủy bình
+- 名 | trình độ, mức độ
+> 他的汉语水平很高。 | Tā de Hànyǔ shuǐpíng hěn gāo. | Trình độ tiếng Hán của anh ấy rất cao.
+> 我想提高我的汉语水平。 | Wǒ xiǎng tígāo wǒ de Hànyǔ shuǐpíng. | Tôi muốn nâng cao trình độ tiếng Hán của mình.
+* Âm Hán Việt “thủy bình” nhưng nghĩa thường gặp là trình độ. Nói 水平高 / 水平不高.
+
+@太阳 | thái dương
+- 名 | mặt trời
+> 太阳出来了。 | Tàiyáng chūlái le. | Mặt trời mọc rồi.
+> 今天太阳很大，别忘了带伞。 | Jīntiān tàiyáng hěn dà, bié wàng le dài sǎn. | Hôm nay nắng to, đừng quên mang ô.
+* 太阳很大 = nắng to. Mặt trăng là 月亮 (bài 4).
+
+@鞋 | hài
+- 名 | giày, dép
+> 这双鞋多少钱？ | Zhè shuāng xié duōshao qián? | Đôi giày này bao nhiêu tiền?
+> 进门以前请换鞋。 | Jìn mén yǐqián qǐng huàn xié. | Trước khi vào nhà xin hãy thay giày.
+* Lượng từ: 双 (一双鞋 = một đôi giày).
+
+@兴趣 | hứng thú
+- 名 | sở thích, hứng thú
+> 我的兴趣是拍照。 | Wǒ de xìngqù shì pāizhào. | Sở thích của tôi là chụp ảnh.
+> 他对音乐没有兴趣。 | Tā duì yīnyuè méiyǒu xìngqù. | Anh ấy không có hứng thú với âm nhạc.
+* 对……有兴趣 = 对……感兴趣. 兴 ở đây đọc xìng.
+
+@音乐 | âm nhạc
+- 名 | âm nhạc, nhạc
+> 我喜欢听音乐。 | Wǒ xǐhuan tīng yīnyuè. | Tôi thích nghe nhạc.
+> 她在大学学习音乐。 | Tā zài dàxué xuéxí yīnyuè. | Cô ấy học âm nhạc ở đại học.
+* 乐 ở đây đọc yuè; trong 快乐 (vui vẻ) đọc lè.
+
+@邮件 | bưu kiện
+- 名 | thư điện tử, email; bưu phẩm
+> 我给老师发了一封邮件。 | Wǒ gěi lǎoshī fā le yì fēng yóujiàn. | Tôi đã gửi cho thầy giáo một email.
+> 我每天早上都看邮件。 | Wǒ měi tiān zǎoshang dōu kàn yóujiàn. | Sáng nào tôi cũng xem email.
+* Âm Hán Việt “bưu kiện” nhưng ngày nay thường chỉ email. 发邮件 = gửi email; lượng từ 封.
+
+@照 | chiếu
+- 动 | chụp (ảnh)
+> 我给你们照一张吧。 | Wǒ gěi nǐmen zhào yì zhāng ba. | Để tôi chụp cho các bạn một tấm nhé.
+> 这张照片是谁照的？ | Zhè zhāng zhàopiàn shì shéi zhào de? | Bức ảnh này ai chụp vậy?
+* 照 một mình đã có nghĩa là chụp (ảnh). 照片 = bức ảnh.
+
+@照相 | chiếu tướng
+- 动 | chụp ảnh
+> 我们一起照相吧！ | Wǒmen yìqǐ zhàoxiàng ba! | Chúng mình cùng chụp ảnh đi!
+> 他很喜欢照相。 | Tā hěn xǐhuan zhàoxiàng. | Anh ấy rất thích chụp ảnh.
+* Nghĩa giống 拍照. Có thể tách: 照个相. 相 đọc xiàng (như trong 相机).
+
+@终于 | chung vu
+- 副 | cuối cùng (thì), rốt cuộc
+> 等了一个小时，车终于来了。 | Děng le yí ge xiǎoshí, chē zhōngyú lái le. | Đợi một tiếng, cuối cùng xe cũng đến.
+> 我终于找到我的护照了。 | Wǒ zhōngyú zhǎodào wǒ de hùzhào le. | Cuối cùng tôi cũng tìm thấy hộ chiếu.
+* Dùng sau một thời gian dài chờ đợi hoặc cố gắng, câu thường có 了. Khác 最后 (cuối cùng – thứ tự sau chót).
+
+@总是 | tổng thị
+- 副 | luôn luôn, lúc nào cũng
+> 他总是迟到。 | Tā zǒngshì chídào. | Anh ấy lúc nào cũng đến muộn.
+> 她总是笑着跟大家说话。 | Tā zǒngshì xiào zhe gēn dàjiā shuōhuà. | Cô ấy lúc nào cũng tươi cười nói chuyện với mọi người.
+* 总是 = lúc nào cũng (thói quen); 常常 = thường (ít hơn 总是).
+
+@难听 | nan thính
+- 形 | khó nghe, dở (âm thanh, lời nói)
+> 他唱歌很难听。 | Tā chàng gē hěn nántīng. | Anh ấy hát rất dở.
+> 别说这么难听的话。 | Bié shuō zhème nántīng de huà. | Đừng nói những lời khó nghe như vậy.
+* Trái nghĩa: 好听 (hay, êm tai).
+
+@信 | tín
+- 名 | thư, lá thư
+> 我给朋友写了一封信。 | Wǒ gěi péngyou xiě le yì fēng xìn. | Tôi viết cho bạn một bức thư.
+> 这封信是从中国来的。 | Zhè fēng xìn shì cóng Zhōngguó lái de. | Bức thư này gửi từ Trung Quốc đến.
+- 动 | tin
+> 你说的话我不信。 | Nǐ shuō de huà wǒ bú xìn. | Lời bạn nói tôi không tin.
+* 写信 = viết thư, lượng từ 封. Nghĩa “tin” giống tiếng Việt; trang trọng hơn là 相信 (bài 14).
