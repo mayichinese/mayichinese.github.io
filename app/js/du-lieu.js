@@ -16,6 +16,7 @@ export const TEN_TU_LOAI = {
 const CAC_FILE = [
   { cap: 1, duongDan: 'data/hsk1.json' },
   { cap: 2, duongDan: 'data/hsk2.json', tuyChon: true },
+  { cap: 3, duongDan: 'data/hsk3.json', tuyChon: true },
 ];
 
 let baiHoc = [];       // [{ cap, so, ma, ten, tu: [ ... ], soTu, sach: false }]

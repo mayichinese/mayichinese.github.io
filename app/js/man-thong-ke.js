@@ -145,15 +145,10 @@ export async function veThongKe(khung) {
   // --- Theo cấp ---
   const tuCap1 = tatCaTu().filter((t) => t.cap === 1);
   const tkTu = demTheoLoai(tuCap1, (t) => td.the[t.khoa]);
-  const tuCap2 = tatCaTu().filter((t) => t.cap === 2);
-  const tkTu2 = demTheoLoai(tuCap2, (t) => td.the[t.khoa]);
-  const tong2 = tongTuCap(2);
   const vietTay = netChu?.vietTay12 || Object.keys(td.theViet);
   const tkViet = demTheoLoai(vietTay, (c) => td.theViet[c]);
   const np1 = nguPhap.filter((d) => (d.cap || 1) === 1);
-  const np2 = nguPhap.filter((d) => d.cap === 2);
   const tkNp = demTheoLoai(np1, (d) => td.nguPhap.the[d.id]);
-  const tkNp2 = demTheoLoai(np2, (d) => td.nguPhap.the[d.id]);
 
   // --- Hay sai ---
   const soSai = td.tracNghiem.soSai;
@@ -201,13 +196,19 @@ export async function veThongKe(khung) {
       ${khoiCap('Chữ viết tay (cấp 1–2)', tkViet, vietTay.length)}
       ${np1.length ? khoiCap('Ngữ pháp', tkNp, np1.length) : ''}
     </section>
-    ${tuCap2.length ? `
+    ${[2, 3].map((cap) => {
+      // Khung cho từng cấp 2, 3 (chỉ hiện khi đã có dữ liệu)
+      const tuCap = tatCaTu().filter((t) => t.cap === cap);
+      if (!tuCap.length) return '';
+      const tong = tongTuCap(cap);
+      const npCap = nguPhap.filter((d) => d.cap === cap);
+      return `
     <section class="khung" style="margin-top:12px">
-      <div class="dong-tren"><b class="nhan nhan-chinh">HSK 2</b></div>
-      ${khoiCap('Từ vựng', tkTu2, tuCap2.length, tuCap2.length < tong2 ? `đã soạn ${tuCap2.length}/${tong2} từ` : '')}
-      ${np2.length ? khoiCap('Ngữ pháp', tkNp2, np2.length) : ''}
-      <p class="chu-phu nho" style="margin:12px 0 0">Thi thử HSK 2, HSK 3: đang soạn (Giai đoạn 5).</p>
-    </section>` : '<p class="chu-phu nho" style="margin:12px 2px 0">HSK 2, HSK 3: chưa có dữ liệu (đang soạn ở Giai đoạn 5).</p>'}
+      <div class="dong-tren"><b class="nhan nhan-chinh">HSK ${cap}</b></div>
+      ${khoiCap('Từ vựng', demTheoLoai(tuCap, (t) => td.the[t.khoa]), tuCap.length, tuCap.length < tong ? `đã soạn ${tuCap.length}/${tong} từ` : '')}
+      ${npCap.length ? khoiCap('Ngữ pháp', demTheoLoai(npCap, (d) => td.nguPhap.the[d.id]), npCap.length) : ''}
+    </section>`;
+    }).join('')}
 
     <h3 class="tieu-de-muc">Kết quả luyện tập</h3>
     <div class="hang-chi-so">

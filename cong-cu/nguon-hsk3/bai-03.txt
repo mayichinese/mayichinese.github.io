@@ -1,0 +1,162 @@
+# ===== NGUỒN SOẠN THẢO HSK 3 – BÀI 3 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–3.
+
+# 3 | Khu nhà ở
+
+@搬 | ban
+- 动 | khiêng, bê, chuyển
+> 这个箱子太重了，我们一起搬吧。 | Zhège xiāngzi tài zhòng le, wǒmen yìqǐ bān ba. | Cái thùng này nặng quá, chúng mình cùng khiêng đi.
+> 他们上个月搬到这个小区了。 | Tāmen shàng ge yuè bān dào zhège xiǎoqū le. | Tháng trước họ chuyển đến khu nhà này.
+* 搬 + đồ = khiêng, chuyển đồ; 搬到 + nơi chốn = chuyển đến ở đâu.
+
+@搬家 | ban gia
+- 动 | chuyển nhà
+> 我们下个星期搬家。 | Wǒmen xià ge xīngqī bānjiā. | Tuần sau chúng tôi chuyển nhà.
+> 搬家很累，我们请朋友来帮忙吧。 | Bānjiā hěn lèi, wǒmen qǐng péngyou lái bāngmáng ba. | Chuyển nhà mệt lắm, mình nhờ bạn bè đến giúp đi.
+* Có thể tách ra: 搬了三次家 (chuyển nhà ba lần).
+
+@办 | biện
+- 动 | làm, giải quyết (thủ tục, công việc)
+> 我去银行办点儿事。 | Wǒ qù yínháng bàn diǎnr shì. | Tôi ra ngân hàng làm chút việc.
+> 这件事我来办吧。 | Zhè jiàn shì wǒ lái bàn ba. | Việc này để tôi lo.
+* 怎么办？ = làm sao bây giờ?
+
+@冰箱 | băng tương
+- 名 | tủ lạnh
+> 牛奶在冰箱里。 | Niúnǎi zài bīngxiāng li. | Sữa ở trong tủ lạnh.
+> 我们家的冰箱坏了。 | Wǒmen jiā de bīngxiāng huài le. | Tủ lạnh nhà tôi hỏng rồi.
+
+@才1 | tài
+- 副 | mới (muộn hơn mong đợi); mới có (ít)
+> 他十点才起床。 | Tā shí diǎn cái qǐchuáng. | Mười giờ anh ấy mới dậy.
+> 我才学了一个月汉语。 | Wǒ cái xué le yí ge yuè Hànyǔ. | Tôi mới học tiếng Hán được một tháng.
+* Ngược với 就 (sớm): 他八点就来了 (đến sớm) / 他十点才来 (mãi mới đến). Câu có 才 (muộn) thường không có 了 ở cuối.
+
+@层 | tằng
+- 量 | tầng
+> 我家住在五层。 | Wǒ jiā zhù zài wǔ céng. | Nhà tôi ở tầng năm.
+> 这个楼有二十层。 | Zhège lóu yǒu èrshí céng. | Tòa nhà này có hai mươi tầng.
+* Nói tầng mấy: 五层 = 五楼.
+
+@初中 | sơ trung
+- 名 | trung học cơ sở (cấp 2)
+> 我弟弟在上初中。 | Wǒ dìdi zài shàng chūzhōng. | Em trai tôi đang học cấp hai.
+> 我们是初中同学。 | Wǒmen shì chūzhōng tóngxué. | Chúng tôi là bạn học cấp hai.
+* 小学 → 初中 → 高中 → 大学.
+
+@打扫 | đả tảo
+- 动 | quét dọn, dọn dẹp
+> 星期天我要打扫房间。 | Xīngqītiān wǒ yào dǎsǎo fángjiān. | Chủ nhật tôi phải dọn dẹp phòng.
+> 教室已经打扫干净了。 | Jiàoshì yǐjīng dǎsǎo gānjìng le. | Lớp học đã quét dọn sạch sẽ rồi.
+
+@灯 | đăng
+- 名 | đèn
+> 太晚了，请关灯。 | Tài wǎn le, qǐng guān dēng. | Muộn rồi, tắt đèn đi.
+> 房间里的灯坏了。 | Fángjiān li de dēng huài le. | Đèn trong phòng hỏng rồi.
+* 开灯 = bật đèn, 关灯 = tắt đèn.
+
+@房子 | phòng tử
+- 名 | ngôi nhà, căn nhà
+> 这个房子有三个房间。 | Zhège fángzi yǒu sān ge fángjiān. | Ngôi nhà này có ba phòng.
+> 我想买一个大一点儿的房子。 | Wǒ xiǎng mǎi yí ge dà yìdiǎnr de fángzi. | Tôi muốn mua một ngôi nhà rộng hơn một chút.
+* 房子 = cả ngôi nhà; 房间 = một căn phòng.
+
+@关 | quan
+- 动 | đóng, tắt
+> 请关门。 | Qǐng guān mén. | Làm ơn đóng cửa.
+> 出门以前别忘了关空调。 | Chūmén yǐqián bié wàng le guān kōngtiáo. | Trước khi ra ngoài đừng quên tắt điều hòa.
+* Trái nghĩa: 开 (mở, bật).
+
+@花园 | hoa viên
+- 名 | vườn hoa
+> 小区里有一个花园。 | Xiǎoqū li yǒu yí ge huāyuán. | Trong khu nhà có một vườn hoa.
+> 奶奶每天去花园走走。 | Nǎinai měi tiān qù huāyuán zǒuzou. | Ngày nào bà nội cũng ra vườn hoa đi dạo.
+
+@还 | hoàn
+- 动 | trả (lại)
+> 我明天还你钱。 | Wǒ míngtiān huán nǐ qián. | Mai tôi trả tiền bạn.
+> 这本书你看完了就还给我吧。 | Zhè běn shū nǐ kàn wán le jiù huán gěi wǒ ba. | Cuốn sách này bạn đọc xong thì trả lại tôi nhé.
+* Đọc huán (thanh 2). Khác 还 hái (vẫn, còn – cấp 1).
+
+@环境 | hoàn cảnh
+- 名 | môi trường, khung cảnh
+> 这个小区环境很好。 | Zhège xiǎoqū huánjìng hěn hǎo. | Môi trường khu nhà này rất tốt.
+> 我很喜欢这里的学习环境。 | Wǒ hěn xǐhuan zhèlǐ de xuéxí huánjìng. | Tôi rất thích môi trường học tập ở đây.
+* Thường nghĩa là “môi trường, khung cảnh sống”, ít dùng như “hoàn cảnh (gia đình)” trong tiếng Việt.
+
+@换 | hoán
+- 动 | đổi, thay
+> 我想换一个大一点儿的房间。 | Wǒ xiǎng huàn yí ge dà yìdiǎnr de fángjiān. | Tôi muốn đổi sang phòng rộng hơn một chút.
+> 你等一下，我去换衣服。 | Nǐ děng yíxià, wǒ qù huàn yīfu. | Bạn đợi chút, tôi đi thay quần áo.
+
+@空调 | không điều
+- 名 | máy điều hòa
+> 太热了，开空调吧。 | Tài rè le, kāi kōngtiáo ba. | Nóng quá, bật điều hòa đi.
+> 房间里没有空调。 | Fángjiān li méiyǒu kōngtiáo. | Trong phòng không có điều hòa.
+
+@听说 | thính thuyết
+- 动 | nghe nói
+> 听说你要搬家了？ | Tīngshuō nǐ yào bānjiā le? | Nghe nói bạn sắp chuyển nhà à?
+> 我听说这家饭馆的菜很好吃。 | Wǒ tīngshuō zhè jiā fànguǎn de cài hěn hǎochī. | Tôi nghe nói món ăn quán này rất ngon.
+
+@挺 | đĩnh
+- 副 | khá, rất (văn nói)
+> 今天天气挺好的。 | Jīntiān tiānqì tǐng hǎo de. | Hôm nay trời khá đẹp.
+> 他汉语说得挺不错。 | Tā Hànyǔ shuō de tǐng búcuò. | Anh ấy nói tiếng Hán khá tốt.
+* Hay dùng 挺……的: 挺好的, 挺贵的.
+
+@卫生间 | vệ sinh gian
+- 名 | nhà vệ sinh, phòng tắm
+> 卫生间在房间的右边。 | Wèishēngjiān zài fángjiān de yòubian. | Nhà vệ sinh ở bên phải phòng.
+> 这个房子有两个卫生间。 | Zhège fángzi yǒu liǎng ge wèishēngjiān. | Ngôi nhà này có hai phòng vệ sinh.
+* Gần nghĩa 洗手间 (cấp 2); 卫生间 hay dùng cho phòng vệ sinh trong nhà.
+
+@洗衣机 | tẩy y cơ
+- 名 | máy giặt
+> 洗衣机在卫生间里。 | Xǐyījī zài wèishēngjiān li. | Máy giặt ở trong nhà vệ sinh.
+> 我的衣服都用洗衣机洗。 | Wǒ de yīfu dōu yòng xǐyījī xǐ. | Quần áo của tôi đều giặt bằng máy giặt.
+
+@小区 | tiểu khu
+- 名 | khu dân cư, khu chung cư
+> 我们小区里有很多树。 | Wǒmen xiǎoqū li yǒu hěn duō shù. | Trong khu nhà chúng tôi có rất nhiều cây.
+> 小区旁边就是地铁站。 | Xiǎoqū pángbiān jiù shì dìtiě zhàn. | Cạnh khu nhà là ga tàu điện ngầm.
+
+@信用卡 | tín dụng ca
+- 名 | thẻ tín dụng
+> 这里可以用信用卡吗？ | Zhèlǐ kěyǐ yòng xìnyòngkǎ ma? | Ở đây có dùng thẻ tín dụng được không?
+> 我的信用卡丢了。 | Wǒ de xìnyòngkǎ diū le. | Tôi mất thẻ tín dụng rồi.
+
+@需要 | nhu yếu
+- 动 | cần
+> 你需要帮助吗？ | Nǐ xūyào bāngzhù ma? | Bạn có cần giúp không?
+> 我需要一个安静的房间。 | Wǒ xūyào yí ge ānjìng de fángjiān. | Tôi cần một căn phòng yên tĩnh.
+- 名 | nhu cầu
+> 我们会根据你的需要选房子。 | Wǒmen huì gēnjù nǐ de xūyào xuǎn fángzi. | Chúng tôi sẽ chọn nhà theo nhu cầu của bạn.
+
+@银行 | ngân hàng
+- 名 | ngân hàng
+> 银行几点开门？ | Yínháng jǐ diǎn kāimén? | Mấy giờ ngân hàng mở cửa?
+> 我要去银行换钱。 | Wǒ yào qù yínháng huàn qián. | Tôi phải ra ngân hàng đổi tiền.
+
+@咱们 | cha môn
+- 代 | chúng ta, chúng mình (gồm cả người nghe)
+> 咱们一起去吧。 | Zánmen yìqǐ qù ba. | Chúng mình cùng đi nhé.
+> 咱们小区的环境真不错。 | Zánmen xiǎoqū de huánjìng zhēn búcuò. | Môi trường khu nhà chúng mình thật tốt.
+* 咱们 luôn gồm cả người nghe; 我们 có thể không gồm người nghe.
+
+@纸 | chỉ
+- 名 | giấy
+> 你有纸和笔吗？ | Nǐ yǒu zhǐ hé bǐ ma? | Bạn có giấy và bút không?
+> 这张纸上写着他的名字。 | Zhè zhāng zhǐ shang xiě zhe tā de míngzi. | Trên tờ giấy này có ghi tên anh ấy.
+* Lượng từ: 张 (一张纸).
+
+@扫 | tảo
+- 动 | quét
+> 我去扫一下地。 | Wǒ qù sǎo yíxià dì. | Tôi đi quét nhà một chút.
+> 请用手机扫一下这个。 | Qǐng yòng shǒujī sǎo yíxià zhège. | Hãy dùng điện thoại quét cái này (mã QR).
+* 扫地 = quét nhà; dùng điện thoại quét mã cũng nói 扫.
+
+@银行卡 | ngân hàng ca
+- 名 | thẻ ngân hàng
+> 我的银行卡在书包里。 | Wǒ de yínhángkǎ zài shūbāo li. | Thẻ ngân hàng của tôi ở trong cặp.
+> 你可以用银行卡买票。 | Nǐ kěyǐ yòng yínhángkǎ mǎi piào. | Bạn có thể dùng thẻ ngân hàng mua vé.

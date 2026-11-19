@@ -167,6 +167,8 @@ Không nên sửa thẳng `app/data/hsk1.json`, vì lần chạy script sau sẽ
 
 **Thứ tự bài theo sách:** `cong-cu/nguon-hsk1/theo-sach.txt` ghi pinyin + số bài của từng từ (chép từ bảng từ cuối sách 《新HSK教程 1》) và bài sách của từng điểm ngữ pháp (gần đúng). Sửa xong chạy `python -X utf8 cong-cu/tao-theo-sach.py` → tạo `app/data/theo-sach-hsk1.json` (báo cáo ở `cong-cu/bao-cao-theo-sach.txt`).
 
+**Từ vựng HSK 3:** giống HSK 2 nhưng ở `cong-cu/nguon-hsk3/` (18 bài theo sách 《新HSK教程 3》), chạy `python -X utf8 cong-cu/ghep-du-lieu-cap.py 3` (báo cáo ở `cong-cu/bao-cao-hsk3.txt`). Hai mục cùng viết 得: `得` = dé (được), `得(děi)` = phải.
+
 **Từ vựng HSK 2:** soạn tay trong `cong-cu/nguon-hsk2/bai-01.txt` … (cùng cách viết như HSK 1). `phan-bai.txt` chia 200 từ theo 15 bài của sách 《新HSK教程 2》 (tên bài tự đặt). Hai mục cùng viết 过 được phân biệt: `过` = guò, `过(guo)` = trợ từ. Sửa xong chạy:
    ```
    python -X utf8 cong-cu/ghep-du-lieu-cap.py 2

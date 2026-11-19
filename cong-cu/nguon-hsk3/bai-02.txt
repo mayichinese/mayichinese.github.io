@@ -1,0 +1,166 @@
+# ===== NGUỒN SOẠN THẢO HSK 3 – BÀI 2 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–3.
+
+# 2 | Gọi món
+
+@不用 | bất dụng
+- 副 | không cần
+> 不用谢！ | Bú yòng xiè! | Không cần cảm ơn đâu!
+> 明天是星期天，不用上班。 | Míngtiān shì xīngqītiān, bú yòng shàngbān. | Mai là Chủ nhật, không cần đi làm.
+* 不用 + động từ = không cần làm gì. 不用谢 = không có gì (đáp lại lời cảm ơn).
+
+@菜单 | thái đơn
+- 名 | thực đơn
+> 服务员，请给我们菜单。 | Fúwùyuán, qǐng gěi wǒmen càidān. | Phục vụ ơi, cho chúng tôi xin thực đơn.
+> 这家饭馆的菜单上有很多菜。 | Zhè jiā fànguǎn de càidān shang yǒu hěn duō cài. | Thực đơn của quán này có rất nhiều món.
+
+@尝 | thường
+- 动 | nếm, ăn thử
+> 你尝尝这个菜，很好吃。 | Nǐ chángchang zhège cài, hěn hǎochī. | Bạn nếm thử món này đi, ngon lắm.
+> 我想尝一下中国的茶。 | Wǒ xiǎng cháng yíxià Zhōngguó de chá. | Tôi muốn nếm thử trà Trung Quốc.
+* Hay lặp lại: 尝尝 (nếm thử).
+
+@蛋糕 | đản cao
+- 名 | bánh ngọt, bánh kem
+> 生日的时候我们一起吃蛋糕。 | Shēngrì de shíhou wǒmen yìqǐ chī dàngāo. | Vào ngày sinh nhật chúng tôi cùng ăn bánh kem.
+> 这个蛋糕是妈妈做的。 | Zhège dàngāo shì māma zuò de. | Cái bánh này là mẹ làm.
+* 生日蛋糕 = bánh sinh nhật.
+
+@饿 | ngạ
+- 形 | đói
+> 我饿了，我们去吃饭吧。 | Wǒ è le, wǒmen qù chī fàn ba. | Tôi đói rồi, chúng mình đi ăn đi.
+> 你饿不饿？ | Nǐ è bu è? | Bạn có đói không?
+* 饿 = đói; 渴 = khát.
+
+@方便 | phương tiện
+- 形 | tiện, thuận tiện
+> 这儿坐地铁很方便。 | Zhèr zuò dìtiě hěn fāngbiàn. | Ở đây đi tàu điện ngầm rất tiện.
+> 你明天方便吗？我想去看你。 | Nǐ míngtiān fāngbiàn ma? Wǒ xiǎng qù kàn nǐ. | Mai bạn có tiện không? Tôi muốn đến thăm bạn.
+* Không phải “phương tiện” (xe cộ) trong tiếng Việt: 方便 = tiện, thuận tiện.
+
+@方便面 | phương tiện miến
+- 名 | mì ăn liền
+> 太忙了，我中午只吃了方便面。 | Tài máng le, wǒ zhōngwǔ zhǐ chī le fāngbiànmiàn. | Bận quá, trưa nay tôi chỉ ăn mì ăn liền.
+> 方便面不太健康。 | Fāngbiànmiàn bú tài jiànkāng. | Mì ăn liền không tốt cho sức khỏe lắm.
+
+@服务 | phục vụ
+- 动 | phục vụ
+> 这家饭馆服务很好。 | Zhè jiā fànguǎn fúwù hěn hǎo. | Quán này phục vụ rất tốt.
+> 我们为大家服务。 | Wǒmen wèi dàjiā fúwù. | Chúng tôi phục vụ mọi người.
+* 服务员 = nhân viên phục vụ.
+
+@好久 | hảo cửu
+- 形 | lâu, rất lâu
+> 我等了你好久。 | Wǒ děng le nǐ hǎojiǔ. | Tôi đợi bạn lâu lắm rồi.
+> 好久不见，你还好吗？ | Hǎojiǔ bújiàn, nǐ hái hǎo ma? | Lâu rồi không gặp, bạn vẫn khỏe chứ?
+
+@鸡 | kê
+- 名 | gà
+> 我很喜欢吃鸡肉。 | Wǒ hěn xǐhuan chī jīròu. | Tôi rất thích ăn thịt gà.
+> 奶奶家有很多鸡。 | Nǎinai jiā yǒu hěn duō jī. | Nhà bà nội có rất nhiều gà.
+* 鸡蛋 = trứng gà, 鸡肉 = thịt gà.
+
+@记 | ký
+- 动 | ghi, ghi nhớ
+> 请记一下我的电话号码。 | Qǐng jì yíxià wǒ de diànhuà hàomǎ. | Hãy ghi lại số điện thoại của tôi.
+> 我记不住这么多字。 | Wǒ jì bu zhù zhème duō zì. | Tôi không nhớ nổi nhiều chữ như vậy.
+* 记得 = nhớ (cấp 2); 记住 = nhớ kỹ.
+
+@简单 | giản đơn
+- 形 | đơn giản, dễ
+> 这个问题很简单。 | Zhège wèntí hěn jiǎndān. | Câu hỏi này rất đơn giản.
+> 我们晚上吃点儿简单的吧。 | Wǒmen wǎnshang chī diǎnr jiǎndān de ba. | Tối nay mình ăn gì đó đơn giản thôi.
+
+@渴 | khát
+- 形 | khát
+> 我渴了，想喝水。 | Wǒ kě le, xiǎng hē shuǐ. | Tôi khát rồi, muốn uống nước.
+> 跑步以后很渴。 | Pǎobù yǐhòu hěn kě. | Chạy bộ xong rất khát.
+
+@筷子 | khoái tử
+- 名 | đũa
+> 你会用筷子吗？ | Nǐ huì yòng kuàizi ma? | Bạn biết dùng đũa không?
+> 请给我一双筷子。 | Qǐng gěi wǒ yì shuāng kuàizi. | Cho tôi một đôi đũa.
+* Lượng từ: 双 (一双筷子).
+
+@马上 | mã thượng
+- 副 | ngay, lập tức
+> 你等一下，我马上来。 | Nǐ děng yíxià, wǒ mǎshàng lái. | Bạn đợi chút, tôi đến ngay.
+> 电影马上就要开始了。 | Diànyǐng mǎshàng jiù yào kāishǐ le. | Phim sắp bắt đầu ngay rồi.
+* Không phải “trên lưng ngựa”: 马上 = ngay lập tức.
+
+@热情 | nhiệt tình
+- 形 | nhiệt tình
+> 中国人很热情。 | Zhōngguórén hěn rèqíng. | Người Trung Quốc rất nhiệt tình.
+> 服务员热情地欢迎我们。 | Fúwùyuán rèqíng de huānyíng wǒmen. | Nhân viên phục vụ nhiệt tình chào đón chúng tôi.
+
+@勺子 | chước tử
+- 名 | thìa, muỗng
+> 吃米饭可以用勺子。 | Chī mǐfàn kěyǐ yòng sháozi. | Ăn cơm có thể dùng thìa.
+> 请再给我一个勺子。 | Qǐng zài gěi wǒ yí ge sháozi. | Cho tôi thêm một cái thìa.
+
+@双 | song
+- 量 | đôi
+> 我买了一双新鞋。 | Wǒ mǎi le yì shuāng xīn xié. | Tôi mua một đôi giày mới.
+> 桌子上有两双筷子。 | Zhuōzi shang yǒu liǎng shuāng kuàizi. | Trên bàn có hai đôi đũa.
+* Dùng cho vật đi theo cặp: 一双鞋, 一双筷子.
+
+@外卖 | ngoại mại
+- 名 | đồ ăn gọi giao tận nơi
+> 我们叫个外卖吧。 | Wǒmen jiào ge wàimài ba. | Mình gọi đồ ăn giao tận nơi đi.
+- 动 | bán mang đi
+> 这家饭馆的菜可以外卖吗？ | Zhè jiā fànguǎn de cài kěyǐ wàimài ma? | Món của quán này có bán mang đi không?
+* 点外卖 / 叫外卖 = gọi đồ ăn giao tận nơi.
+
+@碗 | oản
+- 名 | cái bát
+> 桌子上有一个碗。 | Zhuōzi shang yǒu yí ge wǎn. | Trên bàn có một cái bát.
+> 我吃了两碗米饭。 | Wǒ chī le liǎng wǎn mǐfàn. | Tôi ăn hai bát cơm.
+* 碗 cũng dùng để đếm: 一碗米饭 (một bát cơm).
+
+@选 | tuyển
+- 动 | chọn
+> 这两件衣服，你选哪件？ | Zhè liǎng jiàn yīfu, nǐ xuǎn nǎ jiàn? | Hai bộ quần áo này, bạn chọn bộ nào?
+> 你想吃什么，自己选吧。 | Nǐ xiǎng chī shénme, zìjǐ xuǎn ba. | Bạn muốn ăn gì thì tự chọn đi.
+
+@饮料 | ẩm liệu
+- 名 | đồ uống
+> 你想喝什么饮料？ | Nǐ xiǎng hē shénme yǐnliào? | Bạn muốn uống gì?
+> 冰箱里有很多饮料。 | Bīngxiāng li yǒu hěn duō yǐnliào. | Trong tủ lạnh có rất nhiều đồ uống.
+
+@用 | dụng
+- 动 | dùng, sử dụng
+> 我可以用一下你的笔吗？ | Wǒ kěyǐ yòng yíxià nǐ de bǐ ma? | Tôi dùng bút của bạn một chút được không?
+> 中国人吃饭用筷子。 | Zhōngguórén chī fàn yòng kuàizi. | Người Trung Quốc ăn cơm bằng đũa.
+* 用 + đồ vật + làm gì = dùng… để làm gì.
+
+@又 | hựu
+- 副 | lại (việc đã lặp lại)
+> 他今天又迟到了。 | Tā jīntiān yòu chídào le. | Hôm nay anh ấy lại đến muộn.
+> 你又买了一个手机？ | Nǐ yòu mǎi le yí ge shǒujī? | Bạn lại mua thêm một cái điện thoại à?
+* 又 dùng cho việc ĐÃ lặp lại; việc SẮP lặp lại dùng 再 (明天再来).
+
+@员 | viên
+- 后缀 | viên, người (làm nghề gì)
+> 她是这家饭馆的服务员。 | Tā shì zhè jiā fànguǎn de fúwùyuán. | Cô ấy là nhân viên phục vụ của quán này.
+> 我哥哥是运动员。 | Wǒ gēge shì yùndòngyuán. | Anh trai tôi là vận động viên.
+* Giống “viên” trong tiếng Việt: 服务员 (nhân viên phục vụ), 运动员 (vận động viên).
+
+@张 | trương
+- 量 | tờ, tấm, chiếc (vật phẳng: giấy, ảnh, bàn, giường)
+> 请给我一张纸。 | Qǐng gěi wǒ yì zhāng zhǐ. | Cho tôi một tờ giấy.
+> 我们要一张四个人的桌子。 | Wǒmen yào yì zhāng sì ge rén de zhuōzi. | Chúng tôi cần một bàn cho bốn người.
+- 动 | há, mở (miệng)
+> 张开嘴，我看看。 | Zhāngkāi zuǐ, wǒ kànkan. | Há miệng ra, tôi xem nào.
+* Lượng từ cho vật phẳng: 一张纸, 一张照片, 一张票, 一张床.
+
+@只 | chỉ
+- 副 | chỉ
+> 我只有十块钱。 | Wǒ zhǐ yǒu shí kuài qián. | Tôi chỉ có mười tệ.
+> 他只喝茶，不喝咖啡。 | Tā zhǐ hē chá, bù hē kāfēi. | Anh ấy chỉ uống trà, không uống cà phê.
+* Đọc zhǐ (thanh 3). Khác 只 zhī (con – lượng từ cấp 1).
+
+@子 | tử
+- 后缀 | (hậu tố của danh từ, đọc nhẹ zi)
+> 这个箱子是谁的？ | Zhège xiāngzi shì shéi de? | Cái vali này của ai?
+> 请给我一个勺子。 | Qǐng gěi wǒ yí ge sháozi. | Cho tôi một cái thìa.
+* Nhiều danh từ có đuôi 子 đọc nhẹ: 桌子, 椅子, 筷子, 勺子, 箱子.

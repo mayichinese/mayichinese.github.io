@@ -1,0 +1,161 @@
+# ===== NGUỒN SOẠN THẢO HSK 3 – BÀI 1 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–3.
+# Ghép: python -X utf8 cong-cu/ghep-du-lieu-cap.py 3
+
+# 1 | Đón ở sân bay
+
+@帮助 | bang trợ
+- 动 | giúp đỡ, giúp
+> 他经常帮助别人。 | Tā jīngcháng bāngzhù biérén. | Anh ấy thường giúp đỡ người khác.
+> 老师帮助我学习汉语。 | Lǎoshī bāngzhù wǒ xuéxí Hànyǔ. | Thầy giúp tôi học tiếng Hán.
+* Trang trọng hơn 帮; có người ngay sau (帮助他). Khác 帮忙: 帮忙 không có người ngay sau.
+
+@不见 | bất kiến
+- 动 | không thấy đâu, mất
+> 我的手机不见了。 | Wǒ de shǒujī bújiàn le. | Điện thoại của tôi mất đâu rồi.
+> 好久不见！ | Hǎojiǔ bújiàn! | Lâu lắm không gặp!
+* 不见了 = biến đâu mất. 好久不见 = lâu rồi không gặp (câu chào).
+
+@带 | đới
+- 动 | mang, đem theo; dẫn (ai đi đâu)
+> 出门别忘了带手机。 | Chūmén bié wàng le dài shǒujī. | Ra ngoài đừng quên mang điện thoại.
+> 我带你去看看我们的学校。 | Wǒ dài nǐ qù kànkan wǒmen de xuéxiào. | Tôi dẫn bạn đi xem trường chúng tôi.
+* 带 + vật = mang theo; 带 + người + đi đâu = dẫn ai đi đâu.
+
+@丢 | đâu
+- 动 | mất, đánh mất
+> 我的护照丢了！ | Wǒ de hùzhào diū le! | Tôi mất hộ chiếu rồi!
+> 小心，别丢了东西。 | Xiǎoxīn, bié diū le dōngxi. | Cẩn thận, đừng để mất đồ.
+* 丢了 = mất rồi.
+
+@短 | đoản
+- 形 | ngắn
+> 她的头发很短。 | Tā de tóufa hěn duǎn. | Tóc cô ấy rất ngắn.
+> 这条裤子太短了。 | Zhè tiáo kùzi tài duǎn le. | Cái quần này ngắn quá.
+* Trái nghĩa: 长 (cháng, dài).
+
+@发现 | phát hiện
+- 动 | phát hiện, nhận ra
+> 我发现他今天不太高兴。 | Wǒ fāxiàn tā jīntiān bú tài gāoxìng. | Tôi nhận ra hôm nay anh ấy không vui lắm.
+> 到了机场我才发现没带护照。 | Dào le jīchǎng wǒ cái fāxiàn méi dài hùzhào. | Đến sân bay tôi mới phát hiện ra mình không mang hộ chiếu.
+* Dùng cả cho việc nhỏ hằng ngày: nhận ra, để ý thấy.
+
+@好像 | hảo tượng
+- 副 | hình như, có vẻ như
+> 他好像病了。 | Tā hǎoxiàng bìng le. | Hình như anh ấy ốm rồi.
+> 外面好像下雨了。 | Wàimiàn hǎoxiàng xià yǔ le. | Bên ngoài hình như mưa rồi.
+- 动 | giống như
+> 她们好像姐妹一样。 | Tāmen hǎoxiàng jiěmèi yíyàng. | Họ giống như chị em vậy.
+* 好像……一样 = giống như… vậy.
+
+@号码 | hiệu mã
+- 名 | số (điện thoại, phòng…)
+> 你的手机号码是多少？ | Nǐ de shǒujī hàomǎ shì duōshao? | Số điện thoại của bạn là bao nhiêu?
+> 请写一下你的房间号码。 | Qǐng xiě yíxià nǐ de fángjiān hàomǎ. | Hãy ghi lại số phòng của bạn.
+* Hỏi số dài dùng 多少: 号码是多少？
+
+@护照 | hộ chiếu
+- 名 | hộ chiếu
+> 出国一定要带护照。 | Chūguó yídìng yào dài hùzhào. | Ra nước ngoài nhất định phải mang hộ chiếu.
+> 请给我看一下你的护照。 | Qǐng gěi wǒ kàn yíxià nǐ de hùzhào. | Vui lòng cho tôi xem hộ chiếu của bạn.
+
+@接 | tiếp
+- 动 | đón (ai)
+> 明天我去车站接你。 | Míngtiān wǒ qù chēzhàn jiē nǐ. | Mai tôi ra bến xe đón bạn.
+- 动 | nghe, nhận (điện thoại)
+> 他没接电话。 | Tā méi jiē diànhuà. | Anh ấy không nghe máy.
+* 接 là đón (đến gặp và đưa về); 送 là tiễn, đưa đi.
+
+@米 | mễ
+- 量 | mét
+> 我身高一米七。 | Wǒ shēngāo yì mǐ qī. | Tôi cao một mét bảy.
+> 学校离这儿只有五百米。 | Xuéxiào lí zhèr zhǐ yǒu wǔbǎi mǐ. | Trường cách đây chỉ năm trăm mét.
+* 米 còn nghĩa là “gạo” (米饭 = cơm). “Một mét bảy” nói 一米七.
+
+@年轻 | niên khinh
+- 形 | trẻ, trẻ tuổi
+> 她妈妈看起来很年轻。 | Tā māma kàn qǐlái hěn niánqīng. | Mẹ cô ấy trông rất trẻ.
+> 年轻人都喜欢上网。 | Niánqīngrén dōu xǐhuan shàngwǎng. | Người trẻ đều thích lên mạng.
+* 年轻人 = người trẻ. Trái nghĩa: 老 (già).
+
+@身高 | thân cao
+- 名 | chiều cao (của người)
+> 你的身高是多少？ | Nǐ de shēngāo shì duōshao? | Chiều cao của bạn là bao nhiêu?
+> 他身高一米八。 | Tā shēngāo yì mǐ bā. | Anh ấy cao một mét tám.
+
+@瘦 | sấu
+- 形 | gầy; (quần áo) chật
+> 你最近瘦了。 | Nǐ zuìjìn shòu le. | Dạo này bạn gầy đi.
+> 这条裤子有点儿瘦。 | Zhè tiáo kùzi yǒudiǎnr shòu. | Cái quần này hơi chật.
+* Trái nghĩa: 胖 (béo, bài 8). Quần áo bó, chật cũng nói 瘦.
+
+@头发 | đầu phát
+- 名 | tóc
+> 她的头发很长。 | Tā de tóufa hěn cháng. | Tóc cô ấy rất dài.
+> 我的头发是黑色的。 | Wǒ de tóufa shì hēisè de. | Tóc tôi màu đen.
+
+@箱子 | tương tử
+- 名 | cái hộp, cái thùng; vali
+> 这个箱子太重了。 | Zhège xiāngzi tài zhòng le. | Cái vali này nặng quá.
+> 我的箱子是黑色的。 | Wǒ de xiāngzi shì hēisè de. | Vali của tôi màu đen.
+
+@像 | tượng
+- 动 | giống
+> 她很像她妈妈。 | Tā hěn xiàng tā māma. | Cô ấy rất giống mẹ.
+> 你说汉语像中国人一样。 | Nǐ shuō Hànyǔ xiàng Zhōngguórén yíyàng. | Bạn nói tiếng Hán giống như người Trung Quốc vậy.
+* A 像 B (一样) = A giống B. 好像 = hình như.
+
+@行李 | hành lý
+- 名 | hành lý
+> 你的行李多吗？ | Nǐ de xíngli duō ma? | Hành lý của bạn có nhiều không?
+> 我帮你拿行李吧。 | Wǒ bāng nǐ ná xíngli ba. | Để tôi xách hành lý giúp bạn.
+* Lượng từ: 件 (一件行李).
+
+@以为 | dĩ vi
+- 动 | tưởng (là)
+> 我以为你是中国人。 | Wǒ yǐwéi nǐ shì Zhōngguórén. | Tôi cứ tưởng bạn là người Trung Quốc.
+> 我以为他不来了，但是他来了。 | Wǒ yǐwéi tā bù lái le, dànshì tā lái le. | Tôi tưởng anh ấy không đến nữa, nhưng anh ấy đã đến.
+* 以为 thường dùng khi điều mình nghĩ hóa ra SAI; nghĩ đúng thì dùng 觉得 / 认为.
+
+@应该 | ứng cai
+- 动 | nên, phải; chắc là
+> 你应该多休息。 | Nǐ yīnggāi duō xiūxi. | Bạn nên nghỉ ngơi nhiều.
+> 他现在应该到家了。 | Tā xiànzài yīnggāi dào jiā le. | Giờ này chắc anh ấy về đến nhà rồi.
+* Phủ định: 不应该 (không nên).
+
+@站2 | trạm
+- 动 | đứng
+> 别站着，请坐吧。 | Bié zhàn zhe, qǐng zuò ba. | Đừng đứng thế, mời ngồi.
+> 他站在门口等你。 | Tā zhàn zài ménkǒu děng nǐ. | Anh ấy đứng ở cửa đợi bạn.
+* 站 cấp 2 là danh từ “trạm, ga”; ở đây là động từ “đứng”. 站起来 = đứng dậy.
+
+@长 | trưởng
+- 动 | lớn lên, mọc
+> 孩子长得真快！ | Háizi zhǎng de zhēn kuài! | Trẻ con lớn nhanh thật!
+> 你长得很像你爸爸。 | Nǐ zhǎng de hěn xiàng nǐ bàba. | Bạn trông rất giống bố bạn.
+- 后缀 | trưởng (người đứng đầu)
+> 他是我们的校长。 | Tā shì wǒmen de xiàozhǎng. | Ông ấy là hiệu trưởng của chúng tôi.
+* Đọc zhǎng (thanh 3). 长得…… = trông (ngoại hình) thế nào. Khác 长 cháng (dài, cấp 2).
+
+@着急 | trứ cấp
+- 形 | sốt ruột, lo lắng, vội
+> 别着急，慢慢说。 | Bié zháojí, mànmàn shuō. | Đừng vội, cứ từ từ nói.
+> 车还没来，我很着急。 | Chē hái méi lái, wǒ hěn zháojí. | Xe vẫn chưa đến, tôi rất sốt ruột.
+* 着 ở đây đọc zháo.
+
+@照片 | chiếu phiến
+- 名 | ảnh, bức ảnh
+> 这是我们一家人的照片。 | Zhè shì wǒmen yì jiā rén de zhàopiàn. | Đây là ảnh của cả nhà tôi.
+> 你看，这张照片怎么样？ | Nǐ kàn, zhè zhāng zhàopiàn zěnmeyàng? | Bạn xem, bức ảnh này thế nào?
+* Lượng từ: 张 (一张照片). 照相 / 拍照 = chụp ảnh (bài 5).
+
+@中间 | trung gian
+- 名 | ở giữa
+> 坐在中间的是我爸爸。 | Zuò zài zhōngjiān de shì wǒ bàba. | Người ngồi ở giữa là bố tôi.
+> 银行在商店和饭馆中间。 | Yínháng zài shāngdiàn hé fànguǎn zhōngjiān. | Ngân hàng ở giữa cửa hàng và quán ăn.
+* A 和 B 中间 = giữa A và B. Không phải “trung gian” (người môi giới) trong tiếng Việt.
+
+@重要 | trọng yếu
+- 形 | quan trọng
+> 这件事很重要。 | Zhè jiàn shì hěn zhòngyào. | Việc này rất quan trọng.
+> 身体健康最重要。 | Shēntǐ jiànkāng zuì zhòngyào. | Sức khỏe là quan trọng nhất.

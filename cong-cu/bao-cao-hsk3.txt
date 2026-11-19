@@ -1,0 +1,26 @@
+Đã ghi app\data\hsk3.json
+Từ chính thức cấp 3: 500 | đã xếp bài: 500 | đã soạn: 82 | còn thiếu: 418 | câu ví dụ: 168 | có mục cần kiểm tra: 0
+  Bài  1: 26/26 ✓ Đón ở sân bay
+  Bài  2: 28/28 ✓ Gọi món
+  Bài  3: 28/28 ✓ Khu nhà ở
+  Bài  4:  0/28   Khách sạn
+  Bài  5:  0/28   Chụp ảnh và sở thích
+  Bài  6:  0/28   Đi tàu cao tốc
+  Bài  7:  0/30   Mua quần áo
+  Bài  8:  0/26   Sức khỏe và bệnh viện
+  Bài  9:  0/26   Thi đấu thể thao
+  Bài 10:  0/30   Học tập ở trường
+  Bài 11:  0/29   Công việc và giải quyết vấn đề
+  Bài 12:  0/29   Bốn mùa
+  Bài 13:  0/29   Hàng xóm mới
+  Bài 14:  0/28   Thư viện và sách báo
+  Bài 15:  0/30   Thành phố và phương hướng
+  Bài 16:  0/24   Động vật
+  Bài 17:  0/27   Học hỏi người khác
+  Bài 18:  0/26   Lễ Tết
+
+LỖI (0):
+
+CẢNH BÁO (0):
+
+SAI THANH trong câu ví dụ – nên xem lại (0):
