@@ -1,0 +1,58 @@
+# ===== BỘ TRANH (EMOJI) CHO ĐỀ THI THỬ HSK 1 =====
+# Mỗi dòng: pinyin (thêm chữ Hán nếu là từ đồng âm) | emoji | nhóm
+#   - Chỉ dùng từ mà biểu tượng CHỈ có một cách hiểu; bỏ các cặp dễ nhầm (车/出租车, 商店/超市, 电话/打电话).
+#   - Chỉ dùng emoji có từ năm 2019 trở về trước (điện thoại cũ vẫn hiện được).
+#   - "nhóm" dùng để chọn tranh nhiễu cùng loại (giống đề thật: ba tranh đồ ăn, ba tranh đồ vật…).
+# Dòng bắt đầu bằng "=" là CỤM không phải mục từ (vd. giờ đồng hồ): = chữ Hán | pinyin | emoji | nhóm
+# Sửa xong chạy: python -X utf8 cong-cu/ghep-thi-thu.py
+
+píngguǒ | 🍎 | an
+mǐfàn | 🍚 | an
+jiǎozi | 🥟 | an
+miànbāo | 🍞 | an
+jīdàn | 🥚 | an
+niúnǎi | 🥛 | an
+chá | 🍵 | an
+miàntiáor | 🍜 | an
+māo | 🐱 | vat
+gǒu | 🐶 | vat
+shǒujī | 📱 | vat
+diànnǎo | 💻 | vat
+shū | 📕 | vat
+yǐzi | 🪑 | vat
+yīfu | 👕 | vat
+qián 钱 | 💰 | vat
+diànshì | 📺 | vat
+chūzūchē | 🚕 | xe
+huǒchē | 🚆 | xe
+fēijī | ✈️ | xe
+yīyuàn | 🏥 | noi
+xuéxiào | 🏫 | noi
+shāngdiàn | 🏪 | noi
+jiā | 🏠 | noi
+xià yǔ | 🌧️ | troi
+xuě | ❄️ | troi
+rè | 🥵 | troi
+lěng | 🥶 | troi
+yīshēng | 👨‍⚕️ | nguoi
+lǎoshī | 👩‍🏫 | nguoi
+xuéshēng | 👨‍🎓 | nguoi
+háizi | 🧒 | nguoi
+shuìjiào | 😴 | lam
+dǎ diànhuà | 📞 | lam
+diànyǐng | 🎬 | lam
+chàng | 🎤 | lam
+xiě | ✍️ | lam
+mǎi | 🛍️ | lam
+qǐchuáng | ⏰ | lam
+gōngzuò | 💼 | lam
+= 一点 | yī diǎn | 🕐 | gio
+= 三点 | sān diǎn | 🕒 | gio
+= 五点 | wǔ diǎn | 🕔 | gio
+= 七点 | qī diǎn | 🕖 | gio
+= 八点 | bā diǎn | 🕗 | gio
+= 九点 | jiǔ diǎn | 🕘 | gio
+= 十二点 | shí'èr diǎn | 🕛 | gio
+= 两点半 | liǎng diǎn bàn | 🕝 | gio
+= 六点半 | liù diǎn bàn | 🕡 | gio
+= 十点半 | shí diǎn bàn | 🕥 | gio

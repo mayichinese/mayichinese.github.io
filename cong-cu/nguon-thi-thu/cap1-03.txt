@@ -1,0 +1,58 @@
+# ===== NGÂN HÀNG CÂU HỎI THI THỬ HSK 1 – ĐỢT 3 (soạn tay, câu tự đặt) =====
+# CÂU HỎI THEO CÂU (### cau): dùng cho Nghe phần 4 (máy đọc câu S rồi câu hỏi H) và Đọc phần 4.
+#   S câu | pinyin
+#   H câu hỏi | pinyin
+#   A đáp án đúng | pinyin
+#   X đáp án sai | pinyin   (2 dòng)
+
+### cau
+S 我下午去商店买衣服。 | Wǒ xiàwǔ qù shāngdiàn mǎi yīfu.
+H 说话人下午去哪儿？ | Shuōhuàrén xiàwǔ qù nǎr?
+A 商店 | shāngdiàn
+X 医院 | yīyuàn
+X 学校 | xuéxiào
+S 我今年二十岁，我哥哥二十五岁。 | Wǒ jīnnián èrshí suì, wǒ gēge èrshíwǔ suì.
+H 哥哥多大？ | Gēge duō dà?
+A 二十五岁 | èrshíwǔ suì
+X 二十岁 | èrshí suì
+X 十五岁 | shíwǔ suì
+S 今天很冷，下雪了。 | Jīntiān hěn lěng, xià xuě le.
+H 今天天气怎么样？ | Jīntiān tiānqì zěnmeyàng?
+A 很冷 | hěn lěng
+X 很热 | hěn rè
+X 下雨了 | xià yǔ le
+S 我爸爸在医院工作，他是医生。 | Wǒ bàba zài yīyuàn gōngzuò, tā shì yīshēng.
+H 说话人的爸爸是做什么的？ | Shuōhuàrén de bàba shì zuò shénme de?
+A 医生 | yīshēng
+X 老师 | lǎoshī
+X 学生 | xuéshēng
+S 我早上七点起床，八点去学校。 | Wǒ zǎoshang qī diǎn qǐchuáng, bā diǎn qù xuéxiào.
+H 说话人几点起床？ | Shuōhuàrén jǐ diǎn qǐchuáng?
+A 七点 | qī diǎn
+X 八点 | bā diǎn
+X 九点 | jiǔ diǎn
+S 这本书很好看，三十块钱。 | Zhè běn shū hěn hǎokàn, sānshí kuài qián.
+H 这本书多少钱？ | Zhè běn shū duōshao qián?
+A 三十块 | sānshí kuài
+X 十三块 | shísān kuài
+X 三块 | sān kuài
+S 我喜欢喝茶，不喜欢喝牛奶。 | Wǒ xǐhuan hē chá, bù xǐhuan hē niúnǎi.
+H 说话人喜欢喝什么？ | Shuōhuàrén xǐhuan hē shénme?
+A 茶 | chá
+X 牛奶 | niúnǎi
+X 水 | shuǐ
+S 明天是星期六，我不上班。 | Míngtiān shì xīngqīliù, wǒ bú shàngbān.
+H 明天星期几？ | Míngtiān xīngqī jǐ?
+A 星期六 | xīngqīliù
+X 星期五 | xīngqīwǔ
+X 星期天 | xīngqītiān
+S 我家有一只猫和一只狗。 | Wǒ jiā yǒu yì zhī māo hé yì zhī gǒu.
+H 说话人家有什么？ | Shuōhuàrén jiā yǒu shénme?
+A 猫和狗 | māo hé gǒu
+X 两只猫 | liǎng zhī māo
+X 两只狗 | liǎng zhī gǒu
+S 我坐飞机去中国，不坐火车。 | Wǒ zuò fēijī qù Zhōngguó, bú zuò huǒchē.
+H 说话人怎么去中国？ | Shuōhuàrén zěnme qù Zhōngguó?
+A 坐飞机 | zuò fēijī
+X 坐火车 | zuò huǒchē
+X 坐出租车 | zuò chūzūchē

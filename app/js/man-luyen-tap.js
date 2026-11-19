@@ -16,6 +16,8 @@ const CAC_PHAN = [
     moTa: '100 chữ cần viết tay HSK 1–2: xem thứ tự nét, viết theo, viết không nhìn.' },
   { ma: 'nguPhap', emoji: '📝', ten: 'Trắc nghiệm', href: '#/trac-nghiem', phut: 'nguPhap',
     moTa: 'Chữ → nghĩa, nghĩa → chữ, nghe → chữ, chọn pinyin đúng. Câu sai vào sổ để ôn lại.' },
+  { ma: 'on', emoji: '📋', ten: 'Thi thử HSK 1', href: '#/thi-thu', nhan: '40 câu',
+    moTa: 'Đề mô phỏng 40 câu: 20 nghe + 20 đọc, tính giờ, chấm điểm (đạt từ 120/200).' },
   { ma: 'nguPhap', emoji: '🧩', ten: 'Ngữ pháp', href: '#/ngu-phap', phut: 'nguPhap',
     moTa: 'Điểm ngữ pháp HSK 1: công thức, lỗi hay mắc, sắp xếp câu, điền từ.' },
 ];
@@ -33,7 +35,7 @@ export function veLuyenTap(khung) {
           <span class="o-emoji emoji">${p.emoji}</span>
           <span class="giua">
             <span class="dong-tren"><b>${p.ten}</b>
-              <span class="so-phut">${p.sapCo ? 'Sắp có' : `${phut}/${mt[p.phut]}′`}</span></span>
+              <span class="so-phut">${p.sapCo ? 'Sắp có' : p.phut ? `${phut}/${mt[p.phut]}′` : (p.nhan || '')}</span></span>
             <span class="mo-ta">${p.moTa}</span>
           </span>
           <span class="cuoi-dong">${p.sapCo ? '' : bieuTuong('phai')}</span>

@@ -1,0 +1,65 @@
+# ===== NGÂN HÀNG CÂU HỎI THI THỬ HSK 1 – ĐỢT 2 (soạn tay, câu tự đặt) =====
+# NHÓM ĐIỀN TỪ (### dt…): 6 từ (W), 5 câu (F). Mỗi từ chỉ điền đúng vào MỘT câu; thừa 1 từ.
+#   W từ | pinyin
+#   F câu có （ ） | pinyin câu đầy đủ | từ đúng
+
+### hd3
+Q 你会说汉语吗？ | Nǐ huì shuō Hànyǔ ma?
+A 会一点儿。 | Huì yìdiǎnr.
+X 我是老师。 | Wǒ shì lǎoshī.
+X 他很高兴。 | Tā hěn gāoxìng.
+Q 你爸爸做什么工作？ | Nǐ bàba zuò shénme gōngzuò?
+A 他是医生。 | Tā shì yīshēng.
+X 他在睡觉。 | Tā zài shuìjiào.
+X 他六十岁。 | Tā liùshí suì.
+Q 你什么时候回家？ | Nǐ shénme shíhou huí jiā?
+A 晚上七点。 | Wǎnshang qī diǎn.
+X 我家很大。 | Wǒ jiā hěn dà.
+X 坐出租车。 | Zuò chūzūchē.
+Q 你怎么去学校？ | Nǐ zěnme qù xuéxiào?
+A 坐出租车。 | Zuò chūzūchē.
+X 下午三点。 | Xiàwǔ sān diǎn.
+X 在学校。 | Zài xuéxiào.
+Q 对不起！ | Duìbuqǐ!
+A 没关系。 | Méi guānxi.
+X 不客气。 | Bú kèqi.
+X 你好！ | Nǐ hǎo!
+
+### dt1
+W 认识 | rènshi
+W 喝 | hē
+W 块 | kuài
+W 汉字 | Hànzì
+W 晚上 | wǎnshang
+W 漂亮 | piàoliang
+F 我（ ）你很高兴。 | Wǒ rènshi nǐ hěn gāoxìng. | 认识
+F 这件衣服三百（ ）。 | Zhè jiàn yīfu sānbǎi kuài. | 块
+F 你会写（ ）吗？ | Nǐ huì xiě Hànzì ma? | 汉字
+F 我（ ）九点睡觉。 | Wǒ wǎnshang jiǔ diǎn shuìjiào. | 晚上
+F 你的女朋友很（ ）。 | Nǐ de nǚpéngyou hěn piàoliang. | 漂亮
+
+### dt2
+W 商店 | shāngdiàn
+W 坐 | zuò
+W 少 | shǎo
+W 叫 | jiào
+W 冷 | lěng
+W 明天 | míngtiān
+F 他（ ）火车去学校。 | Tā zuò huǒchē qù xuéxiào. | 坐
+F 我去（ ）买东西。 | Wǒ qù shāngdiàn mǎi dōngxi. | 商店
+F 今天天气很（ ）。 | Jīntiān tiānqì hěn lěng. | 冷
+F 你（ ）什么名字？ | Nǐ jiào shénme míngzi? | 叫
+F （ ）是星期六。 | Míngtiān shì xīngqīliù. | 明天
+
+### dt3
+W 电脑 | diànnǎo
+W 下雨 | xià yǔ
+W 吃 | chī
+W 开 | kāi
+W 同学 | tóngxué
+W 几 | jǐ
+F 外边（ ）了。 | Wàibian xià yǔ le. | 下雨
+F 你家有（ ）口人？ | Nǐ jiā yǒu jǐ kǒu rén? | 几
+F 他是我的大学（ ）。 | Tā shì wǒ de dàxué tóngxué. | 同学
+F 我想（ ）米饭。 | Wǒ xiǎng chī mǐfàn. | 吃
+F 我想买一个新（ ）。 | Wǒ xiǎng mǎi yí gè xīn diànnǎo. | 电脑

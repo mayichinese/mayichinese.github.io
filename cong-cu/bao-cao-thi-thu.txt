@@ -1,0 +1,5 @@
+Tranh: 50 (có câu ví dụ dùng được: 40) · nhóm: an=8, vat=9, xe=3, noi=4, troi=4, nguoi=4, lam=8, gio=10
+Hỏi–đáp: 3 nhóm (15 cặp) · điền từ: 3 nhóm · câu hỏi theo câu: 20
+LỖI: 0 · CẢNH BÁO: 0
+
+Đã ghi app\data\thi-thu-hsk1.json

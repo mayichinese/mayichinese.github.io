@@ -41,6 +41,8 @@ function tienDoTrong() {
     // Giai đoạn 4 – ngữ pháp: the = lịch ôn SM-2 theo mã điểm ("la-shi" → như `the`),
     //   daXem = lần đầu mở bài học của điểm đó, dung/sai = tổng số bài tập
     nguPhap: { the: {}, daXem: {}, dung: 0, sai: 0 },
+    // Giai đoạn 5.2 – lịch sử thi thử: [{ cap, luc (ISO), diem, nghe, doc, giay }] (giữ 30 lần gần nhất)
+    thiThu: [],
     caiDat: { ...CAI_DAT_MAC_DINH },
     saoLuuLanCuoi: null,
   };
@@ -77,6 +79,7 @@ function hopNhat(cu) {
       ...moi.nguPhap, ...(cu.nguPhap || {}),
       the: { ...(cu.nguPhap?.the || {}) }, daXem: { ...(cu.nguPhap?.daXem || {}) },
     },
+    thiThu: Array.isArray(cu.thiThu) ? cu.thiThu : [],
   };
 }
 
@@ -122,7 +125,7 @@ export function congGiay(phan, soGiay) {
 
 /** Ngày này có học không: học/ôn thẻ từ, luyện viết, luyện thanh điệu hoặc làm trắc nghiệm. */
 export function coHocNgay(nk) {
-  return !!nk && (nk.moi > 0 || nk.on > 0 || nk.viet > 0 || nk.thanh > 0 || nk.tracNghiem > 0 || nk.nguPhap > 0);
+  return !!nk && (nk.moi > 0 || nk.on > 0 || nk.viet > 0 || nk.thanh > 0 || nk.tracNghiem > 0 || nk.nguPhap > 0 || nk.thiThu > 0);
 }
 
 /** Số ngày học liên tục tính đến hôm nay (hoặc hôm qua nếu hôm nay chưa học). */

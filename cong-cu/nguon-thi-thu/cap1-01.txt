@@ -1,0 +1,52 @@
+# ===== NGÂN HÀNG CÂU HỎI THI THỬ HSK 1 – ĐỢT 1 (soạn tay, câu tự đặt) =====
+# Cách viết: xem đầu file cong-cu/ghep-thi-thu.py. Chỉ dùng chữ cấp 1.
+#
+# NHÓM HỎI–ĐÁP (### hd…): 5 cặp. Mỗi câu trả lời A chỉ khớp với ĐÚNG MỘT câu hỏi trong nhóm
+# (dùng cho Đọc phần 2 – ghép hỏi–đáp). Hai dòng X là câu đáp SAI (dùng cho Nghe phần 2).
+#   Q câu hỏi | pinyin
+#   A câu trả lời đúng | pinyin
+#   X câu trả lời sai | pinyin
+
+### hd1
+Q 你叫什么名字？ | Nǐ jiào shénme míngzi?
+A 我叫小明。 | Wǒ jiào Xiǎo Míng.
+X 我是中国人。 | Wǒ shì Zhōngguórén.
+X 我很好。 | Wǒ hěn hǎo.
+Q 你家有几口人？ | Nǐ jiā yǒu jǐ kǒu rén?
+A 四口人。 | Sì kǒu rén.
+X 八点。 | Bā diǎn.
+X 二十块。 | Èrshí kuài.
+Q 现在几点？ | Xiànzài jǐ diǎn?
+A 九点半。 | Jiǔ diǎn bàn.
+X 星期三。 | Xīngqīsān.
+X 三个人。 | Sān gè rén.
+Q 你去哪儿？ | Nǐ qù nǎr?
+A 我去医院。 | Wǒ qù yīyuàn.
+X 我不认识他。 | Wǒ bú rènshi tā.
+X 我喜欢喝茶。 | Wǒ xǐhuan hē chá.
+Q 这个苹果多少钱？ | Zhège píngguǒ duōshao qián?
+A 五块。 | Wǔ kuài.
+X 很好吃。 | Hěn hǎochī.
+X 五个。 | Wǔ gè.
+
+### hd2
+Q 你喝茶吗？ | Nǐ hē chá ma?
+A 好的，谢谢！ | Hǎo de, xièxie!
+X 我不是。 | Wǒ bú shì.
+X 在桌子上。 | Zài zhuōzi shang.
+Q 你女儿几岁了？ | Nǐ nǚ'ér jǐ suì le?
+A 她六岁了。 | Tā liù suì le.
+X 她是学生。 | Tā shì xuéshēng.
+X 六点了。 | Liù diǎn le.
+Q 你的手机呢？ | Nǐ de shǒujī ne?
+A 在桌子上。 | Zài zhuōzi shang.
+X 很贵。 | Hěn guì.
+X 我不想买。 | Wǒ bù xiǎng mǎi.
+Q 明天天气怎么样？ | Míngtiān tiānqì zěnmeyàng?
+A 会下雨。 | Huì xià yǔ.
+X 我在家。 | Wǒ zài jiā.
+X 星期五。 | Xīngqīwǔ.
+Q 谢谢你！ | Xièxie nǐ!
+A 不客气。 | Bú kèqi.
+X 没关系。 | Méi guānxi.
+X 对不起。 | Duìbuqǐ.

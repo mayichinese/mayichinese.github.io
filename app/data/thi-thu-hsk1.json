@@ -1,0 +1,3915 @@
+{
+ "_ghiChu": "File tạo tự động bởi cong-cu/ghep-thi-thu.py – không sửa tay. Đề mô phỏng, không phải đề chính thức.",
+ "cauTruc": "Theo cấu trúc đề thi thử HSK (一级) trong sách bài tập 《新HSK教程 1》 (2026): 40 câu, nghe 20 + đọc 20.",
+ "tranh": [
+  {
+   "id": "1:苹果",
+   "han": "苹果",
+   "pinyin": "píngguǒ",
+   "emoji": "🍎",
+   "nhom": "an",
+   "nghia": "quả táo",
+   "cau": [
+    {
+     "han": "我买了四个苹果。",
+     "pinyin": "Wǒ mǎile sì gè píngguǒ.",
+     "dich": "Tôi đã mua bốn quả táo.",
+     "coTranh": [
+      "1:苹果",
+      "1:买"
+     ]
+    },
+    {
+     "han": "我想买两个苹果。",
+     "pinyin": "Wǒ xiǎng mǎi liǎng gè píngguǒ.",
+     "dich": "Tôi muốn mua hai quả táo.",
+     "coTranh": [
+      "1:苹果",
+      "1:买"
+     ]
+    },
+    {
+     "han": "这个苹果很好吃。",
+     "pinyin": "Zhège píngguǒ hěn hǎochī.",
+     "dich": "Quả táo này rất ngon.",
+     "coTranh": [
+      "1:苹果"
+     ]
+    },
+    {
+     "han": "这些苹果多少钱？",
+     "pinyin": "Zhèxiē píngguǒ duōshao qián?",
+     "dich": "Những quả táo này bao nhiêu tiền?",
+     "coTranh": [
+      "1:苹果",
+      "1:钱"
+     ]
+    },
+    {
+     "han": "这个苹果，我吃一半，你吃一半。",
+     "pinyin": "Zhège píngguǒ, wǒ chī yíbàn, nǐ chī yíbàn.",
+     "dich": "Quả táo này, tôi ăn một nửa, bạn ăn một nửa.",
+     "coTranh": [
+      "1:苹果"
+     ]
+    },
+    {
+     "han": "一个苹果多少钱？",
+     "pinyin": "Yí gè píngguǒ duōshao qián?",
+     "dich": "Một quả táo bao nhiêu tiền?",
+     "coTranh": [
+      "1:苹果",
+      "1:钱"
+     ]
+    },
+    {
+     "han": "他买了五个苹果。",
+     "pinyin": "Tā mǎile wǔ gè píngguǒ.",
+     "dich": "Anh ấy đã mua năm quả táo.",
+     "coTranh": [
+      "1:苹果",
+      "1:买"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:米饭",
+   "han": "米饭",
+   "pinyin": "mǐfàn",
+   "emoji": "🍚",
+   "nhom": "an",
+   "nghia": "cơm (gạo nấu chín)",
+   "cau": [
+    {
+     "han": "我喜欢吃米饭。",
+     "pinyin": "Wǒ xǐhuan chī mǐfàn.",
+     "dich": "Tôi thích ăn cơm.",
+     "coTranh": [
+      "1:米饭"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:饺子",
+   "han": "饺子",
+   "pinyin": "jiǎozi",
+   "emoji": "🥟",
+   "nhom": "an",
+   "nghia": "sủi cảo, bánh chẻo",
+   "cau": [
+    {
+     "han": "你会做饺子吗？",
+     "pinyin": "Nǐ huì zuò jiǎozi ma?",
+     "dich": "Bạn biết làm sủi cảo không?",
+     "coTranh": [
+      "1:饺子"
+     ]
+    },
+    {
+     "han": "新年的时候，我们家吃饺子。",
+     "pinyin": "Xīnnián de shíhou, wǒmen jiā chī jiǎozi.",
+     "dich": "Dịp năm mới, nhà chúng tôi ăn sủi cảo.",
+     "coTranh": [
+      "1:饺子",
+      "1:家"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:面包",
+   "han": "面包",
+   "pinyin": "miànbāo",
+   "emoji": "🍞",
+   "nhom": "an",
+   "nghia": "bánh mì",
+   "cau": [
+    {
+     "han": "早上我吃面包，喝牛奶。",
+     "pinyin": "Zǎoshang wǒ chī miànbāo, hē niúnǎi.",
+     "dich": "Buổi sáng tôi ăn bánh mì, uống sữa.",
+     "coTranh": [
+      "1:面包",
+      "1:牛奶"
+     ]
+    },
+    {
+     "han": "这个面包多少钱？",
+     "pinyin": "Zhège miànbāo duōshao qián?",
+     "dich": "Cái bánh mì này bao nhiêu tiền?",
+     "coTranh": [
+      "1:面包",
+      "1:钱"
+     ]
+    },
+    {
+     "han": "我吃了一块面包。",
+     "pinyin": "Wǒ chīle yí kuài miànbāo.",
+     "dich": "Tôi đã ăn một miếng bánh mì.",
+     "coTranh": [
+      "1:面包"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:鸡蛋",
+   "han": "鸡蛋",
+   "pinyin": "jīdàn",
+   "emoji": "🥚",
+   "nhom": "an",
+   "nghia": "trứng gà",
+   "cau": [
+    {
+     "han": "我不吃鸡蛋。",
+     "pinyin": "Wǒ bù chī jīdàn.",
+     "dich": "Tôi không ăn trứng gà.",
+     "coTranh": [
+      "1:鸡蛋"
+     ]
+    },
+    {
+     "han": "我早饭吃了一个鸡蛋。",
+     "pinyin": "Wǒ zǎofàn chīle yí gè jīdàn.",
+     "dich": "Bữa sáng tôi đã ăn một quả trứng gà.",
+     "coTranh": [
+      "1:鸡蛋"
+     ]
+    },
+    {
+     "han": "鸡蛋多少钱一个？",
+     "pinyin": "Jīdàn duōshao qián yí gè?",
+     "dich": "Trứng gà bao nhiêu tiền một quả?",
+     "coTranh": [
+      "1:鸡蛋",
+      "1:钱"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:牛奶",
+   "han": "牛奶",
+   "pinyin": "niúnǎi",
+   "emoji": "🥛",
+   "nhom": "an",
+   "nghia": "sữa bò, sữa",
+   "cau": [
+    {
+     "han": "我早上喝牛奶。",
+     "pinyin": "Wǒ zǎoshang hē niúnǎi.",
+     "dich": "Buổi sáng tôi uống sữa.",
+     "coTranh": [
+      "1:牛奶"
+     ]
+    },
+    {
+     "han": "早上我喝一杯牛奶。",
+     "pinyin": "Zǎoshang wǒ hē yì bēi niúnǎi.",
+     "dich": "Buổi sáng tôi uống một cốc sữa.",
+     "coTranh": [
+      "1:牛奶"
+     ]
+    },
+    {
+     "han": "孩子们都喜欢喝牛奶。",
+     "pinyin": "Háizimen dōu xǐhuan hē niúnǎi.",
+     "dich": "Bọn trẻ đều thích uống sữa.",
+     "coTranh": [
+      "1:牛奶",
+      "1:孩子"
+     ]
+    },
+    {
+     "han": "早上我吃面包，喝牛奶。",
+     "pinyin": "Zǎoshang wǒ chī miànbāo, hē niúnǎi.",
+     "dich": "Buổi sáng tôi ăn bánh mì, uống sữa.",
+     "coTranh": [
+      "1:面包",
+      "1:牛奶"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:茶",
+   "han": "茶",
+   "pinyin": "chá",
+   "emoji": "🍵",
+   "nhom": "an",
+   "nghia": "trà, chè",
+   "cau": [
+    {
+     "han": "请喝茶。",
+     "pinyin": "Qǐng hē chá.",
+     "dich": "Mời uống trà.",
+     "coTranh": [
+      "1:茶"
+     ]
+    },
+    {
+     "han": "你喜欢喝茶吗？",
+     "pinyin": "Nǐ xǐhuan hē chá ma?",
+     "dich": "Bạn có thích uống trà không?",
+     "coTranh": [
+      "1:茶"
+     ]
+    },
+    {
+     "han": "他喜欢喝茶，我也喜欢。",
+     "pinyin": "Tā xǐhuan hē chá, wǒ yě xǐhuan.",
+     "dich": "Anh ấy thích uống trà, tôi cũng thích.",
+     "coTranh": [
+      "1:茶"
+     ]
+    },
+    {
+     "han": "有的人喜欢喝茶，有的人喜欢喝水。",
+     "pinyin": "Yǒude rén xǐhuan hē chá, yǒude rén xǐhuan hē shuǐ.",
+     "dich": "Có người thích uống trà, có người thích uống nước.",
+     "coTranh": [
+      "1:茶"
+     ]
+    },
+    {
+     "han": "我想再喝一杯茶。",
+     "pinyin": "Wǒ xiǎng zài hē yì bēi chá.",
+     "dich": "Tôi muốn uống thêm một cốc trà nữa.",
+     "coTranh": [
+      "1:茶"
+     ]
+    },
+    {
+     "han": "我不喝茶，我喝水。",
+     "pinyin": "Wǒ bù hē chá, wǒ hē shuǐ.",
+     "dich": "Tôi không uống trà, tôi uống nước.",
+     "coTranh": [
+      "1:茶"
+     ]
+    },
+    {
+     "han": "中国人很喜欢喝茶。",
+     "pinyin": "Zhōngguó rén hěn xǐhuan hē chá.",
+     "dich": "Người Trung Quốc rất thích uống trà.",
+     "coTranh": [
+      "1:茶"
+     ]
+    },
+    {
+     "han": "我要一杯茶。",
+     "pinyin": "Wǒ yào yì bēi chá.",
+     "dich": "Tôi muốn một cốc trà.",
+     "coTranh": [
+      "1:茶"
+     ]
+    },
+    {
+     "han": "我想喝茶。",
+     "pinyin": "Wǒ xiǎng hē chá.",
+     "dich": "Tôi muốn uống trà.",
+     "coTranh": [
+      "1:茶"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:面条儿",
+   "han": "面条儿",
+   "pinyin": "miàntiáor",
+   "emoji": "🍜",
+   "nhom": "an",
+   "nghia": "mì sợi",
+   "cau": [
+    {
+     "han": "午饭我想吃面条儿。",
+     "pinyin": "Wǔfàn wǒ xiǎng chī miàntiáor.",
+     "dich": "Bữa trưa tôi muốn ăn mì.",
+     "coTranh": [
+      "1:面条儿"
+     ]
+    },
+    {
+     "han": "我想吃面条儿。",
+     "pinyin": "Wǒ xiǎng chī miàntiáor.",
+     "dich": "Tôi muốn ăn mì.",
+     "coTranh": [
+      "1:面条儿"
+     ]
+    },
+    {
+     "han": "这家的面条儿很好吃。",
+     "pinyin": "Zhè jiā de miàntiáor hěn hǎochī.",
+     "dich": "Mì của quán này rất ngon.",
+     "coTranh": [
+      "1:面条儿",
+      "1:家"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:猫",
+   "han": "猫",
+   "pinyin": "māo",
+   "emoji": "🐱",
+   "nhom": "vat",
+   "nghia": "con mèo",
+   "cau": [
+    {
+     "han": "我有两只猫，它们都很漂亮。",
+     "pinyin": "Wǒ yǒu liǎng zhī māo, tāmen dōu hěn piàoliang.",
+     "dich": "Tôi có hai con mèo, chúng đều rất đẹp.",
+     "coTranh": [
+      "1:猫"
+     ]
+    },
+    {
+     "han": "我喜欢猫和狗。",
+     "pinyin": "Wǒ xǐhuan māo hé gǒu.",
+     "dich": "Tôi thích mèo và chó.",
+     "coTranh": [
+      "1:猫",
+      "1:狗"
+     ]
+    },
+    {
+     "han": "椅子下边有一只猫。",
+     "pinyin": "Yǐzi xiàbian yǒu yì zhī māo.",
+     "dich": "Dưới ghế có một con mèo.",
+     "coTranh": [
+      "1:猫",
+      "1:椅子"
+     ]
+    },
+    {
+     "han": "椅子上有一只猫。",
+     "pinyin": "Yǐzi shang yǒu yì zhī māo.",
+     "dich": "Trên ghế có một con mèo.",
+     "coTranh": [
+      "1:猫",
+      "1:椅子"
+     ]
+    },
+    {
+     "han": "我家有两只猫。",
+     "pinyin": "Wǒ jiā yǒu liǎng zhī māo.",
+     "dich": "Nhà tôi có hai con mèo.",
+     "coTranh": [
+      "1:猫",
+      "1:家"
+     ]
+    },
+    {
+     "han": "这只猫很漂亮。",
+     "pinyin": "Zhè zhī māo hěn piàoliang.",
+     "dich": "Con mèo này rất đẹp.",
+     "coTranh": [
+      "1:猫"
+     ]
+    },
+    {
+     "han": "猫在椅子上睡觉。",
+     "pinyin": "Māo zài yǐzi shang shuìjiào.",
+     "dich": "Con mèo đang ngủ trên ghế.",
+     "coTranh": [
+      "1:猫",
+      "1:椅子",
+      "1:睡觉"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:狗",
+   "han": "狗",
+   "pinyin": "gǒu",
+   "emoji": "🐶",
+   "nhom": "vat",
+   "nghia": "con chó",
+   "cau": [
+    {
+     "han": "我家有一只狗，它很小。",
+     "pinyin": "Wǒ jiā yǒu yì zhī gǒu, tā hěn xiǎo.",
+     "dich": "Nhà tôi có một con chó, nó rất nhỏ.",
+     "coTranh": [
+      "1:狗",
+      "1:家"
+     ]
+    },
+    {
+     "han": "我喜欢猫和狗。",
+     "pinyin": "Wǒ xǐhuan māo hé gǒu.",
+     "dich": "Tôi thích mèo và chó.",
+     "coTranh": [
+      "1:猫",
+      "1:狗"
+     ]
+    },
+    {
+     "han": "那只狗很大。",
+     "pinyin": "Nà zhī gǒu hěn dà.",
+     "dich": "Con chó kia rất to.",
+     "coTranh": [
+      "1:狗"
+     ]
+    },
+    {
+     "han": "我家有一只小狗。",
+     "pinyin": "Wǒ jiā yǒu yì zhī xiǎo gǒu.",
+     "dich": "Nhà tôi có một con chó nhỏ.",
+     "coTranh": [
+      "1:狗",
+      "1:家"
+     ]
+    },
+    {
+     "han": "你喜欢狗吗？",
+     "pinyin": "Nǐ xǐhuan gǒu ma?",
+     "dich": "Bạn có thích chó không?",
+     "coTranh": [
+      "1:狗"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:手机",
+   "han": "手机",
+   "pinyin": "shǒujī",
+   "emoji": "📱",
+   "nhom": "vat",
+   "nghia": "điện thoại di động",
+   "cau": [
+    {
+     "han": "我的手机呢？",
+     "pinyin": "Wǒ de shǒujī ne?",
+     "dich": "Điện thoại của tôi đâu rồi?",
+     "coTranh": [
+      "1:手机"
+     ]
+    },
+    {
+     "han": "很多中学生都有手机。",
+     "pinyin": "Hěn duō zhōngxuéshēng dōu yǒu shǒujī.",
+     "dich": "Nhiều học sinh trung học đều có điện thoại.",
+     "coTranh": [
+      "1:手机",
+      "1:学生"
+     ]
+    },
+    {
+     "han": "这是我的手机。",
+     "pinyin": "Zhè shì wǒ de shǒujī.",
+     "dich": "Đây là điện thoại của tôi.",
+     "coTranh": [
+      "1:手机"
+     ]
+    },
+    {
+     "han": "你的手机在那儿。",
+     "pinyin": "Nǐ de shǒujī zài nàr.",
+     "dich": "Điện thoại của bạn ở đằng kia.",
+     "coTranh": [
+      "1:手机"
+     ]
+    },
+    {
+     "han": "我的手机在哪儿？",
+     "pinyin": "Wǒ de shǒujī zài nǎr?",
+     "dich": "Điện thoại của tôi đâu rồi?",
+     "coTranh": [
+      "1:手机"
+     ]
+    },
+    {
+     "han": "他在手机上看电影。",
+     "pinyin": "Tā zài shǒujī shang kàn diànyǐng.",
+     "dich": "Anh ấy xem phim trên điện thoại.",
+     "coTranh": [
+      "1:手机",
+      "1:电影"
+     ]
+    },
+    {
+     "han": "这个手机多少钱？",
+     "pinyin": "Zhège shǒujī duōshao qián?",
+     "dich": "Cái điện thoại này bao nhiêu tiền?",
+     "coTranh": [
+      "1:手机",
+      "1:钱"
+     ]
+    },
+    {
+     "han": "这是我的新手机。",
+     "pinyin": "Zhè shì wǒ de xīn shǒujī.",
+     "dich": "Đây là điện thoại mới của tôi.",
+     "coTranh": [
+      "1:手机"
+     ]
+    },
+    {
+     "han": "你看见我的手机了吗？",
+     "pinyin": "Nǐ kànjiàn wǒ de shǒujī le ma?",
+     "dich": "Bạn có thấy điện thoại của tôi không?",
+     "coTranh": [
+      "1:手机"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:电脑",
+   "han": "电脑",
+   "pinyin": "diànnǎo",
+   "emoji": "💻",
+   "nhom": "vat",
+   "nghia": "máy tính",
+   "cau": [
+    {
+     "han": "这个电脑五千块。",
+     "pinyin": "Zhège diànnǎo wǔqiān kuài.",
+     "dich": "Cái máy tính này năm nghìn đồng.",
+     "coTranh": [
+      "1:电脑"
+     ]
+    },
+    {
+     "han": "我的电脑是新的。",
+     "pinyin": "Wǒ de diànnǎo shì xīn de.",
+     "dich": "Máy tính của tôi là máy mới.",
+     "coTranh": [
+      "1:电脑"
+     ]
+    },
+    {
+     "han": "他在电脑上写汉字。",
+     "pinyin": "Tā zài diànnǎo shang xiě Hànzì.",
+     "dich": "Anh ấy viết chữ Hán trên máy tính.",
+     "coTranh": [
+      "1:电脑",
+      "1:写"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:书",
+   "han": "书",
+   "pinyin": "shū",
+   "emoji": "📕",
+   "nhom": "vat",
+   "nghia": "sách",
+   "cau": [
+    {
+     "han": "这是我的书。",
+     "pinyin": "Zhè shì wǒ de shū.",
+     "dich": "Đây là sách của tôi.",
+     "coTranh": [
+      "1:书"
+     ]
+    },
+    {
+     "han": "这是一本中文书。",
+     "pinyin": "Zhè shì yì běn Zhōngwén shū.",
+     "dich": "Đây là một quyển sách tiếng Trung.",
+     "coTranh": [
+      "1:书"
+     ]
+    },
+    {
+     "han": "你想买哪本书？",
+     "pinyin": "Nǐ xiǎng mǎi nǎ běn shū?",
+     "dich": "Bạn muốn mua quyển sách nào?",
+     "coTranh": [
+      "1:书",
+      "1:买"
+     ]
+    },
+    {
+     "han": "这是谁的书？",
+     "pinyin": "Zhè shì shéi de shū?",
+     "dich": "Đây là sách của ai?",
+     "coTranh": [
+      "1:书"
+     ]
+    },
+    {
+     "han": "这本书一百零五块。",
+     "pinyin": "Zhè běn shū yìbǎi líng wǔ kuài.",
+     "dich": "Quyển sách này một trăm linh năm đồng.",
+     "coTranh": [
+      "1:书"
+     ]
+    },
+    {
+     "han": "这本书有一千个字。",
+     "pinyin": "Zhè běn shū yǒu yìqiān gè zì.",
+     "dich": "Quyển sách này có một nghìn chữ.",
+     "coTranh": [
+      "1:书"
+     ]
+    },
+    {
+     "han": "桌子上有一本书。",
+     "pinyin": "Zhuōzi shang yǒu yì běn shū.",
+     "dich": "Trên bàn có một quyển sách.",
+     "coTranh": [
+      "1:书"
+     ]
+    },
+    {
+     "han": "他有很多书。",
+     "pinyin": "Tā yǒu hěn duō shū.",
+     "dich": "Anh ấy có rất nhiều sách.",
+     "coTranh": [
+      "1:书"
+     ]
+    },
+    {
+     "han": "这是我的汉语书。",
+     "pinyin": "Zhè shì wǒ de Hànyǔ shū.",
+     "dich": "Đây là sách tiếng Trung của tôi.",
+     "coTranh": [
+      "1:书"
+     ]
+    },
+    {
+     "han": "他喜欢看书。",
+     "pinyin": "Tā xǐhuan kàn shū.",
+     "dich": "Anh ấy thích đọc sách.",
+     "coTranh": [
+      "1:书"
+     ]
+    },
+    {
+     "han": "我买了两本书。",
+     "pinyin": "Wǒ mǎile liǎng běn shū.",
+     "dich": "Tôi đã mua hai quyển sách.",
+     "coTranh": [
+      "1:书",
+      "1:买"
+     ]
+    },
+    {
+     "han": "这本书很好看。",
+     "pinyin": "Zhè běn shū hěn hǎokàn.",
+     "dich": "Quyển sách này rất hay.",
+     "coTranh": [
+      "1:书"
+     ]
+    },
+    {
+     "han": "哪个是你的书？",
+     "pinyin": "Nǎge shì nǐ de shū?",
+     "dich": "Quyển nào là sách của bạn?",
+     "coTranh": [
+      "1:书"
+     ]
+    },
+    {
+     "han": "这本书是谁的？",
+     "pinyin": "Zhè běn shū shì shéi de?",
+     "dich": "Quyển sách này là của ai?",
+     "coTranh": [
+      "1:书"
+     ]
+    },
+    {
+     "han": "那本书很好看。",
+     "pinyin": "Nà běn shū hěn hǎokàn.",
+     "dich": "Quyển sách đó rất hay.",
+     "coTranh": [
+      "1:书"
+     ]
+    },
+    {
+     "han": "这些是我的书。",
+     "pinyin": "Zhèxiē shì wǒ de shū.",
+     "dich": "Đây là những quyển sách của tôi.",
+     "coTranh": [
+      "1:书"
+     ]
+    },
+    {
+     "han": "这些书，有的是我的，有的是他的。",
+     "pinyin": "Zhèxiē shū, yǒude shì wǒ de, yǒude shì tā de.",
+     "dich": "Những quyển sách này, có quyển của tôi, có quyển của anh ấy.",
+     "coTranh": [
+      "1:书"
+     ]
+    },
+    {
+     "han": "你的书在桌子上。",
+     "pinyin": "Nǐ de shū zài zhuōzi shang.",
+     "dich": "Sách của bạn ở trên bàn.",
+     "coTranh": [
+      "1:书"
+     ]
+    },
+    {
+     "han": "桌子上有很多书。",
+     "pinyin": "Zhuōzi shang yǒu hěn duō shū.",
+     "dich": "Trên bàn có rất nhiều sách.",
+     "coTranh": [
+      "1:书"
+     ]
+    },
+    {
+     "han": "他看了二十分钟书。",
+     "pinyin": "Tā kànle èrshí fēnzhōng shū.",
+     "dich": "Anh ấy đọc sách hai mươi phút.",
+     "coTranh": [
+      "1:书"
+     ]
+    },
+    {
+     "han": "我买了一本书。",
+     "pinyin": "Wǒ mǎile yì běn shū.",
+     "dich": "Tôi đã mua một quyển sách.",
+     "coTranh": [
+      "1:书",
+      "1:买"
+     ]
+    },
+    {
+     "han": "这些书我都看了。",
+     "pinyin": "Zhèxiē shū wǒ dōu kàn le.",
+     "dich": "Những quyển sách này tôi đều đọc hết rồi.",
+     "coTranh": [
+      "1:书"
+     ]
+    },
+    {
+     "han": "这本书三十块。",
+     "pinyin": "Zhè běn shū sānshí kuài.",
+     "dich": "Quyển sách này ba mươi đồng.",
+     "coTranh": [
+      "1:书"
+     ]
+    },
+    {
+     "han": "我想去书店买书。",
+     "pinyin": "Wǒ xiǎng qù shūdiàn mǎi shū.",
+     "dich": "Tôi muốn đến hiệu sách mua sách.",
+     "coTranh": [
+      "1:书",
+      "1:买"
+     ]
+    },
+    {
+     "han": "我在房间里看书。",
+     "pinyin": "Wǒ zài fángjiān li kàn shū.",
+     "dich": "Tôi đọc sách trong phòng.",
+     "coTranh": [
+      "1:书"
+     ]
+    },
+    {
+     "han": "我的书少了一本。",
+     "pinyin": "Wǒ de shū shǎole yì běn.",
+     "dich": "Sách của tôi bị mất một quyển.",
+     "coTranh": [
+      "1:书"
+     ]
+    },
+    {
+     "han": "他很爱看书。",
+     "pinyin": "Tā hěn ài kàn shū.",
+     "dich": "Anh ấy rất thích đọc sách.",
+     "coTranh": [
+      "1:书"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:椅子",
+   "han": "椅子",
+   "pinyin": "yǐzi",
+   "emoji": "🪑",
+   "nhom": "vat",
+   "nghia": "cái ghế",
+   "cau": [
+    {
+     "han": "椅子下边有一只猫。",
+     "pinyin": "Yǐzi xiàbian yǒu yì zhī māo.",
+     "dich": "Dưới ghế có một con mèo.",
+     "coTranh": [
+      "1:猫",
+      "1:椅子"
+     ]
+    },
+    {
+     "han": "这里有椅子，请坐。",
+     "pinyin": "Zhèlǐ yǒu yǐzi, qǐng zuò.",
+     "dich": "Ở đây có ghế, mời ngồi.",
+     "coTranh": [
+      "1:椅子"
+     ]
+    },
+    {
+     "han": "椅子上有一只猫。",
+     "pinyin": "Yǐzi shang yǒu yì zhī māo.",
+     "dich": "Trên ghế có một con mèo.",
+     "coTranh": [
+      "1:猫",
+      "1:椅子"
+     ]
+    },
+    {
+     "han": "猫在椅子上睡觉。",
+     "pinyin": "Māo zài yǐzi shang shuìjiào.",
+     "dich": "Con mèo đang ngủ trên ghế.",
+     "coTranh": [
+      "1:猫",
+      "1:椅子",
+      "1:睡觉"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:衣服",
+   "han": "衣服",
+   "pinyin": "yīfu",
+   "emoji": "👕",
+   "nhom": "vat",
+   "nghia": "quần áo",
+   "cau": [
+    {
+     "han": "这件衣服三百块。",
+     "pinyin": "Zhè jiàn yīfu sānbǎi kuài.",
+     "dich": "Cái áo này ba trăm đồng.",
+     "coTranh": [
+      "1:衣服"
+     ]
+    },
+    {
+     "han": "我想买一件衣服。",
+     "pinyin": "Wǒ xiǎng mǎi yí jiàn yīfu.",
+     "dich": "Tôi muốn mua một cái áo.",
+     "coTranh": [
+      "1:衣服",
+      "1:买"
+     ]
+    },
+    {
+     "han": "这件衣服两百元。",
+     "pinyin": "Zhè jiàn yīfu liǎngbǎi yuán.",
+     "dich": "Cái áo này hai trăm tệ.",
+     "coTranh": [
+      "1:衣服"
+     ]
+    },
+    {
+     "han": "这件衣服很便宜。",
+     "pinyin": "Zhè jiàn yīfu hěn piányi.",
+     "dich": "Cái áo này rất rẻ.",
+     "coTranh": [
+      "1:衣服"
+     ]
+    },
+    {
+     "han": "我想买新衣服。",
+     "pinyin": "Wǒ xiǎng mǎi xīn yīfu.",
+     "dich": "Tôi muốn mua quần áo mới.",
+     "coTranh": [
+      "1:衣服",
+      "1:买"
+     ]
+    },
+    {
+     "han": "这件衣服很漂亮。",
+     "pinyin": "Zhè jiàn yīfu hěn piàoliang.",
+     "dich": "Cái áo này rất đẹp.",
+     "coTranh": [
+      "1:衣服"
+     ]
+    },
+    {
+     "han": "我买了两件衣服。",
+     "pinyin": "Wǒ mǎile liǎng jiàn yīfu.",
+     "dich": "Tôi đã mua hai cái áo.",
+     "coTranh": [
+      "1:衣服",
+      "1:买"
+     ]
+    },
+    {
+     "han": "她穿了一件新衣服。",
+     "pinyin": "Tā chuānle yí jiàn xīn yīfu.",
+     "dich": "Cô ấy mặc một cái áo mới.",
+     "coTranh": [
+      "1:衣服"
+     ]
+    },
+    {
+     "han": "这件衣服有点儿贵。",
+     "pinyin": "Zhè jiàn yīfu yǒudiǎnr guì.",
+     "dich": "Cái áo này hơi đắt.",
+     "coTranh": [
+      "1:衣服"
+     ]
+    },
+    {
+     "han": "这件衣服很好看。",
+     "pinyin": "Zhè jiàn yīfu hěn hǎokàn.",
+     "dich": "Cái áo này rất đẹp.",
+     "coTranh": [
+      "1:衣服"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:钱",
+   "han": "钱",
+   "pinyin": "qián",
+   "emoji": "💰",
+   "nhom": "vat",
+   "nghia": "tiền",
+   "cau": [
+    {
+     "han": "这个八块钱。",
+     "pinyin": "Zhège bā kuài qián.",
+     "dich": "Cái này tám đồng.",
+     "coTranh": [
+      "1:钱"
+     ]
+    },
+    {
+     "han": "这个多少钱？",
+     "pinyin": "Zhège duōshao qián?",
+     "dich": "Cái này bao nhiêu tiền?",
+     "coTranh": [
+      "1:钱"
+     ]
+    },
+    {
+     "han": "这些苹果多少钱？",
+     "pinyin": "Zhèxiē píngguǒ duōshao qián?",
+     "dich": "Những quả táo này bao nhiêu tiền?",
+     "coTranh": [
+      "1:苹果",
+      "1:钱"
+     ]
+    },
+    {
+     "han": "这个面包多少钱？",
+     "pinyin": "Zhège miànbāo duōshao qián?",
+     "dich": "Cái bánh mì này bao nhiêu tiền?",
+     "coTranh": [
+      "1:面包",
+      "1:钱"
+     ]
+    },
+    {
+     "han": "鸡蛋多少钱一个？",
+     "pinyin": "Jīdàn duōshao qián yí gè?",
+     "dich": "Trứng gà bao nhiêu tiền một quả?",
+     "coTranh": [
+      "1:鸡蛋",
+      "1:钱"
+     ]
+    },
+    {
+     "han": "一个苹果多少钱？",
+     "pinyin": "Yí gè píngguǒ duōshao qián?",
+     "dich": "Một quả táo bao nhiêu tiền?",
+     "coTranh": [
+      "1:苹果",
+      "1:钱"
+     ]
+    },
+    {
+     "han": "我没有钱了。",
+     "pinyin": "Wǒ méiyǒu qián le.",
+     "dich": "Tôi hết tiền rồi.",
+     "coTranh": [
+      "1:钱"
+     ]
+    },
+    {
+     "han": "他很有钱。",
+     "pinyin": "Tā hěn yǒu qián.",
+     "dich": "Anh ấy rất giàu (có nhiều tiền).",
+     "coTranh": [
+      "1:钱"
+     ]
+    },
+    {
+     "han": "这个手机多少钱？",
+     "pinyin": "Zhège shǒujī duōshao qián?",
+     "dich": "Cái điện thoại này bao nhiêu tiền?",
+     "coTranh": [
+      "1:手机",
+      "1:钱"
+     ]
+    },
+    {
+     "han": "这个房间多少钱一天？",
+     "pinyin": "Zhège fángjiān duōshao qián yì tiān?",
+     "dich": "Phòng này bao nhiêu tiền một ngày?",
+     "coTranh": [
+      "1:钱"
+     ]
+    },
+    {
+     "han": "找你五块钱。",
+     "pinyin": "Zhǎo nǐ wǔ kuài qián.",
+     "dich": "Trả lại bạn năm đồng tiền thừa.",
+     "coTranh": [
+      "1:钱"
+     ]
+    },
+    {
+     "han": "妈妈给了我一百块钱。",
+     "pinyin": "Māma gěile wǒ yìbǎi kuài qián.",
+     "dich": "Mẹ cho tôi một trăm đồng.",
+     "coTranh": [
+      "1:钱"
+     ]
+    },
+    {
+     "han": "我的钱太少了。",
+     "pinyin": "Wǒ de qián tài shǎo le.",
+     "dich": "Tiền của tôi ít quá.",
+     "coTranh": [
+      "1:钱"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:电视",
+   "han": "电视",
+   "pinyin": "diànshì",
+   "emoji": "📺",
+   "nhom": "vat",
+   "nghia": "tivi, truyền hình",
+   "cau": [
+    {
+     "han": "弟弟喜欢看电视。",
+     "pinyin": "Dìdi xǐhuan kàn diànshì.",
+     "dich": "Em trai thích xem tivi.",
+     "coTranh": [
+      "1:电视"
+     ]
+    },
+    {
+     "han": "他在看电视。",
+     "pinyin": "Tā zài kàn diànshì.",
+     "dich": "Anh ấy đang xem tivi.",
+     "coTranh": [
+      "1:电视"
+     ]
+    },
+    {
+     "han": "我没有时间看电视。",
+     "pinyin": "Wǒ méiyǒu shíjiān kàn diànshì.",
+     "dich": "Tôi không có thời gian xem tivi.",
+     "coTranh": [
+      "1:电视"
+     ]
+    },
+    {
+     "han": "你开一下电视。",
+     "pinyin": "Nǐ kāi yíxià diànshì.",
+     "dich": "Bạn bật tivi lên một chút.",
+     "coTranh": [
+      "1:电视"
+     ]
+    },
+    {
+     "han": "爸爸在看电视。",
+     "pinyin": "Bàba zài kàn diànshì.",
+     "dich": "Bố đang xem tivi.",
+     "coTranh": [
+      "1:电视"
+     ]
+    },
+    {
+     "han": "我家的电视是新的。",
+     "pinyin": "Wǒ jiā de diànshì shì xīn de.",
+     "dich": "Tivi nhà tôi là tivi mới.",
+     "coTranh": [
+      "1:电视",
+      "1:家"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:出租车",
+   "han": "出租车",
+   "pinyin": "chūzūchē",
+   "emoji": "🚕",
+   "nhom": "xe",
+   "nghia": "xe taxi",
+   "cau": [
+    {
+     "han": "他开出租车。",
+     "pinyin": "Tā kāi chūzūchē.",
+     "dich": "Anh ấy lái taxi.",
+     "coTranh": [
+      "1:出租车"
+     ]
+    },
+    {
+     "han": "我们坐出租车去吧。",
+     "pinyin": "Wǒmen zuò chūzūchē qù ba.",
+     "dich": "Chúng ta đi taxi đi.",
+     "coTranh": [
+      "1:出租车"
+     ]
+    },
+    {
+     "han": "这里出租车很少。",
+     "pinyin": "Zhèlǐ chūzūchē hěn shǎo.",
+     "dich": "Ở đây ít taxi.",
+     "coTranh": [
+      "1:出租车"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:火车",
+   "han": "火车",
+   "pinyin": "huǒchē",
+   "emoji": "🚆",
+   "nhom": "xe",
+   "nghia": "tàu hỏa",
+   "cau": [
+    {
+     "han": "火车几点到？",
+     "pinyin": "Huǒchē jǐ diǎn dào?",
+     "dich": "Tàu hỏa mấy giờ đến?",
+     "coTranh": [
+      "1:火车"
+     ]
+    },
+    {
+     "han": "我坐火车去。",
+     "pinyin": "Wǒ zuò huǒchē qù.",
+     "dich": "Tôi đi bằng tàu hỏa.",
+     "coTranh": [
+      "1:火车"
+     ]
+    },
+    {
+     "han": "坐火车要五个小时。",
+     "pinyin": "Zuò huǒchē yào wǔ gè xiǎoshí.",
+     "dich": "Đi tàu hỏa mất năm tiếng.",
+     "coTranh": [
+      "1:火车"
+     ]
+    },
+    {
+     "han": "火车上人很多。",
+     "pinyin": "Huǒchē shang rén hěn duō.",
+     "dich": "Trên tàu rất đông người.",
+     "coTranh": [
+      "1:火车"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:飞机",
+   "han": "飞机",
+   "pinyin": "fēijī",
+   "emoji": "✈️",
+   "nhom": "xe",
+   "nghia": "máy bay",
+   "cau": [
+    {
+     "han": "我坐飞机去中国。",
+     "pinyin": "Wǒ zuò fēijī qù Zhōngguó.",
+     "dich": "Tôi đi Trung Quốc bằng máy bay.",
+     "coTranh": [
+      "1:飞机"
+     ]
+    },
+    {
+     "han": "飞机几点到？",
+     "pinyin": "Fēijī jǐ diǎn dào?",
+     "dich": "Máy bay mấy giờ đến?",
+     "coTranh": [
+      "1:飞机"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:医院",
+   "han": "医院",
+   "pinyin": "yīyuàn",
+   "emoji": "🏥",
+   "nhom": "noi",
+   "nghia": "bệnh viện",
+   "cau": [
+    {
+     "han": "请问，医院在哪儿？",
+     "pinyin": "Qǐngwèn, yīyuàn zài nǎr?",
+     "dich": "Cho hỏi, bệnh viện ở đâu?",
+     "coTranh": [
+      "1:医院"
+     ]
+    },
+    {
+     "han": "姐姐在医院工作。",
+     "pinyin": "Jiějie zài yīyuàn gōngzuò.",
+     "dich": "Chị gái làm việc ở bệnh viện.",
+     "coTranh": [
+      "1:医院",
+      "1:工作"
+     ]
+    },
+    {
+     "han": "三天前我去了医院。",
+     "pinyin": "Sān tiān qián wǒ qùle yīyuàn.",
+     "dich": "Ba ngày trước tôi đã đi bệnh viện.",
+     "coTranh": [
+      "1:医院"
+     ]
+    },
+    {
+     "han": "医院在前边。",
+     "pinyin": "Yīyuàn zài qiánbian.",
+     "dich": "Bệnh viện ở phía trước.",
+     "coTranh": [
+      "1:医院"
+     ]
+    },
+    {
+     "han": "第二天他去了医院。",
+     "pinyin": "Dì-èr tiān tā qùle yīyuàn.",
+     "dich": "Ngày hôm sau anh ấy đã đi bệnh viện.",
+     "coTranh": [
+      "1:医院"
+     ]
+    },
+    {
+     "han": "他去医院了。",
+     "pinyin": "Tā qù yīyuàn le.",
+     "dich": "Anh ấy đi bệnh viện rồi.",
+     "coTranh": [
+      "1:医院"
+     ]
+    },
+    {
+     "han": "我下午去医院看病。",
+     "pinyin": "Wǒ xiàwǔ qù yīyuàn kànbìng.",
+     "dich": "Chiều nay tôi đi bệnh viện khám bệnh.",
+     "coTranh": [
+      "1:医院"
+     ]
+    },
+    {
+     "han": "他是这个医院的医生。",
+     "pinyin": "Tā shì zhège yīyuàn de yīshēng.",
+     "dich": "Anh ấy là bác sĩ của bệnh viện này.",
+     "coTranh": [
+      "1:医院",
+      "1:医生"
+     ]
+    },
+    {
+     "han": "医院在哪儿？",
+     "pinyin": "Yīyuàn zài nǎr?",
+     "dich": "Bệnh viện ở đâu?",
+     "coTranh": [
+      "1:医院"
+     ]
+    },
+    {
+     "han": "他在医院住了一个星期。",
+     "pinyin": "Tā zài yīyuàn zhùle yí gè xīngqī.",
+     "dich": "Anh ấy nằm viện một tuần.",
+     "coTranh": [
+      "1:医院"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:学校",
+   "han": "学校",
+   "pinyin": "xuéxiào",
+   "emoji": "🏫",
+   "nhom": "noi",
+   "nghia": "trường học",
+   "cau": [
+    {
+     "han": "他们在学校。",
+     "pinyin": "Tāmen zài xuéxiào.",
+     "dich": "Họ đang ở trường.",
+     "coTranh": [
+      "1:学校"
+     ]
+    },
+    {
+     "han": "我们学校有一百个老师。",
+     "pinyin": "Wǒmen xuéxiào yǒu yìbǎi gè lǎoshī.",
+     "dich": "Trường chúng tôi có một trăm giáo viên.",
+     "coTranh": [
+      "1:学校",
+      "1:老师"
+     ]
+    },
+    {
+     "han": "我昨天没有去学校。",
+     "pinyin": "Wǒ zuótiān méiyǒu qù xuéxiào.",
+     "dich": "Hôm qua tôi không đến trường.",
+     "coTranh": [
+      "1:学校"
+     ]
+    },
+    {
+     "han": "我们学校有很多中国学生。",
+     "pinyin": "Wǒmen xuéxiào yǒu hěn duō Zhōngguó xuéshēng.",
+     "dich": "Trường chúng tôi có nhiều học sinh Trung Quốc.",
+     "coTranh": [
+      "1:学校",
+      "1:学生"
+     ]
+    },
+    {
+     "han": "我们学校很大。",
+     "pinyin": "Wǒmen xuéxiào hěn dà.",
+     "dich": "Trường chúng tôi rất rộng.",
+     "coTranh": [
+      "1:学校"
+     ]
+    },
+    {
+     "han": "你几点去学校？",
+     "pinyin": "Nǐ jǐ diǎn qù xuéxiào?",
+     "dich": "Mấy giờ bạn đến trường?",
+     "coTranh": [
+      "1:学校"
+     ]
+    },
+    {
+     "han": "那是我的学校。",
+     "pinyin": "Nà shì wǒ de xuéxiào.",
+     "dich": "Kia là trường của tôi.",
+     "coTranh": [
+      "1:学校"
+     ]
+    },
+    {
+     "han": "我在学校学习汉语。",
+     "pinyin": "Wǒ zài xuéxiào xuéxí Hànyǔ.",
+     "dich": "Tôi học tiếng Trung ở trường.",
+     "coTranh": [
+      "1:学校"
+     ]
+    },
+    {
+     "han": "他七点五十分到学校。",
+     "pinyin": "Tā qī diǎn wǔshí fēn dào xuéxiào.",
+     "dich": "Anh ấy đến trường lúc bảy giờ năm mươi phút.",
+     "coTranh": [
+      "1:学校"
+     ]
+    },
+    {
+     "han": "我到学校了。",
+     "pinyin": "Wǒ dào xuéxiào le.",
+     "dich": "Tôi đến trường rồi.",
+     "coTranh": [
+      "1:学校"
+     ]
+    },
+    {
+     "han": "去学校要十分钟。",
+     "pinyin": "Qù xuéxiào yào shí fēnzhōng.",
+     "dich": "Đi đến trường mất mười phút.",
+     "coTranh": [
+      "1:学校"
+     ]
+    },
+    {
+     "han": "他在学校前边卖包子。",
+     "pinyin": "Tā zài xuéxiào qiánbian mài bāozi.",
+     "dich": "Anh ấy bán bánh bao ở phía trước trường.",
+     "coTranh": [
+      "1:学校"
+     ]
+    },
+    {
+     "han": "你们学校有多少学生？",
+     "pinyin": "Nǐmen xuéxiào yǒu duōshao xuéshēng?",
+     "dich": "Trường các bạn có bao nhiêu học sinh?",
+     "coTranh": [
+      "1:学校",
+      "1:学生"
+     ]
+    },
+    {
+     "han": "学校里有一个书店。",
+     "pinyin": "Xuéxiào li yǒu yí gè shūdiàn.",
+     "dich": "Trong trường có một hiệu sách.",
+     "coTranh": [
+      "1:书",
+      "1:学校"
+     ]
+    },
+    {
+     "han": "他住在学校里。",
+     "pinyin": "Tā zhù zài xuéxiào li.",
+     "dich": "Anh ấy ở trong trường.",
+     "coTranh": [
+      "1:学校"
+     ]
+    },
+    {
+     "han": "你怎么去学校？",
+     "pinyin": "Nǐ zěnme qù xuéxiào?",
+     "dich": "Bạn đến trường bằng cách nào?",
+     "coTranh": [
+      "1:学校"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:商店",
+   "han": "商店",
+   "pinyin": "shāngdiàn",
+   "emoji": "🏪",
+   "nhom": "noi",
+   "nghia": "cửa hàng, cửa hiệu",
+   "cau": [
+    {
+     "han": "我去商店买东西。",
+     "pinyin": "Wǒ qù shāngdiàn mǎi dōngxi.",
+     "dich": "Tôi đến cửa hàng mua đồ.",
+     "coTranh": [
+      "1:商店",
+      "1:买"
+     ]
+    },
+    {
+     "han": "那个商店的东西很贵。",
+     "pinyin": "Nàge shāngdiàn de dōngxi hěn guì.",
+     "dich": "Đồ ở cửa hàng kia rất đắt.",
+     "coTranh": [
+      "1:商店"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:家",
+   "han": "家",
+   "pinyin": "jiā",
+   "emoji": "🏠",
+   "nhom": "noi",
+   "nghia": "nhà, gia đình; lượng từ cho cửa hàng, công ty, nhà hàng…",
+   "cau": [
+    {
+     "han": "我家有一只狗，它很小。",
+     "pinyin": "Wǒ jiā yǒu yì zhī gǒu, tā hěn xiǎo.",
+     "dich": "Nhà tôi có một con chó, nó rất nhỏ.",
+     "coTranh": [
+      "1:狗",
+      "1:家"
+     ]
+    },
+    {
+     "han": "妈妈叫我回家。",
+     "pinyin": "Māma jiào wǒ huí jiā.",
+     "dich": "Mẹ gọi tôi về nhà.",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "你家在哪儿？",
+     "pinyin": "Nǐ jiā zài nǎr?",
+     "dich": "Nhà bạn ở đâu?",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "我家有三口人。",
+     "pinyin": "Wǒ jiā yǒu sān kǒu rén.",
+     "dich": "Nhà tôi có ba người.",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "我家有五口人。",
+     "pinyin": "Wǒ jiā yǒu wǔ kǒu rén.",
+     "dich": "Nhà tôi có năm người.",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "你家有几口人？",
+     "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
+     "dich": "Nhà bạn có mấy người?",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "我家有四口人。",
+     "pinyin": "Wǒ jiā yǒu sì kǒu rén.",
+     "dich": "Nhà tôi có bốn người.",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "我回家了。",
+     "pinyin": "Wǒ huí jiā le.",
+     "dich": "Tôi về nhà đây. / Tôi về nhà rồi.",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "这家超市很大。",
+     "pinyin": "Zhè jiā chāoshì hěn dà.",
+     "dich": "Siêu thị này rất rộng.",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "他在一家公司工作。",
+     "pinyin": "Tā zài yì jiā gōngsī gōngzuò.",
+     "dich": "Anh ấy làm việc ở một công ty.",
+     "coTranh": [
+      "1:家",
+      "1:工作"
+     ]
+    },
+    {
+     "han": "你家有几口人？",
+     "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
+     "dich": "Nhà bạn có mấy người?",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "我家有三口人：爸爸、妈妈和我。",
+     "pinyin": "Wǒ jiā yǒu sān kǒu rén: bàba, māma hé wǒ.",
+     "dich": "Nhà tôi có ba người: bố, mẹ và tôi.",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "家里没有人。",
+     "pinyin": "Jiā li méiyǒu rén.",
+     "dich": "Trong nhà không có ai.",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "我家很小。",
+     "pinyin": "Wǒ jiā hěn xiǎo.",
+     "dich": "Nhà tôi rất nhỏ.",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "这里是我的家。",
+     "pinyin": "Zhèlǐ shì wǒ de jiā.",
+     "dich": "Đây là nhà tôi.",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "妈妈在家。",
+     "pinyin": "Māma zài jiā.",
+     "dich": "Mẹ ở nhà.",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "家里有人吗？",
+     "pinyin": "Jiā li yǒu rén ma?",
+     "dich": "Trong nhà có ai không?",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "我家前边有一个超市。",
+     "pinyin": "Wǒ jiā qiánbian yǒu yí gè chāoshì.",
+     "dich": "Trước nhà tôi có một siêu thị.",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "我家边上有一个超市。",
+     "pinyin": "Wǒ jiā biānshang yǒu yí gè chāoshì.",
+     "dich": "Cạnh nhà tôi có một siêu thị.",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "星期天我在家休息。",
+     "pinyin": "Xīngqītiān wǒ zài jiā xiūxi.",
+     "dich": "Chủ nhật tôi nghỉ ở nhà.",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "今天我晚一点儿回家。",
+     "pinyin": "Jīntiān wǒ wǎn yìdiǎnr huí jiā.",
+     "dich": "Hôm nay tôi về nhà muộn một chút.",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "我想回家。",
+     "pinyin": "Wǒ xiǎng huí jiā.",
+     "dich": "Tôi muốn về nhà.",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "这家的面条儿很好吃。",
+     "pinyin": "Zhè jiā de miàntiáor hěn hǎochī.",
+     "dich": "Mì của quán này rất ngon.",
+     "coTranh": [
+      "1:面条儿",
+      "1:家"
+     ]
+    },
+    {
+     "han": "新年的时候，我们家吃饺子。",
+     "pinyin": "Xīnnián de shíhou, wǒmen jiā chī jiǎozi.",
+     "dich": "Dịp năm mới, nhà chúng tôi ăn sủi cảo.",
+     "coTranh": [
+      "1:饺子",
+      "1:家"
+     ]
+    },
+    {
+     "han": "我家有两只猫。",
+     "pinyin": "Wǒ jiā yǒu liǎng zhī māo.",
+     "dich": "Nhà tôi có hai con mèo.",
+     "coTranh": [
+      "1:猫",
+      "1:家"
+     ]
+    },
+    {
+     "han": "这家店的包子很好吃。",
+     "pinyin": "Zhè jiā diàn de bāozi hěn hǎochī.",
+     "dich": "Bánh bao của quán này rất ngon.",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "他在一家小店工作。",
+     "pinyin": "Tā zài yì jiā xiǎo diàn gōngzuò.",
+     "dich": "Anh ấy làm việc ở một quán nhỏ.",
+     "coTranh": [
+      "1:家",
+      "1:工作"
+     ]
+    },
+    {
+     "han": "你想来我家玩吗？",
+     "pinyin": "Nǐ xiǎng lái wǒ jiā wán ma?",
+     "dich": "Bạn có muốn đến nhà tôi chơi không?",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "我家的电视是新的。",
+     "pinyin": "Wǒ jiā de diànshì shì xīn de.",
+     "dich": "Tivi nhà tôi là tivi mới.",
+     "coTranh": [
+      "1:电视",
+      "1:家"
+     ]
+    },
+    {
+     "han": "我爱我的家。",
+     "pinyin": "Wǒ ài wǒ de jiā.",
+     "dich": "Tôi yêu gia đình tôi.",
+     "coTranh": [
+      "1:家"
+     ]
+    },
+    {
+     "han": "我家有一只小狗。",
+     "pinyin": "Wǒ jiā yǒu yì zhī xiǎo gǒu.",
+     "dich": "Nhà tôi có một con chó nhỏ.",
+     "coTranh": [
+      "1:狗",
+      "1:家"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:下雨",
+   "han": "下雨",
+   "pinyin": "xià yǔ",
+   "emoji": "🌧️",
+   "nhom": "troi",
+   "nghia": "mưa, trời mưa",
+   "cau": [
+    {
+     "han": "下雨了。",
+     "pinyin": "Xià yǔ le.",
+     "dich": "Trời mưa rồi.",
+     "coTranh": [
+      "1:下雨"
+     ]
+    },
+    {
+     "han": "外边在下雨。",
+     "pinyin": "Wàibian zài xià yǔ.",
+     "dich": "Bên ngoài đang mưa.",
+     "coTranh": [
+      "1:下雨"
+     ]
+    },
+    {
+     "han": "下雨了，你不要去了。",
+     "pinyin": "Xià yǔ le, nǐ búyào qù le.",
+     "dich": "Trời mưa rồi, bạn đừng đi nữa.",
+     "coTranh": [
+      "1:下雨"
+     ]
+    },
+    {
+     "han": "你听，外边下雨了。",
+     "pinyin": "Nǐ tīng, wàibian xià yǔ le.",
+     "dich": "Bạn nghe này, bên ngoài mưa rồi.",
+     "coTranh": [
+      "1:下雨"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:雪",
+   "han": "雪",
+   "pinyin": "xuě",
+   "emoji": "❄️",
+   "nhom": "troi",
+   "nghia": "tuyết",
+   "cau": [
+    {
+     "han": "外边下雪了。",
+     "pinyin": "Wàibian xià xuě le.",
+     "dich": "Bên ngoài tuyết rơi rồi.",
+     "coTranh": [
+      "1:雪"
+     ]
+    },
+    {
+     "han": "我很喜欢雪。",
+     "pinyin": "Wǒ hěn xǐhuan xuě.",
+     "dich": "Tôi rất thích tuyết.",
+     "coTranh": [
+      "1:雪"
+     ]
+    },
+    {
+     "han": "昨天的雪很大。",
+     "pinyin": "Zuótiān de xuě hěn dà.",
+     "dich": "Hôm qua tuyết rơi rất dày.",
+     "coTranh": [
+      "1:雪"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:热",
+   "han": "热",
+   "pinyin": "rè",
+   "emoji": "🥵",
+   "nhom": "troi",
+   "nghia": "nóng",
+   "cau": [
+    {
+     "han": "七月很热。",
+     "pinyin": "Qīyuè hěn rè.",
+     "dich": "Tháng bảy rất nóng.",
+     "coTranh": [
+      "1:热"
+     ]
+    },
+    {
+     "han": "天很热。",
+     "pinyin": "Tiān hěn rè.",
+     "dich": "Trời rất nóng.",
+     "coTranh": [
+      "1:热"
+     ]
+    },
+    {
+     "han": "白天很热，晚上很冷。",
+     "pinyin": "Báitiān hěn rè, wǎnshang hěn lěng.",
+     "dich": "Ban ngày rất nóng, buổi tối rất lạnh.",
+     "coTranh": [
+      "1:热",
+      "1:冷"
+     ]
+    },
+    {
+     "han": "今天太热了！",
+     "pinyin": "Jīntiān tài rè le!",
+     "dich": "Hôm nay nóng quá!",
+     "coTranh": [
+      "1:热"
+     ]
+    },
+    {
+     "han": "我想喝热水。",
+     "pinyin": "Wǒ xiǎng hē rè shuǐ.",
+     "dich": "Tôi muốn uống nước nóng.",
+     "coTranh": [
+      "1:热"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:冷",
+   "han": "冷",
+   "pinyin": "lěng",
+   "emoji": "🥶",
+   "nhom": "troi",
+   "nghia": "lạnh",
+   "cau": [
+    {
+     "han": "今天不冷。",
+     "pinyin": "Jīntiān bù lěng.",
+     "dich": "Hôm nay không lạnh.",
+     "coTranh": [
+      "1:冷"
+     ]
+    },
+    {
+     "han": "今天很冷。",
+     "pinyin": "Jīntiān hěn lěng.",
+     "dich": "Hôm nay rất lạnh.",
+     "coTranh": [
+      "1:冷"
+     ]
+    },
+    {
+     "han": "外边很冷。",
+     "pinyin": "Wàibian hěn lěng.",
+     "dich": "Bên ngoài rất lạnh.",
+     "coTranh": [
+      "1:冷"
+     ]
+    },
+    {
+     "han": "昨天很冷。",
+     "pinyin": "Zuótiān hěn lěng.",
+     "dich": "Hôm qua rất lạnh.",
+     "coTranh": [
+      "1:冷"
+     ]
+    },
+    {
+     "han": "白天很热，晚上很冷。",
+     "pinyin": "Báitiān hěn rè, wǎnshang hěn lěng.",
+     "dich": "Ban ngày rất nóng, buổi tối rất lạnh.",
+     "coTranh": [
+      "1:热",
+      "1:冷"
+     ]
+    },
+    {
+     "han": "今天非常冷。",
+     "pinyin": "Jīntiān fēicháng lěng.",
+     "dich": "Hôm nay lạnh vô cùng.",
+     "coTranh": [
+      "1:冷"
+     ]
+    },
+    {
+     "han": "今天真冷！",
+     "pinyin": "Jīntiān zhēn lěng!",
+     "dich": "Hôm nay lạnh thật!",
+     "coTranh": [
+      "1:冷"
+     ]
+    },
+    {
+     "han": "你冷吗？",
+     "pinyin": "Nǐ lěng ma?",
+     "dich": "Bạn có lạnh không?",
+     "coTranh": [
+      "1:冷"
+     ]
+    },
+    {
+     "han": "晚上有点儿冷。",
+     "pinyin": "Wǎnshang yǒudiǎnr lěng.",
+     "dich": "Buổi tối hơi lạnh.",
+     "coTranh": [
+      "1:冷"
+     ]
+    },
+    {
+     "han": "我觉得有点儿冷。",
+     "pinyin": "Wǒ juéde yǒudiǎnr lěng.",
+     "dich": "Tôi thấy hơi lạnh.",
+     "coTranh": [
+      "1:冷"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:医生",
+   "han": "医生",
+   "pinyin": "yīshēng",
+   "emoji": "👨‍⚕️",
+   "nhom": "nguoi",
+   "nghia": "bác sĩ",
+   "cau": [
+    {
+     "han": "我爸爸是医生。",
+     "pinyin": "Wǒ bàba shì yīshēng.",
+     "dich": "Bố tôi là bác sĩ.",
+     "coTranh": [
+      "1:医生"
+     ]
+    },
+    {
+     "han": "我男朋友是医生。",
+     "pinyin": "Wǒ nánpéngyou shì yīshēng.",
+     "dich": "Bạn trai tôi là bác sĩ.",
+     "coTranh": [
+      "1:医生"
+     ]
+    },
+    {
+     "han": "这个医生是女的。",
+     "pinyin": "Zhège yīshēng shì nǚ de.",
+     "dich": "Bác sĩ này là nữ.",
+     "coTranh": [
+      "1:医生"
+     ]
+    },
+    {
+     "han": "医生说我没事。",
+     "pinyin": "Yīshēng shuō wǒ méishì.",
+     "dich": "Bác sĩ nói tôi không sao.",
+     "coTranh": [
+      "1:医生"
+     ]
+    },
+    {
+     "han": "他是这个医院的医生。",
+     "pinyin": "Tā shì zhège yīyuàn de yīshēng.",
+     "dich": "Anh ấy là bác sĩ của bệnh viện này.",
+     "coTranh": [
+      "1:医院",
+      "1:医生"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:老师",
+   "han": "老师",
+   "pinyin": "lǎoshī",
+   "emoji": "👩‍🏫",
+   "nhom": "nguoi",
+   "nghia": "thầy giáo, cô giáo, giáo viên",
+   "cau": [
+    {
+     "han": "老师，你好！",
+     "pinyin": "Lǎoshī, nǐ hǎo!",
+     "dich": "Em chào thầy/cô ạ!",
+     "coTranh": [
+      "1:老师"
+     ]
+    },
+    {
+     "han": "老师，您请坐。",
+     "pinyin": "Lǎoshī, nín qǐng zuò.",
+     "dich": "Thưa thầy/cô, mời thầy/cô ngồi.",
+     "coTranh": [
+      "1:老师"
+     ]
+    },
+    {
+     "han": "老师，再见！",
+     "pinyin": "Lǎoshī, zàijiàn!",
+     "dich": "Em chào thầy/cô ạ! (khi ra về)",
+     "coTranh": [
+      "1:老师"
+     ]
+    },
+    {
+     "han": "谢谢老师！",
+     "pinyin": "Xièxie lǎoshī!",
+     "dich": "Em cảm ơn thầy/cô!",
+     "coTranh": [
+      "1:老师"
+     ]
+    },
+    {
+     "han": "他不是老师。",
+     "pinyin": "Tā bú shì lǎoshī.",
+     "dich": "Anh ấy không phải là giáo viên.",
+     "coTranh": [
+      "1:老师"
+     ]
+    },
+    {
+     "han": "老师们都很忙。",
+     "pinyin": "Lǎoshīmen dōu hěn máng.",
+     "dich": "Các thầy cô đều rất bận.",
+     "coTranh": [
+      "1:老师"
+     ]
+    },
+    {
+     "han": "我不是老师。",
+     "pinyin": "Wǒ bú shì lǎoshī.",
+     "dich": "Tôi không phải là giáo viên.",
+     "coTranh": [
+      "1:老师"
+     ]
+    },
+    {
+     "han": "我们学校有一百个老师。",
+     "pinyin": "Wǒmen xuéxiào yǒu yìbǎi gè lǎoshī.",
+     "dich": "Trường chúng tôi có một trăm giáo viên.",
+     "coTranh": [
+      "1:学校",
+      "1:老师"
+     ]
+    },
+    {
+     "han": "我们老师是男的。",
+     "pinyin": "Wǒmen lǎoshī shì nán de.",
+     "dich": "Giáo viên của chúng tôi là nam.",
+     "coTranh": [
+      "1:老师"
+     ]
+    },
+    {
+     "han": "她先生是老师。",
+     "pinyin": "Tā xiānsheng shì lǎoshī.",
+     "dich": "Chồng cô ấy là giáo viên.",
+     "coTranh": [
+      "1:老师"
+     ]
+    },
+    {
+     "han": "我们的汉语老师是中国人。",
+     "pinyin": "Wǒmen de Hànyǔ lǎoshī shì Zhōngguó rén.",
+     "dich": "Giáo viên tiếng Trung của chúng tôi là người Trung Quốc.",
+     "coTranh": [
+      "1:老师"
+     ]
+    },
+    {
+     "han": "老师，我有一个问题。",
+     "pinyin": "Lǎoshī, wǒ yǒu yí gè wèntí.",
+     "dich": "Thưa thầy/cô, em có một câu hỏi.",
+     "coTranh": [
+      "1:老师"
+     ]
+    },
+    {
+     "han": "老师在上课呢。",
+     "pinyin": "Lǎoshī zài shàngkè ne.",
+     "dich": "Thầy/cô đang trong giờ dạy.",
+     "coTranh": [
+      "1:老师"
+     ]
+    },
+    {
+     "han": "他是中学老师。",
+     "pinyin": "Tā shì zhōngxué lǎoshī.",
+     "dich": "Anh ấy là giáo viên trung học.",
+     "coTranh": [
+      "1:老师"
+     ]
+    },
+    {
+     "han": "我妈妈是小学老师。",
+     "pinyin": "Wǒ māma shì xiǎoxué lǎoshī.",
+     "dich": "Mẹ tôi là giáo viên tiểu học.",
+     "coTranh": [
+      "1:老师"
+     ]
+    },
+    {
+     "han": "你去问老师吧。",
+     "pinyin": "Nǐ qù wèn lǎoshī ba.",
+     "dich": "Bạn đi hỏi thầy/cô đi.",
+     "coTranh": [
+      "1:老师"
+     ]
+    },
+    {
+     "han": "她是一个很好的老师。",
+     "pinyin": "Tā shì yí gè hěn hǎo de lǎoshī.",
+     "dich": "Cô ấy là một giáo viên rất tốt.",
+     "coTranh": [
+      "1:老师"
+     ]
+    },
+    {
+     "han": "那个人是我们老师。",
+     "pinyin": "Nàge rén shì wǒmen lǎoshī.",
+     "dich": "Người kia là giáo viên của chúng tôi.",
+     "coTranh": [
+      "1:老师"
+     ]
+    },
+    {
+     "han": "老师早！",
+     "pinyin": "Lǎoshī zǎo!",
+     "dich": "Em chào thầy/cô buổi sáng ạ!",
+     "coTranh": [
+      "1:老师"
+     ]
+    },
+    {
+     "han": "你是老师吧？",
+     "pinyin": "Nǐ shì lǎoshī ba?",
+     "dich": "Chắc anh là giáo viên phải không?",
+     "coTranh": [
+      "1:老师"
+     ]
+    },
+    {
+     "han": "他是新来的老师。",
+     "pinyin": "Tā shì xīn lái de lǎoshī.",
+     "dich": "Anh ấy là giáo viên mới đến.",
+     "coTranh": [
+      "1:老师"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:学生",
+   "han": "学生",
+   "pinyin": "xuéshēng",
+   "emoji": "👨‍🎓",
+   "nhom": "nguoi",
+   "nghia": "học sinh, sinh viên, học trò",
+   "cau": [
+    {
+     "han": "你是学生吗？",
+     "pinyin": "Nǐ shì xuéshēng ma?",
+     "dich": "Bạn là học sinh phải không?",
+     "coTranh": [
+      "1:学生"
+     ]
+    },
+    {
+     "han": "我是学生。",
+     "pinyin": "Wǒ shì xuéshēng.",
+     "dich": "Tôi là học sinh.",
+     "coTranh": [
+      "1:学生"
+     ]
+    },
+    {
+     "han": "我和他都是学生。",
+     "pinyin": "Wǒ hé tā dōu shì xuéshēng.",
+     "dich": "Tôi và anh ấy đều là học sinh.",
+     "coTranh": [
+      "1:学生"
+     ]
+    },
+    {
+     "han": "那个男学生是我弟弟。",
+     "pinyin": "Nàge nán xuéshēng shì wǒ dìdi.",
+     "dich": "Cậu học sinh nam kia là em trai tôi.",
+     "coTranh": [
+      "1:学生"
+     ]
+    },
+    {
+     "han": "今天多了一个学生。",
+     "pinyin": "Jīntiān duōle yí gè xuéshēng.",
+     "dich": "Hôm nay có thêm một học sinh.",
+     "coTranh": [
+      "1:学生"
+     ]
+    },
+    {
+     "han": "我也是学生。",
+     "pinyin": "Wǒ yě shì xuéshēng.",
+     "dich": "Tôi cũng là học sinh.",
+     "coTranh": [
+      "1:学生"
+     ]
+    },
+    {
+     "han": "他是我的学生。",
+     "pinyin": "Tā shì wǒ de xuéshēng.",
+     "dich": "Cậu ấy là học trò của tôi.",
+     "coTranh": [
+      "1:学生"
+     ]
+    },
+    {
+     "han": "我们学校有很多中国学生。",
+     "pinyin": "Wǒmen xuéxiào yǒu hěn duō Zhōngguó xuéshēng.",
+     "dich": "Trường chúng tôi có nhiều học sinh Trung Quốc.",
+     "coTranh": [
+      "1:学校",
+      "1:学生"
+     ]
+    },
+    {
+     "han": "有些学生不喜欢写汉字。",
+     "pinyin": "Yǒuxiē xuéshēng bù xǐhuan xiě Hànzì.",
+     "dich": "Có một số học sinh không thích viết chữ Hán.",
+     "coTranh": [
+      "1:学生",
+      "1:写"
+     ]
+    },
+    {
+     "han": "我们班一半的学生是中国人。",
+     "pinyin": "Wǒmen bān yíbàn de xuéshēng shì Zhōngguó rén.",
+     "dich": "Một nửa số học sinh lớp chúng tôi là người Trung Quốc.",
+     "coTranh": [
+      "1:学生"
+     ]
+    },
+    {
+     "han": "我们都是学生。",
+     "pinyin": "Wǒmen dōu shì xuéshēng.",
+     "dich": "Chúng tôi đều là học sinh.",
+     "coTranh": [
+      "1:学生"
+     ]
+    },
+    {
+     "han": "你们学校有多少学生？",
+     "pinyin": "Nǐmen xuéxiào yǒu duōshao xuéshēng?",
+     "dich": "Trường các bạn có bao nhiêu học sinh?",
+     "coTranh": [
+      "1:学校",
+      "1:学生"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:孩子",
+   "han": "孩子",
+   "pinyin": "háizi",
+   "emoji": "🧒",
+   "nhom": "nguoi",
+   "nghia": "trẻ em, đứa trẻ; con (cái)",
+   "cau": [
+    {
+     "han": "你有孩子吗？",
+     "pinyin": "Nǐ yǒu háizi ma?",
+     "dich": "Bạn có con chưa?",
+     "coTranh": [
+      "1:孩子"
+     ]
+    },
+    {
+     "han": "这个孩子几岁了？",
+     "pinyin": "Zhège háizi jǐ suì le?",
+     "dich": "Đứa bé này mấy tuổi rồi?",
+     "coTranh": [
+      "1:孩子"
+     ]
+    },
+    {
+     "han": "孩子们早上七点上学。",
+     "pinyin": "Háizimen zǎoshang qī diǎn shàngxué.",
+     "dich": "Bọn trẻ đi học lúc bảy giờ sáng.",
+     "coTranh": [
+      "1:孩子"
+     ]
+    },
+    {
+     "han": "孩子们在外边玩儿。",
+     "pinyin": "Háizimen zài wàibian wánr.",
+     "dich": "Bọn trẻ đang chơi ở bên ngoài.",
+     "coTranh": [
+      "1:孩子"
+     ]
+    },
+    {
+     "han": "孩子在睡觉。",
+     "pinyin": "Háizi zài shuìjiào.",
+     "dich": "Đứa bé đang ngủ.",
+     "coTranh": [
+      "1:孩子",
+      "1:睡觉"
+     ]
+    },
+    {
+     "han": "孩子们都喜欢喝牛奶。",
+     "pinyin": "Háizimen dōu xǐhuan hē niúnǎi.",
+     "dich": "Bọn trẻ đều thích uống sữa.",
+     "coTranh": [
+      "1:牛奶",
+      "1:孩子"
+     ]
+    },
+    {
+     "han": "孩子们在唱歌。",
+     "pinyin": "Háizimen zài chàng gē.",
+     "dich": "Bọn trẻ đang hát.",
+     "coTranh": [
+      "1:孩子",
+      "1:唱"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:睡觉",
+   "han": "睡觉",
+   "pinyin": "shuìjiào",
+   "emoji": "😴",
+   "nhom": "lam",
+   "nghia": "ngủ, đi ngủ",
+   "cau": [
+    {
+     "han": "他在睡觉呢。",
+     "pinyin": "Tā zài shuìjiào ne.",
+     "dich": "Anh ấy đang ngủ.",
+     "coTranh": [
+      "1:睡觉"
+     ]
+    },
+    {
+     "han": "他晚上九点睡觉。",
+     "pinyin": "Tā wǎnshang jiǔ diǎn shuìjiào.",
+     "dich": "Anh ấy đi ngủ lúc chín giờ tối.",
+     "coTranh": [
+      "1:睡觉"
+     ]
+    },
+    {
+     "han": "我晚上十一点睡觉。",
+     "pinyin": "Wǒ wǎnshang shíyī diǎn shuìjiào.",
+     "dich": "Tôi đi ngủ lúc mười một giờ tối.",
+     "coTranh": [
+      "1:睡觉"
+     ]
+    },
+    {
+     "han": "孩子在睡觉。",
+     "pinyin": "Háizi zài shuìjiào.",
+     "dich": "Đứa bé đang ngủ.",
+     "coTranh": [
+      "1:孩子",
+      "1:睡觉"
+     ]
+    },
+    {
+     "han": "你几点睡觉？",
+     "pinyin": "Nǐ jǐ diǎn shuìjiào?",
+     "dich": "Bạn đi ngủ lúc mấy giờ?",
+     "coTranh": [
+      "1:睡觉"
+     ]
+    },
+    {
+     "han": "他还在睡觉。",
+     "pinyin": "Tā hái zài shuìjiào.",
+     "dich": "Anh ấy vẫn đang ngủ.",
+     "coTranh": [
+      "1:睡觉"
+     ]
+    },
+    {
+     "han": "猫在椅子上睡觉。",
+     "pinyin": "Māo zài yǐzi shang shuìjiào.",
+     "dich": "Con mèo đang ngủ trên ghế.",
+     "coTranh": [
+      "1:猫",
+      "1:椅子",
+      "1:睡觉"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:打电话",
+   "han": "打电话",
+   "pinyin": "dǎ diànhuà",
+   "emoji": "📞",
+   "nhom": "lam",
+   "nghia": "gọi điện thoại",
+   "cau": [
+    {
+     "han": "开车的时候不要打电话。",
+     "pinyin": "Kāichē de shíhou búyào dǎ diànhuà.",
+     "dich": "Khi lái xe đừng gọi điện thoại.",
+     "coTranh": [
+      "1:打电话"
+     ]
+    },
+    {
+     "han": "上课的时候不可以打电话。",
+     "pinyin": "Shàngkè de shíhou bù kěyǐ dǎ diànhuà.",
+     "dich": "Trong giờ học không được gọi điện thoại.",
+     "coTranh": [
+      "1:打电话"
+     ]
+    },
+    {
+     "han": "他在打电话。",
+     "pinyin": "Tā zài dǎ diànhuà.",
+     "dich": "Anh ấy đang gọi điện thoại.",
+     "coTranh": [
+      "1:打电话"
+     ]
+    },
+    {
+     "han": "我明天打电话问一下。",
+     "pinyin": "Wǒ míngtiān dǎ diànhuà wèn yíxià.",
+     "dich": "Mai tôi gọi điện hỏi thử.",
+     "coTranh": [
+      "1:打电话"
+     ]
+    },
+    {
+     "han": "他正在打电话呢。",
+     "pinyin": "Tā zhèngzài dǎ diànhuà ne.",
+     "dich": "Anh ấy đang gọi điện thoại.",
+     "coTranh": [
+      "1:打电话"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:电影",
+   "han": "电影",
+   "pinyin": "diànyǐng",
+   "emoji": "🎬",
+   "nhom": "lam",
+   "nghia": "phim, phim điện ảnh",
+   "cau": [
+    {
+     "han": "他在手机上看电影。",
+     "pinyin": "Tā zài shǒujī shang kàn diànyǐng.",
+     "dich": "Anh ấy xem phim trên điện thoại.",
+     "coTranh": [
+      "1:手机",
+      "1:电影"
+     ]
+    },
+    {
+     "han": "这个星期天我去看电影。",
+     "pinyin": "Zhège xīngqītiān wǒ qù kàn diànyǐng.",
+     "dich": "Chủ nhật này tôi đi xem phim.",
+     "coTranh": [
+      "1:电影"
+     ]
+    },
+    {
+     "han": "晚饭后我们去看电影吧。",
+     "pinyin": "Wǎnfàn hòu wǒmen qù kàn diànyǐng ba.",
+     "dich": "Sau bữa tối chúng ta đi xem phim nhé.",
+     "coTranh": [
+      "1:电影"
+     ]
+    },
+    {
+     "han": "我喜欢看电影。",
+     "pinyin": "Wǒ xǐhuan kàn diànyǐng.",
+     "dich": "Tôi thích xem phim.",
+     "coTranh": [
+      "1:电影"
+     ]
+    },
+    {
+     "han": "这个电影不太好看。",
+     "pinyin": "Zhège diànyǐng bú tài hǎokàn.",
+     "dich": "Bộ phim này không hay lắm.",
+     "coTranh": [
+      "1:电影"
+     ]
+    },
+    {
+     "han": "我们去看电影吧。",
+     "pinyin": "Wǒmen qù kàn diànyǐng ba.",
+     "dich": "Chúng ta đi xem phim đi.",
+     "coTranh": [
+      "1:电影"
+     ]
+    },
+    {
+     "han": "你喜欢看什么电影？",
+     "pinyin": "Nǐ xǐhuan kàn shénme diànyǐng?",
+     "dich": "Bạn thích xem phim gì?",
+     "coTranh": [
+      "1:电影"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:唱",
+   "han": "唱",
+   "pinyin": "chàng",
+   "emoji": "🎤",
+   "nhom": "lam",
+   "nghia": "hát",
+   "cau": [
+    {
+     "han": "我女儿喜欢唱歌。",
+     "pinyin": "Wǒ nǚ'ér xǐhuan chàng gē.",
+     "dich": "Con gái tôi thích hát.",
+     "coTranh": [
+      "1:唱"
+     ]
+    },
+    {
+     "han": "这些小朋友都很喜欢唱歌。",
+     "pinyin": "Zhèxiē xiǎopéngyǒu dōu hěn xǐhuan chàng gē.",
+     "dich": "Các em nhỏ này đều rất thích hát.",
+     "coTranh": [
+      "1:唱"
+     ]
+    },
+    {
+     "han": "你会唱中国歌吗？",
+     "pinyin": "Nǐ huì chàng Zhōngguó gē ma?",
+     "dich": "Bạn biết hát bài hát Trung Quốc không?",
+     "coTranh": [
+      "1:唱"
+     ]
+    },
+    {
+     "han": "孩子们在唱歌。",
+     "pinyin": "Háizimen zài chàng gē.",
+     "dich": "Bọn trẻ đang hát.",
+     "coTranh": [
+      "1:孩子",
+      "1:唱"
+     ]
+    },
+    {
+     "han": "我很喜欢唱歌。",
+     "pinyin": "Wǒ hěn xǐhuan chàng gē.",
+     "dich": "Tôi rất thích hát.",
+     "coTranh": [
+      "1:唱"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:写",
+   "han": "写",
+   "pinyin": "xiě",
+   "emoji": "✍️",
+   "nhom": "lam",
+   "nghia": "viết",
+   "cau": [
+    {
+     "han": "你会写汉字吗？",
+     "pinyin": "Nǐ huì xiě Hànzì ma?",
+     "dich": "Bạn biết viết chữ Hán không?",
+     "coTranh": [
+      "1:写"
+     ]
+    },
+    {
+     "han": "你会写这个字吗？",
+     "pinyin": "Nǐ huì xiě zhège zì ma?",
+     "dich": "Bạn biết viết chữ này không?",
+     "coTranh": [
+      "1:写"
+     ]
+    },
+    {
+     "han": "我在写汉字。",
+     "pinyin": "Wǒ zài xiě Hànzì.",
+     "dich": "Tôi đang viết chữ Hán.",
+     "coTranh": [
+      "1:写"
+     ]
+    },
+    {
+     "han": "请你在这里写名字。",
+     "pinyin": "Qǐng nǐ zài zhèlǐ xiě míngzi.",
+     "dich": "Bạn vui lòng viết tên vào chỗ này.",
+     "coTranh": [
+      "1:写"
+     ]
+    },
+    {
+     "han": "有些学生不喜欢写汉字。",
+     "pinyin": "Yǒuxiē xuéshēng bù xǐhuan xiě Hànzì.",
+     "dich": "Có một số học sinh không thích viết chữ Hán.",
+     "coTranh": [
+      "1:学生",
+      "1:写"
+     ]
+    },
+    {
+     "han": "他在电脑上写汉字。",
+     "pinyin": "Tā zài diànnǎo shang xiě Hànzì.",
+     "dich": "Anh ấy viết chữ Hán trên máy tính.",
+     "coTranh": [
+      "1:电脑",
+      "1:写"
+     ]
+    },
+    {
+     "han": "这个字怎么写？",
+     "pinyin": "Zhège zì zěnme xiě?",
+     "dich": "Chữ này viết thế nào?",
+     "coTranh": [
+      "1:写"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:买",
+   "han": "买",
+   "pinyin": "mǎi",
+   "emoji": "🛍️",
+   "nhom": "lam",
+   "nghia": "mua",
+   "cau": [
+    {
+     "han": "你想买哪本书？",
+     "pinyin": "Nǐ xiǎng mǎi nǎ běn shū?",
+     "dich": "Bạn muốn mua quyển sách nào?",
+     "coTranh": [
+      "1:书",
+      "1:买"
+     ]
+    },
+    {
+     "han": "我买了四个苹果。",
+     "pinyin": "Wǒ mǎile sì gè píngguǒ.",
+     "dich": "Tôi đã mua bốn quả táo.",
+     "coTranh": [
+      "1:苹果",
+      "1:买"
+     ]
+    },
+    {
+     "han": "我买了两本书。",
+     "pinyin": "Wǒ mǎile liǎng běn shū.",
+     "dich": "Tôi đã mua hai quyển sách.",
+     "coTranh": [
+      "1:书",
+      "1:买"
+     ]
+    },
+    {
+     "han": "我想买两个苹果。",
+     "pinyin": "Wǒ xiǎng mǎi liǎng gè píngguǒ.",
+     "dich": "Tôi muốn mua hai quả táo.",
+     "coTranh": [
+      "1:苹果",
+      "1:买"
+     ]
+    },
+    {
+     "han": "我买了些水果。",
+     "pinyin": "Wǒ mǎile xiē shuǐguǒ.",
+     "dich": "Tôi đã mua ít hoa quả.",
+     "coTranh": [
+      "1:买"
+     ]
+    },
+    {
+     "han": "我去超市买东西。",
+     "pinyin": "Wǒ qù chāoshì mǎi dōngxi.",
+     "dich": "Tôi đi siêu thị mua đồ.",
+     "coTranh": [
+      "1:买"
+     ]
+    },
+    {
+     "han": "我想买一些水果。",
+     "pinyin": "Wǒ xiǎng mǎi yìxiē shuǐguǒ.",
+     "dich": "Tôi muốn mua một ít hoa quả.",
+     "coTranh": [
+      "1:买"
+     ]
+    },
+    {
+     "han": "我买了一本书。",
+     "pinyin": "Wǒ mǎile yì běn shū.",
+     "dich": "Tôi đã mua một quyển sách.",
+     "coTranh": [
+      "1:书",
+      "1:买"
+     ]
+    },
+    {
+     "han": "我想买四个包子。",
+     "pinyin": "Wǒ xiǎng mǎi sì gè bāozi.",
+     "dich": "Tôi muốn mua bốn cái bánh bao.",
+     "coTranh": [
+      "1:买"
+     ]
+    },
+    {
+     "han": "他买了五个苹果。",
+     "pinyin": "Tā mǎile wǔ gè píngguǒ.",
+     "dich": "Anh ấy đã mua năm quả táo.",
+     "coTranh": [
+      "1:苹果",
+      "1:买"
+     ]
+    },
+    {
+     "han": "我想买一件衣服。",
+     "pinyin": "Wǒ xiǎng mǎi yí jiàn yīfu.",
+     "dich": "Tôi muốn mua một cái áo.",
+     "coTranh": [
+      "1:衣服",
+      "1:买"
+     ]
+    },
+    {
+     "han": "你买什么了？",
+     "pinyin": "Nǐ mǎi shénme le?",
+     "dich": "Bạn đã mua gì vậy?",
+     "coTranh": [
+      "1:买"
+     ]
+    },
+    {
+     "han": "我去商店买东西。",
+     "pinyin": "Wǒ qù shāngdiàn mǎi dōngxi.",
+     "dich": "Tôi đến cửa hàng mua đồ.",
+     "coTranh": [
+      "1:商店",
+      "1:买"
+     ]
+    },
+    {
+     "han": "我想去书店买书。",
+     "pinyin": "Wǒ xiǎng qù shūdiàn mǎi shū.",
+     "dich": "Tôi muốn đến hiệu sách mua sách.",
+     "coTranh": [
+      "1:书",
+      "1:买"
+     ]
+    },
+    {
+     "han": "我想买新衣服。",
+     "pinyin": "Wǒ xiǎng mǎi xīn yīfu.",
+     "dich": "Tôi muốn mua quần áo mới.",
+     "coTranh": [
+      "1:衣服",
+      "1:买"
+     ]
+    },
+    {
+     "han": "我买了两件衣服。",
+     "pinyin": "Wǒ mǎile liǎng jiàn yīfu.",
+     "dich": "Tôi đã mua hai cái áo.",
+     "coTranh": [
+      "1:衣服",
+      "1:买"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:起床",
+   "han": "起床",
+   "pinyin": "qǐchuáng",
+   "emoji": "⏰",
+   "nhom": "lam",
+   "nghia": "thức dậy, ra khỏi giường",
+   "cau": [
+    {
+     "han": "我六点起床。",
+     "pinyin": "Wǒ liù diǎn qǐchuáng.",
+     "dich": "Tôi dậy lúc sáu giờ.",
+     "coTranh": [
+      "1:起床"
+     ]
+    },
+    {
+     "han": "他还没有起床。",
+     "pinyin": "Tā hái méiyǒu qǐchuáng.",
+     "dich": "Anh ấy vẫn chưa dậy.",
+     "coTranh": [
+      "1:起床"
+     ]
+    },
+    {
+     "han": "我早上七点起床。",
+     "pinyin": "Wǒ zǎoshang qī diǎn qǐchuáng.",
+     "dich": "Tôi dậy lúc bảy giờ sáng.",
+     "coTranh": [
+      "1:起床"
+     ]
+    },
+    {
+     "han": "你几点起床？",
+     "pinyin": "Nǐ jǐ diǎn qǐchuáng?",
+     "dich": "Bạn dậy lúc mấy giờ?",
+     "coTranh": [
+      "1:起床"
+     ]
+    },
+    {
+     "han": "起床了！",
+     "pinyin": "Qǐchuáng le!",
+     "dich": "Dậy thôi! (Đến giờ dậy rồi!)",
+     "coTranh": [
+      "1:起床"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1:工作",
+   "han": "工作",
+   "pinyin": "gōngzuò",
+   "emoji": "💼",
+   "nhom": "lam",
+   "nghia": "làm việc; công việc, việc làm",
+   "cau": [
+    {
+     "han": "爸爸在公司工作。",
+     "pinyin": "Bàba zài gōngsī gōngzuò.",
+     "dich": "Bố làm việc ở công ty.",
+     "coTranh": [
+      "1:工作"
+     ]
+    },
+    {
+     "han": "姐姐在医院工作。",
+     "pinyin": "Jiějie zài yīyuàn gōngzuò.",
+     "dich": "Chị gái làm việc ở bệnh viện.",
+     "coTranh": [
+      "1:医院",
+      "1:工作"
+     ]
+    },
+    {
+     "han": "他在一家公司工作。",
+     "pinyin": "Tā zài yì jiā gōngsī gōngzuò.",
+     "dich": "Anh ấy làm việc ở một công ty.",
+     "coTranh": [
+      "1:家",
+      "1:工作"
+     ]
+    },
+    {
+     "han": "我哥哥在大学工作。",
+     "pinyin": "Wǒ gēge zài dàxué gōngzuò.",
+     "dich": "Anh tôi làm việc ở trường đại học.",
+     "coTranh": [
+      "1:工作"
+     ]
+    },
+    {
+     "han": "去年我在大学工作。",
+     "pinyin": "Qùnián wǒ zài dàxué gōngzuò.",
+     "dich": "Năm ngoái tôi làm việc ở trường đại học.",
+     "coTranh": [
+      "1:工作"
+     ]
+    },
+    {
+     "han": "他现在在中国工作。",
+     "pinyin": "Tā xiànzài zài Zhōngguó gōngzuò.",
+     "dich": "Hiện nay anh ấy làm việc ở Trung Quốc.",
+     "coTranh": [
+      "1:工作"
+     ]
+    },
+    {
+     "han": "白天我在公司工作。",
+     "pinyin": "Báitiān wǒ zài gōngsī gōngzuò.",
+     "dich": "Ban ngày tôi làm việc ở công ty.",
+     "coTranh": [
+      "1:工作"
+     ]
+    },
+    {
+     "han": "他在一家小店工作。",
+     "pinyin": "Tā zài yì jiā xiǎo diàn gōngzuò.",
+     "dich": "Anh ấy làm việc ở một quán nhỏ.",
+     "coTranh": [
+      "1:家",
+      "1:工作"
+     ]
+    },
+    {
+     "han": "你的新工作怎么样？",
+     "pinyin": "Nǐ de xīn gōngzuò zěnmeyàng?",
+     "dich": "Công việc mới của bạn thế nào?",
+     "coTranh": [
+      "1:工作"
+     ]
+    },
+    {
+     "han": "你在哪儿工作？",
+     "pinyin": "Nǐ zài nǎr gōngzuò?",
+     "dich": "Bạn làm việc ở đâu?",
+     "coTranh": [
+      "1:工作"
+     ]
+    },
+    {
+     "han": "今天我工作了十个小时。",
+     "pinyin": "Jīntiān wǒ gōngzuòle shí gè xiǎoshí.",
+     "dich": "Hôm nay tôi đã làm việc mười tiếng.",
+     "coTranh": [
+      "1:工作"
+     ]
+    },
+    {
+     "han": "我想找一个新工作。",
+     "pinyin": "Wǒ xiǎng zhǎo yí gè xīn gōngzuò.",
+     "dich": "Tôi muốn tìm một công việc mới.",
+     "coTranh": [
+      "1:工作"
+     ]
+    },
+    {
+     "han": "他的工作很忙。",
+     "pinyin": "Tā de gōngzuò hěn máng.",
+     "dich": "Công việc của anh ấy rất bận.",
+     "coTranh": [
+      "1:工作"
+     ]
+    },
+    {
+     "han": "你爸爸做什么工作？",
+     "pinyin": "Nǐ bàba zuò shénme gōngzuò?",
+     "dich": "Bố bạn làm nghề gì?",
+     "coTranh": [
+      "1:工作"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cum49",
+   "han": "一点",
+   "pinyin": "yī diǎn",
+   "emoji": "🕐",
+   "nhom": "gio",
+   "nghia": "",
+   "cau": []
+  },
+  {
+   "id": "cum50",
+   "han": "三点",
+   "pinyin": "sān diǎn",
+   "emoji": "🕒",
+   "nhom": "gio",
+   "nghia": "",
+   "cau": []
+  },
+  {
+   "id": "cum51",
+   "han": "五点",
+   "pinyin": "wǔ diǎn",
+   "emoji": "🕔",
+   "nhom": "gio",
+   "nghia": "",
+   "cau": []
+  },
+  {
+   "id": "cum52",
+   "han": "七点",
+   "pinyin": "qī diǎn",
+   "emoji": "🕖",
+   "nhom": "gio",
+   "nghia": "",
+   "cau": []
+  },
+  {
+   "id": "cum53",
+   "han": "八点",
+   "pinyin": "bā diǎn",
+   "emoji": "🕗",
+   "nhom": "gio",
+   "nghia": "",
+   "cau": []
+  },
+  {
+   "id": "cum54",
+   "han": "九点",
+   "pinyin": "jiǔ diǎn",
+   "emoji": "🕘",
+   "nhom": "gio",
+   "nghia": "",
+   "cau": []
+  },
+  {
+   "id": "cum55",
+   "han": "十二点",
+   "pinyin": "shí'èr diǎn",
+   "emoji": "🕛",
+   "nhom": "gio",
+   "nghia": "",
+   "cau": []
+  },
+  {
+   "id": "cum56",
+   "han": "两点半",
+   "pinyin": "liǎng diǎn bàn",
+   "emoji": "🕝",
+   "nhom": "gio",
+   "nghia": "",
+   "cau": []
+  },
+  {
+   "id": "cum57",
+   "han": "六点半",
+   "pinyin": "liù diǎn bàn",
+   "emoji": "🕡",
+   "nhom": "gio",
+   "nghia": "",
+   "cau": []
+  },
+  {
+   "id": "cum58",
+   "han": "十点半",
+   "pinyin": "shí diǎn bàn",
+   "emoji": "🕥",
+   "nhom": "gio",
+   "nghia": "",
+   "cau": []
+  }
+ ],
+ "hoiDap": [
+  {
+   "loai": "hd",
+   "ten": "hd1",
+   "cap": [
+    {
+     "q": "你叫什么名字？",
+     "qp": "Nǐ jiào shénme míngzi?",
+     "a": "我叫小明。",
+     "ap": "Wǒ jiào Xiǎo Míng.",
+     "x": [
+      {
+       "h": "我是中国人。",
+       "p": "Wǒ shì Zhōngguórén."
+      },
+      {
+       "h": "我很好。",
+       "p": "Wǒ hěn hǎo."
+      }
+     ]
+    },
+    {
+     "q": "你家有几口人？",
+     "qp": "Nǐ jiā yǒu jǐ kǒu rén?",
+     "a": "四口人。",
+     "ap": "Sì kǒu rén.",
+     "x": [
+      {
+       "h": "八点。",
+       "p": "Bā diǎn."
+      },
+      {
+       "h": "二十块。",
+       "p": "Èrshí kuài."
+      }
+     ]
+    },
+    {
+     "q": "现在几点？",
+     "qp": "Xiànzài jǐ diǎn?",
+     "a": "九点半。",
+     "ap": "Jiǔ diǎn bàn.",
+     "x": [
+      {
+       "h": "星期三。",
+       "p": "Xīngqīsān."
+      },
+      {
+       "h": "三个人。",
+       "p": "Sān gè rén."
+      }
+     ]
+    },
+    {
+     "q": "你去哪儿？",
+     "qp": "Nǐ qù nǎr?",
+     "a": "我去医院。",
+     "ap": "Wǒ qù yīyuàn.",
+     "x": [
+      {
+       "h": "我不认识他。",
+       "p": "Wǒ bú rènshi tā."
+      },
+      {
+       "h": "我喜欢喝茶。",
+       "p": "Wǒ xǐhuan hē chá."
+      }
+     ]
+    },
+    {
+     "q": "这个苹果多少钱？",
+     "qp": "Zhège píngguǒ duōshao qián?",
+     "a": "五块。",
+     "ap": "Wǔ kuài.",
+     "x": [
+      {
+       "h": "很好吃。",
+       "p": "Hěn hǎochī."
+      },
+      {
+       "h": "五个。",
+       "p": "Wǔ gè."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "loai": "hd",
+   "ten": "hd2",
+   "cap": [
+    {
+     "q": "你喝茶吗？",
+     "qp": "Nǐ hē chá ma?",
+     "a": "好的，谢谢！",
+     "ap": "Hǎo de, xièxie!",
+     "x": [
+      {
+       "h": "我不是。",
+       "p": "Wǒ bú shì."
+      },
+      {
+       "h": "在桌子上。",
+       "p": "Zài zhuōzi shang."
+      }
+     ]
+    },
+    {
+     "q": "你女儿几岁了？",
+     "qp": "Nǐ nǚ'ér jǐ suì le?",
+     "a": "她六岁了。",
+     "ap": "Tā liù suì le.",
+     "x": [
+      {
+       "h": "她是学生。",
+       "p": "Tā shì xuéshēng."
+      },
+      {
+       "h": "六点了。",
+       "p": "Liù diǎn le."
+      }
+     ]
+    },
+    {
+     "q": "你的手机呢？",
+     "qp": "Nǐ de shǒujī ne?",
+     "a": "在桌子上。",
+     "ap": "Zài zhuōzi shang.",
+     "x": [
+      {
+       "h": "很贵。",
+       "p": "Hěn guì."
+      },
+      {
+       "h": "我不想买。",
+       "p": "Wǒ bù xiǎng mǎi."
+      }
+     ]
+    },
+    {
+     "q": "明天天气怎么样？",
+     "qp": "Míngtiān tiānqì zěnmeyàng?",
+     "a": "会下雨。",
+     "ap": "Huì xià yǔ.",
+     "x": [
+      {
+       "h": "我在家。",
+       "p": "Wǒ zài jiā."
+      },
+      {
+       "h": "星期五。",
+       "p": "Xīngqīwǔ."
+      }
+     ]
+    },
+    {
+     "q": "谢谢你！",
+     "qp": "Xièxie nǐ!",
+     "a": "不客气。",
+     "ap": "Bú kèqi.",
+     "x": [
+      {
+       "h": "没关系。",
+       "p": "Méi guānxi."
+      },
+      {
+       "h": "对不起。",
+       "p": "Duìbuqǐ."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "loai": "hd",
+   "ten": "hd3",
+   "cap": [
+    {
+     "q": "你会说汉语吗？",
+     "qp": "Nǐ huì shuō Hànyǔ ma?",
+     "a": "会一点儿。",
+     "ap": "Huì yìdiǎnr.",
+     "x": [
+      {
+       "h": "我是老师。",
+       "p": "Wǒ shì lǎoshī."
+      },
+      {
+       "h": "他很高兴。",
+       "p": "Tā hěn gāoxìng."
+      }
+     ]
+    },
+    {
+     "q": "你爸爸做什么工作？",
+     "qp": "Nǐ bàba zuò shénme gōngzuò?",
+     "a": "他是医生。",
+     "ap": "Tā shì yīshēng.",
+     "x": [
+      {
+       "h": "他在睡觉。",
+       "p": "Tā zài shuìjiào."
+      },
+      {
+       "h": "他六十岁。",
+       "p": "Tā liùshí suì."
+      }
+     ]
+    },
+    {
+     "q": "你什么时候回家？",
+     "qp": "Nǐ shénme shíhou huí jiā?",
+     "a": "晚上七点。",
+     "ap": "Wǎnshang qī diǎn.",
+     "x": [
+      {
+       "h": "我家很大。",
+       "p": "Wǒ jiā hěn dà."
+      },
+      {
+       "h": "坐出租车。",
+       "p": "Zuò chūzūchē."
+      }
+     ]
+    },
+    {
+     "q": "你怎么去学校？",
+     "qp": "Nǐ zěnme qù xuéxiào?",
+     "a": "坐出租车。",
+     "ap": "Zuò chūzūchē.",
+     "x": [
+      {
+       "h": "下午三点。",
+       "p": "Xiàwǔ sān diǎn."
+      },
+      {
+       "h": "在学校。",
+       "p": "Zài xuéxiào."
+      }
+     ]
+    },
+    {
+     "q": "对不起！",
+     "qp": "Duìbuqǐ!",
+     "a": "没关系。",
+     "ap": "Méi guānxi.",
+     "x": [
+      {
+       "h": "不客气。",
+       "p": "Bú kèqi."
+      },
+      {
+       "h": "你好！",
+       "p": "Nǐ hǎo!"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "dienTu": [
+  {
+   "loai": "dt",
+   "ten": "dt1",
+   "tu": [
+    {
+     "h": "认识",
+     "p": "rènshi"
+    },
+    {
+     "h": "喝",
+     "p": "hē"
+    },
+    {
+     "h": "块",
+     "p": "kuài"
+    },
+    {
+     "h": "汉字",
+     "p": "Hànzì"
+    },
+    {
+     "h": "晚上",
+     "p": "wǎnshang"
+    },
+    {
+     "h": "漂亮",
+     "p": "piàoliang"
+    }
+   ],
+   "cau": [
+    {
+     "cau": "我（ ）你很高兴。",
+     "pinyin": "Wǒ rènshi nǐ hěn gāoxìng.",
+     "dapAn": "认识"
+    },
+    {
+     "cau": "这件衣服三百（ ）。",
+     "pinyin": "Zhè jiàn yīfu sānbǎi kuài.",
+     "dapAn": "块"
+    },
+    {
+     "cau": "你会写（ ）吗？",
+     "pinyin": "Nǐ huì xiě Hànzì ma?",
+     "dapAn": "汉字"
+    },
+    {
+     "cau": "我（ ）九点睡觉。",
+     "pinyin": "Wǒ wǎnshang jiǔ diǎn shuìjiào.",
+     "dapAn": "晚上"
+    },
+    {
+     "cau": "你的女朋友很（ ）。",
+     "pinyin": "Nǐ de nǚpéngyou hěn piàoliang.",
+     "dapAn": "漂亮"
+    }
+   ]
+  },
+  {
+   "loai": "dt",
+   "ten": "dt2",
+   "tu": [
+    {
+     "h": "商店",
+     "p": "shāngdiàn"
+    },
+    {
+     "h": "坐",
+     "p": "zuò"
+    },
+    {
+     "h": "少",
+     "p": "shǎo"
+    },
+    {
+     "h": "叫",
+     "p": "jiào"
+    },
+    {
+     "h": "冷",
+     "p": "lěng"
+    },
+    {
+     "h": "明天",
+     "p": "míngtiān"
+    }
+   ],
+   "cau": [
+    {
+     "cau": "他（ ）火车去学校。",
+     "pinyin": "Tā zuò huǒchē qù xuéxiào.",
+     "dapAn": "坐"
+    },
+    {
+     "cau": "我去（ ）买东西。",
+     "pinyin": "Wǒ qù shāngdiàn mǎi dōngxi.",
+     "dapAn": "商店"
+    },
+    {
+     "cau": "今天天气很（ ）。",
+     "pinyin": "Jīntiān tiānqì hěn lěng.",
+     "dapAn": "冷"
+    },
+    {
+     "cau": "你（ ）什么名字？",
+     "pinyin": "Nǐ jiào shénme míngzi?",
+     "dapAn": "叫"
+    },
+    {
+     "cau": "（ ）是星期六。",
+     "pinyin": "Míngtiān shì xīngqīliù.",
+     "dapAn": "明天"
+    }
+   ]
+  },
+  {
+   "loai": "dt",
+   "ten": "dt3",
+   "tu": [
+    {
+     "h": "电脑",
+     "p": "diànnǎo"
+    },
+    {
+     "h": "下雨",
+     "p": "xià yǔ"
+    },
+    {
+     "h": "吃",
+     "p": "chī"
+    },
+    {
+     "h": "开",
+     "p": "kāi"
+    },
+    {
+     "h": "同学",
+     "p": "tóngxué"
+    },
+    {
+     "h": "几",
+     "p": "jǐ"
+    }
+   ],
+   "cau": [
+    {
+     "cau": "外边（ ）了。",
+     "pinyin": "Wàibian xià yǔ le.",
+     "dapAn": "下雨"
+    },
+    {
+     "cau": "你家有（ ）口人？",
+     "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
+     "dapAn": "几"
+    },
+    {
+     "cau": "他是我的大学（ ）。",
+     "pinyin": "Tā shì wǒ de dàxué tóngxué.",
+     "dapAn": "同学"
+    },
+    {
+     "cau": "我想（ ）米饭。",
+     "pinyin": "Wǒ xiǎng chī mǐfàn.",
+     "dapAn": "吃"
+    },
+    {
+     "cau": "我想买一个新（ ）。",
+     "pinyin": "Wǒ xiǎng mǎi yí gè xīn diànnǎo.",
+     "dapAn": "电脑"
+    }
+   ]
+  }
+ ],
+ "theoCau": [
+  {
+   "s": "我下午去商店买衣服。",
+   "sp": "Wǒ xiàwǔ qù shāngdiàn mǎi yīfu.",
+   "h": "说话人下午去哪儿？",
+   "hp": "Shuōhuàrén xiàwǔ qù nǎr?",
+   "a": "商店",
+   "ap": "shāngdiàn",
+   "x": [
+    {
+     "h": "医院",
+     "p": "yīyuàn"
+    },
+    {
+     "h": "学校",
+     "p": "xuéxiào"
+    }
+   ]
+  },
+  {
+   "s": "我今年二十岁，我哥哥二十五岁。",
+   "sp": "Wǒ jīnnián èrshí suì, wǒ gēge èrshíwǔ suì.",
+   "h": "哥哥多大？",
+   "hp": "Gēge duō dà?",
+   "a": "二十五岁",
+   "ap": "èrshíwǔ suì",
+   "x": [
+    {
+     "h": "二十岁",
+     "p": "èrshí suì"
+    },
+    {
+     "h": "十五岁",
+     "p": "shíwǔ suì"
+    }
+   ]
+  },
+  {
+   "s": "今天很冷，下雪了。",
+   "sp": "Jīntiān hěn lěng, xià xuě le.",
+   "h": "今天天气怎么样？",
+   "hp": "Jīntiān tiānqì zěnmeyàng?",
+   "a": "很冷",
+   "ap": "hěn lěng",
+   "x": [
+    {
+     "h": "很热",
+     "p": "hěn rè"
+    },
+    {
+     "h": "下雨了",
+     "p": "xià yǔ le"
+    }
+   ]
+  },
+  {
+   "s": "我爸爸在医院工作，他是医生。",
+   "sp": "Wǒ bàba zài yīyuàn gōngzuò, tā shì yīshēng.",
+   "h": "说话人的爸爸是做什么的？",
+   "hp": "Shuōhuàrén de bàba shì zuò shénme de?",
+   "a": "医生",
+   "ap": "yīshēng",
+   "x": [
+    {
+     "h": "老师",
+     "p": "lǎoshī"
+    },
+    {
+     "h": "学生",
+     "p": "xuéshēng"
+    }
+   ]
+  },
+  {
+   "s": "我早上七点起床，八点去学校。",
+   "sp": "Wǒ zǎoshang qī diǎn qǐchuáng, bā diǎn qù xuéxiào.",
+   "h": "说话人几点起床？",
+   "hp": "Shuōhuàrén jǐ diǎn qǐchuáng?",
+   "a": "七点",
+   "ap": "qī diǎn",
+   "x": [
+    {
+     "h": "八点",
+     "p": "bā diǎn"
+    },
+    {
+     "h": "九点",
+     "p": "jiǔ diǎn"
+    }
+   ]
+  },
+  {
+   "s": "这本书很好看，三十块钱。",
+   "sp": "Zhè běn shū hěn hǎokàn, sānshí kuài qián.",
+   "h": "这本书多少钱？",
+   "hp": "Zhè běn shū duōshao qián?",
+   "a": "三十块",
+   "ap": "sānshí kuài",
+   "x": [
+    {
+     "h": "十三块",
+     "p": "shísān kuài"
+    },
+    {
+     "h": "三块",
+     "p": "sān kuài"
+    }
+   ]
+  },
+  {
+   "s": "我喜欢喝茶，不喜欢喝牛奶。",
+   "sp": "Wǒ xǐhuan hē chá, bù xǐhuan hē niúnǎi.",
+   "h": "说话人喜欢喝什么？",
+   "hp": "Shuōhuàrén xǐhuan hē shénme?",
+   "a": "茶",
+   "ap": "chá",
+   "x": [
+    {
+     "h": "牛奶",
+     "p": "niúnǎi"
+    },
+    {
+     "h": "水",
+     "p": "shuǐ"
+    }
+   ]
+  },
+  {
+   "s": "明天是星期六，我不上班。",
+   "sp": "Míngtiān shì xīngqīliù, wǒ bú shàngbān.",
+   "h": "明天星期几？",
+   "hp": "Míngtiān xīngqī jǐ?",
+   "a": "星期六",
+   "ap": "xīngqīliù",
+   "x": [
+    {
+     "h": "星期五",
+     "p": "xīngqīwǔ"
+    },
+    {
+     "h": "星期天",
+     "p": "xīngqītiān"
+    }
+   ]
+  },
+  {
+   "s": "我家有一只猫和一只狗。",
+   "sp": "Wǒ jiā yǒu yì zhī māo hé yì zhī gǒu.",
+   "h": "说话人家有什么？",
+   "hp": "Shuōhuàrén jiā yǒu shénme?",
+   "a": "猫和狗",
+   "ap": "māo hé gǒu",
+   "x": [
+    {
+     "h": "两只猫",
+     "p": "liǎng zhī māo"
+    },
+    {
+     "h": "两只狗",
+     "p": "liǎng zhī gǒu"
+    }
+   ]
+  },
+  {
+   "s": "我坐飞机去中国，不坐火车。",
+   "sp": "Wǒ zuò fēijī qù Zhōngguó, bú zuò huǒchē.",
+   "h": "说话人怎么去中国？",
+   "hp": "Shuōhuàrén zěnme qù Zhōngguó?",
+   "a": "坐飞机",
+   "ap": "zuò fēijī",
+   "x": [
+    {
+     "h": "坐火车",
+     "p": "zuò huǒchē"
+    },
+    {
+     "h": "坐出租车",
+     "p": "zuò chūzūchē"
+    }
+   ]
+  },
+  {
+   "s": "我妈妈是老师，她在大学工作。",
+   "sp": "Wǒ māma shì lǎoshī, tā zài dàxué gōngzuò.",
+   "h": "说话人的妈妈在哪儿工作？",
+   "hp": "Shuōhuàrén de māma zài nǎr gōngzuò?",
+   "a": "大学",
+   "ap": "dàxué",
+   "x": [
+    {
+     "h": "医院",
+     "p": "yīyuàn"
+    },
+    {
+     "h": "商店",
+     "p": "shāngdiàn"
+    }
+   ]
+  },
+  {
+   "s": "我想吃米饭，不想吃面条儿。",
+   "sp": "Wǒ xiǎng chī mǐfàn, bù xiǎng chī miàntiáor.",
+   "h": "说话人想吃什么？",
+   "hp": "Shuōhuàrén xiǎng chī shénme?",
+   "a": "米饭",
+   "ap": "mǐfàn",
+   "x": [
+    {
+     "h": "面条儿",
+     "p": "miàntiáor"
+    },
+    {
+     "h": "饺子",
+     "p": "jiǎozi"
+    }
+   ]
+  },
+  {
+   "s": "我昨天没去学校，我生病了。",
+   "sp": "Wǒ zuótiān méi qù xuéxiào, wǒ shēngbìng le.",
+   "h": "说话人昨天怎么了？",
+   "hp": "Shuōhuàrén zuótiān zěnme le?",
+   "a": "生病了",
+   "ap": "shēngbìng le",
+   "x": [
+    {
+     "h": "去学校了",
+     "p": "qù xuéxiào le"
+    },
+    {
+     "h": "去商店了",
+     "p": "qù shāngdiàn le"
+    }
+   ]
+  },
+  {
+   "s": "我有两个孩子，一个儿子，一个女儿。",
+   "sp": "Wǒ yǒu liǎng gè háizi, yí gè érzi, yí gè nǚ'ér.",
+   "h": "说话人有几个孩子？",
+   "hp": "Shuōhuàrén yǒu jǐ gè háizi?",
+   "a": "两个",
+   "ap": "liǎng gè",
+   "x": [
+    {
+     "h": "一个",
+     "p": "yí gè"
+    },
+    {
+     "h": "三个",
+     "p": "sān gè"
+    }
+   ]
+  },
+  {
+   "s": "现在下午三点半，我在家休息。",
+   "sp": "Xiànzài xiàwǔ sān diǎn bàn, wǒ zài jiā xiūxi.",
+   "h": "说话人在做什么？",
+   "hp": "Shuōhuàrén zài zuò shénme?",
+   "a": "休息",
+   "ap": "xiūxi",
+   "x": [
+    {
+     "h": "工作",
+     "p": "gōngzuò"
+    },
+    {
+     "h": "学习",
+     "p": "xuéxí"
+    }
+   ]
+  },
+  {
+   "s": "这个苹果很大，也很便宜。",
+   "sp": "Zhège píngguǒ hěn dà, yě hěn piányi.",
+   "h": "这个苹果怎么样？",
+   "hp": "Zhège píngguǒ zěnmeyàng?",
+   "a": "很便宜",
+   "ap": "hěn piányi",
+   "x": [
+    {
+     "h": "很贵",
+     "p": "hěn guì"
+    },
+    {
+     "h": "很小",
+     "p": "hěn xiǎo"
+    }
+   ]
+  },
+  {
+   "s": "我在饭店吃晚饭，菜很好吃。",
+   "sp": "Wǒ zài fàndiàn chī wǎnfàn, cài hěn hǎochī.",
+   "h": "说话人在哪儿吃晚饭？",
+   "hp": "Shuōhuàrén zài nǎr chī wǎnfàn?",
+   "a": "饭店",
+   "ap": "fàndiàn",
+   "x": [
+    {
+     "h": "家里",
+     "p": "jiā li"
+    },
+    {
+     "h": "学校",
+     "p": "xuéxiào"
+    }
+   ]
+  },
+  {
+   "s": "他是我的同学，我们都是大学生。",
+   "sp": "Tā shì wǒ de tóngxué, wǒmen dōu shì dàxuéshēng.",
+   "h": "他们是什么人？",
+   "hp": "Tāmen shì shénme rén?",
+   "a": "大学生",
+   "ap": "dàxuéshēng",
+   "x": [
+    {
+     "h": "老师",
+     "p": "lǎoshī"
+    },
+    {
+     "h": "医生",
+     "p": "yīshēng"
+    }
+   ]
+  },
+  {
+   "s": "我九点睡觉，现在八点，还早。",
+   "sp": "Wǒ jiǔ diǎn shuìjiào, xiànzài bā diǎn, hái zǎo.",
+   "h": "现在几点？",
+   "hp": "Xiànzài jǐ diǎn?",
+   "a": "八点",
+   "ap": "bā diǎn",
+   "x": [
+    {
+     "h": "九点",
+     "p": "jiǔ diǎn"
+    },
+    {
+     "h": "十点",
+     "p": "shí diǎn"
+    }
+   ]
+  },
+  {
+   "s": "我喜欢看电影，不喜欢看电视。",
+   "sp": "Wǒ xǐhuan kàn diànyǐng, bù xǐhuan kàn diànshì.",
+   "h": "说话人喜欢做什么？",
+   "hp": "Shuōhuàrén xǐhuan zuò shénme?",
+   "a": "看电影",
+   "ap": "kàn diànyǐng",
+   "x": [
+    {
+     "h": "看电视",
+     "p": "kàn diànshì"
+    },
+    {
+     "h": "打电话",
+     "p": "dǎ diànhuà"
+    }
+   ]
+  }
+ ]
+}

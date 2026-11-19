@@ -54,11 +54,8 @@ export function tinhTrangPhatAm() {
   return giongTiengTrung().length ? 'tot' : 'khong-co-giong';
 }
 
-/** Đọc một đoạn chữ Hán. */
-export function doc(chu, tocDo) {
-  if (!coHoTro || !chu) return;
-  const s = window.speechSynthesis;
-  s.cancel(); // dừng câu đang đọc dở
+/** Tạo một câu đọc với giọng và tốc độ theo cài đặt */
+function taoCauDoc(chu, tocDo) {
   const u = new SpeechSynthesisUtterance(chu.replace(/[0-9]/g, '')); // bỏ số phân biệt (本1 → 本)
   u.lang = 'zh-CN';
   const cd = caiDat();
@@ -66,5 +63,31 @@ export function doc(chu, tocDo) {
   const giong = ds.find((g) => g.name === cd.giongDoc) || ds[0];
   if (giong) u.voice = giong;
   u.rate = tocDo ?? cd.tocDoDoc ?? 0.8;
-  s.speak(u);
+  return u;
+}
+
+/** Đọc một đoạn chữ Hán. */
+export function doc(chu, tocDo) {
+  if (!coHoTro || !chu) return;
+  const s = window.speechSynthesis;
+  s.cancel(); // dừng câu đang đọc dở
+  s.speak(taoCauDoc(chu, tocDo));
+}
+
+/**
+ * Đọc lần lượt nhiều câu (dùng cho bài thi: đọc 2 lần, hoặc đọc câu rồi đến câu hỏi).
+ * Trả về Promise khi đọc xong câu cuối (hoặc ngay nếu máy không hỗ trợ).
+ */
+export function docLanLuot(cacCau, tocDo) {
+  return new Promise((xong) => {
+    const ds = cacCau.filter(Boolean);
+    if (!coHoTro || !ds.length) { xong(); return; }
+    const s = window.speechSynthesis;
+    s.cancel();
+    ds.forEach((chu, i) => {
+      const u = taoCauDoc(chu, tocDo);
+      if (i === ds.length - 1) { u.onend = () => xong(); u.onerror = () => xong(); }
+      s.speak(u);
+    });
+  });
 }

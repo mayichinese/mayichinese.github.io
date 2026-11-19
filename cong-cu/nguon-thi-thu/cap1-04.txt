@@ -1,0 +1,54 @@
+# ===== NGÂN HÀNG CÂU HỎI THI THỬ HSK 1 – ĐỢT 4 (soạn tay, câu tự đặt) =====
+# CÂU HỎI THEO CÂU – cách viết giống cap1-03.txt.
+
+### cau
+S 我妈妈是老师，她在大学工作。 | Wǒ māma shì lǎoshī, tā zài dàxué gōngzuò.
+H 说话人的妈妈在哪儿工作？ | Shuōhuàrén de māma zài nǎr gōngzuò?
+A 大学 | dàxué
+X 医院 | yīyuàn
+X 商店 | shāngdiàn
+S 我想吃米饭，不想吃面条儿。 | Wǒ xiǎng chī mǐfàn, bù xiǎng chī miàntiáor.
+H 说话人想吃什么？ | Shuōhuàrén xiǎng chī shénme?
+A 米饭 | mǐfàn
+X 面条儿 | miàntiáor
+X 饺子 | jiǎozi
+S 我昨天没去学校，我生病了。 | Wǒ zuótiān méi qù xuéxiào, wǒ shēngbìng le.
+H 说话人昨天怎么了？ | Shuōhuàrén zuótiān zěnme le?
+A 生病了 | shēngbìng le
+X 去学校了 | qù xuéxiào le
+X 去商店了 | qù shāngdiàn le
+S 我有两个孩子，一个儿子，一个女儿。 | Wǒ yǒu liǎng gè háizi, yí gè érzi, yí gè nǚ'ér.
+H 说话人有几个孩子？ | Shuōhuàrén yǒu jǐ gè háizi?
+A 两个 | liǎng gè
+X 一个 | yí gè
+X 三个 | sān gè
+S 现在下午三点半，我在家休息。 | Xiànzài xiàwǔ sān diǎn bàn, wǒ zài jiā xiūxi.
+H 说话人在做什么？ | Shuōhuàrén zài zuò shénme?
+A 休息 | xiūxi
+X 工作 | gōngzuò
+X 学习 | xuéxí
+S 这个苹果很大，也很便宜。 | Zhège píngguǒ hěn dà, yě hěn piányi.
+H 这个苹果怎么样？ | Zhège píngguǒ zěnmeyàng?
+A 很便宜 | hěn piányi
+X 很贵 | hěn guì
+X 很小 | hěn xiǎo
+S 我在饭店吃晚饭，菜很好吃。 | Wǒ zài fàndiàn chī wǎnfàn, cài hěn hǎochī.
+H 说话人在哪儿吃晚饭？ | Shuōhuàrén zài nǎr chī wǎnfàn?
+A 饭店 | fàndiàn
+X 家里 | jiā li
+X 学校 | xuéxiào
+S 他是我的同学，我们都是大学生。 | Tā shì wǒ de tóngxué, wǒmen dōu shì dàxuéshēng.
+H 他们是什么人？ | Tāmen shì shénme rén?
+A 大学生 | dàxuéshēng
+X 老师 | lǎoshī
+X 医生 | yīshēng
+S 我九点睡觉，现在八点，还早。 | Wǒ jiǔ diǎn shuìjiào, xiànzài bā diǎn, hái zǎo.
+H 现在几点？ | Xiànzài jǐ diǎn?
+A 八点 | bā diǎn
+X 九点 | jiǔ diǎn
+X 十点 | shí diǎn
+S 我喜欢看电影，不喜欢看电视。 | Wǒ xǐhuan kàn diànyǐng, bù xǐhuan kàn diànshì.
+H 说话人喜欢做什么？ | Shuōhuàrén xǐhuan zuò shénme?
+A 看电影 | kàn diànyǐng
+X 看电视 | kàn diànshì
+X 打电话 | dǎ diànhuà

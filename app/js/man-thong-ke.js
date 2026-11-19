@@ -14,6 +14,7 @@ import { tatCaTu } from './du-lieu.js';
 import { esc, dongTu } from './giao-dien.js';
 import { taiNetChu } from './net-chu.js';
 import { taiNguPhap } from './man-ngu-phap.js';
+import { diemThiCaoNhat } from './man-thi-thu.js';
 
 const CAC_PHAN = [
   { ma: 'on', ten: 'Ôn từ' },
@@ -202,6 +203,10 @@ export async function veThongKe(khung) {
       <div class="khung o-chi-so"><span class="emoji">📝</span><b>${phanTram(td.tracNghiem.dung, td.tracNghiem.sai)}</b><span>trắc nghiệm đúng (${td.tracNghiem.dung + td.tracNghiem.sai} câu)</span></div>
       <div class="khung o-chi-so"><span class="emoji">🧩</span><b>${phanTram(td.nguPhap.dung, td.nguPhap.sai)}</b><span>ngữ pháp đúng (${td.nguPhap.dung + td.nguPhap.sai} câu)</span></div>
     </div>
+    ${(td.thiThu || []).length ? `<a class="khung tien-do-cap" href="#/thi-thu" style="margin-top:10px">
+      <div class="dong-tren"><b>📋 Thi thử HSK 1</b><span class="nhan ${diemThiCaoNhat() >= 120 ? 'nhan-dat' : ''}">cao nhất ${diemThiCaoNhat()}/200</span></div>
+      <span class="chu-phu nho">${td.thiThu.length} lần thi · lần gần nhất ${td.thiThu[td.thiThu.length - 1].diem}/200 · đạt từ 120</span>
+    </a>` : ''}
 
     <h3 class="tieu-de-muc">Những từ hay sai nhất <small>quên khi ôn + sai trắc nghiệm</small></h3>
     ${tuHaySai.length

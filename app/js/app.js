@@ -23,6 +23,7 @@
 //   #/ngu-phap     Ngữ pháp: danh sách điểm     → man-ngu-phap.js
 //   #/ngu-phap/<mã>           bài học một điểm      #/ngu-phap/<mã>/luyen  luyện tập điểm đó
 //   #/ngu-phap/on             ôn các điểm đến hạn
+//   #/thi-thu      Thi thử HSK 1: giới thiệu    → man-thi-thu.js     #/thi-thu/lam  làm một đề 40 câu
 //   #/thong-ke     Thống kê                     → man-thong-ke.js
 //   #/cai-dat      Cài đặt, sao lưu             → man-cai-dat.js
 // =========================================================
@@ -42,6 +43,7 @@ import { veLuyenViet, vePhienViet, moCachViet } from './man-luyen-viet.js';
 import { veThanhDieu, vePhienThanh, CAC_DANG } from './man-thanh-dieu.js';
 import { veTracNghiem, vePhienTracNghiem, CAC_DANG as DANG_TRAC_NGHIEM } from './man-trac-nghiem.js';
 import { veNguPhap, veDiemNguPhap, vePhienNguPhap } from './man-ngu-phap.js';
+import { veThiThu, veLamBai } from './man-thi-thu.js';
 
 const $noiDung = () => document.getElementById('noi-dung');
 let donDep = null; // hàm dọn dẹp của màn hình trước (tắt đồng hồ, bỏ phím tắt…)
@@ -61,7 +63,7 @@ function veTheoDiaChi() {
   const mucChon = {
     '': 'trang-chu', bai: 'bai', tu: 'bai', on: 'bai', 'hoc-moi': 'bai',
     'luyen-tap': 'luyen-tap', 'luyen-viet': 'luyen-tap', 'thanh-dieu': 'luyen-tap', 'trac-nghiem': 'luyen-tap',
-    'ngu-phap': 'luyen-tap', 'thong-ke': 'thong-ke',
+    'ngu-phap': 'luyen-tap', 'thi-thu': 'luyen-tap', 'thong-ke': 'thong-ke',
   }[muc] ?? '';
   document.querySelectorAll('.dieu-huong a[data-muc]').forEach((a) => {
     const chon = a.dataset.muc === mucChon;
@@ -98,6 +100,12 @@ function veTheoDiaChi() {
   } else if (muc === 'luyen-viet') {
     datTieuDe('Luyện viết', '#/luyen-tap');
     veLuyenViet(khung);
+  } else if (muc === 'thi-thu' && thamSo === 'lam') {
+    datTieuDe('Thi thử HSK 1', '#/thi-thu');
+    donDep = veLamBai(khung);
+  } else if (muc === 'thi-thu') {
+    datTieuDe('Thi thử', '#/luyen-tap');
+    veThiThu(khung);
   } else if (muc === 'ngu-phap' && thamSo === 'on') {
     datTieuDe('Ôn ngữ pháp', '#/ngu-phap');
     donDep = vePhienNguPhap(khung, 'on');
