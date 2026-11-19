@@ -1,0 +1,102 @@
+# ===== NGỮ PHÁP HSK 1 – ĐỢT 4 (soạn tay) =====
+# Cách viết: xem đầu file cong-cu/ghep-ngu-phap.py. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1.
+# Sửa xong chạy: python -X utf8 cong-cu/ghep-ngu-phap.py
+
+## xiang-yao
+@ 想 và 要: muốn, sẽ
+§ 词类 · 动词 · 能愿动词“想、要”
+= Chủ ngữ + 想 / 要 + động từ
+= Phủ định: 不想 + động từ
+- 想 + động từ = muốn (làm gì), nhẹ nhàng, là mong muốn: 我想去中国.
+- 要 + động từ = muốn, cần, sẽ – mạnh hơn, thường là ý định chắc chắn: 我要喝茶 (khi gọi món), 明天我要去医院.
+- 要 + danh từ = muốn lấy, cần: 我要这个 (tôi lấy cái này).
+- 想 + người = nhớ: 我想妈妈 (tôi nhớ mẹ).
+- Phủ định thường dùng 不想 (không muốn). Còn 不要 + động từ nghĩa là "đừng": 不要说话 (đừng nói chuyện).
+! "Tôi không muốn đi" lịch sự là 我不想去; 我不要去 nghe rất gắt (như trẻ con dỗi).
+! 想 / 要 đứng TRƯỚC động từ chính: 我想喝茶, không nói 我喝想茶.
+> 我/想/去/中国。 | Wǒ xiǎng qù Zhōngguó. | Tôi muốn đi Trung Quốc.
+> 我/要/喝/茶。 | Wǒ yào hē chá. | Tôi muốn uống trà.
+> 你/想/吃/什么？ | Nǐ xiǎng chī shénme? | Bạn muốn ăn gì?
+> 明天/我/要/去/医院。 | Míngtiān wǒ yào qù yīyuàn. | Ngày mai tôi sẽ đi bệnh viện.
+~ 我/明天/要/去/医院。
+> 我/不想/看/电视。 | Wǒ bù xiǎng kàn diànshì. | Tôi không muốn xem tivi.
+? 我___去中国。 | 想 | 很; 吗; 的 | Wǒ xiǎng qù Zhōngguó. | Tôi muốn đi Trung Quốc.
+? 我不___看电视。 | 想 | 有; 很; 吗 | Wǒ bù xiǎng kàn diànshì. | Tôi không muốn xem tivi.
+? 你___吃什么？ | 想 | 吗; 很; 的 | Nǐ xiǎng chī shénme? | Bạn muốn ăn gì?
+
+## hui-neng
+@ 会 và 能: biết (làm) và có thể
+§ 词类 · 动词 · 能愿动词“会、能”
+= 会 + động từ: biết làm (kỹ năng học mới có)
+= 能 + động từ: có thể làm (hoàn cảnh, sức khỏe cho phép)
+- 会: kỹ năng phải học mới biết: 我会说汉语, 他会开车.
+- 能: làm được trong hoàn cảnh cụ thể (đủ sức, đủ điều kiện): 你明天能来吗？
+- Phủ định: 不会 (không biết làm), 不能 (không thể, không làm được).
+- 会 còn có nghĩa "sẽ" (dự đoán): 明天会下雨 (ngày mai sẽ mưa).
+! "Tôi biết nói tiếng Trung" là 我会说汉语 – không dùng 知道 (知道 = biết một thông tin, một sự việc).
+! Biết bơi, biết lái xe nhưng hôm nay bận nên không đi được → dùng 不能, không dùng 不会.
+> 我/会/说/汉语。 | Wǒ huì shuō Hànyǔ. | Tôi biết nói tiếng Trung.
+> 他/不会/开车。 | Tā bú huì kāichē. | Anh ấy không biết lái xe.
+> 你/明天/能/来/吗？ | Nǐ míngtiān néng lái ma? | Ngày mai bạn đến được không?
+~ 明天/你/能/来/吗？
+> 我/今天/不能/去/学校。 | Wǒ jīntiān bù néng qù xuéxiào. | Hôm nay tôi không đi học được.
+~ 今天/我/不能/去/学校。
+> 明天/会/下雨。 | Míngtiān huì xià yǔ. | Ngày mai sẽ mưa.
+? 我___说汉语。 | 会 | 很; 吗; 的 | Wǒ huì shuō Hànyǔ. | Tôi biết nói tiếng Trung.
+? 他不___开车。 | 会 | 有; 很; 吗 | Tā bú huì kāichē. | Anh ấy không biết lái xe.
+? 你明天___来吗？ | 能 | 很; 吗; 的 | Nǐ míngtiān néng lái ma? | Ngày mai bạn đến được không?
+
+## ke-yi
+@ 可以: được phép, có thể
+§ 词类 · 动词 · 能愿动词“可以”
+= Chủ ngữ + 可以 + động từ
+= Xin phép: 我可以……吗？
+- 可以 + động từ = được phép làm gì: 你可以坐这儿 (bạn có thể ngồi đây).
+- Xin phép: 我可以……吗？ Trả lời: 可以 (được) / 不可以 hoặc 不能 (không được).
+- 可以 cũng dùng cho khả năng, gần nghĩa với 能: 他明天可以来.
+! "Không được làm gì" nói 不能 hoặc 不可以 – không nói 没可以.
+! Trả lời ngắn chỉ cần nói 可以, không cần lặp lại cả câu.
+> 我/可以/坐/这儿/吗？ | Wǒ kěyǐ zuò zhèr ma? | Tôi ngồi đây được không?
+> 你/可以/问/老师。 | Nǐ kěyǐ wèn lǎoshī. | Bạn có thể hỏi thầy giáo.
+> 这儿/不可以/开车。 | Zhèr bù kěyǐ kāichē. | Ở đây không được lái xe.
+> 我们/可以/看/电视/吗？ | Wǒmen kěyǐ kàn diànshì ma? | Chúng tôi xem tivi được không?
+? 我___坐这儿吗？ | 可以 | 很; 的; 个 | Wǒ kěyǐ zuò zhèr ma? | Tôi ngồi đây được không?
+? 这儿不___开车。 | 可以 | 有; 很; 的 | Zhèr bù kěyǐ kāichē. | Ở đây không được lái xe.
+? 你可以___老师。 | 问 | 很; 在; 的 | Nǐ kěyǐ wèn lǎoshī. | Bạn có thể hỏi thầy giáo.
+
+## dou-ye-hai
+@ Phó từ 也, 都, 还 – đứng sau chủ ngữ, trước động từ
+§ 副词 · 范围副词“都1” · 关联副词“也、还1” · 复句：……，也……
+= Chủ ngữ + 也 / 都 / 还 + động từ (tính từ)
+= Chủ ngữ + 也都 + …  (cũng đều)
+- 也 = cũng: 我也是学生.
+- 都 = đều, tất cả – chủ ngữ phải là nhiều người / nhiều vật: 我们都是中国人.
+- 还 = còn, vẫn còn, thêm nữa: 我还想喝茶 (tôi còn muốn uống trà nữa).
+- Cả ba đứng SAU chủ ngữ, TRƯỚC động từ / tính từ. Có cả 也 và 都 thì 也 đứng trước: 他们也都是老师.
+! Tiếng Việt nói "tất cả chúng tôi đều…", nhưng 都 phải đứng SAU chủ ngữ: 我们都……, không nói 都我们……
+! 也 không đứng sau động từ: 我也喝茶, không nói 我喝也茶. "Cũng đều" là 也都, không nói 都也.
+> 我/也/是/学生。 | Wǒ yě shì xuéshēng. | Tôi cũng là học sinh.
+> 我们/都/是/中国人。 | Wǒmen dōu shì Zhōngguórén. | Chúng tôi đều là người Trung Quốc.
+> 他们/也/都/喜欢/喝/茶。 | Tāmen yě dōu xǐhuan hē chá. | Họ cũng đều thích uống trà.
+> 我/还/想/喝/茶。 | Wǒ hái xiǎng hē chá. | Tôi còn muốn uống trà nữa.
+? 我们___是学生。 | 都 | 很; 吗; 的 | Wǒmen dōu shì xuéshēng. | Chúng tôi đều là học sinh.
+? 他是老师，我___是老师。 | 也 | 很; 吗; 的 | Tā shì lǎoshī, wǒ yě shì lǎoshī. | Anh ấy là giáo viên, tôi cũng là giáo viên.
+? 他们也___喜欢喝茶。 | 都 | 吗; 的; 个 | Tāmen yě dōu xǐhuan hē chá. | Họ cũng đều thích uống trà.
+
+## zai-lai
+@ 再: lại, nữa (cho việc sắp làm)
+§ 副词 · 频率副词“再1”
+= 再 + động từ
+- 再 = lại, thêm lần nữa – dùng cho việc CHƯA xảy ra: 请再说一下 (xin nói lại một chút).
+- 再见 = hẹn gặp lại, tạm biệt.
+- 再 + động từ còn có nghĩa "để sau rồi hẵng làm": 我们明天再去 (mai chúng ta hẵng đi).
+! 再 đứng TRƯỚC động từ: 再说, không nói 说再 (theo kiểu tiếng Việt "nói lại").
+! 再 chỉ dùng cho việc sắp làm; việc đã lặp lại trong quá khứ dùng 又 (sẽ học ở cấp 2).
+> 请/再/说/一下。 | Qǐng zài shuō yíxià. | Xin nói lại một chút.
+> 我们/明天/再/去。 | Wǒmen míngtiān zài qù. | Ngày mai chúng ta hẵng đi.
+~ 明天/我们/再/去。
+> 你/想/再/喝/一杯/茶/吗？ | Nǐ xiǎng zài hē yì bēi chá ma? | Bạn có muốn uống thêm một cốc trà không?
+> 老师，/再见！ | Lǎoshī, zàijiàn! | Thưa thầy, tạm biệt!
+? 请___说一下。 | 再 | 很; 是; 的 | Qǐng zài shuō yíxià. | Xin nói lại một chút.
+? 我们明天___去。 | 再 | 很; 吗; 的 | Wǒmen míngtiān zài qù. | Ngày mai chúng ta hẵng đi.
+? 你想___喝一杯茶吗？ | 再 | 很; 是; 的 | Nǐ xiǎng zài hē yì bēi chá ma? | Bạn có muốn uống thêm một cốc trà không?

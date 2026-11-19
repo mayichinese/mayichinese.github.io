@@ -1743,6 +1743,617 @@
    ],
    "canKiemTra": [],
    "hocSauBai": 16
+  },
+  {
+   "id": "xiang-yao",
+   "ten": "想 và 要: muốn, sẽ",
+   "deCuong": "词类 · 动词 · 能愿动词“想、要”",
+   "congThuc": [
+    "Chủ ngữ + 想 / 要 + động từ",
+    "Phủ định: 不想 + động từ"
+   ],
+   "giaiThich": [
+    "想 + động từ = muốn (làm gì), nhẹ nhàng, là mong muốn: 我想去中国.",
+    "要 + động từ = muốn, cần, sẽ – mạnh hơn, thường là ý định chắc chắn: 我要喝茶 (khi gọi món), 明天我要去医院.",
+    "要 + danh từ = muốn lấy, cần: 我要这个 (tôi lấy cái này).",
+    "想 + người = nhớ: 我想妈妈 (tôi nhớ mẹ).",
+    "Phủ định thường dùng 不想 (không muốn). Còn 不要 + động từ nghĩa là \"đừng\": 不要说话 (đừng nói chuyện)."
+   ],
+   "loiHayMac": [
+    "\"Tôi không muốn đi\" lịch sự là 我不想去; 我不要去 nghe rất gắt (như trẻ con dỗi).",
+    "想 / 要 đứng TRƯỚC động từ chính: 我想喝茶, không nói 我喝想茶."
+   ],
+   "viDu": [
+    {
+     "han": "我想去中国。",
+     "manh": [
+      "我",
+      "想",
+      "去",
+      "中国"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ xiǎng qù Zhōngguó.",
+     "dich": "Tôi muốn đi Trung Quốc."
+    },
+    {
+     "han": "我要喝茶。",
+     "manh": [
+      "我",
+      "要",
+      "喝",
+      "茶"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ yào hē chá.",
+     "dich": "Tôi muốn uống trà."
+    },
+    {
+     "han": "你想吃什么？",
+     "manh": [
+      "你",
+      "想",
+      "吃",
+      "什么"
+     ],
+     "dauCau": "？",
+     "khac": [],
+     "pinyin": "Nǐ xiǎng chī shénme?",
+     "dich": "Bạn muốn ăn gì?"
+    },
+    {
+     "han": "明天我要去医院。",
+     "manh": [
+      "明天",
+      "我",
+      "要",
+      "去",
+      "医院"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "我",
+       "明天",
+       "要",
+       "去",
+       "医院"
+      ]
+     ],
+     "pinyin": "Míngtiān wǒ yào qù yīyuàn.",
+     "dich": "Ngày mai tôi sẽ đi bệnh viện."
+    },
+    {
+     "han": "我不想看电视。",
+     "manh": [
+      "我",
+      "不想",
+      "看",
+      "电视"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ bù xiǎng kàn diànshì.",
+     "dich": "Tôi không muốn xem tivi."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "我___去中国。",
+     "dapAn": "想",
+     "nhieu": [
+      "很",
+      "吗",
+      "的"
+     ],
+     "pinyin": "Wǒ xiǎng qù Zhōngguó.",
+     "dich": "Tôi muốn đi Trung Quốc."
+    },
+    {
+     "cau": "我不___看电视。",
+     "dapAn": "想",
+     "nhieu": [
+      "有",
+      "很",
+      "吗"
+     ],
+     "pinyin": "Wǒ bù xiǎng kàn diànshì.",
+     "dich": "Tôi không muốn xem tivi."
+    },
+    {
+     "cau": "你___吃什么？",
+     "dapAn": "想",
+     "nhieu": [
+      "吗",
+      "很",
+      "的"
+     ],
+     "pinyin": "Nǐ xiǎng chī shénme?",
+     "dich": "Bạn muốn ăn gì?"
+    }
+   ],
+   "canKiemTra": [],
+   "hocSauBai": 19
+  },
+  {
+   "id": "hui-neng",
+   "ten": "会 và 能: biết (làm) và có thể",
+   "deCuong": "词类 · 动词 · 能愿动词“会、能”",
+   "congThuc": [
+    "会 + động từ: biết làm (kỹ năng học mới có)",
+    "能 + động từ: có thể làm (hoàn cảnh, sức khỏe cho phép)"
+   ],
+   "giaiThich": [
+    "会: kỹ năng phải học mới biết: 我会说汉语, 他会开车.",
+    "能: làm được trong hoàn cảnh cụ thể (đủ sức, đủ điều kiện): 你明天能来吗？",
+    "Phủ định: 不会 (không biết làm), 不能 (không thể, không làm được).",
+    "会 còn có nghĩa \"sẽ\" (dự đoán): 明天会下雨 (ngày mai sẽ mưa)."
+   ],
+   "loiHayMac": [
+    "\"Tôi biết nói tiếng Trung\" là 我会说汉语 – không dùng 知道 (知道 = biết một thông tin, một sự việc).",
+    "Biết bơi, biết lái xe nhưng hôm nay bận nên không đi được → dùng 不能, không dùng 不会."
+   ],
+   "viDu": [
+    {
+     "han": "我会说汉语。",
+     "manh": [
+      "我",
+      "会",
+      "说",
+      "汉语"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ huì shuō Hànyǔ.",
+     "dich": "Tôi biết nói tiếng Trung."
+    },
+    {
+     "han": "他不会开车。",
+     "manh": [
+      "他",
+      "不会",
+      "开车"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā bú huì kāichē.",
+     "dich": "Anh ấy không biết lái xe."
+    },
+    {
+     "han": "你明天能来吗？",
+     "manh": [
+      "你",
+      "明天",
+      "能",
+      "来",
+      "吗"
+     ],
+     "dauCau": "？",
+     "khac": [
+      [
+       "明天",
+       "你",
+       "能",
+       "来",
+       "吗"
+      ]
+     ],
+     "pinyin": "Nǐ míngtiān néng lái ma?",
+     "dich": "Ngày mai bạn đến được không?"
+    },
+    {
+     "han": "我今天不能去学校。",
+     "manh": [
+      "我",
+      "今天",
+      "不能",
+      "去",
+      "学校"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "今天",
+       "我",
+       "不能",
+       "去",
+       "学校"
+      ]
+     ],
+     "pinyin": "Wǒ jīntiān bù néng qù xuéxiào.",
+     "dich": "Hôm nay tôi không đi học được."
+    },
+    {
+     "han": "明天会下雨。",
+     "manh": [
+      "明天",
+      "会",
+      "下雨"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Míngtiān huì xià yǔ.",
+     "dich": "Ngày mai sẽ mưa."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "我___说汉语。",
+     "dapAn": "会",
+     "nhieu": [
+      "很",
+      "吗",
+      "的"
+     ],
+     "pinyin": "Wǒ huì shuō Hànyǔ.",
+     "dich": "Tôi biết nói tiếng Trung."
+    },
+    {
+     "cau": "他不___开车。",
+     "dapAn": "会",
+     "nhieu": [
+      "有",
+      "很",
+      "吗"
+     ],
+     "pinyin": "Tā bú huì kāichē.",
+     "dich": "Anh ấy không biết lái xe."
+    },
+    {
+     "cau": "你明天___来吗？",
+     "dapAn": "能",
+     "nhieu": [
+      "很",
+      "吗",
+      "的"
+     ],
+     "pinyin": "Nǐ míngtiān néng lái ma?",
+     "dich": "Ngày mai bạn đến được không?"
+    }
+   ],
+   "canKiemTra": [],
+   "hocSauBai": 18
+  },
+  {
+   "id": "ke-yi",
+   "ten": "可以: được phép, có thể",
+   "deCuong": "词类 · 动词 · 能愿动词“可以”",
+   "congThuc": [
+    "Chủ ngữ + 可以 + động từ",
+    "Xin phép: 我可以……吗？"
+   ],
+   "giaiThich": [
+    "可以 + động từ = được phép làm gì: 你可以坐这儿 (bạn có thể ngồi đây).",
+    "Xin phép: 我可以……吗？ Trả lời: 可以 (được) / 不可以 hoặc 不能 (không được).",
+    "可以 cũng dùng cho khả năng, gần nghĩa với 能: 他明天可以来."
+   ],
+   "loiHayMac": [
+    "\"Không được làm gì\" nói 不能 hoặc 不可以 – không nói 没可以.",
+    "Trả lời ngắn chỉ cần nói 可以, không cần lặp lại cả câu."
+   ],
+   "viDu": [
+    {
+     "han": "我可以坐这儿吗？",
+     "manh": [
+      "我",
+      "可以",
+      "坐",
+      "这儿",
+      "吗"
+     ],
+     "dauCau": "？",
+     "khac": [],
+     "pinyin": "Wǒ kěyǐ zuò zhèr ma?",
+     "dich": "Tôi ngồi đây được không?"
+    },
+    {
+     "han": "你可以问老师。",
+     "manh": [
+      "你",
+      "可以",
+      "问",
+      "老师"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Nǐ kěyǐ wèn lǎoshī.",
+     "dich": "Bạn có thể hỏi thầy giáo."
+    },
+    {
+     "han": "这儿不可以开车。",
+     "manh": [
+      "这儿",
+      "不可以",
+      "开车"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zhèr bù kěyǐ kāichē.",
+     "dich": "Ở đây không được lái xe."
+    },
+    {
+     "han": "我们可以看电视吗？",
+     "manh": [
+      "我们",
+      "可以",
+      "看",
+      "电视",
+      "吗"
+     ],
+     "dauCau": "？",
+     "khac": [],
+     "pinyin": "Wǒmen kěyǐ kàn diànshì ma?",
+     "dich": "Chúng tôi xem tivi được không?"
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "我___坐这儿吗？",
+     "dapAn": "可以",
+     "nhieu": [
+      "很",
+      "的",
+      "个"
+     ],
+     "pinyin": "Wǒ kěyǐ zuò zhèr ma?",
+     "dich": "Tôi ngồi đây được không?"
+    },
+    {
+     "cau": "这儿不___开车。",
+     "dapAn": "可以",
+     "nhieu": [
+      "有",
+      "很",
+      "的"
+     ],
+     "pinyin": "Zhèr bù kěyǐ kāichē.",
+     "dich": "Ở đây không được lái xe."
+    },
+    {
+     "cau": "你可以___老师。",
+     "dapAn": "问",
+     "nhieu": [
+      "很",
+      "在",
+      "的"
+     ],
+     "pinyin": "Nǐ kěyǐ wèn lǎoshī.",
+     "dich": "Bạn có thể hỏi thầy giáo."
+    }
+   ],
+   "canKiemTra": [],
+   "hocSauBai": 19
+  },
+  {
+   "id": "dou-ye-hai",
+   "ten": "Phó từ 也, 都, 还 – đứng sau chủ ngữ, trước động từ",
+   "deCuong": "副词 · 范围副词“都1” · 关联副词“也、还1” · 复句：……，也……",
+   "congThuc": [
+    "Chủ ngữ + 也 / 都 / 还 + động từ (tính từ)",
+    "Chủ ngữ + 也都 + …  (cũng đều)"
+   ],
+   "giaiThich": [
+    "也 = cũng: 我也是学生.",
+    "都 = đều, tất cả – chủ ngữ phải là nhiều người / nhiều vật: 我们都是中国人.",
+    "还 = còn, vẫn còn, thêm nữa: 我还想喝茶 (tôi còn muốn uống trà nữa).",
+    "Cả ba đứng SAU chủ ngữ, TRƯỚC động từ / tính từ. Có cả 也 và 都 thì 也 đứng trước: 他们也都是老师."
+   ],
+   "loiHayMac": [
+    "Tiếng Việt nói \"tất cả chúng tôi đều…\", nhưng 都 phải đứng SAU chủ ngữ: 我们都……, không nói 都我们……",
+    "也 không đứng sau động từ: 我也喝茶, không nói 我喝也茶. \"Cũng đều\" là 也都, không nói 都也."
+   ],
+   "viDu": [
+    {
+     "han": "我也是学生。",
+     "manh": [
+      "我",
+      "也",
+      "是",
+      "学生"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ yě shì xuéshēng.",
+     "dich": "Tôi cũng là học sinh."
+    },
+    {
+     "han": "我们都是中国人。",
+     "manh": [
+      "我们",
+      "都",
+      "是",
+      "中国人"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒmen dōu shì Zhōngguórén.",
+     "dich": "Chúng tôi đều là người Trung Quốc."
+    },
+    {
+     "han": "他们也都喜欢喝茶。",
+     "manh": [
+      "他们",
+      "也",
+      "都",
+      "喜欢",
+      "喝",
+      "茶"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tāmen yě dōu xǐhuan hē chá.",
+     "dich": "Họ cũng đều thích uống trà."
+    },
+    {
+     "han": "我还想喝茶。",
+     "manh": [
+      "我",
+      "还",
+      "想",
+      "喝",
+      "茶"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ hái xiǎng hē chá.",
+     "dich": "Tôi còn muốn uống trà nữa."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "我们___是学生。",
+     "dapAn": "都",
+     "nhieu": [
+      "很",
+      "吗",
+      "的"
+     ],
+     "pinyin": "Wǒmen dōu shì xuéshēng.",
+     "dich": "Chúng tôi đều là học sinh."
+    },
+    {
+     "cau": "他是老师，我___是老师。",
+     "dapAn": "也",
+     "nhieu": [
+      "很",
+      "吗",
+      "的"
+     ],
+     "pinyin": "Tā shì lǎoshī, wǒ yě shì lǎoshī.",
+     "dich": "Anh ấy là giáo viên, tôi cũng là giáo viên."
+    },
+    {
+     "cau": "他们也___喜欢喝茶。",
+     "dapAn": "都",
+     "nhieu": [
+      "吗",
+      "的",
+      "个"
+     ],
+     "pinyin": "Tāmen yě dōu xǐhuan hē chá.",
+     "dich": "Họ cũng đều thích uống trà."
+    }
+   ],
+   "canKiemTra": [],
+   "hocSauBai": 19
+  },
+  {
+   "id": "zai-lai",
+   "ten": "再: lại, nữa (cho việc sắp làm)",
+   "deCuong": "副词 · 频率副词“再1”",
+   "congThuc": [
+    "再 + động từ"
+   ],
+   "giaiThich": [
+    "再 = lại, thêm lần nữa – dùng cho việc CHƯA xảy ra: 请再说一下 (xin nói lại một chút).",
+    "再见 = hẹn gặp lại, tạm biệt.",
+    "再 + động từ còn có nghĩa \"để sau rồi hẵng làm\": 我们明天再去 (mai chúng ta hẵng đi)."
+   ],
+   "loiHayMac": [
+    "再 đứng TRƯỚC động từ: 再说, không nói 说再 (theo kiểu tiếng Việt \"nói lại\").",
+    "再 chỉ dùng cho việc sắp làm; việc đã lặp lại trong quá khứ dùng 又 (sẽ học ở cấp 2)."
+   ],
+   "viDu": [
+    {
+     "han": "请再说一下。",
+     "manh": [
+      "请",
+      "再",
+      "说",
+      "一下"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Qǐng zài shuō yíxià.",
+     "dich": "Xin nói lại một chút."
+    },
+    {
+     "han": "我们明天再去。",
+     "manh": [
+      "我们",
+      "明天",
+      "再",
+      "去"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "明天",
+       "我们",
+       "再",
+       "去"
+      ]
+     ],
+     "pinyin": "Wǒmen míngtiān zài qù.",
+     "dich": "Ngày mai chúng ta hẵng đi."
+    },
+    {
+     "han": "你想再喝一杯茶吗？",
+     "manh": [
+      "你",
+      "想",
+      "再",
+      "喝",
+      "一杯",
+      "茶",
+      "吗"
+     ],
+     "dauCau": "？",
+     "khac": [],
+     "pinyin": "Nǐ xiǎng zài hē yì bēi chá ma?",
+     "dich": "Bạn có muốn uống thêm một cốc trà không?"
+    },
+    {
+     "han": "老师，再见！",
+     "manh": [
+      "老师，",
+      "再见"
+     ],
+     "dauCau": "！",
+     "khac": [],
+     "pinyin": "Lǎoshī, zàijiàn!",
+     "dich": "Thưa thầy, tạm biệt!"
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "请___说一下。",
+     "dapAn": "再",
+     "nhieu": [
+      "很",
+      "是",
+      "的"
+     ],
+     "pinyin": "Qǐng zài shuō yíxià.",
+     "dich": "Xin nói lại một chút."
+    },
+    {
+     "cau": "我们明天___去。",
+     "dapAn": "再",
+     "nhieu": [
+      "很",
+      "吗",
+      "的"
+     ],
+     "pinyin": "Wǒmen míngtiān zài qù.",
+     "dich": "Ngày mai chúng ta hẵng đi."
+    },
+    {
+     "cau": "你想___喝一杯茶吗？",
+     "dapAn": "再",
+     "nhieu": [
+      "很",
+      "是",
+      "的"
+     ],
+     "pinyin": "Nǐ xiǎng zài hē yì bēi chá ma?",
+     "dich": "Bạn có muốn uống thêm một cốc trà không?"
+    }
+   ],
+   "canKiemTra": [],
+   "hocSauBai": 20
   }
  ]
 }
