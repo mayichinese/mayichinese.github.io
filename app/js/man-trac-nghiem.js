@@ -12,7 +12,7 @@
 // =========================================================
 
 import { caiDat, layTienDo, luu, nhatKyHomNay } from './luu-tru.js';
-import { tatCaTu, timBai, layTu, layBaiHoc, nghiaNgan } from './du-lieu.js';
+import { tatCaTu, layTu, nghiaNgan, danhSachBai, timBaiTheoMa, cheDoBai, nhanBai } from './du-lieu.js';
 import { doc, tinhTrangPhatAm } from './phat-am.js';
 import { esc, batDongHo, nutLoa, tenTuLoai, dongTu } from './giao-dien.js';
 import { toMauPinyin, toMauChuHan, demChuHan, bienTheThanh } from './pinyin.js';
@@ -224,7 +224,7 @@ export function veTracNghiem(khung) {
 
     <h3 class="tieu-de-muc">Kiểm tra theo bài <small>hỏi cả từ chưa học</small></h3>
     <div class="hang-chip">
-      ${layBaiHoc().map((b) => `<a class="chip" href="#/trac-nghiem/bai/${b.so}" title="${esc(b.ten)}">Bài ${b.so}</a>`).join('')}
+      ${danhSachBai(cheDoBai(caiDat())).map((b) => `<a class="chip" href="#/trac-nghiem/bai/${b.ma}" title="${esc(b.ten)}">${b.sach ? '📖 ' : ''}Bài ${b.so}</a>`).join('')}
     </div>
 
     <h3 class="tieu-de-muc">Kết quả của bạn</h3>
@@ -244,7 +244,7 @@ export function veTracNghiem(khung) {
 // =========================================================
 /**
  * @param {string} dang  tron | nghia | chu | nghe | pinyin | so-sai | bai
- * @param {number} soBai chỉ dùng khi dang = 'bai'
+ * @param {number|string} soBai mã bài (3 hoặc 's3' – bài của sách), chỉ dùng khi dang = 'bai'
  * @returns {Function} hàm dọn dẹp
  */
 export function vePhienTracNghiem(khung, dang, soBai = null) {
@@ -263,9 +263,9 @@ export function vePhienTracNghiem(khung, dang, soBai = null) {
     let nguon;
     let nhanLuot;
     if (dang === 'bai') {
-      const b = timBai(1, soBai);
+      const b = timBaiTheoMa(soBai);
       nguon = b ? b.tu : [];
-      nhanLuot = `📝 Kiểm tra Bài ${soBai}`;
+      nhanLuot = `📝 Kiểm tra ${b ? nhanBai(b) : 'bài'}`;
     } else if (dang === 'so-sai') {
       nguon = tuTrongSoSai();
       nhanLuot = '📒 Ôn câu sai';

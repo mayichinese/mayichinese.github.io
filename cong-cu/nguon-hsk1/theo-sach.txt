@@ -1,0 +1,368 @@
+# ===== THỨ TỰ BÀI THEO SÁCH 《新HSK教程 1》(NXB Ngoại ngữ Giáo dục và Nghiên cứu, 2026) =====
+# Chép từ bảng từ cuối sách (词语表, trang 122–128 của sách). CHỈ ghi pinyin + số bài (không chép nội dung sách).
+# Mỗi dòng: pinyin | số bài (nhiều bài cách nhau bằng dấu phẩy; bài đầu tiên = bài dạy từ đó lần đầu)
+# Từ đồng âm thì ghi thêm chữ Hán sau pinyin để phân biệt:  jiàn 见 | 7
+# Từ ngoài đề cương (sách đánh dấu *) KHÔNG ghi ở đây.
+# Sửa xong chạy: python -X utf8 cong-cu/tao-theo-sach.py
+
+## TEN BAI
+1 | Xin chào, AI Tiểu Ngữ!
+2 | Tôi tên là Lý Văn
+3 | Tôi là người Trung Quốc
+4 | Tôi có hai đứa con
+5 | Hôm nay tôi nghỉ
+6 | Số điện thoại của bạn là bao nhiêu?
+7 | Sáu rưỡi tối tôi tan làm
+8 | Bố tôi cũng làm ở bệnh viện
+9 | Sáng mai tôi học ở trường
+10 | Táo ở đây rẻ thật!
+11 | Tôi đang học đại học
+12 | Hôm qua tuyết rơi
+13 | Cho tôi một cốc trà
+14 | Tôi đã xem một bộ phim
+15 | Hẹn gặp ở sân bay Đại Hưng!
+
+## TU
+ài | 15
+bā | 4
+bàba | 4
+ba | 7
+báitiān | 9
+bǎi | 4
+bàn | 7
+bāozi | 6
+bēi | 13
+bēizi | 10
+běn | 9
+biān | 9
+bìng | 12
+bú kèqi | 1
+búyào | 14
+bù | 2
+cài | 5, 7
+chá | 13
+chàng | 9
+chāoshì | 6
+chē | 11
+chī | 6
+chūzūchē | 6
+chuān | 10
+dǎ diànhuà | 13
+dà | 4, 8
+dàjiā | 1
+dàxué | 11
+dàxuéshēng | 11
+dào | 8
+de | 3
+dìdi | 11
+dì | 9
+diǎn | 7
+diànhuà | 6
+diànnǎo | 5
+diànshì | 9
+diànyǐng | 7
+diànyǐngyuàn | 7
+diàn | 7
+dōngxi | 6
+dōu | 14
+dú | 11
+dúshū | 9
+duì | 3, 11
+duìbuqǐ | 2
+duō | 4, 8
+duōshao | 4
+érzi | 4
+èr | 4
+fàn | 8
+fàndiàn | 11
+fángjiān | 8
+fēijī | 15
+fēicháng | 6
+fēn | 7
+fēnzhōng | 7
+gāoxìng | 2
+gēge | 4
+gē | 9
+gè | 4
+gěi | 13
+gōngzuò | 3, 8
+gōngsī | 12
+gǒu | 9
+guì | 10
+guó | 3
+hái | 3
+háizi | 4
+hǎo | 1
+hǎochī | 6
+hǎokàn | 5
+hǎotīng | 9
+hǎowánr | 15
+hào | 5, 6
+hē | 12
+hé | 4, 9
+hěn | 2
+hòu | 7
+huí | 12
+huì | 5
+huǒchē | 14
+jīdàn | 13
+jǐ | 4, 15
+jiā | 4, 7, 9
+jiārén | 15
+jiàn 见 | 7
+jiàn 件 | 10
+jiǎozi | 5
+jiào | 2
+jiějie | 3
+jīnnián | 4
+jīntiān | 5
+jiǔ | 4
+juéde | 12
+kāi | 14
+kāichē | 11
+kàn | 7
+kànbìng | 12
+kànjiàn | 8
+kěyǐ | 13
+kè | 7
+kǒu | 4
+kuài | 10
+lái | 12
+lǎoshī | 1
+le | 12, 14
+lěng | 12
+lǐ | 7
+liǎng | 4
+líng | 4
+liù | 4
+māma | 4
+ma | 3
+mǎi | 6
+mài | 13
+máng | 3
+māo | 8
+méi | 8
+méi guānxi | 2
+méishì | 2
+méiyǒu | 4
+mèimei | 4
+men | 1
+mǐfàn | 6
+miànbāo | 13
+miàntiáor | 5
+míngzi | 2
+míngnián | 14
+míngtiān | 6
+nǎ | 3
+nǎge | 15
+nǎlǐ | 11
+nǎr | 6
+nǎxiē | 14
+nà | 9, 15
+nàbiān | 6
+nàge | 9
+nàlǐ | 11
+nàr | 10
+nàxiē | 10
+nán | 10
+nánpéngyou | 15
+ne | 4, 7
+néng | 8
+nǐ | 2
+nǐ hǎo | 1
+nǐmen | 1
+nián | 15
+nín | 1
+niúnǎi | 6
+nǚ | 10
+nǚ'ér | 4
+nǚpéngyou | 3
+nǚshì | 13
+péngyou | 9
+piányi | 10
+piàoliang | 8
+píngguǒ | 10
+qī | 4
+qǐchuáng | 11
+qiān | 4
+qián 前 | 8
+qiánbian | 9
+qián 钱 | 10
+qǐng | 13
+qǐngwèn | 2
+qù | 6
+qùnián | 15
+rè | 12
+rén | 3
+rènshi | 2
+rì | 5
+sān | 4
+shāngdiàn | 10
+shàng | 9, 14
+shàngbān | 7
+shàngkè | 7
+shàngwǔ | 7
+shàngxué | 14
+shǎo | 10
+shéi | 3
+shénme | 2
+shēngbìng | 12
+shí | 4
+shíhou | 11
+shíjiān | 15
+shì 事 | 7
+shì 是 | 2
+shǒujī | 6
+shū | 9
+shūdiàn | 8
+shuǐ | 12
+shuǐguǒ | 10
+shuì | 11
+shuìjiào | 11
+shuō | 11
+shuōhuà | 14
+sì | 4
+suì | 4
+tā 他 | 4
+tāmen 他们 | 14
+tā 它 | 5
+tāmen 它们 | 14
+tā 她 | 3
+tāmen 她们 | 14
+tài | 3
+tiān | 12
+tiānqì | 12
+tīng | 14
+tīngjiàn | 14
+tóngxué | 1
+wài | 8
+wàibian | 9
+wán | 9
+wǎn | 14
+wǎnfàn | 6
+wǎnshang | 7
+wèi | 3
+wèn | 11
+wèntí | 13
+wǒ | 2
+wǒmen | 3
+wǔ | 4
+wǔfàn | 8
+xǐhuan | 5
+xià | 8, 12
+xiàbān | 5
+xiàkè | 7
+xiàwǔ | 7
+xià yǔ | 12
+xiānsheng | 13
+xiànzài | 7
+xiǎng | 3, 6
+xiǎo | 8
+xiǎopéngyǒu | 11
+xiǎoshí | 15
+xiǎoxué | 14
+xiǎoxuéshēng | 14
+xiē | 6
+xiě | 14
+xièxie | 1
+xīn | 5
+xīngqī | 5
+xīngqīrì | 5
+xīngqītiān | 5
+xiūxi | 5
+xué | 11
+xuéshēng | 1
+xuéxí | 9
+xuéxiào | 8
+xuě | 12
+yào | 11, 13
+yě | 2
+yī | 4
+yíbàn | 13
+yíxià | 13
+yìdiǎnr | 12
+yìxiē | 5
+yīfu | 10
+yīshēng | 8
+yīyuàn | 7
+yǐzi | 9
+yǒu | 4
+yǒude | 14
+yǒudiǎnr | 12
+yǒuxiē | 14
+yǔ | 12
+yuán | 10
+yuè | 5
+zài 再 | 12, 13
+zàijiàn | 1
+zài 在 | 7, 8, 11
+zǎo | 15
+zǎofàn | 13
+zǎoshang | 7
+zěnme | 6
+zěnmeyàng | 10
+zhǎo | 11
+zhè | 3
+zhèbiān | 10
+zhège | 13
+zhèlǐ | 12
+zhèr | 10
+zhèxiē | 10
+zhēn | 5
+zhèngzài | 11
+zhī | 8
+zhīdào | 11
+zhōngwǔ | 14
+zhōngxué | 14
+zhōngxuéshēng | 14
+zhù | 15
+zhuōzi | 8
+zì | 14
+zuótiān | 11
+zuò 坐 | 6, 13
+zuò 做 | 5, 9
+zuò fàn | 5
+# Danh từ riêng trong bảng 专有名词 (chỉ những từ có trong danh sách HSK 1)
+Hànyǔ | 14
+Hànzì | 14
+Zhōngguó | 3
+Zhōngwén | 3
+
+## NGU PHAP
+# Mã điểm ngữ pháp của app | bài trong sách có phần "小语讲堂" tương ứng (theo mục lục sách).
+# GẦN ĐÚNG: sách chia ngữ pháp khác app; điểm nào sách không có mục riêng thì lấy bài dạy từ chính của điểm đó.
+phu-dinh-bu | 2
+tu-de-hoi | 2
+la-shi | 3
+cau-hoi-ma | 3
+tro-tu-de | 3
+cau-co-you | 4
+luong-tu | 4
+hai-er-liang | 4
+ji-duoshao | 4
+ne-ba | 4
+he-dui | 4
+ngay-gio | 5
+vi-ngu-danh-tu | 5
+hui-neng | 5
+xiang-yao | 6
+lien-dong | 6
+zenme | 6
+trang-ngu | 7
+phuong-vi | 8
+bu-mei | 8
+cau-ton-tai | 9
+tien | 10
+vi-ngu-tinh-tu | 10
+chinh-phan | 11
+dang-lam | 11
+le-thay-doi | 12
+cau-khien-cam-than | 12
+zai-lai | 12
+muc-do-tien-to | 12
+ke-yi | 13
+yi-xia | 13
+hai-tan-ngu | 13
+le-xong | 14
+ly-hop | 14
+dou-ye-hai | 14

@@ -10,7 +10,7 @@
 
 import { caiDat, nhatKyHomNay, chuoiNgayHoc, coLuuDuoc, layTienDo, ngayHoc, coHocNgay } from './luu-tru.js';
 import { loaiThe, dangHoc } from './lich-on.js';
-import { tatCaTu } from './du-lieu.js';
+import { tatCaTu, nhanBai } from './du-lieu.js';
 import { tinhTrangPhatAm } from './phat-am.js';
 import { demHomNay, baiDangHoc, tuChuaHoc } from './phien-hoc.js';
 import { esc } from './giao-dien.js';
@@ -100,7 +100,7 @@ export function veTrangChu(khung) {
   const moiXong = dem.conTuMoi === 0 || !bai;
   const moTaMoi = !bai
     ? 'Bạn đã học hết các từ hiện có 🎉'
-    : `<b>${dem.daHocMoi}/${cd.soTuMoiMoiNgay}</b> từ mới · Bài ${bai.so}: ${esc(bai.ten)}`;
+    : `<b>${dem.daHocMoi}/${cd.soTuMoiMoiNgay}</b> từ mới · ${nhanBai(bai)}: ${esc(bai.ten)}`;
   const tienDoMoi = Math.min(100, Math.round((dem.daHocMoi / cd.soTuMoiMoiNgay) * 100));
 
   // --- Phần 3: Nghe & thanh điệu (xong khi đủ số phút mục tiêu) ---

@@ -28,7 +28,7 @@
 // =========================================================
 
 import { docTienDo, caiDat } from './luu-tru.js';
-import { taiDuLieu, layTu } from './du-lieu.js';
+import { taiDuLieu, layTu, timBaiTheoMa, maBaiTuDiaChi, nhanBai, maBaiCuaTu, cheDoBai } from './du-lieu.js';
 import { doc } from './phat-am.js';
 import { esc, datTieuDe, apDungGiaoDien, doiSangToi, dongHopThoai } from './giao-dien.js';
 import { ganBieuTuong, bieuTuong } from './bieu-tuong.js';
@@ -73,19 +73,21 @@ function veTheoDiaChi() {
     datTieuDe('Ôn tập', '#/');
     donDep = vePhien(khung, 'on');
   } else if (muc === 'hoc-moi') {
-    const soBai = thamSo ? Number(thamSo) : null;
-    datTieuDe(soBai ? `Từ mới · Bài ${soBai}` : 'Học từ mới', soBai ? `#/bai/${soBai}` : '#/');
-    donDep = vePhien(khung, 'moi', soBai);
+    // mã bài: số (bài theo chủ đề) hoặc 's5' (bài 5 của sách)
+    const bai = thamSo ? timBaiTheoMa(maBaiTuDiaChi(thamSo)) : null;
+    datTieuDe(bai ? `Từ mới · ${nhanBai(bai)}` : 'Học từ mới', bai ? `#/bai/${bai.ma}` : '#/');
+    donDep = vePhien(khung, 'moi', bai ? bai.ma : null);
   } else if (muc === 'bai' && thamSo) {
-    datTieuDe(`Bài ${Number(thamSo)}`, '#/bai');
-    veBai(khung, Number(thamSo));
+    const bai = timBaiTheoMa(maBaiTuDiaChi(thamSo));
+    datTieuDe(bai ? nhanBai(bai) : 'Bài học', '#/bai');
+    veBai(khung, maBaiTuDiaChi(thamSo));
   } else if (muc === 'bai') {
     datTieuDe('Bài học');
     veDanhSachBai(khung);
   } else if (muc === 'tu') {
     const khoa = duong.slice(1).join('/');
     const tu = layTu(khoa);
-    datTieuDe('Xem từ', tu ? `#/bai/${tu.bai}` : '#/bai');
+    datTieuDe('Xem từ', tu ? `#/bai/${maBaiCuaTu(tu, cheDoBai(caiDat()))}` : '#/bai');
     veTu(khung, khoa);
   } else if (muc === 'luyen-viet' && thamSo === 'phien') {
     datTieuDe('Luyện viết', '#/luyen-viet');
@@ -109,8 +111,9 @@ function veTheoDiaChi() {
     datTieuDe('Ngữ pháp', '#/luyen-tap');
     veNguPhap(khung);
   } else if (muc === 'trac-nghiem' && thamSo === 'bai' && duong[2]) {
-    datTieuDe(`Kiểm tra Bài ${Number(duong[2])}`, `#/bai/${Number(duong[2])}`);
-    donDep = vePhienTracNghiem(khung, 'bai', Number(duong[2]));
+    const bai = timBaiTheoMa(maBaiTuDiaChi(duong[2]));
+    datTieuDe(bai ? `Kiểm tra ${nhanBai(bai)}` : 'Kiểm tra bài', bai ? `#/bai/${bai.ma}` : '#/bai');
+    donDep = vePhienTracNghiem(khung, 'bai', bai ? bai.ma : null);
   } else if (muc === 'trac-nghiem' && thamSo) {
     datTieuDe(thamSo === 'so-sai' ? 'Ôn câu sai' : DANG_TRAC_NGHIEM[thamSo]?.ten || 'Trắc nghiệm', '#/trac-nghiem');
     donDep = vePhienTracNghiem(khung, thamSo);

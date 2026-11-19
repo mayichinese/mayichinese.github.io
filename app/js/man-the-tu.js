@@ -9,7 +9,7 @@
 
 import { caiDat, layTienDo } from './luu-tru.js';
 import { DANH_GIA, moTaKhoangCach } from './lich-on.js';
-import { layTu } from './du-lieu.js';
+import { layTu, nhanBaiCuaTu, cheDoBai, timBaiTheoMa, nhanBai } from './du-lieu.js';
 import { doc } from './phat-am.js';
 import { demHomNay, taoPhien, theTiepTheo, traLoi, daXemTuMoi, conLai, tuChuaHoc, baiDangHoc } from './phien-hoc.js';
 import { oChuDien, htmlMatSau, batDongHo } from './giao-dien.js';
@@ -117,7 +117,7 @@ export function vePhien(khung, loai, soBai = null) {
     $the.setAttribute('aria-label', 'Thẻ từ – chạm để lật');
     $the.innerHTML = `
       <div class="mat-truoc">
-        <div class="goc-the">${nhan}<span class="chu-phu nho">HSK ${tu.cap} · Bài ${tu.bai}</span></div>
+        <div class="goc-the">${nhan}<span class="chu-phu nho">HSK ${tu.cap} · ${nhanBaiCuaTu(tu, cheDoBai(cd))}</span></div>
         <div class="giua-the">${oChuDien(tu.hanzi)}</div>
         <p class="goi-y"><span class="emoji">👆</span> Nhớ lại cách đọc và nghĩa, rồi chạm để lật thẻ</p>
       </div>`;
@@ -168,7 +168,7 @@ export function vePhien(khung, loai, soBai = null) {
     $the.removeAttribute('aria-label');
     $the.innerHTML = `
       <div class="goc-the" style="margin-bottom:10px">
-        <span class="nhan nhan-chinh">✨ Từ mới</span><span class="chu-phu nho">HSK ${tu.cap} · Bài ${tu.bai}</span>
+        <span class="nhan nhan-chinh">✨ Từ mới</span><span class="chu-phu nho">HSK ${tu.cap} · ${nhanBaiCuaTu(tu, cheDoBai(cd))}</span>
       </div>
       ${htmlMatSau(tu)}`;
     $vung.innerHTML = `
@@ -202,8 +202,9 @@ export function vePhien(khung, loai, soBai = null) {
       loiNhan = phien.daLam ? 'Bạn đã ôn xong các thẻ đến hạn hôm nay.' : 'Hôm nay không có thẻ nào cần ôn.';
     } else if (dem.conTuMoi === 0) {
       loiNhan = `Bạn đã học đủ ${cd.soTuMoiMoiNgay} từ mới hôm nay. Ngày mai các từ này sẽ xuất hiện trong phần Ôn tập.`;
-    } else if (soBai && !tuChuaHoc(soBai).length) {
-      loiNhan = `Bạn đã học hết các từ của Bài ${soBai}.`;
+    } else if (soBai != null && !tuChuaHoc(soBai).length) {
+      const b = timBaiTheoMa(soBai);
+      loiNhan = `Bạn đã học hết các từ của ${b ? nhanBai(b) : 'bài này'}.`;
     } else {
       loiNhan = 'Đã xong phần học từ mới.';
     }

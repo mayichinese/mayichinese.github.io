@@ -12,7 +12,7 @@
 
 import { layTienDo, luu, nhatKyHomNay, caiDat } from './luu-tru.js';
 import { tinhLichMoi, moTaKhoangCach, loaiThe, dangHoc, DANH_GIA } from './lich-on.js';
-import { tatCaTu } from './du-lieu.js';
+import { tatCaTu, baiSachCuaNguPhap } from './du-lieu.js';
 import { doc } from './phat-am.js';
 import { esc, batDongHo, nutLoa, CHU_THICH_CHAM } from './giao-dien.js';
 import { toMauPinyin } from './pinyin.js';
@@ -120,7 +120,10 @@ export async function veNguPhap(khung) {
           <span class="giua">
             <b>${esc(d.ten)}</b>
             <span class="cong-thuc-nho han">${esc(d.congThuc[0] || '')}</span>
-            ${d.hocSauBai > toiBai ? `<span class="nhan">📚 dùng từ đến Bài ${d.hocSauBai}</span>` : ''}
+            <span class="hang-nhan">
+              ${baiSachCuaNguPhap(d.id) ? `<span class="nhan nhan-chinh">📖 Sách: Bài ${baiSachCuaNguPhap(d.id)}</span>` : ''}
+              ${d.hocSauBai > toiBai ? `<span class="nhan">📚 dùng từ đến Bài ${d.hocSauBai}</span>` : ''}
+            </span>
             ${(d.canKiemTra || []).length ? '<span class="nhan nhan-vang">⚠️ cần kiểm tra</span>' : ''}
           </span>
           <span class="cham ${loaiThe(ng.the[d.id])}"></span>
@@ -153,7 +156,7 @@ export async function veDiemNguPhap(khung, ma) {
   khung.innerHTML = `
     <article class="khung bai-ngu-phap">
       <div class="goc-the"><span class="nhan nhan-chinh">Điểm ${i + 1}/${diem.length} · HSK 1</span>
-        ${d.hocSauBai ? `<span class="chu-phu nho">từ vựng đến Bài ${d.hocSauBai}</span>` : ''}</div>
+        <span class="chu-phu nho">${baiSachCuaNguPhap(d.id) ? `📖 Sách: Bài ${baiSachCuaNguPhap(d.id)}` : ''}${baiSachCuaNguPhap(d.id) && d.hocSauBai ? ' · ' : ''}${d.hocSauBai ? `từ vựng đến Bài ${d.hocSauBai}` : ''}</span></div>
       <h2>${esc(d.ten)}</h2>
       <p class="de-cuong">Đề cương: <span class="han">${esc(d.deCuong)}</span></p>
       <div class="cong-thuc">${d.congThuc.map((c) => `<div class="han">${esc(c)}</div>`).join('')}</div>

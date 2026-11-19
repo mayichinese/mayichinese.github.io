@@ -7,7 +7,7 @@
 
 import { layTienDo, caiDat, nhatKyHomNay, luu } from './luu-tru.js';
 import { tinhLichMoi, dangHoc, DANH_GIA } from './lich-on.js';
-import { layBaiHoc, tatCaTu } from './du-lieu.js';
+import { tatCaTu, danhSachBai, timBaiTheoMa, cheDoBai } from './du-lieu.js';
 
 const PHUT = 60 * 1000;
 const HOC_TRUOC = 20 * PHUT;   // thẻ đang học đến hạn trong 20 phút tới thì cho hiện luôn
@@ -37,17 +37,20 @@ export function demHomNay(bayGio = Date.now()) {
   };
 }
 
-/** Các từ chưa học, theo thứ tự bài (hoặc chỉ trong một bài). */
-export function tuChuaHoc(soBai = null) {
+/**
+ * Các từ chưa học, theo thứ tự bài của chế độ đang chọn (theo chủ đề / theo sách),
+ * hoặc chỉ trong một bài. maBai: số (bài chủ đề) hoặc 's3' (bài trong sách).
+ */
+export function tuChuaHoc(maBai = null) {
   const td = layTienDo();
-  const ds = soBai ? layBaiHoc().filter((b) => b.so === soBai) : layBaiHoc();
+  const ds = maBai != null ? [timBaiTheoMa(maBai)].filter(Boolean) : danhSachBai(cheDoBai(caiDat()));
   return ds.flatMap((b) => b.tu).filter((t) => !td.the[t.khoa]);
 }
 
-/** Bài đầu tiên còn từ chưa học (để gợi ý học tiếp). */
+/** Bài đầu tiên còn từ chưa học (để gợi ý học tiếp) – theo chế độ chia bài đang chọn. */
 export function baiDangHoc() {
   const td = layTienDo();
-  return layBaiHoc().find((b) => b.tu.some((t) => !td.the[t.khoa])) || null;
+  return danhSachBai(cheDoBai(caiDat())).find((b) => b.tu.some((t) => !td.the[t.khoa])) || null;
 }
 
 // ---------- Tạo một phiên học ----------
@@ -78,8 +81,9 @@ export function taoPhien(loai, soBai = null) {
     const { conTuMoi } = demHomNay(bayGio);
     phien.hangMoi = tuChuaHoc(soBai).slice(0, conTuMoi).map((tu) => tu.khoa);
     // thẻ đang học dở của bài này (hoặc mọi bài) cũng luyện tiếp
+    const tuCuaBai = soBai != null ? new Set((timBaiTheoMa(soBai)?.tu || []).map((t) => t.khoa)) : null;
     tatCaTu().forEach((tu) => {
-      if (dangHoc(td.the[tu.khoa]) && (!soBai || tu.bai === soBai)) phien.dangLuyen.add(tu.khoa);
+      if (dangHoc(td.the[tu.khoa]) && (!tuCuaBai || tuCuaBai.has(tu.khoa))) phien.dangLuyen.add(tu.khoa);
     });
   }
   return phien;

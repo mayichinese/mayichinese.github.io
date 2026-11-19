@@ -57,7 +57,7 @@ Tiến độ trên máy tính và trên điện thoại là **hai bản riêng**
 | Mục | Dùng để |
 |---|---|
 | 🏠 **Hôm nay** | Xem việc cần làm hôm nay, chuỗi ngày học liên tục, 7 ngày trong tuần, kế hoạch 60 phút |
-| 📚 **Bài học** | Vào Ôn tập / Từ mới, chọn bài, tìm từ (chữ Hán, pinyin, nghĩa, Hán Việt) |
+| 📚 **Bài học** | Vào Ôn tập / Từ mới, chọn bài, tìm từ (chữ Hán, pinyin, nghĩa, Hán Việt). Chọn cách chia bài: **🗂️ Chủ đề** (20 bài) hoặc **📖 Theo sách** (15 bài theo 《新HSK教程 1》, để học song song với sách) – đổi lúc nào cũng được, tiến độ giữ nguyên |
 | ✏️ **Luyện tập** | 🎧 Luyện thanh điệu, ✍️ Luyện viết chữ Hán, 📝 Trắc nghiệm, 🧩 Ngữ pháp |
 | 📊 **Thống kê** | Chuỗi ngày học (hiện tại, dài nhất), biểu đồ số phút học 7 / 30 ngày theo 5 phần (chạm cột để xem chi tiết, có cả dạng bảng), tiến độ từ vựng / chữ viết / ngữ pháp, tỉ lệ đúng, **những từ hay sai nhất**, chữ viết hay sai, thanh hay nhầm |
 
@@ -148,6 +148,8 @@ Không nên sửa thẳng `app/data/hsk1.json`, vì lần chạy script sau sẽ
 - `app/data/thanh-dieu-hsk1.json` (chữ đa âm): tạo bằng `python -X utf8 cong-cu/tao-du-lieu-thanh-dieu.py`.
   Chạy lại sau khi sửa dữ liệu từ vựng.
 
+**Thứ tự bài theo sách:** `cong-cu/nguon-hsk1/theo-sach.txt` ghi pinyin + số bài của từng từ (chép từ bảng từ cuối sách 《新HSK教程 1》) và bài sách của từng điểm ngữ pháp (gần đúng). Sửa xong chạy `python -X utf8 cong-cu/tao-theo-sach.py` → tạo `app/data/theo-sach-hsk1.json` (báo cáo ở `cong-cu/bao-cao-theo-sach.txt`).
+
 **Dữ liệu ngữ pháp:** soạn tay trong `cong-cu/nguon-ngu-phap/cap1-01.txt` … `cap1-07.txt` (mỗi file 5 điểm; cách viết ghi ở đầu file `cong-cu/ghep-ngu-phap.py`). Sửa xong chạy:
    ```
    python -X utf8 cong-cu/ghep-ngu-phap.py
@@ -204,6 +206,7 @@ MayiChinese/
 │   ├── kiem-tra-pinyin-vi-du.py
 │   ├── tai-du-lieu-viet.py ← tải thư viện + dữ liệu nét chữ
 │   ├── tao-du-lieu-thanh-dieu.py ← đánh dấu chữ đa âm
+│   ├── tao-theo-sach.py    ← ghép từ / ngữ pháp với bài của sách 《新HSK教程 1》
 │   ├── doi-chieu-hanzii.mjs
 │   └── may-chu.ps1         ← máy chủ mini dùng cho CHAY-APP.bat
 └── tai-lieu/               ← đề cương thi HSK 2025 (PDF gốc)

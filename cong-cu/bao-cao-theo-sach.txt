@@ -1,0 +1,10 @@
+Dòng từ trong nguồn: 303 · ghép được: 300/300 từ HSK 1 · sách chưa dạy: 0 · ngữ pháp gắn bài: 35
+Số từ mỗi bài: B1=12, B2=15, B3=20, B4=35, B5=22, B6=20, B7=24, B8=17, B9=19, B10=21, B11=22, B12=21, B13=15, B14=25, B15=12
+LỖI: 0 · CẢNH BÁO: 3
+
+===== CẢNH BÁO =====
+  - dòng 34: "bēi" có trong sách nhưng không phải mục riêng trong 300 từ HSK 1 – bỏ qua
+  - dòng 144: "méi" có trong sách nhưng không phải mục riêng trong 300 từ HSK 1 – bỏ qua
+  - dòng 189: "qiánbian" có trong sách nhưng không phải mục riêng trong 300 từ HSK 1 – bỏ qua
+
+Đã ghi app\data\theo-sach-hsk1.json

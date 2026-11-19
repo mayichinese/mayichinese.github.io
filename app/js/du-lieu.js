@@ -47,7 +47,66 @@ export async function taiDuLieu() {
     }
   }
   if (!baiHoc.length) throw new Error('File dữ liệu không có bài học nào.');
+  await taiTheoSach();
   return baiHoc;
+}
+
+// ---------- Học "Theo sách" 《新HSK教程 1》 (Giai đoạn 5) ----------
+// data/theo-sach-hsk1.json (tạo bởi cong-cu/tao-theo-sach.py): từ nào thuộc bài nào của sách.
+// Bài theo chủ đề có mã là SỐ (3); bài theo sách có mã là chuỗi 's3'.
+let theoSach = null;       // { bai: [{ so, ten }], tu: { khoa: số bài }, nguPhap: { mã: số bài } }
+let baiSach = [];          // [{ ma: 's3', so, ten, tu: [...], sach: true }]
+
+async function taiTheoSach() {
+  theoSach = null;
+  baiSach = [];
+  try {
+    const r = await fetch('data/theo-sach-hsk1.json', { cache: 'no-cache' });
+    if (!r.ok) return;
+    theoSach = await r.json();
+    baiSach = theoSach.bai.map((b) => ({
+      ma: `s${b.so}`, cap: 1, so: b.so, ten: b.ten, sach: true,
+      tu: tatCaTu().filter((t) => theoSach.tu[t.khoa] === b.so),
+    }));
+  } catch {
+    theoSach = null; // không có file → chỉ dùng cách chia theo chủ đề
+  }
+}
+
+export const coTheoSach = () => !!theoSach;
+export const tenSach = () => theoSach?.sach || '';
+/** Chế độ chia bài đang dùng: 'sach' hoặc 'chu-de' (đọc từ cài đặt cheDoBai) */
+export function cheDoBai(caiDatHienTai) {
+  return caiDatHienTai?.cheDoBai === 'sach' && theoSach ? 'sach' : 'chu-de';
+}
+/** Danh sách bài theo một chế độ: [{ ma, so, ten, tu, sach }] */
+export function danhSachBai(cheDo) {
+  if (cheDo === 'sach' && theoSach) return baiSach;
+  return baiHoc.map((b) => ({ ...b, ma: b.so, sach: false }));
+}
+/** Tìm bài theo mã: số (chủ đề) hoặc 's3' (sách) */
+export function timBaiTheoMa(ma) {
+  if (typeof ma === 'string' && /^s\d+$/.test(ma)) return baiSach.find((b) => b.ma === ma) || null;
+  const b = baiHoc.find((x) => x.so === Number(ma));
+  return b ? { ...b, ma: b.so, sach: false } : null;
+}
+/** Đọc mã bài từ địa chỉ (#/bai/3 hoặc #/bai/s3) */
+export const maBaiTuDiaChi = (chuoi) => (/^s\d+$/.test(chuoi || '') ? chuoi : Number(chuoi));
+/** Mã bài của một từ trong chế độ đang dùng */
+export function maBaiCuaTu(tu, cheDo) {
+  if (cheDo === 'sach' && theoSach?.tu[tu.khoa]) return `s${theoSach.tu[tu.khoa]}`;
+  return tu.bai;
+}
+/** Nhãn bài để hiện: "Bài 3" hoặc "Bài 3 (sách)" */
+export const nhanBai = (b) => (b.sach ? `Bài ${b.so} (sách)` : `Bài ${b.so}`);
+/** Bài trong sách của một điểm ngữ pháp (mã điểm → số bài), null nếu chưa gắn */
+export const baiSachCuaNguPhap = (ma) => theoSach?.nguPhap?.[ma] ?? null;
+/** Bài trong sách của một từ */
+export const baiSachCuaTu = (tu) => theoSach?.tu?.[tu.khoa] ?? null;
+/** Nhãn bài của một từ theo chế độ: "Bài 3" hoặc "Bài 5 (sách)" */
+export function nhanBaiCuaTu(tu, cheDo) {
+  const s = cheDo === 'sach' ? baiSachCuaTu(tu) : null;
+  return s ? `Bài ${s} (sách)` : `Bài ${tu.bai}`;
 }
 
 export const layBaiHoc = () => baiHoc;

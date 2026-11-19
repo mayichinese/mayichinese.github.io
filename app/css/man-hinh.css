@@ -124,6 +124,11 @@ a.dong-ke-hoach:active { transform: translateY(3px); box-shadow: none; }
 .o-bai .thanh-tien-do { height: 8px; }
 .o-bai.xong .thanh-tien-do > span { background: var(--xong); }
 
+/* Chọn cách chia bài: theo chủ đề / theo sách */
+.chon-che-do-bai { margin-top: 12px; }
+.chon-che-do-bai button { white-space: normal; min-width: 0; font-size: .9rem; }
+.hang-nhan { display: flex; flex-wrap: wrap; gap: 4px; }
+
 /* Danh sách từ (trong bài, kết quả tìm kiếm) */
 .ds-tu { padding: 4px 14px; }
 .dong-tu {
