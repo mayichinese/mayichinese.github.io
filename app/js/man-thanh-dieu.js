@@ -253,6 +253,7 @@ export async function veThanhDieu(khung) {
       <div class="dong-tren"><b>Bảng thanh điệu</b><span class="chu-phu nho">chạm để nghe mẫu</span></div>
       <div class="bang-thanh">${bangThanh}</div>
       <p class="chu-phu nho" style="margin:10px 0 0">${CAC_DANG.mot.quyTac}</p>
+      <p class="chu-phu nho" style="margin:8px 0 0">🎨 Khắp app, pinyin được tô màu theo thanh như bảng trên (thanh nhẹ màu <span class="t0">xám</span>) để nhìn là biết đọc thanh mấy. Tắt màu trong Cài đặt.</p>
     </section>
 
     <h3 class="tieu-de-muc">Chọn dạng bài <small>${Math.floor((nk.giay.nghe || 0) / 60)}/${mt}′ hôm nay</small></h3>

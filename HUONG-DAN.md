@@ -58,7 +58,7 @@ Tiến độ trên máy tính và trên điện thoại là **hai bản riêng**
 |---|---|
 | 🏠 **Hôm nay** | Xem việc cần làm hôm nay, chuỗi ngày học liên tục, 7 ngày trong tuần, kế hoạch 60 phút |
 | 📚 **Bài học** | Vào Ôn tập / Từ mới, chọn cấp (**HSK 1 / 2 / 3**), chọn bài, tìm từ (chữ Hán, pinyin, nghĩa, Hán Việt). Cả ba cấp có hai cách chia bài: **🗂️ Chủ đề** (từ cùng nhóm nghĩa học cùng nhau – HSK 1: 20 bài, HSK 2: 16 bài, HSK 3: 31 bài) hoặc **📖 Theo sách** (theo thứ tự bài 《新HSK教程》 – 15 / 15 / 18 bài; bài sách có danh sách ngữ pháp của bài). Một nút chọn áp dụng cho cả ba cấp, đổi lúc nào cũng được, tiến độ giữ nguyên. Nút **Từ mới** đưa từ HSK 1 trước, học hết HSK 1 mới sang HSK 2, rồi HSK 3 (muốn học trước thì mở thẳng một bài) |
-| ✏️ **Luyện tập** | 🎧 Luyện thanh điệu, ✍️ Luyện viết chữ Hán, 📝 Trắc nghiệm, 📋 Thi thử HSK 1 · 2 · 3, 🧩 Ngữ pháp |
+| 🎨 **Màu pinyin** | Pinyin được tô màu theo thanh điệu: **đỏ** thanh 1 · **cam** thanh 2 · **xanh lá** thanh 3 · **xanh dương** thanh 4 · **xám** thanh nhẹ. Bảng chú thích ở Cài đặt (và trang Luyện thanh điệu); không thích thì bỏ chọn "Tô màu pinyin theo thanh điệu" trong Cài đặt. |`n| ✏️ **Luyện tập** | 🎧 Luyện thanh điệu, ✍️ Luyện viết chữ Hán, 📝 Trắc nghiệm, 📋 Thi thử HSK 1 · 2 · 3, 🧩 Ngữ pháp |
 | 📊 **Thống kê** | Chuỗi ngày học (hiện tại, dài nhất), biểu đồ số phút học 7 / 30 ngày theo 5 phần (chạm cột để xem chi tiết, có cả dạng bảng), tiến độ từ vựng / chữ viết / ngữ pháp, tỉ lệ đúng, **những từ hay sai nhất**, chữ viết hay sai, thanh hay nhầm |
 
 Hai nút ở góc trên bên phải: **🌙/☀️** chuyển nhanh giữa giao diện tối và sáng; nút **Cài đặt** (biểu tượng thanh trượt) mở phần cài đặt và sao lưu.
@@ -109,21 +109,23 @@ Màn hình **Hôm nay** hiện 5 phần theo thứ tự. Đã có đủ 5 phần
 **📋 Thi thử HSK 1** (Luyện tập → Thi thử HSK 1) – **đề mô phỏng, không phải đề chính thức**. Cấu trúc theo đề thi thử trong sách bài tập 《新HSK教程 1》 (2026):
 - **Nghe 20 câu**: P1 nghe chọn 1 trong 3 tranh · P2 nghe câu, chọn câu đáp lại · P3 nghe câu, chọn tranh (A–F) · P4 nghe câu + câu hỏi, chọn đáp án. Mỗi câu được đọc **2 lần** (như thi thật); muốn được bấm nghe lại thì tích ô "Cho phép bấm nghe lại" trước khi thi.
 - **Đọc 20 câu, 20 phút** (đồng hồ đếm ngược, hết giờ tự nộp): P1 đọc câu chọn tranh · P2 ghép hỏi–đáp · P3 điền từ (6 từ cho sẵn) · P4 đọc câu trả lời câu hỏi. Chữ Hán có **pinyin nhỏ phía trên** như đề cấp 1.
-- Mỗi câu 5 điểm, **tổng 200, đạt từ 120**. Nộp bài xong xem điểm từng phần và **xem lại từng câu** (đáp án đúng, pinyin, nghĩa). Lịch sử điểm lưu ở trang Thi thử và Thống kê.
+- Mỗi câu 5 điểm (mỗi phần 100), **tổng 200, đạt từ 120**. Nộp bài xong xem điểm từng phần và **xem lại từng câu** (đáp án đúng, pinyin, nghĩa). Lịch sử điểm lưu ở trang Thi thử và Thống kê.
 - **Tranh là biểu tượng (emoji)** – chỉ dùng cho những từ vẽ được rõ ràng (đồ ăn, đồ vật, nơi chốn, thời tiết, giờ…); từ trừu tượng nằm ở các câu dạng chữ. Mỗi lần thi là một đề khác (chọn ngẫu nhiên).
+
+**Về thang điểm:** cách tính \"mỗi phần 100 điểm, cộng lại\" lấy theo hướng dẫn chấm điểm của 汉考国际 (cơ quan tổ chức thi HSK). Thang điểm chính thức của kỳ thi mới (từ 7/2026) chưa công bố, nên mức đạt 60% (120 / 180) chỉ là ước tính theo kỳ thi cũ. Lần thi cũ trong lịch sử được tự tính lại theo thang này.
 
 **📋 Thi thử HSK 2** (trang Thi thử → chọn **HSK 2**) – cũng là đề mô phỏng, cấu trúc theo đề trong sách bài tập 《新HSK教程 2》 (60 câu, khoảng 55 phút):
 - **Nghe 25 câu**: P1 nghe câu chọn 1 trong 3 tranh · P2 nghe hội thoại chọn tranh (A–F, hai nhóm) · P3 nghe hội thoại + câu hỏi, chọn đáp án.
 - **Đọc 25 câu, 25 phút**: P1 đọc câu chọn tranh · P2 điền từ · P3 ghép hỏi–đáp (hai nhóm) · P4 đọc đoạn văn, trả lời câu hỏi ★.
 - **Viết 10 câu, 10 phút**: P1 chữ bị thiếu một phần (hiện trong ô nét đứt), chọn phần còn thiếu (A–F) · P2 **viết tay** chữ còn thiếu vào ô (có pinyin cả câu). Viết đúng thứ tự nét, sai tối đa 3 nét vẫn tính đúng; không biết thì bấm "Không biết – bỏ qua".
 - Phần Đọc và phần Viết có đồng hồ riêng; hết giờ phần Đọc thì tự chuyển sang phần Viết (không quay lại được), hết giờ phần Viết thì tự nộp bài.
-- Điểm quy về **thang 200 (số câu đúng × 200 / 60), đạt từ 120** – đây là cách tính của app, không phải thang điểm chính thức.
+- Điểm: mỗi phần nghe / đọc / viết tối đa **100 điểm** (số câu đúng ÷ số câu × 100), **tổng 300, đạt từ 180**.
 
 **📋 Thi thử HSK 3** (trang Thi thử → chọn **HSK 3**) – đề mô phỏng, cấu trúc theo đề trong sách bài tập 《新HSK教程 3》 (70 câu, khoảng 75 phút):
 - **Nghe 30 câu**: P1 nghe hội thoại chọn tranh (hai nhóm: 6 tranh và 5 tranh) · P2 nghe hội thoại + câu hỏi, chọn đáp án · P3 nghe một đoạn nói + câu hỏi, chọn đáp án.
 - **Đọc 30 câu, 30 phút**: P1 chọn câu đáp lại phù hợp (hai nhóm) · P2 điền từ (5 câu + 5 hội thoại) · P3 đọc đoạn văn trả lời câu hỏi ★ (hai đoạn cuối mỗi đoạn có 2 câu hỏi).
 - **Viết 10 câu, 20 phút**: P1 **viết tay** chữ còn thiếu (có pinyin cả câu) · P2 nhìn tranh và từ cho sẵn, **chạm các mảnh theo đúng thứ tự** để thành câu (bấm vào mảnh đã xếp để bỏ ra, "Xếp lại" để làm lại). Đề thật yêu cầu tự viết câu; app đổi thành sắp xếp để tự chấm được.
-- Đồng hồ, cách tính điểm (thang 200, đạt từ 120) giống HSK 2.
+- Đồng hồ và cách tính điểm (mỗi phần 100, tổng 300, đạt từ 180) giống HSK 2.
 
 Khi đang học, góc trên có **đồng hồ** đếm số phút đã học cho phần đó (chỉ đếm khi bạn đang thao tác).
 

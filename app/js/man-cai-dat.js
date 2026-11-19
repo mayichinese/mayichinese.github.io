@@ -5,7 +5,7 @@
 import { caiDat, luu, layTienDo, xuatSaoLuu, nhapSaoLuu, xoaTienDo } from './luu-tru.js';
 import { tatCaTu } from './du-lieu.js';
 import { doc, giongTiengTrung, choGiong } from './phat-am.js';
-import { esc, thongBao, apDungGiaoDien, dongTu } from './giao-dien.js';
+import { esc, thongBao, apDungGiaoDien, dongTu, CHU_THICH_MAU_THANH } from './giao-dien.js';
 import { bieuTuong } from './bieu-tuong.js';
 
 export async function veCaiDat(khung) {
@@ -26,6 +26,10 @@ export async function veCaiDat(khung) {
       </div>
       <div class="dong-cai-dat"><label for="cd-khai">Chữ Hán kiểu viết tay (Khải thư)</label>
         <input id="cd-khai" type="checkbox" ${cd.kieuChuKhai ? 'checked' : ''}></div>
+      <div class="dong-cai-dat"><label for="cd-mau-thanh">Tô màu pinyin theo thanh điệu</label>
+        <input id="cd-mau-thanh" type="checkbox" ${cd.tatMauThanh ? '' : 'checked'}></div>
+      <p class="chu-phu nho" style="margin:6px 0 0">Màu cho biết thanh điệu của từng âm tiết, nhìn là biết đọc thanh mấy:</p>
+      ${CHU_THICH_MAU_THANH}
     </div>
 
     <h3 class="tieu-de-muc">Học tập</h3>
@@ -63,12 +67,18 @@ export async function veCaiDat(khung) {
       </div>
     </div>
 
-    <h3 class="tieu-de-muc">Dữ liệu từ vựng</h3>
+    <h3 class="tieu-de-muc">Dữ liệu và nguồn tham khảo</h3>
     <div class="khung">
-      <p class="chu-phu" style="margin-top:0">Danh sách từ, pinyin, từ loại: <b>Đề cương thi HSK 2025</b> (HSK考试大纲, 中外语言交流合作中心).
-        Âm Hán Việt, nghĩa tiếng Việt, câu ví dụ: soạn riêng cho app – có thể còn sai sót.
-        Tra cứu thêm: <a href="https://hanzii.net/?hl=vi" target="_blank" rel="noopener">Hanzii ↗</a></p>
-      <p class="chu-phu">${tatCaTu().length} từ HSK 1 · ${canKiemTra.length} từ có mục ⚠️ cần kiểm tra:</p>
+      <ul class="chu-phu" style="margin-top:0;padding-left:18px">
+        <li>Danh sách từ, pinyin, từ loại, chữ Hán, mục ngữ pháp: <b>Đề cương thi HSK 2025</b> (HSK考试大纲, 中外语言交流合作中心).</li>
+        <li>Cấu trúc đề thi thử: 《新版HSK（1-6级）考试结构与样题示例》 (汉考国际, 12/2025) và sách bài tập 《新HSK教程》 1–3 (2026).
+          Thang điểm: mỗi phần 100 điểm (cách chấm của 汉考国际); điểm đạt 60% là ước tính.</li>
+        <li>Thứ tự bài “Theo sách”: 《新HSK教程》 1–3 (chỉ lấy thứ tự bài, không chép nội dung).</li>
+        <li>Kiểm tra pinyin: từ điển CC-CEDICT · nét chữ: Make Me a Hanzi / Hanzi Writer.</li>
+        <li>Âm Hán Việt, nghĩa tiếng Việt, câu ví dụ, giải thích ngữ pháp, bài tập: soạn riêng cho app – có thể còn sai sót.</li>
+      </ul>
+      <p class="chu-phu">Tra cứu thêm: <a href="https://hanzii.net/?hl=vi" target="_blank" rel="noopener">Hanzii ↗</a></p>
+      <p class="chu-phu">${tatCaTu().length} từ HSK 1–3 · ${canKiemTra.length} từ có mục ⚠️ cần kiểm tra:</p>
       <div class="ds-tu" style="padding:0">${canKiemTra.map(dongTu).join('')}</div>
     </div>
 
@@ -94,6 +104,7 @@ export async function veCaiDat(khung) {
     };
   });
   $('#cd-khai').onchange = (e) => { cd.kieuChuKhai = e.target.checked; document.body.classList.toggle('kieu-khai', cd.kieuChuKhai); luu(); };
+  $('#cd-mau-thanh').onchange = (e) => { cd.tatMauThanh = !e.target.checked; luu(); apDungGiaoDien(); };
 
   // --- Lưu khi thay đổi ---
   const soNguyen = (el, min, max, macDinh) => {

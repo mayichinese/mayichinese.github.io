@@ -19,6 +19,7 @@ export const CAI_DAT_MAC_DINH = {
   tocDoDoc: 0.8,          // tốc độ giọng đọc (1 = bình thường)
   giongDoc: '',           // tên giọng đọc đã chọn ('' = tự chọn)
   kieuChuKhai: false,     // hiển thị chữ Hán kiểu viết tay (Khải thư)
+  tatMauThanh: false,     // true = không tô màu pinyin theo thanh điệu (mặc định có tô màu)
   cheDo: 'tu-dong',       // giao diện: 'tu-dong' (theo máy) | 'sang' | 'toi'
   soChuVietMoiMoiNgay: 5, // số chữ mới luyện viết mỗi ngày (Giai đoạn 2)
   cheDoBai: 'chu-de',     // chia bài (chung cho HSK 1–3): 'chu-de' (theo nhóm nghĩa) | 'sach' (theo bài sách 《新HSK教程》)

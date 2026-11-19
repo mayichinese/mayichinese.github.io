@@ -22,7 +22,7 @@
   - `js/lich-on.js`: ôn tập ngắt quãng SM-2 (Quên/Khó/Nhớ/Dễ). `js/luu-tru.js`: lưu tiến độ localStorage.
   - `js/phien-hoc.js` (chọn thẻ tiếp theo), `js/phat-am.js` (Web Speech API zh-CN), `sw.js` (cache offline).
   - Giao diện: `js/app.js` (khởi động, chuyển màn hình), `js/giao-dien.js` (mảnh dùng chung, sáng/tối),
-    mỗi màn hình một file `js/man-*.js`; `js/pinyin.js` tô màu thanh điệu; `css/style.css` (biến màu
+    mỗi màn hình một file `js/man-*.js`; `js/pinyin.js` tô màu thanh điệu (tắt được: caiDat.tatMauThanh → lớp body .khong-mau-thanh; chú thích CHU_THICH_MAU_THANH); `css/style.css` (biến màu
     sáng/tối theo logo) + `css/man-hinh.css`.
   - Giai đoạn 2: `js/man-luyen-viet.js` (100 chữ viết tay cấp 1–2, lịch ôn SM-2 riêng ở `tienDo.theViet`,
     tự chấm theo số nét sai), `js/net-chu.js` + `lib/hanzi-writer.min.js` (Hanzi Writer 3.7.3, tải khi cần),
@@ -54,7 +54,8 @@
   KHÔNG chép đề trong sách; nhóm hỏi–đáp / điền từ phải bảo đảm chỉ một đáp án đúng.
 - Thi thử HSK 2 (5.3): cùng `js/man-thi-thu.js` (cấu hình theo cấp CAU_HINH; mỗi câu có `kieu`: tranh3, chon, tranh6, ghep, dien,
   docHoi, boThu, vietChu). Nghe 25 + đọc 25 (25′) + viết 10 (10′, đồng hồ riêng, hết giờ thì khóa phần và chuyển tiếp);
-  điểm = đúng × 200 / số câu; lịch sử `tienDo.thiThu` có `cap`. Dữ liệu `data/thi-thu-hsk2.json` từ `cong-cu/nguon-thi-thu/`
+  điểm: mỗi phần 100 (đúng ÷ số câu × 100), HSK 1 tổng 200/đạt 120, HSK 2–3 tổng 300/đạt 180 (cách chấm CTI; mức đạt là ước tính)
+  – thangDiem()/diemCuaLan() tính lại cả lần thi cũ; lịch sử `tienDo.thiThu` có `cap` (HSK 1 lưu điểm phần, HSK 2–3 lưu số câu đúng). Dữ liệu `data/thi-thu-hsk2.json` từ `cong-cu/nguon-thi-thu/`
   (tranh2.txt + cap2-*.txt) bằng `python -X utf8 cong-cu/ghep-thi-thu-2.py`. Viết tay dùng Hanzi Writer, chữ thuộc 100 chữ cấp 1–2.
   Câu bộ thủ KHÔNG lấy lại 帮忙/红色/但是/不懂/点菜 của đề sách.
 - Giai đoạn 5.3 (HSK 2: đủ 200 từ, 36 điểm ngữ pháp cấp 2, thi thử HSK 2 – XONG): `cong-cu/nguon-hsk2/phan-bai.txt` (200 từ chia theo 15 bài sách 《新HSK教程 2》,

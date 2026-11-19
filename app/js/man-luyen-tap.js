@@ -17,7 +17,7 @@ const CAC_PHAN = [
   { ma: 'nguPhap', emoji: '📝', ten: 'Trắc nghiệm', href: '#/trac-nghiem', phut: 'nguPhap',
     moTa: 'Chữ → nghĩa, nghĩa → chữ, nghe → chữ, chọn pinyin đúng. Câu sai vào sổ để ôn lại.' },
   { ma: 'on', emoji: '📋', ten: 'Thi thử HSK 1 · 2 · 3', href: '#/thi-thu', nhan: '40 / 60 / 70 câu',
-    moTa: 'Đề mô phỏng: HSK 1 (nghe + đọc, 40 câu), HSK 2 (60 câu) và HSK 3 (70 câu) có thêm phần viết. Tính giờ, chấm điểm (đạt từ 120/200).' },
+    moTa: 'Đề mô phỏng: HSK 1 (nghe + đọc, 40 câu), HSK 2 (60 câu) và HSK 3 (70 câu) có thêm phần viết. Tính giờ, chấm điểm mỗi phần 100 (đạt 60%).' },
   { ma: 'nguPhap', emoji: '🧩', ten: 'Ngữ pháp', href: '#/ngu-phap', phut: 'nguPhap',
     moTa: 'Điểm ngữ pháp HSK 1: công thức, lỗi hay mắc, sắp xếp câu, điền từ.' },
 ];

@@ -56,7 +56,17 @@ export function apDungGiaoDien() {
   // Đang sáng thì hiện mặt trăng (bấm để tối) và ngược lại
   const nut = document.getElementById('nut-sang-toi');
   if (nut) nut.innerHTML = bieuTuong(toi ? 'mat-troi' : 'mat-trang');
+  // Tô màu pinyin theo thanh điệu (tắt được trong Cài đặt)
+  document.body.classList.toggle('khong-mau-thanh', !!caiDat().tatMauThanh);
 }
+
+/** Chú thích màu thanh điệu: mā thanh 1 · má thanh 2 · … */
+export const CHU_THICH_MAU_THANH = `
+  <div class="chu-thich-mau-thanh">
+    <span><b class="t1">mā</b> thanh 1 (ngang)</span><span><b class="t2">má</b> thanh 2 (lên)</span>
+    <span><b class="t3">mǎ</b> thanh 3 (xuống–lên)</span><span><b class="t4">mà</b> thanh 4 (xuống)</span>
+    <span><b class="t0">ma</b> thanh nhẹ</span>
+  </div>`;
 
 /** Nút trên thanh trên cùng: chuyển nhanh giữa sáng và tối. */
 export function doiSangToi() {

@@ -15,7 +15,7 @@ import {
   nhanBai, baiSachCuaTu, baiSachCuaNguPhap, cacCapCoDuLieu, coChuDe, chuDeCuaMotTu,
 } from './du-lieu.js';
 import { demHomNay, tuChuaHoc, baiDangHoc } from './phien-hoc.js';
-import { esc, boDau, htmlMatSau, dongTu, CHU_THICH_CHAM } from './giao-dien.js';
+import { esc, boDau, htmlMatSau, dongTu, CHU_THICH_CHAM, CHU_THICH_MAU_THANH } from './giao-dien.js';
 import { taiNguPhap } from './man-ngu-phap.js';
 
 // Cấp đang xem trong lưới bài (mặc định: cấp của bài đang học dở)
@@ -149,6 +149,7 @@ export async function veBai(khung, ma) {
     <a class="nut nut-rong" href="#/trac-nghiem/bai/${b.ma}" style="margin-top:12px">📝 Kiểm tra bài này (10 câu trắc nghiệm)</a>
     <div id="np-cua-bai"></div>
     ${CHU_THICH_CHAM}
+    ${caiDat().tatMauThanh ? '' : CHU_THICH_MAU_THANH}
     <div class="khung ds-tu">${b.tu.map(dongTu).join('')}</div>`;
 
   // Bài của sách (HSK 1, 2, 3 theo sách): liệt kê các điểm ngữ pháp gắn với bài này

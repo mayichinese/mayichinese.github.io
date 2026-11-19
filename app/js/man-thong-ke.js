@@ -14,7 +14,7 @@ import { tatCaTu, tongTuCap } from './du-lieu.js';
 import { esc, dongTu } from './giao-dien.js';
 import { taiNetChu } from './net-chu.js';
 import { taiNguPhap } from './man-ngu-phap.js';
-import { diemThiCaoNhat } from './man-thi-thu.js';
+import { diemThiCaoNhat, thangDiem, diemCuaLan } from './man-thi-thu.js';
 
 const CAC_PHAN = [
   { ma: 'on', ten: 'Ôn từ' },
@@ -221,9 +221,10 @@ export async function veThongKe(khung) {
       const ls = (td.thiThu || []).filter((x) => (x.cap || 1) === cap);
       if (!ls.length) return '';
       const tot = diemThiCaoNhat(cap);
+      const thang = thangDiem(cap);
       return `<a class="khung tien-do-cap" href="#/thi-thu" style="margin-top:10px">
-      <div class="dong-tren"><b>📋 Thi thử HSK ${cap}</b><span class="nhan ${tot >= 120 ? 'nhan-dat' : ''}">cao nhất ${tot}/200</span></div>
-      <span class="chu-phu nho">${ls.length} lần thi · lần gần nhất ${ls[ls.length - 1].diem}/200 · đạt từ 120</span>
+      <div class="dong-tren"><b>📋 Thi thử HSK ${cap}</b><span class="nhan ${tot >= thang.dat ? 'nhan-dat' : ''}">cao nhất ${tot}/${thang.toiDa}</span></div>
+      <span class="chu-phu nho">${ls.length} lần thi · lần gần nhất ${diemCuaLan(ls[ls.length - 1]).tong}/${thang.toiDa} · đạt từ ${thang.dat}</span>
     </a>`;
     }).join('')}
 

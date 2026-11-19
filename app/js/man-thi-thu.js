@@ -14,7 +14,9 @@
 //           (đề thật P2 là tự viết câu – app không chấm được câu tự do nên đổi thành sắp xếp, tự chấm)
 // Dữ liệu: data/thi-thu-hsk1.json (cong-cu/ghep-thi-thu.py), data/thi-thu-hsk2.json (cong-cu/ghep-thi-thu-2.py),
 //          data/thi-thu-hsk3.json (cong-cu/ghep-thi-thu-3.py).
-// Điểm quy về thang 200 (số câu đúng × 200 / số câu), đạt từ 120.
+// Điểm: theo cách chấm của 汉考国际 (CTI) – mỗi phần nghe / đọc / viết tối đa 100 điểm (số câu đúng ÷ số câu × 100),
+// tổng = cộng các phần → HSK 1: 200, HSK 2 và 3: 300. Đạt từ 60% tổng (120 / 180) theo quy ước kỳ thi cũ –
+// thang chính thức của kỳ thi mới (áp dụng 7/2026) chưa công bố. Lần thi đã lưu được tính lại theo thang này.
 // Mỗi câu có "kieu" quyết định cách hiện: tranh3, chon, tranh6, ghep, dien, docHoi, boThu, vietChu, xepCau.
 // =========================================================
 
@@ -25,7 +27,6 @@ import { bieuTuong } from './bieu-tuong.js';
 import { toMauPinyin } from './pinyin.js';
 import { taoBangVe } from './net-chu.js';
 
-const DIEM_DAT = 120;
 const CHU_CAI = 'ABCDEF';
 const LOI_VIET_TOI_DA = 3;      // viết chữ: hoàn thành với tối đa 3 nét sai thì tính đúng
 const LOI_VIET_DUNG_LAI = 8;    // sai từ 8 nét thì dừng, tính sai
@@ -378,7 +379,7 @@ const daLamCau = (c, tl) => (c.kieu === 'xepCau' ? Array.isArray(tl) && tl.lengt
 
 // ---------- Cấu hình theo cấp ----------
 const CAU_HINH = {
-  1: { phan: PHAN_1, taoDe: taoDe1, soCau: 40, phut: 35, gioiHan: { d: 20 }, sach: '《新HSK教程 1》',
+  1: { phan: PHAN_1, taoDe: taoDe1, soCau: 40, phut: 35, gioiHan: { d: 20 }, soKy: { n: 20, d: 20 }, sach: '《新HSK教程 1》',
     cauTruc: [
       ['🎧 Nghe', '20 câu', ['P1 · Nghe, chọn 1 trong 3 tranh', 'P2 · Nghe câu, chọn câu đáp lại', 'P3 · Nghe câu, chọn tranh (A–F)', 'P4 · Nghe câu + câu hỏi, chọn đáp án']],
       ['📖 Đọc', '20 câu · 20 phút', ['P1 · Đọc câu, chọn tranh (A–F)', 'P2 · Ghép câu hỏi với câu trả lời', 'P3 · Chọn từ điền vào chỗ trống', 'P4 · Đọc câu, trả lời câu hỏi']],
@@ -396,6 +397,33 @@ const CAU_HINH = {
       ['✍️ Viết', '10 câu · 20 phút', ['P1 · Viết tay chữ còn thiếu (có pinyin)', 'P2 · Nhìn tranh, sắp xếp câu có từ cho sẵn']],
     ] },
 };
+
+// ---------- Thang điểm ----------
+/** Thang điểm của một cấp: mỗi phần 100 điểm; đạt từ 60% tổng. HSK 1: 200/120 · HSK 2, 3: 300/180 */
+export function thangDiem(cap = 1) {
+  const soPhan = Object.keys((CAU_HINH[cap] || CAU_HINH[1]).soKy).length;
+  return { toiDa: soPhan * 100, dat: soPhan * 60 };
+}
+/**
+ * Điểm từng phần + tổng của một lần thi đã lưu.
+ * HSK 1 lưu sẵn điểm từng phần (5 điểm/câu); HSK 2, 3 lưu số câu đúng → quy ra 100 điểm mỗi phần.
+ * Vì tính lại từ số câu đúng nên các lần thi cũ (lưu theo thang 200) cũng hiện đúng thang mới.
+ */
+export function diemCuaLan(x) {
+  const cap = x.cap || 1;
+  if (cap === 1) return { phan: { n: x.nghe, d: x.doc }, tong: x.nghe + x.doc };
+  const so = CAU_HINH[cap].soKy;
+  const phan = { n: Math.round((x.nghe * 100) / so.n), d: Math.round((x.doc * 100) / so.d), v: Math.round((x.viet * 100) / so.v) };
+  return { phan, tong: phan.n + phan.d + phan.v };
+}
+/** "Nghe 87 · Đọc 80 · Viết 70" (kèm số câu đúng với HSK 2, 3) */
+function moTaDiemPhan(x) {
+  const cap = x.cap || 1;
+  const { phan } = diemCuaLan(x);
+  const so = CAU_HINH[cap].soKy;
+  const dem = { n: x.nghe, d: x.doc, v: x.viet };
+  return Object.keys(so).map((k) => `${TEN_KY[k]} ${phan[k]}${cap > 1 ? ` (${dem[k]}/${so[k]} câu)` : ''}`).join(' · ');
+}
 
 /** Câu trả lời có đúng không */
 function laDung(c, tl) {
@@ -418,7 +446,8 @@ export function veThiThu(khung, capChon) {
   const ch = CAU_HINH[cap];
   const lichSu = (layTienDo().thiThu || []).filter((x) => (x.cap || 1) === cap).reverse();
   const tt = tinhTrangPhatAm();
-  const tot = lichSu.length ? Math.max(...lichSu.map((x) => x.diem)) : null;
+  const thang = thangDiem(cap);
+  const tot = lichSu.length ? Math.max(...lichSu.map((x) => diemCuaLan(x).tong)) : null;
   const bang = ch.cauTruc.map(([ten, so, dong]) => dong.map((d, i) => `<tr>${i === 0
     ? `<th rowspan="${dong.length}">${ten}<br><small>${so}</small></th>` : ''}<td>${d}</td></tr>`).join('')).join('');
   khung.innerHTML = `
@@ -427,7 +456,8 @@ export function veThiThu(khung, capChon) {
       <div class="goc-the"><span class="nhan nhan-chinh">📋 HSK ${cap} · đề mô phỏng</span><span class="chu-phu nho">${ch.soCau} câu · ~${ch.phut} phút</span></div>
       <h2>Thi thử HSK ${cap}</h2>
       <table class="bang-cau-truc">${bang}</table>
-      <p class="chu-phu nho">Điểm quy về thang 200 · <b>đạt từ ${DIEM_DAT} điểm</b>. Mỗi câu nghe được đọc 2 lần (như thi thật).
+      <p class="chu-phu nho">Mỗi phần (${Object.keys(ch.soKy).map((k) => TEN_KY[k].toLowerCase()).join(', ')}) tối đa 100 điểm, tổng <b>${thang.toiDa}</b> · <b>đạt từ ${thang.dat} điểm</b>
+        (cách chấm của 汉考国际 cho kỳ thi cũ; thang chính thức của kỳ thi mới chưa công bố). Mỗi câu nghe được đọc 2 lần (như thi thật).
         ${cap > 1 ? 'Phần viết tay: viết đúng thứ tự nét, sai tối đa 3 nét vẫn tính đúng. ' : ''}
         ${cap > 2 ? 'Phần 2 của Viết: đề thật yêu cầu tự viết câu; app đổi thành sắp xếp mảnh có sẵn để tự chấm được. ' : ''}
         Cấu trúc theo đề thi thử trong sách bài tập ${ch.sach} (2026); câu hỏi tự soạn, tranh là biểu tượng – <b>không phải đề chính thức</b>.</p>
@@ -436,15 +466,16 @@ export function veThiThu(khung, capChon) {
         <input type="checkbox" id="cho-nghe-lai"></label>
       <a class="nut nut-chinh nut-rong" href="#/thi-thu/lam${cap > 1 ? `/${cap}` : ''}" id="nut-bat-dau"><span class="emoji">📋</span> Bắt đầu thi HSK ${cap}</a>
     </section>
-    <h3 class="tieu-de-muc">Lịch sử thi thử HSK ${cap} <small>${lichSu.length ? `cao nhất ${tot}/200` : ''}</small></h3>
-    ${lichSu.length ? `<div class="khung">${lichSu.slice(0, 10).map((x) => `
+    <h3 class="tieu-de-muc">Lịch sử thi thử HSK ${cap} <small>${lichSu.length ? `cao nhất ${tot}/${thang.toiDa}` : ''}</small></h3>
+    ${lichSu.length ? `<div class="khung">${lichSu.slice(0, 10).map((x) => {
+      const d = diemCuaLan(x).tong;
+      return `
       <div class="dong-lich-su-thi">
-        <span class="giua"><b>${x.diem}/200</b> <span class="nhan ${x.diem >= DIEM_DAT ? 'nhan-dat' : ''}">${x.diem >= DIEM_DAT ? '✅ Đạt' : 'Chưa đạt'}</span>
-          <span class="chu-phu nho">${(x.cap || 1) > 1
-            ? `Nghe ${x.nghe}/${ch.soKy.n} · Đọc ${x.doc}/${ch.soKy.d} · Viết ${x.viet}/${ch.soKy.v}`
-            : `Nghe ${x.nghe}/100 · Đọc ${x.doc}/100`} · ${Math.round(x.giay / 60)} phút</span></span>
+        <span class="giua"><b>${d}/${thang.toiDa}</b> <span class="nhan ${d >= thang.dat ? 'nhan-dat' : ''}">${d >= thang.dat ? '✅ Đạt' : 'Chưa đạt'}</span>
+          <span class="chu-phu nho">${moTaDiemPhan(x)} · ${Math.round(x.giay / 60)} phút</span></span>
         <span class="chu-phu nho">${new Date(x.luc).toLocaleDateString('vi-VN')}</span>
-      </div>`).join('')}</div>` : '<p class="chu-phu">Chưa thi lần nào.</p>'}`;
+      </div>`;
+    }).join('')}</div>` : '<p class="chu-phu">Chưa thi lần nào.</p>'}`;
   khung.querySelectorAll('[data-cap]').forEach((b) => { b.onclick = () => veThiThu(khung, Number(b.dataset.cap)); });
   const $cho = khung.querySelector('#cho-nghe-lai');
   try { $cho.checked = sessionStorage.getItem('mayi-thi-nghe-lai') === '1'; } catch { /* bỏ qua */ }
@@ -722,11 +753,11 @@ export function veLamBai(khung, cap = 1) {
       document.body.classList.remove('dang-hoc');
       const dung = de.map((c, i) => laDung(c, traLoi[i]));
       const dem = (k) => de.reduce((s, c, i) => s + (kyCua(c) === k && dung[i] ? 1 : 0), 0);
-      const soDung = dung.filter(Boolean).length;
-      const tong = Math.round((soDung * 200) / de.length);
+      // Lưu: HSK 1 điểm từng phần (5 điểm/câu, như trước); HSK 2, 3 số câu đúng từng phần
       const ketQua = cap === 1
         ? { cap: 1, nghe: dem('n') * 5, doc: dem('d') * 5 }
         : { cap, nghe: dem('n'), doc: dem('d'), viet: dem('v') };
+      const tong = diemCuaLan(ketQua).tong;
       const td = layTienDo();
       td.thiThu = [...(td.thiThu || []), { ...ketQua, luc: new Date().toISOString(), diem: tong, giay: giayDaLam }].slice(-30);
       const nk = nhatKyHomNay();
@@ -750,7 +781,8 @@ export function veLamBai(khung, cap = 1) {
     }
 
     function veKetQua(dung, tong, kq) {
-      const dat = tong >= DIEM_DAT;
+      const thang = thangDiem(cap);
+      const dat = tong >= thang.dat;
       const theoPhan = ch.phan.map((p) => {
         const cs = de.map((c, i) => [c, i]).filter(([c]) => c.phan === p.ma);
         return `<tr><td>${p.ky} ${p.ten}</td><td><b>${cs.filter(([, i]) => dung[i]).length}</b>/${cs.length}</td></tr>`;
@@ -772,14 +804,12 @@ export function veLamBai(khung, cap = 1) {
           </div>
         </div>`;
       }).join('');
-      const tomTat = cap === 1
-        ? `Nghe ${kq.nghe}/100 · Đọc ${kq.doc}/100`
-        : `Nghe ${kq.nghe}/${ch.soKy.n} · Đọc ${kq.doc}/${ch.soKy.d} · Viết ${kq.viet}/${ch.soKy.v} câu đúng`;
+      const tomTat = moTaDiemPhan(kq);
       khung.innerHTML = `
         <div class="ket-thuc">
           <div class="emoji emoji-to">${dat ? '🏆' : '💪'}</div>
-          <h2>${tong}/200 điểm</h2>
-          <p><span class="nhan ${dat ? 'nhan-dat' : ''}" style="font-size:.95rem">${dat ? '✅ Đạt (từ 120 điểm)' : `Chưa đạt – cần thêm ${DIEM_DAT - tong} điểm`}</span></p>
+          <h2>${tong}/${thang.toiDa} điểm</h2>
+          <p><span class="nhan ${dat ? 'nhan-dat' : ''}" style="font-size:.95rem">${dat ? `✅ Đạt (từ ${thang.dat} điểm)` : `Chưa đạt – cần thêm ${thang.dat - tong} điểm`}</span></p>
           <p class="chu-phu">${tomTat} · ${Math.round(giayDaLam / 60)} phút</p>
           <div class="khung" style="width:100%"><table class="bang-diem-phan">${theoPhan}</table></div>
           <a class="nut nut-chinh nut-rong" href="#/thi-thu" id="nut-thi-lai">📋 Thi đề khác</a>
@@ -814,5 +844,5 @@ export function veLamBai(khung, cap = 1) {
 /** Điểm thi thử cao nhất của một cấp (cho trang Thống kê); null nếu chưa thi */
 export const diemThiCaoNhat = (cap = 1) => {
   const ls = (layTienDo().thiThu || []).filter((x) => (x.cap || 1) === cap);
-  return ls.length ? Math.max(...ls.map((x) => x.diem)) : null;
+  return ls.length ? Math.max(...ls.map((x) => diemCuaLan(x).tong)) : null;
 };

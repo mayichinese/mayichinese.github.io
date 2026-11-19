@@ -87,6 +87,16 @@
 .t3 { color: var(--thanh-3); }
 .t4 { color: var(--thanh-4); }
 .t0 { color: var(--thanh-0); }
+/* Tắt màu thanh (Cài đặt) – riêng nút chọn thanh trong bài luyện vẫn giữ màu */
+.khong-mau-thanh :is(.t0, .t1, .t2, .t3, .t4):not(.nut-thanh) { color: inherit; }
+.chu-thich-mau-thanh { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: .82rem; color: var(--chu-phu); margin: 6px 0 2px; }
+.chu-thich-mau-thanh b { font-family: var(--font-pinyin); font-size: 1rem; }
+/* Bảng chú thích trong Cài đặt luôn hiện màu, để biết màu nghĩa là gì trước khi bật lại */
+.khong-mau-thanh .chu-thich-mau-thanh .t1 { color: var(--thanh-1); }
+.khong-mau-thanh .chu-thich-mau-thanh .t2 { color: var(--thanh-2); }
+.khong-mau-thanh .chu-thich-mau-thanh .t3 { color: var(--thanh-3); }
+.khong-mau-thanh .chu-thich-mau-thanh .t4 { color: var(--thanh-4); }
+.khong-mau-thanh .chu-thich-mau-thanh .t0 { color: var(--thanh-0); }
 
 /* ---------- 4. Màu riêng 5 phần học (trang chủ, luyện tập) ---------- */
 .phan-on      { --mau: #2563eb; }
