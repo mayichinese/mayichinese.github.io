@@ -1,0 +1,551 @@
+{
+ "_ghiChu": "File tạo tự động bởi cong-cu/ghep-ngu-phap.py từ cong-cu/nguon-ngu-phap/ – không sửa tay.",
+ "capDo": 1,
+ "nguon": "Danh mục theo HSK考试大纲 (2025) – 语法大纲 cấp 1; giải thích và ví dụ soạn riêng cho app.",
+ "diem": [
+  {
+   "id": "la-shi",
+   "ten": "Câu chữ 是 – \"A là B\"",
+   "deCuong": "特殊句型 · “是”字句1（表示等同或类属）",
+   "congThuc": [
+    "A + 是 + B",
+    "A + 不是 + B  (phủ định)"
+   ],
+   "giaiThich": [
+    "是 nối hai danh từ / đại từ, nghĩa là \"là\": giới thiệu bản thân, nghề nghiệp, quốc tịch, quan hệ gia đình.",
+    "Phủ định: thêm 不 trước 是 → 不是 (đọc bú shì).",
+    "是 không đổi theo ngôi hay thời gian: 我是, 他是, 我们是… đều giữ nguyên."
+   ],
+   "loiHayMac": [
+    "Không dùng 是 trước tính từ: nói 他很高兴, không nói 他是高兴 (xem điểm \"Câu vị ngữ tính từ\").",
+    "Không bỏ 是 như cách nói tắt của tiếng Việt (\"Tôi học sinh\"): phải nói 我是学生."
+   ],
+   "viDu": [
+    {
+     "han": "我是学生。",
+     "manh": [
+      "我",
+      "是",
+      "学生"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ shì xuéshēng.",
+     "dich": "Tôi là học sinh."
+    },
+    {
+     "han": "她是我妈妈。",
+     "manh": [
+      "她",
+      "是",
+      "我",
+      "妈妈"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā shì wǒ māma.",
+     "dich": "Bà ấy là mẹ tôi."
+    },
+    {
+     "han": "他不是老师。",
+     "manh": [
+      "他",
+      "不是",
+      "老师"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā bú shì lǎoshī.",
+     "dich": "Anh ấy không phải là giáo viên."
+    },
+    {
+     "han": "他是中国人。",
+     "manh": [
+      "他",
+      "是",
+      "中国人"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā shì Zhōngguórén.",
+     "dich": "Anh ấy là người Trung Quốc."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "他___医生。",
+     "dapAn": "是",
+     "nhieu": [
+      "很",
+      "吗",
+      "不"
+     ],
+     "pinyin": "Tā shì yīshēng.",
+     "dich": "Anh ấy là bác sĩ."
+    },
+    {
+     "cau": "她不___老师。",
+     "dapAn": "是",
+     "nhieu": [
+      "很",
+      "有",
+      "吗"
+     ],
+     "pinyin": "Tā bú shì lǎoshī.",
+     "dich": "Cô ấy không phải là giáo viên."
+    },
+    {
+     "cau": "你___中国人吗？",
+     "dapAn": "是",
+     "nhieu": [
+      "很",
+      "不",
+      "好"
+     ],
+     "pinyin": "Nǐ shì Zhōngguórén ma?",
+     "dich": "Bạn là người Trung Quốc phải không?"
+    }
+   ],
+   "canKiemTra": [],
+   "hocSauBai": 7
+  },
+  {
+   "id": "cau-hoi-ma",
+   "ten": "Câu hỏi có / không với 吗",
+   "deCuong": "句类 · 疑问句（1）是非问句 · 语气助词“吗”",
+   "congThuc": [
+    "Câu trần thuật + 吗？"
+   ],
+   "giaiThich": [
+    "Thêm 吗 vào CUỐI câu trần thuật để hỏi \"có … không / phải không\". Trật tự các từ giữ nguyên.",
+    "Trả lời bằng cách lặp lại động từ hoặc tính từ: 是 / 不是, 好 / 不好, 认识 / 不认识.",
+    "吗 đọc thanh nhẹ: ma."
+   ],
+   "loiHayMac": [
+    "Câu đã có từ để hỏi (什么, 谁, 哪儿…) thì KHÔNG thêm 吗: nói 你叫什么名字？, không nói 你叫什么名字吗？",
+    "Không đảo trật tự từ như tiếng Anh – chỉ thêm 吗 ở cuối câu."
+   ],
+   "viDu": [
+    {
+     "han": "你是老师吗？",
+     "manh": [
+      "你",
+      "是",
+      "老师",
+      "吗"
+     ],
+     "dauCau": "？",
+     "khac": [],
+     "pinyin": "Nǐ shì lǎoshī ma?",
+     "dich": "Bạn là giáo viên phải không?"
+    },
+    {
+     "han": "你好吗？",
+     "manh": [
+      "你",
+      "好",
+      "吗"
+     ],
+     "dauCau": "？",
+     "khac": [],
+     "pinyin": "Nǐ hǎo ma?",
+     "dich": "Bạn khỏe không?"
+    },
+    {
+     "han": "他是你哥哥吗？",
+     "manh": [
+      "他",
+      "是",
+      "你",
+      "哥哥",
+      "吗"
+     ],
+     "dauCau": "？",
+     "khac": [],
+     "pinyin": "Tā shì nǐ gēge ma?",
+     "dich": "Anh ấy là anh trai bạn à?"
+    },
+    {
+     "han": "你认识他吗？",
+     "manh": [
+      "你",
+      "认识",
+      "他",
+      "吗"
+     ],
+     "dauCau": "？",
+     "khac": [],
+     "pinyin": "Nǐ rènshi tā ma?",
+     "dich": "Bạn có quen anh ấy không?"
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "你是学生___？",
+     "dapAn": "吗",
+     "nhieu": [
+      "什么",
+      "谁",
+      "不"
+     ],
+     "pinyin": "Nǐ shì xuéshēng ma?",
+     "dich": "Bạn là học sinh phải không?"
+    },
+    {
+     "cau": "你认识我___？",
+     "dapAn": "吗",
+     "nhieu": [
+      "哪",
+      "很",
+      "是"
+     ],
+     "pinyin": "Nǐ rènshi wǒ ma?",
+     "dich": "Bạn có quen tôi không?"
+    },
+    {
+     "cau": "她是你妈妈___？",
+     "dapAn": "吗",
+     "nhieu": [
+      "谁",
+      "什么",
+      "不"
+     ],
+     "pinyin": "Tā shì nǐ māma ma?",
+     "dich": "Bà ấy là mẹ bạn phải không?"
+    }
+   ],
+   "canKiemTra": [],
+   "hocSauBai": 7
+  },
+  {
+   "id": "vi-ngu-tinh-tu",
+   "ten": "Câu vị ngữ tính từ (很 + tính từ)",
+   "deCuong": "句型 · 主谓句2：形容词谓语句 · 程度副词“很”",
+   "congThuc": [
+    "Chủ ngữ + 很 + tính từ",
+    "Chủ ngữ + 不 + tính từ  (phủ định)"
+   ],
+   "giaiThich": [
+    "Tính từ đứng ngay sau chủ ngữ làm vị ngữ, KHÔNG cần 是.",
+    "Câu khẳng định thường có 很 trước tính từ. 很 ở đây nhiều khi chỉ để câu tự nhiên, nghĩa \"rất\" rất nhẹ.",
+    "Phủ định: 不 + tính từ, không cần 很: 不大, 不冷."
+   ],
+   "loiHayMac": [
+    "Không nói 他是高兴 hay 我是很好 – bỏ 是: 他很高兴, 我很好.",
+    "Câu khẳng định đứng một mình mà bỏ 很 thường mang ý so sánh (cái này to – còn cái kia thì không), nên người mới học hãy giữ 很."
+   ],
+   "viDu": [
+    {
+     "han": "我很好。",
+     "manh": [
+      "我",
+      "很",
+      "好"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ hěn hǎo.",
+     "dich": "Tôi khỏe."
+    },
+    {
+     "han": "今天很冷。",
+     "manh": [
+      "今天",
+      "很",
+      "冷"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Jīntiān hěn lěng.",
+     "dich": "Hôm nay lạnh."
+    },
+    {
+     "han": "学校很大。",
+     "manh": [
+      "学校",
+      "很",
+      "大"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Xuéxiào hěn dà.",
+     "dich": "Trường học rất rộng."
+    },
+    {
+     "han": "我不高兴。",
+     "manh": [
+      "我",
+      "不",
+      "高兴"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ bù gāoxìng.",
+     "dich": "Tôi không vui."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "他___高兴。",
+     "dapAn": "很",
+     "nhieu": [
+      "是",
+      "吗",
+      "有"
+     ],
+     "pinyin": "Tā hěn gāoxìng.",
+     "dich": "Anh ấy rất vui."
+    },
+    {
+     "cau": "今天不___。",
+     "dapAn": "冷",
+     "nhieu": [
+      "很",
+      "是",
+      "吗"
+     ],
+     "pinyin": "Jīntiān bù lěng.",
+     "dich": "Hôm nay không lạnh."
+    },
+    {
+     "cau": "学校很___。",
+     "dapAn": "大",
+     "nhieu": [
+      "是",
+      "吗",
+      "不"
+     ],
+     "pinyin": "Xuéxiào hěn dà.",
+     "dich": "Trường học rất rộng."
+    }
+   ],
+   "canKiemTra": [],
+   "hocSauBai": 18
+  },
+  {
+   "id": "phu-dinh-bu",
+   "ten": "Phủ định với 不",
+   "deCuong": "词类 · 副词 · 否定副词“不”",
+   "congThuc": [
+    "不 + động từ / tính từ"
+   ],
+   "giaiThich": [
+    "不 đứng TRƯỚC động từ hoặc tính từ để phủ định: không (làm), không (như thế).",
+    "Dùng cho hiện tại, tương lai, thói quen, ý muốn: 我不去 – tôi không đi.",
+    "不 đọc bù; đứng trước âm tiết thanh 4 thì đọc bú: 不是 bú shì, 不去 bú qù."
+   ],
+   "loiHayMac": [
+    "Không dùng 不 với 有: phải nói 没有 (sẽ học ở điểm 没 / 没有).",
+    "不 đứng trước cả cụm động từ: 我不喝茶, không nói 我喝不茶."
+   ],
+   "viDu": [
+    {
+     "han": "我不去学校。",
+     "manh": [
+      "我",
+      "不",
+      "去",
+      "学校"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ bú qù xuéxiào.",
+     "dich": "Tôi không đến trường."
+    },
+    {
+     "han": "他不喝茶。",
+     "manh": [
+      "他",
+      "不",
+      "喝",
+      "茶"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā bù hē chá.",
+     "dich": "Anh ấy không uống trà."
+    },
+    {
+     "han": "我不认识她。",
+     "manh": [
+      "我",
+      "不",
+      "认识",
+      "她"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ bú rènshi tā.",
+     "dich": "Tôi không quen cô ấy."
+    },
+    {
+     "han": "这个不贵。",
+     "manh": [
+      "这个",
+      "不",
+      "贵"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zhège bú guì.",
+     "dich": "Cái này không đắt."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "我___去医院。",
+     "dapAn": "不",
+     "nhieu": [
+      "很",
+      "吗",
+      "的"
+     ],
+     "pinyin": "Wǒ bú qù yīyuàn.",
+     "dich": "Tôi không đi bệnh viện."
+    },
+    {
+     "cau": "他___喝水。",
+     "dapAn": "不",
+     "nhieu": [
+      "很",
+      "吗",
+      "个"
+     ],
+     "pinyin": "Tā bù hē shuǐ.",
+     "dich": "Anh ấy không uống nước."
+    },
+    {
+     "cau": "她___认识我。",
+     "dapAn": "不",
+     "nhieu": [
+      "很",
+      "吗",
+      "个"
+     ],
+     "pinyin": "Tā bú rènshi wǒ.",
+     "dich": "Cô ấy không quen tôi."
+    }
+   ],
+   "canKiemTra": [],
+   "hocSauBai": 16
+  },
+  {
+   "id": "tu-de-hoi",
+   "ten": "Câu hỏi với từ để hỏi: 什么, 谁, 哪儿, 哪",
+   "deCuong": "句类 · 疑问句（2）特指问句 · 疑问代词",
+   "congThuc": [
+    "Thay phần muốn hỏi bằng từ để hỏi, GIỮ NGUYÊN vị trí"
+   ],
+   "giaiThich": [
+    "什么 = gì, cái gì · 谁 = ai · 哪儿 = ở đâu · 哪 + danh từ = … nào.",
+    "Câu hỏi có trật tự giống hệt câu trả lời: 你叫什么名字？ → 我叫…；他是谁？ → 他是我哥哥.",
+    "Câu đã có từ để hỏi thì KHÔNG thêm 吗."
+   ],
+   "loiHayMac": [
+    "Không đưa từ để hỏi lên đầu câu như tiếng Anh: nói 你去哪儿？, không nói 哪儿你去？",
+    "Hỏi quốc tịch: 你是哪国人？ (Bạn là người nước nào?)"
+   ],
+   "viDu": [
+    {
+     "han": "你叫什么名字？",
+     "manh": [
+      "你",
+      "叫",
+      "什么",
+      "名字"
+     ],
+     "dauCau": "？",
+     "khac": [],
+     "pinyin": "Nǐ jiào shénme míngzi?",
+     "dich": "Bạn tên là gì?"
+    },
+    {
+     "han": "他是谁？",
+     "manh": [
+      "他",
+      "是",
+      "谁"
+     ],
+     "dauCau": "？",
+     "khac": [],
+     "pinyin": "Tā shì shéi?",
+     "dich": "Anh ấy là ai?"
+    },
+    {
+     "han": "你去哪儿？",
+     "manh": [
+      "你",
+      "去",
+      "哪儿"
+     ],
+     "dauCau": "？",
+     "khac": [],
+     "pinyin": "Nǐ qù nǎr?",
+     "dich": "Bạn đi đâu?"
+    },
+    {
+     "han": "你喝什么？",
+     "manh": [
+      "你",
+      "喝",
+      "什么"
+     ],
+     "dauCau": "？",
+     "khac": [],
+     "pinyin": "Nǐ hē shénme?",
+     "dich": "Bạn uống gì?"
+    },
+    {
+     "han": "你是哪国人？",
+     "manh": [
+      "你",
+      "是",
+      "哪国",
+      "人"
+     ],
+     "dauCau": "？",
+     "khac": [],
+     "pinyin": "Nǐ shì nǎ guó rén?",
+     "dich": "Bạn là người nước nào?"
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "你叫___名字？",
+     "dapAn": "什么",
+     "nhieu": [
+      "吗",
+      "谁",
+      "哪儿"
+     ],
+     "pinyin": "Nǐ jiào shénme míngzi?",
+     "dich": "Bạn tên là gì?"
+    },
+    {
+     "cau": "那个人是___？",
+     "dapAn": "谁",
+     "nhieu": [
+      "很",
+      "吗",
+      "哪儿"
+     ],
+     "pinyin": "Nàge rén shì shéi?",
+     "dich": "Người kia là ai?"
+    },
+    {
+     "cau": "你去___？",
+     "dapAn": "哪儿",
+     "nhieu": [
+      "什么",
+      "谁",
+      "很"
+     ],
+     "pinyin": "Nǐ qù nǎr?",
+     "dich": "Bạn đi đâu?"
+    }
+   ],
+   "canKiemTra": [],
+   "hocSauBai": 14
+  }
+ ]
+}

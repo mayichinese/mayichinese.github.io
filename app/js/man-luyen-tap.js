@@ -3,7 +3,7 @@
 //   🎧 Thanh điệu  → #/thanh-dieu   (Giai đoạn 2)
 //   ✍️ Viết chữ    → #/luyen-viet   (Giai đoạn 2)
 //   📝 Trắc nghiệm → #/trac-nghiem  (Giai đoạn 3)
-//   🧩 Ngữ pháp    → Sắp có (Giai đoạn 4)
+//   🧩 Ngữ pháp    → #/ngu-phap     (Giai đoạn 4)
 // =========================================================
 
 import { caiDat, nhatKyHomNay } from './luu-tru.js';
@@ -16,8 +16,8 @@ const CAC_PHAN = [
     moTa: '100 chữ cần viết tay HSK 1–2: xem thứ tự nét, viết theo, viết không nhìn.' },
   { ma: 'nguPhap', emoji: '📝', ten: 'Trắc nghiệm', href: '#/trac-nghiem', phut: 'nguPhap',
     moTa: 'Chữ → nghĩa, nghĩa → chữ, nghe → chữ, chọn pinyin đúng. Câu sai vào sổ để ôn lại.' },
-  { ma: 'nguPhap', emoji: '🧩', ten: 'Ngữ pháp', sapCo: true,
-    moTa: 'Điểm ngữ pháp HSK 1–3, sắp xếp câu, điền từ (Giai đoạn 4).' },
+  { ma: 'nguPhap', emoji: '🧩', ten: 'Ngữ pháp', href: '#/ngu-phap', phut: 'nguPhap',
+    moTa: 'Điểm ngữ pháp HSK 1: công thức, lỗi hay mắc, sắp xếp câu, điền từ.' },
 ];
 
 export function veLuyenTap(khung) {

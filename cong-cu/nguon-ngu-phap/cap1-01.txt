@@ -1,0 +1,92 @@
+# ===== NGỮ PHÁP HSK 1 – ĐỢT 1 (soạn tay) =====
+# Cách viết: xem đầu file cong-cu/ghep-ngu-phap.py. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1.
+# Pinyin theo cách ghi của danh sách từ chính thức; 不/一 ghi theo cách đọc đã biến điệu.
+# Sửa xong chạy: python -X utf8 cong-cu/ghep-ngu-phap.py
+
+## la-shi
+@ Câu chữ 是 – "A là B"
+§ 特殊句型 · “是”字句1（表示等同或类属）
+= A + 是 + B
+= A + 不是 + B  (phủ định)
+- 是 nối hai danh từ / đại từ, nghĩa là "là": giới thiệu bản thân, nghề nghiệp, quốc tịch, quan hệ gia đình.
+- Phủ định: thêm 不 trước 是 → 不是 (đọc bú shì).
+- 是 không đổi theo ngôi hay thời gian: 我是, 他是, 我们是… đều giữ nguyên.
+! Không dùng 是 trước tính từ: nói 他很高兴, không nói 他是高兴 (xem điểm "Câu vị ngữ tính từ").
+! Không bỏ 是 như cách nói tắt của tiếng Việt ("Tôi học sinh"): phải nói 我是学生.
+> 我/是/学生。 | Wǒ shì xuéshēng. | Tôi là học sinh.
+> 她/是/我/妈妈。 | Tā shì wǒ māma. | Bà ấy là mẹ tôi.
+> 他/不是/老师。 | Tā bú shì lǎoshī. | Anh ấy không phải là giáo viên.
+> 他/是/中国人。 | Tā shì Zhōngguórén. | Anh ấy là người Trung Quốc.
+? 他___医生。 | 是 | 很; 吗; 不 | Tā shì yīshēng. | Anh ấy là bác sĩ.
+? 她不___老师。 | 是 | 很; 有; 吗 | Tā bú shì lǎoshī. | Cô ấy không phải là giáo viên.
+? 你___中国人吗？ | 是 | 很; 不; 好 | Nǐ shì Zhōngguórén ma? | Bạn là người Trung Quốc phải không?
+
+## cau-hoi-ma
+@ Câu hỏi có / không với 吗
+§ 句类 · 疑问句（1）是非问句 · 语气助词“吗”
+= Câu trần thuật + 吗？
+- Thêm 吗 vào CUỐI câu trần thuật để hỏi "có … không / phải không". Trật tự các từ giữ nguyên.
+- Trả lời bằng cách lặp lại động từ hoặc tính từ: 是 / 不是, 好 / 不好, 认识 / 不认识.
+- 吗 đọc thanh nhẹ: ma.
+! Câu đã có từ để hỏi (什么, 谁, 哪儿…) thì KHÔNG thêm 吗: nói 你叫什么名字？, không nói 你叫什么名字吗？
+! Không đảo trật tự từ như tiếng Anh – chỉ thêm 吗 ở cuối câu.
+> 你/是/老师/吗？ | Nǐ shì lǎoshī ma? | Bạn là giáo viên phải không?
+> 你/好/吗？ | Nǐ hǎo ma? | Bạn khỏe không?
+> 他/是/你/哥哥/吗？ | Tā shì nǐ gēge ma? | Anh ấy là anh trai bạn à?
+> 你/认识/他/吗？ | Nǐ rènshi tā ma? | Bạn có quen anh ấy không?
+? 你是学生___？ | 吗 | 什么; 谁; 不 | Nǐ shì xuéshēng ma? | Bạn là học sinh phải không?
+? 你认识我___？ | 吗 | 哪; 很; 是 | Nǐ rènshi wǒ ma? | Bạn có quen tôi không?
+? 她是你妈妈___？ | 吗 | 谁; 什么; 不 | Tā shì nǐ māma ma? | Bà ấy là mẹ bạn phải không?
+
+## vi-ngu-tinh-tu
+@ Câu vị ngữ tính từ (很 + tính từ)
+§ 句型 · 主谓句2：形容词谓语句 · 程度副词“很”
+= Chủ ngữ + 很 + tính từ
+= Chủ ngữ + 不 + tính từ  (phủ định)
+- Tính từ đứng ngay sau chủ ngữ làm vị ngữ, KHÔNG cần 是.
+- Câu khẳng định thường có 很 trước tính từ. 很 ở đây nhiều khi chỉ để câu tự nhiên, nghĩa "rất" rất nhẹ.
+- Phủ định: 不 + tính từ, không cần 很: 不大, 不冷.
+! Không nói 他是高兴 hay 我是很好 – bỏ 是: 他很高兴, 我很好.
+! Câu khẳng định đứng một mình mà bỏ 很 thường mang ý so sánh (cái này to – còn cái kia thì không), nên người mới học hãy giữ 很.
+> 我/很/好。 | Wǒ hěn hǎo. | Tôi khỏe.
+> 今天/很/冷。 | Jīntiān hěn lěng. | Hôm nay lạnh.
+> 学校/很/大。 | Xuéxiào hěn dà. | Trường học rất rộng.
+> 我/不/高兴。 | Wǒ bù gāoxìng. | Tôi không vui.
+? 他___高兴。 | 很 | 是; 吗; 有 | Tā hěn gāoxìng. | Anh ấy rất vui.
+? 今天不___。 | 冷 | 很; 是; 吗 | Jīntiān bù lěng. | Hôm nay không lạnh.
+? 学校很___。 | 大 | 是; 吗; 不 | Xuéxiào hěn dà. | Trường học rất rộng.
+
+## phu-dinh-bu
+@ Phủ định với 不
+§ 词类 · 副词 · 否定副词“不”
+= 不 + động từ / tính từ
+- 不 đứng TRƯỚC động từ hoặc tính từ để phủ định: không (làm), không (như thế).
+- Dùng cho hiện tại, tương lai, thói quen, ý muốn: 我不去 – tôi không đi.
+- 不 đọc bù; đứng trước âm tiết thanh 4 thì đọc bú: 不是 bú shì, 不去 bú qù.
+! Không dùng 不 với 有: phải nói 没有 (sẽ học ở điểm 没 / 没有).
+! 不 đứng trước cả cụm động từ: 我不喝茶, không nói 我喝不茶.
+> 我/不/去/学校。 | Wǒ bú qù xuéxiào. | Tôi không đến trường.
+> 他/不/喝/茶。 | Tā bù hē chá. | Anh ấy không uống trà.
+> 我/不/认识/她。 | Wǒ bú rènshi tā. | Tôi không quen cô ấy.
+> 这个/不/贵。 | Zhège bú guì. | Cái này không đắt.
+? 我___去医院。 | 不 | 很; 吗; 的 | Wǒ bú qù yīyuàn. | Tôi không đi bệnh viện.
+? 他___喝水。 | 不 | 很; 吗; 个 | Tā bù hē shuǐ. | Anh ấy không uống nước.
+? 她___认识我。 | 不 | 很; 吗; 个 | Tā bú rènshi wǒ. | Cô ấy không quen tôi.
+
+## tu-de-hoi
+@ Câu hỏi với từ để hỏi: 什么, 谁, 哪儿, 哪
+§ 句类 · 疑问句（2）特指问句 · 疑问代词
+= Thay phần muốn hỏi bằng từ để hỏi, GIỮ NGUYÊN vị trí
+- 什么 = gì, cái gì · 谁 = ai · 哪儿 = ở đâu · 哪 + danh từ = … nào.
+- Câu hỏi có trật tự giống hệt câu trả lời: 你叫什么名字？ → 我叫…；他是谁？ → 他是我哥哥.
+- Câu đã có từ để hỏi thì KHÔNG thêm 吗.
+! Không đưa từ để hỏi lên đầu câu như tiếng Anh: nói 你去哪儿？, không nói 哪儿你去？
+! Hỏi quốc tịch: 你是哪国人？ (Bạn là người nước nào?)
+> 你/叫/什么/名字？ | Nǐ jiào shénme míngzi? | Bạn tên là gì?
+> 他/是/谁？ | Tā shì shéi? | Anh ấy là ai?
+> 你/去/哪儿？ | Nǐ qù nǎr? | Bạn đi đâu?
+> 你/喝/什么？ | Nǐ hē shénme? | Bạn uống gì?
+> 你/是/哪国/人？ | Nǐ shì nǎ guó rén? | Bạn là người nước nào?
+? 你叫___名字？ | 什么 | 吗; 谁; 哪儿 | Nǐ jiào shénme míngzi? | Bạn tên là gì?
+? 那个人是___？ | 谁 | 很; 吗; 哪儿 | Nàge rén shì shéi? | Người kia là ai?
+? 你去___？ | 哪儿 | 什么; 谁; 很 | Nǐ qù nǎr? | Bạn đi đâu?

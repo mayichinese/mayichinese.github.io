@@ -123,8 +123,12 @@ export function veTrangChu(khung) {
   const tnXong = phut('nguPhap') >= mt.nguPhap;
   const soSai = Object.keys(td.tracNghiem.soSai).length;
   const duTuTracNghiem = daHoc >= 4;
+  // Ngữ pháp cần ôn: đếm thẳng từ lịch ôn (không cần tải dữ liệu ngữ pháp)
+  const npCanOn = Object.values(td.nguPhap.the).filter((t) => dangHoc(t) || t.han <= Date.now()).length;
+  const daLam5 = (nk.tracNghiem || 0) + (nk.nguPhap || 0);
   const moTaTracNghiem = [
-    nk.tracNghiem ? `Đã làm <b>${nk.tracNghiem}</b> câu` : (duTuTracNghiem ? 'Trắc nghiệm từ đã học' : 'Học từ 4 từ trở lên để làm trắc nghiệm'),
+    daLam5 ? `Đã làm <b>${daLam5}</b> câu` : (duTuTracNghiem ? 'Trắc nghiệm từ đã học, học ngữ pháp' : 'Học ngữ pháp; học từ 4 từ để làm trắc nghiệm'),
+    npCanOn ? `ngữ pháp cần ôn: <b>${npCanOn}</b>` : '',
     soSai ? `sổ câu sai: <b>${soSai}</b>` : '',
   ].filter(Boolean).join(' · ');
   const tienDoTracNghiem = Math.min(100, Math.round((phut('nguPhap') / mt.nguPhap) * 100));
@@ -135,6 +139,7 @@ export function veTrangChu(khung) {
   else if (!moiXong) batDau = { chu: 'Học từ mới', href: '#/hoc-moi' };
   else if (!ngheXong) batDau = { chu: 'Luyện thanh điệu', href: '#/thanh-dieu' };
   else if (!vietXong) batDau = { chu: 'Luyện viết chữ', href: '#/luyen-viet/phien' };
+  else if (!tnXong && npCanOn) batDau = { chu: `Ôn ${npCanOn} điểm ngữ pháp`, href: '#/ngu-phap/on' };
   else if (!tnXong && duTuTracNghiem) batDau = { chu: 'Làm trắc nghiệm', href: '#/trac-nghiem/tron' };
   else batDau = { chu: 'Xem lại bài học', href: '#/bai' };
 
@@ -162,7 +167,7 @@ export function veTrangChu(khung) {
     { ma: 'viet', emoji: '✍️', ten: 'Viết chữ Hán', phut: phut('viet'), mucTieu: mt.viet, moTa: moTaViet,
       href: '#/luyen-viet', phanTram: tienDoViet, xong: vietXong },
     { ma: 'nguPhap', emoji: '📝', ten: 'Trắc nghiệm & ngữ pháp', phut: phut('nguPhap'), mucTieu: mt.nguPhap, moTa: moTaTracNghiem,
-      href: '#/trac-nghiem', phanTram: tienDoTracNghiem, xong: tnXong },
+      href: '#/luyen-tap', phanTram: tienDoTracNghiem, xong: tnXong },
   ];
 
   khung.innerHTML = `
