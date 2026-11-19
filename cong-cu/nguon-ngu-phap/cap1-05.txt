@@ -1,0 +1,107 @@
+# ===== NGỮ PHÁP HSK 1 – ĐỢT 5 (soạn tay) =====
+# Cách viết: xem đầu file cong-cu/ghep-ngu-phap.py. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1.
+# Sửa xong chạy: python -X utf8 cong-cu/ghep-ngu-phap.py
+
+## le-xong
+@ 了 sau động từ: việc ĐÃ xảy ra, đã xong
+§ 动作的态 · 完成态（用动态助词“了1”表示）· 助词“了1”
+= Chủ ngữ + động từ + 了 + (số lượng) + tân ngữ
+= Phủ định: 没 + động từ  (BỎ 了)
+- 了 đặt ngay sau động từ cho biết hành động đã xảy ra, đã xong: 我买了一本书 (tôi đã mua một quyển sách).
+- Tân ngữ sau 了 thường có số lượng hoặc phần bổ nghĩa (一本书, 两杯茶); chỉ có danh từ trơn thì câu nghe như chưa nói hết.
+- Phủ định việc đã không / chưa xảy ra: 没 + động từ, và bỏ 了: 我没买书.
+- Hỏi: ……了吗？ – 你吃饭了吗？ (bạn ăn cơm chưa?).
+! Việc trong quá khứ không phủ định bằng 不: "hôm qua tôi không đi học" là 我昨天没去学校, không nói 我昨天不去学校.
+! Phủ định thì bỏ 了: nói 我没买, không nói 我没买了.
+> 我/买/了/一本/书。 | Wǒ mǎi le yì běn shū. | Tôi đã mua một quyển sách.
+> 他/喝/了/两杯/茶。 | Tā hē le liǎng bēi chá. | Anh ấy đã uống hai cốc trà.
+> 昨天/我/看/了/一个/电影。 | Zuótiān wǒ kàn le yí gè diànyǐng. | Hôm qua tôi đã xem một bộ phim.
+~ 我/昨天/看/了/一个/电影。
+> 我/昨天/没/去/学校。 | Wǒ zuótiān méi qù xuéxiào. | Hôm qua tôi không đi học.
+~ 昨天/我/没/去/学校。
+> 你/吃/饭/了/吗？ | Nǐ chī fàn le ma? | Bạn ăn cơm chưa?
+? 我买___一本书。 | 了 | 吗; 呢; 很 | Wǒ mǎi le yì běn shū. | Tôi đã mua một quyển sách.
+? 我昨天___去学校。 | 没 | 不; 很; 吗 | Wǒ zuótiān méi qù xuéxiào. | Hôm qua tôi không đi học.
+? 他喝了___杯茶。 | 两 | 二; 了; 吗 | Tā hē le liǎng bēi chá. | Anh ấy đã uống hai cốc trà.
+
+## le-thay-doi
+@ 了 cuối câu: có sự THAY ĐỔI, tình hình mới
+§ 动作的态 · 变化态（用动态助词“了2”表示）· 语气助词“了2”
+= Câu + 了  (đã thành ra như vậy, bây giờ khác trước)
+- 了 ở CUỐI câu báo một tình hình mới, khác trước: 下雨了 (trời mưa rồi), 我二十岁了 (tôi 20 tuổi rồi).
+- Hay dùng với thời tiết, tính từ, tuổi, giờ giấc: 天气冷了, 现在八点了.
+- 不……了 = không … nữa (đổi ý): 我不去了 (tôi không đi nữa).
+- 太 + tính từ + 了 = quá … (cảm thán), sẽ học ở điểm câu cảm thán.
+! Chỉ báo giờ bình thường thì không cần 了 (现在八点); thêm 了 là nhấn mạnh "đã 8 giờ rồi" (ví dụ: phải đi thôi).
+! 我不去 (tôi không đi – vốn không định đi) khác 我不去了 (định đi, giờ thôi không đi nữa).
+> 下雨/了。 | Xià yǔ le. | Trời mưa rồi.
+> 天气/冷/了。 | Tiānqì lěng le. | Trời lạnh rồi.
+> 我/女儿/五/岁/了。 | Wǒ nǚ'ér wǔ suì le. | Con gái tôi năm tuổi rồi.
+> 现在/十二点/了。 | Xiànzài shí'èr diǎn le. | Bây giờ mười hai giờ rồi.
+> 我/不/去/了。 | Wǒ bú qù le. | Tôi không đi nữa.
+? 天气热___。 | 了 | 的; 很; 个 | Tiānqì rè le. | Trời nóng rồi.
+? 我儿子十岁___。 | 了 | 的; 个; 很 | Wǒ érzi shí suì le. | Con trai tôi mười tuổi rồi.
+? 我不去___。 | 了 | 很; 个; 是 | Wǒ bú qù le. | Tôi không đi nữa.
+
+## bu-mei
+@ Phân biệt 不 và 没 (没有)
+§ 副词 · 否定副词“不、没（有）”
+= 不 + động từ / tính từ: không (hiện tại, tương lai, thói quen, ý muốn)
+= 没 + động từ: đã không / chưa (việc chưa xảy ra)
+= 没有 + danh từ: không có
+- 不: không muốn, không định, vốn không làm, hoặc phủ định tính chất: 我不喝茶 (tôi không uống trà – vốn không uống), 他不高兴.
+- 没: việc đã không xảy ra hoặc chưa xảy ra: 我今天没喝茶 (hôm nay tôi chưa uống trà).
+- 没有 + danh từ = không có: 我没有手机.
+- 是, 认识, 喜欢, 知道, 会, 能 và tính từ thường dùng 不: 不是, 不认识, 不喜欢.
+! "Tôi chưa ăn cơm" là 我还没吃饭 hoặc 我没吃饭; 我不吃饭 nghĩa là "tôi không ăn cơm / không muốn ăn".
+! Không nói 不有 hay 没是 – phải là 没有 và 不是.
+> 我/不/喝/茶。 | Wǒ bù hē chá. | Tôi không uống trà.
+> 我/今天/没/喝/茶。 | Wǒ jīntiān méi hē chá. | Hôm nay tôi chưa uống trà.
+~ 今天/我/没/喝/茶。
+> 我/还/没/吃/饭。 | Wǒ hái méi chī fàn. | Tôi vẫn chưa ăn cơm.
+> 他/不/认识/我。 | Tā bú rènshi wǒ. | Anh ấy không quen tôi.
+> 她/昨天/没/来。 | Tā zuótiān méi lái. | Hôm qua cô ấy không đến.
+~ 昨天/她/没/来。
+? 他___是老师。 | 不 | 没; 很; 吗 | Tā bú shì lǎoshī. | Anh ấy không phải là giáo viên.
+? 她昨天___来。 | 没 | 不; 很; 吗 | Tā zuótiān méi lái. | Hôm qua cô ấy không đến.
+? 我___有手机。 | 没 | 不; 很; 吗 | Wǒ méi yǒu shǒujī. | Tôi không có điện thoại.
+
+## dang-lam
+@ Đang làm gì: 在 / 正在 + động từ (+ 呢)
+§ 动作的态 · 进行态（……在/正在+动词；……在/正在+动词……+呢；……呢）· 时间副词“在、正在”
+= Chủ ngữ + 在 / 正在 + động từ + (tân ngữ) + (呢)
+= Chủ ngữ + động từ + tân ngữ + 呢
+- 在 / 正在 đặt trước động từ = đang (làm): 我在看书 (tôi đang đọc sách). 正在 nhấn mạnh "ngay lúc này".
+- Thêm 呢 ở cuối câu cho tự nhiên, nhất là khi nói chuyện: 他在睡觉呢.
+- Chỉ dùng 呢 cuối câu cũng diễn tả "đang": 他们吃饭呢.
+- Phủ định: 没在 + động từ: 我没在看电视 (tôi không phải đang xem tivi).
+! "Đang" không dùng 了: 我在吃饭 (đang ăn) khác 我吃饭了 (ăn rồi).
+! 在 "đang" (đứng trước động từ) khác 在 "ở" (đứng trước nơi chốn): 他在家看书 = anh ấy đọc sách ở nhà.
+> 我/在/看/书/呢。 | Wǒ zài kàn shū ne. | Tôi đang đọc sách.
+> 妈妈/正在/做/饭。 | Māma zhèngzài zuò fàn. | Mẹ đang nấu cơm.
+> 他/在/睡觉/呢。 | Tā zài shuìjiào ne. | Anh ấy đang ngủ.
+> 你/在/做/什么？ | Nǐ zài zuò shénme? | Bạn đang làm gì?
+> 他们/吃/饭/呢。 | Tāmen chī fàn ne. | Họ đang ăn cơm.
+? 我___看电视呢。 | 在 | 了; 很; 吗 | Wǒ zài kàn diànshì ne. | Tôi đang xem tivi.
+? 妈妈正在做饭___。 | 呢 | 了; 很; 个 | Māma zhèngzài zuò fàn ne. | Mẹ đang nấu cơm.
+? 你在做___？ | 什么 | 谁; 很; 个 | Nǐ zài zuò shénme? | Bạn đang làm gì?
+
+## ne-ba
+@ Trợ từ cuối câu 呢 và 吧
+§ 助词 · 语气助词“呢1、呢2、呢3、吧1”
+= ……，你呢？  (còn bạn thì sao?)
+= Danh từ + 呢？  (… đâu rồi?)
+= ……吧  (rủ, đề nghị "nhé"; đoán "chắc là …, phải không?")
+- 呢 hỏi lại cùng câu hỏi với người khác: 我很好，你呢？ (tôi khỏe, còn bạn?).
+- Danh từ + 呢？ hỏi người / vật đang ở đâu: 我的手机呢？ (điện thoại của tôi đâu rồi?).
+- 呢 còn dùng cho "đang" (điểm trước) và làm câu hỏi có từ để hỏi mềm hơn: 你去哪儿呢？
+- 吧 để rủ, đề nghị: 我们去吧 (chúng ta đi nhé); để đoán và muốn xác nhận: 你是老师吧？
+! 你是老师吗？ là hỏi thật (không biết); 你是老师吧？ là đã đoán gần chắc, chỉ muốn xác nhận.
+! "Còn bạn?" nói 你呢？, không nói 你吗？
+> 我/很/好，/你/呢？ | Wǒ hěn hǎo, nǐ ne? | Tôi khỏe, còn bạn?
+> 我/的/手机/呢？ | Wǒ de shǒujī ne? | Điện thoại của tôi đâu rồi?
+> 我们/去/吃/饭/吧。 | Wǒmen qù chī fàn ba. | Chúng ta đi ăn cơm nhé.
+> 你/是/老师/吧？ | Nǐ shì lǎoshī ba? | Bạn là giáo viên phải không?
+? 我是中国人，你___？ | 呢 | 吗; 吧; 了 | Wǒ shì Zhōngguórén, nǐ ne? | Tôi là người Trung Quốc, còn bạn?
+? 我们去吃饭___。 | 吧 | 很; 个; 是 | Wǒmen qù chī fàn ba. | Chúng ta đi ăn cơm nhé.
+? 我的书___？ | 呢 | 很; 个; 是 | Wǒ de shū ne? | Sách của tôi đâu rồi?

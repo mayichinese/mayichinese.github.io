@@ -1,4 +1,4 @@
-# Hướng dẫn sử dụng app Mayi Chinese (Giai đoạn 3)
+# Hướng dẫn sử dụng app Mayi Chinese (Giai đoạn 4)
 
 App chạy hoàn toàn trên trình duyệt, không cần đăng nhập, không cần mạng sau lần mở đầu tiên.
 Tiến độ học được lưu **ngay trong trình duyệt của máy đang dùng**.
@@ -58,7 +58,7 @@ Tiến độ trên máy tính và trên điện thoại là **hai bản riêng**
 |---|---|
 | 🏠 **Hôm nay** | Xem việc cần làm hôm nay, chuỗi ngày học liên tục, 7 ngày trong tuần, kế hoạch 60 phút |
 | 📚 **Bài học** | Vào Ôn tập / Từ mới, chọn bài, tìm từ (chữ Hán, pinyin, nghĩa, Hán Việt) |
-| ✏️ **Luyện tập** | 🎧 Luyện thanh điệu, ✍️ Luyện viết chữ Hán, 📝 Trắc nghiệm. Ngữ pháp: **Sắp có** |
+| ✏️ **Luyện tập** | 🎧 Luyện thanh điệu, ✍️ Luyện viết chữ Hán, 📝 Trắc nghiệm, 🧩 Ngữ pháp |
 | 📊 **Thống kê** | **Sắp có** |
 
 Hai nút ở góc trên bên phải: **🌙/☀️** chuyển nhanh giữa giao diện tối và sáng; nút **Cài đặt** (biểu tượng thanh trượt) mở phần cài đặt và sao lưu.
@@ -67,7 +67,7 @@ Mặc định app sáng/tối **theo máy**. Muốn quay lại chế độ này:
 **Màu thanh điệu:** pinyin và chữ Hán ở mặt sau thẻ được tô màu theo thanh, giúp nhớ thanh điệu:
 thanh 1 **đỏ**, thanh 2 **cam**, thanh 3 **xanh lá**, thanh 4 **xanh dương**, thanh nhẹ **xám**.
 
-Màn hình **Hôm nay** hiện 5 phần theo thứ tự. Đã có đủ 5 phần; riêng phần ngữ pháp trong phần 5 sẽ làm ở Giai đoạn 4. Nút **Bắt đầu** trên khung chào sẽ chọn sẵn việc nên làm tiếp theo.
+Màn hình **Hôm nay** hiện 5 phần theo thứ tự. Đã có đủ 5 phần (phần 5 gồm trắc nghiệm và ngữ pháp). Nút **Bắt đầu** trên khung chào sẽ chọn sẵn việc nên làm tiếp theo.
 
 1. **Ôn từ đến hạn (~15 phút):** app đưa ra chữ Hán trong ô chữ điền. Bạn tự nhớ lại cách đọc và nghĩa → chạm vào thẻ hoặc bấm **Lật thẻ** → tự chấm điểm:
    - **Quên:** không nhớ, sẽ hỏi lại sau vài phút.
@@ -99,6 +99,12 @@ Màn hình **Hôm nay** hiện 5 phần theo thứ tự. Đã có đủ 5 phần
    - **Câu sai:** từ đó vào **📒 Sổ câu sai**. Nếu từ đó đang ở lịch ôn thẻ từ thì **thẻ đến hạn ôn ngay hôm nay**. Câu sai còn được hỏi lại ở cuối lượt.
    - **Ôn câu sai:** chỉ hỏi các từ trong sổ. Một từ được xóa khỏi sổ khi bạn trả lời đúng **2 lượt liên tiếp**.
    - **Kiểm tra theo bài:** trong trang Trắc nghiệm chọn "Bài 1…20", hoặc vào **Bài học → chọn bài → 📝 Kiểm tra bài này**. Cách này hỏi cả những từ chưa học, hợp để tự kiểm tra trước hoặc sau khi học một bài.
+
+   **Ngữ pháp** (cùng phần 5): **Luyện tập → 🧩 Ngữ pháp**. Có **35 điểm ngữ pháp HSK 1**, xếp theo thứ tự nên học, phủ hết các mục ngữ pháp cấp 1 trong đề cương 2025.
+   - Mỗi điểm có một trang bài học: **công thức**, **giải thích ngắn**, **⚠️ lỗi người Việt hay mắc**, **ví dụ** (pinyin tô màu, nút nghe). Dòng "dùng từ đến Bài N" cho biết ví dụ cần từ vựng của bài nào.
+   - **Luyện tập điểm này:** khoảng 7 câu, gồm **sắp xếp câu** (chạm từng mảnh theo đúng thứ tự, chạm lại để bỏ ra, rồi bấm Kiểm tra; có câu chấp nhận hai thứ tự) và **điền từ** (chọn 1 trong 4).
+   - App **tự chấm và xếp lịch ôn**: điểm mới làm đúng từ 80% trở lên → ôn lại sau 4 ngày; dưới 80% → luyện lại sớm. Khi ôn: từ 80% → Nhớ, 50–80% → Khó, dưới 50% → Quên. Điểm đến hạn hiện ở **Cần ôn** và trên trang Hôm nay.
+   - Ngữ pháp cấp 2–3 sẽ làm ở Giai đoạn 5, cùng với từ vựng HSK 2–3.
 
 Khi đang học, góc trên có **đồng hồ** đếm số phút đã học cho phần đó (chỉ đếm khi bạn đang thao tác).
 
@@ -142,6 +148,12 @@ Không nên sửa thẳng `app/data/hsk1.json`, vì lần chạy script sau sẽ
 - `app/data/thanh-dieu-hsk1.json` (chữ đa âm): tạo bằng `python -X utf8 cong-cu/tao-du-lieu-thanh-dieu.py`.
   Chạy lại sau khi sửa dữ liệu từ vựng.
 
+**Dữ liệu ngữ pháp:** soạn tay trong `cong-cu/nguon-ngu-phap/cap1-01.txt` … `cap1-07.txt` (mỗi file 5 điểm; cách viết ghi ở đầu file `cong-cu/ghep-ngu-phap.py`). Sửa xong chạy:
+   ```
+   python -X utf8 cong-cu/ghep-ngu-phap.py
+   ```
+   Script kiểm tra chữ ngoài cấp 1, pinyin (so với CC-CEDICT), biến điệu 不/一, mảnh sắp xếp và đáp án điền từ, rồi tạo `app/data/ngu-phap-hsk1.json`. Có **LỖI** thì không ghi file. Báo cáo nằm ở `cong-cu/bao-cao-ngu-phap.txt`. Không sửa mã điểm (dòng `## mã`) của điểm đã học, vì lịch ôn gắn theo mã đó.
+
 **Đối chiếu âm Hán Việt với Hanzii:** chạy `node cong-cu/doi-chieu-hanzii.mjs` (cần cài [Node.js](https://nodejs.org)). Kết quả nằm trong `cong-cu/bao-cao-hanzii.txt`.
 
 ## 6. Cấu trúc thư mục
@@ -168,6 +180,7 @@ MayiChinese/
 │   │   ├── man-luyen-viet.js ← luyện viết chữ Hán, hộp "Cách viết"
 │   │   ├── net-chu.js      ← vẽ thứ tự nét (dùng thư viện Hanzi Writer)
 │   │   ├── man-trac-nghiem.js ← trắc nghiệm, sổ câu sai, kiểm tra theo bài
+│   │   ├── man-ngu-phap.js ← ngữ pháp: bài học, sắp xếp câu, điền từ
 │   │   ├── man-sap-co.js   ← Thống kê (sắp có)
 │   │   ├── pinyin.js       ← tô màu thanh điệu, tách âm tiết
 │   │   ├── bieu-tuong.js   ← các biểu tượng
@@ -180,10 +193,13 @@ MayiChinese/
 │   ├── data/chinh-thuc/    ← danh sách chính thức HSK 1–3 (từ vựng, chữ Hán)
 │   ├── data/net-chu-hsk1.json   ← thứ tự nét chữ (do script tạo ra)
 │   ├── data/thanh-dieu-hsk1.json← chữ đa âm cho bài thanh điệu (do script tạo ra)
+│   ├── data/ngu-phap-hsk1.json  ← 35 điểm ngữ pháp HSK 1 (do script tạo ra)
 │   ├── lib/                ← thư viện Hanzi Writer (vẽ và chấm nét chữ)
 │   └── sw.js               ← giúp chạy offline
 ├── cong-cu/                ← công cụ tạo và kiểm tra dữ liệu (chạy trên máy tính)
 │   ├── nguon-hsk1/         ← nội dung soạn tay của từng bài  ← SỬA Ở ĐÂY
+│   ├── nguon-ngu-phap/     ← ngữ pháp soạn tay (cap1-01 … cap1-07)  ← SỬA Ở ĐÂY
+│   ├── ghep-ngu-phap.py    ← ghép + kiểm tra ngữ pháp
 │   ├── ghep-du-lieu-hsk1.py
 │   ├── kiem-tra-pinyin-vi-du.py
 │   ├── tai-du-lieu-viet.py ← tải thư viện + dữ liệu nét chữ

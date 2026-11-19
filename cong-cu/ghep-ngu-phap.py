@@ -32,7 +32,6 @@ KIỂM TRA:
 """
 import importlib.util
 import json
-import os
 import re
 import sys
 import unicodedata
@@ -109,7 +108,8 @@ def kiem_tra_bien_dieu(han, py):
     for i, c in enumerate(chu[:-1]):
         sau = am[i + 1][1]
         viet = am[i][0].lower()
-        if c == CHU_BU and sau == 4 and viet != 'bú':
+        # "bu" (thanh nhẹ) hợp lệ trong câu hỏi chính phản: 去不去 qù bu qù
+        if c == CHU_BU and sau == 4 and viet not in ('bú', 'bu'):
             loi.append(f'不 đứng trước thanh 4 nên ghi "bú" (đang ghi "{viet}")')
         if c == CHU_BU and sau in (1, 2, 3) and viet not in ('bù', 'bu'):
             loi.append(f'不 đứng trước thanh {sau} nên ghi "bù" (đang ghi "{viet}")')

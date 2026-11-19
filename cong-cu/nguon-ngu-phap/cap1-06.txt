@@ -1,0 +1,94 @@
+# ===== NGỮ PHÁP HSK 1 – ĐỢT 6 (soạn tay) =====
+# Cách viết: xem đầu file cong-cu/ghep-ngu-phap.py. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1.
+# Sửa xong chạy: python -X utf8 cong-cu/ghep-ngu-phap.py
+
+## chinh-phan
+@ Câu hỏi chính phản: 去不去？
+§ 句类 · 疑问句（3）正反问句
+= Động từ / tính từ + 不 + động từ / tính từ？
+= 有没有……？ · 是不是……？
+- Lặp lại động từ (hoặc tính từ) ở dạng khẳng định + phủ định để hỏi "có … không": 你去不去？ (bạn có đi không?).
+- Với 有 thì dùng 有没有: 你有没有中文书？
+- Chữ 不 ở giữa thường đọc nhẹ: qù bu qù.
+! Câu chính phản KHÔNG thêm 吗: nói 你去不去？, không nói 你去不去吗？
+! Phủ định của 有 là 没: nói 有没有, không nói 有不有.
+> 你/去/不/去？ | Nǐ qù bu qù? | Bạn có đi không?
+> 他/是/不是/你/哥哥？ | Tā shì bu shì nǐ gēge? | Anh ấy có phải anh trai bạn không?
+> 你/有/没有/中文/书？ | Nǐ yǒu méiyǒu Zhōngwén shū? | Bạn có sách tiếng Trung không?
+> 这个/菜/好吃/不/好吃？ | Zhège cài hǎochī bu hǎochī? | Món này có ngon không?
+? 你喝不___茶？ | 喝 | 吗; 很; 了 | Nǐ hē bu hē chá? | Bạn có uống trà không?
+? 他是___是老师？ | 不 | 没; 很; 吗 | Tā shì bu shì lǎoshī? | Anh ấy có phải là giáo viên không?
+? 这个菜好吃不___？ | 好吃 | 吗; 很; 了 | Zhège cài hǎochī bu hǎochī? | Món này có ngon không?
+
+## zenme
+@ 怎么 và 怎么样
+§ 疑问代词“怎么、怎么样”
+= 怎么 + động từ？  (làm thế nào, bằng cách nào)
+= ……怎么样？  (… thế nào, ra sao?)
+- 怎么 + động từ hỏi cách làm: 这个字怎么写？ (chữ này viết thế nào?), 你怎么去学校？ (bạn đi học bằng gì?).
+- 怎么样 đứng cuối câu, hỏi tình trạng hoặc ý kiến: 天气怎么样？, 这件衣服怎么样？
+- ……，怎么样？ còn dùng để rủ, đề nghị: 我们去看电影，怎么样？ (mình đi xem phim, được không?).
+! 怎么 đứng ngay TRƯỚC động từ: 怎么写, không nói 写怎么.
+! Hỏi ý kiến, tình trạng của một vật dùng 怎么样 ở cuối câu; "怎么样 + động từ" là sai (怎么样写 ✗ → 怎么写 ✓).
+> 这个/字/怎么/写？ | Zhège zì zěnme xiě? | Chữ này viết thế nào?
+> 你/怎么/去/医院？ | Nǐ zěnme qù yīyuàn? | Bạn đi bệnh viện bằng gì?
+> 今天/天气/怎么样？ | Jīntiān tiānqì zěnmeyàng? | Hôm nay thời tiết thế nào?
+> 我们/去/看/电影，/怎么样？ | Wǒmen qù kàn diànyǐng, zěnmeyàng? | Chúng ta đi xem phim, được không?
+? 这个字___写？ | 怎么 | 怎么样; 什么; 谁 | Zhège zì zěnme xiě? | Chữ này viết thế nào?
+? 你的新手机___？ | 怎么样 | 怎么; 什么; 谁 | Nǐ de xīn shǒujī zěnmeyàng? | Điện thoại mới của bạn thế nào?
+? 你___去学校？ | 怎么 | 怎么样; 吗; 很 | Nǐ zěnme qù xuéxiào? | Bạn đi học bằng gì?
+
+## lien-dong
+@ Câu liên động: hai động từ nối tiếp (去商店买东西)
+§ 特殊句型 · 连动句1（后一动作是前一动作的目的；前一动作是后一动作的方式）
+= Chủ ngữ + 去 / 来 + nơi chốn + động từ 2 (+ tân ngữ)  (đi đâu để làm gì)
+= Chủ ngữ + 坐 + phương tiện + 去 / 来 + nơi chốn  (đi bằng gì)
+- Hai động từ đứng liền nhau theo thứ tự diễn ra; động từ sau thường là MỤC ĐÍCH của động từ trước: 我去商店买东西 (tôi đi cửa hàng mua đồ).
+- Động từ trước có thể là CÁCH làm việc sau: 我们坐出租车去医院 (chúng tôi đi taxi đến bệnh viện).
+- Không cần từ nối như "để" hay "rồi".
+! Đến nơi trước, làm việc sau: 去商店买东西 – không nói 买东西去商店 khi muốn nói "đến cửa hàng để mua đồ".
+! Phương tiện đặt TRƯỚC: 坐飞机去中国, không nói 去中国坐飞机.
+> 我/去/商店/买/东西。 | Wǒ qù shāngdiàn mǎi dōngxi. | Tôi đi cửa hàng mua đồ.
+> 他/来/中国/学/汉语。 | Tā lái Zhōngguó xué Hànyǔ. | Anh ấy đến Trung Quốc học tiếng Trung.
+> 我们/坐/出租车/去/医院。 | Wǒmen zuò chūzūchē qù yīyuàn. | Chúng tôi đi taxi đến bệnh viện.
+> 明天/我/坐/飞机/去/中国。 | Míngtiān wǒ zuò fēijī qù Zhōngguó. | Ngày mai tôi đi máy bay sang Trung Quốc.
+~ 我/明天/坐/飞机/去/中国。
+? 我去商店___东西。 | 买 | 是; 很; 的 | Wǒ qù shāngdiàn mǎi dōngxi. | Tôi đi cửa hàng mua đồ.
+? 他___中国学汉语。 | 来 | 是; 很; 的 | Tā lái Zhōngguó xué Hànyǔ. | Anh ấy đến Trung Quốc học tiếng Trung.
+? 我们___出租车去医院。 | 坐 | 是; 很; 在 | Wǒmen zuò chūzūchē qù yīyuàn. | Chúng tôi đi taxi đến bệnh viện.
+
+## hai-tan-ngu
+@ Câu hai tân ngữ: 给我一本书
+§ 特殊句型 · 双宾语句1：主语+动词+宾语1+宾语2
+= Chủ ngữ + 给 + người + vật
+= Chủ ngữ + 叫 + người + tên
+- Một số động từ có HAI tân ngữ: NGƯỜI đứng trước, VẬT (hoặc tên gọi) đứng sau: 妈妈给我一个苹果 (mẹ cho tôi một quả táo).
+- Ở cấp 1 hay gặp: 给 (cho, đưa) và 叫 (gọi ai là gì): 大家叫他小明.
+- Không cần thêm chữ "cho" như tiếng Việt "đưa sách cho tôi" – chỉ cần 给我书.
+! Thứ tự: người trước, vật sau: 给我一本书, không nói 给一本书我.
+! "Làm ơn cho tôi…" khi gọi món, mua đồ: 请给我……, rất hay dùng.
+> 妈妈/给/我/一个/苹果。 | Māma gěi wǒ yí gè píngguǒ. | Mẹ cho tôi một quả táo.
+> 老师/给/我们/很多/书。 | Lǎoshī gěi wǒmen hěn duō shū. | Thầy giáo cho chúng tôi rất nhiều sách.
+> 请/给/我/一杯/水。 | Qǐng gěi wǒ yì bēi shuǐ. | Làm ơn cho tôi một cốc nước.
+> 大家/叫/他/小明。 | Dàjiā jiào tā Xiǎo Míng. | Mọi người gọi cậu ấy là Tiểu Minh.
+? 请给___一杯水。 | 我 | 的; 很; 是 | Qǐng gěi wǒ yì bēi shuǐ. | Làm ơn cho tôi một cốc nước.
+? 妈妈___我一个苹果。 | 给 | 是; 很; 在 | Māma gěi wǒ yí gè píngguǒ. | Mẹ cho tôi một quả táo.
+? 大家___他小明。 | 叫 | 是; 很; 有 | Dàjiā jiào tā Xiǎo Míng. | Mọi người gọi cậu ấy là Tiểu Minh.
+
+## yi-xia
+@ 一下: làm một chút, làm thử
+§ 补语 · 数量补语1：动词+动量补语（一下）
+= Động từ + 一下 (+ tân ngữ)
+- 一下 đặt sau động từ = làm một chút, thử làm; giúp câu nhẹ nhàng, lịch sự hơn: 请看一下 (mời xem một chút).
+- Rất hay dùng khi nhờ vả, xin phép: 我想问一下…… (tôi muốn hỏi một chút…).
+- 一下 đọc yíxià.
+! 一下 đứng SAU động từ, trước tân ngữ: 写一下你的名字, không nói 一下写你的名字.
+! Không dùng 一下 với động từ chỉ trạng thái như 是, 有, 认识.
+> 请/看/一下。 | Qǐng kàn yíxià. | Mời xem một chút.
+> 我/想/问/一下。 | Wǒ xiǎng wèn yíxià. | Tôi muốn hỏi một chút.
+> 你/来/一下。 | Nǐ lái yíxià. | Bạn lại đây một chút.
+> 我们/休息/一下/吧。 | Wǒmen xiūxi yíxià ba. | Chúng ta nghỉ một chút nhé.
+> 请/你/写/一下/你/的/名字。 | Qǐng nǐ xiě yíxià nǐ de míngzi. | Bạn hãy viết tên của bạn nhé.
+? 我想问___。 | 一下 | 很; 的; 是 | Wǒ xiǎng wèn yíxià. | Tôi muốn hỏi một chút.
+? 我们休息一下___。 | 吧 | 很; 的; 是 | Wǒmen xiūxi yíxià ba. | Chúng ta nghỉ một chút nhé.
+? 请你写___你的名字。 | 一下 | 很; 是; 的 | Qǐng nǐ xiě yíxià nǐ de míngzi. | Bạn hãy viết tên của bạn nhé.

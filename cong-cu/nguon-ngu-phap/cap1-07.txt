@@ -1,0 +1,105 @@
+# ===== NGỮ PHÁP HSK 1 – ĐỢT 7 (soạn tay) =====
+# Cách viết: xem đầu file cong-cu/ghep-ngu-phap.py. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1.
+# Sửa xong chạy: python -X utf8 cong-cu/ghep-ngu-phap.py
+
+## he-dui
+@ 和 và 对: "và, với" và "đối với"
+§ 介词“和1、对”（引出对象）· 连词“和2”（连接词语或短语）
+= A + 和 + B  (A và B – nối danh từ, đại từ)
+= Chủ ngữ + 和 + người + động từ  (làm gì với ai)
+= Chủ ngữ + 对 + người / vật + tính từ  (đối với ai thế nào)
+- 和 nối hai danh từ hoặc đại từ: 我和你, 爸爸和妈妈.
+- 和 + người đặt TRƯỚC động từ = "với ai": 我想和你说话 (tôi muốn nói chuyện với bạn).
+- 对 + người = đối với: 老师对我们很好 (thầy giáo đối xử với chúng tôi rất tốt).
+! 和 chỉ nối danh từ, không nối hai câu như chữ "và" trong tiếng Việt: "Tôi là học sinh và anh ấy là giáo viên" không dùng 和.
+! 对 + người đứng TRƯỚC tính từ: 他对我很好, không nói 他很好对我.
+> 我/和/妈妈/去/商店。 | Wǒ hé māma qù shāngdiàn. | Tôi và mẹ đi cửa hàng.
+> 爸爸/和/妈妈/都/是/医生。 | Bàba hé māma dōu shì yīshēng. | Bố và mẹ đều là bác sĩ.
+~ 妈妈/和/爸爸/都/是/医生。
+> 我/想/和/你/说话。 | Wǒ xiǎng hé nǐ shuōhuà. | Tôi muốn nói chuyện với bạn.
+> 老师/对/我们/很/好。 | Lǎoshī duì wǒmen hěn hǎo. | Thầy giáo đối xử với chúng tôi rất tốt.
+? 我___妈妈都是老师。 | 和 | 很; 对; 是 | Wǒ hé māma dōu shì lǎoshī. | Tôi và mẹ đều là giáo viên.
+? 她___我很好。 | 对 | 是; 的; 在 | Tā duì wǒ hěn hǎo. | Cô ấy đối xử với tôi rất tốt.
+? 我想___你说话。 | 和 | 是; 很; 的 | Wǒ xiǎng hé nǐ shuōhuà. | Tôi muốn nói chuyện với bạn.
+
+## phuong-vi
+@ Từ chỉ phương hướng: 上, 下, 里, 外, 前, 后 (+ 边)
+§ 名词 · 方位名词（上、下、里、外、前、后）· 后缀“—边” · 方位短语
+= Danh từ + 上 / 下 / 里 / 外 / 前 / 后  (trên / dưới / trong / ngoài / trước / sau cái gì)
+= 上边, 下边, 里边, 外边, 前边, 后边  (đứng một mình được)
+- Từ chỉ phương hướng đặt SAU danh từ (tiếng Việt đặt trước): 桌子上 (trên bàn), 房间里 (trong phòng), 学校前边 (phía trước trường).
+- Thêm 边 thành danh từ đứng riêng được: 前边是医院 (phía trước là bệnh viện).
+- Hay đi với 在 và 有: 书在桌子上 (sách ở trên bàn) · 桌子上有书 (trên bàn có sách).
+! Ngược tiếng Việt: "trong phòng" là 房间里, không nói 里房间.
+! Tên nước, tên thành phố không thêm 里: 在中国, không nói 在中国里.
+> 书/在/桌子/上。 | Shū zài zhuōzi shang. | Sách ở trên bàn.
+> 我/的/手机/在/椅子/下。 | Wǒ de shǒujī zài yǐzi xia. | Điện thoại của tôi ở dưới ghế.
+> 学校/前边/有/一个/饭店。 | Xuéxiào qiánbian yǒu yí gè fàndiàn. | Phía trước trường có một nhà hàng.
+> 猫/在/房间/里。 | Māo zài fángjiān li. | Con mèo ở trong phòng.
+> 他/在/外边。 | Tā zài wàibian. | Anh ấy ở bên ngoài.
+? 我的手机在___。 | 椅子下 | 下椅子; 椅子的; 很下 | Wǒ de shǒujī zài yǐzi xia. | Điện thoại của tôi ở dưới ghế.
+? 学校___边有一个饭店。 | 前 | 很; 的; 是 | Xuéxiào qiánbian yǒu yí gè fàndiàn. | Phía trước trường có một nhà hàng.
+? 猫在房间___。 | 里 | 的; 很; 是 | Māo zài fángjiān li. | Con mèo ở trong phòng.
+
+## ly-hop
+@ Động từ ly hợp: 睡觉, 上课, 说话…
+§ 动词 · 离合词（看病、睡觉、说话、上课、下课、上班、下班、生病）
+= Động từ ly hợp = động từ + tân ngữ đã ghép sẵn (睡 + 觉, 上 + 课, 说 + 话)
+= Không thêm tân ngữ phía sau; "với ai" thì dùng 和 + người đặt trước
+- Một số động từ hai chữ thật ra là "động từ + tân ngữ": 睡觉 (ngủ), 说话 (nói chuyện), 上课 (vào học), 下课 (tan học), 上班 (đi làm), 下班 (tan làm), 看病 (khám bệnh), 生病 (bị ốm).
+- Vì bên trong đã có tân ngữ nên KHÔNG thêm tân ngữ phía sau nữa.
+- Ở các cấp sau sẽ học cách chen từ vào giữa hai chữ (ví dụ chen 了 hoặc số lượng).
+! Không nói 我想说话你 – phải nói 我想和你说话.
+! Ở cấp 1, "đi khám bệnh" chỉ cần nói 去医院看病; không thêm người vào sau 看病.
+> 我/晚上/十点/睡觉。 | Wǒ wǎnshang shí diǎn shuìjiào. | Tôi đi ngủ lúc mười giờ tối.
+~ 晚上/十点/我/睡觉。
+> 我们/八点/上课。 | Wǒmen bā diǎn shàngkè. | Chúng tôi vào học lúc tám giờ.
+~ 八点/我们/上课。
+> 他/生病/了，/去/医院/看病。 | Tā shēngbìng le, qù yīyuàn kànbìng. | Anh ấy bị ốm, đi bệnh viện khám bệnh.
+> 爸爸/六点/下班。 | Bàba liù diǎn xiàbān. | Bố tan làm lúc sáu giờ.
+~ 六点/爸爸/下班。
+? 我想和你说___。 | 话 | 很; 是; 的 | Wǒ xiǎng hé nǐ shuōhuà. | Tôi muốn nói chuyện với bạn.
+? 我们几点___课？ | 上 | 是; 很; 的 | Wǒmen jǐ diǎn shàngkè? | Chúng ta mấy giờ vào học?
+? 他生病了，去医院___。 | 看病 | 病看; 很; 是 | Tā shēngbìng le, qù yīyuàn kànbìng. | Anh ấy bị ốm, đi bệnh viện khám bệnh.
+
+## cau-khien-cam-than
+@ Câu cầu khiến và câu cảm thán: 请…, 不要…, 太…了！
+§ 句类 · 祈使句 · 感叹句 · 否定副词“不要” · 程度副词“太、真”
+= 请 + động từ …  (mời / xin hãy)
+= 不要 + động từ …  (đừng)
+= 太 + tính từ + 了！  (… quá!) · 真 + tính từ！  (… thật!)
+- 请 đặt đầu câu để mời, nhờ một cách lịch sự: 请坐 (mời ngồi), 请喝茶 (mời uống trà).
+- 不要 + động từ = đừng: 不要说话 (đừng nói chuyện).
+- 太 + tính từ + 了 = quá … (cảm thán, khen hoặc chê): 太好了！, 太贵了！
+- 真 + tính từ = … thật: 今天天气真好！
+! "Đắt quá!" là 太贵了 – nhớ có 了 ở cuối; không nói 贵太 theo kiểu tiếng Việt.
+! 不要 là bảo người khác "đừng"; tự nói "tôi không muốn" thì dùng 不想 (điểm 想/要).
+> 请/喝/茶。 | Qǐng hē chá. | Mời uống trà.
+> 上课/了，/不要/说话。 | Shàngkè le, búyào shuōhuà. | Vào học rồi, đừng nói chuyện.
+> 这件/衣服/太/贵/了！ | Zhè jiàn yīfu tài guì le! | Bộ quần áo này đắt quá!
+> 今天/天气/真/好！ | Jīntiān tiānqì zhēn hǎo! | Hôm nay thời tiết đẹp thật!
+> 太/好/了！ | Tài hǎo le! | Tốt quá!
+? 这个苹果太贵___！ | 了 | 吗; 很; 的 | Zhège píngguǒ tài guì le! | Quả táo này đắt quá!
+? ___说话！ | 不要 | 不是; 很; 吗 | Búyào shuōhuà! | Đừng nói chuyện!
+? ___坐！ | 请 | 很; 是; 的 | Qǐng zuò! | Mời ngồi!
+
+## muc-do-tien-to
+@ Mức độ (有点儿, 非常, 真) và 们, 第, 小
+§ 程度副词（非常、很、太、真、有（一）点儿）· 前缀“小—、第—” · 后缀“—们”
+= 有点儿 / 很 / 非常 / 真 + tính từ
+= Đại từ, danh từ chỉ người + 们  (số nhiều)
+= 第 + số (thứ tự) · 小 + tên (gọi thân mật)
+- Mức độ từ thấp đến cao: 有点儿 (hơi) → 很 (rất, nghĩa nhẹ) → 非常 (vô cùng); 真 = … thật; 太……了 = … quá.
+- 有点儿 + tính từ thường nói điều không vừa ý: 今天有点儿冷 (hôm nay hơi lạnh), 这个有点儿贵.
+- 们 thêm sau đại từ hoặc danh từ chỉ người để chỉ số nhiều: 我们, 他们, 同学们.
+- 第 + số = thứ tự (đã học ở điểm 二/两); 小 + tên hoặc họ = cách gọi thân mật người trẻ hơn: 小明.
+! Đã có số lượng thì không thêm 们: 三个学生, không nói 三个学生们.
+! 有点儿 không dùng để khen; muốn khen "khá ngon" thì dùng 很好吃, không nói 有点儿好吃. Cũng không nói 一点儿冷 – phải là 有点儿冷.
+> 今天/有点儿/冷。 | Jīntiān yǒudiǎnr lěng. | Hôm nay hơi lạnh.
+> 这个/饭店/的/菜/非常/好吃。 | Zhège fàndiàn de cài fēicháng hǎochī. | Món ăn ở nhà hàng này vô cùng ngon.
+> 同学们，/你们/好！ | Tóngxuémen, nǐmen hǎo! | Chào các em học sinh!
+> 小明/是/我/的/好朋友。 | Xiǎo Míng shì wǒ de hǎo péngyou. | Tiểu Minh là bạn thân của tôi.
+> 这件/衣服/真/漂亮！ | Zhè jiàn yīfu zhēn piàoliang! | Bộ quần áo này đẹp thật!
+? 今天___冷。 | 有点儿 | 一点儿; 个; 的 | Jīntiān yǒudiǎnr lěng. | Hôm nay hơi lạnh.
+? 他___是我的同学。 | 们 | 的; 很; 个 | Tāmen shì wǒ de tóngxué. | Họ là bạn học của tôi.
+? 这个菜___好吃。 | 非常 | 一点儿; 个; 的 | Zhège cài fēicháng hǎochī. | Món này vô cùng ngon.

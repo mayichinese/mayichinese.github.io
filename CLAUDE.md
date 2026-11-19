@@ -30,6 +30,10 @@
   - Giai đoạn 3: `js/man-trac-nghiem.js` (4 dạng, từ đã học ≥ 4 từ; đáp án nhiễu không trùng nghĩa/đồng âm;
     sổ câu sai `tienDo.tracNghiem.soSai` – sai thì thẻ từ đang ôn đến hạn ngay; ra sổ khi đúng 2 lượt liên tiếp).
     Thời gian trắc nghiệm tính vào phần `nguPhap` của kế hoạch 60 phút.
+  - Giai đoạn 4: `js/man-ngu-phap.js` (35 điểm ngữ pháp HSK 1; sắp xếp câu + điền từ; tự chấm + SM-2 ở
+    `tienDo.nguPhap.the` theo MÃ điểm – không đổi mã của điểm đã có). Dữ liệu `data/ngu-phap-hsk1.json` tạo từ
+    `cong-cu/nguon-ngu-phap/cap1-*.txt` bằng `python -X utf8 cong-cu/ghep-ngu-phap.py` (định dạng ghi ở đầu script).
+    Đáp án nhiễu bài điền từ chọn tay: phải chắc chắn SAI khi thay vào (tránh 吗/是/很/在… nếu câu vẫn đúng).
   - `data/net-chu-hsk1.json` (tạo bởi `cong-cu/tai-du-lieu-viet.py`) và `data/thanh-dieu-hsk1.json`
     (tạo bởi `cong-cu/tao-du-lieu-thanh-dieu.py`, cần CC-CEDICT) – **file tự động, không sửa tay**.
   - `data/hsk1.json`: dữ liệu HSK 1 (20 bài, 300 từ, 625 câu ví dụ) – **file được tạo tự động, không sửa tay**.
