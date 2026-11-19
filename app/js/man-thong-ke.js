@@ -217,7 +217,7 @@ export async function veThongKe(khung) {
       <div class="khung o-chi-so"><span class="emoji">📝</span><b>${phanTram(td.tracNghiem.dung, td.tracNghiem.sai)}</b><span>trắc nghiệm đúng (${td.tracNghiem.dung + td.tracNghiem.sai} câu)</span></div>
       <div class="khung o-chi-so"><span class="emoji">🧩</span><b>${phanTram(td.nguPhap.dung, td.nguPhap.sai)}</b><span>ngữ pháp đúng (${td.nguPhap.dung + td.nguPhap.sai} câu)</span></div>
     </div>
-    ${[1, 2].map((cap) => {
+    ${[1, 2, 3].map((cap) => {
       const ls = (td.thiThu || []).filter((x) => (x.cap || 1) === cap);
       if (!ls.length) return '';
       const tot = diemThiCaoNhat(cap);

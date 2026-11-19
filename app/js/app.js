@@ -23,7 +23,7 @@
 //   #/ngu-phap     Ngữ pháp: danh sách điểm     → man-ngu-phap.js
 //   #/ngu-phap/<mã>           bài học một điểm      #/ngu-phap/<mã>/luyen  luyện tập điểm đó
 //   #/ngu-phap/on             ôn các điểm đến hạn
-//   #/thi-thu      Thi thử HSK 1 / 2: giới thiệu → man-thi-thu.js     #/thi-thu/lam  đề HSK 1 · #/thi-thu/lam/2  đề HSK 2
+//   #/thi-thu      Thi thử HSK 1 / 2 / 3: giới thiệu → man-thi-thu.js  #/thi-thu/lam  đề HSK 1 · #/thi-thu/lam/2 · #/thi-thu/lam/3
 //   #/thong-ke     Thống kê                     → man-thong-ke.js
 //   #/cai-dat      Cài đặt, sao lưu             → man-cai-dat.js
 // =========================================================
@@ -101,7 +101,7 @@ function veTheoDiaChi() {
     datTieuDe('Luyện viết', '#/luyen-tap');
     veLuyenViet(khung);
   } else if (muc === 'thi-thu' && thamSo === 'lam') {
-    const capThi = duong[2] === '2' ? 2 : 1;
+    const capThi = ['2', '3'].includes(duong[2]) ? Number(duong[2]) : 1;
     datTieuDe(`Thi thử HSK ${capThi}`, '#/thi-thu');
     donDep = veLamBai(khung, capThi);
   } else if (muc === 'thi-thu') {

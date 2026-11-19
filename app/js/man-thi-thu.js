@@ -1,16 +1,21 @@
 // =========================================================
-// THI THỬ HSK 1 / HSK 2 (Giai đoạn 5.2, 5.3) – ĐỀ MÔ PHỎNG, không phải đề chính thức
-//   #/thi-thu            giới thiệu cấu trúc đề + lịch sử điểm (chọn cấp HSK 1 / HSK 2)
-//   #/thi-thu/lam        làm một đề HSK 1 (40 câu)     #/thi-thu/lam/2  làm một đề HSK 2 (60 câu)
-// Cấu trúc theo đề thi thử trong sách bài tập 《新HSK教程 1》, 《新HSK教程 2》 (2026):
+// THI THỬ HSK 1 / 2 / 3 (Giai đoạn 5.2, 5.3, 5.4) – ĐỀ MÔ PHỎNG, không phải đề chính thức
+//   #/thi-thu            giới thiệu cấu trúc đề + lịch sử điểm (chọn cấp HSK 1 / 2 / 3)
+//   #/thi-thu/lam        làm một đề HSK 1 (40 câu)     #/thi-thu/lam/2  đề HSK 2 (60 câu)   #/thi-thu/lam/3  đề HSK 3 (70 câu)
+// Cấu trúc theo đề thi thử trong sách bài tập 《新HSK教程 1》, 《新HSK教程 2》, 《新HSK教程 3》 (2026):
 //   HSK 1 – NGHE 20: P1 nghe chọn 1/3 tranh · P2 nghe câu, chọn câu đáp · P3 nghe câu, chọn tranh A–F · P4 nghe câu + hỏi
 //           ĐỌC 20 (20 phút): P1 câu ↔ tranh · P2 ghép hỏi–đáp · P3 điền từ · P4 đọc câu, trả lời
 //   HSK 2 – NGHE 25: P1 nghe câu chọn 1/3 tranh · P2 nghe hội thoại chọn tranh A–F (2 nhóm) · P3 hội thoại + câu hỏi
 //           ĐỌC 25 (25 phút): P1 câu ↔ tranh · P2 điền từ · P3 ghép hỏi–đáp (2 nhóm) · P4 đoạn văn + câu hỏi ★
 //           VIẾT 10 (10 phút): P1 chọn phần còn thiếu của chữ · P2 viết tay một chữ (Hanzi Writer chấm theo nét)
-// Dữ liệu: data/thi-thu-hsk1.json (cong-cu/ghep-thi-thu.py), data/thi-thu-hsk2.json (cong-cu/ghep-thi-thu-2.py).
+//   HSK 3 – NGHE 30: P1 nghe hội thoại chọn tranh (2 nhóm: 6 tranh + 5 tranh) · P2 hội thoại + câu hỏi · P3 nghe một đoạn + câu hỏi
+//           ĐỌC 30 (30 phút): P1 ghép câu với câu đáp (2 nhóm) · P2 điền từ (5 câu + 5 hội thoại) · P3 đoạn văn + câu hỏi ★
+//           VIẾT 10 (20 phút): P1 viết tay chữ còn thiếu · P2 nhìn tranh + từ cho sẵn, sắp xếp mảnh thành câu
+//           (đề thật P2 là tự viết câu – app không chấm được câu tự do nên đổi thành sắp xếp, tự chấm)
+// Dữ liệu: data/thi-thu-hsk1.json (cong-cu/ghep-thi-thu.py), data/thi-thu-hsk2.json (cong-cu/ghep-thi-thu-2.py),
+//          data/thi-thu-hsk3.json (cong-cu/ghep-thi-thu-3.py).
 // Điểm quy về thang 200 (số câu đúng × 200 / số câu), đạt từ 120.
-// Mỗi câu có "kieu" quyết định cách hiện: tranh3, chon, tranh6, ghep, dien, docHoi, boThu, vietChu.
+// Mỗi câu có "kieu" quyết định cách hiện: tranh3, chon, tranh6, ghep, dien, docHoi, boThu, vietChu, xepCau.
 // =========================================================
 
 import { layTienDo, luu, nhatKyHomNay, congGiay } from './luu-tru.js';
@@ -45,6 +50,16 @@ const PHAN_2 = [
   { ma: 'd4', ky: 'Đọc', ten: 'Phần 4', huongDan: 'Đọc đoạn văn, trả lời câu hỏi ★.' },
   { ma: 'v1', ky: 'Viết', ten: 'Phần 1', huongDan: 'Chọn phần còn thiếu để thành chữ đúng (A–F).' },
   { ma: 'v2', ky: 'Viết', ten: 'Phần 2', huongDan: 'Viết chữ Hán còn thiếu vào ô (có pinyin gợi ý).' },
+];
+const PHAN_3 = [
+  { ma: 'n1', ky: 'Nghe', ten: 'Phần 1', huongDan: 'Nghe hội thoại, chọn tranh phù hợp.' },
+  { ma: 'n2', ky: 'Nghe', ten: 'Phần 2', huongDan: 'Nghe hội thoại và câu hỏi, chọn đáp án đúng.' },
+  { ma: 'n3', ky: 'Nghe', ten: 'Phần 3', huongDan: 'Nghe một đoạn và câu hỏi, chọn đáp án đúng.' },
+  { ma: 'd1', ky: 'Đọc', ten: 'Phần 1', huongDan: 'Chọn câu đáp lại phù hợp (A–E).' },
+  { ma: 'd2', ky: 'Đọc', ten: 'Phần 2', huongDan: 'Chọn từ phù hợp điền vào chỗ trống (A–F).' },
+  { ma: 'd3', ky: 'Đọc', ten: 'Phần 3', huongDan: 'Đọc đoạn văn, trả lời câu hỏi ★.' },
+  { ma: 'v1', ky: 'Viết', ten: 'Phần 1', huongDan: 'Viết chữ Hán còn thiếu vào ô (có pinyin gợi ý).' },
+  { ma: 'v2', ky: 'Viết', ten: 'Phần 2', huongDan: 'Nhìn tranh, dùng từ cho sẵn: sắp xếp các mảnh thành câu.' },
 ];
 export const CAC_PHAN = PHAN_1;
 
@@ -82,13 +97,23 @@ const sapTheoPhan = (de, phan) => {
   return de.sort((a, b) => thuTu.indexOf(a.phan) - thuTu.indexOf(b.phan));
 };
 
-/** Câu điền từ: che phần pinyin của từ cần điền */
+/**
+ * Câu điền từ: che phần pinyin của từ cần điền.
+ * Câu hội thoại (HSK 3) gồm hai lượt lời nối bằng ／ (cả chữ Hán lẫn pinyin) → mỗi lượt một dòng.
+ */
+const NOI_LUOT = '／';
 function cauDienTu(phan, c, tuChung) {
   const tuDung = tuChung.find((w) => w.h === c.dapAn);
   const re = new RegExp(tuDung.p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
-  const pyChe = re.test(c.pinyin) ? c.pinyin.replace(re, '＿＿') : '';
-  return { phan, kieu: 'dien', cauF: c, pyChe, tuChung, dung: tuChung.findIndex((w) => w.h === c.dapAn),
-    loiGiai: { han: c.cau.replace('（ ）', c.dapAn), py: c.pinyin } };
+  const hanLuot = c.cau.split(NOI_LUOT);
+  const pyLuot = c.pinyin.split(NOI_LUOT);
+  const dong = hanLuot.map((han, i) => {
+    const py = (pyLuot[i] || '').trim();
+    const coCho = han.includes('（ ）');
+    return { han, py: coCho ? (re.test(py) ? py.replace(re, '＿＿') : '') : py };
+  });
+  return { phan, kieu: 'dien', cauF: c, dong, hoiThoai: dong.length > 1, tuChung, dung: tuChung.findIndex((w) => w.h === c.dapAn),
+    loiGiai: { han: hanLuot.map((h) => h.replace('（ ）', c.dapAn)).join(' – '), py: pyLuot.map((p) => p.trim()).join(' – ') } };
 }
 
 /** Một nhóm hỏi–đáp → 5 câu ghép, dùng chung 5 câu trả lời A–E */
@@ -272,6 +297,85 @@ function taoDe2(dl) {
   return sapTheoPhan(de, PHAN_2);
 }
 
+// ---------- Tạo đề HSK 3 ----------
+/** Câu hỏi 3 lựa chọn từ một mục { a, ap, x: [{h,p}] } */
+const luaChon3 = (c) => tron([{ h: c.a, p: c.ap, dung: true }, ...c.x]);
+
+function taoDe3(dl) {
+  const de = [];
+  const daDung = new Set();
+  // NGHE 1: hai nhóm hội thoại ↔ tranh (nhóm 1: 6 tranh, nhóm 2: 5 tranh; tranh hai nhóm không trùng)
+  const daDungTranh = new Set();
+  [6, 5].forEach((soTranh) => {
+    const bo = chonBoTranh2(dl, 'hoiThoai', soTranh, 5, daDung, daDungTranh);
+    if (!bo) return;
+    bo.cauHoi.forEach(({ tranh, muc }) => {
+      const [a, b] = muc.cau;
+      de.push({ phan: 'n1', kieu: 'tranh6', doc: [a.han, b.han, a.han, b.han], tranhChung: bo.tranh.map((t) => t.emoji),
+        dung: bo.tranh.indexOf(tranh), loiGiai: { han: `${a.han} ${b.han}`, py: `${a.pinyin} ${b.pinyin}`, dich: muc.dich, emoji: tranh.emoji } });
+    });
+  });
+  // NGHE 2: 10 hội thoại + câu hỏi
+  layNgauNhien(dl.hoi, 10).forEach((c) => {
+    const lc = luaChon3(c);
+    const [a, b] = c.n;
+    de.push({ phan: 'n2', kieu: 'chon', doc: [a.han, b.han, c.h, a.han, b.han, c.h], luaChon: lc.map((x) => ({ h: x.h, p: x.p })),
+      dung: lc.findIndex((x) => x.dung), loiGiai: { han: `${a.han} ${b.han}`, py: `${a.pinyin} ${b.pinyin}`, hoi: `${c.h} → ${c.a} (${c.ap})` } });
+  });
+  // Đoạn + câu hỏi: 10 cho NGHE 3, 6 cho ĐỌC 3 (không trùng nhau)
+  const doan = tron(dl.doan);
+  doan.slice(0, 10).forEach((c) => {
+    const lc = luaChon3(c);
+    de.push({ phan: 'n3', kieu: 'chon', doc: [c.p, c.h, c.p, c.h], luaChon: lc.map((x) => ({ h: x.h, p: x.p })),
+      dung: lc.findIndex((x) => x.dung), loiGiai: { han: c.p, py: c.pp, hoi: `${c.h} → ${c.a} (${c.ap})` } });
+  });
+  // ĐỌC 1: hai nhóm ghép câu ↔ câu đáp
+  layNgauNhien(dl.hoiDap, 2).forEach((n) => de.push(...cauGhep('d1', n)));
+  // ĐỌC 2: điền từ – một nhóm câu (41–45) + một nhóm hội thoại (46–50)
+  [dl.dienTu, dl.dienHoiThoai].forEach((ds) => {
+    const nhom = ds[Math.floor(Math.random() * ds.length)];
+    const tuChung = tron(nhom.tu);
+    tron(nhom.cau).forEach((c) => de.push(cauDienTu('d2', c, tuChung)));
+  });
+  // ĐỌC 3: 6 đoạn một câu hỏi + 2 đoạn hai câu hỏi
+  doan.slice(10, 16).forEach((c) => {
+    const lc = luaChon3(c);
+    de.push({ phan: 'd3', kieu: 'docHoi', cauS: { s: c.p, sp: c.pp, h: c.h, hp: c.hp }, luaChon: lc.map((x) => ({ h: x.h, p: x.p })),
+      dung: lc.findIndex((x) => x.dung), loiGiai: { han: c.p, py: c.pp, hoi: `${c.h} → ${c.a} (${c.ap})` } });
+  });
+  layNgauNhien(dl.doanDai, 2).forEach((d) => {
+    d.cau.forEach((c, k) => {
+      const lc = luaChon3(c);
+      de.push({ phan: 'd3', kieu: 'docHoi', cauS: { s: d.p, sp: d.pp, h: c.h, hp: c.hp, ghiChu: `Đoạn này có 2 câu hỏi · câu ${k + 1}/2` },
+        luaChon: lc.map((x) => ({ h: x.h, p: x.p })), dung: lc.findIndex((x) => x.dung),
+        loiGiai: { han: d.p, py: d.pp, hoi: `${c.h} → ${c.a} (${c.ap})` } });
+    });
+  });
+  // VIẾT 1: viết tay 5 chữ khác nhau
+  const vietDaChon = [];
+  for (const v of tron(dl.viet)) {
+    if (vietDaChon.length === 5) break;
+    if (!vietDaChon.some((x) => x.chu === v.chu)) vietDaChon.push(v);
+  }
+  vietDaChon.forEach((v) => {
+    de.push({ phan: 'v1', kieu: 'vietChu', vc: v, dung: null,
+      loiGiai: { han: v.cau.replace('（ ）', v.chu), py: v.pinyin, dich: v.dich, dapAn: v.chu } });
+  });
+  // VIẾT 2: 5 tranh khác nhau, mỗi tranh một câu sắp xếp có từ cho sẵn
+  layNgauNhien(dl.tranh.filter((t) => t.xep.length), 5).forEach((t) => {
+    const xc = t.xep[Math.floor(Math.random() * t.xep.length)];
+    let thuTu = tron(xc.manh.map((m, i) => i));
+    for (let lan = 0; lan < 5 && thuTu.every((x, i) => x === i); lan++) thuTu = tron(thuTu);
+    de.push({ phan: 'v2', kieu: 'xepCau', xc, emoji: t.emoji, thuTu, dung: null,
+      loiGiai: { han: xc.han, py: xc.pinyin, dich: xc.dich, emoji: t.emoji,
+        cungDung: xc.khac.map((m) => m.join('') + xc.dauCau).join(' · ') } });
+  });
+  return sapTheoPhan(de, PHAN_3);
+}
+
+/** Câu đã có câu trả lời chưa (câu sắp xếp phải xếp đủ mảnh) */
+const daLamCau = (c, tl) => (c.kieu === 'xepCau' ? Array.isArray(tl) && tl.length === c.xc.manh.length : tl !== null);
+
 // ---------- Cấu hình theo cấp ----------
 const CAU_HINH = {
   1: { phan: PHAN_1, taoDe: taoDe1, soCau: 40, phut: 35, gioiHan: { d: 20 }, sach: '《新HSK教程 1》',
@@ -279,17 +383,28 @@ const CAU_HINH = {
       ['🎧 Nghe', '20 câu', ['P1 · Nghe, chọn 1 trong 3 tranh', 'P2 · Nghe câu, chọn câu đáp lại', 'P3 · Nghe câu, chọn tranh (A–F)', 'P4 · Nghe câu + câu hỏi, chọn đáp án']],
       ['📖 Đọc', '20 câu · 20 phút', ['P1 · Đọc câu, chọn tranh (A–F)', 'P2 · Ghép câu hỏi với câu trả lời', 'P3 · Chọn từ điền vào chỗ trống', 'P4 · Đọc câu, trả lời câu hỏi']],
     ] },
-  2: { phan: PHAN_2, taoDe: taoDe2, soCau: 60, phut: 55, gioiHan: { d: 25, v: 10 }, sach: '《新HSK教程 2》',
+  2: { phan: PHAN_2, taoDe: taoDe2, soCau: 60, phut: 55, gioiHan: { d: 25, v: 10 }, soKy: { n: 25, d: 25, v: 10 }, sach: '《新HSK教程 2》',
     cauTruc: [
       ['🎧 Nghe', '25 câu', ['P1 · Nghe câu, chọn 1 trong 3 tranh', 'P2 · Nghe hội thoại, chọn tranh (A–F)', 'P3 · Nghe hội thoại + câu hỏi, chọn đáp án']],
       ['📖 Đọc', '25 câu · 25 phút', ['P1 · Đọc câu, chọn tranh (A–F)', 'P2 · Chọn từ điền vào chỗ trống', 'P3 · Ghép câu hỏi với câu trả lời', 'P4 · Đọc đoạn văn, trả lời câu hỏi']],
       ['✍️ Viết', '10 câu · 10 phút', ['P1 · Chọn phần còn thiếu của chữ', 'P2 · Viết tay chữ còn thiếu (có pinyin)']],
+    ] },
+  3: { phan: PHAN_3, taoDe: taoDe3, soCau: 70, phut: 75, gioiHan: { d: 30, v: 20 }, soKy: { n: 30, d: 30, v: 10 }, sach: '《新HSK教程 3》',
+    cauTruc: [
+      ['🎧 Nghe', '30 câu', ['P1 · Nghe hội thoại, chọn tranh (2 nhóm)', 'P2 · Nghe hội thoại + câu hỏi, chọn đáp án', 'P3 · Nghe một đoạn + câu hỏi, chọn đáp án']],
+      ['📖 Đọc', '30 câu · 30 phút', ['P1 · Chọn câu đáp lại phù hợp (2 nhóm)', 'P2 · Chọn từ điền vào câu và hội thoại', 'P3 · Đọc đoạn văn, trả lời câu hỏi']],
+      ['✍️ Viết', '10 câu · 20 phút', ['P1 · Viết tay chữ còn thiếu (có pinyin)', 'P2 · Nhìn tranh, sắp xếp câu có từ cho sẵn']],
     ] },
 };
 
 /** Câu trả lời có đúng không */
 function laDung(c, tl) {
   if (c.kieu === 'vietChu') return !!(tl && tl.xong && tl.loi <= LOI_VIET_TOI_DA);
+  if (c.kieu === 'xepCau') {
+    if (!daLamCau(c, tl)) return false;
+    const cau = tl.map((i) => c.xc.manh[i]).join('');
+    return [c.xc.manh, ...c.xc.khac].some((m) => m.join('') === cau);
+  }
   return tl === c.dung;
 }
 
@@ -307,13 +422,14 @@ export function veThiThu(khung, capChon) {
   const bang = ch.cauTruc.map(([ten, so, dong]) => dong.map((d, i) => `<tr>${i === 0
     ? `<th rowspan="${dong.length}">${ten}<br><small>${so}</small></th>` : ''}<td>${d}</td></tr>`).join('')).join('');
   khung.innerHTML = `
-    <div class="hang-chip" style="margin-top:4px">${[1, 2].map((c) => `<button class="chip ${c === cap ? 'dang-chon' : ''}" data-cap="${c}">HSK ${c}</button>`).join('')}</div>
+    <div class="hang-chip" style="margin-top:4px">${[1, 2, 3].map((c) => `<button class="chip ${c === cap ? 'dang-chon' : ''}" data-cap="${c}">HSK ${c}</button>`).join('')}</div>
     <section class="khung gioi-thieu-thi" style="margin-top:12px">
       <div class="goc-the"><span class="nhan nhan-chinh">📋 HSK ${cap} · đề mô phỏng</span><span class="chu-phu nho">${ch.soCau} câu · ~${ch.phut} phút</span></div>
       <h2>Thi thử HSK ${cap}</h2>
       <table class="bang-cau-truc">${bang}</table>
       <p class="chu-phu nho">Điểm quy về thang 200 · <b>đạt từ ${DIEM_DAT} điểm</b>. Mỗi câu nghe được đọc 2 lần (như thi thật).
         ${cap > 1 ? 'Phần viết tay: viết đúng thứ tự nét, sai tối đa 3 nét vẫn tính đúng. ' : ''}
+        ${cap > 2 ? 'Phần 2 của Viết: đề thật yêu cầu tự viết câu; app đổi thành sắp xếp mảnh có sẵn để tự chấm được. ' : ''}
         Cấu trúc theo đề thi thử trong sách bài tập ${ch.sach} (2026); câu hỏi tự soạn, tranh là biểu tượng – <b>không phải đề chính thức</b>.</p>
       ${tt === 'khong-ho-tro' || tt === 'khong-co-giong' ? '<p class="can-kiem-tra">⚠️ Máy chưa có giọng đọc tiếng Trung nên phần Nghe sẽ không có tiếng. Xem cách cài trong Cài đặt.</p>' : ''}
       <label class="dong-cai-dat" style="border:0;padding:6px 0"><span>Cho phép bấm nghe lại (thi thật không có)</span>
@@ -325,7 +441,7 @@ export function veThiThu(khung, capChon) {
       <div class="dong-lich-su-thi">
         <span class="giua"><b>${x.diem}/200</b> <span class="nhan ${x.diem >= DIEM_DAT ? 'nhan-dat' : ''}">${x.diem >= DIEM_DAT ? '✅ Đạt' : 'Chưa đạt'}</span>
           <span class="chu-phu nho">${(x.cap || 1) > 1
-            ? `Nghe ${x.nghe}/25 · Đọc ${x.doc}/25 · Viết ${x.viet}/10`
+            ? `Nghe ${x.nghe}/${ch.soKy.n} · Đọc ${x.doc}/${ch.soKy.d} · Viết ${x.viet}/${ch.soKy.v}`
             : `Nghe ${x.nghe}/100 · Đọc ${x.doc}/100`} · ${Math.round(x.giay / 60)} phút</span></span>
         <span class="chu-phu nho">${new Date(x.luc).toLocaleDateString('vi-VN')}</span>
       </div>`).join('')}</div>` : '<p class="chu-phu">Chưa thi lần nào.</p>'}`;
@@ -425,13 +541,32 @@ export function veLamBai(khung, cap = 1) {
           return `<p class="cau-thi">${hanPy(c.cauQ.q, c.cauQ.qp)}</p>
             <div class="ds-lua-chon-thi">${c.luaChonChung.map((x, i) => nutLc(i, hanPy(x.h, x.p))).join('')}</div>`;
         case 'dien': {
-          const [truoc, sau] = c.cauF.cau.split('（ ）');
+          const dongCau = c.dong.map((d, k) => {
+            const nhanLuot = c.hoiThoai ? `<b class="nhan-luot">${'AB'[k]}：</b>` : '';
+            const [truoc, sau] = d.han.split('（ ）');
+            const han = sau === undefined ? esc(d.han)
+              : `${esc(truoc)}<span class="o-dien">（${daChon !== null ? esc(c.tuChung[daChon].h) : '　'}）</span>${esc(sau)}`;
+            return `<p class="cau-thi ${c.hoiThoai ? 'luot' : ''}">${nhanLuot}<span class="khoi-luot">${d.py ? `<span class="py-tren-cau">${esc(d.py)}</span>` : ''}<span class="han">${han}</span></span></p>`;
+          }).join('');
           return `<div class="kho-tu-thi">${c.tuChung.map((w, i) => `<span class="o-tu-thi"><b>${CHU_CAI[i]}</b> ${hanPy(w.h, w.p)}</span>`).join('')}</div>
-            <p class="cau-thi">${c.pyChe ? `<span class="py-tren-cau">${esc(c.pyChe)}</span>` : ''}<span class="han">${esc(truoc)}<span class="o-dien">（${daChon !== null ? esc(c.tuChung[daChon].h) : '　'}）</span>${esc(sau)}</span></p>
+            ${dongCau}
             <div class="luoi-chu-cai">${c.tuChung.map((w, i) => nutLc(i, '', 'nho')).join('')}</div>`;
         }
+        case 'xepCau': {
+          const tl = Array.isArray(daChon) ? daChon : [];
+          const x = c.xc;
+          return `<div class="tranh-xep"><span class="emoji">${c.emoji}</span>
+              <span class="tu-cho-san"><span class="chu-phu nho">Từ cho sẵn</span><b class="han">${esc(x.tu)}</b></span></div>
+            <div class="dong-sap-xep">${tl.length
+              ? tl.map((i, k) => `<button class="manh da-chon han" data-k="${k}">${esc(x.manh[i])}</button>`).join('')
+                + (tl.length === x.manh.length ? `<span class="dau-cau han">${esc(x.dauCau)}</span>` : '')
+              : '<span class="chu-phu nho">Chạm các mảnh bên dưới theo đúng thứ tự</span>'}</div>
+            <div class="kho-manh">${c.thuTu.map((i) => `<button class="manh han" data-m="${i}" ${tl.includes(i) ? 'disabled' : ''}>${esc(x.manh[i])}</button>`).join('')}</div>
+            ${tl.length ? '<div class="hang-nut" style="justify-content:center"><button class="nut nut-nho" id="nut-xep-lai">↺ Xếp lại</button></div>' : ''}`;
+        }
         case 'docHoi':
-          return `<p class="cau-thi">${hanPy(c.cauS.s, c.cauS.sp)}</p>
+          return `${c.cauS.ghiChu ? `<p class="chu-phu nho" style="text-align:center">${esc(c.cauS.ghiChu)}</p>` : ''}
+            <p class="cau-thi ${c.cauS.s.length > 40 ? 'doan-dai' : ''}">${hanPy(c.cauS.s, c.cauS.sp)}</p>
             <p class="cau-thi hoi">★ ${hanPy(c.cauS.h, c.cauS.hp)}</p>
             <div class="ds-lua-chon-thi">${c.luaChon.map((x, i) => nutLc(i, hanPy(x.h, x.p))).join('')}</div>`;
         case 'boThu': {
@@ -508,7 +643,7 @@ export function veLamBai(khung, cap = 1) {
       khung.innerHTML = `
         <div class="phien">
           <div class="tien-do-phien">
-            <div class="thanh-tien-do"><span style="width:${(traLoi.filter((x) => x !== null).length / de.length) * 100}%"></span></div>
+            <div class="thanh-tien-do"><span style="width:${(de.filter((x, i) => daLamCau(x, traLoi[i])).length / de.length) * 100}%"></span></div>
             <span class="dem">Câu ${viTri + 1}/${de.length}</span>
           </div>
           <div class="khung the-thi">
@@ -533,8 +668,21 @@ export function veLamBai(khung, cap = 1) {
       });
       khung.querySelector('#nut-truoc').onclick = () => { if (!truocBiKhoa) { viTri--; veCau(); } };
       khung.querySelector('#nut-sau')?.addEventListener('click', () => { viTri++; veCau(); });
+      // Câu sắp xếp: chạm mảnh để thêm, chạm mảnh đã xếp để bỏ ra
+      khung.querySelectorAll('[data-m]').forEach((b) => {
+        b.onclick = () => { traLoi[viTri] = [...(traLoi[viTri] || []), Number(b.dataset.m)]; veCau(); };
+      });
+      khung.querySelectorAll('[data-k]').forEach((b) => {
+        b.onclick = () => {
+          const m = [...traLoi[viTri]];
+          m.splice(Number(b.dataset.k), 1);
+          traLoi[viTri] = m.length ? m : null;
+          veCau();
+        };
+      });
+      khung.querySelector('#nut-xep-lai')?.addEventListener('click', () => { traLoi[viTri] = null; veCau(); });
       khung.querySelector('#nut-nop')?.addEventListener('click', () => {
-        const chuaLam = traLoi.filter((x) => x === null).length;
+        const chuaLam = de.filter((x, i) => !daLamCau(x, traLoi[i])).length;
         if (chuaLam && !confirm(`Còn ${chuaLam} câu chưa trả lời. Nộp bài luôn?`)) return;
         nopBai();
       });
@@ -594,6 +742,10 @@ export function veLamBai(khung, cap = 1) {
         if (tl.boQua) return 'bỏ qua';
         return tl.xong ? `viết xong, sai ${tl.loi} nét` : `dừng sau ${tl.loi} nét sai`;
       }
+      if (c.kieu === 'xepCau') {
+        if (!daLamCau(c, tl)) return 'chưa xếp xong';
+        return `bạn xếp: <span class="han">${esc(tl.map((i) => c.xc.manh[i]).join('') + c.xc.dauCau)}</span>`;
+      }
       return `bạn chọn <b>${tl === null ? '—' : CHU_CAI[tl]}</b> · đáp án <b>${CHU_CAI[c.dung]}</b>`;
     }
 
@@ -615,13 +767,14 @@ export function veLamBai(khung, cap = 1) {
             ${lg.nghia ? `<br><span class="chu-phu nho">${esc(lg.nghia)}</span>` : ''}
             ${lg.dich ? `<br><span class="chu-phu nho">${esc(lg.dich)}</span>` : ''}
             ${lg.dapAn ? `<br><span class="chu-phu nho">Trả lời đúng: <span class="han">${esc(lg.dapAn)}</span></span>` : ''}
+            ${lg.cungDung ? `<br><span class="chu-phu nho">Cũng đúng: <span class="han">${esc(lg.cungDung)}</span></span>` : ''}
             ${lg.hoi ? `<br><span class="chu-phu nho">Câu hỏi: <span class="han">${esc(lg.hoi)}</span></span>` : ''}</span>
           </div>
         </div>`;
       }).join('');
       const tomTat = cap === 1
         ? `Nghe ${kq.nghe}/100 · Đọc ${kq.doc}/100`
-        : `Nghe ${kq.nghe}/25 · Đọc ${kq.doc}/25 · Viết ${kq.viet}/10 câu đúng`;
+        : `Nghe ${kq.nghe}/${ch.soKy.n} · Đọc ${kq.doc}/${ch.soKy.d} · Viết ${kq.viet}/${ch.soKy.v} câu đúng`;
       khung.innerHTML = `
         <div class="ket-thuc">
           <div class="emoji emoji-to">${dat ? '🏆' : '💪'}</div>

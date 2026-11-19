@@ -1,0 +1,90 @@
+# ===== BỘ TRANH (EMOJI) CHO ĐỀ THI THỬ HSK 3 – PHẦN A =====
+# Chủ đề: thể thao & giải trí, thiên nhiên – động vật – thời tiết, du lịch & giao thông.
+# (Phần B ở tranh3b.txt: nhà cửa, ăn uống/mua sắm, học tập/công việc, sức khỏe, điện thoại/máy tính.)
+# Mỗi tranh:
+#   ## từ khóa1,từ khóa2 | emoji | nhóm
+#   D câu 1 | pinyin 1 | câu 2 | pinyin 2 | dịch          (hội thoại, dùng cho Nghe P1)
+#   C từ cho sẵn | mảnh1/mảnh2/…/mảnhN。 | pinyin | dịch  (câu sắp xếp, dùng cho Viết P2)
+#   ~ mảnh…/…。                                           (thứ tự khác cũng đúng của câu C ngay trên)
+# "Từ khóa" quyết định câu nào khớp tranh nào: một câu khớp mọi tranh có từ khóa nằm trong câu.
+# Câu tự đặt, chỉ dùng chữ cấp 1–3. Emoji chỉ dùng loại có từ 2019 trở về trước.
+# Sửa xong chạy: python -X utf8 cong-cu/ghep-thi-thu-3.py
+
+## 相机,照相,拍照,照片 | 📷 | giaitri
+D 你的新相机真不错，是什么时候买的？ | Nǐ de xīn xiàngjī zhēn búcuò, shì shénme shíhou mǎi de? | 上个月买的，我最近特别喜欢拍照。 | Shàng ge yuè mǎi de, wǒ zuìjìn tèbié xǐhuan pāizhào. | – Máy ảnh mới của bạn đẹp thật, mua khi nào thế? – Mua tháng trước, dạo này tôi đặc biệt thích chụp ảnh.
+D 你能用这个相机帮我们拍张照片吗？ | Nǐ néng yòng zhège xiàngjī bāng wǒmen pāi zhāng zhàopiàn ma? | 没问题，大家站近一点儿，看这儿！ | Méi wèntí, dàjiā zhàn jìn yìdiǎnr, kàn zhèr! | – Bạn dùng máy ảnh này chụp giúp chúng tôi một tấm được không? – Không vấn đề gì, mọi người đứng gần vào một chút, nhìn đây!
+C 相机 | 他/每次旅游/都带着/这个相机。 | Tā měi cì lǚyóu dōu dài zhe zhège xiàngjī. | Mỗi lần đi du lịch anh ấy đều mang theo chiếc máy ảnh này.
+~ 每次旅游/他/都带着/这个相机。
+~ 这个相机/他/每次旅游/都带着。
+
+## 爬山 | 🏔️ | giaitri
+D 这个周末天气不错，我们去爬山吧？ | Zhège zhōumò tiānqì búcuò, wǒmen qù páshān ba? | 好啊，不过山很高，我们要早点儿出发。 | Hǎo a, búguò shān hěn gāo, wǒmen yào zǎo diǎnr chūfā. | – Cuối tuần này thời tiết đẹp, chúng mình đi leo núi nhé? – Được đấy, nhưng núi cao lắm, chúng mình phải xuất phát sớm một chút.
+D 你怎么累成这样？ | Nǐ zěnme lèi chéng zhèyàng? | 我和朋友去爬山了，爬了五个小时才到山上。 | Wǒ hé péngyou qù páshān le, pá le wǔ ge xiǎoshí cái dào shān shang. | – Sao bạn mệt thế này? – Tôi đi leo núi với bạn, leo năm tiếng mới lên tới đỉnh.
+C 爬山 | 我爷爷/每个周末/都去/爬山。 | Wǒ yéye měi ge zhōumò dōu qù páshān. | Cuối tuần nào ông tôi cũng đi leo núi.
+~ 每个周末/我爷爷/都去/爬山。
+
+## 耳机,音乐 | 🎧 | giaitri
+D 你在听什么呢？这么高兴。 | Nǐ zài tīng shénme ne? Zhème gāoxìng. | 我在用耳机听中国音乐，你也来听听吧。 | Wǒ zài yòng ěrjī tīng Zhōngguó yīnyuè, nǐ yě lái tīngting ba. | – Bạn đang nghe gì thế? Vui vậy. – Tôi đang nghe nhạc Trung Quốc bằng tai nghe, bạn cũng nghe thử đi.
+D 我叫了你好几次，你怎么不回答？ | Wǒ jiào le nǐ hǎo jǐ cì, nǐ zěnme bù huídá? | 对不起，我刚才在用耳机听音乐，没听见。 | Duìbuqǐ, wǒ gāngcái zài yòng ěrjī tīng yīnyuè, méi tīngjiàn. | – Tôi gọi bạn mấy lần rồi, sao bạn không trả lời? – Xin lỗi, lúc nãy tôi đang nghe nhạc bằng tai nghe, không nghe thấy.
+C 耳机 | 她/喜欢/用耳机/听中国音乐。 | Tā xǐhuan yòng ěrjī tīng Zhōngguó yīnyuè. | Cô ấy thích nghe nhạc Trung Quốc bằng tai nghe.
+
+## 电影 | 🎬 | giaitri
+D 今天晚上的电影几点开始？ | Jīntiān wǎnshang de diànyǐng jǐ diǎn kāishǐ? | 七点半，我们得早点儿去，还要买票呢。 | Qī diǎn bàn, wǒmen děi zǎo diǎnr qù, hái yào mǎi piào ne. | – Phim tối nay mấy giờ bắt đầu? – Bảy rưỡi, chúng mình phải đi sớm một chút, còn phải mua vé nữa.
+D 你觉得这个电影怎么样？ | Nǐ juéde zhège diànyǐng zěnmeyàng? | 故事很有意思，就是有点儿长，看了三个小时。 | Gùshi hěn yǒu yìsi, jiùshì yǒudiǎnr cháng, kàn le sān ge xiǎoshí. | – Bạn thấy bộ phim này thế nào? – Câu chuyện rất hay, chỉ hơi dài, xem mất ba tiếng.
+C 电影 | 这个电影/讲了/一个很有名的/历史故事。 | Zhège diànyǐng jiǎng le yí ge hěn yǒumíng de lìshǐ gùshi. | Bộ phim này kể một câu chuyện lịch sử rất nổi tiếng.
+
+## 羽毛球 | 🏸 | thethao
+D 下午有空吗？我们去体育馆打羽毛球吧。 | Xiàwǔ yǒu kòng ma? Wǒmen qù tǐyùguǎn dǎ yǔmáoqiú ba. | 好啊，我很久没打了，可能打得不太好。 | Hǎo a, wǒ hěn jiǔ méi dǎ le, kěnéng dǎ de bú tài hǎo. | – Chiều nay rảnh không? Chúng mình đến nhà thi đấu chơi cầu lông đi. – Được đấy, lâu lắm rồi tôi không chơi, có thể chơi không giỏi lắm.
+D 你羽毛球打得真好，练了多长时间了？ | Nǐ yǔmáoqiú dǎ de zhēn hǎo, liàn le duō cháng shíjiān le? | 我从初中就开始练了，差不多十年了。 | Wǒ cóng chūzhōng jiù kāishǐ liàn le, chàbuduō shí nián le. | – Bạn chơi cầu lông giỏi thật, tập bao lâu rồi? – Tôi bắt đầu tập từ hồi cấp hai, gần mười năm rồi.
+C 羽毛球 | 他们/正在/球场上/打羽毛球。 | Tāmen zhèngzài qiúchǎng shang dǎ yǔmáoqiú. | Họ đang chơi cầu lông trên sân.
+~ 球场上/他们/正在/打羽毛球。
+
+## 熊猫 | 🐼 | dongvat
+D 这个周末带孩子去哪儿玩儿？ | Zhège zhōumò dài háizi qù nǎr wánr? | 去动物园吧，孩子们最喜欢看大熊猫了。 | Qù dòngwùyuán ba, háizimen zuì xǐhuan kàn dàxióngmāo le. | – Cuối tuần này đưa con đi đâu chơi? – Đi sở thú đi, bọn trẻ thích xem gấu trúc nhất.
+D 你知道大熊猫一天吃多少东西吗？ | Nǐ zhīdào dàxióngmāo yì tiān chī duōshao dōngxi ma? | 听说大概要吃三十公斤，真是太多了！ | Tīngshuō dàgài yào chī sānshí gōngjīn, zhēn shì tài duō le! | – Bạn có biết gấu trúc một ngày ăn bao nhiêu không? – Nghe nói khoảng ba mươi cân, nhiều quá đi mất!
+C 大熊猫 | 那只大熊猫/一边吃东西/一边/看着游客。 | Nà zhī dàxióngmāo yìbiān chī dōngxi yìbiān kàn zhe yóukè. | Con gấu trúc kia vừa ăn vừa nhìn du khách.
+~ 那只大熊猫/一边/看着游客/一边吃东西。
+
+## 月亮 | 🌕 | thiennhien
+D 你看，今天晚上的月亮又大又亮。 | Nǐ kàn, jīntiān wǎnshang de yuèliang yòu dà yòu liàng. | 是啊，明天就是中秋节了。 | Shì a, míngtiān jiù shì Zhōngqiū Jié le. | – Bạn nhìn kìa, trăng tối nay vừa to vừa sáng. – Đúng thế, mai là Tết Trung thu rồi.
+D 这么晚了，你还在外面做什么？ | Zhème wǎn le, nǐ hái zài wàimiàn zuò shénme? | 我在看月亮呢，今天的月亮特别亮。 | Wǒ zài kàn yuèliang ne, jīntiān de yuèliang tèbié liàng. | – Muộn thế này rồi, bạn còn làm gì ở ngoài? – Tôi đang ngắm trăng, trăng hôm nay sáng đặc biệt.
+C 月亮 | 今天晚上的/月亮/又大/又亮。 | Jīntiān wǎnshang de yuèliang yòu dà yòu liàng. | Trăng tối nay vừa to vừa sáng.
+~ 今天晚上的/月亮/又亮/又大。
+
+## 伞 | ☔ | thoitiet
+D 外面下雨了，你带伞了吗？ | Wàimiàn xià yǔ le, nǐ dài sǎn le ma? | 没带，你的伞能借我用一下吗？ | Méi dài, nǐ de sǎn néng jiè wǒ yòng yíxià ma? | – Ngoài trời mưa rồi, bạn có mang ô không? – Không mang, cho tôi mượn ô của bạn một lát được không?
+D 出门的时候别忘了拿雨伞，下午可能会下雨。 | Chūmén de shíhou bié wàng le ná yǔsǎn, xiàwǔ kěnéng huì xià yǔ. | 知道了，我已经放在书包里了。 | Zhīdào le, wǒ yǐjīng fàng zài shūbāo li le. | – Lúc ra ngoài đừng quên mang ô, chiều có thể sẽ mưa. – Biết rồi, con cho vào cặp rồi.
+C 伞 | 小张/把雨伞/放在/门口了。 | Xiǎo Zhāng bǎ yǔsǎn fàng zài ménkǒu le. | Tiểu Trương để ô ở cửa rồi.
+
+## 风 | 🌬️ | thoitiet
+D 今天风怎么这么大？ | Jīntiān fēng zěnme zhème dà? | 听说下午还要刮大风，你多穿点儿衣服吧。 | Tīngshuō xiàwǔ hái yào guā dà fēng, nǐ duō chuān diǎnr yīfu ba. | – Sao hôm nay gió to thế? – Nghe nói chiều nay còn có gió lớn nữa, bạn mặc thêm áo vào đi.
+D 外面刮风了，快把门关上吧。 | Wàimiàn guā fēng le, kuài bǎ mén guān shang ba. | 好的，这么大的风，今天还是别出去了。 | Hǎo de, zhème dà de fēng, jīntiān háishi bié chūqù le. | – Ngoài trời nổi gió rồi, mau đóng cửa lại đi. – Được, gió to thế này, hôm nay đừng ra ngoài nữa.
+
+## 树 | 🌳 | thiennhien
+D 公园里的这些树真高啊！ | Gōngyuán li de zhèxiē shù zhēn gāo a! | 是啊，听说它们都有一百多年了。 | Shì a, tīngshuō tāmen dōu yǒu yìbǎi duō nián le. | – Những cái cây trong công viên này cao thật! – Đúng thế, nghe nói chúng đều hơn một trăm năm tuổi rồi.
+D 天气太热了，我们去哪儿休息一下？ | Tiānqì tài rè le, wǒmen qù nǎr xiūxi yíxià? | 去前面的树下面坐一会儿吧，那儿挺凉快的。 | Qù qiánmiàn de shù xiàmiàn zuò yíhuìr ba, nàr tǐng liángkuai de. | – Trời nóng quá, chúng mình đi đâu nghỉ một chút? – Ra ngồi dưới gốc cây đằng trước một lát đi, chỗ đó khá mát.
+C 树 | 奶奶/每天下午/都在树下/看报纸。 | Nǎinai měi tiān xiàwǔ dōu zài shù xià kàn bàozhǐ. | Chiều nào bà cũng đọc báo dưới gốc cây.
+~ 每天下午/奶奶/都在树下/看报纸。
+
+## 自行车,骑车 | 🚲 | giaothong
+D 你每天怎么去上班？ | Nǐ měi tiān zěnme qù shàngbān? | 我骑自行车去，又能锻炼身体，又不用等车。 | Wǒ qí zìxíngchē qù, yòu néng duànliàn shēntǐ, yòu bú yòng děng chē. | – Hằng ngày bạn đi làm bằng gì? – Tôi đi xe đạp, vừa rèn luyện được sức khỏe, vừa không phải chờ xe.
+D 你的自行车怎么了？ | Nǐ de zìxíngchē zěnme le? | 坏了，所以我是走路回来的。 | Huài le, suǒyǐ wǒ shì zǒulù huílai de. | – Xe đạp của bạn bị sao thế? – Hỏng rồi, nên tôi đi bộ về.
+C 自行车 | 我弟弟/骑着/新买的自行车/去学校了。 | Wǒ dìdi qí zhe xīn mǎi de zìxíngchē qù xuéxiào le. | Em trai tôi đạp chiếc xe đạp mới mua đến trường rồi.
+
+## 船 | 🚢 | giaothong
+D 从这儿到河对面怎么走？ | Cóng zhèr dào hé duìmiàn zěnme zǒu? | 你得坐船过去，十分钟就到了。 | Nǐ děi zuò chuán guòqu, shí fēnzhōng jiù dào le. | – Từ đây sang bờ sông bên kia đi thế nào? – Bạn phải đi thuyền sang, mười phút là tới.
+D 你坐过船吗？ | Nǐ zuò guo chuán ma? | 坐过一次，船上的人特别多，我有点儿不舒服。 | Zuò guo yí cì, chuán shang de rén tèbié duō, wǒ yǒudiǎnr bù shūfu. | – Bạn đi tàu thủy bao giờ chưa? – Đi một lần rồi, trên tàu đông người lắm, tôi hơi khó chịu.
+C 船 | 我们/是/坐船/从南方/来的。 | Wǒmen shì zuò chuán cóng nánfāng lái de. | Chúng tôi đi thuyền từ miền Nam đến.
+~ 我们/是/从南方/坐船/来的。
+
+## 高铁 | 🚄 | giaothong
+D 从这儿到上海坐高铁要多长时间？ | Cóng zhèr dào Shànghǎi zuò gāotiě yào duō cháng shíjiān? | 四个多小时，又快又舒服。 | Sì ge duō xiǎoshí, yòu kuài yòu shūfu. | – Từ đây đến Thượng Hải đi tàu cao tốc mất bao lâu? – Hơn bốn tiếng, vừa nhanh vừa thoải mái.
+D 快点儿走吧，高铁九点就开了。 | Kuài diǎnr zǒu ba, gāotiě jiǔ diǎn jiù kāi le. | 别着急，我们还有半个小时，先去检票吧。 | Bié zháojí, wǒmen hái yǒu bàn ge xiǎoshí, xiān qù jiǎnpiào ba. | – Đi nhanh lên, tàu cao tốc chín giờ là chạy rồi. – Đừng vội, chúng ta còn nửa tiếng, đi soát vé trước đã.
+
+## 行李,箱子 | 🧳 | dulich
+D 你的行李怎么这么多？ | Nǐ de xíngli zěnme zhème duō? | 我要去国外留学一年，所以带了两个大箱子。 | Wǒ yào qù guówài liúxué yì nián, suǒyǐ dài le liǎng ge dà xiāngzi. | – Sao hành lý của bạn nhiều thế? – Tôi sắp ra nước ngoài du học một năm, nên mang theo hai cái va li to.
+D 你的行李箱看起来很重，我帮你拿吧。 | Nǐ de xínglixiāng kàn qǐlai hěn zhòng, wǒ bāng nǐ ná ba. | 谢谢，里面都是我在国外给家人买的礼物。 | Xièxie, lǐmiàn dōu shì wǒ zài guówài gěi jiārén mǎi de lǐwù. | – Va li của bạn trông nặng quá, để tôi xách giúp. – Cảm ơn, bên trong toàn là quà tôi mua ở nước ngoài cho người nhà.
+
+## 红绿灯 | 🚦 | giaothong
+D 请问，去图书馆怎么走？ | Qǐngwèn, qù túshūguǎn zěnme zǒu? | 过了前面那个红绿灯，往左走就能看到。 | Guò le qiánmiàn nàge hónglǜdēng, wǎng zuǒ zǒu jiù néng kàndào. | – Xin hỏi, đến thư viện đi thế nào? – Qua cột đèn giao thông phía trước, rẽ trái là thấy.
+D 你刚才怎么没过马路？ | Nǐ gāngcái zěnme méi guò mǎlù? | 红绿灯是红的，得等它变成绿的才能走。 | Hónglǜdēng shì hóng de, děi děng tā biànchéng lǜ de cái néng zǒu. | – Lúc nãy sao bạn không qua đường? – Đèn giao thông đang đỏ, phải đợi nó chuyển xanh mới được đi.

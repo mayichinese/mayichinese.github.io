@@ -1,0 +1,145 @@
+# ===== NGÂN HÀNG CÂU HỎI THI THỬ HSK 3 – FILE 5: ĐOẠN VĂN + HAI CÂU HỎI ★ (Đọc phần 3, câu 57–60) =====
+# Mỗi mục (### dai…): một đoạn văn (P), rồi HAI lần: câu hỏi (H), đáp án đúng (A), hai đáp án sai (X).
+#   P đoạn văn | pinyin
+#   H câu hỏi 1 | pinyin
+#   A đáp án đúng 1 | pinyin
+#   X đáp án sai | pinyin
+#   X đáp án sai | pinyin
+#   H câu hỏi 2 | pinyin
+#   A đáp án đúng 2 | pinyin
+#   X đáp án sai | pinyin
+#   X đáp án sai | pinyin
+# Hai câu hỏi hỏi hai chỗ khác nhau của đoạn; câu hỏi dạng nửa câu kết thúc bằng "：" (pinyin ":").
+# Chỉ dùng chữ cấp 1–3. Đáp án sai phải chắc chắn SAI theo đoạn văn; chỉ một đáp án đúng.
+
+### dai1
+P 我去年九月来上海上大学。刚来的时候，我一个朋友也没有，也不习惯这里的天气。后来我参加了学校的音乐节目，认识了很多同学。现在我已经完全习惯了这里的生活，周末经常和朋友一起去爬山。 | Wǒ qùnián jiǔ yuè lái Shànghǎi shàng dàxué. Gāng lái de shíhou, wǒ yí ge péngyou yě méiyǒu, yě bù xíguàn zhèlǐ de tiānqì. Hòulái wǒ cānjiā le xuéxiào de yīnyuè jiémù, rènshi le hěn duō tóngxué. Xiànzài wǒ yǐjīng wánquán xíguàn le zhèlǐ de shēnghuó, zhōumò jīngcháng hé péngyou yìqǐ qù páshān.
+H 他刚来上海的时候： | Tā gāng lái Shànghǎi de shíhou:
+A 没有朋友 | méiyǒu péngyou
+X 常去爬山 | cháng qù páshān
+X 习惯这里的天气 | xíguàn zhèlǐ de tiānqì
+H 他是怎么认识很多同学的？ | Tā shì zěnme rènshi hěn duō tóngxué de?
+A 参加音乐节目 | cānjiā yīnyuè jiémù
+X 周末去爬山 | zhōumò qù páshān
+X 上音乐课 | shàng yīnyuè kè
+
+### dai2
+P 饺子是中国北方人很爱吃的东西。过年的时候，一家人常常坐在一起包饺子，一边包一边聊天。有的人会在一个饺子里放一块糖，吃到这个饺子的人，新的一年会很甜。现在超市里也能买到饺子，但是很多老人还是觉得自己包的更好吃。 | Jiǎozi shì Zhōngguó běifāng rén hěn ài chī de dōngxi. Guònián de shíhou, yì jiā rén chángcháng zuò zài yìqǐ bāo jiǎozi, yìbiān bāo yìbiān liáotiān. Yǒude rén huì zài yí ge jiǎozi lǐ fàng yí kuài táng, chī dào zhège jiǎozi de rén, xīn de yì nián huì hěn tián. Xiànzài chāoshì lǐ yě néng mǎi dào jiǎozi, dànshì hěn duō lǎorén háishi juéde zìjǐ bāo de gèng hǎochī.
+H 过年的时候，一家人常常： | Guònián de shíhou, yì jiā rén chángcháng:
+A 一起包饺子 | yìqǐ bāo jiǎozi
+X 去超市买饺子 | qù chāoshì mǎi jiǎozi
+X 去饭馆吃饭 | qù fànguǎn chīfàn
+H 很多老人觉得： | Hěn duō lǎorén juéde:
+A 自己包的更好吃 | zìjǐ bāo de gèng hǎochī
+X 超市的更好吃 | chāoshì de gèng hǎochī
+X 饺子里不能放糖 | jiǎozi lǐ bù néng fàng táng
+
+### dai3
+P 我们饭馆需要一名会说汉语的服务员，男女都可以。工作时间是每天下午两点到晚上十点，周末休息一天。如果你对这个工作感兴趣，请在本月二十号以前给张经理打电话。 | Wǒmen fànguǎn xūyào yì míng huì shuō Hànyǔ de fúwùyuán, nán nǚ dōu kěyǐ. Gōngzuò shíjiān shì měi tiān xiàwǔ liǎng diǎn dào wǎnshang shí diǎn, zhōumò xiūxi yì tiān. Rúguǒ nǐ duì zhège gōngzuò gǎn xìngqù, qǐng zài běn yuè èrshí hào yǐqián gěi Zhāng jīnglǐ dǎ diànhuà.
+H 这个工作要求： | Zhège gōngzuò yāoqiú:
+A 会说汉语 | huì shuō Hànyǔ
+X 会开车 | huì kāichē
+X 是男的 | shì nán de
+H 这个工作每天要工作： | Zhège gōngzuò měi tiān yào gōngzuò:
+A 八个小时 | bā ge xiǎoshí
+X 十个小时 | shí ge xiǎoshí
+X 两个小时 | liǎng ge xiǎoshí
+
+### dai4
+P 很多人晚上睡觉以前喜欢玩儿手机，一玩儿就是一两个小时。其实这对身体很不好，不但会让眼睛累，而且会让人睡不好觉。医生说，睡觉前最好把手机放在别的房间，听听音乐或者看一会儿书。这样，第二天起床以后就不会觉得累了。 | Hěn duō rén wǎnshang shuìjiào yǐqián xǐhuan wánr shǒujī, yì wánr jiù shì yì liǎng ge xiǎoshí. Qíshí zhè duì shēntǐ hěn bù hǎo, búdàn huì ràng yǎnjing lèi, érqiě huì ràng rén shuì bù hǎo jiào. Yīshēng shuō, shuìjiào qián zuìhǎo bǎ shǒujī fàng zài bié de fángjiān, tīngting yīnyuè huòzhě kàn yíhuìr shū. Zhèyàng, dì-èr tiān qǐchuáng yǐhòu jiù bú huì juéde lèi le.
+H 睡觉前玩儿很长时间手机： | Shuìjiào qián wánr hěn cháng shíjiān shǒujī:
+A 会让眼睛累 | huì ràng yǎnjing lèi
+X 对身体很好 | duì shēntǐ hěn hǎo
+X 能让人睡得好 | néng ràng rén shuì de hǎo
+H 医生觉得睡觉前最好： | Yīshēng juéde shuìjiào qián zuìhǎo:
+A 听听音乐 | tīngting yīnyuè
+X 玩儿一会儿手机 | wánr yíhuìr shǒujī
+X 把手机放在床边 | bǎ shǒujī fàng zài chuángbiān
+
+### dai5
+P 我家附近有一个很大的公园，公园里有一条河，河边种了很多花和树。每天早上，很多老人在那儿锻炼身体，有的跑步，有的跳舞。到了周末，年轻人喜欢带着孩子去河边骑自行车。公园不要钱，所以去的人特别多。 | Wǒ jiā fùjìn yǒu yí ge hěn dà de gōngyuán, gōngyuán lǐ yǒu yì tiáo hé, hé biān zhòng le hěn duō huā hé shù. Měi tiān zǎoshang, hěn duō lǎorén zài nàr duànliàn shēntǐ, yǒude pǎobù, yǒude tiàowǔ. Dào le zhōumò, niánqīng rén xǐhuan dàizhe háizi qù hé biān qí zìxíngchē. Gōngyuán bú yào qián, suǒyǐ qù de rén tèbié duō.
+H 关于这个公园，可以知道： | Guānyú zhège gōngyuán, kěyǐ zhīdào:
+A 去公园不用花钱 | qù gōngyuán bú yòng huā qián
+X 公园里没有河 | gōngyuán lǐ méiyǒu hé
+X 只有老人去 | zhǐyǒu lǎorén qù
+H 周末，年轻人带孩子去公园： | Zhōumò, niánqīng rén dài háizi qù gōngyuán:
+A 骑自行车 | qí zìxíngchē
+X 跑步 | pǎobù
+X 跳舞 | tiàowǔ
+
+### dai6
+P 今天是我的生日，可是爸爸妈妈都在外地出差，我以为没有人记得。下班回到家，打开门一看，桌子上放着一个大蛋糕，我的好朋友们都在房间里等我。后来我才知道，是我的妹妹给他们打的电话。我感动得说不出话来。 | Jīntiān shì wǒ de shēngrì, kěshì bàba māma dōu zài wàidì chūchāi, wǒ yǐwéi méiyǒu rén jìde. Xiàbān huí dào jiā, dǎkāi mén yí kàn, zhuōzi shang fàngzhe yí ge dà dàngāo, wǒ de hǎo péngyoumen dōu zài fángjiān lǐ děng wǒ. Hòulái wǒ cái zhīdào, shì wǒ de mèimei gěi tāmen dǎ de diànhuà. Wǒ gǎndòng de shuō bu chū huà lái.
+H 他回家以前以为： | Tā huí jiā yǐqián yǐwéi:
+A 没人记得他的生日 | méi rén jìde tā de shēngrì
+X 爸爸妈妈在家等他 | bàba māma zài jiā děng tā
+X 朋友会买蛋糕 | péngyou huì mǎi dàngāo
+H 是谁让朋友们来的？ | Shì shéi ràng péngyoumen lái de?
+A 他的妹妹 | tā de mèimei
+X 他的爸爸 | tā de bàba
+X 他自己 | tā zìjǐ
+
+### dai7
+P 八月十五是中国的中秋节。这天晚上，一家人会坐在一起，一边吃水果一边看月亮。如果有家人在别的城市工作，不能回家，大家就会给他打电话。所以，在中国人心里，中秋节是一个和家人在一起的节日。 | Bā yuè shíwǔ shì Zhōngguó de Zhōngqiū Jié. Zhè tiān wǎnshang, yì jiā rén huì zuò zài yìqǐ, yìbiān chī shuǐguǒ yìbiān kàn yuèliang. Rúguǒ yǒu jiārén zài bié de chéngshì gōngzuò, bù néng huí jiā, dàjiā jiù huì gěi tā dǎ diànhuà. Suǒyǐ, zài Zhōngguó rén xīn lǐ, Zhōngqiū Jié shì yí ge hé jiārén zài yìqǐ de jiérì.
+H 中秋节晚上，一家人会： | Zhōngqiū Jié wǎnshang, yì jiā rén huì:
+A 一起看月亮 | yìqǐ kàn yuèliang
+X 一起包饺子 | yìqǐ bāo jiǎozi
+X 一起去旅游 | yìqǐ qù lǚyóu
+H 对中国人来说，中秋节最重要的是： | Duì Zhōngguó rén lái shuō, Zhōngqiū Jié zuì zhòngyào de shì:
+A 和家人在一起 | hé jiārén zài yìqǐ
+X 吃很多东西 | chī hěn duō dōngxi
+X 去别的城市 | qù bié de chéngshì
+
+### dai8
+P 学习汉语的时候，很多人觉得汉字最难。我的老师说，记汉字不能着急，每天记五个就可以了，但是一定要天天复习。还有，多看中文电影、多跟中国人聊天，也是很好的方法。我用老师的方法学了半年，现在已经认识八百多个汉字了。 | Xuéxí Hànyǔ de shíhou, hěn duō rén juéde Hànzì zuì nán. Wǒ de lǎoshī shuō, jì Hànzì bù néng zháojí, měi tiān jì wǔ ge jiù kěyǐ le, dànshì yídìng yào tiāntiān fùxí. Hái yǒu, duō kàn Zhōngwén diànyǐng, duō gēn Zhōngguó rén liáotiān, yě shì hěn hǎo de fāngfǎ. Wǒ yòng lǎoshī de fāngfǎ xué le bàn nián, xiànzài yǐjīng rènshi bābǎi duō ge Hànzì le.
+H 老师觉得记汉字： | Lǎoshī juéde jì Hànzì:
+A 要天天复习 | yào tiāntiān fùxí
+X 一天记得越多越好 | yì tiān jì de yuè duō yuè hǎo
+X 只看电影就可以 | zhǐ kàn diànyǐng jiù kěyǐ
+H 他用老师的方法学了多长时间？ | Tā yòng lǎoshī de fāngfǎ xué le duō cháng shíjiān?
+A 半年 | bàn nián
+X 五天 | wǔ tiān
+X 八个月 | bā ge yuè
+
+### dai9
+P 同学们，学校图书馆从下个星期一开始换新的电脑，所以下周一到周三不能借书，也不能上网。从周四开始就可以借书了。还有，图书馆开门的时间也变了，以后每天早上八点开门，晚上九点关门。 | Tóngxuémen, xuéxiào túshūguǎn cóng xià ge xīngqīyī kāishǐ huàn xīn de diànnǎo, suǒyǐ xià zhōuyī dào zhōusān bù néng jiè shū, yě bù néng shàngwǎng. Cóng zhōusì kāishǐ jiù kěyǐ jiè shū le. Hái yǒu, túshūguǎn kāimén de shíjiān yě biàn le, yǐhòu měi tiān zǎoshang bā diǎn kāimén, wǎnshang jiǔ diǎn guānmén.
+H 下周一到周三不能借书，是因为： | Xià zhōuyī dào zhōusān bù néng jiè shū, shì yīnwèi:
+A 要换新电脑 | yào huàn xīn diànnǎo
+X 老师要开会 | lǎoshī yào kāihuì
+X 学校放假了 | xuéxiào fàngjià le
+H 下周想借书的同学，最早可以： | Xià zhōu xiǎng jiè shū de tóngxué, zuì zǎo kěyǐ:
+A 下周四去 | xià zhōusì qù
+X 下周一去 | xià zhōuyī qù
+X 下周三去 | xià zhōusān qù
+
+### dai10
+P 上个月我和朋友去南方旅游。我们本来打算坐飞机，但是机票太贵了，最后决定坐火车。没想到，火车上的环境非常好，我们一边看外面的山和河，一边聊天，一点儿也不觉得累。下次旅游，我还想坐火车。 | Shàng ge yuè wǒ hé péngyou qù nánfāng lǚyóu. Wǒmen běnlái dǎsuàn zuò fēijī, dànshì jīpiào tài guì le, zuìhòu juédìng zuò huǒchē. Méi xiǎngdào, huǒchē shang de huánjìng fēicháng hǎo, wǒmen yìbiān kàn wàimiàn de shān hé hé, yìbiān liáotiān, yìdiǎnr yě bù juéde lèi. Xià cì lǚyóu, wǒ hái xiǎng zuò huǒchē.
+H 他们为什么没坐飞机？ | Tāmen wèi shénme méi zuò fēijī?
+A 机票太贵 | jīpiào tài guì
+X 飞机太慢 | fēijī tài màn
+X 朋友不想去 | péngyou bù xiǎng qù
+H 他觉得坐火车： | Tā juéde zuò huǒchē:
+A 很舒服 | hěn shūfu
+X 很累 | hěn lèi
+X 太贵了 | tài guì le
+
+### dai11
+P 学校东边新开了一家面馆，老板是一个年轻人。他们的面条又便宜又好吃，一碗只要十五块钱。中午的时候，店里总是坐满了学生，去晚了就得等很长时间。所以我一般早一点儿去，十一点半就到了。 | Xuéxiào dōngbian xīn kāi le yì jiā miànguǎn, lǎobǎn shì yí ge niánqīng rén. Tāmen de miàntiáo yòu piányi yòu hǎochī, yì wǎn zhǐ yào shíwǔ kuài qián. Zhōngwǔ de shíhou, diàn lǐ zǒngshì zuò mǎn le xuésheng, qù wǎn le jiù děi děng hěn cháng shíjiān. Suǒyǐ wǒ yìbān zǎo yìdiǎnr qù, shíyī diǎn bàn jiù dào le.
+H 关于这家面馆，可以知道： | Guānyú zhè jiā miànguǎn, kěyǐ zhīdào:
+A 面条很便宜 | miàntiáo hěn piányi
+X 老板是老人 | lǎobǎn shì lǎorén
+X 中午人很少 | zhōngwǔ rén hěn shǎo
+H 他为什么早一点儿去？ | Tā wèi shénme zǎo yìdiǎnr qù?
+A 不想等太长时间 | bù xiǎng děng tài cháng shíjiān
+X 想跟老板聊天 | xiǎng gēn lǎobǎn liáotiān
+X 十二点面馆关门 | shí'èr diǎn miànguǎn guānmén
+
+### dai12
+P 我爷爷今年七十岁了，身体还是很健康。他每天早上六点起床，先去公园走一个小时，然后回家做早饭。他不喝酒，也很少吃肉，经常吃水果。爷爷常说，想要身体好，最重要的是心情要好。 | Wǒ yéye jīnnián qīshí suì le, shēntǐ háishi hěn jiànkāng. Tā měi tiān zǎoshang liù diǎn qǐchuáng, xiān qù gōngyuán zǒu yí ge xiǎoshí, ránhòu huí jiā zuò zǎofàn. Tā bù hē jiǔ, yě hěn shǎo chī ròu, jīngcháng chī shuǐguǒ. Yéye cháng shuō, xiǎng yào shēntǐ hǎo, zuì zhòngyào de shì xīnqíng yào hǎo.
+H 爷爷每天早上起床以后先： | Yéye měi tiān zǎoshang qǐchuáng yǐhòu xiān:
+A 去公园走路 | qù gōngyuán zǒulù
+X 回家做早饭 | huí jiā zuò zǎofàn
+X 吃一些水果 | chī yìxiē shuǐguǒ
+H 关于爷爷，可以知道： | Guānyú yéye, kěyǐ zhīdào:
+A 他不喝酒 | tā bù hē jiǔ
+X 他常常吃肉 | tā chángcháng chī ròu
+X 他身体不太好 | tā shēntǐ bú tài hǎo

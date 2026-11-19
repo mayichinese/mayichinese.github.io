@@ -1,0 +1,4 @@
+Tranh: 30 (hội thoại 60, câu sắp xếp 20) · ghép: 8 nhóm · điền từ: 6 nhóm câu + 5 nhóm hội thoại · hội thoại+hỏi: 30 · đoạn: 40 · đoạn 2 câu hỏi: 12 · viết chữ: 25 (25 chữ khác nhau)
+LỖI: 0 · CẢNH BÁO: 0
+
+Đã ghi app\data\thi-thu-hsk3.json

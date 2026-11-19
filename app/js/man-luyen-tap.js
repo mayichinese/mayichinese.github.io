@@ -16,8 +16,8 @@ const CAC_PHAN = [
     moTa: '250 chữ cần viết tay HSK 1–3 (100 chữ cấp 1–2, 150 chữ cấp 3): xem thứ tự nét, viết theo, viết không nhìn.' },
   { ma: 'nguPhap', emoji: '📝', ten: 'Trắc nghiệm', href: '#/trac-nghiem', phut: 'nguPhap',
     moTa: 'Chữ → nghĩa, nghĩa → chữ, nghe → chữ, chọn pinyin đúng. Câu sai vào sổ để ôn lại.' },
-  { ma: 'on', emoji: '📋', ten: 'Thi thử HSK 1 · HSK 2', href: '#/thi-thu', nhan: '40 / 60 câu',
-    moTa: 'Đề mô phỏng: HSK 1 (nghe + đọc, 40 câu), HSK 2 (nghe + đọc + viết, 60 câu). Tính giờ, chấm điểm (đạt từ 120/200).' },
+  { ma: 'on', emoji: '📋', ten: 'Thi thử HSK 1 · 2 · 3', href: '#/thi-thu', nhan: '40 / 60 / 70 câu',
+    moTa: 'Đề mô phỏng: HSK 1 (nghe + đọc, 40 câu), HSK 2 (60 câu) và HSK 3 (70 câu) có thêm phần viết. Tính giờ, chấm điểm (đạt từ 120/200).' },
   { ma: 'nguPhap', emoji: '🧩', ten: 'Ngữ pháp', href: '#/ngu-phap', phut: 'nguPhap',
     moTa: 'Điểm ngữ pháp HSK 1: công thức, lỗi hay mắc, sắp xếp câu, điền từ.' },
 ];

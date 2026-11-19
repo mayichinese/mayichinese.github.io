@@ -1,0 +1,4671 @@
+{
+ "_ghiChu": "File tạo tự động bởi cong-cu/ghep-thi-thu-3.py – không sửa tay. Câu hỏi tự soạn, không phải đề chính thức.",
+ "capDo": 3,
+ "tranh": [
+  {
+   "id": "相机",
+   "khoa": [
+    "相机",
+    "照相",
+    "拍照",
+    "照片"
+   ],
+   "emoji": "📷",
+   "nhom": "giaitri",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "你的新相机真不错，是什么时候买的？",
+       "pinyin": "Nǐ de xīn xiàngjī zhēn búcuò, shì shénme shíhou mǎi de?"
+      },
+      {
+       "han": "上个月买的，我最近特别喜欢拍照。",
+       "pinyin": "Shàng ge yuè mǎi de, wǒ zuìjìn tèbié xǐhuan pāizhào."
+      }
+     ],
+     "dich": "– Máy ảnh mới của bạn đẹp thật, mua khi nào thế? – Mua tháng trước, dạo này tôi đặc biệt thích chụp ảnh.",
+     "coTranh": [
+      "相机"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "你能用这个相机帮我们拍张照片吗？",
+       "pinyin": "Nǐ néng yòng zhège xiàngjī bāng wǒmen pāi zhāng zhàopiàn ma?"
+      },
+      {
+       "han": "没问题，大家站近一点儿，看这儿！",
+       "pinyin": "Méi wèntí, dàjiā zhàn jìn yìdiǎnr, kàn zhèr!"
+      }
+     ],
+     "dich": "– Bạn dùng máy ảnh này chụp giúp chúng tôi một tấm được không? – Không vấn đề gì, mọi người đứng gần vào một chút, nhìn đây!",
+     "coTranh": [
+      "相机"
+     ]
+    }
+   ],
+   "xep": [
+    {
+     "tu": "相机",
+     "manh": [
+      "他",
+      "每次旅游",
+      "都带着",
+      "这个相机"
+     ],
+     "khac": [
+      [
+       "每次旅游",
+       "他",
+       "都带着",
+       "这个相机"
+      ],
+      [
+       "这个相机",
+       "他",
+       "每次旅游",
+       "都带着"
+      ]
+     ],
+     "dauCau": "。",
+     "han": "他每次旅游都带着这个相机。",
+     "pinyin": "Tā měi cì lǚyóu dōu dài zhe zhège xiàngjī.",
+     "dich": "Mỗi lần đi du lịch anh ấy đều mang theo chiếc máy ảnh này."
+    }
+   ]
+  },
+  {
+   "id": "爬山",
+   "khoa": [
+    "爬山"
+   ],
+   "emoji": "🏔️",
+   "nhom": "giaitri",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "这个周末天气不错，我们去爬山吧？",
+       "pinyin": "Zhège zhōumò tiānqì búcuò, wǒmen qù páshān ba?"
+      },
+      {
+       "han": "好啊，不过山很高，我们要早点儿出发。",
+       "pinyin": "Hǎo a, búguò shān hěn gāo, wǒmen yào zǎo diǎnr chūfā."
+      }
+     ],
+     "dich": "– Cuối tuần này thời tiết đẹp, chúng mình đi leo núi nhé? – Được đấy, nhưng núi cao lắm, chúng mình phải xuất phát sớm một chút.",
+     "coTranh": [
+      "爬山"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "你怎么累成这样？",
+       "pinyin": "Nǐ zěnme lèi chéng zhèyàng?"
+      },
+      {
+       "han": "我和朋友去爬山了，爬了五个小时才到山上。",
+       "pinyin": "Wǒ hé péngyou qù páshān le, pá le wǔ ge xiǎoshí cái dào shān shang."
+      }
+     ],
+     "dich": "– Sao bạn mệt thế này? – Tôi đi leo núi với bạn, leo năm tiếng mới lên tới đỉnh.",
+     "coTranh": [
+      "爬山"
+     ]
+    }
+   ],
+   "xep": [
+    {
+     "tu": "爬山",
+     "manh": [
+      "我爷爷",
+      "每个周末",
+      "都去",
+      "爬山"
+     ],
+     "khac": [
+      [
+       "每个周末",
+       "我爷爷",
+       "都去",
+       "爬山"
+      ]
+     ],
+     "dauCau": "。",
+     "han": "我爷爷每个周末都去爬山。",
+     "pinyin": "Wǒ yéye měi ge zhōumò dōu qù páshān.",
+     "dich": "Cuối tuần nào ông tôi cũng đi leo núi."
+    }
+   ]
+  },
+  {
+   "id": "耳机",
+   "khoa": [
+    "耳机",
+    "音乐"
+   ],
+   "emoji": "🎧",
+   "nhom": "giaitri",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "你在听什么呢？这么高兴。",
+       "pinyin": "Nǐ zài tīng shénme ne? Zhème gāoxìng."
+      },
+      {
+       "han": "我在用耳机听中国音乐，你也来听听吧。",
+       "pinyin": "Wǒ zài yòng ěrjī tīng Zhōngguó yīnyuè, nǐ yě lái tīngting ba."
+      }
+     ],
+     "dich": "– Bạn đang nghe gì thế? Vui vậy. – Tôi đang nghe nhạc Trung Quốc bằng tai nghe, bạn cũng nghe thử đi.",
+     "coTranh": [
+      "耳机"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "我叫了你好几次，你怎么不回答？",
+       "pinyin": "Wǒ jiào le nǐ hǎo jǐ cì, nǐ zěnme bù huídá?"
+      },
+      {
+       "han": "对不起，我刚才在用耳机听音乐，没听见。",
+       "pinyin": "Duìbuqǐ, wǒ gāngcái zài yòng ěrjī tīng yīnyuè, méi tīngjiàn."
+      }
+     ],
+     "dich": "– Tôi gọi bạn mấy lần rồi, sao bạn không trả lời? – Xin lỗi, lúc nãy tôi đang nghe nhạc bằng tai nghe, không nghe thấy.",
+     "coTranh": [
+      "耳机"
+     ]
+    }
+   ],
+   "xep": [
+    {
+     "tu": "耳机",
+     "manh": [
+      "她",
+      "喜欢",
+      "用耳机",
+      "听中国音乐"
+     ],
+     "khac": [],
+     "dauCau": "。",
+     "han": "她喜欢用耳机听中国音乐。",
+     "pinyin": "Tā xǐhuan yòng ěrjī tīng Zhōngguó yīnyuè.",
+     "dich": "Cô ấy thích nghe nhạc Trung Quốc bằng tai nghe."
+    }
+   ]
+  },
+  {
+   "id": "电影",
+   "khoa": [
+    "电影"
+   ],
+   "emoji": "🎬",
+   "nhom": "giaitri",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "今天晚上的电影几点开始？",
+       "pinyin": "Jīntiān wǎnshang de diànyǐng jǐ diǎn kāishǐ?"
+      },
+      {
+       "han": "七点半，我们得早点儿去，还要买票呢。",
+       "pinyin": "Qī diǎn bàn, wǒmen děi zǎo diǎnr qù, hái yào mǎi piào ne."
+      }
+     ],
+     "dich": "– Phim tối nay mấy giờ bắt đầu? – Bảy rưỡi, chúng mình phải đi sớm một chút, còn phải mua vé nữa.",
+     "coTranh": [
+      "电影"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "你觉得这个电影怎么样？",
+       "pinyin": "Nǐ juéde zhège diànyǐng zěnmeyàng?"
+      },
+      {
+       "han": "故事很有意思，就是有点儿长，看了三个小时。",
+       "pinyin": "Gùshi hěn yǒu yìsi, jiùshì yǒudiǎnr cháng, kàn le sān ge xiǎoshí."
+      }
+     ],
+     "dich": "– Bạn thấy bộ phim này thế nào? – Câu chuyện rất hay, chỉ hơi dài, xem mất ba tiếng.",
+     "coTranh": [
+      "电影"
+     ]
+    }
+   ],
+   "xep": [
+    {
+     "tu": "电影",
+     "manh": [
+      "这个电影",
+      "讲了",
+      "一个很有名的",
+      "历史故事"
+     ],
+     "khac": [],
+     "dauCau": "。",
+     "han": "这个电影讲了一个很有名的历史故事。",
+     "pinyin": "Zhège diànyǐng jiǎng le yí ge hěn yǒumíng de lìshǐ gùshi.",
+     "dich": "Bộ phim này kể một câu chuyện lịch sử rất nổi tiếng."
+    }
+   ]
+  },
+  {
+   "id": "羽毛球",
+   "khoa": [
+    "羽毛球"
+   ],
+   "emoji": "🏸",
+   "nhom": "thethao",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "下午有空吗？我们去体育馆打羽毛球吧。",
+       "pinyin": "Xiàwǔ yǒu kòng ma? Wǒmen qù tǐyùguǎn dǎ yǔmáoqiú ba."
+      },
+      {
+       "han": "好啊，我很久没打了，可能打得不太好。",
+       "pinyin": "Hǎo a, wǒ hěn jiǔ méi dǎ le, kěnéng dǎ de bú tài hǎo."
+      }
+     ],
+     "dich": "– Chiều nay rảnh không? Chúng mình đến nhà thi đấu chơi cầu lông đi. – Được đấy, lâu lắm rồi tôi không chơi, có thể chơi không giỏi lắm.",
+     "coTranh": [
+      "羽毛球"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "你羽毛球打得真好，练了多长时间了？",
+       "pinyin": "Nǐ yǔmáoqiú dǎ de zhēn hǎo, liàn le duō cháng shíjiān le?"
+      },
+      {
+       "han": "我从初中就开始练了，差不多十年了。",
+       "pinyin": "Wǒ cóng chūzhōng jiù kāishǐ liàn le, chàbuduō shí nián le."
+      }
+     ],
+     "dich": "– Bạn chơi cầu lông giỏi thật, tập bao lâu rồi? – Tôi bắt đầu tập từ hồi cấp hai, gần mười năm rồi.",
+     "coTranh": [
+      "羽毛球"
+     ]
+    }
+   ],
+   "xep": [
+    {
+     "tu": "羽毛球",
+     "manh": [
+      "他们",
+      "正在",
+      "球场上",
+      "打羽毛球"
+     ],
+     "khac": [
+      [
+       "球场上",
+       "他们",
+       "正在",
+       "打羽毛球"
+      ]
+     ],
+     "dauCau": "。",
+     "han": "他们正在球场上打羽毛球。",
+     "pinyin": "Tāmen zhèngzài qiúchǎng shang dǎ yǔmáoqiú.",
+     "dich": "Họ đang chơi cầu lông trên sân."
+    }
+   ]
+  },
+  {
+   "id": "熊猫",
+   "khoa": [
+    "熊猫"
+   ],
+   "emoji": "🐼",
+   "nhom": "dongvat",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "这个周末带孩子去哪儿玩儿？",
+       "pinyin": "Zhège zhōumò dài háizi qù nǎr wánr?"
+      },
+      {
+       "han": "去动物园吧，孩子们最喜欢看大熊猫了。",
+       "pinyin": "Qù dòngwùyuán ba, háizimen zuì xǐhuan kàn dàxióngmāo le."
+      }
+     ],
+     "dich": "– Cuối tuần này đưa con đi đâu chơi? – Đi sở thú đi, bọn trẻ thích xem gấu trúc nhất.",
+     "coTranh": [
+      "熊猫"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "你知道大熊猫一天吃多少东西吗？",
+       "pinyin": "Nǐ zhīdào dàxióngmāo yì tiān chī duōshao dōngxi ma?"
+      },
+      {
+       "han": "听说大概要吃三十公斤，真是太多了！",
+       "pinyin": "Tīngshuō dàgài yào chī sānshí gōngjīn, zhēn shì tài duō le!"
+      }
+     ],
+     "dich": "– Bạn có biết gấu trúc một ngày ăn bao nhiêu không? – Nghe nói khoảng ba mươi cân, nhiều quá đi mất!",
+     "coTranh": [
+      "熊猫"
+     ]
+    }
+   ],
+   "xep": [
+    {
+     "tu": "大熊猫",
+     "manh": [
+      "那只大熊猫",
+      "一边吃东西",
+      "一边",
+      "看着游客"
+     ],
+     "khac": [
+      [
+       "那只大熊猫",
+       "一边",
+       "看着游客",
+       "一边吃东西"
+      ]
+     ],
+     "dauCau": "。",
+     "han": "那只大熊猫一边吃东西一边看着游客。",
+     "pinyin": "Nà zhī dàxióngmāo yìbiān chī dōngxi yìbiān kàn zhe yóukè.",
+     "dich": "Con gấu trúc kia vừa ăn vừa nhìn du khách."
+    }
+   ]
+  },
+  {
+   "id": "月亮",
+   "khoa": [
+    "月亮"
+   ],
+   "emoji": "🌕",
+   "nhom": "thiennhien",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "你看，今天晚上的月亮又大又亮。",
+       "pinyin": "Nǐ kàn, jīntiān wǎnshang de yuèliang yòu dà yòu liàng."
+      },
+      {
+       "han": "是啊，明天就是中秋节了。",
+       "pinyin": "Shì a, míngtiān jiù shì Zhōngqiū Jié le."
+      }
+     ],
+     "dich": "– Bạn nhìn kìa, trăng tối nay vừa to vừa sáng. – Đúng thế, mai là Tết Trung thu rồi.",
+     "coTranh": [
+      "月亮"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "这么晚了，你还在外面做什么？",
+       "pinyin": "Zhème wǎn le, nǐ hái zài wàimiàn zuò shénme?"
+      },
+      {
+       "han": "我在看月亮呢，今天的月亮特别亮。",
+       "pinyin": "Wǒ zài kàn yuèliang ne, jīntiān de yuèliang tèbié liàng."
+      }
+     ],
+     "dich": "– Muộn thế này rồi, bạn còn làm gì ở ngoài? – Tôi đang ngắm trăng, trăng hôm nay sáng đặc biệt.",
+     "coTranh": [
+      "月亮"
+     ]
+    }
+   ],
+   "xep": [
+    {
+     "tu": "月亮",
+     "manh": [
+      "今天晚上的",
+      "月亮",
+      "又大",
+      "又亮"
+     ],
+     "khac": [
+      [
+       "今天晚上的",
+       "月亮",
+       "又亮",
+       "又大"
+      ]
+     ],
+     "dauCau": "。",
+     "han": "今天晚上的月亮又大又亮。",
+     "pinyin": "Jīntiān wǎnshang de yuèliang yòu dà yòu liàng.",
+     "dich": "Trăng tối nay vừa to vừa sáng."
+    }
+   ]
+  },
+  {
+   "id": "伞",
+   "khoa": [
+    "伞"
+   ],
+   "emoji": "☔",
+   "nhom": "thoitiet",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "外面下雨了，你带伞了吗？",
+       "pinyin": "Wàimiàn xià yǔ le, nǐ dài sǎn le ma?"
+      },
+      {
+       "han": "没带，你的伞能借我用一下吗？",
+       "pinyin": "Méi dài, nǐ de sǎn néng jiè wǒ yòng yíxià ma?"
+      }
+     ],
+     "dich": "– Ngoài trời mưa rồi, bạn có mang ô không? – Không mang, cho tôi mượn ô của bạn một lát được không?",
+     "coTranh": [
+      "伞"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "出门的时候别忘了拿雨伞，下午可能会下雨。",
+       "pinyin": "Chūmén de shíhou bié wàng le ná yǔsǎn, xiàwǔ kěnéng huì xià yǔ."
+      },
+      {
+       "han": "知道了，我已经放在书包里了。",
+       "pinyin": "Zhīdào le, wǒ yǐjīng fàng zài shūbāo li le."
+      }
+     ],
+     "dich": "– Lúc ra ngoài đừng quên mang ô, chiều có thể sẽ mưa. – Biết rồi, con cho vào cặp rồi.",
+     "coTranh": [
+      "伞"
+     ]
+    }
+   ],
+   "xep": [
+    {
+     "tu": "伞",
+     "manh": [
+      "小张",
+      "把雨伞",
+      "放在",
+      "门口了"
+     ],
+     "khac": [],
+     "dauCau": "。",
+     "han": "小张把雨伞放在门口了。",
+     "pinyin": "Xiǎo Zhāng bǎ yǔsǎn fàng zài ménkǒu le.",
+     "dich": "Tiểu Trương để ô ở cửa rồi."
+    }
+   ]
+  },
+  {
+   "id": "风",
+   "khoa": [
+    "风"
+   ],
+   "emoji": "🌬️",
+   "nhom": "thoitiet",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "今天风怎么这么大？",
+       "pinyin": "Jīntiān fēng zěnme zhème dà?"
+      },
+      {
+       "han": "听说下午还要刮大风，你多穿点儿衣服吧。",
+       "pinyin": "Tīngshuō xiàwǔ hái yào guā dà fēng, nǐ duō chuān diǎnr yīfu ba."
+      }
+     ],
+     "dich": "– Sao hôm nay gió to thế? – Nghe nói chiều nay còn có gió lớn nữa, bạn mặc thêm áo vào đi.",
+     "coTranh": [
+      "风"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "外面刮风了，快把门关上吧。",
+       "pinyin": "Wàimiàn guā fēng le, kuài bǎ mén guān shang ba."
+      },
+      {
+       "han": "好的，这么大的风，今天还是别出去了。",
+       "pinyin": "Hǎo de, zhème dà de fēng, jīntiān háishi bié chūqù le."
+      }
+     ],
+     "dich": "– Ngoài trời nổi gió rồi, mau đóng cửa lại đi. – Được, gió to thế này, hôm nay đừng ra ngoài nữa.",
+     "coTranh": [
+      "风"
+     ]
+    }
+   ],
+   "xep": []
+  },
+  {
+   "id": "树",
+   "khoa": [
+    "树"
+   ],
+   "emoji": "🌳",
+   "nhom": "thiennhien",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "公园里的这些树真高啊！",
+       "pinyin": "Gōngyuán li de zhèxiē shù zhēn gāo a!"
+      },
+      {
+       "han": "是啊，听说它们都有一百多年了。",
+       "pinyin": "Shì a, tīngshuō tāmen dōu yǒu yìbǎi duō nián le."
+      }
+     ],
+     "dich": "– Những cái cây trong công viên này cao thật! – Đúng thế, nghe nói chúng đều hơn một trăm năm tuổi rồi.",
+     "coTranh": [
+      "树"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "天气太热了，我们去哪儿休息一下？",
+       "pinyin": "Tiānqì tài rè le, wǒmen qù nǎr xiūxi yíxià?"
+      },
+      {
+       "han": "去前面的树下面坐一会儿吧，那儿挺凉快的。",
+       "pinyin": "Qù qiánmiàn de shù xiàmiàn zuò yíhuìr ba, nàr tǐng liángkuai de."
+      }
+     ],
+     "dich": "– Trời nóng quá, chúng mình đi đâu nghỉ một chút? – Ra ngồi dưới gốc cây đằng trước một lát đi, chỗ đó khá mát.",
+     "coTranh": [
+      "树"
+     ]
+    }
+   ],
+   "xep": [
+    {
+     "tu": "树",
+     "manh": [
+      "奶奶",
+      "每天下午",
+      "都在树下",
+      "看报纸"
+     ],
+     "khac": [
+      [
+       "每天下午",
+       "奶奶",
+       "都在树下",
+       "看报纸"
+      ]
+     ],
+     "dauCau": "。",
+     "han": "奶奶每天下午都在树下看报纸。",
+     "pinyin": "Nǎinai měi tiān xiàwǔ dōu zài shù xià kàn bàozhǐ.",
+     "dich": "Chiều nào bà cũng đọc báo dưới gốc cây."
+    }
+   ]
+  },
+  {
+   "id": "自行车",
+   "khoa": [
+    "自行车",
+    "骑车"
+   ],
+   "emoji": "🚲",
+   "nhom": "giaothong",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "你每天怎么去上班？",
+       "pinyin": "Nǐ měi tiān zěnme qù shàngbān?"
+      },
+      {
+       "han": "我骑自行车去，又能锻炼身体，又不用等车。",
+       "pinyin": "Wǒ qí zìxíngchē qù, yòu néng duànliàn shēntǐ, yòu bú yòng děng chē."
+      }
+     ],
+     "dich": "– Hằng ngày bạn đi làm bằng gì? – Tôi đi xe đạp, vừa rèn luyện được sức khỏe, vừa không phải chờ xe.",
+     "coTranh": [
+      "自行车"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "你的自行车怎么了？",
+       "pinyin": "Nǐ de zìxíngchē zěnme le?"
+      },
+      {
+       "han": "坏了，所以我是走路回来的。",
+       "pinyin": "Huài le, suǒyǐ wǒ shì zǒulù huílai de."
+      }
+     ],
+     "dich": "– Xe đạp của bạn bị sao thế? – Hỏng rồi, nên tôi đi bộ về.",
+     "coTranh": [
+      "自行车"
+     ]
+    }
+   ],
+   "xep": [
+    {
+     "tu": "自行车",
+     "manh": [
+      "我弟弟",
+      "骑着",
+      "新买的自行车",
+      "去学校了"
+     ],
+     "khac": [],
+     "dauCau": "。",
+     "han": "我弟弟骑着新买的自行车去学校了。",
+     "pinyin": "Wǒ dìdi qí zhe xīn mǎi de zìxíngchē qù xuéxiào le.",
+     "dich": "Em trai tôi đạp chiếc xe đạp mới mua đến trường rồi."
+    }
+   ]
+  },
+  {
+   "id": "船",
+   "khoa": [
+    "船"
+   ],
+   "emoji": "🚢",
+   "nhom": "giaothong",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "从这儿到河对面怎么走？",
+       "pinyin": "Cóng zhèr dào hé duìmiàn zěnme zǒu?"
+      },
+      {
+       "han": "你得坐船过去，十分钟就到了。",
+       "pinyin": "Nǐ děi zuò chuán guòqu, shí fēnzhōng jiù dào le."
+      }
+     ],
+     "dich": "– Từ đây sang bờ sông bên kia đi thế nào? – Bạn phải đi thuyền sang, mười phút là tới.",
+     "coTranh": [
+      "船"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "你坐过船吗？",
+       "pinyin": "Nǐ zuò guo chuán ma?"
+      },
+      {
+       "han": "坐过一次，船上的人特别多，我有点儿不舒服。",
+       "pinyin": "Zuò guo yí cì, chuán shang de rén tèbié duō, wǒ yǒudiǎnr bù shūfu."
+      }
+     ],
+     "dich": "– Bạn đi tàu thủy bao giờ chưa? – Đi một lần rồi, trên tàu đông người lắm, tôi hơi khó chịu.",
+     "coTranh": [
+      "船"
+     ]
+    }
+   ],
+   "xep": [
+    {
+     "tu": "船",
+     "manh": [
+      "我们",
+      "是",
+      "坐船",
+      "从南方",
+      "来的"
+     ],
+     "khac": [
+      [
+       "我们",
+       "是",
+       "从南方",
+       "坐船",
+       "来的"
+      ]
+     ],
+     "dauCau": "。",
+     "han": "我们是坐船从南方来的。",
+     "pinyin": "Wǒmen shì zuò chuán cóng nánfāng lái de.",
+     "dich": "Chúng tôi đi thuyền từ miền Nam đến."
+    }
+   ]
+  },
+  {
+   "id": "高铁",
+   "khoa": [
+    "高铁"
+   ],
+   "emoji": "🚄",
+   "nhom": "giaothong",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "从这儿到上海坐高铁要多长时间？",
+       "pinyin": "Cóng zhèr dào Shànghǎi zuò gāotiě yào duō cháng shíjiān?"
+      },
+      {
+       "han": "四个多小时，又快又舒服。",
+       "pinyin": "Sì ge duō xiǎoshí, yòu kuài yòu shūfu."
+      }
+     ],
+     "dich": "– Từ đây đến Thượng Hải đi tàu cao tốc mất bao lâu? – Hơn bốn tiếng, vừa nhanh vừa thoải mái.",
+     "coTranh": [
+      "高铁"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "快点儿走吧，高铁九点就开了。",
+       "pinyin": "Kuài diǎnr zǒu ba, gāotiě jiǔ diǎn jiù kāi le."
+      },
+      {
+       "han": "别着急，我们还有半个小时，先去检票吧。",
+       "pinyin": "Bié zháojí, wǒmen hái yǒu bàn ge xiǎoshí, xiān qù jiǎnpiào ba."
+      }
+     ],
+     "dich": "– Đi nhanh lên, tàu cao tốc chín giờ là chạy rồi. – Đừng vội, chúng ta còn nửa tiếng, đi soát vé trước đã.",
+     "coTranh": [
+      "高铁"
+     ]
+    }
+   ],
+   "xep": []
+  },
+  {
+   "id": "行李",
+   "khoa": [
+    "行李",
+    "箱子"
+   ],
+   "emoji": "🧳",
+   "nhom": "dulich",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "你的行李怎么这么多？",
+       "pinyin": "Nǐ de xíngli zěnme zhème duō?"
+      },
+      {
+       "han": "我要去国外留学一年，所以带了两个大箱子。",
+       "pinyin": "Wǒ yào qù guówài liúxué yì nián, suǒyǐ dài le liǎng ge dà xiāngzi."
+      }
+     ],
+     "dich": "– Sao hành lý của bạn nhiều thế? – Tôi sắp ra nước ngoài du học một năm, nên mang theo hai cái va li to.",
+     "coTranh": [
+      "行李"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "你的行李箱看起来很重，我帮你拿吧。",
+       "pinyin": "Nǐ de xínglixiāng kàn qǐlai hěn zhòng, wǒ bāng nǐ ná ba."
+      },
+      {
+       "han": "谢谢，里面都是我在国外给家人买的礼物。",
+       "pinyin": "Xièxie, lǐmiàn dōu shì wǒ zài guówài gěi jiārén mǎi de lǐwù."
+      }
+     ],
+     "dich": "– Va li của bạn trông nặng quá, để tôi xách giúp. – Cảm ơn, bên trong toàn là quà tôi mua ở nước ngoài cho người nhà.",
+     "coTranh": [
+      "行李"
+     ]
+    }
+   ],
+   "xep": []
+  },
+  {
+   "id": "红绿灯",
+   "khoa": [
+    "红绿灯"
+   ],
+   "emoji": "🚦",
+   "nhom": "giaothong",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "请问，去图书馆怎么走？",
+       "pinyin": "Qǐngwèn, qù túshūguǎn zěnme zǒu?"
+      },
+      {
+       "han": "过了前面那个红绿灯，往左走就能看到。",
+       "pinyin": "Guò le qiánmiàn nàge hónglǜdēng, wǎng zuǒ zǒu jiù néng kàndào."
+      }
+     ],
+     "dich": "– Xin hỏi, đến thư viện đi thế nào? – Qua cột đèn giao thông phía trước, rẽ trái là thấy.",
+     "coTranh": [
+      "红绿灯"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "你刚才怎么没过马路？",
+       "pinyin": "Nǐ gāngcái zěnme méi guò mǎlù?"
+      },
+      {
+       "han": "红绿灯是红的，得等它变成绿的才能走。",
+       "pinyin": "Hónglǜdēng shì hóng de, děi děng tā biànchéng lǜ de cái néng zǒu."
+      }
+     ],
+     "dich": "– Lúc nãy sao bạn không qua đường? – Đèn giao thông đang đỏ, phải đợi nó chuyển xanh mới được đi.",
+     "coTranh": [
+      "红绿灯"
+     ]
+    }
+   ],
+   "xep": []
+  },
+  {
+   "id": "打扫",
+   "khoa": [
+    "打扫"
+   ],
+   "emoji": "🧹",
+   "nhom": "nhacua",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "你的房间今天怎么这么干净？",
+       "pinyin": "Nǐ de fángjiān jīntiān zěnme zhème gānjìng?"
+      },
+      {
+       "han": "我刚才一个人打扫了两个多小时。",
+       "pinyin": "Wǒ gāngcái yí ge rén dǎsǎo le liǎng ge duō xiǎoshí."
+      }
+     ],
+     "dich": "– Sao hôm nay phòng bạn sạch thế? – Lúc nãy một mình tôi dọn dẹp hơn hai tiếng.",
+     "coTranh": [
+      "打扫"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "周末你在家做什么了？",
+       "pinyin": "Zhōumò nǐ zài jiā zuò shénme le?"
+      },
+      {
+       "han": "家里太脏了，我和妈妈一起打扫了一上午。",
+       "pinyin": "Jiā li tài zāng le, wǒ hé māma yìqǐ dǎsǎo le yí shàngwǔ."
+      }
+     ],
+     "dich": "– Cuối tuần bạn ở nhà làm gì? – Nhà bẩn quá, tôi với mẹ cùng dọn dẹp cả buổi sáng.",
+     "coTranh": [
+      "打扫"
+     ]
+    }
+   ],
+   "xep": [
+    {
+     "tu": "打扫",
+     "manh": [
+      "他",
+      "每个周末",
+      "都会",
+      "打扫",
+      "自己的房间"
+     ],
+     "khac": [
+      [
+       "每个周末",
+       "他",
+       "都会",
+       "打扫",
+       "自己的房间"
+      ]
+     ],
+     "dauCau": "。",
+     "han": "他每个周末都会打扫自己的房间。",
+     "pinyin": "Tā měi ge zhōumò dōu huì dǎsǎo zìjǐ de fángjiān.",
+     "dich": "Cuối tuần nào anh ấy cũng dọn phòng của mình."
+    }
+   ]
+  },
+  {
+   "id": "洗澡",
+   "khoa": [
+    "洗澡"
+   ],
+   "emoji": "🛁",
+   "nhom": "nhacua",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "小李在吗？我想跟他说几句话。",
+       "pinyin": "Xiǎo Lǐ zài ma? Wǒ xiǎng gēn tā shuō jǐ jù huà."
+      },
+      {
+       "han": "他正在洗澡呢，你过十分钟再来吧。",
+       "pinyin": "Tā zhèngzài xǐzǎo ne, nǐ guò shí fēnzhōng zài lái ba."
+      }
+     ],
+     "dich": "– Tiểu Lý có đó không? Tôi muốn nói với cậu ấy vài câu. – Cậu ấy đang tắm, mười phút nữa bạn lại đến nhé.",
+     "coTranh": [
+      "洗澡"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "你在卫生间里做什么呢？这么长时间。",
+       "pinyin": "Nǐ zài wèishēngjiān li zuò shénme ne? Zhème cháng shíjiān."
+      },
+      {
+       "han": "我在洗澡，你等一会儿再用吧。",
+       "pinyin": "Wǒ zài xǐzǎo, nǐ děng yíhuìr zài yòng ba."
+      }
+     ],
+     "dich": "– Bạn làm gì trong nhà vệ sinh lâu thế? – Tôi đang tắm, bạn đợi một lát rồi dùng nhé.",
+     "coTranh": [
+      "洗澡"
+     ]
+    }
+   ],
+   "xep": []
+  },
+  {
+   "id": "搬家",
+   "khoa": [
+    "搬家"
+   ],
+   "emoji": "📦",
+   "nhom": "nhacua",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "这几天你怎么这么忙？",
+       "pinyin": "Zhè jǐ tiān nǐ zěnme zhème máng?"
+      },
+      {
+       "han": "我下个星期要搬家，东西太多了。",
+       "pinyin": "Wǒ xià ge xīngqī yào bānjiā, dōngxi tài duō le."
+      }
+     ],
+     "dich": "– Mấy hôm nay sao bạn bận thế? – Tuần sau tôi chuyển nhà, đồ đạc nhiều quá.",
+     "coTranh": [
+      "搬家"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "你找到新房子了吗？离公司远不远？",
+       "pinyin": "Nǐ zhǎo dào xīn fángzi le ma? Lí gōngsī yuǎn bu yuǎn?"
+      },
+      {
+       "han": "找到了，很近，我打算下个月就搬家。",
+       "pinyin": "Zhǎo dào le, hěn jìn, wǒ dǎsuàn xià ge yuè jiù bānjiā."
+      }
+     ],
+     "dich": "– Bạn tìm được nhà mới chưa? Có xa công ty không? – Tìm được rồi, rất gần, tôi định tháng sau chuyển nhà luôn.",
+     "coTranh": [
+      "搬家"
+     ]
+    }
+   ],
+   "xep": [
+    {
+     "tu": "搬家",
+     "manh": [
+      "他们",
+      "正在",
+      "帮邻居",
+      "搬家"
+     ],
+     "khac": [],
+     "dauCau": "。",
+     "han": "他们正在帮邻居搬家。",
+     "pinyin": "Tāmen zhèngzài bāng línjū bānjiā.",
+     "dich": "Họ đang giúp hàng xóm chuyển nhà."
+    }
+   ]
+  },
+  {
+   "id": "沙发",
+   "khoa": [
+    "沙发"
+   ],
+   "emoji": "🛋️",
+   "nhom": "nhacua",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "这个沙发是新买的吗？颜色真不错。",
+       "pinyin": "Zhège shāfā shì xīn mǎi de ma? Yánsè zhēn búcuò."
+      },
+      {
+       "han": "是啊，坐上去特别舒服，你也来试试。",
+       "pinyin": "Shì a, zuò shàngqu tèbié shūfu, nǐ yě lái shìshi."
+      }
+     ],
+     "dich": "– Cái ghế sofa này mới mua à? Màu đẹp thật. – Ừ, ngồi lên rất êm, bạn cũng thử đi.",
+     "coTranh": [
+      "沙发"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "爸爸呢？我有事想问他。",
+       "pinyin": "Bàba ne? Wǒ yǒu shì xiǎng wèn tā."
+      },
+      {
+       "han": "他吃完饭就在沙发上睡着了，你别叫他。",
+       "pinyin": "Tā chī wán fàn jiù zài shāfā shang shuìzháo le, nǐ bié jiào tā."
+      }
+     ],
+     "dich": "– Bố đâu rồi? Con có việc muốn hỏi bố. – Bố ăn cơm xong là ngủ quên trên sofa rồi, con đừng gọi bố.",
+     "coTranh": [
+      "沙发"
+     ]
+    }
+   ],
+   "xep": []
+  },
+  {
+   "id": "筷子",
+   "khoa": [
+    "筷子"
+   ],
+   "emoji": "🥢",
+   "nhom": "anuong",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "你来中国以前就会用筷子吃饭吗？",
+       "pinyin": "Nǐ lái Zhōngguó yǐqián jiù huì yòng kuàizi chī fàn ma?"
+      },
+      {
+       "han": "刚来的时候不会，现在用得很好了。",
+       "pinyin": "Gāng lái de shíhou bú huì, xiànzài yòng de hěn hǎo le."
+      }
+     ],
+     "dich": "– Trước khi sang Trung Quốc bạn đã biết dùng đũa ăn cơm chưa? – Lúc mới đến thì chưa, giờ dùng giỏi rồi.",
+     "coTranh": [
+      "筷子"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "服务员，请再给我们拿一双筷子。",
+       "pinyin": "Fúwùyuán, qǐng zài gěi wǒmen ná yì shuāng kuàizi."
+      },
+      {
+       "han": "好的，我马上给您拿过来。",
+       "pinyin": "Hǎo de, wǒ mǎshàng gěi nín ná guòlai."
+      }
+     ],
+     "dich": "– Phục vụ ơi, làm ơn mang cho chúng tôi thêm một đôi đũa. – Vâng, tôi mang tới cho anh ngay.",
+     "coTranh": [
+      "筷子"
+     ]
+    }
+   ],
+   "xep": [
+    {
+     "tu": "筷子",
+     "manh": [
+      "小李",
+      "还",
+      "不太会",
+      "用筷子"
+     ],
+     "khac": [],
+     "dauCau": "。",
+     "han": "小李还不太会用筷子。",
+     "pinyin": "Xiǎo Lǐ hái bú tài huì yòng kuàizi.",
+     "dich": "Tiểu Lý vẫn chưa biết dùng đũa lắm."
+    }
+   ]
+  },
+  {
+   "id": "蛋糕",
+   "khoa": [
+    "蛋糕"
+   ],
+   "emoji": "🍰",
+   "nhom": "anuong",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "这个蛋糕是你自己做的吗？看起来真不错。",
+       "pinyin": "Zhège dàngāo shì nǐ zìjǐ zuò de ma? Kàn qǐlai zhēn búcuò."
+      },
+      {
+       "han": "对，我第一次做，你尝一下吧。",
+       "pinyin": "Duì, wǒ dì yī cì zuò, nǐ cháng yíxià ba."
+      }
+     ],
+     "dich": "– Cái bánh ngọt này bạn tự làm à? Trông ngon thật. – Ừ, lần đầu tôi làm, bạn nếm thử đi.",
+     "coTranh": [
+      "蛋糕"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "我有点儿饿了，家里有吃的吗？",
+       "pinyin": "Wǒ yǒudiǎnr è le, jiā li yǒu chī de ma?"
+      },
+      {
+       "han": "桌子上还有半块蛋糕，你拿去吃吧。",
+       "pinyin": "Zhuōzi shang hái yǒu bàn kuài dàngāo, nǐ ná qù chī ba."
+      }
+     ],
+     "dich": "– Con hơi đói, nhà có gì ăn không? – Trên bàn còn nửa miếng bánh ngọt, con lấy ăn đi.",
+     "coTranh": [
+      "蛋糕"
+     ]
+    }
+   ],
+   "xep": []
+  },
+  {
+   "id": "西瓜",
+   "khoa": [
+    "西瓜"
+   ],
+   "emoji": "🍉",
+   "nhom": "anuong",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "老板，这个西瓜多少钱一斤？",
+       "pinyin": "Lǎobǎn, zhège xīguā duōshao qián yì jīn?"
+      },
+      {
+       "han": "两块五一斤，又大又甜，您买一个吧。",
+       "pinyin": "Liǎng kuài wǔ yì jīn, yòu dà yòu tián, nín mǎi yí ge ba."
+      }
+     ],
+     "dich": "– Ông chủ, quả dưa hấu này bao nhiêu tiền một cân? – Hai tệ rưỡi một cân, vừa to vừa ngọt, chị mua một quả đi.",
+     "coTranh": [
+      "西瓜"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "我刚买了一个西瓜，咱们一起吃吧。",
+       "pinyin": "Wǒ gāng mǎi le yí ge xīguā, zánmen yìqǐ chī ba."
+      },
+      {
+       "han": "太好了，我正好有点儿渴。",
+       "pinyin": "Tài hǎo le, wǒ zhènghǎo yǒudiǎnr kě."
+      }
+     ],
+     "dich": "– Tôi vừa mua một quả dưa hấu, chúng mình cùng ăn nhé. – Hay quá, tôi đang hơi khát.",
+     "coTranh": [
+      "西瓜"
+     ]
+    }
+   ],
+   "xep": [
+    {
+     "tu": "西瓜",
+     "manh": [
+      "妈妈",
+      "从超市",
+      "买回来",
+      "一个大西瓜"
+     ],
+     "khac": [],
+     "dauCau": "。",
+     "han": "妈妈从超市买回来一个大西瓜。",
+     "pinyin": "Māma cóng chāoshì mǎi huílai yí ge dà xīguā.",
+     "dich": "Mẹ mua một quả dưa hấu to từ siêu thị về."
+    }
+   ]
+  },
+  {
+   "id": "信用卡",
+   "khoa": [
+    "信用卡",
+    "银行卡"
+   ],
+   "emoji": "💳",
+   "nhom": "muasam",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "您好，一共三百八十块。",
+       "pinyin": "Nín hǎo, yígòng sānbǎi bāshí kuài."
+      },
+      {
+       "han": "我没带那么多钱，可以用信用卡吗？",
+       "pinyin": "Wǒ méi dài nàme duō qián, kěyǐ yòng xìnyòngkǎ ma?"
+      }
+     ],
+     "dich": "– Chào anh, tổng cộng ba trăm tám mươi tệ. – Tôi không mang nhiều tiền thế, dùng thẻ tín dụng được không?",
+     "coTranh": [
+      "信用卡"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "你的银行卡找到了吗？",
+       "pinyin": "Nǐ de yínhángkǎ zhǎo dào le ma?"
+      },
+      {
+       "han": "还没有，我得马上给银行打个电话。",
+       "pinyin": "Hái méiyǒu, wǒ děi mǎshàng gěi yínháng dǎ ge diànhuà."
+      }
+     ],
+     "dich": "– Bạn tìm thấy thẻ ngân hàng chưa? – Chưa, tôi phải gọi điện cho ngân hàng ngay.",
+     "coTranh": [
+      "信用卡"
+     ]
+    }
+   ],
+   "xep": [
+    {
+     "tu": "信用卡",
+     "manh": [
+      "他",
+      "用信用卡",
+      "买了",
+      "一件",
+      "新衬衫"
+     ],
+     "khac": [],
+     "dauCau": "。",
+     "han": "他用信用卡买了一件新衬衫。",
+     "pinyin": "Tā yòng xìnyòngkǎ mǎi le yí jiàn xīn chènshān.",
+     "dich": "Anh ấy dùng thẻ tín dụng mua một chiếc áo sơ mi mới."
+    }
+   ]
+  },
+  {
+   "id": "裙子",
+   "khoa": [
+    "裙子"
+   ],
+   "emoji": "👗",
+   "nhom": "muasam",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "这条裙子我能试一下吗？",
+       "pinyin": "Zhè tiáo qúnzi wǒ néng shì yíxià ma?"
+      },
+      {
+       "han": "当然可以，您穿多大的？我给您拿。",
+       "pinyin": "Dāngrán kěyǐ, nín chuān duō dà de? Wǒ gěi nín ná."
+      }
+     ],
+     "dich": "– Tôi mặc thử cái váy này được không? – Tất nhiên được, chị mặc cỡ nào? Tôi lấy cho chị.",
+     "coTranh": [
+      "裙子"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "你穿这条裙子真好看，在哪儿买的？",
+       "pinyin": "Nǐ chuān zhè tiáo qúnzi zhēn hǎokàn, zài nǎr mǎi de?"
+      },
+      {
+       "han": "不是买的，是我姐姐送给我的新年礼物。",
+       "pinyin": "Bú shì mǎi de, shì wǒ jiějie sòng gěi wǒ de xīnnián lǐwù."
+      }
+     ],
+     "dich": "– Bạn mặc cái váy này đẹp thật, mua ở đâu thế? – Không phải mua, là quà năm mới chị gái tặng tôi.",
+     "coTranh": [
+      "裙子"
+     ]
+    }
+   ],
+   "xep": [
+    {
+     "tu": "合适",
+     "manh": [
+      "她买的",
+      "那条裙子",
+      "大小",
+      "很合适"
+     ],
+     "khac": [],
+     "dauCau": "。",
+     "han": "她买的那条裙子大小很合适。",
+     "pinyin": "Tā mǎi de nà tiáo qúnzi dàxiǎo hěn héshì.",
+     "dich": "Chiếc váy cô ấy mua vừa cỡ lắm."
+    }
+   ]
+  },
+  {
+   "id": "作业",
+   "khoa": [
+    "作业"
+   ],
+   "emoji": "📝",
+   "nhom": "hoctap",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "已经十一点了，你怎么还不睡觉？",
+       "pinyin": "Yǐjīng shíyī diǎn le, nǐ zěnme hái bú shuìjiào?"
+      },
+      {
+       "han": "明天要交的作业我还没写完呢。",
+       "pinyin": "Míngtiān yào jiāo de zuòyè wǒ hái méi xiě wán ne."
+      }
+     ],
+     "dich": "– Đã mười một giờ rồi, sao con còn chưa ngủ? – Bài tập phải nộp ngày mai con vẫn chưa viết xong.",
+     "coTranh": [
+      "作业"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "今天的数学作业你做完了吗？",
+       "pinyin": "Jīntiān de shùxué zuòyè nǐ zuò wán le ma?"
+      },
+      {
+       "han": "还差两道题，有一道我怎么也不会做。",
+       "pinyin": "Hái chà liǎng dào tí, yǒu yí dào wǒ zěnme yě bú huì zuò."
+      }
+     ],
+     "dich": "– Bài tập toán hôm nay bạn làm xong chưa? – Còn hai bài nữa, có một bài tôi làm thế nào cũng không ra.",
+     "coTranh": [
+      "作业"
+     ]
+    }
+   ],
+   "xep": [
+    {
+     "tu": "认真",
+     "manh": [
+      "他",
+      "正在",
+      "认真地",
+      "写",
+      "作业"
+     ],
+     "khac": [],
+     "dauCau": "。",
+     "han": "他正在认真地写作业。",
+     "pinyin": "Tā zhèngzài rènzhēn de xiě zuòyè.",
+     "dich": "Cậu ấy đang chăm chú làm bài tập."
+    }
+   ]
+  },
+  {
+   "id": "词典",
+   "khoa": [
+    "词典",
+    "字典"
+   ],
+   "emoji": "📖",
+   "nhom": "hoctap",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "这个词是什么意思？我从来没见过。",
+       "pinyin": "Zhège cí shì shénme yìsi? Wǒ cónglái méi jiàn guo."
+      },
+      {
+       "han": "我也不清楚，你查一下词典吧。",
+       "pinyin": "Wǒ yě bù qīngchu, nǐ chá yíxià cídiǎn ba."
+      }
+     ],
+     "dich": "– Từ này nghĩa là gì? Tôi chưa gặp bao giờ. – Tôi cũng không rõ, bạn tra từ điển đi.",
+     "coTranh": [
+      "词典"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "你的字典能借我用一下吗？",
+       "pinyin": "Nǐ de zìdiǎn néng jiè wǒ yòng yíxià ma?"
+      },
+      {
+       "han": "可以，但是明天上课以前要还给我。",
+       "pinyin": "Kěyǐ, dànshì míngtiān shàngkè yǐqián yào huán gěi wǒ."
+      }
+     ],
+     "dich": "– Cho tôi mượn cuốn từ điển của bạn dùng một chút được không? – Được, nhưng trước giờ học ngày mai phải trả tôi nhé.",
+     "coTranh": [
+      "词典"
+     ]
+    }
+   ],
+   "xep": []
+  },
+  {
+   "id": "发烧",
+   "khoa": [
+    "发烧"
+   ],
+   "emoji": "🤒",
+   "nhom": "suckhoe",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "你的脸怎么这么红？不舒服吗？",
+       "pinyin": "Nǐ de liǎn zěnme zhème hóng? Bù shūfu ma?"
+      },
+      {
+       "han": "我好像发烧了，头也有点儿疼。",
+       "pinyin": "Wǒ hǎoxiàng fāshāo le, tóu yě yǒudiǎnr téng."
+      }
+     ],
+     "dich": "– Sao mặt bạn đỏ thế? Bạn không khỏe à? – Hình như tôi bị sốt rồi, đầu cũng hơi đau.",
+     "coTranh": [
+      "发烧"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "孩子昨天晚上发烧了，今天不能去上学。",
+       "pinyin": "Háizi zuótiān wǎnshang fāshāo le, jīntiān bù néng qù shàngxué."
+      },
+      {
+       "han": "那你快带他去医院看看吧。",
+       "pinyin": "Nà nǐ kuài dài tā qù yīyuàn kànkan ba."
+      }
+     ],
+     "dich": "– Tối qua cháu bị sốt, hôm nay không đi học được. – Vậy chị mau đưa cháu đi bệnh viện khám đi.",
+     "coTranh": [
+      "发烧"
+     ]
+    }
+   ],
+   "xep": []
+  },
+  {
+   "id": "牙",
+   "khoa": [
+    "牙",
+    "刷牙"
+   ],
+   "emoji": "🦷",
+   "nhom": "suckhoe",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "你怎么不吃了？这些菜不好吃吗？",
+       "pinyin": "Nǐ zěnme bù chī le? Zhèxiē cài bù hǎochī ma?"
+      },
+      {
+       "han": "不是，这两天我牙疼，一吃东西就疼。",
+       "pinyin": "Bú shì, zhè liǎng tiān wǒ yá téng, yì chī dōngxi jiù téng."
+      }
+     ],
+     "dich": "– Sao bạn không ăn nữa? Mấy món này không ngon à? – Không phải, hai hôm nay tôi đau răng, cứ ăn là đau.",
+     "coTranh": [
+      "牙"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "睡觉以前别忘了刷牙，知道吗？",
+       "pinyin": "Shuìjiào yǐqián bié wàng le shuāyá, zhīdào ma?"
+      },
+      {
+       "han": "知道了，我洗完脸就去刷牙。",
+       "pinyin": "Zhīdào le, wǒ xǐ wán liǎn jiù qù shuāyá."
+      }
+     ],
+     "dich": "– Trước khi ngủ đừng quên đánh răng, biết chưa? – Con biết rồi, con rửa mặt xong là đi đánh răng.",
+     "coTranh": [
+      "牙"
+     ]
+    }
+   ],
+   "xep": [
+    {
+     "tu": "检查",
+     "manh": [
+      "医生",
+      "正在",
+      "给他",
+      "检查",
+      "牙"
+     ],
+     "khac": [],
+     "dauCau": "。",
+     "han": "医生正在给他检查牙。",
+     "pinyin": "Yīshēng zhèngzài gěi tā jiǎnchá yá.",
+     "dich": "Bác sĩ đang khám răng cho anh ấy."
+    }
+   ]
+  },
+  {
+   "id": "电脑",
+   "khoa": [
+    "电脑"
+   ],
+   "emoji": "💻",
+   "nhom": "dienthoai",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "小张，你的电脑怎么了？",
+       "pinyin": "Xiǎo Zhāng, nǐ de diànnǎo zěnme le?"
+      },
+      {
+       "han": "用着用着突然关机了，现在怎么也打不开。",
+       "pinyin": "Yòng zhe yòng zhe tūrán guānjī le, xiànzài zěnme yě dǎ bu kāi."
+      }
+     ],
+     "dich": "– Tiểu Trương, máy tính của bạn bị sao vậy? – Đang dùng thì tự nhiên tắt máy, giờ làm thế nào cũng không mở lên được.",
+     "coTranh": [
+      "电脑"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "你在电脑上看什么呢？这么认真。",
+       "pinyin": "Nǐ zài diànnǎo shang kàn shénme ne? Zhème rènzhēn."
+      },
+      {
+       "han": "我在看一个介绍中国历史的网站。",
+       "pinyin": "Wǒ zài kàn yí ge jièshào Zhōngguó lìshǐ de wǎngzhàn."
+      }
+     ],
+     "dich": "– Bạn xem gì trên máy tính mà chăm chú thế? – Tôi đang xem một trang web giới thiệu lịch sử Trung Quốc.",
+     "coTranh": [
+      "电脑"
+     ]
+    }
+   ],
+   "xep": [
+    {
+     "tu": "邮件",
+     "manh": [
+      "他",
+      "正在",
+      "用电脑",
+      "给经理发邮件"
+     ],
+     "khac": [],
+     "dauCau": "。",
+     "han": "他正在用电脑给经理发邮件。",
+     "pinyin": "Tā zhèngzài yòng diànnǎo gěi jīnglǐ fā yóujiàn.",
+     "dich": "Anh ấy đang dùng máy tính gửi email cho giám đốc."
+    }
+   ]
+  },
+  {
+   "id": "手机",
+   "khoa": [
+    "手机"
+   ],
+   "emoji": "📱",
+   "nhom": "dienthoai",
+   "hoiThoai": [
+    {
+     "cau": [
+      {
+       "han": "你怎么一直不接我的电话？",
+       "pinyin": "Nǐ zěnme yìzhí bù jiē wǒ de diànhuà?"
+      },
+      {
+       "han": "对不起，我的手机没电了，刚才关机了。",
+       "pinyin": "Duìbuqǐ, wǒ de shǒujī méi diàn le, gāngcái guānjī le."
+      }
+     ],
+     "dich": "– Sao bạn cứ không nghe máy của tôi vậy? – Xin lỗi, điện thoại tôi hết pin, lúc nãy tắt máy rồi.",
+     "coTranh": [
+      "手机"
+     ]
+    },
+    {
+     "cau": [
+      {
+       "han": "你别总看手机了，对眼睛不好。",
+       "pinyin": "Nǐ bié zǒng kàn shǒujī le, duì yǎnjing bù hǎo."
+      },
+      {
+       "han": "好，我看完这条新闻就不看了。",
+       "pinyin": "Hǎo, wǒ kàn wán zhè tiáo xīnwén jiù bú kàn le."
+      }
+     ],
+     "dich": "– Con đừng lúc nào cũng xem điện thoại, hại mắt lắm. – Vâng, con đọc xong tin này thì thôi.",
+     "coTranh": [
+      "手机"
+     ]
+    }
+   ],
+   "xep": []
+  }
+ ],
+ "hoiDap": [
+  {
+   "cap": [
+    {
+     "q": "我们一会儿要去机场，你的护照带好了吗？",
+     "qp": "Wǒmen yíhuìr yào qù jīchǎng, nǐ de hùzhào dài hǎo le ma?",
+     "a": "放心吧，就在我的包里。",
+     "ap": "Fàngxīn ba, jiù zài wǒ de bāo li."
+    },
+    {
+     "q": "坐高铁去上海比坐飞机方便多了。",
+     "qp": "Zuò gāotiě qù Shànghǎi bǐ zuò fēijī fāngbiàn duō le.",
+     "a": "是啊，而且火车站离市中心很近。",
+     "ap": "Shì a, érqiě huǒchēzhàn lí shì zhōngxīn hěn jìn."
+    },
+    {
+     "q": "司机，到银行还要多长时间？",
+     "qp": "Sījī, dào yínháng hái yào duō cháng shíjiān?",
+     "a": "过了前面的红绿灯，再开五分钟就到。",
+     "ap": "Guò le qiánmiàn de hónglǜdēng, zài kāi wǔ fēnzhōng jiù dào."
+    },
+    {
+     "q": "我的行李箱太重了，一个人搬不动。",
+     "qp": "Wǒ de xínglixiāng tài zhòng le, yí ge rén bān bu dòng.",
+     "a": "别着急，我来帮你拿。",
+     "ap": "Bié zháojí, wǒ lái bāng nǐ ná."
+    },
+    {
+     "q": "飞机晚点了，还要等两个小时才能起飞。",
+     "qp": "Fēijī wǎndiǎn le, hái yào děng liǎng ge xiǎoshí cái néng qǐfēi.",
+     "a": "那我们先去吃点儿东西吧。",
+     "ap": "Nà wǒmen xiān qù chī diǎnr dōngxi ba."
+    }
+   ]
+  },
+  {
+   "cap": [
+    {
+     "q": "这条裙子你穿着挺合适的。",
+     "qp": "Zhè tiáo qúnzi nǐ chuān zhe tǐng héshì de.",
+     "a": "真的吗？那我就买这条吧。",
+     "ap": "Zhēn de ma? Nà wǒ jiù mǎi zhè tiáo ba."
+    },
+    {
+     "q": "老板，这西瓜新鲜吗？",
+     "qp": "Lǎobǎn, zhè xīguā xīnxiān ma?",
+     "a": "早上刚送来的，您尝尝。",
+     "ap": "Zǎoshang gāng sòng lái de, nín chángchang."
+    },
+    {
+     "q": "这双鞋我很喜欢，可是穿着有点儿小。",
+     "qp": "Zhè shuāng xié wǒ hěn xǐhuan, kěshì chuān zhe yǒudiǎnr xiǎo.",
+     "a": "您试试这双大一点儿的。",
+     "ap": "Nín shìshi zhè shuāng dà yìdiǎnr de."
+    },
+    {
+     "q": "我想买一个冰箱，你觉得哪种好？",
+     "qp": "Wǒ xiǎng mǎi yí ge bīngxiāng, nǐ juéde nǎ zhǒng hǎo?",
+     "a": "我家那种就很好，用了十年都没坏。",
+     "ap": "Wǒ jiā nà zhǒng jiù hěn hǎo, yòng le shí nián dōu méi huài."
+    },
+    {
+     "q": "我今天没带钱，可以用信用卡吗？",
+     "qp": "Wǒ jīntiān méi dài qián, kěyǐ yòng xìnyòngkǎ ma?",
+     "a": "当然可以，用手机也行。",
+     "ap": "Dāngrán kěyǐ, yòng shǒujī yě xíng."
+    }
+   ]
+  },
+  {
+   "cap": [
+    {
+     "q": "你脸色不太好，是不是感冒了？",
+     "qp": "Nǐ liǎnsè bú tài hǎo, shì bu shì gǎnmào le?",
+     "a": "有点儿发烧，昨天晚上没睡好。",
+     "ap": "Yǒudiǎnr fāshāo, zuótiān wǎnshang méi shuì hǎo."
+    },
+    {
+     "q": "医生说我得在医院住一个星期。",
+     "qp": "Yīshēng shuō wǒ děi zài yīyuàn zhù yí ge xīngqī.",
+     "a": "别担心，我们每天都来看你。",
+     "ap": "Bié dānxīn, wǒmen měi tiān dōu lái kàn nǐ."
+    },
+    {
+     "q": "你每天都去锻炼身体吗？",
+     "qp": "Nǐ měi tiān dōu qù duànliàn shēntǐ ma?",
+     "a": "差不多，我一般早上跑半个小时。",
+     "ap": "Chàbuduō, wǒ yìbān zǎoshang pǎo bàn ge xiǎoshí."
+    },
+    {
+     "q": "我的脚突然很疼，走不了路了。",
+     "qp": "Wǒ de jiǎo tūrán hěn téng, zǒu bu liǎo lù le.",
+     "a": "那你先坐下休息，别再走了。",
+     "ap": "Nà nǐ xiān zuò xià xiūxi, bié zài zǒu le."
+    },
+    {
+     "q": "这个药一天吃几次？",
+     "qp": "Zhège yào yì tiān chī jǐ cì?",
+     "a": "早上一次，晚上一次，饭后吃。",
+     "ap": "Zǎoshang yí cì, wǎnshang yí cì, fàn hòu chī."
+    }
+   ]
+  },
+  {
+   "cap": [
+    {
+     "q": "明天就要考试了，我还有好多没复习。",
+     "qp": "Míngtiān jiù yào kǎoshì le, wǒ hái yǒu hǎoduō méi fùxí.",
+     "a": "那今晚别玩游戏了，快去看书吧。",
+     "ap": "Nà jīnwǎn bié wán yóuxì le, kuài qù kàn shū ba."
+    },
+    {
+     "q": "这个句子是什么意思？我看不懂。",
+     "qp": "Zhège jùzi shì shénme yìsi? Wǒ kàn bu dǒng.",
+     "a": "你查一下词典就明白了。",
+     "ap": "Nǐ chá yíxià cídiǎn jiù míngbai le."
+    },
+    {
+     "q": "你的数学成绩怎么提高得这么快？",
+     "qp": "Nǐ de shùxué chéngjì zěnme tígāo de zhème kuài?",
+     "a": "我每天都做很多练习题。",
+     "ap": "Wǒ měi tiān dōu zuò hěn duō liànxítí."
+    },
+    {
+     "q": "李老师，今天的作业要什么时候交？",
+     "qp": "Lǐ lǎoshī, jīntiān de zuòyè yào shénme shíhou jiāo?",
+     "a": "下星期一以前给我就行。",
+     "ap": "Xià xīngqīyī yǐqián gěi wǒ jiù xíng."
+    },
+    {
+     "q": "我想去中国留学，但是汉语水平还不高。",
+     "qp": "Wǒ xiǎng qù Zhōngguó liúxué, dànshì Hànyǔ shuǐpíng hái bù gāo.",
+     "a": "只要你努力，一年以后一定没问题。",
+     "ap": "Zhǐyào nǐ nǔlì, yì nián yǐhòu yídìng méi wèntí."
+    }
+   ]
+  },
+  {
+   "cap": [
+    {
+     "q": "经理，我明天想请一天假。",
+     "qp": "Jīnglǐ, wǒ míngtiān xiǎng qǐng yì tiān jià.",
+     "a": "可以，把手里的工作先交给小李吧。",
+     "ap": "Kěyǐ, bǎ shǒu li de gōngzuò xiān jiāo gěi Xiǎo Lǐ ba."
+    },
+    {
+     "q": "下午的会议几点开始？",
+     "qp": "Xiàwǔ de huìyì jǐ diǎn kāishǐ?",
+     "a": "两点半，在三楼的办公室。",
+     "ap": "Liǎng diǎn bàn, zài sān lóu de bàngōngshì."
+    },
+    {
+     "q": "这个问题我想了很久，还是不知道怎么解决。",
+     "qp": "Zhège wèntí wǒ xiǎng le hěn jiǔ, háishi bù zhīdào zěnme jiějué.",
+     "a": "别一个人想了，问问同事有什么办法。",
+     "ap": "Bié yí ge rén xiǎng le, wènwen tóngshì yǒu shénme bànfǎ."
+    },
+    {
+     "q": "你在这家公司工作多长时间了？",
+     "qp": "Nǐ zài zhè jiā gōngsī gōngzuò duō cháng shíjiān le?",
+     "a": "快五年了，时间过得真快。",
+     "ap": "Kuài wǔ nián le, shíjiān guò de zhēn kuài."
+    },
+    {
+     "q": "小张，这封邮件你收到了没有？",
+     "qp": "Xiǎo Zhāng, zhè fēng yóujiàn nǐ shōudào le méiyǒu?",
+     "a": "还没看到，可能是我的电脑出问题了。",
+     "ap": "Hái méi kàn dào, kěnéng shì wǒ de diànnǎo chū wèntí le."
+    }
+   ]
+  },
+  {
+   "cap": [
+    {
+     "q": "外面刮大风了，好像快要下雨了。",
+     "qp": "Wàimiàn guā dà fēng le, hǎoxiàng kuài yào xià yǔ le.",
+     "a": "那你出门的时候别忘了带伞。",
+     "ap": "Nà nǐ chūmén de shíhou bié wàng le dài sǎn."
+    },
+    {
+     "q": "你最喜欢哪个季节？",
+     "qp": "Nǐ zuì xǐhuan nǎge jìjié?",
+     "a": "秋天，不冷也不热，特别舒服。",
+     "ap": "Qiūtiān, bù lěng yě bú rè, tèbié shūfu."
+    },
+    {
+     "q": "北方的冬天比南方冷多了吧？",
+     "qp": "Běifāng de dōngtiān bǐ nánfāng lěng duō le ba?",
+     "a": "是啊，那儿的河都会结冰。",
+     "ap": "Shì a, nàr de hé dōu huì jié bīng."
+    },
+    {
+     "q": "今天太热了，我们去吃冰激凌吧。",
+     "qp": "Jīntiān tài rè le, wǒmen qù chī bīngjīlíng ba.",
+     "a": "好啊，我知道附近有一家很好吃的。",
+     "ap": "Hǎo a, wǒ zhīdào fùjìn yǒu yì jiā hěn hǎochī de."
+    },
+    {
+     "q": "春天到了，公园里的花都开了。",
+     "qp": "Chūntiān dào le, gōngyuán li de huā dōu kāi le.",
+     "a": "周末我们一起去拍照吧。",
+     "ap": "Zhōumò wǒmen yìqǐ qù pāizhào ba."
+    }
+   ]
+  },
+  {
+   "cap": [
+    {
+     "q": "我们下个月要搬家了。",
+     "qp": "Wǒmen xià ge yuè yào bānjiā le.",
+     "a": "新房子在哪儿？离公司远不远？",
+     "ap": "Xīn fángzi zài nǎr? Lí gōngsī yuǎn bu yuǎn?"
+    },
+    {
+     "q": "你家的空调怎么又坏了？",
+     "qp": "Nǐ jiā de kōngtiáo zěnme yòu huài le?",
+     "a": "用了十多年了，该换新的了。",
+     "ap": "Yòng le shí duō nián le, gāi huàn xīn de le."
+    },
+    {
+     "q": "楼上的邻居每天晚上都在唱歌跳舞。",
+     "qp": "Lóushàng de línjū měi tiān wǎnshang dōu zài chàng gē tiào wǔ.",
+     "a": "你可以跟他们说说，让他们声音小一点儿。",
+     "ap": "Nǐ kěyǐ gēn tāmen shuōshuo, ràng tāmen shēngyīn xiǎo yìdiǎnr."
+    },
+    {
+     "q": "这个小区环境真好，又安静又干净。",
+     "qp": "Zhège xiǎoqū huánjìng zhēn hǎo, yòu ānjìng yòu gānjìng.",
+     "a": "是啊，我在这儿已经住了十年了。",
+     "ap": "Shì a, wǒ zài zhèr yǐjīng zhù le shí nián le."
+    },
+    {
+     "q": "你走的时候记得关灯。",
+     "qp": "Nǐ zǒu de shíhou jìde guān dēng.",
+     "a": "好的，我出门前会检查一遍。",
+     "ap": "Hǎo de, wǒ chūmén qián huì jiǎnchá yí biàn."
+    }
+   ]
+  },
+  {
+   "cap": [
+    {
+     "q": "服务员，请给我们拿一下菜单。",
+     "qp": "Fúwùyuán, qǐng gěi wǒmen ná yíxià càidān.",
+     "a": "好的，马上来，您先喝杯茶。",
+     "ap": "Hǎo de, mǎshàng lái, nín xiān hē bēi chá."
+    },
+    {
+     "q": "我太饿了，中午一直忙，没时间吃饭。",
+     "qp": "Wǒ tài è le, zhōngwǔ yìzhí máng, méi shíjiān chī fàn.",
+     "a": "冰箱里有蛋糕，你先吃一点儿。",
+     "ap": "Bīngxiāng li yǒu dàngāo, nǐ xiān chī yìdiǎnr."
+    },
+    {
+     "q": "周六晚上我请客，你能来吗？",
+     "qp": "Zhōuliù wǎnshang wǒ qǐngkè, nǐ néng lái ma?",
+     "a": "太好了，我一定准时到。",
+     "ap": "Tài hǎo le, wǒ yídìng zhǔnshí dào."
+    },
+    {
+     "q": "你来中国以后学会用筷子了吗？",
+     "qp": "Nǐ lái Zhōngguó yǐhòu xué huì yòng kuàizi le ma?",
+     "a": "会是会，但是还用得不太好。",
+     "ap": "Huì shì huì, dànshì hái yòng de bú tài hǎo."
+    },
+    {
+     "q": "这家饭馆的鱼做得特别好吃。",
+     "qp": "Zhè jiā fànguǎn de yú zuò de tèbié hǎochī.",
+     "a": "那下次带我妈妈来尝尝。",
+     "ap": "Nà xià cì dài wǒ māma lái chángchang."
+    }
+   ]
+  }
+ ],
+ "dienTu": [
+  {
+   "tu": [
+    {
+     "h": "护照",
+     "p": "hùzhào"
+    },
+    {
+     "h": "着急",
+     "p": "zháojí"
+    },
+    {
+     "h": "一共",
+     "p": "yígòng"
+    },
+    {
+     "h": "双",
+     "p": "shuāng"
+    },
+    {
+     "h": "打扫",
+     "p": "dǎsǎo"
+    },
+    {
+     "h": "突然",
+     "p": "tūrán"
+    }
+   ],
+   "cau": [
+    {
+     "cau": "出国旅行的时候，一定要带好你的（ ）。",
+     "pinyin": "Chūguó lǚxíng de shíhou, yídìng yào dài hǎo nǐ de hùzhào.",
+     "dapAn": "护照"
+    },
+    {
+     "cau": "我刚买了一（ ）新鞋，是黑色的。",
+     "pinyin": "Wǒ gāng mǎi le yì shuāng xīn xié, shì hēisè de.",
+     "dapAn": "双"
+    },
+    {
+     "cau": "这些水果（ ）多少钱？",
+     "pinyin": "Zhèxiē shuǐguǒ yígòng duōshao qián?",
+     "dapAn": "一共"
+    },
+    {
+     "cau": "客人马上就要来了，我们快（ ）一下屋子吧。",
+     "pinyin": "Kèrén mǎshàng jiù yào lái le, wǒmen kuài dǎsǎo yíxià wūzi ba.",
+     "dapAn": "打扫"
+    },
+    {
+     "cau": "别（ ），火车还有半个小时才开。",
+     "pinyin": "Bié zháojí, huǒchē hái yǒu bàn ge xiǎoshí cái kāi.",
+     "dapAn": "着急"
+    }
+   ]
+  },
+  {
+   "tu": [
+    {
+     "h": "环境",
+     "p": "huánjìng"
+    },
+    {
+     "h": "简单",
+     "p": "jiǎndān"
+    },
+    {
+     "h": "必须",
+     "p": "bìxū"
+    },
+    {
+     "h": "辆",
+     "p": "liàng"
+    },
+    {
+     "h": "发现",
+     "p": "fāxiàn"
+    },
+    {
+     "h": "相机",
+     "p": "xiàngjī"
+    }
+   ],
+   "cau": [
+    {
+     "cau": "这个小区的（ ）很好，又安静又干净。",
+     "pinyin": "Zhège xiǎoqū de huánjìng hěn hǎo, yòu ānjìng yòu gānjìng.",
+     "dapAn": "环境"
+    },
+    {
+     "cau": "这道题很（ ），我一分钟就做完了。",
+     "pinyin": "Zhè dào tí hěn jiǎndān, wǒ yì fēnzhōng jiù zuò wán le.",
+     "dapAn": "简单"
+    },
+    {
+     "cau": "明天考试，你今天晚上（ ）早点儿睡觉。",
+     "pinyin": "Míngtiān kǎoshì, nǐ jīntiān wǎnshang bìxū zǎo diǎnr shuìjiào.",
+     "dapAn": "必须"
+    },
+    {
+     "cau": "楼下的路边有一（ ）红色的汽车。",
+     "pinyin": "Lóu xià de lùbiān yǒu yí liàng hóngsè de qìchē.",
+     "dapAn": "辆"
+    },
+    {
+     "cau": "到了学校，我才（ ）作业忘在家里了。",
+     "pinyin": "Dào le xuéxiào, wǒ cái fāxiàn zuòyè wàng zài jiā li le.",
+     "dapAn": "发现"
+    }
+   ]
+  },
+  {
+   "tu": [
+    {
+     "h": "历史",
+     "p": "lìshǐ"
+    },
+    {
+     "h": "认真",
+     "p": "rènzhēn"
+    },
+    {
+     "h": "把",
+     "p": "bǎ"
+    },
+    {
+     "h": "遍",
+     "p": "biàn"
+    },
+    {
+     "h": "几乎",
+     "p": "jīhū"
+    },
+    {
+     "h": "出发",
+     "p": "chūfā"
+    }
+   ],
+   "cau": [
+    {
+     "cau": "他对中国（ ）很感兴趣。",
+     "pinyin": "Tā duì Zhōngguó lìshǐ hěn gǎn xìngqù.",
+     "dapAn": "历史"
+    },
+    {
+     "cau": "我弟弟做作业非常（ ），一个字也没写错。",
+     "pinyin": "Wǒ dìdi zuò zuòyè fēicháng rènzhēn, yí ge zì yě méi xiě cuò.",
+     "dapAn": "认真"
+    },
+    {
+     "cau": "请你（ ）这本书放在桌子上。",
+     "pinyin": "Qǐng nǐ bǎ zhè běn shū fàng zài zhuōzi shang.",
+     "dapAn": "把"
+    },
+    {
+     "cau": "我没听清楚，请您再说一（ ），好吗？",
+     "pinyin": "Wǒ méi tīng qīngchu, qǐng nín zài shuō yí biàn, hǎo ma?",
+     "dapAn": "遍"
+    },
+    {
+     "cau": "这个月他工作特别忙，（ ）没有休息过一天。",
+     "pinyin": "Zhège yuè tā gōngzuò tèbié máng, jīhū méiyǒu xiūxi guo yì tiān.",
+     "dapAn": "几乎"
+    }
+   ]
+  },
+  {
+   "tu": [
+    {
+     "h": "季节",
+     "p": "jìjié"
+    },
+    {
+     "h": "新鲜",
+     "p": "xīnxiān"
+    },
+    {
+     "h": "层",
+     "p": "céng"
+    },
+    {
+     "h": "借",
+     "p": "jiè"
+    },
+    {
+     "h": "一直",
+     "p": "yìzhí"
+    },
+    {
+     "h": "刚才",
+     "p": "gāngcái"
+    }
+   ],
+   "cau": [
+    {
+     "cau": "秋天是这儿最好的（ ），不冷也不热。",
+     "pinyin": "Qiūtiān shì zhèr zuì hǎo de jìjié, bù lěng yě bú rè.",
+     "dapAn": "季节"
+    },
+    {
+     "cau": "这些西瓜是今天早上刚送来的，非常（ ）。",
+     "pinyin": "Zhèxiē xīguā shì jīntiān zǎoshang gāng sòng lái de, fēicháng xīnxiān.",
+     "dapAn": "新鲜"
+    },
+    {
+     "cau": "我家在八（ ），每天坐电梯上下楼。",
+     "pinyin": "Wǒ jiā zài bā céng, měi tiān zuò diàntī shàng xià lóu.",
+     "dapAn": "层"
+    },
+    {
+     "cau": "我的词典忘带了，可以（ ）你的用一下吗？",
+     "pinyin": "Wǒ de cídiǎn wàng dài le, kěyǐ jiè nǐ de yòng yíxià ma?",
+     "dapAn": "借"
+    },
+    {
+     "cau": "从早上到现在，他（ ）在图书馆看书。",
+     "pinyin": "Cóng zǎoshang dào xiànzài, tā yìzhí zài túshūguǎn kàn shū.",
+     "dapAn": "一直"
+    }
+   ]
+  },
+  {
+   "tu": [
+    {
+     "h": "声音",
+     "p": "shēngyīn"
+    },
+    {
+     "h": "安静",
+     "p": "ānjìng"
+    },
+    {
+     "h": "一定",
+     "p": "yídìng"
+    },
+    {
+     "h": "封",
+     "p": "fēng"
+    },
+    {
+     "h": "参加",
+     "p": "cānjiā"
+    },
+    {
+     "h": "礼物",
+     "p": "lǐwù"
+    }
+   ],
+   "cau": [
+    {
+     "cau": "晚上十点以后，楼里非常（ ），大家都睡了。",
+     "pinyin": "Wǎnshang shí diǎn yǐhòu, lóu li fēicháng ānjìng, dàjiā dōu shuì le.",
+     "dapAn": "安静"
+    },
+    {
+     "cau": "你说话的（ ）太小了，我听不见。",
+     "pinyin": "Nǐ shuōhuà de shēngyīn tài xiǎo le, wǒ tīng bu jiàn.",
+     "dapAn": "声音"
+    },
+    {
+     "cau": "明天你比赛的时候，我（ ）会去看。",
+     "pinyin": "Míngtiān nǐ bǐsài de shíhou, wǒ yídìng huì qù kàn.",
+     "dapAn": "一定"
+    },
+    {
+     "cau": "我给在外地的朋友写了一（ ）信。",
+     "pinyin": "Wǒ gěi zài wàidì de péngyou xiě le yì fēng xìn.",
+     "dapAn": "封"
+    },
+    {
+     "cau": "下个月学校有运动会，你想（ ）吗？",
+     "pinyin": "Xià ge yuè xuéxiào yǒu yùndònghuì, nǐ xiǎng cānjiā ma?",
+     "dapAn": "参加"
+    }
+   ]
+  },
+  {
+   "tu": [
+    {
+     "h": "机会",
+     "p": "jīhuì"
+    },
+    {
+     "h": "清楚",
+     "p": "qīngchu"
+    },
+    {
+     "h": "马上",
+     "p": "mǎshàng"
+    },
+    {
+     "h": "段",
+     "p": "duàn"
+    },
+    {
+     "h": "解决",
+     "p": "jiějué"
+    },
+    {
+     "h": "害怕",
+     "p": "hàipà"
+    }
+   ],
+   "cau": [
+    {
+     "cau": "这是一个很好的学习（ ），你别错过。",
+     "pinyin": "Zhè shì yí ge hěn hǎo de xuéxí jīhuì, nǐ bié cuòguò.",
+     "dapAn": "机会"
+    },
+    {
+     "cau": "黑板上的字太小，我看不（ ）。",
+     "pinyin": "Hēibǎn shang de zì tài xiǎo, wǒ kàn bu qīngchu.",
+     "dapAn": "清楚"
+    },
+    {
+     "cau": "你等一下，我（ ）就来。",
+     "pinyin": "Nǐ děng yíxià, wǒ mǎshàng jiù lái.",
+     "dapAn": "马上"
+    },
+    {
+     "cau": "这（ ）时间他工作很忙，每天都很晚回家。",
+     "pinyin": "Zhè duàn shíjiān tā gōngzuò hěn máng, měi tiān dōu hěn wǎn huí jiā.",
+     "dapAn": "段"
+    },
+    {
+     "cau": "这个问题太难了，我们一起想办法（ ）吧。",
+     "pinyin": "Zhège wèntí tài nán le, wǒmen yìqǐ xiǎng bànfǎ jiějué ba.",
+     "dapAn": "解决"
+    }
+   ]
+  }
+ ],
+ "dienHoiThoai": [
+  {
+   "tu": [
+    {
+     "h": "行李",
+     "p": "xíngli"
+    },
+    {
+     "h": "方便",
+     "p": "fāngbiàn"
+    },
+    {
+     "h": "终于",
+     "p": "zhōngyú"
+    },
+    {
+     "h": "张",
+     "p": "zhāng"
+    },
+    {
+     "h": "收到",
+     "p": "shōudào"
+    },
+    {
+     "h": "奇怪",
+     "p": "qíguài"
+    }
+   ],
+   "cau": [
+    {
+     "cau": "这次出门你带的（ ）多吗？／不多，只有一个小箱子。",
+     "pinyin": "Zhè cì chūmén nǐ dài de xíngli duō ma?／Bù duō, zhǐ yǒu yí ge xiǎo xiāngzi.",
+     "dapAn": "行李"
+    },
+    {
+     "cau": "你住的地方离地铁站近吗？／很近，去哪儿都很（ ）。",
+     "pinyin": "Nǐ zhù de dìfang lí dìtiězhàn jìn ma?／Hěn jìn, qù nǎr dōu hěn fāngbiàn.",
+     "dapAn": "方便"
+    },
+    {
+     "cau": "你们等了多长时间？／两个多小时，他（ ）来了。",
+     "pinyin": "Nǐmen děng le duō cháng shíjiān?／Liǎng ge duō xiǎoshí, tā zhōngyú lái le.",
+     "dapAn": "终于"
+    },
+    {
+     "cau": "去上海的票买好了吗？／买好了，一共两（ ）。",
+     "pinyin": "Qù Shànghǎi de piào mǎi hǎo le ma?／Mǎi hǎo le, yígòng liǎng zhāng.",
+     "dapAn": "张"
+    },
+    {
+     "cau": "我昨天给你发的邮件，你（ ）了吗？／还没有，我一会儿看看。",
+     "pinyin": "Wǒ zuótiān gěi nǐ fā de yóujiàn, nǐ shōudào le ma?／Hái méiyǒu, wǒ yíhuìr kànkan.",
+     "dapAn": "收到"
+    }
+   ]
+  },
+  {
+   "tu": [
+    {
+     "h": "感冒",
+     "p": "gǎnmào"
+    },
+    {
+     "h": "健康",
+     "p": "jiànkāng"
+    },
+    {
+     "h": "当然",
+     "p": "dāngrán"
+    },
+    {
+     "h": "页",
+     "p": "yè"
+    },
+    {
+     "h": "复习",
+     "p": "fùxí"
+    },
+    {
+     "h": "习惯",
+     "p": "xíguàn"
+    }
+   ],
+   "cau": [
+    {
+     "cau": "你今天怎么没去上班？／我（ ）了，有点儿发烧。",
+     "pinyin": "Nǐ jīntiān zěnme méi qù shàngbān?／Wǒ gǎnmào le, yǒudiǎnr fāshāo.",
+     "dapAn": "感冒"
+    },
+    {
+     "cau": "你爷爷身体怎么样？／很（ ），每天早上都去跑步。",
+     "pinyin": "Nǐ yéye shēntǐ zěnmeyàng?／Hěn jiànkāng, měi tiān zǎoshang dōu qù pǎobù.",
+     "dapAn": "健康"
+    },
+    {
+     "cau": "你能帮我一个忙吗？／（ ）可以，什么事？",
+     "pinyin": "Nǐ néng bāng wǒ yí ge máng ma?／Dāngrán kěyǐ, shénme shì?",
+     "dapAn": "当然"
+    },
+    {
+     "cau": "这本书你看到哪儿了？／看到第五十（ ）了。",
+     "pinyin": "Zhè běn shū nǐ kàn dào nǎr le?／Kàn dào dì wǔshí yè le.",
+     "dapAn": "页"
+    },
+    {
+     "cau": "明天就考试了，你准备好了吗？／还没有，我得好好（ ）一下。",
+     "pinyin": "Míngtiān jiù kǎoshì le, nǐ zhǔnbèi hǎo le ma?／Hái méiyǒu, wǒ děi hǎohǎo fùxí yíxià.",
+     "dapAn": "复习"
+    }
+   ]
+  },
+  {
+   "tu": [
+    {
+     "h": "地图",
+     "p": "dìtú"
+    },
+    {
+     "h": "有名",
+     "p": "yǒumíng"
+    },
+    {
+     "h": "其实",
+     "p": "qíshí"
+    },
+    {
+     "h": "斤",
+     "p": "jīn"
+    },
+    {
+     "h": "选择",
+     "p": "xuǎnzé"
+    },
+    {
+     "h": "干净",
+     "p": "gānjìng"
+    }
+   ],
+   "cau": [
+    {
+     "cau": "你是怎么找到这儿的？／我是看手机上的（ ）找到的。",
+     "pinyin": "Nǐ shì zěnme zhǎo dào zhèr de?／Wǒ shì kàn shǒujī shang de dìtú zhǎo dào de.",
+     "dapAn": "地图"
+    },
+    {
+     "cau": "这家饭馆很（ ）吧？／对，很多外国人都知道它。",
+     "pinyin": "Zhè jiā fànguǎn hěn yǒumíng ba?／Duì, hěn duō wàiguórén dōu zhīdào tā.",
+     "dapAn": "有名"
+    },
+    {
+     "cau": "你不喜欢吃鱼吗？／（ ）我很喜欢，只是今天不太饿。",
+     "pinyin": "Nǐ bù xǐhuan chī yú ma?／Qíshí wǒ hěn xǐhuan, zhǐshì jīntiān bú tài è.",
+     "dapAn": "其实"
+    },
+    {
+     "cau": "这种苹果怎么卖？／八块钱一（ ），很新鲜。",
+     "pinyin": "Zhè zhǒng píngguǒ zěnme mài?／Bā kuài qián yì jīn, hěn xīnxiān.",
+     "dapAn": "斤"
+    },
+    {
+     "cau": "这两件衣服你买哪件？／我也不知道怎么（ ），两件都很好看。",
+     "pinyin": "Zhè liǎng jiàn yīfu nǐ mǎi nǎ jiàn?／Wǒ yě bù zhīdào zěnme xuǎnzé, liǎng jiàn dōu hěn hǎokàn.",
+     "dapAn": "选择"
+    }
+   ]
+  },
+  {
+   "tu": [
+    {
+     "h": "会议",
+     "p": "huìyì"
+    },
+    {
+     "h": "满意",
+     "p": "mǎnyì"
+    },
+    {
+     "h": "突然",
+     "p": "tūrán"
+    },
+    {
+     "h": "碗",
+     "p": "wǎn"
+    },
+    {
+     "h": "请假",
+     "p": "qǐngjià"
+    },
+    {
+     "h": "安全",
+     "p": "ānquán"
+    }
+   ],
+   "cau": [
+    {
+     "cau": "今天下午的（ ）几点开始？／三点，在三层的办公室。",
+     "pinyin": "Jīntiān xiàwǔ de huìyì jǐ diǎn kāishǐ?／Sān diǎn, zài sān céng de bàngōngshì.",
+     "dapAn": "会议"
+    },
+    {
+     "cau": "你对新房子（ ）吗？／挺好的，又大又安静。",
+     "pinyin": "Nǐ duì xīn fángzi mǎnyì ma?／Tǐng hǎo de, yòu dà yòu ānjìng.",
+     "dapAn": "满意"
+    },
+    {
+     "cau": "你怎么没带伞？／早上天气很好，下午（ ）下雨了。",
+     "pinyin": "Nǐ zěnme méi dài sǎn?／Zǎoshang tiānqì hěn hǎo, xiàwǔ tūrán xià yǔ le.",
+     "dapAn": "突然"
+    },
+    {
+     "cau": "你吃饱了吗？／还没有，我还想再吃一（ ）米饭。",
+     "pinyin": "Nǐ chī bǎo le ma?／Hái méiyǒu, wǒ hái xiǎng zài chī yì wǎn mǐfàn.",
+     "dapAn": "碗"
+    },
+    {
+     "cau": "明天你不来上班吗？／对，我家里有事，已经跟经理（ ）了。",
+     "pinyin": "Míngtiān nǐ bù lái shàngbān ma?／Duì, wǒ jiā li yǒu shì, yǐjīng gēn jīnglǐ qǐngjià le.",
+     "dapAn": "请假"
+    }
+   ]
+  },
+  {
+   "tu": [
+    {
+     "h": "礼物",
+     "p": "lǐwù"
+    },
+    {
+     "h": "聪明",
+     "p": "cōngmíng"
+    },
+    {
+     "h": "刚",
+     "p": "gāng"
+    },
+    {
+     "h": "节",
+     "p": "jié"
+    },
+    {
+     "h": "相信",
+     "p": "xiāngxìn"
+    },
+    {
+     "h": "邻居",
+     "p": "línjū"
+    }
+   ],
+   "cau": [
+    {
+     "cau": "这是送给你的生日（ ）。／谢谢！我能现在打开吗？",
+     "pinyin": "Zhè shì sòng gěi nǐ de shēngrì lǐwù.／Xièxie! Wǒ néng xiànzài dǎkāi ma?",
+     "dapAn": "礼物"
+    },
+    {
+     "cau": "你儿子才五岁就会写这么多字？／是啊，他很（ ）。",
+     "pinyin": "Nǐ érzi cái wǔ suì jiù huì xiě zhème duō zì?／Shì a, tā hěn cōngmíng.",
+     "dapAn": "聪明"
+    },
+    {
+     "cau": "你等很久了吗？／没有，我也（ ）到。",
+     "pinyin": "Nǐ děng hěn jiǔ le ma?／Méiyǒu, wǒ yě gāng dào.",
+     "dapAn": "刚"
+    },
+    {
+     "cau": "今天下午你有课吗？／有，还有两（ ）数学课。",
+     "pinyin": "Jīntiān xiàwǔ nǐ yǒu kè ma?／Yǒu, hái yǒu liǎng jié shùxué kè.",
+     "dapAn": "节"
+    },
+    {
+     "cau": "他说明天会下大雪。／我不（ ），现在天气这么好。",
+     "pinyin": "Tā shuō míngtiān huì xià dà xuě.／Wǒ bù xiāngxìn, xiànzài tiānqì zhème hǎo.",
+     "dapAn": "相信"
+    }
+   ]
+  }
+ ],
+ "hoi": [
+  {
+   "n": [
+    {
+     "han": "我们骑自行车去公园吧，不太远。",
+     "pinyin": "Wǒmen qí zìxíngchē qù gōngyuán ba, bú tài yuǎn."
+    },
+    {
+     "han": "天这么阴，可能要下雨，还是坐公共汽车吧。",
+     "pinyin": "Tiān zhème yīn, kěnéng yào xià yǔ, háishi zuò gōnggòng qìchē ba."
+    }
+   ],
+   "h": "男的想怎么去公园？",
+   "hp": "Nán de xiǎng zěnme qù gōngyuán?",
+   "a": "坐公共汽车",
+   "ap": "zuò gōnggòng qìchē",
+   "x": [
+    {
+     "h": "骑自行车",
+     "p": "qí zìxíngchē"
+    },
+    {
+     "h": "走路去",
+     "p": "zǒulù qù"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "你把空调打开吧，房间里太热了。",
+     "pinyin": "Nǐ bǎ kōngtiáo dǎkāi ba, fángjiān li tài rè le."
+    },
+    {
+     "han": "空调坏了，打不开，我下午找人来看看。",
+     "pinyin": "Kōngtiáo huài le, dǎ bu kāi, wǒ xiàwǔ zhǎo rén lái kànkan."
+    }
+   ],
+   "h": "关于空调，可以知道什么？",
+   "hp": "Guānyú kōngtiáo, kěyǐ zhīdao shénme?",
+   "a": "现在不能用",
+   "ap": "xiànzài bù néng yòng",
+   "x": [
+    {
+     "h": "是刚买的",
+     "p": "shì gāng mǎi de"
+    },
+    {
+     "h": "声音很大",
+     "p": "shēngyīn hěn dà"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "电影七点半开始，我们六点在学校门口见吧。",
+     "pinyin": "Diànyǐng qī diǎn bàn kāishǐ, wǒmen liù diǎn zài xuéxiào ménkǒu jiàn ba."
+    },
+    {
+     "han": "六点我还没下班呢，晚半个小时可以吗？",
+     "pinyin": "Liù diǎn wǒ hái méi xiàbān ne, wǎn bàn ge xiǎoshí kěyǐ ma?"
+    }
+   ],
+   "h": "男的希望几点见面？",
+   "hp": "Nán de xīwàng jǐ diǎn jiànmiàn?",
+   "a": "六点半",
+   "ap": "liù diǎn bàn",
+   "x": [
+    {
+     "h": "六点",
+     "p": "liù diǎn"
+    },
+    {
+     "h": "七点半",
+     "p": "qī diǎn bàn"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "我的手机找不到了，你看见了吗？",
+     "pinyin": "Wǒ de shǒujī zhǎo bu dào le, nǐ kànjiàn le ma?"
+    },
+    {
+     "han": "你刚才把它放在桌子上了，就在电脑旁边。",
+     "pinyin": "Nǐ gāngcái bǎ tā fàng zài zhuōzi shang le, jiù zài diànnǎo pángbiān."
+    }
+   ],
+   "h": "手机可能在哪儿？",
+   "hp": "Shǒujī kěnéng zài nǎr?",
+   "a": "桌子上",
+   "ap": "zhuōzi shang",
+   "x": [
+    {
+     "h": "包里",
+     "p": "bāo li"
+    },
+    {
+     "h": "椅子上",
+     "p": "yǐzi shang"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "你今天怎么走路来上班了？",
+     "pinyin": "Nǐ jīntiān zěnme zǒulù lái shàngbān le?"
+    },
+    {
+     "han": "我的自行车被我弟弟骑走了。",
+     "pinyin": "Wǒ de zìxíngchē bèi wǒ dìdi qí zǒu le."
+    }
+   ],
+   "h": "男的为什么走路来上班？",
+   "hp": "Nán de wèi shénme zǒulù lái shàngbān?",
+   "a": "自行车被骑走了",
+   "ap": "zìxíngchē bèi qí zǒu le",
+   "x": [
+    {
+     "h": "他想锻炼身体",
+     "p": "tā xiǎng duànliàn shēntǐ"
+    },
+    {
+     "h": "自行车坏了",
+     "p": "zìxíngchē huài le"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "爸，我下个月要去上海，您能帮我照顾一下小狗吗？",
+     "pinyin": "Bà, wǒ xià ge yuè yào qù Shànghǎi, nín néng bāng wǒ zhàogù yíxià xiǎo gǒu ma?"
+    },
+    {
+     "han": "没问题，你放心去吧，我每天带它出去走走。",
+     "pinyin": "Méi wèntí, nǐ fàngxīn qù ba, wǒ měi tiān dài tā chūqu zǒuzou."
+    }
+   ],
+   "h": "他们最可能是什么关系？",
+   "hp": "Tāmen zuì kěnéng shì shénme guānxi?",
+   "a": "爸爸和女儿",
+   "ap": "bàba hé nǚ'ér",
+   "x": [
+    {
+     "h": "丈夫和妻子",
+     "p": "zhàngfu hé qīzi"
+    },
+    {
+     "h": "同事",
+     "p": "tóngshì"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "这家饭馆的菜比上次更好吃了，我们以后常来吧。",
+     "pinyin": "Zhè jiā fànguǎn de cài bǐ shàng cì gèng hǎochī le, wǒmen yǐhòu cháng lái ba."
+    },
+    {
+     "han": "好是好，就是太贵了，一个人要两百块。",
+     "pinyin": "Hǎo shì hǎo, jiùshì tài guì le, yí ge rén yào liǎngbǎi kuài."
+    }
+   ],
+   "h": "男的觉得这家饭馆怎么样？",
+   "hp": "Nán de juéde zhè jiā fànguǎn zěnmeyàng?",
+   "a": "太贵了",
+   "ap": "tài guì le",
+   "x": [
+    {
+     "h": "不好吃",
+     "p": "bù hǎochī"
+    },
+    {
+     "h": "人太多",
+     "p": "rén tài duō"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "这个题我做了半天还是不会，你能教教我吗？",
+     "pinyin": "Zhège tí wǒ zuò le bàntiān háishi bú huì, nǐ néng jiāojiao wǒ ma?"
+    },
+    {
+     "han": "其实很简单，只要把这两个数字换一下就行了。",
+     "pinyin": "Qíshí hěn jiǎndān, zhǐyào bǎ zhè liǎng ge shùzì huàn yíxià jiù xíng le."
+    }
+   ],
+   "h": "男的觉得这个题怎么样？",
+   "hp": "Nán de juéde zhège tí zěnmeyàng?",
+   "a": "不难",
+   "ap": "bù nán",
+   "x": [
+    {
+     "h": "很难",
+     "p": "hěn nán"
+    },
+    {
+     "h": "没意思",
+     "p": "méi yìsi"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "除了小李，大家都到了，他怎么还没来？",
+     "pinyin": "Chúle Xiǎo Lǐ, dàjiā dōu dào le, tā zěnme hái méi lái?"
+    },
+    {
+     "han": "他刚才打电话说路上车太多，要晚一点儿到。",
+     "pinyin": "Tā gāngcái dǎ diànhuà shuō lùshang chē tài duō, yào wǎn yìdiǎnr dào."
+    }
+   ],
+   "h": "小李为什么还没到？",
+   "hp": "Xiǎo Lǐ wèi shénme hái méi dào?",
+   "a": "路上车很多",
+   "ap": "lùshang chē hěn duō",
+   "x": [
+    {
+     "h": "他生病了",
+     "p": "tā shēngbìng le"
+    },
+    {
+     "h": "他忘了时间",
+     "p": "tā wàng le shíjiān"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "你儿子最近学习怎么样？",
+     "pinyin": "Nǐ érzi zuìjìn xuéxí zěnmeyàng?"
+    },
+    {
+     "han": "别说了，他一回家就玩游戏，作业都不写。",
+     "pinyin": "Bié shuō le, tā yì huí jiā jiù wán yóuxì, zuòyè dōu bù xiě."
+    }
+   ],
+   "h": "男的对儿子满意吗？",
+   "hp": "Nán de duì érzi mǎnyì ma?",
+   "a": "不满意",
+   "ap": "bù mǎnyì",
+   "x": [
+    {
+     "h": "很满意",
+     "p": "hěn mǎnyì"
+    },
+    {
+     "h": "比较满意",
+     "p": "bǐjiào mǎnyì"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "黑板上的字你看得清楚吗？",
+     "pinyin": "Hēibǎn shang de zì nǐ kàn de qīngchu ma?"
+    },
+    {
+     "han": "看不清楚，我坐得太远了，我们换到前面去吧。",
+     "pinyin": "Kàn bu qīngchu, wǒ zuò de tài yuǎn le, wǒmen huàn dào qiánmiàn qù ba."
+    }
+   ],
+   "h": "男的为什么看不清楚？",
+   "hp": "Nán de wèi shénme kàn bu qīngchu?",
+   "a": "坐得太远",
+   "ap": "zuò de tài yuǎn",
+   "x": [
+    {
+     "h": "眼睛不舒服",
+     "p": "yǎnjing bù shūfu"
+    },
+    {
+     "h": "灯坏了",
+     "p": "dēng huài le"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "明天放假，你打算做什么？",
+     "pinyin": "Míngtiān fàngjià, nǐ dǎsuàn zuò shénme?"
+    },
+    {
+     "han": "我想先把房间打扫干净，下午再去超市买点儿东西。",
+     "pinyin": "Wǒ xiǎng xiān bǎ fángjiān dǎsǎo gānjìng, xiàwǔ zài qù chāoshì mǎi diǎnr dōngxi."
+    }
+   ],
+   "h": "男的明天上午要做什么？",
+   "hp": "Nán de míngtiān shàngwǔ yào zuò shénme?",
+   "a": "打扫房间",
+   "ap": "dǎsǎo fángjiān",
+   "x": [
+    {
+     "h": "去超市",
+     "p": "qù chāoshì"
+    },
+    {
+     "h": "去上班",
+     "p": "qù shàngbān"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "这件衬衫真好看，多少钱一件？",
+     "pinyin": "Zhè jiàn chènshān zhēn hǎokàn, duōshao qián yí jiàn?"
+    },
+    {
+     "han": "一件一百二，买两件的话，一共两百。",
+     "pinyin": "Yí jiàn yìbǎi èr, mǎi liǎng jiàn dehuà, yígòng liǎngbǎi."
+    }
+   ],
+   "h": "买两件衬衫要多少钱？",
+   "hp": "Mǎi liǎng jiàn chènshān yào duōshao qián?",
+   "a": "两百块",
+   "ap": "liǎngbǎi kuài",
+   "x": [
+    {
+     "h": "一百二十块",
+     "p": "yìbǎi èrshí kuài"
+    },
+    {
+     "h": "两百四十块",
+     "p": "liǎngbǎi sìshí kuài"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "小张，你现在在哪儿？大家都在等你呢。",
+     "pinyin": "Xiǎo Zhāng, nǐ xiànzài zài nǎr? Dàjiā dōu zài děng nǐ ne."
+    },
+    {
+     "han": "我刚下飞机，正在等行李，一个小时以后到。",
+     "pinyin": "Wǒ gāng xià fēijī, zhèngzài děng xíngli, yí ge xiǎoshí yǐhòu dào."
+    }
+   ],
+   "h": "男的现在最可能在哪儿？",
+   "hp": "Nán de xiànzài zuì kěnéng zài nǎr?",
+   "a": "机场",
+   "ap": "jīchǎng",
+   "x": [
+    {
+     "h": "火车站",
+     "p": "huǒchēzhàn"
+    },
+    {
+     "h": "公司",
+     "p": "gōngsī"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "听说你这次考试考了第一名？",
+     "pinyin": "Tīngshuō nǐ zhè cì kǎoshì kǎo le dì-yī míng?"
+    },
+    {
+     "han": "是啊，我自己都不相信，我要马上告诉我妈妈！",
+     "pinyin": "Shì a, wǒ zìjǐ dōu bù xiāngxìn, wǒ yào mǎshàng gàosu wǒ māma!"
+    }
+   ],
+   "h": "男的现在心情怎么样？",
+   "hp": "Nán de xiànzài xīnqíng zěnmeyàng?",
+   "a": "很高兴",
+   "ap": "hěn gāoxìng",
+   "x": [
+    {
+     "h": "很担心",
+     "p": "hěn dānxīn"
+    },
+    {
+     "h": "很生气",
+     "p": "hěn shēngqì"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "你脸色不太好，是不是哪儿不舒服？",
+     "pinyin": "Nǐ liǎnsè bú tài hǎo, shì bu shì nǎr bù shūfu?"
+    },
+    {
+     "han": "没事儿，昨天晚上一直在复习，只睡了三个小时。",
+     "pinyin": "Méi shìr, zuótiān wǎnshang yìzhí zài fùxí, zhǐ shuì le sān ge xiǎoshí."
+    }
+   ],
+   "h": "男的怎么了？",
+   "hp": "Nán de zěnme le?",
+   "a": "没睡好",
+   "ap": "méi shuì hǎo",
+   "x": [
+    {
+     "h": "生病了",
+     "p": "shēngbìng le"
+    },
+    {
+     "h": "饿了",
+     "p": "è le"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "你觉得这儿的冬天和你老家比，哪儿更冷？",
+     "pinyin": "Nǐ juéde zhèr de dōngtiān hé nǐ lǎojiā bǐ, nǎr gèng lěng?"
+    },
+    {
+     "han": "当然是我老家，它在北方，冬天比这儿冷多了。",
+     "pinyin": "Dāngrán shì wǒ lǎojiā, tā zài běifāng, dōngtiān bǐ zhèr lěng duō le."
+    }
+   ],
+   "h": "男的认为哪儿的冬天更冷？",
+   "hp": "Nán de rènwéi nǎr de dōngtiān gèng lěng?",
+   "a": "他的老家",
+   "ap": "tā de lǎojiā",
+   "x": [
+    {
+     "h": "这儿",
+     "p": "zhèr"
+    },
+    {
+     "h": "南方",
+     "p": "nánfāng"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "你们的会议不是星期三吗？怎么变了？",
+     "pinyin": "Nǐmen de huìyì bú shì xīngqīsān ma? Zěnme biàn le?"
+    },
+    {
+     "han": "经理那天要去外地，所以换到星期五了。",
+     "pinyin": "Jīnglǐ nà tiān yào qù wàidì, suǒyǐ huàn dào xīngqīwǔ le."
+    }
+   ],
+   "h": "会议现在是星期几？",
+   "hp": "Huìyì xiànzài shì xīngqī jǐ?",
+   "a": "星期五",
+   "ap": "xīngqīwǔ",
+   "x": [
+    {
+     "h": "星期三",
+     "p": "xīngqīsān"
+    },
+    {
+     "h": "星期四",
+     "p": "xīngqīsì"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "你周末常常做什么？还踢足球吗？",
+     "pinyin": "Nǐ zhōumò chángcháng zuò shénme? Hái tī zúqiú ma?"
+    },
+    {
+     "han": "很少踢了，我现在对画画儿更感兴趣。",
+     "pinyin": "Hěn shǎo tī le, wǒ xiànzài duì huà huàr gèng gǎn xìngqù."
+    }
+   ],
+   "h": "男的现在对什么更感兴趣？",
+   "hp": "Nán de xiànzài duì shénme gèng gǎn xìngqù?",
+   "a": "画画儿",
+   "ap": "huà huàr",
+   "x": [
+    {
+     "h": "踢足球",
+     "p": "tī zúqiú"
+    },
+    {
+     "h": "唱歌",
+     "p": "chàng gē"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "你能帮我把这个箱子拿到楼上去吗？太重了。",
+     "pinyin": "Nǐ néng bāng wǒ bǎ zhège xiāngzi ná dào lóu shang qù ma? Tài zhòng le."
+    },
+    {
+     "han": "好，你先上去把门打开，我马上就来。",
+     "pinyin": "Hǎo, nǐ xiān shàngqu bǎ mén dǎkāi, wǒ mǎshàng jiù lái."
+    }
+   ],
+   "h": "女的让男的做什么？",
+   "hp": "Nǚ de ràng nán de zuò shénme?",
+   "a": "拿箱子",
+   "ap": "ná xiāngzi",
+   "x": [
+    {
+     "h": "开门",
+     "p": "kāi mén"
+    },
+    {
+     "h": "买箱子",
+     "p": "mǎi xiāngzi"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "这条裤子你穿着有点儿长，换一条试试吧？",
+     "pinyin": "Zhè tiáo kùzi nǐ chuān zhe yǒudiǎnr cháng, huàn yì tiáo shìshi ba?"
+    },
+    {
+     "han": "好，那你帮我问问有没有短一点儿的，颜色一样就行。",
+     "pinyin": "Hǎo, nà nǐ bāng wǒ wènwen yǒu méiyǒu duǎn yìdiǎnr de, yánsè yíyàng jiù xíng."
+    }
+   ],
+   "h": "他们最可能在哪儿？",
+   "hp": "Tāmen zuì kěnéng zài nǎr?",
+   "a": "商店",
+   "ap": "shāngdiàn",
+   "x": [
+    {
+     "h": "饭馆",
+     "p": "fànguǎn"
+    },
+    {
+     "h": "银行",
+     "p": "yínháng"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "从你家到公司要多长时间？",
+     "pinyin": "Cóng nǐ jiā dào gōngsī yào duō cháng shíjiān?"
+    },
+    {
+     "han": "坐地铁二十分钟，可是我每天骑车去，要四十分钟。",
+     "pinyin": "Zuò dìtiě èrshí fēnzhōng, kěshì wǒ měi tiān qí chē qù, yào sìshí fēnzhōng."
+    }
+   ],
+   "h": "男的每天去公司要多长时间？",
+   "hp": "Nán de měi tiān qù gōngsī yào duō cháng shíjiān?",
+   "a": "四十分钟",
+   "ap": "sìshí fēnzhōng",
+   "x": [
+    {
+     "h": "二十分钟",
+     "p": "èrshí fēnzhōng"
+    },
+    {
+     "h": "一个小时",
+     "p": "yí ge xiǎoshí"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "我给你打了好几次电话，你怎么一直不接？",
+     "pinyin": "Wǒ gěi nǐ dǎ le hǎo jǐ cì diànhuà, nǐ zěnme yìzhí bù jiē?"
+    },
+    {
+     "han": "对不起，我的手机被我忘在办公室了，我刚回到家。",
+     "pinyin": "Duìbuqǐ, wǒ de shǒujī bèi wǒ wàng zài bàngōngshì le, wǒ gāng huí dào jiā."
+    }
+   ],
+   "h": "男的为什么没接电话？",
+   "hp": "Nán de wèi shénme méi jiē diànhuà?",
+   "a": "手机不在身边",
+   "ap": "shǒujī bú zài shēnbiān",
+   "x": [
+    {
+     "h": "他在开会",
+     "p": "tā zài kāihuì"
+    },
+    {
+     "h": "手机没电了",
+     "p": "shǒujī méi diàn le"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "今天比昨天冷多了，你出门多穿点儿衣服。",
+     "pinyin": "Jīntiān bǐ zuótiān lěng duō le, nǐ chūmén duō chuān diǎnr yīfu."
+    },
+    {
+     "han": "知道了，我再穿一件毛衣，晚上早点儿回来。",
+     "pinyin": "Zhīdao le, wǒ zài chuān yí jiàn máoyī, wǎnshang zǎo diǎnr huílai."
+    }
+   ],
+   "h": "今天天气怎么样？",
+   "hp": "Jīntiān tiānqì zěnmeyàng?",
+   "a": "比昨天冷",
+   "ap": "bǐ zuótiān lěng",
+   "x": [
+    {
+     "h": "比昨天热",
+     "p": "bǐ zuótiān rè"
+    },
+    {
+     "h": "跟昨天一样",
+     "p": "gēn zuótiān yíyàng"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "你们家什么时候搬家？要不要我去帮忙？",
+     "pinyin": "Nǐmen jiā shénme shíhou bānjiā? Yào bu yào wǒ qù bāngmáng?"
+    },
+    {
+     "han": "本来是这个周末，可是新房子还没打扫好，可能要下个月了。",
+     "pinyin": "Běnlái shì zhège zhōumò, kěshì xīn fángzi hái méi dǎsǎo hǎo, kěnéng yào xià ge yuè le."
+    }
+   ],
+   "h": "他们最可能什么时候搬家？",
+   "hp": "Tāmen zuì kěnéng shénme shíhou bānjiā?",
+   "a": "下个月",
+   "ap": "xià ge yuè",
+   "x": [
+    {
+     "h": "这个周末",
+     "p": "zhège zhōumò"
+    },
+    {
+     "h": "明年",
+     "p": "míngnián"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "这本书你看完了吗？明天就得还给图书馆了。",
+     "pinyin": "Zhè běn shū nǐ kàn wán le ma? Míngtiān jiù děi huán gěi túshūguǎn le."
+    },
+    {
+     "han": "还差两页，我今天晚上一定看完还给你。",
+     "pinyin": "Hái chà liǎng yè, wǒ jīntiān wǎnshang yídìng kàn wán huán gěi nǐ."
+    }
+   ],
+   "h": "关于那本书，可以知道什么？",
+   "hp": "Guānyú nà běn shū, kěyǐ zhīdao shénme?",
+   "a": "是从图书馆借的",
+   "ap": "shì cóng túshūguǎn jiè de",
+   "x": [
+    {
+     "h": "是男的买的",
+     "p": "shì nán de mǎi de"
+    },
+    {
+     "h": "男的已经看完了",
+     "p": "nán de yǐjīng kàn wán le"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "我们这次去旅游，住哪个宾馆？",
+     "pinyin": "Wǒmen zhè cì qù lǚyóu, zhù nǎge bīnguǎn?"
+    },
+    {
+     "han": "住在海边的那家，从房间里就能看到大海。",
+     "pinyin": "Zhù zài hǎibiān de nà jiā, cóng fángjiān li jiù néng kàn dào dàhǎi."
+    }
+   ],
+   "h": "他们要住的宾馆在哪儿？",
+   "hp": "Tāmen yào zhù de bīnguǎn zài nǎr?",
+   "a": "海边",
+   "ap": "hǎibiān",
+   "x": [
+    {
+     "h": "山上",
+     "p": "shān shang"
+    },
+    {
+     "h": "机场旁边",
+     "p": "jīchǎng pángbiān"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "你们公司新来的同事怎么样？",
+     "pinyin": "Nǐmen gōngsī xīn lái de tóngshì zěnmeyàng?"
+    },
+    {
+     "han": "他每天都是最早来、最晚走的，有不懂的地方就问。",
+     "pinyin": "Tā měi tiān dōu shì zuì zǎo lái, zuì wǎn zǒu de, yǒu bù dǒng de dìfang jiù wèn."
+    }
+   ],
+   "h": "男的觉得新同事怎么样？",
+   "hp": "Nán de juéde xīn tóngshì zěnmeyàng?",
+   "a": "工作很努力",
+   "ap": "gōngzuò hěn nǔlì",
+   "x": [
+    {
+     "h": "不爱说话",
+     "p": "bú ài shuōhuà"
+    },
+    {
+     "h": "常常迟到",
+     "p": "chángcháng chídào"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "今天的鱼是你做的？比饭馆做的还好吃！",
+     "pinyin": "Jīntiān de yú shì nǐ zuò de? Bǐ fànguǎn zuò de hái hǎochī!"
+    },
+    {
+     "han": "是我跟妈妈学的，你喜欢的话就多吃点儿。",
+     "pinyin": "Shì wǒ gēn māma xué de, nǐ xǐhuan dehuà jiù duō chī diǎnr."
+    }
+   ],
+   "h": "男的做鱼是跟谁学的？",
+   "hp": "Nán de zuò yú shì gēn shéi xué de?",
+   "a": "他妈妈",
+   "ap": "tā māma",
+   "x": [
+    {
+     "h": "饭馆的人",
+     "p": "fànguǎn de rén"
+    },
+    {
+     "h": "他朋友",
+     "p": "tā péngyou"
+    }
+   ]
+  },
+  {
+   "n": [
+    {
+     "han": "医生，我的腿还疼，什么时候能去跑步？",
+     "pinyin": "Yīshēng, wǒ de tuǐ hái téng, shénme shíhou néng qù pǎobù?"
+    },
+    {
+     "han": "别着急，你还得在家休息两个星期，先别跑。",
+     "pinyin": "Bié zháojí, nǐ hái děi zài jiā xiūxi liǎng ge xīngqī, xiān bié pǎo."
+    }
+   ],
+   "h": "医生让女的怎么做？",
+   "hp": "Yīshēng ràng nǚ de zěnme zuò?",
+   "a": "在家休息",
+   "ap": "zài jiā xiūxi",
+   "x": [
+    {
+     "h": "马上去跑步",
+     "p": "mǎshàng qù pǎobù"
+    },
+    {
+     "h": "每天去医院",
+     "p": "měi tiān qù yīyuàn"
+    }
+   ]
+  }
+ ],
+ "doan": [
+  {
+   "p": "公司明天上午九点半开会，经理让我们提前半个小时到。我家离公司比较远，路上要半个小时。",
+   "pp": "Gōngsī míngtiān shàngwǔ jiǔ diǎn bàn kāihuì, jīnglǐ ràng wǒmen tíqián bàn ge xiǎoshí dào. Wǒ jiā lí gōngsī bǐjiào yuǎn, lù shang yào bàn ge xiǎoshí.",
+   "h": "他明天最晚几点出发？",
+   "hp": "Tā míngtiān zuì wǎn jǐ diǎn chūfā?",
+   "a": "八点半",
+   "ap": "bā diǎn bàn",
+   "x": [
+    {
+     "h": "九点",
+     "p": "jiǔ diǎn"
+    },
+    {
+     "h": "九点半",
+     "p": "jiǔ diǎn bàn"
+    }
+   ]
+  },
+  {
+   "p": "我最近总是觉得很累，医生说我是因为睡得太少了。从今天开始，我要每天晚上十一点以前睡觉。",
+   "pp": "Wǒ zuìjìn zǒngshì juéde hěn lèi, yīshēng shuō wǒ shì yīnwèi shuì de tài shǎo le. Cóng jīntiān kāishǐ, wǒ yào měi tiān wǎnshang shíyī diǎn yǐqián shuìjiào.",
+   "h": "他为什么觉得累？",
+   "hp": "Tā wèi shénme juéde lèi?",
+   "a": "睡觉时间太少",
+   "ap": "shuìjiào shíjiān tài shǎo",
+   "x": [
+    {
+     "h": "工作太多",
+     "p": "gōngzuò tài duō"
+    },
+    {
+     "h": "运动太少",
+     "p": "yùndòng tài shǎo"
+    }
+   ]
+  },
+  {
+   "p": "这件衬衫是我上个星期在网上买的，颜色和样子都不错，就是有点儿小。我打算拿去换一件大一点儿的。",
+   "pp": "Zhè jiàn chènshān shì wǒ shàng ge xīngqī zài wǎng shang mǎi de, yánsè hé yàngzi dōu búcuò, jiùshì yǒudiǎnr xiǎo. Wǒ dǎsuàn ná qù huàn yí jiàn dà yìdiǎnr de.",
+   "h": "他觉得这件衬衫：",
+   "hp": "Tā juéde zhè jiàn chènshān:",
+   "a": "有点儿小",
+   "ap": "yǒudiǎnr xiǎo",
+   "x": [
+    {
+     "h": "颜色不好看",
+     "p": "yánsè bù hǎokàn"
+    },
+    {
+     "h": "太贵了",
+     "p": "tài guì le"
+    }
+   ]
+  },
+  {
+   "p": "听说明天有大雨，风也很大。我们本来打算去爬山，现在只好在家里看电影了。",
+   "pp": "Tīngshuō míngtiān yǒu dà yǔ, fēng yě hěn dà. Wǒmen běnlái dǎsuàn qù pá shān, xiànzài zhǐhǎo zài jiā li kàn diànyǐng le.",
+   "h": "他们明天可能做什么？",
+   "hp": "Tāmen míngtiān kěnéng zuò shénme?",
+   "a": "在家看电影",
+   "ap": "zài jiā kàn diànyǐng",
+   "x": [
+    {
+     "h": "去爬山",
+     "p": "qù pá shān"
+    },
+    {
+     "h": "去公园",
+     "p": "qù gōngyuán"
+    }
+   ]
+  },
+  {
+   "p": "小李来中国已经三年了。刚来的时候，他一句汉语也不会说，现在他不但能跟中国人聊天，还能用汉语给大家介绍中国文化。",
+   "pp": "Xiǎo Lǐ lái Zhōngguó yǐjīng sān nián le. Gāng lái de shíhou, tā yí jù Hànyǔ yě bú huì shuō, xiànzài tā búdàn néng gēn Zhōngguó rén liáotiān, hái néng yòng Hànyǔ gěi dàjiā jièshào Zhōngguó wénhuà.",
+   "h": "根据这段话，小李：",
+   "hp": "Gēnjù zhè duàn huà, Xiǎo Lǐ:",
+   "a": "汉语进步很大",
+   "ap": "Hànyǔ jìnbù hěn dà",
+   "x": [
+    {
+     "h": "刚来中国",
+     "p": "gāng lái Zhōngguó"
+    },
+    {
+     "h": "是中国人",
+     "p": "shì Zhōngguó rén"
+    }
+   ]
+  },
+  {
+   "p": "我爷爷今年八十岁了，身体还很健康。他每天早上都去公园锻炼身体，下午就在家里看报纸、听音乐。",
+   "pp": "Wǒ yéye jīnnián bāshí suì le, shēntǐ hái hěn jiànkāng. Tā měi tiān zǎoshang dōu qù gōngyuán duànliàn shēntǐ, xiàwǔ jiù zài jiā li kàn bàozhǐ, tīng yīnyuè.",
+   "h": "爷爷下午一般做什么？",
+   "hp": "Yéye xiàwǔ yìbān zuò shénme?",
+   "a": "在家看报纸",
+   "ap": "zài jiā kàn bàozhǐ",
+   "x": [
+    {
+     "h": "去公园锻炼",
+     "p": "qù gōngyuán duànliàn"
+    },
+    {
+     "h": "去医院检查",
+     "p": "qù yīyuàn jiǎnchá"
+    }
+   ]
+  },
+  {
+   "p": "下个月就要考试了，可是我的数学还是不太好。所以我每个周末都去图书馆，请同学帮我复习。",
+   "pp": "Xià ge yuè jiù yào kǎoshì le, kěshì wǒ de shùxué háishi bú tài hǎo. Suǒyǐ wǒ měi ge zhōumò dōu qù túshūguǎn, qǐng tóngxué bāng wǒ fùxí.",
+   "h": "他周末为什么去图书馆？",
+   "hp": "Tā zhōumò wèi shénme qù túshūguǎn?",
+   "a": "复习数学",
+   "ap": "fùxí shùxué",
+   "x": [
+    {
+     "h": "借小说",
+     "p": "jiè xiǎoshuō"
+    },
+    {
+     "h": "上网玩儿",
+     "p": "shàng wǎng wánr"
+    }
+   ]
+  },
+  {
+   "p": "去年夏天我和妻子去了一次南方。那里的山和水都很漂亮，水果也很便宜，就是天气太热了，我们每天中午都只能在宾馆休息。",
+   "pp": "Qùnián xiàtiān wǒ hé qīzi qù le yí cì nánfāng. Nàli de shān hé shuǐ dōu hěn piàoliang, shuǐguǒ yě hěn piányi, jiùshì tiānqì tài rè le, wǒmen měi tiān zhōngwǔ dōu zhǐ néng zài bīnguǎn xiūxi.",
+   "h": "他觉得那个地方哪儿不太好？",
+   "hp": "Tā juéde nàge dìfang nǎr bú tài hǎo?",
+   "a": "天气太热",
+   "ap": "tiānqì tài rè",
+   "x": [
+    {
+     "h": "水果太贵",
+     "p": "shuǐguǒ tài guì"
+    },
+    {
+     "h": "山水不漂亮",
+     "p": "shānshuǐ bú piàoliang"
+    }
+   ]
+  },
+  {
+   "p": "我在这家公司已经工作五年了，工作虽然不累，但是离家太远，每天在路上要花三个小时。所以我决定换一个近一点儿的公司。",
+   "pp": "Wǒ zài zhè jiā gōngsī yǐjīng gōngzuò wǔ nián le, gōngzuò suīrán bú lèi, dànshì lí jiā tài yuǎn, měi tiān zài lù shang yào huā sān ge xiǎoshí. Suǒyǐ wǒ juédìng huàn yí ge jìn yìdiǎnr de gōngsī.",
+   "h": "他为什么想换工作？",
+   "hp": "Tā wèi shénme xiǎng huàn gōngzuò?",
+   "a": "公司离家远",
+   "ap": "gōngsī lí jiā yuǎn",
+   "x": [
+    {
+     "h": "工作太累",
+     "p": "gōngzuò tài lèi"
+    },
+    {
+     "h": "同事不好",
+     "p": "tóngshì bù hǎo"
+    }
+   ]
+  },
+  {
+   "p": "学校旁边新开了一家饭馆，那里的面条又便宜又好吃，服务员也很热情。我已经去了好几次了。",
+   "pp": "Xuéxiào pángbiān xīn kāi le yì jiā fànguǎn, nàli de miàntiáo yòu piányi yòu hǎochī, fúwùyuán yě hěn rèqíng. Wǒ yǐjīng qù le hǎo jǐ cì le.",
+   "h": "根据这段话，那个饭馆：",
+   "hp": "Gēnjù zhè duàn huà, nàge fànguǎn:",
+   "a": "面条不贵",
+   "ap": "miàntiáo bú guì",
+   "x": [
+    {
+     "h": "开了很多年",
+     "p": "kāi le hěn duō nián"
+    },
+    {
+     "h": "离学校很远",
+     "p": "lí xuéxiào hěn yuǎn"
+    }
+   ]
+  },
+  {
+   "p": "我以前每天晚上都要玩儿两三个小时的手机，眼睛经常不舒服。后来我把手机放在别的房间里，睡觉前看一会儿书，现在眼睛好多了。",
+   "pp": "Wǒ yǐqián měi tiān wǎnshang dōu yào wánr liǎng sān ge xiǎoshí de shǒujī, yǎnjing jīngcháng bù shūfu. Hòulái wǒ bǎ shǒujī fàng zài bié de fángjiān li, shuìjiào qián kàn yíhuìr shū, xiànzài yǎnjing hǎo duō le.",
+   "h": "他现在睡觉前一般做什么？",
+   "hp": "Tā xiànzài shuìjiào qián yìbān zuò shénme?",
+   "a": "看书",
+   "ap": "kàn shū",
+   "x": [
+    {
+     "h": "玩儿手机",
+     "p": "wánr shǒujī"
+    },
+    {
+     "h": "看电视",
+     "p": "kàn diànshì"
+    }
+   ]
+  },
+  {
+   "p": "我要买一个新的电脑，哥哥说现在网上比商店便宜，可是我还是想去商店，因为可以先试试再决定。",
+   "pp": "Wǒ yào mǎi yí ge xīn de diànnǎo, gēge shuō xiànzài wǎng shang bǐ shāngdiàn piányi, kěshì wǒ háishi xiǎng qù shāngdiàn, yīnwèi kěyǐ xiān shìshi zài juédìng.",
+   "h": "他为什么想去商店买电脑？",
+   "hp": "Tā wèi shénme xiǎng qù shāngdiàn mǎi diànnǎo?",
+   "a": "可以先试试",
+   "ap": "kěyǐ xiān shìshi",
+   "x": [
+    {
+     "h": "比网上便宜",
+     "p": "bǐ wǎng shang piányi"
+    },
+    {
+     "h": "哥哥在那儿工作",
+     "p": "gēge zài nàr gōngzuò"
+    }
+   ]
+  },
+  {
+   "p": "电影七点开始，现在已经六点四十了，可是小李还没来。我给他打了好几次电话，他都没接。",
+   "pp": "Diànyǐng qī diǎn kāishǐ, xiànzài yǐjīng liù diǎn sìshí le, kěshì Xiǎo Lǐ hái méi lái. Wǒ gěi tā dǎ le hǎo jǐ cì diànhuà, tā dōu méi jiē.",
+   "h": "电影还有多长时间开始？",
+   "hp": "Diànyǐng hái yǒu duō cháng shíjiān kāishǐ?",
+   "a": "二十分钟",
+   "ap": "èrshí fēnzhōng",
+   "x": [
+    {
+     "h": "四十分钟",
+     "p": "sìshí fēnzhōng"
+    },
+    {
+     "h": "一个小时",
+     "p": "yí ge xiǎoshí"
+    }
+   ]
+  },
+  {
+   "p": "学习汉语的时候，我觉得最难的不是说，而是写汉字。老师告诉我，只要每天都认真练习，就一定能写好。",
+   "pp": "Xuéxí Hànyǔ de shíhou, wǒ juéde zuì nán de bú shì shuō, ér shì xiě Hànzì. Lǎoshī gàosu wǒ, zhǐyào měi tiān dōu rènzhēn liànxí, jiù yídìng néng xiě hǎo.",
+   "h": "他觉得学汉语什么最难？",
+   "hp": "Tā juéde xué Hànyǔ shénme zuì nán?",
+   "a": "写汉字",
+   "ap": "xiě Hànzì",
+   "x": [
+    {
+     "h": "说汉语",
+     "p": "shuō Hànyǔ"
+    },
+    {
+     "h": "记生词",
+     "p": "jì shēngcí"
+    }
+   ]
+  },
+  {
+   "p": "我有一个姐姐和一个弟弟。我比姐姐小三岁，比弟弟大五岁。弟弟今年七岁，刚上小学。",
+   "pp": "Wǒ yǒu yí ge jiějie hé yí ge dìdi. Wǒ bǐ jiějie xiǎo sān suì, bǐ dìdi dà wǔ suì. Dìdi jīnnián qī suì, gāng shàng xiǎoxué.",
+   "h": "姐姐今年多大？",
+   "hp": "Jiějie jīnnián duō dà?",
+   "a": "十五岁",
+   "ap": "shíwǔ suì",
+   "x": [
+    {
+     "h": "十二岁",
+     "p": "shí'èr suì"
+    },
+    {
+     "h": "十岁",
+     "p": "shí suì"
+    }
+   ]
+  },
+  {
+   "p": "我以前很少运动，所以经常感冒。去年开始，我每个星期游三次泳，现在身体比以前好多了，很少生病。",
+   "pp": "Wǒ yǐqián hěn shǎo yùndòng, suǒyǐ jīngcháng gǎnmào. Qùnián kāishǐ, wǒ měi ge xīngqī yóu sān cì yǒng, xiànzài shēntǐ bǐ yǐqián hǎo duō le, hěn shǎo shēngbìng.",
+   "h": "根据这段话，他现在：",
+   "hp": "Gēnjù zhè duàn huà, tā xiànzài:",
+   "a": "身体变好了",
+   "ap": "shēntǐ biàn hǎo le",
+   "x": [
+    {
+     "h": "经常感冒",
+     "p": "jīngcháng gǎnmào"
+    },
+    {
+     "h": "不爱运动",
+     "p": "bú ài yùndòng"
+    }
+   ]
+  },
+  {
+   "p": "春节是中国最重要的节日。春节前，很多在外地工作的人都要坐火车或者飞机回家，跟家人一起过节。",
+   "pp": "Chūnjié shì Zhōngguó zuì zhòngyào de jiérì. Chūnjié qián, hěn duō zài wàidì gōngzuò de rén dōu yào zuò huǒchē huòzhě fēijī huí jiā, gēn jiārén yìqǐ guò jié.",
+   "h": "根据这段话，春节前很多人：",
+   "hp": "Gēnjù zhè duàn huà, Chūnjié qián hěn duō rén:",
+   "a": "要回家",
+   "ap": "yào huí jiā",
+   "x": [
+    {
+     "h": "要去外地工作",
+     "p": "yào qù wàidì gōngzuò"
+    },
+    {
+     "h": "要出国旅游",
+     "p": "yào chū guó lǚyóu"
+    }
+   ]
+  },
+  {
+   "p": "今天早上路上车特别多，我坐出租车坐了四十分钟才到公司，比坐地铁慢多了。明天我还是坐地铁吧。",
+   "pp": "Jīntiān zǎoshang lù shang chē tèbié duō, wǒ zuò chūzūchē zuò le sìshí fēnzhōng cái dào gōngsī, bǐ zuò dìtiě màn duō le. Míngtiān wǒ háishi zuò dìtiě ba.",
+   "h": "他明天打算怎么去公司？",
+   "hp": "Tā míngtiān dǎsuàn zěnme qù gōngsī?",
+   "a": "坐地铁",
+   "ap": "zuò dìtiě",
+   "x": [
+    {
+     "h": "坐出租车",
+     "p": "zuò chūzūchē"
+    },
+    {
+     "h": "骑自行车",
+     "p": "qí zìxíngchē"
+    }
+   ]
+  },
+  {
+   "p": "今天我带着一百块钱去超市，买了一些水果、面包和牛奶，一共花了七十五块。",
+   "pp": "Jīntiān wǒ dài zhe yìbǎi kuài qián qù chāoshì, mǎi le yìxiē shuǐguǒ, miànbāo hé niúnǎi, yígòng huā le qīshíwǔ kuài.",
+   "h": "他现在还有多少钱？",
+   "hp": "Tā xiànzài hái yǒu duōshao qián?",
+   "a": "二十五块",
+   "ap": "èrshíwǔ kuài",
+   "x": [
+    {
+     "h": "七十五块",
+     "p": "qīshíwǔ kuài"
+    },
+    {
+     "h": "一百块",
+     "p": "yìbǎi kuài"
+    }
+   ]
+  },
+  {
+   "p": "我每天都要给很多病人检查身体。有时候晚上也得在医院工作，虽然很累，但是看到病人的病好了，我就特别高兴。",
+   "pp": "Wǒ měi tiān dōu yào gěi hěn duō bìngrén jiǎnchá shēntǐ. Yǒu shíhou wǎnshang yě děi zài yīyuàn gōngzuò, suīrán hěn lèi, dànshì kàndào bìngrén de bìng hǎo le, wǒ jiù tèbié gāoxìng.",
+   "h": "说话人可能是做什么的？",
+   "hp": "Shuōhuàrén kěnéng shì zuò shénme de?",
+   "a": "医生",
+   "ap": "yīshēng",
+   "x": [
+    {
+     "h": "老师",
+     "p": "lǎoshī"
+    },
+    {
+     "h": "司机",
+     "p": "sījī"
+    }
+   ]
+  },
+  {
+   "p": "我最喜欢秋天。这儿的秋天不冷也不热，天总是很蓝，公园里的树也变成了黄色和红色，非常漂亮。",
+   "pp": "Wǒ zuì xǐhuan qiūtiān. Zhèr de qiūtiān bù lěng yě bú rè, tiān zǒngshì hěn lán, gōngyuán li de shù yě biànchéng le huángsè hé hóngsè, fēicháng piàoliang.",
+   "h": "他为什么喜欢秋天？",
+   "hp": "Tā wèi shénme xǐhuan qiūtiān?",
+   "a": "天气很舒服",
+   "ap": "tiānqì hěn shūfu",
+   "x": [
+    {
+     "h": "经常下雪",
+     "p": "jīngcháng xià xuě"
+    },
+    {
+     "h": "水果很多",
+     "p": "shuǐguǒ hěn duō"
+    }
+   ]
+  },
+  {
+   "p": "小张上课的时候总是认真听老师讲，有问题就马上问。下课以后，他还会把老师讲的再复习一遍。",
+   "pp": "Xiǎo Zhāng shàngkè de shíhou zǒngshì rènzhēn tīng lǎoshī jiǎng, yǒu wèntí jiù mǎshàng wèn. Xiàkè yǐhòu, tā hái huì bǎ lǎoshī jiǎng de zài fùxí yí biàn.",
+   "h": "根据这段话，小张：",
+   "hp": "Gēnjù zhè duàn huà, Xiǎo Zhāng:",
+   "a": "学习很认真",
+   "ap": "xuéxí hěn rènzhēn",
+   "x": [
+    {
+     "h": "上课不爱问问题",
+     "p": "shàngkè bú ài wèn wèntí"
+    },
+    {
+     "h": "下课就去玩儿",
+     "p": "xiàkè jiù qù wánr"
+    }
+   ]
+  },
+  {
+   "p": "我们住的宾馆离火车站很近，走路只要五分钟。房间虽然不大，但是很干净，从房间里还能看到大海。",
+   "pp": "Wǒmen zhù de bīnguǎn lí huǒchēzhàn hěn jìn, zǒulù zhǐ yào wǔ fēnzhōng. Fángjiān suīrán bú dà, dànshì hěn gānjìng, cóng fángjiān li hái néng kàndào dàhǎi.",
+   "h": "那个宾馆怎么样？",
+   "hp": "Nàge bīnguǎn zěnmeyàng?",
+   "a": "房间很干净",
+   "ap": "fángjiān hěn gānjìng",
+   "x": [
+    {
+     "h": "离车站很远",
+     "p": "lí chēzhàn hěn yuǎn"
+    },
+    {
+     "h": "房间很大",
+     "p": "fángjiān hěn dà"
+    }
+   ]
+  },
+  {
+   "p": "我以前每天都要喝三四杯咖啡，晚上经常睡不着。后来医生让我少喝咖啡，现在我每天只在早上喝一杯，下午就喝茶。",
+   "pp": "Wǒ yǐqián měi tiān dōu yào hē sān sì bēi kāfēi, wǎnshang jīngcháng shuì bu zháo. Hòulái yīshēng ràng wǒ shǎo hē kāfēi, xiànzài wǒ měi tiān zhǐ zài zǎoshang hē yì bēi, xiàwǔ jiù hē chá.",
+   "h": "根据这段话，他现在下午一般：",
+   "hp": "Gēnjù zhè duàn huà, tā xiànzài xiàwǔ yìbān:",
+   "a": "喝茶",
+   "ap": "hē chá",
+   "x": [
+    {
+     "h": "喝咖啡",
+     "p": "hē kāfēi"
+    },
+    {
+     "h": "喝牛奶",
+     "p": "hē niúnǎi"
+    }
+   ]
+  },
+  {
+   "p": "这个星期我特别忙，从星期一到今天每天都在加班。明天就是星期六了，我终于可以好好休息一下了。",
+   "pp": "Zhège xīngqī wǒ tèbié máng, cóng xīngqīyī dào jīntiān měi tiān dōu zài jiābān. Míngtiān jiù shì xīngqīliù le, wǒ zhōngyú kěyǐ hǎohǎo xiūxi yíxià le.",
+   "h": "今天是星期几？",
+   "hp": "Jīntiān shì xīngqījǐ?",
+   "a": "星期五",
+   "ap": "xīngqīwǔ",
+   "x": [
+    {
+     "h": "星期六",
+     "p": "xīngqīliù"
+    },
+    {
+     "h": "星期一",
+     "p": "xīngqīyī"
+    }
+   ]
+  },
+  {
+   "p": "我妈妈做菜做得特别好，她做的鱼比饭馆的还好吃。周末我想跟她学做鱼，以后自己也能做给朋友吃。",
+   "pp": "Wǒ māma zuò cài zuò de tèbié hǎo, tā zuò de yú bǐ fànguǎn de hái hǎochī. Zhōumò wǒ xiǎng gēn tā xué zuò yú, yǐhòu zìjǐ yě néng zuò gěi péngyou chī.",
+   "h": "他周末打算做什么？",
+   "hp": "Tā zhōumò dǎsuàn zuò shénme?",
+   "a": "跟妈妈学做鱼",
+   "ap": "gēn māma xué zuò yú",
+   "x": [
+    {
+     "h": "去饭馆吃鱼",
+     "p": "qù fànguǎn chī yú"
+    },
+    {
+     "h": "教妈妈做鱼",
+     "p": "jiāo māma zuò yú"
+    }
+   ]
+  },
+  {
+   "p": "我每个月都会读两本书。我觉得读书不但能让我知道很多新的东西，而且还能让我的心静下来。",
+   "pp": "Wǒ měi ge yuè dōu huì dú liǎng běn shū. Wǒ juéde dú shū búdàn néng ràng wǒ zhīdào hěn duō xīn de dōngxi, érqiě hái néng ràng wǒ de xīn jìng xiàlai.",
+   "h": "他觉得读书：",
+   "hp": "Tā juéde dú shū:",
+   "a": "能学到新东西",
+   "ap": "néng xuédào xīn dōngxi",
+   "x": [
+    {
+     "h": "没有意思",
+     "p": "méiyǒu yìsi"
+    },
+    {
+     "h": "对眼睛不好",
+     "p": "duì yǎnjing bù hǎo"
+    }
+   ]
+  },
+  {
+   "p": "这两个包我都很喜欢。黑色的比白色的贵一百块，可是黑色的更大，能放下电脑，所以我最后买了黑色的。",
+   "pp": "Zhè liǎng ge bāo wǒ dōu hěn xǐhuan. Hēisè de bǐ báisè de guì yìbǎi kuài, kěshì hēisè de gèng dà, néng fàngxià diànnǎo, suǒyǐ wǒ zuìhòu mǎi le hēisè de.",
+   "h": "他为什么买了黑色的包？",
+   "hp": "Tā wèi shénme mǎi le hēisè de bāo?",
+   "a": "能放电脑",
+   "ap": "néng fàng diànnǎo",
+   "x": [
+    {
+     "h": "比较便宜",
+     "p": "bǐjiào piányi"
+    },
+    {
+     "h": "朋友让他买",
+     "p": "péngyou ràng tā mǎi"
+    }
+   ]
+  },
+  {
+   "p": "昨天下大雨，我没带伞，在雨里走了半个小时才到家。今天早上起来就开始发烧，头也很疼，所以我给经理打电话请了一天假。",
+   "pp": "Zuótiān xià dà yǔ, wǒ méi dài sǎn, zài yǔ li zǒu le bàn ge xiǎoshí cái dào jiā. Jīntiān zǎoshang qǐlái jiù kāishǐ fāshāo, tóu yě hěn téng, suǒyǐ wǒ gěi jīnglǐ dǎ diànhuà qǐng le yì tiān jià.",
+   "h": "他今天为什么没去上班？",
+   "hp": "Tā jīntiān wèi shénme méi qù shàngbān?",
+   "a": "生病了",
+   "ap": "shēngbìng le",
+   "x": [
+    {
+     "h": "要去机场",
+     "p": "yào qù jīchǎng"
+    },
+    {
+     "h": "下大雨了",
+     "p": "xià dà yǔ le"
+    }
+   ]
+  },
+  {
+   "p": "下个星期六是我奶奶的生日，我想送她一个特别的礼物。我打算把我们家这些年的照片放在一起，做成一本书。",
+   "pp": "Xià ge xīngqīliù shì wǒ nǎinai de shēngrì, wǒ xiǎng sòng tā yí ge tèbié de lǐwù. Wǒ dǎsuàn bǎ wǒmen jiā zhèxiē nián de zhàopiàn fàng zài yìqǐ, zuòchéng yì běn shū.",
+   "h": "他打算送奶奶什么？",
+   "hp": "Tā dǎsuàn sòng nǎinai shénme?",
+   "a": "一本照片书",
+   "ap": "yì běn zhàopiàn shū",
+   "x": [
+    {
+     "h": "一个蛋糕",
+     "p": "yí ge dàngāo"
+    },
+    {
+     "h": "一件衣服",
+     "p": "yí jiàn yīfu"
+    }
+   ]
+  },
+  {
+   "p": "同学们，明天的会议换到三楼的大教室开，不在二楼了。请大家下午两点以前到，别忘了带上笔和本子。",
+   "pp": "Tóngxuémen, míngtiān de huìyì huàn dào sān lóu de dà jiàoshì kāi, bú zài èr lóu le. Qǐng dàjiā xiàwǔ liǎng diǎn yǐqián dào, bié wàng le dàishàng bǐ hé běnzi.",
+   "h": "明天的会议在哪儿开？",
+   "hp": "Míngtiān de huìyì zài nǎr kāi?",
+   "a": "三楼的教室",
+   "ap": "sān lóu de jiàoshì",
+   "x": [
+    {
+     "h": "二楼的教室",
+     "p": "èr lóu de jiàoshì"
+    },
+    {
+     "h": "老师的办公室",
+     "p": "lǎoshī de bàngōngshì"
+    }
+   ]
+  },
+  {
+   "p": "以前我的东西总是到处放，一要用就找不到。现在我每次用完都把东西放回同一个地方，找东西方便多了。",
+   "pp": "Yǐqián wǒ de dōngxi zǒngshì dàochù fàng, yí yào yòng jiù zhǎo bu dào. Xiànzài wǒ měi cì yòng wán dōu bǎ dōngxi fàng huí tóng yí ge dìfang, zhǎo dōngxi fāngbiàn duō le.",
+   "h": "关于他，可以知道：",
+   "hp": "Guānyú tā, kěyǐ zhīdào:",
+   "a": "找东西很快",
+   "ap": "zhǎo dōngxi hěn kuài",
+   "x": [
+    {
+     "h": "经常找不到东西",
+     "p": "jīngcháng zhǎo bu dào dōngxi"
+    },
+    {
+     "h": "东西到处放",
+     "p": "dōngxi dàochù fàng"
+    }
+   ]
+  },
+  {
+   "p": "从这儿到上海，坐飞机只要两个多小时，但是去机场和等飞机也要花很多时间。所以我觉得坐高铁更方便，而且也不比飞机慢多少。",
+   "pp": "Cóng zhèr dào Shànghǎi, zuò fēijī zhǐ yào liǎng ge duō xiǎoshí, dànshì qù jīchǎng hé děng fēijī yě yào huā hěn duō shíjiān. Suǒyǐ wǒ juéde zuò gāotiě gèng fāngbiàn, érqiě yě bù bǐ fēijī màn duōshao.",
+   "h": "他觉得去上海：",
+   "hp": "Tā juéde qù Shànghǎi:",
+   "a": "坐高铁更好",
+   "ap": "zuò gāotiě gèng hǎo",
+   "x": [
+    {
+     "h": "坐飞机更方便",
+     "p": "zuò fēijī gèng fāngbiàn"
+    },
+    {
+     "h": "开车最方便",
+     "p": "kāi chē zuì fāngbiàn"
+    }
+   ]
+  },
+  {
+   "p": "这次考试我考了八十五分，比上次高了十分。老师说我进步很大，让我下次更努力。",
+   "pp": "Zhè cì kǎoshì wǒ kǎo le bāshíwǔ fēn, bǐ shàng cì gāo le shí fēn. Lǎoshī shuō wǒ jìnbù hěn dà, ràng wǒ xià cì gèng nǔlì.",
+   "h": "他上次考了多少分？",
+   "hp": "Tā shàng cì kǎo le duōshao fēn?",
+   "a": "七十五分",
+   "ap": "qīshíwǔ fēn",
+   "x": [
+    {
+     "h": "八十五分",
+     "p": "bāshíwǔ fēn"
+    },
+    {
+     "h": "九十五分",
+     "p": "jiǔshíwǔ fēn"
+    }
+   ]
+  },
+  {
+   "p": "这几天天气变化很大，白天很热，可是晚上很冷。妈妈让我出门的时候多带一件外衣，小心感冒。",
+   "pp": "Zhè jǐ tiān tiānqì biànhuà hěn dà, báitiān hěn rè, kěshì wǎnshang hěn lěng. Māma ràng wǒ chūmén de shíhou duō dài yí jiàn wàiyī, xiǎoxīn gǎnmào.",
+   "h": "妈妈为什么让他多带一件衣服？",
+   "hp": "Māma wèi shénme ràng tā duō dài yí jiàn yīfu?",
+   "a": "晚上很冷",
+   "ap": "wǎnshang hěn lěng",
+   "x": [
+    {
+     "h": "白天很冷",
+     "p": "báitiān hěn lěng"
+    },
+    {
+     "h": "他感冒了",
+     "p": "tā gǎnmào le"
+    }
+   ]
+  },
+  {
+   "p": "我的同事小李特别喜欢帮助别人。上个月我刚来公司，很多事情都不懂，都是他一点儿一点儿教我的。",
+   "pp": "Wǒ de tóngshì Xiǎo Lǐ tèbié xǐhuan bāngzhù biérén. Shàng ge yuè wǒ gāng lái gōngsī, hěn duō shìqing dōu bù dǒng, dōu shì tā yìdiǎnr yìdiǎnr jiāo wǒ de.",
+   "h": "根据这段话，说话人：",
+   "hp": "Gēnjù zhè duàn huà, shuōhuàrén:",
+   "a": "来公司不久",
+   "ap": "lái gōngsī bù jiǔ",
+   "x": [
+    {
+     "h": "是小李的经理",
+     "p": "shì Xiǎo Lǐ de jīnglǐ"
+    },
+    {
+     "h": "是公司的老同事",
+     "p": "shì gōngsī de lǎo tóngshì"
+    }
+   ]
+  },
+  {
+   "p": "在中国，很多人都有喝茶的习惯。家里来了客人的时候，主人一般会先请客人喝一杯热茶，意思是欢迎他们来。",
+   "pp": "Zài Zhōngguó, hěn duō rén dōu yǒu hē chá de xíguàn. Jiā li lái le kèrén de shíhou, zhǔrén yìbān huì xiān qǐng kèrén hē yì bēi rè chá, yìsi shì huānyíng tāmen lái.",
+   "h": "主人请客人喝茶是为了：",
+   "hp": "Zhǔrén qǐng kèrén hē chá shì wèile:",
+   "a": "欢迎客人",
+   "ap": "huānyíng kèrén",
+   "x": [
+    {
+     "h": "感谢客人",
+     "p": "gǎnxiè kèrén"
+    },
+    {
+     "h": "让客人早点儿走",
+     "p": "ràng kèrén zǎo diǎnr zǒu"
+    }
+   ]
+  },
+  {
+   "p": "我家楼下有一个小公园。每天早上六点，就有很多老人在那儿跳舞、唱歌，声音特别大，所以我每天都起得很早。",
+   "pp": "Wǒ jiā lóu xià yǒu yí ge xiǎo gōngyuán. Měi tiān zǎoshang liù diǎn, jiù yǒu hěn duō lǎorén zài nàr tiàowǔ, chàng gē, shēngyīn tèbié dà, suǒyǐ wǒ měi tiān dōu qǐ de hěn zǎo.",
+   "h": "他为什么每天起得很早？",
+   "hp": "Tā wèi shénme měi tiān qǐ de hěn zǎo?",
+   "a": "楼下声音大",
+   "ap": "lóu xià shēngyīn dà",
+   "x": [
+    {
+     "h": "要去公园唱歌",
+     "p": "yào qù gōngyuán chàng gē"
+    },
+    {
+     "h": "要早点儿上班",
+     "p": "yào zǎo diǎnr shàngbān"
+    }
+   ]
+  },
+  {
+   "p": "我的手机已经用了五年了，经常突然关机。上个周末我本来想买个新的，可是看了几家商店都没找到满意的，只好先用着旧的。",
+   "pp": "Wǒ de shǒujī yǐjīng yòng le wǔ nián le, jīngcháng tūrán guānjī. Shàng ge zhōumò wǒ běnlái xiǎng mǎi ge xīn de, kěshì kàn le jǐ jiā shāngdiàn dōu méi zhǎodào mǎnyì de, zhǐhǎo xiān yòng zhe jiù de.",
+   "h": "上个周末他：",
+   "hp": "Shàng ge zhōumò tā:",
+   "a": "没买新手机",
+   "ap": "méi mǎi xīn shǒujī",
+   "x": [
+    {
+     "h": "买了新手机",
+     "p": "mǎi le xīn shǒujī"
+    },
+    {
+     "h": "没去商店",
+     "p": "méi qù shāngdiàn"
+    }
+   ]
+  },
+  {
+   "p": "我们下个月就要搬家了。新家离我和妻子的公司都比较近，旁边还有一个很好的小学，以后孩子上学也方便了。",
+   "pp": "Wǒmen xià ge yuè jiù yào bānjiā le. Xīn jiā lí wǒ hé qīzi de gōngsī dōu bǐjiào jìn, pángbiān hái yǒu yí ge hěn hǎo de xiǎoxué, yǐhòu háizi shàngxué yě fāngbiàn le.",
+   "h": "关于新家，可以知道：",
+   "hp": "Guānyú xīn jiā, kěyǐ zhīdào:",
+   "a": "旁边有小学",
+   "ap": "pángbiān yǒu xiǎoxué",
+   "x": [
+    {
+     "h": "离公司很远",
+     "p": "lí gōngsī hěn yuǎn"
+    },
+    {
+     "h": "下个星期搬",
+     "p": "xià ge xīngqī bān"
+    }
+   ]
+  }
+ ],
+ "doanDai": [
+  {
+   "p": "我去年九月来上海上大学。刚来的时候，我一个朋友也没有，也不习惯这里的天气。后来我参加了学校的音乐节目，认识了很多同学。现在我已经完全习惯了这里的生活，周末经常和朋友一起去爬山。",
+   "pp": "Wǒ qùnián jiǔ yuè lái Shànghǎi shàng dàxué. Gāng lái de shíhou, wǒ yí ge péngyou yě méiyǒu, yě bù xíguàn zhèlǐ de tiānqì. Hòulái wǒ cānjiā le xuéxiào de yīnyuè jiémù, rènshi le hěn duō tóngxué. Xiànzài wǒ yǐjīng wánquán xíguàn le zhèlǐ de shēnghuó, zhōumò jīngcháng hé péngyou yìqǐ qù páshān.",
+   "cau": [
+    {
+     "h": "他刚来上海的时候：",
+     "hp": "Tā gāng lái Shànghǎi de shíhou:",
+     "a": "没有朋友",
+     "ap": "méiyǒu péngyou",
+     "x": [
+      {
+       "h": "常去爬山",
+       "p": "cháng qù páshān"
+      },
+      {
+       "h": "习惯这里的天气",
+       "p": "xíguàn zhèlǐ de tiānqì"
+      }
+     ]
+    },
+    {
+     "h": "他是怎么认识很多同学的？",
+     "hp": "Tā shì zěnme rènshi hěn duō tóngxué de?",
+     "a": "参加音乐节目",
+     "ap": "cānjiā yīnyuè jiémù",
+     "x": [
+      {
+       "h": "周末去爬山",
+       "p": "zhōumò qù páshān"
+      },
+      {
+       "h": "上音乐课",
+       "p": "shàng yīnyuè kè"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "p": "饺子是中国北方人很爱吃的东西。过年的时候，一家人常常坐在一起包饺子，一边包一边聊天。有的人会在一个饺子里放一块糖，吃到这个饺子的人，新的一年会很甜。现在超市里也能买到饺子，但是很多老人还是觉得自己包的更好吃。",
+   "pp": "Jiǎozi shì Zhōngguó běifāng rén hěn ài chī de dōngxi. Guònián de shíhou, yì jiā rén chángcháng zuò zài yìqǐ bāo jiǎozi, yìbiān bāo yìbiān liáotiān. Yǒude rén huì zài yí ge jiǎozi lǐ fàng yí kuài táng, chī dào zhège jiǎozi de rén, xīn de yì nián huì hěn tián. Xiànzài chāoshì lǐ yě néng mǎi dào jiǎozi, dànshì hěn duō lǎorén háishi juéde zìjǐ bāo de gèng hǎochī.",
+   "cau": [
+    {
+     "h": "过年的时候，一家人常常：",
+     "hp": "Guònián de shíhou, yì jiā rén chángcháng:",
+     "a": "一起包饺子",
+     "ap": "yìqǐ bāo jiǎozi",
+     "x": [
+      {
+       "h": "去超市买饺子",
+       "p": "qù chāoshì mǎi jiǎozi"
+      },
+      {
+       "h": "去饭馆吃饭",
+       "p": "qù fànguǎn chīfàn"
+      }
+     ]
+    },
+    {
+     "h": "很多老人觉得：",
+     "hp": "Hěn duō lǎorén juéde:",
+     "a": "自己包的更好吃",
+     "ap": "zìjǐ bāo de gèng hǎochī",
+     "x": [
+      {
+       "h": "超市的更好吃",
+       "p": "chāoshì de gèng hǎochī"
+      },
+      {
+       "h": "饺子里不能放糖",
+       "p": "jiǎozi lǐ bù néng fàng táng"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "p": "我们饭馆需要一名会说汉语的服务员，男女都可以。工作时间是每天下午两点到晚上十点，周末休息一天。如果你对这个工作感兴趣，请在本月二十号以前给张经理打电话。",
+   "pp": "Wǒmen fànguǎn xūyào yì míng huì shuō Hànyǔ de fúwùyuán, nán nǚ dōu kěyǐ. Gōngzuò shíjiān shì měi tiān xiàwǔ liǎng diǎn dào wǎnshang shí diǎn, zhōumò xiūxi yì tiān. Rúguǒ nǐ duì zhège gōngzuò gǎn xìngqù, qǐng zài běn yuè èrshí hào yǐqián gěi Zhāng jīnglǐ dǎ diànhuà.",
+   "cau": [
+    {
+     "h": "这个工作要求：",
+     "hp": "Zhège gōngzuò yāoqiú:",
+     "a": "会说汉语",
+     "ap": "huì shuō Hànyǔ",
+     "x": [
+      {
+       "h": "会开车",
+       "p": "huì kāichē"
+      },
+      {
+       "h": "是男的",
+       "p": "shì nán de"
+      }
+     ]
+    },
+    {
+     "h": "这个工作每天要工作：",
+     "hp": "Zhège gōngzuò měi tiān yào gōngzuò:",
+     "a": "八个小时",
+     "ap": "bā ge xiǎoshí",
+     "x": [
+      {
+       "h": "十个小时",
+       "p": "shí ge xiǎoshí"
+      },
+      {
+       "h": "两个小时",
+       "p": "liǎng ge xiǎoshí"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "p": "很多人晚上睡觉以前喜欢玩儿手机，一玩儿就是一两个小时。其实这对身体很不好，不但会让眼睛累，而且会让人睡不好觉。医生说，睡觉前最好把手机放在别的房间，听听音乐或者看一会儿书。这样，第二天起床以后就不会觉得累了。",
+   "pp": "Hěn duō rén wǎnshang shuìjiào yǐqián xǐhuan wánr shǒujī, yì wánr jiù shì yì liǎng ge xiǎoshí. Qíshí zhè duì shēntǐ hěn bù hǎo, búdàn huì ràng yǎnjing lèi, érqiě huì ràng rén shuì bù hǎo jiào. Yīshēng shuō, shuìjiào qián zuìhǎo bǎ shǒujī fàng zài bié de fángjiān, tīngting yīnyuè huòzhě kàn yíhuìr shū. Zhèyàng, dì-èr tiān qǐchuáng yǐhòu jiù bú huì juéde lèi le.",
+   "cau": [
+    {
+     "h": "睡觉前玩儿很长时间手机：",
+     "hp": "Shuìjiào qián wánr hěn cháng shíjiān shǒujī:",
+     "a": "会让眼睛累",
+     "ap": "huì ràng yǎnjing lèi",
+     "x": [
+      {
+       "h": "对身体很好",
+       "p": "duì shēntǐ hěn hǎo"
+      },
+      {
+       "h": "能让人睡得好",
+       "p": "néng ràng rén shuì de hǎo"
+      }
+     ]
+    },
+    {
+     "h": "医生觉得睡觉前最好：",
+     "hp": "Yīshēng juéde shuìjiào qián zuìhǎo:",
+     "a": "听听音乐",
+     "ap": "tīngting yīnyuè",
+     "x": [
+      {
+       "h": "玩儿一会儿手机",
+       "p": "wánr yíhuìr shǒujī"
+      },
+      {
+       "h": "把手机放在床边",
+       "p": "bǎ shǒujī fàng zài chuángbiān"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "p": "我家附近有一个很大的公园，公园里有一条河，河边种了很多花和树。每天早上，很多老人在那儿锻炼身体，有的跑步，有的跳舞。到了周末，年轻人喜欢带着孩子去河边骑自行车。公园不要钱，所以去的人特别多。",
+   "pp": "Wǒ jiā fùjìn yǒu yí ge hěn dà de gōngyuán, gōngyuán lǐ yǒu yì tiáo hé, hé biān zhòng le hěn duō huā hé shù. Měi tiān zǎoshang, hěn duō lǎorén zài nàr duànliàn shēntǐ, yǒude pǎobù, yǒude tiàowǔ. Dào le zhōumò, niánqīng rén xǐhuan dàizhe háizi qù hé biān qí zìxíngchē. Gōngyuán bú yào qián, suǒyǐ qù de rén tèbié duō.",
+   "cau": [
+    {
+     "h": "关于这个公园，可以知道：",
+     "hp": "Guānyú zhège gōngyuán, kěyǐ zhīdào:",
+     "a": "去公园不用花钱",
+     "ap": "qù gōngyuán bú yòng huā qián",
+     "x": [
+      {
+       "h": "公园里没有河",
+       "p": "gōngyuán lǐ méiyǒu hé"
+      },
+      {
+       "h": "只有老人去",
+       "p": "zhǐyǒu lǎorén qù"
+      }
+     ]
+    },
+    {
+     "h": "周末，年轻人带孩子去公园：",
+     "hp": "Zhōumò, niánqīng rén dài háizi qù gōngyuán:",
+     "a": "骑自行车",
+     "ap": "qí zìxíngchē",
+     "x": [
+      {
+       "h": "跑步",
+       "p": "pǎobù"
+      },
+      {
+       "h": "跳舞",
+       "p": "tiàowǔ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "p": "今天是我的生日，可是爸爸妈妈都在外地出差，我以为没有人记得。下班回到家，打开门一看，桌子上放着一个大蛋糕，我的好朋友们都在房间里等我。后来我才知道，是我的妹妹给他们打的电话。我感动得说不出话来。",
+   "pp": "Jīntiān shì wǒ de shēngrì, kěshì bàba māma dōu zài wàidì chūchāi, wǒ yǐwéi méiyǒu rén jìde. Xiàbān huí dào jiā, dǎkāi mén yí kàn, zhuōzi shang fàngzhe yí ge dà dàngāo, wǒ de hǎo péngyoumen dōu zài fángjiān lǐ děng wǒ. Hòulái wǒ cái zhīdào, shì wǒ de mèimei gěi tāmen dǎ de diànhuà. Wǒ gǎndòng de shuō bu chū huà lái.",
+   "cau": [
+    {
+     "h": "他回家以前以为：",
+     "hp": "Tā huí jiā yǐqián yǐwéi:",
+     "a": "没人记得他的生日",
+     "ap": "méi rén jìde tā de shēngrì",
+     "x": [
+      {
+       "h": "爸爸妈妈在家等他",
+       "p": "bàba māma zài jiā děng tā"
+      },
+      {
+       "h": "朋友会买蛋糕",
+       "p": "péngyou huì mǎi dàngāo"
+      }
+     ]
+    },
+    {
+     "h": "是谁让朋友们来的？",
+     "hp": "Shì shéi ràng péngyoumen lái de?",
+     "a": "他的妹妹",
+     "ap": "tā de mèimei",
+     "x": [
+      {
+       "h": "他的爸爸",
+       "p": "tā de bàba"
+      },
+      {
+       "h": "他自己",
+       "p": "tā zìjǐ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "p": "八月十五是中国的中秋节。这天晚上，一家人会坐在一起，一边吃水果一边看月亮。如果有家人在别的城市工作，不能回家，大家就会给他打电话。所以，在中国人心里，中秋节是一个和家人在一起的节日。",
+   "pp": "Bā yuè shíwǔ shì Zhōngguó de Zhōngqiū Jié. Zhè tiān wǎnshang, yì jiā rén huì zuò zài yìqǐ, yìbiān chī shuǐguǒ yìbiān kàn yuèliang. Rúguǒ yǒu jiārén zài bié de chéngshì gōngzuò, bù néng huí jiā, dàjiā jiù huì gěi tā dǎ diànhuà. Suǒyǐ, zài Zhōngguó rén xīn lǐ, Zhōngqiū Jié shì yí ge hé jiārén zài yìqǐ de jiérì.",
+   "cau": [
+    {
+     "h": "中秋节晚上，一家人会：",
+     "hp": "Zhōngqiū Jié wǎnshang, yì jiā rén huì:",
+     "a": "一起看月亮",
+     "ap": "yìqǐ kàn yuèliang",
+     "x": [
+      {
+       "h": "一起包饺子",
+       "p": "yìqǐ bāo jiǎozi"
+      },
+      {
+       "h": "一起去旅游",
+       "p": "yìqǐ qù lǚyóu"
+      }
+     ]
+    },
+    {
+     "h": "对中国人来说，中秋节最重要的是：",
+     "hp": "Duì Zhōngguó rén lái shuō, Zhōngqiū Jié zuì zhòngyào de shì:",
+     "a": "和家人在一起",
+     "ap": "hé jiārén zài yìqǐ",
+     "x": [
+      {
+       "h": "吃很多东西",
+       "p": "chī hěn duō dōngxi"
+      },
+      {
+       "h": "去别的城市",
+       "p": "qù bié de chéngshì"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "p": "学习汉语的时候，很多人觉得汉字最难。我的老师说，记汉字不能着急，每天记五个就可以了，但是一定要天天复习。还有，多看中文电影、多跟中国人聊天，也是很好的方法。我用老师的方法学了半年，现在已经认识八百多个汉字了。",
+   "pp": "Xuéxí Hànyǔ de shíhou, hěn duō rén juéde Hànzì zuì nán. Wǒ de lǎoshī shuō, jì Hànzì bù néng zháojí, měi tiān jì wǔ ge jiù kěyǐ le, dànshì yídìng yào tiāntiān fùxí. Hái yǒu, duō kàn Zhōngwén diànyǐng, duō gēn Zhōngguó rén liáotiān, yě shì hěn hǎo de fāngfǎ. Wǒ yòng lǎoshī de fāngfǎ xué le bàn nián, xiànzài yǐjīng rènshi bābǎi duō ge Hànzì le.",
+   "cau": [
+    {
+     "h": "老师觉得记汉字：",
+     "hp": "Lǎoshī juéde jì Hànzì:",
+     "a": "要天天复习",
+     "ap": "yào tiāntiān fùxí",
+     "x": [
+      {
+       "h": "一天记得越多越好",
+       "p": "yì tiān jì de yuè duō yuè hǎo"
+      },
+      {
+       "h": "只看电影就可以",
+       "p": "zhǐ kàn diànyǐng jiù kěyǐ"
+      }
+     ]
+    },
+    {
+     "h": "他用老师的方法学了多长时间？",
+     "hp": "Tā yòng lǎoshī de fāngfǎ xué le duō cháng shíjiān?",
+     "a": "半年",
+     "ap": "bàn nián",
+     "x": [
+      {
+       "h": "五天",
+       "p": "wǔ tiān"
+      },
+      {
+       "h": "八个月",
+       "p": "bā ge yuè"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "p": "同学们，学校图书馆从下个星期一开始换新的电脑，所以下周一到周三不能借书，也不能上网。从周四开始就可以借书了。还有，图书馆开门的时间也变了，以后每天早上八点开门，晚上九点关门。",
+   "pp": "Tóngxuémen, xuéxiào túshūguǎn cóng xià ge xīngqīyī kāishǐ huàn xīn de diànnǎo, suǒyǐ xià zhōuyī dào zhōusān bù néng jiè shū, yě bù néng shàngwǎng. Cóng zhōusì kāishǐ jiù kěyǐ jiè shū le. Hái yǒu, túshūguǎn kāimén de shíjiān yě biàn le, yǐhòu měi tiān zǎoshang bā diǎn kāimén, wǎnshang jiǔ diǎn guānmén.",
+   "cau": [
+    {
+     "h": "下周一到周三不能借书，是因为：",
+     "hp": "Xià zhōuyī dào zhōusān bù néng jiè shū, shì yīnwèi:",
+     "a": "要换新电脑",
+     "ap": "yào huàn xīn diànnǎo",
+     "x": [
+      {
+       "h": "老师要开会",
+       "p": "lǎoshī yào kāihuì"
+      },
+      {
+       "h": "学校放假了",
+       "p": "xuéxiào fàngjià le"
+      }
+     ]
+    },
+    {
+     "h": "下周想借书的同学，最早可以：",
+     "hp": "Xià zhōu xiǎng jiè shū de tóngxué, zuì zǎo kěyǐ:",
+     "a": "下周四去",
+     "ap": "xià zhōusì qù",
+     "x": [
+      {
+       "h": "下周一去",
+       "p": "xià zhōuyī qù"
+      },
+      {
+       "h": "下周三去",
+       "p": "xià zhōusān qù"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "p": "上个月我和朋友去南方旅游。我们本来打算坐飞机，但是机票太贵了，最后决定坐火车。没想到，火车上的环境非常好，我们一边看外面的山和河，一边聊天，一点儿也不觉得累。下次旅游，我还想坐火车。",
+   "pp": "Shàng ge yuè wǒ hé péngyou qù nánfāng lǚyóu. Wǒmen běnlái dǎsuàn zuò fēijī, dànshì jīpiào tài guì le, zuìhòu juédìng zuò huǒchē. Méi xiǎngdào, huǒchē shang de huánjìng fēicháng hǎo, wǒmen yìbiān kàn wàimiàn de shān hé hé, yìbiān liáotiān, yìdiǎnr yě bù juéde lèi. Xià cì lǚyóu, wǒ hái xiǎng zuò huǒchē.",
+   "cau": [
+    {
+     "h": "他们为什么没坐飞机？",
+     "hp": "Tāmen wèi shénme méi zuò fēijī?",
+     "a": "机票太贵",
+     "ap": "jīpiào tài guì",
+     "x": [
+      {
+       "h": "飞机太慢",
+       "p": "fēijī tài màn"
+      },
+      {
+       "h": "朋友不想去",
+       "p": "péngyou bù xiǎng qù"
+      }
+     ]
+    },
+    {
+     "h": "他觉得坐火车：",
+     "hp": "Tā juéde zuò huǒchē:",
+     "a": "很舒服",
+     "ap": "hěn shūfu",
+     "x": [
+      {
+       "h": "很累",
+       "p": "hěn lèi"
+      },
+      {
+       "h": "太贵了",
+       "p": "tài guì le"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "p": "学校东边新开了一家面馆，老板是一个年轻人。他们的面条又便宜又好吃，一碗只要十五块钱。中午的时候，店里总是坐满了学生，去晚了就得等很长时间。所以我一般早一点儿去，十一点半就到了。",
+   "pp": "Xuéxiào dōngbian xīn kāi le yì jiā miànguǎn, lǎobǎn shì yí ge niánqīng rén. Tāmen de miàntiáo yòu piányi yòu hǎochī, yì wǎn zhǐ yào shíwǔ kuài qián. Zhōngwǔ de shíhou, diàn lǐ zǒngshì zuò mǎn le xuésheng, qù wǎn le jiù děi děng hěn cháng shíjiān. Suǒyǐ wǒ yìbān zǎo yìdiǎnr qù, shíyī diǎn bàn jiù dào le.",
+   "cau": [
+    {
+     "h": "关于这家面馆，可以知道：",
+     "hp": "Guānyú zhè jiā miànguǎn, kěyǐ zhīdào:",
+     "a": "面条很便宜",
+     "ap": "miàntiáo hěn piányi",
+     "x": [
+      {
+       "h": "老板是老人",
+       "p": "lǎobǎn shì lǎorén"
+      },
+      {
+       "h": "中午人很少",
+       "p": "zhōngwǔ rén hěn shǎo"
+      }
+     ]
+    },
+    {
+     "h": "他为什么早一点儿去？",
+     "hp": "Tā wèi shénme zǎo yìdiǎnr qù?",
+     "a": "不想等太长时间",
+     "ap": "bù xiǎng děng tài cháng shíjiān",
+     "x": [
+      {
+       "h": "想跟老板聊天",
+       "p": "xiǎng gēn lǎobǎn liáotiān"
+      },
+      {
+       "h": "十二点面馆关门",
+       "p": "shí'èr diǎn miànguǎn guānmén"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "p": "我爷爷今年七十岁了，身体还是很健康。他每天早上六点起床，先去公园走一个小时，然后回家做早饭。他不喝酒，也很少吃肉，经常吃水果。爷爷常说，想要身体好，最重要的是心情要好。",
+   "pp": "Wǒ yéye jīnnián qīshí suì le, shēntǐ háishi hěn jiànkāng. Tā měi tiān zǎoshang liù diǎn qǐchuáng, xiān qù gōngyuán zǒu yí ge xiǎoshí, ránhòu huí jiā zuò zǎofàn. Tā bù hē jiǔ, yě hěn shǎo chī ròu, jīngcháng chī shuǐguǒ. Yéye cháng shuō, xiǎng yào shēntǐ hǎo, zuì zhòngyào de shì xīnqíng yào hǎo.",
+   "cau": [
+    {
+     "h": "爷爷每天早上起床以后先：",
+     "hp": "Yéye měi tiān zǎoshang qǐchuáng yǐhòu xiān:",
+     "a": "去公园走路",
+     "ap": "qù gōngyuán zǒulù",
+     "x": [
+      {
+       "h": "回家做早饭",
+       "p": "huí jiā zuò zǎofàn"
+      },
+      {
+       "h": "吃一些水果",
+       "p": "chī yìxiē shuǐguǒ"
+      }
+     ]
+    },
+    {
+     "h": "关于爷爷，可以知道：",
+     "hp": "Guānyú yéye, kěyǐ zhīdào:",
+     "a": "他不喝酒",
+     "ap": "tā bù hē jiǔ",
+     "x": [
+      {
+       "h": "他常常吃肉",
+       "p": "tā chángcháng chī ròu"
+      },
+      {
+       "h": "他身体不太好",
+       "p": "tā shēntǐ bú tài hǎo"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "viet": [
+  {
+   "cau": "出国以前，别忘了带（ ）照。",
+   "pinyin": "Chū guó yǐqián, bié wàng le dài hùzhào.",
+   "chu": "护",
+   "dich": "Trước khi ra nước ngoài, đừng quên mang hộ chiếu."
+  },
+  {
+   "cau": "你的行（ ）先放在门口吧。",
+   "pinyin": "Nǐ de xíngli xiān fàng zài ménkǒu ba.",
+   "chu": "李",
+   "dich": "Hành lý của bạn cứ để ở cửa trước đã."
+  },
+  {
+   "cau": "跑了一个小时，我又累又（ ）。",
+   "pinyin": "Pǎo le yí ge xiǎoshí, wǒ yòu lèi yòu kě.",
+   "chu": "渴",
+   "dich": "Chạy một tiếng, tôi vừa mệt vừa khát."
+  },
+  {
+   "cau": "天气太热了，我想吃（ ）激凌。",
+   "pinyin": "Tiānqì tài rè le, wǒ xiǎng chī bīngjīlíng.",
+   "chu": "冰",
+   "dich": "Trời nóng quá, tôi muốn ăn kem."
+  },
+  {
+   "cau": "我家住在十二（ ），每天坐电梯上下楼。",
+   "pinyin": "Wǒ jiā zhù zài shí'èr céng, měi tiān zuò diàntī shàng xià lóu.",
+   "chu": "层",
+   "dich": "Nhà tôi ở tầng mười hai, ngày nào cũng đi thang máy lên xuống."
+  },
+  {
+   "cau": "房间打扫得很干（ ）。",
+   "pinyin": "Fángjiān dǎsǎo de hěn gānjìng.",
+   "chu": "净",
+   "dich": "Phòng được quét dọn rất sạch sẽ."
+  },
+  {
+   "cau": "夏天我们一家人去（ ）边玩儿了一个星期。",
+   "pinyin": "Xiàtiān wǒmen yì jiā rén qù hǎibiān wánr le yí ge xīngqī.",
+   "chu": "海",
+   "dich": "Mùa hè cả nhà chúng tôi đi biển chơi một tuần."
+  },
+  {
+   "cau": "每天早上和晚上都要刷（ ）。",
+   "pinyin": "Měi tiān zǎoshang hé wǎnshang dōu yào shuā yá.",
+   "chu": "牙",
+   "dich": "Sáng và tối hằng ngày đều phải đánh răng."
+  },
+  {
+   "cau": "我喜欢在地铁上用（ ）机听音乐。",
+   "pinyin": "Wǒ xǐhuan zài dìtiě shang yòng ěrjī tīng yīnyuè.",
+   "chu": "耳",
+   "dich": "Tôi thích dùng tai nghe nghe nhạc trên tàu điện ngầm."
+  },
+  {
+   "cau": "我在超市买了两（ ）苹果。",
+   "pinyin": "Wǒ zài chāoshì mǎi le liǎng jīn píngguǒ.",
+   "chu": "斤",
+   "dich": "Tôi mua hai cân táo ở siêu thị."
+  },
+  {
+   "cau": "他最近吃得太多，比以前（ ）了不少。",
+   "pinyin": "Tā zuìjìn chī de tài duō, bǐ yǐqián pàng le bù shǎo.",
+   "chu": "胖",
+   "dich": "Dạo này anh ấy ăn nhiều quá, béo hơn trước khá nhiều."
+  },
+  {
+   "cau": "外面下雨了，出门记得带（ ）。",
+   "pinyin": "Wàimiàn xià yǔ le, chūmén jìde dài sǎn.",
+   "chu": "伞",
+   "dich": "Bên ngoài mưa rồi, ra ngoài nhớ mang ô."
+  },
+  {
+   "cau": "九月以后天气凉快了，（ ）天来了。",
+   "pinyin": "Jiǔ yuè yǐhòu tiānqì liángkuai le, qiūtiān lái le.",
+   "chu": "秋",
+   "dich": "Sau tháng chín trời mát hơn, mùa thu đến rồi."
+  },
+  {
+   "cau": "过年的时候，我们一家人一起包（ ）子。",
+   "pinyin": "Guònián de shíhou, wǒmen yì jiā rén yìqǐ bāo jiǎozi.",
+   "chu": "饺",
+   "dich": "Dịp Tết, cả nhà chúng tôi cùng gói sủi cảo."
+  },
+  {
+   "cau": "请给我一（ ）矿泉水。",
+   "pinyin": "Qǐng gěi wǒ yì píng kuàngquánshuǐ.",
+   "chu": "瓶",
+   "dich": "Cho tôi một chai nước khoáng."
+  },
+  {
+   "cau": "孩子找不到妈妈，急得（ ）了。",
+   "pinyin": "Háizi zhǎo bu dào māma, jí de kū le.",
+   "chu": "哭",
+   "dich": "Đứa bé không tìm thấy mẹ, sốt ruột đến phát khóc."
+  },
+  {
+   "cau": "我常常去（ ）书馆借书。",
+   "pinyin": "Wǒ chángcháng qù túshūguǎn jiè shū.",
+   "chu": "图",
+   "dich": "Tôi thường đến thư viện mượn sách."
+  },
+  {
+   "cau": "这是我送给你的生日（ ）物。",
+   "pinyin": "Zhè shì wǒ sòng gěi nǐ de shēngrì lǐwù.",
+   "chu": "礼",
+   "dich": "Đây là quà sinh nhật tôi tặng bạn."
+  },
+  {
+   "cau": "我家后面有一条小（ ），夏天常有人在那儿游泳。",
+   "pinyin": "Wǒ jiā hòumiàn yǒu yì tiáo xiǎo hé, xiàtiān cháng yǒu rén zài nàr yóuyǒng.",
+   "chu": "河",
+   "dich": "Sau nhà tôi có một con sông nhỏ, mùa hè hay có người bơi ở đó."
+  },
+  {
+   "cau": "我已经吃（ ）了，不能再吃了。",
+   "pinyin": "Wǒ yǐjīng chī bǎo le, bù néng zài chī le.",
+   "chu": "饱",
+   "dich": "Tôi ăn no rồi, không ăn thêm được nữa."
+  },
+  {
+   "cau": "我爸爸每天早上都要喝一杯（ ）。",
+   "pinyin": "Wǒ bàba měi tiān zǎoshang dōu yào hē yì bēi chá.",
+   "chu": "茶",
+   "dich": "Bố tôi sáng nào cũng phải uống một cốc trà."
+  },
+  {
+   "cau": "我们中（ ）十二点在饭馆门口见吧。",
+   "pinyin": "Wǒmen zhōngwǔ shí'èr diǎn zài fànguǎn ménkǒu jiàn ba.",
+   "chu": "午",
+   "dich": "Chúng ta gặp nhau ở cửa nhà hàng lúc mười hai giờ trưa nhé."
+  },
+  {
+   "cau": "大熊猫很可（ ），大家都喜欢它。",
+   "pinyin": "Dàxióngmāo hěn kě'ài, dàjiā dōu xǐhuan tā.",
+   "chu": "爱",
+   "dich": "Gấu trúc lớn rất đáng yêu, ai cũng thích nó."
+  },
+  {
+   "cau": "你每天练（ ）写汉字吗？",
+   "pinyin": "Nǐ měi tiān liànxí xiě Hànzì ma?",
+   "chu": "习",
+   "dich": "Bạn có luyện viết chữ Hán mỗi ngày không?"
+  },
+  {
+   "cau": "我们是初中同（ ），已经认识十年了。",
+   "pinyin": "Wǒmen shì chūzhōng tóngxué, yǐjīng rènshi shí nián le.",
+   "chu": "学",
+   "dich": "Chúng tôi là bạn học cấp hai, đã quen nhau mười năm rồi."
+  }
+ ]
+}

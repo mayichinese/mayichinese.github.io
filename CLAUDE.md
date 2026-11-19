@@ -60,12 +60,16 @@
   + `cong-cu/bao-cao-hsk2.txt` (đã gồm kiểm tra pinyin câu ví dụ; chữ cho phép = cấp 1–2). Từ chưa soạn không hiện, bài hiện
   "Đang soạn". Mã bài HSK 2 = '2-3' (du-lieu.js), khóa thẻ '2:<dạng gốc>'; mục trùng mặt chữ trong cùng cấp: `过(guo)`.
   Từ mới đi theo thứ tự HSK 1 → HSK 2. `tao-du-lieu-thanh-dieu.py` đọc mọi `hsk[0-9].json`. Soạn HSK 2: dừng báo sau mỗi 3 bài.
-- Giai đoạn 5.4 (HSK 3: đủ 500 từ; còn chữ viết tay cấp 3, ngữ pháp cấp 3, thi thử HSK 3): `cong-cu/nguon-hsk3/phan-bai.txt` (500 từ theo 18 bài sách 《新HSK教程 3》; 450 từ khớp
+- Giai đoạn 5.4 (HSK 3 – XONG: 500 từ, 150 chữ viết tay cấp 3, 51 điểm ngữ pháp cấp 3, thi thử HSK 3): `cong-cu/nguon-hsk3/phan-bai.txt` (500 từ theo 18 bài sách 《新HSK教程 3》; 450 từ khớp
   bảng từ sách, 49 từ xếp tay theo chủ đề; mục trùng: `得(děi)`) + `bai-NN.txt` → `python -X utf8 cong-cu/ghep-du-lieu-cap.py 3`
   → `app/data/hsk3.json` (chữ cho phép cấp 1–3). Mã bài '3-5'. Chữ viết tay cấp 3 (150) XONG: `data/net-chu-hsk23.json` (khóa vietTay3 + nét của
   mọi chữ trong từ HSK 2–3; file 1 net-chu-hsk1.json giữ nguyên), net-chu.js gộp hai file; Luyện viết có chip Cấp 1–2 / Cấp 3,
   chữ mới hết cấp 1–2 mới sang cấp 3. Ngữ pháp cấp 3 XONG: 51 điểm `cap3-01…05.txt`
-  (`ghep-ngu-phap.py 3` → `data/ngu-phap-hsk3.json`; danh sách điểm theo thứ tự bài sách, soạn song song rồi soát độc lập). Còn: thi thử HSK 3.
+  (`ghep-ngu-phap.py 3` → `data/ngu-phap-hsk3.json`; danh sách điểm theo thứ tự bài sách, soạn song song rồi soát độc lập).
+- Thi thử HSK 3 (5.4): cùng `js/man-thi-thu.js` (CAU_HINH[3], taoDe3; kiểu mới `xepCau`). Nghe 30 + đọc 30 (30′) + viết 10 (20′).
+  Viết P2 của đề thật (nhìn tranh tự viết câu) đổi thành sắp xếp mảnh có từ cho sẵn – mọi thứ tự khác cũng đúng phải có dòng `~`.
+  Điền từ hội thoại: hai lượt lời nối bằng ／. Dữ liệu `data/thi-thu-hsk3.json` từ `cong-cu/nguon-thi-thu/` (tranh3a/3b.txt + cap3-*.txt)
+  bằng `python -X utf8 cong-cu/ghep-thi-thu-3.py`. Chữ 王, 京, 戴, 镜, 美, 油… nằm NGOÀI cấp 1–3 – không dùng (tên người: 小李, 小张, 李明).
 - Giai đoạn 5.1: `js/man-thong-ke.js` (chỉ đọc tiến độ; biểu đồ SVG tự vẽ, màu `--bd-1…5` đã kiểm tra mù màu).
 - `CHAY-APP.bat` – chạy app trên máy (máy chủ nhỏ ở localhost). `HUONG-DAN.md` – hướng dẫn người dùng.
 

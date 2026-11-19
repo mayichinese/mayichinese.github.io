@@ -1,0 +1,248 @@
+# NGHE PHẦN 2 – HSK 3: hội thoại hai lượt + câu hỏi (3 lựa chọn). Câu tự soạn.
+# Mỗi mục (### hoi…):
+#   N lượt lời 1 | pinyin      (quy ước: lượt 1 là NỮ)
+#   N lượt lời 2 | pinyin      (quy ước: lượt 2 là NAM)
+#   H câu hỏi | pinyin         (nếu hỏi 男的/女的 thì phải đúng quy ước trên)
+#   A đáp án đúng | pinyin
+#   X đáp án sai | pinyin      (hai dòng; chắc chắn SAI theo hội thoại)
+# Chỉ dùng chữ cấp 1–3. Lựa chọn ngắn, cùng loại.
+
+### hoi1
+N 我们骑自行车去公园吧，不太远。 | Wǒmen qí zìxíngchē qù gōngyuán ba, bú tài yuǎn.
+N 天这么阴，可能要下雨，还是坐公共汽车吧。 | Tiān zhème yīn, kěnéng yào xià yǔ, háishi zuò gōnggòng qìchē ba.
+H 男的想怎么去公园？ | Nán de xiǎng zěnme qù gōngyuán?
+A 坐公共汽车 | zuò gōnggòng qìchē
+X 骑自行车 | qí zìxíngchē
+X 走路去 | zǒulù qù
+
+### hoi2
+N 你把空调打开吧，房间里太热了。 | Nǐ bǎ kōngtiáo dǎkāi ba, fángjiān li tài rè le.
+N 空调坏了，打不开，我下午找人来看看。 | Kōngtiáo huài le, dǎ bu kāi, wǒ xiàwǔ zhǎo rén lái kànkan.
+H 关于空调，可以知道什么？ | Guānyú kōngtiáo, kěyǐ zhīdao shénme?
+A 现在不能用 | xiànzài bù néng yòng
+X 是刚买的 | shì gāng mǎi de
+X 声音很大 | shēngyīn hěn dà
+
+### hoi3
+N 电影七点半开始，我们六点在学校门口见吧。 | Diànyǐng qī diǎn bàn kāishǐ, wǒmen liù diǎn zài xuéxiào ménkǒu jiàn ba.
+N 六点我还没下班呢，晚半个小时可以吗？ | Liù diǎn wǒ hái méi xiàbān ne, wǎn bàn ge xiǎoshí kěyǐ ma?
+H 男的希望几点见面？ | Nán de xīwàng jǐ diǎn jiànmiàn?
+A 六点半 | liù diǎn bàn
+X 六点 | liù diǎn
+X 七点半 | qī diǎn bàn
+
+### hoi4
+N 我的手机找不到了，你看见了吗？ | Wǒ de shǒujī zhǎo bu dào le, nǐ kànjiàn le ma?
+N 你刚才把它放在桌子上了，就在电脑旁边。 | Nǐ gāngcái bǎ tā fàng zài zhuōzi shang le, jiù zài diànnǎo pángbiān.
+H 手机可能在哪儿？ | Shǒujī kěnéng zài nǎr?
+A 桌子上 | zhuōzi shang
+X 包里 | bāo li
+X 椅子上 | yǐzi shang
+
+### hoi5
+N 你今天怎么走路来上班了？ | Nǐ jīntiān zěnme zǒulù lái shàngbān le?
+N 我的自行车被我弟弟骑走了。 | Wǒ de zìxíngchē bèi wǒ dìdi qí zǒu le.
+H 男的为什么走路来上班？ | Nán de wèi shénme zǒulù lái shàngbān?
+A 自行车被骑走了 | zìxíngchē bèi qí zǒu le
+X 他想锻炼身体 | tā xiǎng duànliàn shēntǐ
+X 自行车坏了 | zìxíngchē huài le
+
+### hoi6
+N 爸，我下个月要去上海，您能帮我照顾一下小狗吗？ | Bà, wǒ xià ge yuè yào qù Shànghǎi, nín néng bāng wǒ zhàogù yíxià xiǎo gǒu ma?
+N 没问题，你放心去吧，我每天带它出去走走。 | Méi wèntí, nǐ fàngxīn qù ba, wǒ měi tiān dài tā chūqu zǒuzou.
+H 他们最可能是什么关系？ | Tāmen zuì kěnéng shì shénme guānxi?
+A 爸爸和女儿 | bàba hé nǚ'ér
+X 丈夫和妻子 | zhàngfu hé qīzi
+X 同事 | tóngshì
+
+### hoi7
+N 这家饭馆的菜比上次更好吃了，我们以后常来吧。 | Zhè jiā fànguǎn de cài bǐ shàng cì gèng hǎochī le, wǒmen yǐhòu cháng lái ba.
+N 好是好，就是太贵了，一个人要两百块。 | Hǎo shì hǎo, jiùshì tài guì le, yí ge rén yào liǎngbǎi kuài.
+H 男的觉得这家饭馆怎么样？ | Nán de juéde zhè jiā fànguǎn zěnmeyàng?
+A 太贵了 | tài guì le
+X 不好吃 | bù hǎochī
+X 人太多 | rén tài duō
+
+### hoi8
+N 这个题我做了半天还是不会，你能教教我吗？ | Zhège tí wǒ zuò le bàntiān háishi bú huì, nǐ néng jiāojiao wǒ ma?
+N 其实很简单，只要把这两个数字换一下就行了。 | Qíshí hěn jiǎndān, zhǐyào bǎ zhè liǎng ge shùzì huàn yíxià jiù xíng le.
+H 男的觉得这个题怎么样？ | Nán de juéde zhège tí zěnmeyàng?
+A 不难 | bù nán
+X 很难 | hěn nán
+X 没意思 | méi yìsi
+
+### hoi9
+N 除了小李，大家都到了，他怎么还没来？ | Chúle Xiǎo Lǐ, dàjiā dōu dào le, tā zěnme hái méi lái?
+N 他刚才打电话说路上车太多，要晚一点儿到。 | Tā gāngcái dǎ diànhuà shuō lùshang chē tài duō, yào wǎn yìdiǎnr dào.
+H 小李为什么还没到？ | Xiǎo Lǐ wèi shénme hái méi dào?
+A 路上车很多 | lùshang chē hěn duō
+X 他生病了 | tā shēngbìng le
+X 他忘了时间 | tā wàng le shíjiān
+
+### hoi10
+N 你儿子最近学习怎么样？ | Nǐ érzi zuìjìn xuéxí zěnmeyàng?
+N 别说了，他一回家就玩游戏，作业都不写。 | Bié shuō le, tā yì huí jiā jiù wán yóuxì, zuòyè dōu bù xiě.
+H 男的对儿子满意吗？ | Nán de duì érzi mǎnyì ma?
+A 不满意 | bù mǎnyì
+X 很满意 | hěn mǎnyì
+X 比较满意 | bǐjiào mǎnyì
+
+### hoi11
+N 黑板上的字你看得清楚吗？ | Hēibǎn shang de zì nǐ kàn de qīngchu ma?
+N 看不清楚，我坐得太远了，我们换到前面去吧。 | Kàn bu qīngchu, wǒ zuò de tài yuǎn le, wǒmen huàn dào qiánmiàn qù ba.
+H 男的为什么看不清楚？ | Nán de wèi shénme kàn bu qīngchu?
+A 坐得太远 | zuò de tài yuǎn
+X 眼睛不舒服 | yǎnjing bù shūfu
+X 灯坏了 | dēng huài le
+
+### hoi12
+N 明天放假，你打算做什么？ | Míngtiān fàngjià, nǐ dǎsuàn zuò shénme?
+N 我想先把房间打扫干净，下午再去超市买点儿东西。 | Wǒ xiǎng xiān bǎ fángjiān dǎsǎo gānjìng, xiàwǔ zài qù chāoshì mǎi diǎnr dōngxi.
+H 男的明天上午要做什么？ | Nán de míngtiān shàngwǔ yào zuò shénme?
+A 打扫房间 | dǎsǎo fángjiān
+X 去超市 | qù chāoshì
+X 去上班 | qù shàngbān
+
+### hoi13
+N 这件衬衫真好看，多少钱一件？ | Zhè jiàn chènshān zhēn hǎokàn, duōshao qián yí jiàn?
+N 一件一百二，买两件的话，一共两百。 | Yí jiàn yìbǎi èr, mǎi liǎng jiàn dehuà, yígòng liǎngbǎi.
+H 买两件衬衫要多少钱？ | Mǎi liǎng jiàn chènshān yào duōshao qián?
+A 两百块 | liǎngbǎi kuài
+X 一百二十块 | yìbǎi èrshí kuài
+X 两百四十块 | liǎngbǎi sìshí kuài
+
+### hoi14
+N 小张，你现在在哪儿？大家都在等你呢。 | Xiǎo Zhāng, nǐ xiànzài zài nǎr? Dàjiā dōu zài děng nǐ ne.
+N 我刚下飞机，正在等行李，一个小时以后到。 | Wǒ gāng xià fēijī, zhèngzài děng xíngli, yí ge xiǎoshí yǐhòu dào.
+H 男的现在最可能在哪儿？ | Nán de xiànzài zuì kěnéng zài nǎr?
+A 机场 | jīchǎng
+X 火车站 | huǒchēzhàn
+X 公司 | gōngsī
+
+### hoi15
+N 听说你这次考试考了第一名？ | Tīngshuō nǐ zhè cì kǎoshì kǎo le dì-yī míng?
+N 是啊，我自己都不相信，我要马上告诉我妈妈！ | Shì a, wǒ zìjǐ dōu bù xiāngxìn, wǒ yào mǎshàng gàosu wǒ māma!
+H 男的现在心情怎么样？ | Nán de xiànzài xīnqíng zěnmeyàng?
+A 很高兴 | hěn gāoxìng
+X 很担心 | hěn dānxīn
+X 很生气 | hěn shēngqì
+
+### hoi16
+N 你脸色不太好，是不是哪儿不舒服？ | Nǐ liǎnsè bú tài hǎo, shì bu shì nǎr bù shūfu?
+N 没事儿，昨天晚上一直在复习，只睡了三个小时。 | Méi shìr, zuótiān wǎnshang yìzhí zài fùxí, zhǐ shuì le sān ge xiǎoshí.
+H 男的怎么了？ | Nán de zěnme le?
+A 没睡好 | méi shuì hǎo
+X 生病了 | shēngbìng le
+X 饿了 | è le
+
+### hoi17
+N 你觉得这儿的冬天和你老家比，哪儿更冷？ | Nǐ juéde zhèr de dōngtiān hé nǐ lǎojiā bǐ, nǎr gèng lěng?
+N 当然是我老家，它在北方，冬天比这儿冷多了。 | Dāngrán shì wǒ lǎojiā, tā zài běifāng, dōngtiān bǐ zhèr lěng duō le.
+H 男的认为哪儿的冬天更冷？ | Nán de rènwéi nǎr de dōngtiān gèng lěng?
+A 他的老家 | tā de lǎojiā
+X 这儿 | zhèr
+X 南方 | nánfāng
+
+### hoi18
+N 你们的会议不是星期三吗？怎么变了？ | Nǐmen de huìyì bú shì xīngqīsān ma? Zěnme biàn le?
+N 经理那天要去外地，所以换到星期五了。 | Jīnglǐ nà tiān yào qù wàidì, suǒyǐ huàn dào xīngqīwǔ le.
+H 会议现在是星期几？ | Huìyì xiànzài shì xīngqī jǐ?
+A 星期五 | xīngqīwǔ
+X 星期三 | xīngqīsān
+X 星期四 | xīngqīsì
+
+### hoi19
+N 你周末常常做什么？还踢足球吗？ | Nǐ zhōumò chángcháng zuò shénme? Hái tī zúqiú ma?
+N 很少踢了，我现在对画画儿更感兴趣。 | Hěn shǎo tī le, wǒ xiànzài duì huà huàr gèng gǎn xìngqù.
+H 男的现在对什么更感兴趣？ | Nán de xiànzài duì shénme gèng gǎn xìngqù?
+A 画画儿 | huà huàr
+X 踢足球 | tī zúqiú
+X 唱歌 | chàng gē
+
+### hoi20
+N 你能帮我把这个箱子拿到楼上去吗？太重了。 | Nǐ néng bāng wǒ bǎ zhège xiāngzi ná dào lóu shang qù ma? Tài zhòng le.
+N 好，你先上去把门打开，我马上就来。 | Hǎo, nǐ xiān shàngqu bǎ mén dǎkāi, wǒ mǎshàng jiù lái.
+H 女的让男的做什么？ | Nǚ de ràng nán de zuò shénme?
+A 拿箱子 | ná xiāngzi
+X 开门 | kāi mén
+X 买箱子 | mǎi xiāngzi
+
+### hoi21
+N 这条裤子你穿着有点儿长，换一条试试吧？ | Zhè tiáo kùzi nǐ chuān zhe yǒudiǎnr cháng, huàn yì tiáo shìshi ba?
+N 好，那你帮我问问有没有短一点儿的，颜色一样就行。 | Hǎo, nà nǐ bāng wǒ wènwen yǒu méiyǒu duǎn yìdiǎnr de, yánsè yíyàng jiù xíng.
+H 他们最可能在哪儿？ | Tāmen zuì kěnéng zài nǎr?
+A 商店 | shāngdiàn
+X 饭馆 | fànguǎn
+X 银行 | yínháng
+
+### hoi22
+N 从你家到公司要多长时间？ | Cóng nǐ jiā dào gōngsī yào duō cháng shíjiān?
+N 坐地铁二十分钟，可是我每天骑车去，要四十分钟。 | Zuò dìtiě èrshí fēnzhōng, kěshì wǒ měi tiān qí chē qù, yào sìshí fēnzhōng.
+H 男的每天去公司要多长时间？ | Nán de měi tiān qù gōngsī yào duō cháng shíjiān?
+A 四十分钟 | sìshí fēnzhōng
+X 二十分钟 | èrshí fēnzhōng
+X 一个小时 | yí ge xiǎoshí
+
+### hoi23
+N 我给你打了好几次电话，你怎么一直不接？ | Wǒ gěi nǐ dǎ le hǎo jǐ cì diànhuà, nǐ zěnme yìzhí bù jiē?
+N 对不起，我的手机被我忘在办公室了，我刚回到家。 | Duìbuqǐ, wǒ de shǒujī bèi wǒ wàng zài bàngōngshì le, wǒ gāng huí dào jiā.
+H 男的为什么没接电话？ | Nán de wèi shénme méi jiē diànhuà?
+A 手机不在身边 | shǒujī bú zài shēnbiān
+X 他在开会 | tā zài kāihuì
+X 手机没电了 | shǒujī méi diàn le
+
+### hoi24
+N 今天比昨天冷多了，你出门多穿点儿衣服。 | Jīntiān bǐ zuótiān lěng duō le, nǐ chūmén duō chuān diǎnr yīfu.
+N 知道了，我再穿一件毛衣，晚上早点儿回来。 | Zhīdao le, wǒ zài chuān yí jiàn máoyī, wǎnshang zǎo diǎnr huílai.
+H 今天天气怎么样？ | Jīntiān tiānqì zěnmeyàng?
+A 比昨天冷 | bǐ zuótiān lěng
+X 比昨天热 | bǐ zuótiān rè
+X 跟昨天一样 | gēn zuótiān yíyàng
+
+### hoi25
+N 你们家什么时候搬家？要不要我去帮忙？ | Nǐmen jiā shénme shíhou bānjiā? Yào bu yào wǒ qù bāngmáng?
+N 本来是这个周末，可是新房子还没打扫好，可能要下个月了。 | Běnlái shì zhège zhōumò, kěshì xīn fángzi hái méi dǎsǎo hǎo, kěnéng yào xià ge yuè le.
+H 他们最可能什么时候搬家？ | Tāmen zuì kěnéng shénme shíhou bānjiā?
+A 下个月 | xià ge yuè
+X 这个周末 | zhège zhōumò
+X 明年 | míngnián
+
+### hoi26
+N 这本书你看完了吗？明天就得还给图书馆了。 | Zhè běn shū nǐ kàn wán le ma? Míngtiān jiù děi huán gěi túshūguǎn le.
+N 还差两页，我今天晚上一定看完还给你。 | Hái chà liǎng yè, wǒ jīntiān wǎnshang yídìng kàn wán huán gěi nǐ.
+H 关于那本书，可以知道什么？ | Guānyú nà běn shū, kěyǐ zhīdao shénme?
+A 是从图书馆借的 | shì cóng túshūguǎn jiè de
+X 是男的买的 | shì nán de mǎi de
+X 男的已经看完了 | nán de yǐjīng kàn wán le
+
+### hoi27
+N 我们这次去旅游，住哪个宾馆？ | Wǒmen zhè cì qù lǚyóu, zhù nǎge bīnguǎn?
+N 住在海边的那家，从房间里就能看到大海。 | Zhù zài hǎibiān de nà jiā, cóng fángjiān li jiù néng kàn dào dàhǎi.
+H 他们要住的宾馆在哪儿？ | Tāmen yào zhù de bīnguǎn zài nǎr?
+A 海边 | hǎibiān
+X 山上 | shān shang
+X 机场旁边 | jīchǎng pángbiān
+
+### hoi28
+N 你们公司新来的同事怎么样？ | Nǐmen gōngsī xīn lái de tóngshì zěnmeyàng?
+N 他每天都是最早来、最晚走的，有不懂的地方就问。 | Tā měi tiān dōu shì zuì zǎo lái, zuì wǎn zǒu de, yǒu bù dǒng de dìfang jiù wèn.
+H 男的觉得新同事怎么样？ | Nán de juéde xīn tóngshì zěnmeyàng?
+A 工作很努力 | gōngzuò hěn nǔlì
+X 不爱说话 | bú ài shuōhuà
+X 常常迟到 | chángcháng chídào
+
+### hoi29
+N 今天的鱼是你做的？比饭馆做的还好吃！ | Jīntiān de yú shì nǐ zuò de? Bǐ fànguǎn zuò de hái hǎochī!
+N 是我跟妈妈学的，你喜欢的话就多吃点儿。 | Shì wǒ gēn māma xué de, nǐ xǐhuan dehuà jiù duō chī diǎnr.
+H 男的做鱼是跟谁学的？ | Nán de zuò yú shì gēn shéi xué de?
+A 他妈妈 | tā māma
+X 饭馆的人 | fànguǎn de rén
+X 他朋友 | tā péngyou
+
+### hoi30
+N 医生，我的腿还疼，什么时候能去跑步？ | Yīshēng, wǒ de tuǐ hái téng, shénme shíhou néng qù pǎobù?
+N 别着急，你还得在家休息两个星期，先别跑。 | Bié zháojí, nǐ hái děi zài jiā xiūxi liǎng ge xīngqī, xiān bié pǎo.
+H 医生让女的怎么做？ | Yīshēng ràng nǚ de zěnme zuò?
+A 在家休息 | zài jiā xiūxi
+X 马上去跑步 | mǎshàng qù pǎobù
+X 每天去医院 | měi tiān qù yīyuàn

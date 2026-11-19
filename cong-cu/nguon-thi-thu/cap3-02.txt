@@ -1,0 +1,152 @@
+# ===== NGÂN HÀNG CÂU HỎI THI THỬ HSK 3 – FILE 2: ĐIỀN TỪ (soạn tay, câu tự đặt) =====
+# Cách viết: xem đầu file cong-cu/ghep-thi-thu-3.py. Chỉ dùng chữ cấp 1–3.
+#
+# NHÓM ĐIỀN TỪ VÀO CÂU (### dt…, Đọc phần 2, câu 41–45): 6 từ (W), 5 câu (F);
+#   mỗi từ chỉ điền vừa ĐÚNG MỘT câu, từ thứ 6 là từ nhiễu không điền vừa câu nào.
+#   W từ | pinyin                    (pinyin viết liền như trong câu – app dùng để che pinyin của từ cần điền)
+#   F câu có （ ） | pinyin câu đầy đủ | từ đúng
+# NHÓM ĐIỀN TỪ VÀO HỘI THOẠI (### dh…, câu 46–50): như dt, nhưng mỗi dòng F gồm 2 lượt lời nối bằng ／
+#   F lời A……／lời B…… | pinyin lời A／pinyin lời B | từ đúng
+
+### dt1
+W 护照 | hùzhào
+W 着急 | zháojí
+W 一共 | yígòng
+W 双 | shuāng
+W 打扫 | dǎsǎo
+W 突然 | tūrán
+F 出国旅行的时候，一定要带好你的（ ）。 | Chūguó lǚxíng de shíhou, yídìng yào dài hǎo nǐ de hùzhào. | 护照
+F 我刚买了一（ ）新鞋，是黑色的。 | Wǒ gāng mǎi le yì shuāng xīn xié, shì hēisè de. | 双
+F 这些水果（ ）多少钱？ | Zhèxiē shuǐguǒ yígòng duōshao qián? | 一共
+F 客人马上就要来了，我们快（ ）一下屋子吧。 | Kèrén mǎshàng jiù yào lái le, wǒmen kuài dǎsǎo yíxià wūzi ba. | 打扫
+F 别（ ），火车还有半个小时才开。 | Bié zháojí, huǒchē hái yǒu bàn ge xiǎoshí cái kāi. | 着急
+
+### dt2
+W 环境 | huánjìng
+W 简单 | jiǎndān
+W 必须 | bìxū
+W 辆 | liàng
+W 发现 | fāxiàn
+W 相机 | xiàngjī
+F 这个小区的（ ）很好，又安静又干净。 | Zhège xiǎoqū de huánjìng hěn hǎo, yòu ānjìng yòu gānjìng. | 环境
+F 这道题很（ ），我一分钟就做完了。 | Zhè dào tí hěn jiǎndān, wǒ yì fēnzhōng jiù zuò wán le. | 简单
+F 明天考试，你今天晚上（ ）早点儿睡觉。 | Míngtiān kǎoshì, nǐ jīntiān wǎnshang bìxū zǎo diǎnr shuìjiào. | 必须
+F 楼下的路边有一（ ）红色的汽车。 | Lóu xià de lùbiān yǒu yí liàng hóngsè de qìchē. | 辆
+F 到了学校，我才（ ）作业忘在家里了。 | Dào le xuéxiào, wǒ cái fāxiàn zuòyè wàng zài jiā li le. | 发现
+
+### dt3
+W 历史 | lìshǐ
+W 认真 | rènzhēn
+W 把 | bǎ
+W 遍 | biàn
+W 几乎 | jīhū
+W 出发 | chūfā
+F 他对中国（ ）很感兴趣。 | Tā duì Zhōngguó lìshǐ hěn gǎn xìngqù. | 历史
+F 我弟弟做作业非常（ ），一个字也没写错。 | Wǒ dìdi zuò zuòyè fēicháng rènzhēn, yí ge zì yě méi xiě cuò. | 认真
+F 请你（ ）这本书放在桌子上。 | Qǐng nǐ bǎ zhè běn shū fàng zài zhuōzi shang. | 把
+F 我没听清楚，请您再说一（ ），好吗？ | Wǒ méi tīng qīngchu, qǐng nín zài shuō yí biàn, hǎo ma? | 遍
+F 这个月他工作特别忙，（ ）没有休息过一天。 | Zhège yuè tā gōngzuò tèbié máng, jīhū méiyǒu xiūxi guo yì tiān. | 几乎
+
+### dt4
+W 季节 | jìjié
+W 新鲜 | xīnxiān
+W 层 | céng
+W 借 | jiè
+W 一直 | yìzhí
+W 刚才 | gāngcái
+F 秋天是这儿最好的（ ），不冷也不热。 | Qiūtiān shì zhèr zuì hǎo de jìjié, bù lěng yě bú rè. | 季节
+F 这些西瓜是今天早上刚送来的，非常（ ）。 | Zhèxiē xīguā shì jīntiān zǎoshang gāng sòng lái de, fēicháng xīnxiān. | 新鲜
+F 我家在八（ ），每天坐电梯上下楼。 | Wǒ jiā zài bā céng, měi tiān zuò diàntī shàng xià lóu. | 层
+F 我的词典忘带了，可以（ ）你的用一下吗？ | Wǒ de cídiǎn wàng dài le, kěyǐ jiè nǐ de yòng yíxià ma? | 借
+F 从早上到现在，他（ ）在图书馆看书。 | Cóng zǎoshang dào xiànzài, tā yìzhí zài túshūguǎn kàn shū. | 一直
+
+### dt5
+W 声音 | shēngyīn
+W 安静 | ānjìng
+W 一定 | yídìng
+W 封 | fēng
+W 参加 | cānjiā
+W 礼物 | lǐwù
+F 晚上十点以后，楼里非常（ ），大家都睡了。 | Wǎnshang shí diǎn yǐhòu, lóu li fēicháng ānjìng, dàjiā dōu shuì le. | 安静
+F 你说话的（ ）太小了，我听不见。 | Nǐ shuōhuà de shēngyīn tài xiǎo le, wǒ tīng bu jiàn. | 声音
+F 明天你比赛的时候，我（ ）会去看。 | Míngtiān nǐ bǐsài de shíhou, wǒ yídìng huì qù kàn. | 一定
+F 我给在外地的朋友写了一（ ）信。 | Wǒ gěi zài wàidì de péngyou xiě le yì fēng xìn. | 封
+F 下个月学校有运动会，你想（ ）吗？ | Xià ge yuè xuéxiào yǒu yùndònghuì, nǐ xiǎng cānjiā ma? | 参加
+
+### dt6
+W 机会 | jīhuì
+W 清楚 | qīngchu
+W 马上 | mǎshàng
+W 段 | duàn
+W 解决 | jiějué
+W 害怕 | hàipà
+F 这是一个很好的学习（ ），你别错过。 | Zhè shì yí ge hěn hǎo de xuéxí jīhuì, nǐ bié cuòguò. | 机会
+F 黑板上的字太小，我看不（ ）。 | Hēibǎn shang de zì tài xiǎo, wǒ kàn bu qīngchu. | 清楚
+F 你等一下，我（ ）就来。 | Nǐ děng yíxià, wǒ mǎshàng jiù lái. | 马上
+F 这（ ）时间他工作很忙，每天都很晚回家。 | Zhè duàn shíjiān tā gōngzuò hěn máng, měi tiān dōu hěn wǎn huí jiā. | 段
+F 这个问题太难了，我们一起想办法（ ）吧。 | Zhège wèntí tài nán le, wǒmen yìqǐ xiǎng bànfǎ jiějué ba. | 解决
+
+### dh1
+W 行李 | xíngli
+W 方便 | fāngbiàn
+W 终于 | zhōngyú
+W 张 | zhāng
+W 收到 | shōudào
+W 奇怪 | qíguài
+F 这次出门你带的（ ）多吗？／不多，只有一个小箱子。 | Zhè cì chūmén nǐ dài de xíngli duō ma?／Bù duō, zhǐ yǒu yí ge xiǎo xiāngzi. | 行李
+F 你住的地方离地铁站近吗？／很近，去哪儿都很（ ）。 | Nǐ zhù de dìfang lí dìtiězhàn jìn ma?／Hěn jìn, qù nǎr dōu hěn fāngbiàn. | 方便
+F 你们等了多长时间？／两个多小时，他（ ）来了。 | Nǐmen děng le duō cháng shíjiān?／Liǎng ge duō xiǎoshí, tā zhōngyú lái le. | 终于
+F 去上海的票买好了吗？／买好了，一共两（ ）。 | Qù Shànghǎi de piào mǎi hǎo le ma?／Mǎi hǎo le, yígòng liǎng zhāng. | 张
+F 我昨天给你发的邮件，你（ ）了吗？／还没有，我一会儿看看。 | Wǒ zuótiān gěi nǐ fā de yóujiàn, nǐ shōudào le ma?／Hái méiyǒu, wǒ yíhuìr kànkan. | 收到
+
+### dh2
+W 感冒 | gǎnmào
+W 健康 | jiànkāng
+W 当然 | dāngrán
+W 页 | yè
+W 复习 | fùxí
+W 习惯 | xíguàn
+F 你今天怎么没去上班？／我（ ）了，有点儿发烧。 | Nǐ jīntiān zěnme méi qù shàngbān?／Wǒ gǎnmào le, yǒudiǎnr fāshāo. | 感冒
+F 你爷爷身体怎么样？／很（ ），每天早上都去跑步。 | Nǐ yéye shēntǐ zěnmeyàng?／Hěn jiànkāng, měi tiān zǎoshang dōu qù pǎobù. | 健康
+F 你能帮我一个忙吗？／（ ）可以，什么事？ | Nǐ néng bāng wǒ yí ge máng ma?／Dāngrán kěyǐ, shénme shì? | 当然
+F 这本书你看到哪儿了？／看到第五十（ ）了。 | Zhè běn shū nǐ kàn dào nǎr le?／Kàn dào dì wǔshí yè le. | 页
+F 明天就考试了，你准备好了吗？／还没有，我得好好（ ）一下。 | Míngtiān jiù kǎoshì le, nǐ zhǔnbèi hǎo le ma?／Hái méiyǒu, wǒ děi hǎohǎo fùxí yíxià. | 复习
+
+### dh3
+W 地图 | dìtú
+W 有名 | yǒumíng
+W 其实 | qíshí
+W 斤 | jīn
+W 选择 | xuǎnzé
+W 干净 | gānjìng
+F 你是怎么找到这儿的？／我是看手机上的（ ）找到的。 | Nǐ shì zěnme zhǎo dào zhèr de?／Wǒ shì kàn shǒujī shang de dìtú zhǎo dào de. | 地图
+F 这家饭馆很（ ）吧？／对，很多外国人都知道它。 | Zhè jiā fànguǎn hěn yǒumíng ba?／Duì, hěn duō wàiguórén dōu zhīdào tā. | 有名
+F 你不喜欢吃鱼吗？／（ ）我很喜欢，只是今天不太饿。 | Nǐ bù xǐhuan chī yú ma?／Qíshí wǒ hěn xǐhuan, zhǐshì jīntiān bú tài è. | 其实
+F 这种苹果怎么卖？／八块钱一（ ），很新鲜。 | Zhè zhǒng píngguǒ zěnme mài?／Bā kuài qián yì jīn, hěn xīnxiān. | 斤
+F 这两件衣服你买哪件？／我也不知道怎么（ ），两件都很好看。 | Zhè liǎng jiàn yīfu nǐ mǎi nǎ jiàn?／Wǒ yě bù zhīdào zěnme xuǎnzé, liǎng jiàn dōu hěn hǎokàn. | 选择
+
+### dh4
+W 会议 | huìyì
+W 满意 | mǎnyì
+W 突然 | tūrán
+W 碗 | wǎn
+W 请假 | qǐngjià
+W 安全 | ānquán
+F 今天下午的（ ）几点开始？／三点，在三层的办公室。 | Jīntiān xiàwǔ de huìyì jǐ diǎn kāishǐ?／Sān diǎn, zài sān céng de bàngōngshì. | 会议
+F 你对新房子（ ）吗？／挺好的，又大又安静。 | Nǐ duì xīn fángzi mǎnyì ma?／Tǐng hǎo de, yòu dà yòu ānjìng. | 满意
+F 你怎么没带伞？／早上天气很好，下午（ ）下雨了。 | Nǐ zěnme méi dài sǎn?／Zǎoshang tiānqì hěn hǎo, xiàwǔ tūrán xià yǔ le. | 突然
+F 你吃饱了吗？／还没有，我还想再吃一（ ）米饭。 | Nǐ chī bǎo le ma?／Hái méiyǒu, wǒ hái xiǎng zài chī yì wǎn mǐfàn. | 碗
+F 明天你不来上班吗？／对，我家里有事，已经跟经理（ ）了。 | Míngtiān nǐ bù lái shàngbān ma?／Duì, wǒ jiā li yǒu shì, yǐjīng gēn jīnglǐ qǐngjià le. | 请假
+
+### dh5
+W 礼物 | lǐwù
+W 聪明 | cōngmíng
+W 刚 | gāng
+W 节 | jié
+W 相信 | xiāngxìn
+W 邻居 | línjū
+F 这是送给你的生日（ ）。／谢谢！我能现在打开吗？ | Zhè shì sòng gěi nǐ de shēngrì lǐwù.／Xièxie! Wǒ néng xiànzài dǎkāi ma? | 礼物
+F 你儿子才五岁就会写这么多字？／是啊，他很（ ）。 | Nǐ érzi cái wǔ suì jiù huì xiě zhème duō zì?／Shì a, tā hěn cōngmíng. | 聪明
+F 你等很久了吗？／没有，我也（ ）到。 | Nǐ děng hěn jiǔ le ma?／Méiyǒu, wǒ yě gāng dào. | 刚
+F 今天下午你有课吗？／有，还有两（ ）数学课。 | Jīntiān xiàwǔ nǐ yǒu kè ma?／Yǒu, hái yǒu liǎng jié shùxué kè. | 节
+F 他说明天会下大雪。／我不（ ），现在天气这么好。 | Tā shuō míngtiān huì xià dà xuě.／Wǒ bù xiāngxìn, xiànzài tiānqì zhème hǎo. | 相信
