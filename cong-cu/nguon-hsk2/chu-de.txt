@@ -1,0 +1,30 @@
+# CHIA BÀI HSK 2 THEO CHỦ ĐỀ (song song với cách chia theo sách trong phan-bai.txt)
+# Mỗi dòng: số bài | tên chủ đề | các từ (đúng dạng gốc như trong phan-bai.txt, cách nhau bằng dấu cách)
+# Chủ đề dài có thể viết thành nhiều dòng cùng số bài và cùng tên (script gộp lại).
+# Thứ tự chủ đề: cụ thể, hay dùng trước → trừu tượng, từ ngữ pháp sau.
+# Thứ tự từ trong một dòng = thứ tự học từ mới (từ cơ bản trước).
+# Tạo app/data/chu-de-hsk2.json:  python -X utf8 cong-cu/tao-chu-de.py 2
+1 | Người thân và giới thiệu | 爷爷 奶奶 丈夫 妻子 小孩儿 男孩儿 女孩儿
+1 | Người thân và giới thiệu | 姓 姓名 介绍 自己 位 名 个子
+2 | Ăn uống | 饭馆 点2 肉 鱼 咖啡 奶茶 红茶 绿茶 一起 完
+3 | Màu sắc và mua sắm | 颜色 红色 白色 黑色 绿色 裤子 条 书包
+3 | Màu sắc và mua sắm | 包 手表 商场 万 花1 网上 上网
+4 | Trong nhà | 门 门口 楼 间 床 洗手间 洗 打开 拿
+5 | Cơ thể và sức khỏe | 身体 头 手 眼睛 笑 动 疼 累 舒服 药 药店
+6 | Thể thao và sở thích | 爱好 运动 球 打1 篮球 足球 踢 跑
+6 | Thể thao và sở thích | 跑步 游 游泳 跳舞 画 有意思 没意思
+7 | Trường lớp | 教室 班 高中 开学 教 本子 笔
+7 | Trường lớp | 词 题 考 考试 错 懂 意思
+8 | Đi lại | 走 走路 路 路上 出门 公交车 地铁 打车
+8 | Đi lại | 车站 站1 票 离 远 近 从
+9 | Du lịch và thời tiết | 旅游 外国 出国 机场 机票 飞 鸟 酒店 门票 晴 阴
+10 | Sinh nhật và ngày Tết | 生日 快乐 过 过年 送 花2 准备 希望 记得 忘
+11 | Vị trí và phương hướng | 左 右 左边 右边 前面 后面 上面
+11 | Vị trí và phương hướng | 下面 里面 外面 旁边 面1 往
+12 | Thời gian và tần suất | 周 时 小时候 从小 一会儿 开始 已经
+12 | Thời gian và tần suất | 正 快要 就 每 次 有时 经常
+13 | Nhờ giúp và lời nói hằng ngày | 帮 帮忙 不好意思 等1 别1 让 告诉 跟 事情 可能 啊
+14 | Miêu tả và so sánh | 高 长 快 慢 不错 坏 比 最 这么 那么 这样 那样
+15 | Đi ra đi vào: bổ ngữ xu hướng | 进 出 进来 进去 出来 出去 上来 上去
+15 | Đi ra đi vào: bổ ngữ xu hướng | 下来 下去 回来 回去 过来 过去1 起来
+16 | Từ nối câu và trợ từ | 因为 所以 但 但是 虽然 还是 为什么 过(guo) 着 得 地

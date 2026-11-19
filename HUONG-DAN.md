@@ -57,7 +57,7 @@ Tiến độ trên máy tính và trên điện thoại là **hai bản riêng**
 | Mục | Dùng để |
 |---|---|
 | 🏠 **Hôm nay** | Xem việc cần làm hôm nay, chuỗi ngày học liên tục, 7 ngày trong tuần, kế hoạch 60 phút |
-| 📚 **Bài học** | Vào Ôn tập / Từ mới, chọn cấp (**HSK 1 / HSK 2**), chọn bài, tìm từ (chữ Hán, pinyin, nghĩa, Hán Việt). HSK 1 có hai cách chia bài: **🗂️ Chủ đề** (20 bài) hoặc **📖 Theo sách** (15 bài theo 《新HSK教程 1》) – đổi lúc nào cũng được, tiến độ giữ nguyên. HSK 2 chia theo 15 bài của 《新HSK教程 2》; bài chưa soạn xong hiện **Đang soạn**. Nút **Từ mới** đưa từ HSK 1 trước, học hết HSK 1 mới sang HSK 2 (muốn học trước thì mở thẳng một bài HSK 2) |
+| 📚 **Bài học** | Vào Ôn tập / Từ mới, chọn cấp (**HSK 1 / 2 / 3**), chọn bài, tìm từ (chữ Hán, pinyin, nghĩa, Hán Việt). Cả ba cấp có hai cách chia bài: **🗂️ Chủ đề** (từ cùng nhóm nghĩa học cùng nhau – HSK 1: 20 bài, HSK 2: 16 bài, HSK 3: 31 bài) hoặc **📖 Theo sách** (theo thứ tự bài 《新HSK教程》 – 15 / 15 / 18 bài; bài sách có danh sách ngữ pháp của bài). Một nút chọn áp dụng cho cả ba cấp, đổi lúc nào cũng được, tiến độ giữ nguyên. Nút **Từ mới** đưa từ HSK 1 trước, học hết HSK 1 mới sang HSK 2, rồi HSK 3 (muốn học trước thì mở thẳng một bài) |
 | ✏️ **Luyện tập** | 🎧 Luyện thanh điệu, ✍️ Luyện viết chữ Hán, 📝 Trắc nghiệm, 📋 Thi thử HSK 1 · 2 · 3, 🧩 Ngữ pháp |
 | 📊 **Thống kê** | Chuỗi ngày học (hiện tại, dài nhất), biểu đồ số phút học 7 / 30 ngày theo 5 phần (chạm cột để xem chi tiết, có cả dạng bảng), tiến độ từ vựng / chữ viết / ngữ pháp, tỉ lệ đúng, **những từ hay sai nhất**, chữ viết hay sai, thanh hay nhầm |
 
@@ -76,7 +76,7 @@ Màn hình **Hôm nay** hiện 5 phần theo thứ tự. Đã có đủ 5 phần
    - **Dễ:** nhớ ngay, cách ôn giãn ra rất xa.
 
    Dưới mỗi nút có ghi thời gian đến lần ôn tiếp theo. Hết phiên, app hiện bảng tổng kết số lần Quên / Khó / Nhớ / Dễ.
-2. **Học từ mới (~15 phút, mặc định 15 từ/ngày):** học lần lượt theo 20 bài chủ đề. Mỗi từ mới hiện đầy đủ thông tin trước (bấm **Đã hiểu – luyện tiếp**, hoặc **Đã biết từ này** nếu bạn đã thuộc), rồi được hỏi lại sau 1 phút và 10 phút. Mỗi lúc chỉ luyện tối đa 5 từ mới, để không bị ngợp. Muốn học từ mới của một bài cụ thể: **Bài học** → chọn bài → **Học từ mới của bài này**.
+2. **Học từ mới (~15 phút, mặc định 15 từ/ngày):** học lần lượt theo bài (chủ đề hoặc theo sách, tùy cách chia bạn chọn ở Bài học). Mỗi từ mới hiện đầy đủ thông tin trước (bấm **Đã hiểu – luyện tiếp**, hoặc **Đã biết từ này** nếu bạn đã thuộc), rồi được hỏi lại sau 1 phút và 10 phút. Mỗi lúc chỉ luyện tối đa 5 từ mới, để không bị ngợp. Muốn học từ mới của một bài cụ thể: **Bài học** → chọn bài → **Học từ mới của bài này**.
 
 3. **Nghe & thanh điệu (~10 phút):** **Luyện tập → Luyện thanh điệu**. Mỗi phiên 10 câu, app đọc bằng giọng tiếng Trung của máy. Có 5 dạng bài:
    - **Nghe 1 âm tiết:** nghe một chữ, chọn thanh 1–4.
@@ -174,6 +174,8 @@ Không nên sửa thẳng `app/data/hsk1.json`, vì lần chạy script sau sẽ
 **Dữ liệu thi thử:** `cong-cu/nguon-thi-thu/tranh.txt` (từ → emoji) và `cap1-01.txt` … `cap1-04.txt` (nhóm hỏi–đáp, nhóm điền từ, câu hỏi theo câu – soạn tay, cách viết ở đầu `cong-cu/ghep-thi-thu.py`). Sửa xong chạy `python -X utf8 cong-cu/ghep-thi-thu.py` → tạo `app/data/thi-thu-hsk1.json`. Khi soạn thêm: trong một nhóm hỏi–đáp, mỗi câu trả lời chỉ được khớp đúng một câu hỏi; trong một nhóm điền từ, mỗi từ chỉ điền vừa đúng một câu.
 
 **Thứ tự bài theo sách:** `cong-cu/nguon-hsk1/theo-sach.txt` ghi pinyin + số bài của từng từ (chép từ bảng từ cuối sách 《新HSK教程 1》) và bài sách của từng điểm ngữ pháp (gần đúng). Sửa xong chạy `python -X utf8 cong-cu/tao-theo-sach.py` → tạo `app/data/theo-sach-hsk1.json` (báo cáo ở `cong-cu/bao-cao-theo-sach.txt`).
+
+**Chia bài theo chủ đề HSK 2, 3:** sửa `cong-cu/nguon-hsk2/chu-de.txt` hoặc `cong-cu/nguon-hsk3/chu-de.txt` (mỗi dòng: số bài | tên chủ đề | các từ), rồi chạy `python -X utf8 cong-cu/tao-chu-de.py 2` (hoặc `3`) → `app/data/chu-de-hsk2.json` / `chu-de-hsk3.json`. Script báo lỗi nếu có từ bị sót hoặc lặp.
 
 **Từ vựng HSK 3:** giống HSK 2 nhưng ở `cong-cu/nguon-hsk3/` (18 bài theo sách 《新HSK教程 3》), chạy `python -X utf8 cong-cu/ghep-du-lieu-cap.py 3` (báo cáo ở `cong-cu/bao-cao-hsk3.txt`). Hai mục cùng viết 得: `得` = dé (được), `得(děi)` = phải.
 

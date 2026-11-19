@@ -46,6 +46,8 @@
   `.gitignore` – không bao giờ đưa lên GitHub (kho công khai).
 - "Theo sách" (caiDat.cheDoBai 'chu-de' | 'sach'): `data/theo-sach-hsk1.json` tạo từ `cong-cu/nguon-hsk1/theo-sach.txt`
   bằng `python -X utf8 cong-cu/tao-theo-sach.py`. Mã bài: số = bài chủ đề, 's3' = bài 3 của sách (du-lieu.js: timBaiTheoMa).
+- "Theo chủ đề" cho HSK 2, 3: `cong-cu/nguon-hskN/chu-de.txt` → `python -X utf8 cong-cu/tao-chu-de.py N` → `data/chu-de-hskN.json`
+  (16 / 31 chủ đề). caiDat.cheDoBai CHUNG cho mọi cấp; mã bài chủ đề cấp ≥2 là 'c2-3', bài sách '2-3'. Ngữ pháp chỉ gắn bài sách.
 - Giai đoạn 5.2: `js/man-thi-thu.js` – thi thử HSK 1 mô phỏng (cấu trúc theo đề thi thử trong sách bài tập 《新HSK教程 1》:
   nghe 20 + đọc 20, 5 điểm/câu, đạt 120/200; lịch sử `tienDo.thiThu`). Dữ liệu `data/thi-thu-hsk1.json` tạo từ
   `cong-cu/nguon-thi-thu/` (tranh.txt + cap1-*.txt) bằng `python -X utf8 cong-cu/ghep-thi-thu.py`. Câu hỏi tự soạn,

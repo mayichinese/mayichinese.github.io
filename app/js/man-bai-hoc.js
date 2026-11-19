@@ -2,9 +2,9 @@
 // BÀI HỌC
 //   #/bai          2 ô lớn (Ôn tập / Từ mới) + chọn cấp + chọn cách chia bài + lưới các bài + tìm từ
 //   #/bai/5        chi tiết bài 5 theo chủ đề        #/bai/s5  chi tiết bài 5 của sách 《新HSK教程 1》
-//   #/bai/2-5      chi tiết bài 5 của HSK 2 (HSK 2 chia theo thứ tự bài của sách 《新HSK教程 2》)
+//   #/bai/2-5      bài 5 của sách 《新HSK教程 2》   #/bai/c2-5  bài chủ đề 5 của HSK 2 (data/chu-de-hsk2.json)
 //   #/tu/<khóa>    xem một từ
-// Cách chia bài HSK 1 (lưu ở caiDat.cheDoBai): 'chu-de' = 20 bài theo chủ đề, 'sach' = 15 bài theo sách.
+// Cách chia bài (caiDat.cheDoBai, chung cho mọi cấp): 'chu-de' = theo nhóm nghĩa, 'sach' = theo thứ tự bài sách.
 // Tiến độ lưu theo TỪNG TỪ nên đổi cách chia không ảnh hưởng tiến độ.
 // =========================================================
 
@@ -12,7 +12,7 @@ import { layTienDo, caiDat, luu } from './luu-tru.js';
 import { loaiThe } from './lich-on.js';
 import {
   layTu, tatCaTu, nghiaNgan, danhSachBai, timBaiTheoMa, cheDoBai, coTheoSach, tenSach,
-  nhanBai, baiSachCuaTu, baiSachCuaNguPhap, cacCapCoDuLieu,
+  nhanBai, baiSachCuaTu, baiSachCuaNguPhap, cacCapCoDuLieu, coChuDe, chuDeCuaMotTu,
 } from './du-lieu.js';
 import { demHomNay, tuChuaHoc, baiDangHoc } from './phien-hoc.js';
 import { esc, boDau, htmlMatSau, dongTu, CHU_THICH_CHAM } from './giao-dien.js';
@@ -38,14 +38,18 @@ export function veDanhSachBai(khung) {
     ? `<button class="chip ${c === cap ? 'dang-chon' : ''}" data-cap="${c}">HSK ${c}</button>`
     : `<button class="chip" disabled title="Sắp có">HSK ${c} <span class="emoji">🔒</span></button>`)).join('');
 
-  const chipCheDo = cap > 1
-    ? `<p class="chu-phu nho" style="margin:6px 2px 0">HSK ${cap} chia theo thứ tự bài của sách 《新HSK教程 ${cap}》. ${danhSachBai(cheDo, cap).some((b) => b.tu.length < b.soTu) ? ' Bài nào chưa soạn xong sẽ hiện “Đang soạn”.' : ''}</p>`
-    : coTheoSach() ? `
+  // Hai cách chia bài (chung cho mọi cấp): theo chủ đề / theo thứ tự bài sách 《新HSK教程 N》
+  const coHaiCach = coTheoSach() && coChuDe(cap);
+  const soBaiChuDe = danhSachBai('chu-de', cap).length;
+  const soBaiSach = danhSachBai('sach', cap).length;
+  const tenSachCap = cap === 1 ? tenSach() : `《新HSK教程 ${cap}》`;
+  const chipCheDo = coHaiCach ? `
     <div class="nhom-chon chon-che-do-bai" id="chon-che-do">
-      <button data-che-do="chu-de" class="${cheDo === 'chu-de' ? 'dang-chon' : ''}">🗂️ Chủ đề · 20 bài</button>
-      <button data-che-do="sach" class="${cheDo === 'sach' ? 'dang-chon' : ''}">📖 Theo sách · 15 bài</button>
+      <button data-che-do="chu-de" class="${cheDo === 'chu-de' ? 'dang-chon' : ''}">🗂️ Chủ đề · ${soBaiChuDe} bài</button>
+      <button data-che-do="sach" class="${cheDo === 'sach' ? 'dang-chon' : ''}">📖 Theo sách · ${soBaiSach} bài</button>
     </div>
-    ${cheDo === 'sach' ? `<p class="chu-phu nho" style="margin:6px 2px 0">Theo thứ tự bài của ${esc(tenSach())}. Đổi cách chia không ảnh hưởng tiến độ.</p>` : ''}` : '';
+    <p class="chu-phu nho" style="margin:6px 2px 0">${cheDo === 'sach' ? `Theo thứ tự bài của ${esc(tenSachCap)}.` : 'Từ cùng nhóm nghĩa học cùng nhau.'} Cách chia áp dụng cho cả ba cấp; đổi cách chia không ảnh hưởng tiến độ.</p>`
+    : cap > 1 ? `<p class="chu-phu nho" style="margin:6px 2px 0">HSK ${cap} chia theo thứ tự bài của sách ${esc(tenSachCap)}.</p>` : '';
 
   const htmlLuoi = () => danhSachBai(cheDo, cap).map((b) => {
     const nhan = b.sach ? `Bài ${b.so} (sách)` : `Bài ${b.so}`;
@@ -147,8 +151,8 @@ export async function veBai(khung, ma) {
     ${CHU_THICH_CHAM}
     <div class="khung ds-tu">${b.tu.map(dongTu).join('')}</div>`;
 
-  // Bài của sách (HSK 1 theo sách, HSK 2): liệt kê các điểm ngữ pháp gắn với bài này
-  if (b.sach || b.cap > 1) {
+  // Bài của sách (HSK 1, 2, 3 theo sách): liệt kê các điểm ngữ pháp gắn với bài này
+  if (b.sach) {
     const diem = await taiNguPhap().catch(() => []);
     const cua = diem.filter((d) => (b.cap > 1 ? d.cap === b.cap && d.bai === b.so
       : d.cap === 1 && baiSachCuaNguPhap(d.id) === b.so));
@@ -174,7 +178,7 @@ export function veTu(khung, khoa) {
       <div><b>Trạng thái:</b> ${moTa}${the ? ` · đã ôn ${the.soLanOn || 0} lần · quên ${the.soLanQuen || 0} lần` : ''}</div>
       ${lanToi ? `<div><b>Lần ôn tới:</b> ${lanToi}</div>` : ''}
       <div class="chu-phu nho">${tu.cap > 1
-        ? `HSK ${tu.cap} · Bài ${tu.bai} (theo sách 《新HSK教程 ${tu.cap}》)`
+        ? `HSK ${tu.cap} · Bài ${tu.bai} trong sách 《新HSK教程 ${tu.cap}》${chuDeCuaMotTu(tu) ? ` · chủ đề Bài ${chuDeCuaMotTu(tu).so}: ${esc(chuDeCuaMotTu(tu).ten)}` : ''}`
         : `HSK 1 · Bài ${tu.bai} (theo chủ đề)${baiSach ? ` · Bài ${baiSach} trong sách` : ''}`}</div>
       <div class="chu-phu nho">Danh sách chính thức: STT ${tu.soThuTu} · từ loại ${esc(tu.tuLoaiChinhThuc || '(cụm từ)')}</div>
     </div>`;

@@ -21,7 +21,7 @@ export const CAI_DAT_MAC_DINH = {
   kieuChuKhai: false,     // hiển thị chữ Hán kiểu viết tay (Khải thư)
   cheDo: 'tu-dong',       // giao diện: 'tu-dong' (theo máy) | 'sang' | 'toi'
   soChuVietMoiMoiNgay: 5, // số chữ mới luyện viết mỗi ngày (Giai đoạn 2)
-  cheDoBai: 'chu-de',     // chia bài: 'chu-de' (20 bài theo chủ đề) | 'sach' (15 bài theo 《新HSK教程 1》)
+  cheDoBai: 'chu-de',     // chia bài (chung cho HSK 1–3): 'chu-de' (theo nhóm nghĩa) | 'sach' (theo bài sách 《新HSK教程》)
   phutMucTieu: { on: 15, moi: 15, nghe: 10, viet: 10, nguPhap: 10 },
 };
 

@@ -1,0 +1,67 @@
+# CHIA 500 TỪ HSK 3 THEO CHỦ ĐỀ (song song với cách chia theo 18 bài sách trong phan-bai.txt)
+# Mỗi dòng: số bài | tên chủ đề | các từ (đúng dạng gốc như trong phan-bai.txt, cách nhau bằng dấu cách)
+# Chủ đề dài viết thành hai dòng cùng số, cùng tên (script gộp lại). Thứ tự từ trong dòng = thứ tự học.
+# Thứ tự chủ đề: cụ thể, hay dùng trước → trừu tượng (hư từ, từ nối, giới từ) sau.
+# Tạo app/data/chu-de-hsk3.json bằng: python -X utf8 cong-cu/tao-chu-de.py 3
+1 | Gia đình | 爱人 夫妻 结婚 出生 姐妹 叔叔 阿姨 男人
+1 | Gia đình | 女人 大人 老人 咱们 照顾 关心 分开
+2 | Bạn bè và hàng xóm | 邻居 客人 做客 欢迎 请客 见面 遇见
+2 | Bạn bè và hàng xóm | 遇到 一块儿 帮助 别人 关系 聊 聊天儿
+3 | Ngoại hình | 身高 矮 胖 瘦 年轻 老 头发 长
+3 | Ngoại hình | 短 脸 像 一样 不同 难看 可爱
+4 | Cơ thể và sức khỏe | 耳朵 牙 嘴 腿 脚 健康 感冒 发烧
+4 | Cơ thể và sức khỏe | 病人 检查 住院 出院 注意 习惯 锻炼
+5 | Nhà ở (1) | 房子 小区 搬家 搬 层 电梯 楼梯 屋子
+5 | Nhà ở (1) | 室 卫生间 花园 地 环境 安静 方便
+6 | Nhà ở (2) | 生活 起 站2 洗澡 牙刷 刷 用 打扫 扫 干净 脏
+6 | Nhà ở (2) | 冰箱 洗衣机 空调 沙发 灯 电 关 放 换 收
+7 | Ăn uống (1) | 饿 渴 饱 尝 甜 新鲜 鸡
+7 | Ăn uống (1) | 蛋糕 方便面 西瓜 香蕉 糖 冰激凌 冰
+8 | Ăn uống (2) | 菜单 服务 员 选 外卖 饮料 矿泉水 啤酒
+8 | Ăn uống (2) | 酒 瓶子 碗 盘子 筷子 勺子 子
+9 | Mua sắm (1) | 衬衫 上衣 大衣 裙子 短裤 鞋 双 试
+9 | Mua sắm (1) | 合适 大小 黄色 蓝 旧 种 别的 其他
+10 | Mua sắm (2) | 一共 毛 角 斤 公斤 米 加
+10 | Mua sắm (2) | 好多 以上 以下 银行 银行卡 信用卡 卡
+11 | Thời gian (1) | 前天 后天 前年 后年 周末 平时 刻 半天
+11 | Thời gian (1) | 段 最近 以前 以后 过去2 不久 好久 久
+12 | Đi lại | 汽车 自行车 辆 骑 司机 船 高铁 检票 马路
+12 | Đi lại | 路口 路边 红绿灯 安全 小心 迟到 出发 经过 离开
+13 | Sân bay và khách sạn | 护照 行李 箱子 带 丢 不见 接
+13 | Sân bay và khách sạn | 起飞 晚点 宾馆 假期 休假 游客 满意
+14 | Thành phố và tham quan | 城市 市 街 公园 地方 地点 外地 有名 地图
+14 | Thành phố và tham quan | 相机 拍照 照相 照 照片 张 国家 世界 发展
+15 | Phương hướng | 东 南 西 北 东北 东南 西南 西北 北方 南方
+15 | Phương hướng | 东方 西方 方向 中间 中 附近 面前 身边 到处
+16 | Thời tiết và bốn mùa | 四季 季节 季 春天 夏天 秋天 冬天 风 刮
+16 | Thời tiết và bốn mùa | 凉快 太阳 月亮 伞 雨衣 变 变成 变化
+17 | Thiên nhiên và động vật | 山 海 河 树 草 草地 开花 园
+17 | Thiên nhiên và động vật | 动物 动物园 大熊猫 马 牛 羊 养
+18 | Trường lớp | 校园 校长 年级 班级 学期 节 初中 男生 女生
+18 | Trường lớp | 留学 留学生 放学 图书馆 借 还 黑板 名单
+19 | Sách vở và môn học | 课本 课文 作业 页 笔记 笔记本 铅笔 纸 词典 字典
+19 | Sách vở và môn học | 数学 历史 外语 语言 句子 句 遍 常用 常见 有用
+20 | Cách học | 复习 练习 记 忘记 查 讲 对话 回答 明白 懂得 清楚
+20 | Cách học | 了解 认得 认真 努力 提高 水平 方法 难题 简单 容易 难
+21 | Công việc | 办公室 同事 经理 干 办 会2 会议 开会 工作日
+21 | Công việc | 请假 要求 解决 办法 完成 坚持 机会 重要 主要
+22 | Liên lạc và mạng | 号码 开机 关机 耳机 邮件 邮箱 信 封
+22 | Liên lạc và mạng | 发 收到 网站 新闻 关注 声音 声
+23 | Thể thao | 体育 体育馆 运动会 运动员 比赛 参加 得分 球场
+23 | Thể thao | 网球 羽毛球 练 爬 跳 成绩 得到 得
+24 | Giải trí và lễ tết | 兴趣 感兴趣 喜爱 音乐 画家 故事 游戏 表演 节目 名人
+24 | Giải trí và lễ tết | 晚会 电子书 报纸 节日 过节 新年 放假 礼物 文化
+25 | Cảm xúc và nhận xét | 开心 难过 生气 哭 害怕 怕 担心 放心 着急
+25 | Cảm xúc và nhận xét | 急 感到 心里 热情 聪明 奇怪 差 难听
+26 | Suy nghĩ và ý kiến | 认为 以为 相信 听说 好像 看来 发现
+26 | Suy nghĩ và ý kiến | 其实 当然 同意 决定 打算 选择 愿意
+27 | Nên, phải, cần | 应该 该1 得(děi) 必须 一定 需要 不用
+27 | Nên, phải, cần | 最好 只能 行 不行 怎么办 怎样
+28 | Thời gian (2) | 先 然后 后来 最后 刚 刚刚 刚才
+28 | Thời gian (2) | 马上 突然 终于 一直 直到 结束 发生
+29 | Mức độ và tần suất | 挺 极 特别 比较 更 越 几乎 差不多 常
+29 | Mức độ và tần suất | 常常 总是 总 又 才1 只 大概 一般
+30 | Từ nối câu | 如果 的话 只要 只有 不但 而且 或
+30 | Từ nối câu | 或者 可是 可 只是 比如 一边
+31 | Giới từ | 把 被 受 受到 影响 向 根据
+31 | Giới từ | 关于 有关 为了 为 来自 除了 以外
