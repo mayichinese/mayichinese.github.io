@@ -2,7 +2,8 @@
 // LUYỆN TẬP (#/luyen-tap) – trang chọn bài luyện
 //   🎧 Thanh điệu  → #/thanh-dieu   (Giai đoạn 2)
 //   ✍️ Viết chữ    → #/luyen-viet   (Giai đoạn 2)
-//   🧩 Trắc nghiệm → Sắp có (Giai đoạn 3)
+//   📝 Trắc nghiệm → #/trac-nghiem  (Giai đoạn 3)
+//   🧩 Ngữ pháp    → Sắp có (Giai đoạn 4)
 // =========================================================
 
 import { caiDat, nhatKyHomNay } from './luu-tru.js';
@@ -13,8 +14,10 @@ const CAC_PHAN = [
     moTa: 'Nghe rồi chọn thanh; cặp thanh 2–3, biến điệu 不/一, hai thanh 3 liền nhau.' },
   { ma: 'viet', emoji: '✍️', ten: 'Luyện viết chữ Hán', href: '#/luyen-viet', phut: 'viet',
     moTa: '100 chữ cần viết tay HSK 1–2: xem thứ tự nét, viết theo, viết không nhìn.' },
-  { ma: 'nguPhap', emoji: '🧩', ten: 'Trắc nghiệm', sapCo: true,
-    moTa: 'Câu hỏi nhanh ôn nghĩa, pinyin và ngữ pháp của từng bài.' },
+  { ma: 'nguPhap', emoji: '📝', ten: 'Trắc nghiệm', href: '#/trac-nghiem', phut: 'nguPhap',
+    moTa: 'Chữ → nghĩa, nghĩa → chữ, nghe → chữ, chọn pinyin đúng. Câu sai vào sổ để ôn lại.' },
+  { ma: 'nguPhap', emoji: '🧩', ten: 'Ngữ pháp', sapCo: true,
+    moTa: 'Điểm ngữ pháp HSK 1–3, sắp xếp câu, điền từ (Giai đoạn 4).' },
 ];
 
 export function veLuyenTap(khung) {

@@ -93,6 +93,7 @@ export function veBai(khung, so) {
       <p class="chu-phu" style="margin:0">${b.tu.length} từ · còn ${chuaHoc} từ chưa học</p>
     </div>
     ${nutHoc}
+    <a class="nut nut-rong" href="#/trac-nghiem/bai/${b.so}" style="margin-top:12px">📝 Kiểm tra bài này (10 câu trắc nghiệm)</a>
     ${CHU_THICH_CHAM}
     <div class="khung ds-tu">${b.tu.map(dongTu).join('')}</div>`;
 }

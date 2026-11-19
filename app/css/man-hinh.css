@@ -402,6 +402,32 @@ a.dong-ke-hoach:active { transform: translateY(3px); box-shadow: none; }
 .dong-chon-am .nut-thanh { min-height: 52px; }
 @media (hover: none) { .nut-thanh kbd { display: none; } }
 
+/* ==================== TRẮC NGHIỆM ==================== */
+.tu-hoi { font-size: clamp(3rem, 16vw, 4.6rem); line-height: 1.15; margin: 4px 0; }
+.nghia-hoi { font-size: 1.25rem; font-weight: 700; margin: 4px 0; line-height: 1.45; }
+.luoi-lua-chon { display: grid; gap: 10px; }
+.luoi-lua-chon.hai-cot { grid-template-columns: 1fr 1fr; }
+.luoi-lua-chon.mot-cot { grid-template-columns: 1fr; }
+.nut-lua-chon {
+  position: relative; min-height: 60px; padding: 10px 14px;
+  display: flex; align-items: center; justify-content: center; text-align: center;
+  border: var(--vien-rong) solid var(--vien-the); border-radius: 16px;
+  background: var(--be-mat); color: var(--chu); cursor: pointer;
+  box-shadow: 0 4px 0 var(--khoi);
+  font-weight: 600; line-height: 1.35;
+  transition: transform .08s, box-shadow .08s;
+}
+.mot-cot .nut-lua-chon { justify-content: flex-start; text-align: left; padding-right: 30px; }
+.nut-lua-chon:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--khoi); }
+.nut-lua-chon .han { font-size: 2rem; font-weight: 500; }
+.nut-lua-chon .pinyin { font-size: 1.3rem; }
+.nut-lua-chon kbd { position: absolute; top: 4px; right: 8px; font: 700 .62rem var(--font-than); opacity: .55; }
+.nut-lua-chon:disabled { cursor: default; }
+.nut-lua-chon:disabled:not(.dung):not(.sai) { opacity: .55; }
+.nut-lua-chon.dung { background: #15803d; border-color: #15803d; color: #fff; box-shadow: none; }
+.nut-lua-chon.sai { background: #dc2626; border-color: #dc2626; color: #fff; box-shadow: none; }
+@media (hover: none) { .nut-lua-chon kbd { display: none; } }
+
 /* ==================== XEM MỘT TỪ ==================== */
 .the-xem { padding: 18px; border-radius: 26px; }
 .trang-thai-tu { margin-top: 14px; display: flex; flex-direction: column; gap: 4px; }

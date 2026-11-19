@@ -119,12 +119,23 @@ export function veTrangChu(khung) {
   const moTaViet = `${vietCanOn ? `<b>${vietCanOn}</b> chữ cần ôn · ` : ''}<b>${vietMoi}/${cd.soChuVietMoiMoiNgay}</b> chữ mới`;
   const tienDoViet = vietXong ? 100 : Math.min(100, Math.round((vietMoi / cd.soChuVietMoiMoiNgay) * 100));
 
+  // --- Phần 5: Trắc nghiệm (Giai đoạn 3; ngữ pháp làm ở Giai đoạn 4) – xong khi đủ số phút ---
+  const tnXong = phut('nguPhap') >= mt.nguPhap;
+  const soSai = Object.keys(td.tracNghiem.soSai).length;
+  const duTuTracNghiem = daHoc >= 4;
+  const moTaTracNghiem = [
+    nk.tracNghiem ? `Đã làm <b>${nk.tracNghiem}</b> câu` : (duTuTracNghiem ? 'Trắc nghiệm từ đã học' : 'Học từ 4 từ trở lên để làm trắc nghiệm'),
+    soSai ? `sổ câu sai: <b>${soSai}</b>` : '',
+  ].filter(Boolean).join(' · ');
+  const tienDoTracNghiem = Math.min(100, Math.round((phut('nguPhap') / mt.nguPhap) * 100));
+
   // Nút "Bắt đầu": chọn phần nên làm tiếp theo (theo thứ tự kế hoạch 60 phút)
   let batDau;
   if (!onXong) batDau = { chu: `Ôn ${dem.onDenHan + dem.dangHocDenHan} thẻ`, href: '#/on' };
   else if (!moiXong) batDau = { chu: 'Học từ mới', href: '#/hoc-moi' };
   else if (!ngheXong) batDau = { chu: 'Luyện thanh điệu', href: '#/thanh-dieu' };
   else if (!vietXong) batDau = { chu: 'Luyện viết chữ', href: '#/luyen-viet/phien' };
+  else if (!tnXong && duTuTracNghiem) batDau = { chu: 'Làm trắc nghiệm', href: '#/trac-nghiem/tron' };
   else batDau = { chu: 'Xem lại bài học', href: '#/bai' };
 
   // Cảnh báo
@@ -150,7 +161,8 @@ export function veTrangChu(khung) {
       href: '#/thanh-dieu', phanTram: tienDoNghe, xong: ngheXong },
     { ma: 'viet', emoji: '✍️', ten: 'Viết chữ Hán', phut: phut('viet'), mucTieu: mt.viet, moTa: moTaViet,
       href: '#/luyen-viet', phanTram: tienDoViet, xong: vietXong },
-    { ma: 'nguPhap', emoji: '🧩', ten: 'Ngữ pháp & trắc nghiệm', mucTieu: mt.nguPhap, moTa: 'Câu hỏi nhanh ôn bài', href: '#/luyen-tap', sapCo: true },
+    { ma: 'nguPhap', emoji: '📝', ten: 'Trắc nghiệm & ngữ pháp', phut: phut('nguPhap'), mucTieu: mt.nguPhap, moTa: moTaTracNghiem,
+      href: '#/trac-nghiem', phanTram: tienDoTracNghiem, xong: tnXong },
   ];
 
   khung.innerHTML = `

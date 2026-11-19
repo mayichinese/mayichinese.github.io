@@ -17,6 +17,9 @@
 //   #/luyen-viet/chu/<chữ>    luyện riêng một chữ
 //   #/thanh-dieu   Luyện thanh điệu: chọn dạng  → man-thanh-dieu.js
 //   #/thanh-dieu/<dạng>       phiên 10 câu (mot, hai-ba, hai, bat-nhat, ba-ba)
+//   #/trac-nghiem  Trắc nghiệm: chọn dạng       → man-trac-nghiem.js
+//   #/trac-nghiem/<dạng>      lượt 10 câu (tron, nghia, chu, nghe, pinyin, so-sai)
+//   #/trac-nghiem/bai/<số>    kiểm tra từ của một bài
 //   #/thong-ke     Thống kê (sắp có)            → man-sap-co.js
 //   #/cai-dat      Cài đặt, sao lưu             → man-cai-dat.js
 // =========================================================
@@ -34,6 +37,7 @@ import { veThongKe } from './man-sap-co.js';
 import { veLuyenTap } from './man-luyen-tap.js';
 import { veLuyenViet, vePhienViet, moCachViet } from './man-luyen-viet.js';
 import { veThanhDieu, vePhienThanh, CAC_DANG } from './man-thanh-dieu.js';
+import { veTracNghiem, vePhienTracNghiem, CAC_DANG as DANG_TRAC_NGHIEM } from './man-trac-nghiem.js';
 
 const $noiDung = () => document.getElementById('noi-dung');
 let donDep = null; // hàm dọn dẹp của màn hình trước (tắt đồng hồ, bỏ phím tắt…)
@@ -52,7 +56,8 @@ function veTheoDiaChi() {
   // tô sáng mục đang chọn ở thanh điều hướng
   const mucChon = {
     '': 'trang-chu', bai: 'bai', tu: 'bai', on: 'bai', 'hoc-moi': 'bai',
-    'luyen-tap': 'luyen-tap', 'luyen-viet': 'luyen-tap', 'thanh-dieu': 'luyen-tap', 'thong-ke': 'thong-ke',
+    'luyen-tap': 'luyen-tap', 'luyen-viet': 'luyen-tap', 'thanh-dieu': 'luyen-tap', 'trac-nghiem': 'luyen-tap',
+    'thong-ke': 'thong-ke',
   }[muc] ?? '';
   document.querySelectorAll('.dieu-huong a[data-muc]').forEach((a) => {
     const chon = a.dataset.muc === mucChon;
@@ -87,6 +92,15 @@ function veTheoDiaChi() {
   } else if (muc === 'luyen-viet') {
     datTieuDe('Luyện viết', '#/luyen-tap');
     veLuyenViet(khung);
+  } else if (muc === 'trac-nghiem' && thamSo === 'bai' && duong[2]) {
+    datTieuDe(`Kiểm tra Bài ${Number(duong[2])}`, `#/bai/${Number(duong[2])}`);
+    donDep = vePhienTracNghiem(khung, 'bai', Number(duong[2]));
+  } else if (muc === 'trac-nghiem' && thamSo) {
+    datTieuDe(thamSo === 'so-sai' ? 'Ôn câu sai' : DANG_TRAC_NGHIEM[thamSo]?.ten || 'Trắc nghiệm', '#/trac-nghiem');
+    donDep = vePhienTracNghiem(khung, thamSo);
+  } else if (muc === 'trac-nghiem') {
+    datTieuDe('Trắc nghiệm', '#/luyen-tap');
+    veTracNghiem(khung);
   } else if (muc === 'thanh-dieu' && thamSo) {
     datTieuDe(CAC_DANG[thamSo]?.ten || 'Thanh điệu', '#/thanh-dieu');
     donDep = vePhienThanh(khung, thamSo);

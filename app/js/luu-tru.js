@@ -33,6 +33,10 @@ function tienDoTrong() {
     theViet: {},
     // Giai đoạn 2 – thống kê luyện thanh: { dung, sai, nham: { "2>3": số lần nghe thanh 2 mà chọn thanh 3 } }
     thanhDieu: { dung: 0, sai: 0, nham: {} },
+    // Giai đoạn 3 – trắc nghiệm: tổng đúng/sai + SỔ CÂU SAI theo khóa từ
+    //   soSai: { "1:爱": { lanSai, dungLienTiep, phienDungCuoi, themLuc } }
+    //   Từ ra khỏi sổ khi trả lời đúng 2 lần liên tiếp ở 2 phiên khác nhau.
+    tracNghiem: { dung: 0, sai: 0, soSai: {} },
     caiDat: { ...CAI_DAT_MAC_DINH },
     saoLuuLanCuoi: null,
   };
@@ -64,6 +68,7 @@ function hopNhat(cu) {
     nhatKy: cu.nhatKy || {},
     theViet: cu.theViet || {},
     thanhDieu: { ...moi.thanhDieu, ...(cu.thanhDieu || {}), nham: { ...(cu.thanhDieu?.nham || {}) } },
+    tracNghiem: { ...moi.tracNghiem, ...(cu.tracNghiem || {}), soSai: { ...(cu.tracNghiem?.soSai || {}) } },
   };
 }
 
@@ -107,9 +112,9 @@ export function congGiay(phan, soGiay) {
   nk.giay[phan] = (nk.giay[phan] || 0) + soGiay;
 }
 
-/** Ngày này có học không: học/ôn thẻ từ, luyện viết hoặc luyện thanh điệu. */
+/** Ngày này có học không: học/ôn thẻ từ, luyện viết, luyện thanh điệu hoặc làm trắc nghiệm. */
 export function coHocNgay(nk) {
-  return !!nk && (nk.moi > 0 || nk.on > 0 || nk.viet > 0 || nk.thanh > 0);
+  return !!nk && (nk.moi > 0 || nk.on > 0 || nk.viet > 0 || nk.thanh > 0 || nk.tracNghiem > 0);
 }
 
 /** Số ngày học liên tục tính đến hôm nay (hoặc hôm qua nếu hôm nay chưa học). */

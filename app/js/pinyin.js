@@ -94,6 +94,62 @@ export function tachPinyin(chuoi, soChuHan) {
   return ketQua;
 }
 
+// ---------- Đổi dấu thanh (dùng cho trắc nghiệm "chọn pinyin đúng") ----------
+const NGUYEN_AM_CO_DAU = { a: 'āáǎà', e: 'ēéěè', i: 'īíǐì', o: 'ōóǒò', u: 'ūúǔù', ü: 'ǖǘǚǜ' };
+
+/** Bỏ dấu thanh nhưng giữ chữ ü: "lǚ" → "lü" */
+function boDauGiuU(chu) {
+  let kq = '';
+  for (const c of chu.normalize('NFC')) {
+    const d = DAU_THANH[c];
+    kq += d ? (d[0] === 'v' ? 'ü' : d[0]) : c;
+  }
+  return kq;
+}
+
+/**
+ * Đặt dấu thanh cho MỘT âm tiết theo quy tắc pinyin:
+ * có a hoặc e → dấu trên a/e; có "ou" → dấu trên o; còn lại → dấu trên nguyên âm cuối.
+ * thanh = 0 → bỏ dấu (thanh nhẹ). Ví dụ: datThanh("hǎo", 4) → "hào"
+ */
+export function datThanh(amTiet, thanh) {
+  const goc = boDauGiuU(amTiet);
+  if (!thanh) return goc;
+  const thap = goc.toLowerCase();
+  let viTri = thap.search(/[ae]/);
+  if (viTri < 0) viTri = thap.indexOf('ou');
+  if (viTri < 0) {
+    for (let i = thap.length - 1; i >= 0; i--) if ('iouü'.includes(thap[i])) { viTri = i; break; }
+  }
+  if (viTri < 0) return goc;
+  return goc.slice(0, viTri) + NGUYEN_AM_CO_DAU[thap[viTri]][thanh - 1] + goc.slice(viTri + 1);
+}
+
+/**
+ * Tạo các cách viết pinyin "cùng âm, khác dấu thanh" để làm đáp án nhiễu.
+ * Trả về [] nếu không tách được âm tiết khớp số chữ Hán.
+ */
+export function bienTheThanh(pinyin, soChuHan, soLuong = 3) {
+  const phan = tachPinyin(pinyin, soChuHan);
+  const viTriAm = phan.map((p, i) => (p.thanh === undefined ? -1 : i)).filter((i) => i >= 0);
+  if (!viTriAm.length || viTriAm.length !== soChuHan) return [];
+  const daCo = new Set([pinyin.normalize('NFC')]);
+  const kq = [];
+  for (let lan = 0; lan < 60 && kq.length < soLuong; lan++) {
+    const ban = phan.map((p) => ({ ...p }));
+    // đổi thanh 1 âm tiết (đôi khi 2 âm tiết với từ dài)
+    const soDoi = viTriAm.length > 1 && Math.random() < 0.35 ? 2 : 1;
+    const chon = [...viTriAm].sort(() => Math.random() - 0.5).slice(0, soDoi);
+    for (const i of chon) {
+      const cacThanh = [1, 2, 3, 4].filter((t) => t !== ban[i].thanh);
+      ban[i].chu = datThanh(ban[i].chu, cacThanh[Math.floor(Math.random() * cacThanh.length)]);
+    }
+    const chuoi = ban.map((p) => p.chu).join('').normalize('NFC');
+    if (!daCo.has(chuoi)) { daCo.add(chuoi); kq.push(chuoi); }
+  }
+  return kq;
+}
+
 /** Đếm số chữ Hán trong một chuỗi */
 export function demChuHan(chuoi) {
   return ((chuoi || '').match(/\p{Script=Han}/gu) || []).length;
