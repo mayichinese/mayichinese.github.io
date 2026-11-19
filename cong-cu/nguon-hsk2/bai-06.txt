@@ -1,0 +1,77 @@
+# ===== NGUỒN SOẠN THẢO HSK 2 – BÀI 6 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–2.
+
+# 6 | Sinh nhật
+
+@生日 | sinh nhật
+- 名 | sinh nhật
+> 今天是我的生日。 | Jīntiān shì wǒ de shēngrì. | Hôm nay là sinh nhật tôi.
+> 你的生日是几月几号？ | Nǐ de shēngrì shì jǐ yuè jǐ hào? | Sinh nhật bạn là ngày mấy tháng mấy?
+* 过生日 = tổ chức sinh nhật. 生日快乐！ = Chúc mừng sinh nhật!
+
+@快乐 | khoái lạc
+- 形 | vui vẻ, vui
+> 生日快乐！ | Shēngrì kuàilè! | Chúc mừng sinh nhật!
+> 和朋友在一起，我很快乐。 | Hé péngyou zài yìqǐ, wǒ hěn kuàilè. | Ở bên bạn bè, tôi rất vui.
+* Hay dùng trong lời chúc: 生日快乐, 新年快乐. Nghĩa là “vui”, không mang nghĩa xấu như “khoái lạc” trong tiếng Việt.
+
+@过 | quá
+- 动 | qua, đi qua; đón, tổ chức (ngày lễ, sinh nhật)
+> 我们一起过生日吧。 | Wǒmen yìqǐ guò shēngrì ba. | Chúng mình cùng tổ chức sinh nhật đi.
+> 过了这个商店就是我家。 | Guò le zhège shāngdiàn jiù shì wǒ jiā. | Qua cửa hàng này là đến nhà tôi.
+* 过生日 = tổ chức sinh nhật, 过年 = đón Tết (bài 14). Trợ từ 过 (đã từng) đọc nhẹ guo – bài 4.
+
+@长 | trường
+- 形 | dài
+> 这条裤子太长了。 | Zhè tiáo kùzi tài cháng le. | Cái quần này dài quá.
+> 这个电影很长，有三个小时。 | Zhège diànyǐng hěn cháng, yǒu sān ge xiǎoshí. | Bộ phim này dài lắm, tận ba tiếng.
+* Nghĩa “dài” đọc cháng. Chữ này còn đọc zhǎng (lớn lên) – học ở cấp 3.
+
+@地 | địa
+- 助 | (trợ từ đặt trước động từ: “một cách…”)
+> 他高兴地说：“谢谢！” | Tā gāoxìng de shuō: “Xièxie!” | Anh ấy vui vẻ nói: “Cảm ơn!”
+> 孩子们快乐地唱歌。 | Háizimen kuàilè de chàng gē. | Các em nhỏ vui vẻ hát.
+* Tính từ + 地 + động từ: 慢慢地走 (đi chầm chậm). Ba chữ cùng đọc de: 的 (trước danh từ), 地 (trước động từ), 得 (sau động từ, bài 7).
+
+@画 | họa
+- 动 | vẽ
+> 我女儿很喜欢画画儿。 | Wǒ nǚ'ér hěn xǐhuan huà huàr. | Con gái tôi rất thích vẽ tranh.
+- 名 | bức tranh
+> 你看，这是爸爸画的画儿。 | Nǐ kàn, zhè shì bàba huà de huàr. | Bạn xem, đây là tranh bố vẽ.
+* Danh từ “tranh” trong văn nói hay thêm 儿: 画儿 (huàr).
+
+@打开 | đả khai
+- 动 | mở (ra), bật
+> 请打开书。 | Qǐng dǎkāi shū. | Mời mở sách ra.
+> 你打开电视看看。 | Nǐ dǎkāi diànshì kànkan. | Bạn bật ti vi lên xem thử.
+* Mở cửa, mở sách, mở hộp quà, bật máy… đều dùng 打开.
+
+@床 | sàng
+- 名 | giường
+> 我的床很舒服。 | Wǒ de chuáng hěn shūfu. | Giường của tôi rất êm.
+> 他还在床上睡觉。 | Tā hái zài chuáng shang shuìjiào. | Anh ấy vẫn đang ngủ trên giường.
+* 起床 = thức dậy (rời giường, cấp 1).
+
+@舒服 | thư phục
+- 形 | dễ chịu, thoải mái; khỏe trong người
+> 这个椅子很舒服。 | Zhège yǐzi hěn shūfu. | Cái ghế này rất thoải mái.
+> 我今天有点儿不舒服。 | Wǒ jīntiān yǒudiǎnr bù shūfu. | Hôm nay tôi hơi khó chịu trong người.
+* 不舒服 thường nghĩa là hơi mệt, hơi ốm.
+
+@忘 | vong
+- 动 | quên
+> 我忘了他的名字。 | Wǒ wàng le tā de míngzi. | Tôi quên tên anh ấy rồi.
+> 别忘了明天的考试！ | Bié wàng le míngtiān de kǎoshì! | Đừng quên bài thi ngày mai nhé!
+* Hay dùng 忘了. 别忘了… = đừng quên….
+
+@肉 | nhục
+- 名 | thịt
+> 我不吃肉，我喜欢吃菜。 | Wǒ bù chī ròu, wǒ xǐhuan chī cài. | Tôi không ăn thịt, tôi thích ăn rau.
+> 妈妈做的肉很好吃。 | Māma zuò de ròu hěn hǎochī. | Thịt mẹ nấu rất ngon.
+* 牛肉 = thịt bò, 鸡肉 = thịt gà.
+
+@鱼 | ngư
+- 名 | cá
+> 我很喜欢吃鱼。 | Wǒ hěn xǐhuan chī yú. | Tôi rất thích ăn cá.
+> 这条鱼很大。 | Zhè tiáo yú hěn dà. | Con cá này rất to.
+* Lượng từ của cá: 条.

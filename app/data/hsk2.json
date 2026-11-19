@@ -1440,7 +1440,7 @@
    "so": 4,
    "ten": "Màu sắc và quần áo",
    "soTu": 14,
-   "daSoanXong": false,
+   "daSoanXong": true,
    "tu": [
     {
      "dangGoc": "白色",
@@ -1448,7 +1448,32 @@
      "pinyin": "báisè",
      "tuLoaiChinhThuc": "名",
      "soThuTu": 303,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "bạch sắc",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "màu trắng"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我喜欢白色的衣服。",
+       "pinyin": "Wǒ xǐhuan báisè de yīfu.",
+       "dich": "Tôi thích quần áo màu trắng.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "这个白色的杯子是谁的？",
+       "pinyin": "Zhège báisè de bēizi shì shéi de?",
+       "dich": "Cái cốc màu trắng này của ai?",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Màu + 色 = màu…; đứng trước danh từ thường thêm 的: 白色的衣服."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "过去1",
@@ -1456,7 +1481,32 @@
      "pinyin": "guòqù",
      "tuLoaiChinhThuc": "动",
      "soThuTu": 350,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "quá khứ",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "đi qua đó, sang bên kia (rời xa người nói)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "车站在那边，我们过去吧。",
+       "pinyin": "Chēzhàn zài nàbian, wǒmen guòqù ba.",
+       "dich": "Bến xe ở bên kia, chúng ta qua đó đi.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "你先过去，我一会儿就来。",
+       "pinyin": "Nǐ xiān guòqù, wǒ yíhuìr jiù lái.",
+       "dich": "Bạn qua trước đi, lát nữa tôi đến ngay.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Ngược với 过来 (qua đây). 过去 còn nghĩa “trước đây, quá khứ” – học ở cấp cao hơn."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "过(guo)",
@@ -1464,7 +1514,38 @@
      "pinyin": "guo",
      "tuLoaiChinhThuc": "助",
      "soThuTu": 351,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "quá",
+     "nghia": [
+      {
+       "tuLoai": "助",
+       "nghia": "đã từng (đặt sau động từ, chỉ kinh nghiệm)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我去过中国。",
+       "pinyin": "Wǒ qù guo Zhōngguó.",
+       "dich": "Tôi đã từng đến Trung Quốc.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "你喝过中国茶吗？",
+       "pinyin": "Nǐ hē guo Zhōngguó chá ma?",
+       "dich": "Bạn đã uống trà Trung Quốc bao giờ chưa?",
+       "nghiaSo": 0
+      },
+      {
+       "han": "我没看过这个电影。",
+       "pinyin": "Wǒ méi kàn guo zhège diànyǐng.",
+       "dich": "Tôi chưa xem bộ phim này bao giờ.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Phủ định: 没 + động từ + 过 (không dùng 不). Đọc nhẹ guo, khác động từ 过 guò (qua, bài 6)."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "黑色",
@@ -1472,7 +1553,30 @@
      "pinyin": "hēisè",
      "tuLoaiChinhThuc": "名",
      "soThuTu": 353,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "hắc sắc",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "màu đen"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "他有一个黑色的书包。",
+       "pinyin": "Tā yǒu yí ge hēisè de shūbāo.",
+       "dich": "Anh ấy có một cái cặp màu đen.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "我不喜欢黑色。",
+       "pinyin": "Wǒ bù xǐhuan hēisè.",
+       "dich": "Tôi không thích màu đen.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [],
+     "canKiemTra": []
     },
     {
      "dangGoc": "红色",
@@ -1480,7 +1584,32 @@
      "pinyin": "hóngsè",
      "tuLoaiChinhThuc": "名",
      "soThuTu": 355,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "hồng sắc",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "màu đỏ"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "你穿红色的衣服很好看。",
+       "pinyin": "Nǐ chuān hóngsè de yīfu hěn hǎokàn.",
+       "dich": "Bạn mặc đồ màu đỏ rất đẹp.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "中国人过年喜欢红色。",
+       "pinyin": "Zhōngguórén guònián xǐhuan hóngsè.",
+       "dich": "Người Trung Quốc thích màu đỏ vào dịp Tết.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "红色 là màu ĐỎ, không phải màu hồng (màu hồng là 粉色, cấp cao hơn)."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "进去",
@@ -1488,7 +1617,32 @@
      "pinyin": "jìnqù",
      "tuLoaiChinhThuc": "动",
      "soThuTu": 372,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "tiến khứ",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "đi vào (trong đó, rời xa người nói)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "你先进去，我在外边等你。",
+       "pinyin": "Nǐ xiān jìnqù, wǒ zài wàibian děng nǐ.",
+       "dich": "Bạn vào trước đi, tôi đợi bạn bên ngoài.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "里边人太多了，我不想进去。",
+       "pinyin": "Lǐbian rén tài duō le, wǒ bù xiǎng jìnqù.",
+       "dich": "Bên trong đông người quá, tôi không muốn vào.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Người nói đứng ngoài thì dùng 进去; đứng trong gọi người khác vào thì dùng 进来 (bài 5)."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "裤子",
@@ -1496,7 +1650,32 @@
      "pinyin": "kùzi",
      "tuLoaiChinhThuc": "名",
      "soThuTu": 383,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "khố tử",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "quần (dài)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "这条裤子有点儿长。",
+       "pinyin": "Zhè tiáo kùzi yǒudiǎnr cháng.",
+       "dich": "Cái quần này hơi dài.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "我想买一条黑色的裤子。",
+       "pinyin": "Wǒ xiǎng mǎi yì tiáo hēisè de kùzi.",
+       "dich": "Tôi muốn mua một cái quần màu đen.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Lượng từ của quần: 条."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "绿色",
@@ -1504,7 +1683,32 @@
      "pinyin": "lǜsè",
      "tuLoaiChinhThuc": "名、（形）",
      "soThuTu": 396,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "lục sắc",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "màu xanh lá"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我的手机是绿色的。",
+       "pinyin": "Wǒ de shǒujī shì lǜsè de.",
+       "dich": "Điện thoại của tôi màu xanh lá.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "你喜欢绿色还是白色？",
+       "pinyin": "Nǐ xǐhuan lǜsè háishi báisè?",
+       "dich": "Bạn thích màu xanh lá hay màu trắng?",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "绿 đọc lǜ (có ü). 绿茶 = trà xanh (bài 9)."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "商场",
@@ -1512,7 +1716,32 @@
      "pinyin": "shāngchǎng",
      "tuLoaiChinhThuc": "名",
      "soThuTu": 424,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "thương trường",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "trung tâm thương mại"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "星期六我们去商场买衣服吧。",
+       "pinyin": "Xīngqīliù wǒmen qù shāngchǎng mǎi yīfu ba.",
+       "dich": "Thứ Bảy chúng mình đi trung tâm thương mại mua quần áo nhé.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "这个商场很大，东西也很多。",
+       "pinyin": "Zhège shāngchǎng hěn dà, dōngxi yě hěn duō.",
+       "dich": "Trung tâm thương mại này rất lớn, đồ cũng rất nhiều.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Không phải “thương trường” (chốn làm ăn) trong tiếng Việt: 商场 là nơi mua sắm lớn. 商店 (cấp 1) là cửa hàng."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "书包",
@@ -1520,7 +1749,30 @@
      "pinyin": "shūbāo",
      "tuLoaiChinhThuc": "名",
      "soThuTu": 435,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "thư bao",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "cặp sách, ba lô đi học"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我的书包里有三本书。",
+       "pinyin": "Wǒ de shūbāo li yǒu sān běn shū.",
+       "dich": "Trong cặp của tôi có ba cuốn sách.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "这个书包是新买的。",
+       "pinyin": "Zhège shūbāo shì xīn mǎi de.",
+       "dich": "Cái cặp này mới mua.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [],
+     "canKiemTra": []
     },
     {
      "dangGoc": "所以",
@@ -1528,7 +1780,32 @@
      "pinyin": "suǒyǐ",
      "tuLoaiChinhThuc": "连",
      "soThuTu": 439,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "sở dĩ",
+     "nghia": [
+      {
+       "tuLoai": "连",
+       "nghia": "cho nên, vì vậy"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "今天下雨，所以我们不出去了。",
+       "pinyin": "Jīntiān xià yǔ, suǒyǐ wǒmen bù chūqù le.",
+       "dich": "Hôm nay mưa nên chúng tôi không ra ngoài nữa.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "因为他病了，所以没来上课。",
+       "pinyin": "Yīnwèi tā bìng le, suǒyǐ méi lái shàngkè.",
+       "dich": "Vì anh ấy ốm nên không đến lớp.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Khác “sở dĩ” trong tiếng Việt: 所以 đứng ở vế KẾT QUẢ, nghĩa là “cho nên”."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "条",
@@ -1536,7 +1813,32 @@
      "pinyin": "tiáo",
      "tuLoaiChinhThuc": "量、（名）",
      "soThuTu": 443,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "điều",
+     "nghia": [
+      {
+       "tuLoai": "量",
+       "nghia": "(lượng từ cho vật dài, mảnh: quần, cá, đường…)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我买了两条鱼。",
+       "pinyin": "Wǒ mǎi le liǎng tiáo yú.",
+       "dich": "Tôi mua hai con cá.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "这条路很长。",
+       "pinyin": "Zhè tiáo lù hěn cháng.",
+       "dich": "Con đường này rất dài.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "一条裤子 (một cái quần), 一条鱼 (một con cá), 一条路 (một con đường)."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "颜色",
@@ -1544,7 +1846,32 @@
      "pinyin": "yánsè",
      "tuLoaiChinhThuc": "名",
      "soThuTu": 466,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "nhan sắc",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "màu, màu sắc"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "你喜欢什么颜色？",
+       "pinyin": "Nǐ xǐhuan shénme yánsè?",
+       "dich": "Bạn thích màu gì?",
+       "nghiaSo": 0
+      },
+      {
+       "han": "这件衣服的颜色很好看。",
+       "pinyin": "Zhè jiàn yīfu de yánsè hěn hǎokàn.",
+       "dich": "Màu của bộ quần áo này rất đẹp.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Không phải “nhan sắc” (vẻ đẹp) trong tiếng Việt: 颜色 chỉ là “màu”."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "因为",
@@ -1552,7 +1879,32 @@
      "pinyin": "yīnwèi",
      "tuLoaiChinhThuc": "介、连",
      "soThuTu": 475,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "nhân vị",
+     "nghia": [
+      {
+       "tuLoai": "连",
+       "nghia": "vì, bởi vì"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "因为太累了，我很早就睡觉了。",
+       "pinyin": "Yīnwèi tài lèi le, wǒ hěn zǎo jiù shuìjiào le.",
+       "dich": "Vì mệt quá nên tôi đi ngủ rất sớm.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "我喜欢这里，因为这里的人很好。",
+       "pinyin": "Wǒ xǐhuan zhèlǐ, yīnwèi zhèlǐ de rén hěn hǎo.",
+       "dich": "Tôi thích nơi này vì người ở đây rất tốt.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Hay đi thành cặp 因为…，所以…. Dùng để trả lời câu hỏi 为什么."
+     ],
+     "canKiemTra": []
     }
    ]
   },
@@ -1560,7 +1912,7 @@
    "so": 5,
    "ten": "Đến chơi nhà bạn",
    "soTu": 17,
-   "daSoanXong": false,
+   "daSoanXong": true,
    "tu": [
     {
      "dangGoc": "等1",
@@ -1568,7 +1920,32 @@
      "pinyin": "děng",
      "tuLoaiChinhThuc": "动、（介）",
      "soThuTu": 334,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "đẳng",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "đợi, chờ"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "请等一下。",
+       "pinyin": "Qǐng děng yíxià.",
+       "dich": "Xin đợi một chút.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "我在门口等你。",
+       "pinyin": "Wǒ zài ménkǒu děng nǐ.",
+       "dich": "Tôi đợi bạn ở cửa.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "等一下 = đợi một lát. 等 + người = đợi ai."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "跟",
@@ -1576,7 +1953,42 @@
      "pinyin": "gēn",
      "tuLoaiChinhThuc": "介、连、（名、动）",
      "soThuTu": 345,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "cân",
+     "nghia": [
+      {
+       "tuLoai": "介",
+       "nghia": "với, cùng (ai)"
+      },
+      {
+       "tuLoai": "连",
+       "nghia": "và"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我跟朋友一起去商场。",
+       "pinyin": "Wǒ gēn péngyou yìqǐ qù shāngchǎng.",
+       "dich": "Tôi đi trung tâm thương mại cùng bạn.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "你跟老师说了吗？",
+       "pinyin": "Nǐ gēn lǎoshī shuō le ma?",
+       "dich": "Bạn đã nói với thầy chưa?",
+       "nghiaSo": 0
+      },
+      {
+       "han": "我跟他都是学生。",
+       "pinyin": "Wǒ gēn tā dōu shì xuésheng.",
+       "dich": "Tôi và anh ấy đều là học sinh.",
+       "nghiaSo": 1
+      }
+     ],
+     "ghiChu": [
+      "跟…一起 = cùng với…; 跟 + người + 说 = nói với ai. Nghĩa “và” giống 和."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "进来",
@@ -1584,7 +1996,32 @@
      "pinyin": "jìnlái",
      "tuLoaiChinhThuc": "动",
      "soThuTu": 371,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "tiến lai",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "đi vào (đây, về phía người nói)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "请进来！",
+       "pinyin": "Qǐng jìnlái!",
+       "dich": "Mời vào!",
+       "nghiaSo": 0
+      },
+      {
+       "han": "外面很冷，快进来吧。",
+       "pinyin": "Wàimiàn hěn lěng, kuài jìnlái ba.",
+       "dich": "Ngoài trời lạnh lắm, mau vào đi.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Người nói ở trong phòng thì dùng 进来; ở ngoài thì dùng 进去 (bài 4)."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "酒店",
@@ -1592,7 +2029,32 @@
      "pinyin": "jiǔdiàn",
      "tuLoaiChinhThuc": "名",
      "soThuTu": 375,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "tửu điếm",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "khách sạn"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我们住在一家很大的酒店。",
+       "pinyin": "Wǒmen zhù zài yì jiā hěn dà de jiǔdiàn.",
+       "dich": "Chúng tôi ở một khách sạn rất lớn.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "酒店离车站不远。",
+       "pinyin": "Jiǔdiàn lí chēzhàn bù yuǎn.",
+       "dich": "Khách sạn cách bến xe không xa.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Không phải quán rượu: 酒店 thường là khách sạn. Lượng từ: 家."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "快",
@@ -1600,7 +2062,48 @@
      "pinyin": "kuài",
      "tuLoaiChinhThuc": "形、副",
      "soThuTu": 384,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "khoái",
+     "nghia": [
+      {
+       "tuLoai": "形",
+       "nghia": "nhanh"
+      },
+      {
+       "tuLoai": "副",
+       "nghia": "mau, nhanh lên; sắp"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "坐飞机很快。",
+       "pinyin": "Zuò fēijī hěn kuài.",
+       "dich": "Đi máy bay rất nhanh.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "这个电脑很快。",
+       "pinyin": "Zhège diànnǎo hěn kuài.",
+       "dich": "Máy tính này rất nhanh.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "快来吃饭吧！",
+       "pinyin": "Kuài lái chī fàn ba!",
+       "dich": "Mau lại ăn cơm đi!",
+       "nghiaSo": 1
+      },
+      {
+       "han": "快十二点了，我们回家吧。",
+       "pinyin": "Kuài shí'èr diǎn le, wǒmen huí jiā ba.",
+       "dich": "Sắp mười hai giờ rồi, chúng mình về nhà thôi.",
+       "nghiaSo": 1
+      }
+     ],
+     "ghiChu": [
+      "快…了 = sắp… rồi (học kỹ ở bài 10). Trái nghĩa: 慢 (chậm, bài 11)."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "面1",
@@ -1608,7 +2111,32 @@
      "pinyin": "miàn",
      "tuLoaiChinhThuc": "后缀、（动、名、量）",
      "soThuTu": 403,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "diện",
+     "nghia": [
+      {
+       "tuLoai": "后缀",
+       "nghia": "phía, mặt (hậu tố chỉ phương hướng)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "学校后面有一个商店。",
+       "pinyin": "Xuéxiào hòumiàn yǒu yí ge shāngdiàn.",
+       "dich": "Phía sau trường có một cửa hàng.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "他在外面等你。",
+       "pinyin": "Tā zài wàimiàn děng nǐ.",
+       "dich": "Anh ấy đang đợi bạn ở bên ngoài.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Ghép sau từ chỉ hướng: 上面, 下面, 前面, 后面, 里面, 外面 (nghĩa giống 上边, 下边…). Chữ 面 còn có nghĩa “mì” (面条儿, cấp 1)."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "奶茶",
@@ -1616,7 +2144,30 @@
      "pinyin": "nǎichá",
      "tuLoaiChinhThuc": "名",
      "soThuTu": 408,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "nãi trà",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "trà sữa"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我想喝一杯奶茶。",
+       "pinyin": "Wǒ xiǎng hē yì bēi nǎichá.",
+       "dich": "Tôi muốn uống một cốc trà sữa.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "这家店的奶茶很好喝。",
+       "pinyin": "Zhè jiā diàn de nǎichá hěn hǎohē.",
+       "dich": "Trà sữa của quán này rất ngon.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [],
+     "canKiemTra": []
     },
     {
      "dangGoc": "奶奶",
@@ -1624,7 +2175,32 @@
      "pinyin": "nǎinai",
      "tuLoaiChinhThuc": "名",
      "soThuTu": 409,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "nãi nãi",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "bà nội"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我奶奶今年八十岁了。",
+       "pinyin": "Wǒ nǎinai jīnnián bāshí suì le.",
+       "dich": "Bà nội tôi năm nay tám mươi tuổi.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "星期天我们去看奶奶。",
+       "pinyin": "Xīngqītiān wǒmen qù kàn nǎinai.",
+       "dich": "Chủ nhật chúng tôi đi thăm bà nội.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "看 + người = đi thăm ai."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "上来",
@@ -1632,7 +2208,32 @@
      "pinyin": "shànglái",
      "tuLoaiChinhThuc": "动",
      "soThuTu": 425,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "thượng lai",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "đi lên (đây, về phía người nói)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我在二楼，你上来吧。",
+       "pinyin": "Wǒ zài èr lóu, nǐ shànglái ba.",
+       "dich": "Tôi ở tầng hai, bạn lên đây đi.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "他上来了吗？",
+       "pinyin": "Tā shànglái le ma?",
+       "dich": "Anh ấy lên chưa?",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Người nói ở trên gọi người khác lên: 上来."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "上去",
@@ -1640,7 +2241,32 @@
      "pinyin": "shàngqù",
      "tuLoaiChinhThuc": "动",
      "soThuTu": 427,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "thượng khứ",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "đi lên (đó, rời xa người nói)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "老师在楼上，你上去问问吧。",
+       "pinyin": "Lǎoshī zài lóu shàng, nǐ shàngqù wènwen ba.",
+       "dich": "Thầy ở trên lầu, bạn lên đó hỏi thử đi.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "这里太高了，我不想上去。",
+       "pinyin": "Zhèlǐ tài gāo le, wǒ bù xiǎng shàngqù.",
+       "dich": "Chỗ này cao quá, tôi không muốn lên.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Người nói ở dưới: 上去; ở trên: 上来."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "下来",
@@ -1648,7 +2274,30 @@
      "pinyin": "xiàlái",
      "tuLoaiChinhThuc": "动",
      "soThuTu": 458,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "hạ lai",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "đi xuống (đây, về phía người nói)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我在楼下等你，你快下来吧。",
+       "pinyin": "Wǒ zài lóu xià děng nǐ, nǐ kuài xiàlái ba.",
+       "dich": "Tôi đợi bạn ở dưới lầu, bạn mau xuống đi.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "他从楼上下来了。",
+       "pinyin": "Tā cóng lóu shàng xiàlái le.",
+       "dich": "Anh ấy từ trên lầu đi xuống rồi.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [],
+     "canKiemTra": []
     },
     {
      "dangGoc": "下去",
@@ -1656,7 +2305,32 @@
      "pinyin": "xiàqù",
      "tuLoaiChinhThuc": "动",
      "soThuTu": 460,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "hạ khứ",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "đi xuống (đó, rời xa người nói)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "你下去看看，谁来了。",
+       "pinyin": "Nǐ xiàqù kànkan, shéi lái le.",
+       "dich": "Bạn xuống xem ai đến kìa.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "我累了，不想下去了。",
+       "pinyin": "Wǒ lèi le, bù xiǎng xiàqù le.",
+       "dich": "Tôi mệt rồi, không muốn xuống nữa.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Mẹo nhớ: 来 = về phía người nói, 去 = rời xa người nói (上来/上去, 下来/下去, 进来/进去)."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "爷爷",
@@ -1664,7 +2338,32 @@
      "pinyin": "yéye",
      "tuLoaiChinhThuc": "名",
      "soThuTu": 470,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "gia gia",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "ông nội"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "爷爷每天早上都喝茶。",
+       "pinyin": "Yéye měi tiān zǎoshang dōu hē chá.",
+       "dich": "Sáng nào ông nội cũng uống trà.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "我爷爷是医生。",
+       "pinyin": "Wǒ yéye shì yīshēng.",
+       "dich": "Ông nội tôi là bác sĩ.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Ông nội = 爷爷, bà nội = 奶奶."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "一会儿",
@@ -1672,7 +2371,32 @@
      "pinyin": "yíhuìr",
      "tuLoaiChinhThuc": "数量、（副）",
      "soThuTu": 471,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "nhất hội nhi",
+     "nghia": [
+      {
+       "tuLoai": "数量",
+       "nghia": "một lát, một lúc"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我们休息一会儿吧。",
+       "pinyin": "Wǒmen xiūxi yíhuìr ba.",
+       "dich": "Chúng mình nghỉ một lát đi.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "请你等一会儿，他就来。",
+       "pinyin": "Qǐng nǐ děng yíhuìr, tā jiù lái.",
+       "dich": "Xin bạn đợi một lát, anh ấy đến ngay.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Động từ + 一会儿 = làm gì một lát. 一会儿见 = lát gặp nhé."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "准备",
@@ -1680,7 +2404,32 @@
      "pinyin": "zhǔnbèi",
      "tuLoaiChinhThuc": "动",
      "soThuTu": 493,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "chuẩn bị",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "chuẩn bị; định (làm gì)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "妈妈在准备晚饭。",
+       "pinyin": "Māma zài zhǔnbèi wǎnfàn.",
+       "dich": "Mẹ đang chuẩn bị bữa tối.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "明年我准备去中国学习。",
+       "pinyin": "Míngnián wǒ zhǔnbèi qù Zhōngguó xuéxí.",
+       "dich": "Năm sau tôi định sang Trung Quốc học.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "准备 + việc = chuẩn bị gì; 准备 + động từ = dự định làm gì."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "走",
@@ -1688,7 +2437,42 @@
      "pinyin": "zǒu",
      "tuLoaiChinhThuc": "动",
      "soThuTu": 495,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "tẩu",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "đi, đi bộ"
+      },
+      {
+       "tuLoai": "动",
+       "nghia": "đi, rời đi"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我们走去吧，不远。",
+       "pinyin": "Wǒmen zǒu qù ba, bù yuǎn.",
+       "dich": "Mình đi bộ đến đi, không xa đâu.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "太晚了，我要走了。",
+       "pinyin": "Tài wǎn le, wǒ yào zǒu le.",
+       "dich": "Muộn rồi, tôi phải đi đây.",
+       "nghiaSo": 1
+      },
+      {
+       "han": "他已经走了。",
+       "pinyin": "Tā yǐjīng zǒu le.",
+       "dich": "Anh ấy đi rồi.",
+       "nghiaSo": 1
+      }
+     ],
+     "ghiChu": [
+      "走 = đi (bộ), không phải “chạy”; chạy là 跑 (bài 7). 走路 = đi bộ (bài 9)."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "下面",
@@ -1696,7 +2480,32 @@
      "pinyin": "xiàmiàn",
      "tuLoaiChinhThuc": "名",
      "soThuTu": 459,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "hạ diện",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "phía dưới, bên dưới; tiếp theo"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "你的手机在书下面。",
+       "pinyin": "Nǐ de shǒujī zài shū xiàmiàn.",
+       "dich": "Điện thoại của bạn ở dưới cuốn sách.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "下面我们学习第五课。",
+       "pinyin": "Xiàmiàn wǒmen xuéxí dì wǔ kè.",
+       "dich": "Tiếp theo chúng ta học bài thứ năm.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Nghĩa giống 下边. Trái nghĩa: 上面 (bài 13)."
+     ],
+     "canKiemTra": []
     }
    ]
   },
@@ -1704,7 +2513,7 @@
    "so": 6,
    "ten": "Sinh nhật",
    "soTu": 12,
-   "daSoanXong": false,
+   "daSoanXong": true,
    "tu": [
     {
      "dangGoc": "长",
@@ -1712,7 +2521,32 @@
      "pinyin": "cháng",
      "tuLoaiChinhThuc": "形",
      "soThuTu": 314,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "trường",
+     "nghia": [
+      {
+       "tuLoai": "形",
+       "nghia": "dài"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "这条裤子太长了。",
+       "pinyin": "Zhè tiáo kùzi tài cháng le.",
+       "dich": "Cái quần này dài quá.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "这个电影很长，有三个小时。",
+       "pinyin": "Zhège diànyǐng hěn cháng, yǒu sān ge xiǎoshí.",
+       "dich": "Bộ phim này dài lắm, tận ba tiếng.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Nghĩa “dài” đọc cháng. Chữ này còn đọc zhǎng (lớn lên) – học ở cấp 3."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "床",
@@ -1720,7 +2554,32 @@
      "pinyin": "chuáng",
      "tuLoaiChinhThuc": "名",
      "soThuTu": 321,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "sàng",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "giường"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我的床很舒服。",
+       "pinyin": "Wǒ de chuáng hěn shūfu.",
+       "dich": "Giường của tôi rất êm.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "他还在床上睡觉。",
+       "pinyin": "Tā hái zài chuáng shang shuìjiào.",
+       "dich": "Anh ấy vẫn đang ngủ trên giường.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "起床 = thức dậy (rời giường, cấp 1)."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "打开",
@@ -1728,7 +2587,32 @@
      "pinyin": "dǎkāi",
      "tuLoaiChinhThuc": "动",
      "soThuTu": 329,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "đả khai",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "mở (ra), bật"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "请打开书。",
+       "pinyin": "Qǐng dǎkāi shū.",
+       "dich": "Mời mở sách ra.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "你打开电视看看。",
+       "pinyin": "Nǐ dǎkāi diànshì kànkan.",
+       "dich": "Bạn bật ti vi lên xem thử.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Mở cửa, mở sách, mở hộp quà, bật máy… đều dùng 打开."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "地",
@@ -1736,7 +2620,32 @@
      "pinyin": "de",
      "tuLoaiChinhThuc": "助",
      "soThuTu": 332,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "địa",
+     "nghia": [
+      {
+       "tuLoai": "助",
+       "nghia": "(trợ từ đặt trước động từ: “một cách…”)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "他高兴地说：“谢谢！”",
+       "pinyin": "Tā gāoxìng de shuō: “Xièxie!”",
+       "dich": "Anh ấy vui vẻ nói: “Cảm ơn!”",
+       "nghiaSo": 0
+      },
+      {
+       "han": "孩子们快乐地唱歌。",
+       "pinyin": "Háizimen kuàilè de chàng gē.",
+       "dich": "Các em nhỏ vui vẻ hát.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Tính từ + 地 + động từ: 慢慢地走 (đi chầm chậm). Ba chữ cùng đọc de: 的 (trước danh từ), 地 (trước động từ), 得 (sau động từ, bài 7)."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "过",
@@ -1744,7 +2653,32 @@
      "pinyin": "guò",
      "tuLoaiChinhThuc": "动",
      "soThuTu": 347,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "quá",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "qua, đi qua; đón, tổ chức (ngày lễ, sinh nhật)"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我们一起过生日吧。",
+       "pinyin": "Wǒmen yìqǐ guò shēngrì ba.",
+       "dich": "Chúng mình cùng tổ chức sinh nhật đi.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "过了这个商店就是我家。",
+       "pinyin": "Guò le zhège shāngdiàn jiù shì wǒ jiā.",
+       "dich": "Qua cửa hàng này là đến nhà tôi.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "过生日 = tổ chức sinh nhật, 过年 = đón Tết (bài 14). Trợ từ 过 (đã từng) đọc nhẹ guo – bài 4."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "画",
@@ -1752,7 +2686,36 @@
      "pinyin": "huà",
      "tuLoaiChinhThuc": "动、名",
      "soThuTu": 359,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "họa",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "vẽ"
+      },
+      {
+       "tuLoai": "名",
+       "nghia": "bức tranh"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我女儿很喜欢画画儿。",
+       "pinyin": "Wǒ nǚ'ér hěn xǐhuan huà huàr.",
+       "dich": "Con gái tôi rất thích vẽ tranh.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "你看，这是爸爸画的画儿。",
+       "pinyin": "Nǐ kàn, zhè shì bàba huà de huàr.",
+       "dich": "Bạn xem, đây là tranh bố vẽ.",
+       "nghiaSo": 1
+      }
+     ],
+     "ghiChu": [
+      "Danh từ “tranh” trong văn nói hay thêm 儿: 画儿 (huàr)."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "快乐",
@@ -1760,7 +2723,32 @@
      "pinyin": "kuàilè",
      "tuLoaiChinhThuc": "形",
      "soThuTu": 385,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "khoái lạc",
+     "nghia": [
+      {
+       "tuLoai": "形",
+       "nghia": "vui vẻ, vui"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "生日快乐！",
+       "pinyin": "Shēngrì kuàilè!",
+       "dich": "Chúc mừng sinh nhật!",
+       "nghiaSo": 0
+      },
+      {
+       "han": "和朋友在一起，我很快乐。",
+       "pinyin": "Hé péngyou zài yìqǐ, wǒ hěn kuàilè.",
+       "dich": "Ở bên bạn bè, tôi rất vui.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Hay dùng trong lời chúc: 生日快乐, 新年快乐. Nghĩa là “vui”, không mang nghĩa xấu như “khoái lạc” trong tiếng Việt."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "肉",
@@ -1768,7 +2756,32 @@
      "pinyin": "ròu",
      "tuLoaiChinhThuc": "名",
      "soThuTu": 423,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "nhục",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "thịt"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我不吃肉，我喜欢吃菜。",
+       "pinyin": "Wǒ bù chī ròu, wǒ xǐhuan chī cài.",
+       "dich": "Tôi không ăn thịt, tôi thích ăn rau.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "妈妈做的肉很好吃。",
+       "pinyin": "Māma zuò de ròu hěn hǎochī.",
+       "dich": "Thịt mẹ nấu rất ngon.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "牛肉 = thịt bò, 鸡肉 = thịt gà."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "生日",
@@ -1776,7 +2789,32 @@
      "pinyin": "shēngrì",
      "tuLoaiChinhThuc": "名",
      "soThuTu": 430,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "sinh nhật",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "sinh nhật"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "今天是我的生日。",
+       "pinyin": "Jīntiān shì wǒ de shēngrì.",
+       "dich": "Hôm nay là sinh nhật tôi.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "你的生日是几月几号？",
+       "pinyin": "Nǐ de shēngrì shì jǐ yuè jǐ hào?",
+       "dich": "Sinh nhật bạn là ngày mấy tháng mấy?",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "过生日 = tổ chức sinh nhật. 生日快乐！ = Chúc mừng sinh nhật!"
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "舒服",
@@ -1784,7 +2822,32 @@
      "pinyin": "shūfu",
      "tuLoaiChinhThuc": "形",
      "soThuTu": 436,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "thư phục",
+     "nghia": [
+      {
+       "tuLoai": "形",
+       "nghia": "dễ chịu, thoải mái; khỏe trong người"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "这个椅子很舒服。",
+       "pinyin": "Zhège yǐzi hěn shūfu.",
+       "dich": "Cái ghế này rất thoải mái.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "我今天有点儿不舒服。",
+       "pinyin": "Wǒ jīntiān yǒudiǎnr bù shūfu.",
+       "dich": "Hôm nay tôi hơi khó chịu trong người.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "不舒服 thường nghĩa là hơi mệt, hơi ốm."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "忘",
@@ -1792,7 +2855,32 @@
      "pinyin": "wàng",
      "tuLoaiChinhThuc": "动",
      "soThuTu": 452,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "vong",
+     "nghia": [
+      {
+       "tuLoai": "动",
+       "nghia": "quên"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我忘了他的名字。",
+       "pinyin": "Wǒ wàng le tā de míngzi.",
+       "dich": "Tôi quên tên anh ấy rồi.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "别忘了明天的考试！",
+       "pinyin": "Bié wàng le míngtiān de kǎoshì!",
+       "dich": "Đừng quên bài thi ngày mai nhé!",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Hay dùng 忘了. 别忘了… = đừng quên…."
+     ],
+     "canKiemTra": []
     },
     {
      "dangGoc": "鱼",
@@ -1800,7 +2888,32 @@
      "pinyin": "yú",
      "tuLoaiChinhThuc": "名",
      "soThuTu": 483,
-     "daSoan": false
+     "daSoan": true,
+     "hanViet": "ngư",
+     "nghia": [
+      {
+       "tuLoai": "名",
+       "nghia": "cá"
+      }
+     ],
+     "viDu": [
+      {
+       "han": "我很喜欢吃鱼。",
+       "pinyin": "Wǒ hěn xǐhuan chī yú.",
+       "dich": "Tôi rất thích ăn cá.",
+       "nghiaSo": 0
+      },
+      {
+       "han": "这条鱼很大。",
+       "pinyin": "Zhè tiáo yú hěn dà.",
+       "dich": "Con cá này rất to.",
+       "nghiaSo": 0
+      }
+     ],
+     "ghiChu": [
+      "Lượng từ của cá: 条."
+     ],
+     "canKiemTra": []
     }
    ]
   },

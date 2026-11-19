@@ -1,0 +1,111 @@
+# ===== NGUỒN SOẠN THẢO HSK 2 – BÀI 5 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–2.
+
+# 5 | Đến chơi nhà bạn
+
+@等1 | đẳng
+- 动 | đợi, chờ
+> 请等一下。 | Qǐng děng yíxià. | Xin đợi một chút.
+> 我在门口等你。 | Wǒ zài ménkǒu děng nǐ. | Tôi đợi bạn ở cửa.
+* 等一下 = đợi một lát. 等 + người = đợi ai.
+
+@跟 | cân
+- 介 | với, cùng (ai)
+> 我跟朋友一起去商场。 | Wǒ gēn péngyou yìqǐ qù shāngchǎng. | Tôi đi trung tâm thương mại cùng bạn.
+> 你跟老师说了吗？ | Nǐ gēn lǎoshī shuō le ma? | Bạn đã nói với thầy chưa?
+- 连 | và
+> 我跟他都是学生。 | Wǒ gēn tā dōu shì xuésheng. | Tôi và anh ấy đều là học sinh.
+* 跟…一起 = cùng với…; 跟 + người + 说 = nói với ai. Nghĩa “và” giống 和.
+
+@进来 | tiến lai
+- 动 | đi vào (đây, về phía người nói)
+> 请进来！ | Qǐng jìnlái! | Mời vào!
+> 外面很冷，快进来吧。 | Wàimiàn hěn lěng, kuài jìnlái ba. | Ngoài trời lạnh lắm, mau vào đi.
+* Người nói ở trong phòng thì dùng 进来; ở ngoài thì dùng 进去 (bài 4).
+
+@酒店 | tửu điếm
+- 名 | khách sạn
+> 我们住在一家很大的酒店。 | Wǒmen zhù zài yì jiā hěn dà de jiǔdiàn. | Chúng tôi ở một khách sạn rất lớn.
+> 酒店离车站不远。 | Jiǔdiàn lí chēzhàn bù yuǎn. | Khách sạn cách bến xe không xa.
+* Không phải quán rượu: 酒店 thường là khách sạn. Lượng từ: 家.
+
+@快 | khoái
+- 形 | nhanh
+> 坐飞机很快。 | Zuò fēijī hěn kuài. | Đi máy bay rất nhanh.
+> 这个电脑很快。 | Zhège diànnǎo hěn kuài. | Máy tính này rất nhanh.
+- 副 | mau, nhanh lên; sắp
+> 快来吃饭吧！ | Kuài lái chī fàn ba! | Mau lại ăn cơm đi!
+> 快十二点了，我们回家吧。 | Kuài shí'èr diǎn le, wǒmen huí jiā ba. | Sắp mười hai giờ rồi, chúng mình về nhà thôi.
+* 快…了 = sắp… rồi (học kỹ ở bài 10). Trái nghĩa: 慢 (chậm, bài 11).
+
+@面1 | diện
+- 后缀 | phía, mặt (hậu tố chỉ phương hướng)
+> 学校后面有一个商店。 | Xuéxiào hòumiàn yǒu yí ge shāngdiàn. | Phía sau trường có một cửa hàng.
+> 他在外面等你。 | Tā zài wàimiàn děng nǐ. | Anh ấy đang đợi bạn ở bên ngoài.
+* Ghép sau từ chỉ hướng: 上面, 下面, 前面, 后面, 里面, 外面 (nghĩa giống 上边, 下边…). Chữ 面 còn có nghĩa “mì” (面条儿, cấp 1).
+
+@奶茶 | nãi trà
+- 名 | trà sữa
+> 我想喝一杯奶茶。 | Wǒ xiǎng hē yì bēi nǎichá. | Tôi muốn uống một cốc trà sữa.
+> 这家店的奶茶很好喝。 | Zhè jiā diàn de nǎichá hěn hǎohē. | Trà sữa của quán này rất ngon.
+
+@奶奶 | nãi nãi
+- 名 | bà nội
+> 我奶奶今年八十岁了。 | Wǒ nǎinai jīnnián bāshí suì le. | Bà nội tôi năm nay tám mươi tuổi.
+> 星期天我们去看奶奶。 | Xīngqītiān wǒmen qù kàn nǎinai. | Chủ nhật chúng tôi đi thăm bà nội.
+* 看 + người = đi thăm ai.
+
+@爷爷 | gia gia
+- 名 | ông nội
+> 爷爷每天早上都喝茶。 | Yéye měi tiān zǎoshang dōu hē chá. | Sáng nào ông nội cũng uống trà.
+> 我爷爷是医生。 | Wǒ yéye shì yīshēng. | Ông nội tôi là bác sĩ.
+* Ông nội = 爷爷, bà nội = 奶奶.
+
+@上来 | thượng lai
+- 动 | đi lên (đây, về phía người nói)
+> 我在二楼，你上来吧。 | Wǒ zài èr lóu, nǐ shànglái ba. | Tôi ở tầng hai, bạn lên đây đi.
+> 他上来了吗？ | Tā shànglái le ma? | Anh ấy lên chưa?
+* Người nói ở trên gọi người khác lên: 上来.
+
+@上去 | thượng khứ
+- 动 | đi lên (đó, rời xa người nói)
+> 老师在楼上，你上去问问吧。 | Lǎoshī zài lóu shàng, nǐ shàngqù wènwen ba. | Thầy ở trên lầu, bạn lên đó hỏi thử đi.
+> 这里太高了，我不想上去。 | Zhèlǐ tài gāo le, wǒ bù xiǎng shàngqù. | Chỗ này cao quá, tôi không muốn lên.
+* Người nói ở dưới: 上去; ở trên: 上来.
+
+@下来 | hạ lai
+- 动 | đi xuống (đây, về phía người nói)
+> 我在楼下等你，你快下来吧。 | Wǒ zài lóu xià děng nǐ, nǐ kuài xiàlái ba. | Tôi đợi bạn ở dưới lầu, bạn mau xuống đi.
+> 他从楼上下来了。 | Tā cóng lóu shàng xiàlái le. | Anh ấy từ trên lầu đi xuống rồi.
+
+@下去 | hạ khứ
+- 动 | đi xuống (đó, rời xa người nói)
+> 你下去看看，谁来了。 | Nǐ xiàqù kànkan, shéi lái le. | Bạn xuống xem ai đến kìa.
+> 我累了，不想下去了。 | Wǒ lèi le, bù xiǎng xiàqù le. | Tôi mệt rồi, không muốn xuống nữa.
+* Mẹo nhớ: 来 = về phía người nói, 去 = rời xa người nói (上来/上去, 下来/下去, 进来/进去).
+
+@下面 | hạ diện
+- 名 | phía dưới, bên dưới; tiếp theo
+> 你的手机在书下面。 | Nǐ de shǒujī zài shū xiàmiàn. | Điện thoại của bạn ở dưới cuốn sách.
+> 下面我们学习第五课。 | Xiàmiàn wǒmen xuéxí dì wǔ kè. | Tiếp theo chúng ta học bài thứ năm.
+* Nghĩa giống 下边. Trái nghĩa: 上面 (bài 13).
+
+@一会儿 | nhất hội nhi
+- 数量 | một lát, một lúc
+> 我们休息一会儿吧。 | Wǒmen xiūxi yíhuìr ba. | Chúng mình nghỉ một lát đi.
+> 请你等一会儿，他就来。 | Qǐng nǐ děng yíhuìr, tā jiù lái. | Xin bạn đợi một lát, anh ấy đến ngay.
+* Động từ + 一会儿 = làm gì một lát. 一会儿见 = lát gặp nhé.
+
+@准备 | chuẩn bị
+- 动 | chuẩn bị; định (làm gì)
+> 妈妈在准备晚饭。 | Māma zài zhǔnbèi wǎnfàn. | Mẹ đang chuẩn bị bữa tối.
+> 明年我准备去中国学习。 | Míngnián wǒ zhǔnbèi qù Zhōngguó xuéxí. | Năm sau tôi định sang Trung Quốc học.
+* 准备 + việc = chuẩn bị gì; 准备 + động từ = dự định làm gì.
+
+@走 | tẩu
+- 动 | đi, đi bộ
+> 我们走去吧，不远。 | Wǒmen zǒu qù ba, bù yuǎn. | Mình đi bộ đến đi, không xa đâu.
+- 动 | đi, rời đi
+> 太晚了，我要走了。 | Tài wǎn le, wǒ yào zǒu le. | Muộn rồi, tôi phải đi đây.
+> 他已经走了。 | Tā yǐjīng zǒu le. | Anh ấy đi rồi.
+* 走 = đi (bộ), không phải “chạy”; chạy là 跑 (bài 7). 走路 = đi bộ (bài 9).

@@ -1,0 +1,87 @@
+# ===== NGUỒN SOẠN THẢO HSK 2 – BÀI 4 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–2.
+
+# 4 | Màu sắc và quần áo
+
+@白色 | bạch sắc
+- 名 | màu trắng
+> 我喜欢白色的衣服。 | Wǒ xǐhuan báisè de yīfu. | Tôi thích quần áo màu trắng.
+> 这个白色的杯子是谁的？ | Zhège báisè de bēizi shì shéi de? | Cái cốc màu trắng này của ai?
+* Màu + 色 = màu…; đứng trước danh từ thường thêm 的: 白色的衣服.
+
+@黑色 | hắc sắc
+- 名 | màu đen
+> 他有一个黑色的书包。 | Tā yǒu yí ge hēisè de shūbāo. | Anh ấy có một cái cặp màu đen.
+> 我不喜欢黑色。 | Wǒ bù xǐhuan hēisè. | Tôi không thích màu đen.
+
+@红色 | hồng sắc
+- 名 | màu đỏ
+> 你穿红色的衣服很好看。 | Nǐ chuān hóngsè de yīfu hěn hǎokàn. | Bạn mặc đồ màu đỏ rất đẹp.
+> 中国人过年喜欢红色。 | Zhōngguórén guònián xǐhuan hóngsè. | Người Trung Quốc thích màu đỏ vào dịp Tết.
+* 红色 là màu ĐỎ, không phải màu hồng (màu hồng là 粉色, cấp cao hơn).
+
+@绿色 | lục sắc
+- 名 | màu xanh lá
+> 我的手机是绿色的。 | Wǒ de shǒujī shì lǜsè de. | Điện thoại của tôi màu xanh lá.
+> 你喜欢绿色还是白色？ | Nǐ xǐhuan lǜsè háishi báisè? | Bạn thích màu xanh lá hay màu trắng?
+* 绿 đọc lǜ (có ü). 绿茶 = trà xanh (bài 9).
+
+@颜色 | nhan sắc
+- 名 | màu, màu sắc
+> 你喜欢什么颜色？ | Nǐ xǐhuan shénme yánsè? | Bạn thích màu gì?
+> 这件衣服的颜色很好看。 | Zhè jiàn yīfu de yánsè hěn hǎokàn. | Màu của bộ quần áo này rất đẹp.
+* Không phải “nhan sắc” (vẻ đẹp) trong tiếng Việt: 颜色 chỉ là “màu”.
+
+@裤子 | khố tử
+- 名 | quần (dài)
+> 这条裤子有点儿长。 | Zhè tiáo kùzi yǒudiǎnr cháng. | Cái quần này hơi dài.
+> 我想买一条黑色的裤子。 | Wǒ xiǎng mǎi yì tiáo hēisè de kùzi. | Tôi muốn mua một cái quần màu đen.
+* Lượng từ của quần: 条.
+
+@条 | điều
+- 量 | (lượng từ cho vật dài, mảnh: quần, cá, đường…)
+> 我买了两条鱼。 | Wǒ mǎi le liǎng tiáo yú. | Tôi mua hai con cá.
+> 这条路很长。 | Zhè tiáo lù hěn cháng. | Con đường này rất dài.
+* 一条裤子 (một cái quần), 一条鱼 (một con cá), 一条路 (một con đường).
+
+@商场 | thương trường
+- 名 | trung tâm thương mại
+> 星期六我们去商场买衣服吧。 | Xīngqīliù wǒmen qù shāngchǎng mǎi yīfu ba. | Thứ Bảy chúng mình đi trung tâm thương mại mua quần áo nhé.
+> 这个商场很大，东西也很多。 | Zhège shāngchǎng hěn dà, dōngxi yě hěn duō. | Trung tâm thương mại này rất lớn, đồ cũng rất nhiều.
+* Không phải “thương trường” (chốn làm ăn) trong tiếng Việt: 商场 là nơi mua sắm lớn. 商店 (cấp 1) là cửa hàng.
+
+@书包 | thư bao
+- 名 | cặp sách, ba lô đi học
+> 我的书包里有三本书。 | Wǒ de shūbāo li yǒu sān běn shū. | Trong cặp của tôi có ba cuốn sách.
+> 这个书包是新买的。 | Zhège shūbāo shì xīn mǎi de. | Cái cặp này mới mua.
+
+@进去 | tiến khứ
+- 动 | đi vào (trong đó, rời xa người nói)
+> 你先进去，我在外边等你。 | Nǐ xiān jìnqù, wǒ zài wàibian děng nǐ. | Bạn vào trước đi, tôi đợi bạn bên ngoài.
+> 里边人太多了，我不想进去。 | Lǐbian rén tài duō le, wǒ bù xiǎng jìnqù. | Bên trong đông người quá, tôi không muốn vào.
+* Người nói đứng ngoài thì dùng 进去; đứng trong gọi người khác vào thì dùng 进来 (bài 5).
+
+@过去1 | quá khứ
+- 动 | đi qua đó, sang bên kia (rời xa người nói)
+> 车站在那边，我们过去吧。 | Chēzhàn zài nàbian, wǒmen guòqù ba. | Bến xe ở bên kia, chúng ta qua đó đi.
+> 你先过去，我一会儿就来。 | Nǐ xiān guòqù, wǒ yíhuìr jiù lái. | Bạn qua trước đi, lát nữa tôi đến ngay.
+* Ngược với 过来 (qua đây). 过去 còn nghĩa “trước đây, quá khứ” – học ở cấp cao hơn.
+
+@过(guo) | quá
+- 助 | đã từng (đặt sau động từ, chỉ kinh nghiệm)
+> 我去过中国。 | Wǒ qù guo Zhōngguó. | Tôi đã từng đến Trung Quốc.
+> 你喝过中国茶吗？ | Nǐ hē guo Zhōngguó chá ma? | Bạn đã uống trà Trung Quốc bao giờ chưa?
+> 我没看过这个电影。 | Wǒ méi kàn guo zhège diànyǐng. | Tôi chưa xem bộ phim này bao giờ.
+* Phủ định: 没 + động từ + 过 (không dùng 不). Đọc nhẹ guo, khác động từ 过 guò (qua, bài 6).
+
+@因为 | nhân vị
+- 连 | vì, bởi vì
+> 因为太累了，我很早就睡觉了。 | Yīnwèi tài lèi le, wǒ hěn zǎo jiù shuìjiào le. | Vì mệt quá nên tôi đi ngủ rất sớm.
+> 我喜欢这里，因为这里的人很好。 | Wǒ xǐhuan zhèlǐ, yīnwèi zhèlǐ de rén hěn hǎo. | Tôi thích nơi này vì người ở đây rất tốt.
+* Hay đi thành cặp 因为…，所以…. Dùng để trả lời câu hỏi 为什么.
+
+@所以 | sở dĩ
+- 连 | cho nên, vì vậy
+> 今天下雨，所以我们不出去了。 | Jīntiān xià yǔ, suǒyǐ wǒmen bù chūqù le. | Hôm nay mưa nên chúng tôi không ra ngoài nữa.
+> 因为他病了，所以没来上课。 | Yīnwèi tā bìng le, suǒyǐ méi lái shàngkè. | Vì anh ấy ốm nên không đến lớp.
+* Khác “sở dĩ” trong tiếng Việt: 所以 đứng ở vế KẾT QUẢ, nghĩa là “cho nên”.
