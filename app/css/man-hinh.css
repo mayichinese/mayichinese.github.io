@@ -497,6 +497,14 @@ a.dong-ke-hoach:active { transform: translateY(3px); box-shadow: none; }
 }
 .o-dien.la-dung { color: #15803d; border-color: #15803d; }
 .o-dien.la-sai { color: #dc2626; border-color: #dc2626; }
+/* Thi thử HSK 2 – phần Viết: chữ thiếu một phần (ô nét đứt) và bảng viết tay */
+.o-thieu {
+  display: inline-block; margin: 0 3px; padding: 0 4px;
+  border: 2px dashed var(--chinh-chu); border-radius: 8px; color: var(--chu-phu);
+}
+.bo-thu { font-size: 1.5rem; }
+.tu-thieu .han { font-size: 2rem; }
+.o-viet-thi { width: min(62vw, 240px); }
 .dong-ket-qua-np { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--vien-nhat); }
 .dong-ket-qua-np:last-child { border-bottom: none; }
 .dong-ket-qua-np .giua { flex: 1; display: flex; flex-direction: column; }

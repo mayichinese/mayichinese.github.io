@@ -1,0 +1,57 @@
+# ===== NGÂN HÀNG CÂU HỎI THI THỬ HSK 2 – FILE 4: PHẦN VIẾT =====
+#
+# BỘ THỦ (### bo, Viết phần 1): chữ trong từ bị thiếu một phần; người thi chọn phần còn thiếu.
+#   B từ | pinyin | chữ bị thiếu | phần bị thiếu | phần còn lại (hiện ra thay cho chữ đó)
+#   - "Phần còn lại" phải là một chữ có thật; ghép với phần bị thiếu thành đúng chữ cần tìm.
+#   - Không dùng chữ có hai cách ghép đều thành từ đúng cùng pinyin (vd. 他们/她们).
+#   - Không lấy lại các câu trong đề thi thử của sách (帮忙, 红色, 但是, 不懂, 点菜).
+#
+# VIẾT CHỮ (### viet, Viết phần 2): viết tay một chữ vào chỗ （ ）, có pinyin cả câu.
+#   V câu có （ ） | pinyin câu đầy đủ | chữ cần viết | dịch
+#   - Chữ cần viết phải thuộc 100 chữ viết tay cấp 1–2 (có dữ liệu nét trong app).
+
+### bo
+B 是吗 | shì ma | 吗 | 口 | 马
+B 我们 | wǒmen | 们 | 亻 | 门
+B 汉字 | Hànzì | 汉 | 氵 | 又
+B 说话 | shuōhuà | 话 | 讠 | 舌
+B 打车 | dǎchē | 打 | 扌 | 丁
+B 晴天 | qíngtiān | 晴 | 日 | 青
+B 饭馆 | fànguǎn | 馆 | 饣 | 官
+B 地铁 | dìtiě | 铁 | 钅 | 失
+B 眼睛 | yǎnjing | 睛 | 目 | 青
+B 做菜 | zuò cài | 菜 | 艹 | 采
+B 很好 | hěn hǎo | 很 | 彳 | 艮
+B 机场 | jīchǎng | 机 | 木 | 几
+B 运动 | yùndòng | 动 | 力 | 云
+B 很远 | hěn yuǎn | 远 | 辶 | 元
+B 快乐 | kuàilè | 快 | 忄 | 夬
+B 很热 | hěn rè | 热 | 灬 | 执
+B 您好 | nín hǎo | 您 | 心 | 你
+B 绿色 | lǜsè | 绿 | 纟 | 录
+B 身体 | shēntǐ | 体 | 亻 | 本
+B 漂亮 | piàoliang | 漂 | 氵 | 票
+B 唱歌 | chàng gē | 唱 | 口 | 昌
+B 椅子 | yǐzi | 椅 | 木 | 奇
+
+### viet
+V 我（ ）天很忙。 | Wǒ jīntiān hěn máng. | 今 | Hôm nay tôi rất bận.
+V 你（ ）什么名字？ | Nǐ jiào shénme míngzi? | 叫 | Bạn tên là gì?
+V 他是我的（ ）学。 | Tā shì wǒ de tóngxué. | 同 | Anh ấy là bạn học của tôi.
+V 现在几（ ）了？ | Xiànzài jǐ diǎn le? | 点 | Bây giờ mấy giờ rồi?
+V 我想喝一杯（ ）。 | Wǒ xiǎng hē yì bēi chá. | 茶 | Tôi muốn uống một cốc trà.
+V 这本（ ）很有意思。 | Zhè běn shū hěn yǒu yìsi. | 书 | Cuốn sách này rất hay.
+V 我会（ ）一点儿汉语。 | Wǒ huì shuō yìdiǎnr Hànyǔ. | 说 | Tôi biết nói một chút tiếng Hán.
+V 我家有（ ）口人。 | Wǒ jiā yǒu wǔ kǒu rén. | 五 | Nhà tôi có năm người.
+V 他比我大两（ ）。 | Tā bǐ wǒ dà liǎng suì. | 岁 | Anh ấy lớn hơn tôi hai tuổi.
+V 你（ ）中国人吗？ | Nǐ shì Zhōngguórén ma? | 是 | Bạn là người Trung Quốc à?
+V 我很（ ）我的家人。 | Wǒ hěn ài wǒ de jiārén. | 爱 | Tôi rất yêu gia đình mình.
+V 他在公司（ ）作。 | Tā zài gōngsī gōngzuò. | 工 | Anh ấy làm việc ở công ty.
+V 我们是（ ）年来的。 | Wǒmen shì qùnián lái de. | 去 | Chúng tôi đến từ năm ngoái.
+V 这件衣服（ ）那件贵。 | Zhè jiàn yīfu bǐ nà jiàn guì. | 比 | Bộ này đắt hơn bộ kia.
+V 他慢慢（ ）走进了教室。 | Tā mànmàn de zǒu jìn le jiàoshì. | 地 | Anh ấy chầm chậm đi vào lớp.
+V 你去（ ）中国吗？ | Nǐ qù guo Zhōngguó ma? | 过 | Bạn đã từng đến Trung Quốc chưa?
+V 这条路很（ ）。 | Zhè tiáo lù hěn cháng. | 长 | Con đường này rất dài.
+V 我（ ）吃饭，一会儿给你打电话。 | Wǒ zài chī fàn, yíhuìr gěi nǐ dǎ diànhuà. | 在 | Tôi đang ăn cơm, lát nữa gọi cho bạn.
+V 我有两个（ ）哥。 | Wǒ yǒu liǎng ge gēge. | 哥 | Tôi có hai anh trai.
+V 下（ ）我们去看电影吧。 | Xiàwǔ wǒmen qù kàn diànyǐng ba. | 午 | Chiều nay chúng mình đi xem phim nhé.

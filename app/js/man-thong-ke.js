@@ -215,10 +215,15 @@ export async function veThongKe(khung) {
       <div class="khung o-chi-so"><span class="emoji">📝</span><b>${phanTram(td.tracNghiem.dung, td.tracNghiem.sai)}</b><span>trắc nghiệm đúng (${td.tracNghiem.dung + td.tracNghiem.sai} câu)</span></div>
       <div class="khung o-chi-so"><span class="emoji">🧩</span><b>${phanTram(td.nguPhap.dung, td.nguPhap.sai)}</b><span>ngữ pháp đúng (${td.nguPhap.dung + td.nguPhap.sai} câu)</span></div>
     </div>
-    ${(td.thiThu || []).length ? `<a class="khung tien-do-cap" href="#/thi-thu" style="margin-top:10px">
-      <div class="dong-tren"><b>📋 Thi thử HSK 1</b><span class="nhan ${diemThiCaoNhat() >= 120 ? 'nhan-dat' : ''}">cao nhất ${diemThiCaoNhat()}/200</span></div>
-      <span class="chu-phu nho">${td.thiThu.length} lần thi · lần gần nhất ${td.thiThu[td.thiThu.length - 1].diem}/200 · đạt từ 120</span>
-    </a>` : ''}
+    ${[1, 2].map((cap) => {
+      const ls = (td.thiThu || []).filter((x) => (x.cap || 1) === cap);
+      if (!ls.length) return '';
+      const tot = diemThiCaoNhat(cap);
+      return `<a class="khung tien-do-cap" href="#/thi-thu" style="margin-top:10px">
+      <div class="dong-tren"><b>📋 Thi thử HSK ${cap}</b><span class="nhan ${tot >= 120 ? 'nhan-dat' : ''}">cao nhất ${tot}/200</span></div>
+      <span class="chu-phu nho">${ls.length} lần thi · lần gần nhất ${ls[ls.length - 1].diem}/200 · đạt từ 120</span>
+    </a>`;
+    }).join('')}
 
     <h3 class="tieu-de-muc">Những từ hay sai nhất <small>quên khi ôn + sai trắc nghiệm</small></h3>
     ${tuHaySai.length

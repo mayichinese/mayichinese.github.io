@@ -1,0 +1,4 @@
+Tranh: 33 (câu kể 66, hội thoại 33) · hỏi–đáp: 4 nhóm · điền từ: 3 nhóm · hội thoại+hỏi: 20 · đoạn văn: 12 · bộ thủ: 22 · viết chữ: 20
+LỖI: 0 · CẢNH BÁO: 0
+
+Đã ghi app\data\thi-thu-hsk2.json

@@ -58,7 +58,7 @@ Tiến độ trên máy tính và trên điện thoại là **hai bản riêng**
 |---|---|
 | 🏠 **Hôm nay** | Xem việc cần làm hôm nay, chuỗi ngày học liên tục, 7 ngày trong tuần, kế hoạch 60 phút |
 | 📚 **Bài học** | Vào Ôn tập / Từ mới, chọn cấp (**HSK 1 / HSK 2**), chọn bài, tìm từ (chữ Hán, pinyin, nghĩa, Hán Việt). HSK 1 có hai cách chia bài: **🗂️ Chủ đề** (20 bài) hoặc **📖 Theo sách** (15 bài theo 《新HSK教程 1》) – đổi lúc nào cũng được, tiến độ giữ nguyên. HSK 2 chia theo 15 bài của 《新HSK教程 2》; bài chưa soạn xong hiện **Đang soạn**. Nút **Từ mới** đưa từ HSK 1 trước, học hết HSK 1 mới sang HSK 2 (muốn học trước thì mở thẳng một bài HSK 2) |
-| ✏️ **Luyện tập** | 🎧 Luyện thanh điệu, ✍️ Luyện viết chữ Hán, 📝 Trắc nghiệm, 📋 Thi thử HSK 1, 🧩 Ngữ pháp |
+| ✏️ **Luyện tập** | 🎧 Luyện thanh điệu, ✍️ Luyện viết chữ Hán, 📝 Trắc nghiệm, 📋 Thi thử HSK 1 · HSK 2, 🧩 Ngữ pháp |
 | 📊 **Thống kê** | Chuỗi ngày học (hiện tại, dài nhất), biểu đồ số phút học 7 / 30 ngày theo 5 phần (chạm cột để xem chi tiết, có cả dạng bảng), tiến độ từ vựng / chữ viết / ngữ pháp, tỉ lệ đúng, **những từ hay sai nhất**, chữ viết hay sai, thanh hay nhầm |
 
 Hai nút ở góc trên bên phải: **🌙/☀️** chuyển nhanh giữa giao diện tối và sáng; nút **Cài đặt** (biểu tượng thanh trượt) mở phần cài đặt và sao lưu.
@@ -112,6 +112,13 @@ Màn hình **Hôm nay** hiện 5 phần theo thứ tự. Đã có đủ 5 phần
 - Mỗi câu 5 điểm, **tổng 200, đạt từ 120**. Nộp bài xong xem điểm từng phần và **xem lại từng câu** (đáp án đúng, pinyin, nghĩa). Lịch sử điểm lưu ở trang Thi thử và Thống kê.
 - **Tranh là biểu tượng (emoji)** – chỉ dùng cho những từ vẽ được rõ ràng (đồ ăn, đồ vật, nơi chốn, thời tiết, giờ…); từ trừu tượng nằm ở các câu dạng chữ. Mỗi lần thi là một đề khác (chọn ngẫu nhiên).
 
+**📋 Thi thử HSK 2** (trang Thi thử → chọn **HSK 2**) – cũng là đề mô phỏng, cấu trúc theo đề trong sách bài tập 《新HSK教程 2》 (60 câu, khoảng 55 phút):
+- **Nghe 25 câu**: P1 nghe câu chọn 1 trong 3 tranh · P2 nghe hội thoại chọn tranh (A–F, hai nhóm) · P3 nghe hội thoại + câu hỏi, chọn đáp án.
+- **Đọc 25 câu, 25 phút**: P1 đọc câu chọn tranh · P2 điền từ · P3 ghép hỏi–đáp (hai nhóm) · P4 đọc đoạn văn, trả lời câu hỏi ★.
+- **Viết 10 câu, 10 phút**: P1 chữ bị thiếu một phần (hiện trong ô nét đứt), chọn phần còn thiếu (A–F) · P2 **viết tay** chữ còn thiếu vào ô (có pinyin cả câu). Viết đúng thứ tự nét, sai tối đa 3 nét vẫn tính đúng; không biết thì bấm "Không biết – bỏ qua".
+- Phần Đọc và phần Viết có đồng hồ riêng; hết giờ phần Đọc thì tự chuyển sang phần Viết (không quay lại được), hết giờ phần Viết thì tự nộp bài.
+- Điểm quy về **thang 200 (số câu đúng × 200 / 60), đạt từ 120** – đây là cách tính của app, không phải thang điểm chính thức.
+
 Khi đang học, góc trên có **đồng hồ** đếm số phút đã học cho phần đó (chỉ đếm khi bạn đang thao tác).
 
 Trên máy tính có phím tắt: **Space** để lật thẻ (hoặc nghe lại trong bài thanh điệu / bài nghe), các số **1 2 3 4** tương ứng Quên / Khó / Nhớ / Dễ, các nút chọn thanh, hoặc 4 đáp án trắc nghiệm; **Enter** sang câu tiếp.
@@ -153,6 +160,8 @@ Không nên sửa thẳng `app/data/hsk1.json`, vì lần chạy script sau sẽ
   Dữ liệu nét lấy từ dự án Make Me a Hanzi (giấy phép Arphic, xem `app/data/GIAY-PHEP-net-chu.txt`).
 - `app/data/thanh-dieu-hsk1.json` (chữ đa âm): tạo bằng `python -X utf8 cong-cu/tao-du-lieu-thanh-dieu.py`.
   Chạy lại sau khi sửa dữ liệu từ vựng.
+
+**Dữ liệu thi thử HSK 2:** `cong-cu/nguon-thi-thu/tranh2.txt` (tranh emoji + câu kể + hội thoại; cách viết ở đầu file) và `cap2-01.txt` … `cap2-04.txt` (hỏi–đáp, điền từ, hội thoại + câu hỏi, đoạn văn, bộ thủ, viết chữ – cách viết ở đầu `cong-cu/ghep-thi-thu-2.py`). Sửa xong chạy `python -X utf8 cong-cu/ghep-thi-thu-2.py` → tạo `app/data/thi-thu-hsk2.json`.
 
 **Dữ liệu thi thử:** `cong-cu/nguon-thi-thu/tranh.txt` (từ → emoji) và `cap1-01.txt` … `cap1-04.txt` (nhóm hỏi–đáp, nhóm điền từ, câu hỏi theo câu – soạn tay, cách viết ở đầu `cong-cu/ghep-thi-thu.py`). Sửa xong chạy `python -X utf8 cong-cu/ghep-thi-thu.py` → tạo `app/data/thi-thu-hsk1.json`. Khi soạn thêm: trong một nhóm hỏi–đáp, mỗi câu trả lời chỉ được khớp đúng một câu hỏi; trong một nhóm điền từ, mỗi từ chỉ điền vừa đúng một câu.
 
@@ -200,7 +209,7 @@ MayiChinese/
 │   │   ├── man-trac-nghiem.js ← trắc nghiệm, sổ câu sai, kiểm tra theo bài
 │   │   ├── man-ngu-phap.js ← ngữ pháp: bài học, sắp xếp câu, điền từ
 │   │   ├── man-thong-ke.js ← Thống kê (biểu đồ phút học, từ hay sai…)
-│   │   ├── man-thi-thu.js  ← Thi thử HSK 1 (đề mô phỏng 40 câu)
+│   │   ├── man-thi-thu.js  ← Thi thử HSK 1 (40 câu) và HSK 2 (60 câu) – đề mô phỏng
 │   │   ├── pinyin.js       ← tô màu thanh điệu, tách âm tiết
 │   │   ├── bieu-tuong.js   ← các biểu tượng
 │   │   ├── phien-hoc.js    ← chọn thẻ tiếp theo khi học/ôn
@@ -227,7 +236,8 @@ MayiChinese/
 │   ├── tao-du-lieu-thanh-dieu.py ← đánh dấu chữ đa âm
 │   ├── tao-theo-sach.py    ← ghép từ / ngữ pháp với bài của sách 《新HSK教程 1》
 │   ├── nguon-thi-thu/      ← tranh + ngân hàng câu hỏi thi thử (soạn tay)
-│   ├── ghep-thi-thu.py     ← ghép + kiểm tra dữ liệu thi thử
+│   ├── ghep-thi-thu.py     ← ghép + kiểm tra dữ liệu thi thử HSK 1
+│   ├── ghep-thi-thu-2.py   ← ghép + kiểm tra dữ liệu thi thử HSK 2
 │   ├── doi-chieu-hanzii.mjs
 │   └── may-chu.ps1         ← máy chủ mini dùng cho CHAY-APP.bat
 └── tai-lieu/               ← đề cương thi HSK 2025 (PDF gốc)

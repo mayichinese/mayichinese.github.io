@@ -1,0 +1,96 @@
+# ===== NGÂN HÀNG CÂU HỎI THI THỬ HSK 2 – FILE 1 (soạn tay, câu tự đặt) =====
+# Cách viết: xem đầu file cong-cu/ghep-thi-thu-2.py. Chỉ dùng chữ cấp 1–2.
+#
+# NHÓM HỎI–ĐÁP (### hd…, Đọc phần 3): 5 cặp; mỗi câu trả lời A chỉ khớp ĐÚNG MỘT câu hỏi trong nhóm.
+#   Q câu hỏi | pinyin
+#   A câu trả lời | pinyin
+# NHÓM ĐIỀN TỪ (### dt…, Đọc phần 2): 6 từ (W), 5 câu (F); mỗi từ chỉ điền vừa ĐÚNG MỘT câu.
+#   W từ | pinyin
+#   F câu có （ ） | pinyin câu đầy đủ | từ đúng
+
+### hd1
+Q 你什么时候开学？ | Nǐ shénme shíhou kāixué?
+A 九月一号。 | Jiǔ yuè yī hào.
+Q 你家离公司远吗？ | Nǐ jiā lí gōngsī yuǎn ma?
+A 不远，走路十分钟就到了。 | Bù yuǎn, zǒulù shí fēnzhōng jiù dào le.
+Q 你为什么没来上课？ | Nǐ wèi shénme méi lái shàngkè?
+A 因为我生病了。 | Yīnwèi wǒ shēngbìng le.
+Q 你喜欢红色的还是白色的？ | Nǐ xǐhuan hóngsè de háishi báisè de?
+A 白色的。 | Báisè de.
+Q 你去过中国吗？ | Nǐ qù guo Zhōngguó ma?
+A 去过两次。 | Qù guo liǎng cì.
+
+### hd2
+Q 你等了多长时间？ | Nǐ děng le duō cháng shíjiān?
+A 半个多小时。 | Bàn ge duō xiǎoshí.
+Q 这件衣服怎么样？ | Zhè jiàn yīfu zěnmeyàng?
+A 颜色很好看，但是有点儿贵。 | Yánsè hěn hǎokàn, dànshì yǒudiǎnr guì.
+Q 你哥哥比你大几岁？ | Nǐ gēge bǐ nǐ dà jǐ suì?
+A 他比我大三岁。 | Tā bǐ wǒ dà sān suì.
+Q 你是怎么来的？ | Nǐ shì zěnme lái de?
+A 我是坐地铁来的。 | Wǒ shì zuò dìtiě lái de.
+Q 你的汉语老师是哪位？ | Nǐ de Hànyǔ lǎoshī shì nǎ wèi?
+A 是那位穿红衣服的老师。 | Shì nà wèi chuān hóng yīfu de lǎoshī.
+
+### hd3
+Q 你会游泳吗？ | Nǐ huì yóuyǒng ma?
+A 会，我从小就学会了。 | Huì, wǒ cóngxiǎo jiù xué huì le.
+Q 现在几点了？ | Xiànzài jǐ diǎn le?
+A 快十二点了。 | Kuài shí'èr diǎn le.
+Q 你在做什么呢？ | Nǐ zài zuò shénme ne?
+A 我在准备晚饭。 | Wǒ zài zhǔnbèi wǎnfàn.
+Q 你喝茶还是喝咖啡？ | Nǐ hē chá háishi hē kāfēi?
+A 给我一杯茶吧。 | Gěi wǒ yì bēi chá ba.
+Q 你的手机呢？ | Nǐ de shǒujī ne?
+A 在书包里。 | Zài shūbāo li.
+
+### hd4
+Q 你身体怎么样？ | Nǐ shēntǐ zěnmeyàng?
+A 很好，我每天都跑步。 | Hěn hǎo, wǒ měi tiān dōu pǎobù.
+Q 这本书你看完了吗？ | Zhè běn shū nǐ kàn wán le ma?
+A 还没有，明天能看完。 | Hái méiyǒu, míngtiān néng kàn wán.
+Q 这个字是什么意思？ | Zhège zì shì shénme yìsi?
+A 我也不知道，问问老师吧。 | Wǒ yě bù zhīdào, wènwen lǎoshī ba.
+Q 你们班有多少学生？ | Nǐmen bān yǒu duōshao xuésheng?
+A 二十多个。 | Èrshí duō ge.
+Q 你明天几点出门？ | Nǐ míngtiān jǐ diǎn chūmén?
+A 早上七点半。 | Zǎoshang qī diǎn bàn.
+
+### dt1
+W 离 | lí
+W 次 | cì
+W 已经 | yǐjīng
+W 送 | sòng
+W 准备 | zhǔnbèi
+W 颜色 | yánsè
+F 我家（ ）学校很近。 | Wǒ jiā lí xuéxiào hěn jìn. | 离
+F 这个电影我看了三（ ）。 | Zhège diànyǐng wǒ kàn le sān cì. | 次
+F 我（ ）吃过晚饭了。 | Wǒ yǐjīng chī guo wǎnfàn le. | 已经
+F 这是朋友（ ）我的书。 | Zhè shì péngyou sòng wǒ de shū. | 送
+F 你喜欢什么（ ）？ | Nǐ xǐhuan shénme yánsè? | 颜色
+
+### dt2
+W 一起 | yìqǐ
+W 别 | bié
+W 告诉 | gàosu
+W 远 | yuǎn
+W 最 | zuì
+W 慢 | màn
+F 我和朋友（ ）去了商场。 | Wǒ hé péngyou yìqǐ qù le shāngchǎng. | 一起
+F 请你说（ ）一点儿。 | Qǐng nǐ shuō màn yìdiǎnr. | 慢
+F 我（ ）喜欢吃鱼。 | Wǒ zuì xǐhuan chī yú. | 最
+F 这件事你（ ）妈妈了吗？ | Zhè jiàn shì nǐ gàosu māma le ma? | 告诉
+F 机场离这儿很（ ）。 | Jīchǎng lí zhèr hěn yuǎn. | 远
+
+### dt3
+W 虽然 | suīrán
+W 得 | de
+W 着 | zhe
+W 过 | guo
+W 可能 | kěnéng
+W 希望 | xīwàng
+F 他跑（ ）很快。 | Tā pǎo de hěn kuài. | 得
+F 门开（ ）呢。 | Mén kāi zhe ne. | 着
+F 我没去（ ）那个商场。 | Wǒ méi qù guo nàge shāngchǎng. | 过
+F 明天（ ）会下雨。 | Míngtiān kěnéng huì xià yǔ. | 可能
+F 我（ ）你们都能考好。 | Wǒ xīwàng nǐmen dōu néng kǎo hǎo. | 希望

@@ -50,7 +50,12 @@
   nghe 20 + đọc 20, 5 điểm/câu, đạt 120/200; lịch sử `tienDo.thiThu`). Dữ liệu `data/thi-thu-hsk1.json` tạo từ
   `cong-cu/nguon-thi-thu/` (tranh.txt + cap1-*.txt) bằng `python -X utf8 cong-cu/ghep-thi-thu.py`. Câu hỏi tự soạn,
   KHÔNG chép đề trong sách; nhóm hỏi–đáp / điền từ phải bảo đảm chỉ một đáp án đúng.
-- Giai đoạn 5.3 (HSK 2: đủ 200 từ, đủ 36 điểm ngữ pháp cấp 2; thi thử HSK 2 chưa làm): `cong-cu/nguon-hsk2/phan-bai.txt` (200 từ chia theo 15 bài sách 《新HSK教程 2》,
+- Thi thử HSK 2 (5.3): cùng `js/man-thi-thu.js` (cấu hình theo cấp CAU_HINH; mỗi câu có `kieu`: tranh3, chon, tranh6, ghep, dien,
+  docHoi, boThu, vietChu). Nghe 25 + đọc 25 (25′) + viết 10 (10′, đồng hồ riêng, hết giờ thì khóa phần và chuyển tiếp);
+  điểm = đúng × 200 / số câu; lịch sử `tienDo.thiThu` có `cap`. Dữ liệu `data/thi-thu-hsk2.json` từ `cong-cu/nguon-thi-thu/`
+  (tranh2.txt + cap2-*.txt) bằng `python -X utf8 cong-cu/ghep-thi-thu-2.py`. Viết tay dùng Hanzi Writer, chữ thuộc 100 chữ cấp 1–2.
+  Câu bộ thủ KHÔNG lấy lại 帮忙/红色/但是/不懂/点菜 của đề sách.
+- Giai đoạn 5.3 (HSK 2: đủ 200 từ, 36 điểm ngữ pháp cấp 2, thi thử HSK 2 – XONG): `cong-cu/nguon-hsk2/phan-bai.txt` (200 từ chia theo 15 bài sách 《新HSK教程 2》,
   tên bài tự đặt) + `bai-NN.txt` (định dạng như HSK 1) → `python -X utf8 cong-cu/ghep-du-lieu-cap.py 2` → `app/data/hsk2.json`
   + `cong-cu/bao-cao-hsk2.txt` (đã gồm kiểm tra pinyin câu ví dụ; chữ cho phép = cấp 1–2). Từ chưa soạn không hiện, bài hiện
   "Đang soạn". Mã bài HSK 2 = '2-3' (du-lieu.js), khóa thẻ '2:<dạng gốc>'; mục trùng mặt chữ trong cùng cấp: `过(guo)`.

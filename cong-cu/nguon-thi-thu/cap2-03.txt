@@ -1,0 +1,91 @@
+# ===== NGÂN HÀNG CÂU HỎI THI THỬ HSK 2 – FILE 3: ĐOẠN ĐỌC + CÂU HỎI ★ (Đọc phần 4) =====
+# Mỗi mục (### doan…): đoạn văn (P), câu hỏi (H), đáp án đúng (A), hai đáp án sai (X).
+#   P đoạn văn | pinyin
+#   H câu hỏi | pinyin
+#   A đáp án | pinyin
+#   X đáp án sai | pinyin
+# Chỉ dùng chữ cấp 1–2. Đáp án sai phải chắc chắn SAI theo đoạn văn.
+
+### doan1
+P 我爱跑步，每天早上都跑半个小时，所以身体很好。 | Wǒ ài pǎobù, měi tiān zǎoshang dōu pǎo bàn ge xiǎoshí, suǒyǐ shēntǐ hěn hǎo.
+H 他的身体怎么样？ | Tā de shēntǐ zěnmeyàng?
+A 很好 | hěn hǎo
+X 不太好 | bú tài hǎo
+X 经常生病 | jīngcháng shēngbìng
+
+### doan2
+P 虽然这家饭馆不大，但是菜很好吃，也不贵，所以人很多。 | Suīrán zhè jiā fànguǎn bú dà, dànshì cài hěn hǎochī, yě bú guì, suǒyǐ rén hěn duō.
+H 这家饭馆怎么样？ | Zhè jiā fànguǎn zěnmeyàng?
+A 菜很好吃 | cài hěn hǎochī
+X 很大 | hěn dà
+X 很贵 | hěn guì
+
+### doan3
+P 我妹妹今年上高中了，她学习很好，每次考试都考第一名。 | Wǒ mèimei jīnnián shàng gāozhōng le, tā xuéxí hěn hǎo, měi cì kǎoshì dōu kǎo dì yī míng.
+H 妹妹学习怎么样？ | Mèimei xuéxí zěnmeyàng?
+A 很好 | hěn hǎo
+X 不太好 | bú tài hǎo
+X 没意思 | méi yìsi
+
+### doan4
+P 今天下雨了，外面很冷，所以我没出门，在家看了一天书。 | Jīntiān xià yǔ le, wàimiàn hěn lěng, suǒyǐ wǒ méi chūmén, zài jiā kàn le yì tiān shū.
+H 他今天做什么了？ | Tā jīntiān zuò shénme le?
+A 在家看书 | zài jiā kàn shū
+X 出去玩儿 | chūqù wánr
+X 去学校 | qù xuéxiào
+
+### doan5
+P 我家离公司很远，坐公交车要一个多小时，所以我每天早上六点就起床了。 | Wǒ jiā lí gōngsī hěn yuǎn, zuò gōngjiāochē yào yí ge duō xiǎoshí, suǒyǐ wǒ měi tiān zǎoshang liù diǎn jiù qǐchuáng le.
+H 他为什么起得很早？ | Tā wèi shénme qǐ de hěn zǎo?
+A 家离公司远 | jiā lí gōngsī yuǎn
+X 要去跑步 | yào qù pǎobù
+X 要准备早饭 | yào zhǔnbèi zǎofàn
+
+### doan6
+P 爷爷今年八十岁了，身体还很好，每天都去外面走路。 | Yéye jīnnián bāshí suì le, shēntǐ hái hěn hǎo, měi tiān dōu qù wàimiàn zǒulù.
+H 爷爷多大了？ | Yéye duō dà le?
+A 八十岁 | bāshí suì
+X 十八岁 | shíbā suì
+X 七十岁 | qīshí suì
+
+### doan7
+P 昨天是我的生日，朋友们送给我很多东西，我最喜欢的是一块手表。 | Zuótiān shì wǒ de shēngrì, péngyoumen sòng gěi wǒ hěn duō dōngxi, wǒ zuì xǐhuan de shì yí kuài shǒubiǎo.
+H 他最喜欢什么？ | Tā zuì xǐhuan shénme?
+A 手表 | shǒubiǎo
+X 花 | huā
+X 书包 | shūbāo
+
+### doan8
+P 我们班有二十多个学生，男孩儿比女孩儿多一些。 | Wǒmen bān yǒu èrshí duō ge xuésheng, nánháir bǐ nǚháir duō yìxiē.
+H 他们班谁多？ | Tāmen bān shéi duō?
+A 男孩儿 | nánháir
+X 女孩儿 | nǚháir
+X 老师 | lǎoshī
+
+### doan9
+P 这件衣服颜色很好看，但是有点儿小，我想买大一点儿的。 | Zhè jiàn yīfu yánsè hěn hǎokàn, dànshì yǒudiǎnr xiǎo, wǒ xiǎng mǎi dà yìdiǎnr de.
+H 这件衣服怎么样？ | Zhè jiàn yīfu zěnmeyàng?
+A 有点儿小 | yǒudiǎnr xiǎo
+X 颜色不好 | yánsè bù hǎo
+X 太大了 | tài dà le
+
+### doan10
+P 我在中国学习了两年汉语，现在说得很好，也认识很多中国朋友。 | Wǒ zài Zhōngguó xuéxí le liǎng nián Hànyǔ, xiànzài shuō de hěn hǎo, yě rènshi hěn duō Zhōngguó péngyou.
+H 他学了多长时间汉语？ | Tā xué le duō cháng shíjiān Hànyǔ?
+A 两年 | liǎng nián
+X 两个月 | liǎng ge yuè
+X 二十年 | èrshí nián
+
+### doan11
+P 我的手机坏了，明天要去商场买一个新的。 | Wǒ de shǒujī huài le, míngtiān yào qù shāngchǎng mǎi yí ge xīn de.
+H 他明天要做什么？ | Tā míngtiān yào zuò shénme?
+A 买手机 | mǎi shǒujī
+X 买电脑 | mǎi diànnǎo
+X 看电影 | kàn diànyǐng
+
+### doan12
+P 妈妈让我早点儿回家，因为今天是爸爸的生日。 | Māma ràng wǒ zǎo diǎnr huí jiā, yīnwèi jīntiān shì bàba de shēngrì.
+H 为什么要早点儿回家？ | Wèi shénme yào zǎo diǎnr huí jiā?
+A 今天是爸爸的生日 | jīntiān shì bàba de shēngrì
+X 要准备考试 | yào zhǔnbèi kǎoshì
+X 外面下雨了 | wàimiàn xià yǔ le

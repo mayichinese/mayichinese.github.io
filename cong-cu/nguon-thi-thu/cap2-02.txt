@@ -1,0 +1,167 @@
+# ===== NGÂN HÀNG CÂU HỎI THI THỬ HSK 2 – FILE 2: HỘI THOẠI + CÂU HỎI (Nghe phần 3) =====
+# Mỗi mục (### hoi…): hai câu hội thoại (N), câu hỏi (H), đáp án đúng (A), hai đáp án sai (X).
+#   N câu | pinyin
+#   H câu hỏi | pinyin
+#   A đáp án | pinyin
+#   X đáp án sai | pinyin
+# Đáp án sai phải chắc chắn SAI theo hội thoại. Chỉ dùng chữ cấp 1–2.
+
+### hoi1
+N 你明天去学校吗？ | Nǐ míngtiān qù xuéxiào ma?
+N 不去，明天是星期六。 | Bú qù, míngtiān shì xīngqīliù.
+H 明天是星期几？ | Míngtiān shì xīngqī jǐ?
+A 星期六 | xīngqīliù
+X 星期五 | xīngqīwǔ
+X 星期天 | xīngqītiān
+
+### hoi2
+N 你怎么去机场？ | Nǐ zěnme qù jīchǎng?
+N 我打车去，坐地铁太慢了。 | Wǒ dǎchē qù, zuò dìtiě tài màn le.
+H 他怎么去机场？ | Tā zěnme qù jīchǎng?
+A 打车 | dǎchē
+X 坐地铁 | zuò dìtiě
+X 坐公交车 | zuò gōngjiāochē
+
+### hoi3
+N 这件衣服多少钱？ | Zhè jiàn yīfu duōshao qián?
+N 三百五十块。 | Sānbǎi wǔshí kuài.
+H 衣服多少钱？ | Yīfu duōshao qián?
+A 三百五十块 | sānbǎi wǔshí kuài
+X 三十五块 | sānshíwǔ kuài
+X 五百三十块 | wǔbǎi sānshí kuài
+
+### hoi4
+N 你哥哥在哪儿工作？ | Nǐ gēge zài nǎr gōngzuò?
+N 他在医院工作，是医生。 | Tā zài yīyuàn gōngzuò, shì yīshēng.
+H 哥哥做什么工作？ | Gēge zuò shénme gōngzuò?
+A 医生 | yīshēng
+X 老师 | lǎoshī
+X 学生 | xuésheng
+
+### hoi5
+N 你喜欢什么运动？ | Nǐ xǐhuan shénme yùndòng?
+N 我喜欢游泳，也喜欢跑步。 | Wǒ xǐhuan yóuyǒng, yě xǐhuan pǎobù.
+H 他喜欢什么运动？ | Tā xǐhuan shénme yùndòng?
+A 游泳和跑步 | yóuyǒng hé pǎobù
+X 篮球和足球 | lánqiú hé zúqiú
+X 跳舞和唱歌 | tiàowǔ hé chàng gē
+
+### hoi6
+N 我们几点见？ | Wǒmen jǐ diǎn jiàn?
+N 下午三点，在学校门口。 | Xiàwǔ sān diǎn, zài xuéxiào ménkǒu.
+H 他们在哪儿见？ | Tāmen zài nǎr jiàn?
+A 学校门口 | xuéxiào ménkǒu
+X 公司门口 | gōngsī ménkǒu
+X 商店门口 | shāngdiàn ménkǒu
+
+### hoi7
+N 你妹妹多大了？ | Nǐ mèimei duō dà le?
+N 她今年十六岁，在上高中。 | Tā jīnnián shíliù suì, zài shàng gāozhōng.
+H 妹妹多大了？ | Mèimei duō dà le?
+A 十六岁 | shíliù suì
+X 十岁 | shí suì
+X 六十岁 | liùshí suì
+
+### hoi8
+N 你今天怎么这么高兴？ | Nǐ jīntiān zěnme zhème gāoxìng?
+N 我考试考了第一名！ | Wǒ kǎoshì kǎo le dì yī míng!
+H 他为什么高兴？ | Tā wèi shénme gāoxìng?
+A 考试考得好 | kǎoshì kǎo de hǎo
+X 今天是生日 | jīntiān shì shēngrì
+X 买了新手机 | mǎi le xīn shǒujī
+
+### hoi9
+N 外面下雨了吗？ | Wàimiàn xià yǔ le ma?
+N 没有，但是天阴了。 | Méiyǒu, dànshì tiān yīn le.
+H 现在天气怎么样？ | Xiànzài tiānqì zěnmeyàng?
+A 阴天 | yīntiān
+X 下雨 | xià yǔ
+X 晴天 | qíngtiān
+
+### hoi10
+N 你的书包真漂亮，在哪儿买的？ | Nǐ de shūbāo zhēn piàoliang, zài nǎr mǎi de?
+N 在网上买的，不太贵。 | Zài wǎngshang mǎi de, bú tài guì.
+H 书包是在哪儿买的？ | Shūbāo shì zài nǎr mǎi de?
+A 网上 | wǎngshang
+X 商场 | shāngchǎng
+X 学校 | xuéxiào
+
+### hoi11
+N 我们坐公交车去吧？ | Wǒmen zuò gōngjiāochē qù ba?
+N 好啊，车站就在前面。 | Hǎo a, chēzhàn jiù zài qiánmiàn.
+H 他们要怎么去？ | Tāmen yào zěnme qù?
+A 坐公交车 | zuò gōngjiāochē
+X 打车 | dǎchē
+X 走路 | zǒulù
+
+### hoi12
+N 你去哪儿？ | Nǐ qù nǎr?
+N 我去一下洗手间。 | Wǒ qù yíxià xǐshǒujiān.
+H 他要去哪儿？ | Tā yào qù nǎr?
+A 洗手间 | xǐshǒujiān
+X 教室 | jiàoshì
+X 饭馆 | fànguǎn
+
+### hoi13
+N 你学汉语学了多长时间了？ | Nǐ xué Hànyǔ xué le duō cháng shíjiān le?
+N 学了两年多了。 | Xué le liǎng nián duō le.
+H 他学了多长时间汉语？ | Tā xué le duō cháng shíjiān Hànyǔ?
+A 两年多 | liǎng nián duō
+X 两个多月 | liǎng ge duō yuè
+X 十多年 | shí duō nián
+
+### hoi14
+N 这个房间怎么样？ | Zhège fángjiān zěnmeyàng?
+N 很大，但是离车站有点儿远。 | Hěn dà, dànshì lí chēzhàn yǒudiǎnr yuǎn.
+H 这个房间怎么样？ | Zhège fángjiān zěnmeyàng?
+A 离车站有点儿远 | lí chēzhàn yǒudiǎnr yuǎn
+X 太小了 | tài xiǎo le
+X 离车站很近 | lí chēzhàn hěn jìn
+
+### hoi15
+N 你爸爸身体好吗？ | Nǐ bàba shēntǐ hǎo ma?
+N 很好，他每天早上都去跑步。 | Hěn hǎo, tā měi tiān zǎoshang dōu qù pǎobù.
+H 爸爸每天早上做什么？ | Bàba měi tiān zǎoshang zuò shénme?
+A 跑步 | pǎobù
+X 游泳 | yóuyǒng
+X 看书 | kàn shū
+
+### hoi16
+N 你给谁买的花？ | Nǐ gěi shéi mǎi de huā?
+N 给我妈妈，今天是她的生日。 | Gěi wǒ māma, jīntiān shì tā de shēngrì.
+H 今天是谁的生日？ | Jīntiān shì shéi de shēngrì?
+A 妈妈 | māma
+X 妻子 | qīzi
+X 姐姐 | jiějie
+
+### hoi17
+N 我的手表呢？ | Wǒ de shǒubiǎo ne?
+N 在床上，你自己看看。 | Zài chuáng shang, nǐ zìjǐ kànkan.
+H 手表在哪儿？ | Shǒubiǎo zài nǎr?
+A 床上 | chuáng shang
+X 书包里 | shūbāo li
+X 桌子上 | zhuōzi shang
+
+### hoi18
+N 你喝红茶还是绿茶？ | Nǐ hē hóngchá háishi lǜchá?
+N 绿茶吧，谢谢。 | Lǜchá ba, xièxie.
+H 他要喝什么？ | Tā yào hē shénme?
+A 绿茶 | lǜchá
+X 红茶 | hóngchá
+X 咖啡 | kāfēi
+
+### hoi19
+N 从这儿到你家要多长时间？ | Cóng zhèr dào nǐ jiā yào duō cháng shíjiān?
+N 坐地铁要四十分钟。 | Zuò dìtiě yào sìshí fēnzhōng.
+H 坐地铁要多长时间？ | Zuò dìtiě yào duō cháng shíjiān?
+A 四十分钟 | sìshí fēnzhōng
+X 十四分钟 | shísì fēnzhōng
+X 一个小时 | yí ge xiǎoshí
+
+### hoi20
+N 晚上我们一起去看电影，怎么样？ | Wǎnshang wǒmen yìqǐ qù kàn diànyǐng, zěnmeyàng?
+N 不去了，我要准备明天的考试。 | Bú qù le, wǒ yào zhǔnbèi míngtiān de kǎoshì.
+H 他晚上要做什么？ | Tā wǎnshang yào zuò shénme?
+A 准备考试 | zhǔnbèi kǎoshì
+X 看电影 | kàn diànyǐng
+X 去旅游 | qù lǚyóu
