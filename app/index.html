@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="vi">
+<html lang="vi" data-giao-dien="sang">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -14,29 +14,68 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Mayi">
+
+  <!-- Phông chữ (cần mạng lần đầu; sau đó app tự lưu lại để dùng offline).
+       Lexend: chữ giao diện · Noto Sans: pinyin (dấu thanh rõ).
+       Chữ Hán dùng phông có sẵn trong máy. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" crossorigin="anonymous"
+        href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&family=Noto+Sans:wght@500;600;700&display=swap">
+
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/man-hinh.css">
+
+  <!-- Đặt sáng/tối ngay từ đầu để trang không bị "nháy" màu khi mở.
+       Chỉ ĐỌC cài đặt trong tiến độ đã lưu, không ghi gì. -->
+  <script>
+    (function () {
+      var cheDo = 'tu-dong';
+      try {
+        var tienDo = JSON.parse(localStorage.getItem('hoc-hsk-tien-do') || '{}');
+        if (tienDo.caiDat && tienDo.caiDat.cheDo) cheDo = tienDo.caiDat.cheDo;
+      } catch (e) { /* không đọc được thì dùng mặc định */ }
+      var toi = cheDo === 'toi' ||
+        (cheDo !== 'sang' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      document.documentElement.dataset.giaoDien = toi ? 'toi' : 'sang';
+    })();
+  </script>
 </head>
 <body>
-  <!-- Thanh trên cùng -->
-  <header class="thanh-tren">
-    <a href="#/" class="logo"><img class="logo-anh" src="icons/icon-192.png" alt="" width="32" height="32"> Mayi Chinese</a>
-    <span id="dong-ho" class="dong-ho" hidden></span>
-  </header>
 
-  <!-- Nội dung từng màn hình được vẽ vào đây (xem js/giao-dien.js) -->
-  <main id="noi-dung" class="noi-dung">
-    <p class="dang-tai">Đang tải dữ liệu…</p>
-  </main>
-
-  <!-- Thanh điều hướng dưới cùng (dễ bấm trên điện thoại) -->
-  <nav class="thanh-duoi">
-    <a href="#/" data-muc="trang-chu"><span class="bieu-tuong">🏠</span>Hôm nay</a>
-    <a href="#/bai" data-muc="bai"><span class="bieu-tuong">📚</span>Bài học</a>
-    <a href="#/cai-dat" data-muc="cai-dat"><span class="bieu-tuong">⚙️</span>Cài đặt</a>
+  <!-- Thanh điều hướng: dưới đáy trên điện thoại, cột bên trái trên máy tính -->
+  <nav class="dieu-huong" aria-label="Điều hướng chính">
+    <a class="thuong-hieu" href="#/" aria-label="Trang chủ Mayi Chinese">
+      <img class="logo-anh" src="icons/icon-192.png" alt="" width="42" height="42">
+      <span class="ten-app">Mayi Chinese<small>HSK 3.0 · 60 phút mỗi ngày</small></span>
+    </a>
+    <a href="#/" data-muc="trang-chu"><span data-bt="nha"></span><span>Hôm nay</span></a>
+    <a href="#/bai" data-muc="bai"><span data-bt="sach"></span><span>Bài học</span></a>
+    <a href="#/luyen-tap" data-muc="luyen-tap"><span data-bt="but"></span><span>Luyện tập</span></a>
+    <a href="#/thong-ke" data-muc="thong-ke"><span data-bt="bieu-do"></span><span>Thống kê</span></a>
   </nav>
 
+  <div class="vung-chinh">
+    <!-- Thanh trên cùng: logo + tên màn hình + đồng hồ + nút sáng/tối, cài đặt -->
+    <header class="thanh-tren">
+      <button id="nut-quay-lai" class="nut-bieu-tuong an" aria-label="Quay lại"></button>
+      <a class="logo-nho" href="#/" aria-label="Trang chủ"><img src="icons/icon-192.png" alt="" width="36" height="36"></a>
+      <h1 id="tieu-de-man-hinh">Mayi Chinese</h1>
+      <span id="dong-ho" class="dong-ho" hidden></span>
+      <div class="nhom-nut-tren">
+        <button id="nut-sang-toi" class="nut-bieu-tuong" aria-label="Đổi sáng/tối" title="Đổi sáng/tối"></button>
+        <a id="nut-cai-dat" class="nut-bieu-tuong" href="#/cai-dat" aria-label="Cài đặt" title="Cài đặt"></a>
+      </div>
+    </header>
+
+    <!-- Nội dung từng màn hình được vẽ vào đây (xem js/app.js) -->
+    <main id="noi-dung" tabindex="-1">
+      <div class="dang-tai">Đang tải dữ liệu…</div>
+    </main>
+  </div>
+
   <!-- Thông báo nhỏ hiện lên rồi tự ẩn -->
-  <div id="thong-bao" class="thong-bao" role="status" aria-live="polite"></div>
+  <div id="thong-bao" role="status" aria-live="polite"></div>
 
   <!-- Nếu trình duyệt quá cũ, không chạy được module -->
   <script nomodule>

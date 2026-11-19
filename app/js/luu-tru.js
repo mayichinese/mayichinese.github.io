@@ -19,6 +19,7 @@ export const CAI_DAT_MAC_DINH = {
   tocDoDoc: 0.8,          // tốc độ giọng đọc (1 = bình thường)
   giongDoc: '',           // tên giọng đọc đã chọn ('' = tự chọn)
   kieuChuKhai: false,     // hiển thị chữ Hán kiểu viết tay (Khải thư)
+  cheDo: 'tu-dong',       // giao diện: 'tu-dong' (theo máy) | 'sang' | 'toi'
   phutMucTieu: { on: 15, moi: 15, nghe: 10, viet: 10, nguPhap: 10 },
 };
 
