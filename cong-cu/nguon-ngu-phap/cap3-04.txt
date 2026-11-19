@@ -1,0 +1,211 @@
+# ===== NGỮ PHÁP HSK 3 – NHÓM 4 (bài 11–14, soạn tay) =====
+# Cách viết: xem đầu file cong-cu/ghep-ngu-phap.py. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–3.
+# Sửa xong chạy: python -X utf8 cong-cu/ghep-ngu-phap.py 3
+
+## ba-ket-qua
+@ Câu chữ 把 (3): 把作业写完了, 把桌子搬出去 – làm cho vật thay đổi thế nào
+§ 特殊句型 · “把”字句1(3)：主语+把+宾语+动词+结果补语/趋向补语/状态补语
+& 11
+= Chủ ngữ + 把 + vật + động từ + bổ ngữ kết quả (完 / 好 / 错 / 干净…) (+ 了)
+= Chủ ngữ + 把 + vật + động từ + bổ ngữ xu hướng (进来 / 出去 / 回去…)
+= Chủ ngữ + 把 + vật + động từ + 得 + bổ ngữ trạng thái
+- 把 đưa vật bị tác động lên trước động từ, để nói rõ việc làm khiến vật đó ra sao: 我把作业写完了 (tôi làm xong bài tập rồi).
+- Vật sau 把 là vật đã xác định (người nghe biết là cái nào): 这本书, 你的手机, 桌子 (cái bàn đã nói tới).
+- Sau động từ phải có thêm thành phần: kết quả (写完, 洗干净), hướng (搬出去, 拿进来) hoặc trạng thái (打扫得很干净).
+- Phủ định: 没 đặt trước 把: 我还没把作业写完.
+! Động từ không đứng một mình ở cuối: nói 我把作业写完了, không nói 我把作业写.
+! Động từ không làm vật thay đổi (喜欢, 知道, 是, 有…) không dùng với 把: nói 我喜欢他, không nói 我把他喜欢.
+> 我/把/作业/写完/了。 | Wǒ bǎ zuòyè xiěwán le. | Tôi làm xong bài tập rồi.
+> 他们/把/桌子/搬/出去/了。 | Tāmen bǎ zhuōzi bān chūqù le. | Họ khiêng cái bàn ra ngoài rồi.
+~ 他们/把/桌子/搬/了/出去。
+> 妈妈/把/房间/打扫/得/很/干净。 | Māma bǎ fángjiān dǎsǎo de hěn gānjìng. | Mẹ dọn phòng rất sạch.
+> 他/没/把/钱/带来。 | Tā méi bǎ qián dàilái. | Anh ấy không mang tiền đến.
+? 我已经___衣服洗干净了。 | 把 | 被; 从; 对 | Wǒ yǐjīng bǎ yīfu xǐ gānjìng le. | Tôi đã giặt sạch quần áo rồi.
+? 对不起，我把你的名字写___了。 | 错 | 很; 太; 是 | Duìbuqǐ, wǒ bǎ nǐ de míngzi xiěcuò le. | Xin lỗi, tôi viết sai tên bạn rồi.
+? 外面下雨了，快把衣服拿___来！ | 进 | 在; 从; 是 | Wàimiàn xià yǔ le, kuài bǎ yīfu ná jìnlái! | Ngoài trời mưa rồi, mau mang quần áo vào!
+
+## haishi-huozhe
+@ 还是 (hỏi: … hay …?) và 或者 (kể: … hoặc …); 或者……，或者……
+§ 复句 · 选择复句：或者……，或者…… · 连词“或者”“还是”
+& 11
+= A + 还是 + B？   (câu hỏi, người nghe phải chọn một)
+= A + 或者 + B   (câu kể: A hoặc B đều được)
+= 或者 + A，或者 + B   (hoặc… hoặc…)
+- Tiếng Việt “hay / hoặc” có hai cách dịch: hỏi để người nghe chọn thì dùng 还是 (你喝茶还是喝咖啡？); kể, đề nghị thì dùng 或者 (我喝茶或者喝咖啡都行).
+- Câu hỏi lựa chọn nằm trong câu kể (sau 不知道, 想好, 问…) vẫn dùng 还是: 我不知道他去还是不去.
+- 或者……，或者……: nêu hai khả năng, chọn cái nào cũng được: 或者你来，或者我去.
+! Câu hỏi để người nghe chọn không dùng 或者: nói 你去还是我去？, không nói 你去或者我去？
+! Câu kể bình thường không dùng 还是: nói 下课以后我常常去图书馆或者去打球, không nói 我常常去图书馆还是去打球.
+> 你/想/去/中国/还是/日本？ | Nǐ xiǎng qù Zhōngguó háishi Rìběn? | Bạn muốn đi Trung Quốc hay Nhật Bản?
+~ 你/想/去/日本/还是/中国？
+> 我/想/去/爬山/或者/游泳。 | Wǒ xiǎng qù páshān huòzhě yóuyǒng. | Tôi muốn đi leo núi hoặc đi bơi.
+~ 我/想/去/游泳/或者/爬山。
+> 或者/你/来，/或者/我/去，/都/行。 | Huòzhě nǐ lái, huòzhě wǒ qù, dōu xíng. | Hoặc bạn đến, hoặc tôi đi, đều được.
+~ 或者/我/去，/或者/你/来，/都/行。
+> 我/不/知道/他/去/还是/不/去。 | Wǒ bù zhīdào tā qù háishi bú qù. | Tôi không biết anh ấy đi hay không đi.
+? 你是今天走___明天走呢？ | 还是 | 或者; 但是; 因为 | Nǐ shì jīntiān zǒu háishi míngtiān zǒu ne? | Bạn đi hôm nay hay ngày mai?
+? 下课以后，我常常去图书馆___去打球。 | 或者 | 还是; 但是; 因为 | Xiàkè yǐhòu, wǒ chángcháng qù túshūguǎn huòzhě qù dǎ qiú. | Tan học, tôi thường đến thư viện hoặc đi chơi bóng.
+? 我不知道他明天来___不来。 | 还是 | 或者; 但是; 而且 | Wǒ bù zhīdào tā míngtiān lái háishi bù lái. | Tôi không biết ngày mai anh ấy có đến hay không.
+
+## kanlai
+@ 看来: xem ra; 在……看来: theo (ý) ai
+§ 固定短语 · 看来 · 在……看来
+& 11
+= 看来，+ nhận định (rút ra từ điều vừa thấy, vừa nghe)
+= 在 + người + 看来，+ ý kiến
+- 看来 = xem ra, có vẻ như: dựa vào tình hình trước mắt để đoán: 天黑了，看来要下雨了.
+- 看来 thường đứng đầu vế câu, sau vế nêu lý do.
+- 在……看来 = theo cách nghĩ của ai: 在我看来，这个办法不错 (theo tôi, cách này được đấy).
+- Khác 看起来 (bài 1): 看起来 hay dùng để tả vẻ ngoài (他看起来很累), cũng có thể dùng để đoán; 看来 chủ yếu để rút ra kết luận về sự việc.
+! 看来 không có nghĩa “nhìn thấy”: nói 我看见他了, không nói 我看来他了.
+! “Theo tôi” nói 在我看来 hoặc 我觉得, không nói 根据我，…….
+> 天/黑/了，/看来/要/下雨/了。 | Tiān hēi le, kànlái yào xià yǔ le. | Trời tối rồi, xem ra sắp mưa.
+> 他/还/没/来，/看来/他/不/会/来/了。 | Tā hái méi lái, kànlái tā bú huì lái le. | Anh ấy vẫn chưa đến, xem ra anh ấy không đến nữa.
+> 在/我/看来，/这/本/书/很/有意思。 | Zài wǒ kànlái, zhè běn shū hěn yǒu yìsi. | Theo tôi, cuốn sách này rất hay.
+> 在/很多/人/看来，/学/汉语/很/难。 | Zài hěn duō rén kànlái, xué Hànyǔ hěn nán. | Theo nhiều người, học tiếng Hán rất khó.
+? 他的房间没开灯，___他不在家。 | 看来 | 好看; 看病; 看完 | Tā de fángjiān méi kāi dēng, kànlái tā bú zài jiā. | Phòng anh ấy không bật đèn, xem ra anh ấy không có nhà.
+? 在老师___，这个办法很好。 | 看来 | 看见; 看完; 看过 | Zài lǎoshī kànlái, zhège bànfǎ hěn hǎo. | Theo thầy giáo, cách này rất tốt.
+? ___我看来，你应该多休息。 | 在 | 对; 给; 往 | Zài wǒ kànlái, nǐ yīnggāi duō xiūxi. | Theo tôi, bạn nên nghỉ ngơi nhiều hơn.
+
+## dui-laishuo
+@ 对……来说: đối với… mà nói
+§ 固定格式 · 对……来说
+& 11
+= 对 + người / sự việc + 来说，+ nhận xét
+- Nhìn từ phía người hoặc việc đó để nhận xét: 对我来说，汉字最难 (với tôi, chữ Hán khó nhất).
+- Cụm 对……来说 có thể đứng đầu câu hoặc sau chủ ngữ: 这件事对我来说很重要.
+- Khác 在……看来: 在我看来 = ý kiến của tôi; 对我来说 = việc đó với tôi thế nào (khó, dễ, quan trọng…).
+! Không bỏ 来说: nói 对我来说，这很重要, không nói 对我，这很重要.
+! Không thay 对 bằng 给 / 跟: không nói 给我来说 hay 跟我来说.
+> 对/我/来说，/汉字/最/难。 | Duì wǒ láishuō, Hànzì zuì nán. | Đối với tôi, chữ Hán khó nhất.
+> 对/学生/来说，/考试/很/重要。 | Duì xuésheng láishuō, kǎoshì hěn zhòngyào. | Đối với học sinh, thi cử rất quan trọng.
+> 对/他/来说，/每天/跑步/不/难。 | Duì tā láishuō, měi tiān pǎobù bù nán. | Đối với anh ấy, ngày nào cũng chạy bộ không khó.
+> 这/件/事/对/我/来说/很/重要。 | Zhè jiàn shì duì wǒ láishuō hěn zhòngyào. | Việc này đối với tôi rất quan trọng.
+~ 对/我/来说/这/件/事/很/重要。
+? 对我___，早上六点起床太早了。 | 来说 | 看来; 说话; 来到 | Duì wǒ láishuō, zǎoshang liù diǎn qǐchuáng tài zǎo le. | Đối với tôi, sáu giờ sáng dậy là quá sớm.
+? ___孩子来说，这本书有点儿难。 | 对 | 给; 跟; 把 | Duì háizi láishuō, zhè běn shū yǒudiǎnr nán. | Đối với trẻ con, cuốn sách này hơi khó.
+? 这个工作___我来说很合适。 | 对 | 被; 向; 把 | Zhège gōngzuò duì wǒ láishuō hěn héshì. | Công việc này đối với tôi rất phù hợp.
+
+## xu-huong-bat-dau
+@ Bổ ngữ xu hướng chỉ bắt đầu / tiếp tục: 笑起来, 爱上, 说下去, 坚持下来
+§ 补语 · 趋向补语的引申用法：表示开始、持续（起来、上、下去、下来）
+& 12
+= Động từ / tính từ + 起来   (bắt đầu và kéo dài: 笑起来, 热起来)
+= Động từ + 起 + tân ngữ + 来   (下起雨来, 唱起歌来)
+= Động từ + 上   (bắt đầu, thường là thích / yêu: 爱上, 喜欢上)
+= Động từ + 下去   (tiếp tục làm tiếp: 说下去, 学下去)
+= Động từ + 下来   (giữ được từ trước đến nay: 坚持下来)
+- 起来 = bắt đầu (một việc trước đó chưa có): 大家都笑起来了 (mọi người bật cười), 天气热起来了 (trời bắt đầu nóng).
+- 上 sau 爱 / 喜欢 = bắt đầu yêu, thích: 我爱上了这个城市.
+- 下去 = làm tiếp từ bây giờ về sau: 你说下去 (bạn nói tiếp đi). 下来 = đã giữ được từ trước đến giờ: 每天跑步，他坚持下来了.
+! Tân ngữ đặt giữa 起 và 来: nói 下起雨来了, không nói 下起来雨了.
+! “Tiếp tục” về sau dùng 下去, không dùng 下来: nói 你说下去吧, không nói 你说下来吧.
+> 大家/都/笑/起来/了。 | Dàjiā dōu xiào qǐlái le. | Mọi người đều bật cười.
+> 外面/下/起/雨/来/了。 | Wàimiàn xià qǐ yǔ lái le. | Bên ngoài bắt đầu mưa rồi.
+> 我/爱/上/了/这个/城市。 | Wǒ ài shàng le zhège chéngshì. | Tôi đã yêu thành phố này.
+> 这/本/书/很/有意思，/我/想/看/下去。 | Zhè běn shū hěn yǒu yìsi, wǒ xiǎng kàn xiàqù. | Cuốn sách này rất hay, tôi muốn đọc tiếp.
+? 天气慢慢热___了。 | 起来 | 上去; 出来; 过来 | Tiānqì mànmàn rè qǐlái le. | Trời dần dần nóng lên rồi.
+? 你说得很好，请说___。 | 下去 | 起来; 过来; 进来 | Nǐ shuō de hěn hǎo, qǐng shuō xiàqù. | Bạn nói rất hay, mời nói tiếp.
+? 我第一次来这儿就喜欢___了这里。 | 上 | 下; 过; 着 | Wǒ dì yī cì lái zhèr jiù xǐhuan shàng le zhèlǐ. | Lần đầu đến đây tôi đã thích nơi này.
+
+## jiu-chi
+@ 就 = chỉ: 就他一个人来了, 就有五块钱
+§ 副词 · 范围副词：就3
+& 12
+= 就 + động từ + số lượng   (就有五块钱: chỉ có năm đồng)
+= 就 + người + (động từ)   (就他一个人来了: chỉ mình anh ấy đến)
+- Ở đây 就 = 只 (chỉ): 我就会说一点儿汉语 = 我只会说一点儿汉语.
+- 就 đặt TRƯỚC người để nói “chỉ có người đó”: 教室里就他一个人.
+- 就 còn nghĩa “sớm, ngay” (bài 3: 他八点就来了). Phân biệt nhờ ngữ cảnh: có số lượng nhỏ, có 一个人 thì thường là “chỉ”.
+! Muốn nói “chỉ anh ấy đến” thì 就 đứng trước 他: nói 就他来了; nói 他就来了 thành “anh ấy đến ngay”.
+! 就 đứng trước động từ, không đứng sau: nói 我就买了一本, không nói 我买就一本.
+> 教室/里/就/他/一个/人。 | Jiàoshì lǐ jiù tā yí ge rén. | Trong lớp chỉ có mình anh ấy.
+> 我/身上/就/有/五/块/钱。 | Wǒ shēnshang jiù yǒu wǔ kuài qián. | Trên người tôi chỉ có năm đồng.
+> 他/一天/就/睡/五个小时。 | Tā yì tiān jiù shuì wǔ ge xiǎoshí. | Anh ấy một ngày chỉ ngủ năm tiếng.
+~ 一天/他/就/睡/五个小时。
+> 我/就/会/说/一点儿/汉语。 | Wǒ jiù huì shuō yìdiǎnr Hànyǔ. | Tôi chỉ biết nói một chút tiếng Hán.
+? 这个菜不好吃，我___吃了一口。 | 就 | 更; 太; 最 | Zhège cài bù hǎochī, wǒ jiù chī le yì kǒu. | Món này không ngon, tôi chỉ ăn một miếng.
+? 大家都走了，___他一个人还在教室里。 | 就 | 都; 才; 很 | Dàjiā dōu zǒu le, jiù tā yí ge rén hái zài jiàoshì lǐ. | Mọi người đi hết rồi, chỉ còn mình anh ấy ở trong lớp.
+? 我们班___三个人去过中国。 | 就 | 很; 太; 最 | Wǒmen bān jiù sān ge rén qù guo Zhōngguó. | Lớp chúng tôi chỉ có ba người từng đến Trung Quốc.
+
+## dehua
+@ ……的话，（就）……: nếu… thì…
+§ 复句 · 假设复句：……的话，（就）…… · 助词“的话”
+& 13
+= Điều kiện + 的话，(chủ ngữ) + 就 + kết quả
+= 如果 / 要是 + điều kiện + 的话，……
+- 的话 đặt ở CUỐI vế điều kiện, nghĩa như “nếu”: 你累的话，就休息吧 (nếu bạn mệt thì nghỉ đi).
+- Có thể dùng một mình hoặc đi cùng 如果 / 要是 ở đầu vế: 如果你忙的话，就别来了.
+- Vế sau thường có 就; 就 đứng sau chủ ngữ của vế sau. Hay dùng trong khẩu ngữ.
+! 的话 đứng cuối vế điều kiện, không đứng đầu: nói 你累的话，就休息吧, không nói 的话你累，就休息吧.
+! 就 đứng sau chủ ngữ: nói 下雨的话，我们就不去了, không nói 下雨的话，就我们不去了.
+> 你/累/的话，/就/休息/一下/吧。 | Nǐ lèi de huà, jiù xiūxi yíxià ba. | Nếu bạn mệt thì nghỉ một chút đi.
+> 明天/下雨/的话，/我们/就/不/去/了。 | Míngtiān xià yǔ de huà, wǒmen jiù bú qù le. | Nếu ngày mai mưa thì chúng ta không đi nữa.
+> 如果/你/有/时间/的话，/来/我/家/玩儿/吧。 | Rúguǒ nǐ yǒu shíjiān de huà, lái wǒ jiā wánr ba. | Nếu bạn có thời gian thì đến nhà tôi chơi nhé.
+~ 你/如果/有/时间/的话，/来/我/家/玩儿/吧。
+> 要是/不/喜欢/的话，/就/别/买/了。 | Yàoshi bù xǐhuan de huà, jiù bié mǎi le. | Nếu không thích thì đừng mua nữa.
+? 你不舒服___，就别去上课了。 | 的话 | 说话; 看来; 来说 | Nǐ bù shūfu de huà, jiù bié qù shàngkè le. | Nếu bạn không khỏe thì đừng đi học nữa.
+? 如果明天天气好的话，我们___去爬山。 | 就 | 把; 被; 更 | Rúguǒ míngtiān tiānqì hǎo de huà, wǒmen jiù qù páshān. | Nếu mai trời đẹp thì chúng ta đi leo núi.
+? 你想去___，我和你一起去。 | 的话 | 来说; 看来; 以前 | Nǐ xiǎng qù de huà, wǒ hé nǐ yìqǐ qù. | Nếu bạn muốn đi thì tôi đi cùng bạn.
+
+## yibian-yihuir
+@ 一边……一边…… (vừa… vừa…) và 一会儿……一会儿…… (lúc thì… lúc thì…)
+§ 复句 · 并列复句：一边……一边……；一会儿……一会儿……
+& 13
+= Chủ ngữ + 一边 + hành động 1 + 一边 + hành động 2   (cùng lúc)
+= 一会儿 + A + 一会儿 + B   (thay nhau, đổi liên tục)
+- 一边……一边……: hai hành động làm CÙNG LÚC: 他一边吃饭一边看电视 (anh ấy vừa ăn cơm vừa xem tivi).
+- 一会儿……一会儿……: hai việc, hai trạng thái thay nhau, lúc này lúc khác: 天气一会儿冷一会儿热 (trời lúc lạnh lúc nóng).
+- So với 又……又…… (bài 2): 又便宜又好吃 nói hai đặc điểm cùng có (thường là tính từ); 一边……一边…… chỉ dùng với động từ chỉ hành động.
+! 一边……一边…… không đi với tính từ: nói 又高又大, không nói 一边高一边大.
+! Chủ ngữ đứng trước 一边 thứ nhất: nói 他一边听音乐一边写作业, không nói 一边他听音乐一边写作业.
+> 他/一边/吃饭/一边/看/电视。 | Tā yìbiān chīfàn yìbiān kàn diànshì. | Anh ấy vừa ăn cơm vừa xem tivi.
+~ 他/一边/看/电视/一边/吃饭。
+> 我/喜欢/一边/听/音乐/一边/跑步。 | Wǒ xǐhuan yìbiān tīng yīnyuè yìbiān pǎobù. | Tôi thích vừa nghe nhạc vừa chạy bộ.
+~ 我/喜欢/一边/跑步/一边/听/音乐。
+> 今天/天气/一会儿/冷/一会儿/热。 | Jīntiān tiānqì yíhuìr lěng yíhuìr rè. | Hôm nay trời lúc lạnh lúc nóng.
+~ 今天/天气/一会儿/热/一会儿/冷。
+> 孩子/一会儿/哭，/一会儿/笑。 | Háizi yíhuìr kū, yíhuìr xiào. | Đứa trẻ lúc thì khóc, lúc thì cười.
+? 我们一边走___聊天吧。 | 一边 | 一会儿; 一起; 一下 | Wǒmen yìbiān zǒu yìbiān liáotiān ba. | Chúng ta vừa đi vừa nói chuyện nhé.
+? 这个孩子___要喝水，一会儿要吃东西。 | 一会儿 | 一边; 一起; 一点儿 | Zhège háizi yíhuìr yào hē shuǐ, yíhuìr yào chī dōngxi. | Đứa trẻ này lúc thì đòi uống nước, lúc thì đòi ăn.
+? 这家饭馆的菜___便宜又好吃。 | 又 | 一边; 一会儿; 一起 | Zhè jiā fànguǎn de cài yòu piányi yòu hǎochī. | Món ăn ở quán này vừa rẻ vừa ngon.
+
+## bei
+@ Câu bị động với 被: 我的自行车被骑走了
+§ 特殊句型 · 被动句1：主语+被(+宾语)+动词+其他成分
+& 14
+= Người / vật chịu tác động + 被 (+ người làm) + động từ + thành phần khác (了 / bổ ngữ…)
+= Phủ định: … + 没 + 被 + … + động từ + …
+- Dùng khi muốn nói người / vật “bị” làm sao, thường là việc không mong muốn: 我的自行车被人骑走了.
+- Người làm đặt sau 被; không biết hoặc không cần nói thì bỏ đi: 我的自行车被骑走了.
+- Giống câu 把, động từ không đứng một mình: sau nó có 了 hoặc bổ ngữ (吃完了, 拿走了, 喝完了).
+- So sánh: 弟弟把蛋糕吃了 (em trai ăn bánh) = 蛋糕被弟弟吃了 (bánh bị em trai ăn).
+! “Bị ốm, bị cảm” không dùng 被: nói 我感冒了, không nói 我被感冒了.
+! Động từ không đứng một mình ở cuối: nói 蛋糕被弟弟吃了, không nói 蛋糕被弟弟吃.
+> 我/的/自行车/被/人/骑走/了。 | Wǒ de zìxíngchē bèi rén qízǒu le. | Xe đạp của tôi bị người ta lấy đi mất rồi.
+> 蛋糕/被/弟弟/吃/完/了。 | Dàngāo bèi dìdi chīwán le. | Bánh ngọt bị em trai ăn hết rồi.
+> 他/被/老师/叫/走/了。 | Tā bèi lǎoshī jiàozǒu le. | Cậu ấy bị thầy giáo gọi đi rồi.
+> 我/的/书/没/被/拿/走。 | Wǒ de shū méi bèi názǒu. | Sách của tôi không bị lấy đi.
+? 我的手机___弟弟拿走了。 | 被 | 把; 对; 从 | Wǒ de shǒujī bèi dìdi názǒu le. | Điện thoại của tôi bị em trai lấy đi rồi.
+? 杯子里的水被他喝___了。 | 完 | 很; 是; 太 | Bēizi lǐ de shuǐ bèi tā hēwán le. | Nước trong cốc bị anh ấy uống hết rồi.
+? 弟弟___我的蛋糕吃了。 | 把 | 被; 从; 向 | Dìdi bǎ wǒ de dàngāo chī le. | Em trai ăn mất bánh ngọt của tôi rồi.
+
+## xian-zai
+@ 先……，再 / 然后……: trước… rồi…
+§ 复句 · 承接复句：先……，再/然后……
+& 14
+= Chủ ngữ + 先 + việc 1，(chủ ngữ) + 再 + việc 2
+= 先 + việc 1，然后 (+ chủ ngữ) + việc 2
+= 先 + việc 1，然后 + 再 + việc 2
+- 先 = trước tiên; 再 / 然后 = sau đó: 我们先吃饭，再去看电影.
+- 再 thường dùng cho việc sắp làm, kế hoạch, lời khuyên; kể việc đã xảy ra thì hay dùng 然后: 他先去了银行，然后去了超市.
+- 先 và 再 là phó từ, đứng SAU chủ ngữ; 然后 có thể đứng đầu vế sau, trước chủ ngữ: 你先说，然后我说.
+! 再 đứng sau chủ ngữ: nói 你先走，我再走, không nói 你先走，再我走.
+! 先 đứng sau chủ ngữ: nói 我先洗澡, không nói 先我洗澡.
+> 我们/先/吃饭，/再/去/看/电影。 | Wǒmen xiān chīfàn, zài qù kàn diànyǐng. | Chúng ta ăn cơm trước rồi đi xem phim.
+> 你/先/想/一/想，/再/回答。 | Nǐ xiān xiǎng yi xiǎng, zài huídá. | Bạn nghĩ một chút trước rồi hãy trả lời.
+> 先/洗/手，/然后/吃/东西。 | Xiān xǐ shǒu, ránhòu chī dōngxi. | Rửa tay trước rồi mới ăn.
+> 他/先/去/了/银行，/然后/去/了/超市。 | Tā xiān qù le yínháng, ránhòu qù le chāoshì. | Anh ấy đến ngân hàng trước, sau đó đi siêu thị.
+? 你___做作业，然后再玩儿。 | 先 | 最; 更; 太 | Nǐ xiān zuò zuòyè, ránhòu zài wánr. | Con làm bài tập trước, sau đó hãy chơi.
+? 我们先休息一下，___走吧。 | 再 | 先; 才; 又 | Wǒmen xiān xiūxi yíxià, zài zǒu ba. | Chúng ta nghỉ một chút đã, rồi hãy đi.
+? 他先给妈妈打了电话，___出门了。 | 然后 | 先; 以前; 从 | Tā xiān gěi māma dǎ le diànhuà, ránhòu chūmén le. | Anh ấy gọi điện cho mẹ trước, sau đó ra khỏi nhà.

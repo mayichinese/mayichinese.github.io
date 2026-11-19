@@ -64,7 +64,8 @@
   bảng từ sách, 49 từ xếp tay theo chủ đề; mục trùng: `得(děi)`) + `bai-NN.txt` → `python -X utf8 cong-cu/ghep-du-lieu-cap.py 3`
   → `app/data/hsk3.json` (chữ cho phép cấp 1–3). Mã bài '3-5'. Chữ viết tay cấp 3 (150) XONG: `data/net-chu-hsk23.json` (khóa vietTay3 + nét của
   mọi chữ trong từ HSK 2–3; file 1 net-chu-hsk1.json giữ nguyên), net-chu.js gộp hai file; Luyện viết có chip Cấp 1–2 / Cấp 3,
-  chữ mới hết cấp 1–2 mới sang cấp 3. Còn: ngữ pháp cấp 3, thi thử HSK 3.
+  chữ mới hết cấp 1–2 mới sang cấp 3. Ngữ pháp cấp 3 XONG: 51 điểm `cap3-01…05.txt`
+  (`ghep-ngu-phap.py 3` → `data/ngu-phap-hsk3.json`; danh sách điểm theo thứ tự bài sách, soạn song song rồi soát độc lập). Còn: thi thử HSK 3.
 - Giai đoạn 5.1: `js/man-thong-ke.js` (chỉ đọc tiến độ; biểu đồ SVG tự vẽ, màu `--bd-1…5` đã kiểm tra mù màu).
 - `CHAY-APP.bat` – chạy app trên máy (máy chủ nhỏ ở localhost). `HUONG-DAN.md` – hướng dẫn người dùng.
 

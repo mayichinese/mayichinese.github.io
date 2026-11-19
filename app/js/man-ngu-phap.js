@@ -1,6 +1,6 @@
 // =========================================================
 // NGỮ PHÁP (Giai đoạn 4)
-//   #/ngu-phap              danh sách điểm ngữ pháp HSK 1, HSK 2 (theo thứ tự nên học)
+//   #/ngu-phap              danh sách điểm ngữ pháp HSK 1, 2, 3 (theo thứ tự nên học)
 //   #/ngu-phap/<mã>         bài học: công thức, giải thích, lỗi hay mắc, ví dụ
 //   #/ngu-phap/<mã>/luyen   luyện tập một điểm (sắp xếp câu + điền từ)
 //   #/ngu-phap/on           ôn các điểm đến hạn
@@ -20,6 +20,7 @@ import { tatCaTu, baiSachCuaNguPhap } from './du-lieu.js';
 const CAC_FILE_NP = [
   { cap: 1, duongDan: 'data/ngu-phap-hsk1.json' },
   { cap: 2, duongDan: 'data/ngu-phap-hsk2.json', tuyChon: true },
+  { cap: 3, duongDan: 'data/ngu-phap-hsk3.json', tuyChon: true },
 ];
 import { doc } from './phat-am.js';
 import { esc, batDongHo, nutLoa, CHU_THICH_CHAM } from './giao-dien.js';

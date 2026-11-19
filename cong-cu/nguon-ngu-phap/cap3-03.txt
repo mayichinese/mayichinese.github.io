@@ -1,0 +1,216 @@
+# ===== NGỮ PHÁP HSK 3 – NHÓM 3 (soạn tay) =====
+# Cách viết: xem đầu file cong-cu/ghep-ngu-phap.py. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–3.
+# Sửa xong chạy: python -X utf8 cong-cu/ghep-ngu-phap.py 3
+
+## ly-hop-3
+@ Từ ly hợp cấp 3: 见面, 结婚, 洗澡, 放假; 离开, 完成
+§ 动词 · 离合词（放假、见面、结婚、洗澡；离开、完成、分开）
+& 8
+= A + 跟 / 和 + B + 见面 / 结婚   (người đặt TRƯỚC từ, không đặt sau)
+= Chen 了 / 过 / 个 / số lượng vào giữa: 见了一面, 结过婚, 洗个澡, 放了七天假
+= 离开 / 完成 + tân ngữ   (离开家, 完成工作); chen 得 / 不: 离不开, 完不成
+- 见面, 结婚, 洗澡, 放假 gồm “động từ + danh từ” (见 + 面, 结 + 婚…), bên trong đã có tân ngữ nên không thêm tân ngữ phía sau. Muốn nói “gặp ai, cưới ai” thì dùng 跟 / 和 + người đặt trước: 跟朋友见面, 和她结婚.
+- Có thể tách ra để chen 了, 过, 个, số lượng: 我们见过一面 (từng gặp nhau một lần), 洗个澡 (tắm một cái), 放了七天假 (nghỉ bảy ngày).
+- 离开, 完成, 分开 gồm “động từ + bổ ngữ”: được mang tân ngữ ngay phía sau (离开家, 完成作业) và chen 得 / 不 vào giữa để nói “được / không được”: 离不开 (không rời được), 完不成 (không làm xong được).
+! Không đặt người sau 见面 / 结婚: nói 我想跟你见面, không nói 我想见面你; nói 他和她结婚了, không nói 他结婚她了.
+! 离开 không chen 了 vào giữa: nói 他离开了上海, không nói 他离了开上海.
+> 我/想/跟你/见/个/面。 | Wǒ xiǎng gēn nǐ jiàn ge miàn. | Tôi muốn gặp bạn một chút.
+> 我/每天/晚上/洗/个/澡/再/睡觉。 | Wǒ měi tiān wǎnshang xǐ ge zǎo zài shuìjiào. | Tối nào tôi cũng tắm rồi mới đi ngủ.
+~ 每天/晚上/我/洗/个/澡/再/睡觉。
+> 我们/放/了/七/天/假。 | Wǒmen fàng le qī tiān jià. | Chúng tôi được nghỉ bảy ngày.
+> 作业/太/多/了，/今天/完/不/成。 | Zuòyè tài duō le, jīntiān wán bù chéng. | Bài tập nhiều quá, hôm nay không làm xong được.
+~ 今天/作业/太/多/了，/完/不/成。
+? 明天我要___老朋友见面。 | 跟 | 是; 很; 把 | Míngtiān wǒ yào gēn lǎo péngyou jiànmiàn. | Ngày mai tôi sẽ gặp bạn cũ.
+? 我们放了三天___。 | 假 | 节; 期; 号 | Wǒmen fàng le sān tiān jià. | Chúng tôi được nghỉ ba ngày.
+? 他昨天离___了上海。 | 开 | 到; 在; 过 | Tā zuótiān líkāi le Shànghǎi. | Hôm qua anh ấy đã rời Thượng Hải.
+
+## thoi-luong-cach
+@ Đã bao lâu kể từ khi việc xảy ra: 来中国两年了, 他走了半个小时了
+§ 补语 · 数量补语3：表示动作结束到某个时间点的间隔时间
+& 8
+= Động từ + tân ngữ + khoảng thời gian + 了   (来中国两年了, 认识他十年了)
+= Động từ + 了 + khoảng thời gian + 了   (他走了半个小时了)
+- Với động từ xảy ra trong chốc lát như 来, 去, 走, 到, 认识, 结婚, 离开, 下课…, khoảng thời gian phía sau KHÔNG phải “làm bao lâu” mà là “từ lúc đó đến nay đã bao lâu”: 他走了半个小时了 = anh ấy đi được nửa tiếng rồi (rời đi đã nửa tiếng).
+- Tân ngữ đứng trước khoảng thời gian: 来中国两年了 (sang Trung Quốc được hai năm rồi).
+- Hỏi: 你来中国多长时间了？ (Bạn sang Trung Quốc bao lâu rồi?)
+- Khác bổ ngữ thời lượng ở cấp 2 (学了两年汉语 = học kéo dài hai năm).
+! Tân ngữ không đứng sau khoảng thời gian: nói 我来中国两年了, không nói 我来了两年中国.
+! Khoảng thời gian đứng sau động từ: nói 我来中国两年了, không nói 我两年来中国了.
+> 我/来/中国/两年/了。 | Wǒ lái Zhōngguó liǎng nián le. | Tôi sang Trung Quốc được hai năm rồi.
+> 他/走/了/半个/小时/了。 | Tā zǒu le bàn ge xiǎoshí le. | Anh ấy rời đi được nửa tiếng rồi.
+> 我/认识他/十年/了。 | Wǒ rènshi tā shí nián le. | Tôi quen anh ấy mười năm rồi.
+> 他/到/上海/三天/了。 | Tā dào Shànghǎi sān tiān le. | Anh ấy đến Thượng Hải được ba ngày rồi.
+? 你来中国多长时间___？ | 了 | 的; 过; 着 | Nǐ lái Zhōngguó duō cháng shíjiān le? | Bạn sang Trung Quốc bao lâu rồi?
+? 我来中国一___了，还没去过长城。 | 年 | 号; 岁; 位 | Wǒ lái Zhōngguó yì nián le, hái méi qù guo Chángchéng. | Tôi sang Trung Quốc một năm rồi mà chưa đi Vạn Lý Trường Thành.
+? 电影开始半个小时___，他才来。 | 了 | 着; 过; 的 | Diànyǐng kāishǐ bàn ge xiǎoshí le, tā cái lái. | Phim bắt đầu được nửa tiếng rồi anh ấy mới đến.
+
+## yiqian-yihou
+@ ……以前 / 以后 (前 / 后): trước khi… / sau khi…
+§ 固定格式 · （在）……以前/以后、……前/后
+& 8
+= (在) + việc / thời gian + 以前 / 以后，……   (吃饭以前, 下课以后)
+= Việc / thời gian + 前 / 后   (睡觉前, 三天后)
+- 以前 / 以后 đặt SAU việc, ngược với tiếng Việt: 吃饭以前 = trước khi ăn; 下课以后 = sau khi tan học.
+- Cũng đặt sau thời gian: 八点以前 (trước tám giờ), 三天以后 (ba ngày sau).
+- Có thể rút gọn thành 前 / 后: 睡觉前, 下课后. Có thể thêm 在 ở đầu: 在来中国以前…
+! Không đặt 以前 / 以后 trước việc như tiếng Việt: nói 吃饭以前, không nói 以前吃饭 (以前吃饭 lại thành “trước đây ăn cơm”).
+! “Ba ngày sau” nói 三天以后 / 三天后; còn 以后三天 lại là “ba ngày tới (sắp tới)”.
+> 吃饭/以前/要/洗手。 | Chīfàn yǐqián yào xǐ shǒu. | Trước khi ăn phải rửa tay.
+> 我/下课/以后/去/图书馆。 | Wǒ xiàkè yǐhòu qù túshūguǎn. | Sau khi tan học tôi đến thư viện.
+~ 下课/以后/我/去/图书馆。
+> 来/中国/以前，/我/没/学/过/汉语。 | Lái Zhōngguó yǐqián, wǒ méi xué guo Hànyǔ. | Trước khi sang Trung Quốc, tôi chưa học tiếng Hán.
+~ 我/来/中国/以前，/没/学/过/汉语。
+> 睡觉/前/别/喝/咖啡。 | Shuìjiào qián bié hē kāfēi. | Trước khi ngủ đừng uống cà phê.
+? 睡觉___，我喜欢看一会儿书。 | 以前 | 已经; 一起; 马上 | Shuìjiào yǐqián, wǒ xǐhuan kàn yíhuìr shū. | Trước khi ngủ tôi thích đọc sách một lúc.
+? 八点上课，你要在八点___到学校。 | 以前 | 以后; 已经; 正在 | Bā diǎn shàngkè, nǐ yào zài bā diǎn yǐqián dào xuéxiào. | Tám giờ vào học, bạn phải đến trường trước tám giờ.
+? 他吃了饭___就去上班了。 | 以后 | 已经; 正在; 一起 | Tā chī le fàn yǐhòu jiù qù shàngbān le. | Ăn cơm xong anh ấy liền đi làm.
+
+## weile
+@ 为了……，……: để… (nói mục đích)
+§ 复句 · 目的复句 · 介词“为了”
+& 9
+= 为了 + mục đích，(chủ ngữ) + việc làm   (为了学好汉语，他每天看中国电影)
+= Chủ ngữ + 为了 + mục đích，+ việc làm
+= Việc làm，是为了 + mục đích   (我来中国是为了学习汉语)
+- 为了 nêu mục đích (để làm gì), thường đặt ở đầu câu hoặc sau chủ ngữ.
+- Muốn nêu mục đích ở vế sau thì dùng 是为了: 他每天跑步，是为了身体健康.
+- Khác 因为 (vì – nêu nguyên nhân): 因为生病了，他没来上课.
+! 为了 nêu mục đích, không nêu nguyên nhân: nói 因为生病了，他没来, không nói 为了生病了，他没来.
+! 为了 không đi với 所以: nói 为了学汉语，我来中国, không nói 为了学汉语，所以我来中国.
+> 为了/学好/汉语，/他/每天/看/中国/电影。 | Wèile xuéhǎo Hànyǔ, tā měi tiān kàn Zhōngguó diànyǐng. | Để học giỏi tiếng Hán, ngày nào anh ấy cũng xem phim Trung Quốc.
+~ 他/为了/学好/汉语，/每天/看/中国/电影。
+> 为了/身体/健康，/我/每天/跑步。 | Wèile shēntǐ jiànkāng, wǒ měi tiān pǎobù. | Để khỏe mạnh, ngày nào tôi cũng chạy bộ.
+~ 我/为了/身体/健康，/每天/跑步。
+> 我/来/中国/是/为了/学习/汉语。 | Wǒ lái Zhōngguó shì wèile xuéxí Hànyǔ. | Tôi sang Trung Quốc là để học tiếng Hán.
+> 为了/不/迟到，/他/六点/就/起床/了。 | Wèile bù chídào, tā liù diǎn jiù qǐchuáng le. | Để không bị muộn, sáu giờ anh ấy đã dậy.
+~ 他/为了/不/迟到，/六点/就/起床/了。
+? ___买到火车票，他很早就去了。 | 为了 | 所以; 虽然; 但是 | Wèile mǎidào huǒchē piào, tā hěn zǎo jiù qù le. | Để mua được vé tàu, anh ấy đi từ rất sớm.
+? 他学习这么努力，是___考上好大学。 | 为了 | 所以; 但是; 还是 | Tā xuéxí zhème nǔlì, shì wèile kǎoshàng hǎo dàxué. | Cậu ấy học chăm như vậy là để đỗ vào trường đại học tốt.
+? 为了___生病，你要多穿点儿衣服。 | 不 | 没; 很; 太 | Wèile bù shēngbìng, nǐ yào duō chuān diǎnr yīfu. | Để không bị ốm, bạn phải mặc thêm áo vào.
+
+## kha-nang
+@ Bổ ngữ khả năng: 听得懂, 看不见, 买不到, 回不来
+§ 补语 · 可能补语1：动词+得/不+结果补语/趋向补语
+& 9
+= Động từ + 得 + kết quả / xu hướng   (听得懂, 回得来) = làm được
+= Động từ + 不 + kết quả / xu hướng   (听不懂, 看不见, 买不到) = không làm được
+= Hỏi: 听得懂吗？ / 听得懂听不懂？
+- Nói việc có thể hay không thể đạt kết quả: 我听不懂 = tôi nghe (nhưng) không hiểu; 我看不见 = tôi nhìn không thấy.
+- Dạng phủ định dùng nhiều nhất. Dạng khẳng định hay dùng để trả lời câu hỏi: 你听得懂吗？——听得懂.
+- Tân ngữ đặt sau, hoặc đưa lên đầu câu: 我看不懂这本书 / 这本书我看不懂.
+! Muốn nói “nghe không hiểu” thì đặt 不 vào giữa: nói 听不懂, không nói 不听懂.
+! 不 thay chỗ của 得, không đi cùng 得: nói 看不见, không nói 看得不见.
+> 我/听/得/懂/老师/的/话。 | Wǒ tīng de dǒng lǎoshī de huà. | Tôi nghe hiểu lời thầy giáo.
+~ 老师/的/话/我/听/得/懂。
+> 字/太/小/了，/我/看/不/见。 | Zì tài xiǎo le, wǒ kàn bú jiàn. | Chữ nhỏ quá, tôi nhìn không thấy.
+> 火车票/已经/买/不/到/了。 | Huǒchē piào yǐjīng mǎi bú dào le. | Vé tàu đã không mua được nữa rồi.
+> 他/今天/回/不/来/了。 | Tā jīntiān huí bù lái le. | Hôm nay anh ấy không về được nữa.
+~ 今天/他/回/不/来/了。
+? 你说得太快了，我听不___。 | 懂 | 会; 是; 很 | Nǐ shuō de tài kuài le, wǒ tīng bù dǒng. | Bạn nói nhanh quá, tôi nghe không hiểu.
+? 黑板上的字你看___见吗？ | 得 | 很; 是; 了 | Hēibǎn shàng de zì nǐ kàn de jiàn ma? | Chữ trên bảng bạn có nhìn thấy không?
+? 我的钱包找___到了。 | 不 | 没; 很; 是 | Wǒ de qiánbāo zhǎo bú dào le. | Ví của tôi không tìm thấy nữa rồi.
+
+## yue-yue
+@ 越……越……: càng… càng… (雨越下越大)
+§ 固定格式 · 越……越……
+& 9
+= Chủ ngữ + 越 + A + 越 + B   (雨越下越大, 汉语越学越有意思)
+= Chủ ngữ 1 + 越 + A，chủ ngữ 2 + 越 + B   (妈妈越说，他越不听)
+- B thay đổi theo A: A càng nhiều thì B càng tăng (hoặc càng giảm). 雨越下越大 = mưa càng lúc càng to.
+- 越 đứng ngay trước động từ / tính từ, đứng sau chủ ngữ.
+- Hai chủ ngữ khác nhau thì mỗi vế có chủ ngữ riêng, đặt trước 越: 东西越便宜，买的人越多.
+- Khác 越来越 (ngày càng…, chỉ thay đổi theo thời gian): 天气越来越冷.
+! Sau 越 không thêm 很 / 非常: nói 越说越快, không nói 越说越很快.
+! 越 đứng sau chủ ngữ: nói 妈妈越说，他越不听, không nói 越妈妈说，越他不听.
+> 外面/的/雨/越下/越大。 | Wàimiàn de yǔ yuè xià yuè dà. | Mưa ngoài trời càng lúc càng to.
+> 这本书/我/越看/越喜欢。 | Zhè běn shū wǒ yuè kàn yuè xǐhuan. | Cuốn sách này tôi càng đọc càng thích.
+~ 我/越看/越喜欢/这本书。
+> 汉语/越学/越/有意思。 | Hànyǔ yuè xué yuè yǒu yìsi. | Tiếng Hán càng học càng thú vị.
+> 妈妈越说，/他/越/不/听。 | Māma yuè shuō, tā yuè bù tīng. | Mẹ càng nói, nó càng không nghe.
+? 他越跑___快。 | 越 | 很; 太; 更 | Tā yuè pǎo yuè kuài. | Anh ấy càng chạy càng nhanh.
+? 这个问题我___想越不明白。 | 越 | 更; 很; 再 | Zhège wèntí wǒ yuè xiǎng yuè bù míngbai. | Vấn đề này tôi càng nghĩ càng không hiểu.
+? 东西越便宜，买的人就越___。 | 多 | 很; 太; 非常 | Dōngxi yuè piányi, mǎi de rén jiù yuè duō. | Đồ càng rẻ thì người mua càng đông.
+
+## ba-dia-diem
+@ Câu chữ 把 (1): 把书放在桌子上 – đưa vật đến chỗ nào
+§ 特殊句型 · “把”字句1：主语+把+宾语+动词+在/到+处所
+& 10
+= Chủ ngữ + 把 + vật + động từ + 在 / 到 + nơi chốn   (我把书放在桌子上)
+= Phủ định: 没 / 别 / 不 + 把 + …   (别把水放在电脑旁边)
+- Dùng khi người làm khiến vật đổi chỗ: 把书放在桌子上 = đặt cuốn sách lên bàn; 把孩子送到学校 = đưa con đến trường.
+- Vật sau 把 là vật cụ thể, cả người nói và người nghe đều biết (cuốn sách đó, đứa con đó).
+- 没, 别, 不 và động từ năng nguyện (要, 想, 能…) đặt TRƯỚC 把: 我没把钱放在包里.
+! Động từ có 在 / 到 + nơi chốn phía sau thì vật phải đưa lên bằng 把: nói 我把书放在桌子上, không nói 我放书在桌子上.
+! 没 / 别 đứng trước 把: nói 我没把钱放在包里, không nói 我把钱没放在包里.
+> 请/把书/放在/桌子上。 | Qǐng bǎ shū fàng zài zhuōzi shàng. | Hãy đặt cuốn sách lên bàn.
+> 别/把水/放在/电脑旁边。 | Bié bǎ shuǐ fàng zài diànnǎo pángbiān. | Đừng để nước cạnh máy tính.
+> 他/每天/把/孩子/送到/学校。 | Tā měi tiān bǎ háizi sòng dào xuéxiào. | Ngày nào anh ấy cũng đưa con đến trường.
+~ 每天/他/把/孩子/送到/学校。
+> 我/没/把/钱/放在/包里。 | Wǒ méi bǎ qián fàng zài bāo lǐ. | Tôi không để tiền trong túi.
+? 你___手机放在哪儿了？ | 把 | 是; 很; 对 | Nǐ bǎ shǒujī fàng zài nǎr le? | Bạn để điện thoại ở đâu rồi?
+? 请把这些东西搬___楼上去。 | 到 | 了; 过; 着 | Qǐng bǎ zhèxiē dōngxi bān dào lóu shàng qù. | Hãy chuyển những đồ này lên lầu.
+? 别把衣服放___椅子上。 | 在 | 过; 着; 是 | Bié bǎ yīfu fàng zài yǐzi shàng. | Đừng để quần áo lên ghế.
+
+## ba-cho
+@ Câu chữ 把 (2): 把书还给他 – đưa vật cho ai
+§ 特殊句型 · “把”字句1：主语+把+宾语+动词+给+对象
+& 10
+= Chủ ngữ + 把 + vật + động từ + 给 + người   (我把书还给他了)
+= Chủ ngữ + 把 + vật + 给 + người   (请把钱给我)
+- Dùng khi chuyển vật cụ thể sang tay người khác: 还给 (trả cho), 送给 (tặng cho), 借给 (cho mượn), 交给 (nộp / giao cho).
+- 给 đứng ngay sau động từ, rồi đến người nhận.
+- Câu thường có 了 ở cuối (đã đưa xong) hoặc là lời đề nghị với 请, 别.
+! Vật đứng ngay sau 把, rồi mới đến động từ: nói 我把书还给他了, không nói 我把还给他书了.
+! 了 không chen giữa động từ và 给: nói 把书还给他了 / 把书还给了他, không nói 把书还了给他.
+> 我/把/书/还给他/了。 | Wǒ bǎ shū huán gěi tā le. | Tôi đã trả sách cho anh ấy rồi.
+> 请/把/这/本/书/交给/老师。 | Qǐng bǎ zhè běn shū jiāo gěi lǎoshī. | Hãy nộp cuốn sách này cho thầy giáo.
+> 你/能/把/你的/词典/借给我/吗？ | Nǐ néng bǎ nǐ de cídiǎn jiè gěi wǒ ma? | Bạn cho tôi mượn từ điển của bạn được không?
+> 爸爸/把/新/手机/送给我/了。 | Bàba bǎ xīn shǒujī sòng gěi wǒ le. | Bố đã tặng tôi chiếc điện thoại mới.
+? 请你把这个包交___张老师。 | 给 | 在; 是; 对 | Qǐng nǐ bǎ zhège bāo jiāo gěi Zhāng lǎoshī. | Bạn hãy giao cái túi này cho thầy Trương.
+? 我已经___钱还给他了。 | 把 | 是; 对; 在 | Wǒ yǐjīng bǎ qián huán gěi tā le. | Tôi đã trả tiền cho anh ấy rồi.
+? 他把自己的车借给___朋友。 | 了 | 着; 得; 地 | Tā bǎ zìjǐ de chē jiè gěi le péngyou. | Anh ấy đã cho bạn mượn xe của mình.
+
+## zai-shang
+@ 在……上 / 中 / 下: về mặt…, trong…, dưới (sự giúp đỡ)…
+§ 固定格式 · 在……上、在……中、在……下
+& 10
+= 在 + lĩnh vực + 上   (về mặt…: 在学习上, 在生活上)
+= 在 + quá trình / sự việc + 中   (trong…: 在比赛中, 在工作中)
+= 在 + sự giúp đỡ / điều kiện + 下   (nhờ…, dưới…: 在大家的帮助下)
+- 在……上 nói “về mặt nào”: 他在学习上很努力 = về mặt học tập, cậu ấy rất chăm.
+- 在……中 nói “trong quá trình nào”: 在这次比赛中 = trong cuộc thi lần này.
+- 在……下 nói “nhờ / với điều kiện gì”: 在老师的帮助下 = nhờ sự giúp đỡ của thầy.
+- Cụm này đặt ở đầu câu hoặc sau chủ ngữ, trước động từ.
+! “Nhờ sự giúp đỡ của…” nói 在……的帮助下, không nói 在……的帮助上.
+! 上 / 中 / 下 đặt ở CUỐI cụm: nói 在大家的帮助下, không nói 在下大家的帮助.
+> 他/在学习上/很/努力。 | Tā zài xuéxí shàng hěn nǔlì. | Về mặt học tập, cậu ấy rất chăm chỉ.
+~ 在学习上/他/很/努力。
+> 在/大家/的/帮助/下，/我/完成了/工作。 | Zài dàjiā de bāngzhù xià, wǒ wánchéng le gōngzuò. | Nhờ mọi người giúp đỡ, tôi đã làm xong công việc.
+~ 我/在/大家/的/帮助/下，/完成了/工作。
+> 在/这/次/比赛/中，/他/跑/得/最/快。 | Zài zhè cì bǐsài zhōng, tā pǎo de zuì kuài. | Trong cuộc thi lần này, anh ấy chạy nhanh nhất.
+~ 他/在/这/次/比赛/中，/跑/得/最/快。
+> 在/生活/上，/朋友们/给/了/我/很多/帮助。 | Zài shēnghuó shàng, péngyoumen gěi le wǒ hěn duō bāngzhù. | Về mặt cuộc sống, bạn bè đã giúp tôi rất nhiều.
+~ 朋友们/在/生活/上，/给/了/我/很多/帮助。
+? 在老师的帮助___，我的汉语进步很快。 | 下 | 上; 外; 左 | Zài lǎoshī de bāngzhù xià, wǒ de Hànyǔ jìnbù hěn kuài. | Nhờ thầy giúp đỡ, tiếng Hán của tôi tiến bộ rất nhanh.
+? 他在工作___遇到了很多问题。 | 中 | 下; 外; 左 | Tā zài gōngzuò zhōng yùdào le hěn duō wèntí. | Trong công việc anh ấy đã gặp rất nhiều vấn đề.
+? 在学习___，他是我们班最努力的。 | 上 | 下; 外; 左 | Zài xuéxí shàng, tā shì wǒmen bān zuì nǔlì de. | Về mặt học tập, cậu ấy chăm nhất lớp chúng tôi.
+
+## chu-ngu-dong-tu
+@ Động từ, tính từ, cụm chủ vị làm chủ ngữ: 学汉语很有意思, 身体健康最重要
+§ 句子成分 · 主语：动词、动词性短语、形容词、主谓短语作主语
+& 10
+= Động từ / cụm động từ + vị ngữ   (学汉语很有意思, 每天跑步对身体很好)
+= Tính từ + vị ngữ   (健康最重要)
+= Cụm chủ vị + vị ngữ   (身体健康最重要, 他不来没关系)
+- Một việc làm cũng có thể đứng đầu câu làm chủ ngữ: 学汉语很有意思 = (việc) học tiếng Hán rất thú vị.
+- Tiếng Việt hay thêm “việc…”, tiếng Trung không cần thêm gì: chỉ cần đặt cụm động từ ở đầu câu.
+- Hay gặp với vị ngữ: 很有意思, 很难, 很重要, 对身体好 / 不好, 没关系.
+! Cụm 对 + người / vật đứng trước 好 / 不好: nói 喝酒对身体不好, không nói 喝酒不好对身体.
+! Không thêm 的 sau cụm động từ làm chủ ngữ: nói 学汉语很有意思, không nói 学汉语的很有意思 (câu này lại thành “người học tiếng Hán rất thú vị”).
+> 学/汉语/很/有意思。 | Xué Hànyǔ hěn yǒu yìsi. | Học tiếng Hán rất thú vị.
+> 我/觉得/身体健康/最/重要。 | Wǒ juéde shēntǐ jiànkāng zuì zhòngyào. | Tôi thấy sức khỏe là quan trọng nhất.
+> 每天/跑步/对/身体/很/好。 | Měi tiān pǎobù duì shēntǐ hěn hǎo. | Chạy bộ mỗi ngày rất tốt cho sức khỏe.
+> 他/不/来/没/关系。 | Tā bù lái méi guānxi. | Anh ấy không đến cũng không sao.
+? 吃得太多___身体不好。 | 对 | 在; 跟; 被 | Chī de tài duō duì shēntǐ bù hǎo. | Ăn quá nhiều không tốt cho sức khỏe.
+? 学习汉语___难，而且很有意思。 | 不 | 没; 别; 得 | Xuéxí Hànyǔ bù nán, érqiě hěn yǒu yìsi. | Học tiếng Hán không khó, mà lại rất thú vị.
+? 帮助别人是一件快乐的___。 | 事 | 人; 个; 本 | Bāngzhù biérén shì yí jiàn kuàilè de shì. | Giúp đỡ người khác là một việc vui.

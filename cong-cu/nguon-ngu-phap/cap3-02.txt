@@ -1,0 +1,214 @@
+# ===== NGỮ PHÁP HSK 3 – NHÓM 2 (soạn tay) =====
+# Cách viết: xem đầu file cong-cu/ghep-ngu-phap.py. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–3.
+# Sửa xong chạy: python -X utf8 cong-cu/ghep-ngu-phap.py 3
+
+## luong-tu-lap
+@ Lặp lượng từ: 个个, 张张, 天天 (mỗi…, … nào cũng)
+§ 词类 · 量词重叠
+& 5
+= Lượng từ lặp (AA) + (都) + vị ngữ   (个个都很好)
+= Danh từ một chữ lặp: 天天, 人人, 家家, 年年
+- Lượng từ lặp lại nghĩa là “mỗi…, … nào cũng…”: 这些苹果个个都很大 (quả táo nào cũng to).
+- Thường đứng trước động từ / tính từ, hay đi với 都: 张张都很漂亮 (tấm nào cũng đẹp).
+- Một số danh từ một chữ cũng lặp được như vậy: 天天 (ngày nào cũng), 人人 (ai cũng), 家家 (nhà nào cũng).
+! Không thêm 每 hay 一 trước lượng từ lặp: nói 个个都很好, không nói 每个个都很好.
+! Lượng từ lặp không đứng sau động từ làm tân ngữ: nói 这几件衣服件件都好看, không nói 我喜欢件件衣服.
+> 我们/班/的/同学/个个/都/很/努力。 | Wǒmen bān de tóngxué gègè dōu hěn nǔlì. | Bạn nào trong lớp chúng tôi cũng rất chăm chỉ.
+> 他/天天/去/跑步。 | Tā tiāntiān qù pǎobù. | Ngày nào anh ấy cũng đi chạy bộ.
+> 这些/照片/张张/都/很/漂亮。 | Zhèxiē zhàopiàn zhāngzhāng dōu hěn piàoliang. | Tấm ảnh nào trong số này cũng rất đẹp.
+> 人人/都/喜欢/他/做/的/菜。 | Rénrén dōu xǐhuan tā zuò de cài. | Ai cũng thích món anh ấy nấu.
+~ 他/做/的/菜/人人/都/喜欢。
+? 这些苹果___都很甜。 | 个个 | 个; 一个; 每 | Zhèxiē píngguǒ gègè dōu hěn tián. | Quả táo nào trong số này cũng rất ngọt.
+? 他___早上都喝一杯牛奶。 | 天天 | 天; 日; 年 | Tā tiāntiān zǎoshang dōu hē yì bēi niúnǎi. | Sáng nào anh ấy cũng uống một cốc sữa.
+? 这几本书我___都看过。 | 本本 | 本; 一本; 书 | Zhè jǐ běn shū wǒ běnběn dōu kàn guo. | Mấy cuốn sách này cuốn nào tôi cũng đọc rồi.
+
+## ton-hien-3
+@ Câu tồn hiện chỉ xuất hiện / biến mất: 前面走过来一个人, 我家少了一个碗
+§ 特殊句型 · 存现句3：表示出现、消失
+& 5
+= Nơi chốn + động từ + 了 / bổ ngữ xu hướng + số + lượng từ + người / vật
+- Dùng khi ở một nơi XUẤT HIỆN thêm hoặc MẤT ĐI người / vật nào đó: 前面走过来一个人 (phía trước có một người đi tới), 我们班来了两个新同学.
+- Biến mất: 我家少了一个碗 (nhà tôi mất một cái bát), 楼上搬走了一家人 (trên lầu có một nhà chuyển đi).
+- Nơi chốn đứng đầu câu; người / vật đứng SAU động từ, thường là cái chưa biết nên đi với số + lượng từ.
+- Ở cấp 2 đã học 门口坐着一个人 (trạng thái, dùng 着); ở đây là sự thay đổi nên dùng 了 hoặc bổ ngữ.
+! Đầu câu là nơi chốn, không thêm 在: nói 前面走过来一个人, không nói 在前面走过来一个人.
+! Kể chuyện đã xảy ra thì sau động từ phải có 了 hoặc bổ ngữ: nói 我们班来了一个新同学, không nói 我们班来一个新同学.
+> 前面/走/过来/一个/人。 | Qiánmiàn zǒu guòlái yí ge rén. | Phía trước có một người đi tới.
+> 我们/班/来/了/两个/新/同学。 | Wǒmen bān lái le liǎng ge xīn tóngxué. | Lớp chúng tôi có hai bạn mới đến.
+> 我/家/少/了/一个/碗。 | Wǒ jiā shǎo le yí ge wǎn. | Nhà tôi mất một cái bát.
+> 楼上/搬/走/了/一家/人。 | Lóu shàng bān zǒu le yì jiā rén. | Trên lầu có một gia đình chuyển đi rồi.
+? 我的包里少___一百块钱。 | 了 | 的; 着; 得 | Wǒ de bāo lǐ shǎo le yìbǎi kuài qián. | Trong túi tôi mất một trăm tệ.
+? 前面走___一个人。 | 过来 | 起来; 得; 地 | Qiánmiàn zǒu guòlái yí ge rén. | Phía trước có một người đi tới.
+? 我们班___了一位新老师。 | 来 | 在; 是; 对 | Wǒmen bān lái le yí wèi xīn lǎoshī. | Lớp chúng tôi có một thầy giáo mới đến.
+
+## le-jiu
+@ ……了……就……: làm xong việc 1 thì làm ngay việc 2 (我下了课就去找你)
+§ 复句 · 紧缩复句：……了……就……
+& 5
+= (Chủ ngữ) + động từ 1 + 了 + (tân ngữ) + 就 + động từ 2
+- Việc 2 xảy ra ngay sau khi việc 1 XONG: 我下了课就去找你 (tan học xong tôi đi tìm bạn ngay).
+- Dùng được cho việc đã qua (他吃了饭就走了) và việc sắp làm (我下了班就回家).
+- Chủ ngữ có thể đứng đầu câu hoặc đứng sau việc 1, trước 就: 下了课我就去找你.
+- Gần giống 一……就…… (cấp 2), nhưng ……了……就…… nhấn mạnh làm xong việc 1 rồi mới làm việc 2.
+! “Xong” không dịch thành 完了 đặt sau cả cụm: nói 我吃了饭就走 hoặc 我吃完饭就走, không nói 我吃饭完就走.
+! 就 đứng sau chủ ngữ của vế sau: nói 他到了，我就走, không nói 他到了，就我走.
+> 我/下/了/课/就/去/找/你。 | Wǒ xià le kè jiù qù zhǎo nǐ. | Tan học xong tôi sẽ đi tìm bạn ngay.
+~ 下/了/课/我/就/去/找/你。
+> 他/吃/了/饭/就/走/了。 | Tā chī le fàn jiù zǒu le. | Anh ấy ăn cơm xong là đi luôn.
+~ 吃/了/饭/他/就/走/了。
+> 我们/到/了/上海/就/去/看/你。 | Wǒmen dào le Shànghǎi jiù qù kàn nǐ. | Đến Thượng Hải rồi chúng tôi sẽ đi thăm bạn ngay.
+~ 到/了/上海/我们/就/去/看/你。
+> 下/了/车/就/给/我/打/电话。 | Xià le chē jiù gěi wǒ dǎ diànhuà. | Xuống xe thì gọi điện cho tôi ngay nhé.
+~ 下/了/车/就/打/电话/给/我。
+? 我吃___早饭就去学校。 | 了 | 着; 的; 在 | Wǒ chī le zǎofàn jiù qù xuéxiào. | Tôi ăn sáng xong là đi học ngay.
+? 他回了家___睡觉了。 | 就 | 再; 很; 对 | Tā huí le jiā jiù shuìjiào le. | Anh ấy về đến nhà là đi ngủ luôn.
+? 你看___这本书就知道了。 | 了 | 的; 得; 在 | Nǐ kàn le zhè běn shū jiù zhīdào le. | Bạn đọc cuốn sách này xong là biết ngay.
+
+## gai-le
+@ 该……了: đến lúc phải… rồi (该睡觉了, 该你了)
+§ 固定格式 · 该……了
+& 6
+= (Chủ ngữ) + 该 + động từ / cụm động từ + 了
+= 该 + người + 了   (该你了: đến lượt bạn rồi)
+- Nói đã đến lúc phải làm việc gì: 十一点了，该睡觉了 (mười một giờ rồi, đến giờ ngủ rồi).
+- 该 + người + 了 = đến lượt ai: 该你了 (đến lượt bạn).
+- Chủ ngữ đứng trước 该: 我该走了 (tôi phải đi rồi).
+! Muốn nói “đến lúc… rồi” thì cuối câu phải có 了: nói 该吃饭了; thiếu 了 thì 该吃饭 chỉ còn nghĩa “nên ăn cơm”.
+! “Đến lúc” không dịch từng chữ thành 到时候: nói 该睡觉了, không nói 到时候睡觉了.
+> 十一/点/了，/该/睡觉/了。 | Shíyī diǎn le, gāi shuìjiào le. | Mười một giờ rồi, đến giờ đi ngủ rồi.
+> 我/该/回/家/了。 | Wǒ gāi huí jiā le. | Tôi phải về nhà rồi.
+> 下/一个/该/你/了。 | Xià yí ge gāi nǐ le. | Người tiếp theo là đến lượt bạn đấy.
+> 天/黑/了，/我们/该/走/了。 | Tiān hēi le, wǒmen gāi zǒu le. | Trời tối rồi, chúng ta phải đi thôi.
+? 七点了，___起床了。 | 该 | 是; 很; 把 | Qī diǎn le, gāi qǐchuáng le. | Bảy giờ rồi, đến giờ dậy rồi.
+? 现在该___了，你说吧。 | 你 | 的; 很; 是 | Xiànzài gāi nǐ le, nǐ shuō ba. | Bây giờ đến lượt bạn rồi, bạn nói đi.
+? 都十二点了，我们该吃午饭___。 | 了 | 着; 过; 得 | Dōu shí'èr diǎn le, wǒmen gāi chī wǔfàn le. | Đã mười hai giờ rồi, chúng ta phải ăn trưa thôi.
+
+## ruguo-jiu
+@ 如果……，就……: nếu… thì…
+§ 复句 · 假设复句：如果……，就……
+& 6
+= 如果 + điều kiện，(chủ ngữ) + 就 + kết quả
+= Chủ ngữ + 如果 + điều kiện，就 + kết quả
+- 如果 nêu điều giả định, 就 nêu kết quả: 如果明天下雨，我们就不去了 (nếu mai mưa thì chúng ta không đi nữa).
+- Chủ ngữ vế đầu đứng trước hoặc sau 如果 đều được: 如果你有时间 / 你如果有时间.
+- 就 đứng sau chủ ngữ của vế sau, trước động từ.
+! 就 đứng sau chủ ngữ vế sau: nói 如果你去，我就去, không nói 如果你去，就我去.
+! Vế sau không dùng 所以: nói 如果下雨，我就不去, không nói 如果下雨，所以我不去.
+> 如果/明天/下雨，/我们/就/不/去/了。 | Rúguǒ míngtiān xià yǔ, wǒmen jiù bú qù le. | Nếu mai trời mưa thì chúng ta không đi nữa.
+~ 明天/如果/下雨，/我们/就/不/去/了。
+> 如果/你/有/时间，/就/来/我/家/玩/吧。 | Rúguǒ nǐ yǒu shíjiān, jiù lái wǒ jiā wán ba. | Nếu bạn có thời gian thì đến nhà tôi chơi nhé.
+~ 你/如果/有/时间，/就/来/我/家/玩/吧。
+> 如果/有/问题，/你/就/问/我。 | Rúguǒ yǒu wèntí, nǐ jiù wèn wǒ. | Nếu có vấn đề gì thì bạn cứ hỏi tôi.
+~ 你/如果/有/问题，/就/问/我。
+> 如果/我/是/你，/我/就/不/买/这个。 | Rúguǒ wǒ shì nǐ, wǒ jiù bù mǎi zhège. | Nếu tôi là bạn thì tôi sẽ không mua cái này.
+~ 我/如果/是/你，/我/就/不/买/这个。
+? ___你明天有空，我们就去看电影。 | 如果 | 虽然; 所以; 但是 | Rúguǒ nǐ míngtiān yǒu kòng, wǒmen jiù qù kàn diànyǐng. | Nếu mai bạn rảnh thì chúng ta đi xem phim.
+? 如果你累了，___休息一下吧。 | 就 | 才; 所以; 但是 | Rúguǒ nǐ lèi le, jiù xiūxi yíxià ba. | Nếu bạn mệt thì nghỉ một chút đi.
+? 如果他不来，我们___自己去。 | 就 | 所以; 但是; 因为 | Rúguǒ tā bù lái, wǒmen jiù zìjǐ qù. | Nếu anh ấy không đến thì chúng ta tự đi.
+
+## yue-lai-yue
+@ 越来越 + tính từ: ngày càng… (越来越好, 越来越喜欢)
+§ 固定短语 · 越来越
+& 6
+= Chủ ngữ + 越来越 + tính từ / động từ tâm lý (+ tân ngữ) (+ 了)
+- 越来越 = ngày càng, càng ngày càng: 天气越来越冷了 (trời ngày càng lạnh).
+- Đi với tính từ (好, 多, 冷…) hoặc động từ chỉ tình cảm, suy nghĩ (喜欢, 想, 习惯…): 我越来越喜欢这里了.
+- Cuối câu thường thêm 了 để nói sự thay đổi.
+- Trong câu có 得 thì 越来越 đứng sau 得: 他说得越来越好.
+! Không thêm 很, 非常, 太 sau 越来越: nói 越来越好, không nói 越来越很好.
+! Chủ ngữ đứng trước 越来越: nói 他的汉语越来越好, không nói 越来越他的汉语好.
+> 天气/越来越/冷/了。 | Tiānqì yuèláiyuè lěng le. | Trời ngày càng lạnh.
+> 他/的/汉语/说/得/越来越/好/了。 | Tā de Hànyǔ shuō de yuèláiyuè hǎo le. | Anh ấy nói tiếng Trung ngày càng giỏi.
+> 我/越来越/喜欢/这个/城市/了。 | Wǒ yuèláiyuè xǐhuan zhège chéngshì le. | Tôi ngày càng thích thành phố này.
+~ 这个/城市/我/越来越/喜欢/了。
+> 来/这儿/学习/的/人/越来越/多。 | Lái zhèr xuéxí de rén yuèláiyuè duō. | Người đến đây học ngày càng đông.
+? 他的身体___好了。 | 越来越 | 越; 更来更; 很来很 | Tā de shēntǐ yuèláiyuè hǎo le. | Sức khỏe của ông ấy ngày càng tốt.
+? 天气越来越___了。 | 冷 | 很冷; 非常冷; 太冷 | Tiānqì yuèláiyuè lěng le. | Trời ngày càng lạnh.
+? 学汉语的人越来越多___。 | 了 | 着; 过; 得 | Xué Hànyǔ de rén yuèláiyuè duō le. | Người học tiếng Trung ngày càng nhiều.
+
+## bo-ngu-ket-qua-2
+@ Bổ ngữ kết quả 到 / 住 / 走 / 上: 找到, 记住, 拿走, 关上
+§ 补语 · 结果补语2：动词+到/住/走/上
+& 6
+= Động từ + 到 / 住 / 走 / 上 (+ 了) (+ tân ngữ)
+= Phủ định: 没 + động từ + 到 / 住 / 走 / 上
+- 到: đạt được điều muốn làm: 找到 (tìm thấy), 买到 (mua được), 看到 (nhìn thấy).
+- 住: giữ chặt, cố định lại: 记住 (nhớ kỹ), 站住 (đứng lại).
+- 走: rời khỏi chỗ cũ: 拿走 (cầm đi), 带走 (mang đi), 借走 (mượn mất).
+- 上: khép lại, gắn vào: 关上 (đóng lại), 穿上 (mặc vào), 写上 (ghi vào).
+! 找 chỉ là “tìm”, 找到 mới là “tìm thấy”: muốn nói đã tìm thấy thì nói 我找到了, còn 我找了 chỉ là “tôi đã tìm” (chưa chắc thấy).
+! Không chen tân ngữ vào giữa: nói 记住这个字, không nói 记这个字住.
+> 我/找/到/我/的/手机/了。 | Wǒ zhǎodào wǒ de shǒujī le. | Tôi tìm thấy điện thoại của tôi rồi.
+~ 我/的/手机/我/找/到/了。
+> 请/大家/记/住/这/个/字。 | Qǐng dàjiā jìzhù zhège zì. | Mời mọi người nhớ kỹ chữ này.
+~ 大家/请/记/住/这/个/字。
+~ 这/个/字/请/大家/记/住。
+> 谁/拿/走/了/我/的/杯子？ | Shéi ná zǒu le wǒ de bēizi? | Ai cầm mất cái cốc của tôi rồi?
+~ 我/的/杯子/谁/拿/走/了？
+> 外面/很/冷，/关/上/门/吧。 | Wàimiàn hěn lěng, guānshang mén ba. | Ngoài trời lạnh lắm, đóng cửa lại đi.
+~ 外面/很/冷，/门/关/上/吧。
+? 我找了很久，终于找___了。 | 到 | 住; 走; 懂 | Wǒ zhǎo le hěn jiǔ, zhōngyú zhǎodào le. | Tôi tìm rất lâu, cuối cùng cũng tìm thấy.
+? 这个词很重要，大家要记___。 | 住 | 走; 开; 懂 | Zhège cí hěn zhòngyào, dàjiā yào jìzhù. | Từ này rất quan trọng, mọi người phải nhớ kỹ.
+? 外面很冷，快穿___衣服。 | 上 | 走; 住; 到 | Wàimiàn hěn lěng, kuài chuānshang yīfu. | Ngoài trời rất lạnh, mau mặc áo vào.
+
+## bi-geng-hai
+@ A 比 B 更 / 还 + tính từ; A 不比 B + tính từ
+§ 特殊句型 · 比较句2：A比B更/还……；A不比B……
+& 7
+= A + 比 + B + 更 / 还 + tính từ
+= A + 不比 + B + tính từ
+- 更 = “hơn nữa”: 今天比昨天更冷 (hôm qua đã lạnh, hôm nay còn lạnh hơn).
+- 还 = “còn… hơn cả”, thường có ý ngạc nhiên: 弟弟比哥哥还高 (em còn cao hơn cả anh).
+- 不比 dùng để phản bác ý của người khác: 我不比你矮 = tôi đâu có thấp hơn bạn (cao bằng hoặc gần bằng).
+! A 不比 B + tính từ không có nghĩa là A kém B: 他不比我高 = anh ấy không cao hơn tôi (có thể bằng); muốn nói “thấp hơn” thì dùng 他没有我高 hoặc 他比我矮.
+! Có con số cụ thể thì không dùng 更 / 还: nói 他比我大两岁, không nói 他比我更大两岁.
+> 今天/比昨天/更/冷。 | Jīntiān bǐ zuótiān gèng lěng. | Hôm nay còn lạnh hơn hôm qua.
+> 他/比我/还/高。 | Tā bǐ wǒ hái gāo. | Anh ấy còn cao hơn cả tôi.
+> 这/件/衣服/比那件/更/好看。 | Zhè jiàn yīfu bǐ nà jiàn gèng hǎokàn. | Bộ quần áo này còn đẹp hơn bộ kia.
+> 我/做/的/菜/不比你/做/的/差。 | Wǒ zuò de cài bù bǐ nǐ zuò de chà. | Món tôi nấu đâu có kém món bạn nấu.
+? 他已经很高了，他哥哥比他___高。 | 还 | 很; 太; 真 | Tā yǐjīng hěn gāo le, tā gēge bǐ tā hái gāo. | Anh ấy đã cao lắm rồi, anh trai anh ấy còn cao hơn.
+? 我的房间___你的房间大。 | 不比 | 不是; 很比; 比不 | Wǒ de fángjiān bù bǐ nǐ de fángjiān dà. | Phòng của tôi đâu có to hơn phòng của bạn.
+? 这个问题比那个问题___难。 | 更 | 很; 太; 真 | Zhège wèntí bǐ nàge wèntí gèng nán. | Câu hỏi này còn khó hơn câu hỏi kia.
+
+## budan-erqie
+@ 不但……，而且……: không những… mà còn…; ……，更……
+§ 复句 · 递进复句：不但……，而且……；……，更……
+& 7
+= Chủ ngữ + 不但 + A，而且 + B
+= 不但 + chủ ngữ 1 + A，而且 + chủ ngữ 2 + 也 / 还 + B
+= A，更 + B   (vế sau ở mức cao hơn)
+- 不但……，而且…… = không những… mà còn…: 这个饭馆的菜不但好吃，而且很便宜.
+- Hai vế cùng chủ ngữ: chủ ngữ đứng trước 不但. Hai vế khác chủ ngữ: 不但 đứng trước chủ ngữ thứ nhất: 不但我喜欢她，而且大家都喜欢她.
+- Vế sau thường có thêm 也 / 还: 他不但会唱歌，而且还会跳舞.
+- ……，更……: vế sau nói một mức cao hơn: 我喜欢唱歌，更喜欢跳舞 (tôi thích hát, càng thích nhảy hơn).
+! Hai vế cùng chủ ngữ thì 不但 đứng sau chủ ngữ: nói 他不但会说汉语，而且会写汉字, không nói 不但他会说汉语，而且会写汉字.
+! Vế sau không dùng 但是: nói 不但便宜，而且好吃, không nói 不但便宜，但是好吃.
+> 这/个/饭馆/的/菜/不但/好吃，/而且/很/便宜。 | Zhège fànguǎn de cài búdàn hǎochī, érqiě hěn piányi. | Món ăn ở quán này không những ngon mà còn rẻ.
+> 他/不但/会/说/汉语，/而且/会/写/汉字。 | Tā búdàn huì shuō Hànyǔ, érqiě huì xiě Hànzì. | Anh ấy không những biết nói tiếng Trung mà còn biết viết chữ Hán.
+> 不但/我/喜欢/她，/而且/大家/都/喜欢/她。 | Búdàn wǒ xǐhuan tā, érqiě dàjiā dōu xǐhuan tā. | Không chỉ tôi thích cô ấy mà mọi người đều thích cô ấy.
+> 我/喜欢/唱歌，/更/喜欢/跳舞。 | Wǒ xǐhuan chànggē, gèng xǐhuan tiàowǔ. | Tôi thích hát, càng thích nhảy hơn.
+? 她不但聪明，___很努力。 | 而且 | 但是; 所以; 虽然 | Tā búdàn cōngming, érqiě hěn nǔlì. | Cô ấy không những thông minh mà còn rất chăm chỉ.
+? 他___会做饭，而且做得很好吃。 | 不但 | 虽然; 因为; 如果 | Tā búdàn huì zuò fàn, érqiě zuò de hěn hǎochī. | Anh ấy không những biết nấu ăn mà còn nấu rất ngon.
+? 我喜欢春天，___喜欢秋天。 | 更 | 比; 得; 的 | Wǒ xǐhuan chūntiān, gèng xǐhuan qiūtiān. | Tôi thích mùa xuân, càng thích mùa thu hơn.
+
+## xu-huong-ket-qua
+@ Bổ ngữ xu hướng chỉ kết quả: 想出来, 想起来, 写下来, 留下
+§ 补语 · 趋向补语引申用法：结果意义（出来、起来、下来、下）
+& 8
+= Động từ + 出来   (làm ra cái chưa có / nhận ra: 想出来, 看出来)
+= 想 + 起来   (nhớ lại điều đã biết)
+= Động từ + 下来 / 下   (giữ lại, ghi lại: 写下来, 留下)
+- 出来: từ chỗ chưa có thành có, hoặc nhận ra được: 我想出来一个好办法 (tôi nghĩ ra một cách hay), 我看出来了，你不高兴 (tôi nhận ra rồi, bạn không vui).
+- 想起来: nhớ ra điều đã quên: 我想起来了，他姓张.
+- 下来 / 下: làm cho cái gì ở lại, cố định lại: 写下来 (ghi lại), 留下电话号码 (để lại số điện thoại).
+- Ở đây 出来, 起来, 下来 không còn chỉ hướng đi lại mà chỉ KẾT QUẢ của hành động.
+! Nhớ lại điều đã biết dùng 想起来, nghĩ ra cái mới dùng 想出来: 我想起来了 (tôi nhớ ra rồi) khác 我想出来了 (tôi nghĩ ra rồi).
+! “Chưa nghĩ ra” là 我还没想出来; 我不想出来 lại là “tôi không muốn ra ngoài”.
+> 我/想/出来/一个/好/办法。 | Wǒ xiǎng chūlái yí ge hǎo bànfǎ. | Tôi đã nghĩ ra một cách hay.
+> 我/想/起来/了，/他/姓/张。 | Wǒ xiǎng qǐlái le, tā xìng Zhāng. | Tôi nhớ ra rồi, anh ấy họ Trương.
+> 请/写/下/你/的/电话/号码。 | Qǐng xiě xià nǐ de diànhuà hàomǎ. | Xin hãy ghi lại số điện thoại của bạn.
+> 他/走/的/时候/留/下/了/一/本/书。 | Tā zǒu de shíhou liú xià le yì běn shū. | Lúc đi anh ấy để lại một cuốn sách.
+~ 走/的/时候/他/留/下/了/一/本/书。
+? 这个问题太难了，我想了很久也没想___。 | 出来 | 下来; 进去; 回来 | Zhège wèntí tài nán le, wǒ xiǎng le hěn jiǔ yě méi xiǎng chūlái. | Câu hỏi này khó quá, tôi nghĩ rất lâu mà vẫn chưa nghĩ ra.
+? 他叫什么？我想___了，他叫小张。 | 起来 | 下来; 进来; 回去 | Tā jiào shénme? Wǒ xiǎng qǐlái le, tā jiào Xiǎo Zhāng. | Anh ấy tên gì nhỉ? Tôi nhớ ra rồi, anh ấy tên là Tiểu Trương.
+? 他走的时候留___了他的电话号码。 | 下 | 起; 进; 回 | Tā zǒu de shíhou liú xià le tā de diànhuà hàomǎ. | Lúc đi anh ấy để lại số điện thoại của mình.

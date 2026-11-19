@@ -181,6 +181,7 @@ Không nên sửa thẳng `app/data/hsk1.json`, vì lần chạy script sau sẽ
    python -X utf8 cong-cu/ghep-ngu-phap.py
    ```
    Script kiểm tra chữ ngoài cấp 1, pinyin (so với CC-CEDICT), biến điệu 不/一, mảnh sắp xếp và đáp án điền từ, rồi tạo `app/data/ngu-phap-hsk1.json`.
+   **Ngữ pháp HSK 3:** 51 điểm trong `cong-cu/nguon-ngu-phap/cap3-01.txt` … `cap3-05.txt`, chạy `python -X utf8 cong-cu/ghep-ngu-phap.py 3` → `app/data/ngu-phap-hsk3.json`.
    **Ngữ pháp HSK 2:** soạn trong `cong-cu/nguon-ngu-phap/cap2-01.txt` … (thêm dòng `& số bài` = bài HSK 2 của điểm đó), chạy `python -X utf8 cong-cu/ghep-ngu-phap.py 2` → tạo `app/data/ngu-phap-hsk2.json`, báo cáo ở `cong-cu/bao-cao-ngu-phap-hsk2.txt`. Mã điểm cấp 2 không được trùng mã cấp 1 (script tự kiểm tra). Có **LỖI** thì không ghi file. Báo cáo nằm ở `cong-cu/bao-cao-ngu-phap.txt`. Không sửa mã điểm (dòng `## mã`) của điểm đã học, vì lịch ôn gắn theo mã đó.
 
 **Đối chiếu âm Hán Việt với Hanzii:** chạy `node cong-cu/doi-chieu-hanzii.mjs` (cần cài [Node.js](https://nodejs.org)). Kết quả nằm trong `cong-cu/bao-cao-hanzii.txt`.

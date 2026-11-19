@@ -1,0 +1,226 @@
+# ===== NGỮ PHÁP HSK 3 – ĐỢT 5 (soạn tay) =====
+# Cách viết: xem đầu file cong-cu/ghep-ngu-phap.py. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–3.
+# Sửa xong chạy: python -X utf8 cong-cu/ghep-ngu-phap.py 3
+
+## x-shenme
+@ X 什么（啊）: phản bác “… gì mà …” (贵什么啊, 谢什么)
+§ 固定格式 · X什么（啊）
+& 14
+= Tính từ / động từ + 什么（啊）
+= Động từ + 什么 + tân ngữ   (看什么电视)
+- Dùng khi không đồng ý với lời người kia, hoặc thấy việc đó không cần: A: 太贵了！ B: 贵什么啊，才十块钱。 (Đắt gì mà đắt, có mười đồng thôi.)
+- 谢什么 = “cảm ơn gì chứ” (đáp lời cảm ơn của bạn bè); 急什么 = “vội gì chứ”.
+- Câu này không hỏi “cái gì”, người nghe không cần trả lời; thường có thêm một câu giải thích phía sau.
+- Ngữ khí khá mạnh, nên chỉ dùng với người thân, bạn bè.
+! 什么 đứng ngay SAU từ bị phản bác: nói 贵什么啊, không nói 什么贵啊 (câu này lại thành câu hỏi “cái gì đắt?”).
+! Không thêm 吗 vào cuối như câu hỏi có/không: không nói 贵什么吗.
+> 贵/什么/啊，/才/十块/钱。 | Guì shénme a, cái shí kuài qián. | Đắt gì mà đắt, có mười đồng thôi.
+> 谢/什么，/我们/是/好/朋友。 | Xiè shénme, wǒmen shì hǎo péngyou. | Cảm ơn gì chứ, chúng ta là bạn tốt mà.
+> 你/急/什么，/时间/还/早/呢。 | Nǐ jí shénme, shíjiān hái zǎo ne. | Bạn vội gì chứ, vẫn còn sớm mà.
+> 看/什么/电视，/快/去/写/作业！ | Kàn shénme diànshì, kuài qù xiě zuòyè! | Xem ti vi gì nữa, mau đi làm bài tập!
+? 累___啊，我们才走了半个小时。 | 什么 | 怎么; 为什么; 谁 | Lèi shénme a, wǒmen cái zǒu le bàn ge xiǎoshí. | Mệt gì mà mệt, chúng ta mới đi có nửa tiếng.
+? 你___什么，电影七点才开始呢。 | 急 | 很; 太; 真 | Nǐ jí shénme, diànyǐng qī diǎn cái kāishǐ ne. | Bạn vội gì chứ, bảy giờ phim mới bắt đầu mà.
+? 你看___电视，快去睡觉！ | 什么 | 怎么; 为什么; 谁 | Nǐ kàn shénme diànshì, kuài qù shuìjiào! | Xem ti vi gì nữa, mau đi ngủ!
+
+## so-luong-lap
+@ Lặp số + lượng từ: 一个一个, 一张一张 (lần lượt từng…)
+§ 重叠 · 数量重叠
+& 15
+= 一 + lượng từ + 一 + lượng từ (+ 地) + động từ   (一个一个地进来)
+- Đứng TRƯỚC động từ, nghĩa là làm lần lượt từng cái / từng người một: 请一个一个地进来 (mời vào lần lượt từng người).
+- Chữ 地 có thể bỏ: 一个一个进来.
+- Khác với lặp lượng từ 个个 ở bài 5 (= ai cũng, cái nào cũng): 他们个个都很高 (người nào cũng cao).
+- 一 đọc theo thanh của lượng từ phía sau: 一个 yí ge, 一张 yì zhāng, 一件 yí jiàn.
+! Cụm này đứng trước động từ: nói 一个一个地看, không nói 看一个一个.
+! Đừng nhầm với 个个: muốn nói “lần lượt từng người nói” thì nói 我们一个一个地说, không nói 我们个个地说.
+> 请/大家/一个一个地/进来。 | Qǐng dàjiā yí ge yí ge de jìnlái. | Mời mọi người vào lần lượt từng người một.
+~ 大家/请/一个一个地/进来。
+> 孩子们/一个一个地/上/了/车。 | Háizimen yí ge yí ge de shàng le chē. | Bọn trẻ lần lượt từng đứa lên xe.
+> 他/把/照片/一张一张地/看/了/一遍。 | Tā bǎ zhàopiàn yì zhāng yì zhāng de kàn le yí biàn. | Anh ấy xem lại từng tấm ảnh một lượt.
+~ 他/一张一张地/把/照片/看/了/一遍。
+> 老师/让/我们/一个一个地/回答/问题。 | Lǎoshī ràng wǒmen yí ge yí ge de huídá wèntí. | Cô giáo cho chúng tôi lần lượt từng người trả lời câu hỏi.
+? 请大家一个___地说，不要一起说。 | 一个 | 两个; 这个; 那个 | Qǐng dàjiā yí ge yí ge de shuō, bú yào yìqǐ shuō. | Mời mọi người nói lần lượt từng người, đừng nói cùng lúc.
+? 他把衣服一___一件地放进了箱子。 | 件 | 个; 本; 张 | Tā bǎ yīfu yí jiàn yí jiàn de fàngjìn le xiāngzi. | Anh ấy xếp từng chiếc áo một vào va li.
+? 他一张一张___看那些照片。 | 地 | 得; 了; 着 | Tā yì zhāng yì zhāng de kàn nàxiē zhàopiàn. | Anh ấy xem từng tấm một những bức ảnh đó.
+
+## gioi-tu-3
+@ Giới từ 根据, 关于, 向, 为: theo, về, hướng về / với, vì / cho
+§ 介词 · 根据、关于、向、为
+& 15
+= 根据 + căn cứ，+ câu   (根据这张地图，……)
+= 关于 + chủ đề，+ câu   /   一本 + 关于 + chủ đề + 的 + 书
+= 向 + hướng / người + động từ   (向左走, 向他学习)
+= 为 (wèi) + người / việc + động từ / tính từ   (为你高兴)
+- 根据 = theo, căn cứ vào (bản đồ, ý kiến, kết quả…): 根据医生的意见…
+- 关于 = về (chủ đề được nói tới): 关于这个问题，… ; 一本关于历史的书 (một cuốn sách về lịch sử).
+- 向 = về phía: 向前走 (đi về phía trước); với người: 向他学习 (học tập anh ấy).
+- 为 = vì, cho (làm việc gì vì ai, cho ai): 妈妈为我做了很多事; 我为你高兴 (tôi mừng cho bạn).
+! Cụm 关于 làm trạng ngữ phải đứng đầu câu, trước chủ ngữ: nói 关于这件事，我知道得不多, không nói 我关于这件事知道得不多.
+! 为 ở đây đọc wèi (thanh 4), không đọc wéi.
+> 根据/这张/地图，/银行/就/在/前面。 | Gēnjù zhè zhāng dìtú, yínháng jiù zài qiánmiàn. | Theo tấm bản đồ này thì ngân hàng ở ngay phía trước.
+> 关于/这个/问题，/我们/明天/再/说/吧。 | Guānyú zhège wèntí, wǒmen míngtiān zài shuō ba. | Về vấn đề này, ngày mai chúng ta bàn tiếp nhé.
+~ 关于/这个/问题，/明天/我们/再/说/吧。
+> 我们/都/要/向/他/学习。 | Wǒmen dōu yào xiàng tā xuéxí. | Chúng ta đều phải học tập anh ấy.
+> 妈妈/为/我/做/了/很多/事。 | Māma wèi wǒ zuò le hěn duō shì. | Mẹ đã làm rất nhiều việc vì tôi.
+? ___医生的意见，他每天早上都去跑步。 | 根据 | 关于; 向; 为 | Gēnjù yīshēng de yìjiàn, tā měi tiān zǎoshang dōu qù pǎobù. | Theo ý kiến bác sĩ, sáng nào anh ấy cũng đi chạy bộ.
+? 我在看一本___中国茶的书。 | 关于 | 根据; 向; 为 | Wǒ zài kàn yì běn guānyú Zhōngguó chá de shū. | Tôi đang đọc một cuốn sách về trà Trung Quốc.
+? 你考上了大学，大家都___你高兴。 | 为 | 关于; 根据; 向 | Nǐ kǎoshàng le dàxué, dàjiā dōu wèi nǐ gāoxìng. | Bạn đỗ đại học rồi, mọi người đều mừng cho bạn.
+
+## cum-co-dinh
+@ Cụm cố định: 不一会儿, 一般来说, 不怎么样
+§ 固定短语 · 不一会儿、一般来说、不怎么样
+& 16
+= 不一会儿，+ (chủ ngữ +) 就 / 又 + … 了   (chẳng mấy chốc, một lát sau)
+= 一般来说，+ câu   (nói chung, thường thì)
+= Chủ ngữ + 不怎么样   (chẳng ra sao, không tốt lắm)
+- 不一会儿 (bù yíhuìr): chỉ một lúc ngắn sau thì việc khác đã xảy ra; hay dùng khi kể chuyện: 不一会儿，雨就小了.
+- 一般来说 (yìbān lái shuō): nói chung, thường thì; hay đứng đầu câu.
+- 不怎么样 (bù zěnmeyàng): không hay, không tốt lắm – cách chê nhẹ nhàng hơn 不好. Làm định ngữ thì thêm 的: 一个不怎么样的电影.
+! 不一会儿 dùng để kể việc đã xảy ra; nói việc mình sắp làm thì dùng 一会儿: nói 我一会儿就去, không nói 我不一会儿就去.
+! 不怎么样 không đứng ngay trước danh từ: nói 这个电影不怎么样 hoặc 不怎么样的电影, không nói 不怎么样电影.
+> 不一会儿，/雨/就/小/了。 | Bù yíhuìr, yǔ jiù xiǎo le. | Chẳng mấy chốc mưa đã nhỏ lại.
+> 他/刚/出去，/不一会儿/又/回来/了。 | Tā gāng chūqù, bù yíhuìr yòu huílái le. | Anh ấy vừa ra ngoài, chẳng bao lâu lại quay về.
+> 一般来说，/周末/人/比较/多。 | Yìbān lái shuō, zhōumò rén bǐjiào duō. | Nói chung cuối tuần thường đông người.
+> 这个/饭馆/的/菜/不怎么样。 | Zhège fànguǎn de cài bù zěnmeyàng. | Món ăn của quán này chẳng ra sao.
+? 我刚到车站，___车就来了。 | 不一会儿 | 一般来说; 不怎么样; 怎么样 | Wǒ gāng dào chēzhàn, bù yíhuìr chē jiù lái le. | Tôi vừa đến bến xe, chẳng mấy chốc xe đã tới.
+? ___，这里冬天不太冷。 | 一般来说 | 不一会儿; 不怎么样; 一会儿 | Yìbān lái shuō, zhèlǐ dōngtiān bú tài lěng. | Nói chung mùa đông ở đây không lạnh lắm.
+? 这个电影大家都说好，可是我觉得___。 | 不怎么样 | 不一会儿; 一般来说; 一会儿 | Zhège diànyǐng dàjiā dōu shuō hǎo, kěshì wǒ juéde bù zěnmeyàng. | Bộ phim này ai cũng khen hay, nhưng tôi thấy chẳng ra sao.
+
+## bi-duo-zao
+@ A 比 B 早 / 晚 / 多 / 少 + động từ + số lượng (他比我早来十分钟)
+§ 特殊句型 · 比较句2(5)：A比B+早/晚/多/少+动词+数量
+& 16
+= A + 比 + B + 早 / 晚 + động từ (+ 了) + khoảng thời gian
+= A + 比 + B + 多 / 少 + động từ (+ 了) + số lượng (+ danh từ)
+- 他比我早来了十分钟 = anh ấy đến sớm hơn tôi mười phút.
+- 我比他多买了两本书 = tôi mua nhiều hơn anh ấy hai cuốn sách.
+- 早 / 晚 / 多 / 少 đứng TRƯỚC động từ; con số chênh lệch đứng SAU động từ.
+! Tiếng Việt nói “đến sớm hơn”, nên hay viết sai 他比我来早十分钟; phải nói 他比我早来十分钟.
+! Theo kiểu “mua nhiều hơn hai cuốn” mà nói 我比他买多两本 là sai; phải nói 我比他多买了两本.
+> 他/比我/早/来/了/十分钟。 | Tā bǐ wǒ zǎo lái le shí fēnzhōng. | Anh ấy đến sớm hơn tôi mười phút.
+> 我/比他/多/买/了/两本/书。 | Wǒ bǐ tā duō mǎi le liǎng běn shū. | Tôi mua nhiều hơn anh ấy hai cuốn sách.
+> 今天/我/比平时/晚/起/了/一个/小时。 | Jīntiān wǒ bǐ píngshí wǎn qǐ le yí ge xiǎoshí. | Hôm nay tôi dậy muộn hơn mọi ngày một tiếng.
+~ 我/今天/比平时/晚/起/了/一个/小时。
+> 妹妹/比我/少/吃/了/一碗/饭。 | Mèimei bǐ wǒ shǎo chī le yì wǎn fàn. | Em gái ăn ít hơn tôi một bát cơm.
+? 火车比飞机___到五个小时。 | 晚 | 多; 少; 很 | Huǒchē bǐ fēijī wǎn dào wǔ ge xiǎoshí. | Tàu hỏa đến muộn hơn máy bay năm tiếng.
+? 他比我___花了一百块钱，因为他买了两件。 | 多 | 很; 太; 更 | Tā bǐ wǒ duō huā le yìbǎi kuài qián, yīnwèi tā mǎi le liǎng jiàn. | Anh ấy tiêu nhiều hơn tôi một trăm đồng vì anh ấy mua hai cái.
+? 这个月他病了，比上个月___工作了五天。 | 少 | 很; 更; 非常 | Zhège yuè tā bìng le, bǐ shàng ge yuè shǎo gōngzuò le wǔ tiān. | Tháng này anh ấy bị ốm, làm ít hơn tháng trước năm ngày.
+
+## bushi-ma
+@ Câu hỏi tu từ 不是……吗？: chẳng phải… sao?
+§ 特殊句型 · 反问句1：不是……吗？
+& 17
+= (Chủ ngữ +) 不是 + … + 吗？
+- Không phải để hỏi, mà để nhấn mạnh điều cả hai đều biết, thường kèm chút ngạc nhiên hoặc trách: 你不是说不来吗？ (Chẳng phải bạn nói không đến sao?)
+- Nghĩa là KHẲNG ĐỊNH: 这不是你的书吗？ = đây chính là sách của bạn mà.
+- 不是 đứng sau chủ ngữ, trước phần muốn nhấn mạnh: 你不是去过上海吗？
+! Đừng hiểu ngược nghĩa: 你不是去过上海吗？ = “bạn đã đi Thượng Hải rồi mà”, không phải “bạn chưa đi Thượng Hải à?”.
+! 不 trong 不是 đọc bú (vì 是 thanh 4), không đọc bù.
+> 你/不是/说/不/来/吗？ | Nǐ bú shì shuō bù lái ma? | Chẳng phải bạn nói không đến sao?
+> 这/不是/你/的/书/吗？ | Zhè bú shì nǐ de shū ma? | Đây chẳng phải sách của bạn sao?
+> 你/不是/去过/上海/吗？ | Nǐ bú shì qùguo Shànghǎi ma? | Chẳng phải bạn đã đến Thượng Hải rồi sao?
+> 今天/不是/星期六/吗？ | Jīntiān bú shì xīngqīliù ma? | Hôm nay chẳng phải thứ bảy sao?
+? 你___已经吃过饭了吗？怎么又吃？ | 不是 | 不; 没; 别 | Nǐ bú shì yǐjīng chī guo fàn le ma? Zěnme yòu chī? | Chẳng phải bạn ăn cơm rồi sao? Sao lại ăn nữa?
+? 他___你的好朋友吗？你怎么不认识他？ | 不是 | 不; 别; 也 | Tā bú shì nǐ de hǎo péngyou ma? Nǐ zěnme bú rènshi tā? | Chẳng phải anh ấy là bạn thân của bạn sao? Sao bạn lại không quen anh ấy?
+? 你___去过中国吗？给我们介绍一下吧。 | 不是 | 不; 别; 很 | Nǐ bú shì qùguo Zhōngguó ma? Gěi wǒmen jièshào yíxià ba. | Chẳng phải bạn đã đến Trung Quốc rồi sao? Giới thiệu cho chúng tôi một chút đi.
+
+## zhiyou-zhiyao
+@ 只有……才…… (chỉ khi… mới…) và 只要……就…… (chỉ cần… là…)
+§ 复句 · 条件复句：只有……才……、只要……就……
+& 17
+= 只有 + điều kiện duy nhất，(chủ ngữ +) 才 + kết quả
+= 只要 + điều kiện đủ，(chủ ngữ +) 就 + kết quả
+- 只有……才……: điều kiện BẮT BUỘC, thiếu nó thì không được: 只有多练习，才能说好汉语 (phải luyện nhiều mới nói giỏi được).
+- 只要……就……: chỉ cần có điều kiện này là ĐỦ: 只要不下雨，我们就去 (chỉ cần trời không mưa là đi).
+- Nhớ cặp: 只有 đi với 才, 只要 đi với 就.
+- 才 / 就 đứng sau chủ ngữ của vế sau, trước động từ: 只要你来，我就高兴.
+! Không ghép sai cặp: không nói 只有……就…… hay 只要……才…….
+! 才 / 就 không đứng trước chủ ngữ: nói 只要你来，我就很高兴, không nói 只要你来，就我很高兴.
+> 只有/多/练习，/才/能/说/好/汉语。 | Zhǐyǒu duō liànxí, cái néng shuō hǎo Hànyǔ. | Chỉ có luyện tập nhiều mới nói giỏi tiếng Hán được.
+> 只要/你/努力，/就/一定/能/学/好。 | Zhǐyào nǐ nǔlì, jiù yídìng néng xué hǎo. | Chỉ cần bạn cố gắng là nhất định học tốt được.
+~ 你/只要/努力，/就/一定/能/学/好。
+> 只有/周末，/我/才/有/时间/看/电影。 | Zhǐyǒu zhōumò, wǒ cái yǒu shíjiān kàn diànyǐng. | Chỉ có cuối tuần tôi mới có thời gian xem phim.
+> 只要/不/下雨，/我们/就/去/公园。 | Zhǐyào bú xià yǔ, wǒmen jiù qù gōngyuán. | Chỉ cần trời không mưa là chúng ta đi công viên.
+? ___你喜欢，就买吧。 | 只要 | 只有; 虽然; 但是 | Zhǐyào nǐ xǐhuan, jiù mǎi ba. | Chỉ cần bạn thích thì mua đi.
+? 只有认真复习，___能考好。 | 才 | 就; 刚; 都 | Zhǐyǒu rènzhēn fùxí, cái néng kǎo hǎo. | Chỉ có ôn tập chăm chỉ mới thi tốt được.
+? 只要有时间，他___去看爷爷奶奶。 | 就 | 才; 刚; 别 | Zhǐyào yǒu shíjiān, tā jiù qù kàn yéye nǎinai. | Chỉ cần có thời gian là anh ấy đi thăm ông bà.
+
+## shi-de-2
+@ 是……的 nhấn mạnh nhận xét, thái độ (他是不会同意的)
+§ 特殊句型 · “是……的”句2：表示说话人的看法、态度
+& 17
+= Chủ ngữ + 是 + nhận xét / thái độ + 的
+- Khác 是……的 ở cấp 2 (nhấn mạnh thời gian, nơi chốn, cách thức của việc đã xảy ra): ở đây 是……的 làm lời nhận xét chắc chắn hơn, giọng khẳng định, thuyết phục.
+- Hay đi với 会 / 能 / 可以 / 应该: 他是不会同意的 (anh ấy sẽ không đồng ý đâu); 这个问题是能解决的 (vấn đề này giải quyết được mà).
+- Bỏ 是 và 的 thì câu vẫn đúng nhưng giọng nhẹ hơn: 他不会同意.
+! Chữ phủ định nằm SAU 是: nói 他是不会同意的, không nói 他不是会同意的.
+! Đừng thêm 是……的 vào mọi câu nhận xét: nói bình thường chỉ cần 今天很冷; 今天是很冷的 nghe như đang khẳng định để cãi lại ai đó.
+> 你/的/想法/是/对/的。 | Nǐ de xiǎngfǎ shì duì de. | Suy nghĩ của bạn là đúng.
+> 他/是/不会/同意/的。 | Tā shì bú huì tóngyì de. | Anh ấy sẽ không đồng ý đâu.
+> 这个/问题/是/能/解决/的。 | Zhège wèntí shì néng jiějué de. | Vấn đề này là giải quyết được mà.
+> 你/这样/做/是/不/对/的。 | Nǐ zhèyàng zuò shì bú duì de. | Bạn làm như vậy là không đúng.
+? 放心吧，他___不会忘的。 | 是 | 在; 有; 很 | Fàngxīn ba, tā shì bú huì wàng de. | Yên tâm đi, anh ấy sẽ không quên đâu.
+? 我觉得这件事是可以解决___。 | 的 | 得; 地; 着 | Wǒ juéde zhè jiàn shì shì kěyǐ jiějué de. | Tôi thấy chuyện này là có thể giải quyết được.
+? 你不来，他是___高兴的。 | 不会 | 没; 别; 没有 | Nǐ bù lái, tā shì bú huì gāoxìng de. | Bạn không đến thì anh ấy sẽ không vui đâu.
+
+## uoc-luong-3
+@ Ước lượng: 大概 + số; hai số liền nhau (三四个, 七八天)
+§ 数量表达 · 概数表达法2：大概+数量；相邻数字连用
+& 18
+= 大概 + (động từ +) số + lượng từ (+ danh từ)   (大概有三十个学生)
+= Hai số liền nhau + lượng từ (+ danh từ)   (三四个人, 七八天)
+- 大概 = khoảng, chừng: 从这儿到机场大概要四十分钟.
+- Hai số liền nhau, số nhỏ đứng trước: 两三天 (hai ba ngày), 五六个人 (năm sáu người).
+- Với số có 十: 十七八岁 (mười bảy mười tám tuổi), 二三十个 (hai ba chục cái).
+- Đọc liền hai số, không ngắt: 七八个 qī bā ge.
+! Số nhỏ đứng trước: nói 三四个, không nói 四三个.
+! “Chín mười ngày” không nói 九十天 (= 90 ngày!); nói 大概十天 hoặc 十天左右.
+> 这个/班/大概/有/三十个/学生。 | Zhège bān dàgài yǒu sānshí ge xuésheng. | Lớp này có khoảng ba mươi học sinh.
+> 从/这儿/到/机场/大概/要/四十/分钟。 | Cóng zhèr dào jīchǎng dàgài yào sìshí fēnzhōng. | Từ đây đến sân bay mất khoảng bốn mươi phút.
+> 我/每天/睡/七八个/小时。 | Wǒ měi tiān shuì qī bā ge xiǎoshí. | Mỗi ngày tôi ngủ bảy tám tiếng.
+~ 每天/我/睡/七八个/小时。
+> 那个/女孩/十七八/岁。 | Nàge nǚhái shíqī bā suì. | Cô gái đó khoảng mười bảy mười tám tuổi.
+? 我们等了___十分钟，他才来。 | 大概 | 一点儿; 一下; 有点儿 | Wǒmen děng le dàgài shí fēnzhōng, tā cái lái. | Chúng tôi đợi khoảng mười phút anh ấy mới đến.
+? 他去上海玩了两___天。 | 三 | 四; 一; 五 | Tā qù Shànghǎi wán le liǎng sān tiān. | Anh ấy đi Thượng Hải chơi hai ba ngày.
+? 那个孩子大概七___岁。 | 八 | 六; 五; 九 | Nàge háizi dàgài qī bā suì. | Đứa bé đó khoảng bảy tám tuổi.
+
+## gang-ganggang
+@ 刚, 刚刚, 刚才: vừa, vừa mới, lúc nãy
+§ 副词 · 时间副词：刚、刚刚 · 名词：刚才
+& 18
+= Chủ ngữ + 刚 / 刚刚 + động từ   (我刚到家)
+= 刚才 + chủ ngữ + động từ   /   chủ ngữ + 刚才 + động từ   /   刚才 + 的 + danh từ
+- 刚 / 刚刚 là PHÓ TỪ: đứng sau chủ ngữ, ngay trước động từ: 我刚到家 (tôi vừa về đến nhà). 刚刚 nhấn mạnh hơn một chút; trong khẩu ngữ 刚刚 cũng có thể dùng như 刚才.
+- 刚才 là DANH TỪ chỉ thời gian (lúc nãy, vừa rồi): đứng trước hoặc sau chủ ngữ, đi sau 比, làm định ngữ với 的: 刚才的电话 (cuộc điện thoại lúc nãy).
+- 刚 có thể nói về việc đã khá lâu, theo cảm nhận người nói: 我刚来中国两个月 (tôi mới đến Trung Quốc được hai tháng). 刚才 chỉ nói chuyện vài phút trước, không đi với khoảng thời gian như vậy.
+! Không dùng 刚才 với khoảng thời gian dài: nói 我刚来中国两个月, không nói 我刚才来中国两个月.
+! 刚 không làm định ngữ: nói 刚才的事, không nói 刚的事.
+> 我/刚/到/家。 | Wǒ gāng dào jiā. | Tôi vừa về đến nhà.
+> 刚才/有/人/给/你/打/电话。 | Gāngcái yǒu rén gěi nǐ dǎ diànhuà. | Lúc nãy có người gọi điện cho bạn.
+~ 有/人/刚才/给/你/打/电话。
+> 电影/刚刚/开始。 | Diànyǐng gānggāng kāishǐ. | Phim vừa mới bắt đầu.
+> 我/刚/来/中国/两个/月。 | Wǒ gāng lái Zhōngguó liǎng ge yuè. | Tôi mới đến Trung Quốc được hai tháng.
+? 我___来上海一个月，还不太习惯。 | 刚 | 刚才; 马上; 正在 | Wǒ gāng lái Shànghǎi yí ge yuè, hái bú tài xíguàn. | Tôi mới đến Thượng Hải được một tháng, vẫn chưa quen lắm.
+? ___的电话是谁打来的？ | 刚才 | 刚; 马上; 已经 | Gāngcái de diànhuà shì shéi dǎ lái de? | Cuộc điện thoại lúc nãy là ai gọi đến vậy?
+? 现在的雨比___小了。 | 刚才 | 刚; 马上; 已经 | Xiànzài de yǔ bǐ gāngcái xiǎo le. | Mưa bây giờ nhỏ hơn lúc nãy rồi.
+
+## cong-qi
+@ 从……起: kể từ… (从明天起)
+§ 固定格式 · 从……起
+& 18
+= 从 + thời điểm + 起，+ câu
+= Chủ ngữ + 从 + thời điểm + 起 + động từ …
+- 从明天起 = kể từ ngày mai; hay dùng khi bắt đầu một thói quen, một quy định mới: 从明天起，我每天早上跑步.
+- Nghĩa giống 从……开始: 从下个月开始 = 从下个月起.
+- Thường đứng đầu câu; cũng có thể đứng sau chủ ngữ: 我从今天起不喝咖啡了.
+! Giữa 从 và 起 là một THỜI ĐIỂM, không phải khoảng thời gian: nói 从下星期起, không nói 从一个星期起.
+! 起 đứng sau thời điểm: nói 从今天起, không nói 从起今天.
+> 从/明天/起，/我/每天/早上/跑步。 | Cóng míngtiān qǐ, wǒ měi tiān zǎoshang pǎobù. | Kể từ ngày mai, sáng nào tôi cũng chạy bộ.
+~ 从/明天/起，/每天/早上/我/跑步。
+> 从/下个月/起，/这家/商店/晚上/十点/关门。 | Cóng xià ge yuè qǐ, zhè jiā shāngdiàn wǎnshang shí diǎn guānmén. | Kể từ tháng sau, cửa hàng này đóng cửa lúc mười giờ tối.
+> 我/从/今天/起/不/喝/咖啡/了。 | Wǒ cóng jīntiān qǐ bù hē kāfēi le. | Từ hôm nay tôi không uống cà phê nữa.
+~ 从/今天/起/我/不/喝/咖啡/了。
+> 从/那天/起，/他/再也/没/来/过。 | Cóng nà tiān qǐ, tā zài yě méi lái guo. | Từ hôm đó, anh ấy không bao giờ đến nữa.
+? 从下星期___，我们每天八点上课。 | 起 | 到; 去; 以前 | Cóng xià xīngqī qǐ, wǒmen měi tiān bā diǎn shàngkè. | Kể từ tuần sau, ngày nào chúng ta cũng vào học lúc tám giờ.
+? ___今天起，我要好好学习。 | 从 | 在; 对; 离 | Cóng jīntiān qǐ, wǒ yào hǎohǎo xuéxí. | Kể từ hôm nay, tôi sẽ học hành chăm chỉ.
+? 从___起，他每天都给妈妈打电话。 | 那天 | 一天; 天天; 几天 | Cóng nà tiān qǐ, tā měi tiān dōu gěi māma dǎ diànhuà. | Từ hôm đó, ngày nào anh ấy cũng gọi điện cho mẹ.

@@ -1,0 +1,6811 @@
+{
+ "_ghiChu": "File tạo tự động bởi cong-cu/ghep-ngu-phap.py từ cong-cu/nguon-ngu-phap/ – không sửa tay.",
+ "capDo": 3,
+ "nguon": "Danh mục theo HSK考试大纲 (2025) – 语法大纲 cấp 3; giải thích và ví dụ soạn riêng cho app.",
+ "diem": [
+  {
+   "id": "kan-qilai",
+   "ten": "看起来 / 看上去: trông có vẻ (他看起来很累)",
+   "deCuong": "固定短语 · 看起来、看上去",
+   "congThuc": [
+    "Chủ ngữ + 看起来 / 看上去 + tính từ / cụm từ",
+    "看起来 + cả câu  (xem ra…, xem chừng…)"
+   ],
+   "giaiThich": [
+    "Dùng khi nhận xét dựa vào vẻ bên ngoài: 他看起来很累 (Anh ấy trông có vẻ rất mệt).",
+    "看起来 và 看上去 gần như cùng nghĩa. 看起来 còn đứng được ở đầu câu, nghĩa “xem ra”: 看起来要下雨了 (Xem chừng sắp mưa rồi).",
+    "Sau 看起来 / 看上去 thường là tính từ có 很, 不, 有点儿… hoặc 像 + danh từ."
+   ],
+   "loiHayMac": [
+    "Không bỏ 起来 / 上去 theo kiểu tiếng Việt “trông mệt”: nói 他看起来很累, không nói 他看很累.",
+    "Không nhầm với 看见 (nhìn thấy): không nói 他看见很累."
+   ],
+   "viDu": [
+    {
+     "han": "你看起来很累。",
+     "manh": [
+      "你",
+      "看起来",
+      "很",
+      "累"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "看起来",
+       "你",
+       "很",
+       "累"
+      ]
+     ],
+     "pinyin": "Nǐ kàn qǐlai hěn lèi.",
+     "dich": "Bạn trông có vẻ rất mệt."
+    },
+    {
+     "han": "这个菜看上去很好吃。",
+     "manh": [
+      "这个",
+      "菜",
+      "看上去",
+      "很",
+      "好吃"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zhège cài kàn shàngqu hěn hǎochī.",
+     "dich": "Món này trông rất ngon."
+    },
+    {
+     "han": "看起来今天要下雨了。",
+     "manh": [
+      "看起来",
+      "今天",
+      "要",
+      "下雨",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "今天",
+       "看起来",
+       "要",
+       "下雨",
+       "了"
+      ]
+     ],
+     "pinyin": "Kàn qǐlai jīntiān yào xià yǔ le.",
+     "dich": "Xem ra hôm nay sắp mưa rồi."
+    },
+    {
+     "han": "她看上去只有二十岁。",
+     "manh": [
+      "她",
+      "看上去",
+      "只有",
+      "二十",
+      "岁"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "看上去",
+       "她",
+       "只有",
+       "二十",
+       "岁"
+      ]
+     ],
+     "pinyin": "Tā kàn shàngqu zhǐ yǒu èrshí suì.",
+     "dich": "Cô ấy trông chỉ như mới hai mươi tuổi."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "你今天看___很高兴。",
+     "dapAn": "起来",
+     "nhieu": [
+      "见",
+      "过",
+      "懂"
+     ],
+     "pinyin": "Nǐ jīntiān kàn qǐlai hěn gāoxìng.",
+     "dich": "Hôm nay bạn trông rất vui."
+    },
+    {
+     "cau": "这件衣服看___去很便宜。",
+     "dapAn": "上",
+     "nhieu": [
+      "下",
+      "出",
+      "回"
+     ],
+     "pinyin": "Zhè jiàn yīfu kàn shàngqu hěn piányi.",
+     "dich": "Bộ quần áo này trông rất rẻ."
+    },
+    {
+     "cau": "天黑了，看起来___下雨了。",
+     "dapAn": "要",
+     "nhieu": [
+      "很",
+      "有",
+      "把"
+     ],
+     "pinyin": "Tiān hēi le, kàn qǐlai yào xià yǔ le.",
+     "dich": "Trời tối rồi, xem ra sắp mưa rồi."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 1,
+   "hocSauBai": 17
+  },
+  {
+   "id": "nghi-van-nhiem-chi",
+   "ten": "什么都 / 谁都 / 哪儿都: cái gì cũng, ai cũng, đâu cũng",
+   "deCuong": "代词 · 疑问代词的非疑问用法（任指）",
+   "congThuc": [
+    "什么 / 谁 / 哪儿 + 都 / 也 + động từ (khẳng định hoặc phủ định)",
+    "谁 + động từ…, 谁 + động từ…  (ai… thì người đó…)"
+   ],
+   "giaiThich": [
+    "Từ để hỏi đi với 都 / 也 không còn là câu hỏi mà mang nghĩa “bất kỳ”: 他什么都吃 (Anh ấy cái gì cũng ăn), 谁都知道 (Ai cũng biết).",
+    "Câu phủ định hay dùng 也 hoặc 都: 我哪儿也不想去 (Tôi chẳng muốn đi đâu cả).",
+    "Dù là tân ngữ, từ để hỏi vẫn đứng TRƯỚC 都 / 也 và trước động từ: 我什么都不知道.",
+    "谁……谁……: hai chữ 谁 chỉ cùng một người: 谁想去谁就去 (Ai muốn đi thì người đó đi)."
+   ],
+   "loiHayMac": [
+    "Từ để hỏi phải đứng trước 都 / 也: nói 我什么都吃, không nói 我都吃什么 (câu này lại thành câu hỏi “tôi ăn những gì?”).",
+    "Không bỏ 都 / 也: 谁知道？ là câu hỏi “ai biết?”; muốn nói “ai cũng biết” phải nói 谁都知道."
+   ],
+   "viDu": [
+    {
+     "han": "我什么都想吃。",
+     "manh": [
+      "我",
+      "什么",
+      "都",
+      "想",
+      "吃"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "什么",
+       "我",
+       "都",
+       "想",
+       "吃"
+      ]
+     ],
+     "pinyin": "Wǒ shénme dōu xiǎng chī.",
+     "dich": "Tôi cái gì cũng muốn ăn."
+    },
+    {
+     "han": "这件事谁都知道。",
+     "manh": [
+      "这件事",
+      "谁",
+      "都",
+      "知道"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "谁",
+       "都",
+       "知道",
+       "这件事"
+      ]
+     ],
+     "pinyin": "Zhè jiàn shì shéi dōu zhīdào.",
+     "dich": "Chuyện này ai cũng biết."
+    },
+    {
+     "han": "周末我哪儿也不想去。",
+     "manh": [
+      "周末",
+      "我",
+      "哪儿也",
+      "不想",
+      "去"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "我",
+       "周末",
+       "哪儿也",
+       "不想",
+       "去"
+      ]
+     ],
+     "pinyin": "Zhōumò wǒ nǎr yě bù xiǎng qù.",
+     "dich": "Cuối tuần tôi chẳng muốn đi đâu cả."
+    },
+    {
+     "han": "谁想去谁就去。",
+     "manh": [
+      "谁",
+      "想",
+      "去",
+      "谁",
+      "就",
+      "去"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Shéi xiǎng qù shéi jiù qù.",
+     "dich": "Ai muốn đi thì người đó đi."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "我女儿什么___爱吃。",
+     "dapAn": "都",
+     "nhieu": [
+      "很",
+      "太",
+      "就"
+     ],
+     "pinyin": "Wǒ nǚ'ér shénme dōu ài chī.",
+     "dich": "Con gái tôi cái gì cũng thích ăn."
+    },
+    {
+     "cau": "谁先做完，___就可以回家。",
+     "dapAn": "谁",
+     "nhieu": [
+      "什么",
+      "哪儿",
+      "几"
+     ],
+     "pinyin": "Shéi xiān zuò wán, shéi jiù kěyǐ huí jiā.",
+     "dich": "Ai làm xong trước thì người đó được về nhà."
+    },
+    {
+     "cau": "星期天我哪儿___没去，在家休息。",
+     "dapAn": "也",
+     "nhieu": [
+      "很",
+      "就",
+      "才"
+     ],
+     "pinyin": "Xīngqītiān wǒ nǎr yě méi qù, zài jiā xiūxi.",
+     "dich": "Chủ nhật tôi chẳng đi đâu cả, ở nhà nghỉ ngơi."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 1,
+   "hocSauBai": 16
+  },
+  {
+   "id": "da-dinh-ngu",
+   "ten": "Nhiều định ngữ trước danh từ: 我的那两本新书",
+   "deCuong": "句子成分 · 多项定语",
+   "congThuc": [
+    "(của ai + 的) + 这 / 那 + số + lượng từ + tính từ (+ 的) + danh từ"
+   ],
+   "giaiThich": [
+    "Tiếng Trung đặt mọi phần bổ nghĩa TRƯỚC danh từ, ngược với tiếng Việt: “hai cuốn sách mới kia của tôi” → 我的那两本新书.",
+    "Thứ tự: người sở hữu (+的) → 这 / 那 → số + lượng từ → tính từ → danh từ.",
+    "Tính từ một âm tiết thường gắn thẳng vào danh từ (新书, 白衣服); tính từ có 很 hoặc tính từ hai âm tiết thường thêm 的 (很漂亮的衣服, 干净的房间)."
+   ],
+   "loiHayMac": [
+    "Không đặt tính từ sau danh từ theo kiểu tiếng Việt: nói 一件白衣服, không nói 一件衣服白.",
+    "Không bỏ lượng từ sau số hoặc 这 / 那: nói 我的那两本书, không nói 我的那两书."
+   ],
+   "viDu": [
+    {
+     "han": "我的那两本新书不见了。",
+     "manh": [
+      "我的",
+      "那",
+      "两本",
+      "新",
+      "书",
+      "不见了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ de nà liǎng běn xīn shū bú jiàn le.",
+     "dich": "Hai cuốn sách mới kia của tôi không thấy đâu nữa."
+    },
+    {
+     "han": "桌子上有三个红苹果。",
+     "manh": [
+      "桌子上",
+      "有",
+      "三个",
+      "红",
+      "苹果"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zhuōzi shang yǒu sān ge hóng píngguǒ.",
+     "dich": "Trên bàn có ba quả táo đỏ."
+    },
+    {
+     "han": "我很喜欢你的这件白衣服。",
+     "manh": [
+      "我",
+      "很",
+      "喜欢",
+      "你的",
+      "这件",
+      "白",
+      "衣服"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "你的",
+       "这件",
+       "白",
+       "衣服",
+       "我",
+       "很",
+       "喜欢"
+      ]
+     ],
+     "pinyin": "Wǒ hěn xǐhuan nǐ de zhè jiàn bái yīfu.",
+     "dich": "Tôi rất thích bộ quần áo trắng này của bạn."
+    },
+    {
+     "han": "他们是我们班的两个新同学。",
+     "manh": [
+      "他们是",
+      "我们班的",
+      "两个",
+      "新",
+      "同学"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tāmen shì wǒmen bān de liǎng ge xīn tóngxué.",
+     "dich": "Họ là hai bạn học mới của lớp chúng tôi."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "我___那两个朋友都是中国人。",
+     "dapAn": "的",
+     "nhieu": [
+      "是",
+      "在",
+      "很"
+     ],
+     "pinyin": "Wǒ de nà liǎng ge péngyou dōu shì Zhōngguó rén.",
+     "dich": "Hai người bạn kia của tôi đều là người Trung Quốc."
+    },
+    {
+     "cau": "我的___两本书在哪儿？",
+     "dapAn": "那",
+     "nhieu": [
+      "很",
+      "是",
+      "有"
+     ],
+     "pinyin": "Wǒ de nà liǎng běn shū zài nǎr?",
+     "dich": "Hai cuốn sách kia của tôi ở đâu?"
+    },
+    {
+     "cau": "那___新来的老师是我的朋友。",
+     "dapAn": "位",
+     "nhieu": [
+      "本",
+      "张",
+      "件"
+     ],
+     "pinyin": "Nà wèi xīn lái de lǎoshī shì wǒ de péngyou.",
+     "dich": "Thầy giáo mới đến kia là bạn tôi."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 1,
+   "hocSauBai": 0
+  },
+  {
+   "id": "nghi-van-bat-dinh",
+   "ten": "什么 / 谁 / 哪儿 chỉ “gì đó, ai đó, đâu đó”: 想吃点儿什么",
+   "deCuong": "代词 · 疑问代词的非疑问用法（虚指）",
+   "congThuc": [
+    "động từ + (点儿) + 什么  (… gì đó)",
+    "好像 / 有 + 谁 / 在哪儿 …  (ai đó, ở đâu đó)"
+   ],
+   "giaiThich": [
+    "Từ để hỏi có thể chỉ một người, vật, nơi chốn không rõ hoặc không cần nói rõ: 我想吃点儿什么 (Tôi muốn ăn chút gì đó).",
+    "Hay đi với 好像, 想, 点儿, 有: 我好像在哪儿见过他 (Hình như tôi đã gặp anh ấy ở đâu đó).",
+    "Đây là câu kể, cuối câu dùng dấu chấm. Thêm 吗 thì thành câu hỏi “có… gì không?”: 你想吃点儿什么吗？ (Bạn có muốn ăn chút gì không?)."
+   ],
+   "loiHayMac": [
+    "Đừng hiểu nhầm thành câu hỏi: 我好像在哪儿见过他。 là “hình như đã gặp ở đâu đó”, không phải “đã gặp ở đâu?”.",
+    "Từ để hỏi dùng để hỏi thật thì không thêm 吗: không nói 你叫什么名字吗？ (吗 chỉ đi với từ để hỏi theo nghĩa “gì đó”: 你想买点儿什么吗？)."
+   ],
+   "viDu": [
+    {
+     "han": "我想吃点儿什么。",
+     "manh": [
+      "我",
+      "想",
+      "吃",
+      "点儿",
+      "什么"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ xiǎng chī diǎnr shénme.",
+     "dich": "Tôi muốn ăn chút gì đó."
+    },
+    {
+     "han": "我好像在哪儿见过他。",
+     "manh": [
+      "我",
+      "好像在哪儿",
+      "见过",
+      "他"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "他",
+       "我",
+       "好像在哪儿",
+       "见过"
+      ]
+     ],
+     "pinyin": "Wǒ hǎoxiàng zài nǎr jiànguo tā.",
+     "dich": "Hình như tôi đã gặp anh ấy ở đâu đó."
+    },
+    {
+     "han": "周末我们去哪儿玩玩吧。",
+     "manh": [
+      "周末",
+      "我们",
+      "去",
+      "哪儿",
+      "玩玩",
+      "吧"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "我们",
+       "周末",
+       "去",
+       "哪儿",
+       "玩玩",
+       "吧"
+      ]
+     ],
+     "pinyin": "Zhōumò wǒmen qù nǎr wánwan ba.",
+     "dich": "Cuối tuần chúng mình đi đâu đó chơi đi."
+    },
+    {
+     "han": "他好像有什么事。",
+     "manh": [
+      "他",
+      "好像",
+      "有",
+      "什么",
+      "事"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "好像",
+       "他",
+       "有",
+       "什么",
+       "事"
+      ]
+     ],
+     "pinyin": "Tā hǎoxiàng yǒu shénme shì.",
+     "dich": "Hình như anh ấy có chuyện gì đó."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "我渴了，想喝点儿___。",
+     "dapAn": "什么",
+     "nhieu": [
+      "谁",
+      "哪儿",
+      "怎么"
+     ],
+     "pinyin": "Wǒ kě le, xiǎng hē diǎnr shénme.",
+     "dich": "Tôi khát rồi, muốn uống chút gì đó."
+    },
+    {
+     "cau": "这个人我好像在___见过。",
+     "dapAn": "哪儿",
+     "nhieu": [
+      "什么",
+      "谁",
+      "怎么"
+     ],
+     "pinyin": "Zhège rén wǒ hǎoxiàng zài nǎr jiànguo.",
+     "dich": "Người này hình như tôi đã gặp ở đâu đó."
+    },
+    {
+     "cau": "门外好像有___在说话。",
+     "dapAn": "谁",
+     "nhieu": [
+      "哪儿",
+      "怎么",
+      "几"
+     ],
+     "pinyin": "Mén wài hǎoxiàng yǒu shéi zài shuōhuà.",
+     "dich": "Ngoài cửa hình như có ai đó đang nói chuyện."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 2,
+   "hocSauBai": 16
+  },
+  {
+   "id": "you-you",
+   "ten": "又……又……: vừa… vừa… (又好吃又便宜)",
+   "deCuong": "复句 · 并列复句：又……又……",
+   "congThuc": [
+    "又 + tính từ / động từ + 又 + tính từ / động từ"
+   ],
+   "giaiThich": [
+    "Nói một người, một vật có hai đặc điểm cùng lúc: 这家饭馆的菜又好吃又便宜 (Món ăn quán này vừa ngon vừa rẻ).",
+    "Hai phần sau 又 thường cùng chiều (cùng tốt hoặc cùng không tốt): 又累又饿 (vừa mệt vừa đói).",
+    "Sau 又 thường dùng tính từ trực tiếp, không thêm 很."
+   ],
+   "loiHayMac": [
+    "Sau 又 thường dùng tính từ trực tiếp: hay nói 又高又大 hơn 又很高又很大.",
+    "Không dùng 和 để nối hai tính từ làm vị ngữ: nói 她又聪明又漂亮, không nói 她聪明和漂亮."
+   ],
+   "viDu": [
+    {
+     "han": "这家饭馆的菜又好吃又便宜。",
+     "manh": [
+      "这家饭馆的菜",
+      "又",
+      "好吃",
+      "又",
+      "便宜"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "这家饭馆的菜",
+       "又",
+       "便宜",
+       "又",
+       "好吃"
+      ]
+     ],
+     "pinyin": "Zhè jiā fànguǎn de cài yòu hǎochī yòu piányi.",
+     "dich": "Món ăn quán này vừa ngon vừa rẻ."
+    },
+    {
+     "han": "她又聪明又漂亮。",
+     "manh": [
+      "她",
+      "又",
+      "聪明",
+      "又",
+      "漂亮"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "她",
+       "又",
+       "漂亮",
+       "又",
+       "聪明"
+      ]
+     ],
+     "pinyin": "Tā yòu cōngming yòu piàoliang.",
+     "dich": "Cô ấy vừa thông minh vừa xinh đẹp."
+    },
+    {
+     "han": "我今天又累又饿。",
+     "manh": [
+      "我今天",
+      "又",
+      "累",
+      "又",
+      "饿"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "我今天",
+       "又",
+       "饿",
+       "又",
+       "累"
+      ]
+     ],
+     "pinyin": "Wǒ jīntiān yòu lèi yòu è.",
+     "dich": "Hôm nay tôi vừa mệt vừa đói."
+    },
+    {
+     "han": "孩子们又唱又跳。",
+     "manh": [
+      "孩子们",
+      "又",
+      "唱",
+      "又",
+      "跳"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "孩子们",
+       "又",
+       "跳",
+       "又",
+       "唱"
+      ]
+     ],
+     "pinyin": "Háizimen yòu chàng yòu tiào.",
+     "dich": "Bọn trẻ vừa hát vừa nhảy."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "这个房间又干净___安静。",
+     "dapAn": "又",
+     "nhieu": [
+      "和",
+      "很",
+      "都"
+     ],
+     "pinyin": "Zhège fángjiān yòu gānjìng yòu ānjìng.",
+     "dich": "Căn phòng này vừa sạch sẽ vừa yên tĩnh."
+    },
+    {
+     "cau": "这件衣服___便宜又好看。",
+     "dapAn": "又",
+     "nhieu": [
+      "和",
+      "地",
+      "吗"
+     ],
+     "pinyin": "Zhè jiàn yīfu yòu piányi yòu hǎokàn.",
+     "dich": "Bộ quần áo này vừa rẻ vừa đẹp."
+    },
+    {
+     "cau": "外边又刮风又___雨。",
+     "dapAn": "下",
+     "nhieu": [
+      "是",
+      "去",
+      "开"
+     ],
+     "pinyin": "Wàibian yòu guā fēng yòu xià yǔ.",
+     "dich": "Bên ngoài vừa có gió vừa mưa."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 2,
+   "hocSauBai": 17
+  },
+  {
+   "id": "bo-ngu-muc-do",
+   "ten": "Bổ ngữ mức độ: 好极了, 便宜得很, 累坏了",
+   "deCuong": "补语 · 程度补语1：形容词+得很／极了／坏了",
+   "congThuc": [
+    "Tính từ + 得很  (… lắm, rất…)",
+    "Tính từ / động từ tâm lý + 极了  (… cực kỳ, … quá)",
+    "Tính từ / động từ + 坏了  (… muốn chết, … lắm)"
+   ],
+   "giaiThich": [
+    "得很, 极了, 坏了 đứng SAU tính từ để nói mức độ rất cao, mạnh hơn 很 đứng trước.",
+    "极了 dùng cả nghĩa tốt và xấu: 好极了, 累极了. 坏了 hay đi với cảm giác khó chịu: 饿坏了, 累坏了 (cũng nói 高兴坏了).",
+    "Đã có 得很 / 极了 / 坏了 thì không dùng thêm 很, 非常 trước tính từ."
+   ],
+   "loiHayMac": [
+    "Không dùng hai lần từ chỉ mức độ: nói 好极了, không nói 很好极了.",
+    "得很 phải có 得: nói 好得很, không nói 好很."
+   ],
+   "viDu": [
+    {
+     "han": "今天的天气好极了。",
+     "manh": [
+      "今天的",
+      "天气",
+      "好",
+      "极了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Jīntiān de tiānqì hǎo jí le.",
+     "dich": "Thời tiết hôm nay đẹp cực kỳ."
+    },
+    {
+     "han": "这里的东西便宜得很。",
+     "manh": [
+      "这里的",
+      "东西",
+      "便宜",
+      "得很"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zhèlǐ de dōngxi piányi de hěn.",
+     "dich": "Đồ ở đây rẻ lắm."
+    },
+    {
+     "han": "今天我累坏了。",
+     "manh": [
+      "今天",
+      "我",
+      "累",
+      "坏了"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "我",
+       "今天",
+       "累",
+       "坏了"
+      ]
+     ],
+     "pinyin": "Jīntiān wǒ lèi huài le.",
+     "dich": "Hôm nay tôi mệt muốn chết."
+    },
+    {
+     "han": "听说你要来，他高兴极了。",
+     "manh": [
+      "听说",
+      "你",
+      "要",
+      "来，",
+      "他",
+      "高兴",
+      "极了"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "他",
+       "听说",
+       "你",
+       "要",
+       "来，",
+       "高兴",
+       "极了"
+      ]
+     ],
+     "pinyin": "Tīngshuō nǐ yào lái, tā gāoxìng jí le.",
+     "dich": "Nghe nói bạn sắp đến, anh ấy vui lắm."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "这个菜好吃___了！",
+     "dapAn": "极",
+     "nhieu": [
+      "很",
+      "太",
+      "非常"
+     ],
+     "pinyin": "Zhège cài hǎochī jí le!",
+     "dich": "Món này ngon cực kỳ!"
+    },
+    {
+     "cau": "这里的冬天冷___很。",
+     "dapAn": "得",
+     "nhieu": [
+      "地",
+      "了",
+      "着"
+     ],
+     "pinyin": "Zhèlǐ de dōngtiān lěng de hěn.",
+     "dich": "Mùa đông ở đây lạnh lắm."
+    },
+    {
+     "cau": "一天没吃饭，我饿___了。",
+     "dapAn": "坏",
+     "nhieu": [
+      "很",
+      "太",
+      "得"
+     ],
+     "pinyin": "Yì tiān méi chī fàn, wǒ è huài le.",
+     "dich": "Cả ngày chưa ăn gì, tôi đói muốn chết."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 3,
+   "hocSauBai": 3
+  },
+  {
+   "id": "jiu-cai",
+   "ten": "就 và 才: sớm, nhanh (就) – muộn, chậm (才)",
+   "deCuong": "副词 · 就、才1（表示时间早晚、数量多少）",
+   "congThuc": [
+    "thời gian / số lượng + 就 + động từ + 了  (sớm, nhanh, dễ)",
+    "thời gian / số lượng + 才 + động từ  (muộn, chậm, khó – thường không có 了)",
+    "才 + số lượng  (chỉ mới…, ít)"
+   ],
+   "giaiThich": [
+    "就 cho thấy người nói thấy việc xảy ra sớm, nhanh, dễ: 他七点就来了 (Mới 7 giờ anh ấy đã đến rồi).",
+    "才 cho thấy người nói thấy việc xảy ra muộn, chậm, khó: 他十点才起床 (Mãi 10 giờ anh ấy mới dậy). 我看了三遍才看懂 (Tôi đọc ba lần mới hiểu).",
+    "才 đứng trước số lượng nghĩa là “mới có, chỉ có” (ít): 他今年才十八岁.",
+    "就 / 才 đứng sau từ chỉ thời gian, trước động từ."
+   ],
+   "loiHayMac": [
+    "Câu có 才 (nghĩa muộn) không thêm 了 cuối câu: nói 他十点才来, không nói 他十点才来了.",
+    "Khi nói việc xảy ra sớm / muộn, 就 / 才 đứng SAU từ chỉ thời gian: nói 他八点就到了, không nói 他就八点到了."
+   ],
+   "viDu": [
+    {
+     "han": "他七点就来了。",
+     "manh": [
+      "他",
+      "七点",
+      "就",
+      "来",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "七点",
+       "他",
+       "就",
+       "来",
+       "了"
+      ]
+     ],
+     "pinyin": "Tā qī diǎn jiù lái le.",
+     "dich": "Mới bảy giờ anh ấy đã đến rồi."
+    },
+    {
+     "han": "他十点才起床。",
+     "manh": [
+      "他",
+      "十点",
+      "才",
+      "起床"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "十点",
+       "他",
+       "才",
+       "起床"
+      ]
+     ],
+     "pinyin": "Tā shí diǎn cái qǐchuáng.",
+     "dich": "Mãi mười giờ anh ấy mới dậy."
+    },
+    {
+     "han": "他三天就学会了。",
+     "manh": [
+      "他",
+      "三天",
+      "就",
+      "学会",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "三天",
+       "他",
+       "就",
+       "学会",
+       "了"
+      ]
+     ],
+     "pinyin": "Tā sān tiān jiù xuéhuì le.",
+     "dich": "Cậu ấy chỉ ba ngày đã học được rồi."
+    },
+    {
+     "han": "他今年才十八岁。",
+     "manh": [
+      "他",
+      "今年",
+      "才",
+      "十八",
+      "岁"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "今年",
+       "他",
+       "才",
+       "十八",
+       "岁"
+      ]
+     ],
+     "pinyin": "Tā jīnnián cái shíbā suì.",
+     "dich": "Năm nay cậu ấy mới có mười tám tuổi."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "他很聪明，十分钟___做完了。",
+     "dapAn": "就",
+     "nhieu": [
+      "很",
+      "再",
+      "太"
+     ],
+     "pinyin": "Tā hěn cōngming, shí fēnzhōng jiù zuò wán le.",
+     "dich": "Cậu ấy rất thông minh, mười phút đã làm xong rồi."
+    },
+    {
+     "cau": "我等了你一个小时，你怎么现在___来？",
+     "dapAn": "才",
+     "nhieu": [
+      "很",
+      "太",
+      "把"
+     ],
+     "pinyin": "Wǒ děng le nǐ yí ge xiǎoshí, nǐ zěnme xiànzài cái lái?",
+     "dich": "Tôi đợi bạn một tiếng rồi, sao giờ bạn mới đến?"
+    },
+    {
+     "cau": "这个孩子___五岁，已经会写很多字了。",
+     "dapAn": "才",
+     "nhieu": [
+      "很",
+      "太",
+      "再"
+     ],
+     "pinyin": "Zhège háizi cái wǔ suì, yǐjīng huì xiě hěn duō zì le.",
+     "dich": "Đứa bé này mới năm tuổi mà đã biết viết nhiều chữ rồi."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 3,
+   "hocSauBai": 3
+  },
+  {
+   "id": "yi-ye-bu",
+   "ten": "一……也不 / 也没: một… cũng không (一个人也没有)",
+   "deCuong": "固定格式 · 一+量词+名词+也/都+不/没……；一点儿也不……",
+   "congThuc": [
+    "一 + lượng từ (+ danh từ) + 也 / 都 + 不 / 没 + động từ",
+    "一点儿 + 也 / 都 + 不 / 没 + tính từ / động từ"
+   ],
+   "giaiThich": [
+    "Nhấn mạnh phủ định hoàn toàn: 教室里一个人也没有 (Trong lớp không có một ai).",
+    "一点儿也不 + tính từ: không… chút nào: 这件衣服一点儿也不贵 (Bộ quần áo này không đắt chút nào).",
+    "Vật bị phủ định (tân ngữ) phải đưa lên TRƯỚC động từ: 他一句话也没说 (Anh ấy không nói một câu nào)."
+   ],
+   "loiHayMac": [
+    "Không để 一……也 sau động từ: nói 我一句话也没说, không nói 我没说一句话也.",
+    "一点儿也不 đứng TRƯỚC tính từ: nói 一点儿也不累, không nói 不累一点儿 (theo kiểu “không mệt chút nào”)."
+   ],
+   "viDu": [
+    {
+     "han": "教室里一个人也没有。",
+     "manh": [
+      "教室里",
+      "一个人",
+      "也",
+      "没有"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Jiàoshì li yí ge rén yě méiyǒu.",
+     "dich": "Trong lớp học không có một ai."
+    },
+    {
+     "han": "他一句话也没说。",
+     "manh": [
+      "他",
+      "一句话",
+      "也",
+      "没",
+      "说"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "一句话",
+       "他",
+       "也",
+       "没",
+       "说"
+      ]
+     ],
+     "pinyin": "Tā yí jù huà yě méi shuō.",
+     "dich": "Anh ấy không nói một câu nào."
+    },
+    {
+     "han": "这件衣服一点儿也不贵。",
+     "manh": [
+      "这件",
+      "衣服",
+      "一点儿",
+      "也",
+      "不",
+      "贵"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zhè jiàn yīfu yìdiǎnr yě bú guì.",
+     "dich": "Bộ quần áo này không đắt chút nào."
+    },
+    {
+     "han": "我一点儿都不饿。",
+     "manh": [
+      "我",
+      "一点儿",
+      "都",
+      "不",
+      "饿"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ yìdiǎnr dōu bú è.",
+     "dich": "Tôi không đói chút nào."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "冰箱里一个鸡蛋___没有了。",
+     "dapAn": "也",
+     "nhieu": [
+      "很",
+      "就",
+      "才"
+     ],
+     "pinyin": "Bīngxiāng li yí ge jīdàn yě méiyǒu le.",
+     "dich": "Trong tủ lạnh không còn một quả trứng nào."
+    },
+    {
+     "cau": "我___点儿也不累。",
+     "dapAn": "一",
+     "nhieu": [
+      "有",
+      "很",
+      "没"
+     ],
+     "pinyin": "Wǒ yìdiǎnr yě bú lèi.",
+     "dich": "Tôi không mệt chút nào."
+    },
+    {
+     "cau": "他今天一口饭也___吃。",
+     "dapAn": "没",
+     "nhieu": [
+      "很",
+      "太",
+      "在"
+     ],
+     "pinyin": "Tā jīntiān yì kǒu fàn yě méi chī.",
+     "dich": "Hôm nay anh ấy chưa ăn một miếng cơm nào."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 4,
+   "hocSauBai": 2
+  },
+  {
+   "id": "chu-le",
+   "ten": "除了……（以外）: trừ… / ngoài… ra còn…",
+   "deCuong": "固定格式 · 除了……（以外），都……／还、也……",
+   "congThuc": [
+    "除了 A（以外），chủ ngữ + 都 + …  (trừ A ra, tất cả đều…)",
+    "除了 A（以外），chủ ngữ + 还 / 也 + …  (ngoài A ra, còn…)"
+   ],
+   "giaiThich": [
+    "Đi với 都 là LOẠI A ra: 除了他，我们都去了 (Trừ anh ấy ra, chúng tôi đều đi cả).",
+    "Đi với 还 / 也 là THÊM vào A: 除了汉语，他还会说日语 (Ngoài tiếng Trung, anh ấy còn biết nói tiếng Nhật).",
+    "以外 có thể có hoặc bỏ. Chủ ngữ có thể đứng trước 除了: 他除了汉语，还会说日语."
+   ],
+   "loiHayMac": [
+    "还 / 也 / 都 đứng sau chủ ngữ của vế sau: nói 除了汉语，他还会说日语, không nói 除了汉语，还他会说日语.",
+    "Vế sau phải có 都 hoặc 还 / 也: không nói 除了他，我们去了."
+   ],
+   "viDu": [
+    {
+     "han": "除了他，我们都去了。",
+     "manh": [
+      "除了",
+      "他，",
+      "我们",
+      "都",
+      "去",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "我们",
+       "除了",
+       "他，",
+       "都",
+       "去",
+       "了"
+      ]
+     ],
+     "pinyin": "Chúle tā, wǒmen dōu qù le.",
+     "dich": "Trừ anh ấy ra, chúng tôi đều đi cả."
+    },
+    {
+     "han": "除了汉语，他还会说日语。",
+     "manh": [
+      "除了汉语，",
+      "他",
+      "还",
+      "会",
+      "说日语"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "他",
+       "除了汉语，",
+       "还",
+       "会",
+       "说日语"
+      ]
+     ],
+     "pinyin": "Chúle Hànyǔ, tā hái huì shuō Rìyǔ.",
+     "dich": "Ngoài tiếng Trung, anh ấy còn biết nói tiếng Nhật."
+    },
+    {
+     "han": "除了跑步，我也喜欢游泳。",
+     "manh": [
+      "除了跑步，",
+      "我",
+      "也",
+      "喜欢游泳"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "我",
+       "除了跑步，",
+       "也",
+       "喜欢游泳"
+      ]
+     ],
+     "pinyin": "Chúle pǎobù, wǒ yě xǐhuan yóuyǒng.",
+     "dich": "Ngoài chạy bộ, tôi cũng thích bơi."
+    },
+    {
+     "han": "除了星期天以外，他每天都上班。",
+     "manh": [
+      "除了",
+      "星期天",
+      "以外，",
+      "他",
+      "每天",
+      "都",
+      "上班"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "他",
+       "除了",
+       "星期天",
+       "以外，",
+       "每天",
+       "都",
+       "上班"
+      ],
+      [
+       "除了",
+       "星期天",
+       "以外，",
+       "每天",
+       "他",
+       "都",
+       "上班"
+      ]
+     ],
+     "pinyin": "Chúle xīngqītiān yǐwài, tā měi tiān dōu shàngbān.",
+     "dich": "Trừ Chủ nhật ra, ngày nào anh ấy cũng đi làm."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "除了你___外，大家都到了。",
+     "dapAn": "以",
+     "nhieu": [
+      "所",
+      "可",
+      "已"
+     ],
+     "pinyin": "Chúle nǐ yǐwài, dàjiā dōu dào le.",
+     "dich": "Trừ bạn ra, mọi người đều đến rồi."
+    },
+    {
+     "cau": "除了唱歌，她___喜欢跳舞。",
+     "dapAn": "还",
+     "nhieu": [
+      "都",
+      "再",
+      "才"
+     ],
+     "pinyin": "Chúle chànggē, tā hái xǐhuan tiàowǔ.",
+     "dich": "Ngoài hát, cô ấy còn thích nhảy."
+    },
+    {
+     "cau": "除了这个字，别的字我___认识。",
+     "dapAn": "都",
+     "nhieu": [
+      "再",
+      "把",
+      "给"
+     ],
+     "pinyin": "Chúle zhège zì, bié de zì wǒ dōu rènshi.",
+     "dich": "Trừ chữ này ra, các chữ khác tôi đều biết."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 4,
+   "hocSauBai": 5
+  },
+  {
+   "id": "gen-yiyang",
+   "ten": "A 跟 B 一样: A giống B, A … bằng B (我跟他一样高)",
+   "deCuong": "特殊句型 · 比较句2：A跟B一样（+形容词）／A跟B不一样",
+   "congThuc": [
+    "A + 跟 + B + 一样 (+ tính từ)",
+    "A + 跟 + B + 不一样"
+   ],
+   "giaiThich": [
+    "一样 = giống nhau: 你的手机跟我的一样 (Điện thoại của bạn giống của tôi).",
+    "Thêm tính từ sau 一样 để nói “… bằng”: 我跟哥哥一样高 (Tôi cao bằng anh trai).",
+    "Phủ định: 不 đặt trước 一样: 他的想法跟我的不一样. Có thể dùng 和 thay 跟."
+   ],
+   "loiHayMac": [
+    "Tính từ đứng SAU 一样: nói 我跟他一样高, không nói 我跟他高一样 (theo kiểu “cao bằng”).",
+    "Trong câu so sánh, 不 đứng trước 一样: nói 我跟他不一样高, không nói 我不跟他一样高."
+   ],
+   "viDu": [
+    {
+     "han": "我跟哥哥一样高。",
+     "manh": [
+      "我",
+      "跟哥哥",
+      "一样",
+      "高"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ gēn gēge yíyàng gāo.",
+     "dich": "Tôi cao bằng anh trai."
+    },
+    {
+     "han": "今天跟昨天一样热。",
+     "manh": [
+      "今天",
+      "跟昨天",
+      "一样",
+      "热"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Jīntiān gēn zuótiān yíyàng rè.",
+     "dich": "Hôm nay nóng như hôm qua."
+    },
+    {
+     "han": "他的想法跟我的不一样。",
+     "manh": [
+      "他的",
+      "想法",
+      "跟我的",
+      "不",
+      "一样"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā de xiǎngfǎ gēn wǒ de bù yíyàng.",
+     "dich": "Suy nghĩ của anh ấy không giống của tôi."
+    },
+    {
+     "han": "你的手机跟我的一样。",
+     "manh": [
+      "你的",
+      "手机",
+      "跟我的",
+      "一样"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Nǐ de shǒujī gēn wǒ de yíyàng.",
+     "dich": "Điện thoại của bạn giống của tôi."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "他跟他爸爸___高。",
+     "dapAn": "一样",
+     "nhieu": [
+      "一起",
+      "一下",
+      "一点"
+     ],
+     "pinyin": "Tā gēn tā bàba yíyàng gāo.",
+     "dich": "Anh ấy cao bằng bố."
+    },
+    {
+     "cau": "这件衣服___那件一样漂亮。",
+     "dapAn": "跟",
+     "nhieu": [
+      "比",
+      "是",
+      "在"
+     ],
+     "pinyin": "Zhè jiàn yīfu gēn nà jiàn yíyàng piàoliang.",
+     "dich": "Bộ quần áo này đẹp như bộ kia."
+    },
+    {
+     "cau": "我的看法跟你___一样。",
+     "dapAn": "不",
+     "nhieu": [
+      "没",
+      "别",
+      "再"
+     ],
+     "pinyin": "Wǒ de kànfǎ gēn nǐ bù yíyàng.",
+     "dich": "Cách nhìn của tôi không giống bạn."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 4,
+   "hocSauBai": 4
+  },
+  {
+   "id": "luong-tu-lap",
+   "ten": "Lặp lượng từ: 个个, 张张, 天天 (mỗi…, … nào cũng)",
+   "deCuong": "词类 · 量词重叠",
+   "congThuc": [
+    "Lượng từ lặp (AA) + (都) + vị ngữ   (个个都很好)",
+    "Danh từ một chữ lặp: 天天, 人人, 家家, 年年"
+   ],
+   "giaiThich": [
+    "Lượng từ lặp lại nghĩa là “mỗi…, … nào cũng…”: 这些苹果个个都很大 (quả táo nào cũng to).",
+    "Thường đứng trước động từ / tính từ, hay đi với 都: 张张都很漂亮 (tấm nào cũng đẹp).",
+    "Một số danh từ một chữ cũng lặp được như vậy: 天天 (ngày nào cũng), 人人 (ai cũng), 家家 (nhà nào cũng)."
+   ],
+   "loiHayMac": [
+    "Không thêm 每 hay 一 trước lượng từ lặp: nói 个个都很好, không nói 每个个都很好.",
+    "Lượng từ lặp không đứng sau động từ làm tân ngữ: nói 这几件衣服件件都好看, không nói 我喜欢件件衣服."
+   ],
+   "viDu": [
+    {
+     "han": "我们班的同学个个都很努力。",
+     "manh": [
+      "我们",
+      "班",
+      "的",
+      "同学",
+      "个个",
+      "都",
+      "很",
+      "努力"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒmen bān de tóngxué gègè dōu hěn nǔlì.",
+     "dich": "Bạn nào trong lớp chúng tôi cũng rất chăm chỉ."
+    },
+    {
+     "han": "他天天去跑步。",
+     "manh": [
+      "他",
+      "天天",
+      "去",
+      "跑步"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā tiāntiān qù pǎobù.",
+     "dich": "Ngày nào anh ấy cũng đi chạy bộ."
+    },
+    {
+     "han": "这些照片张张都很漂亮。",
+     "manh": [
+      "这些",
+      "照片",
+      "张张",
+      "都",
+      "很",
+      "漂亮"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zhèxiē zhàopiàn zhāngzhāng dōu hěn piàoliang.",
+     "dich": "Tấm ảnh nào trong số này cũng rất đẹp."
+    },
+    {
+     "han": "人人都喜欢他做的菜。",
+     "manh": [
+      "人人",
+      "都",
+      "喜欢",
+      "他",
+      "做",
+      "的",
+      "菜"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "他",
+       "做",
+       "的",
+       "菜",
+       "人人",
+       "都",
+       "喜欢"
+      ]
+     ],
+     "pinyin": "Rénrén dōu xǐhuan tā zuò de cài.",
+     "dich": "Ai cũng thích món anh ấy nấu."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "这些苹果___都很甜。",
+     "dapAn": "个个",
+     "nhieu": [
+      "个",
+      "一个",
+      "每"
+     ],
+     "pinyin": "Zhèxiē píngguǒ gègè dōu hěn tián.",
+     "dich": "Quả táo nào trong số này cũng rất ngọt."
+    },
+    {
+     "cau": "他___早上都喝一杯牛奶。",
+     "dapAn": "天天",
+     "nhieu": [
+      "天",
+      "日",
+      "年"
+     ],
+     "pinyin": "Tā tiāntiān zǎoshang dōu hē yì bēi niúnǎi.",
+     "dich": "Sáng nào anh ấy cũng uống một cốc sữa."
+    },
+    {
+     "cau": "这几本书我___都看过。",
+     "dapAn": "本本",
+     "nhieu": [
+      "本",
+      "一本",
+      "书"
+     ],
+     "pinyin": "Zhè jǐ běn shū wǒ běnběn dōu kàn guo.",
+     "dich": "Mấy cuốn sách này cuốn nào tôi cũng đọc rồi."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 5,
+   "hocSauBai": 10
+  },
+  {
+   "id": "ton-hien-3",
+   "ten": "Câu tồn hiện chỉ xuất hiện / biến mất: 前面走过来一个人, 我家少了一个碗",
+   "deCuong": "特殊句型 · 存现句3：表示出现、消失",
+   "congThuc": [
+    "Nơi chốn + động từ + 了 / bổ ngữ xu hướng + số + lượng từ + người / vật"
+   ],
+   "giaiThich": [
+    "Dùng khi ở một nơi XUẤT HIỆN thêm hoặc MẤT ĐI người / vật nào đó: 前面走过来一个人 (phía trước có một người đi tới), 我们班来了两个新同学.",
+    "Biến mất: 我家少了一个碗 (nhà tôi mất một cái bát), 楼上搬走了一家人 (trên lầu có một nhà chuyển đi).",
+    "Nơi chốn đứng đầu câu; người / vật đứng SAU động từ, thường là cái chưa biết nên đi với số + lượng từ.",
+    "Ở cấp 2 đã học 门口坐着一个人 (trạng thái, dùng 着); ở đây là sự thay đổi nên dùng 了 hoặc bổ ngữ."
+   ],
+   "loiHayMac": [
+    "Đầu câu là nơi chốn, không thêm 在: nói 前面走过来一个人, không nói 在前面走过来一个人.",
+    "Kể chuyện đã xảy ra thì sau động từ phải có 了 hoặc bổ ngữ: nói 我们班来了一个新同学, không nói 我们班来一个新同学."
+   ],
+   "viDu": [
+    {
+     "han": "前面走过来一个人。",
+     "manh": [
+      "前面",
+      "走",
+      "过来",
+      "一个",
+      "人"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Qiánmiàn zǒu guòlái yí ge rén.",
+     "dich": "Phía trước có một người đi tới."
+    },
+    {
+     "han": "我们班来了两个新同学。",
+     "manh": [
+      "我们",
+      "班",
+      "来",
+      "了",
+      "两个",
+      "新",
+      "同学"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒmen bān lái le liǎng ge xīn tóngxué.",
+     "dich": "Lớp chúng tôi có hai bạn mới đến."
+    },
+    {
+     "han": "我家少了一个碗。",
+     "manh": [
+      "我",
+      "家",
+      "少",
+      "了",
+      "一个",
+      "碗"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ jiā shǎo le yí ge wǎn.",
+     "dich": "Nhà tôi mất một cái bát."
+    },
+    {
+     "han": "楼上搬走了一家人。",
+     "manh": [
+      "楼上",
+      "搬",
+      "走",
+      "了",
+      "一家",
+      "人"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Lóu shàng bān zǒu le yì jiā rén.",
+     "dich": "Trên lầu có một gia đình chuyển đi rồi."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "我的包里少___一百块钱。",
+     "dapAn": "了",
+     "nhieu": [
+      "的",
+      "着",
+      "得"
+     ],
+     "pinyin": "Wǒ de bāo lǐ shǎo le yìbǎi kuài qián.",
+     "dich": "Trong túi tôi mất một trăm tệ."
+    },
+    {
+     "cau": "前面走___一个人。",
+     "dapAn": "过来",
+     "nhieu": [
+      "起来",
+      "得",
+      "地"
+     ],
+     "pinyin": "Qiánmiàn zǒu guòlái yí ge rén.",
+     "dich": "Phía trước có một người đi tới."
+    },
+    {
+     "cau": "我们班___了一位新老师。",
+     "dapAn": "来",
+     "nhieu": [
+      "在",
+      "是",
+      "对"
+     ],
+     "pinyin": "Wǒmen bān lái le yí wèi xīn lǎoshī.",
+     "dich": "Lớp chúng tôi có một thầy giáo mới đến."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 5,
+   "hocSauBai": 3
+  },
+  {
+   "id": "le-jiu",
+   "ten": "……了……就……: làm xong việc 1 thì làm ngay việc 2 (我下了课就去找你)",
+   "deCuong": "复句 · 紧缩复句：……了……就……",
+   "congThuc": [
+    "(Chủ ngữ) + động từ 1 + 了 + (tân ngữ) + 就 + động từ 2"
+   ],
+   "giaiThich": [
+    "Việc 2 xảy ra ngay sau khi việc 1 XONG: 我下了课就去找你 (tan học xong tôi đi tìm bạn ngay).",
+    "Dùng được cho việc đã qua (他吃了饭就走了) và việc sắp làm (我下了班就回家).",
+    "Chủ ngữ có thể đứng đầu câu hoặc đứng sau việc 1, trước 就: 下了课我就去找你.",
+    "Gần giống 一……就…… (cấp 2), nhưng ……了……就…… nhấn mạnh làm xong việc 1 rồi mới làm việc 2."
+   ],
+   "loiHayMac": [
+    "“Xong” không dịch thành 完了 đặt sau cả cụm: nói 我吃了饭就走 hoặc 我吃完饭就走, không nói 我吃饭完就走.",
+    "就 đứng sau chủ ngữ của vế sau: nói 他到了，我就走, không nói 他到了，就我走."
+   ],
+   "viDu": [
+    {
+     "han": "我下了课就去找你。",
+     "manh": [
+      "我",
+      "下",
+      "了",
+      "课",
+      "就",
+      "去",
+      "找",
+      "你"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "下",
+       "了",
+       "课",
+       "我",
+       "就",
+       "去",
+       "找",
+       "你"
+      ]
+     ],
+     "pinyin": "Wǒ xià le kè jiù qù zhǎo nǐ.",
+     "dich": "Tan học xong tôi sẽ đi tìm bạn ngay."
+    },
+    {
+     "han": "他吃了饭就走了。",
+     "manh": [
+      "他",
+      "吃",
+      "了",
+      "饭",
+      "就",
+      "走",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "吃",
+       "了",
+       "饭",
+       "他",
+       "就",
+       "走",
+       "了"
+      ]
+     ],
+     "pinyin": "Tā chī le fàn jiù zǒu le.",
+     "dich": "Anh ấy ăn cơm xong là đi luôn."
+    },
+    {
+     "han": "我们到了上海就去看你。",
+     "manh": [
+      "我们",
+      "到",
+      "了",
+      "上海",
+      "就",
+      "去",
+      "看",
+      "你"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "到",
+       "了",
+       "上海",
+       "我们",
+       "就",
+       "去",
+       "看",
+       "你"
+      ]
+     ],
+     "pinyin": "Wǒmen dào le Shànghǎi jiù qù kàn nǐ.",
+     "dich": "Đến Thượng Hải rồi chúng tôi sẽ đi thăm bạn ngay."
+    },
+    {
+     "han": "下了车就给我打电话。",
+     "manh": [
+      "下",
+      "了",
+      "车",
+      "就",
+      "给",
+      "我",
+      "打",
+      "电话"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "下",
+       "了",
+       "车",
+       "就",
+       "打",
+       "电话",
+       "给",
+       "我"
+      ]
+     ],
+     "pinyin": "Xià le chē jiù gěi wǒ dǎ diànhuà.",
+     "dich": "Xuống xe thì gọi điện cho tôi ngay nhé."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "我吃___早饭就去学校。",
+     "dapAn": "了",
+     "nhieu": [
+      "着",
+      "的",
+      "在"
+     ],
+     "pinyin": "Wǒ chī le zǎofàn jiù qù xuéxiào.",
+     "dich": "Tôi ăn sáng xong là đi học ngay."
+    },
+    {
+     "cau": "他回了家___睡觉了。",
+     "dapAn": "就",
+     "nhieu": [
+      "再",
+      "很",
+      "对"
+     ],
+     "pinyin": "Tā huí le jiā jiù shuìjiào le.",
+     "dich": "Anh ấy về đến nhà là đi ngủ luôn."
+    },
+    {
+     "cau": "你看___这本书就知道了。",
+     "dapAn": "了",
+     "nhieu": [
+      "的",
+      "得",
+      "在"
+     ],
+     "pinyin": "Nǐ kàn le zhè běn shū jiù zhīdào le.",
+     "dich": "Bạn đọc cuốn sách này xong là biết ngay."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 5,
+   "hocSauBai": 0
+  },
+  {
+   "id": "gai-le",
+   "ten": "该……了: đến lúc phải… rồi (该睡觉了, 该你了)",
+   "deCuong": "固定格式 · 该……了",
+   "congThuc": [
+    "(Chủ ngữ) + 该 + động từ / cụm động từ + 了",
+    "该 + người + 了   (该你了: đến lượt bạn rồi)"
+   ],
+   "giaiThich": [
+    "Nói đã đến lúc phải làm việc gì: 十一点了，该睡觉了 (mười một giờ rồi, đến giờ ngủ rồi).",
+    "该 + người + 了 = đến lượt ai: 该你了 (đến lượt bạn).",
+    "Chủ ngữ đứng trước 该: 我该走了 (tôi phải đi rồi)."
+   ],
+   "loiHayMac": [
+    "Muốn nói “đến lúc… rồi” thì cuối câu phải có 了: nói 该吃饭了; thiếu 了 thì 该吃饭 chỉ còn nghĩa “nên ăn cơm”.",
+    "“Đến lúc” không dịch từng chữ thành 到时候: nói 该睡觉了, không nói 到时候睡觉了."
+   ],
+   "viDu": [
+    {
+     "han": "十一点了，该睡觉了。",
+     "manh": [
+      "十一",
+      "点",
+      "了，",
+      "该",
+      "睡觉",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Shíyī diǎn le, gāi shuìjiào le.",
+     "dich": "Mười một giờ rồi, đến giờ đi ngủ rồi."
+    },
+    {
+     "han": "我该回家了。",
+     "manh": [
+      "我",
+      "该",
+      "回",
+      "家",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ gāi huí jiā le.",
+     "dich": "Tôi phải về nhà rồi."
+    },
+    {
+     "han": "下一个该你了。",
+     "manh": [
+      "下",
+      "一个",
+      "该",
+      "你",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Xià yí ge gāi nǐ le.",
+     "dich": "Người tiếp theo là đến lượt bạn đấy."
+    },
+    {
+     "han": "天黑了，我们该走了。",
+     "manh": [
+      "天",
+      "黑",
+      "了，",
+      "我们",
+      "该",
+      "走",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tiān hēi le, wǒmen gāi zǒu le.",
+     "dich": "Trời tối rồi, chúng ta phải đi thôi."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "七点了，___起床了。",
+     "dapAn": "该",
+     "nhieu": [
+      "是",
+      "很",
+      "把"
+     ],
+     "pinyin": "Qī diǎn le, gāi qǐchuáng le.",
+     "dich": "Bảy giờ rồi, đến giờ dậy rồi."
+    },
+    {
+     "cau": "现在该___了，你说吧。",
+     "dapAn": "你",
+     "nhieu": [
+      "的",
+      "很",
+      "是"
+     ],
+     "pinyin": "Xiànzài gāi nǐ le, nǐ shuō ba.",
+     "dich": "Bây giờ đến lượt bạn rồi, bạn nói đi."
+    },
+    {
+     "cau": "都十二点了，我们该吃午饭___。",
+     "dapAn": "了",
+     "nhieu": [
+      "着",
+      "过",
+      "得"
+     ],
+     "pinyin": "Dōu shí'èr diǎn le, wǒmen gāi chī wǔfàn le.",
+     "dich": "Đã mười hai giờ rồi, chúng ta phải ăn trưa thôi."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 6,
+   "hocSauBai": 6
+  },
+  {
+   "id": "ruguo-jiu",
+   "ten": "如果……，就……: nếu… thì…",
+   "deCuong": "复句 · 假设复句：如果……，就……",
+   "congThuc": [
+    "如果 + điều kiện，(chủ ngữ) + 就 + kết quả",
+    "Chủ ngữ + 如果 + điều kiện，就 + kết quả"
+   ],
+   "giaiThich": [
+    "如果 nêu điều giả định, 就 nêu kết quả: 如果明天下雨，我们就不去了 (nếu mai mưa thì chúng ta không đi nữa).",
+    "Chủ ngữ vế đầu đứng trước hoặc sau 如果 đều được: 如果你有时间 / 你如果有时间.",
+    "就 đứng sau chủ ngữ của vế sau, trước động từ."
+   ],
+   "loiHayMac": [
+    "就 đứng sau chủ ngữ vế sau: nói 如果你去，我就去, không nói 如果你去，就我去.",
+    "Vế sau không dùng 所以: nói 如果下雨，我就不去, không nói 如果下雨，所以我不去."
+   ],
+   "viDu": [
+    {
+     "han": "如果明天下雨，我们就不去了。",
+     "manh": [
+      "如果",
+      "明天",
+      "下雨，",
+      "我们",
+      "就",
+      "不",
+      "去",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "明天",
+       "如果",
+       "下雨，",
+       "我们",
+       "就",
+       "不",
+       "去",
+       "了"
+      ]
+     ],
+     "pinyin": "Rúguǒ míngtiān xià yǔ, wǒmen jiù bú qù le.",
+     "dich": "Nếu mai trời mưa thì chúng ta không đi nữa."
+    },
+    {
+     "han": "如果你有时间，就来我家玩吧。",
+     "manh": [
+      "如果",
+      "你",
+      "有",
+      "时间，",
+      "就",
+      "来",
+      "我",
+      "家",
+      "玩",
+      "吧"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "你",
+       "如果",
+       "有",
+       "时间，",
+       "就",
+       "来",
+       "我",
+       "家",
+       "玩",
+       "吧"
+      ]
+     ],
+     "pinyin": "Rúguǒ nǐ yǒu shíjiān, jiù lái wǒ jiā wán ba.",
+     "dich": "Nếu bạn có thời gian thì đến nhà tôi chơi nhé."
+    },
+    {
+     "han": "如果有问题，你就问我。",
+     "manh": [
+      "如果",
+      "有",
+      "问题，",
+      "你",
+      "就",
+      "问",
+      "我"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "你",
+       "如果",
+       "有",
+       "问题，",
+       "就",
+       "问",
+       "我"
+      ]
+     ],
+     "pinyin": "Rúguǒ yǒu wèntí, nǐ jiù wèn wǒ.",
+     "dich": "Nếu có vấn đề gì thì bạn cứ hỏi tôi."
+    },
+    {
+     "han": "如果我是你，我就不买这个。",
+     "manh": [
+      "如果",
+      "我",
+      "是",
+      "你，",
+      "我",
+      "就",
+      "不",
+      "买",
+      "这个"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "我",
+       "如果",
+       "是",
+       "你，",
+       "我",
+       "就",
+       "不",
+       "买",
+       "这个"
+      ]
+     ],
+     "pinyin": "Rúguǒ wǒ shì nǐ, wǒ jiù bù mǎi zhège.",
+     "dich": "Nếu tôi là bạn thì tôi sẽ không mua cái này."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "___你明天有空，我们就去看电影。",
+     "dapAn": "如果",
+     "nhieu": [
+      "虽然",
+      "所以",
+      "但是"
+     ],
+     "pinyin": "Rúguǒ nǐ míngtiān yǒu kòng, wǒmen jiù qù kàn diànyǐng.",
+     "dich": "Nếu mai bạn rảnh thì chúng ta đi xem phim."
+    },
+    {
+     "cau": "如果你累了，___休息一下吧。",
+     "dapAn": "就",
+     "nhieu": [
+      "才",
+      "所以",
+      "但是"
+     ],
+     "pinyin": "Rúguǒ nǐ lèi le, jiù xiūxi yíxià ba.",
+     "dich": "Nếu bạn mệt thì nghỉ một chút đi."
+    },
+    {
+     "cau": "如果他不来，我们___自己去。",
+     "dapAn": "就",
+     "nhieu": [
+      "所以",
+      "但是",
+      "因为"
+     ],
+     "pinyin": "Rúguǒ tā bù lái, wǒmen jiù zìjǐ qù.",
+     "dich": "Nếu anh ấy không đến thì chúng ta tự đi."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 6,
+   "hocSauBai": 6
+  },
+  {
+   "id": "yue-lai-yue",
+   "ten": "越来越 + tính từ: ngày càng… (越来越好, 越来越喜欢)",
+   "deCuong": "固定短语 · 越来越",
+   "congThuc": [
+    "Chủ ngữ + 越来越 + tính từ / động từ tâm lý (+ tân ngữ) (+ 了)"
+   ],
+   "giaiThich": [
+    "越来越 = ngày càng, càng ngày càng: 天气越来越冷了 (trời ngày càng lạnh).",
+    "Đi với tính từ (好, 多, 冷…) hoặc động từ chỉ tình cảm, suy nghĩ (喜欢, 想, 习惯…): 我越来越喜欢这里了.",
+    "Cuối câu thường thêm 了 để nói sự thay đổi.",
+    "Trong câu có 得 thì 越来越 đứng sau 得: 他说得越来越好."
+   ],
+   "loiHayMac": [
+    "Không thêm 很, 非常, 太 sau 越来越: nói 越来越好, không nói 越来越很好.",
+    "Chủ ngữ đứng trước 越来越: nói 他的汉语越来越好, không nói 越来越他的汉语好."
+   ],
+   "viDu": [
+    {
+     "han": "天气越来越冷了。",
+     "manh": [
+      "天气",
+      "越来越",
+      "冷",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tiānqì yuèláiyuè lěng le.",
+     "dich": "Trời ngày càng lạnh."
+    },
+    {
+     "han": "他的汉语说得越来越好了。",
+     "manh": [
+      "他",
+      "的",
+      "汉语",
+      "说",
+      "得",
+      "越来越",
+      "好",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā de Hànyǔ shuō de yuèláiyuè hǎo le.",
+     "dich": "Anh ấy nói tiếng Trung ngày càng giỏi."
+    },
+    {
+     "han": "我越来越喜欢这个城市了。",
+     "manh": [
+      "我",
+      "越来越",
+      "喜欢",
+      "这个",
+      "城市",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "这个",
+       "城市",
+       "我",
+       "越来越",
+       "喜欢",
+       "了"
+      ]
+     ],
+     "pinyin": "Wǒ yuèláiyuè xǐhuan zhège chéngshì le.",
+     "dich": "Tôi ngày càng thích thành phố này."
+    },
+    {
+     "han": "来这儿学习的人越来越多。",
+     "manh": [
+      "来",
+      "这儿",
+      "学习",
+      "的",
+      "人",
+      "越来越",
+      "多"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Lái zhèr xuéxí de rén yuèláiyuè duō.",
+     "dich": "Người đến đây học ngày càng đông."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "他的身体___好了。",
+     "dapAn": "越来越",
+     "nhieu": [
+      "越",
+      "更来更",
+      "很来很"
+     ],
+     "pinyin": "Tā de shēntǐ yuèláiyuè hǎo le.",
+     "dich": "Sức khỏe của ông ấy ngày càng tốt."
+    },
+    {
+     "cau": "天气越来越___了。",
+     "dapAn": "冷",
+     "nhieu": [
+      "很冷",
+      "非常冷",
+      "太冷"
+     ],
+     "pinyin": "Tiānqì yuèláiyuè lěng le.",
+     "dich": "Trời ngày càng lạnh."
+    },
+    {
+     "cau": "学汉语的人越来越多___。",
+     "dapAn": "了",
+     "nhieu": [
+      "着",
+      "过",
+      "得"
+     ],
+     "pinyin": "Xué Hànyǔ de rén yuèláiyuè duō le.",
+     "dich": "Người học tiếng Trung ngày càng nhiều."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 6,
+   "hocSauBai": 11
+  },
+  {
+   "id": "bo-ngu-ket-qua-2",
+   "ten": "Bổ ngữ kết quả 到 / 住 / 走 / 上: 找到, 记住, 拿走, 关上",
+   "deCuong": "补语 · 结果补语2：动词+到/住/走/上",
+   "congThuc": [
+    "Động từ + 到 / 住 / 走 / 上 (+ 了) (+ tân ngữ)",
+    "Phủ định: 没 + động từ + 到 / 住 / 走 / 上"
+   ],
+   "giaiThich": [
+    "到: đạt được điều muốn làm: 找到 (tìm thấy), 买到 (mua được), 看到 (nhìn thấy).",
+    "住: giữ chặt, cố định lại: 记住 (nhớ kỹ), 站住 (đứng lại).",
+    "走: rời khỏi chỗ cũ: 拿走 (cầm đi), 带走 (mang đi), 借走 (mượn mất).",
+    "上: khép lại, gắn vào: 关上 (đóng lại), 穿上 (mặc vào), 写上 (ghi vào)."
+   ],
+   "loiHayMac": [
+    "找 chỉ là “tìm”, 找到 mới là “tìm thấy”: muốn nói đã tìm thấy thì nói 我找到了, còn 我找了 chỉ là “tôi đã tìm” (chưa chắc thấy).",
+    "Không chen tân ngữ vào giữa: nói 记住这个字, không nói 记这个字住."
+   ],
+   "viDu": [
+    {
+     "han": "我找到我的手机了。",
+     "manh": [
+      "我",
+      "找",
+      "到",
+      "我",
+      "的",
+      "手机",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "我",
+       "的",
+       "手机",
+       "我",
+       "找",
+       "到",
+       "了"
+      ]
+     ],
+     "pinyin": "Wǒ zhǎodào wǒ de shǒujī le.",
+     "dich": "Tôi tìm thấy điện thoại của tôi rồi."
+    },
+    {
+     "han": "请大家记住这个字。",
+     "manh": [
+      "请",
+      "大家",
+      "记",
+      "住",
+      "这",
+      "个",
+      "字"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "大家",
+       "请",
+       "记",
+       "住",
+       "这",
+       "个",
+       "字"
+      ],
+      [
+       "这",
+       "个",
+       "字",
+       "请",
+       "大家",
+       "记",
+       "住"
+      ]
+     ],
+     "pinyin": "Qǐng dàjiā jìzhù zhège zì.",
+     "dich": "Mời mọi người nhớ kỹ chữ này."
+    },
+    {
+     "han": "谁拿走了我的杯子？",
+     "manh": [
+      "谁",
+      "拿",
+      "走",
+      "了",
+      "我",
+      "的",
+      "杯子"
+     ],
+     "dauCau": "？",
+     "khac": [
+      [
+       "我",
+       "的",
+       "杯子",
+       "谁",
+       "拿",
+       "走",
+       "了"
+      ]
+     ],
+     "pinyin": "Shéi ná zǒu le wǒ de bēizi?",
+     "dich": "Ai cầm mất cái cốc của tôi rồi?"
+    },
+    {
+     "han": "外面很冷，关上门吧。",
+     "manh": [
+      "外面",
+      "很",
+      "冷，",
+      "关",
+      "上",
+      "门",
+      "吧"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "外面",
+       "很",
+       "冷，",
+       "门",
+       "关",
+       "上",
+       "吧"
+      ]
+     ],
+     "pinyin": "Wàimiàn hěn lěng, guānshang mén ba.",
+     "dich": "Ngoài trời lạnh lắm, đóng cửa lại đi."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "我找了很久，终于找___了。",
+     "dapAn": "到",
+     "nhieu": [
+      "住",
+      "走",
+      "懂"
+     ],
+     "pinyin": "Wǒ zhǎo le hěn jiǔ, zhōngyú zhǎodào le.",
+     "dich": "Tôi tìm rất lâu, cuối cùng cũng tìm thấy."
+    },
+    {
+     "cau": "这个词很重要，大家要记___。",
+     "dapAn": "住",
+     "nhieu": [
+      "走",
+      "开",
+      "懂"
+     ],
+     "pinyin": "Zhège cí hěn zhòngyào, dàjiā yào jìzhù.",
+     "dich": "Từ này rất quan trọng, mọi người phải nhớ kỹ."
+    },
+    {
+     "cau": "外面很冷，快穿___衣服。",
+     "dapAn": "上",
+     "nhieu": [
+      "走",
+      "住",
+      "到"
+     ],
+     "pinyin": "Wàimiàn hěn lěng, kuài chuānshang yīfu.",
+     "dich": "Ngoài trời rất lạnh, mau mặc áo vào."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 6,
+   "hocSauBai": 3
+  },
+  {
+   "id": "bi-geng-hai",
+   "ten": "A 比 B 更 / 还 + tính từ; A 不比 B + tính từ",
+   "deCuong": "特殊句型 · 比较句2：A比B更/还……；A不比B……",
+   "congThuc": [
+    "A + 比 + B + 更 / 还 + tính từ",
+    "A + 不比 + B + tính từ"
+   ],
+   "giaiThich": [
+    "更 = “hơn nữa”: 今天比昨天更冷 (hôm qua đã lạnh, hôm nay còn lạnh hơn).",
+    "还 = “còn… hơn cả”, thường có ý ngạc nhiên: 弟弟比哥哥还高 (em còn cao hơn cả anh).",
+    "不比 dùng để phản bác ý của người khác: 我不比你矮 = tôi đâu có thấp hơn bạn (cao bằng hoặc gần bằng)."
+   ],
+   "loiHayMac": [
+    "A 不比 B + tính từ không có nghĩa là A kém B: 他不比我高 = anh ấy không cao hơn tôi (có thể bằng); muốn nói “thấp hơn” thì dùng 他没有我高 hoặc 他比我矮.",
+    "Có con số cụ thể thì không dùng 更 / 还: nói 他比我大两岁, không nói 他比我更大两岁."
+   ],
+   "viDu": [
+    {
+     "han": "今天比昨天更冷。",
+     "manh": [
+      "今天",
+      "比昨天",
+      "更",
+      "冷"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Jīntiān bǐ zuótiān gèng lěng.",
+     "dich": "Hôm nay còn lạnh hơn hôm qua."
+    },
+    {
+     "han": "他比我还高。",
+     "manh": [
+      "他",
+      "比我",
+      "还",
+      "高"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā bǐ wǒ hái gāo.",
+     "dich": "Anh ấy còn cao hơn cả tôi."
+    },
+    {
+     "han": "这件衣服比那件更好看。",
+     "manh": [
+      "这",
+      "件",
+      "衣服",
+      "比那件",
+      "更",
+      "好看"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zhè jiàn yīfu bǐ nà jiàn gèng hǎokàn.",
+     "dich": "Bộ quần áo này còn đẹp hơn bộ kia."
+    },
+    {
+     "han": "我做的菜不比你做的差。",
+     "manh": [
+      "我",
+      "做",
+      "的",
+      "菜",
+      "不比你",
+      "做",
+      "的",
+      "差"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ zuò de cài bù bǐ nǐ zuò de chà.",
+     "dich": "Món tôi nấu đâu có kém món bạn nấu."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "他已经很高了，他哥哥比他___高。",
+     "dapAn": "还",
+     "nhieu": [
+      "很",
+      "太",
+      "真"
+     ],
+     "pinyin": "Tā yǐjīng hěn gāo le, tā gēge bǐ tā hái gāo.",
+     "dich": "Anh ấy đã cao lắm rồi, anh trai anh ấy còn cao hơn."
+    },
+    {
+     "cau": "我的房间___你的房间大。",
+     "dapAn": "不比",
+     "nhieu": [
+      "不是",
+      "很比",
+      "比不"
+     ],
+     "pinyin": "Wǒ de fángjiān bù bǐ nǐ de fángjiān dà.",
+     "dich": "Phòng của tôi đâu có to hơn phòng của bạn."
+    },
+    {
+     "cau": "这个问题比那个问题___难。",
+     "dapAn": "更",
+     "nhieu": [
+      "很",
+      "太",
+      "真"
+     ],
+     "pinyin": "Zhège wèntí bǐ nàge wèntí gèng nán.",
+     "dich": "Câu hỏi này còn khó hơn câu hỏi kia."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 7,
+   "hocSauBai": 10
+  },
+  {
+   "id": "budan-erqie",
+   "ten": "不但……，而且……: không những… mà còn…; ……，更……",
+   "deCuong": "复句 · 递进复句：不但……，而且……；……，更……",
+   "congThuc": [
+    "Chủ ngữ + 不但 + A，而且 + B",
+    "不但 + chủ ngữ 1 + A，而且 + chủ ngữ 2 + 也 / 还 + B",
+    "A，更 + B   (vế sau ở mức cao hơn)"
+   ],
+   "giaiThich": [
+    "不但……，而且…… = không những… mà còn…: 这个饭馆的菜不但好吃，而且很便宜.",
+    "Hai vế cùng chủ ngữ: chủ ngữ đứng trước 不但. Hai vế khác chủ ngữ: 不但 đứng trước chủ ngữ thứ nhất: 不但我喜欢她，而且大家都喜欢她.",
+    "Vế sau thường có thêm 也 / 还: 他不但会唱歌，而且还会跳舞.",
+    "……，更……: vế sau nói một mức cao hơn: 我喜欢唱歌，更喜欢跳舞 (tôi thích hát, càng thích nhảy hơn)."
+   ],
+   "loiHayMac": [
+    "Hai vế cùng chủ ngữ thì 不但 đứng sau chủ ngữ: nói 他不但会说汉语，而且会写汉字, không nói 不但他会说汉语，而且会写汉字.",
+    "Vế sau không dùng 但是: nói 不但便宜，而且好吃, không nói 不但便宜，但是好吃."
+   ],
+   "viDu": [
+    {
+     "han": "这个饭馆的菜不但好吃，而且很便宜。",
+     "manh": [
+      "这",
+      "个",
+      "饭馆",
+      "的",
+      "菜",
+      "不但",
+      "好吃，",
+      "而且",
+      "很",
+      "便宜"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zhège fànguǎn de cài búdàn hǎochī, érqiě hěn piányi.",
+     "dich": "Món ăn ở quán này không những ngon mà còn rẻ."
+    },
+    {
+     "han": "他不但会说汉语，而且会写汉字。",
+     "manh": [
+      "他",
+      "不但",
+      "会",
+      "说",
+      "汉语，",
+      "而且",
+      "会",
+      "写",
+      "汉字"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā búdàn huì shuō Hànyǔ, érqiě huì xiě Hànzì.",
+     "dich": "Anh ấy không những biết nói tiếng Trung mà còn biết viết chữ Hán."
+    },
+    {
+     "han": "不但我喜欢她，而且大家都喜欢她。",
+     "manh": [
+      "不但",
+      "我",
+      "喜欢",
+      "她，",
+      "而且",
+      "大家",
+      "都",
+      "喜欢",
+      "她"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Búdàn wǒ xǐhuan tā, érqiě dàjiā dōu xǐhuan tā.",
+     "dich": "Không chỉ tôi thích cô ấy mà mọi người đều thích cô ấy."
+    },
+    {
+     "han": "我喜欢唱歌，更喜欢跳舞。",
+     "manh": [
+      "我",
+      "喜欢",
+      "唱歌，",
+      "更",
+      "喜欢",
+      "跳舞"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ xǐhuan chànggē, gèng xǐhuan tiàowǔ.",
+     "dich": "Tôi thích hát, càng thích nhảy hơn."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "她不但聪明，___很努力。",
+     "dapAn": "而且",
+     "nhieu": [
+      "但是",
+      "所以",
+      "虽然"
+     ],
+     "pinyin": "Tā búdàn cōngming, érqiě hěn nǔlì.",
+     "dich": "Cô ấy không những thông minh mà còn rất chăm chỉ."
+    },
+    {
+     "cau": "他___会做饭，而且做得很好吃。",
+     "dapAn": "不但",
+     "nhieu": [
+      "虽然",
+      "因为",
+      "如果"
+     ],
+     "pinyin": "Tā búdàn huì zuò fàn, érqiě zuò de hěn hǎochī.",
+     "dich": "Anh ấy không những biết nấu ăn mà còn nấu rất ngon."
+    },
+    {
+     "cau": "我喜欢春天，___喜欢秋天。",
+     "dapAn": "更",
+     "nhieu": [
+      "比",
+      "得",
+      "的"
+     ],
+     "pinyin": "Wǒ xǐhuan chūntiān, gèng xǐhuan qiūtiān.",
+     "dich": "Tôi thích mùa xuân, càng thích mùa thu hơn."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 7,
+   "hocSauBai": 7
+  },
+  {
+   "id": "xu-huong-ket-qua",
+   "ten": "Bổ ngữ xu hướng chỉ kết quả: 想出来, 想起来, 写下来, 留下",
+   "deCuong": "补语 · 趋向补语引申用法：结果意义（出来、起来、下来、下）",
+   "congThuc": [
+    "Động từ + 出来   (làm ra cái chưa có / nhận ra: 想出来, 看出来)",
+    "想 + 起来   (nhớ lại điều đã biết)",
+    "Động từ + 下来 / 下   (giữ lại, ghi lại: 写下来, 留下)"
+   ],
+   "giaiThich": [
+    "出来: từ chỗ chưa có thành có, hoặc nhận ra được: 我想出来一个好办法 (tôi nghĩ ra một cách hay), 我看出来了，你不高兴 (tôi nhận ra rồi, bạn không vui).",
+    "想起来: nhớ ra điều đã quên: 我想起来了，他姓张.",
+    "下来 / 下: làm cho cái gì ở lại, cố định lại: 写下来 (ghi lại), 留下电话号码 (để lại số điện thoại).",
+    "Ở đây 出来, 起来, 下来 không còn chỉ hướng đi lại mà chỉ KẾT QUẢ của hành động."
+   ],
+   "loiHayMac": [
+    "Nhớ lại điều đã biết dùng 想起来, nghĩ ra cái mới dùng 想出来: 我想起来了 (tôi nhớ ra rồi) khác 我想出来了 (tôi nghĩ ra rồi).",
+    "“Chưa nghĩ ra” là 我还没想出来; 我不想出来 lại là “tôi không muốn ra ngoài”."
+   ],
+   "viDu": [
+    {
+     "han": "我想出来一个好办法。",
+     "manh": [
+      "我",
+      "想",
+      "出来",
+      "一个",
+      "好",
+      "办法"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ xiǎng chūlái yí ge hǎo bànfǎ.",
+     "dich": "Tôi đã nghĩ ra một cách hay."
+    },
+    {
+     "han": "我想起来了，他姓张。",
+     "manh": [
+      "我",
+      "想",
+      "起来",
+      "了，",
+      "他",
+      "姓",
+      "张"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ xiǎng qǐlái le, tā xìng Zhāng.",
+     "dich": "Tôi nhớ ra rồi, anh ấy họ Trương."
+    },
+    {
+     "han": "请写下你的电话号码。",
+     "manh": [
+      "请",
+      "写",
+      "下",
+      "你",
+      "的",
+      "电话",
+      "号码"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Qǐng xiě xià nǐ de diànhuà hàomǎ.",
+     "dich": "Xin hãy ghi lại số điện thoại của bạn."
+    },
+    {
+     "han": "他走的时候留下了一本书。",
+     "manh": [
+      "他",
+      "走",
+      "的",
+      "时候",
+      "留",
+      "下",
+      "了",
+      "一",
+      "本",
+      "书"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "走",
+       "的",
+       "时候",
+       "他",
+       "留",
+       "下",
+       "了",
+       "一",
+       "本",
+       "书"
+      ]
+     ],
+     "pinyin": "Tā zǒu de shíhou liú xià le yì běn shū.",
+     "dich": "Lúc đi anh ấy để lại một cuốn sách."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "这个问题太难了，我想了很久也没想___。",
+     "dapAn": "出来",
+     "nhieu": [
+      "下来",
+      "进去",
+      "回来"
+     ],
+     "pinyin": "Zhège wèntí tài nán le, wǒ xiǎng le hěn jiǔ yě méi xiǎng chūlái.",
+     "dich": "Câu hỏi này khó quá, tôi nghĩ rất lâu mà vẫn chưa nghĩ ra."
+    },
+    {
+     "cau": "他叫什么？我想___了，他叫小张。",
+     "dapAn": "起来",
+     "nhieu": [
+      "下来",
+      "进来",
+      "回去"
+     ],
+     "pinyin": "Tā jiào shénme? Wǒ xiǎng qǐlái le, tā jiào Xiǎo Zhāng.",
+     "dich": "Anh ấy tên gì nhỉ? Tôi nhớ ra rồi, anh ấy tên là Tiểu Trương."
+    },
+    {
+     "cau": "他走的时候留___了他的电话号码。",
+     "dapAn": "下",
+     "nhieu": [
+      "起",
+      "进",
+      "回"
+     ],
+     "pinyin": "Tā zǒu de shíhou liú xià le tā de diànhuà hàomǎ.",
+     "dich": "Lúc đi anh ấy để lại số điện thoại của mình."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 8,
+   "hocSauBai": 11
+  },
+  {
+   "id": "ly-hop-3",
+   "ten": "Từ ly hợp cấp 3: 见面, 结婚, 洗澡, 放假; 离开, 完成",
+   "deCuong": "动词 · 离合词（放假、见面、结婚、洗澡；离开、完成、分开）",
+   "congThuc": [
+    "A + 跟 / 和 + B + 见面 / 结婚   (người đặt TRƯỚC từ, không đặt sau)",
+    "Chen 了 / 过 / 个 / số lượng vào giữa: 见了一面, 结过婚, 洗个澡, 放了七天假",
+    "离开 / 完成 + tân ngữ   (离开家, 完成工作); chen 得 / 不: 离不开, 完不成"
+   ],
+   "giaiThich": [
+    "见面, 结婚, 洗澡, 放假 gồm “động từ + danh từ” (见 + 面, 结 + 婚…), bên trong đã có tân ngữ nên không thêm tân ngữ phía sau. Muốn nói “gặp ai, cưới ai” thì dùng 跟 / 和 + người đặt trước: 跟朋友见面, 和她结婚.",
+    "Có thể tách ra để chen 了, 过, 个, số lượng: 我们见过一面 (từng gặp nhau một lần), 洗个澡 (tắm một cái), 放了七天假 (nghỉ bảy ngày).",
+    "离开, 完成, 分开 gồm “động từ + bổ ngữ”: được mang tân ngữ ngay phía sau (离开家, 完成作业) và chen 得 / 不 vào giữa để nói “được / không được”: 离不开 (không rời được), 完不成 (không làm xong được)."
+   ],
+   "loiHayMac": [
+    "Không đặt người sau 见面 / 结婚: nói 我想跟你见面, không nói 我想见面你; nói 他和她结婚了, không nói 他结婚她了.",
+    "离开 không chen 了 vào giữa: nói 他离开了上海, không nói 他离了开上海."
+   ],
+   "viDu": [
+    {
+     "han": "我想跟你见个面。",
+     "manh": [
+      "我",
+      "想",
+      "跟你",
+      "见",
+      "个",
+      "面"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ xiǎng gēn nǐ jiàn ge miàn.",
+     "dich": "Tôi muốn gặp bạn một chút."
+    },
+    {
+     "han": "我每天晚上洗个澡再睡觉。",
+     "manh": [
+      "我",
+      "每天",
+      "晚上",
+      "洗",
+      "个",
+      "澡",
+      "再",
+      "睡觉"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "每天",
+       "晚上",
+       "我",
+       "洗",
+       "个",
+       "澡",
+       "再",
+       "睡觉"
+      ]
+     ],
+     "pinyin": "Wǒ měi tiān wǎnshang xǐ ge zǎo zài shuìjiào.",
+     "dich": "Tối nào tôi cũng tắm rồi mới đi ngủ."
+    },
+    {
+     "han": "我们放了七天假。",
+     "manh": [
+      "我们",
+      "放",
+      "了",
+      "七",
+      "天",
+      "假"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒmen fàng le qī tiān jià.",
+     "dich": "Chúng tôi được nghỉ bảy ngày."
+    },
+    {
+     "han": "作业太多了，今天完不成。",
+     "manh": [
+      "作业",
+      "太",
+      "多",
+      "了，",
+      "今天",
+      "完",
+      "不",
+      "成"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "今天",
+       "作业",
+       "太",
+       "多",
+       "了，",
+       "完",
+       "不",
+       "成"
+      ]
+     ],
+     "pinyin": "Zuòyè tài duō le, jīntiān wán bù chéng.",
+     "dich": "Bài tập nhiều quá, hôm nay không làm xong được."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "明天我要___老朋友见面。",
+     "dapAn": "跟",
+     "nhieu": [
+      "是",
+      "很",
+      "把"
+     ],
+     "pinyin": "Míngtiān wǒ yào gēn lǎo péngyou jiànmiàn.",
+     "dich": "Ngày mai tôi sẽ gặp bạn cũ."
+    },
+    {
+     "cau": "我们放了三天___。",
+     "dapAn": "假",
+     "nhieu": [
+      "节",
+      "期",
+      "号"
+     ],
+     "pinyin": "Wǒmen fàng le sān tiān jià.",
+     "dich": "Chúng tôi được nghỉ ba ngày."
+    },
+    {
+     "cau": "他昨天离___了上海。",
+     "dapAn": "开",
+     "nhieu": [
+      "到",
+      "在",
+      "过"
+     ],
+     "pinyin": "Tā zuótiān líkāi le Shànghǎi.",
+     "dich": "Hôm qua anh ấy đã rời Thượng Hải."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 8,
+   "hocSauBai": 13
+  },
+  {
+   "id": "thoi-luong-cach",
+   "ten": "Đã bao lâu kể từ khi việc xảy ra: 来中国两年了, 他走了半个小时了",
+   "deCuong": "补语 · 数量补语3：表示动作结束到某个时间点的间隔时间",
+   "congThuc": [
+    "Động từ + tân ngữ + khoảng thời gian + 了   (来中国两年了, 认识他十年了)",
+    "Động từ + 了 + khoảng thời gian + 了   (他走了半个小时了)"
+   ],
+   "giaiThich": [
+    "Với động từ xảy ra trong chốc lát như 来, 去, 走, 到, 认识, 结婚, 离开, 下课…, khoảng thời gian phía sau KHÔNG phải “làm bao lâu” mà là “từ lúc đó đến nay đã bao lâu”: 他走了半个小时了 = anh ấy đi được nửa tiếng rồi (rời đi đã nửa tiếng).",
+    "Tân ngữ đứng trước khoảng thời gian: 来中国两年了 (sang Trung Quốc được hai năm rồi).",
+    "Hỏi: 你来中国多长时间了？ (Bạn sang Trung Quốc bao lâu rồi?)",
+    "Khác bổ ngữ thời lượng ở cấp 2 (学了两年汉语 = học kéo dài hai năm)."
+   ],
+   "loiHayMac": [
+    "Tân ngữ không đứng sau khoảng thời gian: nói 我来中国两年了, không nói 我来了两年中国.",
+    "Khoảng thời gian đứng sau động từ: nói 我来中国两年了, không nói 我两年来中国了."
+   ],
+   "viDu": [
+    {
+     "han": "我来中国两年了。",
+     "manh": [
+      "我",
+      "来",
+      "中国",
+      "两年",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ lái Zhōngguó liǎng nián le.",
+     "dich": "Tôi sang Trung Quốc được hai năm rồi."
+    },
+    {
+     "han": "他走了半个小时了。",
+     "manh": [
+      "他",
+      "走",
+      "了",
+      "半个",
+      "小时",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā zǒu le bàn ge xiǎoshí le.",
+     "dich": "Anh ấy rời đi được nửa tiếng rồi."
+    },
+    {
+     "han": "我认识他十年了。",
+     "manh": [
+      "我",
+      "认识他",
+      "十年",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ rènshi tā shí nián le.",
+     "dich": "Tôi quen anh ấy mười năm rồi."
+    },
+    {
+     "han": "他到上海三天了。",
+     "manh": [
+      "他",
+      "到",
+      "上海",
+      "三天",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā dào Shànghǎi sān tiān le.",
+     "dich": "Anh ấy đến Thượng Hải được ba ngày rồi."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "你来中国多长时间___？",
+     "dapAn": "了",
+     "nhieu": [
+      "的",
+      "过",
+      "着"
+     ],
+     "pinyin": "Nǐ lái Zhōngguó duō cháng shíjiān le?",
+     "dich": "Bạn sang Trung Quốc bao lâu rồi?"
+    },
+    {
+     "cau": "我来中国一___了，还没去过长城。",
+     "dapAn": "年",
+     "nhieu": [
+      "号",
+      "岁",
+      "位"
+     ],
+     "pinyin": "Wǒ lái Zhōngguó yì nián le, hái méi qù guo Chángchéng.",
+     "dich": "Tôi sang Trung Quốc một năm rồi mà chưa đi Vạn Lý Trường Thành."
+    },
+    {
+     "cau": "电影开始半个小时___，他才来。",
+     "dapAn": "了",
+     "nhieu": [
+      "着",
+      "过",
+      "的"
+     ],
+     "pinyin": "Diànyǐng kāishǐ bàn ge xiǎoshí le, tā cái lái.",
+     "dich": "Phim bắt đầu được nửa tiếng rồi anh ấy mới đến."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 8,
+   "hocSauBai": 0
+  },
+  {
+   "id": "yiqian-yihou",
+   "ten": "……以前 / 以后 (前 / 后): trước khi… / sau khi…",
+   "deCuong": "固定格式 · （在）……以前/以后、……前/后",
+   "congThuc": [
+    "(在) + việc / thời gian + 以前 / 以后，……   (吃饭以前, 下课以后)",
+    "Việc / thời gian + 前 / 后   (睡觉前, 三天后)"
+   ],
+   "giaiThich": [
+    "以前 / 以后 đặt SAU việc, ngược với tiếng Việt: 吃饭以前 = trước khi ăn; 下课以后 = sau khi tan học.",
+    "Cũng đặt sau thời gian: 八点以前 (trước tám giờ), 三天以后 (ba ngày sau).",
+    "Có thể rút gọn thành 前 / 后: 睡觉前, 下课后. Có thể thêm 在 ở đầu: 在来中国以前…"
+   ],
+   "loiHayMac": [
+    "Không đặt 以前 / 以后 trước việc như tiếng Việt: nói 吃饭以前, không nói 以前吃饭 (以前吃饭 lại thành “trước đây ăn cơm”).",
+    "“Ba ngày sau” nói 三天以后 / 三天后; còn 以后三天 lại là “ba ngày tới (sắp tới)”."
+   ],
+   "viDu": [
+    {
+     "han": "吃饭以前要洗手。",
+     "manh": [
+      "吃饭",
+      "以前",
+      "要",
+      "洗手"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Chīfàn yǐqián yào xǐ shǒu.",
+     "dich": "Trước khi ăn phải rửa tay."
+    },
+    {
+     "han": "我下课以后去图书馆。",
+     "manh": [
+      "我",
+      "下课",
+      "以后",
+      "去",
+      "图书馆"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "下课",
+       "以后",
+       "我",
+       "去",
+       "图书馆"
+      ]
+     ],
+     "pinyin": "Wǒ xiàkè yǐhòu qù túshūguǎn.",
+     "dich": "Sau khi tan học tôi đến thư viện."
+    },
+    {
+     "han": "来中国以前，我没学过汉语。",
+     "manh": [
+      "来",
+      "中国",
+      "以前，",
+      "我",
+      "没",
+      "学",
+      "过",
+      "汉语"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "我",
+       "来",
+       "中国",
+       "以前，",
+       "没",
+       "学",
+       "过",
+       "汉语"
+      ]
+     ],
+     "pinyin": "Lái Zhōngguó yǐqián, wǒ méi xué guo Hànyǔ.",
+     "dich": "Trước khi sang Trung Quốc, tôi chưa học tiếng Hán."
+    },
+    {
+     "han": "睡觉前别喝咖啡。",
+     "manh": [
+      "睡觉",
+      "前",
+      "别",
+      "喝",
+      "咖啡"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Shuìjiào qián bié hē kāfēi.",
+     "dich": "Trước khi ngủ đừng uống cà phê."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "睡觉___，我喜欢看一会儿书。",
+     "dapAn": "以前",
+     "nhieu": [
+      "已经",
+      "一起",
+      "马上"
+     ],
+     "pinyin": "Shuìjiào yǐqián, wǒ xǐhuan kàn yíhuìr shū.",
+     "dich": "Trước khi ngủ tôi thích đọc sách một lúc."
+    },
+    {
+     "cau": "八点上课，你要在八点___到学校。",
+     "dapAn": "以前",
+     "nhieu": [
+      "以后",
+      "已经",
+      "正在"
+     ],
+     "pinyin": "Bā diǎn shàngkè, nǐ yào zài bā diǎn yǐqián dào xuéxiào.",
+     "dich": "Tám giờ vào học, bạn phải đến trường trước tám giờ."
+    },
+    {
+     "cau": "他吃了饭___就去上班了。",
+     "dapAn": "以后",
+     "nhieu": [
+      "已经",
+      "正在",
+      "一起"
+     ],
+     "pinyin": "Tā chī le fàn yǐhòu jiù qù shàngbān le.",
+     "dich": "Ăn cơm xong anh ấy liền đi làm."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 8,
+   "hocSauBai": 14
+  },
+  {
+   "id": "weile",
+   "ten": "为了……，……: để… (nói mục đích)",
+   "deCuong": "复句 · 目的复句 · 介词“为了”",
+   "congThuc": [
+    "为了 + mục đích，(chủ ngữ) + việc làm   (为了学好汉语，他每天看中国电影)",
+    "Chủ ngữ + 为了 + mục đích，+ việc làm",
+    "Việc làm，是为了 + mục đích   (我来中国是为了学习汉语)"
+   ],
+   "giaiThich": [
+    "为了 nêu mục đích (để làm gì), thường đặt ở đầu câu hoặc sau chủ ngữ.",
+    "Muốn nêu mục đích ở vế sau thì dùng 是为了: 他每天跑步，是为了身体健康.",
+    "Khác 因为 (vì – nêu nguyên nhân): 因为生病了，他没来上课."
+   ],
+   "loiHayMac": [
+    "为了 nêu mục đích, không nêu nguyên nhân: nói 因为生病了，他没来, không nói 为了生病了，他没来.",
+    "为了 không đi với 所以: nói 为了学汉语，我来中国, không nói 为了学汉语，所以我来中国."
+   ],
+   "viDu": [
+    {
+     "han": "为了学好汉语，他每天看中国电影。",
+     "manh": [
+      "为了",
+      "学好",
+      "汉语，",
+      "他",
+      "每天",
+      "看",
+      "中国",
+      "电影"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "他",
+       "为了",
+       "学好",
+       "汉语，",
+       "每天",
+       "看",
+       "中国",
+       "电影"
+      ]
+     ],
+     "pinyin": "Wèile xuéhǎo Hànyǔ, tā měi tiān kàn Zhōngguó diànyǐng.",
+     "dich": "Để học giỏi tiếng Hán, ngày nào anh ấy cũng xem phim Trung Quốc."
+    },
+    {
+     "han": "为了身体健康，我每天跑步。",
+     "manh": [
+      "为了",
+      "身体",
+      "健康，",
+      "我",
+      "每天",
+      "跑步"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "我",
+       "为了",
+       "身体",
+       "健康，",
+       "每天",
+       "跑步"
+      ]
+     ],
+     "pinyin": "Wèile shēntǐ jiànkāng, wǒ měi tiān pǎobù.",
+     "dich": "Để khỏe mạnh, ngày nào tôi cũng chạy bộ."
+    },
+    {
+     "han": "我来中国是为了学习汉语。",
+     "manh": [
+      "我",
+      "来",
+      "中国",
+      "是",
+      "为了",
+      "学习",
+      "汉语"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ lái Zhōngguó shì wèile xuéxí Hànyǔ.",
+     "dich": "Tôi sang Trung Quốc là để học tiếng Hán."
+    },
+    {
+     "han": "为了不迟到，他六点就起床了。",
+     "manh": [
+      "为了",
+      "不",
+      "迟到，",
+      "他",
+      "六点",
+      "就",
+      "起床",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "他",
+       "为了",
+       "不",
+       "迟到，",
+       "六点",
+       "就",
+       "起床",
+       "了"
+      ]
+     ],
+     "pinyin": "Wèile bù chídào, tā liù diǎn jiù qǐchuáng le.",
+     "dich": "Để không bị muộn, sáu giờ anh ấy đã dậy."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "___买到火车票，他很早就去了。",
+     "dapAn": "为了",
+     "nhieu": [
+      "所以",
+      "虽然",
+      "但是"
+     ],
+     "pinyin": "Wèile mǎidào huǒchē piào, tā hěn zǎo jiù qù le.",
+     "dich": "Để mua được vé tàu, anh ấy đi từ rất sớm."
+    },
+    {
+     "cau": "他学习这么努力，是___考上好大学。",
+     "dapAn": "为了",
+     "nhieu": [
+      "所以",
+      "但是",
+      "还是"
+     ],
+     "pinyin": "Tā xuéxí zhème nǔlì, shì wèile kǎoshàng hǎo dàxué.",
+     "dich": "Cậu ấy học chăm như vậy là để đỗ vào trường đại học tốt."
+    },
+    {
+     "cau": "为了___生病，你要多穿点儿衣服。",
+     "dapAn": "不",
+     "nhieu": [
+      "没",
+      "很",
+      "太"
+     ],
+     "pinyin": "Wèile bù shēngbìng, nǐ yào duō chuān diǎnr yīfu.",
+     "dich": "Để không bị ốm, bạn phải mặc thêm áo vào."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 9,
+   "hocSauBai": 9
+  },
+  {
+   "id": "kha-nang",
+   "ten": "Bổ ngữ khả năng: 听得懂, 看不见, 买不到, 回不来",
+   "deCuong": "补语 · 可能补语1：动词+得/不+结果补语/趋向补语",
+   "congThuc": [
+    "Động từ + 得 + kết quả / xu hướng   (听得懂, 回得来) = làm được",
+    "Động từ + 不 + kết quả / xu hướng   (听不懂, 看不见, 买不到) = không làm được",
+    "Hỏi: 听得懂吗？ / 听得懂听不懂？"
+   ],
+   "giaiThich": [
+    "Nói việc có thể hay không thể đạt kết quả: 我听不懂 = tôi nghe (nhưng) không hiểu; 我看不见 = tôi nhìn không thấy.",
+    "Dạng phủ định dùng nhiều nhất. Dạng khẳng định hay dùng để trả lời câu hỏi: 你听得懂吗？——听得懂.",
+    "Tân ngữ đặt sau, hoặc đưa lên đầu câu: 我看不懂这本书 / 这本书我看不懂."
+   ],
+   "loiHayMac": [
+    "Muốn nói “nghe không hiểu” thì đặt 不 vào giữa: nói 听不懂, không nói 不听懂.",
+    "不 thay chỗ của 得, không đi cùng 得: nói 看不见, không nói 看得不见."
+   ],
+   "viDu": [
+    {
+     "han": "我听得懂老师的话。",
+     "manh": [
+      "我",
+      "听",
+      "得",
+      "懂",
+      "老师",
+      "的",
+      "话"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "老师",
+       "的",
+       "话",
+       "我",
+       "听",
+       "得",
+       "懂"
+      ]
+     ],
+     "pinyin": "Wǒ tīng de dǒng lǎoshī de huà.",
+     "dich": "Tôi nghe hiểu lời thầy giáo."
+    },
+    {
+     "han": "字太小了，我看不见。",
+     "manh": [
+      "字",
+      "太",
+      "小",
+      "了，",
+      "我",
+      "看",
+      "不",
+      "见"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zì tài xiǎo le, wǒ kàn bú jiàn.",
+     "dich": "Chữ nhỏ quá, tôi nhìn không thấy."
+    },
+    {
+     "han": "火车票已经买不到了。",
+     "manh": [
+      "火车票",
+      "已经",
+      "买",
+      "不",
+      "到",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Huǒchē piào yǐjīng mǎi bú dào le.",
+     "dich": "Vé tàu đã không mua được nữa rồi."
+    },
+    {
+     "han": "他今天回不来了。",
+     "manh": [
+      "他",
+      "今天",
+      "回",
+      "不",
+      "来",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "今天",
+       "他",
+       "回",
+       "不",
+       "来",
+       "了"
+      ]
+     ],
+     "pinyin": "Tā jīntiān huí bù lái le.",
+     "dich": "Hôm nay anh ấy không về được nữa."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "你说得太快了，我听不___。",
+     "dapAn": "懂",
+     "nhieu": [
+      "会",
+      "是",
+      "很"
+     ],
+     "pinyin": "Nǐ shuō de tài kuài le, wǒ tīng bù dǒng.",
+     "dich": "Bạn nói nhanh quá, tôi nghe không hiểu."
+    },
+    {
+     "cau": "黑板上的字你看___见吗？",
+     "dapAn": "得",
+     "nhieu": [
+      "很",
+      "是",
+      "了"
+     ],
+     "pinyin": "Hēibǎn shàng de zì nǐ kàn de jiàn ma?",
+     "dich": "Chữ trên bảng bạn có nhìn thấy không?"
+    },
+    {
+     "cau": "我的钱包找___到了。",
+     "dapAn": "不",
+     "nhieu": [
+      "没",
+      "很",
+      "是"
+     ],
+     "pinyin": "Wǒ de qiánbāo zhǎo bú dào le.",
+     "dich": "Ví của tôi không tìm thấy nữa rồi."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 9,
+   "hocSauBai": 8
+  },
+  {
+   "id": "yue-yue",
+   "ten": "越……越……: càng… càng… (雨越下越大)",
+   "deCuong": "固定格式 · 越……越……",
+   "congThuc": [
+    "Chủ ngữ + 越 + A + 越 + B   (雨越下越大, 汉语越学越有意思)",
+    "Chủ ngữ 1 + 越 + A，chủ ngữ 2 + 越 + B   (妈妈越说，他越不听)"
+   ],
+   "giaiThich": [
+    "B thay đổi theo A: A càng nhiều thì B càng tăng (hoặc càng giảm). 雨越下越大 = mưa càng lúc càng to.",
+    "越 đứng ngay trước động từ / tính từ, đứng sau chủ ngữ.",
+    "Hai chủ ngữ khác nhau thì mỗi vế có chủ ngữ riêng, đặt trước 越: 东西越便宜，买的人越多.",
+    "Khác 越来越 (ngày càng…, chỉ thay đổi theo thời gian): 天气越来越冷."
+   ],
+   "loiHayMac": [
+    "Sau 越 không thêm 很 / 非常: nói 越说越快, không nói 越说越很快.",
+    "越 đứng sau chủ ngữ: nói 妈妈越说，他越不听, không nói 越妈妈说，越他不听."
+   ],
+   "viDu": [
+    {
+     "han": "外面的雨越下越大。",
+     "manh": [
+      "外面",
+      "的",
+      "雨",
+      "越下",
+      "越大"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wàimiàn de yǔ yuè xià yuè dà.",
+     "dich": "Mưa ngoài trời càng lúc càng to."
+    },
+    {
+     "han": "这本书我越看越喜欢。",
+     "manh": [
+      "这本书",
+      "我",
+      "越看",
+      "越喜欢"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "我",
+       "越看",
+       "越喜欢",
+       "这本书"
+      ]
+     ],
+     "pinyin": "Zhè běn shū wǒ yuè kàn yuè xǐhuan.",
+     "dich": "Cuốn sách này tôi càng đọc càng thích."
+    },
+    {
+     "han": "汉语越学越有意思。",
+     "manh": [
+      "汉语",
+      "越学",
+      "越",
+      "有意思"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Hànyǔ yuè xué yuè yǒu yìsi.",
+     "dich": "Tiếng Hán càng học càng thú vị."
+    },
+    {
+     "han": "妈妈越说，他越不听。",
+     "manh": [
+      "妈妈越说，",
+      "他",
+      "越",
+      "不",
+      "听"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Māma yuè shuō, tā yuè bù tīng.",
+     "dich": "Mẹ càng nói, nó càng không nghe."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "他越跑___快。",
+     "dapAn": "越",
+     "nhieu": [
+      "很",
+      "太",
+      "更"
+     ],
+     "pinyin": "Tā yuè pǎo yuè kuài.",
+     "dich": "Anh ấy càng chạy càng nhanh."
+    },
+    {
+     "cau": "这个问题我___想越不明白。",
+     "dapAn": "越",
+     "nhieu": [
+      "更",
+      "很",
+      "再"
+     ],
+     "pinyin": "Zhège wèntí wǒ yuè xiǎng yuè bù míngbai.",
+     "dich": "Vấn đề này tôi càng nghĩ càng không hiểu."
+    },
+    {
+     "cau": "东西越便宜，买的人就越___。",
+     "dapAn": "多",
+     "nhieu": [
+      "很",
+      "太",
+      "非常"
+     ],
+     "pinyin": "Dōngxi yuè piányi, mǎi de rén jiù yuè duō.",
+     "dich": "Đồ càng rẻ thì người mua càng đông."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 9,
+   "hocSauBai": 6
+  },
+  {
+   "id": "ba-dia-diem",
+   "ten": "Câu chữ 把 (1): 把书放在桌子上 – đưa vật đến chỗ nào",
+   "deCuong": "特殊句型 · “把”字句1：主语+把+宾语+动词+在/到+处所",
+   "congThuc": [
+    "Chủ ngữ + 把 + vật + động từ + 在 / 到 + nơi chốn   (我把书放在桌子上)",
+    "Phủ định: 没 / 别 / 不 + 把 + …   (别把水放在电脑旁边)"
+   ],
+   "giaiThich": [
+    "Dùng khi người làm khiến vật đổi chỗ: 把书放在桌子上 = đặt cuốn sách lên bàn; 把孩子送到学校 = đưa con đến trường.",
+    "Vật sau 把 là vật cụ thể, cả người nói và người nghe đều biết (cuốn sách đó, đứa con đó).",
+    "没, 别, 不 và động từ năng nguyện (要, 想, 能…) đặt TRƯỚC 把: 我没把钱放在包里."
+   ],
+   "loiHayMac": [
+    "Động từ có 在 / 到 + nơi chốn phía sau thì vật phải đưa lên bằng 把: nói 我把书放在桌子上, không nói 我放书在桌子上.",
+    "没 / 别 đứng trước 把: nói 我没把钱放在包里, không nói 我把钱没放在包里."
+   ],
+   "viDu": [
+    {
+     "han": "请把书放在桌子上。",
+     "manh": [
+      "请",
+      "把书",
+      "放在",
+      "桌子上"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Qǐng bǎ shū fàng zài zhuōzi shàng.",
+     "dich": "Hãy đặt cuốn sách lên bàn."
+    },
+    {
+     "han": "别把水放在电脑旁边。",
+     "manh": [
+      "别",
+      "把水",
+      "放在",
+      "电脑旁边"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Bié bǎ shuǐ fàng zài diànnǎo pángbiān.",
+     "dich": "Đừng để nước cạnh máy tính."
+    },
+    {
+     "han": "他每天把孩子送到学校。",
+     "manh": [
+      "他",
+      "每天",
+      "把",
+      "孩子",
+      "送到",
+      "学校"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "每天",
+       "他",
+       "把",
+       "孩子",
+       "送到",
+       "学校"
+      ]
+     ],
+     "pinyin": "Tā měi tiān bǎ háizi sòng dào xuéxiào.",
+     "dich": "Ngày nào anh ấy cũng đưa con đến trường."
+    },
+    {
+     "han": "我没把钱放在包里。",
+     "manh": [
+      "我",
+      "没",
+      "把",
+      "钱",
+      "放在",
+      "包里"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ méi bǎ qián fàng zài bāo lǐ.",
+     "dich": "Tôi không để tiền trong túi."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "你___手机放在哪儿了？",
+     "dapAn": "把",
+     "nhieu": [
+      "是",
+      "很",
+      "对"
+     ],
+     "pinyin": "Nǐ bǎ shǒujī fàng zài nǎr le?",
+     "dich": "Bạn để điện thoại ở đâu rồi?"
+    },
+    {
+     "cau": "请把这些东西搬___楼上去。",
+     "dapAn": "到",
+     "nhieu": [
+      "了",
+      "过",
+      "着"
+     ],
+     "pinyin": "Qǐng bǎ zhèxiē dōngxi bān dào lóu shàng qù.",
+     "dich": "Hãy chuyển những đồ này lên lầu."
+    },
+    {
+     "cau": "别把衣服放___椅子上。",
+     "dapAn": "在",
+     "nhieu": [
+      "过",
+      "着",
+      "是"
+     ],
+     "pinyin": "Bié bǎ yīfu fàng zài yǐzi shàng.",
+     "dich": "Đừng để quần áo lên ghế."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 10,
+   "hocSauBai": 10
+  },
+  {
+   "id": "ba-cho",
+   "ten": "Câu chữ 把 (2): 把书还给他 – đưa vật cho ai",
+   "deCuong": "特殊句型 · “把”字句1：主语+把+宾语+动词+给+对象",
+   "congThuc": [
+    "Chủ ngữ + 把 + vật + động từ + 给 + người   (我把书还给他了)",
+    "Chủ ngữ + 把 + vật + 给 + người   (请把钱给我)"
+   ],
+   "giaiThich": [
+    "Dùng khi chuyển vật cụ thể sang tay người khác: 还给 (trả cho), 送给 (tặng cho), 借给 (cho mượn), 交给 (nộp / giao cho).",
+    "给 đứng ngay sau động từ, rồi đến người nhận.",
+    "Câu thường có 了 ở cuối (đã đưa xong) hoặc là lời đề nghị với 请, 别."
+   ],
+   "loiHayMac": [
+    "Vật đứng ngay sau 把, rồi mới đến động từ: nói 我把书还给他了, không nói 我把还给他书了.",
+    "了 không chen giữa động từ và 给: nói 把书还给他了 / 把书还给了他, không nói 把书还了给他."
+   ],
+   "viDu": [
+    {
+     "han": "我把书还给他了。",
+     "manh": [
+      "我",
+      "把",
+      "书",
+      "还给他",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ bǎ shū huán gěi tā le.",
+     "dich": "Tôi đã trả sách cho anh ấy rồi."
+    },
+    {
+     "han": "请把这本书交给老师。",
+     "manh": [
+      "请",
+      "把",
+      "这",
+      "本",
+      "书",
+      "交给",
+      "老师"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Qǐng bǎ zhè běn shū jiāo gěi lǎoshī.",
+     "dich": "Hãy nộp cuốn sách này cho thầy giáo."
+    },
+    {
+     "han": "你能把你的词典借给我吗？",
+     "manh": [
+      "你",
+      "能",
+      "把",
+      "你的",
+      "词典",
+      "借给我",
+      "吗"
+     ],
+     "dauCau": "？",
+     "khac": [],
+     "pinyin": "Nǐ néng bǎ nǐ de cídiǎn jiè gěi wǒ ma?",
+     "dich": "Bạn cho tôi mượn từ điển của bạn được không?"
+    },
+    {
+     "han": "爸爸把新手机送给我了。",
+     "manh": [
+      "爸爸",
+      "把",
+      "新",
+      "手机",
+      "送给我",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Bàba bǎ xīn shǒujī sòng gěi wǒ le.",
+     "dich": "Bố đã tặng tôi chiếc điện thoại mới."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "请你把这个包交___张老师。",
+     "dapAn": "给",
+     "nhieu": [
+      "在",
+      "是",
+      "对"
+     ],
+     "pinyin": "Qǐng nǐ bǎ zhège bāo jiāo gěi Zhāng lǎoshī.",
+     "dich": "Bạn hãy giao cái túi này cho thầy Trương."
+    },
+    {
+     "cau": "我已经___钱还给他了。",
+     "dapAn": "把",
+     "nhieu": [
+      "是",
+      "对",
+      "在"
+     ],
+     "pinyin": "Wǒ yǐjīng bǎ qián huán gěi tā le.",
+     "dich": "Tôi đã trả tiền cho anh ấy rồi."
+    },
+    {
+     "cau": "他把自己的车借给___朋友。",
+     "dapAn": "了",
+     "nhieu": [
+      "着",
+      "得",
+      "地"
+     ],
+     "pinyin": "Tā bǎ zìjǐ de chē jiè gěi le péngyou.",
+     "dich": "Anh ấy đã cho bạn mượn xe của mình."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 10,
+   "hocSauBai": 14
+  },
+  {
+   "id": "zai-shang",
+   "ten": "在……上 / 中 / 下: về mặt…, trong…, dưới (sự giúp đỡ)…",
+   "deCuong": "固定格式 · 在……上、在……中、在……下",
+   "congThuc": [
+    "在 + lĩnh vực + 上   (về mặt…: 在学习上, 在生活上)",
+    "在 + quá trình / sự việc + 中   (trong…: 在比赛中, 在工作中)",
+    "在 + sự giúp đỡ / điều kiện + 下   (nhờ…, dưới…: 在大家的帮助下)"
+   ],
+   "giaiThich": [
+    "在……上 nói “về mặt nào”: 他在学习上很努力 = về mặt học tập, cậu ấy rất chăm.",
+    "在……中 nói “trong quá trình nào”: 在这次比赛中 = trong cuộc thi lần này.",
+    "在……下 nói “nhờ / với điều kiện gì”: 在老师的帮助下 = nhờ sự giúp đỡ của thầy.",
+    "Cụm này đặt ở đầu câu hoặc sau chủ ngữ, trước động từ."
+   ],
+   "loiHayMac": [
+    "“Nhờ sự giúp đỡ của…” nói 在……的帮助下, không nói 在……的帮助上.",
+    "上 / 中 / 下 đặt ở CUỐI cụm: nói 在大家的帮助下, không nói 在下大家的帮助."
+   ],
+   "viDu": [
+    {
+     "han": "他在学习上很努力。",
+     "manh": [
+      "他",
+      "在学习上",
+      "很",
+      "努力"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "在学习上",
+       "他",
+       "很",
+       "努力"
+      ]
+     ],
+     "pinyin": "Tā zài xuéxí shàng hěn nǔlì.",
+     "dich": "Về mặt học tập, cậu ấy rất chăm chỉ."
+    },
+    {
+     "han": "在大家的帮助下，我完成了工作。",
+     "manh": [
+      "在",
+      "大家",
+      "的",
+      "帮助",
+      "下，",
+      "我",
+      "完成了",
+      "工作"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "我",
+       "在",
+       "大家",
+       "的",
+       "帮助",
+       "下，",
+       "完成了",
+       "工作"
+      ]
+     ],
+     "pinyin": "Zài dàjiā de bāngzhù xià, wǒ wánchéng le gōngzuò.",
+     "dich": "Nhờ mọi người giúp đỡ, tôi đã làm xong công việc."
+    },
+    {
+     "han": "在这次比赛中，他跑得最快。",
+     "manh": [
+      "在",
+      "这",
+      "次",
+      "比赛",
+      "中，",
+      "他",
+      "跑",
+      "得",
+      "最",
+      "快"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "他",
+       "在",
+       "这",
+       "次",
+       "比赛",
+       "中，",
+       "跑",
+       "得",
+       "最",
+       "快"
+      ]
+     ],
+     "pinyin": "Zài zhè cì bǐsài zhōng, tā pǎo de zuì kuài.",
+     "dich": "Trong cuộc thi lần này, anh ấy chạy nhanh nhất."
+    },
+    {
+     "han": "在生活上，朋友们给了我很多帮助。",
+     "manh": [
+      "在",
+      "生活",
+      "上，",
+      "朋友们",
+      "给",
+      "了",
+      "我",
+      "很多",
+      "帮助"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "朋友们",
+       "在",
+       "生活",
+       "上，",
+       "给",
+       "了",
+       "我",
+       "很多",
+       "帮助"
+      ]
+     ],
+     "pinyin": "Zài shēnghuó shàng, péngyoumen gěi le wǒ hěn duō bāngzhù.",
+     "dich": "Về mặt cuộc sống, bạn bè đã giúp tôi rất nhiều."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "在老师的帮助___，我的汉语进步很快。",
+     "dapAn": "下",
+     "nhieu": [
+      "上",
+      "外",
+      "左"
+     ],
+     "pinyin": "Zài lǎoshī de bāngzhù xià, wǒ de Hànyǔ jìnbù hěn kuài.",
+     "dich": "Nhờ thầy giúp đỡ, tiếng Hán của tôi tiến bộ rất nhanh."
+    },
+    {
+     "cau": "他在工作___遇到了很多问题。",
+     "dapAn": "中",
+     "nhieu": [
+      "下",
+      "外",
+      "左"
+     ],
+     "pinyin": "Tā zài gōngzuò zhōng yùdào le hěn duō wèntí.",
+     "dich": "Trong công việc anh ấy đã gặp rất nhiều vấn đề."
+    },
+    {
+     "cau": "在学习___，他是我们班最努力的。",
+     "dapAn": "上",
+     "nhieu": [
+      "下",
+      "外",
+      "左"
+     ],
+     "pinyin": "Zài xuéxí shàng, tā shì wǒmen bān zuì nǔlì de.",
+     "dich": "Về mặt học tập, cậu ấy chăm nhất lớp chúng tôi."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 10,
+   "hocSauBai": 11
+  },
+  {
+   "id": "chu-ngu-dong-tu",
+   "ten": "Động từ, tính từ, cụm chủ vị làm chủ ngữ: 学汉语很有意思, 身体健康最重要",
+   "deCuong": "句子成分 · 主语：动词、动词性短语、形容词、主谓短语作主语",
+   "congThuc": [
+    "Động từ / cụm động từ + vị ngữ   (学汉语很有意思, 每天跑步对身体很好)",
+    "Tính từ + vị ngữ   (健康最重要)",
+    "Cụm chủ vị + vị ngữ   (身体健康最重要, 他不来没关系)"
+   ],
+   "giaiThich": [
+    "Một việc làm cũng có thể đứng đầu câu làm chủ ngữ: 学汉语很有意思 = (việc) học tiếng Hán rất thú vị.",
+    "Tiếng Việt hay thêm “việc…”, tiếng Trung không cần thêm gì: chỉ cần đặt cụm động từ ở đầu câu.",
+    "Hay gặp với vị ngữ: 很有意思, 很难, 很重要, 对身体好 / 不好, 没关系."
+   ],
+   "loiHayMac": [
+    "Cụm 对 + người / vật đứng trước 好 / 不好: nói 喝酒对身体不好, không nói 喝酒不好对身体.",
+    "Không thêm 的 sau cụm động từ làm chủ ngữ: nói 学汉语很有意思, không nói 学汉语的很有意思 (câu này lại thành “người học tiếng Hán rất thú vị”)."
+   ],
+   "viDu": [
+    {
+     "han": "学汉语很有意思。",
+     "manh": [
+      "学",
+      "汉语",
+      "很",
+      "有意思"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Xué Hànyǔ hěn yǒu yìsi.",
+     "dich": "Học tiếng Hán rất thú vị."
+    },
+    {
+     "han": "我觉得身体健康最重要。",
+     "manh": [
+      "我",
+      "觉得",
+      "身体健康",
+      "最",
+      "重要"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ juéde shēntǐ jiànkāng zuì zhòngyào.",
+     "dich": "Tôi thấy sức khỏe là quan trọng nhất."
+    },
+    {
+     "han": "每天跑步对身体很好。",
+     "manh": [
+      "每天",
+      "跑步",
+      "对",
+      "身体",
+      "很",
+      "好"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Měi tiān pǎobù duì shēntǐ hěn hǎo.",
+     "dich": "Chạy bộ mỗi ngày rất tốt cho sức khỏe."
+    },
+    {
+     "han": "他不来没关系。",
+     "manh": [
+      "他",
+      "不",
+      "来",
+      "没",
+      "关系"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā bù lái méi guānxi.",
+     "dich": "Anh ấy không đến cũng không sao."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "吃得太多___身体不好。",
+     "dapAn": "对",
+     "nhieu": [
+      "在",
+      "跟",
+      "被"
+     ],
+     "pinyin": "Chī de tài duō duì shēntǐ bù hǎo.",
+     "dich": "Ăn quá nhiều không tốt cho sức khỏe."
+    },
+    {
+     "cau": "学习汉语___难，而且很有意思。",
+     "dapAn": "不",
+     "nhieu": [
+      "没",
+      "别",
+      "得"
+     ],
+     "pinyin": "Xuéxí Hànyǔ bù nán, érqiě hěn yǒu yìsi.",
+     "dich": "Học tiếng Hán không khó, mà lại rất thú vị."
+    },
+    {
+     "cau": "帮助别人是一件快乐的___。",
+     "dapAn": "事",
+     "nhieu": [
+      "人",
+      "个",
+      "本"
+     ],
+     "pinyin": "Bāngzhù biérén shì yí jiàn kuàilè de shì.",
+     "dich": "Giúp đỡ người khác là một việc vui."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 10,
+   "hocSauBai": 15
+  },
+  {
+   "id": "ba-ket-qua",
+   "ten": "Câu chữ 把 (3): 把作业写完了, 把桌子搬出去 – làm cho vật thay đổi thế nào",
+   "deCuong": "特殊句型 · “把”字句1(3)：主语+把+宾语+动词+结果补语/趋向补语/状态补语",
+   "congThuc": [
+    "Chủ ngữ + 把 + vật + động từ + bổ ngữ kết quả (完 / 好 / 错 / 干净…) (+ 了)",
+    "Chủ ngữ + 把 + vật + động từ + bổ ngữ xu hướng (进来 / 出去 / 回去…)",
+    "Chủ ngữ + 把 + vật + động từ + 得 + bổ ngữ trạng thái"
+   ],
+   "giaiThich": [
+    "把 đưa vật bị tác động lên trước động từ, để nói rõ việc làm khiến vật đó ra sao: 我把作业写完了 (tôi làm xong bài tập rồi).",
+    "Vật sau 把 là vật đã xác định (người nghe biết là cái nào): 这本书, 你的手机, 桌子 (cái bàn đã nói tới).",
+    "Sau động từ phải có thêm thành phần: kết quả (写完, 洗干净), hướng (搬出去, 拿进来) hoặc trạng thái (打扫得很干净).",
+    "Phủ định: 没 đặt trước 把: 我还没把作业写完."
+   ],
+   "loiHayMac": [
+    "Động từ không đứng một mình ở cuối: nói 我把作业写完了, không nói 我把作业写.",
+    "Động từ không làm vật thay đổi (喜欢, 知道, 是, 有…) không dùng với 把: nói 我喜欢他, không nói 我把他喜欢."
+   ],
+   "viDu": [
+    {
+     "han": "我把作业写完了。",
+     "manh": [
+      "我",
+      "把",
+      "作业",
+      "写完",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ bǎ zuòyè xiěwán le.",
+     "dich": "Tôi làm xong bài tập rồi."
+    },
+    {
+     "han": "他们把桌子搬出去了。",
+     "manh": [
+      "他们",
+      "把",
+      "桌子",
+      "搬",
+      "出去",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "他们",
+       "把",
+       "桌子",
+       "搬",
+       "了",
+       "出去"
+      ]
+     ],
+     "pinyin": "Tāmen bǎ zhuōzi bān chūqù le.",
+     "dich": "Họ khiêng cái bàn ra ngoài rồi."
+    },
+    {
+     "han": "妈妈把房间打扫得很干净。",
+     "manh": [
+      "妈妈",
+      "把",
+      "房间",
+      "打扫",
+      "得",
+      "很",
+      "干净"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Māma bǎ fángjiān dǎsǎo de hěn gānjìng.",
+     "dich": "Mẹ dọn phòng rất sạch."
+    },
+    {
+     "han": "他没把钱带来。",
+     "manh": [
+      "他",
+      "没",
+      "把",
+      "钱",
+      "带来"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā méi bǎ qián dàilái.",
+     "dich": "Anh ấy không mang tiền đến."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "我已经___衣服洗干净了。",
+     "dapAn": "把",
+     "nhieu": [
+      "被",
+      "从",
+      "对"
+     ],
+     "pinyin": "Wǒ yǐjīng bǎ yīfu xǐ gānjìng le.",
+     "dich": "Tôi đã giặt sạch quần áo rồi."
+    },
+    {
+     "cau": "对不起，我把你的名字写___了。",
+     "dapAn": "错",
+     "nhieu": [
+      "很",
+      "太",
+      "是"
+     ],
+     "pinyin": "Duìbuqǐ, wǒ bǎ nǐ de míngzi xiěcuò le.",
+     "dich": "Xin lỗi, tôi viết sai tên bạn rồi."
+    },
+    {
+     "cau": "外面下雨了，快把衣服拿___来！",
+     "dapAn": "进",
+     "nhieu": [
+      "在",
+      "从",
+      "是"
+     ],
+     "pinyin": "Wàimiàn xià yǔ le, kuài bǎ yīfu ná jìnlái!",
+     "dich": "Ngoài trời mưa rồi, mau mang quần áo vào!"
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 11,
+   "hocSauBai": 10
+  },
+  {
+   "id": "haishi-huozhe",
+   "ten": "还是 (hỏi: … hay …?) và 或者 (kể: … hoặc …); 或者……，或者……",
+   "deCuong": "复句 · 选择复句：或者……，或者…… · 连词“或者”“还是”",
+   "congThuc": [
+    "A + 还是 + B？   (câu hỏi, người nghe phải chọn một)",
+    "A + 或者 + B   (câu kể: A hoặc B đều được)",
+    "或者 + A，或者 + B   (hoặc… hoặc…)"
+   ],
+   "giaiThich": [
+    "Tiếng Việt “hay / hoặc” có hai cách dịch: hỏi để người nghe chọn thì dùng 还是 (你喝茶还是喝咖啡？); kể, đề nghị thì dùng 或者 (我喝茶或者喝咖啡都行).",
+    "Câu hỏi lựa chọn nằm trong câu kể (sau 不知道, 想好, 问…) vẫn dùng 还是: 我不知道他去还是不去.",
+    "或者……，或者……: nêu hai khả năng, chọn cái nào cũng được: 或者你来，或者我去."
+   ],
+   "loiHayMac": [
+    "Câu hỏi để người nghe chọn không dùng 或者: nói 你去还是我去？, không nói 你去或者我去？",
+    "Câu kể bình thường không dùng 还是: nói 下课以后我常常去图书馆或者去打球, không nói 我常常去图书馆还是去打球."
+   ],
+   "viDu": [
+    {
+     "han": "你想去中国还是日本？",
+     "manh": [
+      "你",
+      "想",
+      "去",
+      "中国",
+      "还是",
+      "日本"
+     ],
+     "dauCau": "？",
+     "khac": [
+      [
+       "你",
+       "想",
+       "去",
+       "日本",
+       "还是",
+       "中国"
+      ]
+     ],
+     "pinyin": "Nǐ xiǎng qù Zhōngguó háishi Rìběn?",
+     "dich": "Bạn muốn đi Trung Quốc hay Nhật Bản?"
+    },
+    {
+     "han": "我想去爬山或者游泳。",
+     "manh": [
+      "我",
+      "想",
+      "去",
+      "爬山",
+      "或者",
+      "游泳"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "我",
+       "想",
+       "去",
+       "游泳",
+       "或者",
+       "爬山"
+      ]
+     ],
+     "pinyin": "Wǒ xiǎng qù páshān huòzhě yóuyǒng.",
+     "dich": "Tôi muốn đi leo núi hoặc đi bơi."
+    },
+    {
+     "han": "或者你来，或者我去，都行。",
+     "manh": [
+      "或者",
+      "你",
+      "来，",
+      "或者",
+      "我",
+      "去，",
+      "都",
+      "行"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "或者",
+       "我",
+       "去，",
+       "或者",
+       "你",
+       "来，",
+       "都",
+       "行"
+      ]
+     ],
+     "pinyin": "Huòzhě nǐ lái, huòzhě wǒ qù, dōu xíng.",
+     "dich": "Hoặc bạn đến, hoặc tôi đi, đều được."
+    },
+    {
+     "han": "我不知道他去还是不去。",
+     "manh": [
+      "我",
+      "不",
+      "知道",
+      "他",
+      "去",
+      "还是",
+      "不",
+      "去"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ bù zhīdào tā qù háishi bú qù.",
+     "dich": "Tôi không biết anh ấy đi hay không đi."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "你是今天走___明天走呢？",
+     "dapAn": "还是",
+     "nhieu": [
+      "或者",
+      "但是",
+      "因为"
+     ],
+     "pinyin": "Nǐ shì jīntiān zǒu háishi míngtiān zǒu ne?",
+     "dich": "Bạn đi hôm nay hay ngày mai?"
+    },
+    {
+     "cau": "下课以后，我常常去图书馆___去打球。",
+     "dapAn": "或者",
+     "nhieu": [
+      "还是",
+      "但是",
+      "因为"
+     ],
+     "pinyin": "Xiàkè yǐhòu, wǒ chángcháng qù túshūguǎn huòzhě qù dǎ qiú.",
+     "dich": "Tan học, tôi thường đến thư viện hoặc đi chơi bóng."
+    },
+    {
+     "cau": "我不知道他明天来___不来。",
+     "dapAn": "还是",
+     "nhieu": [
+      "或者",
+      "但是",
+      "而且"
+     ],
+     "pinyin": "Wǒ bù zhīdào tā míngtiān lái háishi bù lái.",
+     "dich": "Tôi không biết ngày mai anh ấy có đến hay không."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 11,
+   "hocSauBai": 11
+  },
+  {
+   "id": "kanlai",
+   "ten": "看来: xem ra; 在……看来: theo (ý) ai",
+   "deCuong": "固定短语 · 看来 · 在……看来",
+   "congThuc": [
+    "看来，+ nhận định (rút ra từ điều vừa thấy, vừa nghe)",
+    "在 + người + 看来，+ ý kiến"
+   ],
+   "giaiThich": [
+    "看来 = xem ra, có vẻ như: dựa vào tình hình trước mắt để đoán: 天黑了，看来要下雨了.",
+    "看来 thường đứng đầu vế câu, sau vế nêu lý do.",
+    "在……看来 = theo cách nghĩ của ai: 在我看来，这个办法不错 (theo tôi, cách này được đấy).",
+    "Khác 看起来 (bài 1): 看起来 hay dùng để tả vẻ ngoài (他看起来很累), cũng có thể dùng để đoán; 看来 chủ yếu để rút ra kết luận về sự việc."
+   ],
+   "loiHayMac": [
+    "看来 không có nghĩa “nhìn thấy”: nói 我看见他了, không nói 我看来他了.",
+    "“Theo tôi” nói 在我看来 hoặc 我觉得, không nói 根据我，……."
+   ],
+   "viDu": [
+    {
+     "han": "天黑了，看来要下雨了。",
+     "manh": [
+      "天",
+      "黑",
+      "了，",
+      "看来",
+      "要",
+      "下雨",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tiān hēi le, kànlái yào xià yǔ le.",
+     "dich": "Trời tối rồi, xem ra sắp mưa."
+    },
+    {
+     "han": "他还没来，看来他不会来了。",
+     "manh": [
+      "他",
+      "还",
+      "没",
+      "来，",
+      "看来",
+      "他",
+      "不",
+      "会",
+      "来",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā hái méi lái, kànlái tā bú huì lái le.",
+     "dich": "Anh ấy vẫn chưa đến, xem ra anh ấy không đến nữa."
+    },
+    {
+     "han": "在我看来，这本书很有意思。",
+     "manh": [
+      "在",
+      "我",
+      "看来，",
+      "这",
+      "本",
+      "书",
+      "很",
+      "有意思"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zài wǒ kànlái, zhè běn shū hěn yǒu yìsi.",
+     "dich": "Theo tôi, cuốn sách này rất hay."
+    },
+    {
+     "han": "在很多人看来，学汉语很难。",
+     "manh": [
+      "在",
+      "很多",
+      "人",
+      "看来，",
+      "学",
+      "汉语",
+      "很",
+      "难"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zài hěn duō rén kànlái, xué Hànyǔ hěn nán.",
+     "dich": "Theo nhiều người, học tiếng Hán rất khó."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "他的房间没开灯，___他不在家。",
+     "dapAn": "看来",
+     "nhieu": [
+      "好看",
+      "看病",
+      "看完"
+     ],
+     "pinyin": "Tā de fángjiān méi kāi dēng, kànlái tā bú zài jiā.",
+     "dich": "Phòng anh ấy không bật đèn, xem ra anh ấy không có nhà."
+    },
+    {
+     "cau": "在老师___，这个办法很好。",
+     "dapAn": "看来",
+     "nhieu": [
+      "看见",
+      "看完",
+      "看过"
+     ],
+     "pinyin": "Zài lǎoshī kànlái, zhège bànfǎ hěn hǎo.",
+     "dich": "Theo thầy giáo, cách này rất tốt."
+    },
+    {
+     "cau": "___我看来，你应该多休息。",
+     "dapAn": "在",
+     "nhieu": [
+      "对",
+      "给",
+      "往"
+     ],
+     "pinyin": "Zài wǒ kànlái, nǐ yīnggāi duō xiūxi.",
+     "dich": "Theo tôi, bạn nên nghỉ ngơi nhiều hơn."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 11,
+   "hocSauBai": 11
+  },
+  {
+   "id": "dui-laishuo",
+   "ten": "对……来说: đối với… mà nói",
+   "deCuong": "固定格式 · 对……来说",
+   "congThuc": [
+    "对 + người / sự việc + 来说，+ nhận xét"
+   ],
+   "giaiThich": [
+    "Nhìn từ phía người hoặc việc đó để nhận xét: 对我来说，汉字最难 (với tôi, chữ Hán khó nhất).",
+    "Cụm 对……来说 có thể đứng đầu câu hoặc sau chủ ngữ: 这件事对我来说很重要.",
+    "Khác 在……看来: 在我看来 = ý kiến của tôi; 对我来说 = việc đó với tôi thế nào (khó, dễ, quan trọng…)."
+   ],
+   "loiHayMac": [
+    "Không bỏ 来说: nói 对我来说，这很重要, không nói 对我，这很重要.",
+    "Không thay 对 bằng 给 / 跟: không nói 给我来说 hay 跟我来说."
+   ],
+   "viDu": [
+    {
+     "han": "对我来说，汉字最难。",
+     "manh": [
+      "对",
+      "我",
+      "来说，",
+      "汉字",
+      "最",
+      "难"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Duì wǒ láishuō, Hànzì zuì nán.",
+     "dich": "Đối với tôi, chữ Hán khó nhất."
+    },
+    {
+     "han": "对学生来说，考试很重要。",
+     "manh": [
+      "对",
+      "学生",
+      "来说，",
+      "考试",
+      "很",
+      "重要"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Duì xuésheng láishuō, kǎoshì hěn zhòngyào.",
+     "dich": "Đối với học sinh, thi cử rất quan trọng."
+    },
+    {
+     "han": "对他来说，每天跑步不难。",
+     "manh": [
+      "对",
+      "他",
+      "来说，",
+      "每天",
+      "跑步",
+      "不",
+      "难"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Duì tā láishuō, měi tiān pǎobù bù nán.",
+     "dich": "Đối với anh ấy, ngày nào cũng chạy bộ không khó."
+    },
+    {
+     "han": "这件事对我来说很重要。",
+     "manh": [
+      "这",
+      "件",
+      "事",
+      "对",
+      "我",
+      "来说",
+      "很",
+      "重要"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "对",
+       "我",
+       "来说",
+       "这",
+       "件",
+       "事",
+       "很",
+       "重要"
+      ]
+     ],
+     "pinyin": "Zhè jiàn shì duì wǒ láishuō hěn zhòngyào.",
+     "dich": "Việc này đối với tôi rất quan trọng."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "对我___，早上六点起床太早了。",
+     "dapAn": "来说",
+     "nhieu": [
+      "看来",
+      "说话",
+      "来到"
+     ],
+     "pinyin": "Duì wǒ láishuō, zǎoshang liù diǎn qǐchuáng tài zǎo le.",
+     "dich": "Đối với tôi, sáu giờ sáng dậy là quá sớm."
+    },
+    {
+     "cau": "___孩子来说，这本书有点儿难。",
+     "dapAn": "对",
+     "nhieu": [
+      "给",
+      "跟",
+      "把"
+     ],
+     "pinyin": "Duì háizi láishuō, zhè běn shū yǒudiǎnr nán.",
+     "dich": "Đối với trẻ con, cuốn sách này hơi khó."
+    },
+    {
+     "cau": "这个工作___我来说很合适。",
+     "dapAn": "对",
+     "nhieu": [
+      "被",
+      "向",
+      "把"
+     ],
+     "pinyin": "Zhège gōngzuò duì wǒ láishuō hěn héshì.",
+     "dich": "Công việc này đối với tôi rất phù hợp."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 11,
+   "hocSauBai": 10
+  },
+  {
+   "id": "xu-huong-bat-dau",
+   "ten": "Bổ ngữ xu hướng chỉ bắt đầu / tiếp tục: 笑起来, 爱上, 说下去, 坚持下来",
+   "deCuong": "补语 · 趋向补语的引申用法：表示开始、持续（起来、上、下去、下来）",
+   "congThuc": [
+    "Động từ / tính từ + 起来   (bắt đầu và kéo dài: 笑起来, 热起来)",
+    "Động từ + 起 + tân ngữ + 来   (下起雨来, 唱起歌来)",
+    "Động từ + 上   (bắt đầu, thường là thích / yêu: 爱上, 喜欢上)",
+    "Động từ + 下去   (tiếp tục làm tiếp: 说下去, 学下去)",
+    "Động từ + 下来   (giữ được từ trước đến nay: 坚持下来)"
+   ],
+   "giaiThich": [
+    "起来 = bắt đầu (một việc trước đó chưa có): 大家都笑起来了 (mọi người bật cười), 天气热起来了 (trời bắt đầu nóng).",
+    "上 sau 爱 / 喜欢 = bắt đầu yêu, thích: 我爱上了这个城市.",
+    "下去 = làm tiếp từ bây giờ về sau: 你说下去 (bạn nói tiếp đi). 下来 = đã giữ được từ trước đến giờ: 每天跑步，他坚持下来了."
+   ],
+   "loiHayMac": [
+    "Tân ngữ đặt giữa 起 và 来: nói 下起雨来了, không nói 下起来雨了.",
+    "“Tiếp tục” về sau dùng 下去, không dùng 下来: nói 你说下去吧, không nói 你说下来吧."
+   ],
+   "viDu": [
+    {
+     "han": "大家都笑起来了。",
+     "manh": [
+      "大家",
+      "都",
+      "笑",
+      "起来",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Dàjiā dōu xiào qǐlái le.",
+     "dich": "Mọi người đều bật cười."
+    },
+    {
+     "han": "外面下起雨来了。",
+     "manh": [
+      "外面",
+      "下",
+      "起",
+      "雨",
+      "来",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wàimiàn xià qǐ yǔ lái le.",
+     "dich": "Bên ngoài bắt đầu mưa rồi."
+    },
+    {
+     "han": "我爱上了这个城市。",
+     "manh": [
+      "我",
+      "爱",
+      "上",
+      "了",
+      "这个",
+      "城市"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ ài shàng le zhège chéngshì.",
+     "dich": "Tôi đã yêu thành phố này."
+    },
+    {
+     "han": "这本书很有意思，我想看下去。",
+     "manh": [
+      "这",
+      "本",
+      "书",
+      "很",
+      "有意思，",
+      "我",
+      "想",
+      "看",
+      "下去"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zhè běn shū hěn yǒu yìsi, wǒ xiǎng kàn xiàqù.",
+     "dich": "Cuốn sách này rất hay, tôi muốn đọc tiếp."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "天气慢慢热___了。",
+     "dapAn": "起来",
+     "nhieu": [
+      "上去",
+      "出来",
+      "过来"
+     ],
+     "pinyin": "Tiānqì mànmàn rè qǐlái le.",
+     "dich": "Trời dần dần nóng lên rồi."
+    },
+    {
+     "cau": "你说得很好，请说___。",
+     "dapAn": "下去",
+     "nhieu": [
+      "起来",
+      "过来",
+      "进来"
+     ],
+     "pinyin": "Nǐ shuō de hěn hǎo, qǐng shuō xiàqù.",
+     "dich": "Bạn nói rất hay, mời nói tiếp."
+    },
+    {
+     "cau": "我第一次来这儿就喜欢___了这里。",
+     "dapAn": "上",
+     "nhieu": [
+      "下",
+      "过",
+      "着"
+     ],
+     "pinyin": "Wǒ dì yī cì lái zhèr jiù xǐhuan shàng le zhèlǐ.",
+     "dich": "Lần đầu đến đây tôi đã thích nơi này."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 12,
+   "hocSauBai": 18
+  },
+  {
+   "id": "jiu-chi",
+   "ten": "就 = chỉ: 就他一个人来了, 就有五块钱",
+   "deCuong": "副词 · 范围副词：就3",
+   "congThuc": [
+    "就 + động từ + số lượng   (就有五块钱: chỉ có năm đồng)",
+    "就 + người + (động từ)   (就他一个人来了: chỉ mình anh ấy đến)"
+   ],
+   "giaiThich": [
+    "Ở đây 就 = 只 (chỉ): 我就会说一点儿汉语 = 我只会说一点儿汉语.",
+    "就 đặt TRƯỚC người để nói “chỉ có người đó”: 教室里就他一个人.",
+    "就 còn nghĩa “sớm, ngay” (bài 3: 他八点就来了). Phân biệt nhờ ngữ cảnh: có số lượng nhỏ, có 一个人 thì thường là “chỉ”."
+   ],
+   "loiHayMac": [
+    "Muốn nói “chỉ anh ấy đến” thì 就 đứng trước 他: nói 就他来了; nói 他就来了 thành “anh ấy đến ngay”.",
+    "就 đứng trước động từ, không đứng sau: nói 我就买了一本, không nói 我买就一本."
+   ],
+   "viDu": [
+    {
+     "han": "教室里就他一个人。",
+     "manh": [
+      "教室",
+      "里",
+      "就",
+      "他",
+      "一个",
+      "人"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Jiàoshì lǐ jiù tā yí ge rén.",
+     "dich": "Trong lớp chỉ có mình anh ấy."
+    },
+    {
+     "han": "我身上就有五块钱。",
+     "manh": [
+      "我",
+      "身上",
+      "就",
+      "有",
+      "五",
+      "块",
+      "钱"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ shēnshang jiù yǒu wǔ kuài qián.",
+     "dich": "Trên người tôi chỉ có năm đồng."
+    },
+    {
+     "han": "他一天就睡五个小时。",
+     "manh": [
+      "他",
+      "一天",
+      "就",
+      "睡",
+      "五个小时"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "一天",
+       "他",
+       "就",
+       "睡",
+       "五个小时"
+      ]
+     ],
+     "pinyin": "Tā yì tiān jiù shuì wǔ ge xiǎoshí.",
+     "dich": "Anh ấy một ngày chỉ ngủ năm tiếng."
+    },
+    {
+     "han": "我就会说一点儿汉语。",
+     "manh": [
+      "我",
+      "就",
+      "会",
+      "说",
+      "一点儿",
+      "汉语"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ jiù huì shuō yìdiǎnr Hànyǔ.",
+     "dich": "Tôi chỉ biết nói một chút tiếng Hán."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "这个菜不好吃，我___吃了一口。",
+     "dapAn": "就",
+     "nhieu": [
+      "更",
+      "太",
+      "最"
+     ],
+     "pinyin": "Zhège cài bù hǎochī, wǒ jiù chī le yì kǒu.",
+     "dich": "Món này không ngon, tôi chỉ ăn một miếng."
+    },
+    {
+     "cau": "大家都走了，___他一个人还在教室里。",
+     "dapAn": "就",
+     "nhieu": [
+      "都",
+      "才",
+      "很"
+     ],
+     "pinyin": "Dàjiā dōu zǒu le, jiù tā yí ge rén hái zài jiàoshì lǐ.",
+     "dich": "Mọi người đi hết rồi, chỉ còn mình anh ấy ở trong lớp."
+    },
+    {
+     "cau": "我们班___三个人去过中国。",
+     "dapAn": "就",
+     "nhieu": [
+      "很",
+      "太",
+      "最"
+     ],
+     "pinyin": "Wǒmen bān jiù sān ge rén qù guo Zhōngguó.",
+     "dich": "Lớp chúng tôi chỉ có ba người từng đến Trung Quốc."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 12,
+   "hocSauBai": 5
+  },
+  {
+   "id": "dehua",
+   "ten": "……的话，（就）……: nếu… thì…",
+   "deCuong": "复句 · 假设复句：……的话，（就）…… · 助词“的话”",
+   "congThuc": [
+    "Điều kiện + 的话，(chủ ngữ) + 就 + kết quả",
+    "如果 / 要是 + điều kiện + 的话，……"
+   ],
+   "giaiThich": [
+    "的话 đặt ở CUỐI vế điều kiện, nghĩa như “nếu”: 你累的话，就休息吧 (nếu bạn mệt thì nghỉ đi).",
+    "Có thể dùng một mình hoặc đi cùng 如果 / 要是 ở đầu vế: 如果你忙的话，就别来了.",
+    "Vế sau thường có 就; 就 đứng sau chủ ngữ của vế sau. Hay dùng trong khẩu ngữ."
+   ],
+   "loiHayMac": [
+    "的话 đứng cuối vế điều kiện, không đứng đầu: nói 你累的话，就休息吧, không nói 的话你累，就休息吧.",
+    "就 đứng sau chủ ngữ: nói 下雨的话，我们就不去了, không nói 下雨的话，就我们不去了."
+   ],
+   "viDu": [
+    {
+     "han": "你累的话，就休息一下吧。",
+     "manh": [
+      "你",
+      "累",
+      "的话，",
+      "就",
+      "休息",
+      "一下",
+      "吧"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Nǐ lèi de huà, jiù xiūxi yíxià ba.",
+     "dich": "Nếu bạn mệt thì nghỉ một chút đi."
+    },
+    {
+     "han": "明天下雨的话，我们就不去了。",
+     "manh": [
+      "明天",
+      "下雨",
+      "的话，",
+      "我们",
+      "就",
+      "不",
+      "去",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Míngtiān xià yǔ de huà, wǒmen jiù bú qù le.",
+     "dich": "Nếu ngày mai mưa thì chúng ta không đi nữa."
+    },
+    {
+     "han": "如果你有时间的话，来我家玩儿吧。",
+     "manh": [
+      "如果",
+      "你",
+      "有",
+      "时间",
+      "的话，",
+      "来",
+      "我",
+      "家",
+      "玩儿",
+      "吧"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "你",
+       "如果",
+       "有",
+       "时间",
+       "的话，",
+       "来",
+       "我",
+       "家",
+       "玩儿",
+       "吧"
+      ]
+     ],
+     "pinyin": "Rúguǒ nǐ yǒu shíjiān de huà, lái wǒ jiā wánr ba.",
+     "dich": "Nếu bạn có thời gian thì đến nhà tôi chơi nhé."
+    },
+    {
+     "han": "要是不喜欢的话，就别买了。",
+     "manh": [
+      "要是",
+      "不",
+      "喜欢",
+      "的话，",
+      "就",
+      "别",
+      "买",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Yàoshi bù xǐhuan de huà, jiù bié mǎi le.",
+     "dich": "Nếu không thích thì đừng mua nữa."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "你不舒服___，就别去上课了。",
+     "dapAn": "的话",
+     "nhieu": [
+      "说话",
+      "看来",
+      "来说"
+     ],
+     "pinyin": "Nǐ bù shūfu de huà, jiù bié qù shàngkè le.",
+     "dich": "Nếu bạn không khỏe thì đừng đi học nữa."
+    },
+    {
+     "cau": "如果明天天气好的话，我们___去爬山。",
+     "dapAn": "就",
+     "nhieu": [
+      "把",
+      "被",
+      "更"
+     ],
+     "pinyin": "Rúguǒ míngtiān tiānqì hǎo de huà, wǒmen jiù qù páshān.",
+     "dich": "Nếu mai trời đẹp thì chúng ta đi leo núi."
+    },
+    {
+     "cau": "你想去___，我和你一起去。",
+     "dapAn": "的话",
+     "nhieu": [
+      "来说",
+      "看来",
+      "以前"
+     ],
+     "pinyin": "Nǐ xiǎng qù de huà, wǒ hé nǐ yìqǐ qù.",
+     "dich": "Nếu bạn muốn đi thì tôi đi cùng bạn."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 13,
+   "hocSauBai": 6
+  },
+  {
+   "id": "yibian-yihuir",
+   "ten": "一边……一边…… (vừa… vừa…) và 一会儿……一会儿…… (lúc thì… lúc thì…)",
+   "deCuong": "复句 · 并列复句：一边……一边……；一会儿……一会儿……",
+   "congThuc": [
+    "Chủ ngữ + 一边 + hành động 1 + 一边 + hành động 2   (cùng lúc)",
+    "一会儿 + A + 一会儿 + B   (thay nhau, đổi liên tục)"
+   ],
+   "giaiThich": [
+    "一边……一边……: hai hành động làm CÙNG LÚC: 他一边吃饭一边看电视 (anh ấy vừa ăn cơm vừa xem tivi).",
+    "一会儿……一会儿……: hai việc, hai trạng thái thay nhau, lúc này lúc khác: 天气一会儿冷一会儿热 (trời lúc lạnh lúc nóng).",
+    "So với 又……又…… (bài 2): 又便宜又好吃 nói hai đặc điểm cùng có (thường là tính từ); 一边……一边…… chỉ dùng với động từ chỉ hành động."
+   ],
+   "loiHayMac": [
+    "一边……一边…… không đi với tính từ: nói 又高又大, không nói 一边高一边大.",
+    "Chủ ngữ đứng trước 一边 thứ nhất: nói 他一边听音乐一边写作业, không nói 一边他听音乐一边写作业."
+   ],
+   "viDu": [
+    {
+     "han": "他一边吃饭一边看电视。",
+     "manh": [
+      "他",
+      "一边",
+      "吃饭",
+      "一边",
+      "看",
+      "电视"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "他",
+       "一边",
+       "看",
+       "电视",
+       "一边",
+       "吃饭"
+      ]
+     ],
+     "pinyin": "Tā yìbiān chīfàn yìbiān kàn diànshì.",
+     "dich": "Anh ấy vừa ăn cơm vừa xem tivi."
+    },
+    {
+     "han": "我喜欢一边听音乐一边跑步。",
+     "manh": [
+      "我",
+      "喜欢",
+      "一边",
+      "听",
+      "音乐",
+      "一边",
+      "跑步"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "我",
+       "喜欢",
+       "一边",
+       "跑步",
+       "一边",
+       "听",
+       "音乐"
+      ]
+     ],
+     "pinyin": "Wǒ xǐhuan yìbiān tīng yīnyuè yìbiān pǎobù.",
+     "dich": "Tôi thích vừa nghe nhạc vừa chạy bộ."
+    },
+    {
+     "han": "今天天气一会儿冷一会儿热。",
+     "manh": [
+      "今天",
+      "天气",
+      "一会儿",
+      "冷",
+      "一会儿",
+      "热"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "今天",
+       "天气",
+       "一会儿",
+       "热",
+       "一会儿",
+       "冷"
+      ]
+     ],
+     "pinyin": "Jīntiān tiānqì yíhuìr lěng yíhuìr rè.",
+     "dich": "Hôm nay trời lúc lạnh lúc nóng."
+    },
+    {
+     "han": "孩子一会儿哭，一会儿笑。",
+     "manh": [
+      "孩子",
+      "一会儿",
+      "哭，",
+      "一会儿",
+      "笑"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Háizi yíhuìr kū, yíhuìr xiào.",
+     "dich": "Đứa trẻ lúc thì khóc, lúc thì cười."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "我们一边走___聊天吧。",
+     "dapAn": "一边",
+     "nhieu": [
+      "一会儿",
+      "一起",
+      "一下"
+     ],
+     "pinyin": "Wǒmen yìbiān zǒu yìbiān liáotiān ba.",
+     "dich": "Chúng ta vừa đi vừa nói chuyện nhé."
+    },
+    {
+     "cau": "这个孩子___要喝水，一会儿要吃东西。",
+     "dapAn": "一会儿",
+     "nhieu": [
+      "一边",
+      "一起",
+      "一点儿"
+     ],
+     "pinyin": "Zhège háizi yíhuìr yào hē shuǐ, yíhuìr yào chī dōngxi.",
+     "dich": "Đứa trẻ này lúc thì đòi uống nước, lúc thì đòi ăn."
+    },
+    {
+     "cau": "这家饭馆的菜___便宜又好吃。",
+     "dapAn": "又",
+     "nhieu": [
+      "一边",
+      "一会儿",
+      "一起"
+     ],
+     "pinyin": "Zhè jiā fànguǎn de cài yòu piányi yòu hǎochī.",
+     "dich": "Món ăn ở quán này vừa rẻ vừa ngon."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 13,
+   "hocSauBai": 13
+  },
+  {
+   "id": "bei",
+   "ten": "Câu bị động với 被: 我的自行车被骑走了",
+   "deCuong": "特殊句型 · 被动句1：主语+被(+宾语)+动词+其他成分",
+   "congThuc": [
+    "Người / vật chịu tác động + 被 (+ người làm) + động từ + thành phần khác (了 / bổ ngữ…)",
+    "Phủ định: … + 没 + 被 + … + động từ + …"
+   ],
+   "giaiThich": [
+    "Dùng khi muốn nói người / vật “bị” làm sao, thường là việc không mong muốn: 我的自行车被人骑走了.",
+    "Người làm đặt sau 被; không biết hoặc không cần nói thì bỏ đi: 我的自行车被骑走了.",
+    "Giống câu 把, động từ không đứng một mình: sau nó có 了 hoặc bổ ngữ (吃完了, 拿走了, 喝完了).",
+    "So sánh: 弟弟把蛋糕吃了 (em trai ăn bánh) = 蛋糕被弟弟吃了 (bánh bị em trai ăn)."
+   ],
+   "loiHayMac": [
+    "“Bị ốm, bị cảm” không dùng 被: nói 我感冒了, không nói 我被感冒了.",
+    "Động từ không đứng một mình ở cuối: nói 蛋糕被弟弟吃了, không nói 蛋糕被弟弟吃."
+   ],
+   "viDu": [
+    {
+     "han": "我的自行车被人骑走了。",
+     "manh": [
+      "我",
+      "的",
+      "自行车",
+      "被",
+      "人",
+      "骑走",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ de zìxíngchē bèi rén qízǒu le.",
+     "dich": "Xe đạp của tôi bị người ta lấy đi mất rồi."
+    },
+    {
+     "han": "蛋糕被弟弟吃完了。",
+     "manh": [
+      "蛋糕",
+      "被",
+      "弟弟",
+      "吃",
+      "完",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Dàngāo bèi dìdi chīwán le.",
+     "dich": "Bánh ngọt bị em trai ăn hết rồi."
+    },
+    {
+     "han": "他被老师叫走了。",
+     "manh": [
+      "他",
+      "被",
+      "老师",
+      "叫",
+      "走",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā bèi lǎoshī jiàozǒu le.",
+     "dich": "Cậu ấy bị thầy giáo gọi đi rồi."
+    },
+    {
+     "han": "我的书没被拿走。",
+     "manh": [
+      "我",
+      "的",
+      "书",
+      "没",
+      "被",
+      "拿",
+      "走"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ de shū méi bèi názǒu.",
+     "dich": "Sách của tôi không bị lấy đi."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "我的手机___弟弟拿走了。",
+     "dapAn": "被",
+     "nhieu": [
+      "把",
+      "对",
+      "从"
+     ],
+     "pinyin": "Wǒ de shǒujī bèi dìdi názǒu le.",
+     "dich": "Điện thoại của tôi bị em trai lấy đi rồi."
+    },
+    {
+     "cau": "杯子里的水被他喝___了。",
+     "dapAn": "完",
+     "nhieu": [
+      "很",
+      "是",
+      "太"
+     ],
+     "pinyin": "Bēizi lǐ de shuǐ bèi tā hēwán le.",
+     "dich": "Nước trong cốc bị anh ấy uống hết rồi."
+    },
+    {
+     "cau": "弟弟___我的蛋糕吃了。",
+     "dapAn": "把",
+     "nhieu": [
+      "被",
+      "从",
+      "向"
+     ],
+     "pinyin": "Dìdi bǎ wǒ de dàngāo chī le.",
+     "dich": "Em trai ăn mất bánh ngọt của tôi rồi."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 14,
+   "hocSauBai": 14
+  },
+  {
+   "id": "xian-zai",
+   "ten": "先……，再 / 然后……: trước… rồi…",
+   "deCuong": "复句 · 承接复句：先……，再/然后……",
+   "congThuc": [
+    "Chủ ngữ + 先 + việc 1，(chủ ngữ) + 再 + việc 2",
+    "先 + việc 1，然后 (+ chủ ngữ) + việc 2",
+    "先 + việc 1，然后 + 再 + việc 2"
+   ],
+   "giaiThich": [
+    "先 = trước tiên; 再 / 然后 = sau đó: 我们先吃饭，再去看电影.",
+    "再 thường dùng cho việc sắp làm, kế hoạch, lời khuyên; kể việc đã xảy ra thì hay dùng 然后: 他先去了银行，然后去了超市.",
+    "先 và 再 là phó từ, đứng SAU chủ ngữ; 然后 có thể đứng đầu vế sau, trước chủ ngữ: 你先说，然后我说."
+   ],
+   "loiHayMac": [
+    "再 đứng sau chủ ngữ: nói 你先走，我再走, không nói 你先走，再我走.",
+    "先 đứng sau chủ ngữ: nói 我先洗澡, không nói 先我洗澡."
+   ],
+   "viDu": [
+    {
+     "han": "我们先吃饭，再去看电影。",
+     "manh": [
+      "我们",
+      "先",
+      "吃饭，",
+      "再",
+      "去",
+      "看",
+      "电影"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒmen xiān chīfàn, zài qù kàn diànyǐng.",
+     "dich": "Chúng ta ăn cơm trước rồi đi xem phim."
+    },
+    {
+     "han": "你先想一想，再回答。",
+     "manh": [
+      "你",
+      "先",
+      "想",
+      "一",
+      "想，",
+      "再",
+      "回答"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Nǐ xiān xiǎng yi xiǎng, zài huídá.",
+     "dich": "Bạn nghĩ một chút trước rồi hãy trả lời."
+    },
+    {
+     "han": "先洗手，然后吃东西。",
+     "manh": [
+      "先",
+      "洗",
+      "手，",
+      "然后",
+      "吃",
+      "东西"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Xiān xǐ shǒu, ránhòu chī dōngxi.",
+     "dich": "Rửa tay trước rồi mới ăn."
+    },
+    {
+     "han": "他先去了银行，然后去了超市。",
+     "manh": [
+      "他",
+      "先",
+      "去",
+      "了",
+      "银行，",
+      "然后",
+      "去",
+      "了",
+      "超市"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā xiān qù le yínháng, ránhòu qù le chāoshì.",
+     "dich": "Anh ấy đến ngân hàng trước, sau đó đi siêu thị."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "你___做作业，然后再玩儿。",
+     "dapAn": "先",
+     "nhieu": [
+      "最",
+      "更",
+      "太"
+     ],
+     "pinyin": "Nǐ xiān zuò zuòyè, ránhòu zài wánr.",
+     "dich": "Con làm bài tập trước, sau đó hãy chơi."
+    },
+    {
+     "cau": "我们先休息一下，___走吧。",
+     "dapAn": "再",
+     "nhieu": [
+      "先",
+      "才",
+      "又"
+     ],
+     "pinyin": "Wǒmen xiān xiūxi yíxià, zài zǒu ba.",
+     "dich": "Chúng ta nghỉ một chút đã, rồi hãy đi."
+    },
+    {
+     "cau": "他先给妈妈打了电话，___出门了。",
+     "dapAn": "然后",
+     "nhieu": [
+      "先",
+      "以前",
+      "从"
+     ],
+     "pinyin": "Tā xiān gěi māma dǎ le diànhuà, ránhòu chūmén le.",
+     "dich": "Anh ấy gọi điện cho mẹ trước, sau đó ra khỏi nhà."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 14,
+   "hocSauBai": 17
+  },
+  {
+   "id": "x-shenme",
+   "ten": "X 什么（啊）: phản bác “… gì mà …” (贵什么啊, 谢什么)",
+   "deCuong": "固定格式 · X什么（啊）",
+   "congThuc": [
+    "Tính từ / động từ + 什么（啊）",
+    "Động từ + 什么 + tân ngữ   (看什么电视)"
+   ],
+   "giaiThich": [
+    "Dùng khi không đồng ý với lời người kia, hoặc thấy việc đó không cần: A: 太贵了！ B: 贵什么啊，才十块钱。 (Đắt gì mà đắt, có mười đồng thôi.)",
+    "谢什么 = “cảm ơn gì chứ” (đáp lời cảm ơn của bạn bè); 急什么 = “vội gì chứ”.",
+    "Câu này không hỏi “cái gì”, người nghe không cần trả lời; thường có thêm một câu giải thích phía sau.",
+    "Ngữ khí khá mạnh, nên chỉ dùng với người thân, bạn bè."
+   ],
+   "loiHayMac": [
+    "什么 đứng ngay SAU từ bị phản bác: nói 贵什么啊, không nói 什么贵啊 (câu này lại thành câu hỏi “cái gì đắt?”).",
+    "Không thêm 吗 vào cuối như câu hỏi có/không: không nói 贵什么吗."
+   ],
+   "viDu": [
+    {
+     "han": "贵什么啊，才十块钱。",
+     "manh": [
+      "贵",
+      "什么",
+      "啊，",
+      "才",
+      "十块",
+      "钱"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Guì shénme a, cái shí kuài qián.",
+     "dich": "Đắt gì mà đắt, có mười đồng thôi."
+    },
+    {
+     "han": "谢什么，我们是好朋友。",
+     "manh": [
+      "谢",
+      "什么，",
+      "我们",
+      "是",
+      "好",
+      "朋友"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Xiè shénme, wǒmen shì hǎo péngyou.",
+     "dich": "Cảm ơn gì chứ, chúng ta là bạn tốt mà."
+    },
+    {
+     "han": "你急什么，时间还早呢。",
+     "manh": [
+      "你",
+      "急",
+      "什么，",
+      "时间",
+      "还",
+      "早",
+      "呢"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Nǐ jí shénme, shíjiān hái zǎo ne.",
+     "dich": "Bạn vội gì chứ, vẫn còn sớm mà."
+    },
+    {
+     "han": "看什么电视，快去写作业！",
+     "manh": [
+      "看",
+      "什么",
+      "电视，",
+      "快",
+      "去",
+      "写",
+      "作业"
+     ],
+     "dauCau": "！",
+     "khac": [],
+     "pinyin": "Kàn shénme diànshì, kuài qù xiě zuòyè!",
+     "dich": "Xem ti vi gì nữa, mau đi làm bài tập!"
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "累___啊，我们才走了半个小时。",
+     "dapAn": "什么",
+     "nhieu": [
+      "怎么",
+      "为什么",
+      "谁"
+     ],
+     "pinyin": "Lèi shénme a, wǒmen cái zǒu le bàn ge xiǎoshí.",
+     "dich": "Mệt gì mà mệt, chúng ta mới đi có nửa tiếng."
+    },
+    {
+     "cau": "你___什么，电影七点才开始呢。",
+     "dapAn": "急",
+     "nhieu": [
+      "很",
+      "太",
+      "真"
+     ],
+     "pinyin": "Nǐ jí shénme, diànyǐng qī diǎn cái kāishǐ ne.",
+     "dich": "Bạn vội gì chứ, bảy giờ phim mới bắt đầu mà."
+    },
+    {
+     "cau": "你看___电视，快去睡觉！",
+     "dapAn": "什么",
+     "nhieu": [
+      "怎么",
+      "为什么",
+      "谁"
+     ],
+     "pinyin": "Nǐ kàn shénme diànshì, kuài qù shuìjiào!",
+     "dich": "Xem ti vi gì nữa, mau đi ngủ!"
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 14,
+   "hocSauBai": 10
+  },
+  {
+   "id": "so-luong-lap",
+   "ten": "Lặp số + lượng từ: 一个一个, 一张一张 (lần lượt từng…)",
+   "deCuong": "重叠 · 数量重叠",
+   "congThuc": [
+    "一 + lượng từ + 一 + lượng từ (+ 地) + động từ   (一个一个地进来)"
+   ],
+   "giaiThich": [
+    "Đứng TRƯỚC động từ, nghĩa là làm lần lượt từng cái / từng người một: 请一个一个地进来 (mời vào lần lượt từng người).",
+    "Chữ 地 có thể bỏ: 一个一个进来.",
+    "Khác với lặp lượng từ 个个 ở bài 5 (= ai cũng, cái nào cũng): 他们个个都很高 (người nào cũng cao).",
+    "一 đọc theo thanh của lượng từ phía sau: 一个 yí ge, 一张 yì zhāng, 一件 yí jiàn."
+   ],
+   "loiHayMac": [
+    "Cụm này đứng trước động từ: nói 一个一个地看, không nói 看一个一个.",
+    "Đừng nhầm với 个个: muốn nói “lần lượt từng người nói” thì nói 我们一个一个地说, không nói 我们个个地说."
+   ],
+   "viDu": [
+    {
+     "han": "请大家一个一个地进来。",
+     "manh": [
+      "请",
+      "大家",
+      "一个一个地",
+      "进来"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "大家",
+       "请",
+       "一个一个地",
+       "进来"
+      ]
+     ],
+     "pinyin": "Qǐng dàjiā yí ge yí ge de jìnlái.",
+     "dich": "Mời mọi người vào lần lượt từng người một."
+    },
+    {
+     "han": "孩子们一个一个地上了车。",
+     "manh": [
+      "孩子们",
+      "一个一个地",
+      "上",
+      "了",
+      "车"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Háizimen yí ge yí ge de shàng le chē.",
+     "dich": "Bọn trẻ lần lượt từng đứa lên xe."
+    },
+    {
+     "han": "他把照片一张一张地看了一遍。",
+     "manh": [
+      "他",
+      "把",
+      "照片",
+      "一张一张地",
+      "看",
+      "了",
+      "一遍"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "他",
+       "一张一张地",
+       "把",
+       "照片",
+       "看",
+       "了",
+       "一遍"
+      ]
+     ],
+     "pinyin": "Tā bǎ zhàopiàn yì zhāng yì zhāng de kàn le yí biàn.",
+     "dich": "Anh ấy xem lại từng tấm ảnh một lượt."
+    },
+    {
+     "han": "老师让我们一个一个地回答问题。",
+     "manh": [
+      "老师",
+      "让",
+      "我们",
+      "一个一个地",
+      "回答",
+      "问题"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Lǎoshī ràng wǒmen yí ge yí ge de huídá wèntí.",
+     "dich": "Cô giáo cho chúng tôi lần lượt từng người trả lời câu hỏi."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "请大家一个___地说，不要一起说。",
+     "dapAn": "一个",
+     "nhieu": [
+      "两个",
+      "这个",
+      "那个"
+     ],
+     "pinyin": "Qǐng dàjiā yí ge yí ge de shuō, bú yào yìqǐ shuō.",
+     "dich": "Mời mọi người nói lần lượt từng người, đừng nói cùng lúc."
+    },
+    {
+     "cau": "他把衣服一___一件地放进了箱子。",
+     "dapAn": "件",
+     "nhieu": [
+      "个",
+      "本",
+      "张"
+     ],
+     "pinyin": "Tā bǎ yīfu yí jiàn yí jiàn de fàngjìn le xiāngzi.",
+     "dich": "Anh ấy xếp từng chiếc áo một vào va li."
+    },
+    {
+     "cau": "他一张一张___看那些照片。",
+     "dapAn": "地",
+     "nhieu": [
+      "得",
+      "了",
+      "着"
+     ],
+     "pinyin": "Tā yì zhāng yì zhāng de kàn nàxiē zhàopiàn.",
+     "dich": "Anh ấy xem từng tấm một những bức ảnh đó."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 15,
+   "hocSauBai": 17
+  },
+  {
+   "id": "gioi-tu-3",
+   "ten": "Giới từ 根据, 关于, 向, 为: theo, về, hướng về / với, vì / cho",
+   "deCuong": "介词 · 根据、关于、向、为",
+   "congThuc": [
+    "根据 + căn cứ，+ câu   (根据这张地图，……)",
+    "关于 + chủ đề，+ câu   /   一本 + 关于 + chủ đề + 的 + 书",
+    "向 + hướng / người + động từ   (向左走, 向他学习)",
+    "为 (wèi) + người / việc + động từ / tính từ   (为你高兴)"
+   ],
+   "giaiThich": [
+    "根据 = theo, căn cứ vào (bản đồ, ý kiến, kết quả…): 根据医生的意见…",
+    "关于 = về (chủ đề được nói tới): 关于这个问题，… ; 一本关于历史的书 (một cuốn sách về lịch sử).",
+    "向 = về phía: 向前走 (đi về phía trước); với người: 向他学习 (học tập anh ấy).",
+    "为 = vì, cho (làm việc gì vì ai, cho ai): 妈妈为我做了很多事; 我为你高兴 (tôi mừng cho bạn)."
+   ],
+   "loiHayMac": [
+    "Cụm 关于 làm trạng ngữ phải đứng đầu câu, trước chủ ngữ: nói 关于这件事，我知道得不多, không nói 我关于这件事知道得不多.",
+    "为 ở đây đọc wèi (thanh 4), không đọc wéi."
+   ],
+   "viDu": [
+    {
+     "han": "根据这张地图，银行就在前面。",
+     "manh": [
+      "根据",
+      "这张",
+      "地图，",
+      "银行",
+      "就",
+      "在",
+      "前面"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Gēnjù zhè zhāng dìtú, yínháng jiù zài qiánmiàn.",
+     "dich": "Theo tấm bản đồ này thì ngân hàng ở ngay phía trước."
+    },
+    {
+     "han": "关于这个问题，我们明天再说吧。",
+     "manh": [
+      "关于",
+      "这个",
+      "问题，",
+      "我们",
+      "明天",
+      "再",
+      "说",
+      "吧"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "关于",
+       "这个",
+       "问题，",
+       "明天",
+       "我们",
+       "再",
+       "说",
+       "吧"
+      ]
+     ],
+     "pinyin": "Guānyú zhège wèntí, wǒmen míngtiān zài shuō ba.",
+     "dich": "Về vấn đề này, ngày mai chúng ta bàn tiếp nhé."
+    },
+    {
+     "han": "我们都要向他学习。",
+     "manh": [
+      "我们",
+      "都",
+      "要",
+      "向",
+      "他",
+      "学习"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒmen dōu yào xiàng tā xuéxí.",
+     "dich": "Chúng ta đều phải học tập anh ấy."
+    },
+    {
+     "han": "妈妈为我做了很多事。",
+     "manh": [
+      "妈妈",
+      "为",
+      "我",
+      "做",
+      "了",
+      "很多",
+      "事"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Māma wèi wǒ zuò le hěn duō shì.",
+     "dich": "Mẹ đã làm rất nhiều việc vì tôi."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "___医生的意见，他每天早上都去跑步。",
+     "dapAn": "根据",
+     "nhieu": [
+      "关于",
+      "向",
+      "为"
+     ],
+     "pinyin": "Gēnjù yīshēng de yìjiàn, tā měi tiān zǎoshang dōu qù pǎobù.",
+     "dich": "Theo ý kiến bác sĩ, sáng nào anh ấy cũng đi chạy bộ."
+    },
+    {
+     "cau": "我在看一本___中国茶的书。",
+     "dapAn": "关于",
+     "nhieu": [
+      "根据",
+      "向",
+      "为"
+     ],
+     "pinyin": "Wǒ zài kàn yì běn guānyú Zhōngguó chá de shū.",
+     "dich": "Tôi đang đọc một cuốn sách về trà Trung Quốc."
+    },
+    {
+     "cau": "你考上了大学，大家都___你高兴。",
+     "dapAn": "为",
+     "nhieu": [
+      "关于",
+      "根据",
+      "向"
+     ],
+     "pinyin": "Nǐ kǎoshàng le dàxué, dàjiā dōu wèi nǐ gāoxìng.",
+     "dich": "Bạn đỗ đại học rồi, mọi người đều mừng cho bạn."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 15,
+   "hocSauBai": 17
+  },
+  {
+   "id": "cum-co-dinh",
+   "ten": "Cụm cố định: 不一会儿, 一般来说, 不怎么样",
+   "deCuong": "固定短语 · 不一会儿、一般来说、不怎么样",
+   "congThuc": [
+    "不一会儿，+ (chủ ngữ +) 就 / 又 + … 了   (chẳng mấy chốc, một lát sau)",
+    "一般来说，+ câu   (nói chung, thường thì)",
+    "Chủ ngữ + 不怎么样   (chẳng ra sao, không tốt lắm)"
+   ],
+   "giaiThich": [
+    "不一会儿 (bù yíhuìr): chỉ một lúc ngắn sau thì việc khác đã xảy ra; hay dùng khi kể chuyện: 不一会儿，雨就小了.",
+    "一般来说 (yìbān lái shuō): nói chung, thường thì; hay đứng đầu câu.",
+    "不怎么样 (bù zěnmeyàng): không hay, không tốt lắm – cách chê nhẹ nhàng hơn 不好. Làm định ngữ thì thêm 的: 一个不怎么样的电影."
+   ],
+   "loiHayMac": [
+    "不一会儿 dùng để kể việc đã xảy ra; nói việc mình sắp làm thì dùng 一会儿: nói 我一会儿就去, không nói 我不一会儿就去.",
+    "不怎么样 không đứng ngay trước danh từ: nói 这个电影不怎么样 hoặc 不怎么样的电影, không nói 不怎么样电影."
+   ],
+   "viDu": [
+    {
+     "han": "不一会儿，雨就小了。",
+     "manh": [
+      "不一会儿，",
+      "雨",
+      "就",
+      "小",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Bù yíhuìr, yǔ jiù xiǎo le.",
+     "dich": "Chẳng mấy chốc mưa đã nhỏ lại."
+    },
+    {
+     "han": "他刚出去，不一会儿又回来了。",
+     "manh": [
+      "他",
+      "刚",
+      "出去，",
+      "不一会儿",
+      "又",
+      "回来",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā gāng chūqù, bù yíhuìr yòu huílái le.",
+     "dich": "Anh ấy vừa ra ngoài, chẳng bao lâu lại quay về."
+    },
+    {
+     "han": "一般来说，周末人比较多。",
+     "manh": [
+      "一般来说，",
+      "周末",
+      "人",
+      "比较",
+      "多"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Yìbān lái shuō, zhōumò rén bǐjiào duō.",
+     "dich": "Nói chung cuối tuần thường đông người."
+    },
+    {
+     "han": "这个饭馆的菜不怎么样。",
+     "manh": [
+      "这个",
+      "饭馆",
+      "的",
+      "菜",
+      "不怎么样"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zhège fànguǎn de cài bù zěnmeyàng.",
+     "dich": "Món ăn của quán này chẳng ra sao."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "我刚到车站，___车就来了。",
+     "dapAn": "不一会儿",
+     "nhieu": [
+      "一般来说",
+      "不怎么样",
+      "怎么样"
+     ],
+     "pinyin": "Wǒ gāng dào chēzhàn, bù yíhuìr chē jiù lái le.",
+     "dich": "Tôi vừa đến bến xe, chẳng mấy chốc xe đã tới."
+    },
+    {
+     "cau": "___，这里冬天不太冷。",
+     "dapAn": "一般来说",
+     "nhieu": [
+      "不一会儿",
+      "不怎么样",
+      "一会儿"
+     ],
+     "pinyin": "Yìbān lái shuō, zhèlǐ dōngtiān bú tài lěng.",
+     "dich": "Nói chung mùa đông ở đây không lạnh lắm."
+    },
+    {
+     "cau": "这个电影大家都说好，可是我觉得___。",
+     "dapAn": "不怎么样",
+     "nhieu": [
+      "不一会儿",
+      "一般来说",
+      "一会儿"
+     ],
+     "pinyin": "Zhège diànyǐng dàjiā dōu shuō hǎo, kěshì wǒ juéde bù zěnmeyàng.",
+     "dich": "Bộ phim này ai cũng khen hay, nhưng tôi thấy chẳng ra sao."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 16,
+   "hocSauBai": 18
+  },
+  {
+   "id": "bi-duo-zao",
+   "ten": "A 比 B 早 / 晚 / 多 / 少 + động từ + số lượng (他比我早来十分钟)",
+   "deCuong": "特殊句型 · 比较句2(5)：A比B+早/晚/多/少+动词+数量",
+   "congThuc": [
+    "A + 比 + B + 早 / 晚 + động từ (+ 了) + khoảng thời gian",
+    "A + 比 + B + 多 / 少 + động từ (+ 了) + số lượng (+ danh từ)"
+   ],
+   "giaiThich": [
+    "他比我早来了十分钟 = anh ấy đến sớm hơn tôi mười phút.",
+    "我比他多买了两本书 = tôi mua nhiều hơn anh ấy hai cuốn sách.",
+    "早 / 晚 / 多 / 少 đứng TRƯỚC động từ; con số chênh lệch đứng SAU động từ."
+   ],
+   "loiHayMac": [
+    "Tiếng Việt nói “đến sớm hơn”, nên hay viết sai 他比我来早十分钟; phải nói 他比我早来十分钟.",
+    "Theo kiểu “mua nhiều hơn hai cuốn” mà nói 我比他买多两本 là sai; phải nói 我比他多买了两本."
+   ],
+   "viDu": [
+    {
+     "han": "他比我早来了十分钟。",
+     "manh": [
+      "他",
+      "比我",
+      "早",
+      "来",
+      "了",
+      "十分钟"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā bǐ wǒ zǎo lái le shí fēnzhōng.",
+     "dich": "Anh ấy đến sớm hơn tôi mười phút."
+    },
+    {
+     "han": "我比他多买了两本书。",
+     "manh": [
+      "我",
+      "比他",
+      "多",
+      "买",
+      "了",
+      "两本",
+      "书"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ bǐ tā duō mǎi le liǎng běn shū.",
+     "dich": "Tôi mua nhiều hơn anh ấy hai cuốn sách."
+    },
+    {
+     "han": "今天我比平时晚起了一个小时。",
+     "manh": [
+      "今天",
+      "我",
+      "比平时",
+      "晚",
+      "起",
+      "了",
+      "一个",
+      "小时"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "我",
+       "今天",
+       "比平时",
+       "晚",
+       "起",
+       "了",
+       "一个",
+       "小时"
+      ]
+     ],
+     "pinyin": "Jīntiān wǒ bǐ píngshí wǎn qǐ le yí ge xiǎoshí.",
+     "dich": "Hôm nay tôi dậy muộn hơn mọi ngày một tiếng."
+    },
+    {
+     "han": "妹妹比我少吃了一碗饭。",
+     "manh": [
+      "妹妹",
+      "比我",
+      "少",
+      "吃",
+      "了",
+      "一碗",
+      "饭"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Mèimei bǐ wǒ shǎo chī le yì wǎn fàn.",
+     "dich": "Em gái ăn ít hơn tôi một bát cơm."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "火车比飞机___到五个小时。",
+     "dapAn": "晚",
+     "nhieu": [
+      "多",
+      "少",
+      "很"
+     ],
+     "pinyin": "Huǒchē bǐ fēijī wǎn dào wǔ ge xiǎoshí.",
+     "dich": "Tàu hỏa đến muộn hơn máy bay năm tiếng."
+    },
+    {
+     "cau": "他比我___花了一百块钱，因为他买了两件。",
+     "dapAn": "多",
+     "nhieu": [
+      "很",
+      "太",
+      "更"
+     ],
+     "pinyin": "Tā bǐ wǒ duō huā le yìbǎi kuài qián, yīnwèi tā mǎi le liǎng jiàn.",
+     "dich": "Anh ấy tiêu nhiều hơn tôi một trăm đồng vì anh ấy mua hai cái."
+    },
+    {
+     "cau": "这个月他病了，比上个月___工作了五天。",
+     "dapAn": "少",
+     "nhieu": [
+      "很",
+      "更",
+      "非常"
+     ],
+     "pinyin": "Zhège yuè tā bìng le, bǐ shàng ge yuè shǎo gōngzuò le wǔ tiān.",
+     "dich": "Tháng này anh ấy bị ốm, làm ít hơn tháng trước năm ngày."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 16,
+   "hocSauBai": 18
+  },
+  {
+   "id": "bushi-ma",
+   "ten": "Câu hỏi tu từ 不是……吗？: chẳng phải… sao?",
+   "deCuong": "特殊句型 · 反问句1：不是……吗？",
+   "congThuc": [
+    "(Chủ ngữ +) 不是 + … + 吗？"
+   ],
+   "giaiThich": [
+    "Không phải để hỏi, mà để nhấn mạnh điều cả hai đều biết, thường kèm chút ngạc nhiên hoặc trách: 你不是说不来吗？ (Chẳng phải bạn nói không đến sao?)",
+    "Nghĩa là KHẲNG ĐỊNH: 这不是你的书吗？ = đây chính là sách của bạn mà.",
+    "不是 đứng sau chủ ngữ, trước phần muốn nhấn mạnh: 你不是去过上海吗？"
+   ],
+   "loiHayMac": [
+    "Đừng hiểu ngược nghĩa: 你不是去过上海吗？ = “bạn đã đi Thượng Hải rồi mà”, không phải “bạn chưa đi Thượng Hải à?”.",
+    "不 trong 不是 đọc bú (vì 是 thanh 4), không đọc bù."
+   ],
+   "viDu": [
+    {
+     "han": "你不是说不来吗？",
+     "manh": [
+      "你",
+      "不是",
+      "说",
+      "不",
+      "来",
+      "吗"
+     ],
+     "dauCau": "？",
+     "khac": [],
+     "pinyin": "Nǐ bú shì shuō bù lái ma?",
+     "dich": "Chẳng phải bạn nói không đến sao?"
+    },
+    {
+     "han": "这不是你的书吗？",
+     "manh": [
+      "这",
+      "不是",
+      "你",
+      "的",
+      "书",
+      "吗"
+     ],
+     "dauCau": "？",
+     "khac": [],
+     "pinyin": "Zhè bú shì nǐ de shū ma?",
+     "dich": "Đây chẳng phải sách của bạn sao?"
+    },
+    {
+     "han": "你不是去过上海吗？",
+     "manh": [
+      "你",
+      "不是",
+      "去过",
+      "上海",
+      "吗"
+     ],
+     "dauCau": "？",
+     "khac": [],
+     "pinyin": "Nǐ bú shì qùguo Shànghǎi ma?",
+     "dich": "Chẳng phải bạn đã đến Thượng Hải rồi sao?"
+    },
+    {
+     "han": "今天不是星期六吗？",
+     "manh": [
+      "今天",
+      "不是",
+      "星期六",
+      "吗"
+     ],
+     "dauCau": "？",
+     "khac": [],
+     "pinyin": "Jīntiān bú shì xīngqīliù ma?",
+     "dich": "Hôm nay chẳng phải thứ bảy sao?"
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "你___已经吃过饭了吗？怎么又吃？",
+     "dapAn": "不是",
+     "nhieu": [
+      "不",
+      "没",
+      "别"
+     ],
+     "pinyin": "Nǐ bú shì yǐjīng chī guo fàn le ma? Zěnme yòu chī?",
+     "dich": "Chẳng phải bạn ăn cơm rồi sao? Sao lại ăn nữa?"
+    },
+    {
+     "cau": "他___你的好朋友吗？你怎么不认识他？",
+     "dapAn": "不是",
+     "nhieu": [
+      "不",
+      "别",
+      "也"
+     ],
+     "pinyin": "Tā bú shì nǐ de hǎo péngyou ma? Nǐ zěnme bú rènshi tā?",
+     "dich": "Chẳng phải anh ấy là bạn thân của bạn sao? Sao bạn lại không quen anh ấy?"
+    },
+    {
+     "cau": "你___去过中国吗？给我们介绍一下吧。",
+     "dapAn": "不是",
+     "nhieu": [
+      "不",
+      "别",
+      "很"
+     ],
+     "pinyin": "Nǐ bú shì qùguo Zhōngguó ma? Gěi wǒmen jièshào yíxià ba.",
+     "dich": "Chẳng phải bạn đã đến Trung Quốc rồi sao? Giới thiệu cho chúng tôi một chút đi."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 17,
+   "hocSauBai": 0
+  },
+  {
+   "id": "zhiyou-zhiyao",
+   "ten": "只有……才…… (chỉ khi… mới…) và 只要……就…… (chỉ cần… là…)",
+   "deCuong": "复句 · 条件复句：只有……才……、只要……就……",
+   "congThuc": [
+    "只有 + điều kiện duy nhất，(chủ ngữ +) 才 + kết quả",
+    "只要 + điều kiện đủ，(chủ ngữ +) 就 + kết quả"
+   ],
+   "giaiThich": [
+    "只有……才……: điều kiện BẮT BUỘC, thiếu nó thì không được: 只有多练习，才能说好汉语 (phải luyện nhiều mới nói giỏi được).",
+    "只要……就……: chỉ cần có điều kiện này là ĐỦ: 只要不下雨，我们就去 (chỉ cần trời không mưa là đi).",
+    "Nhớ cặp: 只有 đi với 才, 只要 đi với 就.",
+    "才 / 就 đứng sau chủ ngữ của vế sau, trước động từ: 只要你来，我就高兴."
+   ],
+   "loiHayMac": [
+    "Không ghép sai cặp: không nói 只有……就…… hay 只要……才…….",
+    "才 / 就 không đứng trước chủ ngữ: nói 只要你来，我就很高兴, không nói 只要你来，就我很高兴."
+   ],
+   "viDu": [
+    {
+     "han": "只有多练习，才能说好汉语。",
+     "manh": [
+      "只有",
+      "多",
+      "练习，",
+      "才",
+      "能",
+      "说",
+      "好",
+      "汉语"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zhǐyǒu duō liànxí, cái néng shuō hǎo Hànyǔ.",
+     "dich": "Chỉ có luyện tập nhiều mới nói giỏi tiếng Hán được."
+    },
+    {
+     "han": "只要你努力，就一定能学好。",
+     "manh": [
+      "只要",
+      "你",
+      "努力，",
+      "就",
+      "一定",
+      "能",
+      "学",
+      "好"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "你",
+       "只要",
+       "努力，",
+       "就",
+       "一定",
+       "能",
+       "学",
+       "好"
+      ]
+     ],
+     "pinyin": "Zhǐyào nǐ nǔlì, jiù yídìng néng xué hǎo.",
+     "dich": "Chỉ cần bạn cố gắng là nhất định học tốt được."
+    },
+    {
+     "han": "只有周末，我才有时间看电影。",
+     "manh": [
+      "只有",
+      "周末，",
+      "我",
+      "才",
+      "有",
+      "时间",
+      "看",
+      "电影"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zhǐyǒu zhōumò, wǒ cái yǒu shíjiān kàn diànyǐng.",
+     "dich": "Chỉ có cuối tuần tôi mới có thời gian xem phim."
+    },
+    {
+     "han": "只要不下雨，我们就去公园。",
+     "manh": [
+      "只要",
+      "不",
+      "下雨，",
+      "我们",
+      "就",
+      "去",
+      "公园"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zhǐyào bú xià yǔ, wǒmen jiù qù gōngyuán.",
+     "dich": "Chỉ cần trời không mưa là chúng ta đi công viên."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "___你喜欢，就买吧。",
+     "dapAn": "只要",
+     "nhieu": [
+      "只有",
+      "虽然",
+      "但是"
+     ],
+     "pinyin": "Zhǐyào nǐ xǐhuan, jiù mǎi ba.",
+     "dich": "Chỉ cần bạn thích thì mua đi."
+    },
+    {
+     "cau": "只有认真复习，___能考好。",
+     "dapAn": "才",
+     "nhieu": [
+      "就",
+      "刚",
+      "都"
+     ],
+     "pinyin": "Zhǐyǒu rènzhēn fùxí, cái néng kǎo hǎo.",
+     "dich": "Chỉ có ôn tập chăm chỉ mới thi tốt được."
+    },
+    {
+     "cau": "只要有时间，他___去看爷爷奶奶。",
+     "dapAn": "就",
+     "nhieu": [
+      "才",
+      "刚",
+      "别"
+     ],
+     "pinyin": "Zhǐyào yǒu shíjiān, tā jiù qù kàn yéye nǎinai.",
+     "dich": "Chỉ cần có thời gian là anh ấy đi thăm ông bà."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 17,
+   "hocSauBai": 18
+  },
+  {
+   "id": "shi-de-2",
+   "ten": "是……的 nhấn mạnh nhận xét, thái độ (他是不会同意的)",
+   "deCuong": "特殊句型 · “是……的”句2：表示说话人的看法、态度",
+   "congThuc": [
+    "Chủ ngữ + 是 + nhận xét / thái độ + 的"
+   ],
+   "giaiThich": [
+    "Khác 是……的 ở cấp 2 (nhấn mạnh thời gian, nơi chốn, cách thức của việc đã xảy ra): ở đây 是……的 làm lời nhận xét chắc chắn hơn, giọng khẳng định, thuyết phục.",
+    "Hay đi với 会 / 能 / 可以 / 应该: 他是不会同意的 (anh ấy sẽ không đồng ý đâu); 这个问题是能解决的 (vấn đề này giải quyết được mà).",
+    "Bỏ 是 và 的 thì câu vẫn đúng nhưng giọng nhẹ hơn: 他不会同意."
+   ],
+   "loiHayMac": [
+    "Chữ phủ định nằm SAU 是: nói 他是不会同意的, không nói 他不是会同意的.",
+    "Đừng thêm 是……的 vào mọi câu nhận xét: nói bình thường chỉ cần 今天很冷; 今天是很冷的 nghe như đang khẳng định để cãi lại ai đó."
+   ],
+   "viDu": [
+    {
+     "han": "你的想法是对的。",
+     "manh": [
+      "你",
+      "的",
+      "想法",
+      "是",
+      "对",
+      "的"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Nǐ de xiǎngfǎ shì duì de.",
+     "dich": "Suy nghĩ của bạn là đúng."
+    },
+    {
+     "han": "他是不会同意的。",
+     "manh": [
+      "他",
+      "是",
+      "不会",
+      "同意",
+      "的"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā shì bú huì tóngyì de.",
+     "dich": "Anh ấy sẽ không đồng ý đâu."
+    },
+    {
+     "han": "这个问题是能解决的。",
+     "manh": [
+      "这个",
+      "问题",
+      "是",
+      "能",
+      "解决",
+      "的"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zhège wèntí shì néng jiějué de.",
+     "dich": "Vấn đề này là giải quyết được mà."
+    },
+    {
+     "han": "你这样做是不对的。",
+     "manh": [
+      "你",
+      "这样",
+      "做",
+      "是",
+      "不",
+      "对",
+      "的"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Nǐ zhèyàng zuò shì bú duì de.",
+     "dich": "Bạn làm như vậy là không đúng."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "放心吧，他___不会忘的。",
+     "dapAn": "是",
+     "nhieu": [
+      "在",
+      "有",
+      "很"
+     ],
+     "pinyin": "Fàngxīn ba, tā shì bú huì wàng de.",
+     "dich": "Yên tâm đi, anh ấy sẽ không quên đâu."
+    },
+    {
+     "cau": "我觉得这件事是可以解决___。",
+     "dapAn": "的",
+     "nhieu": [
+      "得",
+      "地",
+      "着"
+     ],
+     "pinyin": "Wǒ juéde zhè jiàn shì shì kěyǐ jiějué de.",
+     "dich": "Tôi thấy chuyện này là có thể giải quyết được."
+    },
+    {
+     "cau": "你不来，他是___高兴的。",
+     "dapAn": "不会",
+     "nhieu": [
+      "没",
+      "别",
+      "没有"
+     ],
+     "pinyin": "Nǐ bù lái, tā shì bú huì gāoxìng de.",
+     "dich": "Bạn không đến thì anh ấy sẽ không vui đâu."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 17,
+   "hocSauBai": 17
+  },
+  {
+   "id": "uoc-luong-3",
+   "ten": "Ước lượng: 大概 + số; hai số liền nhau (三四个, 七八天)",
+   "deCuong": "数量表达 · 概数表达法2：大概+数量；相邻数字连用",
+   "congThuc": [
+    "大概 + (động từ +) số + lượng từ (+ danh từ)   (大概有三十个学生)",
+    "Hai số liền nhau + lượng từ (+ danh từ)   (三四个人, 七八天)"
+   ],
+   "giaiThich": [
+    "大概 = khoảng, chừng: 从这儿到机场大概要四十分钟.",
+    "Hai số liền nhau, số nhỏ đứng trước: 两三天 (hai ba ngày), 五六个人 (năm sáu người).",
+    "Với số có 十: 十七八岁 (mười bảy mười tám tuổi), 二三十个 (hai ba chục cái).",
+    "Đọc liền hai số, không ngắt: 七八个 qī bā ge."
+   ],
+   "loiHayMac": [
+    "Số nhỏ đứng trước: nói 三四个, không nói 四三个.",
+    "“Chín mười ngày” không nói 九十天 (= 90 ngày!); nói 大概十天 hoặc 十天左右."
+   ],
+   "viDu": [
+    {
+     "han": "这个班大概有三十个学生。",
+     "manh": [
+      "这个",
+      "班",
+      "大概",
+      "有",
+      "三十个",
+      "学生"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zhège bān dàgài yǒu sānshí ge xuésheng.",
+     "dich": "Lớp này có khoảng ba mươi học sinh."
+    },
+    {
+     "han": "从这儿到机场大概要四十分钟。",
+     "manh": [
+      "从",
+      "这儿",
+      "到",
+      "机场",
+      "大概",
+      "要",
+      "四十",
+      "分钟"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Cóng zhèr dào jīchǎng dàgài yào sìshí fēnzhōng.",
+     "dich": "Từ đây đến sân bay mất khoảng bốn mươi phút."
+    },
+    {
+     "han": "我每天睡七八个小时。",
+     "manh": [
+      "我",
+      "每天",
+      "睡",
+      "七八个",
+      "小时"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "每天",
+       "我",
+       "睡",
+       "七八个",
+       "小时"
+      ]
+     ],
+     "pinyin": "Wǒ měi tiān shuì qī bā ge xiǎoshí.",
+     "dich": "Mỗi ngày tôi ngủ bảy tám tiếng."
+    },
+    {
+     "han": "那个女孩十七八岁。",
+     "manh": [
+      "那个",
+      "女孩",
+      "十七八",
+      "岁"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Nàge nǚhái shíqī bā suì.",
+     "dich": "Cô gái đó khoảng mười bảy mười tám tuổi."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "我们等了___十分钟，他才来。",
+     "dapAn": "大概",
+     "nhieu": [
+      "一点儿",
+      "一下",
+      "有点儿"
+     ],
+     "pinyin": "Wǒmen děng le dàgài shí fēnzhōng, tā cái lái.",
+     "dich": "Chúng tôi đợi khoảng mười phút anh ấy mới đến."
+    },
+    {
+     "cau": "他去上海玩了两___天。",
+     "dapAn": "三",
+     "nhieu": [
+      "四",
+      "一",
+      "五"
+     ],
+     "pinyin": "Tā qù Shànghǎi wán le liǎng sān tiān.",
+     "dich": "Anh ấy đi Thượng Hải chơi hai ba ngày."
+    },
+    {
+     "cau": "那个孩子大概七___岁。",
+     "dapAn": "八",
+     "nhieu": [
+      "六",
+      "五",
+      "九"
+     ],
+     "pinyin": "Nàge háizi dàgài qī bā suì.",
+     "dich": "Đứa bé đó khoảng bảy tám tuổi."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 18,
+   "hocSauBai": 18
+  },
+  {
+   "id": "gang-ganggang",
+   "ten": "刚, 刚刚, 刚才: vừa, vừa mới, lúc nãy",
+   "deCuong": "副词 · 时间副词：刚、刚刚 · 名词：刚才",
+   "congThuc": [
+    "Chủ ngữ + 刚 / 刚刚 + động từ   (我刚到家)",
+    "刚才 + chủ ngữ + động từ   /   chủ ngữ + 刚才 + động từ   /   刚才 + 的 + danh từ"
+   ],
+   "giaiThich": [
+    "刚 / 刚刚 là PHÓ TỪ: đứng sau chủ ngữ, ngay trước động từ: 我刚到家 (tôi vừa về đến nhà). 刚刚 nhấn mạnh hơn một chút; trong khẩu ngữ 刚刚 cũng có thể dùng như 刚才.",
+    "刚才 là DANH TỪ chỉ thời gian (lúc nãy, vừa rồi): đứng trước hoặc sau chủ ngữ, đi sau 比, làm định ngữ với 的: 刚才的电话 (cuộc điện thoại lúc nãy).",
+    "刚 có thể nói về việc đã khá lâu, theo cảm nhận người nói: 我刚来中国两个月 (tôi mới đến Trung Quốc được hai tháng). 刚才 chỉ nói chuyện vài phút trước, không đi với khoảng thời gian như vậy."
+   ],
+   "loiHayMac": [
+    "Không dùng 刚才 với khoảng thời gian dài: nói 我刚来中国两个月, không nói 我刚才来中国两个月.",
+    "刚 không làm định ngữ: nói 刚才的事, không nói 刚的事."
+   ],
+   "viDu": [
+    {
+     "han": "我刚到家。",
+     "manh": [
+      "我",
+      "刚",
+      "到",
+      "家"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ gāng dào jiā.",
+     "dich": "Tôi vừa về đến nhà."
+    },
+    {
+     "han": "刚才有人给你打电话。",
+     "manh": [
+      "刚才",
+      "有",
+      "人",
+      "给",
+      "你",
+      "打",
+      "电话"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "有",
+       "人",
+       "刚才",
+       "给",
+       "你",
+       "打",
+       "电话"
+      ]
+     ],
+     "pinyin": "Gāngcái yǒu rén gěi nǐ dǎ diànhuà.",
+     "dich": "Lúc nãy có người gọi điện cho bạn."
+    },
+    {
+     "han": "电影刚刚开始。",
+     "manh": [
+      "电影",
+      "刚刚",
+      "开始"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Diànyǐng gānggāng kāishǐ.",
+     "dich": "Phim vừa mới bắt đầu."
+    },
+    {
+     "han": "我刚来中国两个月。",
+     "manh": [
+      "我",
+      "刚",
+      "来",
+      "中国",
+      "两个",
+      "月"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ gāng lái Zhōngguó liǎng ge yuè.",
+     "dich": "Tôi mới đến Trung Quốc được hai tháng."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "我___来上海一个月，还不太习惯。",
+     "dapAn": "刚",
+     "nhieu": [
+      "刚才",
+      "马上",
+      "正在"
+     ],
+     "pinyin": "Wǒ gāng lái Shànghǎi yí ge yuè, hái bú tài xíguàn.",
+     "dich": "Tôi mới đến Thượng Hải được một tháng, vẫn chưa quen lắm."
+    },
+    {
+     "cau": "___的电话是谁打来的？",
+     "dapAn": "刚才",
+     "nhieu": [
+      "刚",
+      "马上",
+      "已经"
+     ],
+     "pinyin": "Gāngcái de diànhuà shì shéi dǎ lái de?",
+     "dich": "Cuộc điện thoại lúc nãy là ai gọi đến vậy?"
+    },
+    {
+     "cau": "现在的雨比___小了。",
+     "dapAn": "刚才",
+     "nhieu": [
+      "刚",
+      "马上",
+      "已经"
+     ],
+     "pinyin": "Xiànzài de yǔ bǐ gāngcái xiǎo le.",
+     "dich": "Mưa bây giờ nhỏ hơn lúc nãy rồi."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 18,
+   "hocSauBai": 18
+  },
+  {
+   "id": "cong-qi",
+   "ten": "从……起: kể từ… (从明天起)",
+   "deCuong": "固定格式 · 从……起",
+   "congThuc": [
+    "从 + thời điểm + 起，+ câu",
+    "Chủ ngữ + 从 + thời điểm + 起 + động từ …"
+   ],
+   "giaiThich": [
+    "从明天起 = kể từ ngày mai; hay dùng khi bắt đầu một thói quen, một quy định mới: 从明天起，我每天早上跑步.",
+    "Nghĩa giống 从……开始: 从下个月开始 = 从下个月起.",
+    "Thường đứng đầu câu; cũng có thể đứng sau chủ ngữ: 我从今天起不喝咖啡了."
+   ],
+   "loiHayMac": [
+    "Giữa 从 và 起 là một THỜI ĐIỂM, không phải khoảng thời gian: nói 从下星期起, không nói 从一个星期起.",
+    "起 đứng sau thời điểm: nói 从今天起, không nói 从起今天."
+   ],
+   "viDu": [
+    {
+     "han": "从明天起，我每天早上跑步。",
+     "manh": [
+      "从",
+      "明天",
+      "起，",
+      "我",
+      "每天",
+      "早上",
+      "跑步"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "从",
+       "明天",
+       "起，",
+       "每天",
+       "早上",
+       "我",
+       "跑步"
+      ]
+     ],
+     "pinyin": "Cóng míngtiān qǐ, wǒ měi tiān zǎoshang pǎobù.",
+     "dich": "Kể từ ngày mai, sáng nào tôi cũng chạy bộ."
+    },
+    {
+     "han": "从下个月起，这家商店晚上十点关门。",
+     "manh": [
+      "从",
+      "下个月",
+      "起，",
+      "这家",
+      "商店",
+      "晚上",
+      "十点",
+      "关门"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Cóng xià ge yuè qǐ, zhè jiā shāngdiàn wǎnshang shí diǎn guānmén.",
+     "dich": "Kể từ tháng sau, cửa hàng này đóng cửa lúc mười giờ tối."
+    },
+    {
+     "han": "我从今天起不喝咖啡了。",
+     "manh": [
+      "我",
+      "从",
+      "今天",
+      "起",
+      "不",
+      "喝",
+      "咖啡",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "从",
+       "今天",
+       "起",
+       "我",
+       "不",
+       "喝",
+       "咖啡",
+       "了"
+      ]
+     ],
+     "pinyin": "Wǒ cóng jīntiān qǐ bù hē kāfēi le.",
+     "dich": "Từ hôm nay tôi không uống cà phê nữa."
+    },
+    {
+     "han": "从那天起，他再也没来过。",
+     "manh": [
+      "从",
+      "那天",
+      "起，",
+      "他",
+      "再也",
+      "没",
+      "来",
+      "过"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Cóng nà tiān qǐ, tā zài yě méi lái guo.",
+     "dich": "Từ hôm đó, anh ấy không bao giờ đến nữa."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "从下星期___，我们每天八点上课。",
+     "dapAn": "起",
+     "nhieu": [
+      "到",
+      "去",
+      "以前"
+     ],
+     "pinyin": "Cóng xià xīngqī qǐ, wǒmen měi tiān bā diǎn shàngkè.",
+     "dich": "Kể từ tuần sau, ngày nào chúng ta cũng vào học lúc tám giờ."
+    },
+    {
+     "cau": "___今天起，我要好好学习。",
+     "dapAn": "从",
+     "nhieu": [
+      "在",
+      "对",
+      "离"
+     ],
+     "pinyin": "Cóng jīntiān qǐ, wǒ yào hǎohǎo xuéxí.",
+     "dich": "Kể từ hôm nay, tôi sẽ học hành chăm chỉ."
+    },
+    {
+     "cau": "从___起，他每天都给妈妈打电话。",
+     "dapAn": "那天",
+     "nhieu": [
+      "一天",
+      "天天",
+      "几天"
+     ],
+     "pinyin": "Cóng nà tiān qǐ, tā měi tiān dōu gěi māma dǎ diànhuà.",
+     "dich": "Từ hôm đó, ngày nào anh ấy cũng gọi điện cho mẹ."
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 18,
+   "hocSauBai": 18
+  }
+ ]
+}
