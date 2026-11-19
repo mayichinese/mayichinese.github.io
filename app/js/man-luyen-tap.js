@@ -9,7 +9,7 @@ import { caiDat, nhatKyHomNay } from './luu-tru.js';
 import { bieuTuong } from './bieu-tuong.js';
 
 const CAC_PHAN = [
-  { ma: 'nghe', emoji: '🎧', ten: 'Luyện thanh điệu', href: '#/thanh-dieu', phut: 'nghe', sapCo: true,
+  { ma: 'nghe', emoji: '🎧', ten: 'Luyện thanh điệu', href: '#/thanh-dieu', phut: 'nghe',
     moTa: 'Nghe rồi chọn thanh; cặp thanh 2–3, biến điệu 不/一, hai thanh 3 liền nhau.' },
   { ma: 'viet', emoji: '✍️', ten: 'Luyện viết chữ Hán', href: '#/luyen-viet', phut: 'viet',
     moTa: '100 chữ cần viết tay HSK 1–2: xem thứ tự nét, viết theo, viết không nhìn.' },

@@ -340,6 +340,68 @@ a.dong-ke-hoach:active { transform: translateY(3px); box-shadow: none; }
 .o-lon:is(div) { cursor: default; }
 .o-lon:is(div):active { transform: none; box-shadow: var(--bong-the); }
 
+/* ==================== THANH ĐIỆU ==================== */
+.bang-thanh { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 12px; }
+.o-thanh {
+  display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 10px 4px;
+  border-radius: 16px; background: var(--be-mat-2); color: currentColor;
+}
+.o-thanh b { font-size: .85rem; }
+.dau-thanh { font-size: 2rem; line-height: 1; }
+.nut-mau { min-height: 36px; padding: 0 10px; gap: 4px; color: var(--chu); }
+.nut-mau .bt { width: 16px; height: 16px; }
+.ds-nham { margin: 4px 0 0; padding-left: 20px; }
+
+.quy-tac { padding: 10px 16px; box-shadow: none; border-width: 1px; }
+.quy-tac summary { cursor: pointer; font-weight: 600; }
+.quy-tac p { margin: 8px 0 2px; font-size: .92rem; }
+.the-thanh { display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center; padding: 18px; border-radius: 26px; }
+.the-thanh .goc-the { width: 100%; }
+.cau-hoi { margin: 4px 0 0; font-weight: 600; font-size: 1.05rem; }
+.hang-nghe { display: flex; align-items: center; gap: 14px; margin: 6px 0; }
+.nut-nghe-lon { width: 84px; height: 84px; }
+.nut-nghe-lon .bt { width: 36px; height: 36px; }
+.cau-vi-du { font-size: 1.6rem; line-height: 1.4; margin: 6px 0 0; }
+.cau-vi-du mark { background: var(--chinh-nhat); color: var(--chinh-chu); border-radius: 6px; padding: 0 2px; }
+.cau-pinyin { margin: 0; font-size: 1.1rem; }
+.o-trong { color: var(--chinh-chu); font-weight: 700; }
+.dap-an:empty { display: none; }
+.dap-an { width: 100%; padding: 12px 14px; border-radius: 16px; text-align: left; line-height: 1.6; }
+.dap-an.la-dung { background: color-mix(in srgb, #22c55e 14%, var(--be-mat)); }
+.dap-an.la-sai { background: color-mix(in srgb, #ef4444 12%, var(--be-mat)); }
+.tu-sau-tra-loi { display: flex; align-items: center; gap: 12px; margin-top: 10px; }
+.tu-sau-tra-loi .tu-lon { font-size: 2rem; line-height: 1.1; }
+.tu-sau-tra-loi .giua { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+
+.hang-thanh { display: grid; gap: 8px; }
+.hang-thanh.so-2 { grid-template-columns: repeat(2, 1fr); }
+.hang-thanh.so-3 { grid-template-columns: repeat(3, 1fr); }
+.hang-thanh.so-4 { grid-template-columns: repeat(4, 1fr); }
+.hang-thanh.so-5 { grid-template-columns: repeat(5, 1fr); }
+.nut-thanh {
+  position: relative; min-height: 62px; padding: 6px 4px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0;
+  border: var(--vien-rong) solid currentColor; border-radius: 16px;
+  background: var(--be-mat); cursor: pointer;
+  box-shadow: 0 4px 0 color-mix(in srgb, currentColor 55%, transparent);
+  transition: transform .08s, box-shadow .08s;
+}
+.nut-thanh:active { transform: translateY(3px); box-shadow: none; }
+.nut-thanh b { font-size: 1.15rem; }
+.nut-thanh .pinyin { font-size: 1.1rem; }
+.nut-thanh kbd { position: absolute; top: 3px; right: 7px; font: 700 .62rem var(--font-than); opacity: .6; }
+.nut-thanh.nut-chu { color: var(--chu); border-color: var(--vien-the); box-shadow: 0 4px 0 var(--khoi); }
+.nut-thanh.nut-chu b { font-size: 1.05rem; }
+.nut-thanh.t0 { color: var(--thanh-0); }
+.nut-thanh.dang-chon { background: color-mix(in srgb, currentColor 16%, var(--be-mat)); }
+.nut-thanh.dung { background: #15803d; border-color: #15803d; color: #fff; box-shadow: none; }
+.nut-thanh.sai { background: #dc2626; border-color: #dc2626; color: #fff; box-shadow: none; }
+.dong-chon-am { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.dong-chon-am .ten-am { flex: none; width: 46px; font-weight: 700; font-size: .85rem; color: var(--chu-phu); }
+.dong-chon-am .hang-thanh { flex: 1; }
+.dong-chon-am .nut-thanh { min-height: 52px; }
+@media (hover: none) { .nut-thanh kbd { display: none; } }
+
 /* ==================== XEM MỘT TỪ ==================== */
 .the-xem { padding: 18px; border-radius: 26px; }
 .trang-thai-tu { margin-top: 14px; display: flex; flex-direction: column; gap: 4px; }

@@ -15,6 +15,8 @@
 //   #/luyen-viet   Luyện viết: tổng quan        → man-luyen-viet.js
 //   #/luyen-viet/phien        phiên luyện viết hôm nay
 //   #/luyen-viet/chu/<chữ>    luyện riêng một chữ
+//   #/thanh-dieu   Luyện thanh điệu: chọn dạng  → man-thanh-dieu.js
+//   #/thanh-dieu/<dạng>       phiên 10 câu (mot, hai-ba, hai, bat-nhat, ba-ba)
 //   #/thong-ke     Thống kê (sắp có)            → man-sap-co.js
 //   #/cai-dat      Cài đặt, sao lưu             → man-cai-dat.js
 // =========================================================
@@ -31,6 +33,7 @@ import { veCaiDat } from './man-cai-dat.js';
 import { veThongKe } from './man-sap-co.js';
 import { veLuyenTap } from './man-luyen-tap.js';
 import { veLuyenViet, vePhienViet, moCachViet } from './man-luyen-viet.js';
+import { veThanhDieu, vePhienThanh, CAC_DANG } from './man-thanh-dieu.js';
 
 const $noiDung = () => document.getElementById('noi-dung');
 let donDep = null; // hàm dọn dẹp của màn hình trước (tắt đồng hồ, bỏ phím tắt…)
@@ -84,6 +87,12 @@ function veTheoDiaChi() {
   } else if (muc === 'luyen-viet') {
     datTieuDe('Luyện viết', '#/luyen-tap');
     veLuyenViet(khung);
+  } else if (muc === 'thanh-dieu' && thamSo) {
+    datTieuDe(CAC_DANG[thamSo]?.ten || 'Thanh điệu', '#/thanh-dieu');
+    donDep = vePhienThanh(khung, thamSo);
+  } else if (muc === 'thanh-dieu') {
+    datTieuDe('Thanh điệu', '#/luyen-tap');
+    veThanhDieu(khung);
   } else if (muc === 'luyen-tap') {
     datTieuDe('Luyện tập');
     veLuyenTap(khung);
