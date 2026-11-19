@@ -1,0 +1,60 @@
+# ===== NGUỒN SOẠN THẢO HSK 2 – BÀI 15 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–2.
+
+# 15 | Chuyến đi xa
+
+@出国 | xuất quốc
+- 动 | ra nước ngoài
+> 我明年想出国学习。 | Wǒ míngnián xiǎng chūguó xuéxí. | Năm sau tôi muốn ra nước ngoài học.
+> 他出国旅游了。 | Tā chūguó lǚyóu le. | Anh ấy ra nước ngoài du lịch rồi.
+* Khi chen thêm chữ thì tách ra: 出过国 (đã từng ra nước ngoài).
+
+@出门 | xuất môn
+- 动 | ra ngoài, ra khỏi nhà
+> 我早上七点出门。 | Wǒ zǎoshang qī diǎn chūmén. | Bảy giờ sáng tôi ra khỏi nhà.
+> 外面下雨，今天别出门了。 | Wàimiàn xià yǔ, jīntiān bié chūmén le. | Ngoài trời mưa, hôm nay đừng ra ngoài nữa.
+
+@飞 | phi
+- 动 | bay
+> 鸟在天上飞。 | Niǎo zài tiān shang fēi. | Chim bay trên trời.
+> 飞机飞得很高。 | Fēijī fēi de hěn gāo. | Máy bay bay rất cao.
+
+@机场 | cơ trường
+- 名 | sân bay
+> 我去机场送朋友。 | Wǒ qù jīchǎng sòng péngyou. | Tôi ra sân bay tiễn bạn.
+> 从这儿到机场要一个小时。 | Cóng zhèr dào jīchǎng yào yí ge xiǎoshí. | Từ đây đến sân bay mất một tiếng.
+* 机 ở đây là 飞机 (máy bay): 机场 = sân bay, 机票 = vé máy bay.
+
+@机票 | cơ phiếu
+- 名 | vé máy bay
+> 我在网上买了机票。 | Wǒ zài wǎngshang mǎi le jīpiào. | Tôi đã mua vé máy bay trên mạng.
+> 机票太贵了，我们坐火车吧。 | Jīpiào tài guì le, wǒmen zuò huǒchē ba. | Vé máy bay đắt quá, chúng mình đi tàu hỏa đi.
+
+@门票 | môn phiếu
+- 名 | vé vào cửa
+> 门票多少钱？ | Ménpiào duōshao qián? | Vé vào cửa bao nhiêu tiền?
+> 小孩儿的门票很便宜。 | Xiǎoháir de ménpiào hěn piányi. | Vé vào cửa của trẻ em rất rẻ.
+
+@路 | lộ
+- 名 | đường
+> 这条路车很多。 | Zhè tiáo lù chē hěn duō. | Con đường này nhiều xe.
+> 我不认识路，你能送我去吗？ | Wǒ bú rènshi lù, nǐ néng sòng wǒ qù ma? | Tôi không biết đường, bạn đưa tôi đi được không?
+* 不认识路 = không biết đường. 走路 = đi bộ (bài 9), 路上 = trên đường (bài 11).
+
+@鸟 | điểu
+- 名 | chim
+> 我家有一只鸟。 | Wǒ jiā yǒu yì zhī niǎo. | Nhà tôi có một con chim.
+> 你听，鸟在唱歌。 | Nǐ tīng, niǎo zài chàng gē. | Bạn nghe kìa, chim đang hót.
+* Lượng từ: 只 (zhī).
+
+@高中 | cao trung
+- 名 | trung học phổ thông (cấp 3)
+> 我妹妹在上高中。 | Wǒ mèimei zài shàng gāozhōng. | Em gái tôi đang học cấp ba.
+> 我们是高中同学。 | Wǒmen shì gāozhōng tóngxué. | Chúng tôi là bạn học cấp ba.
+* 小学 = tiểu học, 中学 = trung học, 高中 = cấp 3, 大学 = đại học.
+
+@姓名 | tính danh
+- 名 | họ tên
+> 请写上你的姓名。 | Qǐng xiě shang nǐ de xìngmíng. | Hãy viết họ tên của bạn.
+> 本子上有他的姓名。 | Běnzi shang yǒu tā de xìngmíng. | Trên vở có họ tên của cậu ấy.
+* Trang trọng hơn 名字; hay gặp trên giấy tờ, phiếu điền.

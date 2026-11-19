@@ -1,0 +1,72 @@
+# ===== NGUỒN SOẠN THẢO HSK 2 – BÀI 13 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–2.
+
+# 13 | Lớp học tiếng Trung
+
+@班 | ban
+- 名 | lớp (học)
+> 我们班有二十个学生。 | Wǒmen bān yǒu èrshí ge xuésheng. | Lớp chúng tôi có hai mươi học sinh.
+> 他是我们班的新同学。 | Tā shì wǒmen bān de xīn tóngxué. | Bạn ấy là học sinh mới của lớp chúng tôi.
+* 上班 (đi làm) cũng có chữ 班, nhưng ở đó 班 là “ca làm việc”.
+
+@教 | giáo
+- 动 | dạy
+> 她教我们汉语。 | Tā jiāo wǒmen Hànyǔ. | Cô ấy dạy chúng tôi tiếng Hán.
+> 你能教我游泳吗？ | Nǐ néng jiāo wǒ yóuyǒng ma? | Bạn dạy tôi bơi được không?
+* 教 + người + môn / việc. Động từ đọc jiāo; trong 教室 đọc jiào (bài 2).
+
+@告诉 | cáo tố
+- 动 | nói cho biết, bảo
+> 请告诉我你的电话。 | Qǐng gàosu wǒ nǐ de diànhuà. | Hãy cho tôi biết số điện thoại của bạn.
+> 这件事情别告诉妈妈。 | Zhè jiàn shìqing bié gàosu māma. | Chuyện này đừng nói với mẹ.
+* 告诉 + người + việc. Khác 说: không nói 说我; phải nói 告诉我 hoặc 跟我说.
+
+@花1 | hoa
+- 动 | tiêu (tiền), tốn (thời gian)
+> 这个月我花了很多钱。 | Zhège yuè wǒ huā le hěn duō qián. | Tháng này tôi tiêu nhiều tiền.
+> 每天我花一个小时学汉语。 | Měi tiān wǒ huā yí ge xiǎoshí xué Hànyǔ. | Mỗi ngày tôi dành một tiếng học tiếng Hán.
+* 花钱 = tiêu tiền, 花时间 = tốn thời gian. 花 (danh từ) = hoa (bài 8).
+
+@可能 | khả năng
+- 动 | có lẽ, có thể (phỏng đoán)
+> 他今天可能不来了。 | Tā jīntiān kěnéng bù lái le. | Hôm nay có lẽ anh ấy không đến.
+> 明天可能会下雨。 | Míngtiān kěnéng huì xià yǔ. | Ngày mai có thể sẽ mưa.
+- 形 | có thể (xảy ra)
+> 这不可能！ | Zhè bù kěnéng! | Không thể nào!
+* 可能 dùng để đoán. Còn “có thể” theo nghĩa có khả năng / được phép làm thì dùng 能, 可以.
+
+@希望 | hy vọng
+- 动 | hy vọng, mong
+> 我希望明天是晴天。 | Wǒ xīwàng míngtiān shì qíngtiān. | Tôi mong mai trời nắng.
+> 希望你们都能考好！ | Xīwàng nǐmen dōu néng kǎo hǎo! | Mong các bạn đều thi tốt!
+* 希望 + cả một câu = mong rằng….
+
+@上网 | thượng võng
+- 动 | lên mạng
+> 我每天晚上上网。 | Wǒ měi tiān wǎnshang shàngwǎng. | Tối nào tôi cũng lên mạng.
+> 这里能上网吗？ | Zhèlǐ néng shàngwǎng ma? | Ở đây có lên mạng được không?
+* 上网 + làm gì: 上网买东西. 网上 = trên mạng (bài 2).
+
+@洗手间 | tẩy thủ gian
+- 名 | nhà vệ sinh
+> 请问，洗手间在哪儿？ | Qǐngwèn, xǐshǒujiān zài nǎr? | Xin hỏi, nhà vệ sinh ở đâu?
+> 洗手间在二楼。 | Xǐshǒujiān zài èr lóu. | Nhà vệ sinh ở tầng hai.
+* Cách nói lịch sự (nghĩa đen: phòng rửa tay).
+
+@里面 | lý diện
+- 名 | bên trong
+> 教室里面有很多人。 | Jiàoshì lǐmiàn yǒu hěn duō rén. | Trong lớp có rất nhiều người.
+> 书包里面有什么？ | Shūbāo lǐmiàn yǒu shénme? | Trong cặp có gì?
+* Giống 里边. Trái nghĩa: 外面 (bài 12).
+
+@上面 | thượng diện
+- 名 | phía trên, bên trên
+> 你的书在桌子上面。 | Nǐ de shū zài zhuōzi shàngmiàn. | Sách của bạn ở trên bàn.
+> 上面写着什么？ | Shàngmiàn xiě zhe shénme? | Trên đó viết gì vậy?
+* Giống 上边. Trái nghĩa: 下面 (bài 5).
+
+@那样 | na dạng
+- 代 | như thế, như vậy
+> 你别那样说。 | Nǐ bié nàyàng shuō. | Bạn đừng nói như thế.
+> 我也想买一个那样的书包。 | Wǒ yě xiǎng mǎi yí ge nàyàng de shūbāo. | Tôi cũng muốn mua một cái cặp như thế.
+* Chỉ cái ở xa hoặc đã nói đến; gần người nói thì dùng 这样 (bài 9).

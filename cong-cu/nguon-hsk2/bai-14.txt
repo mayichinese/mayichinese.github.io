@@ -1,0 +1,84 @@
+# ===== NGUỒN SOẠN THẢO HSK 2 – BÀI 14 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–2.
+# 出, 出来, 起来: sách không dạy riêng, xếp vào bài này (bài sách có bổ ngữ xu hướng kép).
+
+# 14 | Năm mới
+
+@过年 | quá niên
+- 动 | ăn Tết, đón năm mới
+> 你们过年去哪儿？ | Nǐmen guònián qù nǎr? | Tết các bạn đi đâu?
+> 过年的时候，我们一家人在一起吃饭。 | Guònián de shíhou, wǒmen yì jiā rén zài yìqǐ chī fàn. | Dịp Tết cả nhà tôi quây quần ăn cơm.
+* 过年 thường chỉ Tết Âm lịch.
+
+@包 | bao
+- 动 | gói
+> 妈妈在包包子。 | Māma zài bāo bāozi. | Mẹ đang gói bánh bao.
+- 名 | túi, bao
+> 你的包真好看！ | Nǐ de bāo zhēn hǎokàn! | Túi của bạn đẹp thật!
+- 量 | gói, bao
+> 我买了一包茶。 | Wǒ mǎi le yì bāo chá. | Tôi mua một gói trà.
+* 书包 = cặp sách (bài 4), 包子 = bánh bao (cấp 1).
+
+@没意思 | một ý tư
+- cụm | chán, không thú vị
+> 一个人看电影真没意思。 | Yí ge rén kàn diànyǐng zhēn méi yìsi. | Đi xem phim một mình chán thật.
+> 这本书没意思，我不想看了。 | Zhè běn shū méi yìsi, wǒ bù xiǎng kàn le. | Cuốn sách này chán, tôi không muốn đọc nữa.
+* Trái nghĩa: 有意思 (bài 8).
+
+@女孩儿 | nữ hài nhi
+- 名 | cô bé, con gái
+> 那个女孩儿是谁？ | Nàge nǚháir shì shéi? | Cô bé kia là ai?
+> 她有两个孩子，一个男孩儿，一个女孩儿。 | Tā yǒu liǎng ge háizi, yí ge nánháir, yí ge nǚháir. | Chị ấy có hai con, một trai một gái.
+
+@小孩儿 | tiểu hài nhi
+- 名 | trẻ con, trẻ em, em bé
+> 这个小孩儿真可爱。 | Zhège xiǎoháir zhēn kě'ài. | Đứa bé này đáng yêu thật.
+> 小孩儿不能一个人在家。 | Xiǎoháir bù néng yí ge rén zài jiā. | Trẻ con không được ở nhà một mình.
+
+@前面 | tiền diện
+- 名 | phía trước, đằng trước
+> 前面就是地铁站。 | Qiánmiàn jiù shì dìtiě zhàn. | Phía trước là ga tàu điện ngầm.
+> 坐在前面的是我的老师。 | Zuò zài qiánmiàn de shì wǒ de lǎoshī. | Người ngồi phía trước là thầy giáo tôi.
+* Giống 前边. Trái nghĩa: 后面 (bài 10).
+
+@跳舞 | khiêu vũ
+- 动 | nhảy, khiêu vũ
+> 她很喜欢跳舞。 | Tā hěn xǐhuan tiàowǔ. | Cô ấy rất thích nhảy.
+> 晚上我们一起去跳舞吧。 | Wǎnshang wǒmen yìqǐ qù tiàowǔ ba. | Tối nay chúng mình cùng đi nhảy nhé.
+
+@位 | vị
+- 量 | vị, người (lượng từ lịch sự cho người)
+> 这位是我们的新老师。 | Zhè wèi shì wǒmen de xīn lǎoshī. | Vị này là thầy giáo mới của chúng ta.
+> 请问，您几位？ | Qǐngwèn, nín jǐ wèi? | Xin hỏi, quý khách đi mấy người?
+* Lịch sự hơn 个: 一位老师. Không dùng 位 khi nói về chính mình.
+
+@姓 | tính
+- 动 | họ (là)
+> 你姓什么？ | Nǐ xìng shénme? | Bạn họ gì?
+> 我姓白。 | Wǒ xìng Bái. | Tôi họ Bạch.
+- 名 | họ
+> 中国人的姓在名字前面。 | Zhōngguórén de xìng zài míngzi qiánmiàn. | Họ của người Trung Quốc đứng trước tên.
+* Hỏi lịch sự: 您贵姓？ (Quý danh của ông / bà là gì?). Trả lời: 我姓….
+
+@眼睛 | nhãn tình
+- 名 | mắt
+> 她的眼睛很大，很漂亮。 | Tā de yǎnjing hěn dà, hěn piàoliang. | Mắt cô ấy to và rất đẹp.
+> 我眼睛有点儿疼。 | Wǒ yǎnjing yǒudiǎnr téng. | Mắt tôi hơi đau.
+
+@出 | xuất
+- 动 | ra, đi ra
+> 他出了门就往左走了。 | Tā chū le mén jiù wǎng zuǒ zǒu le. | Anh ấy ra khỏi cửa là rẽ trái luôn.
+> 出了地铁站，就能看见酒店。 | Chū le dìtiě zhàn, jiù néng kànjiàn jiǔdiàn. | Ra khỏi ga tàu điện ngầm là thấy khách sạn.
+* 出 + nơi chốn = ra khỏi đâu. 出来 / 出去 = đi ra (về phía / rời xa người nói).
+
+@出来 | xuất lai
+- 动 | đi ra (đây, về phía người nói)
+> 你快出来，我在门口等你。 | Nǐ kuài chūlái, wǒ zài ménkǒu děng nǐ. | Bạn mau ra đi, tôi đợi ở cửa.
+> 他从教室里出来了。 | Tā cóng jiàoshì li chūlái le. | Anh ấy từ trong lớp đi ra.
+* Đứng sau động từ khác: 拿出来 (lấy ra), 走出来 (đi ra).
+
+@起来 | khởi lai
+- 动 | dậy, đứng dậy
+> 快起来，已经八点了！ | Kuài qǐlái, yǐjīng bā diǎn le! | Mau dậy đi, tám giờ rồi!
+> 他从椅子上起来了。 | Tā cóng yǐzi shang qǐlái le. | Anh ấy đứng dậy khỏi ghế.
+* Đứng sau động từ khác: 站起来 (đứng lên), 笑起来 (bật cười).

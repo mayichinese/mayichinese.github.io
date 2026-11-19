@@ -51,7 +51,12 @@ function cacNghia(tu) {
   }
   return ds;
 }
-const trungNghia = (a, b) => { const na = cacNghia(a); return [...cacNghia(b)].some((x) => na.has(x)); };
+/** Hai nghĩa coi là trùng khi giống hệt, hoặc nghĩa này nằm trọn (nguyên từ) trong nghĩa kia: "bơi" ⊂ "bơi lội" */
+const nghiaChua = (x, y) => x === y || ` ${y} `.includes(` ${x} `) || ` ${x} `.includes(` ${y} `);
+const trungNghia = (a, b) => {
+  const na = [...cacNghia(a)];
+  return [...cacNghia(b)].some((x) => na.some((y) => nghiaChua(x, y)));
+};
 const pinyinChuan = (tu) => tu.pinyin.replace(/\s/g, '').toLowerCase().normalize('NFC');
 /** Bỏ dấu thanh để so "cùng âm" (dùng cho đáp án nhiễu bài nghe) */
 const pinyinKhongDau = (tu) => pinyinChuan(tu).normalize('NFD').replace(/[̀-ͯ]/g, '');

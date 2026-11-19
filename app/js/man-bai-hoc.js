@@ -39,7 +39,7 @@ export function veDanhSachBai(khung) {
     : `<button class="chip" disabled title="Sắp có">HSK ${c} <span class="emoji">🔒</span></button>`)).join('');
 
   const chipCheDo = cap > 1
-    ? `<p class="chu-phu nho" style="margin:6px 2px 0">HSK ${cap} chia theo thứ tự bài của sách 《新HSK教程 ${cap}》. Bài nào chưa soạn xong sẽ hiện “Đang soạn”.</p>`
+    ? `<p class="chu-phu nho" style="margin:6px 2px 0">HSK ${cap} chia theo thứ tự bài của sách 《新HSK教程 ${cap}》. ${danhSachBai(cheDo, cap).some((b) => b.tu.length < b.soTu) ? ' Bài nào chưa soạn xong sẽ hiện “Đang soạn”.' : ''}</p>`
     : coTheoSach() ? `
     <div class="nhom-chon chon-che-do-bai" id="chon-che-do">
       <button data-che-do="chu-de" class="${cheDo === 'chu-de' ? 'dang-chon' : ''}">🗂️ Chủ đề · 20 bài</button>
