@@ -546,6 +546,586 @@
    ],
    "canKiemTra": [],
    "hocSauBai": 14
+  },
+  {
+   "id": "tro-tu-de",
+   "ten": "Trợ từ 的 – \"của\", nối phần bổ nghĩa với danh từ",
+   "deCuong": "助词 · 结构助词“的1” · 句子成分：定语",
+   "congThuc": [
+    "Định ngữ + 的 + danh từ",
+    "我的书 (sách của tôi) · 很漂亮的衣服 (bộ quần áo rất đẹp)"
+   ],
+   "giaiThich": [
+    "Phần bổ nghĩa (định ngữ) luôn đứng TRƯỚC danh từ và nối bằng 的: 我的书 = sách của tôi.",
+    "Định ngữ có thể là đại từ, danh từ hoặc cụm \"很 + tính từ\": 老师的手机, 很漂亮的衣服.",
+    "Thường bỏ 的 khi nói về người thân hoặc nơi mình thuộc về (我妈妈, 我们学校), và khi tính từ chỉ có một âm tiết (好朋友, 新衣服)."
+   ],
+   "loiHayMac": [
+    "Trật tự ngược tiếng Việt: \"sách của tôi\" là 我的书, không phải 书的我.",
+    "Cụm \"很 + tính từ\" đứng trước danh từ phải có 的: 很漂亮的衣服, không nói 很漂亮衣服."
+   ],
+   "viDu": [
+    {
+     "han": "这是我的书。",
+     "manh": [
+      "这",
+      "是",
+      "我",
+      "的",
+      "书"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zhè shì wǒ de shū.",
+     "dich": "Đây là sách của tôi."
+    },
+    {
+     "han": "那是老师的手机。",
+     "manh": [
+      "那",
+      "是",
+      "老师",
+      "的",
+      "手机"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Nà shì lǎoshī de shǒujī.",
+     "dich": "Kia là điện thoại của thầy giáo."
+    },
+    {
+     "han": "他是我的好朋友。",
+     "manh": [
+      "他",
+      "是",
+      "我",
+      "的",
+      "好朋友"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā shì wǒ de hǎo péngyou.",
+     "dich": "Anh ấy là bạn thân của tôi."
+    },
+    {
+     "han": "我妈妈是老师。",
+     "manh": [
+      "我",
+      "妈妈",
+      "是",
+      "老师"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ māma shì lǎoshī.",
+     "dich": "Mẹ tôi là giáo viên."
+    },
+    {
+     "han": "这是很漂亮的衣服。",
+     "manh": [
+      "这",
+      "是",
+      "很",
+      "漂亮",
+      "的",
+      "衣服"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zhè shì hěn piàoliang de yīfu.",
+     "dich": "Đây là bộ quần áo rất đẹp."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "这是我___书。",
+     "dapAn": "的",
+     "nhieu": [
+      "是",
+      "吗",
+      "很"
+     ],
+     "pinyin": "Zhè shì wǒ de shū.",
+     "dich": "Đây là sách của tôi."
+    },
+    {
+     "cau": "那是___的电脑？",
+     "dapAn": "谁",
+     "nhieu": [
+      "吗",
+      "很",
+      "不"
+     ],
+     "pinyin": "Nà shì shéi de diànnǎo?",
+     "dich": "Kia là máy tính của ai?"
+    },
+    {
+     "cau": "这是很漂亮___衣服。",
+     "dapAn": "的",
+     "nhieu": [
+      "是",
+      "吗",
+      "很"
+     ],
+     "pinyin": "Zhè shì hěn piàoliang de yīfu.",
+     "dich": "Đây là bộ quần áo rất đẹp."
+    }
+   ],
+   "canKiemTra": [],
+   "hocSauBai": 18
+  },
+  {
+   "id": "cau-co-you",
+   "ten": "Câu chữ 有 – \"có\"",
+   "deCuong": "特殊句型 · “有”字句1（表示领有）· 否定副词“没（有）”",
+   "congThuc": [
+    "A + 有 + B",
+    "A + 没有 + B  (phủ định)"
+   ],
+   "giaiThich": [
+    "有 nghĩa là \"có\" (sở hữu): 我有一个哥哥 – tôi có một anh trai.",
+    "Phủ định của 有 LUÔN là 没有 (nói ngắn: 没), không bao giờ là 不有.",
+    "Hỏi: 你有……吗？ hoặc 你有没有……？"
+   ],
+   "loiHayMac": [
+    "Không nói 我不有钱 – phải nói 我没有钱.",
+    "\"Có rất nhiều\" nói là 有很多: 她有很多朋友 (cô ấy có rất nhiều bạn)."
+   ],
+   "viDu": [
+    {
+     "han": "我有一个哥哥。",
+     "manh": [
+      "我",
+      "有",
+      "一个",
+      "哥哥"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ yǒu yí gè gēge.",
+     "dich": "Tôi có một anh trai."
+    },
+    {
+     "han": "她有很多朋友。",
+     "manh": [
+      "她",
+      "有",
+      "很多",
+      "朋友"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā yǒu hěn duō péngyou.",
+     "dich": "Cô ấy có rất nhiều bạn."
+    },
+    {
+     "han": "我没有手机。",
+     "manh": [
+      "我",
+      "没有",
+      "手机"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ méiyǒu shǒujī.",
+     "dich": "Tôi không có điện thoại."
+    },
+    {
+     "han": "你有中文名字吗？",
+     "manh": [
+      "你",
+      "有",
+      "中文",
+      "名字",
+      "吗"
+     ],
+     "dauCau": "？",
+     "khac": [],
+     "pinyin": "Nǐ yǒu Zhōngwén míngzi ma?",
+     "dich": "Bạn có tên tiếng Trung không?"
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "我___有钱。",
+     "dapAn": "没",
+     "nhieu": [
+      "不",
+      "吗",
+      "的"
+     ],
+     "pinyin": "Wǒ méi yǒu qián.",
+     "dich": "Tôi không có tiền."
+    },
+    {
+     "cau": "他___两个妹妹。",
+     "dapAn": "有",
+     "nhieu": [
+      "是",
+      "很",
+      "在"
+     ],
+     "pinyin": "Tā yǒu liǎng gè mèimei.",
+     "dich": "Anh ấy có hai em gái."
+    },
+    {
+     "cau": "你有___有电脑？",
+     "dapAn": "没",
+     "nhieu": [
+      "不",
+      "很",
+      "吗"
+     ],
+     "pinyin": "Nǐ yǒu méiyǒu diànnǎo?",
+     "dich": "Bạn có máy tính không?"
+    }
+   ],
+   "canKiemTra": [],
+   "hocSauBai": 10
+  },
+  {
+   "id": "cau-ton-tai",
+   "ten": "Câu \"ở đâu có gì\" (câu tồn tại)",
+   "deCuong": "特殊句型 · 存现句1：处所+有+数量短语+名词；处所+是+名词 · 方位名词",
+   "congThuc": [
+    "Nơi chốn + 有 + (số lượng) + danh từ",
+    "Nơi chốn + 是 + danh từ"
+   ],
+   "giaiThich": [
+    "Muốn nói \"ở chỗ nào đó có cái gì\", đặt NƠI CHỐN lên đầu câu, rồi đến 有 và người/vật.",
+    "Nơi chốn thường là danh từ + từ chỉ phương hướng: 桌子上 (trên bàn), 椅子下 (dưới ghế), 房间里 (trong phòng), 学校外边 (bên ngoài trường).",
+    "Dùng 是 khi nói rõ chỗ đó là cái gì (thường chỉ có một thứ): 学校外边是一个商店."
+   ],
+   "loiHayMac": [
+    "Không nói theo kiểu tiếng Việt \"Có một quyển sách ở trên bàn\" (有一本书在桌子上) – nói 桌子上有一本书.",
+    "Danh từ chỉ đồ vật phải thêm 上/下/里… mới thành nơi chốn: 桌子上有……, không nói 桌子有……"
+   ],
+   "viDu": [
+    {
+     "han": "桌子上有一本书。",
+     "manh": [
+      "桌子上",
+      "有",
+      "一本",
+      "书"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zhuōzi shang yǒu yì běn shū.",
+     "dich": "Trên bàn có một quyển sách."
+    },
+    {
+     "han": "房间里有两个人。",
+     "manh": [
+      "房间里",
+      "有",
+      "两个",
+      "人"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Fángjiān li yǒu liǎng gè rén.",
+     "dich": "Trong phòng có hai người."
+    },
+    {
+     "han": "椅子下有一只猫。",
+     "manh": [
+      "椅子下",
+      "有",
+      "一只",
+      "猫"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Yǐzi xia yǒu yì zhī māo.",
+     "dich": "Dưới ghế có một con mèo."
+    },
+    {
+     "han": "学校外边是一个商店。",
+     "manh": [
+      "学校",
+      "外边",
+      "是",
+      "一个",
+      "商店"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Xuéxiào wàibian shì yí gè shāngdiàn.",
+     "dich": "Bên ngoài trường là một cửa hàng."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "桌子上___一个杯子。",
+     "dapAn": "有",
+     "nhieu": [
+      "在",
+      "很",
+      "吗"
+     ],
+     "pinyin": "Zhuōzi shang yǒu yí gè bēizi.",
+     "dich": "Trên bàn có một cái cốc."
+    },
+    {
+     "cau": "房间___有三个人。",
+     "dapAn": "里",
+     "nhieu": [
+      "的",
+      "吗",
+      "很"
+     ],
+     "pinyin": "Fángjiān li yǒu sān gè rén.",
+     "dich": "Trong phòng có ba người."
+    },
+    {
+     "cau": "学校外边___一个商店。",
+     "dapAn": "是",
+     "nhieu": [
+      "在",
+      "很",
+      "吗"
+     ],
+     "pinyin": "Xuéxiào wàibian shì yí gè shāngdiàn.",
+     "dich": "Bên ngoài trường là một cửa hàng."
+    }
+   ],
+   "canKiemTra": [],
+   "hocSauBai": 19
+  },
+  {
+   "id": "luong-tu",
+   "ten": "Số + lượng từ + danh từ",
+   "deCuong": "量词 · 名量词（专用：本、个、家、口、块、件、只、元；借用：杯）· 数量短语",
+   "congThuc": [
+    "Số + lượng từ + danh từ",
+    "这 / 那 / 几 + lượng từ + danh từ"
+   ],
+   "giaiThich": [
+    "Giữa số và danh từ BẮT BUỘC có lượng từ: 一本书 (một quyển sách), 三个人 (ba người).",
+    "Lượng từ hay gặp: 个 (dùng chung, cho người và nhiều vật), 本 (sách), 件 (quần áo), 只 (con vật nhỏ), 家 (cửa hàng, công ty), 口 (số người trong nhà), 块 / 元 (đồng tiền), 杯 (cốc, ly).",
+    "Với 这, 那, 几 cũng cần lượng từ: 这个人, 那本书, 几个学生."
+   ],
+   "loiHayMac": [
+    "Không nói 三人, 一书 – phải có lượng từ: 三个人, 一本书.",
+    "Chưa nhớ lượng từ riêng thì 个 dùng được với rất nhiều danh từ, nhưng sách nên dùng 本, quần áo dùng 件."
+   ],
+   "viDu": [
+    {
+     "han": "我有三本中文书。",
+     "manh": [
+      "我",
+      "有",
+      "三本",
+      "中文",
+      "书"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ yǒu sān běn Zhōngwén shū.",
+     "dich": "Tôi có ba quyển sách tiếng Trung."
+    },
+    {
+     "han": "我家有四口人。",
+     "manh": [
+      "我家",
+      "有",
+      "四口",
+      "人"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ jiā yǒu sì kǒu rén.",
+     "dich": "Nhà tôi có bốn người."
+    },
+    {
+     "han": "这件衣服很漂亮。",
+     "manh": [
+      "这件",
+      "衣服",
+      "很",
+      "漂亮"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zhè jiàn yīfu hěn piàoliang.",
+     "dich": "Bộ quần áo này rất đẹp."
+    },
+    {
+     "han": "那个人是谁？",
+     "manh": [
+      "那个",
+      "人",
+      "是",
+      "谁"
+     ],
+     "dauCau": "？",
+     "khac": [],
+     "pinyin": "Nàge rén shì shéi?",
+     "dich": "Người kia là ai?"
+    },
+    {
+     "han": "我喝一杯茶。",
+     "manh": [
+      "我",
+      "喝",
+      "一杯",
+      "茶"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ hē yì bēi chá.",
+     "dich": "Tôi uống một cốc trà."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "我有一___书。",
+     "dapAn": "本",
+     "nhieu": [
+      "只",
+      "件",
+      "口"
+     ],
+     "pinyin": "Wǒ yǒu yì běn shū.",
+     "dich": "Tôi có một quyển sách."
+    },
+    {
+     "cau": "我家有五___人。",
+     "dapAn": "口",
+     "nhieu": [
+      "本",
+      "只",
+      "件"
+     ],
+     "pinyin": "Wǒ jiā yǒu wǔ kǒu rén.",
+     "dich": "Nhà tôi có năm người."
+    },
+    {
+     "cau": "这___衣服很漂亮。",
+     "dapAn": "件",
+     "nhieu": [
+      "本",
+      "口",
+      "只"
+     ],
+     "pinyin": "Zhè jiàn yīfu hěn piàoliang.",
+     "dich": "Bộ quần áo này rất đẹp."
+    }
+   ],
+   "canKiemTra": [],
+   "hocSauBai": 18
+  },
+  {
+   "id": "hai-er-liang",
+   "ten": "二 và 两 – cùng là \"hai\" nhưng dùng khác nhau",
+   "deCuong": "数词“二/两” · 特殊表达法：序数表达法1（第+数词）",
+   "congThuc": [
+    "两 + lượng từ + danh từ  (hai cái…)",
+    "二: khi đếm số, số thứ tự, số có nhiều chữ số"
+   ],
+   "giaiThich": [
+    "Đếm số, số thứ tự, số có nhiều chữ số dùng 二: 一、二、三… ; 第二 (thứ hai); 十二 (12); 二十 (20).",
+    "Đứng trước lượng từ để nói SỐ LƯỢNG \"hai cái…\" thì dùng 两: 两个人, 两本书, 两杯茶.",
+    "Số thứ tự: 第 + số → 第一 (thứ nhất), 第二 (thứ hai)."
+   ],
+   "loiHayMac": [
+    "Không nói 二个人 – phải nói 两个人.",
+    "Số 12, 20, 22… vẫn dùng 二: 十二个人 (12 người), không nói 十两个人."
+   ],
+   "viDu": [
+    {
+     "han": "我有两个姐姐。",
+     "manh": [
+      "我",
+      "有",
+      "两个",
+      "姐姐"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ yǒu liǎng gè jiějie.",
+     "dich": "Tôi có hai chị gái."
+    },
+    {
+     "han": "桌子上有两杯茶。",
+     "manh": [
+      "桌子上",
+      "有",
+      "两杯",
+      "茶"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Zhuōzi shang yǒu liǎng bēi chá.",
+     "dich": "Trên bàn có hai cốc trà."
+    },
+    {
+     "han": "今天是十二号。",
+     "manh": [
+      "今天",
+      "是",
+      "十二",
+      "号"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Jīntiān shì shí'èr hào.",
+     "dich": "Hôm nay là ngày 12."
+    },
+    {
+     "han": "他是我的第二个老师。",
+     "manh": [
+      "他",
+      "是",
+      "我",
+      "的",
+      "第二个",
+      "老师"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā shì wǒ de dì-èr gè lǎoshī.",
+     "dich": "Thầy ấy là giáo viên thứ hai của tôi."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "我有___个弟弟。",
+     "dapAn": "两",
+     "nhieu": [
+      "二",
+      "第",
+      "的"
+     ],
+     "pinyin": "Wǒ yǒu liǎng gè dìdi.",
+     "dich": "Tôi có hai em trai."
+    },
+    {
+     "cau": "今天是十___号。",
+     "dapAn": "二",
+     "nhieu": [
+      "两",
+      "第",
+      "个"
+     ],
+     "pinyin": "Jīntiān shì shí'èr hào.",
+     "dich": "Hôm nay là ngày 12."
+    },
+    {
+     "cau": "他是我的第___个老师。",
+     "dapAn": "二",
+     "nhieu": [
+      "两",
+      "个",
+      "本"
+     ],
+     "pinyin": "Tā shì wǒ de dì-èr gè lǎoshī.",
+     "dich": "Thầy ấy là giáo viên thứ hai của tôi."
+    }
+   ],
+   "canKiemTra": [],
+   "hocSauBai": 14
   }
  ]
 }

@@ -1,0 +1,95 @@
+# ===== NGỮ PHÁP HSK 1 – ĐỢT 2 (soạn tay) =====
+# Cách viết: xem đầu file cong-cu/ghep-ngu-phap.py. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1.
+# Sửa xong chạy: python -X utf8 cong-cu/ghep-ngu-phap.py
+
+## tro-tu-de
+@ Trợ từ 的 – "của", nối phần bổ nghĩa với danh từ
+§ 助词 · 结构助词“的1” · 句子成分：定语
+= Định ngữ + 的 + danh từ
+= 我的书 (sách của tôi) · 很漂亮的衣服 (bộ quần áo rất đẹp)
+- Phần bổ nghĩa (định ngữ) luôn đứng TRƯỚC danh từ và nối bằng 的: 我的书 = sách của tôi.
+- Định ngữ có thể là đại từ, danh từ hoặc cụm "很 + tính từ": 老师的手机, 很漂亮的衣服.
+- Thường bỏ 的 khi nói về người thân hoặc nơi mình thuộc về (我妈妈, 我们学校), và khi tính từ chỉ có một âm tiết (好朋友, 新衣服).
+! Trật tự ngược tiếng Việt: "sách của tôi" là 我的书, không phải 书的我.
+! Cụm "很 + tính từ" đứng trước danh từ phải có 的: 很漂亮的衣服, không nói 很漂亮衣服.
+> 这/是/我/的/书。 | Zhè shì wǒ de shū. | Đây là sách của tôi.
+> 那/是/老师/的/手机。 | Nà shì lǎoshī de shǒujī. | Kia là điện thoại của thầy giáo.
+> 他/是/我/的/好朋友。 | Tā shì wǒ de hǎo péngyou. | Anh ấy là bạn thân của tôi.
+> 我/妈妈/是/老师。 | Wǒ māma shì lǎoshī. | Mẹ tôi là giáo viên.
+> 这/是/很/漂亮/的/衣服。 | Zhè shì hěn piàoliang de yīfu. | Đây là bộ quần áo rất đẹp.
+? 这是我___书。 | 的 | 是; 吗; 很 | Zhè shì wǒ de shū. | Đây là sách của tôi.
+? 那是___的电脑？ | 谁 | 吗; 很; 不 | Nà shì shéi de diànnǎo? | Kia là máy tính của ai?
+? 这是很漂亮___衣服。 | 的 | 是; 吗; 很 | Zhè shì hěn piàoliang de yīfu. | Đây là bộ quần áo rất đẹp.
+
+## cau-co-you
+@ Câu chữ 有 – "có"
+§ 特殊句型 · “有”字句1（表示领有）· 否定副词“没（有）”
+= A + 有 + B
+= A + 没有 + B  (phủ định)
+- 有 nghĩa là "có" (sở hữu): 我有一个哥哥 – tôi có một anh trai.
+- Phủ định của 有 LUÔN là 没有 (nói ngắn: 没), không bao giờ là 不有.
+- Hỏi: 你有……吗？ hoặc 你有没有……？
+! Không nói 我不有钱 – phải nói 我没有钱.
+! "Có rất nhiều" nói là 有很多: 她有很多朋友 (cô ấy có rất nhiều bạn).
+> 我/有/一个/哥哥。 | Wǒ yǒu yí gè gēge. | Tôi có một anh trai.
+> 她/有/很多/朋友。 | Tā yǒu hěn duō péngyou. | Cô ấy có rất nhiều bạn.
+> 我/没有/手机。 | Wǒ méiyǒu shǒujī. | Tôi không có điện thoại.
+> 你/有/中文/名字/吗？ | Nǐ yǒu Zhōngwén míngzi ma? | Bạn có tên tiếng Trung không?
+? 我___有钱。 | 没 | 不; 吗; 的 | Wǒ méi yǒu qián. | Tôi không có tiền.
+? 他___两个妹妹。 | 有 | 是; 很; 在 | Tā yǒu liǎng gè mèimei. | Anh ấy có hai em gái.
+? 你有___有电脑？ | 没 | 不; 很; 吗 | Nǐ yǒu méiyǒu diànnǎo? | Bạn có máy tính không?
+
+## cau-ton-tai
+@ Câu "ở đâu có gì" (câu tồn tại)
+§ 特殊句型 · 存现句1：处所+有+数量短语+名词；处所+是+名词 · 方位名词
+= Nơi chốn + 有 + (số lượng) + danh từ
+= Nơi chốn + 是 + danh từ
+- Muốn nói "ở chỗ nào đó có cái gì", đặt NƠI CHỐN lên đầu câu, rồi đến 有 và người/vật.
+- Nơi chốn thường là danh từ + từ chỉ phương hướng: 桌子上 (trên bàn), 椅子下 (dưới ghế), 房间里 (trong phòng), 学校外边 (bên ngoài trường).
+- Dùng 是 khi nói rõ chỗ đó là cái gì (thường chỉ có một thứ): 学校外边是一个商店.
+! Không nói theo kiểu tiếng Việt "Có một quyển sách ở trên bàn" (有一本书在桌子上) – nói 桌子上有一本书.
+! Danh từ chỉ đồ vật phải thêm 上/下/里… mới thành nơi chốn: 桌子上有……, không nói 桌子有……
+> 桌子上/有/一本/书。 | Zhuōzi shang yǒu yì běn shū. | Trên bàn có một quyển sách.
+> 房间里/有/两个/人。 | Fángjiān li yǒu liǎng gè rén. | Trong phòng có hai người.
+> 椅子下/有/一只/猫。 | Yǐzi xia yǒu yì zhī māo. | Dưới ghế có một con mèo.
+> 学校/外边/是/一个/商店。 | Xuéxiào wàibian shì yí gè shāngdiàn. | Bên ngoài trường là một cửa hàng.
+? 桌子上___一个杯子。 | 有 | 在; 很; 吗 | Zhuōzi shang yǒu yí gè bēizi. | Trên bàn có một cái cốc.
+? 房间___有三个人。 | 里 | 的; 吗; 很 | Fángjiān li yǒu sān gè rén. | Trong phòng có ba người.
+? 学校外边___一个商店。 | 是 | 在; 很; 吗 | Xuéxiào wàibian shì yí gè shāngdiàn. | Bên ngoài trường là một cửa hàng.
+
+## luong-tu
+@ Số + lượng từ + danh từ
+§ 量词 · 名量词（专用：本、个、家、口、块、件、只、元；借用：杯）· 数量短语
+= Số + lượng từ + danh từ
+= 这 / 那 / 几 + lượng từ + danh từ
+- Giữa số và danh từ BẮT BUỘC có lượng từ: 一本书 (một quyển sách), 三个人 (ba người).
+- Lượng từ hay gặp: 个 (dùng chung, cho người và nhiều vật), 本 (sách), 件 (quần áo), 只 (con vật nhỏ), 家 (cửa hàng, công ty), 口 (số người trong nhà), 块 / 元 (đồng tiền), 杯 (cốc, ly).
+- Với 这, 那, 几 cũng cần lượng từ: 这个人, 那本书, 几个学生.
+! Không nói 三人, 一书 – phải có lượng từ: 三个人, 一本书.
+! Chưa nhớ lượng từ riêng thì 个 dùng được với rất nhiều danh từ, nhưng sách nên dùng 本, quần áo dùng 件.
+> 我/有/三本/中文/书。 | Wǒ yǒu sān běn Zhōngwén shū. | Tôi có ba quyển sách tiếng Trung.
+> 我家/有/四口/人。 | Wǒ jiā yǒu sì kǒu rén. | Nhà tôi có bốn người.
+> 这件/衣服/很/漂亮。 | Zhè jiàn yīfu hěn piàoliang. | Bộ quần áo này rất đẹp.
+> 那个/人/是/谁？ | Nàge rén shì shéi? | Người kia là ai?
+> 我/喝/一杯/茶。 | Wǒ hē yì bēi chá. | Tôi uống một cốc trà.
+? 我有一___书。 | 本 | 只; 件; 口 | Wǒ yǒu yì běn shū. | Tôi có một quyển sách.
+? 我家有五___人。 | 口 | 本; 只; 件 | Wǒ jiā yǒu wǔ kǒu rén. | Nhà tôi có năm người.
+? 这___衣服很漂亮。 | 件 | 本; 口; 只 | Zhè jiàn yīfu hěn piàoliang. | Bộ quần áo này rất đẹp.
+
+## hai-er-liang
+@ 二 và 两 – cùng là "hai" nhưng dùng khác nhau
+§ 数词“二/两” · 特殊表达法：序数表达法1（第+数词）
+= 两 + lượng từ + danh từ  (hai cái…)
+= 二: khi đếm số, số thứ tự, số có nhiều chữ số
+- Đếm số, số thứ tự, số có nhiều chữ số dùng 二: 一、二、三… ; 第二 (thứ hai); 十二 (12); 二十 (20).
+- Đứng trước lượng từ để nói SỐ LƯỢNG "hai cái…" thì dùng 两: 两个人, 两本书, 两杯茶.
+- Số thứ tự: 第 + số → 第一 (thứ nhất), 第二 (thứ hai).
+! Không nói 二个人 – phải nói 两个人.
+! Số 12, 20, 22… vẫn dùng 二: 十二个人 (12 người), không nói 十两个人.
+> 我/有/两个/姐姐。 | Wǒ yǒu liǎng gè jiějie. | Tôi có hai chị gái.
+> 桌子上/有/两杯/茶。 | Zhuōzi shang yǒu liǎng bēi chá. | Trên bàn có hai cốc trà.
+> 今天/是/十二/号。 | Jīntiān shì shí'èr hào. | Hôm nay là ngày 12.
+> 他/是/我/的/第二个/老师。 | Tā shì wǒ de dì-èr gè lǎoshī. | Thầy ấy là giáo viên thứ hai của tôi.
+? 我有___个弟弟。 | 两 | 二; 第; 的 | Wǒ yǒu liǎng gè dìdi. | Tôi có hai em trai.
+? 今天是十___号。 | 二 | 两; 第; 个 | Jīntiān shì shí'èr hào. | Hôm nay là ngày 12.
+? 他是我的第___个老师。 | 二 | 两; 个; 本 | Tā shì wǒ de dì-èr gè lǎoshī. | Thầy ấy là giáo viên thứ hai của tôi.
