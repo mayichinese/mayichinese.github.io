@@ -34,6 +34,8 @@
     `tienDo.nguPhap.the` theo MÃ điểm – không đổi mã của điểm đã có). Dữ liệu `data/ngu-phap-hsk1.json` tạo từ
     `cong-cu/nguon-ngu-phap/cap1-*.txt` bằng `python -X utf8 cong-cu/ghep-ngu-phap.py` (định dạng ghi ở đầu script).
     Đáp án nhiễu bài điền từ chọn tay: phải chắc chắn SAI khi thay vào (tránh 吗/是/很/在… nếu câu vẫn đúng).
+  Ngữ pháp cấp 2: `cong-cu/nguon-ngu-phap/cap2-*.txt` (thêm dòng `& N` = bài HSK 2) → `python -X utf8 cong-cu/ghep-ngu-phap.py 2`
+  → `data/ngu-phap-hsk2.json`. Mã không trùng cấp 1 (tiến độ lưu chung). App gộp hai file, mỗi điểm có `cap`; chữ cho phép cấp 1–2.
   - `data/net-chu-hsk1.json` (tạo bởi `cong-cu/tai-du-lieu-viet.py`) và `data/thanh-dieu-hsk1.json`
     (tạo bởi `cong-cu/tao-du-lieu-thanh-dieu.py`, cần CC-CEDICT) – **file tự động, không sửa tay**.
   - `data/hsk1.json`: dữ liệu HSK 1 (20 bài, 300 từ, 625 câu ví dụ) – **file được tạo tự động, không sửa tay**.

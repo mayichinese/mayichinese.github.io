@@ -1,0 +1,96 @@
+# ===== NGỮ PHÁP HSK 2 – ĐỢT 1 (soạn tay) =====
+# Cách viết: xem đầu file cong-cu/ghep-ngu-phap.py. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–2.
+# Dòng "& N" = điểm này thuộc bài N của HSK 2 (theo thứ tự bài sách 《新HSK教程 2》).
+# Sửa xong chạy: python -X utf8 cong-cu/ghep-ngu-phap.py 2
+
+## ba-phong-doan
+@ 吧 trong câu hỏi: đoán rồi hỏi lại cho chắc
+§ 助词 · 语气助词“吧2”（表示推测）
+& 1
+= Câu trần thuật + 吧？
+- Khi đã đoán gần chắc và muốn người kia xác nhận, đặt 吧 cuối câu: 你是老师吧？ (Anh là giáo viên phải không?).
+- 吗 dùng khi thật sự không biết; 吧 dùng khi đã đoán được, nghĩa như “…phải không?”, “chắc là… nhỉ?”.
+- Ở cấp 1, 吧 dùng để rủ, đề nghị (我们走吧). Ở đây 吧 đứng cuối câu hỏi.
+! Không dùng 吧 cùng với 吗: không nói 你是老师吗吧？
+! Câu có từ để hỏi (什么, 谁, 哪儿…) không thêm 吧 để đoán: không nói 你叫什么名字吧？
+> 你/是/老师/吧？ | Nǐ shì lǎoshī ba? | Anh là giáo viên phải không?
+> 你/累/了/吧？ | Nǐ lèi le ba? | Bạn mệt rồi phải không?
+> 他/今天/不/来/了/吧？ | Tā jīntiān bù lái le ba? | Chắc hôm nay anh ấy không đến nữa nhỉ?
+~ 今天/他/不/来/了/吧？
+> 这/是/你/的/书包/吧？ | Zhè shì nǐ de shūbāo ba? | Đây là cặp của bạn phải không?
+? 你是新来的同学___？ | 吧 | 呢; 了; 的 | Nǐ shì xīn lái de tóngxué ba? | Bạn là học sinh mới đến phải không?
+? 你还没吃饭___？ | 吧 | 很; 的; 太 | Nǐ hái méi chī fàn ba? | Chắc bạn còn chưa ăn cơm nhỉ?
+? 这个手机很贵___？ | 吧 | 也; 都; 很 | Zhège shǒujī hěn guì ba? | Cái điện thoại này đắt lắm phải không?
+
+## shi-de
+@ 是……的: nhấn mạnh lúc nào, ở đâu, bằng cách nào, ai làm
+§ 特殊句型 · “是……的”句1（强调时间、地点、方式、动作者）
+& 1
+= Chủ ngữ + 是 + thời gian / nơi chốn / cách thức + động từ + 的
+= Vật + 是 + người làm + động từ + 的
+- Dùng cho việc ĐÃ xảy ra, khi muốn nhấn mạnh “lúc nào, ở đâu, bằng cách nào, ai làm”: 你是什么时候来的？ (Bạn đến lúc nào?).
+- Phần muốn nhấn mạnh đứng ngay sau 是.
+- Câu khẳng định có thể bỏ 是 (我昨天来的), nhưng câu phủ định phải có 不是: 我不是坐车来的.
+! Không dùng 了 trong câu 是……的: nói 我是昨天来的, không nói 我是昨天来了的.
+! Việc chưa xảy ra không dùng 是……的: không nói 我是明天去的.
+> 你/是/什么时候/来/的？ | Nǐ shì shénme shíhou lái de? | Bạn đến lúc nào?
+> 我/是/去年/来/中国/的。 | Wǒ shì qùnián lái Zhōngguó de. | Tôi đến Trung Quốc từ năm ngoái.
+> 我们/是/坐/飞机/去/的。 | Wǒmen shì zuò fēijī qù de. | Chúng tôi đi bằng máy bay.
+> 这个/菜/是/妈妈/做/的。 | Zhège cài shì māma zuò de. | Món này là mẹ nấu.
+? 你是怎么来___？ | 的 | 了; 吗; 呢 | Nǐ shì zěnme lái de? | Bạn đến bằng cách nào?
+? 我___坐公交车来的。 | 是 | 在; 有; 了 | Wǒ shì zuò gōngjiāochē lái de. | Tôi đi xe buýt đến.
+? 这本书是谁___的？ | 买 | 去; 来; 坐 | Zhè běn shū shì shéi mǎi de? | Cuốn sách này là ai mua?
+
+## kiem-ngu
+@ Câu kiêm ngữ: 请 / 叫 / 让 + người + làm gì
+§ 特殊句型 · 兼语句1：主语+请/叫/让……+宾语1+动词+宾语2
+& 1
+= A + 请 / 叫 / 让 + B + động từ (+ tân ngữ)
+- Người ở giữa (B) vừa là người được A mời / bảo, vừa là người làm việc phía sau: 她请我们吃饭 (Cô ấy mời chúng tôi ăn cơm).
+- 请 = mời, nhờ (lịch sự); 叫 = bảo, gọi (văn nói); 让 = để, cho, bảo.
+- Muốn nói “không cho” thì 不 đứng trước 让: 妈妈不让我出去 (mẹ không cho tôi ra ngoài).
+! Không bỏ người ở giữa: nói 老师让我们读书, không nói 老师让读书.
+! 请 trong câu này là “mời / nhờ ai làm gì”, phải có người ngay sau: 我请你吃饭 (tôi mời bạn ăn cơm).
+> 她/请/我们/吃饭。 | Tā qǐng wǒmen chī fàn. | Cô ấy mời chúng tôi ăn cơm.
+> 老师/叫/你/去/一下。 | Lǎoshī jiào nǐ qù yíxià. | Thầy gọi bạn qua một chút.
+> 妈妈/不/让/我/玩/手机。 | Māma bú ràng wǒ wán shǒujī. | Mẹ không cho tôi chơi điện thoại.
+> 我/想/请/你/帮/个/忙。 | Wǒ xiǎng qǐng nǐ bāng ge máng. | Tôi muốn nhờ bạn giúp một việc.
+? 朋友___我去他家玩儿。 | 请 | 是; 在; 有 | Péngyou qǐng wǒ qù tā jiā wánr. | Bạn mời tôi đến nhà chơi.
+? 妈妈不___我一个人出门。 | 让 | 是; 在; 有 | Māma bú ràng wǒ yí ge rén chūmén. | Mẹ không cho tôi ra ngoài một mình.
+? 他请我们___中国菜。 | 吃 | 喝; 坐; 开 | Tā qǐng wǒmen chī Zhōngguó cài. | Anh ấy mời chúng tôi ăn món Trung Quốc.
+
+## gei-gen
+@ 给 / 跟 + người + động từ: “cho ai”, “với ai”
+§ 介词 · 引出对象“给、跟1”
+& 1
+= 给 + người + động từ  (làm gì cho ai, gửi tới ai)
+= 跟 + người + động từ  (làm gì với ai, cùng ai)
+- 给 chỉ người nhận, đứng trước động từ: 给妈妈打电话 (gọi điện cho mẹ), 给朋友买花 (mua hoa cho bạn).
+- 跟 chỉ người cùng làm hoặc người nghe: 跟朋友一起去 (đi cùng bạn), 跟老师说 (nói với thầy).
+- Cụm 给 / 跟 + người đứng TRƯỚC động từ, khác với tiếng Việt (“nói với thầy” → 跟老师说).
+! 说 không có người ngay sau: không nói 说老师; phải nói 跟老师说 hoặc 告诉老师.
+! “Nói chuyện với ai” là 跟……说话, không nói 说话跟…….
+> 我/每天/给/妈妈/打/电话。 | Wǒ měi tiān gěi māma dǎ diànhuà. | Ngày nào tôi cũng gọi điện cho mẹ.
+> 我/给/你/买/了/一杯/咖啡。 | Wǒ gěi nǐ mǎi le yì bēi kāfēi. | Tôi mua cho bạn một cốc cà phê rồi.
+> 你/跟/老师/说/了/吗？ | Nǐ gēn lǎoshī shuō le ma? | Bạn đã nói với thầy chưa?
+> 我/跟/朋友/一起/去/旅游。 | Wǒ gēn péngyou yìqǐ qù lǚyóu. | Tôi đi du lịch cùng bạn bè.
+? 晚上我___你打电话。 | 给 | 在; 是; 有 | Wǎnshang wǒ gěi nǐ dǎ diànhuà. | Tối tôi gọi điện cho bạn.
+? 这件事你___妈妈说了吗？ | 跟 | 是; 在; 也 | Zhè jiàn shì nǐ gēn māma shuō le ma? | Chuyện này bạn đã nói với mẹ chưa?
+? 我想___他一起去看电影。 | 跟 | 给; 是; 在 | Wǒ xiǎng gēn tā yìqǐ qù kàn diànyǐng. | Tôi muốn đi xem phim cùng anh ấy.
+
+## hai-shi-ba
+@ 还是……吧: “… thì hơn”
+§ 固定格式 · 还是……吧
+& 2
+= (Chủ ngữ +) 还是 + động từ / cụm động từ + 吧
+- Sau khi cân nhắc, người nói chọn cách tốt hơn và khuyên: 太远了，我们还是打车去吧 (Xa quá, mình đi taxi thì hơn).
+- Phía trước thường có một câu nêu lý do.
+- Khác 还是 trong câu hỏi lựa chọn “A hay B” (你喝茶还是喝咖啡？) – học ở bài 10.
+! Đây là lời khuyên, không phải câu hỏi: cuối câu dùng 吧 và dấu chấm, không dùng 吗.
+> 下雨了，/我们/还是/在家/吧。 | Xià yǔ le, wǒmen háishi zài jiā ba. | Mưa rồi, chúng mình ở nhà thì hơn.
+> 太/晚/了，/你/还是/明天/去/吧。 | Tài wǎn le, nǐ háishi míngtiān qù ba. | Muộn quá rồi, mai bạn hãy đi thì hơn.
+> 这个/太/贵/了，/我们/还是/买/那个/吧。 | Zhège tài guì le, wǒmen háishi mǎi nàge ba. | Cái này đắt quá, mình mua cái kia thì hơn.
+> 你/不/舒服，/还是/休息/一下/吧。 | Nǐ bù shūfu, háishi xiūxi yíxià ba. | Bạn không khỏe, nghỉ một chút thì hơn.
+? 太远了，我们___坐地铁吧。 | 还是 | 但是; 所以; 因为 | Tài yuǎn le, wǒmen háishi zuò dìtiě ba. | Xa quá, chúng mình đi tàu điện ngầm thì hơn.
+? 外面很冷，你还是穿这件衣服___。 | 吧 | 吗; 呢; 的 | Wàimiàn hěn lěng, nǐ háishi chuān zhè jiàn yīfu ba. | Ngoài trời lạnh, bạn mặc bộ này thì hơn.
+? 这家饭馆人太多了，我们___去别的饭馆吧。 | 还是 | 但是; 虽然; 因为 | Zhè jiā fànguǎn rén tài duō le, wǒmen háishi qù bié de fànguǎn ba. | Quán này đông quá, chúng mình đi quán khác thì hơn.

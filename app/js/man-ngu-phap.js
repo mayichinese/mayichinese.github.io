@@ -1,10 +1,12 @@
 // =========================================================
 // NGỮ PHÁP (Giai đoạn 4)
-//   #/ngu-phap              danh sách điểm ngữ pháp HSK 1 (theo thứ tự nên học)
+//   #/ngu-phap              danh sách điểm ngữ pháp HSK 1, HSK 2 (theo thứ tự nên học)
 //   #/ngu-phap/<mã>         bài học: công thức, giải thích, lỗi hay mắc, ví dụ
 //   #/ngu-phap/<mã>/luyen   luyện tập một điểm (sắp xếp câu + điền từ)
 //   #/ngu-phap/on           ôn các điểm đến hạn
-// Dữ liệu: data/ngu-phap-hsk1.json (tạo bởi cong-cu/ghep-ngu-phap.py từ cong-cu/nguon-ngu-phap/).
+// Dữ liệu: data/ngu-phap-hsk1.json, data/ngu-phap-hsk2.json (tạo bởi cong-cu/ghep-ngu-phap.py [cấp]
+// từ cong-cu/nguon-ngu-phap/). Mỗi điểm có thêm trường cap; điểm cấp 2 có d.bai = bài HSK 2.
+// Mã điểm không trùng giữa các cấp nên tiến độ vẫn lưu chung ở tienDo.nguPhap.the.
 // Tự chấm sau mỗi lượt và xếp lịch ôn SM-2 (lich-on.js), lưu ở tienDo.nguPhap.the:
 //   điểm MỚI : ≥ 80% đúng → Dễ (ôn sau 4 ngày) · dưới 80% → Khó (luyện lại sớm)
 //   điểm ÔN  : ≥ 80% → Nhớ · 50–80% → Khó · dưới 50% → Quên
@@ -13,6 +15,12 @@
 import { layTienDo, luu, nhatKyHomNay, caiDat } from './luu-tru.js';
 import { tinhLichMoi, moTaKhoangCach, loaiThe, dangHoc, DANH_GIA } from './lich-on.js';
 import { tatCaTu, baiSachCuaNguPhap } from './du-lieu.js';
+
+// Các file ngữ pháp theo cấp. tuyChon: thiếu file thì bỏ qua (cấp đang soạn).
+const CAC_FILE_NP = [
+  { cap: 1, duongDan: 'data/ngu-phap-hsk1.json' },
+  { cap: 2, duongDan: 'data/ngu-phap-hsk2.json', tuyChon: true },
+];
 import { doc } from './phat-am.js';
 import { esc, batDongHo, nutLoa, CHU_THICH_CHAM } from './giao-dien.js';
 import { toMauPinyin } from './pinyin.js';
@@ -25,12 +33,17 @@ const MUC_DG = { 1: 'quen', 2: 'kho', 3: 'nho', 4: 'de' };
 let henDuLieu = null;
 export function taiNguPhap() {
   if (!henDuLieu) {
-    henDuLieu = fetch('data/ngu-phap-hsk1.json')
+    henDuLieu = Promise.all(CAC_FILE_NP.map((f) => fetch(f.duongDan)
       .then((r) => {
-        if (!r.ok) throw new Error(`Không tìm thấy data/ngu-phap-hsk1.json (mã lỗi ${r.status}).`);
+        if (!r.ok) {
+          if (f.tuyChon) return { diem: [] };
+          throw new Error(`Không tìm thấy ${f.duongDan} (mã lỗi ${r.status}).`);
+        }
         return r.json();
       })
-      .then((j) => j.diem || [])
+      .catch((e) => { if (f.tuyChon) return { diem: [] }; throw e; })
+      .then((j) => (j.diem || []).map((d) => ({ ...d, cap: f.cap })))))
+      .then((ds) => ds.flat())
       .catch((e) => { henDuLieu = null; throw e; });
   }
   return henDuLieu;
@@ -45,11 +58,16 @@ function tron(mang) {
   return m;
 }
 
-/** Bài từ vựng HSK 1 xa nhất mà người học đã học ít nhất một từ */
-function baiDaHocToi() {
+/** Bài từ vựng xa nhất (của một cấp) mà người học đã học ít nhất một từ */
+function baiDaHocToi(cap = 1) {
   const td = layTienDo();
-  return tatCaTu().reduce((m, t) => (t.cap === 1 && td.the[t.khoa] ? Math.max(m, t.bai) : m), 0);
+  return tatCaTu().reduce((m, t) => (t.cap === cap && td.the[t.khoa] ? Math.max(m, t.bai) : m), 0);
 }
+
+/** Nhãn bài sách của một điểm: HSK 1 theo bảng theo-sach, HSK 2 theo d.bai */
+const nhanSachCuaDiem = (d) => (d.cap > 1
+  ? (d.bai ? `📖 HSK ${d.cap} · Bài ${d.bai}` : '')
+  : (baiSachCuaNguPhap(d.id) ? `📖 Sách: Bài ${baiSachCuaNguPhap(d.id)}` : ''));
 
 /** Các điểm đến hạn ôn (đang học dở hoặc đã đến hạn) */
 export function diemCanOn(diem, bayGio = Date.now()) {
@@ -89,7 +107,7 @@ export async function veNguPhap(khung) {
   const canOn = diemCanOn(diem);
   const daLuyen = diem.filter((d) => ng.the[d.id]).length;
   const tiepTheo = diem.find((d) => !ng.the[d.id]);
-  const toiBai = baiDaHocToi();
+  const cacCap = [...new Set(diem.map((d) => d.cap))];
 
   khung.innerHTML = `
     <div class="hai-o">
@@ -97,7 +115,7 @@ export async function veNguPhap(khung) {
         <span class="o-emoji emoji">🧩</span>
         <span class="so-lon">${daLuyen}<small class="chu-phu" style="font-size:1rem">/${diem.length}</small></span>
         <b>Đã luyện</b>
-        <span class="chu-phu nho">điểm ngữ pháp HSK 1</span>
+        <span class="chu-phu nho">điểm ngữ pháp HSK ${cacCap.join(', ')}</span>
       </div>
       <${canOn.length ? 'a href="#/ngu-phap/on"' : 'div'} class="o-lon khung phan-on">
         <span class="o-emoji emoji">🔁</span>
@@ -111,25 +129,30 @@ export async function veNguPhap(khung) {
         ? `<a class="nut nut-chinh nut-rong" href="#/ngu-phap/on"><span class="emoji">🔁</span> Ôn ngữ pháp (${Math.min(canOn.length, SO_DIEM_MOI_LUOT_ON)} điểm)</a>`
         : tiepTheo ? `<a class="nut nut-chinh nut-rong" href="#/ngu-phap/${tiepTheo.id}"><span class="emoji">📖</span> Học tiếp: ${esc(tiepTheo.ten)}</a>` : ''}
     </p>
-    <h3 class="tieu-de-muc">Các điểm ngữ pháp <small>theo thứ tự nên học</small></h3>
     ${CHU_THICH_CHAM.replace('thuộc chắc (≥ 21 ngày)', 'thuộc chắc')}
+    ${cacCap.map((cap) => {
+      const ds = diem.filter((d) => d.cap === cap);
+      const toiBai = baiDaHocToi(cap);
+      return `
+    <h3 class="tieu-de-muc">Ngữ pháp HSK ${cap} <small>${ds.filter((d) => ng.the[d.id]).length}/${ds.length} · theo thứ tự nên học</small></h3>
     <div class="ds-ngu-phap">
-      ${diem.map((d, i) => `
+      ${ds.map((d, i) => `
         <a class="dong-ngu-phap khung" href="#/ngu-phap/${d.id}">
           <span class="so-diem">${i + 1}</span>
           <span class="giua">
             <b>${esc(d.ten)}</b>
             <span class="cong-thuc-nho han">${esc(d.congThuc[0] || '')}</span>
             <span class="hang-nhan">
-              ${baiSachCuaNguPhap(d.id) ? `<span class="nhan nhan-chinh">📖 Sách: Bài ${baiSachCuaNguPhap(d.id)}</span>` : ''}
-              ${d.hocSauBai > toiBai ? `<span class="nhan">📚 dùng từ đến Bài ${d.hocSauBai}</span>` : ''}
+              ${nhanSachCuaDiem(d) ? `<span class="nhan nhan-chinh">${nhanSachCuaDiem(d)}</span>` : ''}
+              ${d.hocSauBai > toiBai ? `<span class="nhan">📚 dùng từ đến Bài ${d.hocSauBai}${cap > 1 ? ` HSK ${cap}` : ''}</span>` : ''}
             </span>
             ${(d.canKiemTra || []).length ? '<span class="nhan nhan-vang">⚠️ cần kiểm tra</span>' : ''}
           </span>
           <span class="cham ${loaiThe(ng.the[d.id])}"></span>
         </a>`).join('')}
-    </div>
-    <p class="chu-phu nho" style="margin-top:16px">Danh mục theo Đề cương thi HSK 2025 (语法大纲 cấp 1).
+    </div>`;
+    }).join('')}
+    <p class="chu-phu nho" style="margin-top:16px">Danh mục theo Đề cương thi HSK 2025 (语法大纲 cấp ${cacCap.join('–')}).
       Giải thích và ví dụ soạn riêng cho app – có thể còn sai sót.</p>`;
 }
 
@@ -141,9 +164,12 @@ export async function veDiemNguPhap(khung, ma) {
   let diem;
   try { diem = await taiNguPhap(); } catch (e) { khung.innerHTML = `<div class="loi">${esc(e.message)}</div>`; return; }
   if (!khung.isConnected) return;
-  const i = diem.findIndex((d) => d.id === ma);
-  if (i < 0) { khung.innerHTML = '<p class="loi">Không tìm thấy điểm ngữ pháp này.</p>'; return; }
-  const d = diem[i];
+  const d0 = diem.find((x) => x.id === ma);
+  if (!d0) { khung.innerHTML = '<p class="loi">Không tìm thấy điểm ngữ pháp này.</p>'; return; }
+  const cungCap = diem.filter((x) => x.cap === d0.cap);
+  const i = cungCap.indexOf(d0);
+  const d = d0;
+  const j = diem.indexOf(d0);   // vị trí trong cả danh sách (để đi điểm trước / sau)
   const ng = layTienDo().nguPhap;
   if (!ng.daXem[ma]) { ng.daXem[ma] = Date.now(); luu(); }
   const the = ng.the[ma];
@@ -155,8 +181,8 @@ export async function veDiemNguPhap(khung, ma) {
 
   khung.innerHTML = `
     <article class="khung bai-ngu-phap">
-      <div class="goc-the"><span class="nhan nhan-chinh">Điểm ${i + 1}/${diem.length} · HSK 1</span>
-        <span class="chu-phu nho">${baiSachCuaNguPhap(d.id) ? `📖 Sách: Bài ${baiSachCuaNguPhap(d.id)}` : ''}${baiSachCuaNguPhap(d.id) && d.hocSauBai ? ' · ' : ''}${d.hocSauBai ? `từ vựng đến Bài ${d.hocSauBai}` : ''}</span></div>
+      <div class="goc-the"><span class="nhan nhan-chinh">Điểm ${i + 1}/${cungCap.length} · HSK ${d.cap}</span>
+        <span class="chu-phu nho">${nhanSachCuaDiem(d)}${nhanSachCuaDiem(d) && d.hocSauBai ? ' · ' : ''}${d.hocSauBai ? `từ vựng đến Bài ${d.hocSauBai}` : ''}</span></div>
       <h2>${esc(d.ten)}</h2>
       <p class="de-cuong">Đề cương: <span class="han">${esc(d.deCuong)}</span></p>
       <div class="cong-thuc">${d.congThuc.map((c) => `<div class="han">${esc(c)}</div>`).join('')}</div>
@@ -172,8 +198,8 @@ export async function veDiemNguPhap(khung, ma) {
     <p class="chu-phu nho" style="margin:14px 2px">${trangThai}</p>
     <a class="nut nut-chinh nut-rong" href="#/ngu-phap/${d.id}/luyen"><span class="emoji">✏️</span> Luyện tập điểm này (${soBai} câu)</a>
     <div class="hang-nut dieu-huong-diem">
-      ${i > 0 ? `<a class="nut" href="#/ngu-phap/${diem[i - 1].id}">‹ Điểm trước</a>` : '<span></span>'}
-      ${i + 1 < diem.length ? `<a class="nut" href="#/ngu-phap/${diem[i + 1].id}">Điểm sau ›</a>` : '<span></span>'}
+      ${j > 0 ? `<a class="nut" href="#/ngu-phap/${diem[j - 1].id}">‹ Điểm trước</a>` : '<span></span>'}
+      ${j + 1 < diem.length ? `<a class="nut" href="#/ngu-phap/${diem[j + 1].id}">Điểm sau ›</a>` : '<span></span>'}
     </div>`;
 }
 

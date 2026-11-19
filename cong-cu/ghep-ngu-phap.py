@@ -2,16 +2,19 @@
 """
 GHÉP + KIỂM TRA DỮ LIỆU NGỮ PHÁP (Giai đoạn 4)
 
-Đọc các file soạn tay cong-cu/nguon-ngu-phap/cap1-*.txt (theo thứ tự tên file),
-kiểm tra, rồi ghi app/data/ngu-phap-hsk1.json. Báo cáo ghi vào cong-cu/bao-cao-ngu-phap.txt.
+Đọc các file soạn tay cong-cu/nguon-ngu-phap/cap<N>-*.txt (theo thứ tự tên file),
+kiểm tra, rồi ghi app/data/ngu-phap-hsk<N>.json. Báo cáo: cong-cu/bao-cao-ngu-phap.txt (cấp 1),
+cong-cu/bao-cao-ngu-phap-hsk2.txt (cấp 2)…
 
 Cách chạy (tại thư mục dự án):
-    python -X utf8 cong-cu/ghep-ngu-phap.py
+    python -X utf8 cong-cu/ghep-ngu-phap.py        (cấp 1)
+    python -X utf8 cong-cu/ghep-ngu-phap.py 2      (cấp 2)
 
 ĐỊNH DẠNG FILE NGUỒN (mỗi điểm ngữ pháp bắt đầu bằng dòng "## mã"):
     ## la-shi                       mã điểm (chữ thường không dấu, gạch nối) – KHÔNG đổi sau khi đã học
     @ Câu chữ 是                    tên tiếng Việt
     § 特殊句型 · “是”字句1           mục tương ứng trong đề cương 2025 (để đối chiếu)
+    & 3                             (cấp 2 trở lên) điểm này thuộc bài mấy của cấp đó (bài theo sách)
     = A + 是 + B                    công thức (có thể nhiều dòng)
     - Giải thích ...                giải thích (nhiều dòng)
     ! Lỗi hay mắc ...               lỗi người Việt hay mắc (nhiều dòng)
@@ -28,7 +31,8 @@ Cách chạy (tại thư mục dự án):
 KIỂM TRA:
     LỖI      : thiếu tên/công thức/ví dụ, mã trùng, mảnh sắp xếp không khớp, đáp án nằm trong nhiễu,
                câu điền từ không có đúng một chỗ ___, pinyin không khớp chữ Hán (CC-CEDICT).
-    CẢNH BÁO : chữ ngoài cấp 1, sai thanh so với từ điển, 不/一 chưa ghi theo cách đọc đã biến điệu.
+    LỖI      : (cấp 2+) mã trùng với mã của cấp dưới.
+    CẢNH BÁO : chữ ngoài cấp 1…N, sai thanh so với từ điển, 不/一 chưa ghi theo cách đọc đã biến điệu.
 """
 import importlib.util
 import json
@@ -121,9 +125,9 @@ def kiem_tra_bien_dieu(han, py):
 
 
 # ---------- Đọc nguồn ----------
-def doc_nguon():
+def doc_nguon(cap=1):
     cac_diem, loi = [], []
-    files = sorted(THU_MUC_NGUON.glob('cap1-*.txt'))
+    files = sorted(THU_MUC_NGUON.glob(f'cap{cap}-*.txt'))
     if not files:
         loi.append(f'Không có file nguồn nào trong {THU_MUC_NGUON.relative_to(GOC)}')
     for f in files:
@@ -147,6 +151,11 @@ def doc_nguon():
                 diem['ten'] = nd
             elif ky == '§':
                 diem['deCuong'] = nd
+            elif ky == '&':
+                if not nd.isdigit():
+                    loi.append(f'{noi}: dòng "&" phải là số bài')
+                    continue
+                diem['bai'] = int(nd)
             elif ky == '=':
                 diem['congThuc'].append(nd)
             elif ky == '-':
@@ -193,17 +202,28 @@ def doc_nguon():
 
 
 def main():
-    cac_diem, loi = doc_nguon()
+    cap = int(sys.argv[1]) if len(sys.argv) > 1 else 1
+    file_ra = FILE_RA if cap == 1 else GOC / 'app' / 'data' / f'ngu-phap-hsk{cap}.json'
+    file_bao_cao = FILE_BAO_CAO if cap == 1 else GOC / 'cong-cu' / f'bao-cao-ngu-phap-hsk{cap}.txt'
+    cac_diem, loi = doc_nguon(cap)
     canh_bao = []
 
-    hsk1 = json.loads((GOC / 'app' / 'data' / 'hsk1.json').read_text(encoding='utf-8'))
     chinh_thuc = json.loads((GOC / 'app' / 'data' / 'chinh-thuc' / 'chu-han-hsk1-3.json').read_text(encoding='utf-8'))
-    bai_cua_tu = {}
-    chu_cap1 = set(chinh_thuc['nhanBiet']['1'])
-    for bai in hsk1['baiHoc']:
-        for tu in bai['tu']:
-            bai_cua_tu.setdefault(tu['hanzi'], bai['so'])
-            chu_cap1.update(c for c in tu['hanzi'] if LA_CHU_HAN.match(c))
+    # Chữ cho phép: chữ chính thức cấp 1…cap + chữ có trong từ vựng cấp 1…cap
+    chu_cap1 = set().union(*(set(chinh_thuc['nhanBiet'][str(c)]) for c in range(1, cap + 1)))
+    bai_cua_tu = {}   # từ của CẤP NÀY → bài (để biết điểm ngữ pháp dùng từ đến bài mấy)
+    for c in range(1, cap + 1):
+        for bai in json.loads((GOC / 'app' / 'data' / f'hsk{c}.json').read_text(encoding='utf-8'))['baiHoc']:
+            for tu in bai['tu']:
+                if c == cap:
+                    bai_cua_tu.setdefault(tu['hanzi'], bai['so'])
+                chu_cap1.update(x for x in tu['hanzi'] if LA_CHU_HAN.match(x))
+    # Mã của các cấp dưới (tiến độ ngữ pháp lưu chung theo mã nên mã không được trùng)
+    ma_cap_duoi = set()
+    for c in range(1, cap):
+        f = GOC / 'app' / 'data' / f'ngu-phap-hsk{c}.json'
+        if f.exists():
+            ma_cap_duoi |= {d['id'] for d in json.loads(f.read_text(encoding='utf-8'))['diem']}
 
     # Từ điển CC-CEDICT cho mọi chữ trong các câu
     tat_ca_cau = []
@@ -221,6 +241,10 @@ def main():
             loi.append(f'{noi}: mã "{d["id"]}" chỉ được dùng chữ thường không dấu, số và dấu gạch nối')
         if d['id'] in da_co_ma:
             loi.append(f'{noi}: mã "{d["id"]}" bị trùng')
+        if d['id'] in ma_cap_duoi:
+            loi.append(f'{noi}: mã "{d["id"]}" đã dùng ở cấp dưới')
+        if cap > 1 and not d.get('bai'):
+            canh_bao.append(f'{noi}: chưa ghi bài (dòng "& số bài")')
         da_co_ma.add(d['id'])
         for truong, ten in (('ten', 'tên (@)'), ('deCuong', 'mục đề cương (§)')):
             if not d[truong]:
@@ -253,7 +277,7 @@ def main():
     for han, py, noi in tat_ca_cau:
         ngoai = sorted({c for c in han if LA_CHU_HAN.match(c) and c not in chu_cap1})
         if ngoai:
-            canh_bao.append(f'{noi}: dùng chữ ngoài cấp 1: {"、".join(ngoai)}')
+            canh_bao.append(f'{noi}: dùng chữ ngoài cấp 1{f"–{cap}" if cap > 1 else ""}: {"、".join(ngoai)}')
         l, sai_thanh = kt.kiem_tra_cau(han, py, tu_dien, dai)
         if l:
             loi.append(f'{noi}: {han} | {py} → {l}')
@@ -272,12 +296,12 @@ def main():
 
     goi = {
         '_ghiChu': 'File tạo tự động bởi cong-cu/ghep-ngu-phap.py từ cong-cu/nguon-ngu-phap/ – không sửa tay.',
-        'capDo': 1,
-        'nguon': 'Danh mục theo HSK考试大纲 (2025) – 语法大纲 cấp 1; giải thích và ví dụ soạn riêng cho app.',
+        'capDo': cap,
+        'nguon': f'Danh mục theo HSK考试大纲 (2025) – 语法大纲 cấp {cap}; giải thích và ví dụ soạn riêng cho app.',
         'diem': sach(cac_diem),
     }
     if not loi:
-        FILE_RA.write_text(json.dumps(goi, ensure_ascii=False, indent=1), encoding='utf-8')
+        file_ra.write_text(json.dumps(goi, ensure_ascii=False, indent=1), encoding='utf-8')
 
     so_vd = sum(len(d['viDu']) for d in cac_diem)
     so_dt = sum(len(d['dienTu']) for d in cac_diem)
@@ -288,9 +312,9 @@ def main():
     if canh_bao:
         dong += ['===== CẢNH BÁO (nên xem lại) ====='] + ['  - ' + x for x in canh_bao] + ['']
     if not loi:
-        dong.append(f'Đã ghi {FILE_RA.relative_to(GOC)}')
+        dong.append(f'Đã ghi {file_ra.relative_to(GOC)}')
     bao_cao = '\n'.join(dong)
-    FILE_BAO_CAO.write_text(bao_cao + '\n', encoding='utf-8')
+    file_bao_cao.write_text(bao_cao + '\n', encoding='utf-8')
     print(bao_cao)
     sys.exit(1 if loi else 0)
 

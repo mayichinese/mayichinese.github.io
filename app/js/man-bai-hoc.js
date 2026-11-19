@@ -147,10 +147,11 @@ export async function veBai(khung, ma) {
     ${CHU_THICH_CHAM}
     <div class="khung ds-tu">${b.tu.map(dongTu).join('')}</div>`;
 
-  // Bài của sách: liệt kê các điểm ngữ pháp gắn với bài này
-  if (b.sach) {
+  // Bài của sách (HSK 1 theo sách, HSK 2): liệt kê các điểm ngữ pháp gắn với bài này
+  if (b.sach || b.cap > 1) {
     const diem = await taiNguPhap().catch(() => []);
-    const cua = diem.filter((d) => baiSachCuaNguPhap(d.id) === b.so);
+    const cua = diem.filter((d) => (b.cap > 1 ? d.cap === b.cap && d.bai === b.so
+      : d.cap === 1 && baiSachCuaNguPhap(d.id) === b.so));
     const vung = khung.querySelector('#np-cua-bai');
     if (vung && cua.length) {
       vung.innerHTML = `<h3 class="tieu-de-muc">Ngữ pháp của bài <small>gần đúng theo sách</small></h3>
