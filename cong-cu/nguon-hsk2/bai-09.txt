@@ -1,0 +1,93 @@
+# ===== NGUỒN SOẠN THẢO HSK 2 – BÀI 9 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–2.
+
+# 9 | Đồ uống và khoảng cách
+
+@咖啡 | già phê
+- 名 | cà phê
+> 你要咖啡还是茶？ | Nǐ yào kāfēi háishi chá? | Bạn muốn cà phê hay trà?
+> 我每天早上喝一杯咖啡。 | Wǒ měi tiān zǎoshang hē yì bēi kāfēi. | Sáng nào tôi cũng uống một cốc cà phê.
+* Phiên âm từ tiếng nước ngoài (coffee), giống “cà phê” trong tiếng Việt.
+
+@红茶 | hồng trà
+- 名 | trà đen, hồng trà
+> 我想喝一杯红茶。 | Wǒ xiǎng hē yì bēi hóngchá. | Tôi muốn uống một cốc trà đen.
+> 这家店的红茶很好喝。 | Zhè jiā diàn de hóngchá hěn hǎohē. | Trà đen ở quán này rất ngon.
+* Tiếng Việt hay gọi là trà đen hoặc hồng trà (nước trà màu đỏ nâu).
+
+@绿茶 | lục trà
+- 名 | trà xanh
+> 中国人很喜欢喝绿茶。 | Zhōngguórén hěn xǐhuan hē lǜchá. | Người Trung Quốc rất thích uống trà xanh.
+> 你喝绿茶还是红茶？ | Nǐ hē lǜchá háishi hóngchá? | Bạn uống trà xanh hay trà đen?
+
+@高 | cao
+- 形 | cao
+> 这个楼很高。 | Zhège lóu hěn gāo. | Tòa nhà này rất cao.
+> 我哥哥比我高。 | Wǒ gēge bǐ wǒ gāo. | Anh trai tôi cao hơn tôi.
+> 你有多高？ | Nǐ yǒu duō gāo? | Bạn cao bao nhiêu?
+* Hỏi chiều cao: 你有多高？ Trái nghĩa với 高 khi nói đồ vật là 低, nói người là 矮 (cấp cao hơn).
+
+@个子 | cá tử
+- 名 | vóc người, chiều cao (của người)
+> 他个子很高。 | Tā gèzi hěn gāo. | Anh ấy người cao.
+> 我妹妹个子不高，但是跑得很快。 | Wǒ mèimei gèzi bù gāo, dànshì pǎo de hěn kuài. | Em gái tôi người không cao nhưng chạy rất nhanh.
+* Chỉ dùng cho người: 个子高 = người cao.
+
+@近 | cận
+- 形 | gần
+> 我家离学校很近。 | Wǒ jiā lí xuéxiào hěn jìn. | Nhà tôi cách trường rất gần.
+> 这儿离车站近吗？ | Zhèr lí chēzhàn jìn ma? | Chỗ này cách bến xe có gần không?
+* Trái nghĩa: 远 (xa, bài 2).
+
+@离 | ly
+- 动 | cách (khoảng cách)
+> 酒店离机场不远。 | Jiǔdiàn lí jīchǎng bù yuǎn. | Khách sạn cách sân bay không xa.
+> 你家离这儿多远？ | Nǐ jiā lí zhèr duō yuǎn? | Nhà bạn cách đây bao xa?
+* A 离 B + 远 / 近 = A cách B xa / gần. Hỏi: A 离 B 多远？
+
+@门口 | môn khẩu
+- 名 | cửa, cổng, trước cửa
+> 我在学校门口等你。 | Wǒ zài xuéxiào ménkǒu děng nǐ. | Tôi đợi bạn ở cổng trường.
+> 门口有一个人，你去看看是谁。 | Ménkǒu yǒu yí ge rén, nǐ qù kànkan shì shéi. | Ngoài cửa có một người, bạn ra xem là ai.
+
+@旁边 | bàng biên
+- 名 | bên cạnh
+> 商店旁边有一个咖啡店。 | Shāngdiàn pángbiān yǒu yí ge kāfēidiàn. | Bên cạnh cửa hàng có một quán cà phê.
+> 坐在你旁边的人是谁？ | Zuò zài nǐ pángbiān de rén shì shéi? | Người ngồi cạnh bạn là ai?
+
+@走路 | tẩu lộ
+- 动 | đi bộ
+> 我每天走路去上班。 | Wǒ měi tiān zǒulù qù shàngbān. | Ngày nào tôi cũng đi bộ đi làm.
+> 从这儿走路去要二十分钟。 | Cóng zhèr zǒulù qù yào èrshí fēnzhōng. | Từ đây đi bộ mất hai mươi phút.
+
+@男孩儿 | nam hài nhi
+- 名 | cậu bé, con trai
+> 那个男孩儿是我弟弟。 | Nàge nánháir shì wǒ dìdi. | Cậu bé kia là em trai tôi.
+> 我们班有十个男孩儿。 | Wǒmen bān yǒu shí ge nánháir. | Lớp chúng tôi có mười bạn nam.
+* 女孩儿 = cô bé (bài 14), 小孩儿 = trẻ con.
+
+@那么 | na ma
+- 代 | như thế, đến thế
+> 你别走那么快！ | Nǐ bié zǒu nàme kuài! | Bạn đừng đi nhanh thế!
+> 这儿没有你家那么远。 | Zhèr méiyǒu nǐ jiā nàme yuǎn. | Chỗ này không xa bằng nhà bạn.
+- 连 | vậy thì
+> 那么，我们明天见吧。 | Nàme, wǒmen míngtiān jiàn ba. | Vậy thì mai gặp nhé.
+* A 没有 B 那么 + tính từ = A không… bằng B. Gần người nói thì dùng 这么 (bài 3).
+
+@这样 | giá dạng
+- 代 | như thế này, như vậy
+> 这个字要这样写。 | Zhège zì yào zhèyàng xiě. | Chữ này phải viết như thế này.
+> 这样做不好。 | Zhèyàng zuò bù hǎo. | Làm như vậy không tốt.
+* 这样 + động từ = làm theo cách này. 这么 (bài 3) gần nghĩa, hay đi với tính từ hơn.
+
+@坏 | hoại
+- 形 | hỏng, hư; xấu
+> 我的电脑坏了。 | Wǒ de diànnǎo huài le. | Máy tính của tôi hỏng rồi.
+> 他不是坏人。 | Tā bú shì huàirén. | Anh ấy không phải người xấu.
+* Trái nghĩa: 好. 坏了 = hỏng rồi.
+
+@周 | chu
+- 名 | tuần
+> 这周我很忙。 | Zhè zhōu wǒ hěn máng. | Tuần này tôi rất bận.
+> 下周我们去旅游。 | Xià zhōu wǒmen qù lǚyóu. | Tuần sau chúng tôi đi du lịch.
+* 周 = 星期 (tuần): 这周 = 这个星期, 下周 = tuần sau.

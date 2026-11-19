@@ -1,0 +1,94 @@
+# ===== NGUỒN SOẠN THẢO HSK 2 – BÀI 8 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–2.
+
+# 8 | Vợ chồng và kỷ niệm
+
+@妻子 | thê tử
+- 名 | vợ
+> 他妻子是老师。 | Tā qīzi shì lǎoshī. | Vợ anh ấy là giáo viên.
+> 我和妻子都喜欢旅游。 | Wǒ hé qīzi dōu xǐhuan lǚyóu. | Tôi và vợ đều thích du lịch.
+* 妻子 (qīzi) chỉ là “vợ”, không có nghĩa “vợ con”.
+
+@丈夫 | trượng phu
+- 名 | chồng
+> 她丈夫是医生。 | Tā zhàngfu shì yīshēng. | Chồng chị ấy là bác sĩ.
+> 我丈夫很会做饭。 | Wǒ zhàngfu hěn huì zuò fàn. | Chồng tôi nấu ăn rất giỏi.
+* Không phải “đấng trượng phu” (người đàn ông có chí khí): 丈夫 chỉ là “chồng”.
+
+@记得 | ký đắc
+- 动 | nhớ
+> 你还记得我吗？ | Nǐ hái jìde wǒ ma? | Bạn còn nhớ tôi không?
+> 我不记得他的电话了。 | Wǒ bú jìde tā de diànhuà le. | Tôi không nhớ số điện thoại của anh ấy nữa.
+* Trái nghĩa: 忘 / 忘了 (quên, bài 6).
+
+@花2 | hoa
+- 名 | hoa
+> 这些花真漂亮！ | Zhèxiē huā zhēn piàoliang! | Những bông hoa này đẹp thật!
+> 我想送妻子一些花。 | Wǒ xiǎng sòng qīzi yìxiē huā. | Tôi muốn tặng vợ ít hoa.
+* Văn nói hay dùng 花儿. Chữ 花 còn là động từ “tiêu (tiền, thời gian)” – bài 13.
+
+@手表 | thủ biểu
+- 名 | đồng hồ đeo tay
+> 这块手表是我丈夫送我的。 | Zhè kuài shǒubiǎo shì wǒ zhàngfu sòng wǒ de. | Chiếc đồng hồ này là chồng tôi tặng.
+> 我的手表坏了。 | Wǒ de shǒubiǎo huài le. | Đồng hồ của tôi hỏng rồi.
+* Lượng từ: 块 (一块手表).
+
+@饭馆 | phạn quán
+- 名 | quán ăn, nhà hàng
+> 学校旁边有一个小饭馆。 | Xuéxiào pángbiān yǒu yí ge xiǎo fànguǎn. | Cạnh trường có một quán ăn nhỏ.
+> 今天我们去饭馆吃饭吧。 | Jīntiān wǒmen qù fànguǎn chī fàn ba. | Hôm nay chúng mình ra quán ăn đi.
+* 饭馆 thường nhỏ, bình dân hơn 饭店 (cấp 1).
+
+@点2 | điểm
+- 动 | gọi (món ăn, đồ uống)
+> 你们想点什么菜？ | Nǐmen xiǎng diǎn shénme cài? | Các bạn muốn gọi món gì?
+> 我点了一杯咖啡。 | Wǒ diǎn le yì bēi kāfēi. | Tôi đã gọi một cốc cà phê.
+* 点菜 = gọi món. 点 cấp 1 là “giờ”: 八点.
+
+@有意思 | hữu ý tư
+- cụm | thú vị, hay
+> 这本书很有意思。 | Zhè běn shū hěn yǒu yìsi. | Cuốn sách này rất hay.
+> 学汉语很有意思。 | Xué Hànyǔ hěn yǒu yìsi. | Học tiếng Hán rất thú vị.
+* Trái nghĩa: 没意思 (chán, bài 14).
+
+@比 | tỉ
+- 介 | hơn (dùng để so sánh)
+> 我比我妹妹高。 | Wǒ bǐ wǒ mèimei gāo. | Tôi cao hơn em gái tôi.
+> 今天比昨天冷。 | Jīntiān bǐ zuótiān lěng. | Hôm nay lạnh hơn hôm qua.
+- 动 | so, thi (so tài)
+> 我们比一比，看谁跑得快。 | Wǒmen bǐ yi bǐ, kàn shéi pǎo de kuài. | Chúng mình thi xem ai chạy nhanh hơn.
+* A 比 B + tính từ = A … hơn B. Không thêm 很 trước tính từ (không nói 我比他很高).
+
+@但是 | đãn thị
+- 连 | nhưng, nhưng mà
+> 我很想去，但是我没有时间。 | Wǒ hěn xiǎng qù, dànshì wǒ méiyǒu shíjiān. | Tôi rất muốn đi nhưng không có thời gian.
+> 这个饭馆很小，但是菜很好吃。 | Zhège fànguǎn hěn xiǎo, dànshì cài hěn hǎochī. | Quán này nhỏ nhưng món ăn rất ngon.
+* Hay đi cặp 虽然…，但是… (tuy… nhưng…).
+
+@虽然 | tuy nhiên
+- 连 | tuy, mặc dù
+> 虽然下雨了，但是我们还是去了。 | Suīrán xià yǔ le, dànshì wǒmen háishi qù le. | Tuy trời mưa nhưng chúng tôi vẫn đi.
+> 他虽然很忙，但是每天都运动。 | Tā suīrán hěn máng, dànshì měi tiān dōu yùndòng. | Anh ấy tuy bận nhưng ngày nào cũng tập thể dục.
+* Âm Hán Việt là “tuy nhiên” nhưng nghĩa là “tuy, mặc dù”, đi cặp 虽然…但是….
+
+@左 | tả
+- 名 | trái, bên trái
+> 往左走就是商店。 | Wǎng zuǒ zǒu jiù shì shāngdiàn. | Rẽ trái là đến cửa hàng.
+> 我左手有点儿疼。 | Wǒ zuǒ shǒu yǒudiǎnr téng. | Tay trái tôi hơi đau.
+* Hay gặp: 左边, 左手, 往左.
+
+@左边 | tả biên
+- 名 | bên trái
+> 我家左边是一个书店。 | Wǒ jiā zuǒbian shì yí ge shūdiàn. | Bên trái nhà tôi là một hiệu sách.
+> 坐在我左边的是我丈夫。 | Zuò zài wǒ zuǒbian de shì wǒ zhàngfu. | Người ngồi bên trái tôi là chồng tôi.
+
+@右 | hữu
+- 名 | phải, bên phải
+> 到了那个饭馆往右走。 | Dào le nàge fànguǎn wǎng yòu zǒu. | Đến quán ăn đó thì rẽ phải.
+> 请往右看。 | Qǐng wǎng yòu kàn. | Xin hãy nhìn sang phải.
+* Nhớ: 左 trái, 右 phải.
+
+@右边 | hữu biên
+- 名 | bên phải
+> 车站在酒店右边。 | Chēzhàn zài jiǔdiàn yòubian. | Bến xe ở bên phải khách sạn.
+> 右边的那个人是谁？ | Yòubian de nàge rén shì shéi? | Người bên phải kia là ai?

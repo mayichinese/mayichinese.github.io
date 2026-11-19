@@ -1,0 +1,97 @@
+# ===== NGUỒN SOẠN THẢO HSK 2 – BÀI 7 =====
+# Định dạng giống cong-cu/nguon-hsk1/bai-06.txt. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–2.
+
+# 7 | Thể thao
+
+@运动 | vận động
+- 名 | thể thao, sự vận động
+> 你喜欢什么运动？ | Nǐ xǐhuan shénme yùndòng? | Bạn thích môn thể thao nào?
+- 动 | tập thể dục, vận động
+> 每天运动一个小时，身体会很好。 | Měi tiān yùndòng yí ge xiǎoshí, shēntǐ huì hěn hǎo. | Mỗi ngày vận động một tiếng, sức khỏe sẽ rất tốt.
+* Khác “vận động” (kêu gọi, vận động ai làm gì) trong tiếng Việt: 运动 là chơi thể thao, tập luyện.
+
+@爱好 | ái hảo
+- 名 | sở thích
+> 你的爱好是什么？ | Nǐ de àihào shì shénme? | Sở thích của bạn là gì?
+- 动 | thích, ham thích
+> 他从小就爱好运动。 | Tā cóngxiǎo jiù àihào yùndòng. | Từ nhỏ anh ấy đã thích thể thao.
+* Hỏi sở thích: 你有什么爱好？
+
+@球 | cầu
+- 名 | quả bóng; môn bóng
+> 这个球是谁的？ | Zhège qiú shì shéi de? | Quả bóng này của ai?
+> 下课以后我们去打球吧。 | Xiàkè yǐhòu wǒmen qù dǎ qiú ba. | Tan học xong chúng mình đi chơi bóng nhé.
+* 打球 = chơi bóng (dùng tay), 踢球 = đá bóng.
+
+@篮球 | lam cầu
+- 名 | bóng rổ
+> 他每天下午打篮球。 | Tā měi tiān xiàwǔ dǎ lánqiú. | Chiều nào anh ấy cũng chơi bóng rổ.
+> 你会打篮球吗？ | Nǐ huì dǎ lánqiú ma? | Bạn biết chơi bóng rổ không?
+* Bóng rổ dùng động từ 打: 打篮球.
+
+@足球 | túc cầu
+- 名 | bóng đá
+> 我和朋友们在踢足球。 | Wǒ hé péngyoumen zài tī zúqiú. | Tôi và các bạn đang đá bóng.
+> 你喜欢看足球吗？ | Nǐ xǐhuan kàn zúqiú ma? | Bạn có thích xem bóng đá không?
+* Bóng đá dùng động từ 踢 (đá): 踢足球. Không nói 打足球.
+
+@打1 | đả
+- 动 | chơi (bóng, dùng tay); đánh; gọi (điện thoại)
+> 我们去打篮球吧。 | Wǒmen qù dǎ lánqiú ba. | Chúng mình đi chơi bóng rổ đi.
+> 他在打电话。 | Tā zài dǎ diànhuà. | Anh ấy đang gọi điện thoại.
+* 打 có nhiều nghĩa tùy từ đi kèm: 打球, 打电话, 打车 (bài 2), 打开 (bài 6).
+
+@踢 | thích
+- 动 | đá
+> 孩子们在外面踢球。 | Háizimen zài wàimiàn tī qiú. | Bọn trẻ đang đá bóng ngoài kia.
+> 他很喜欢踢足球。 | Tā hěn xǐhuan tī zúqiú. | Anh ấy rất thích đá bóng.
+
+@跑 | bào
+- 动 | chạy
+> 他跑得很快。 | Tā pǎo de hěn kuài. | Anh ấy chạy rất nhanh.
+> 别跑，慢点儿走。 | Bié pǎo, màn diǎnr zǒu. | Đừng chạy, đi chậm thôi.
+* 走 = đi, 跑 = chạy.
+
+@跑步 | bào bộ
+- 动 | chạy bộ
+> 我每天早上去跑步。 | Wǒ měi tiān zǎoshang qù pǎobù. | Sáng nào tôi cũng đi chạy bộ.
+> 跑步以后我很累。 | Pǎobù yǐhòu wǒ hěn lèi. | Chạy bộ xong tôi rất mệt.
+* 跑步 không mang tân ngữ phía sau (muốn nói nơi chạy thì đặt trước: 在学校跑步).
+
+@游 | du
+- 动 | bơi
+> 他游得很快。 | Tā yóu de hěn kuài. | Anh ấy bơi rất nhanh.
+> 我们游过去吧。 | Wǒmen yóu guòqù ba. | Chúng mình bơi qua đó đi.
+* Thường dùng 游泳; 游 đứng một mình khi có từ bổ sung phía sau: 游得快, 游过去.
+
+@游泳 | du vịnh
+- 动 | bơi lội
+> 你会游泳吗？ | Nǐ huì yóuyǒng ma? | Bạn biết bơi không?
+> 天气太热了，我们去游泳吧。 | Tiānqì tài rè le, wǒmen qù yóuyǒng ba. | Trời nóng quá, chúng mình đi bơi đi.
+* 会游泳 = biết bơi.
+
+@从 | tòng
+- 介 | từ (điểm bắt đầu về nơi chốn, thời gian)
+> 我从学校回家。 | Wǒ cóng xuéxiào huí jiā. | Tôi từ trường về nhà.
+> 我从八点工作到五点。 | Wǒ cóng bā diǎn gōngzuò dào wǔ diǎn. | Tôi làm việc từ tám giờ đến năm giờ.
+* 从…到… = từ… đến….
+
+@往 | vãng
+- 介 | về phía, hướng về
+> 往前走，就是车站。 | Wǎng qián zǒu, jiù shì chēzhàn. | Đi thẳng về phía trước là bến xe.
+> 你往左边看。 | Nǐ wǎng zuǒbian kàn. | Bạn nhìn sang bên trái đi.
+* Hay dùng khi chỉ đường: 往前走 (đi thẳng), 往左 / 往右 (sang trái / phải).
+
+@开始 | khai thủy
+- 动 | bắt đầu
+> 我们几点开始上课？ | Wǒmen jǐ diǎn kāishǐ shàngkè? | Mấy giờ chúng ta bắt đầu học?
+> 他从去年开始学汉语。 | Tā cóng qùnián kāishǐ xué Hànyǔ. | Anh ấy bắt đầu học tiếng Hán từ năm ngoái.
+- 名 | lúc đầu
+> 开始的时候，我一个字也不会写。 | Kāishǐ de shíhou, wǒ yí ge zì yě bú huì xiě. | Lúc đầu tôi không viết được chữ nào.
+* 开始 + động từ = bắt đầu làm gì.
+
+@得 | đắc
+- 助 | (trợ từ nối động từ với phần nói về mức độ: “… (một cách) …”)
+> 他篮球打得很好。 | Tā lánqiú dǎ de hěn hǎo. | Anh ấy chơi bóng rổ rất giỏi.
+> 你汉语说得真不错！ | Nǐ Hànyǔ shuō de zhēn búcuò! | Bạn nói tiếng Hán giỏi thật đấy!
+* Động từ + 得 + tính từ: 说得好, 跑得快. Có tân ngữ thì lặp động từ (他打篮球打得很好) hoặc đưa tân ngữ lên trước (他篮球打得很好).
