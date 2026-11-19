@@ -17,6 +17,9 @@ const NET_VE = {
   'phai':      '<path d="m9 6 6 6-6 6"/>',
   'trai':      '<path d="m15 6-6 6 6 6"/>',
   'bat-dau':   '<path d="M7 4v16l13-8z"/>',
+  'ta':        '<path d="M6.5 6.5v11M3.5 9v6M17.5 6.5v11M20.5 9v6M6.5 12h11"/>',
+  'thi':       '<rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V2.5h6V4"/><path d="m9 13 2 2 4-4"/>',
+  'nguoi':     '<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>',
 };
 
 /**

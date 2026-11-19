@@ -1,5 +1,6 @@
 // =========================================================
-// THỐNG KÊ (Giai đoạn 5.1)  – #/thong-ke
+// TÔI (#/toi, địa chỉ cũ #/thong-ke) – hồ sơ + thống kê (Giai đoạn 5.1)
+//   - Đầu trang: số từ đã học + lối vào Cài đặt & sao lưu (Cài đặt không còn nút riêng trên thanh trên cùng)
 //   - Tổng quan: chuỗi ngày hiện tại / dài nhất, số ngày đã học, tổng số giờ
 //   - Theo cấp HSK: từ vựng, chữ viết tay, ngữ pháp
 //   - Biểu đồ số phút học 7 / 30 ngày, chia theo 5 phần của kế hoạch 60 phút
@@ -12,6 +13,7 @@ import { layTienDo, caiDat, chuoiNgayHoc, coHocNgay, ngayHoc } from './luu-tru.j
 import { loaiThe } from './lich-on.js';
 import { tatCaTu, tongTuCap } from './du-lieu.js';
 import { esc, dongTu } from './giao-dien.js';
+import { bieuTuong } from './bieu-tuong.js';
 import { taiNetChu } from './net-chu.js';
 import { taiNguPhap } from './man-ngu-phap.js';
 import { diemThiCaoNhat, thangDiem, diemCuaLan } from './man-thi-thu.js';
@@ -171,8 +173,24 @@ export async function veThongKe(khung) {
       ${thanhNhieuDoan(tk, Math.max(1, tong))}
     </div>`;
 
+  const daHocTatCa = tatCaTu().filter((t) => td.the[t.khoa]).length;
+  const ngaySaoLuu = td.saoLuuLanCuoi ? new Date(td.saoLuuLanCuoi).toLocaleDateString('vi-VN') : 'chưa có';
+
   khung.innerHTML = `
-    <div class="hang-chi-so">
+    <section class="khung ho-so">
+      <img src="icons/icon-192.png" alt="" width="56" height="56">
+      <span class="giua"><b>Hành trình HSK của bạn</b>
+        <span class="chu-phu nho">Đã học ${daHocTatCa}/${tatCaTu().length} từ HSK 1–3 · ${soNgayHoc} ngày học</span></span>
+    </section>
+    <a class="dong-ke-hoach khung phan-on" href="#/cai-dat" style="margin-top:12px">
+      <span class="o-emoji">${bieuTuong('cai-dat')}</span>
+      <span class="giua"><b>Cài đặt & sao lưu</b>
+        <span class="mo-ta">Giao diện, số từ mỗi ngày, giọng đọc · sao lưu gần nhất: ${ngaySaoLuu}</span></span>
+      <span class="cuoi-dong">${bieuTuong('phai')}</span>
+    </a>
+
+    <h3 class="tieu-de-muc">Chuỗi ngày học</h3>
+    <div class="hang-chi-so" style="margin-top:0">
       <div class="khung o-chi-so ${chuoiNgayHoc() ? 'dang-chay' : ''}"><span class="emoji">🔥</span><b>${chuoiNgayHoc()}</b><span>ngày liên tục</span></div>
       <div class="khung o-chi-so"><span class="emoji">🏆</span><b>${chuoiDaiNhat(nk)}</b><span>chuỗi dài nhất</span></div>
       <div class="khung o-chi-so"><span class="emoji">📅</span><b>${soNgayHoc}</b><span>ngày đã học · ${Math.floor(tongPhut / 60)} giờ ${tongPhut % 60} phút</span></div>

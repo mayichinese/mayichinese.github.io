@@ -44,7 +44,7 @@ không cần kéo thả file bằng tay. Điện thoại tự nhận bản mới
 
 Tiến độ trên máy tính và trên điện thoại là **hai bản riêng**, không tự đồng bộ với nhau.
 
-- **Sao lưu:** vào **Cài đặt** → **Xuất file sao lưu**. File `mayi-chinese-sao-luu-NGÀY.json` sẽ nằm trong thư mục Tải về. Nên sao lưu mỗi tuần; app sẽ nhắc nếu bạn quên.
+- **Sao lưu:** vào **Tôi → Cài đặt & sao lưu** → **Xuất file sao lưu**. File `mayi-chinese-sao-luu-NGÀY.json` sẽ nằm trong thư mục Tải về. Nên sao lưu mỗi tuần; app sẽ nhắc nếu bạn quên.
   - File sao lưu cũ tên `hoc-hsk-sao-luu-….json` (từ trước khi đổi tên) vẫn nhập lại được bình thường.
 - **Chuyển sang máy khác:** gửi file sao lưu sang máy kia (qua Zalo, email, Google Drive…) → mở app trên máy đó → **Cài đặt** → **Nhập file sao lưu**.
 - Nhập file sẽ **thay thế** toàn bộ tiến độ trên máy đang dùng.
@@ -56,18 +56,21 @@ Tiến độ trên máy tính và trên điện thoại là **hai bản riêng**
 
 | Mục | Dùng để |
 |---|---|
-| 🏠 **Hôm nay** | Xem việc cần làm hôm nay, chuỗi ngày học liên tục, 7 ngày trong tuần, kế hoạch 60 phút |
-| 📚 **Bài học** | Vào Ôn tập / Từ mới, chọn cấp (**HSK 1 / 2 / 3**), chọn bài, tìm từ (chữ Hán, pinyin, nghĩa, Hán Việt). Cả ba cấp có hai cách chia bài: **🗂️ Chủ đề** (từ cùng nhóm nghĩa học cùng nhau – HSK 1: 20 bài, HSK 2: 16 bài, HSK 3: 31 bài) hoặc **📖 Theo sách** (theo thứ tự bài 《新HSK教程》 – 15 / 15 / 18 bài; bài sách có danh sách ngữ pháp của bài). Một nút chọn áp dụng cho cả ba cấp, đổi lúc nào cũng được, tiến độ giữ nguyên. Nút **Từ mới** đưa từ HSK 1 trước, học hết HSK 1 mới sang HSK 2, rồi HSK 3 (muốn học trước thì mở thẳng một bài) |
-| 🎨 **Màu pinyin** | Pinyin được tô màu theo thanh điệu: **đỏ** thanh 1 · **cam** thanh 2 · **xanh lá** thanh 3 · **xanh dương** thanh 4 · **xám** thanh nhẹ. Bảng chú thích ở Cài đặt (và trang Luyện thanh điệu); không thích thì bỏ chọn "Tô màu pinyin theo thanh điệu" trong Cài đặt. |`n| ✏️ **Luyện tập** | 🎧 Luyện thanh điệu, ✍️ Luyện viết chữ Hán, 📝 Trắc nghiệm, 📋 Thi thử HSK 1 · 2 · 3, 🧩 Ngữ pháp |
-| 📊 **Thống kê** | Chuỗi ngày học (hiện tại, dài nhất), biểu đồ số phút học 7 / 30 ngày theo 5 phần (chạm cột để xem chi tiết, có cả dạng bảng), tiến độ từ vựng / chữ viết / ngữ pháp, tỉ lệ đúng, **những từ hay sai nhất**, chữ viết hay sai, thanh hay nhầm |
+| 🏠 **Hôm nay** | Trả lời câu hỏi "hôm nay học gì?": nút lớn **Tiếp tục** (app tự chọn việc nên làm tiếp), chuỗi ngày học + 7 ngày gần nhất, **5 nhiệm vụ hôm nay** (kế hoạch 60 phút – bấm là vào học ngay), và **bài đang học** |
+| 📚 **Bài học** | **Lộ trình** học: chọn cấp (**HSK 1 / 2 / 3**, mỗi nút hiện % đã học), các bài nối nhau theo thứ tự, bài đang học tô đỏ, bài xong có dấu ✓. Tra từ (chữ Hán, pinyin, nghĩa, Hán Việt) ở ô tìm kiếm. Hai cách chia bài: **🗂️ Theo chủ đề** (HSK 1: 20 bài, HSK 2: 16 bài, HSK 3: 31 bài) hoặc **📖 Theo sách** 《新HSK教程》 (15 / 15 / 18 bài, có ngữ pháp từng bài) – đổi lúc nào cũng được, tiến độ giữ nguyên. Mở một bài sẽ thấy **3 bước: ① Học từ mới → ② Ngữ pháp của bài → ③ Kiểm tra bài**, rồi danh sách từ |
+| 🏋️ **Ôn luyện** | **Cần ôn hôm nay**: từ vựng, ngữ pháp, chữ viết đến hạn và sổ câu sai – mỗi dòng bấm là vào ôn. **Luyện kỹ năng**: 🎧 Nghe & thanh điệu, ✍️ Viết chữ Hán, 📝 Trắc nghiệm từ, 🧩 Ngữ pháp (thư viện 122 điểm HSK 1–3) |
+| 📋 **Thi thử** | Đề mô phỏng HSK 1 · 2 · 3, tính giờ, chấm điểm, lịch sử điểm |
+| 👤 **Tôi** | Lối vào **Cài đặt & sao lưu**, chuỗi ngày học (hiện tại, dài nhất), biểu đồ số phút học 7 / 30 ngày, tiến độ từng cấp, tỉ lệ đúng, **những từ hay sai nhất**, chữ viết hay sai, thanh hay nhầm |
 
-Hai nút ở góc trên bên phải: **🌙/☀️** chuyển nhanh giữa giao diện tối và sáng; nút **Cài đặt** (biểu tượng thanh trượt) mở phần cài đặt và sao lưu.
+**🎨 Màu pinyin:** pinyin được tô màu theo thanh điệu: **đỏ** thanh 1 · **cam** thanh 2 · **xanh lá** thanh 3 · **xanh dương** thanh 4 · **xám** thanh nhẹ. Bảng chú thích ở Cài đặt (và trang Luyện thanh điệu); không thích thì bỏ chọn "Tô màu pinyin theo thanh điệu" trong Cài đặt.
+
+Nút **🌙/☀️** ở góc trên bên phải chuyển nhanh giữa giao diện tối và sáng. **Cài đặt** (và sao lưu) nằm trong mục **Tôi**.
 Mặc định app sáng/tối **theo máy**. Muốn quay lại chế độ này: **Cài đặt → Giao diện → Theo máy**.
 
 **Màu thanh điệu:** pinyin và chữ Hán ở mặt sau thẻ được tô màu theo thanh, giúp nhớ thanh điệu:
 thanh 1 **đỏ**, thanh 2 **cam**, thanh 3 **xanh lá**, thanh 4 **xanh dương**, thanh nhẹ **xám**.
 
-Màn hình **Hôm nay** hiện 5 phần theo thứ tự. Đã có đủ 5 phần (phần 5 gồm trắc nghiệm và ngữ pháp). Nút **Bắt đầu** trên khung chào sẽ chọn sẵn việc nên làm tiếp theo.
+Màn hình **Hôm nay** hiện 5 nhiệm vụ theo thứ tự (nhiệm vụ 5 có hai nút: **Ngữ pháp** và **Trắc nghiệm**). Nút **Tiếp tục** trên khung chào sẽ chọn sẵn việc nên làm tiếp theo.
 
 1. **Ôn từ đến hạn (~15 phút):** app đưa ra chữ Hán trong ô chữ điền. Bạn tự nhớ lại cách đọc và nghĩa → chạm vào thẻ hoặc bấm **Lật thẻ** → tự chấm điểm:
    - **Quên:** không nhớ, sẽ hỏi lại sau vài phút.
@@ -76,9 +79,9 @@ Màn hình **Hôm nay** hiện 5 phần theo thứ tự. Đã có đủ 5 phần
    - **Dễ:** nhớ ngay, cách ôn giãn ra rất xa.
 
    Dưới mỗi nút có ghi thời gian đến lần ôn tiếp theo. Hết phiên, app hiện bảng tổng kết số lần Quên / Khó / Nhớ / Dễ.
-2. **Học từ mới (~15 phút, mặc định 15 từ/ngày):** học lần lượt theo bài (chủ đề hoặc theo sách, tùy cách chia bạn chọn ở Bài học). Mỗi từ mới hiện đầy đủ thông tin trước (bấm **Đã hiểu – luyện tiếp**, hoặc **Đã biết từ này** nếu bạn đã thuộc), rồi được hỏi lại sau 1 phút và 10 phút. Mỗi lúc chỉ luyện tối đa 5 từ mới, để không bị ngợp. Muốn học từ mới của một bài cụ thể: **Bài học** → chọn bài → **Học từ mới của bài này**.
+2. **Học từ mới (~15 phút, mặc định 15 từ/ngày):** học lần lượt theo bài (chủ đề hoặc theo sách, tùy cách chia bạn chọn ở Bài học). Mỗi từ mới hiện đầy đủ thông tin trước (bấm **Đã hiểu – luyện tiếp**, hoặc **Đã biết từ này** nếu bạn đã thuộc), rồi được hỏi lại sau 1 phút và 10 phút. Mỗi lúc chỉ luyện tối đa 5 từ mới, để không bị ngợp. Muốn học từ mới của một bài cụ thể: **Bài học** → chọn bài → **① Học từ mới**.
 
-3. **Nghe & thanh điệu (~10 phút):** **Luyện tập → Luyện thanh điệu**. Mỗi phiên 10 câu, app đọc bằng giọng tiếng Trung của máy. Có 5 dạng bài:
+3. **Nghe & thanh điệu (~10 phút):** **Ôn luyện → Nghe & thanh điệu**. Mỗi phiên 10 câu, app đọc bằng giọng tiếng Trung của máy. Có 5 dạng bài:
    - **Nghe 1 âm tiết:** nghe một chữ, chọn thanh 1–4.
    - **Thanh 2 hay thanh 3?:** cặp người Việt hay nhầm nhất.
    - **Từ 2 âm tiết:** chọn thanh cho âm 1 rồi âm 2 (có thanh nhẹ).
@@ -87,29 +90,29 @@ Màn hình **Hôm nay** hiện 5 phần theo thứ tự. Đã có đủ 5 phần
 
    Mỗi dạng có khung **📖 Quy tắc** giải thích ngắn. Câu sai được hỏi lại ở cuối phiên. Trang Luyện thanh điệu có **bảng thanh điệu** (chạm để nghe mẫu) và cho biết bạn **hay nhầm thanh nào với thanh nào**. Nút **🐢 Chậm** đọc chậm lại.
    Chữ có nhiều cách đọc được loại khỏi bài "nghe 1 âm tiết", vì giọng máy có thể đọc khác pinyin trong dữ liệu.
-4. **Viết chữ Hán (~10 phút, mặc định 5 chữ mới/ngày):** **Luyện tập → Luyện viết chữ Hán**. Luyện **100 chữ cần viết tay cấp 1–2** và **150 chữ cấp 3** theo đề cương HSK 2025 (chọn bằng nút **Cấp 1–2 / Cấp 3**; chữ mới đi hết cấp 1–2 rồi mới sang cấp 3). Chữ thuộc từ bạn đã học được xếp lên trước.
+4. **Viết chữ Hán (~10 phút, mặc định 5 chữ mới/ngày):** **Ôn luyện → Viết chữ Hán**. Luyện **100 chữ cần viết tay cấp 1–2** và **150 chữ cấp 3** theo đề cương HSK 2025 (chọn bằng nút **Cấp 1–2 / Cấp 3**; chữ mới đi hết cấp 1–2 rồi mới sang cấp 3). Chữ thuộc từ bạn đã học được xếp lên trước.
    - Chữ mới học qua 3 bước: **xem thứ tự nét** → **viết theo nét mờ** → **viết không nhìn** (chỉ có pinyin và nghĩa làm gợi ý).
    - Viết bằng ngón tay (điện thoại) hoặc chuột (máy tính), viết **đúng thứ tự nét**. Viết sai nét thì app báo, sai nhiều lần thì nét đúng tự sáng lên.
    - App **tự chấm** ở bước viết không nhìn: không sai nét nào → Nhớ; sai 1–3 nét → Khó; sai từ 4 nét hoặc bấm 💡 Gợi ý → Quên. Rồi app xếp lịch ôn lại như thẻ từ.
    - Chạm vào một chữ trong lưới 100 chữ để luyện riêng chữ đó.
    - Mặt sau mỗi thẻ từ và trang xem từ có nút **✍️ Cách viết** để xem thứ tự nét của mọi chữ HSK 1.
-5. **Trắc nghiệm (~10 phút):** **Luyện tập → Trắc nghiệm**. Mỗi lượt 10 câu, mỗi câu 4 lựa chọn, hỏi các **từ bạn đã học** (cần ít nhất 4 từ). Có 4 dạng, hoặc **🔀 Trộn 4 dạng** (nên làm hằng ngày):
+5. **Trắc nghiệm (~10 phút):** **Ôn luyện → Trắc nghiệm từ**. Mỗi lượt 10 câu, mỗi câu 4 lựa chọn, hỏi các **từ bạn đã học** (cần ít nhất 4 từ). Có 4 dạng, hoặc **🔀 Trộn 4 dạng** (nên làm hằng ngày):
    - **Chữ Hán → nghĩa** · **Nghĩa → chữ Hán** · **Nghe → chọn chữ** · **Chữ Hán → pinyin**. Dạng cuối có các đáp án chỉ khác dấu thanh, nên phải nhớ đúng thanh.
    - Đáp án sai không bao giờ trùng nghĩa với đáp án đúng. Bài nghe không có hai lựa chọn đọc giống nhau.
    - **Câu sai:** từ đó vào **📒 Sổ câu sai**. Nếu từ đó đang ở lịch ôn thẻ từ thì **thẻ đến hạn ôn ngay hôm nay**. Câu sai còn được hỏi lại ở cuối lượt.
    - **Ôn câu sai:** chỉ hỏi các từ trong sổ. Một từ được xóa khỏi sổ khi bạn trả lời đúng **2 lượt liên tiếp**.
-   - **Kiểm tra theo bài:** trong trang Trắc nghiệm chọn "Bài 1…20", hoặc vào **Bài học → chọn bài → 📝 Kiểm tra bài này**. Cách này hỏi cả những từ chưa học, hợp để tự kiểm tra trước hoặc sau khi học một bài.
+   - **Kiểm tra theo bài:** trong trang Trắc nghiệm chọn "Bài 1…20", hoặc vào **Bài học → chọn bài → ③ Kiểm tra bài**. Cách này hỏi cả những từ chưa học, hợp để tự kiểm tra trước hoặc sau khi học một bài.
 
-   **Ngữ pháp** (cùng phần 5): **Luyện tập → 🧩 Ngữ pháp**. Có **35 điểm ngữ pháp HSK 1**, xếp theo thứ tự nên học, phủ hết các mục ngữ pháp cấp 1 trong đề cương 2025.
+   **Ngữ pháp** (cùng phần 5): **Ôn luyện → 🧩 Ngữ pháp** (hoặc bước ② trong một bài "Theo sách"). Có **35 điểm ngữ pháp HSK 1**, xếp theo thứ tự nên học, phủ hết các mục ngữ pháp cấp 1 trong đề cương 2025.
    - Mỗi điểm có một trang bài học: **công thức**, **giải thích ngắn**, **⚠️ lỗi người Việt hay mắc**, **ví dụ** (pinyin tô màu, nút nghe). Dòng "dùng từ đến Bài N" cho biết ví dụ cần từ vựng của bài nào.
    - **Luyện tập điểm này:** khoảng 7 câu, gồm **sắp xếp câu** (chạm từng mảnh theo đúng thứ tự, chạm lại để bỏ ra, rồi bấm Kiểm tra; có câu chấp nhận hai thứ tự) và **điền từ** (chọn 1 trong 4).
    - App **tự chấm và xếp lịch ôn**: điểm mới làm đúng từ 80% trở lên → ôn lại sau 4 ngày; dưới 80% → luyện lại sớm. Khi ôn: từ 80% → Nhớ, 50–80% → Khó, dưới 50% → Quên. Điểm đến hạn hiện ở **Cần ôn** và trên trang Hôm nay.
    - Ngữ pháp cấp 2–3 sẽ làm ở Giai đoạn 5, cùng với từ vựng HSK 2–3.
 
-**📋 Thi thử HSK 1** (Luyện tập → Thi thử HSK 1) – **đề mô phỏng, không phải đề chính thức**. Cấu trúc theo đề thi thử trong sách bài tập 《新HSK教程 1》 (2026):
+**📋 Thi thử HSK 1** (mục **Thi thử** trên thanh điều hướng) – **đề mô phỏng, không phải đề chính thức**. Cấu trúc theo đề thi thử trong sách bài tập 《新HSK教程 1》 (2026):
 - **Nghe 20 câu**: P1 nghe chọn 1 trong 3 tranh · P2 nghe câu, chọn câu đáp lại · P3 nghe câu, chọn tranh (A–F) · P4 nghe câu + câu hỏi, chọn đáp án. Mỗi câu được đọc **2 lần** (như thi thật); muốn được bấm nghe lại thì tích ô "Cho phép bấm nghe lại" trước khi thi.
 - **Đọc 20 câu, 20 phút** (đồng hồ đếm ngược, hết giờ tự nộp): P1 đọc câu chọn tranh · P2 ghép hỏi–đáp · P3 điền từ (6 từ cho sẵn) · P4 đọc câu trả lời câu hỏi. Chữ Hán có **pinyin nhỏ phía trên** như đề cấp 1.
-- Mỗi câu 5 điểm (mỗi phần 100), **tổng 200, đạt từ 120**. Nộp bài xong xem điểm từng phần và **xem lại từng câu** (đáp án đúng, pinyin, nghĩa). Lịch sử điểm lưu ở trang Thi thử và Thống kê.
+- Mỗi câu 5 điểm (mỗi phần 100), **tổng 200, đạt từ 120**. Nộp bài xong xem điểm từng phần và **xem lại từng câu** (đáp án đúng, pinyin, nghĩa). Lịch sử điểm lưu ở trang Thi thử và mục Tôi.
 - **Tranh là biểu tượng (emoji)** – chỉ dùng cho những từ vẽ được rõ ràng (đồ ăn, đồ vật, nơi chốn, thời tiết, giờ…); từ trừu tượng nằm ở các câu dạng chữ. Mỗi lần thi là một đề khác (chọn ngẫu nhiên).
 
 **Về thang điểm:** cách tính \"mỗi phần 100 điểm, cộng lại\" lấy theo hướng dẫn chấm điểm của 汉考国际 (cơ quan tổ chức thi HSK). Thang điểm chính thức của kỳ thi mới (từ 7/2026) chưa công bố, nên mức đạt 60% (120 / 180) chỉ là ước tính theo kỳ thi cũ. Lần thi cũ trong lịch sử được tự tính lại theo thang này.
@@ -213,9 +216,9 @@ MayiChinese/
 │   ├── js/                 ← mã chương trình (có chú thích tiếng Việt)
 │   │   ├── app.js          ← khởi động, chuyển màn hình
 │   │   ├── giao-dien.js    ← mảnh giao diện dùng chung, sáng/tối
-│   │   ├── man-trang-chu.js← màn hình Hôm nay
+│   │   ├── man-trang-chu.js← màn hình Hôm nay (nhiệm vụ hôm nay)
 │   │   ├── man-the-tu.js   ← thẻ từ (flashcard)
-│   │   ├── man-bai-hoc.js  ← Bài học, tìm từ, xem từ
+│   │   ├── man-bai-hoc.js  ← Bài học (lộ trình, 3 bước mỗi bài), tìm từ, xem từ
 │   │   ├── man-cai-dat.js  ← Cài đặt, sao lưu
 │   │   ├── man-luyen-tap.js← trang chọn bài luyện
 │   │   ├── man-thanh-dieu.js ← luyện thanh điệu
@@ -223,7 +226,7 @@ MayiChinese/
 │   │   ├── net-chu.js      ← vẽ thứ tự nét (dùng thư viện Hanzi Writer)
 │   │   ├── man-trac-nghiem.js ← trắc nghiệm, sổ câu sai, kiểm tra theo bài
 │   │   ├── man-ngu-phap.js ← ngữ pháp: bài học, sắp xếp câu, điền từ
-│   │   ├── man-thong-ke.js ← Thống kê (biểu đồ phút học, từ hay sai…)
+│   │   ├── man-thong-ke.js ← mục Tôi: thống kê (biểu đồ phút học, từ hay sai…)
 │   │   ├── man-thi-thu.js  ← Thi thử HSK 1 (40 câu), HSK 2 (60 câu), HSK 3 (70 câu) – đề mô phỏng
 │   │   ├── pinyin.js       ← tô màu thanh điệu, tách âm tiết
 │   │   ├── bieu-tuong.js   ← các biểu tượng

@@ -5,13 +5,16 @@
 // 3. Vẽ màn hình theo địa chỉ (#/...) và vẽ lại mỗi khi địa chỉ đổi
 // 4. Đăng ký chạy offline (service worker)
 //
+// Thanh điều hướng (5 mục, sắp xếp kiểu Duolingo):
+//   Hôm nay (#/) · Bài học (#/bai) · Ôn luyện (#/luyen-tap) · Thi thử (#/thi-thu) · Tôi (#/toi)
+//
 // Các địa chỉ:
 //   #/             Hôm nay (trang chủ)          → man-trang-chu.js
 //   #/on           Ôn từ đến hạn                → man-the-tu.js
 //   #/hoc-moi[/5]  Học từ mới (của bài 5)       → man-the-tu.js
-//   #/bai[/5]      Bài học / chi tiết bài 5     → man-bai-hoc.js
+//   #/bai[/5]      Bài học (lộ trình) / bài 5   → man-bai-hoc.js
 //   #/tu/<khóa>    Xem một từ                   → man-bai-hoc.js
-//   #/luyen-tap    Luyện tập (chọn bài luyện)   → man-luyen-tap.js
+//   #/luyen-tap    Ôn luyện: cần ôn + kỹ năng   → man-luyen-tap.js
 //   #/luyen-viet   Luyện viết: tổng quan        → man-luyen-viet.js
 //   #/luyen-viet/phien        phiên luyện viết hôm nay
 //   #/luyen-viet/chu/<chữ>    luyện riêng một chữ
@@ -24,8 +27,8 @@
 //   #/ngu-phap/<mã>           bài học một điểm      #/ngu-phap/<mã>/luyen  luyện tập điểm đó
 //   #/ngu-phap/on             ôn các điểm đến hạn
 //   #/thi-thu      Thi thử HSK 1 / 2 / 3: giới thiệu → man-thi-thu.js  #/thi-thu/lam  đề HSK 1 · #/thi-thu/lam/2 · #/thi-thu/lam/3
-//   #/thong-ke     Thống kê                     → man-thong-ke.js
-//   #/cai-dat      Cài đặt, sao lưu             → man-cai-dat.js
+//   #/toi          Tôi: tiến độ, thống kê       → man-thong-ke.js   (#/thong-ke: địa chỉ cũ, vẫn dùng được)
+//   #/cai-dat      Cài đặt, sao lưu (mở từ "Tôi") → man-cai-dat.js
 // =========================================================
 
 import { docTienDo, caiDat } from './luu-tru.js';
@@ -60,11 +63,13 @@ function veTheoDiaChi() {
   window.scrollTo(0, 0);
 
   // tô sáng mục đang chọn ở thanh điều hướng
-  const mucChon = {
-    '': 'trang-chu', bai: 'bai', tu: 'bai', on: 'bai', 'hoc-moi': 'bai',
-    'luyen-tap': 'luyen-tap', 'luyen-viet': 'luyen-tap', 'thanh-dieu': 'luyen-tap', 'trac-nghiem': 'luyen-tap',
-    'ngu-phap': 'luyen-tap', 'thi-thu': 'luyen-tap', 'thong-ke': 'thong-ke',
+  let mucChon = {
+    '': 'trang-chu', bai: 'bai', tu: 'bai', 'hoc-moi': 'bai',
+    on: 'luyen-tap', 'luyen-tap': 'luyen-tap', 'luyen-viet': 'luyen-tap', 'thanh-dieu': 'luyen-tap',
+    'trac-nghiem': 'luyen-tap', 'ngu-phap': 'luyen-tap',
+    'thi-thu': 'thi-thu', toi: 'toi', 'thong-ke': 'toi', 'cai-dat': 'toi',
   }[muc] ?? '';
+  if (muc === 'trac-nghiem' && thamSo === 'bai') mucChon = 'bai'; // kiểm tra một bài = bước 3 của bài học
   document.querySelectorAll('.dieu-huong a[data-muc]').forEach((a) => {
     const chon = a.dataset.muc === mucChon;
     a.classList.toggle('dang-chon', chon);
@@ -72,7 +77,7 @@ function veTheoDiaChi() {
   });
 
   if (muc === 'on') {
-    datTieuDe('Ôn tập', '#/');
+    datTieuDe('Ôn từ vựng', '#/luyen-tap');
     donDep = vePhien(khung, 'on');
   } else if (muc === 'hoc-moi') {
     // mã bài: số (bài theo chủ đề) hoặc 's5' (bài 5 của sách)
@@ -105,7 +110,7 @@ function veTheoDiaChi() {
     datTieuDe(`Thi thử HSK ${capThi}`, '#/thi-thu');
     donDep = veLamBai(khung, capThi);
   } else if (muc === 'thi-thu') {
-    datTieuDe('Thi thử', '#/luyen-tap');
+    datTieuDe('Thi thử');
     veThiThu(khung);
   } else if (muc === 'ngu-phap' && thamSo === 'on') {
     datTieuDe('Ôn ngữ pháp', '#/ngu-phap');
@@ -136,13 +141,13 @@ function veTheoDiaChi() {
     datTieuDe('Thanh điệu', '#/luyen-tap');
     veThanhDieu(khung);
   } else if (muc === 'luyen-tap') {
-    datTieuDe('Luyện tập');
+    datTieuDe('Ôn luyện');
     veLuyenTap(khung);
-  } else if (muc === 'thong-ke') {
-    datTieuDe('Thống kê');
+  } else if (muc === 'toi' || muc === 'thong-ke') {
+    datTieuDe('Tôi');
     veThongKe(khung);
   } else if (muc === 'cai-dat') {
-    datTieuDe('Cài đặt', '#/');
+    datTieuDe('Cài đặt', '#/toi');
     veCaiDat(khung);
   } else {
     datTieuDe('Hôm nay');
@@ -176,7 +181,6 @@ async function khoiDong() {
   // Biểu tượng trên thanh điều hướng và thanh trên cùng
   ganBieuTuong();
   document.getElementById('nut-quay-lai').innerHTML = bieuTuong('trai');
-  document.getElementById('nut-cai-dat').innerHTML = bieuTuong('cai-dat');
   document.getElementById('nut-sang-toi').onclick = doiSangToi;
 
   try {

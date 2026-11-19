@@ -21,6 +21,9 @@
 - `app/` – **app chính** (HTML/CSS/JS thuần, ES module, không build). PWA chạy offline.
   - `js/lich-on.js`: ôn tập ngắt quãng SM-2 (Quên/Khó/Nhớ/Dễ). `js/luu-tru.js`: lưu tiến độ localStorage.
   - `js/phien-hoc.js` (chọn thẻ tiếp theo), `js/phat-am.js` (Web Speech API zh-CN), `sw.js` (cache offline).
+  - Điều hướng 5 mục kiểu Duolingo: Hôm nay `#/` (nhiệm vụ 60 phút + nút Tiếp tục) · Bài học `#/bai` (lộ trình;
+    trang bài = ① Từ mới ② Ngữ pháp của bài ③ Kiểm tra) · Ôn luyện `#/luyen-tap` (cần ôn + 4 kỹ năng) · Thi thử `#/thi-thu`
+    · Tôi `#/toi` (thống kê + lối vào Cài đặt; `#/thong-ke` là địa chỉ cũ). Không có nút Cài đặt trên thanh trên cùng.
   - Giao diện: `js/app.js` (khởi động, chuyển màn hình), `js/giao-dien.js` (mảnh dùng chung, sáng/tối),
     mỗi màn hình một file `js/man-*.js`; `js/pinyin.js` tô màu thanh điệu (tắt được: caiDat.tatMauThanh → lớp body .khong-mau-thanh; chú thích CHU_THICH_MAU_THANH); `css/style.css` (biến màu
     sáng/tối theo logo) + `css/man-hinh.css`.
