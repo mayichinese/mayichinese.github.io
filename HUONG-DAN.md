@@ -7,7 +7,7 @@ Tiến độ học được lưu **ngay trong trình duyệt của máy đang d�
 
 ## 1. Chạy trên máy tính Windows
 
-1. Mở thư mục `d:\Project\Mayi Chinese`.
+1. Mở thư mục `d:\Project\MayiChinese`.
 2. **Bấm đúp vào file `CHAY-APP.bat`.**
 3. Một cửa sổ đen hiện ra, và trình duyệt tự mở trang `http://localhost:8080/`.
 4. Học xong thì **đóng cửa sổ đen** để tắt app.
@@ -21,31 +21,24 @@ Một số lỗi có thể gặp:
 
 ## 2. Dùng trên điện thoại (qua GitHub Pages, miễn phí)
 
-Điện thoại không chạy được file `.bat`, nên bạn đưa app lên một trang web miễn phí của GitHub.
-Việc này chỉ cần làm một lần.
+Địa chỉ app: **<https://mayichinese.github.io>**
 
-1. Vào <https://github.com> → **Sign up** để tạo tài khoản (cần email).
-2. Bấm dấu **+** ở góc trên bên phải → **New repository**.
-   - *Repository name*: ví dụ `mayi-chinese`. Nếu bạn **đã tạo kho từ trước** (ví dụ `hoc-hsk`) thì cứ giữ nguyên tên cũ, không cần đổi.
-   - Chọn **Public**. Bản miễn phí chỉ cho phép GitHub Pages với kho công khai. Người khác có link sẽ xem được app, nhưng **không** thấy tiến độ học của bạn.
-   - Bấm **Create repository**.
-3. Trong trang kho vừa tạo, bấm **uploading an existing file**.
-4. Mở thư mục `d:\Project\Mayi Chinese\app`, chọn **tất cả file và thư mục bên trong** (`index.html`, `css`, `js`, `data`, `icons`, `sw.js`, `manifest.webmanifest`) rồi **kéo thả** vào trang GitHub.
-   - Chỉ kéo phần *bên trong* thư mục `app`, không kéo cả thư mục `app`.
-   - Không cần tải thư mục `cong-cu` và `tai-lieu` lên.
-5. Bấm **Commit changes** và đợi tải lên xong.
-6. Vào **Settings** → **Pages** (menu bên trái) → mục *Branch* chọn **main** và **/ (root)** → **Save**.
-7. Đợi 1–2 phút rồi tải lại trang. GitHub sẽ hiện địa chỉ dạng `https://<tên-tài-khoản>.github.io/mayi-chinese/`.
-8. Mở địa chỉ đó trên điện thoại:
-   - **Android (Chrome):** menu ⋮ → **Thêm vào màn hình chính**.
-   - **iPhone (Safari):** nút Chia sẻ → **Thêm vào MH chính**.
+App được đặt trên GitHub Pages (miễn phí). Kho chứa code là `mayichinese/mayichinese.github.io`,
+thuộc tổ chức `mayichinese` do tài khoản `duchoa1297` làm chủ. Kho để **Public** vì bản miễn phí
+bắt buộc như vậy: người khác xem được code, nhưng **không** thấy tiến độ học (tiến độ chỉ nằm trong máy bạn).
 
-   App sẽ có biểu tượng **chú kiến Mayi** trên màn hình, tên ngắn là "Mayi", và chạy được cả khi không có mạng.
+**Cài lên điện thoại:** mở địa chỉ trên rồi
+- **Android (Chrome):** menu ⋮ → **Thêm vào màn hình chính**.
+- **iPhone (Safari):** nút Chia sẻ → **Thêm vào MH chính**.
 
-**Cập nhật app sau này:** tải lại đúng file đã thay đổi lên GitHub (ví dụ `data/hsk1.json`). File mới sẽ ghi đè file cũ, và điện thoại tự nhận bản mới khi có mạng.
+App sẽ có biểu tượng **chú kiến Mayi** trên màn hình, tên ngắn là "Mayi", và chạy được cả khi không có mạng.
 
-**Lần cập nhật đổi tên Mayi Chinese (giao diện mới):** có rất nhiều file thay đổi, nên hãy kéo thả **lại toàn bộ** nội dung bên trong thư mục `app` lên GitHub (ghi đè file cũ). Sau đó có thể xóa file thừa `icons/icon.svg` trên GitHub (không bắt buộc).
-Tiến độ học trên điện thoại **vẫn giữ nguyên**. Biểu tượng cũ (chữ 学) trên màn hình chính có thể vẫn còn: nếu muốn thấy chú kiến, hãy xóa biểu tượng cũ trên màn hình chính rồi **Thêm vào màn hình chính** lại. Chỉ xóa biểu tượng, **không** xóa dữ liệu trang web.
+**Cập nhật app sau này:** chỉ cần đẩy code lên GitHub (nút *Sync Changes* trong VS Code, hoặc nhờ Claude).
+GitHub sẽ tự lấy thư mục `app/` làm trang web sau khoảng 1–2 phút (file `.github/workflows/dang-trang-web.yml` lo việc này),
+không cần kéo thả file bằng tay. Điện thoại tự nhận bản mới khi mở app lúc có mạng.
+
+**Không đổi địa chỉ trang web:** tiến độ học lưu theo địa chỉ. Nếu đổi sang địa chỉ khác, phải
+*Xuất file sao lưu* ở địa chỉ cũ rồi *Nhập* ở địa chỉ mới (xem mục 3).
 
 ## 3. Sao lưu và chuyển tiến độ giữa các máy
 
@@ -109,14 +102,14 @@ Từ nào có dấu ⚠️ là chỗ còn **cần kiểm tra**. Danh sách các 
    - `>` là câu ví dụ, dạng `chữ Hán | pinyin | dịch`.
    - `*` là ghi chú.
    - `?` là đánh dấu cần kiểm tra. Xóa dòng `?` khi bạn đã kiểm tra xong.
-2. Mở cửa sổ lệnh tại thư mục `d:\Project\Mayi Chinese` và chạy **cả hai** lệnh sau, theo đúng thứ tự:
+2. Mở cửa sổ lệnh tại thư mục `d:\Project\MayiChinese` và chạy **cả hai** lệnh sau, theo đúng thứ tự:
    ```
    python -X utf8 cong-cu/ghep-du-lieu-hsk1.py
    python -X utf8 cong-cu/kiem-tra-pinyin-vi-du.py
    ```
    - Lệnh thứ nhất tạo lại `app/data/hsk1.json`. Nó báo **LỖI** hoặc **CẢNH BÁO** nếu có, ví dụ sai từ loại so với danh sách chính thức, hoặc câu ví dụ dùng chữ ngoài cấp 1.
    - Lệnh thứ hai đối chiếu pinyin của từng câu ví dụ với từ điển CC-CEDICT. Nó báo **LỖI** khi pinyin không khớp chữ Hán, và **SAI THANH** khi dấu thanh khác từ điển. Kết quả ghi vào `cong-cu/bao-cao-pinyin-vi-du.txt`.
-3. Tải lại trang app. Nếu dùng GitHub Pages thì tải lại file `data/hsk1.json` lên GitHub.
+3. Tải lại trang app. Muốn điện thoại cũng có dữ liệu mới thì đẩy code lên GitHub.
 
 Không nên sửa thẳng `app/data/hsk1.json`, vì lần chạy script sau sẽ ghi đè lên chỗ bạn đã sửa.
 
