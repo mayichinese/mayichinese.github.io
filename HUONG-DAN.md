@@ -126,7 +126,7 @@ Mayi Chinese/
 │   ├── index.html
 │   ├── css/style.css       ← giao diện chung, màu sáng/tối (theo logo)
 │   ├── css/man-hinh.css    ← giao diện riêng từng màn hình
-│   ├── icons/              ← icon chú kiến (cắt từ avatar.jpg) và logo đầy đủ
+│   ├── icons/              ← icon chú kiến (cắt từ avatar.jpg)
 │   ├── js/                 ← mã chương trình (có chú thích tiếng Việt)
 │   │   ├── app.js          ← khởi động, chuyển màn hình
 │   │   ├── giao-dien.js    ← mảnh giao diện dùng chung, sáng/tối

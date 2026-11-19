@@ -1,6 +1,5 @@
 // =========================================================
 // TRANG CHỦ "HÔM NAY"
-//   - Logo Mayi Chinese
 //   - Banner chào + nút "Bắt đầu" (chọn sẵn việc nên làm tiếp)
 //     (chữ Hán mờ phía sau = từ mới tiếp theo, lấy từ file dữ liệu)
 //   - 3 ô chỉ số: chuỗi ngày, phút hôm nay, số từ đã học
@@ -136,8 +135,6 @@ export function veTrangChu(khung) {
   ];
 
   khung.innerHTML = `
-    <img class="logo-lon" src="icons/logo-day-du.png" alt="Mayi Chinese" width="900" height="510">
-
     ${canhBao.length ? `<div class="ds-canh-bao">${canhBao.map((c) => `<div class="can-kiem-tra">${c}</div>`).join('')}</div>` : ''}
 
     <section class="hero">

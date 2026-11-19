@@ -10,7 +10,7 @@
 // =========================================================
 
 // Tên bộ nhớ đệm (chỉ chứa file của app, KHÔNG chứa tiến độ học – tiến độ nằm ở localStorage)
-const PHIEN_BAN = 'mayi-v3';
+const PHIEN_BAN = 'mayi-v4';
 const BO_NHO_PHONG = 'mayi-phong-chu-v1';  // phông chữ – giữ qua các phiên bản
 const TAP_TIN = [
   './',
@@ -40,7 +40,6 @@ const TAP_TIN = [
   './icons/icon-512.png',
   './icons/icon-maskable-192.png',
   './icons/icon-maskable-512.png',
-  './icons/logo-day-du.png',
 ];
 const NGUON_PHONG = ['https://fonts.googleapis.com', 'https://fonts.gstatic.com'];
 

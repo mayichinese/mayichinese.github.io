@@ -5,14 +5,6 @@
 
 /* ==================== HÔM NAY ==================== */
 
-/* Logo đầy đủ ở đầu trang chủ */
-.logo-lon {
-  display: block; width: min(100%, 300px); height: auto; aspect-ratio: 900 / 510;
-  margin: 2px auto 16px;
-  border: var(--vien-rong) solid var(--vien-the); border-radius: 22px;
-  box-shadow: var(--bong-the);
-}
-
 /* Banner chào (nền chuyển màu + chữ Hán lớn mờ phía sau) */
 .hero {
   position: relative; overflow: hidden;
