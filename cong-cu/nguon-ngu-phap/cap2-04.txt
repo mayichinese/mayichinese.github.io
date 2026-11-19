@@ -1,0 +1,102 @@
+# ===== NGỮ PHÁP HSK 2 – ĐỢT 4 (soạn tay) =====
+# Cách viết: xem đầu file cong-cu/ghep-ngu-phap.py. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–2.
+# Sửa xong chạy: python -X utf8 cong-cu/ghep-ngu-phap.py 2
+
+## shenme-de
+@ 什么的: … các thứ, … vân vân
+§ 固定短语 · 什么的
+& 6
+= A、B + 什么的
+- Đặt sau vài thứ được liệt kê, nghĩa là “các thứ, vân vân”: 我买了苹果、牛奶什么的.
+- Dùng nhiều trong văn nói.
+! 什么的 đứng SAU các thứ liệt kê, không đứng trước: không nói 什么的苹果、牛奶.
+! Ở đây 什么 không mang nghĩa hỏi “cái gì”, nên câu vẫn là câu kể, không cần dấu hỏi.
+> 我/买/了/苹果、牛奶/什么的。 | Wǒ mǎi le píngguǒ, niúnǎi shénme de. | Tôi mua táo, sữa các thứ.
+> 他/喜欢/打篮球、踢足球/什么的。 | Tā xǐhuan dǎ lánqiú, tī zúqiú shénme de. | Anh ấy thích chơi bóng rổ, đá bóng các thứ.
+> 桌子/上/有/书、本子、笔/什么的。 | Zhuōzi shang yǒu shū, běnzi, bǐ shénme de. | Trên bàn có sách, vở, bút các thứ.
+> 星期天/我/在/家/看书、上网/什么的。 | Xīngqītiān wǒ zài jiā kàn shū, shàngwǎng shénme de. | Chủ nhật tôi ở nhà đọc sách, lên mạng các thứ.
+~ 我/星期天/在/家/看书、上网/什么的。
+? 我想吃面条儿、包子___。 | 什么的 | 什么; 的; 吗 | Wǒ xiǎng chī miàntiáor, bāozi shénme de. | Tôi muốn ăn mì, bánh bao các thứ.
+? 他会唱歌、跳舞___。 | 什么的 | 什么; 地; 也 | Tā huì chàng gē, tiàowǔ shénme de. | Anh ấy biết hát, nhảy các thứ.
+? 商店里有衣服、裤子什么___。 | 的 | 了; 地; 得 | Shāngdiàn li yǒu yīfu, kùzi shénme de. | Trong cửa hàng có quần áo, quần các thứ.
+
+## tro-tu-di
+@ Trợ từ 地: tính từ + 地 + động từ (làm một cách…)
+§ 助词 · 结构助词“地” · 句子成分：状语
+& 6
+= Tính từ / tính từ lặp + 地 + động từ
+- 地 nối phần mô tả CÁCH LÀM với động từ phía sau: 他高兴地笑了 (anh ấy vui vẻ cười).
+- Ba chữ cùng đọc de: 的 + danh từ (我的书), 地 + động từ (慢慢地走), động từ + 得 (说得好).
+- Tính từ một chữ thường lặp lại trước 地: 慢慢地, 好好地.
+! Theo cách viết chuẩn, trước động từ dùng 地: viết 高兴地说, không viết 高兴的说.
+! Không đặt 地 sau động từ: không nói 说地很好 (phải là 说得很好).
+> 他/高兴/地/笑/了。 | Tā gāoxìng de xiào le. | Anh ấy vui vẻ cười.
+> 请/你/慢慢/地/说。 | Qǐng nǐ mànmàn de shuō. | Bạn nói từ từ thôi.
+> 我们/要/好好/地/学习。 | Wǒmen yào hǎohǎo de xuéxí. | Chúng ta phải học hành chăm chỉ.
+> 他/很/快/地/吃/完/了/饭。 | Tā hěn kuài de chī wán le fàn. | Anh ấy ăn xong cơm rất nhanh.
+~ 他/很/快/地/吃/完/饭/了。
+? 她慢慢___走进了教室。 | 地 | 得; 很; 是 | Tā mànmàn de zǒu jìn le jiàoshì. | Cô ấy chầm chậm đi vào lớp.
+? 孩子们高兴___跑过来了。 | 地 | 了; 是; 在 | Háizimen gāoxìng de pǎo guòlái le. | Bọn trẻ vui vẻ chạy lại.
+? 你要好好___休息。 | 地 | 了; 过; 很 | Nǐ yào hǎohǎo de xiūxi. | Bạn phải nghỉ ngơi cho tốt.
+
+## yi-jiu
+@ 一……就……: vừa… là…, hễ… là…
+§ 复句 · 紧缩复句：一……就……
+& 7
+= (A) 一 + việc 1，(B) 就 + việc 2
+- Việc 2 xảy ra ngay sau việc 1: 我一到家就给你打电话 (tôi vừa về đến nhà là gọi cho bạn ngay).
+- Cũng có nghĩa “hễ… là…” (lần nào cũng vậy): 他一看书就想睡觉.
+- 一 và 就 đều đứng sau chủ ngữ (nếu có), trước động từ.
+! 就 đứng sau chủ ngữ của vế sau: nói 老师一说，我就懂了, không nói 老师一说，就我懂了.
+! Không bỏ 就: nói 我一到家就睡觉, không nói 我一到家睡觉.
+> 我/一/到/家/就/给/你/打/电话。 | Wǒ yí dào jiā jiù gěi nǐ dǎ diànhuà. | Tôi vừa về đến nhà là gọi cho bạn ngay.
+~ 我/一/到/家/就/打/电话/给/你。
+> 他/一/看/书/就/想/睡觉。 | Tā yí kàn shū jiù xiǎng shuìjiào. | Hễ đọc sách là anh ấy buồn ngủ.
+> 老师/一/说，/我/就/懂/了。 | Lǎoshī yì shuō, wǒ jiù dǒng le. | Thầy vừa nói là tôi hiểu ngay.
+> 天/一/晴，/我们/就/出去/玩儿。 | Tiān yì qíng, wǒmen jiù chūqù wánr. | Trời vừa quang là chúng tôi ra ngoài chơi.
+? 我一下课___去吃饭。 | 就 | 都; 也; 还 | Wǒ yí xiàkè jiù qù chī fàn. | Tôi vừa tan học là đi ăn ngay.
+? 他___回家就上网。 | 一 | 就; 都; 也 | Tā yì huí jiā jiù shàngwǎng. | Anh ấy vừa về nhà là lên mạng.
+? 这个字老师一教，我们就___了。 | 会 | 很; 在; 过 | Zhège zì lǎoshī yì jiāo, wǒmen jiù huì le. | Chữ này thầy vừa dạy là chúng tôi biết ngay.
+
+## bo-ngu-trang-thai
+@ Bổ ngữ trạng thái: 跑得很快, 说得真好
+§ 补语 · 状态补语1：动词+得+形容词性短语
+& 7
+= Động từ + 得 + (很 / 真 / 非常…) + tính từ
+= (Động từ +) tân ngữ + động từ + 得 + tính từ   (他说汉语说得很好 / 他汉语说得很好)
+= Phủ định: động từ + 得 + 不 + tính từ
+- Dùng để nhận xét một hành động làm như thế nào: 他跑得很快 (anh ấy chạy rất nhanh).
+- Có tân ngữ thì lặp động từ, hoặc đưa tân ngữ lên trước động từ: 他说汉语说得很好 / 他汉语说得很好.
+- Hỏi: động từ + 得 + 怎么样？ (你考得怎么样？).
+! Phủ định đặt 不 sau 得: nói 他说得不好, không nói 他不说得好.
+! Không đặt tân ngữ giữa động từ và 得: không nói 他说汉语得很好.
+> 他/跑/得/很/快。 | Tā pǎo de hěn kuài. | Anh ấy chạy rất nhanh.
+> 你/汉语/说/得/真/好！ | Nǐ Hànyǔ shuō de zhēn hǎo! | Bạn nói tiếng Hán giỏi thật!
+~ 汉语/你/说/得/真/好！
+> 他/篮球/打/得/很/好。 | Tā lánqiú dǎ de hěn hǎo. | Anh ấy chơi bóng rổ rất giỏi.
+~ 篮球/他/打/得/很/好。
+> 我/今天/起/得/不/早。 | Wǒ jīntiān qǐ de bù zǎo. | Hôm nay tôi dậy không sớm.
+~ 今天/我/起/得/不/早。
+? 你写___很好看。 | 得 | 地; 了; 是 | Nǐ xiě de hěn hǎokàn. | Bạn viết rất đẹp.
+? 她唱歌唱___很好听。 | 得 | 地; 了; 过 | Tā chàng gē chàng de hěn hǎotīng. | Cô ấy hát rất hay.
+? 你考得___？ | 怎么样 | 什么; 怎么; 谁 | Nǐ kǎo de zěnmeyàng? | Bạn thi thế nào?
+
+## so-sanh-bi
+@ So sánh với 比: A 比 B + tính từ (+ một chút / nhiều / bao nhiêu)
+§ 特殊句型 · 比较句1：A比B+形容词；A比B+形容词+数量补语/程度补语
+& 8
+= A + 比 + B + tính từ
+= A + 比 + B + tính từ + 一点儿 / 多了 / số lượng
+- 我比他高 = tôi cao hơn anh ấy.
+- Nói hơn bao nhiêu: thêm 一点儿 (hơn một chút), 多了 (hơn nhiều), hoặc số cụ thể: 我比他大两岁 (tôi lớn hơn anh ấy hai tuổi).
+- Muốn nhấn mạnh “còn… hơn” thì thêm 还 trước tính từ: 今天比昨天还冷.
+- Phủ định thường dùng 没有: 他没有我高 (bài 9).
+! Không dùng 很, 非常, 太 trước tính từ trong câu 比: nói 我比他高, không nói 我比他很高.
+! Số lượng đứng SAU tính từ: nói 我比他大两岁, không nói 我比他两岁大.
+> 我/比我姐姐/高。 | Wǒ bǐ wǒ jiějie gāo. | Tôi cao hơn chị tôi.
+> 今天/比昨天/冷/多了。 | Jīntiān bǐ zuótiān lěng duō le. | Hôm nay lạnh hơn hôm qua nhiều.
+> 这/件/衣服/比那件/贵/一点儿。 | Zhè jiàn yīfu bǐ nà jiàn guì yìdiǎnr. | Bộ này đắt hơn bộ kia một chút.
+> 我/比他/大/两/岁。 | Wǒ bǐ tā dà liǎng suì. | Tôi lớn hơn anh ấy hai tuổi.
+? 我哥哥比我___三岁。 | 大 | 很; 多; 太 | Wǒ gēge bǐ wǒ dà sān suì. | Anh trai tôi lớn hơn tôi ba tuổi.
+? 今天___昨天热。 | 比 | 很; 是; 太 | Jīntiān bǐ zuótiān rè. | Hôm nay nóng hơn hôm qua.
+? 这个房间比那个大___。 | 一点儿 | 很; 非常; 太 | Zhège fángjiān bǐ nàge dà yìdiǎnr. | Phòng này rộng hơn phòng kia một chút.

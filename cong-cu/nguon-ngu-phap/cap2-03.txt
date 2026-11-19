@@ -1,0 +1,102 @@
+# ===== NGỮ PHÁP HSK 2 – ĐỢT 3 (soạn tay) =====
+# Cách viết: xem đầu file cong-cu/ghep-ngu-phap.py. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–2.
+# Sửa xong chạy: python -X utf8 cong-cu/ghep-ngu-phap.py 2
+
+## yin-wei-suo-yi
+@ 因为……，所以……: vì… nên…
+§ 复句 · 因果复句：因为……，所以…… · 连词“因为、所以”
+& 4
+= 因为 + nguyên nhân，所以 + kết quả
+= Kết quả，因为 + nguyên nhân
+- 因为 nêu nguyên nhân, 所以 nêu kết quả: 因为下雨了，所以我没去 (vì trời mưa nên tôi không đi).
+- Có thể chỉ dùng một từ: 下雨了，所以我没去 / 我没去，因为下雨了.
+- Trả lời câu hỏi 为什么 thường bắt đầu bằng 因为.
+! Khi có 所以 thì vế nguyên nhân đứng trước: không nói 所以我没去，因为下雨了.
+! 所以 không đi cùng 虽然: không nói 虽然很累，所以…; “tuy… nhưng…” là 虽然……但是…….
+> 因为/下雨/了，/所以/我/没/去。 | Yīnwèi xià yǔ le, suǒyǐ wǒ méi qù. | Vì trời mưa nên tôi không đi.
+> 因为/他/病/了，/所以/今天/没/来/上课。 | Yīnwèi tā bìng le, suǒyǐ jīntiān méi lái shàngkè. | Vì ốm nên hôm nay cậu ấy không đến lớp.
+~ 因为/病/了，/所以/他/今天/没/来/上课。
+> 这/件/衣服/太/贵/了，/所以/我/没/买。 | Zhè jiàn yīfu tài guì le, suǒyǐ wǒ méi mǎi. | Bộ quần áo này đắt quá nên tôi không mua.
+> 我/很/喜欢/这里，/因为/这里/的/人/很/好。 | Wǒ hěn xǐhuan zhèlǐ, yīnwèi zhèlǐ de rén hěn hǎo. | Tôi rất thích nơi này vì người ở đây rất tốt.
+? ___我太累了，所以很早就睡了。 | 因为 | 所以; 虽然; 还是 | Yīnwèi wǒ tài lèi le, suǒyǐ hěn zǎo jiù shuì le. | Vì tôi mệt quá nên đi ngủ rất sớm.
+? 因为今天是星期天，___学校没有人。 | 所以 | 因为; 虽然; 但是 | Yīnwèi jīntiān shì xīngqītiān, suǒyǐ xuéxiào méiyǒu rén. | Vì hôm nay là Chủ nhật nên trường không có ai.
+? 你为什么不吃？——___我已经吃过了。 | 因为 | 所以; 虽然; 还是 | Nǐ wèi shénme bù chī? — Yīnwèi wǒ yǐjīng chī guo le. | Sao bạn không ăn? – Vì tôi ăn rồi.
+
+## de-tu-ngu
+@ Cụm chữ 的: 红的, 我的, 新买的 (cái màu đỏ, của tôi, cái mới mua)
+§ 短语 · 其他结构类型：“的”字短语
+& 4
+= Tính từ / danh từ / đại từ / cụm động từ + 的  (thay cho danh từ đã biết)
+- Khi người nghe đã biết đang nói về vật gì, bỏ danh từ đi, chỉ giữ “… + 的”: 这件衣服是红的 (bộ này màu đỏ).
+- 我的 = của tôi; 新的 = cái mới; 妈妈做的 = cái mẹ làm.
+- Hay dùng khi chọn: 你要大的还是小的？
+! Không bỏ 的: nói 这本书是我的, không nói 这本书是我.
+! Chữ “cái” trong “cái màu đỏ” không dịch thành 个: nói 我要红的, không nói 我要个红.
+> 这/本/书/是/我/的。 | Zhè běn shū shì wǒ de. | Cuốn sách này là của tôi.
+> 你/要/大/的/还是/小/的？ | Nǐ yào dà de háishi xiǎo de? | Bạn muốn cái to hay cái nhỏ?
+~ 你/要/小/的/还是/大/的？
+> 我/不/喜欢/黑色/的，/我/喜欢/白色/的。 | Wǒ bù xǐhuan hēisè de, wǒ xǐhuan báisè de. | Tôi không thích cái màu đen, tôi thích cái màu trắng.
+> 那个/手机/是/新/买/的。 | Nàge shǒujī shì xīn mǎi de. | Cái điện thoại đó là mới mua.
+? 这个书包不是我___，是我妹妹的。 | 的 | 了; 是; 地 | Zhège shūbāo bú shì wǒ de, shì wǒ mèimei de. | Cái cặp này không phải của tôi, là của em gái tôi.
+? 这件太小了，有大一点儿___吗？ | 的 | 了; 地; 得 | Zhè jiàn tài xiǎo le, yǒu dà yìdiǎnr de ma? | Bộ này nhỏ quá, có cái to hơn một chút không?
+? 红的二十块，白___三十块。 | 的 | 了; 地; 得 | Hóng de èrshí kuài, bái de sānshí kuài. | Cái đỏ hai mươi tệ, cái trắng ba mươi tệ.
+
+## xu-huong-don
+@ Bổ ngữ xu hướng đơn: 进来, 回家去, 走进, 坐下
+§ 补语 · 趋向补语1：简单趋向补语（动词+来/去；动词+上/下/进/出/过/回）
+& 5
+= Động từ + 来 (về phía người nói) / 去 (rời xa người nói)
+= Động từ + nơi chốn + 来 / 去   (回家去, 进教室来)
+= Động từ + 上 / 下 / 进 / 出 / 过 / 回 (+ nơi chốn)   (走进教室, 坐下)
+- 来 = hướng về chỗ người nói; 去 = rời xa chỗ người nói: người nói ở trên lầu thì bảo 你上来吧, ở dưới thì bảo 你上去吧.
+- Nơi chốn đặt GIỮA động từ và 来 / 去: 回家去, 进教室来.
+- 上 / 下 / 进 / 出 / 过 / 回 đứng sau động từ chỉ hướng đi: 走进 (đi vào), 坐下 (ngồi xuống), 跑回 (chạy về).
+! Nơi chốn không đứng sau 来 / 去: nói 回家来, không nói 回来家.
+! Chọn 来 hay 去 theo chỗ người nói: ở trong nhà gọi người bên ngoài thì dùng 进来, không dùng 进去.
+> 外面/冷，/快/进来/吧！ | Wàimiàn lěng, kuài jìnlái ba! | Ngoài trời lạnh, mau vào đi!
+> 他/回/家/去/了。 | Tā huí jiā qù le. | Anh ấy về nhà rồi.
+> 老师/走/进/教室/了。 | Lǎoshī zǒu jìn jiàoshì le. | Thầy giáo đi vào lớp rồi.
+> 请/大家/坐/下。 | Qǐng dàjiā zuò xià. | Mời mọi người ngồi xuống.
+~ 大家/请/坐/下。
+? 我在楼上，你上___吧。 | 来 | 去; 了; 过 | Wǒ zài lóu shàng, nǐ shànglái ba. | Tôi ở trên lầu, bạn lên đây đi.
+? 他从外面跑___来了。 | 进 | 在; 是; 很 | Tā cóng wàimiàn pǎo jìnlái le. | Anh ấy từ bên ngoài chạy vào.
+? 妈妈回家___了。 | 来 | 过; 着; 很 | Māma huí jiā lái le. | Mẹ về nhà rồi.
+
+## dou-le
+@ 都……了: đã… rồi (nhấn mạnh đã muộn, đã nhiều)
+§ 固定格式 · 都……了 · 副词“都2”
+& 5
+= 都 + thời gian / số lượng / tình trạng + 了
+- 都 ở đây nghĩa là “đã”, nhấn mạnh thời gian đã muộn hoặc số lượng đã nhiều, thường kèm ý ngạc nhiên, giục giã: 都十二点了，快睡觉吧！
+- Khác 都 ở cấp 1 (“đều, tất cả”).
+- Câu sau thường là lời khuyên hoặc trách nhẹ: 都八点了，你怎么还不起床？
+! Cuối câu phải có 了: nói 都十点了, không nói 都十点.
+! 都 đứng trước thời gian / số lượng: nói 都十点了, không nói 十点都了.
+> 都/十二/点/了，/快/睡觉/吧！ | Dōu shí'èr diǎn le, kuài shuìjiào ba! | Đã mười hai giờ rồi, mau đi ngủ đi!
+> 他/都/八十/岁/了，/身体/还/很/好。 | Tā dōu bāshí suì le, shēntǐ hái hěn hǎo. | Ông ấy đã tám mươi tuổi rồi mà sức khỏe vẫn rất tốt.
+~ 都/八十/岁/了，/他/身体/还/很/好。
+> 都/八/点/了，/你/怎么/还/不/起床？ | Dōu bā diǎn le, nǐ zěnme hái bù qǐchuáng? | Đã tám giờ rồi, sao bạn còn chưa dậy?
+> 我/都/等/了/一个/小时/了。 | Wǒ dōu děng le yí ge xiǎoshí le. | Tôi đã đợi cả một tiếng rồi đấy.
+? ___九点了，他怎么还没来？ | 都 | 也; 很; 太 | Dōu jiǔ diǎn le, tā zěnme hái méi lái? | Đã chín giờ rồi, sao anh ấy vẫn chưa đến?
+? 你都二十岁___，要自己做饭。 | 了 | 的; 过; 着 | Nǐ dōu èrshí suì le, yào zìjǐ zuò fàn. | Bạn đã hai mươi tuổi rồi, phải tự nấu ăn chứ.
+? 我们都学了一年___，还不会说。 | 了 | 的; 过; 着 | Wǒmen dōu xué le yì nián le, hái bú huì shuō. | Chúng tôi đã học một năm rồi mà vẫn chưa nói được.
+
+## lap-tinh-tu
+@ Lặp tính từ: 大大的, 高高兴兴 – mô tả sinh động
+§ 词类 · 形容词重叠：AA、AABB
+& 6
+= AA + 的 / 地   (大大的, 慢慢地)
+= AABB + 的 / 地   (高高兴兴, 舒舒服服)
+- Lặp tính từ làm lời mô tả sinh động hơn, thường có ý thích, khen: 她的眼睛大大的 (mắt cô ấy to tròn).
+- Sau tính từ lặp thường có 的 (trước danh từ, cuối câu) hoặc 地 (trước động từ): 高高兴兴地回家.
+- Tính từ hai chữ lặp kiểu AABB: 高兴 → 高高兴兴, 舒服 → 舒舒服服.
+! Tính từ lặp không đi với 很, 非常: nói 大大的, không nói 很大大的.
+! Khi mô tả, tính từ hai chữ lặp kiểu AABB: nói 高高兴兴, không nói 高兴高兴 (kiểu ABAB là lặp động từ).
+> 她/的/眼睛/大大/的。 | Tā de yǎnjing dàdà de. | Mắt cô ấy to tròn.
+> 孩子们/高高兴兴/地/去/学校/了。 | Háizimen gāogāoxìngxìng de qù xuéxiào le. | Bọn trẻ vui vẻ đến trường.
+> 你/慢慢/走，/别/跑！ | Nǐ mànmàn zǒu, bié pǎo! | Bạn đi từ từ thôi, đừng chạy!
+> 今天/我/要/舒舒服服/地/休息/一天。 | Jīntiān wǒ yào shūshūfúfú de xiūxi yì tiān. | Hôm nay tôi muốn nghỉ ngơi thật thoải mái một ngày.
+~ 我/今天/要/舒舒服服/地/休息/一天。
+? 他的个子高___的。 | 高 | 很; 了; 是 | Tā de gèzi gāogāo de. | Anh ấy người cao cao.
+? 我们高高兴兴___去旅游了。 | 地 | 得; 了; 是 | Wǒmen gāogāoxìngxìng de qù lǚyóu le. | Chúng tôi vui vẻ đi du lịch.
+? 这个苹果红___的，真好看。 | 红 | 很; 了; 太 | Zhège píngguǒ hónghóng de, zhēn hǎokàn. | Quả táo này đỏ au, đẹp thật.

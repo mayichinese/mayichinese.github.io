@@ -1,0 +1,104 @@
+# ===== NGỮ PHÁP HSK 2 – ĐỢT 2 (soạn tay) =====
+# Cách viết: xem đầu file cong-cu/ghep-ngu-phap.py. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–2.
+# Sửa xong chạy: python -X utf8 cong-cu/ghep-ngu-phap.py 2
+
+## so-uoc-luong
+@ Số ước lượng: 几 (vài), 多 (hơn)
+§ 特殊表达法 · 概数表达法1：用“几”表示概数；数词+多+量词；数词+量词+多
+& 2
+= 几 + lượng từ + danh từ  (vài…)
+= Số tròn chục + 多 + lượng từ  (hơn…: 二十多个)
+= Số 1–9 + lượng từ + 多  (hơn… một chút: 两个多小时)
+- 几 trong câu kể (không phải câu hỏi) nghĩa là “vài”: 我有几个中国朋友 (tôi có vài người bạn Trung Quốc).
+- Số tròn chục (十, 二十, 一百…) + 多 + lượng từ = hơn…: 十多个学生 (hơn mười học sinh).
+- Số từ 1 đến 9 + lượng từ + 多 = hơn… một chút: 三个多月 (hơn ba tháng), 五块多 (hơn năm tệ). Cách này chỉ dùng với đơn vị chia nhỏ được (小时, 天, 月, 年, 块…); không nói 三个多学生.
+- 十几 = mười mấy; 几十 = mấy chục.
+! Với số tròn chục, 多 đứng TRƯỚC lượng từ: nói 二十多个, không nói 二十个多.
+! Với số 1–9, 多 đứng SAU lượng từ: nói 两个多小时, không nói 两多个小时.
+> 我/有/几/个/中国/朋友。 | Wǒ yǒu jǐ ge Zhōngguó péngyou. | Tôi có vài người bạn Trung Quốc.
+> 我们/班/有/二十多/个/学生。 | Wǒmen bān yǒu èrshí duō ge xuésheng. | Lớp chúng tôi có hơn hai mươi học sinh.
+> 这个/电影/有/两个/多/小时。 | Zhège diànyǐng yǒu liǎng ge duō xiǎoshí. | Bộ phim này dài hơn hai tiếng.
+> 这/本/书/三十多/块/钱。 | Zhè běn shū sānshí duō kuài qián. | Cuốn sách này hơn ba mươi tệ.
+? 我在中国住了一年___。 | 多 | 几; 少; 很 | Wǒ zài Zhōngguó zhù le yì nián duō. | Tôi đã sống ở Trung Quốc hơn một năm.
+? 教室里有三十___个人。 | 多 | 少; 很; 太 | Jiàoshì li yǒu sānshí duō ge rén. | Trong lớp có hơn ba mươi người.
+? 我买了___本书，都很好看。 | 几 | 很; 太; 都 | Wǒ mǎi le jǐ běn shū, dōu hěn hǎokàn. | Tôi mua vài cuốn sách, cuốn nào cũng hay.
+
+## dinh-ngu-dong-tu
+@ Cụm động từ làm định ngữ: 我买的书 (cuốn sách tôi mua)
+§ 句子成分 · 定语：动词或动词性短语、主谓短语作定语
+& 2
+= (Người +) động từ (+ tân ngữ) + 的 + danh từ
+- Phần bổ nghĩa luôn đứng TRƯỚC danh từ, nối bằng 的: 我买的书 = cuốn sách (mà) tôi mua.
+- Tiếng Việt đặt phần này sau danh từ (“cuốn sách tôi mua”), tiếng Trung đặt trước.
+- Phần bổ nghĩa có thể dài: 坐在前面的那个人 = người ngồi phía trước kia.
+! Không bỏ 的: nói 我买的书; 我买书 là cả một câu “tôi mua sách”.
+! Không đặt theo thứ tự tiếng Việt: không nói 书我买的 để nói “cuốn sách tôi mua”.
+> 这/是/我/买/的/书。 | Zhè shì wǒ mǎi de shū. | Đây là cuốn sách tôi mua.
+> 妈妈/做/的/菜/很/好吃。 | Māma zuò de cài hěn hǎochī. | Món mẹ nấu rất ngon.
+> 来/中国/旅游/的/人/很/多。 | Lái Zhōngguó lǚyóu de rén hěn duō. | Người đến Trung Quốc du lịch rất đông.
+> 你/认识/坐/在/前面/的/那个/人/吗？ | Nǐ rènshi zuò zài qiánmiàn de nàge rén ma? | Bạn có biết người ngồi phía trước kia không?
+~ 你/认识/那个/坐/在/前面/的/人/吗？
+? 这是我昨天买___衣服。 | 的 | 了; 地; 得 | Zhè shì wǒ zuótiān mǎi de yīfu. | Đây là bộ quần áo tôi mua hôm qua.
+? 你写___字很好看。 | 的 | 了; 地; 很 | Nǐ xiě de zì hěn hǎokàn. | Chữ bạn viết rất đẹp.
+? 那个穿红色衣服___女孩儿是我妹妹。 | 的 | 了; 地; 是 | Nàge chuān hóngsè yīfu de nǚháir shì wǒ mèimei. | Cô bé mặc áo đỏ kia là em gái tôi.
+
+## bo-ngu-ket-qua
+@ Bổ ngữ kết quả: 写错, 听懂, 做好, 学会, 看完
+§ 补语 · 结果补语1：动词+错/懂/好/会/完 · 句子成分：受事主语
+& 3
+= Động từ + 错 / 懂 / 好 / 会 / 完 (+ 了)
+= Phủ định: 没 + động từ + kết quả
+- Chữ thứ hai cho biết KẾT QUẢ của hành động: 写错 (viết sai), 听懂 (nghe hiểu), 做好 (làm xong, làm tốt), 学会 (học được, biết làm), 看完 (xem / đọc xong).
+- Vật được nói tới có thể đưa lên đầu câu: 饭做好了 (cơm nấu xong rồi), 这本书我看完了.
+- Phủ định dùng 没: 我没听懂 (tôi không nghe hiểu).
+! Phủ định bổ ngữ kết quả dùng 没, không dùng 不: nói 我没听懂, không nói 我不听懂.
+! Không chen tân ngữ vào giữa: nói 看完这本书, không nói 看这本书完.
+> 对不起，/我/写/错/了。 | Duìbuqǐ, wǒ xiě cuò le. | Xin lỗi, tôi viết sai rồi.
+> 老师/说/的/话/你/听/懂/了/吗？ | Lǎoshī shuō de huà nǐ tīng dǒng le ma? | Lời thầy nói bạn nghe hiểu chưa?
+~ 你/听/懂/了/老师/说/的/话/吗？
+> 饭/做/好/了，/快/来/吃/吧！ | Fàn zuò hǎo le, kuài lái chī ba! | Cơm nấu xong rồi, mau lại ăn đi!
+> 我/已经/学/会/游泳/了。 | Wǒ yǐjīng xué huì yóuyǒng le. | Tôi đã biết bơi rồi.
+? 这个字你写___了，不是这样写的。 | 错 | 完; 好; 懂 | Zhège zì nǐ xiě cuò le, bú shì zhèyàng xiě de. | Chữ này bạn viết sai rồi, không phải viết như vậy.
+? 老师说得太快，我没听___。 | 懂 | 会; 是; 很 | Lǎoshī shuō de tài kuài, wǒ méi tīng dǒng. | Thầy nói nhanh quá, tôi không nghe hiểu.
+? 这本书我已经看___了。 | 完 | 很; 是; 去 | Zhè běn shū wǒ yǐjīng kàn wán le. | Cuốn sách này tôi đọc xong rồi.
+
+## lap-dong-tu
+@ Lặp động từ: 看看, 问一问, 休息休息 – làm thử, làm một chút
+§ 词类 · 动词重叠：AA、A一A、A了A、ABAB
+& 3
+= AA (看看) · A一A (问一问) · A了A (看了看 – việc đã làm) · ABAB (休息休息)
+- Lặp động từ làm lời nói nhẹ nhàng, nghĩa là “làm thử, làm một chút”: 你看看 (bạn xem thử).
+- Động từ một chữ: 看看 hoặc 看一看; việc đã xảy ra: 看了看.
+- Động từ hai chữ thì lặp cả hai chữ: 休息休息, 介绍介绍.
+- Chữ lặp lại và chữ 一 ở giữa thường đọc nhẹ: kànkan, wèn yi wèn.
+! Động từ hai chữ không lặp kiểu AABB: nói 休息休息, không nói 休休息息.
+! Việc đang diễn ra không dùng động từ lặp: không nói 我正在看看书.
+> 你/看看，/这/件/衣服/怎么样？ | Nǐ kànkan, zhè jiàn yīfu zěnmeyàng? | Bạn xem thử, bộ quần áo này thế nào?
+> 我/想/问/一/问/老师。 | Wǒ xiǎng wèn yi wèn lǎoshī. | Tôi muốn hỏi thầy một chút.
+> 你/累/了，/休息/休息/吧。 | Nǐ lèi le, xiūxi xiūxi ba. | Bạn mệt rồi, nghỉ ngơi một chút đi.
+> 他/看/了/看/我，/没/说话。 | Tā kàn le kàn wǒ, méi shuōhuà. | Anh ấy nhìn tôi một cái, không nói gì.
+? 这个问题你再想___吧。 | 想 | 了; 着; 过 | Zhège wèntí nǐ zài xiǎngxiang ba. | Câu hỏi này bạn nghĩ thêm chút nữa đi.
+? 你给我们介绍___你的家人吧。 | 介绍 | 介; 很; 是 | Nǐ gěi wǒmen jièshào jièshào nǐ de jiārén ba. | Bạn giới thiệu một chút về gia đình bạn cho chúng tôi đi.
+? 让我看___你的手机。 | 看 | 很; 是; 的 | Ràng wǒ kànkan nǐ de shǒujī. | Để tôi xem thử điện thoại của bạn.
+
+## guo-kinh-nghiem
+@ 过: đã từng (nói về trải nghiệm)
+§ 动作的态 · 经历态（用动态助词“过”表示）
+& 4
+= Động từ + 过 (+ tân ngữ)
+= Phủ định: 没 + động từ + 过
+= Hỏi: động từ + 过 + … 吗？
+- 过 nói về trải nghiệm trong quá khứ, đã từng làm ít nhất một lần: 我去过中国.
+- Phủ định: 没 + động từ + 过 = chưa từng: 我没吃过.
+- 过 ở đây đọc nhẹ: guo.
+- Khác 了: 了 nói một việc đã xong; 过 nói người đó đã có trải nghiệm ấy.
+! Phủ định dùng 没, không dùng 不: nói 我没去过, không nói 我不去过.
+! 过 đứng ngay sau động từ, trước tân ngữ: nói 我看过这个电影, không nói 我看这个电影过.
+> 我/去/过/中国。 | Wǒ qù guo Zhōngguó. | Tôi đã từng đến Trung Quốc.
+> 你/学/过/汉语/吗？ | Nǐ xué guo Hànyǔ ma? | Bạn đã từng học tiếng Hán chưa?
+> 我/没/看/过/这个/电影。 | Wǒ méi kàn guo zhège diànyǐng. | Tôi chưa xem bộ phim này bao giờ.
+> 他/以前/在/医院/工作/过。 | Tā yǐqián zài yīyuàn gōngzuò guo. | Trước đây anh ấy từng làm việc ở bệnh viện.
+~ 以前/他/在/医院/工作/过。
+? 我没去___那个商场。 | 过 | 了; 着; 的 | Wǒ méi qù guo nàge shāngchǎng. | Tôi chưa từng đến trung tâm thương mại đó.
+? 你坐___飞机吗？ | 过 | 着; 得; 地 | Nǐ zuò guo fēijī ma? | Bạn đã đi máy bay bao giờ chưa?
+? 我___吃过中国菜。 | 没 | 不; 很; 太 | Wǒ méi chī guo Zhōngguó cài. | Tôi chưa từng ăn món Trung Quốc.

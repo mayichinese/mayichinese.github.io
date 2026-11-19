@@ -117,6 +117,9 @@ def kiem_tra_bien_dieu(han, py):
             loi.append(f'不 đứng trước thanh 4 nên ghi "bú" (đang ghi "{viet}")')
         if c == CHU_BU and sau in (1, 2, 3) and viet not in ('bù', 'bu'):
             loi.append(f'不 đứng trước thanh {sau} nên ghi "bù" (đang ghi "{viet}")')
+        # 一 giữa động từ lặp (看一看, 问一问) đọc nhẹ "yi" – hợp lệ
+        if c == CHU_YI and i > 0 and chu[i - 1] == chu[i + 1] and viet == 'yi':
+            continue
         if c == CHU_YI and sau == 4 and viet not in ('yí', 'yī'):
             loi.append(f'一 trước thanh 4 thường ghi "yí" (đang ghi "{viet}")')
         if c == CHU_YI and sau in (1, 2, 3) and viet not in ('yì', 'yī'):

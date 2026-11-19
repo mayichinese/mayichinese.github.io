@@ -35,6 +35,7 @@
 ! Việc chưa xảy ra không dùng 是……的: không nói 我是明天去的.
 > 你/是/什么时候/来/的？ | Nǐ shì shénme shíhou lái de? | Bạn đến lúc nào?
 > 我/是/去年/来/中国/的。 | Wǒ shì qùnián lái Zhōngguó de. | Tôi đến Trung Quốc từ năm ngoái.
+~ 我/是/去年/来/的/中国。
 > 我们/是/坐/飞机/去/的。 | Wǒmen shì zuò fēijī qù de. | Chúng tôi đi bằng máy bay.
 > 这个/菜/是/妈妈/做/的。 | Zhège cài shì māma zuò de. | Món này là mẹ nấu.
 ? 你是怎么来___？ | 的 | 了; 吗; 呢 | Nǐ shì zěnme lái de? | Bạn đến bằng cách nào?
@@ -68,10 +69,12 @@
 - 给 chỉ người nhận, đứng trước động từ: 给妈妈打电话 (gọi điện cho mẹ), 给朋友买花 (mua hoa cho bạn).
 - 跟 chỉ người cùng làm hoặc người nghe: 跟朋友一起去 (đi cùng bạn), 跟老师说 (nói với thầy).
 - Cụm 给 / 跟 + người đứng TRƯỚC động từ, khác với tiếng Việt (“nói với thầy” → 跟老师说).
-! 说 không có người ngay sau: không nói 说老师; phải nói 跟老师说 hoặc 告诉老师.
+! Muốn nói “nói với thầy” thì không nói 说老师 (说老师 nghĩa là “trách thầy”); phải nói 跟老师说 hoặc 告诉老师.
 ! “Nói chuyện với ai” là 跟……说话, không nói 说话跟…….
 > 我/每天/给/妈妈/打/电话。 | Wǒ měi tiān gěi māma dǎ diànhuà. | Ngày nào tôi cũng gọi điện cho mẹ.
+~ 每天/我/给/妈妈/打/电话。
 > 我/给/你/买/了/一杯/咖啡。 | Wǒ gěi nǐ mǎi le yì bēi kāfēi. | Tôi mua cho bạn một cốc cà phê rồi.
+~ 我/买/了/一杯/咖啡/给/你。
 > 你/跟/老师/说/了/吗？ | Nǐ gēn lǎoshī shuō le ma? | Bạn đã nói với thầy chưa?
 > 我/跟/朋友/一起/去/旅游。 | Wǒ gēn péngyou yìqǐ qù lǚyóu. | Tôi đi du lịch cùng bạn bè.
 ? 晚上我___你打电话。 | 给 | 在; 是; 有 | Wǎnshang wǒ gěi nǐ dǎ diànhuà. | Tối tôi gọi điện cho bạn.
@@ -88,9 +91,13 @@
 - Khác 还是 trong câu hỏi lựa chọn “A hay B” (你喝茶还是喝咖啡？) – học ở bài 10.
 ! Đây là lời khuyên, không phải câu hỏi: cuối câu dùng 吧 và dấu chấm, không dùng 吗.
 > 下雨了，/我们/还是/在家/吧。 | Xià yǔ le, wǒmen háishi zài jiā ba. | Mưa rồi, chúng mình ở nhà thì hơn.
+~ 下雨了，/还是/我们/在家/吧。
 > 太/晚/了，/你/还是/明天/去/吧。 | Tài wǎn le, nǐ háishi míngtiān qù ba. | Muộn quá rồi, mai bạn hãy đi thì hơn.
+~ 太/晚/了，/还是/你/明天/去/吧。
 > 这个/太/贵/了，/我们/还是/买/那个/吧。 | Zhège tài guì le, wǒmen háishi mǎi nàge ba. | Cái này đắt quá, mình mua cái kia thì hơn.
+~ 这个/太/贵/了，/还是/我们/买/那个/吧。
 > 你/不/舒服，/还是/休息/一下/吧。 | Nǐ bù shūfu, háishi xiūxi yíxià ba. | Bạn không khỏe, nghỉ một chút thì hơn.
+~ 不/舒服，/你/还是/休息/一下/吧。
 ? 太远了，我们___坐地铁吧。 | 还是 | 但是; 所以; 因为 | Tài yuǎn le, wǒmen háishi zuò dìtiě ba. | Xa quá, chúng mình đi tàu điện ngầm thì hơn.
 ? 外面很冷，你还是穿这件衣服___。 | 吧 | 吗; 呢; 的 | Wàimiàn hěn lěng, nǐ háishi chuān zhè jiàn yīfu ba. | Ngoài trời lạnh, bạn mặc bộ này thì hơn.
 ? 这家饭馆人太多了，我们___去别的饭馆吧。 | 还是 | 但是; 虽然; 因为 | Zhè jiā fànguǎn rén tài duō le, wǒmen háishi qù bié de fànguǎn ba. | Quán này đông quá, chúng mình đi quán khác thì hơn.

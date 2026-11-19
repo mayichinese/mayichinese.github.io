@@ -1,0 +1,109 @@
+# ===== NGỮ PHÁP HSK 2 – ĐỢT 6 (soạn tay) =====
+# Cách viết: xem đầu file cong-cu/ghep-ngu-phap.py. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–2.
+# Sửa xong chạy: python -X utf8 cong-cu/ghep-ngu-phap.py 2
+
+## hoi-lua-chon
+@ Câu hỏi lựa chọn: (是) A 还是 B？
+§ 句类 · 疑问句：用“还是”连接的选择问句 · 选择复句（是）……，还是…… · 连词“还是2”
+& 10
+= (是) + A + 还是 + B？
+- Đưa ra hai lựa chọn để người nghe chọn: 你喝茶还是喝咖啡？ (bạn uống trà hay cà phê?).
+- Có thể thêm 是 trước A: 你是今天去还是明天去？
+- Câu hỏi “A hay B” dùng 还是; khác 还是……吧 (… thì hơn, bài 2).
+! Câu hỏi với 还是 không thêm 吗 ở cuối: nói 你去还是我去？, không nói 你去还是我去吗？
+! Trả lời thì chọn một trong hai, không trả lời 是 / 不是.
+> 你/喝茶/还是/喝咖啡？ | Nǐ hē chá háishi hē kāfēi? | Bạn uống trà hay uống cà phê?
+~ 你/喝咖啡/还是/喝茶？
+> 你/是/今天去/还是/明天去？ | Nǐ shì jīntiān qù háishi míngtiān qù? | Bạn đi hôm nay hay ngày mai?
+~ 你/是/明天去/还是/今天去？
+> 这/是/你的/还是/他的？ | Zhè shì nǐ de háishi tā de? | Cái này là của bạn hay của anh ấy?
+~ 这/是/他的/还是/你的？
+> 我们/坐地铁/还是/打车？ | Wǒmen zuò dìtiě háishi dǎchē? | Chúng ta đi tàu điện ngầm hay đi taxi?
+~ 我们/打车/还是/坐地铁？
+? 你要红的___白的？ | 还是 | 但是; 所以; 因为 | Nǐ yào hóng de háishi bái de? | Bạn muốn cái đỏ hay cái trắng?
+? 你是坐公交车来的___走路来的？ | 还是 | 但是; 所以; 吗 | Nǐ shì zuò gōngjiāochē lái de háishi zǒulù lái de? | Bạn đi xe buýt đến hay đi bộ đến?
+? 我们今天去___明天去？ | 还是 | 但是; 因为; 虽然 | Wǒmen jīntiān qù háishi míngtiān qù? | Chúng ta đi hôm nay hay ngày mai?
+
+## sap-le
+@ Sắp… rồi: 要……了 / 快……了 / 快要……了 / 就要……了
+§ 固定格式 · 要/快要/就要……了 · 副词“快、快要”
+& 10
+= 要 / 快 / 快要 / 就要 + động từ (+ tân ngữ) + 了
+= 快 + số / thời gian + 了   (快十二点了)
+- Dùng khi việc sắp xảy ra: 要下雨了 (sắp mưa rồi), 快到了 (sắp đến rồi).
+- Có thời điểm cụ thể đứng trước thì dùng 就要……了: 明天就要考试了.
+- 快 có thể đứng ngay trước số, thời gian: 快十二点了 (sắp mười hai giờ rồi).
+! Cuối câu phải có 了: nói 快要考试了, không nói 快要考试.
+! Có thời gian cụ thể thì không dùng 快 / 快要: nói 下个星期就要开学了, không nói 下个星期快要开学了.
+> 要/下雨/了，/我们/回家/吧。 | Yào xià yǔ le, wǒmen huí jiā ba. | Sắp mưa rồi, chúng ta về nhà thôi.
+> 火车/快要/开/了。 | Huǒchē kuàiyào kāi le. | Tàu sắp chạy rồi.
+> 快/十二/点/了。 | Kuài shí'èr diǎn le. | Sắp mười hai giờ rồi.
+> 明天/就要/考试/了。 | Míngtiān jiùyào kǎoshì le. | Mai là thi rồi.
+? 电影快要开始___。 | 了 | 的; 过; 着 | Diànyǐng kuàiyào kāishǐ le. | Phim sắp bắt đầu rồi.
+? 下个星期我们___要回国了。 | 就 | 快; 很; 太 | Xià ge xīngqī wǒmen jiù yào huí guó le. | Tuần sau chúng tôi về nước rồi.
+? ___到车站了，你准备一下吧。 | 快 | 很; 太; 还 | Kuài dào chēzhàn le, nǐ zhǔnbèi yíxià ba. | Sắp đến bến rồi, bạn chuẩn bị đi.
+
+## zhe-tiep-dien
+@ 着: trạng thái đang kéo dài; vừa… vừa…
+§ 动作的态 · 持续态：动词+着（表示状态的持续；表示动作的持续）· 助词“着”
+& 11
+= Động từ + 着 (+ tân ngữ)   (门开着, 他拿着一本书)
+= Động từ 1 + 着 + động từ 2   (笑着说, 坐着吃)
+= Phủ định: 没 + động từ + 着
+- 着 cho biết một trạng thái đang kéo dài: 门开着 (cửa đang mở), 他穿着红色的衣服 (anh ấy đang mặc áo đỏ).
+- Động từ 1 + 着 + động từ 2: làm việc 2 trong lúc ở trạng thái 1: 笑着说 (cười nói), 坐着吃 (ngồi ăn).
+- Khác 在 / 正在 (đang làm một hành động): 他在穿衣服 (đang mặc quần áo vào) ≠ 他穿着衣服 (quần áo đang ở trên người).
+! Phủ định dùng 没: nói 门没开着, không nói 门不开着.
+! 着 đứng ngay sau động từ: nói 拿着书, không nói 拿书着.
+> 门/开/着/呢。 | Mén kāi zhe ne. | Cửa đang mở đấy.
+> 他/穿/着/一/件/红色/的/衣服。 | Tā chuān zhe yí jiàn hóngsè de yīfu. | Anh ấy mặc một chiếc áo màu đỏ.
+> 她/笑/着/跟/我/说/话。 | Tā xiào zhe gēn wǒ shuōhuà. | Cô ấy vừa cười vừa nói chuyện với tôi.
+> 我们/坐/着/吃/吧。 | Wǒmen zuò zhe chī ba. | Chúng mình ngồi ăn đi.
+? 他手里拿___一本书。 | 着 | 得; 地; 的 | Tā shǒu li ná zhe yì běn shū. | Trong tay anh ấy đang cầm một cuốn sách.
+? 外面下___雨，别出去了。 | 着 | 得; 地; 的 | Wàimiàn xià zhe yǔ, bié chūqù le. | Bên ngoài đang mưa, đừng ra ngoài nữa.
+? 教室的门没开___。 | 着 | 得; 地; 很 | Jiàoshì de mén méi kāi zhe. | Cửa lớp không mở.
+
+## pho-tu-muc-do
+@ Mức độ: 最 (nhất), 好 (… quá), 多 (… biết bao), 好多 (rất nhiều)
+§ 副词 · 程度副词“多、好、最” · 数词“好多”
+& 11
+= 最 + tính từ / động từ chỉ cảm xúc   (…nhất)
+= 好 + tính từ (+ 啊)   (… quá, thật là…)
+= 多 + tính từ + 啊！   (… biết bao!)
+= 好多 + danh từ   (rất nhiều…)
+- 最 = nhất: 我最喜欢绿色 (tôi thích màu xanh lá nhất).
+- 好 + tính từ trong văn nói giống 很 nhưng cảm xúc mạnh hơn: 今天好冷啊！ (hôm nay lạnh quá!).
+- 多 + tính từ + 啊 là câu cảm thán: 这儿多漂亮啊！ (ở đây đẹp biết bao!).
+- 好多 = rất nhiều: 好多人 (rất nhiều người).
+! 最 đứng trước tính từ, không đứng sau: nói 最高, không nói 高最.
+! 多……啊！ là câu cảm thán, khác câu hỏi 多大？ (bao nhiêu tuổi, lớn chừng nào?).
+> 我/最/喜欢/吃/鱼。 | Wǒ zuì xǐhuan chī yú. | Tôi thích ăn cá nhất.
+> 今天/好/冷/啊！ | Jīntiān hǎo lěng a! | Hôm nay lạnh quá!
+> 这儿/的/花/多/漂亮/啊！ | Zhèr de huā duō piàoliang a! | Hoa ở đây đẹp biết bao!
+> 商场/里/有/好多/人。 | Shāngchǎng li yǒu hǎoduō rén. | Trong trung tâm thương mại có rất nhiều người.
+? 他是我们班个子___高的。 | 最 | 多; 都; 也 | Tā shì wǒmen bān gèzi zuì gāo de. | Cậu ấy cao nhất lớp tôi.
+? 那儿的鸟多漂亮___！ | 啊 | 吗; 吧; 了 | Nàr de niǎo duō piàoliang a! | Chim ở đó đẹp biết bao!
+? 今天来了___多人。 | 好 | 是; 都; 也 | Jīntiān lái le hǎoduō rén. | Hôm nay có rất nhiều người đến.
+
+## so-sanh-dong-tu
+@ So sánh cách làm: 他比我跑得快 = 他跑得比我快
+§ 特殊句型 · 比较句1：A比B+动词+得+形容词 / A+动词+得+比+B+形容词
+& 12
+= A + 比 + B + động từ + 得 + tính từ
+= A + động từ + 得 + 比 + B + tính từ
+= Phủ định: A + 没有 + B + động từ + 得 + (那么) + tính từ  /  A + động từ + 得 + 没有 + B + tính từ
+- So sánh hai người làm cùng một việc: 他比我跑得快 = 他跑得比我快 (anh ấy chạy nhanh hơn tôi). Hai cách nói nghĩa như nhau.
+- Phủ định: 我没有他跑得快 hoặc 我跑得没有他快 (tôi chạy không nhanh bằng anh ấy).
+! Không dùng 很 trước tính từ: nói 他跑得比我快, không nói 他跑得比我很快.
+! 比 B đứng trước tính từ, không đứng sau: không nói 他跑得快比我.
+> 他/比我/跑/得/快。 | Tā bǐ wǒ pǎo de kuài. | Anh ấy chạy nhanh hơn tôi.
+~ 他/跑/得/比我/快。
+> 姐姐/唱/得/比我/好听。 | Jiějie chàng de bǐ wǒ hǎotīng. | Chị tôi hát hay hơn tôi.
+~ 姐姐/比我/唱/得/好听。
+> 我/比你/来/得/早。 | Wǒ bǐ nǐ lái de zǎo. | Tôi đến sớm hơn bạn.
+~ 我/来/得/比你/早。
+> 我/没有他/写/得/好。 | Wǒ méiyǒu tā xiě de hǎo. | Tôi viết không đẹp bằng anh ấy.
+~ 我/写/得/没有他/好。
+? 他说汉语说得___我好。 | 比 | 很; 是; 在 | Tā shuō Hànyǔ shuō de bǐ wǒ hǎo. | Anh ấy nói tiếng Hán giỏi hơn tôi.
+? 妹妹比我跑___快。 | 得 | 地; 很; 了 | Mèimei bǐ wǒ pǎo de kuài. | Em gái chạy nhanh hơn tôi.
+? 我没有他写得___好。 | 那么 | 很; 太; 非常 | Wǒ méiyǒu tā xiě de nàme hǎo. | Tôi viết không đẹp bằng anh ấy.

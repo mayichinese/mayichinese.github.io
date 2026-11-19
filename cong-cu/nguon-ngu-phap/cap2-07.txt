@@ -1,0 +1,121 @@
+# ===== NGỮ PHÁP HSK 2 – ĐỢT 7 (soạn tay) =====
+# Cách viết: xem đầu file cong-cu/ghep-ngu-phap.py. Câu ví dụ tự đặt, chỉ dùng chữ cấp 1–2.
+# Sửa xong chạy: python -X utf8 cong-cu/ghep-ngu-phap.py 2
+
+## song-tan-ngu-gei
+@ Động từ + 给 + người + vật: 送给他一本书
+§ 特殊句型 · 双宾语句2：主语+动词+给+宾语1+宾语2
+& 13
+= A + động từ + 给 + người + vật
+- Một số động từ thêm 给 ngay sau để chỉ rõ người nhận: 我送给妈妈一件衣服 (tôi tặng mẹ một bộ quần áo).
+- Động từ hay gặp: 送给 (tặng cho), 拿给 (đưa cho), 教给 (dạy cho).
+- Có thể đưa vật lên trước: 这本书送给你 (cuốn sách này tặng bạn).
+! Người đứng trước, vật đứng sau: nói 送给他一本书, không nói 送给一本书他.
+! 给 đứng ngay SAU động từ trong mẫu này: không nói 我给送他一本书.
+> 我/送给/妈妈/一件/衣服。 | Wǒ sòng gěi māma yí jiàn yīfu. | Tôi tặng mẹ một bộ quần áo.
+> 请/你/拿给/我/那本/书。 | Qǐng nǐ ná gěi wǒ nà běn shū. | Bạn đưa cho tôi cuốn sách kia nhé.
+> 这个手表/是/他/送给/我/的。 | Zhège shǒubiǎo shì tā sòng gěi wǒ de. | Chiếc đồng hồ này là anh ấy tặng tôi.
+> 老师/教给/我们/很多/东西。 | Lǎoshī jiāo gěi wǒmen hěn duō dōngxi. | Thầy dạy cho chúng tôi rất nhiều điều.
+? 我想送___他一个书包。 | 给 | 在; 到; 是 | Wǒ xiǎng sòng gěi tā yí ge shūbāo. | Tôi muốn tặng cậu ấy một cái cặp.
+? 你拿给我___杯水，好吗？ | 一 | 很; 是; 的 | Nǐ ná gěi wǒ yì bēi shuǐ, hǎo ma? | Bạn đưa cho tôi một cốc nước được không?
+? 这些花是我送___你的。 | 给 | 在; 到; 是 | Zhèxiē huā shì wǒ sòng gěi nǐ de. | Những bông hoa này là tôi tặng bạn.
+
+## ton-hien-zhe
+@ Câu tồn hiện với 着: 门口坐着一个人 (ở cửa có một người đang ngồi)
+§ 特殊句型 · 存现句2：处所+动词+着（+数量短语）+名词
+& 14
+= Nơi chốn + động từ + 着 + (số + lượng từ) + người / vật
+- Mô tả ở một nơi có ai / cái gì đang ở trạng thái nào: 门口坐着一个人 (ở cửa có một người đang ngồi), 本子上写着名字 (trên vở có ghi tên).
+- Nơi chốn đứng đầu câu; người / vật đứng sau động từ.
+- Ở cấp 1 đã học 桌子上有一本书; ở đây thay 有 bằng động từ + 着 để nói rõ trạng thái.
+! Phải có 着 sau động từ: nói 门口坐着一个人, không nói 门口坐一个人.
+! Người / vật trong câu thường là cái chưa biết nên đi với số + lượng từ (一个人), không dùng 这个 / 那个.
+> 门口/坐/着/一个/人。 | Ménkǒu zuò zhe yí ge rén. | Ở cửa có một người đang ngồi.
+> 本子/上/写/着/他/的/名字。 | Běnzi shang xiě zhe tā de míngzi. | Trên vở có ghi tên cậu ấy.
+> 楼上/住/着/一家/人。 | Lóu shàng zhù zhe yì jiā rén. | Trên lầu có một gia đình đang ở.
+> 椅子/上/坐/着/一个/小孩儿。 | Yǐzi shang zuò zhe yí ge xiǎoháir. | Trên ghế có một đứa bé đang ngồi.
+? 教室里坐___很多学生。 | 着 | 在; 得; 地 | Jiàoshì li zuò zhe hěn duō xuésheng. | Trong lớp có nhiều học sinh đang ngồi.
+? 书上写___老师的名字。 | 着 | 得; 地; 很 | Shū shang xiě zhe lǎoshī de míngzi. | Trên sách có ghi tên thầy giáo.
+? 我家楼下住___一个医生。 | 着 | 得; 地; 很 | Wǒ jiā lóu xià zhù zhe yí ge yīshēng. | Dưới lầu nhà tôi có một bác sĩ sống.
+
+## xu-huong-kep
+@ Bổ ngữ xu hướng kép: 走进来, 跑出去, 站起来
+§ 补语 · 趋向补语1：复合趋向补语（动词+出来/出去/过来/过去/回来/回去/进来/进去/起来/上来/上去/下来/下去）
+& 14
+= Động từ + 上 / 下 / 进 / 出 / 过 / 回 / 起 + 来 / 去
+= Động từ + 进 / 回 / 上… + nơi chốn + 来 / 去   (走进教室来)
+- Động từ cho biết cách di chuyển (走 đi, 跑 chạy, 拿 cầm…), phần sau cho biết hướng: 走进来 (đi vào đây), 跑出去 (chạy ra ngoài).
+- 来 / 去 vẫn chọn theo chỗ người nói như bài 5.
+- 起来 = từ dưới lên: 站起来 (đứng dậy).
+- Nơi chốn đứng trước 来 / 去: 走进教室来, 跑回家去.
+! Nơi chốn không đứng sau 来 / 去: nói 走进教室来, không nói 走进来教室.
+! Thứ tự luôn là 进 / 出 / 上… rồi mới đến 来 / 去: nói 走进来, không nói 走来进.
+> 老师/走/进来/了。 | Lǎoshī zǒu jìnlái le. | Thầy giáo đi vào rồi.
+> 孩子们/跑/出去/玩儿/了。 | Háizimen pǎo chūqù wánr le. | Bọn trẻ chạy ra ngoài chơi rồi.
+> 他/从/椅子/上/站/起来/了。 | Tā cóng yǐzi shang zhàn qǐlái le. | Anh ấy đứng dậy khỏi ghế.
+> 他/从/书包/里/拿/出来/一/本/书。 | Tā cóng shūbāo li ná chūlái yì běn shū. | Anh ấy lấy ra một cuốn sách từ trong cặp.
+? 他跑进教室___了。 | 来 | 得; 过; 着 | Tā pǎo jìn jiàoshì lái le. | Anh ấy chạy vào lớp.
+? 外面太冷了，你快跑进___吧。 | 来 | 过; 着; 得 | Wàimiàn tài lěng le, nǐ kuài pǎo jìnlái ba. | Ngoài trời lạnh lắm, bạn mau chạy vào đây đi.
+? 他拿___来一本书。 | 出 | 是; 在; 很 | Tā ná chūlái yì běn shū. | Anh ấy lấy ra một cuốn sách.
+
+## bo-ngu-dong-luong
+@ Số lần làm việc gì: 去过两次, 见过他一次
+§ 补语 · 数量补语：动词+动量补语（次）· 量词“次”
+& 15
+= Động từ + (了 / 过) + số + 次 + danh từ   (去过两次中国)
+= Động từ + (了 / 过) + đại từ / tên người + số + 次   (见过他一次)
+- Số lần đứng SAU động từ: 这个电影我看了三次 (bộ phim này tôi xem ba lần).
+- Tân ngữ là người (他, 我, 老师…) thì đứng trước số lần: 我找了他两次.
+- Tên nơi chốn đứng trước hay sau số lần đều được: 去过两次中国 / 去过中国两次.
+- Hỏi: 几次？ (mấy lần?).
+! Số lần không đứng trước động từ: nói 我去过两次, không nói 我两次去过.
+! Với đại từ chỉ người: nói 我找了他两次, không nói 我找了两次他.
+> 我/去/过/两次/中国。 | Wǒ qù guo liǎng cì Zhōngguó. | Tôi đã đến Trung Quốc hai lần.
+~ 我/去/过/中国/两次。
+> 这个/电影/我/看/了/三次。 | Zhège diànyǐng wǒ kàn le sān cì. | Bộ phim này tôi đã xem ba lần.
+~ 我/看/了/这个/电影/三次。
+~ 我/这个/电影/看/了/三次。
+> 我/见/过/他/一次。 | Wǒ jiàn guo tā yí cì. | Tôi đã gặp anh ấy một lần.
+> 这个/药/一天/吃/三次。 | Zhège yào yì tiān chī sān cì. | Thuốc này mỗi ngày uống ba lần.
+? 我给他打了两___电话。 | 次 | 本; 件; 岁 | Wǒ gěi tā dǎ le liǎng cì diànhuà. | Tôi gọi cho anh ấy hai lần.
+? 我找了___两次，他都不在。 | 他 | 很; 是; 的 | Wǒ zhǎo le tā liǎng cì, tā dōu bú zài. | Tôi tìm anh ấy hai lần, lần nào anh ấy cũng không có ở đó.
+? 你来过几___中国？ | 次 | 个; 本; 岁 | Nǐ lái guo jǐ cì Zhōngguó? | Bạn đã đến Trung Quốc mấy lần?
+
+## you-dat-den
+@ 有 chỉ mức đạt tới: 有二十公里, 有多远？
+§ 特殊句型 · “有”字句2（表示达到）
+& 15
+= A + 有 + số lượng
+= Hỏi: A + 有 + 多 + tính từ？   (有多远？ 有多高？)
+- 有 ở đây nghĩa là “tới, được, có tới” một con số: 从这儿到机场有二十公里 (từ đây đến sân bay có tới hai mươi cây số).
+- Hỏi chiều cao, khoảng cách, thời gian…: 有多高？ 有多远？ 有多长？
+- 这个孩子有十岁了吗？ = đứa bé này được mười tuổi chưa?
+! Hỏi dùng 多 + tính từ, không dùng 多少 + tính từ: nói 有多远？, không nói 有多少远？
+! 有 ở đây không phải “sở hữu”: 他儿子有二十岁了 = con trai ông ấy đã được hai mươi tuổi.
+> 从/这儿/到/机场/有/二十/公里。 | Cóng zhèr dào jīchǎng yǒu èrshí gōnglǐ. | Từ đây đến sân bay có tới hai mươi cây số.
+> 你/弟弟/有/多/高？ | Nǐ dìdi yǒu duō gāo? | Em trai bạn cao bao nhiêu?
+> 这个/孩子/有/十/岁/了/吗？ | Zhège háizi yǒu shí suì le ma? | Đứa bé này đã được mười tuổi chưa?
+> 坐/地铁/去/机场/有/一个/多/小时。 | Zuò dìtiě qù jīchǎng yǒu yí ge duō xiǎoshí. | Đi tàu điện ngầm ra sân bay mất hơn một tiếng.
+? 这条路___多长？ | 有 | 在; 很; 都 | Zhè tiáo lù yǒu duō cháng? | Con đường này dài bao nhiêu?
+? 你家离这儿有多___？ | 远 | 少; 个; 次 | Nǐ jiā lí zhèr yǒu duō yuǎn? | Nhà bạn cách đây bao xa?
+? 他儿子___二十岁了。 | 有 | 在; 很; 地 | Tā érzi yǒu èrshí suì le. | Con trai ông ấy đã được hai mươi tuổi rồi.
+
+## ly-hop-2
+@ Từ ly hợp cấp 2: 帮忙, 游泳, 跳舞, 跑步
+§ 动词 · 离合词（帮忙、游泳、跳舞、跑步）
+& 15
+= Động từ + (了 / 过) + người 的 / số lượng / thời gian + phần sau   (帮我的忙, 游了一个小时泳)
+- Các từ này gồm “động từ + danh từ”, có thể tách ra để chen thêm: 帮忙 → 帮我一个忙; 游泳 → 游了一个小时泳; 跳舞 → 跳了一会儿舞.
+- Ở cấp 1 đã gặp các từ cùng kiểu: 睡觉, 上课, 说话….
+- Muốn nói thời gian mà không tách, có thể lặp động từ: 游泳游了一个小时, 跑步跑了半个小时.
+! Không đặt tân ngữ sau cả từ: nói 帮我 / 帮我的忙, không nói 帮忙我.
+! Thời gian chen vào giữa hoặc lặp động từ: nói 游了一个小时泳 / 游泳游了一个小时, không nói 游泳了一个小时.
+> 你/能/帮/我/一个/忙/吗？ | Nǐ néng bāng wǒ yí ge máng ma? | Bạn giúp tôi một việc được không?
+> 我/今天/游/了/一个/小时/的/泳。 | Wǒ jīntiān yóu le yí ge xiǎoshí de yǒng. | Hôm nay tôi bơi một tiếng.
+~ 今天/我/游/了/一个/小时/的/泳。
+> 我们/跳/了/一会儿/舞。 | Wǒmen tiào le yíhuìr wǔ. | Chúng tôi nhảy một lúc.
+> 他/每天/早上/跑步/跑/半个/小时。 | Tā měi tiān zǎoshang pǎobù pǎo bàn ge xiǎoshí. | Sáng nào anh ấy cũng chạy bộ nửa tiếng.
+~ 每天/早上/他/跑步/跑/半个/小时。
+? 谢谢你帮了我的___。 | 忙 | 帮; 手; 事 | Xièxie nǐ bāng le wǒ de máng. | Cảm ơn bạn đã giúp tôi.
+? 我游了一个小时___。 | 泳 | 游; 球; 舞 | Wǒ yóu le yí ge xiǎoshí yǒng. | Tôi bơi một tiếng.
+? 昨天晚上我们跳___舞。 | 了 | 很; 在; 是 | Zuótiān wǎnshang wǒmen tiào le wǔ. | Tối qua chúng tôi đã đi nhảy.
