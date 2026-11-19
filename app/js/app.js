@@ -23,7 +23,7 @@
 //   #/ngu-phap     Ngữ pháp: danh sách điểm     → man-ngu-phap.js
 //   #/ngu-phap/<mã>           bài học một điểm      #/ngu-phap/<mã>/luyen  luyện tập điểm đó
 //   #/ngu-phap/on             ôn các điểm đến hạn
-//   #/thong-ke     Thống kê (sắp có)            → man-sap-co.js
+//   #/thong-ke     Thống kê                     → man-thong-ke.js
 //   #/cai-dat      Cài đặt, sao lưu             → man-cai-dat.js
 // =========================================================
 
@@ -36,7 +36,7 @@ import { veTrangChu } from './man-trang-chu.js';
 import { vePhien } from './man-the-tu.js';
 import { veDanhSachBai, veBai, veTu } from './man-bai-hoc.js';
 import { veCaiDat } from './man-cai-dat.js';
-import { veThongKe } from './man-sap-co.js';
+import { veThongKe } from './man-thong-ke.js';
 import { veLuyenTap } from './man-luyen-tap.js';
 import { veLuyenViet, vePhienViet, moCachViet } from './man-luyen-viet.js';
 import { veThanhDieu, vePhienThanh, CAC_DANG } from './man-thanh-dieu.js';

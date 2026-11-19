@@ -59,7 +59,7 @@ Tiến độ trên máy tính và trên điện thoại là **hai bản riêng**
 | 🏠 **Hôm nay** | Xem việc cần làm hôm nay, chuỗi ngày học liên tục, 7 ngày trong tuần, kế hoạch 60 phút |
 | 📚 **Bài học** | Vào Ôn tập / Từ mới, chọn bài, tìm từ (chữ Hán, pinyin, nghĩa, Hán Việt) |
 | ✏️ **Luyện tập** | 🎧 Luyện thanh điệu, ✍️ Luyện viết chữ Hán, 📝 Trắc nghiệm, 🧩 Ngữ pháp |
-| 📊 **Thống kê** | **Sắp có** |
+| 📊 **Thống kê** | Chuỗi ngày học (hiện tại, dài nhất), biểu đồ số phút học 7 / 30 ngày theo 5 phần (chạm cột để xem chi tiết, có cả dạng bảng), tiến độ từ vựng / chữ viết / ngữ pháp, tỉ lệ đúng, **những từ hay sai nhất**, chữ viết hay sai, thanh hay nhầm |
 
 Hai nút ở góc trên bên phải: **🌙/☀️** chuyển nhanh giữa giao diện tối và sáng; nút **Cài đặt** (biểu tượng thanh trượt) mở phần cài đặt và sao lưu.
 Mặc định app sáng/tối **theo máy**. Muốn quay lại chế độ này: **Cài đặt → Giao diện → Theo máy**.
@@ -181,7 +181,7 @@ MayiChinese/
 │   │   ├── net-chu.js      ← vẽ thứ tự nét (dùng thư viện Hanzi Writer)
 │   │   ├── man-trac-nghiem.js ← trắc nghiệm, sổ câu sai, kiểm tra theo bài
 │   │   ├── man-ngu-phap.js ← ngữ pháp: bài học, sắp xếp câu, điền từ
-│   │   ├── man-sap-co.js   ← Thống kê (sắp có)
+│   │   ├── man-thong-ke.js ← Thống kê (biểu đồ phút học, từ hay sai…)
 │   │   ├── pinyin.js       ← tô màu thanh điệu, tách âm tiết
 │   │   ├── bieu-tuong.js   ← các biểu tượng
 │   │   ├── phien-hoc.js    ← chọn thẻ tiếp theo khi học/ôn

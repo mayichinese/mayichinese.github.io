@@ -39,7 +39,10 @@
   - `data/hsk1.json`: dữ liệu HSK 1 (20 bài, 300 từ, 625 câu ví dụ) – **file được tạo tự động, không sửa tay**.
   - `data/chinh-thuc/`: danh sách từ và chữ Hán chính thức HSK 3.0, trích từ đề cương 2025.
 - `cong-cu/` – script tạo và kiểm tra dữ liệu. `cong-cu/nguon-hsk1/bai-*.txt` là nguồn soạn tay.
-- `tai-lieu/` – PDF đề cương thi HSK 2025.
+- `tai-lieu/` – PDF đề cương thi HSK 2025. `tai-lieu/giao-trinh/` – sách 《新HSK教程》 bản 2026 (PDF ảnh scan,
+  có bản quyền): CHỈ tham khảo cấu trúc (thứ tự bài, dạng đề thi), không chép nội dung; thư mục đã nằm trong
+  `.gitignore` – không bao giờ đưa lên GitHub (kho công khai).
+- Giai đoạn 5.1: `js/man-thong-ke.js` (chỉ đọc tiến độ; biểu đồ SVG tự vẽ, màu `--bd-1…5` đã kiểm tra mù màu).
 - `CHAY-APP.bat` – chạy app trên máy (máy chủ nhỏ ở localhost). `HUONG-DAN.md` – hướng dẫn người dùng.
 
 ## Dữ liệu

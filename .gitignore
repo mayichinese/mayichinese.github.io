@@ -4,3 +4,6 @@ cong-cu/tu-dien-doi-chieu/
 # File tạm của Python
 __pycache__/
 *.pyc
+
+# Giáo trình có bản quyền – chỉ để tham khảo trên máy, KHÔNG đưa lên GitHub (kho công khai)
+tai-lieu/giao-trinh/
