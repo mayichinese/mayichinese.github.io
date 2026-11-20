@@ -26,6 +26,7 @@ import { esc, thongBao } from './giao-dien.js';
 import { bieuTuong } from './bieu-tuong.js';
 import { toMauPinyin } from './pinyin.js';
 import { taoBangVe } from './net-chu.js';
+import { capMo, htmlCachMoKhoa, layCapVuaMo } from './cap-do.js';
 
 const CHU_CAI = 'ABCDEF';
 const LOI_VIET_TOI_DA = 3;      // viết chữ: hoàn thành với tối đa 3 nét sai thì tính đúng
@@ -444,6 +445,15 @@ export function veThiThu(khung, capChon) {
   if (capChon) capXem = capChon;
   const cap = capXem;
   const ch = CAU_HINH[cap];
+  const chip = [1, 2, 3].map((c) => `<button class="chip ${c === cap ? 'dang-chon' : ''} ${capMo(c) ? '' : 'chip-khoa'}" data-cap="${c}">HSK ${c}${capMo(c) ? '' : ' <span class="emoji">🔒</span>'}</button>`).join('');
+  // Cấp đang khóa: chỉ hiện cách mở khóa (thi thử cấp dưới để học vượt)
+  if (!capMo(cap)) {
+    khung.innerHTML = `<div class="hang-chip" style="margin-top:4px">${chip}</div><div style="margin-top:12px">${htmlCachMoKhoa(cap)}</div>`;
+    khung.querySelectorAll('[data-cap]').forEach((b) => { b.onclick = () => veThiThu(khung, Number(b.dataset.cap)); });
+    return;
+  }
+  const moTiep = CAU_HINH[cap + 1] && !capMo(cap + 1)
+    ? `<p class="can-kiem-tra" style="margin-top:0">🔓 <b>Học vượt:</b> đạt từ ${thangDiem(cap).dat} điểm bài này sẽ mở khóa <b>HSK ${cap + 1}</b>.</p>` : '';
   const lichSu = (layTienDo().thiThu || []).filter((x) => (x.cap || 1) === cap).reverse();
   const tt = tinhTrangPhatAm();
   const thang = thangDiem(cap);
@@ -451,8 +461,9 @@ export function veThiThu(khung, capChon) {
   const bang = ch.cauTruc.map(([ten, so, dong]) => dong.map((d, i) => `<tr>${i === 0
     ? `<th rowspan="${dong.length}">${ten}<br><small>${so}</small></th>` : ''}<td>${d}</td></tr>`).join('')).join('');
   khung.innerHTML = `
-    <div class="hang-chip" style="margin-top:4px">${[1, 2, 3].map((c) => `<button class="chip ${c === cap ? 'dang-chon' : ''}" data-cap="${c}">HSK ${c}</button>`).join('')}</div>
+    <div class="hang-chip" style="margin-top:4px">${chip}</div>
     <section class="khung gioi-thieu-thi" style="margin-top:12px">
+      ${moTiep}
       <div class="goc-the"><span class="nhan nhan-chinh">📋 HSK ${cap} · đề mô phỏng</span><span class="chu-phu nho">${ch.soCau} câu · ~${ch.phut} phút</span></div>
       <h2>Thi thử HSK ${cap}</h2>
       <table class="bang-cau-truc">${bang}</table>
@@ -805,11 +816,14 @@ export function veLamBai(khung, cap = 1) {
         </div>`;
       }).join('');
       const tomTat = moTaDiemPhan(kq);
+      const vuaMo = layCapVuaMo();   // đạt → có thể vừa mở khóa cấp sau ("học vượt")
       khung.innerHTML = `
         <div class="ket-thuc">
           <div class="emoji emoji-to">${dat ? '🏆' : '💪'}</div>
           <h2>${tong}/${thang.toiDa} điểm</h2>
           <p><span class="nhan ${dat ? 'nhan-dat' : ''}" style="font-size:.95rem">${dat ? `✅ Đạt (từ ${thang.dat} điểm)` : `Chưa đạt – cần thêm ${thang.dat - tong} điểm`}</span></p>
+          ${vuaMo.length ? `<div class="khung the-mo-khoa"><span class="emoji">🔓</span><b>Đã mở khóa HSK ${vuaMo.join(', ')}!</b>
+            <a class="nut nut-chinh nut-rong" href="#/bai">Vào học HSK ${vuaMo[0]}</a></div>` : ''}
           <p class="chu-phu">${tomTat} · ${Math.round(giayDaLam / 60)} phút</p>
           <div class="khung" style="width:100%"><table class="bang-diem-phan">${theoPhan}</table></div>
           <a class="nut nut-chinh nut-rong" href="#/thi-thu" id="nut-thi-lai">📋 Thi đề khác</a>

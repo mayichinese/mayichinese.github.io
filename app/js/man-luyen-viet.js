@@ -18,6 +18,7 @@ import { doc } from './phat-am.js';
 import { esc, batDongHo, moHopThoai, nutLoa, CHU_THICH_CHAM } from './giao-dien.js';
 import { toMauPinyin, demChuHan } from './pinyin.js';
 import { taiNetChu, taoBangVe, phatHoatCanh } from './net-chu.js';
+import { capMo } from './cap-do.js';
 
 const LAP_TOI_DA = 3;          // một chữ chưa thuộc được đưa lại tối đa 3 lần trong một phiên
 const LA_CHU_HAN = /\p{Script=Han}/u;
@@ -50,7 +51,8 @@ function chuMoiTheoThuTu(vietTay) {
 /** Mọi chữ cần viết tay (cấp 1–2 rồi cấp 3) */
 const tatCaChuViet = (duLieu) => [...duLieu.vietTay12, ...(duLieu.vietTay3 || [])];
 /** Chữ mới theo thứ tự: hết cấp 1–2 rồi mới đến cấp 3 */
-const chuMoiCacCap = (duLieu) => [...chuMoiTheoThuTu(duLieu.vietTay12), ...chuMoiTheoThuTu(duLieu.vietTay3 || [])];
+// (chữ cấp 3 chỉ đưa vào khi đã mở khóa HSK 3 – xem cap-do.js)
+const chuMoiCacCap = (duLieu) => [...chuMoiTheoThuTu(duLieu.vietTay12), ...(capMo(3) ? chuMoiTheoThuTu(duLieu.vietTay3 || []) : [])];
 let capVietXem = null;   // lưới đang xem: '12' | '3'
 
 /** Đếm cho trang tổng quan và trang Hôm nay. Cần dữ liệu nét đã tải. */
@@ -104,7 +106,8 @@ export async function veLuyenViet(khung) {
   const td = layTienDo();
   const dem = demViet(tatCaChuViet(duLieu));
   const soBatDau = dem.canOn.length + Math.min(dem.conMoi, chuMoiCacCap(duLieu).length);
-  const coCap3 = (duLieu.vietTay3 || []).length > 0;
+  const coCap3 = (duLieu.vietTay3 || []).length > 0 && capMo(3);
+  const cap3Khoa = (duLieu.vietTay3 || []).length > 0 && !capMo(3);
   // Mặc định xem cấp đang học: còn chữ cấp 1–2 chưa luyện thì xem cấp 1–2
   if (!capVietXem || (capVietXem === '3' && !coCap3)) {
     capVietXem = coCap3 && !chuMoiTheoThuTu(duLieu.vietTay12).length ? '3' : '12';
@@ -136,9 +139,11 @@ export async function veLuyenViet(khung) {
         : '<span class="nut nut-rong" aria-disabled="true">✅ Hôm nay đã luyện xong – chạm một chữ bên dưới để luyện thêm</span>'}
     </p>
 
-    ${coCap3 ? `<div class="hang-chip" style="margin-top:14px">
+    ${coCap3 || cap3Khoa ? `<div class="hang-chip" style="margin-top:14px">
       <button class="chip ${capVietXem === '12' ? 'dang-chon' : ''}" data-cap-viet="12">Cấp 1–2 · ${duLieu.vietTay12.length} chữ</button>
-      <button class="chip ${capVietXem === '3' ? 'dang-chon' : ''}" data-cap-viet="3">Cấp 3 · ${duLieu.vietTay3.length} chữ</button>
+      ${cap3Khoa
+        ? `<button class="chip" disabled title="Mở khóa HSK 3 để luyện">Cấp 3 · ${duLieu.vietTay3.length} chữ <span class="emoji">🔒</span></button>`
+        : `<button class="chip ${capVietXem === '3' ? 'dang-chon' : ''}" data-cap-viet="3">Cấp 3 · ${duLieu.vietTay3.length} chữ</button>`}
     </div>` : ''}
     <h3 class="tieu-de-muc">${dsXem.length} chữ cần viết ${capVietXem === '3' ? 'cấp 3' : 'cấp 1–2'} <small>${demXem.tong - demXem.thongKe['chua-hoc']}/${demXem.tong} đã luyện</small></h3>
     ${CHU_THICH_CHAM}

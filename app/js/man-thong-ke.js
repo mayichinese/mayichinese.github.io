@@ -9,7 +9,7 @@
 // Màu biểu đồ: bộ màu đã kiểm tra cho người mù màu (biến --bd-* trong man-hinh.css).
 // =========================================================
 
-import { layTienDo, caiDat, chuoiNgayHoc, coHocNgay, ngayHoc } from './luu-tru.js';
+import { layTienDo, caiDat, chuoiNgayHoc, coHocNgay, ngayHoc, phutMoiNgay } from './luu-tru.js';
 import { loaiThe } from './lich-on.js';
 import { tatCaTu, tongTuCap } from './du-lieu.js';
 import { esc, dongTu } from './giao-dien.js';
@@ -132,8 +132,7 @@ function veBieuDo(nhatKy, soNgay, mucTieu) {
 // =========================================================
 export async function veThongKe(khung) {
   const td = layTienDo();
-  const mt = caiDat().phutMucTieu;
-  const mucTieu = mt.on + mt.moi + mt.nghe + mt.viet + mt.nguPhap;
+  const mucTieu = phutMoiNgay();
   const nk = td.nhatKy;
 
   // Dữ liệu chữ viết tay và ngữ pháp (đã có sẵn trong máy, kể cả khi không có mạng)

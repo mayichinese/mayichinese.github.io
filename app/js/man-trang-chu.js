@@ -1,19 +1,22 @@
 // =========================================================
 // TRANG CHỦ "HÔM NAY" – trả lời câu hỏi "hôm nay học gì?"
+//   - (lần đầu) chọn mục tiêu số phút mỗi ngày: 10 / 20 / 30 / 60 – không ép học 60 phút
 //   - Banner: lời chào, số phút đã học / mục tiêu, MỘT nút "Tiếp tục" (chọn sẵn việc nên làm tiếp)
 //     (chữ Hán mờ phía sau = từ mới tiếp theo, lấy từ file dữ liệu)
-//   - Chuỗi ngày học + 7 ngày gần nhất (gộp trong một thẻ)
-//   - Nhiệm vụ hôm nay: 5 phần của kế hoạch 60 phút, bấm là vào học ngay
+//   - Chuỗi ngày học + 7 ngày gần nhất
+//   - 3 nhiệm vụ hằng ngày ngẫu nhiên (nhiem-vu.js) + nhiệm vụ tháng
 //   - Bài đang học (mở bài trong lộ trình)
-// Thống kê chi tiết nằm ở mục "Tôi"; danh sách bài ở "Bài học".
 // =========================================================
 
-import { caiDat, nhatKyHomNay, chuoiNgayHoc, coLuuDuoc, layTienDo, ngayHoc, coHocNgay } from './luu-tru.js';
-import { dangHoc } from './lich-on.js';
+import {
+  caiDat, luu, chuoiNgayHoc, coLuuDuoc, layTienDo, ngayHoc, coHocNgay, phutMoiNgay, tongPhutNgay, CAC_MUC_TIEU,
+} from './luu-tru.js';
 import { tatCaTu, nhanBai } from './du-lieu.js';
 import { tinhTrangPhatAm } from './phat-am.js';
 import { demHomNay, baiDangHoc, tuChuaHoc } from './phien-hoc.js';
-import { esc } from './giao-dien.js';
+import { nhiemVuHomNay, nhiemVuThang, gioConLai } from './nhiem-vu.js';
+import { layCapVuaMo } from './cap-do.js';
+import { esc, thongBao } from './giao-dien.js';
 import { bieuTuong } from './bieu-tuong.js';
 
 const THU = ['Chủ nhật', 'Thứ Hai', 'Thứ Ba', 'Thứ Tư', 'Thứ Năm', 'Thứ Sáu', 'Thứ Bảy'];
@@ -45,91 +48,57 @@ function veTuanNay() {
   return html;
 }
 
-/** Một dòng nhiệm vụ. `nut` = các nút nhỏ bên trong (khi một nhiệm vụ có hai lựa chọn) */
-function dongNhiemVu({ ma, emoji, ten, phut, mucTieu, moTa, href, phanTram, xong, nut }) {
-  const the = href && !nut ? 'a' : 'div';
+/** Khung chọn mục tiêu mỗi ngày (hiện khi chưa chọn) */
+function htmlChonMucTieu() {
   return `
-    <${the} class="dong-ke-hoach khung phan-${ma} ${xong ? 'da-xong' : ''}" ${the === 'a' ? `href="${href}"` : ''}>
-      <span class="o-emoji emoji">${emoji}</span>
+    <section class="khung chon-muc-tieu" id="chon-muc-tieu">
+      <b>Bạn muốn học bao nhiêu phút mỗi ngày?</b>
+      <p class="chu-phu nho" style="margin:2px 0 10px">Chọn mức vừa sức – học đều mỗi ngày quan trọng hơn học nhiều. Đổi lại được trong Cài đặt.</p>
+      <div class="luoi-muc-tieu">
+        ${CAC_MUC_TIEU.map((m) => `<button class="o-muc-tieu" data-phut="${m.phut}"><b>${m.phut} phút</b><span>${m.ten}</span></button>`).join('')}
+      </div>
+    </section>`;
+}
+
+/** Một dòng nhiệm vụ hằng ngày */
+function dongNhiemVu(nv, hrefMacDinh) {
+  const pt = Math.round((nv.daLam / nv.muc) * 100);
+  return `
+    <a class="dong-nhiem-vu khung ${nv.xong ? 'da-xong' : ''}" href="${nv.href || hrefMacDinh}">
       <span class="giua">
-        <span class="dong-tren">
-          <b>${ten}</b>
-          <span class="so-phut">${Math.min(phut, 999)}/${mucTieu}′</span>
-        </span>
-        <span class="mo-ta">${moTa}</span>
-        <span class="thanh-tien-do"><span style="width:${phanTram}%"></span></span>
-        ${nut ? `<span class="hang-nut-nho">${nut.map((n) => `<a class="nut nut-nho" href="${n.href}">${n.chu}</a>`).join('')}</span>` : ''}
+        <b>${nv.ten}</b>
+        <span class="thanh-nhiem-vu"><span style="width:${pt}%"></span><i>${nv.daLam} / ${nv.muc}</i></span>
       </span>
-      <span class="cuoi-dong">${xong ? '<span class="emoji">✅</span>' : the === 'a' ? bieuTuong('phai') : ''}</span>
-    </${the}>`;
+      <span class="ruong emoji" aria-label="${nv.xong ? 'đã xong' : 'chưa xong'}">${nv.xong ? '✅' : '🎁'}</span>
+    </a>`;
 }
 
 export function veTrangChu(khung) {
   const cd = caiDat();
   const td = layTienDo();
-  const nk = nhatKyHomNay();
   const dem = demHomNay();
   const bai = baiDangHoc();
   const chuoi = chuoiNgayHoc();
   const homNay = new Date();
-  const bayGio = Date.now();
-  const phut = (phan) => Math.floor((nk.giay[phan] || 0) / 60);
+  const mucTieu = phutMoiNgay();
+  const tongPhut = tongPhutNgay();
   const daHoc = tatCaTu().filter((t) => td.the[t.khoa]).length;
 
-  // Phút học hôm nay
-  const mt = cd.phutMucTieu;
-  const mucTieu = mt.on + mt.moi + mt.nghe + mt.viet + mt.nguPhap;
-  const tongPhut = Math.floor(Object.values(nk.giay).reduce((a, b) => a + b, 0) / 60);
+  // Cấp vừa mở khóa → chúc mừng (một lần)
+  const vuaMo = layCapVuaMo();
+  if (vuaMo.length) thongBao(`🎉 Đã mở khóa HSK ${vuaMo.join(', ')}!`, 5000);
 
-  // --- 1. Ôn từ ---
-  const tongOn = dem.daOn + dem.onDenHan;
+  const nhiemVu = nhiemVuHomNay();
+  const soXong = nhiemVu.filter((x) => x.xong).length;
+  const thang = nhiemVuThang();
+
+  // Nút "Tiếp tục": thẻ đến hạn → từ mới → nhiệm vụ chưa xong → ôn luyện
   const onXong = dem.onDenHan === 0 && dem.dangHocDenHan === 0;
-  const moTaOn = onXong
-    ? (dem.daOn ? `Đã ôn xong ${dem.daOn} thẻ` : 'Chưa có thẻ nào đến hạn')
-    : [dem.onDenHan ? `Còn <b>${dem.onDenHan}</b> thẻ đến hạn` : '',
-      dem.dangHocDenHan ? `<b>${dem.dangHocDenHan}</b> thẻ học dở` : ''].filter(Boolean).join(' + ');
-  const tienDoOn = onXong ? 100 : tongOn ? Math.round((dem.daOn / tongOn) * 100) : 0;
-
-  // --- 2. Từ mới ---
-  const moiXong = dem.conTuMoi === 0 || !bai;
-  const moTaMoi = !bai ? 'Bạn đã học hết các từ hiện có 🎉' : `<b>${dem.daHocMoi}/${cd.soTuMoiMoiNgay}</b> từ · ${nhanBai(bai)}`;
-  const tienDoMoi = Math.min(100, Math.round((dem.daHocMoi / cd.soTuMoiMoiNgay) * 100));
-
-  // --- 3. Nghe & thanh điệu (xong khi đủ số phút mục tiêu) ---
-  const ngheXong = phut('nghe') >= mt.nghe;
-  const moTaNghe = nk.thanh ? `Đã trả lời <b>${nk.thanh}</b> câu` : 'Nghe rồi chọn đúng thanh điệu';
-  const tienDoNghe = Math.min(100, Math.round((phut('nghe') / mt.nghe) * 100));
-
-  // --- 4. Viết chữ (đếm thẳng từ lịch ôn chữ viết, không cần tải dữ liệu nét) ---
-  const vietCanOn = Object.values(td.theViet).filter((t) => dangHoc(t) || t.han <= bayGio).length;
-  const vietMoi = nk.vietMoi || 0;
-  const vietConMoi = Math.max(0, cd.soChuVietMoiMoiNgay - vietMoi);
-  const vietXong = vietCanOn === 0 && vietConMoi === 0;
-  const moTaViet = `${vietCanOn ? `<b>${vietCanOn}</b> chữ cần ôn · ` : ''}<b>${vietMoi}/${cd.soChuVietMoiMoiNgay}</b> chữ mới`;
-  const tienDoViet = vietXong ? 100 : Math.min(100, Math.round((vietMoi / cd.soChuVietMoiMoiNgay) * 100));
-
-  // --- 5. Ngữ pháp & trắc nghiệm (thời gian tính chung vào phần nguPhap) – xong khi đủ số phút ---
-  const tnXong = phut('nguPhap') >= mt.nguPhap;
-  const duTuTracNghiem = daHoc >= 4;
-  // Ngữ pháp cần ôn: đếm thẳng từ lịch ôn (không cần tải dữ liệu ngữ pháp)
-  const npCanOn = Object.values(td.nguPhap.the).filter((t) => dangHoc(t) || t.han <= bayGio).length;
-  const daLam5 = (nk.tracNghiem || 0) + (nk.nguPhap || 0);
-  const moTaNguPhap = daLam5 ? `Đã làm <b>${daLam5}</b> câu` : 'Học ngữ pháp hoặc làm trắc nghiệm từ đã học';
-  const tienDoNguPhap = Math.min(100, Math.round((phut('nguPhap') / mt.nguPhap) * 100));
-  const nutNguPhap = [
-    { chu: npCanOn ? `🧩 Ôn ${npCanOn} điểm` : '🧩 Ngữ pháp', href: npCanOn ? '#/ngu-phap/on' : '#/ngu-phap' },
-    duTuTracNghiem ? { chu: '📝 Trắc nghiệm', href: '#/trac-nghiem/tron' } : null,
-  ].filter(Boolean);
-
-  // Nút "Tiếp tục": chọn phần nên làm tiếp theo (theo thứ tự kế hoạch 60 phút)
+  const nvChuaXong = nhiemVu.find((x) => !x.xong && x.href);
   let tiepTuc;
   if (!onXong) tiepTuc = { chu: `Ôn ${dem.onDenHan + dem.dangHocDenHan} thẻ từ`, href: '#/on' };
-  else if (!moiXong) tiepTuc = { chu: 'Học từ mới', href: '#/hoc-moi' };
-  else if (!ngheXong) tiepTuc = { chu: 'Luyện thanh điệu', href: '#/thanh-dieu' };
-  else if (!vietXong) tiepTuc = { chu: 'Luyện viết chữ', href: '#/luyen-viet/phien' };
-  else if (!tnXong && npCanOn) tiepTuc = { chu: `Ôn ${npCanOn} điểm ngữ pháp`, href: '#/ngu-phap/on' };
-  else if (!tnXong && duTuTracNghiem) tiepTuc = { chu: 'Làm trắc nghiệm', href: '#/trac-nghiem/tron' };
-  else if (!tnXong) tiepTuc = { chu: 'Học ngữ pháp', href: '#/ngu-phap' };
+  else if (dem.conTuMoi && bai) tiepTuc = { chu: 'Học từ mới', href: '#/hoc-moi' };
+  else if (nvChuaXong) tiepTuc = { chu: nvChuaXong.ten, href: nvChuaXong.href };
   else tiepTuc = { chu: 'Luyện thêm', href: '#/luyen-tap' };
 
   // Cảnh báo
@@ -144,20 +113,6 @@ export function veTrangChu(khung) {
   }
 
   const tuTiepTheo = tuChuaHoc()[0];
-
-  const nhiemVu = [
-    { ma: 'on', emoji: '🔁', ten: 'Ôn từ đến hạn', phut: phut('on'), mucTieu: mt.on, moTa: moTaOn,
-      href: '#/on', phanTram: tienDoOn, xong: onXong },
-    { ma: 'moi', emoji: '✨', ten: 'Học từ mới', phut: phut('moi'), mucTieu: mt.moi, moTa: moTaMoi,
-      href: bai ? '#/hoc-moi' : '#/bai', phanTram: tienDoMoi, xong: moiXong },
-    { ma: 'nghe', emoji: '🎧', ten: 'Nghe & thanh điệu', phut: phut('nghe'), mucTieu: mt.nghe, moTa: moTaNghe,
-      href: '#/thanh-dieu', phanTram: tienDoNghe, xong: ngheXong },
-    { ma: 'viet', emoji: '✍️', ten: 'Viết chữ Hán', phut: phut('viet'), mucTieu: mt.viet, moTa: moTaViet,
-      href: vietXong ? '#/luyen-viet' : '#/luyen-viet/phien', phanTram: tienDoViet, xong: vietXong },
-    { ma: 'nguPhap', emoji: '🧩', ten: 'Ngữ pháp & trắc nghiệm', phut: phut('nguPhap'), mucTieu: mt.nguPhap,
-      moTa: moTaNguPhap, phanTram: tienDoNguPhap, xong: tnXong, nut: nutNguPhap },
-  ];
-  const soXong = nhiemVu.filter((k) => k.xong).length;
 
   // Bài đang học (bài đầu tiên còn từ chưa học, theo cách chia bài đang chọn)
   let theBai = '';
@@ -180,15 +135,16 @@ export function veTrangChu(khung) {
 
   khung.innerHTML = `
     ${canhBao.length ? `<div class="ds-canh-bao">${canhBao.map((c) => `<div class="can-kiem-tra">${c}</div>`).join('')}</div>` : ''}
+    ${cd.phutMoiNgay ? '' : htmlChonMucTieu()}
 
     <section class="hero">
       <div class="hero-noi-dung">
         <span class="nhan nhan-chinh">${THU[homNay.getDay()]} · ${homNay.getDate()}/${homNay.getMonth() + 1}</span>
         <h2 class="hero-tieu-de">${loiChao()}
-          <span>${tongPhut >= mucTieu ? `Đã đủ ${mucTieu} phút! 🎉` : tongPhut ? `Đã học ${tongPhut}/${mucTieu} phút` : `Cùng học ${mucTieu} phút nhé!`}</span></h2>
+          <span>${tongPhut >= mucTieu ? 'Đã đạt mục tiêu! 🎉' : tongPhut ? `Đã học ${tongPhut}/${mucTieu} phút` : `Mục tiêu: ${mucTieu} phút`}</span></h2>
         <div class="muc-tieu-ngay">
           <span class="thanh-tien-do"><span style="width:${Math.min(100, Math.round((tongPhut / mucTieu) * 100))}%"></span></span>
-          <span class="chu-phu nho">${soXong}/5 nhiệm vụ</span>
+          <a class="chu-phu nho" href="#/cai-dat" title="Đổi mục tiêu">${tongPhut}/${mucTieu}′</a>
         </div>
         <a class="nut nut-chinh nut-bat-dau" href="${tiepTuc.href}">${bieuTuong('bat-dau')} Tiếp tục: ${tiepTuc.chu}</a>
       </div>
@@ -204,8 +160,24 @@ export function veTrangChu(khung) {
       <div class="bay-ngay">${veTuanNay()}</div>
     </section>
 
-    <h3 class="tieu-de-muc">Nhiệm vụ hôm nay <small>${soXong}/5 xong</small></h3>
-    <div class="ke-hoach">${nhiemVu.map(dongNhiemVu).join('')}</div>
+    <h3 class="tieu-de-muc">Nhiệm vụ hằng ngày <small>⏱ còn ${gioConLai()} giờ</small></h3>
+    <div class="ds-nhiem-vu">${nhiemVu.map((nv) => dongNhiemVu(nv, tiepTuc.href)).join('')}</div>
+    ${soXong === nhiemVu.length ? '<p class="chu-phu nho" style="margin:10px 2px 0">🎉 Xong cả 3 nhiệm vụ hôm nay! Ngày mai sẽ có nhiệm vụ mới.</p>' : ''}
+
+    <section class="khung nhiem-vu-thang">
+      <div class="dong-tren"><b>Nhiệm vụ tháng ${thang.thang}</b><span class="emoji">🏆</span></div>
+      <span class="chu-phu nho">Hoàn thành ${thang.muc} nhiệm vụ hằng ngày trong tháng</span>
+      <span class="thanh-nhiem-vu"><span style="width:${Math.round((thang.xong / thang.muc) * 100)}%"></span><i>${thang.xong} / ${thang.muc}</i></span>
+    </section>
     ${theBai}
   `;
+
+  khung.querySelectorAll('#chon-muc-tieu [data-phut]').forEach((nut) => {
+    nut.onclick = () => {
+      cd.phutMoiNgay = Number(nut.dataset.phut);
+      luu();
+      thongBao(`Đã đặt mục tiêu ${cd.phutMoiNgay} phút mỗi ngày`);
+      veTrangChu(khung);
+    };
+  });
 }

@@ -1,0 +1,52 @@
+# NGUỒN SOẠN TAY – mục "Chữ & âm" → Bộ thủ cơ bản (hay gặp trong HSK 1–3)
+# Chạy: python -X utf8 cong-cu/tao-nen-tang.py
+#
+# Định dạng:  bộ | dạng biến thể (cách nhau dấu cách, "-" nếu không có) | pinyin | tên Hán Việt | nghĩa | gợi nhớ
+# Chữ ví dụ do script tự tìm: các chữ trong từ HSK 1–3 có bộ thủ này
+# (theo trường "radical" của từ điển Make Me a Hanzi – cong-cu/tu-dien-doi-chieu/makemeahanzi-dictionary.txt).
+
+人 | 亻 | rén | Nhân | người | Chữ có bộ này thường nói về người, hành động của người.
+口 | - | kǒu | Khẩu | miệng | Liên quan đến ăn, nói, kêu.
+女 | - | nǚ | Nữ | phụ nữ, con gái | Hay gặp trong tên người thân nữ.
+子 | - | zǐ | Tử | con | Liên quan đến con cái, trẻ nhỏ.
+木 | - | mù | Mộc | cây, gỗ | Cây cối, đồ làm bằng gỗ.
+水 | 氵 | shuǐ | Thủy | nước | Ba chấm bên trái = nước: sông, hồ, rửa, uống.
+火 | 灬 | huǒ | Hỏa | lửa | Bốn chấm dưới chân cũng là lửa: nấu, nóng.
+土 | - | tǔ | Thổ | đất | Đất đai, nơi chốn.
+日 | - | rì | Nhật | mặt trời, ngày | Thời gian, ánh sáng.
+月 | - | yuè | Nguyệt | mặt trăng, tháng | Bên trái chữ thường là "thịt" (cơ thể).
+心 | 忄 | xīn | Tâm | tim, lòng | Cảm xúc, suy nghĩ.
+手 | 扌 | shǒu | Thủ | tay | Động tác dùng tay: cầm, đánh, kéo.
+言 | 讠 | yán | Ngôn | lời nói | Nói, kể, hỏi, đọc.
+金 | 钅 | jīn | Kim | kim loại, vàng | Đồ bằng kim loại, tiền.
+门 | - | mén | Môn | cửa | Cửa, nghe, hỏi qua cửa.
+艹 | - | cǎo | Thảo | cỏ | Cây cỏ, rau, hoa, trà.
+宀 | - | mián | Miên | mái nhà | Nhà cửa, chỗ ở.
+辶 | - | chuò | Sước | đi, bước đi | Đi lại, xa gần, đường sá.
+足 | ⻊ | zú | Túc | chân | Động tác của chân: chạy, nhảy, đá.
+目 | - | mù | Mục | mắt | Nhìn, xem, ngủ.
+贝 | - | bèi | Bối | vỏ sò (tiền xưa) | Tiền bạc, mua bán, quý giá.
+车 | - | chē | Xa | xe | Xe cộ, chuyển động.
+马 | - | mǎ | Mã | ngựa | Cũng gặp làm phần chỉ âm "ma".
+食 | 饣 | shí | Thực | ăn | Đồ ăn, cơm, no đói.
+衣 | 衤 | yī | Y | áo | Quần áo, vải.
+糸 | 纟 | mì | Mịch | sợi tơ | Sợi, dây, màu sắc, nối.
+刀 | 刂 | dāo | Đao | dao | Cắt, chia; bên phải chữ là hai nét sổ.
+力 | - | lì | Lực | sức | Sức lực, cố gắng, làm việc.
+又 | - | yòu | Hựu | lại, bàn tay | Bàn tay phải (nghĩa xưa).
+大 | - | dà | Đại | to, lớn | Người dang tay – to lớn.
+山 | - | shān | Sơn | núi | Núi non, địa hình.
+石 | - | shí | Thạch | đá | Đá, vật cứng.
+田 | - | tián | Điền | ruộng | Ruộng đồng, đàn ông (người làm ruộng).
+玉 | 王 | yù | Ngọc | ngọc | Đứng bên trái chữ thì viết thành 王 (bỏ chấm): đồ quý, chơi.
+示 | 礻 | shì | Thị | thần, cúng tế | Bên trái giống "áo" nhưng chỉ có MỘT chấm.
+米 | - | mǐ | Mễ | gạo | Gạo, hạt, lương thực.
+竹 | ⺮ | zhú | Trúc | tre | Trên đầu chữ: đồ làm bằng tre (bút, sách xưa).
+雨 | - | yǔ | Vũ | mưa | Thời tiết: mưa, tuyết, sấm.
+页 | - | yè | Hiệt | đầu, trang | Đầu, mặt, trang giấy.
+走 | - | zǒu | Tẩu | đi, chạy | Đi lại, rời đi.
+广 | - | guǎng | Nghiễm | mái hiên | Nhà rộng, cửa hàng, nơi chốn.
+疒 | - | nè | Nạch | bệnh | Ốm đau, bệnh tật.
+彳 | - | chì | Xích | bước chân trái | Đi, đường, hành động.
+阝 | - | fù | Phụ / Ấp | gò đất / thành ấp | Bên trái là gò đất, bên phải là thành ấp.
+攵 | - | pū | Phộc | đánh nhẹ | Hành động, dạy bảo.

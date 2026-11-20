@@ -11,7 +11,8 @@
 // được hỏi lại một lần cuối lượt. Ra khỏi sổ khi đúng 2 lần liên tiếp ở 2 lượt khác nhau.
 // =========================================================
 
-import { caiDat, layTienDo, luu, nhatKyHomNay } from './luu-tru.js';
+import { caiDat, layTienDo, luu, nhatKyHomNay, ghiLuot } from './luu-tru.js';
+import { capMo } from './cap-do.js';
 import { tatCaTu, layTu, nghiaNgan, danhSachBai, timBaiTheoMa, cheDoBai, nhanBai, cacCapCoDuLieu } from './du-lieu.js';
 import { doc, tinhTrangPhatAm } from './phat-am.js';
 import { esc, batDongHo, nutLoa, tenTuLoai, dongTu } from './giao-dien.js';
@@ -187,7 +188,6 @@ export function veTracNghiem(khung) {
   const soSai = tuTrongSoSai();
   const duTu = daHoc.length >= SO_TU_TOI_THIEU;
   const nk = nhatKyHomNay();
-  const mt = caiDat().phutMucTieu.nguPhap;
 
   const dongDang = (ma, d, href, khoa) => `
     <${khoa ? 'div' : 'a'} class="dong-ke-hoach khung phan-nguPhap ${khoa ? 'sap-co' : ''}" ${khoa ? '' : `href="${href}"`}>
@@ -221,14 +221,14 @@ export function veTracNghiem(khung) {
             Hãy <a href="#/hoc-moi">học thêm từ mới</a>, hoặc <b>kiểm tra theo bài</b> ở bên dưới.</span>`}
     </p>
 
-    <h3 class="tieu-de-muc">Chọn dạng bài <small>${Math.floor((nk.giay.nguPhap || 0) / 60)}/${mt}′ hôm nay</small></h3>
+    <h3 class="tieu-de-muc">Chọn dạng bài <small>${Math.floor((nk.giay.nguPhap || 0) / 60)} phút hôm nay</small></h3>
     <div class="ke-hoach">
       ${CAC_DANG_CAU.map((ma) => dongDang(ma, CAC_DANG[ma], `#/trac-nghiem/${ma}`, !duTu)).join('')}
       ${dongDang('so-sai', { emoji: '📒', ten: 'Ôn câu sai', moTa: 'Chỉ hỏi các từ trong sổ câu sai.' }, '#/trac-nghiem/so-sai', !soSai.length)}
     </div>
 
     <h3 class="tieu-de-muc">Kiểm tra theo bài <small>hỏi cả từ chưa học</small></h3>
-    ${cacCapCoDuLieu().map((cap) => {
+    ${cacCapCoDuLieu().filter(capMo).map((cap) => {
       const ds = danhSachBai(cheDoBai(caiDat()), cap).filter((b) => b.tu.length >= 4);
       if (!ds.length) return '';
       return `${cacCapCoDuLieu().length > 1 ? `<p class="chu-phu nho" style="margin:10px 2px 6px"><b>HSK ${cap}</b></p>` : ''}
@@ -426,6 +426,7 @@ export function vePhienTracNghiem(khung, dang, soBai = null) {
       dungDongHo();
       document.body.classList.remove('dang-hoc');
       const ti = ketQua.dung + ketQua.sai ? ketQua.dung / (ketQua.dung + ketQua.sai) : 0;
+      ghiLuot('tracNghiem', ketQua.dung, ketQua.sai);   // cho nhiệm vụ hằng ngày
       const soTrongSo = tuTrongSoSai().length;
       khung.innerHTML = `
         <div class="ket-thuc">

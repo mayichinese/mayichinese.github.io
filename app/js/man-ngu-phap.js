@@ -12,7 +12,8 @@
 //   điểm ÔN  : ≥ 80% → Nhớ · 50–80% → Khó · dưới 50% → Quên
 // =========================================================
 
-import { layTienDo, luu, nhatKyHomNay, caiDat } from './luu-tru.js';
+import { layTienDo, luu, nhatKyHomNay, caiDat, ghiLuot } from './luu-tru.js';
+import { capMo, htmlCachMoKhoa } from './cap-do.js';
 import { tinhLichMoi, moTaKhoangCach, loaiThe, dangHoc, DANH_GIA } from './lich-on.js';
 import { tatCaTu, baiSachCuaNguPhap } from './du-lieu.js';
 
@@ -107,7 +108,7 @@ export async function veNguPhap(khung) {
   const ng = layTienDo().nguPhap;
   const canOn = diemCanOn(diem);
   const daLuyen = diem.filter((d) => ng.the[d.id]).length;
-  const tiepTheo = diem.find((d) => !ng.the[d.id]);
+  const tiepTheo = diem.find((d) => !ng.the[d.id] && capMo(d.cap));
   const cacCap = [...new Set(diem.map((d) => d.cap))];
 
   khung.innerHTML = `
@@ -134,6 +135,11 @@ export async function veNguPhap(khung) {
     ${cacCap.map((cap) => {
       const ds = diem.filter((d) => d.cap === cap);
       const toiBai = baiDaHocToi(cap);
+      if (!capMo(cap)) {
+        return `
+    <h3 class="tieu-de-muc">Ngữ pháp HSK ${cap} <small>🔒 ${ds.length} điểm</small></h3>
+    <a class="khung dong-khoa" href="#/bai">🔒 Mở khóa HSK ${cap} (học hết HSK ${cap - 1} hoặc học vượt bằng thi thử) để học phần này.</a>`;
+      }
       return `
     <h3 class="tieu-de-muc">Ngữ pháp HSK ${cap} <small>${ds.filter((d) => ng.the[d.id]).length}/${ds.length} · theo thứ tự nên học</small></h3>
     <div class="ds-ngu-phap">
@@ -167,6 +173,7 @@ export async function veDiemNguPhap(khung, ma) {
   if (!khung.isConnected) return;
   const d0 = diem.find((x) => x.id === ma);
   if (!d0) { khung.innerHTML = '<p class="loi">Không tìm thấy điểm ngữ pháp này.</p>'; return; }
+  if (!capMo(d0.cap)) { khung.innerHTML = htmlCachMoKhoa(d0.cap); return; }
   const cungCap = diem.filter((x) => x.cap === d0.cap);
   const i = cungCap.indexOf(d0);
   const d = d0;
@@ -397,6 +404,7 @@ export function vePhienNguPhap(khung, ma) {
       luu();
       const dungHet = [...ketQuaDiem.values()].reduce((s, k) => s + k.dung, 0);
       const ti = tong ? dungHet / tong : 0;
+      ghiLuot('nguPhap', dungHet, tong - dungHet);   // cho nhiệm vụ hằng ngày
       khung.innerHTML = `
         <div class="ket-thuc">
           <div class="emoji emoji-to">${ti >= 0.8 ? '🏆' : ti >= 0.5 ? '🎉' : '💪'}</div>

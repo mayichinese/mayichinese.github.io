@@ -763,3 +763,144 @@ a.the-lo-trinh:active .the-phai { transform: translateY(3px); box-shadow: none; 
 .ho-so img { border-radius: 16px; box-shadow: 0 3px 0 var(--canh-chinh); flex: none; }
 .ho-so .giua { display: flex; flex-direction: column; gap: 2px; }
 .ho-so b { font: 700 1.1rem var(--font-tieu-de); }
+
+/* =========================================================
+   NHIỆM VỤ HẰNG NGÀY · MỤC TIÊU PHÚT · KHÓA CẤP · CHỮ & ÂM
+   ========================================================= */
+
+/* ---- Chọn mục tiêu mỗi ngày (lần đầu) ---- */
+.chon-muc-tieu { margin-bottom: 14px; border-color: var(--chinh-chu); }
+.luoi-muc-tieu { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+.o-muc-tieu {
+  display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 10px 6px;
+  border: 2px solid var(--vien-nhat); border-radius: 14px; background: var(--be-mat); cursor: pointer; color: var(--chu);
+}
+.o-muc-tieu b { font-size: 1.05rem; }
+.o-muc-tieu span { font-size: .8rem; color: var(--chu-phu); }
+.o-muc-tieu:hover { border-color: var(--chinh-chu); }
+#chon-muc-tieu-cd button { flex-direction: column; line-height: 1.2; }
+#chon-muc-tieu-cd small { font-weight: 500; font-size: .75rem; }
+
+/* ---- Nhiệm vụ hằng ngày / tháng ---- */
+.ds-nhiem-vu { display: flex; flex-direction: column; gap: 10px; }
+.dong-nhiem-vu {
+  display: flex; align-items: center; gap: 12px; padding: 12px 14px;
+  color: inherit; text-decoration: none; transition: transform .08s, box-shadow .08s;
+}
+.dong-nhiem-vu:active { transform: translateY(3px); box-shadow: none; }
+.dong-nhiem-vu .giua { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 8px; }
+.dong-nhiem-vu b { font-size: 1rem; line-height: 1.3; }
+.ruong { flex: none; font-size: 2rem; }
+.thanh-nhiem-vu {
+  position: relative; display: block; height: 22px; border-radius: 99px; overflow: hidden;
+  background: var(--be-mat-2);
+}
+.thanh-nhiem-vu > span { display: block; height: 100%; border-radius: inherit; background: var(--vang); transition: width .5s; }
+.thanh-nhiem-vu > i {
+  position: absolute; inset: 0; display: grid; place-items: center;
+  font: 700 .78rem var(--font-than); font-style: normal; color: var(--chu);
+}
+.dong-nhiem-vu.da-xong .thanh-nhiem-vu > span { background: var(--xong); }
+.nhiem-vu-thang { display: flex; flex-direction: column; gap: 6px; margin-top: 14px; }
+.nhiem-vu-thang .emoji { font-size: 1.5rem; }
+.nhiem-vu-thang .thanh-nhiem-vu > span { background: color-mix(in srgb, var(--chinh) 70%, var(--vang)); }
+
+/* ---- Khóa cấp ---- */
+.chip-khoa:not(.dang-chon) { opacity: .7; border-style: dashed; }
+.the-khoa { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; border-style: dashed; }
+.khoa-to { font-size: 2rem; }
+.cach-mo-khoa { margin: 0; padding-left: 20px; font-size: .92rem; display: flex; flex-direction: column; gap: 4px; }
+.buoc-lo-trinh.bi-khoa { opacity: .6; }
+.buoc-lo-trinh.bi-khoa .nut-tron, .buoc-lo-trinh.bi-khoa .the-phai { box-shadow: none; }
+.dong-khoa { display: block; color: var(--chu-phu); text-decoration: none; border-style: dashed; box-shadow: none; font-size: .9rem; }
+.the-mo-khoa { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 8px; border-color: var(--xong); }
+.the-mo-khoa .emoji { font-size: 2.4rem; }
+
+/* ---- Chữ & âm: chọn phần ---- */
+.chon-phan-chu-am a {
+  flex: 1; min-height: 44px; display: inline-flex; align-items: center; justify-content: center;
+  border: 2px solid var(--vien-nhat); border-radius: 14px; background: var(--be-mat);
+  color: var(--chu); text-decoration: none; font-weight: 700; font-size: .88rem; white-space: nowrap; padding: 0 6px;
+}
+.chon-phan-chu-am a.dang-chon { border-color: var(--chinh-chu); background: var(--chinh-nhat); color: var(--chinh-chu); }
+.gioi-thieu-chu-am { display: flex; flex-direction: column; gap: 8px; margin-top: 12px; }
+.gioi-thieu-chu-am b { font: 700 1.1rem var(--font-tieu-de); }
+
+/* Ô thanh mẫu (shī shí shǐ shì …) */
+.luoi-thanh-mau { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+.o-thanh-mau {
+  display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 10px 2px;
+  border: 2px solid currentColor; border-radius: 14px; background: var(--be-mat); cursor: pointer;
+  box-shadow: 0 3px 0 currentColor;
+}
+.o-thanh-mau .pinyin { font-size: 1.1rem; }
+.o-thanh-mau .nho { font-size: .68rem; color: var(--chu-phu); }
+.o-thanh-mau.dang-chon { background: color-mix(in srgb, currentColor 14%, var(--be-mat)); }
+.khong-mau-thanh .o-thanh-mau { color: var(--vien-the); }
+.meo-thanh { min-height: 2.6em; margin: 10px 2px 0; }
+
+/* Ô âm đầu / vần */
+.ten-nhom-am { margin: 14px 2px 6px; font-size: .82rem; font-weight: 700; color: var(--chu-phu); }
+.luoi-am { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.o-am {
+  display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 10px 8px 9px;
+  border: var(--vien-rong) solid var(--vien-the); border-radius: 14px; background: var(--be-mat);
+  box-shadow: 0 3px 0 var(--khoi); cursor: pointer; color: var(--chu);
+}
+.o-am:active { transform: translateY(2px); box-shadow: none; }
+.o-am .pinyin { font-size: 1.2rem; }
+.o-am .thanh-tien-do { width: 100%; height: 6px; }
+.o-am .thanh-tien-do > span, .o-bo-thu .thanh-tien-do > span { background: var(--vang); }
+.o-am.thao, .o-bo-thu.thao { border-color: var(--vang); box-shadow: 0 3px 0 var(--vang); }
+.o-am.khong-vd { opacity: .6; }
+.meo-doc { margin: 8px 0 0; padding: 10px 12px; border-radius: 12px; background: var(--vang-nhat); }
+.luoi-vd-am { display: grid; grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: 8px; }
+.o-vd-am {
+  display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 8px 4px;
+  border: 2px solid var(--vien-nhat); border-radius: 12px; background: var(--be-mat); cursor: pointer; color: var(--chu);
+}
+.o-vd-am .han { font-size: 1.6rem; line-height: 1.2; }
+
+/* Chữ vẽ bằng SVG (nét cơ bản, bộ thủ) */
+.svg-chu { width: 88px; height: 88px; display: block; }
+.svg-chu.nho { width: 48px; height: 48px; flex: none; }
+.svg-chu path.net-thuong { fill: var(--chu); }
+.svg-chu path.net-mo { fill: var(--vien-nhat); }
+.svg-chu path.net-to { fill: var(--chinh-chu); }
+.svg-thay { font-size: 3rem; }
+
+/* Nét cơ bản */
+.luoi-net { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+.o-net {
+  display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 12px 10px;
+  text-align: center; cursor: pointer; color: var(--chu); font: inherit;
+}
+.o-net:active { transform: translateY(3px); box-shadow: none; }
+.o-net .ten-net { font-size: .9rem; }
+.o-net .chu-phu { font-size: .78rem; }
+.ds-quy-tac { display: flex; flex-direction: column; gap: 10px; }
+.dong-quy-tac {
+  display: flex; align-items: center; gap: 12px; text-align: left; cursor: pointer;
+  color: var(--chu); font: inherit; padding: 12px 14px;
+}
+.dong-quy-tac .giua { flex: 1; display: flex; flex-direction: column; gap: 2px; }
+
+/* Bộ thủ */
+.luoi-bo-thu { display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 10px; }
+.o-bo-thu {
+  display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 10px 6px;
+  border: var(--vien-rong) solid var(--vien-the); border-radius: 16px; background: var(--be-mat);
+  box-shadow: 0 3px 0 var(--khoi); cursor: pointer; color: var(--chu); text-align: center; font: inherit;
+}
+.o-bo-thu:active { transform: translateY(2px); box-shadow: none; }
+.bo-lon { font-size: 2rem; line-height: 1.2; }
+.bo-lon small { font-size: 1rem; color: var(--chu-phu); margin-left: 4px; }
+.o-bo-thu .chu-phu { font-size: .74rem; line-height: 1.25; min-height: 2.5em; }
+.o-bo-thu .thanh-tien-do { width: 100%; height: 6px; margin-top: 4px; }
+.luoi-vd-bo { display: flex; flex-direction: column; gap: 8px; }
+.o-vd-bo { display: flex; align-items: center; gap: 12px; padding: 6px; border-radius: 12px; background: var(--be-mat-2); }
+.o-vd-bo .giua { display: flex; flex-direction: column; min-width: 0; }
+.nut-chu-vd { border: 0; background: var(--be-mat); border-radius: 10px; padding: 4px; cursor: pointer; }
+.nut-chu-vd .svg-chu { width: 56px; height: 56px; }
+.lien-ket-doc { border: 0; background: none; padding: 0; font-size: 1.15rem; text-align: left; cursor: pointer; color: var(--chinh-chu); }
+.chu-hoi-bo .svg-chu { width: 120px; height: 120px; margin: 4px auto; }

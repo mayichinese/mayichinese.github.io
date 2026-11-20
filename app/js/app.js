@@ -6,7 +6,8 @@
 // 4. Đăng ký chạy offline (service worker)
 //
 // Thanh điều hướng (5 mục, sắp xếp kiểu Duolingo):
-//   Hôm nay (#/) · Bài học (#/bai) · Ôn luyện (#/luyen-tap) · Thi thử (#/thi-thu) · Tôi (#/toi)
+//   Hôm nay (#/) · Bài học (#/bai) · Ôn luyện (#/luyen-tap) · Chữ & âm (#/chu-am) · Thi thử (#/thi-thu) · Tôi (#/toi)
+//   Cấp HSK mở khóa dần (cap-do.js): bài / thi thử của cấp đang khóa không vào được.
 //
 // Các địa chỉ:
 //   #/             Hôm nay (trang chủ)          → man-trang-chu.js
@@ -26,7 +27,9 @@
 //   #/ngu-phap     Ngữ pháp: danh sách điểm     → man-ngu-phap.js
 //   #/ngu-phap/<mã>           bài học một điểm      #/ngu-phap/<mã>/luyen  luyện tập điểm đó
 //   #/ngu-phap/on             ôn các điểm đến hạn
-//   #/thi-thu      Thi thử HSK 1 / 2 / 3: giới thiệu → man-thi-thu.js  #/thi-thu/lam  đề HSK 1 · #/thi-thu/lam/2 · #/thi-thu/lam/3
+//   #/chu-am[/phien-am|net|bo-thu]  Chữ & âm: tra cứu phiên âm, nét cơ bản, bộ thủ → man-chu-am.js
+//   #/chu-am/luyen/<phien-am|bo-thu>  lượt luyện 10 câu
+//   #/thi-thu[/cap/2] Thi thử HSK 1 / 2 / 3: giới thiệu → man-thi-thu.js  #/thi-thu/lam  đề HSK 1 · #/thi-thu/lam/2 · #/thi-thu/lam/3
 //   #/toi          Tôi: tiến độ, thống kê       → man-thong-ke.js   (#/thong-ke: địa chỉ cũ, vẫn dùng được)
 //   #/cai-dat      Cài đặt, sao lưu (mở từ "Tôi") → man-cai-dat.js
 // =========================================================
@@ -47,6 +50,8 @@ import { veThanhDieu, vePhienThanh, CAC_DANG } from './man-thanh-dieu.js';
 import { veTracNghiem, vePhienTracNghiem, CAC_DANG as DANG_TRAC_NGHIEM } from './man-trac-nghiem.js';
 import { veNguPhap, veDiemNguPhap, vePhienNguPhap } from './man-ngu-phap.js';
 import { veThiThu, veLamBai } from './man-thi-thu.js';
+import { veChuAm, vePhienChuAm } from './man-chu-am.js';
+import { capMo } from './cap-do.js';
 
 const $noiDung = () => document.getElementById('noi-dung');
 let donDep = null; // hàm dọn dẹp của màn hình trước (tắt đồng hồ, bỏ phím tắt…)
@@ -67,7 +72,7 @@ function veTheoDiaChi() {
     '': 'trang-chu', bai: 'bai', tu: 'bai', 'hoc-moi': 'bai',
     on: 'luyen-tap', 'luyen-tap': 'luyen-tap', 'luyen-viet': 'luyen-tap', 'thanh-dieu': 'luyen-tap',
     'trac-nghiem': 'luyen-tap', 'ngu-phap': 'luyen-tap',
-    'thi-thu': 'thi-thu', toi: 'toi', 'thong-ke': 'toi', 'cai-dat': 'toi',
+    'thi-thu': 'thi-thu', toi: 'toi', 'thong-ke': 'toi', 'cai-dat': 'toi', 'chu-am': 'chu-am',
   }[muc] ?? '';
   if (muc === 'trac-nghiem' && thamSo === 'bai') mucChon = 'bai'; // kiểm tra một bài = bước 3 của bài học
   document.querySelectorAll('.dieu-huong a[data-muc]').forEach((a) => {
@@ -82,6 +87,7 @@ function veTheoDiaChi() {
   } else if (muc === 'hoc-moi') {
     // mã bài: số (bài theo chủ đề) hoặc 's5' (bài 5 của sách)
     const bai = thamSo ? timBaiTheoMa(maBaiTuDiaChi(thamSo)) : null;
+    if (bai && !capMo(bai.cap)) { location.replace(`#/bai/${bai.ma}`); return; }   // cấp đang khóa
     datTieuDe(bai ? `Từ mới · ${nhanBai(bai)}` : 'Học từ mới', bai ? `#/bai/${bai.ma}` : '#/');
     donDep = vePhien(khung, 'moi', bai ? bai.ma : null);
   } else if (muc === 'bai' && thamSo) {
@@ -107,11 +113,18 @@ function veTheoDiaChi() {
     veLuyenViet(khung);
   } else if (muc === 'thi-thu' && thamSo === 'lam') {
     const capThi = ['2', '3'].includes(duong[2]) ? Number(duong[2]) : 1;
+    if (!capMo(capThi)) { location.replace(`#/thi-thu/cap/${capThi}`); return; }   // cấp đang khóa
     datTieuDe(`Thi thử HSK ${capThi}`, '#/thi-thu');
     donDep = veLamBai(khung, capThi);
   } else if (muc === 'thi-thu') {
     datTieuDe('Thi thử');
-    veThiThu(khung);
+    veThiThu(khung, thamSo === 'cap' && ['1', '2', '3'].includes(duong[2]) ? Number(duong[2]) : null);
+  } else if (muc === 'chu-am' && thamSo === 'luyen') {
+    datTieuDe(duong[2] === 'bo-thu' ? 'Luyện bộ thủ' : 'Luyện phiên âm', `#/chu-am/${duong[2] === 'bo-thu' ? 'bo-thu' : 'phien-am'}`);
+    donDep = vePhienChuAm(khung, duong[2] === 'bo-thu' ? 'bo-thu' : 'phien-am');
+  } else if (muc === 'chu-am') {
+    datTieuDe('Chữ & âm');
+    veChuAm(khung, thamSo);
   } else if (muc === 'ngu-phap' && thamSo === 'on') {
     datTieuDe('Ôn ngữ pháp', '#/ngu-phap');
     donDep = vePhienNguPhap(khung, 'on');

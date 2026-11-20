@@ -2,7 +2,7 @@
 // CÀI ĐẶT & SAO LƯU  (#/cai-dat – mở bằng nút ⚙️ trên thanh trên cùng)
 // =========================================================
 
-import { caiDat, luu, layTienDo, xuatSaoLuu, nhapSaoLuu, xoaTienDo } from './luu-tru.js';
+import { caiDat, luu, layTienDo, xuatSaoLuu, nhapSaoLuu, xoaTienDo, phutMoiNgay, CAC_MUC_TIEU } from './luu-tru.js';
 import { tatCaTu } from './du-lieu.js';
 import { doc, giongTiengTrung, choGiong } from './phat-am.js';
 import { esc, thongBao, apDungGiaoDien, dongTu, CHU_THICH_MAU_THANH } from './giao-dien.js';
@@ -34,6 +34,10 @@ export async function veCaiDat(khung) {
 
     <h3 class="tieu-de-muc">Học tập</h3>
     <div class="khung khung-cai-dat">
+      <p style="margin:0 0 8px"><b>Mục tiêu mỗi ngày</b></p>
+      <div class="nhom-chon" id="chon-muc-tieu-cd">
+        ${CAC_MUC_TIEU.map((m) => `<button data-phut="${m.phut}" class="${m.phut === phutMoiNgay() ? 'dang-chon' : ''}">${m.phut} phút<br><small>${m.ten}</small></button>`).join('')}
+      </div>
       <div class="dong-cai-dat"><label for="cd-moi">Số từ mới mỗi ngày</label>
         <input id="cd-moi" type="number" min="1" max="50" value="${cd.soTuMoiMoiNgay}"></div>
       <div class="dong-cai-dat"><label for="cd-on">Số thẻ ôn tối đa mỗi ngày</label>
@@ -105,6 +109,15 @@ export async function veCaiDat(khung) {
   });
   $('#cd-khai').onchange = (e) => { cd.kieuChuKhai = e.target.checked; document.body.classList.toggle('kieu-khai', cd.kieuChuKhai); luu(); };
   $('#cd-mau-thanh').onchange = (e) => { cd.tatMauThanh = !e.target.checked; luu(); apDungGiaoDien(); };
+
+  khung.querySelectorAll('#chon-muc-tieu-cd [data-phut]').forEach((nut) => {
+    nut.onclick = () => {
+      cd.phutMoiNgay = Number(nut.dataset.phut);
+      luu();
+      khung.querySelectorAll('#chon-muc-tieu-cd button').forEach((b) => b.classList.toggle('dang-chon', b === nut));
+      thongBao(`Mục tiêu: ${cd.phutMoiNgay} phút mỗi ngày`);
+    };
+  });
 
   // --- Lưu khi thay đổi ---
   const soNguyen = (el, min, max, macDinh) => {

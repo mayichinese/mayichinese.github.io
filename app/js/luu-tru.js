@@ -23,8 +23,19 @@ export const CAI_DAT_MAC_DINH = {
   cheDo: 'tu-dong',       // giao diện: 'tu-dong' (theo máy) | 'sang' | 'toi'
   soChuVietMoiMoiNgay: 5, // số chữ mới luyện viết mỗi ngày (Giai đoạn 2)
   cheDoBai: 'chu-de',     // chia bài (chung cho HSK 1–3): 'chu-de' (theo nhóm nghĩa) | 'sach' (theo bài sách 《新HSK教程》)
+  // Mục tiêu số phút mỗi ngày do người học tự chọn (CAC_MUC_TIEU). null = chưa chọn → trang Hôm nay hỏi,
+  // trong lúc chưa chọn tạm dùng MUC_TIEU_MAC_DINH.
+  phutMoiNgay: null,
+  // (cũ) chia 60 phút cho 5 phần – không còn dùng làm mục tiêu, giữ lại để đọc được bản sao lưu cũ
   phutMucTieu: { on: 15, moi: 15, nghe: 10, viet: 10, nguPhap: 10 },
 };
+export const MUC_TIEU_MAC_DINH = 20;
+export const CAC_MUC_TIEU = [
+  { phut: 10, ten: 'Thoải mái' },
+  { phut: 20, ten: 'Vừa phải' },
+  { phut: 30, ten: 'Nghiêm túc' },
+  { phut: 60, ten: 'Chuyên sâu' },
+];
 
 function tienDoTrong() {
   return {
@@ -44,6 +55,10 @@ function tienDoTrong() {
     nguPhap: { the: {}, daXem: {}, dung: 0, sai: 0 },
     // Giai đoạn 5.2 – lịch sử thi thử: [{ cap, luc (ISO), diem, nghe, doc, giay }] (giữ 30 lần gần nhất)
     thiThu: [],
+    // Cấp HSK đã mở khóa (mở dần: học hết cấp trước, hoặc đạt thi thử cấp trước = "học vượt") – xem cap-do.js
+    capDaMo: [1],
+    // Chữ & âm: số lần đúng/sai theo từng âm đầu / vần ("d:b", "v:ang") và từng bộ thủ ("b:氵")
+    nenTang: { dung: {}, sai: {} },
     caiDat: { ...CAI_DAT_MAC_DINH },
     saoLuuLanCuoi: null,
   };
@@ -81,6 +96,8 @@ function hopNhat(cu) {
       the: { ...(cu.nguPhap?.the || {}) }, daXem: { ...(cu.nguPhap?.daXem || {}) },
     },
     thiThu: Array.isArray(cu.thiThu) ? cu.thiThu : [],
+    capDaMo: Array.isArray(cu.capDaMo) && cu.capDaMo.length ? cu.capDaMo : [1],
+    nenTang: { dung: { ...(cu.nenTang?.dung || {}) }, sai: { ...(cu.nenTang?.sai || {}) } },
   };
 }
 
@@ -118,6 +135,29 @@ export function nhatKyHomNay() {
   return tienDo.nhatKy[k];
 }
 
+/** Mục tiêu số phút mỗi ngày (người học tự chọn) */
+export const phutMoiNgay = () => tienDo.caiDat.phutMoiNgay || MUC_TIEU_MAC_DINH;
+
+/** Tổng số phút đã học trong một ngày (mặc định hôm nay) */
+export function tongPhutNgay(nk = nhatKyHomNay()) {
+  return Math.floor(Object.values(nk?.giay || {}).reduce((a, b) => a + b, 0) / 60);
+}
+
+/**
+ * Ghi lại một LƯỢT bài đã làm xong (dùng cho nhiệm vụ hằng ngày).
+ * @param {string} loai  tracNghiem | thanh | nguPhap | phienAm | boThu
+ *   nk.luot[loai]: số lượt · nk.luotTot: số lượt đúng ≥ 80% · nk.luotHoanHao: số lượt không sai câu nào
+ */
+export function ghiLuot(loai, dung, sai) {
+  const nk = nhatKyHomNay();
+  nk.luot = nk.luot || {};
+  nk.luot[loai] = (nk.luot[loai] || 0) + 1;
+  const tong = dung + sai;
+  if (tong && dung / tong >= 0.8) nk.luotTot = (nk.luotTot || 0) + 1;
+  if (tong && sai === 0) nk.luotHoanHao = (nk.luotHoanHao || 0) + 1;
+  luu();
+}
+
 /** Cộng thêm số giây học cho một phần (on / moi / ...). */
 export function congGiay(phan, soGiay) {
   const nk = nhatKyHomNay();
@@ -126,7 +166,8 @@ export function congGiay(phan, soGiay) {
 
 /** Ngày này có học không: học/ôn thẻ từ, luyện viết, luyện thanh điệu hoặc làm trắc nghiệm. */
 export function coHocNgay(nk) {
-  return !!nk && (nk.moi > 0 || nk.on > 0 || nk.viet > 0 || nk.thanh > 0 || nk.tracNghiem > 0 || nk.nguPhap > 0 || nk.thiThu > 0);
+  return !!nk && (nk.moi > 0 || nk.on > 0 || nk.viet > 0 || nk.thanh > 0 || nk.tracNghiem > 0 || nk.nguPhap > 0 || nk.thiThu > 0
+    || nk.nenTang > 0);
 }
 
 /** Số ngày học liên tục tính đến hôm nay (hoặc hôm qua nếu hôm nay chưa học). */

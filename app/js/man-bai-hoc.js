@@ -20,6 +20,7 @@ import { demHomNay, tuChuaHoc, baiDangHoc } from './phien-hoc.js';
 import { esc, boDau, htmlMatSau, dongTu, CHU_THICH_CHAM, CHU_THICH_MAU_THANH } from './giao-dien.js';
 import { bieuTuong } from './bieu-tuong.js';
 import { taiNguPhap } from './man-ngu-phap.js';
+import { capMo, capHienTai, htmlCachMoKhoa } from './cap-do.js';
 
 // Cấp đang xem trong lộ trình (mặc định: cấp của bài đang học dở)
 let capDangXem = null;
@@ -37,14 +38,17 @@ export function veDanhSachBai(khung) {
   const cd = caiDat();
   const cheDo = cheDoBai(cd);
   const coCap = cacCapCoDuLieu();
-  if (!coCap.includes(capDangXem)) capDangXem = baiDangHoc()?.cap || 1;
+  if (!coCap.includes(capDangXem)) capDangXem = baiDangHoc()?.cap || capHienTai();
   const cap = capDangXem;
+  const khoa = !capMo(cap);   // cấp đang xem còn khóa → chỉ xem trước tên bài, không vào học
 
-  // Chọn cấp: mỗi chip kèm % đã học của cấp đó; cấp chưa có dữ liệu thì khóa lại
+  // Chọn cấp: mỗi chip kèm % đã học; cấp chưa mở khóa hiện 🔒 (vẫn bấm được để xem cách mở khóa)
   const chipCap = [1, 2, 3].map((c) => {
     if (!coCap.includes(c)) return `<button class="chip" disabled title="Sắp có">HSK ${c} <span class="emoji">🔒</span></button>`;
-    const { phanTram } = demTu(tatCaTu().filter((t) => t.cap === c), td.the);
-    return `<button class="chip ${c === cap ? 'dang-chon' : ''}" data-cap="${c}">HSK ${c}<small> · ${phanTram}%</small></button>`;
+    const nhan = capMo(c)
+      ? `<small> · ${demTu(tatCaTu().filter((t) => t.cap === c), td.the).phanTram}%</small>`
+      : ' <span class="emoji">🔒</span>';
+    return `<button class="chip ${c === cap ? 'dang-chon' : ''} ${capMo(c) ? '' : 'chip-khoa'}" data-cap="${c}">HSK ${c}${nhan}</button>`;
   }).join('');
 
   // Tổng quan cấp đang xem
@@ -78,6 +82,16 @@ export function veDanhSachBai(khung) {
         </div>
       </li>`;
     }
+    if (khoa) {
+      return `
+      <li class="buoc-lo-trinh bi-khoa">
+        <div class="the-lo-trinh" aria-disabled="true">
+          <span class="nut-tron emoji">🔒</span>
+          <span class="khung the-phai"><span class="giua"><span class="so-bai">${nhan}</span><b>${esc(b.ten)}</b>
+            <span class="chu-phu nho">${b.tu.length} từ</span></span></span>
+        </div>
+      </li>`;
+    }
     const t = demTu(b.tu, td.the);
     const trangThai = t.phanTram === 100 ? 'xong' : b === baiHienTai ? 'dang' : t.daHoc ? 'do-dang' : 'chua';
     return `
@@ -99,6 +113,7 @@ export function veDanhSachBai(khung) {
 
   khung.innerHTML = `
     <div class="hang-chip chon-cap">${chipCap}</div>
+    ${khoa ? `<div style="margin-top:12px">${htmlCachMoKhoa(cap)}</div>` : ''}
     <section class="khung tong-quan-cap">
       <div class="dong-tren"><b>HSK ${cap} · ${tuCap.length} từ · ${dsBai.length} bài</b>
         ${tk.thuoc ? `<span class="nhan nhan-vang">⭐ Thuộc chắc ${tk.thuoc}</span>` : ''}</div>
@@ -165,6 +180,10 @@ function buocBai({ so, ma, emoji, ten, moTa, href, xong, them = '' }) {
 export async function veBai(khung, ma) {
   const b = timBaiTheoMa(ma);
   if (!b) { khung.innerHTML = '<p class="loi">Không tìm thấy bài này.</p>'; return; }
+  if (!capMo(b.cap)) {
+    khung.innerHTML = `${htmlCachMoKhoa(b.cap)}<a class="nut nut-rong" href="#/bai" style="margin-top:12px">← Về lộ trình</a>`;
+    return;
+  }
   const td = layTienDo();
   const chuaHoc = tuChuaHoc(b.ma).length;
   const { conTuMoi } = demHomNay();

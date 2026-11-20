@@ -1,0 +1,90 @@
+# NGUỒN SOẠN TAY – mục "Chữ & âm" → Phiên âm
+# Chạy: python -X utf8 cong-cu/tao-nen-tang.py   (tạo app/data/nen-tang.json)
+#
+# Định dạng:
+#   @ thanh | @ am-dau | @ van        bắt đầu một phần
+#   = Tên nhóm                         bắt đầu một nhóm trong phần
+#   mã | mẹo phát âm (so với tiếng Việt)
+# Ví dụ nghe (chữ Hán + pinyin) do script tự lấy từ các từ một chữ trong hsk1/2/3.json,
+# nên file này KHÔNG chứa chữ Hán.
+
+@ thanh
+1 | Cao và bằng, giữ giọng ở mức cao như khi ngân một nốt nhạc. Giống thanh ngang nhưng cao hơn.
+2 | Đi lên từ giữa lên cao, giống thanh sắc tiếng Việt (như khi hỏi lại "hả?").
+3 | Xuống thấp rồi lên, gần thanh hỏi. Khi nói nhanh thường chỉ đọc phần thấp, trầm.
+4 | Rơi mạnh từ cao xuống thấp, dứt khoát, giống thanh huyền đọc mạnh và nhanh (như khi ra lệnh).
+0 | Thanh nhẹ: đọc ngắn và nhẹ, không có dấu; thường là chữ thứ hai của từ hoặc trợ từ.
+
+@ am-dau
+= Âm môi
+b | Gần âm "p" không bật hơi (dây thanh không rung) – nhẹ hơn "b" tiếng Việt.
+p | Như "p" nhưng bật mạnh hơi ra (để tờ giấy trước miệng sẽ thấy giấy rung).
+m | Như "m" tiếng Việt.
+f | Như "ph" tiếng Việt.
+= Âm đầu lưỡi
+d | Gần "t" tiếng Việt, không bật hơi – không phải "đ".
+t | Như "th" tiếng Việt: "t" bật hơi.
+n | Như "n" tiếng Việt.
+l | Như "l" tiếng Việt.
+= Âm cuống lưỡi
+g | Gần "c/k" tiếng Việt, không bật hơi – không phải "g".
+k | Âm "k" bật mạnh hơi (khác "kh" tiếng Việt vốn là âm xát).
+h | Gần "kh" tiếng Việt: hơi cọ xát ở cuống lưỡi.
+= Âm mặt lưỡi (chỉ đi với i, ü)
+j | Gần "ch" tiếng Việt, mặt lưỡi áp vào ngạc, không bật hơi.
+q | Như j nhưng bật hơi mạnh: "ch" bật hơi.
+x | Gần "x" tiếng Việt nhưng mặt lưỡi nâng lên, môi dẹt như khi cười.
+= Âm uốn lưỡi
+zh | Uốn đầu lưỡi lên ngạc cứng, đọc như "tr" tiếng Việt, không bật hơi.
+ch | Như zh nhưng bật hơi: "tr" bật hơi mạnh.
+sh | Uốn lưỡi, gần "s" uốn lưỡi (kiểu đọc "s" chuẩn miền Bắc trong sách).
+r | Uốn lưỡi như sh nhưng dây thanh rung – gần "r" nhẹ, không rung lưỡi.
+= Âm đầu lưỡi trước
+z | Đầu lưỡi thẳng chạm sau răng trên: "t" và "x" đọc liền (như "ts"), không bật hơi.
+c | Như z nhưng bật hơi mạnh: "ts" bật hơi.
+s | Như "x" tiếng Việt, đầu lưỡi thẳng.
+= Bán nguyên âm
+y | Thực chất là "i" đứng đầu âm tiết (yi đọc như i, ya như ia).
+w | Thực chất là "u" đứng đầu âm tiết (wu đọc như u, wa như oa).
+
+@ van
+= Vần đơn
+a | Như "a" tiếng Việt, miệng mở to.
+o | Sau b, p, m, f đọc lướt như "ua" (bo ≈ "pua"); một mình gần "ô".
+e | Gần "ơ" nhưng lưỡi lùi về sau, nghe hơi giống "ưa".
+i | Như "i". Riêng sau z, c, s, zh, ch, sh, r thì đọc gần "ư".
+u | Như "u", môi tròn.
+ü | Môi tròn như "u" nhưng lưỡi để như "i" – gần "uy" đọc liền. Sau j, q, x, y viết là u.
+= Vần ghép
+ai | Như "ai".
+ei | Như "ây".
+ui | Viết gọn của uei: như "uây".
+ao | Như "ao".
+ou | Như "âu".
+iu | Viết gọn của iou: như "iêu".
+ie | Như "iê".
+üe | ü rồi ê, gần "uyê".
+er | Đọc "ơ" rồi cong đầu lưỡi lên – âm cuộn lưỡi.
+= Vần mũi trước (-n)
+an | Như "an".
+en | Như "ân".
+in | Như "in".
+un | Viết gọn của uen: như "uân".
+ün | Như "uyn".
+= Vần mũi sau (-ng)
+ang | Như "ang".
+eng | Như "âng".
+ing | Như "inh" nhưng lưỡi lùi về sau.
+ong | Như "ung".
+= Vần có i, u, ü đứng trước
+ia | "i" rồi "a" đọc liền.
+iao | "i" rồi "ao" đọc liền, gần "eo" kéo dài.
+ian | Như "iên".
+iang | "i" rồi "ang" đọc liền.
+iong | Gần "i-ung" đọc liền.
+ua | Như "oa".
+uo | Như "uô".
+uai | Như "oai".
+uan | Như "oan".
+uang | Như "oang".
+üan | Như "uyên".

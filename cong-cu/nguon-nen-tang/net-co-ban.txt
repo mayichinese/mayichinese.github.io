@@ -1,0 +1,37 @@
+# NGUỒN SOẠN TAY – mục "Chữ & âm" → Nét cơ bản
+# Chạy: python -X utf8 cong-cu/tao-nen-tang.py
+#
+# Định dạng phần nét:
+#   tên Hán | pinyin | tên Việt | cách viết | chữ ví dụ | thứ tự nét trong chữ ví dụ (đếm từ 1)
+#   (script kiểm tra chữ ví dụ có trong dữ liệu nét của app)
+# Định dạng phần quy tắc (sau dòng "@ quy-tac"):
+#   tên quy tắc | giải thích | chữ ví dụ
+
+@ net
+横 | héng | Ngang | Kéo từ trái sang phải, hơi nhếch lên. | 一 | 1
+竖 | shù | Sổ | Kéo thẳng từ trên xuống. | 十 | 2
+撇 | piě | Phẩy | Từ trên phải kéo xuống trái, nét thon dần. | 人 | 1
+点 | diǎn | Chấm | Chấm ngắn từ trên xuống phải. | 六 | 1
+捺 | nà | Mác | Từ trên trái kéo xuống phải, cuối nét đè mạnh rồi nhấc ra. | 人 | 2
+提 | tí | Hất | Từ dưới trái hất lên trên phải. | 我 | 4
+横折 | héngzhé | Ngang gập | Ngang rồi gập xuống thành sổ. | 口 | 2
+横钩 | hénggōu | Ngang móc | Ngang rồi móc xuống trái. | 买 | 1
+竖钩 | shùgōu | Sổ móc | Sổ rồi móc sang trái ở cuối. | 小 | 1
+竖提 | shùtí | Sổ hất | Sổ rồi hất lên phải. | 长 | 3
+横撇 | héngpiě | Ngang phẩy | Ngang rồi gập thành phẩy. | 又 | 1
+撇点 | piědiǎn | Phẩy chấm | Phẩy rồi gập thành chấm. | 女 | 1
+竖折 | shùzhé | Sổ gập | Sổ rồi gập sang phải thành ngang. | 山 | 2
+斜钩 | xiégōu | Móc chéo | Kéo chéo xuống phải rồi móc lên. | 我 | 5
+弯钩 | wāngōu | Móc cong | Nét cong xuống rồi móc sang trái. | 子 | 2
+横折钩 | héngzhégōu | Ngang gập móc | Ngang, gập xuống rồi móc sang trái. | 月 | 2
+竖弯钩 | shùwāngōu | Sổ cong móc | Sổ, cong sang phải rồi móc lên. | 七 | 2
+撇折 | piězhé | Phẩy gập | Phẩy rồi gập sang phải thành hất. | 么 | 2
+
+@ quy-tac
+Ngang trước, sổ sau | Nét ngang và nét sổ cắt nhau thì viết ngang trước. | 十
+Phẩy trước, mác sau | Nét phẩy và nét mác đi cặp thì viết phẩy (sang trái) trước. | 八
+Trên trước, dưới sau | Viết từ trên xuống dưới. | 三
+Trái trước, phải sau | Viết từ trái sang phải. | 好
+Ngoài trước, trong sau | Viết khung ngoài trước rồi viết phần bên trong. | 月
+Vào nhà trước, đóng cửa sau | Khung kín: viết khung, viết phần trong, cuối cùng mới đóng nét đáy. | 回
+Giữa trước, hai bên sau | Phần giữa nổi bật thì viết trước, rồi mới viết hai bên. | 小

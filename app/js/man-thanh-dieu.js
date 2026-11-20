@@ -11,7 +11,7 @@
 // Câu trả lời sai được hỏi lại một lần ở cuối phiên.
 // =========================================================
 
-import { caiDat, layTienDo, luu, nhatKyHomNay } from './luu-tru.js';
+import { caiDat, layTienDo, luu, nhatKyHomNay, ghiLuot } from './luu-tru.js';
 import { tatCaTu, nghiaNgan } from './du-lieu.js';
 import { doc } from './phat-am.js';
 import { esc, batDongHo, nutLoa } from './giao-dien.js';
@@ -233,7 +233,6 @@ export async function veThanhDieu(khung) {
   const td = layTienDo();
   const tk = td.thanhDieu;
   const nk = nhatKyHomNay();
-  const mt = caiDat().phutMucTieu.nghe;
 
   // Âm mẫu cho từng thanh (chữ đầu tiên của mỗi thanh trong bài nghe 1 âm tiết)
   const mau = [1, 2, 3, 4].map((t) => uuTienDaHoc(nh.mot.filter((c) => c.dapAn[0] === t))[0]);
@@ -256,7 +255,7 @@ export async function veThanhDieu(khung) {
       <p class="chu-phu nho" style="margin:8px 0 0">🎨 Khắp app, pinyin được tô màu theo thanh như bảng trên (thanh nhẹ màu <span class="t0">xám</span>) để nhìn là biết đọc thanh mấy. Tắt màu trong Cài đặt.</p>
     </section>
 
-    <h3 class="tieu-de-muc">Chọn dạng bài <small>${Math.floor((nk.giay.nghe || 0) / 60)}/${mt}′ hôm nay</small></h3>
+    <h3 class="tieu-de-muc">Chọn dạng bài <small>${Math.floor((nk.giay.nghe || 0) / 60)} phút hôm nay</small></h3>
     <div class="ke-hoach">
       ${Object.entries(CAC_DANG).map(([ma, d]) => `
         <a class="dong-ke-hoach khung phan-nghe" href="#/thanh-dieu/${ma}">
@@ -499,6 +498,7 @@ export function vePhienThanh(khung, dang) {
       dungDongHo();
       document.body.classList.remove('dang-hoc');
       const ti = ketQua.dung + ketQua.sai ? ketQua.dung / (ketQua.dung + ketQua.sai) : 0;
+      ghiLuot('thanh', ketQua.dung, ketQua.sai);   // cho nhiệm vụ hằng ngày
       const nham = Object.entries(ketQua.nham).sort((a, b) => b[1] - a[1])
         .map(([k, n]) => { const [t, c] = k.split('>'); return `<li>Nghe <b class="t${t}">${TEN_THANH[t]}</b> → chọn <b class="t${c}">${TEN_THANH[c]}</b>: ${n} lần</li>`; }).join('');
       khung.innerHTML = `

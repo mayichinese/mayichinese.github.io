@@ -8,6 +8,7 @@
 import { layTienDo, caiDat, nhatKyHomNay, luu } from './luu-tru.js';
 import { tinhLichMoi, dangHoc, DANH_GIA } from './lich-on.js';
 import { tatCaTu, danhSachBai, timBaiTheoMa, cheDoBai } from './du-lieu.js';
+import { capDaMo } from './cap-do.js';
 
 const PHUT = 60 * 1000;
 const HOC_TRUOC = 20 * PHUT;   // thẻ đang học đến hạn trong 20 phút tới thì cho hiện luôn
@@ -43,14 +44,20 @@ export function demHomNay(bayGio = Date.now()) {
  */
 export function tuChuaHoc(maBai = null) {
   const td = layTienDo();
-  const ds = maBai != null ? [timBaiTheoMa(maBai)].filter(Boolean) : danhSachBai(cheDoBai(caiDat()));
+  const ds = maBai != null ? [timBaiTheoMa(maBai)].filter(Boolean) : baiCacCapDaMo();
   return ds.flatMap((b) => b.tu).filter((t) => !td.the[t.khoa]);
 }
 
-/** Bài đầu tiên còn từ chưa học (để gợi ý học tiếp) – theo chế độ chia bài đang chọn. */
+/** Các bài của những cấp đã mở khóa (cấp đang khóa không đưa vào "Học từ mới") */
+function baiCacCapDaMo() {
+  const mo = capDaMo();
+  return danhSachBai(cheDoBai(caiDat())).filter((b) => mo.includes(b.cap));
+}
+
+/** Bài đầu tiên còn từ chưa học (để gợi ý học tiếp) – theo chế độ chia bài đang chọn, chỉ trong cấp đã mở. */
 export function baiDangHoc() {
   const td = layTienDo();
-  return danhSachBai(cheDoBai(caiDat())).find((b) => b.tu.some((t) => !td.the[t.khoa])) || null;
+  return baiCacCapDaMo().find((b) => b.tu.some((t) => !td.the[t.khoa])) || null;
 }
 
 // ---------- Tạo một phiên học ----------

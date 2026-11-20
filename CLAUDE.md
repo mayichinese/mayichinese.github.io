@@ -21,9 +21,20 @@
 - `app/` – **app chính** (HTML/CSS/JS thuần, ES module, không build). PWA chạy offline.
   - `js/lich-on.js`: ôn tập ngắt quãng SM-2 (Quên/Khó/Nhớ/Dễ). `js/luu-tru.js`: lưu tiến độ localStorage.
   - `js/phien-hoc.js` (chọn thẻ tiếp theo), `js/phat-am.js` (Web Speech API zh-CN), `sw.js` (cache offline).
-  - Điều hướng 5 mục kiểu Duolingo: Hôm nay `#/` (nhiệm vụ 60 phút + nút Tiếp tục) · Bài học `#/bai` (lộ trình;
-    trang bài = ① Từ mới ② Ngữ pháp của bài ③ Kiểm tra) · Ôn luyện `#/luyen-tap` (cần ôn + 4 kỹ năng) · Thi thử `#/thi-thu`
+  - Điều hướng 6 mục kiểu Duolingo: Hôm nay `#/` · Bài học `#/bai` (lộ trình; trang bài = ① Từ mới ② Ngữ pháp của bài
+    ③ Kiểm tra) · Ôn luyện `#/luyen-tap` (cần ôn + 4 kỹ năng) · Chữ & âm `#/chu-am` · Thi thử `#/thi-thu`
     · Tôi `#/toi` (thống kê + lối vào Cài đặt; `#/thong-ke` là địa chỉ cũ). Không có nút Cài đặt trên thanh trên cùng.
+  - Mục tiêu phút do người học chọn: `caiDat.phutMoiNgay` (10/20/30/60; null = chưa chọn → Hôm nay hỏi). `phutMucTieu` (chia
+    60 phút cho 5 phần) KHÔNG còn dùng làm mục tiêu. Đồng hồ `batDongHo` hiện tổng phút hôm nay / mục tiêu.
+  - `js/nhiem-vu.js`: 3 nhiệm vụ/ngày ngẫu nhiên (hạt giống = ngày) từ 3 trong 4 nhóm (số lượng, thời gian, dạng bài, chính xác),
+    không trùng chủ đề; lưu `nk.nhiemVu=[{ma,muc}]`, tiến độ tính từ bộ đếm nhật ký. Lượt bài xong gọi `ghiLuot(loai, dung, sai)`
+    (luu-tru.js) → `nk.luot[loai]`, `nk.luotTot` (≥80%), `nk.luotHoanHao`. Nhiệm vụ tháng: 50.
+  - `js/cap-do.js`: mở khóa cấp dần – HSK N mở khi học hết từ cấp N−1, hoặc đạt thi thử cấp N−1 (học vượt), hoặc đã có từ cấp N
+    (tiến độ cũ). Ghi `tienDo.capDaMo`. Khóa: học từ mới, bài, ngữ pháp, thi thử, chữ viết cấp 3 của cấp đang khóa.
+  - `js/man-chu-am.js` (Chữ & âm): phiên âm (thanh, 23 âm đầu, 35 vần), 18 nét + 7 quy tắc thứ tự nét, 45 bộ thủ; luyện 10 câu
+    phiên âm / bộ thủ; tiến độ `tienDo.nenTang.dung/sai` theo "d:zh", "v:ang", "b:氵". Dữ liệu `data/nen-tang.json` tạo từ
+    `cong-cu/nguon-nen-tang/*.txt` bằng `python -X utf8 cong-cu/tao-nen-tang.py` (cần makemeahanzi-dictionary.txt và
+    Unihan_Readings.txt trong `cong-cu/tu-dien-doi-chieu/`; ví dụ nghe lấy tự động, bỏ chữ đa âm).
   - Giao diện: `js/app.js` (khởi động, chuyển màn hình), `js/giao-dien.js` (mảnh dùng chung, sáng/tối),
     mỗi màn hình một file `js/man-*.js`; `js/pinyin.js` tô màu thanh điệu (tắt được: caiDat.tatMauThanh → lớp body .khong-mau-thanh; chú thích CHU_THICH_MAU_THANH); `css/style.css` (biến màu
     sáng/tối theo logo) + `css/man-hinh.css`.

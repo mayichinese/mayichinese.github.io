@@ -56,9 +56,10 @@ Tiến độ trên máy tính và trên điện thoại là **hai bản riêng**
 
 | Mục | Dùng để |
 |---|---|
-| 🏠 **Hôm nay** | Trả lời câu hỏi "hôm nay học gì?": nút lớn **Tiếp tục** (app tự chọn việc nên làm tiếp), chuỗi ngày học + 7 ngày gần nhất, **5 nhiệm vụ hôm nay** (kế hoạch 60 phút – bấm là vào học ngay), và **bài đang học** |
+| 🏠 **Hôm nay** | Trả lời câu hỏi "hôm nay học gì?": nút lớn **Tiếp tục** (app tự chọn việc nên làm tiếp), số phút đã học so với **mục tiêu bạn tự chọn**, chuỗi ngày học, **3 nhiệm vụ hằng ngày**, **nhiệm vụ tháng** và **bài đang học** |
 | 📚 **Bài học** | **Lộ trình** học: chọn cấp (**HSK 1 / 2 / 3**, mỗi nút hiện % đã học), các bài nối nhau theo thứ tự, bài đang học tô đỏ, bài xong có dấu ✓. Tra từ (chữ Hán, pinyin, nghĩa, Hán Việt) ở ô tìm kiếm. Hai cách chia bài: **🗂️ Theo chủ đề** (HSK 1: 20 bài, HSK 2: 16 bài, HSK 3: 31 bài) hoặc **📖 Theo sách** 《新HSK教程》 (15 / 15 / 18 bài, có ngữ pháp từng bài) – đổi lúc nào cũng được, tiến độ giữ nguyên. Mở một bài sẽ thấy **3 bước: ① Học từ mới → ② Ngữ pháp của bài → ③ Kiểm tra bài**, rồi danh sách từ |
 | 🏋️ **Ôn luyện** | **Cần ôn hôm nay**: từ vựng, ngữ pháp, chữ viết đến hạn và sổ câu sai – mỗi dòng bấm là vào ôn. **Luyện kỹ năng**: 🎧 Nghe & thanh điệu, ✍️ Viết chữ Hán, 📝 Trắc nghiệm từ, 🧩 Ngữ pháp (thư viện 122 điểm HSK 1–3) |
+| 🔤 **Chữ & âm** | Nền tảng: **Phiên âm** (bảng thanh điệu, 23 âm đầu, 35 vần – chạm để nghe, có mẹo đọc so với tiếng Việt; bài **Luyện nghe phiên âm** 10 câu), **Nét cơ bản** (18 nét + 7 quy tắc thứ tự nét, chạm để xem viết), **Bộ thủ** (45 bộ hay gặp, chữ ví dụ trong HSK 1–3 có tô màu bộ thủ; bài **Luyện bộ thủ** 10 câu). Ô chuyển vàng khi bạn đã đúng 5 lần |
 | 📋 **Thi thử** | Đề mô phỏng HSK 1 · 2 · 3, tính giờ, chấm điểm, lịch sử điểm |
 | 👤 **Tôi** | Lối vào **Cài đặt & sao lưu**, chuỗi ngày học (hiện tại, dài nhất), biểu đồ số phút học 7 / 30 ngày, tiến độ từng cấp, tỉ lệ đúng, **những từ hay sai nhất**, chữ viết hay sai, thanh hay nhầm |
 
@@ -70,7 +71,13 @@ Mặc định app sáng/tối **theo máy**. Muốn quay lại chế độ này:
 **Màu thanh điệu:** pinyin và chữ Hán ở mặt sau thẻ được tô màu theo thanh, giúp nhớ thanh điệu:
 thanh 1 **đỏ**, thanh 2 **cam**, thanh 3 **xanh lá**, thanh 4 **xanh dương**, thanh nhẹ **xám**.
 
-Màn hình **Hôm nay** hiện 5 nhiệm vụ theo thứ tự (nhiệm vụ 5 có hai nút: **Ngữ pháp** và **Trắc nghiệm**). Nút **Tiếp tục** trên khung chào sẽ chọn sẵn việc nên làm tiếp theo.
+**Mục tiêu mỗi ngày:** lần đầu mở app, trang **Hôm nay** hỏi bạn muốn học bao nhiêu phút mỗi ngày: **10** (thoải mái), **20** (vừa phải), **30** (nghiêm túc) hoặc **60** (chuyên sâu). Đổi lại lúc nào cũng được trong **Tôi → Cài đặt → Học tập**. Đồng hồ ⏱ khi học cho biết tổng số phút hôm nay so với mục tiêu.
+
+**Nhiệm vụ hằng ngày:** mỗi ngày app giao **3 nhiệm vụ ngẫu nhiên**, mỗi cái một kiểu khác nhau – theo **số lượng** (vd. ôn 20 thẻ), **thời gian** (vd. học đủ 20 phút), **dạng bài** (vd. hoàn thành 1 bài ngữ pháp) hoặc **độ chính xác** (vd. 2 lượt đúng từ 80%). Nhiệm vụ hợp với trình độ hiện tại và to/nhỏ theo mục tiêu phút; chạm vào nhiệm vụ để làm ngay. Ngày mới (4 giờ sáng) có nhiệm vụ mới. **Nhiệm vụ tháng**: hoàn thành 50 nhiệm vụ hằng ngày trong tháng.
+
+**Mở khóa cấp HSK:** bắt đầu từ HSK 1; **HSK 2 mở khi bạn học hết HSK 1** hoặc **học vượt** bằng cách đạt bài **thi thử HSK 1** (từ 120/200). HSK 3 mở tương tự sau HSK 2. Cấp đang khóa hiện 🔒: vẫn xem được tên bài nhưng chưa học được từ, ngữ pháp, chữ viết cấp 3 và thi thử của cấp đó. Cấp đã mở thì không bao giờ bị khóa lại.
+
+Nút **Tiếp tục** trên khung chào chọn sẵn việc nên làm: ôn thẻ đến hạn → học từ mới → nhiệm vụ chưa xong. Các phần học dưới đây vẫn vào được bất cứ lúc nào từ **Bài học**, **Ôn luyện** và **Chữ & âm**.
 
 1. **Ôn từ đến hạn (~15 phút):** app đưa ra chữ Hán trong ô chữ điền. Bạn tự nhớ lại cách đọc và nghĩa → chạm vào thẻ hoặc bấm **Lật thẻ** → tự chấm điểm:
    - **Quên:** không nhớ, sẽ hỏi lại sau vài phút.

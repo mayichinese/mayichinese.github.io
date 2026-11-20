@@ -8,7 +8,7 @@
 // Mỗi màn hình nằm ở một file riêng: man-*.js
 // =========================================================
 
-import { caiDat, luu, layTienDo, nhatKyHomNay, congGiay } from './luu-tru.js';
+import { caiDat, luu, layTienDo, nhatKyHomNay, congGiay, phutMoiNgay } from './luu-tru.js';
 import { TEN_TU_LOAI, nghiaNgan } from './du-lieu.js';
 import { loaiThe } from './lich-on.js';
 import { bieuTuong } from './bieu-tuong.js';
@@ -87,13 +87,15 @@ truyVanToi.addEventListener?.('change', apDungGiaoDien);
  * @returns {Function} hàm dừng đồng hồ (gọi khi xong phiên hoặc rời màn hình)
  */
 export function batDongHo(phan) {
-  const cd = caiDat();
-  const mucTieu = cd.phutMucTieu[phan] || 10;
+  // Đồng hồ hiện TỔNG thời gian học hôm nay so với mục tiêu mỗi ngày (người học tự chọn);
+  // giây vẫn được ghi riêng cho từng phần để vẽ biểu đồ ở mục Tôi.
+  const mucTieu = phutMoiNgay();
   const $dongHo = document.getElementById('dong-ho');
   let lanTuongTac = Date.now();
   let demLuu = 0;
+  const tongGiay = () => Object.values(nhatKyHomNay().giay).reduce((a, b) => a + b, 0);
   const veDongHo = () => {
-    const giay = nhatKyHomNay().giay[phan] || 0;
+    const giay = tongGiay();
     $dongHo.textContent = `⏱ ${Math.floor(giay / 60)}:${String(giay % 60).padStart(2, '0')} / ${mucTieu}′`;
   };
   const chamVao = () => { lanTuongTac = Date.now(); };
@@ -102,8 +104,8 @@ export function batDongHo(phan) {
     congGiay(phan, 1);
     if (++demLuu % 10 === 0) luu();
     veDongHo();
-    if (nhatKyHomNay().giay[phan] === mucTieu * 60) {
-      thongBao(`Đã đủ ${mucTieu} phút cho phần này. Bạn có thể chuyển sang phần tiếp theo!`, 4000);
+    if (tongGiay() === mucTieu * 60) {
+      thongBao(`🎉 Đã đạt mục tiêu ${mucTieu} phút hôm nay! Học thêm cũng tốt, hoặc nghỉ ngơi nhé.`, 4500);
     }
   }, 1000);
   document.addEventListener('keydown', chamVao);

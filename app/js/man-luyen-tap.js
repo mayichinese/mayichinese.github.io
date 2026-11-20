@@ -30,7 +30,6 @@ const KY_NANG = [
 export function veLuyenTap(khung) {
   const td = layTienDo();
   const nk = nhatKyHomNay();
-  const mt = caiDat().phutMucTieu;
   const bayGio = Date.now();
   const denHan = (dsThe) => Object.values(dsThe).filter((t) => dangHoc(t) || t.han <= bayGio).length;
 
@@ -72,6 +71,6 @@ export function veLuyenTap(khung) {
           <span class="chu-phu nho">${k.moTa}</span>
         </a>`).join('')}
     </div>
-    <p class="chu-phu nho" style="margin-top:14px">Hôm nay: thanh điệu ${Math.floor((nk.giay.nghe || 0) / 60)}/${mt.nghe}′ ·
-      viết ${Math.floor((nk.giay.viet || 0) / 60)}/${mt.viet}′ · ngữ pháp & trắc nghiệm ${Math.floor((nk.giay.nguPhap || 0) / 60)}/${mt.nguPhap}′</p>`;
+    <p class="chu-phu nho" style="margin-top:14px">Hôm nay: thanh điệu ${Math.floor((nk.giay.nghe || 0) / 60)}′ ·
+      viết ${Math.floor((nk.giay.viet || 0) / 60)}′ · ngữ pháp & trắc nghiệm ${Math.floor((nk.giay.nguPhap || 0) / 60)}′</p>`;
 }
