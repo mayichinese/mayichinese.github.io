@@ -12,7 +12,8 @@
 // Các địa chỉ:
 //   #/             Hôm nay (trang chủ)          → man-trang-chu.js
 //   #/on           Ôn từ đến hạn                → man-the-tu.js
-//   #/hoc-moi[/5]  Học từ mới (của bài 5)       → man-the-tu.js
+//   #/hoc-moi[/s5] Học từ mới → chuyển tới chặng tiếp theo của bài (hoặc bài đang học)
+//   #/chang/<mã bài>/<số>  một chặng bài học: nghe → nói → viết → ghép → đọc → man-chang.js
 //   #/bai[/5]      Bài học (lộ trình) / bài 5   → man-bai-hoc.js
 //   #/tu/<khóa>    Xem một từ                   → man-bai-hoc.js
 //   #/luyen-tap    Ôn luyện: cần ôn + kỹ năng   → man-luyen-tap.js
@@ -43,6 +44,7 @@ import { esc, datTieuDe, apDungGiaoDien, doiSangToi, dongHopThoai, thongBao } fr
 import { ganBieuTuong, bieuTuong } from './bieu-tuong.js';
 import { veTrangChu } from './man-trang-chu.js';
 import { vePhien } from './man-the-tu.js';
+import { baiDangHoc } from './phien-hoc.js';
 import { veDanhSachBai, veBai, veTu } from './man-bai-hoc.js';
 import { veCaiDat } from './man-cai-dat.js';
 import { veThongKe } from './man-thong-ke.js';
@@ -54,6 +56,7 @@ import { veNguPhap, veDiemNguPhap, vePhienNguPhap } from './man-ngu-phap.js';
 import { veThiThu, veLamBai } from './man-thi-thu.js';
 import { veChuAm, vePhienChuAm } from './man-chu-am.js';
 import { veTuLoai, moTuLoai } from './man-tu-loai.js';
+import { veChang, changTiepTheo } from './man-chang.js';
 import { capMo } from './cap-do.js';
 import { veLuyenNoi, vePhienNoi, moChamNhanh, CAC_DANG_NOI } from './man-luyen-noi.js';
 
@@ -75,7 +78,7 @@ function veTheoDiaChi() {
 
   // tô sáng mục đang chọn ở thanh điều hướng
   let mucChon = {
-    '': 'trang-chu', bai: 'bai', tu: 'bai', 'hoc-moi': 'bai',
+    '': 'trang-chu', bai: 'bai', tu: 'bai', 'hoc-moi': 'bai', chang: 'bai',
     on: 'luyen-tap', 'luyen-tap': 'luyen-tap', 'luyen-viet': 'luyen-tap', 'thanh-dieu': 'luyen-tap',
     'trac-nghiem': 'luyen-tap', 'ngu-phap': 'luyen-tap', 'luyen-noi': 'luyen-tap',
     'thi-thu': 'thi-thu', toi: 'toi', 'thong-ke': 'toi', 'cai-dat': 'toi', 'chu-am': 'chu-am',
@@ -91,11 +94,17 @@ function veTheoDiaChi() {
     datTieuDe('Ôn từ vựng', '#/luyen-tap');
     donDep = vePhien(khung, 'on');
   } else if (muc === 'hoc-moi') {
-    // mã bài: số (bài theo chủ đề) hoặc 's5' (bài 5 của sách)
-    const bai = thamSo ? timBaiTheoMa(maBaiTuDiaChi(thamSo)) : null;
+    // "Học từ mới" = chặng tiếp theo của bài (thamSo) hoặc của bài đang học
+    let bai = thamSo ? timBaiTheoMa(maBaiTuDiaChi(thamSo)) : baiDangHoc();
+    if (bai && !bai.sach) bai = baiDangHoc();
+    const chang = bai && capMo(bai.cap) ? changTiepTheo(bai) : null;
+    location.replace(chang ? `#/chang/${bai.ma}/${chang.so}` : bai ? `#/bai/${bai.ma}` : '#/bai');
+    return;
+  } else if (muc === 'chang' && thamSo) {
+    const bai = timBaiTheoMa(maBaiTuDiaChi(thamSo));
     if (bai && !capMo(bai.cap)) { location.replace(`#/bai/${bai.ma}`); return; }   // cấp đang khóa
-    datTieuDe(bai ? `Từ mới · ${nhanBai(bai)}` : 'Học từ mới', bai ? `#/bai/${bai.ma}` : '#/');
-    donDep = vePhien(khung, 'moi', bai ? bai.ma : null);
+    datTieuDe(bai ? `${nhanBai(bai)} · Chặng ${Number(duong[2] || 0) + 1}` : 'Chặng', bai ? `#/bai/${bai.ma}` : '#/bai');
+    donDep = veChang(khung, bai ? bai.ma : thamSo, Number(duong[2] || 0));
   } else if (muc === 'bai' && thamSo) {
     const bai = timBaiTheoMa(maBaiTuDiaChi(thamSo));
     datTieuDe(bai ? nhanBai(bai) : 'Bài học', '#/bai');

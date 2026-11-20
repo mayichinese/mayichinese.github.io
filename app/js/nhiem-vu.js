@@ -40,6 +40,8 @@ const MAU = [
   { ma: 'phut-viet', nhom: 'thoi-gian', emoji: '✍️', ten: (n) => `Luyện viết chữ ${n} phút`,
     dem: (nk) => Math.floor((nk.giay?.viet || 0) / 60), href: '#/luyen-viet/phien', cac: [3, 5, 10] },
   // ----- Dạng bài -----
+  { ma: 'luot-chang', nhom: 'dang-bai', emoji: '🐜', ten: (n) => `Hoàn thành ${n} chặng bài học`, dem: (nk) => luot(nk, 'chang'),
+    href: '#/hoc-moi', cac: [1, 2], dk: (ng) => ng.conTuMoi >= 3 },
   { ma: 'luot-tn', nhom: 'dang-bai', emoji: '📝', ten: (n) => `Hoàn thành ${n} lượt trắc nghiệm`, dem: (nk) => luot(nk, 'tracNghiem'),
     href: '#/trac-nghiem/tron', cac: [1, 2], dk: (ng) => ng.daHoc >= 4 },
   { ma: 'luot-np', nhom: 'dang-bai', emoji: '🧩', ten: (n) => `Hoàn thành ${n} bài luyện ngữ pháp`, dem: (nk) => luot(nk, 'nguPhap'),
@@ -62,7 +64,7 @@ const MAU_THEO_MA = Object.fromEntries(MAU.map((m) => [m.ma, m]));
 // Chủ đề của từng mẫu: 3 nhiệm vụ trong ngày không trùng chủ đề (vd. không giao 2 nhiệm vụ đều về thanh điệu)
 const CHU_DE = {
   on: 'on', moi: 'moi', thanh: 'nghe', 'phut-nghe': 'nghe', 'luot-thanh': 'nghe', viet: 'viet', 'phut-viet': 'viet',
-  'cau-tn': 'tn', 'luot-tn': 'tn', 'luot-np': 'np', 'luot-pa': 'pa', 'luot-bt': 'bt', noi: 'noi', 'luot-noi': 'noi', phut: 'phut', tot: 'chinh-xac', 'hoan-hao': 'chinh-xac',
+  'luot-chang': 'moi', 'cau-tn': 'tn', 'luot-tn': 'tn', 'luot-np': 'np', 'luot-pa': 'pa', 'luot-bt': 'bt', noi: 'noi', 'luot-noi': 'noi', phut: 'phut', tot: 'chinh-xac', 'hoan-hao': 'chinh-xac',
 };
 
 /** Số ngẫu nhiên "có hạt giống" theo ngày: cùng một ngày luôn ra cùng kết quả */

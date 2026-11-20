@@ -2,6 +2,7 @@
 // CÂU HỎI VỀ MỘT TỪ (dùng chung: Trắc nghiệm, Ôn từ vựng tự chấm, các chặng bài học)
 //   nghia  : chữ Hán → chọn nghĩa        chu    : nghĩa → chọn chữ Hán
 //   nghe   : nghe → chọn chữ Hán         pinyin : chữ Hán → chọn pinyin đúng (đáp án nhiễu: khác dấu thanh)
+//   nghe-nghia : nghe → chọn nghĩa (chưa cần biết mặt chữ – dùng ở bước "Nghe" của chặng bài học)
 // Đáp án nhiễu KHÔNG trùng nghĩa với đáp án đúng; bài nghe không đặt các từ đồng âm cạnh nhau;
 // chữ một âm tiết đa âm không hỏi dạng nghe (data/thanh-dieu-hsk1.json → daAm).
 // =========================================================
@@ -13,6 +14,7 @@ import { bieuTuong } from './bieu-tuong.js';
 
 export const TEN_DANG = {
   nghia: 'Chữ Hán → nghĩa', chu: 'Nghĩa → chữ Hán', nghe: 'Nghe → chọn chữ', pinyin: 'Chữ Hán → pinyin',
+  'nghe-nghia': 'Nghe → chọn nghĩa',
 };
 
 // ---------- Tiện ích ----------
@@ -96,7 +98,7 @@ export function taoCau(tu, dang) {
   const cungSoChu = (w) => (demChuHan(w.hanzi) === soChu ? 2 : 0);
   let dung;
   let nhieu;
-  if (dang === 'nghia') {
+  if (dang === 'nghia' || dang === 'nghe-nghia') {
     const hien = (w) => rutGon(nghiaNgan(w));
     dung = hien(tu);
     nhieu = chonNhieu(tu, (w) => !trungNghia(w, tu),
@@ -127,8 +129,8 @@ export function htmlDeBai(cau) {
     const loai = tu.nghia?.[0]?.tuLoai ? `<span class="nhan nhan-chinh">${esc(tenTuLoai(tu.nghia[0].tuLoai))}</span>` : '';
     return `<p class="cau-hoi">Chữ Hán nào có nghĩa:</p><p class="nghia-hoi">${loai} ${esc(nghiaNgan(tu))}</p>`;
   }
-  if (cau.dang === 'nghe') {
-    return `<p class="cau-hoi">Nghe và chọn chữ Hán đúng</p>
+  if (cau.dang === 'nghe' || cau.dang === 'nghe-nghia') {
+    return `<p class="cau-hoi">${cau.dang === 'nghe' ? 'Nghe và chọn chữ Hán đúng' : 'Nghe và chọn nghĩa đúng'}</p>
       <div class="hang-nghe">
         <button class="nut-loa nut-nghe-lon" id="nut-nghe" aria-label="Nghe">${bieuTuong('loa')}</button>
         <button class="nut nut-nho" id="nut-cham">🐢 Chậm</button>
@@ -139,7 +141,7 @@ export function htmlDeBai(cau) {
 
 /** Lưới 4 nút đáp án (data-i = thứ tự trong cau.luaChon) */
 export function htmlLuaChon(cau) {
-  const kieuNut = cau.dang === 'nghia' ? 'mot-cot' : 'hai-cot';
+  const kieuNut = cau.dang === 'nghia' || cau.dang === 'nghe-nghia' ? 'mot-cot' : 'hai-cot';
   const lopChu = cau.dang === 'chu' || cau.dang === 'nghe' ? 'han' : cau.dang === 'pinyin' ? 'pinyin' : '';
   return `<div class="luoi-lua-chon ${kieuNut}">
       ${cau.luaChon.map((l, i) => `<button class="nut-lua-chon" data-i="${i}"><span class="${lopChu}">${esc(l.hien)}</span><kbd>${i + 1}</kbd></button>`).join('')}

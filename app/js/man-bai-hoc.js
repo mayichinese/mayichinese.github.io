@@ -4,23 +4,25 @@
 //                  + LỘ TRÌNH: các bài nối nhau theo thứ tự học, bài đang học nổi bật
 //   #/bai/5        bài 5 theo chủ đề        #/bai/s5  bài 5 của sách 《新HSK教程 1》
 //   #/bai/2-5      bài 5 của sách 《新HSK教程 2》   #/bai/c2-5  bài chủ đề 5 của HSK 2 (data/chu-de-hsk2.json)
-//                  Trang một bài có 3 bước: ① Học từ mới ② Ngữ pháp của bài ③ Kiểm tra bài, rồi danh sách từ.
+//                  Trang một bài: các CHẶNG ~5 từ (man-chang.js: nghe → nói → viết → ghép → đọc),
+//                  rồi Ngữ pháp của bài, Đọc hiểu, Kiểm tra bài (mở khi xong các chặng), rồi danh sách từ.
 //   #/tu/<khóa>    xem một từ
-// Cách chia bài (caiDat.cheDoBai, chung cho mọi cấp): 'chu-de' = theo nhóm nghĩa, 'sach' = theo thứ tự bài sách.
-// Tiến độ lưu theo TỪNG TỪ nên đổi cách chia không ảnh hưởng tiến độ.
+// Lộ trình LUÔN theo thứ tự bài sách (du-lieu.js cheDoBai → 'sach'). Bài "theo chủ đề" (#/bai/5, #/bai/c2-5)
+// chỉ còn là danh mục tra từ. Tiến độ lưu theo TỪNG TỪ (và tienDo.chang theo mã bài sách).
 // =========================================================
 
-import { layTienDo, caiDat, luu } from './luu-tru.js';
+import { layTienDo, caiDat } from './luu-tru.js';
 import { loaiThe } from './lich-on.js';
 import {
   layTu, tatCaTu, nghiaNgan, danhSachBai, timBaiTheoMa, cheDoBai, coTheoSach, tenSach,
   nhanBai, baiSachCuaTu, baiSachCuaNguPhap, cacCapCoDuLieu, coChuDe, chuDeCuaMotTu, TEN_TU_LOAI,
 } from './du-lieu.js';
-import { demHomNay, tuChuaHoc, baiDangHoc } from './phien-hoc.js';
+import { baiDangHoc } from './phien-hoc.js';
 import { esc, boDau, htmlMatSau, dongTu, nutTuLoai, CHU_THICH_CHAM, CHU_THICH_MAU_THANH } from './giao-dien.js';
 import { bieuTuong } from './bieu-tuong.js';
 import { taiNguPhap } from './man-ngu-phap.js';
 import { capMo, capHienTai, htmlCachMoKhoa } from './cap-do.js';
+import { trangThaiCacChang, CAC_KY } from './man-chang.js';
 
 // Cấp đang xem trong lộ trình (mặc định: cấp của bài đang học dở)
 let capDangXem = null;
@@ -55,23 +57,18 @@ export function veDanhSachBai(khung) {
   const tuCap = tatCaTu().filter((t) => t.cap === cap);
   const tk = demTu(tuCap, td.the);
 
-  // Hai cách chia bài (chung cho mọi cấp): theo chủ đề / theo thứ tự bài sách 《新HSK教程 N》
-  const coHaiCach = coTheoSach() && coChuDe(cap);
-  const tenSachCap = cap === 1 ? tenSach() : `《新HSK教程 ${cap}》`;
-  const chonCachChia = coHaiCach ? `
-      <div class="nhom-chon chon-che-do-bai" id="chon-che-do">
-        <button data-che-do="chu-de" class="${cheDo === 'chu-de' ? 'dang-chon' : ''}">🗂️ Theo chủ đề</button>
-        <button data-che-do="sach" class="${cheDo === 'sach' ? 'dang-chon' : ''}">📖 Theo sách</button>
-      </div>
-      <p class="chu-phu nho" style="margin:6px 0 0">${cheDo === 'sach' ? `Theo thứ tự bài của ${esc(tenSachCap)}, có ngữ pháp từng bài.` : 'Từ cùng nhóm nghĩa học cùng nhau.'}
-        Đổi cách chia không ảnh hưởng tiến độ.</p>`
-    : cap > 1 ? `<p class="chu-phu nho" style="margin:10px 0 0">Chia theo thứ tự bài của sách ${esc(tenSachCap)}.</p>` : '';
+  // Lộ trình đi theo thứ tự bài sách 《新HSK教程 N》; nhóm "theo chủ đề" chỉ còn là danh mục tra từ (cuối trang)
+  const tenSachCap = cap === 1 ? tenSach().split('–')[0].trim() : `《新HSK教程 ${cap}》`;
+  const chuDe = coChuDe(cap) ? danhSachBai('chu-de', cap).filter((x) => !x.sach && x.tu.length) : [];
+  const htmlChuDe = chuDe.length && !khoa ? `
+    <h3 class="tieu-de-muc">🗂️ Tra từ theo chủ đề <small>${chuDe.length} nhóm</small></h3>
+    <div class="hang-chip">${chuDe.map((x) => `<a class="chip" href="#/bai/${x.ma}">${esc(x.ten)}</a>`).join('')}</div>` : '';
 
   // Lộ trình: bài đang học = bài đầu tiên của cấp còn từ chưa học
   const dsBai = danhSachBai(cheDo, cap);
   const baiHienTai = dsBai.find((b) => b.tu.length && b.tu.some((t) => !td.the[t.khoa]));
   const htmlLoTrinh = () => `<ol class="lo-trinh">${dsBai.map((b) => {
-    const nhan = `Bài ${b.so}${b.sach ? ' · sách' : ''}`;
+    const nhan = `Bài ${b.so}`;
     if (!b.tu.length) {
       return `
       <li class="buoc-lo-trinh dang-soan">
@@ -118,23 +115,15 @@ export function veDanhSachBai(khung) {
       <div class="dong-tren"><b>HSK ${cap} · ${tuCap.length} từ · ${dsBai.length} bài</b>
         ${tk.thuoc ? `<span class="nhan nhan-vang">⭐ Thuộc chắc ${tk.thuoc}</span>` : ''}</div>
       <span class="thanh-tien-do"><span style="width:${tk.phanTram}%"></span></span>
-      <span class="chu-phu nho">Đã học ${tk.daHoc}/${tuCap.length} từ (${tk.phanTram}%)</span>
-      ${chonCachChia}
+      <span class="chu-phu nho">Đã học ${tk.daHoc}/${tuCap.length} từ (${tk.phanTram}%) · theo thứ tự bài của ${esc(tenSachCap)}</span>
     </section>
     <input class="o-tim" id="o-tim" type="search" placeholder="🔍 Tra từ: chữ Hán, pinyin, nghĩa, Hán Việt…" autocomplete="off">
-    <div id="ket-qua">${htmlLoTrinh()}</div>`;
+    <div id="ket-qua">${htmlLoTrinh()}</div>
+    <div id="chu-de">${htmlChuDe}</div>`;
 
   // Đổi cấp
   khung.querySelectorAll('[data-cap]').forEach((nut) => {
     nut.onclick = () => { capDangXem = Number(nut.dataset.cap); veDanhSachBai(khung); };
-  });
-  // Đổi cách chia bài
-  khung.querySelectorAll('#chon-che-do [data-che-do]').forEach((nut) => {
-    nut.onclick = () => {
-      cd.cheDoBai = nut.dataset.cheDo;
-      luu();
-      veDanhSachBai(khung);
-    };
   });
 
   // Đưa bài đang học vào giữa màn hình (chỉ khi bài đó nằm khuất bên dưới)
@@ -148,6 +137,7 @@ export function veDanhSachBai(khung) {
   $tim.oninput = () => {
     const goc = $tim.value.trim();
     const q = boDau(goc);
+    khung.querySelector('#chu-de').hidden = !!q;
     if (!q) { $kq.innerHTML = htmlLoTrinh(); return; }
     const qLien = q.replace(/\s/g, '');
     const kq = tatCaTu().filter((t) =>
@@ -162,10 +152,10 @@ export function veDanhSachBai(khung) {
 
 // ---------- Một bài: 3 bước + danh sách từ ----------
 /** Một bước trong bài (dùng kiểu dòng nhiệm vụ của trang Hôm nay) */
-function buocBai({ so, ma, emoji, ten, moTa, href, xong, them = '' }) {
+function buocBai({ so, ma, emoji, ten, moTa, href, xong, them = '', khoa = false }) {
   const the = href ? 'a' : 'div';
   return `
-    <${the} class="dong-ke-hoach khung phan-${ma} ${xong ? 'da-xong' : ''}" ${href ? `href="${href}"` : ''}>
+    <${the} class="dong-ke-hoach khung phan-${ma} ${xong ? 'da-xong' : ''} ${khoa ? 'sap-co' : ''}" ${href ? `href="${href}"` : ''}>
       <span class="o-emoji emoji">${emoji}</span>
       <span class="giua">
         <span class="dong-tren"><b>${so}. ${ten}</b></span>
@@ -176,7 +166,23 @@ function buocBai({ so, ma, emoji, ten, moTa, href, xong, them = '' }) {
     </${the}>`;
 }
 
-/** @param ma số (bài theo chủ đề) hoặc 's5' (bài 5 của sách), '2-5', 'c2-5' */
+/** Bài theo chủ đề (không nằm trên lộ trình): chỉ là danh mục từ để tra cứu */
+function veDanhMucChuDe(khung, b) {
+  const td = layTienDo();
+  const t = demTu(b.tu, td.the);
+  khung.innerHTML = `
+    <section class="khung dau-bai">
+      <span class="so-bai">🗂️ Chủ đề${b.cap > 1 ? ` · HSK ${b.cap}` : ''}</span>
+      <h2>${esc(b.ten)}</h2>
+      <p class="chu-phu nho" style="margin:6px 0 0">${t.daHoc}/${b.tu.length} từ đã học · danh mục để tra cứu theo nhóm nghĩa.
+        Học từ mới theo lộ trình ở <a href="#/bai">Bài học</a> (theo bài sách, có nghe – nói – viết – đọc).</p>
+    </section>
+    <h3 class="tieu-de-muc">Từ trong chủ đề <small>${b.tu.length} từ</small></h3>
+    ${CHU_THICH_CHAM}
+    <div class="khung ds-tu">${b.tu.map(dongTu).join('')}</div>`;
+}
+
+/** @param ma 's5' (bài 5 sách HSK 1), '2-5' (bài sách HSK 2…); số / 'c2-5' = danh mục chủ đề */
 export async function veBai(khung, ma) {
   const b = timBaiTheoMa(ma);
   if (!b) { khung.innerHTML = '<p class="loi">Không tìm thấy bài này.</p>'; return; }
@@ -184,60 +190,70 @@ export async function veBai(khung, ma) {
     khung.innerHTML = `${htmlCachMoKhoa(b.cap)}<a class="nut nut-rong" href="#/bai" style="margin-top:12px">← Về lộ trình</a>`;
     return;
   }
+  if (!b.sach) { veDanhMucChuDe(khung, b); return; }
   const td = layTienDo();
-  const chuaHoc = tuChuaHoc(b.ma).length;
-  const { conTuMoi } = demHomNay();
   const t = demTu(b.tu, td.the);
+  const dsChang = trangThaiCacChang(b);
+  const dangHoc = dsChang.find((c) => !c.xong);
+  const xongTu = !dangHoc;
 
-  // Bước 1: học từ mới
-  let buoc1;
-  if (!chuaHoc) {
-    buoc1 = buocBai({ so: 1, ma: 'moi', emoji: '✨', ten: 'Học từ mới', xong: true,
-      moTa: `Đã học hết ${b.tu.length} từ. Từ đến hạn sẽ hiện ở <b>Ôn luyện</b>.` });
-  } else if (conTuMoi) {
-    buoc1 = buocBai({ so: 1, ma: 'moi', emoji: '✨', ten: 'Học từ mới', href: `#/hoc-moi/${b.ma}`,
-      moTa: `Còn <b>${chuaHoc}</b> từ chưa học · hôm nay học tối đa ${Math.min(chuaHoc, conTuMoi)} từ` });
-  } else {
-    buoc1 = buocBai({ so: 1, ma: 'moi', emoji: '✨', ten: 'Học từ mới',
-      moTa: `Hôm nay đã đủ số từ mới. Muốn học thêm: tăng "Số từ mới mỗi ngày" trong <a href="#/cai-dat">Cài đặt</a>.` });
-  }
-  // Bước 2: ngữ pháp (điền sau khi tải dữ liệu ngữ pháp)
-  const buoc2 = '<div id="buoc-ngu-phap"></div>';
-  // Bước 3: kiểm tra bài
-  const buoc3 = b.tu.length >= 4 ? buocBai({ so: 3, ma: 'on', emoji: '📝', ten: 'Kiểm tra bài', href: `#/trac-nghiem/bai/${b.ma}`,
-    moTa: '10 câu trắc nghiệm về từ của bài (hỏi cả từ chưa học)' }) : '';
+  const theChang = (c) => {
+    const lop = `khung the-chang-bai ${c.xong ? 'xong' : c === dangHoc ? 'dang' : ''} ${c.mo ? '' : 'khoa'}`;
+    const noiDung = `
+      <span class="nut-tron-chang">${c.xong ? '✓' : c.mo ? c.so + 1 : '🔒'}</span>
+      <span class="giua">
+        <b>Chặng ${c.so + 1}${c === dangHoc ? ' · học tiếp' : ''}</b>
+        <span class="han han-chang">${c.tu.map((x) => esc(x.hanzi)).join(' · ')}</span>
+        <span class="chu-phu nho"><span class="ky-nho">${CAC_KY.map((k) => k.emoji).join(' ')}</span> · ${c.tu.length} từ${c.xong ? ' · chạm để học lại' : c.mo ? '' : ' · xong chặng trước để mở'}</span>
+      </span>
+      <span class="cuoi-dong">${c.mo ? bieuTuong('phai') : ''}</span>`;
+    return c.mo ? `<a class="${lop}" href="#/chang/${b.ma}/${c.so}">${noiDung}</a>` : `<div class="${lop}" aria-disabled="true">${noiDung}</div>`;
+  };
+
+  const khoaSau = 'Mở khi xong các chặng từ vựng – để mọi câu đều dùng từ bạn đã học.';
+  const buocDoc = buocBai({ so: dsChang.length + 2, ma: 'nghe', emoji: '📖', ten: 'Đọc hiểu',
+    moTa: 'Đoạn hội thoại / đoạn văn ngắn dùng từ của bài – đang soạn, sắp có.', khoa: true });
+  const buocKiemTra = b.tu.length >= 4
+    ? buocBai({ so: dsChang.length + 3, ma: 'on', emoji: '📝', ten: 'Kiểm tra bài',
+      href: xongTu ? `#/trac-nghiem/bai/${b.ma}` : '', moTa: xongTu ? '10 câu trắc nghiệm về từ của bài' : `🔒 ${khoaSau}`, khoa: !xongTu })
+    : '';
 
   khung.innerHTML = `
     <section class="khung dau-bai">
       <span class="so-bai">${nhanBai(b)}</span>
       <h2>${esc(b.ten)}</h2>
       <span class="thanh-tien-do"><span style="width:${t.phanTram}%"></span></span>
-      <p class="chu-phu nho" style="margin:6px 0 0">${t.daHoc}/${b.tu.length} từ đã học${t.thuoc ? ` · thuộc chắc ${t.thuoc}` : ''}</p>
+      <p class="chu-phu nho" style="margin:6px 0 0">${t.daHoc}/${b.tu.length} từ đã học${t.thuoc ? ` · thuộc chắc ${t.thuoc}` : ''}
+        · ${dsChang.filter((c) => c.xong).length}/${dsChang.length} chặng</p>
     </section>
-    <div class="ke-hoach" style="margin-top:14px">${buoc1}${buoc2}${buoc3}</div>
+    <p class="chu-phu nho" style="margin:12px 2px 0">Mỗi chặng ~5 từ, học như em bé: 👂 nghe → 🗣️ nói theo → ✍️ viết → 🧩 ghép câu → 📖 đọc. App tự chấm và xếp lịch ôn.</p>
+    <div class="ds-chang">${dsChang.map(theChang).join('')}</div>
+    <div class="ke-hoach" style="margin-top:14px"><div id="buoc-ngu-phap"></div>${buocDoc}${buocKiemTra}</div>
     <h3 class="tieu-de-muc">Từ vựng của bài <small>${b.tu.length} từ</small></h3>
     ${CHU_THICH_CHAM}
     ${caiDat().tatMauThanh ? '' : CHU_THICH_MAU_THANH}
     <div class="khung ds-tu">${b.tu.map(dongTu).join('')}</div>`;
 
-  // Bước 2: bài của sách (HSK 1, 2, 3 theo sách) → các điểm ngữ pháp gắn với bài;
-  // bài theo chủ đề không gắn ngữ pháp → dẫn sang thư viện ngữ pháp.
+  // Ngữ pháp của bài (tải sau): chỉ mở khi đã xong các chặng từ vựng
   const diem = await taiNguPhap().catch(() => []);
   const vung = khung.querySelector('#buoc-ngu-phap');
   if (!vung || !vung.isConnected) return;
-  const cua = b.sach ? diem.filter((d) => (b.cap > 1 ? d.cap === b.cap && d.bai === b.so
-    : d.cap === 1 && baiSachCuaNguPhap(d.id) === b.so)) : [];
+  const cua = diem.filter((d) => (b.cap > 1 ? d.cap === b.cap && d.bai === b.so
+    : d.cap === 1 && baiSachCuaNguPhap(d.id) === b.so));
   const ng = td.nguPhap.the;
-  if (cua.length) {
+  const soBuoc = dsChang.length + 1;
+  if (!cua.length) {
+    vung.outerHTML = buocBai({ so: soBuoc, ma: 'nguPhap', emoji: '🧩', ten: 'Ngữ pháp', href: '#/ngu-phap',
+      moTa: 'Bài này không có điểm ngữ pháp mới. Ôn lại trong thư viện ngữ pháp.' });
+  } else if (!xongTu) {
+    vung.outerHTML = buocBai({ so: soBuoc, ma: 'nguPhap', emoji: '🧩', ten: `Ngữ pháp của bài · ${cua.length} điểm`,
+      moTa: `🔒 ${khoaSau}`, khoa: true });
+  } else {
     const daLuyen = cua.filter((d) => ng[d.id]).length;
-    vung.outerHTML = buocBai({ so: 2, ma: 'nguPhap', emoji: '🧩', ten: 'Ngữ pháp của bài', xong: daLuyen === cua.length,
+    vung.outerHTML = buocBai({ so: soBuoc, ma: 'nguPhap', emoji: '🧩', ten: 'Ngữ pháp của bài', xong: daLuyen === cua.length,
       moTa: `${daLuyen}/${cua.length} điểm đã luyện · chạm từng điểm để học`,
       them: `<span class="ds-diem-bai">${cua.map((d) => `
         <a class="chip" href="#/ngu-phap/${d.id}"><i class="cham ${loaiThe(ng[d.id])}"></i>${esc(d.ten)}</a>`).join('')}</span>` });
-  } else {
-    vung.outerHTML = buocBai({ so: 2, ma: 'nguPhap', emoji: '🧩', ten: 'Ngữ pháp', href: '#/ngu-phap',
-      moTa: b.sach ? 'Bài này không có điểm ngữ pháp mới. Ôn lại trong thư viện ngữ pháp.'
-        : `Chia theo chủ đề nên ngữ pháp học riêng theo thứ tự (chọn "Theo sách" để học ngữ pháp từng bài).` });
   }
 }
 

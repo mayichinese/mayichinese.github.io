@@ -20,13 +20,18 @@
 ## Cấu trúc thư mục
 - `app/` – **app chính** (HTML/CSS/JS thuần, ES module, không build). PWA chạy offline.
   - `js/lich-on.js`: ôn tập ngắt quãng SM-2 (Quên/Khó/Nhớ/Dễ). `js/luu-tru.js`: lưu tiến độ localStorage.
-  - Thẻ từ (`js/man-the-tu.js`, #/on, #/hoc-moi) APP TỰ CHẤM – KHÔNG còn lật thẻ / tự bấm Quên…Dễ: mỗi thẻ là câu hỏi 4 lựa chọn
+  - CHẶNG (`js/man-chang.js`, `#/chang/<mã bài>/<số từ 0>`; `#/hoc-moi[/mã]` chuyển tới chặng tiếp theo): chiaChang chia đều ~5 từ.
+    Thứ tự Nghe (giới thiệu + nghe→nghĩa `nghe-nghia`, nghe→chữ) → Nói (ganKhungNoi, 3 từ) → Viết (tô ≤3 chữ mới, Hanzi Writer)
+    → Ghép (ghép cặp, nghĩa→chữ/pinyin, sắp xếp câu: chỉ câu viDu toàn chữ đã biết, tách mảnh bằng từ điển HSK) → Đọc (câu → nghĩa).
+    Xong chặng: từ MỚI xếp lịch SM-2 theo số lần sai (0 → 1 ngày, 1–2 → 10 phút, ≥3 → 1 phút); `tienDo.chang[mã]=[số chặng]`;
+    chặng cũng "xong" nếu mọi từ đã có thẻ (tiến độ cũ). ghiLuot('chang'), nhiệm vụ `luot-chang`. Nói/viết/sắp xếp không ảnh hưởng lịch ôn.
+  - Thẻ từ (`js/man-the-tu.js`, #/on; chế độ 'moi' cũ không còn đường vào) APP TỰ CHẤM – KHÔNG còn lật thẻ / tự bấm Quên…Dễ: mỗi thẻ là câu hỏi 4 lựa chọn
     (`js/cau-hoi-tu.js`, dùng chung với trắc nghiệm: nghia | chu | nghe | pinyin). chamDiem(): sai → Quên, > 15 giây → Khó,
     nhanh (≈5–6 giây) → Dễ (thẻ 'hoc' chỉ ở buoc ≥ 1), còn lại Nhớ. Thẻ 'hoc' buoc 0 hỏi nghe/nghĩa, sau đó chữ/pinyin;
     `the.dangCuoi` để lần sau đổi dạng. Đã bỏ nút "Đã biết từ này".
   - `js/phien-hoc.js` (chọn thẻ tiếp theo), `js/phat-am.js` (Web Speech API zh-CN), `sw.js` (cache offline).
-  - Điều hướng 6 mục kiểu Duolingo: Hôm nay `#/` · Bài học `#/bai` (lộ trình; trang bài = ① Từ mới ② Ngữ pháp của bài
-    ③ Kiểm tra) · Ôn luyện `#/luyen-tap` (cần ôn + 4 kỹ năng) · Chữ & âm `#/chu-am` · Thi thử `#/thi-thu`
+  - Điều hướng 6 mục kiểu Duolingo: Hôm nay `#/` · Bài học `#/bai` (lộ trình CHỈ theo bài sách; trang bài = các CHẶNG ~5 từ
+    → Ngữ pháp của bài → Đọc hiểu → Kiểm tra; Ngữ pháp/Kiểm tra khóa tới khi xong chặng) · Ôn luyện `#/luyen-tap` (cần ôn + 4 kỹ năng) · Chữ & âm `#/chu-am` · Thi thử `#/thi-thu`
     · Tôi `#/toi` (thống kê + lối vào Cài đặt; `#/thong-ke` là địa chỉ cũ). Không có nút Cài đặt trên thanh trên cùng.
   - Mục tiêu phút do người học chọn: `caiDat.phutMoiNgay` (10/20/30/60; null = chưa chọn → Hôm nay hỏi). `phutMucTieu` (chia
     60 phút cho 5 phần) KHÔNG còn dùng làm mục tiêu. Đồng hồ `batDongHo` hiện tổng phút hôm nay / mục tiêu.
@@ -43,7 +48,7 @@
     (13 loại; ví dụ TRỎ tới câu có sẵn {tu, so} – không chép câu mới; nguPhap = mã điểm). Kiểm tra: `python -X utf8 cong-cu/kiem-tra-tu-loai.py`
     (báo cả từ loại mới trong hsk*.json chưa có hướng dẫn). Nhãn từ loại trên thẻ = `nutTuLoai()` (giao-dien.js) → app.js `data-tu-loai` → moTuLoai().
   - Kế hoạch đang làm (duyệt 2026-11-20): A từ loại (XONG) → B Ôn luyện tự chấm bằng câu hỏi thật (XONG)
-    → C bài = các chặng ~5 từ: Nghe → Nói theo → Viết → Ghép → Đọc, rồi Ngữ pháp, Đọc hiểu, Kiểm tra → D ngữ pháp mở sau từ vựng,
+    → C bài = các chặng ~5 từ: Nghe → Nói theo → Viết → Ghép → Đọc, rồi Ngữ pháp, Đọc hiểu, Kiểm tra (XONG đợt 1) → D ngữ pháp mở sau từ vựng,
     chạm từ xem nghĩa, sửa dần câu có từ chưa học → E soạn đọc hiểu. Lộ trình CHỈ theo sách; "Theo chủ đề" thành danh mục tra cứu.
   - `js/man-luyen-noi.js` (Nói & phát âm, `#/luyen-noi[/doc-tu|doc-cau|nhac-lai|noi-nghia]`, ô rộng đầu "Luyện kỹ năng" của Ôn luyện;
     nút "🎤 Đọc thử" trên mặt sau thẻ từ → moChamNhanh qua `data-noi-thu`). `js/nhan-giong.js`: Web Speech SpeechRecognition zh-CN
@@ -75,10 +80,11 @@
 - `tai-lieu/` – PDF đề cương thi HSK 2025. `tai-lieu/giao-trinh/` – sách 《新HSK教程》 bản 2026 (PDF ảnh scan,
   có bản quyền): CHỈ tham khảo cấu trúc (thứ tự bài, dạng đề thi), không chép nội dung; thư mục đã nằm trong
   `.gitignore` – không bao giờ đưa lên GitHub (kho công khai).
-- "Theo sách" (caiDat.cheDoBai 'chu-de' | 'sach'): `data/theo-sach-hsk1.json` tạo từ `cong-cu/nguon-hsk1/theo-sach.txt`
+- "Theo sách" (từ 2026-11-20 lộ trình LUÔN theo sách – du-lieu.js cheDoBai() trả 'sach'; caiDat.cheDoBai bỏ không dùng): `data/theo-sach-hsk1.json` tạo từ `cong-cu/nguon-hsk1/theo-sach.txt`
   bằng `python -X utf8 cong-cu/tao-theo-sach.py`. Mã bài: số = bài chủ đề, 's3' = bài 3 của sách (du-lieu.js: timBaiTheoMa).
 - "Theo chủ đề" cho HSK 2, 3: `cong-cu/nguon-hskN/chu-de.txt` → `python -X utf8 cong-cu/tao-chu-de.py N` → `data/chu-de-hskN.json`
-  (16 / 31 chủ đề). caiDat.cheDoBai CHUNG cho mọi cấp; mã bài chủ đề cấp ≥2 là 'c2-3', bài sách '2-3'. Ngữ pháp chỉ gắn bài sách.
+  (16 / 31 chủ đề) – chỉ còn là DANH MỤC tra từ (chip cuối trang lộ trình; #/bai/5, #/bai/c2-3 hiện danh sách từ, không có chặng).
+  Mã bài chủ đề cấp ≥2 là 'c2-3', bài sách '2-3'. Ngữ pháp chỉ gắn bài sách. nhanBai(): "Bài N" (sách) / "Chủ đề N".
 - Giai đoạn 5.2: `js/man-thi-thu.js` – thi thử HSK 1 mô phỏng (cấu trúc theo đề thi thử trong sách bài tập 《新HSK教程 1》:
   nghe 20 + đọc 20, 5 điểm/câu, đạt 120/200; lịch sử `tienDo.thiThu`). Dữ liệu `data/thi-thu-hsk1.json` tạo từ
   `cong-cu/nguon-thi-thu/` (tranh.txt + cap1-*.txt) bằng `python -X utf8 cong-cu/ghep-thi-thu.py`. Câu hỏi tự soạn,

@@ -97,7 +97,7 @@ export function veTrangChu(khung) {
   const nvChuaXong = nhiemVu.find((x) => !x.xong && x.href);
   let tiepTuc;
   if (!onXong) tiepTuc = { chu: `Ôn ${dem.onDenHan + dem.dangHocDenHan} thẻ từ`, href: '#/on' };
-  else if (dem.conTuMoi && bai) tiepTuc = { chu: 'Học từ mới', href: '#/hoc-moi' };
+  else if (dem.conTuMoi && bai) tiepTuc = { chu: `Học tiếp · ${nhanBai(bai)}`, href: '#/hoc-moi' };
   else if (nvChuaXong) tiepTuc = { chu: nvChuaXong.ten, href: nvChuaXong.href };
   else tiepTuc = { chu: 'Luyện thêm', href: '#/luyen-tap' };
 
