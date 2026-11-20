@@ -23,6 +23,7 @@ import { bieuTuong } from './bieu-tuong.js';
 import { taiNguPhap } from './man-ngu-phap.js';
 import { capMo, capHienTai, htmlCachMoKhoa } from './cap-do.js';
 import { trangThaiCacChang, CAC_KY } from './man-chang.js';
+import { taiDocHieu, ketQuaDoc } from './man-doc-hieu.js';
 
 // Cấp đang xem trong lộ trình (mặc định: cấp của bài đang học dở)
 let capDangXem = null;
@@ -211,8 +212,7 @@ export async function veBai(khung, ma) {
   };
 
   const khoaSau = 'Mở khi xong các chặng từ vựng – để mọi câu đều dùng từ bạn đã học.';
-  const buocDoc = buocBai({ so: dsChang.length + 2, ma: 'nghe', emoji: '📖', ten: 'Đọc hiểu',
-    moTa: 'Đoạn hội thoại / đoạn văn ngắn dùng từ của bài – đang soạn, sắp có.', khoa: true });
+  const buocDoc = '<div id="buoc-doc"></div>';
   const buocKiemTra = b.tu.length >= 4
     ? buocBai({ so: dsChang.length + 3, ma: 'on', emoji: '📝', ten: 'Kiểm tra bài',
       href: xongTu ? `#/trac-nghiem/bai/${b.ma}` : '', moTa: xongTu ? '10 câu trắc nghiệm về từ của bài' : `🔒 ${khoaSau}`, khoa: !xongTu })
@@ -233,6 +233,22 @@ export async function veBai(khung, ma) {
     ${CHU_THICH_CHAM}
     ${caiDat().tatMauThanh ? '' : CHU_THICH_MAU_THANH}
     <div class="khung ds-tu">${b.tu.map(dongTu).join('')}</div>`;
+
+  // Đọc hiểu (tải sau): mở khi xong các chặng; bài chưa soạn thì hiện "đang soạn"
+  taiDocHieu().then((tatCa) => {
+    const $d = khung.querySelector('#buoc-doc');
+    if (!$d?.isConnected) return;
+    const bd = tatCa[b.ma];
+    const kq = ketQuaDoc(b.ma);
+    const so = dsChang.length + 2;
+    $d.outerHTML = !bd
+      ? buocBai({ so, ma: 'nghe', emoji: '📖', ten: 'Đọc hiểu', khoa: true,
+        moTa: 'Đoạn hội thoại / đoạn văn ngắn dùng từ của bài – đang soạn, sắp có.' })
+      : !xongTu
+        ? buocBai({ so, ma: 'nghe', emoji: '📖', ten: `Đọc hiểu: ${esc(bd.ten)}`, khoa: true, moTa: `🔒 ${khoaSau}` })
+        : buocBai({ so, ma: 'nghe', emoji: '📖', ten: `Đọc hiểu: ${esc(bd.ten)}`, href: `#/doc-hieu/${b.ma}`, xong: (kq?.tot || 0) >= 80,
+          moTa: kq ? `Lần gần nhất đúng ${kq.diem}% · cao nhất ${kq.tot}%` : `${bd.kieu === 'hoi-thoai' ? 'Hội thoại' : 'Đoạn văn'} ${bd.cau.length} câu · ${bd.hoi.length} câu hỏi` });
+  });
 
   // Ngữ pháp của bài (tải sau): chỉ mở khi đã xong các chặng từ vựng
   const diem = await taiNguPhap().catch(() => []);

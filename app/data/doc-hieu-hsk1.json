@@ -1,0 +1,225 @@
+{
+ "_ghiChu": "File tạo tự động bởi cong-cu/ghep-doc-hieu.py 1 từ cong-cu/nguon-doc-hieu/cap1.txt – không sửa tay.",
+ "capDo": 1,
+ "tenRieng": [
+  "小文",
+  "小明"
+ ],
+ "bai": [
+  {
+   "so": 1,
+   "ten": "Chào thầy, chào cả lớp",
+   "kieu": "hoi-thoai",
+   "cau": [
+    {
+     "ai": "老师",
+     "han": "大家好！",
+     "pinyin": "Dàjiā hǎo!",
+     "dich": "Chào cả lớp!"
+    },
+    {
+     "ai": "学生",
+     "han": "老师好！",
+     "pinyin": "Lǎoshī hǎo!",
+     "dich": "Em chào thầy ạ!"
+    },
+    {
+     "ai": "老师",
+     "han": "你们好！谢谢大家！",
+     "pinyin": "Nǐmen hǎo! Xièxie dàjiā!",
+     "dich": "Chào các em! Cảm ơn cả lớp!"
+    },
+    {
+     "ai": "学生",
+     "han": "不客气！",
+     "pinyin": "Bú kèqi!",
+     "dich": "Không có gì ạ!"
+    },
+    {
+     "ai": "老师",
+     "han": "同学们，再见！",
+     "pinyin": "Tóngxuémen, zàijiàn!",
+     "dich": "Tạm biệt các em!"
+    },
+    {
+     "ai": "学生",
+     "han": "老师再见！",
+     "pinyin": "Lǎoshī zàijiàn!",
+     "dich": "Em chào thầy ạ!"
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "Câu đầu tiên thầy giáo nói với cả lớp là gì?",
+     "dapAn": "大家好！",
+     "nhieu": [
+      "不客气！",
+      "再见！"
+     ]
+    },
+    {
+     "loai": "chon",
+     "hoi": "Khi thầy cảm ơn, học sinh đáp lại thế nào?",
+     "dapAn": "不客气！",
+     "nhieu": [
+      "谢谢！",
+      "你们好！"
+     ]
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "Cuối bài, thầy giáo và học sinh chào tạm biệt nhau.",
+     "dung": true
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "Học sinh chào thầy bằng câu 你们好！",
+     "dung": false
+    }
+   ]
+  },
+  {
+   "so": 2,
+   "ten": "Bạn tên là gì?",
+   "kieu": "hoi-thoai",
+   "cau": [
+    {
+     "ai": "小明",
+     "han": "你好！请问，你叫什么名字？",
+     "pinyin": "Nǐ hǎo! Qǐngwèn, nǐ jiào shénme míngzi?",
+     "dich": "Chào bạn! Cho hỏi, bạn tên là gì?"
+    },
+    {
+     "ai": "小文",
+     "han": "我叫小文。你叫什么名字？",
+     "pinyin": "Wǒ jiào Xiǎo Wén. Nǐ jiào shénme míngzi?",
+     "dich": "Mình tên là Tiểu Văn. Bạn tên là gì?"
+    },
+    {
+     "ai": "小明",
+     "han": "我叫小明。我是学生。",
+     "pinyin": "Wǒ jiào Xiǎo Míng. Wǒ shì xuéshēng.",
+     "dich": "Mình tên là Tiểu Minh. Mình là học sinh."
+    },
+    {
+     "ai": "小文",
+     "han": "我也是学生。认识你，我很高兴！",
+     "pinyin": "Wǒ yě shì xuéshēng. Rènshi nǐ, wǒ hěn gāoxìng!",
+     "dich": "Mình cũng là học sinh. Rất vui được làm quen với bạn!"
+    },
+    {
+     "ai": "小明",
+     "han": "我也很高兴！",
+     "pinyin": "Wǒ yě hěn gāoxìng!",
+     "dich": "Mình cũng rất vui!"
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "Người hỏi tên trước là ai?",
+     "dapAn": "小明",
+     "nhieu": [
+      "小文",
+      "老师"
+     ]
+    },
+    {
+     "loai": "chon",
+     "hoi": "Tiểu Minh nói mình là gì?",
+     "dapAn": "学生",
+     "nhieu": [
+      "老师",
+      "同学"
+     ]
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小文也是学生。",
+     "dung": true,
+     "dich": "Tiểu Văn cũng là học sinh."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小明是老师。",
+     "dung": false,
+     "dich": "Tiểu Minh là giáo viên."
+    }
+   ]
+  },
+  {
+   "so": 3,
+   "ten": "Đây là chị gái mình",
+   "kieu": "hoi-thoai",
+   "cau": [
+    {
+     "ai": "小明",
+     "han": "这是谁？",
+     "pinyin": "Zhè shì shéi?",
+     "dich": "Đây là ai?"
+    },
+    {
+     "ai": "小文",
+     "han": "这是我姐姐。她是老师。",
+     "pinyin": "Zhè shì wǒ jiějie. Tā shì lǎoshī.",
+     "dich": "Đây là chị gái mình. Chị ấy là giáo viên."
+    },
+    {
+     "ai": "小明",
+     "han": "你姐姐是中国人吗？",
+     "pinyin": "Nǐ jiějie shì Zhōngguórén ma?",
+     "dich": "Chị gái bạn là người Trung Quốc à?"
+    },
+    {
+     "ai": "小文",
+     "han": "对，她是中国人。她是中文老师。",
+     "pinyin": "Duì, tā shì Zhōngguórén. Tā shì Zhōngwén lǎoshī.",
+     "dich": "Đúng vậy, chị ấy là người Trung Quốc. Chị ấy là giáo viên tiếng Trung."
+    },
+    {
+     "ai": "小明",
+     "han": "她工作忙吗？",
+     "pinyin": "Tā gōngzuò máng ma?",
+     "dich": "Chị ấy làm việc có bận không?"
+    },
+    {
+     "ai": "小文",
+     "han": "她很忙。",
+     "pinyin": "Tā hěn máng.",
+     "dich": "Chị ấy rất bận."
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "这是谁？",
+     "dapAn": "小文的姐姐",
+     "nhieu": [
+      "小明的姐姐",
+      "小文的女朋友"
+     ],
+     "dich": "Đây là ai?"
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小文的姐姐是中文老师。",
+     "dung": true,
+     "dich": "Chị gái của Tiểu Văn là giáo viên tiếng Trung."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小文的姐姐是中国人。",
+     "dung": true,
+     "dich": "Chị gái của Tiểu Văn là người Trung Quốc."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小文的姐姐不忙。",
+     "dung": false,
+     "dich": "Chị gái của Tiểu Văn không bận."
+    }
+   ]
+  }
+ ]
+}

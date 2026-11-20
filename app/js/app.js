@@ -14,6 +14,7 @@
 //   #/on           Ôn từ đến hạn                → man-the-tu.js
 //   #/hoc-moi[/s5] Học từ mới → chuyển tới chặng tiếp theo của bài (hoặc bài đang học)
 //   #/chang/<mã bài>/<số>  một chặng bài học: nghe → nói → viết → ghép → đọc → man-chang.js
+//   #/doc-hieu/<mã bài>  đọc hiểu cuối bài (hội thoại / đoạn văn + câu hỏi) → man-doc-hieu.js
 //   #/bai[/5]      Bài học (lộ trình) / bài 5   → man-bai-hoc.js
 //   #/tu/<khóa>    Xem một từ                   → man-bai-hoc.js
 //   #/luyen-tap    Ôn luyện: cần ôn + kỹ năng   → man-luyen-tap.js
@@ -58,6 +59,7 @@ import { veChuAm, vePhienChuAm } from './man-chu-am.js';
 import { veTuLoai, moTuLoai } from './man-tu-loai.js';
 import { veChang, changTiepTheo } from './man-chang.js';
 import { moXemTu } from './cham-tu.js';
+import { veDocHieu } from './man-doc-hieu.js';
 import { capMo } from './cap-do.js';
 import { veLuyenNoi, vePhienNoi, moChamNhanh, CAC_DANG_NOI } from './man-luyen-noi.js';
 
@@ -79,7 +81,7 @@ function veTheoDiaChi() {
 
   // tô sáng mục đang chọn ở thanh điều hướng
   let mucChon = {
-    '': 'trang-chu', bai: 'bai', tu: 'bai', 'hoc-moi': 'bai', chang: 'bai',
+    '': 'trang-chu', bai: 'bai', tu: 'bai', 'hoc-moi': 'bai', chang: 'bai', 'doc-hieu': 'bai',
     on: 'luyen-tap', 'luyen-tap': 'luyen-tap', 'luyen-viet': 'luyen-tap', 'thanh-dieu': 'luyen-tap',
     'trac-nghiem': 'luyen-tap', 'ngu-phap': 'luyen-tap', 'luyen-noi': 'luyen-tap',
     'thi-thu': 'thi-thu', toi: 'toi', 'thong-ke': 'toi', 'cai-dat': 'toi', 'chu-am': 'chu-am',
@@ -101,6 +103,10 @@ function veTheoDiaChi() {
     const chang = bai && capMo(bai.cap) ? changTiepTheo(bai) : null;
     location.replace(chang ? `#/chang/${bai.ma}/${chang.so}` : bai ? `#/bai/${bai.ma}` : '#/bai');
     return;
+  } else if (muc === 'doc-hieu' && thamSo) {
+    const bai = timBaiTheoMa(maBaiTuDiaChi(thamSo));
+    datTieuDe('Đọc hiểu', bai ? `#/bai/${bai.ma}` : '#/bai');
+    donDep = veDocHieu(khung, bai ? bai.ma : thamSo);
   } else if (muc === 'chang' && thamSo) {
     const bai = timBaiTheoMa(maBaiTuDiaChi(thamSo));
     if (bai && !capMo(bai.cap)) { location.replace(`#/bai/${bai.ma}`); return; }   // cấp đang khóa

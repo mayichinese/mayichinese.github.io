@@ -102,64 +102,70 @@ def ten_moc(m):
     return f'HSK {m[0]} · Bài {m[1]}'
 
 
-# ---------- 1. Ngữ pháp ----------
-dong = []
-thong_ke_np = {}      # mốc → [số câu, số câu có từ chưa học]
-chi_tiet_np = []      # (mốc, mã, tên, câu, từ chưa học, ngoài)
-for cap in (1, 2, 3):
-    d = doc(f'ngu-phap-hsk{cap}.json')
-    if not d:
-        continue
-    for p in d['diem']:
-        bai = theo_sach['nguPhap'].get(p['id']) if cap == 1 else p.get('bai')
-        if not bai:
+def main():
+    # ---------- 1. Ngữ pháp ----------
+    dong = []
+    thong_ke_np = {}      # mốc → [số câu, số câu có từ chưa học]
+    chi_tiet_np = []      # (mốc, mã, tên, câu, từ chưa học, ngoài)
+    for cap in (1, 2, 3):
+        d = doc(f'ngu-phap-hsk{cap}.json')
+        if not d:
             continue
+        for p in d['diem']:
+            bai = theo_sach['nguPhap'].get(p['id']) if cap == 1 else p.get('bai')
+            if not bai:
+                continue
+            moc = (cap, bai)
+            cau = [v['han'] for v in p['viDu']] + [x['cau'].replace('___', x['dapAn']) for x in p['dienTu']]
+            tk = thong_ke_np.setdefault(moc, [0, 0])
+            for c in cau:
+                sau, ngoai = chua_hoc(c, moc)
+                tk[0] += 1
+                if sau or ngoai:
+                    tk[1] += 1
+                    chi_tiet_np.append((moc, p['id'], p['ten'], c, sau, ngoai))
+
+    # ---------- 2. Câu ví dụ của từ ----------
+    thong_ke_vd = {}      # mốc → [số câu, số câu dùng được]
+    for cap, bai, hz, c in vi_du_tu:
         moc = (cap, bai)
-        cau = [v['han'] for v in p['viDu']] + [x['cau'].replace('___', x['dapAn']) for x in p['dienTu']]
-        tk = thong_ke_np.setdefault(moc, [0, 0])
-        for c in cau:
-            sau, ngoai = chua_hoc(c, moc)
-            tk[0] += 1
-            if sau or ngoai:
-                tk[1] += 1
-                chi_tiet_np.append((moc, p['id'], p['ten'], c, sau, ngoai))
+        sau, ngoai = chua_hoc(c, moc)
+        tk = thong_ke_vd.setdefault(moc, [0, 0])
+        tk[0] += 1
+        if not sau and not ngoai:
+            tk[1] += 1
 
-# ---------- 2. Câu ví dụ của từ ----------
-thong_ke_vd = {}      # mốc → [số câu, số câu dùng được]
-for cap, bai, hz, c in vi_du_tu:
-    moc = (cap, bai)
-    sau, ngoai = chua_hoc(c, moc)
-    tk = thong_ke_vd.setdefault(moc, [0, 0])
-    tk[0] += 1
-    if not sau and not ngoai:
-        tk[1] += 1
-
-# ---------- Ghi báo cáo ----------
-tong_np = sum(v[0] for v in thong_ke_np.values())
-xau_np = sum(v[1] for v in thong_ke_np.values())
-dong.append('BÁO CÁO TỪ CHƯA HỌC TRONG CÂU (tạo bởi cong-cu/kiem-tra-tu-chua-hoc.py – không sửa tay)')
-dong.append('')
-dong.append(f'NGỮ PHÁP: {xau_np}/{tong_np} câu còn từ chưa học (hoặc chữ ngoài từ điển) tính tới bài của điểm.')
-dong.append('Câu ví dụ của từ dùng được cho chặng (toàn từ đã học tới bài đó):')
-for moc in sorted(set(thong_ke_np) | set(thong_ke_vd)):
-    np_ = thong_ke_np.get(moc, [0, 0])
-    vd = thong_ke_vd.get(moc, [0, 0])
-    dong.append(f'  {ten_moc(moc):16} ngữ pháp: {np_[1]:3}/{np_[0]:3} câu cần sửa · ví dụ từ dùng được: {vd[1]:3}/{vd[0]:3}')
-dong.append('')
-dong.append('CHI TIẾT CÂU NGỮ PHÁP CẦN SỬA (theo thứ tự bài):')
-for moc, ma, ten, c, sau, ngoai in sorted(chi_tiet_np, key=lambda x: x[0]):
-    ghi = ', '.join(sau + [f'{x}(ngoài từ điển)' for x in ngoai])
-    dong.append(f'[{ten_moc(moc)}] {ma}: {c}   ← {ghi}')
-(GOC / 'cong-cu' / 'bao-cao-tu-chua-hoc.txt').write_text('\n'.join(dong) + '\n', encoding='utf-8')
-
-print(f'Ngữ pháp: {xau_np}/{tong_np} câu còn từ chưa học. Ví dụ từ dùng được: '
-      f'{sum(v[1] for v in thong_ke_vd.values())}/{sum(v[0] for v in thong_ke_vd.values())}.')
-print('Đã ghi cong-cu/bao-cao-tu-chua-hoc.txt')
-
-# Chi tiết ra màn hình cho một khoảng bài (để soạn lại từng ít một)
-if len(sys.argv) >= 3:
-    cap = int(sys.argv[1])
-    tu, den = (int(x) for x in sys.argv[2].split('-')) if '-' in sys.argv[2] else (1, int(sys.argv[2]))
+    # ---------- Ghi báo cáo ----------
+    tong_np = sum(v[0] for v in thong_ke_np.values())
+    xau_np = sum(v[1] for v in thong_ke_np.values())
+    dong.append('BÁO CÁO TỪ CHƯA HỌC TRONG CÂU (tạo bởi cong-cu/kiem-tra-tu-chua-hoc.py – không sửa tay)')
+    dong.append('')
+    dong.append(f'NGỮ PHÁP: {xau_np}/{tong_np} câu còn từ chưa học (hoặc chữ ngoài từ điển) tính tới bài của điểm.')
+    dong.append('Câu ví dụ của từ dùng được cho chặng (toàn từ đã học tới bài đó):')
+    for moc in sorted(set(thong_ke_np) | set(thong_ke_vd)):
+        np_ = thong_ke_np.get(moc, [0, 0])
+        vd = thong_ke_vd.get(moc, [0, 0])
+        dong.append(f'  {ten_moc(moc):16} ngữ pháp: {np_[1]:3}/{np_[0]:3} câu cần sửa · ví dụ từ dùng được: {vd[1]:3}/{vd[0]:3}')
+    dong.append('')
+    dong.append('CHI TIẾT CÂU NGỮ PHÁP CẦN SỬA (theo thứ tự bài):')
     for moc, ma, ten, c, sau, ngoai in sorted(chi_tiet_np, key=lambda x: x[0]):
-        if moc[0] == cap and tu <= moc[1] <= den:
-            print(f'[B{moc[1]}] {ma}: {c} ← {", ".join(sau + [x + "(ngoài)" for x in ngoai])}')
+        ghi = ', '.join(sau + [f'{x}(ngoài từ điển)' for x in ngoai])
+        dong.append(f'[{ten_moc(moc)}] {ma}: {c}   ← {ghi}')
+    (GOC / 'cong-cu' / 'bao-cao-tu-chua-hoc.txt').write_text('\n'.join(dong) + '\n', encoding='utf-8')
+
+    print(f'Ngữ pháp: {xau_np}/{tong_np} câu còn từ chưa học. Ví dụ từ dùng được: '
+          f'{sum(v[1] for v in thong_ke_vd.values())}/{sum(v[0] for v in thong_ke_vd.values())}.')
+    print('Đã ghi cong-cu/bao-cao-tu-chua-hoc.txt')
+
+    # Chi tiết ra màn hình cho một khoảng bài (để soạn lại từng ít một)
+    if len(sys.argv) >= 3:
+        cap = int(sys.argv[1])
+        tu, den = (int(x) for x in sys.argv[2].split('-')) if '-' in sys.argv[2] else (1, int(sys.argv[2]))
+        for moc, ma, ten, c, sau, ngoai in sorted(chi_tiet_np, key=lambda x: x[0]):
+            if moc[0] == cap and tu <= moc[1] <= den:
+                print(f'[B{moc[1]}] {ma}: {c} ← {", ".join(sau + [x + "(ngoài)" for x in ngoai])}')
+
+
+# Dùng lại được từ script khác (ghep-doc-hieu.py): tu_dien, tach(), chua_hoc()
+if __name__ == '__main__':
+    main()

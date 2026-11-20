@@ -66,12 +66,21 @@ export function htmlCauCham(cau, { danh = '', chiChuaHoc = false } = {}) {
   // tách riêng từ đang học để tô đậm đúng chỗ (kể cả khi từ điển khớp thành từ dài hơn)
   const phan = danh ? String(cau).split(danh) : [String(cau)];
   return phan.map((p, i) => {
-    const html = tachTu(p).map((d) => {
-      if (!d.han || !d.tu) return esc(d.chu);
+    const manh = [];
+    for (const d of tachTu(p)) {
+      // Dấu câu đứng sau một từ: dính vào từ đó để không rớt xuống đầu dòng (。lẻ loi)
+      const dau = !d.han && d.chu.match(/^[。，！？、；：”’）》…·.,!?;:)]+/u)?.[0];
+      if (dau && manh.length) {
+        manh[manh.length - 1] = `<span class="dinh-dau">${manh[manh.length - 1]}${esc(dau)}</span>`;
+        if (d.chu.length > dau.length) manh.push(esc(d.chu.slice(dau.length)));
+        continue;
+      }
+      if (!d.han || !d.tu) { manh.push(esc(d.chu)); continue; }
       const chuaHoc = !the[d.tu.khoa];
-      if (chiChuaHoc && !chuaHoc) return esc(d.chu);
-      return `<button type="button" class="tu-cham ${chuaHoc ? 'chua-hoc' : ''}" data-xem-tu="${esc(d.tu.khoa)}">${esc(d.chu)}</button>`;
-    }).join('');
+      if (chiChuaHoc && !chuaHoc) { manh.push(esc(d.chu)); continue; }
+      manh.push(`<button type="button" class="tu-cham ${chuaHoc ? 'chua-hoc' : ''}" data-xem-tu="${esc(d.tu.khoa)}">${esc(d.chu)}</button>`);
+    }
+    const html = manh.join('');
     if (i === 0) return html;
     const tuDanh = layTuDien().get(danh);
     const mark = tuDanh && !chiChuaHoc

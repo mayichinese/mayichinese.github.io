@@ -23,7 +23,7 @@ const CAC_PHAN = [
   { ma: 'moi', ten: 'Từ mới' },
   { ma: 'nghe', ten: 'Nghe & nói' },
   { ma: 'viet', ten: 'Viết chữ' },
-  { ma: 'nguPhap', ten: 'Trắc nghiệm & ngữ pháp' },
+  { ma: 'nguPhap', ten: 'Ngữ pháp, trắc nghiệm & đọc' },
 ];
 const TEN_THANH = { 1: 'thanh 1', 2: 'thanh 2', 3: 'thanh 3', 4: 'thanh 4', 0: 'thanh nhẹ' };
 const THU_NGAN = ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'];
