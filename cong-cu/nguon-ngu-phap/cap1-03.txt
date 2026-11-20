@@ -49,21 +49,21 @@
 = Chủ ngữ + thời gian + 在 + nơi chốn + động từ (+ tân ngữ)
 = Thời gian + chủ ngữ + 在 + nơi chốn + động từ
 - Từ chỉ thời gian (今天, 明天, 早上, 八点…) đứng TRƯỚC động từ; có thể đứng trước hoặc sau chủ ngữ.
-- Làm việc gì ở đâu: 在 + nơi chốn, đặt TRƯỚC động từ: 我在家学习 (tôi học ở nhà).
-- Có cả hai thì thời gian trước, nơi chốn sau: 我明天在学校看书.
-! Rất khác tiếng Việt: "Tôi học ở nhà" là 我在家学习, không nói 我学习在家.
-! "Tôi ngủ lúc 9 giờ" là 我九点睡觉 – giờ giấc đặt trước động từ, không đặt cuối câu.
-> 我/在/家/学习。 | Wǒ zài jiā xuéxí. | Tôi học ở nhà.
+- Làm việc gì ở đâu: 在 + nơi chốn, đặt TRƯỚC động từ: 我在家做饭 (tôi nấu cơm ở nhà).
+- Có cả hai thì thời gian trước, nơi chốn sau: 我明天在电影院看电影.
+! Rất khác tiếng Việt: "Tôi nấu cơm ở nhà" là 我在家做饭, không nói 我做饭在家.
+! "Mẹ đi làm lúc 8 giờ" là 妈妈八点上班 – giờ giấc đặt trước động từ, không đặt cuối câu.
+> 我/在/家/做饭。 | Wǒ zài jiā zuò fàn. | Tôi nấu cơm ở nhà.
 > 他/在/医院/工作。 | Tā zài yīyuàn gōngzuò. | Anh ấy làm việc ở bệnh viện.
-> 我/明天/在/学校/看/书。 | Wǒ míngtiān zài xuéxiào kàn shū. | Ngày mai tôi đọc sách ở trường.
-~ 明天/我/在/学校/看/书。
-> 我们/中午/在/饭店/吃/饭。 | Wǒmen zhōngwǔ zài fàndiàn chī fàn. | Buổi trưa chúng tôi ăn cơm ở nhà hàng.
-~ 中午/我们/在/饭店/吃/饭。
-> 妈妈/晚上/九点/睡觉。 | Māma wǎnshang jiǔ diǎn shuìjiào. | Mẹ đi ngủ lúc chín giờ tối.
-~ 晚上/九点/妈妈/睡觉。
-? 我___家学习。 | 在 | 是; 有; 很 | Wǒ zài jiā xuéxí. | Tôi học ở nhà.
-? 我明天___学校看书。 | 在 | 是; 有; 的 | Wǒ míngtiān zài xuéxiào kàn shū. | Ngày mai tôi đọc sách ở trường.
-? 我们中午在饭店___饭。 | 吃 | 喝; 是; 有 | Wǒmen zhōngwǔ zài fàndiàn chī fàn. | Buổi trưa chúng tôi ăn cơm ở nhà hàng.
+> 我/明天/在/电影院/看/电影。 | Wǒ míngtiān zài diànyǐngyuàn kàn diànyǐng. | Ngày mai tôi xem phim ở rạp chiếu phim.
+~ 明天/我/在/电影院/看/电影。
+> 我们/晚上/在/家/吃/晚饭。 | Wǒmen wǎnshang zài jiā chī wǎnfàn. | Buổi tối chúng tôi ăn cơm tối ở nhà.
+~ 晚上/我们/在/家/吃/晚饭。
+> 妈妈/早上/八点/上班。 | Māma zǎoshang bā diǎn shàngbān. | Mẹ đi làm lúc tám giờ sáng.
+~ 早上/八点/妈妈/上班。
+? 我___家做饭。 | 在 | 是; 有; 很 | Wǒ zài jiā zuò fàn. | Tôi nấu cơm ở nhà.
+? 我明天___电影院看电影。 | 在 | 是; 有; 的 | Wǒ míngtiān zài diànyǐngyuàn kàn diànyǐng. | Ngày mai tôi xem phim ở rạp chiếu phim.
+? 我们晚上在家___晚饭。 | 吃 | 喝; 是; 有 | Wǒmen wǎnshang zài jiā chī wǎnfàn. | Buổi tối chúng tôi ăn cơm tối ở nhà.
 
 ## vi-ngu-danh-tu
 @ Câu vị ngữ danh từ: nói ngày, giờ, tuổi, giá không cần 是

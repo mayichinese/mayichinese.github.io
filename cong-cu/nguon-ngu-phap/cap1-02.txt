@@ -46,16 +46,16 @@
 = Nơi chốn + 是 + danh từ
 - Muốn nói "ở chỗ nào đó có cái gì", đặt NƠI CHỐN lên đầu câu, rồi đến 有 và người/vật.
 - Nơi chốn thường là danh từ + từ chỉ phương hướng: 桌子上 (trên bàn), 椅子下 (dưới ghế), 房间里 (trong phòng), 学校外边 (bên ngoài trường).
-- Dùng 是 khi nói rõ chỗ đó là cái gì (thường chỉ có một thứ): 学校外边是一个商店.
+- Dùng 是 khi nói rõ chỗ đó là cái gì (thường chỉ có một thứ): 学校外边是一个书店.
 ! Không nói theo kiểu tiếng Việt "Có một quyển sách ở trên bàn" (有一本书在桌子上) – nói 桌子上有一本书.
 ! Danh từ chỉ đồ vật phải thêm 上/下/里… mới thành nơi chốn: 桌子上有……, không nói 桌子有……
 > 桌子上/有/一本/书。 | Zhuōzi shang yǒu yì běn shū. | Trên bàn có một quyển sách.
 > 房间里/有/两个/人。 | Fángjiān li yǒu liǎng gè rén. | Trong phòng có hai người.
 > 椅子下/有/一只/猫。 | Yǐzi xia yǒu yì zhī māo. | Dưới ghế có một con mèo.
-> 学校/外边/是/一个/商店。 | Xuéxiào wàibian shì yí gè shāngdiàn. | Bên ngoài trường là một cửa hàng.
-? 桌子上___一个杯子。 | 有 | 在; 很; 吗 | Zhuōzi shang yǒu yí gè bēizi. | Trên bàn có một cái cốc.
+> 学校/外边/是/一个/书店。 | Xuéxiào wàibian shì yí gè shūdiàn. | Bên ngoài trường là một hiệu sách.
+? 桌子上___一本书。 | 有 | 在; 很; 吗 | Zhuōzi shang yǒu yì běn shū. | Trên bàn có một quyển sách.
 ? 房间___有三个人。 | 里 | 的; 吗; 很 | Fángjiān li yǒu sān gè rén. | Trong phòng có ba người.
-? 学校外边___一个商店。 | 是 | 在; 很; 吗 | Xuéxiào wàibian shì yí gè shāngdiàn. | Bên ngoài trường là một cửa hàng.
+? 学校外边___一个书店。 | 是 | 在; 很; 吗 | Xuéxiào wàibian shì yí gè shūdiàn. | Bên ngoài trường là một hiệu sách.
 
 ## luong-tu
 @ Số + lượng từ + danh từ

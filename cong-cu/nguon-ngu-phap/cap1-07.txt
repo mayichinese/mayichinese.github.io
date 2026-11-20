@@ -36,11 +36,11 @@
 ! Tên nước, tên thành phố không thêm 里: 在中国, không nói 在中国里.
 > 书/在/桌子/上。 | Shū zài zhuōzi shang. | Sách ở trên bàn.
 > 我/的/手机/在/椅子/下。 | Wǒ de shǒujī zài yǐzi xia. | Điện thoại của tôi ở dưới ghế.
-> 学校/前边/有/一个/饭店。 | Xuéxiào qiánbian yǒu yí gè fàndiàn. | Phía trước trường có một nhà hàng.
+> 学校/前边/有/一个/书店。 | Xuéxiào qiánbian yǒu yí gè shūdiàn. | Phía trước trường có một hiệu sách.
 > 猫/在/房间/里。 | Māo zài fángjiān li. | Con mèo ở trong phòng.
 > 他/在/外边。 | Tā zài wàibian. | Anh ấy ở bên ngoài.
 ? 我的手机在___。 | 椅子下 | 下椅子; 椅子的; 很下 | Wǒ de shǒujī zài yǐzi xia. | Điện thoại của tôi ở dưới ghế.
-? 学校___边有一个饭店。 | 前 | 很; 的; 是 | Xuéxiào qiánbian yǒu yí gè fàndiàn. | Phía trước trường có một nhà hàng.
+? 学校___边有一个书店。 | 前 | 很; 的; 是 | Xuéxiào qiánbian yǒu yí gè shūdiàn. | Phía trước trường có một hiệu sách.
 ? 猫在房间___。 | 里 | 的; 很; 是 | Māo zài fángjiān li. | Con mèo ở trong phòng.
 
 ## ly-hop

@@ -49,21 +49,21 @@
 = 不 + động từ / tính từ: không (hiện tại, tương lai, thói quen, ý muốn)
 = 没 + động từ: đã không / chưa (việc chưa xảy ra)
 = 没有 + danh từ: không có
-- 不: không muốn, không định, vốn không làm, hoặc phủ định tính chất: 我不喝茶 (tôi không uống trà – vốn không uống), 他不高兴.
-- 没: việc đã không xảy ra hoặc chưa xảy ra: 我今天没喝茶 (hôm nay tôi chưa uống trà).
+- 不: không muốn, không định, vốn không làm, hoặc phủ định tính chất: 我不吃包子 (tôi không ăn bánh bao – vốn không ăn), 他不高兴.
+- 没: việc đã không xảy ra hoặc chưa xảy ra: 我今天没去学校 (hôm nay tôi đã không đi học).
 - 没有 + danh từ = không có: 我没有手机.
 - 是, 认识, 喜欢, 知道, 会, 能 và tính từ thường dùng 不: 不是, 不认识, 不喜欢.
 ! "Tôi chưa ăn cơm" là 我还没吃饭 hoặc 我没吃饭; 我不吃饭 nghĩa là "tôi không ăn cơm / không muốn ăn".
 ! Không nói 不有 hay 没是 – phải là 没有 và 不是.
-> 我/不/喝/茶。 | Wǒ bù hē chá. | Tôi không uống trà.
-> 我/今天/没/喝/茶。 | Wǒ jīntiān méi hē chá. | Hôm nay tôi chưa uống trà.
-~ 今天/我/没/喝/茶。
+> 我/不/吃/包子。 | Wǒ bù chī bāozi. | Tôi không ăn bánh bao.
+> 我/今天/没/去/学校。 | Wǒ jīntiān méi qù xuéxiào. | Hôm nay tôi đã không đi học.
+~ 今天/我/没/去/学校。
 > 我/还/没/吃/饭。 | Wǒ hái méi chī fàn. | Tôi vẫn chưa ăn cơm.
 > 他/不/认识/我。 | Tā bú rènshi wǒ. | Anh ấy không quen tôi.
-> 她/昨天/没/来。 | Tā zuótiān méi lái. | Hôm qua cô ấy không đến.
-~ 昨天/她/没/来。
+> 她/上午/没/去/医院。 | Tā shàngwǔ méi qù yīyuàn. | Buổi sáng cô ấy đã không đi bệnh viện.
+~ 上午/她/没/去/医院。
 ? 他___是老师。 | 不 | 没; 很; 吗 | Tā bú shì lǎoshī. | Anh ấy không phải là giáo viên.
-? 她昨天___来。 | 没 | 不; 很; 吗 | Tā zuótiān méi lái. | Hôm qua cô ấy không đến.
+? 我今天___看见她。 | 没 | 不; 很; 吗 | Wǒ jīntiān méi kànjiàn tā. | Hôm nay tôi không nhìn thấy cô ấy.
 ? 我___有手机。 | 没 | 不; 很; 吗 | Wǒ méi yǒu shǒujī. | Tôi không có điện thoại.
 
 ## dang-lam

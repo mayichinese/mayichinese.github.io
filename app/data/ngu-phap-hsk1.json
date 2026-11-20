@@ -806,7 +806,7 @@
    "giaiThich": [
     "Muốn nói \"ở chỗ nào đó có cái gì\", đặt NƠI CHỐN lên đầu câu, rồi đến 有 và người/vật.",
     "Nơi chốn thường là danh từ + từ chỉ phương hướng: 桌子上 (trên bàn), 椅子下 (dưới ghế), 房间里 (trong phòng), 学校外边 (bên ngoài trường).",
-    "Dùng 是 khi nói rõ chỗ đó là cái gì (thường chỉ có một thứ): 学校外边是一个商店."
+    "Dùng 是 khi nói rõ chỗ đó là cái gì (thường chỉ có một thứ): 学校外边是一个书店."
    ],
    "loiHayMac": [
     "Không nói theo kiểu tiếng Việt \"Có một quyển sách ở trên bàn\" (有一本书在桌子上) – nói 桌子上有一本书.",
@@ -853,31 +853,31 @@
      "dich": "Dưới ghế có một con mèo."
     },
     {
-     "han": "学校外边是一个商店。",
+     "han": "学校外边是一个书店。",
      "manh": [
       "学校",
       "外边",
       "是",
       "一个",
-      "商店"
+      "书店"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Xuéxiào wàibian shì yí gè shāngdiàn.",
-     "dich": "Bên ngoài trường là một cửa hàng."
+     "pinyin": "Xuéxiào wàibian shì yí gè shūdiàn.",
+     "dich": "Bên ngoài trường là một hiệu sách."
     }
    ],
    "dienTu": [
     {
-     "cau": "桌子上___一个杯子。",
+     "cau": "桌子上___一本书。",
      "dapAn": "有",
      "nhieu": [
       "在",
       "很",
       "吗"
      ],
-     "pinyin": "Zhuōzi shang yǒu yí gè bēizi.",
-     "dich": "Trên bàn có một cái cốc."
+     "pinyin": "Zhuōzi shang yǒu yì běn shū.",
+     "dich": "Trên bàn có một quyển sách."
     },
     {
      "cau": "房间___有三个人。",
@@ -891,15 +891,15 @@
      "dich": "Trong phòng có ba người."
     },
     {
-     "cau": "学校外边___一个商店。",
+     "cau": "学校外边___一个书店。",
      "dapAn": "是",
      "nhieu": [
       "在",
       "很",
       "吗"
      ],
-     "pinyin": "Xuéxiào wàibian shì yí gè shāngdiàn.",
-     "dich": "Bên ngoài trường là một cửa hàng."
+     "pinyin": "Xuéxiào wàibian shì yí gè shūdiàn.",
+     "dich": "Bên ngoài trường là một hiệu sách."
     }
    ],
    "canKiemTra": [],
@@ -1386,26 +1386,26 @@
    ],
    "giaiThich": [
     "Từ chỉ thời gian (今天, 明天, 早上, 八点…) đứng TRƯỚC động từ; có thể đứng trước hoặc sau chủ ngữ.",
-    "Làm việc gì ở đâu: 在 + nơi chốn, đặt TRƯỚC động từ: 我在家学习 (tôi học ở nhà).",
-    "Có cả hai thì thời gian trước, nơi chốn sau: 我明天在学校看书."
+    "Làm việc gì ở đâu: 在 + nơi chốn, đặt TRƯỚC động từ: 我在家做饭 (tôi nấu cơm ở nhà).",
+    "Có cả hai thì thời gian trước, nơi chốn sau: 我明天在电影院看电影."
    ],
    "loiHayMac": [
-    "Rất khác tiếng Việt: \"Tôi học ở nhà\" là 我在家学习, không nói 我学习在家.",
-    "\"Tôi ngủ lúc 9 giờ\" là 我九点睡觉 – giờ giấc đặt trước động từ, không đặt cuối câu."
+    "Rất khác tiếng Việt: \"Tôi nấu cơm ở nhà\" là 我在家做饭, không nói 我做饭在家.",
+    "\"Mẹ đi làm lúc 8 giờ\" là 妈妈八点上班 – giờ giấc đặt trước động từ, không đặt cuối câu."
    ],
    "viDu": [
     {
-     "han": "我在家学习。",
+     "han": "我在家做饭。",
      "manh": [
       "我",
       "在",
       "家",
-      "学习"
+      "做饭"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Wǒ zài jiā xuéxí.",
-     "dich": "Tôi học ở nhà."
+     "pinyin": "Wǒ zài jiā zuò fàn.",
+     "dich": "Tôi nấu cơm ở nhà."
     },
     {
      "han": "他在医院工作。",
@@ -1421,14 +1421,14 @@
      "dich": "Anh ấy làm việc ở bệnh viện."
     },
     {
-     "han": "我明天在学校看书。",
+     "han": "我明天在电影院看电影。",
      "manh": [
       "我",
       "明天",
       "在",
-      "学校",
+      "电影院",
       "看",
-      "书"
+      "电影"
      ],
      "dauCau": "。",
      "khac": [
@@ -1436,92 +1436,92 @@
        "明天",
        "我",
        "在",
-       "学校",
+       "电影院",
        "看",
-       "书"
+       "电影"
       ]
      ],
-     "pinyin": "Wǒ míngtiān zài xuéxiào kàn shū.",
-     "dich": "Ngày mai tôi đọc sách ở trường."
+     "pinyin": "Wǒ míngtiān zài diànyǐngyuàn kàn diànyǐng.",
+     "dich": "Ngày mai tôi xem phim ở rạp chiếu phim."
     },
     {
-     "han": "我们中午在饭店吃饭。",
+     "han": "我们晚上在家吃晚饭。",
      "manh": [
       "我们",
-      "中午",
-      "在",
-      "饭店",
-      "吃",
-      "饭"
-     ],
-     "dauCau": "。",
-     "khac": [
-      [
-       "中午",
-       "我们",
-       "在",
-       "饭店",
-       "吃",
-       "饭"
-      ]
-     ],
-     "pinyin": "Wǒmen zhōngwǔ zài fàndiàn chī fàn.",
-     "dich": "Buổi trưa chúng tôi ăn cơm ở nhà hàng."
-    },
-    {
-     "han": "妈妈晚上九点睡觉。",
-     "manh": [
-      "妈妈",
       "晚上",
-      "九点",
-      "睡觉"
+      "在",
+      "家",
+      "吃",
+      "晚饭"
      ],
      "dauCau": "。",
      "khac": [
       [
        "晚上",
-       "九点",
-       "妈妈",
-       "睡觉"
+       "我们",
+       "在",
+       "家",
+       "吃",
+       "晚饭"
       ]
      ],
-     "pinyin": "Māma wǎnshang jiǔ diǎn shuìjiào.",
-     "dich": "Mẹ đi ngủ lúc chín giờ tối."
+     "pinyin": "Wǒmen wǎnshang zài jiā chī wǎnfàn.",
+     "dich": "Buổi tối chúng tôi ăn cơm tối ở nhà."
+    },
+    {
+     "han": "妈妈早上八点上班。",
+     "manh": [
+      "妈妈",
+      "早上",
+      "八点",
+      "上班"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "早上",
+       "八点",
+       "妈妈",
+       "上班"
+      ]
+     ],
+     "pinyin": "Māma zǎoshang bā diǎn shàngbān.",
+     "dich": "Mẹ đi làm lúc tám giờ sáng."
     }
    ],
    "dienTu": [
     {
-     "cau": "我___家学习。",
+     "cau": "我___家做饭。",
      "dapAn": "在",
      "nhieu": [
       "是",
       "有",
       "很"
      ],
-     "pinyin": "Wǒ zài jiā xuéxí.",
-     "dich": "Tôi học ở nhà."
+     "pinyin": "Wǒ zài jiā zuò fàn.",
+     "dich": "Tôi nấu cơm ở nhà."
     },
     {
-     "cau": "我明天___学校看书。",
+     "cau": "我明天___电影院看电影。",
      "dapAn": "在",
      "nhieu": [
       "是",
       "有",
       "的"
      ],
-     "pinyin": "Wǒ míngtiān zài xuéxiào kàn shū.",
-     "dich": "Ngày mai tôi đọc sách ở trường."
+     "pinyin": "Wǒ míngtiān zài diànyǐngyuàn kàn diànyǐng.",
+     "dich": "Ngày mai tôi xem phim ở rạp chiếu phim."
     },
     {
-     "cau": "我们中午在饭店___饭。",
+     "cau": "我们晚上在家___晚饭。",
      "dapAn": "吃",
      "nhieu": [
       "喝",
       "是",
       "有"
      ],
-     "pinyin": "Wǒmen zhōngwǔ zài fàndiàn chī fàn.",
-     "dich": "Buổi trưa chúng tôi ăn cơm ở nhà hàng."
+     "pinyin": "Wǒmen wǎnshang zài jiā chī wǎnfàn.",
+     "dich": "Buổi tối chúng tôi ăn cơm tối ở nhà."
     }
    ],
    "canKiemTra": [],
@@ -1764,14 +1764,14 @@
    ],
    "giaiThich": [
     "想 + động từ = muốn (làm gì), nhẹ nhàng, là mong muốn: 我想去中国.",
-    "要 + động từ = muốn, cần, sẽ – mạnh hơn, thường là ý định chắc chắn: 我要喝茶 (khi gọi món), 明天我要去医院.",
-    "要 + danh từ = muốn lấy, cần: 我要这个 (tôi lấy cái này).",
+    "要 + động từ = muốn, cần, sẽ – mạnh hơn, thường là ý định chắc chắn: 明天我要去医院.",
+    "要 + danh từ = muốn lấy, cần (hay dùng khi gọi món, mua hàng): 我要一个包子 (cho tôi một cái bánh bao).",
     "想 + người = nhớ: 我想妈妈 (tôi nhớ mẹ).",
     "Phủ định thường dùng 不想 (không muốn). Còn 不要 + động từ nghĩa là \"đừng\": 不要说话 (đừng nói chuyện)."
    ],
    "loiHayMac": [
     "\"Tôi không muốn đi\" lịch sự là 我不想去; 我不要去 nghe rất gắt (như trẻ con dỗi).",
-    "想 / 要 đứng TRƯỚC động từ chính: 我想喝茶, không nói 我喝想茶."
+    "想 / 要 đứng TRƯỚC động từ chính: 我想看电视, không nói 我看想电视."
    ],
    "viDu": [
     {
@@ -1788,17 +1788,17 @@
      "dich": "Tôi muốn đi Trung Quốc."
     },
     {
-     "han": "我要喝茶。",
+     "han": "我要一个包子。",
      "manh": [
       "我",
       "要",
-      "喝",
-      "茶"
+      "一个",
+      "包子"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Wǒ yào hē chá.",
-     "dich": "Tôi muốn uống trà."
+     "pinyin": "Wǒ yào yí gè bāozi.",
+     "dich": "Cho tôi một cái bánh bao."
     },
     {
      "han": "你想吃什么？",
@@ -2652,8 +2652,8 @@
     "没有 + danh từ: không có"
    ],
    "giaiThich": [
-    "不: không muốn, không định, vốn không làm, hoặc phủ định tính chất: 我不喝茶 (tôi không uống trà – vốn không uống), 他不高兴.",
-    "没: việc đã không xảy ra hoặc chưa xảy ra: 我今天没喝茶 (hôm nay tôi chưa uống trà).",
+    "不: không muốn, không định, vốn không làm, hoặc phủ định tính chất: 我不吃包子 (tôi không ăn bánh bao – vốn không ăn), 他不高兴.",
+    "没: việc đã không xảy ra hoặc chưa xảy ra: 我今天没去学校 (hôm nay tôi đã không đi học).",
     "没有 + danh từ = không có: 我没有手机.",
     "是, 认识, 喜欢, 知道, 会, 能 và tính từ thường dùng 不: 不是, 不认识, 不喜欢."
    ],
@@ -2663,26 +2663,26 @@
    ],
    "viDu": [
     {
-     "han": "我不喝茶。",
+     "han": "我不吃包子。",
      "manh": [
       "我",
       "不",
-      "喝",
-      "茶"
+      "吃",
+      "包子"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Wǒ bù hē chá.",
-     "dich": "Tôi không uống trà."
+     "pinyin": "Wǒ bù chī bāozi.",
+     "dich": "Tôi không ăn bánh bao."
     },
     {
-     "han": "我今天没喝茶。",
+     "han": "我今天没去学校。",
      "manh": [
       "我",
       "今天",
       "没",
-      "喝",
-      "茶"
+      "去",
+      "学校"
      ],
      "dauCau": "。",
      "khac": [
@@ -2690,12 +2690,12 @@
        "今天",
        "我",
        "没",
-       "喝",
-       "茶"
+       "去",
+       "学校"
       ]
      ],
-     "pinyin": "Wǒ jīntiān méi hē chá.",
-     "dich": "Hôm nay tôi chưa uống trà."
+     "pinyin": "Wǒ jīntiān méi qù xuéxiào.",
+     "dich": "Hôm nay tôi đã không đi học."
     },
     {
      "han": "我还没吃饭。",
@@ -2725,24 +2725,26 @@
      "dich": "Anh ấy không quen tôi."
     },
     {
-     "han": "她昨天没来。",
+     "han": "她上午没去医院。",
      "manh": [
       "她",
-      "昨天",
+      "上午",
       "没",
-      "来"
+      "去",
+      "医院"
      ],
      "dauCau": "。",
      "khac": [
       [
-       "昨天",
+       "上午",
        "她",
        "没",
-       "来"
+       "去",
+       "医院"
       ]
      ],
-     "pinyin": "Tā zuótiān méi lái.",
-     "dich": "Hôm qua cô ấy không đến."
+     "pinyin": "Tā shàngwǔ méi qù yīyuàn.",
+     "dich": "Buổi sáng cô ấy đã không đi bệnh viện."
     }
    ],
    "dienTu": [
@@ -2758,15 +2760,15 @@
      "dich": "Anh ấy không phải là giáo viên."
     },
     {
-     "cau": "她昨天___来。",
+     "cau": "我今天___看见她。",
      "dapAn": "没",
      "nhieu": [
       "不",
       "很",
       "吗"
      ],
-     "pinyin": "Tā zuótiān méi lái.",
-     "dich": "Hôm qua cô ấy không đến."
+     "pinyin": "Wǒ jīntiān méi kànjiàn tā.",
+     "dich": "Hôm nay tôi không nhìn thấy cô ấy."
     },
     {
      "cau": "我___有手机。",
@@ -2781,7 +2783,7 @@
     }
    ],
    "canKiemTra": [],
-   "hocSauBai": 14
+   "hocSauBai": 18
   },
   {
    "id": "dang-lam",
@@ -3141,27 +3143,26 @@
     "……怎么样？  (… thế nào, ra sao?)"
    ],
    "giaiThich": [
-    "怎么 + động từ hỏi cách làm: 这个字怎么写？ (chữ này viết thế nào?), 你怎么去学校？ (bạn đi học bằng gì?).",
-    "怎么样 đứng cuối câu, hỏi tình trạng hoặc ý kiến: 天气怎么样？, 这件衣服怎么样？",
+    "怎么 + động từ hỏi cách làm: 包子怎么做？ (bánh bao làm thế nào?), 你怎么去学校？ (bạn đi học bằng gì?).",
+    "怎么样 đứng cuối câu, hỏi tình trạng hoặc ý kiến: 你的新手机怎么样？, 这件衣服怎么样？",
     "……，怎么样？ còn dùng để rủ, đề nghị: 我们去看电影，怎么样？ (mình đi xem phim, được không?)."
    ],
    "loiHayMac": [
-    "怎么 đứng ngay TRƯỚC động từ: 怎么写, không nói 写怎么.",
-    "Hỏi ý kiến, tình trạng của một vật dùng 怎么样 ở cuối câu; \"怎么样 + động từ\" là sai (怎么样写 ✗ → 怎么写 ✓)."
+    "怎么 đứng ngay TRƯỚC động từ: 怎么做, không nói 做怎么.",
+    "Hỏi ý kiến, tình trạng của một vật dùng 怎么样 ở cuối câu; \"怎么样 + động từ\" là sai (怎么样做 ✗ → 怎么做 ✓)."
    ],
    "viDu": [
     {
-     "han": "这个字怎么写？",
+     "han": "包子怎么做？",
      "manh": [
-      "这个",
-      "字",
+      "包子",
       "怎么",
-      "写"
+      "做"
      ],
      "dauCau": "？",
      "khac": [],
-     "pinyin": "Zhège zì zěnme xiě?",
-     "dich": "Chữ này viết thế nào?"
+     "pinyin": "Bāozi zěnme zuò?",
+     "dich": "Bánh bao làm thế nào?"
     },
     {
      "han": "你怎么去医院？",
@@ -3177,16 +3178,16 @@
      "dich": "Bạn đi bệnh viện bằng gì?"
     },
     {
-     "han": "今天天气怎么样？",
+     "han": "这件衣服怎么样？",
      "manh": [
-      "今天",
-      "天气",
+      "这件",
+      "衣服",
       "怎么样"
      ],
      "dauCau": "？",
      "khac": [],
-     "pinyin": "Jīntiān tiānqì zěnmeyàng?",
-     "dich": "Hôm nay thời tiết thế nào?"
+     "pinyin": "Zhè jiàn yīfu zěnmeyàng?",
+     "dich": "Bộ quần áo này thế nào?"
     },
     {
      "han": "我们去看电影，怎么样？",
@@ -3205,15 +3206,15 @@
    ],
    "dienTu": [
     {
-     "cau": "这个字___写？",
+     "cau": "包子___做？",
      "dapAn": "怎么",
      "nhieu": [
       "怎么样",
       "什么",
-      "谁"
+      "很"
      ],
-     "pinyin": "Zhège zì zěnme xiě?",
-     "dich": "Chữ này viết thế nào?"
+     "pinyin": "Bāozi zěnme zuò?",
+     "dich": "Bánh bao làm thế nào?"
     },
     {
      "cau": "你的新手机___？",
@@ -3239,130 +3240,129 @@
     }
    ],
    "canKiemTra": [],
-   "hocSauBai": 19
+   "hocSauBai": 20
   },
   {
    "id": "lien-dong",
-   "ten": "Câu liên động: hai động từ nối tiếp (去商店买东西)",
+   "ten": "Câu liên động: hai động từ nối tiếp (去超市买东西)",
    "deCuong": "特殊句型 · 连动句1（后一动作是前一动作的目的；前一动作是后一动作的方式）",
    "congThuc": [
     "Chủ ngữ + 去 / 来 + nơi chốn + động từ 2 (+ tân ngữ)  (đi đâu để làm gì)",
     "Chủ ngữ + 坐 + phương tiện + 去 / 来 + nơi chốn  (đi bằng gì)"
    ],
    "giaiThich": [
-    "Hai động từ đứng liền nhau theo thứ tự diễn ra; động từ sau thường là MỤC ĐÍCH của động từ trước: 我去商店买东西 (tôi đi cửa hàng mua đồ).",
-    "Động từ trước có thể là CÁCH làm việc sau: 我们坐出租车去医院 (chúng tôi đi taxi đến bệnh viện).",
+    "Hai động từ đứng liền nhau theo thứ tự diễn ra; động từ sau thường là MỤC ĐÍCH của động từ trước: 我去超市买东西 (tôi đi siêu thị mua đồ).",
+    "Động từ trước có thể là CÁCH làm việc sau: 我们坐出租车去超市 (chúng tôi đi taxi đến siêu thị).",
     "Không cần từ nối như \"để\" hay \"rồi\"."
    ],
    "loiHayMac": [
-    "Đến nơi trước, làm việc sau: 去商店买东西 – không nói 买东西去商店 khi muốn nói \"đến cửa hàng để mua đồ\".",
-    "Phương tiện đặt TRƯỚC: 坐飞机去中国, không nói 去中国坐飞机."
+    "Đến nơi trước, làm việc sau: 去超市买东西 – không nói 买东西去超市 khi muốn nói \"đến siêu thị để mua đồ\".",
+    "Phương tiện đặt TRƯỚC: 坐出租车去超市, không nói 去超市坐出租车."
    ],
    "viDu": [
     {
-     "han": "我去商店买东西。",
+     "han": "我去超市买东西。",
      "manh": [
       "我",
       "去",
-      "商店",
+      "超市",
       "买",
       "东西"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Wǒ qù shāngdiàn mǎi dōngxi.",
-     "dich": "Tôi đi cửa hàng mua đồ."
+     "pinyin": "Wǒ qù chāoshì mǎi dōngxi.",
+     "dich": "Tôi đi siêu thị mua đồ."
     },
     {
-     "han": "他来中国学汉语。",
+     "han": "我们去吃包子。",
      "manh": [
-      "他",
-      "来",
-      "中国",
-      "学",
-      "汉语"
+      "我们",
+      "去",
+      "吃",
+      "包子"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Tā lái Zhōngguó xué Hànyǔ.",
-     "dich": "Anh ấy đến Trung Quốc học tiếng Trung."
+     "pinyin": "Wǒmen qù chī bāozi.",
+     "dich": "Chúng tôi đi ăn bánh bao."
     },
     {
-     "han": "我们坐出租车去医院。",
+     "han": "我们坐出租车去超市。",
      "manh": [
       "我们",
       "坐",
       "出租车",
       "去",
-      "医院"
+      "超市"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Wǒmen zuò chūzūchē qù yīyuàn.",
-     "dich": "Chúng tôi đi taxi đến bệnh viện."
+     "pinyin": "Wǒmen zuò chūzūchē qù chāoshì.",
+     "dich": "Chúng tôi đi taxi đến siêu thị."
     },
     {
-     "han": "明天我坐飞机去中国。",
+     "han": "明天我去超市买牛奶。",
      "manh": [
       "明天",
       "我",
-      "坐",
-      "飞机",
       "去",
-      "中国"
+      "超市",
+      "买",
+      "牛奶"
      ],
      "dauCau": "。",
      "khac": [
       [
        "我",
        "明天",
-       "坐",
-       "飞机",
        "去",
-       "中国"
+       "超市",
+       "买",
+       "牛奶"
       ]
      ],
-     "pinyin": "Míngtiān wǒ zuò fēijī qù Zhōngguó.",
-     "dich": "Ngày mai tôi đi máy bay sang Trung Quốc."
+     "pinyin": "Míngtiān wǒ qù chāoshì mǎi niúnǎi.",
+     "dich": "Ngày mai tôi đi siêu thị mua sữa."
     }
    ],
    "dienTu": [
     {
-     "cau": "我去商店___东西。",
+     "cau": "我去超市___东西。",
      "dapAn": "买",
      "nhieu": [
       "是",
       "很",
       "的"
      ],
-     "pinyin": "Wǒ qù shāngdiàn mǎi dōngxi.",
-     "dich": "Tôi đi cửa hàng mua đồ."
+     "pinyin": "Wǒ qù chāoshì mǎi dōngxi.",
+     "dich": "Tôi đi siêu thị mua đồ."
     },
     {
-     "cau": "他___中国学汉语。",
-     "dapAn": "来",
+     "cau": "我们去___包子。",
+     "dapAn": "吃",
      "nhieu": [
       "是",
       "很",
       "的"
      ],
-     "pinyin": "Tā lái Zhōngguó xué Hànyǔ.",
-     "dich": "Anh ấy đến Trung Quốc học tiếng Trung."
+     "pinyin": "Wǒmen qù chī bāozi.",
+     "dich": "Chúng tôi đi ăn bánh bao."
     },
     {
-     "cau": "我们___出租车去医院。",
+     "cau": "我们___出租车去超市。",
      "dapAn": "坐",
      "nhieu": [
       "是",
       "很",
       "在"
      ],
-     "pinyin": "Wǒmen zuò chūzūchē qù yīyuàn.",
-     "dich": "Chúng tôi đi taxi đến bệnh viện."
+     "pinyin": "Wǒmen zuò chūzūchē qù chāoshì.",
+     "dich": "Chúng tôi đi taxi đến siêu thị."
     }
    ],
    "canKiemTra": [],
-   "hocSauBai": 18
+   "hocSauBai": 17
   },
   {
    "id": "hai-tan-ngu",
@@ -3787,18 +3787,18 @@
      "dich": "Điện thoại của tôi ở dưới ghế."
     },
     {
-     "han": "学校前边有一个饭店。",
+     "han": "学校前边有一个书店。",
      "manh": [
       "学校",
       "前边",
       "有",
       "一个",
-      "饭店"
+      "书店"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Xuéxiào qiánbian yǒu yí gè fàndiàn.",
-     "dich": "Phía trước trường có một nhà hàng."
+     "pinyin": "Xuéxiào qiánbian yǒu yí gè shūdiàn.",
+     "dich": "Phía trước trường có một hiệu sách."
     },
     {
      "han": "猫在房间里。",
@@ -3839,15 +3839,15 @@
      "dich": "Điện thoại của tôi ở dưới ghế."
     },
     {
-     "cau": "学校___边有一个饭店。",
+     "cau": "学校___边有一个书店。",
      "dapAn": "前",
      "nhieu": [
       "很",
       "的",
       "是"
      ],
-     "pinyin": "Xuéxiào qiánbian yǒu yí gè fàndiàn.",
-     "dich": "Phía trước trường có một nhà hàng."
+     "pinyin": "Xuéxiào qiánbian yǒu yí gè shūdiàn.",
+     "dich": "Phía trước trường có một hiệu sách."
     },
     {
      "cau": "猫在房间___。",

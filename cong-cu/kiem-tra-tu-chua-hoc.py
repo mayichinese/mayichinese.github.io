@@ -71,13 +71,26 @@ def tach(cau):
     return ds
 
 
+chu_moc = {}          # chữ → mốc sớm nhất của một từ có chứa chữ đó (没 nằm trong 没有, 没事…)
+for hz, m in tu_dien.items():
+    for c in hz:
+        if c not in chu_moc or m < chu_moc[c]:
+            chu_moc[c] = m
+
+
 def chua_hoc(cau, moc):
-    """Các từ chưa học (mốc > moc) và chữ ngoài từ điển"""
+    """Các từ chưa học (mốc > moc) và chữ ngoài từ điển.
+    Chữ lẻ không phải một từ riêng nhưng nằm trong một từ đã học (没 trong 没有) thì coi là đã biết."""
     sau, ngoai = [], []
     for doan, m in tach(cau):
         if m is None:
+            if chu_moc.get(doan) and chu_moc[doan] <= moc:
+                continue
             ngoai.append(doan)
         elif m > moc:
+            # Từ ghép "trong suốt": mọi chữ đều là từ một chữ đã học (这个 = 这 + 个, 他们 = 他 + 们) → coi như đã biết
+            if len(doan) > 1 and all(tu_dien.get(c) and tu_dien[c] <= moc for c in doan):
+                continue
             sau.append(f'{doan}(HSK{m[0]}-B{m[1]})')
     return sau, ngoai
 

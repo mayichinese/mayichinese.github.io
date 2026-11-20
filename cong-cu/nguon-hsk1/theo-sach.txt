@@ -345,11 +345,11 @@ he-dui | 4
 ngay-gio | 5
 vi-ngu-danh-tu | 5
 hui-neng | 8
-xiang-yao | 6
+xiang-yao | 11
 lien-dong | 6
-zenme | 6
+zenme | 10
 trang-ngu | 7
-phuong-vi | 8
+phuong-vi | 9
 bu-mei | 8
 cau-ton-tai | 9
 tien | 10

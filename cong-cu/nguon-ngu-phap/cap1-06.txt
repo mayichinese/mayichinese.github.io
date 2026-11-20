@@ -25,37 +25,37 @@
 § 疑问代词“怎么、怎么样”
 = 怎么 + động từ？  (làm thế nào, bằng cách nào)
 = ……怎么样？  (… thế nào, ra sao?)
-- 怎么 + động từ hỏi cách làm: 这个字怎么写？ (chữ này viết thế nào?), 你怎么去学校？ (bạn đi học bằng gì?).
-- 怎么样 đứng cuối câu, hỏi tình trạng hoặc ý kiến: 天气怎么样？, 这件衣服怎么样？
+- 怎么 + động từ hỏi cách làm: 包子怎么做？ (bánh bao làm thế nào?), 你怎么去学校？ (bạn đi học bằng gì?).
+- 怎么样 đứng cuối câu, hỏi tình trạng hoặc ý kiến: 你的新手机怎么样？, 这件衣服怎么样？
 - ……，怎么样？ còn dùng để rủ, đề nghị: 我们去看电影，怎么样？ (mình đi xem phim, được không?).
-! 怎么 đứng ngay TRƯỚC động từ: 怎么写, không nói 写怎么.
-! Hỏi ý kiến, tình trạng của một vật dùng 怎么样 ở cuối câu; "怎么样 + động từ" là sai (怎么样写 ✗ → 怎么写 ✓).
-> 这个/字/怎么/写？ | Zhège zì zěnme xiě? | Chữ này viết thế nào?
+! 怎么 đứng ngay TRƯỚC động từ: 怎么做, không nói 做怎么.
+! Hỏi ý kiến, tình trạng của một vật dùng 怎么样 ở cuối câu; "怎么样 + động từ" là sai (怎么样做 ✗ → 怎么做 ✓).
+> 包子/怎么/做？ | Bāozi zěnme zuò? | Bánh bao làm thế nào?
 > 你/怎么/去/医院？ | Nǐ zěnme qù yīyuàn? | Bạn đi bệnh viện bằng gì?
-> 今天/天气/怎么样？ | Jīntiān tiānqì zěnmeyàng? | Hôm nay thời tiết thế nào?
+> 这件/衣服/怎么样？ | Zhè jiàn yīfu zěnmeyàng? | Bộ quần áo này thế nào?
 > 我们/去/看/电影，/怎么样？ | Wǒmen qù kàn diànyǐng, zěnmeyàng? | Chúng ta đi xem phim, được không?
-? 这个字___写？ | 怎么 | 怎么样; 什么; 谁 | Zhège zì zěnme xiě? | Chữ này viết thế nào?
+? 包子___做？ | 怎么 | 怎么样; 什么; 很 | Bāozi zěnme zuò? | Bánh bao làm thế nào?
 ? 你的新手机___？ | 怎么样 | 怎么; 什么; 谁 | Nǐ de xīn shǒujī zěnmeyàng? | Điện thoại mới của bạn thế nào?
 ? 你___去学校？ | 怎么 | 怎么样; 吗; 很 | Nǐ zěnme qù xuéxiào? | Bạn đi học bằng gì?
 
 ## lien-dong
-@ Câu liên động: hai động từ nối tiếp (去商店买东西)
+@ Câu liên động: hai động từ nối tiếp (去超市买东西)
 § 特殊句型 · 连动句1（后一动作是前一动作的目的；前一动作是后一动作的方式）
 = Chủ ngữ + 去 / 来 + nơi chốn + động từ 2 (+ tân ngữ)  (đi đâu để làm gì)
 = Chủ ngữ + 坐 + phương tiện + 去 / 来 + nơi chốn  (đi bằng gì)
-- Hai động từ đứng liền nhau theo thứ tự diễn ra; động từ sau thường là MỤC ĐÍCH của động từ trước: 我去商店买东西 (tôi đi cửa hàng mua đồ).
-- Động từ trước có thể là CÁCH làm việc sau: 我们坐出租车去医院 (chúng tôi đi taxi đến bệnh viện).
+- Hai động từ đứng liền nhau theo thứ tự diễn ra; động từ sau thường là MỤC ĐÍCH của động từ trước: 我去超市买东西 (tôi đi siêu thị mua đồ).
+- Động từ trước có thể là CÁCH làm việc sau: 我们坐出租车去超市 (chúng tôi đi taxi đến siêu thị).
 - Không cần từ nối như "để" hay "rồi".
-! Đến nơi trước, làm việc sau: 去商店买东西 – không nói 买东西去商店 khi muốn nói "đến cửa hàng để mua đồ".
-! Phương tiện đặt TRƯỚC: 坐飞机去中国, không nói 去中国坐飞机.
-> 我/去/商店/买/东西。 | Wǒ qù shāngdiàn mǎi dōngxi. | Tôi đi cửa hàng mua đồ.
-> 他/来/中国/学/汉语。 | Tā lái Zhōngguó xué Hànyǔ. | Anh ấy đến Trung Quốc học tiếng Trung.
-> 我们/坐/出租车/去/医院。 | Wǒmen zuò chūzūchē qù yīyuàn. | Chúng tôi đi taxi đến bệnh viện.
-> 明天/我/坐/飞机/去/中国。 | Míngtiān wǒ zuò fēijī qù Zhōngguó. | Ngày mai tôi đi máy bay sang Trung Quốc.
-~ 我/明天/坐/飞机/去/中国。
-? 我去商店___东西。 | 买 | 是; 很; 的 | Wǒ qù shāngdiàn mǎi dōngxi. | Tôi đi cửa hàng mua đồ.
-? 他___中国学汉语。 | 来 | 是; 很; 的 | Tā lái Zhōngguó xué Hànyǔ. | Anh ấy đến Trung Quốc học tiếng Trung.
-? 我们___出租车去医院。 | 坐 | 是; 很; 在 | Wǒmen zuò chūzūchē qù yīyuàn. | Chúng tôi đi taxi đến bệnh viện.
+! Đến nơi trước, làm việc sau: 去超市买东西 – không nói 买东西去超市 khi muốn nói "đến siêu thị để mua đồ".
+! Phương tiện đặt TRƯỚC: 坐出租车去超市, không nói 去超市坐出租车.
+> 我/去/超市/买/东西。 | Wǒ qù chāoshì mǎi dōngxi. | Tôi đi siêu thị mua đồ.
+> 我们/去/吃/包子。 | Wǒmen qù chī bāozi. | Chúng tôi đi ăn bánh bao.
+> 我们/坐/出租车/去/超市。 | Wǒmen zuò chūzūchē qù chāoshì. | Chúng tôi đi taxi đến siêu thị.
+> 明天/我/去/超市/买/牛奶。 | Míngtiān wǒ qù chāoshì mǎi niúnǎi. | Ngày mai tôi đi siêu thị mua sữa.
+~ 我/明天/去/超市/买/牛奶。
+? 我去超市___东西。 | 买 | 是; 很; 的 | Wǒ qù chāoshì mǎi dōngxi. | Tôi đi siêu thị mua đồ.
+? 我们去___包子。 | 吃 | 是; 很; 的 | Wǒmen qù chī bāozi. | Chúng tôi đi ăn bánh bao.
+? 我们___出租车去超市。 | 坐 | 是; 很; 在 | Wǒmen zuò chūzūchē qù chāoshì. | Chúng tôi đi taxi đến siêu thị.
 
 ## hai-tan-ngu
 @ Câu hai tân ngữ: 给我一本书
