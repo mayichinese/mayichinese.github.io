@@ -35,7 +35,7 @@ App sẽ có biểu tượng **chú kiến Mayi** trên màn hình, tên ngắn 
 
 **Cập nhật app sau này:** chỉ cần đẩy code lên GitHub (nút *Sync Changes* trong VS Code, hoặc nhờ Claude).
 GitHub sẽ tự lấy thư mục `app/` làm trang web sau khoảng 1–2 phút (file `.github/workflows/dang-trang-web.yml` lo việc này),
-không cần kéo thả file bằng tay. Điện thoại tự nhận bản mới khi mở app lúc có mạng.
+không cần kéo thả file bằng tay. Điện thoại tự nhận bản mới khi mở app lúc có mạng: app mở ngay bằng bản đã lưu trong máy, tải bản mới ở nền rồi tự chuyển sang (nếu đang làm bài thì đợi bạn về trang Hôm nay).
 
 **Không đổi địa chỉ trang web:** tiến độ học lưu theo địa chỉ. Nếu đổi sang địa chỉ khác, phải
 *Xuất file sao lưu* ở địa chỉ cũ rồi *Nhập* ở địa chỉ mới (xem mục 3).

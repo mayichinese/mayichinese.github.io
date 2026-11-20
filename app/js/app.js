@@ -38,7 +38,7 @@
 import { docTienDo, caiDat } from './luu-tru.js';
 import { taiDuLieu, layTu, timBaiTheoMa, maBaiTuDiaChi, nhanBai, maBaiCuaTu, cheDoBai } from './du-lieu.js';
 import { doc } from './phat-am.js';
-import { esc, datTieuDe, apDungGiaoDien, doiSangToi, dongHopThoai } from './giao-dien.js';
+import { esc, datTieuDe, apDungGiaoDien, doiSangToi, dongHopThoai, thongBao } from './giao-dien.js';
 import { ganBieuTuong, bieuTuong } from './bieu-tuong.js';
 import { veTrangChu } from './man-trang-chu.js';
 import { vePhien } from './man-the-tu.js';
@@ -62,6 +62,8 @@ let donDep = null; // hàm dọn dẹp của màn hình trước (tắt đồng 
 // ĐIỀU HƯỚNG
 // =========================================================
 function veTheoDiaChi() {
+  // Có bản mới đã tải xong và người học về trang Hôm nay → tải lại để dùng bản mới (không cắt ngang bài đang làm)
+  if (coBanMoi && !location.hash.replace(/^#\/?/, '')) { location.reload(); return; }
   if (donDep) { donDep(); donDep = null; }
   dongHopThoai();
   const duong = decodeURIComponent(location.hash.replace(/^#\/?/, '')).split('/');
@@ -224,6 +226,21 @@ khoiDong();
 
 // Chạy offline: service worker lưu sẵn các file của app trong máy.
 // Chỉ hoạt động khi mở qua http://localhost hoặc https:// (không hoạt động khi mở file trực tiếp).
+// App mở ngay bằng bản đã cất trong máy; bản mới (nếu có) được tải ở nền. Tải xong:
+//   - vừa mở app (≤ 15 giây) và chưa vào bài nào → tải lại luôn cho người học dùng bản mới
+//   - đang học → báo một dòng, khi về trang Hôm nay mới tải lại
+let coBanMoi = false;
+const lucMo = Date.now();
 if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+  const daCoBanCu = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (!daCoBanCu || coBanMoi) return;   // lần cài đầu tiên: không cần tải lại
+    coBanMoi = true;
+    if (Date.now() - lucMo < 15000 && !document.body.classList.contains('dang-hoc') && !location.hash.replace(/^#\/?/, '')) {
+      location.reload();
+    } else {
+      thongBao('🆕 Đã tải bản cập nhật – sẽ dùng khi bạn về trang Hôm nay.', 4500);
+    }
+  });
   navigator.serviceWorker.register('sw.js').catch((e) => console.warn('Không đăng ký được chế độ offline', e));
 }

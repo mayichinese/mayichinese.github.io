@@ -28,10 +28,16 @@ let tuTheoKhoa = {};   // khóa "1:爱" → từ
 export async function taiDuLieu() {
   baiHoc = [];
   tuTheoKhoa = {};
-  for (const f of CAC_FILE) {
+  // Tải mọi file CÙNG LÚC (nhanh hơn tải lần lượt), rồi xử lý theo thứ tự cấp
+  const cacPhanHoi = CAC_FILE.map((f) => fetch(f.duongDan, { cache: 'no-cache' }));
+  cacPhanHoi.forEach((p) => p.catch(() => {}));   // lỗi được xử lý bên dưới, tránh cảnh báo "chưa bắt lỗi"
+  const henTheoSach = fetch('data/theo-sach-hsk1.json', { cache: 'no-cache' }).catch(() => null);
+  const henChuDe = Object.fromEntries([2, 3].map((cap) => [cap,
+    fetch(`data/chu-de-hsk${cap}.json`, { cache: 'no-cache' }).catch(() => null)]));
+  for (const [i, f] of CAC_FILE.entries()) {
     let phanHoi;
     try {
-      phanHoi = await fetch(f.duongDan, { cache: 'no-cache' });
+      phanHoi = await cacPhanHoi[i];
     } catch (e) {
       if (f.tuyChon) continue;
       throw new Error(`Không mở được file ${f.duongDan}.\n` +
@@ -60,8 +66,8 @@ export async function taiDuLieu() {
     }
   }
   if (!baiHoc.length) throw new Error('File dữ liệu không có bài học nào.');
-  await taiTheoSach();
-  await taiChuDe();
+  await taiTheoSach(henTheoSach);
+  await taiChuDe(henChuDe);
   return baiHoc;
 }
 
@@ -70,13 +76,13 @@ export async function taiDuLieu() {
 let baiChuDe = [];         // [{ ma: 'c2-3', cap, so, ten, tu: [...], chuDe: true }]
 let chuDeCuaTu = {};       // khóa → { so, ten }
 
-async function taiChuDe() {
+async function taiChuDe(henSan = {}) {
   baiChuDe = [];
   chuDeCuaTu = {};
   for (const cap of cacCapCoDuLieu().filter((c) => c > 1)) {
     try {
-      const r = await fetch(`data/chu-de-hsk${cap}.json`, { cache: 'no-cache' });
-      if (!r.ok) continue;
+      const r = await (henSan[cap] || fetch(`data/chu-de-hsk${cap}.json`, { cache: 'no-cache' }));
+      if (!r?.ok) continue;
       const json = await r.json();
       for (const b of json.bai) {
         const tu = b.tu.map((k) => tuTheoKhoa[k]).filter(Boolean);
@@ -99,12 +105,12 @@ export const chuDeCuaMotTu = (tu) => chuDeCuaTu[tu.khoa] || null;
 let theoSach = null;       // { bai: [{ so, ten }], tu: { khoa: số bài }, nguPhap: { mã: số bài } }
 let baiSach = [];          // [{ ma: 's3', so, ten, tu: [...], sach: true }]
 
-async function taiTheoSach() {
+async function taiTheoSach(henSan = null) {
   theoSach = null;
   baiSach = [];
   try {
-    const r = await fetch('data/theo-sach-hsk1.json', { cache: 'no-cache' });
-    if (!r.ok) return;
+    const r = await (henSan || fetch('data/theo-sach-hsk1.json', { cache: 'no-cache' }));
+    if (!r?.ok) return;
     theoSach = await r.json();
     baiSach = theoSach.bai.map((b) => ({
       ma: `s${b.so}`, cap: 1, so: b.so, ten: b.ten, sach: true,
