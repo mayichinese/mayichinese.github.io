@@ -332,7 +332,7 @@ Zhōngwén | 3
 # Mã điểm ngữ pháp của app | bài trong sách có phần "小语讲堂" tương ứng (theo mục lục sách).
 # GẦN ĐÚNG: sách chia ngữ pháp khác app; điểm nào sách không có mục riêng thì lấy bài dạy từ chính của điểm đó.
 phu-dinh-bu | 2
-tu-de-hoi | 2
+tu-de-hoi | 3
 la-shi | 3
 cau-hoi-ma | 3
 tro-tu-de | 3

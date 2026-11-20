@@ -14,10 +14,10 @@
    "giaiThich": [
     "是 nối hai danh từ / đại từ, nghĩa là \"là\": giới thiệu bản thân, nghề nghiệp, quốc tịch, quan hệ gia đình.",
     "Phủ định: thêm 不 trước 是 → 不是 (đọc bú shì).",
-    "是 không đổi theo ngôi hay thời gian: 我是, 他是, 我们是… đều giữ nguyên."
+    "是 không đổi theo ngôi hay thời gian: 我是, 她是, 我们是… đều giữ nguyên."
    ],
    "loiHayMac": [
-    "Không dùng 是 trước tính từ: nói 他很高兴, không nói 他是高兴 (xem điểm \"Câu vị ngữ tính từ\").",
+    "Không dùng 是 trước tính từ: nói 她很高兴, không nói 她是高兴 (xem điểm \"Câu vị ngữ tính từ\").",
     "Không bỏ 是 như cách nói tắt của tiếng Việt (\"Tôi học sinh\"): phải nói 我是学生."
    ],
    "viDu": [
@@ -34,54 +34,54 @@
      "dich": "Tôi là học sinh."
     },
     {
-     "han": "她是我妈妈。",
+     "han": "她是我姐姐。",
      "manh": [
       "她",
       "是",
       "我",
-      "妈妈"
+      "姐姐"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Tā shì wǒ māma.",
-     "dich": "Bà ấy là mẹ tôi."
+     "pinyin": "Tā shì wǒ jiějie.",
+     "dich": "Cô ấy là chị gái tôi."
     },
     {
-     "han": "他不是老师。",
+     "han": "她不是老师。",
      "manh": [
-      "他",
+      "她",
       "不是",
       "老师"
      ],
      "dauCau": "。",
      "khac": [],
      "pinyin": "Tā bú shì lǎoshī.",
-     "dich": "Anh ấy không phải là giáo viên."
+     "dich": "Cô ấy không phải là giáo viên."
     },
     {
-     "han": "他是中国人。",
+     "han": "我们是中国人。",
      "manh": [
-      "他",
+      "我们",
       "是",
       "中国人"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Tā shì Zhōngguórén.",
-     "dich": "Anh ấy là người Trung Quốc."
+     "pinyin": "Wǒmen shì Zhōngguórén.",
+     "dich": "Chúng tôi là người Trung Quốc."
     }
    ],
    "dienTu": [
     {
-     "cau": "他___医生。",
+     "cau": "她___学生。",
      "dapAn": "是",
      "nhieu": [
       "很",
       "吗",
       "不"
      ],
-     "pinyin": "Tā shì yīshēng.",
-     "dich": "Anh ấy là bác sĩ."
+     "pinyin": "Tā shì xuéshēng.",
+     "dich": "Cô ấy là học sinh."
     },
     {
      "cau": "她不___老师。",
@@ -152,31 +152,31 @@
      "dich": "Bạn khỏe không?"
     },
     {
-     "han": "他是你哥哥吗？",
+     "han": "她是你姐姐吗？",
      "manh": [
-      "他",
+      "她",
       "是",
       "你",
-      "哥哥",
+      "姐姐",
       "吗"
      ],
      "dauCau": "？",
      "khac": [],
-     "pinyin": "Tā shì nǐ gēge ma?",
-     "dich": "Anh ấy là anh trai bạn à?"
+     "pinyin": "Tā shì nǐ jiějie ma?",
+     "dich": "Cô ấy là chị gái bạn à?"
     },
     {
-     "han": "你认识他吗？",
+     "han": "你认识她吗？",
      "manh": [
       "你",
       "认识",
-      "他",
+      "她",
       "吗"
      ],
      "dauCau": "？",
      "khac": [],
      "pinyin": "Nǐ rènshi tā ma?",
-     "dich": "Bạn có quen anh ấy không?"
+     "dich": "Bạn có quen cô ấy không?"
     }
    ],
    "dienTu": [
@@ -186,7 +186,7 @@
      "nhieu": [
       "什么",
       "谁",
-      "不"
+      "很"
      ],
      "pinyin": "Nǐ shì xuéshēng ma?",
      "dich": "Bạn là học sinh phải không?"
@@ -203,15 +203,15 @@
      "dich": "Bạn có quen tôi không?"
     },
     {
-     "cau": "她是你妈妈___？",
+     "cau": "她是你姐姐___？",
      "dapAn": "吗",
      "nhieu": [
       "谁",
       "什么",
-      "不"
+      "很"
      ],
-     "pinyin": "Tā shì nǐ māma ma?",
-     "dich": "Bà ấy là mẹ bạn phải không?"
+     "pinyin": "Tā shì nǐ jiějie ma?",
+     "dich": "Cô ấy là chị gái bạn phải không?"
     }
    ],
    "canKiemTra": [],
@@ -331,103 +331,105 @@
    ],
    "giaiThich": [
     "不 đứng TRƯỚC động từ hoặc tính từ để phủ định: không (làm), không (như thế).",
-    "Dùng cho hiện tại, tương lai, thói quen, ý muốn: 我不去 – tôi không đi.",
-    "不 đọc bù; đứng trước âm tiết thanh 4 thì đọc bú: 不是 bú shì, 不去 bú qù."
+    "Dùng cho hiện tại, tương lai, thói quen, ý muốn: 我不是老师 – tôi không phải giáo viên.",
+    "不 đọc bù; đứng trước âm tiết thanh 4 thì đọc bú: 不是 bú shì, 不认识 bú rènshi.",
+    "Có 也 thì 也 đứng trước 不: 我也不是学生 – tôi cũng không phải học sinh."
    ],
    "loiHayMac": [
     "Không dùng 不 với 有: phải nói 没有 (sẽ học ở điểm 没 / 没有).",
-    "不 đứng trước cả cụm động từ: 我不喝茶, không nói 我喝不茶."
+    "不 đứng trước động từ, không đứng sau: 我不认识你, không nói 我认识不你."
    ],
    "viDu": [
     {
-     "han": "我不去学校。",
+     "han": "我不是老师。",
      "manh": [
       "我",
       "不",
-      "去",
-      "学校"
+      "是",
+      "老师"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Wǒ bú qù xuéxiào.",
-     "dich": "Tôi không đến trường."
+     "pinyin": "Wǒ bú shì lǎoshī.",
+     "dich": "Tôi không phải là giáo viên."
     },
     {
-     "han": "他不喝茶。",
-     "manh": [
-      "他",
-      "不",
-      "喝",
-      "茶"
-     ],
-     "dauCau": "。",
-     "khac": [],
-     "pinyin": "Tā bù hē chá.",
-     "dich": "Anh ấy không uống trà."
-    },
-    {
-     "han": "我不认识她。",
+     "han": "我不认识你。",
      "manh": [
       "我",
       "不",
       "认识",
-      "她"
+      "你"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Wǒ bú rènshi tā.",
-     "dich": "Tôi không quen cô ấy."
+     "pinyin": "Wǒ bú rènshi nǐ.",
+     "dich": "Tôi không quen bạn."
     },
     {
-     "han": "这个不贵。",
+     "han": "我不高兴。",
      "manh": [
-      "这个",
+      "我",
       "不",
-      "贵"
+      "高兴"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Zhège bú guì.",
-     "dich": "Cái này không đắt."
+     "pinyin": "Wǒ bù gāoxìng.",
+     "dich": "Tôi không vui."
+    },
+    {
+     "han": "我也不是学生。",
+     "manh": [
+      "我",
+      "也",
+      "不",
+      "是",
+      "学生"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ yě bú shì xuéshēng.",
+     "dich": "Tôi cũng không phải là học sinh."
     }
    ],
    "dienTu": [
     {
-     "cau": "我___去医院。",
+     "cau": "我___是老师。",
      "dapAn": "不",
      "nhieu": [
       "很",
-      "吗",
-      "的"
+      "什么",
+      "叫"
      ],
-     "pinyin": "Wǒ bú qù yīyuàn.",
-     "dich": "Tôi không đi bệnh viện."
+     "pinyin": "Wǒ bú shì lǎoshī.",
+     "dich": "Tôi không phải là giáo viên."
     },
     {
-     "cau": "他___喝水。",
+     "cau": "你___认识我。",
      "dapAn": "不",
      "nhieu": [
       "很",
-      "吗",
-      "个"
+      "什么",
+      "叫"
      ],
-     "pinyin": "Tā bù hē shuǐ.",
-     "dich": "Anh ấy không uống nước."
+     "pinyin": "Nǐ bú rènshi wǒ.",
+     "dich": "Bạn không quen tôi."
     },
     {
-     "cau": "她___认识我。",
+     "cau": "我___高兴。",
      "dapAn": "不",
      "nhieu": [
-      "很",
-      "吗",
-      "个"
+      "是",
+      "什么",
+      "叫"
      ],
-     "pinyin": "Tā bú rènshi wǒ.",
-     "dich": "Cô ấy không quen tôi."
+     "pinyin": "Wǒ bù gāoxìng.",
+     "dich": "Tôi không vui."
     }
    ],
    "canKiemTra": [],
-   "hocSauBai": 16
+   "hocSauBai": 7
   },
   {
    "id": "tu-de-hoi",
@@ -437,12 +439,12 @@
     "Thay phần muốn hỏi bằng từ để hỏi, GIỮ NGUYÊN vị trí"
    ],
    "giaiThich": [
-    "什么 = gì, cái gì · 谁 = ai · 哪儿 = ở đâu · 哪 + danh từ = … nào.",
-    "Câu hỏi có trật tự giống hệt câu trả lời: 你叫什么名字？ → 我叫…；他是谁？ → 他是我哥哥.",
+    "什么 = gì, cái gì · 谁 = ai · 哪 + danh từ = … nào · 哪儿 = ở đâu (sẽ gặp ở Bài 6).",
+    "Câu hỏi có trật tự giống hệt câu trả lời: 你叫什么名字？ → 我叫…；她是谁？ → 她是我姐姐.",
     "Câu đã có từ để hỏi thì KHÔNG thêm 吗."
    ],
    "loiHayMac": [
-    "Không đưa từ để hỏi lên đầu câu như tiếng Anh: nói 你去哪儿？, không nói 哪儿你去？",
+    "Không đưa từ để hỏi lên đầu câu như tiếng Anh: nói 这是什么？, không nói 什么这是？",
     "Hỏi quốc tịch: 你是哪国人？ (Bạn là người nước nào?)"
    ],
    "viDu": [
@@ -460,40 +462,28 @@
      "dich": "Bạn tên là gì?"
     },
     {
-     "han": "他是谁？",
+     "han": "她是谁？",
      "manh": [
-      "他",
+      "她",
       "是",
       "谁"
      ],
      "dauCau": "？",
      "khac": [],
      "pinyin": "Tā shì shéi?",
-     "dich": "Anh ấy là ai?"
+     "dich": "Cô ấy là ai?"
     },
     {
-     "han": "你去哪儿？",
+     "han": "这是什么？",
      "manh": [
-      "你",
-      "去",
-      "哪儿"
-     ],
-     "dauCau": "？",
-     "khac": [],
-     "pinyin": "Nǐ qù nǎr?",
-     "dich": "Bạn đi đâu?"
-    },
-    {
-     "han": "你喝什么？",
-     "manh": [
-      "你",
-      "喝",
+      "这",
+      "是",
       "什么"
      ],
      "dauCau": "？",
      "khac": [],
-     "pinyin": "Nǐ hē shénme?",
-     "dich": "Bạn uống gì?"
+     "pinyin": "Zhè shì shénme?",
+     "dich": "Đây là cái gì?"
     },
     {
      "han": "你是哪国人？",
@@ -507,6 +497,28 @@
      "khac": [],
      "pinyin": "Nǐ shì nǎ guó rén?",
      "dich": "Bạn là người nước nào?"
+    },
+    {
+     "han": "谁是你的老师？",
+     "manh": [
+      "谁",
+      "是",
+      "你",
+      "的",
+      "老师"
+     ],
+     "dauCau": "？",
+     "khac": [
+      [
+       "你",
+       "的",
+       "老师",
+       "是",
+       "谁"
+      ]
+     ],
+     "pinyin": "Shéi shì nǐ de lǎoshī?",
+     "dich": "Ai là giáo viên của bạn?"
     }
    ],
    "dienTu": [
@@ -514,38 +526,38 @@
      "cau": "你叫___名字？",
      "dapAn": "什么",
      "nhieu": [
-      "吗",
       "谁",
-      "哪儿"
+      "吗",
+      "很"
      ],
      "pinyin": "Nǐ jiào shénme míngzi?",
      "dich": "Bạn tên là gì?"
     },
     {
-     "cau": "那个人是___？",
+     "cau": "她是___？",
      "dapAn": "谁",
      "nhieu": [
       "很",
-      "吗",
-      "哪儿"
+      "哪",
+      "也"
      ],
-     "pinyin": "Nàge rén shì shéi?",
-     "dich": "Người kia là ai?"
+     "pinyin": "Tā shì shéi?",
+     "dich": "Cô ấy là ai?"
     },
     {
-     "cau": "你去___？",
-     "dapAn": "哪儿",
+     "cau": "你是___国人？",
+     "dapAn": "哪",
      "nhieu": [
       "什么",
       "谁",
       "很"
      ],
-     "pinyin": "Nǐ qù nǎr?",
-     "dich": "Bạn đi đâu?"
+     "pinyin": "Nǐ shì nǎ guó rén?",
+     "dich": "Bạn là người nước nào?"
     }
    ],
    "canKiemTra": [],
-   "hocSauBai": 14
+   "hocSauBai": 9
   },
   {
    "id": "tro-tu-de",
@@ -553,126 +565,126 @@
    "deCuong": "助词 · 结构助词“的1” · 句子成分：定语",
    "congThuc": [
     "Định ngữ + 的 + danh từ",
-    "我的书 (sách của tôi) · 很漂亮的衣服 (bộ quần áo rất đẹp)"
+    "我的名字 (tên của tôi) · 很好的老师 (giáo viên rất tốt)"
    ],
    "giaiThich": [
-    "Phần bổ nghĩa (định ngữ) luôn đứng TRƯỚC danh từ và nối bằng 的: 我的书 = sách của tôi.",
-    "Định ngữ có thể là đại từ, danh từ hoặc cụm \"很 + tính từ\": 老师的手机, 很漂亮的衣服.",
-    "Thường bỏ 的 khi nói về người thân hoặc nơi mình thuộc về (我妈妈, 我们学校), và khi tính từ chỉ có một âm tiết (好朋友, 新衣服)."
+    "Phần bổ nghĩa (định ngữ) luôn đứng TRƯỚC danh từ và nối bằng 的: 我的名字 = tên của tôi.",
+    "Định ngữ có thể là đại từ, danh từ hoặc cụm \"很 + tính từ\": 老师的名字, 很好的老师.",
+    "Thường bỏ 的 khi nói về người thân hoặc nơi mình thuộc về (我姐姐, 我们老师), và khi tính từ chỉ có một âm tiết (好人)."
    ],
    "loiHayMac": [
-    "Trật tự ngược tiếng Việt: \"sách của tôi\" là 我的书, không phải 书的我.",
-    "Cụm \"很 + tính từ\" đứng trước danh từ phải có 的: 很漂亮的衣服, không nói 很漂亮衣服."
+    "Trật tự ngược tiếng Việt: \"tên của tôi\" là 我的名字, không phải 名字的我.",
+    "Cụm \"很 + tính từ\" đứng trước danh từ phải có 的: 很好的老师, không nói 很好老师."
    ],
    "viDu": [
     {
-     "han": "这是我的书。",
+     "han": "她是我的老师。",
+     "manh": [
+      "她",
+      "是",
+      "我",
+      "的",
+      "老师"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Tā shì wǒ de lǎoshī.",
+     "dich": "Cô ấy là giáo viên của tôi."
+    },
+    {
+     "han": "这是我的女朋友。",
      "manh": [
       "这",
       "是",
       "我",
       "的",
-      "书"
+      "女朋友"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Zhè shì wǒ de shū.",
-     "dich": "Đây là sách của tôi."
+     "pinyin": "Zhè shì wǒ de nǚpéngyou.",
+     "dich": "Đây là bạn gái của tôi."
     },
     {
-     "han": "那是老师的手机。",
-     "manh": [
-      "那",
-      "是",
-      "老师",
-      "的",
-      "手机"
-     ],
-     "dauCau": "。",
-     "khac": [],
-     "pinyin": "Nà shì lǎoshī de shǒujī.",
-     "dich": "Kia là điện thoại của thầy giáo."
-    },
-    {
-     "han": "他是我的好朋友。",
-     "manh": [
-      "他",
-      "是",
-      "我",
-      "的",
-      "好朋友"
-     ],
-     "dauCau": "。",
-     "khac": [],
-     "pinyin": "Tā shì wǒ de hǎo péngyou.",
-     "dich": "Anh ấy là bạn thân của tôi."
-    },
-    {
-     "han": "我妈妈是老师。",
+     "han": "我的工作很忙。",
      "manh": [
       "我",
-      "妈妈",
+      "的",
+      "工作",
+      "很",
+      "忙"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ de gōngzuò hěn máng.",
+     "dich": "Công việc của tôi rất bận."
+    },
+    {
+     "han": "我姐姐是老师。",
+     "manh": [
+      "我",
+      "姐姐",
       "是",
       "老师"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Wǒ māma shì lǎoshī.",
-     "dich": "Mẹ tôi là giáo viên."
+     "pinyin": "Wǒ jiějie shì lǎoshī.",
+     "dich": "Chị gái tôi là giáo viên."
     },
     {
-     "han": "这是很漂亮的衣服。",
+     "han": "她是很好的老师。",
      "manh": [
-      "这",
+      "她",
       "是",
       "很",
-      "漂亮",
+      "好",
       "的",
-      "衣服"
+      "老师"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Zhè shì hěn piàoliang de yīfu.",
-     "dich": "Đây là bộ quần áo rất đẹp."
+     "pinyin": "Tā shì hěn hǎo de lǎoshī.",
+     "dich": "Cô ấy là một giáo viên rất tốt."
     }
    ],
    "dienTu": [
     {
-     "cau": "这是我___书。",
+     "cau": "她是我___老师。",
      "dapAn": "的",
      "nhieu": [
       "是",
       "吗",
       "很"
      ],
-     "pinyin": "Zhè shì wǒ de shū.",
-     "dich": "Đây là sách của tôi."
+     "pinyin": "Tā shì wǒ de lǎoshī.",
+     "dich": "Cô ấy là giáo viên của tôi."
     },
     {
-     "cau": "那是___的电脑？",
+     "cau": "她是___的姐姐？",
      "dapAn": "谁",
      "nhieu": [
       "吗",
       "很",
       "不"
      ],
-     "pinyin": "Nà shì shéi de diànnǎo?",
-     "dich": "Kia là máy tính của ai?"
+     "pinyin": "Tā shì shéi de jiějie?",
+     "dich": "Cô ấy là chị gái của ai?"
     },
     {
-     "cau": "这是很漂亮___衣服。",
+     "cau": "她是很好___老师。",
      "dapAn": "的",
      "nhieu": [
       "是",
       "吗",
       "很"
      ],
-     "pinyin": "Zhè shì hěn piàoliang de yīfu.",
-     "dich": "Đây là bộ quần áo rất đẹp."
+     "pinyin": "Tā shì hěn hǎo de lǎoshī.",
+     "dich": "Cô ấy là một giáo viên rất tốt."
     }
    ],
    "canKiemTra": [],
-   "hocSauBai": 18
+   "hocSauBai": 20
   },
   {
    "id": "cau-co-you",

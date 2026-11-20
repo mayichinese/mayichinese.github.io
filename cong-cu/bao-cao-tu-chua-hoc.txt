@@ -1,10 +1,10 @@
 BÁO CÁO TỪ CHƯA HỌC TRONG CÂU (tạo bởi cong-cu/kiem-tra-tu-chua-hoc.py – không sửa tay)
 
-NGỮ PHÁP: 329/870 câu còn từ chưa học (hoặc chữ ngoài từ điển) tính tới bài của điểm.
+NGỮ PHÁP: 301/870 câu còn từ chưa học (hoặc chữ ngoài từ điển) tính tới bài của điểm.
 Câu ví dụ của từ dùng được cho chặng (toàn từ đã học tới bài đó):
   HSK 1 · Bài 1    ngữ pháp:   0/  0 câu cần sửa · ví dụ từ dùng được:   8/ 24
-  HSK 1 · Bài 2    ngữ pháp:  13/ 15 câu cần sửa · ví dụ từ dùng được:   9/ 29
-  HSK 1 · Bài 3    ngữ pháp:  15/ 22 câu cần sửa · ví dụ từ dùng được:   8/ 46
+  HSK 1 · Bài 2    ngữ pháp:   0/  7 câu cần sửa · ví dụ từ dùng được:   9/ 29
+  HSK 1 · Bài 3    ngữ pháp:   0/ 30 câu cần sửa · ví dụ từ dùng được:   8/ 46
   HSK 1 · Bài 4    ngữ pháp:  29/ 44 câu cần sửa · ví dụ từ dùng được:  21/ 79
   HSK 1 · Bài 5    ngữ pháp:  16/ 23 câu cần sửa · ví dụ từ dùng được:  12/ 43
   HSK 1 · Bài 6    ngữ pháp:  18/ 22 câu cần sửa · ví dụ từ dùng được:  11/ 39
@@ -52,34 +52,6 @@ Câu ví dụ của từ dùng được cho chặng (toàn từ đã học tới
   HSK 3 · Bài 18   ngữ pháp:   2/ 21 câu cần sửa · ví dụ từ dùng được:  45/ 53
 
 CHI TIẾT CÂU NGỮ PHÁP CẦN SỬA (theo thứ tự bài):
-[HSK 1 · Bài 2] phu-dinh-bu: 我不去学校。   ← 去(HSK1-B6), 学校(HSK1-B8)
-[HSK 1 · Bài 2] phu-dinh-bu: 他不喝茶。   ← 他(HSK1-B4), 喝(HSK1-B12), 茶(HSK1-B13)
-[HSK 1 · Bài 2] phu-dinh-bu: 我不认识她。   ← 她(HSK1-B3)
-[HSK 1 · Bài 2] phu-dinh-bu: 这个不贵。   ← 这个(HSK1-B13), 贵(HSK1-B10)
-[HSK 1 · Bài 2] phu-dinh-bu: 我不去医院。   ← 去(HSK1-B6), 医院(HSK1-B7)
-[HSK 1 · Bài 2] phu-dinh-bu: 他不喝水。   ← 他(HSK1-B4), 喝(HSK1-B12), 水(HSK1-B12)
-[HSK 1 · Bài 2] phu-dinh-bu: 她不认识我。   ← 她(HSK1-B3)
-[HSK 1 · Bài 2] tu-de-hoi: 他是谁？   ← 他(HSK1-B4), 谁(HSK1-B3)
-[HSK 1 · Bài 2] tu-de-hoi: 你去哪儿？   ← 去(HSK1-B6), 哪儿(HSK1-B6)
-[HSK 1 · Bài 2] tu-de-hoi: 你喝什么？   ← 喝(HSK1-B12)
-[HSK 1 · Bài 2] tu-de-hoi: 你是哪国人？   ← 哪(HSK1-B3), 国(HSK1-B3), 人(HSK1-B3)
-[HSK 1 · Bài 2] tu-de-hoi: 那个人是谁？   ← 那个(HSK1-B9), 人(HSK1-B3), 谁(HSK1-B3)
-[HSK 1 · Bài 2] tu-de-hoi: 你去哪儿？   ← 去(HSK1-B6), 哪儿(HSK1-B6)
-[HSK 1 · Bài 3] la-shi: 她是我妈妈。   ← 妈妈(HSK1-B4)
-[HSK 1 · Bài 3] la-shi: 他不是老师。   ← 他(HSK1-B4)
-[HSK 1 · Bài 3] la-shi: 他是中国人。   ← 他(HSK1-B4)
-[HSK 1 · Bài 3] la-shi: 他是医生。   ← 他(HSK1-B4), 医生(HSK1-B8)
-[HSK 1 · Bài 3] cau-hoi-ma: 他是你哥哥吗？   ← 他(HSK1-B4), 哥哥(HSK1-B4)
-[HSK 1 · Bài 3] cau-hoi-ma: 你认识他吗？   ← 他(HSK1-B4)
-[HSK 1 · Bài 3] cau-hoi-ma: 她是你妈妈吗？   ← 妈妈(HSK1-B4)
-[HSK 1 · Bài 3] tro-tu-de: 这是我的书。   ← 书(HSK1-B9)
-[HSK 1 · Bài 3] tro-tu-de: 那是老师的手机。   ← 那(HSK1-B9), 手机(HSK1-B6)
-[HSK 1 · Bài 3] tro-tu-de: 他是我的好朋友。   ← 他(HSK1-B4), 朋友(HSK1-B9)
-[HSK 1 · Bài 3] tro-tu-de: 我妈妈是老师。   ← 妈妈(HSK1-B4)
-[HSK 1 · Bài 3] tro-tu-de: 这是很漂亮的衣服。   ← 漂亮(HSK1-B8), 衣服(HSK1-B10)
-[HSK 1 · Bài 3] tro-tu-de: 这是我的书。   ← 书(HSK1-B9)
-[HSK 1 · Bài 3] tro-tu-de: 那是谁的电脑？   ← 那(HSK1-B9), 电脑(HSK1-B5)
-[HSK 1 · Bài 3] tro-tu-de: 这是很漂亮的衣服。   ← 漂亮(HSK1-B8), 衣服(HSK1-B10)
 [HSK 1 · Bài 4] cau-co-you: 她有很多朋友。   ← 朋友(HSK1-B9)
 [HSK 1 · Bài 4] cau-co-you: 我没有手机。   ← 手机(HSK1-B6)
 [HSK 1 · Bài 4] cau-co-you: 我没有钱。   ← 钱(HSK1-B10)
