@@ -91,6 +91,9 @@ def chua_hoc(cau, moc):
             # Từ ghép "trong suốt": mọi chữ đều là từ một chữ đã học (这个 = 这 + 个, 他们 = 他 + 们) → coi như đã biết
             if len(doan) > 1 and all(tu_dien.get(c) and tu_dien[c] <= moc for c in doan):
                 continue
+            # Chữ lẻ đã gặp trong một từ đã học (起 trong 起床, 跳 khi tách 跳舞) → coi như đã biết
+            if len(doan) == 1 and chu_moc.get(doan) and chu_moc[doan] <= moc:
+                continue
             sau.append(f'{doan}(HSK{m[0]}-B{m[1]})')
     return sau, ngoai
 

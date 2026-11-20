@@ -34,17 +34,17 @@
      "dich": "Anh là giáo viên phải không?"
     },
     {
-     "han": "你累了吧？",
+     "han": "你很忙吧？",
      "manh": [
       "你",
-      "累",
-      "了",
+      "很",
+      "忙",
       "吧"
      ],
      "dauCau": "？",
      "khac": [],
-     "pinyin": "Nǐ lèi le ba?",
-     "dich": "Bạn mệt rồi phải không?"
+     "pinyin": "Nǐ hěn máng ba?",
+     "dich": "Chắc bạn bận lắm nhỉ?"
     },
     {
      "han": "他今天不来了吧？",
@@ -71,19 +71,19 @@
      "dich": "Chắc hôm nay anh ấy không đến nữa nhỉ?"
     },
     {
-     "han": "这是你的书包吧？",
+     "han": "这是你的手机吧？",
      "manh": [
       "这",
       "是",
       "你",
       "的",
-      "书包",
+      "手机",
       "吧"
      ],
      "dauCau": "？",
      "khac": [],
-     "pinyin": "Zhè shì nǐ de shūbāo ba?",
-     "dich": "Đây là cặp của bạn phải không?"
+     "pinyin": "Zhè shì nǐ de shǒujī ba?",
+     "dich": "Đây là điện thoại của bạn phải không?"
     }
    ],
    "dienTu": [
@@ -123,7 +123,7 @@
    ],
    "canKiemTra": [],
    "bai": 1,
-   "hocSauBai": 4
+   "hocSauBai": 0
   },
   {
    "id": "shi-de",
@@ -225,15 +225,15 @@
      "dich": "Bạn đến bằng cách nào?"
     },
     {
-     "cau": "我___坐公交车来的。",
+     "cau": "我___坐出租车来的。",
      "dapAn": "是",
      "nhieu": [
       "在",
       "有",
       "了"
      ],
-     "pinyin": "Wǒ shì zuò gōngjiāochē lái de.",
-     "dich": "Tôi đi xe buýt đến."
+     "pinyin": "Wǒ shì zuò chūzūchē lái de.",
+     "dich": "Tôi đi taxi đến."
     },
     {
      "cau": "这本书是谁___的？",
@@ -340,15 +340,15 @@
      "dich": "Bạn mời tôi đến nhà chơi."
     },
     {
-     "cau": "妈妈不___我一个人出门。",
+     "cau": "妈妈不___我一个人去中国。",
      "dapAn": "让",
      "nhieu": [
       "是",
       "在",
       "有"
      ],
-     "pinyin": "Māma bú ràng wǒ yí ge rén chūmén.",
-     "dich": "Mẹ không cho tôi ra ngoài một mình."
+     "pinyin": "Māma bú ràng wǒ yí ge rén qù Zhōngguó.",
+     "dich": "Mẹ không cho tôi đi Trung Quốc một mình."
     },
     {
      "cau": "他请我们___中国菜。",
@@ -409,7 +409,7 @@
      "dich": "Ngày nào tôi cũng gọi điện cho mẹ."
     },
     {
-     "han": "我给你买了一杯咖啡。",
+     "han": "我给你买了一杯茶。",
      "manh": [
       "我",
       "给",
@@ -417,7 +417,7 @@
       "买",
       "了",
       "一杯",
-      "咖啡"
+      "茶"
      ],
      "dauCau": "。",
      "khac": [
@@ -426,13 +426,13 @@
        "买",
        "了",
        "一杯",
-       "咖啡",
+       "茶",
        "给",
        "你"
       ]
      ],
-     "pinyin": "Wǒ gěi nǐ mǎi le yì bēi kāfēi.",
-     "dich": "Tôi mua cho bạn một cốc cà phê rồi."
+     "pinyin": "Wǒ gěi nǐ mǎi le yì bēi chá.",
+     "dich": "Tôi mua cho bạn một cốc trà rồi."
     },
     {
      "han": "你跟老师说了吗？",
@@ -501,8 +501,8 @@
     }
    ],
    "canKiemTra": [],
-   "bai": 1,
-   "hocSauBai": 9
+   "bai": 5,
+   "hocSauBai": 7
   },
   {
    "id": "hai-shi-ba",
@@ -601,11 +601,12 @@
      "dich": "Cái này đắt quá, mình mua cái kia thì hơn."
     },
     {
-     "han": "你不舒服，还是休息一下吧。",
+     "han": "你太忙了，还是休息一下吧。",
      "manh": [
       "你",
-      "不",
-      "舒服，",
+      "太",
+      "忙",
+      "了，",
       "还是",
       "休息",
       "一下",
@@ -614,8 +615,9 @@
      "dauCau": "。",
      "khac": [
       [
-       "不",
-       "舒服，",
+       "太",
+       "忙",
+       "了，",
        "你",
        "还是",
        "休息",
@@ -623,43 +625,43 @@
        "吧"
       ]
      ],
-     "pinyin": "Nǐ bù shūfu, háishi xiūxi yíxià ba.",
-     "dich": "Bạn không khỏe, nghỉ một chút thì hơn."
+     "pinyin": "Nǐ tài máng le, háishi xiūxi yíxià ba.",
+     "dich": "Bạn bận quá rồi, nghỉ một chút thì hơn."
     }
    ],
    "dienTu": [
     {
-     "cau": "太远了，我们___坐地铁吧。",
+     "cau": "太远了，我们___打车吧。",
      "dapAn": "还是",
      "nhieu": [
       "但是",
       "所以",
       "因为"
      ],
-     "pinyin": "Tài yuǎn le, wǒmen háishi zuò dìtiě ba.",
-     "dich": "Xa quá, chúng mình đi tàu điện ngầm thì hơn."
+     "pinyin": "Tài yuǎn le, wǒmen háishi dǎchē ba.",
+     "dich": "Xa quá, chúng mình bắt taxi thì hơn."
     },
     {
-     "cau": "外面很冷，你还是穿这件衣服___。",
+     "cau": "今天很冷，你还是穿这件衣服___。",
      "dapAn": "吧",
      "nhieu": [
       "吗",
       "呢",
       "的"
      ],
-     "pinyin": "Wàimiàn hěn lěng, nǐ háishi chuān zhè jiàn yīfu ba.",
-     "dich": "Ngoài trời lạnh, bạn mặc bộ này thì hơn."
+     "pinyin": "Jīntiān hěn lěng, nǐ háishi chuān zhè jiàn yīfu ba.",
+     "dich": "Hôm nay lạnh, bạn mặc bộ này thì hơn."
     },
     {
-     "cau": "这家饭馆人太多了，我们___去别的饭馆吧。",
+     "cau": "这家饭店人太多了，我们___去别的饭店吧。",
      "dapAn": "还是",
      "nhieu": [
       "但是",
       "虽然",
       "因为"
      ],
-     "pinyin": "Zhè jiā fànguǎn rén tài duō le, wǒmen háishi qù bié de fànguǎn ba.",
-     "dich": "Quán này đông quá, chúng mình đi quán khác thì hơn."
+     "pinyin": "Zhè jiā fàndiàn rén tài duō le, wǒmen háishi qù bié de fàndiàn ba.",
+     "dich": "Nhà hàng này đông quá, chúng mình đi nhà hàng khác thì hơn."
     }
    ],
    "canKiemTra": [],
@@ -850,13 +852,13 @@
      "dich": "Người đến Trung Quốc du lịch rất đông."
     },
     {
-     "han": "你认识坐在前面的那个人吗？",
+     "han": "你认识坐在那儿的那个人吗？",
      "manh": [
       "你",
       "认识",
       "坐",
       "在",
-      "前面",
+      "那儿",
       "的",
       "那个",
       "人",
@@ -870,14 +872,14 @@
        "那个",
        "坐",
        "在",
-       "前面",
+       "那儿",
        "的",
        "人",
        "吗"
       ]
      ],
-     "pinyin": "Nǐ rènshi zuò zài qiánmiàn de nàge rén ma?",
-     "dich": "Bạn có biết người ngồi phía trước kia không?"
+     "pinyin": "Nǐ rènshi zuò zài nàr de nàge rén ma?",
+     "dich": "Bạn có biết người ngồi ở đằng kia không?"
     }
    ],
    "dienTu": [
@@ -904,20 +906,20 @@
      "dich": "Chữ bạn viết rất đẹp."
     },
     {
-     "cau": "那个穿红色衣服___女孩儿是我妹妹。",
+     "cau": "那个打电话___人是我姐姐。",
      "dapAn": "的",
      "nhieu": [
       "了",
       "地",
       "是"
      ],
-     "pinyin": "Nàge chuān hóngsè yīfu de nǚháir shì wǒ mèimei.",
-     "dich": "Cô bé mặc áo đỏ kia là em gái tôi."
+     "pinyin": "Nàge dǎ diànhuà de rén shì wǒ jiějie.",
+     "dich": "Người đang gọi điện kia là chị gái tôi."
     }
    ],
    "canKiemTra": [],
    "bai": 2,
-   "hocSauBai": 14
+   "hocSauBai": 1
   },
   {
    "id": "bo-ngu-ket-qua",
@@ -952,12 +954,11 @@
      "dich": "Xin lỗi, tôi viết sai rồi."
     },
     {
-     "han": "老师说的话你听懂了吗？",
+     "han": "老师说的你听懂了吗？",
      "manh": [
       "老师",
       "说",
       "的",
-      "话",
       "你",
       "听",
       "懂",
@@ -974,68 +975,66 @@
        "老师",
        "说",
        "的",
-       "话",
        "吗"
       ]
      ],
-     "pinyin": "Lǎoshī shuō de huà nǐ tīng dǒng le ma?",
-     "dich": "Lời thầy nói bạn nghe hiểu chưa?"
+     "pinyin": "Lǎoshī shuō de nǐ tīng dǒng le ma?",
+     "dich": "Điều thầy nói bạn nghe hiểu chưa?"
     },
     {
-     "han": "饭做好了，快来吃吧！",
+     "han": "饭做好了，来吃吧！",
      "manh": [
       "饭",
       "做",
       "好",
       "了，",
-      "快",
       "来",
       "吃",
       "吧"
      ],
      "dauCau": "！",
      "khac": [],
-     "pinyin": "Fàn zuò hǎo le, kuài lái chī ba!",
-     "dich": "Cơm nấu xong rồi, mau lại ăn đi!"
+     "pinyin": "Fàn zuò hǎo le, lái chī ba!",
+     "dich": "Cơm nấu xong rồi, lại ăn đi!"
     },
     {
-     "han": "我已经学会游泳了。",
+     "han": "我已经学会做饭了。",
      "manh": [
       "我",
       "已经",
       "学",
       "会",
-      "游泳",
+      "做饭",
       "了"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Wǒ yǐjīng xué huì yóuyǒng le.",
-     "dich": "Tôi đã biết bơi rồi."
+     "pinyin": "Wǒ yǐjīng xué huì zuò fàn le.",
+     "dich": "Tôi đã học được cách nấu ăn rồi."
     }
    ],
    "dienTu": [
     {
-     "cau": "这个字你写___了，不是这样写的。",
+     "cau": "这个字你写___了，不对。",
      "dapAn": "错",
      "nhieu": [
-      "完",
-      "好",
-      "懂"
+      "是",
+      "很",
+      "吗"
      ],
-     "pinyin": "Zhège zì nǐ xiě cuò le, bú shì zhèyàng xiě de.",
-     "dich": "Chữ này bạn viết sai rồi, không phải viết như vậy."
+     "pinyin": "Zhège zì nǐ xiě cuò le, bú duì.",
+     "dich": "Chữ này bạn viết sai rồi, không đúng."
     },
     {
-     "cau": "老师说得太快，我没听___。",
+     "cau": "这个问题我没听___。",
      "dapAn": "懂",
      "nhieu": [
       "会",
       "是",
       "很"
      ],
-     "pinyin": "Lǎoshī shuō de tài kuài, wǒ méi tīng dǒng.",
-     "dich": "Thầy nói nhanh quá, tôi không nghe hiểu."
+     "pinyin": "Zhège wèntí wǒ méi tīng dǒng.",
+     "dich": "Câu hỏi này tôi nghe không hiểu."
     },
     {
      "cau": "这本书我已经看___了。",
@@ -1235,28 +1234,18 @@
      "dich": "Tôi chưa xem bộ phim này bao giờ."
     },
     {
-     "han": "他以前在医院工作过。",
+     "han": "他在医院工作过。",
      "manh": [
       "他",
-      "以前",
       "在",
       "医院",
       "工作",
       "过"
      ],
      "dauCau": "。",
-     "khac": [
-      [
-       "以前",
-       "他",
-       "在",
-       "医院",
-       "工作",
-       "过"
-      ]
-     ],
-     "pinyin": "Tā yǐqián zài yīyuàn gōngzuò guo.",
-     "dich": "Trước đây anh ấy từng làm việc ở bệnh viện."
+     "khac": [],
+     "pinyin": "Tā zài yīyuàn gōngzuò guo.",
+     "dich": "Anh ấy từng làm việc ở bệnh viện."
     }
    ],
    "dienTu": [
@@ -1655,26 +1644,26 @@
    ],
    "dienTu": [
     {
-     "cau": "我在楼上，你上___吧。",
+     "cau": "我在上面，你上___吧。",
      "dapAn": "来",
      "nhieu": [
       "去",
       "了",
       "过"
      ],
-     "pinyin": "Wǒ zài lóu shàng, nǐ shànglái ba.",
-     "dich": "Tôi ở trên lầu, bạn lên đây đi."
+     "pinyin": "Wǒ zài shàngmiàn, nǐ shànglái ba.",
+     "dich": "Tôi ở trên này, bạn lên đây đi."
     },
     {
-     "cau": "他从外面跑___来了。",
+     "cau": "爷爷走___来了。",
      "dapAn": "进",
      "nhieu": [
       "在",
       "是",
       "很"
      ],
-     "pinyin": "Tā cóng wàimiàn pǎo jìnlái le.",
-     "dich": "Anh ấy từ bên ngoài chạy vào."
+     "pinyin": "Yéye zǒu jìnlái le.",
+     "dich": "Ông nội đi vào rồi."
     },
     {
      "cau": "妈妈回家___了。",
@@ -1726,17 +1715,16 @@
      "dich": "Đã mười hai giờ rồi, mau đi ngủ đi!"
     },
     {
-     "han": "他都八十岁了，身体还很好。",
+     "han": "他都八十岁了，还每天工作。",
      "manh": [
       "他",
       "都",
       "八十",
       "岁",
       "了，",
-      "身体",
       "还",
-      "很",
-      "好"
+      "每天",
+      "工作"
      ],
      "dauCau": "。",
      "khac": [
@@ -1746,14 +1734,13 @@
        "岁",
        "了，",
        "他",
-       "身体",
        "还",
-       "很",
-       "好"
+       "每天",
+       "工作"
       ]
      ],
-     "pinyin": "Tā dōu bāshí suì le, shēntǐ hái hěn hǎo.",
-     "dich": "Ông ấy đã tám mươi tuổi rồi mà sức khỏe vẫn rất tốt."
+     "pinyin": "Tā dōu bāshí suì le, hái měi tiān gōngzuò.",
+     "dich": "Ông ấy đã tám mươi tuổi rồi mà ngày nào cũng còn làm việc."
     },
     {
      "han": "都八点了，你怎么还不起床？",
@@ -1827,7 +1814,7 @@
    ],
    "canKiemTra": [],
    "bai": 5,
-   "hocSauBai": 11
+   "hocSauBai": 8
   },
   {
    "id": "lap-tinh-tu",

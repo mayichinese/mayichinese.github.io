@@ -58,8 +58,8 @@
 > 老师/走/进/教室/了。 | Lǎoshī zǒu jìn jiàoshì le. | Thầy giáo đi vào lớp rồi.
 > 请/大家/坐/下。 | Qǐng dàjiā zuò xià. | Mời mọi người ngồi xuống.
 ~ 大家/请/坐/下。
-? 我在楼上，你上___吧。 | 来 | 去; 了; 过 | Wǒ zài lóu shàng, nǐ shànglái ba. | Tôi ở trên lầu, bạn lên đây đi.
-? 他从外面跑___来了。 | 进 | 在; 是; 很 | Tā cóng wàimiàn pǎo jìnlái le. | Anh ấy từ bên ngoài chạy vào.
+? 我在上面，你上___吧。 | 来 | 去; 了; 过 | Wǒ zài shàngmiàn, nǐ shànglái ba. | Tôi ở trên này, bạn lên đây đi.
+? 爷爷走___来了。 | 进 | 在; 是; 很 | Yéye zǒu jìnlái le. | Ông nội đi vào rồi.
 ? 妈妈回家___了。 | 来 | 过; 着; 很 | Māma huí jiā lái le. | Mẹ về nhà rồi.
 
 ## dou-le
@@ -73,8 +73,8 @@
 ! Cuối câu phải có 了: nói 都十点了, không nói 都十点.
 ! 都 đứng trước thời gian / số lượng: nói 都十点了, không nói 十点都了.
 > 都/十二/点/了，/快/睡觉/吧！ | Dōu shí'èr diǎn le, kuài shuìjiào ba! | Đã mười hai giờ rồi, mau đi ngủ đi!
-> 他/都/八十/岁/了，/身体/还/很/好。 | Tā dōu bāshí suì le, shēntǐ hái hěn hǎo. | Ông ấy đã tám mươi tuổi rồi mà sức khỏe vẫn rất tốt.
-~ 都/八十/岁/了，/他/身体/还/很/好。
+> 他/都/八十/岁/了，/还/每天/工作。 | Tā dōu bāshí suì le, hái měi tiān gōngzuò. | Ông ấy đã tám mươi tuổi rồi mà ngày nào cũng còn làm việc.
+~ 都/八十/岁/了，/他/还/每天/工作。
 > 都/八/点/了，/你/怎么/还/不/起床？ | Dōu bā diǎn le, nǐ zěnme hái bù qǐchuáng? | Đã tám giờ rồi, sao bạn còn chưa dậy?
 > 我/都/等/了/一个/小时/了。 | Wǒ dōu děng le yí ge xiǎoshí le. | Tôi đã đợi cả một tiếng rồi đấy.
 ? ___九点了，他怎么还没来？ | 都 | 也; 很; 太 | Dōu jiǔ diǎn le, tā zěnme hái méi lái? | Đã chín giờ rồi, sao anh ấy vẫn chưa đến?

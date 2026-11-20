@@ -36,11 +36,11 @@
 > 这/是/我/买/的/书。 | Zhè shì wǒ mǎi de shū. | Đây là cuốn sách tôi mua.
 > 妈妈/做/的/菜/很/好吃。 | Māma zuò de cài hěn hǎochī. | Món mẹ nấu rất ngon.
 > 来/中国/旅游/的/人/很/多。 | Lái Zhōngguó lǚyóu de rén hěn duō. | Người đến Trung Quốc du lịch rất đông.
-> 你/认识/坐/在/前面/的/那个/人/吗？ | Nǐ rènshi zuò zài qiánmiàn de nàge rén ma? | Bạn có biết người ngồi phía trước kia không?
-~ 你/认识/那个/坐/在/前面/的/人/吗？
+> 你/认识/坐/在/那儿/的/那个/人/吗？ | Nǐ rènshi zuò zài nàr de nàge rén ma? | Bạn có biết người ngồi ở đằng kia không?
+~ 你/认识/那个/坐/在/那儿/的/人/吗？
 ? 这是我昨天买___衣服。 | 的 | 了; 地; 得 | Zhè shì wǒ zuótiān mǎi de yīfu. | Đây là bộ quần áo tôi mua hôm qua.
 ? 你写___字很好看。 | 的 | 了; 地; 很 | Nǐ xiě de zì hěn hǎokàn. | Chữ bạn viết rất đẹp.
-? 那个穿红色衣服___女孩儿是我妹妹。 | 的 | 了; 地; 是 | Nàge chuān hóngsè yīfu de nǚháir shì wǒ mèimei. | Cô bé mặc áo đỏ kia là em gái tôi.
+? 那个打电话___人是我姐姐。 | 的 | 了; 地; 是 | Nàge dǎ diànhuà de rén shì wǒ jiějie. | Người đang gọi điện kia là chị gái tôi.
 
 ## bo-ngu-ket-qua
 @ Bổ ngữ kết quả: 写错, 听懂, 做好, 学会, 看完
@@ -54,12 +54,12 @@
 ! Phủ định bổ ngữ kết quả dùng 没, không dùng 不: nói 我没听懂, không nói 我不听懂.
 ! Không chen tân ngữ vào giữa: nói 看完这本书, không nói 看这本书完.
 > 对不起，/我/写/错/了。 | Duìbuqǐ, wǒ xiě cuò le. | Xin lỗi, tôi viết sai rồi.
-> 老师/说/的/话/你/听/懂/了/吗？ | Lǎoshī shuō de huà nǐ tīng dǒng le ma? | Lời thầy nói bạn nghe hiểu chưa?
-~ 你/听/懂/了/老师/说/的/话/吗？
-> 饭/做/好/了，/快/来/吃/吧！ | Fàn zuò hǎo le, kuài lái chī ba! | Cơm nấu xong rồi, mau lại ăn đi!
-> 我/已经/学/会/游泳/了。 | Wǒ yǐjīng xué huì yóuyǒng le. | Tôi đã biết bơi rồi.
-? 这个字你写___了，不是这样写的。 | 错 | 完; 好; 懂 | Zhège zì nǐ xiě cuò le, bú shì zhèyàng xiě de. | Chữ này bạn viết sai rồi, không phải viết như vậy.
-? 老师说得太快，我没听___。 | 懂 | 会; 是; 很 | Lǎoshī shuō de tài kuài, wǒ méi tīng dǒng. | Thầy nói nhanh quá, tôi không nghe hiểu.
+> 老师/说/的/你/听/懂/了/吗？ | Lǎoshī shuō de nǐ tīng dǒng le ma? | Điều thầy nói bạn nghe hiểu chưa?
+~ 你/听/懂/了/老师/说/的/吗？
+> 饭/做/好/了，/来/吃/吧！ | Fàn zuò hǎo le, lái chī ba! | Cơm nấu xong rồi, lại ăn đi!
+> 我/已经/学/会/做饭/了。 | Wǒ yǐjīng xué huì zuò fàn le. | Tôi đã học được cách nấu ăn rồi.
+? 这个字你写___了，不对。 | 错 | 是; 很; 吗 | Zhège zì nǐ xiě cuò le, bú duì. | Chữ này bạn viết sai rồi, không đúng.
+? 这个问题我没听___。 | 懂 | 会; 是; 很 | Zhège wèntí wǒ méi tīng dǒng. | Câu hỏi này tôi nghe không hiểu.
 ? 这本书我已经看___了。 | 完 | 很; 是; 去 | Zhè běn shū wǒ yǐjīng kàn wán le. | Cuốn sách này tôi đọc xong rồi.
 
 ## lap-dong-tu
@@ -97,8 +97,7 @@
 > 我/去/过/中国。 | Wǒ qù guo Zhōngguó. | Tôi đã từng đến Trung Quốc.
 > 你/学/过/汉语/吗？ | Nǐ xué guo Hànyǔ ma? | Bạn đã từng học tiếng Hán chưa?
 > 我/没/看/过/这个/电影。 | Wǒ méi kàn guo zhège diànyǐng. | Tôi chưa xem bộ phim này bao giờ.
-> 他/以前/在/医院/工作/过。 | Tā yǐqián zài yīyuàn gōngzuò guo. | Trước đây anh ấy từng làm việc ở bệnh viện.
-~ 以前/他/在/医院/工作/过。
+> 他/在/医院/工作/过。 | Tā zài yīyuàn gōngzuò guo. | Anh ấy từng làm việc ở bệnh viện.
 ? 我没去___那个商场。 | 过 | 了; 着; 的 | Wǒ méi qù guo nàge shāngchǎng. | Tôi chưa từng đến trung tâm thương mại đó.
 ? 你坐___飞机吗？ | 过 | 着; 得; 地 | Nǐ zuò guo fēijī ma? | Bạn đã đi máy bay bao giờ chưa?
 ? 我___吃过中国菜。 | 没 | 不; 很; 太 | Wǒ méi chī guo Zhōngguó cài. | Tôi chưa từng ăn món Trung Quốc.

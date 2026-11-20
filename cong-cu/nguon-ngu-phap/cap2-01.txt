@@ -14,10 +14,10 @@
 ! Không dùng 吧 cùng với 吗: không nói 你是老师吗吧？
 ! Câu có từ để hỏi (什么, 谁, 哪儿…) không thêm 吧 để đoán: không nói 你叫什么名字吧？
 > 你/是/老师/吧？ | Nǐ shì lǎoshī ba? | Anh là giáo viên phải không?
-> 你/累/了/吧？ | Nǐ lèi le ba? | Bạn mệt rồi phải không?
+> 你/很/忙/吧？ | Nǐ hěn máng ba? | Chắc bạn bận lắm nhỉ?
 > 他/今天/不/来/了/吧？ | Tā jīntiān bù lái le ba? | Chắc hôm nay anh ấy không đến nữa nhỉ?
 ~ 今天/他/不/来/了/吧？
-> 这/是/你/的/书包/吧？ | Zhè shì nǐ de shūbāo ba? | Đây là cặp của bạn phải không?
+> 这/是/你/的/手机/吧？ | Zhè shì nǐ de shǒujī ba? | Đây là điện thoại của bạn phải không?
 ? 你是新来的同学___？ | 吧 | 呢; 了; 的 | Nǐ shì xīn lái de tóngxué ba? | Bạn là học sinh mới đến phải không?
 ? 你还没吃饭___？ | 吧 | 很; 的; 太 | Nǐ hái méi chī fàn ba? | Chắc bạn còn chưa ăn cơm nhỉ?
 ? 这个手机很贵___？ | 吧 | 也; 都; 很 | Zhège shǒujī hěn guì ba? | Cái điện thoại này đắt lắm phải không?
@@ -39,7 +39,7 @@
 > 我们/是/坐/飞机/去/的。 | Wǒmen shì zuò fēijī qù de. | Chúng tôi đi bằng máy bay.
 > 这个/菜/是/妈妈/做/的。 | Zhège cài shì māma zuò de. | Món này là mẹ nấu.
 ? 你是怎么来___？ | 的 | 了; 吗; 呢 | Nǐ shì zěnme lái de? | Bạn đến bằng cách nào?
-? 我___坐公交车来的。 | 是 | 在; 有; 了 | Wǒ shì zuò gōngjiāochē lái de. | Tôi đi xe buýt đến.
+? 我___坐出租车来的。 | 是 | 在; 有; 了 | Wǒ shì zuò chūzūchē lái de. | Tôi đi taxi đến.
 ? 这本书是谁___的？ | 买 | 去; 来; 坐 | Zhè běn shū shì shéi mǎi de? | Cuốn sách này là ai mua?
 
 ## kiem-ngu
@@ -57,13 +57,13 @@
 > 妈妈/不/让/我/玩/手机。 | Māma bú ràng wǒ wán shǒujī. | Mẹ không cho tôi chơi điện thoại.
 > 我/想/请/你/帮/个/忙。 | Wǒ xiǎng qǐng nǐ bāng ge máng. | Tôi muốn nhờ bạn giúp một việc.
 ? 朋友___我去他家玩儿。 | 请 | 是; 在; 有 | Péngyou qǐng wǒ qù tā jiā wánr. | Bạn mời tôi đến nhà chơi.
-? 妈妈不___我一个人出门。 | 让 | 是; 在; 有 | Māma bú ràng wǒ yí ge rén chūmén. | Mẹ không cho tôi ra ngoài một mình.
+? 妈妈不___我一个人去中国。 | 让 | 是; 在; 有 | Māma bú ràng wǒ yí ge rén qù Zhōngguó. | Mẹ không cho tôi đi Trung Quốc một mình.
 ? 他请我们___中国菜。 | 吃 | 喝; 坐; 开 | Tā qǐng wǒmen chī Zhōngguó cài. | Anh ấy mời chúng tôi ăn món Trung Quốc.
 
 ## gei-gen
 @ 给 / 跟 + người + động từ: “cho ai”, “với ai”
 § 介词 · 引出对象“给、跟1”
-& 1
+& 5
 = 给 + người + động từ  (làm gì cho ai, gửi tới ai)
 = 跟 + người + động từ  (làm gì với ai, cùng ai)
 - 给 chỉ người nhận, đứng trước động từ: 给妈妈打电话 (gọi điện cho mẹ), 给朋友买花 (mua hoa cho bạn).
@@ -73,8 +73,8 @@
 ! “Nói chuyện với ai” là 跟……说话, không nói 说话跟…….
 > 我/每天/给/妈妈/打/电话。 | Wǒ měi tiān gěi māma dǎ diànhuà. | Ngày nào tôi cũng gọi điện cho mẹ.
 ~ 每天/我/给/妈妈/打/电话。
-> 我/给/你/买/了/一杯/咖啡。 | Wǒ gěi nǐ mǎi le yì bēi kāfēi. | Tôi mua cho bạn một cốc cà phê rồi.
-~ 我/买/了/一杯/咖啡/给/你。
+> 我/给/你/买/了/一杯/茶。 | Wǒ gěi nǐ mǎi le yì bēi chá. | Tôi mua cho bạn một cốc trà rồi.
+~ 我/买/了/一杯/茶/给/你。
 > 你/跟/老师/说/了/吗？ | Nǐ gēn lǎoshī shuō le ma? | Bạn đã nói với thầy chưa?
 > 我/跟/朋友/一起/去/旅游。 | Wǒ gēn péngyou yìqǐ qù lǚyóu. | Tôi đi du lịch cùng bạn bè.
 ? 晚上我___你打电话。 | 给 | 在; 是; 有 | Wǎnshang wǒ gěi nǐ dǎ diànhuà. | Tối tôi gọi điện cho bạn.
@@ -96,8 +96,8 @@
 ~ 太/晚/了，/还是/你/明天/去/吧。
 > 这个/太/贵/了，/我们/还是/买/那个/吧。 | Zhège tài guì le, wǒmen háishi mǎi nàge ba. | Cái này đắt quá, mình mua cái kia thì hơn.
 ~ 这个/太/贵/了，/还是/我们/买/那个/吧。
-> 你/不/舒服，/还是/休息/一下/吧。 | Nǐ bù shūfu, háishi xiūxi yíxià ba. | Bạn không khỏe, nghỉ một chút thì hơn.
-~ 不/舒服，/你/还是/休息/一下/吧。
-? 太远了，我们___坐地铁吧。 | 还是 | 但是; 所以; 因为 | Tài yuǎn le, wǒmen háishi zuò dìtiě ba. | Xa quá, chúng mình đi tàu điện ngầm thì hơn.
-? 外面很冷，你还是穿这件衣服___。 | 吧 | 吗; 呢; 的 | Wàimiàn hěn lěng, nǐ háishi chuān zhè jiàn yīfu ba. | Ngoài trời lạnh, bạn mặc bộ này thì hơn.
-? 这家饭馆人太多了，我们___去别的饭馆吧。 | 还是 | 但是; 虽然; 因为 | Zhè jiā fànguǎn rén tài duō le, wǒmen háishi qù bié de fànguǎn ba. | Quán này đông quá, chúng mình đi quán khác thì hơn.
+> 你/太/忙/了，/还是/休息/一下/吧。 | Nǐ tài máng le, háishi xiūxi yíxià ba. | Bạn bận quá rồi, nghỉ một chút thì hơn.
+~ 太/忙/了，/你/还是/休息/一下/吧。
+? 太远了，我们___打车吧。 | 还是 | 但是; 所以; 因为 | Tài yuǎn le, wǒmen háishi dǎchē ba. | Xa quá, chúng mình bắt taxi thì hơn.
+? 今天很冷，你还是穿这件衣服___。 | 吧 | 吗; 呢; 的 | Jīntiān hěn lěng, nǐ háishi chuān zhè jiàn yīfu ba. | Hôm nay lạnh, bạn mặc bộ này thì hơn.
+? 这家饭店人太多了，我们___去别的饭店吧。 | 还是 | 但是; 虽然; 因为 | Zhè jiā fàndiàn rén tài duō le, wǒmen háishi qù bié de fàndiàn ba. | Nhà hàng này đông quá, chúng mình đi nhà hàng khác thì hơn.

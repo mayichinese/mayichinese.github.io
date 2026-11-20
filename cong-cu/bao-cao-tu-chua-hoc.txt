@@ -1,106 +1,72 @@
 BÁO CÁO TỪ CHƯA HỌC TRONG CÂU (tạo bởi cong-cu/kiem-tra-tu-chua-hoc.py – không sửa tay)
 
-NGỮ PHÁP: 121/869 câu còn từ chưa học (hoặc chữ ngoài từ điển) tính tới bài của điểm.
+NGỮ PHÁP: 66/869 câu còn từ chưa học (hoặc chữ ngoài từ điển) tính tới bài của điểm.
 Câu ví dụ của từ dùng được cho chặng (toàn từ đã học tới bài đó):
-  HSK 1 · Bài 1    ngữ pháp:   0/  0 câu cần sửa · ví dụ từ dùng được:   8/ 24
+  HSK 1 · Bài 1    ngữ pháp:   0/  0 câu cần sửa · ví dụ từ dùng được:  10/ 24
   HSK 1 · Bài 2    ngữ pháp:   0/  7 câu cần sửa · ví dụ từ dùng được:   9/ 29
   HSK 1 · Bài 3    ngữ pháp:   0/ 30 câu cần sửa · ví dụ từ dùng được:   8/ 46
   HSK 1 · Bài 4    ngữ pháp:   0/ 36 câu cần sửa · ví dụ từ dùng được:  21/ 79
   HSK 1 · Bài 5    ngữ pháp:   0/ 15 câu cần sửa · ví dụ từ dùng được:  12/ 43
-  HSK 1 · Bài 6    ngữ pháp:   0/  7 câu cần sửa · ví dụ từ dùng được:  12/ 39
-  HSK 1 · Bài 7    ngữ pháp:   0/ 15 câu cần sửa · ví dụ từ dùng được:  31/ 50
-  HSK 1 · Bài 8    ngữ pháp:   0/ 16 câu cần sửa · ví dụ từ dùng được:  17/ 36
-  HSK 1 · Bài 9    ngữ pháp:   0/ 15 câu cần sửa · ví dụ từ dùng được:  29/ 40
-  HSK 1 · Bài 10   ngữ pháp:   0/ 21 câu cần sửa · ví dụ từ dùng được:  32/ 44
-  HSK 1 · Bài 11   ngữ pháp:   0/ 23 câu cần sửa · ví dụ từ dùng được:  27/ 46
+  HSK 1 · Bài 6    ngữ pháp:   0/  7 câu cần sửa · ví dụ từ dùng được:  13/ 39
+  HSK 1 · Bài 7    ngữ pháp:   0/ 15 câu cần sửa · ví dụ từ dùng được:  34/ 50
+  HSK 1 · Bài 8    ngữ pháp:   0/ 16 câu cần sửa · ví dụ từ dùng được:  21/ 36
+  HSK 1 · Bài 9    ngữ pháp:   0/ 15 câu cần sửa · ví dụ từ dùng được:  31/ 40
+  HSK 1 · Bài 10   ngữ pháp:   0/ 21 câu cần sửa · ví dụ từ dùng được:  34/ 44
+  HSK 1 · Bài 11   ngữ pháp:   0/ 23 câu cần sửa · ví dụ từ dùng được:  29/ 46
   HSK 1 · Bài 12   ngữ pháp:   0/ 23 câu cần sửa · ví dụ từ dùng được:  39/ 44
-  HSK 1 · Bài 13   ngữ pháp:   0/ 22 câu cần sửa · ví dụ từ dùng được:  31/ 32
+  HSK 1 · Bài 13   ngữ pháp:   0/ 22 câu cần sửa · ví dụ từ dùng được:  32/ 32
   HSK 1 · Bài 14   ngữ pháp:   0/ 30 câu cần sửa · ví dụ từ dùng được:  46/ 49
   HSK 1 · Bài 15   ngữ pháp:   0/  0 câu cần sửa · ví dụ từ dùng được:  23/ 24
-  HSK 2 · Bài 1    ngữ pháp:  11/ 28 câu cần sửa · ví dụ từ dùng được:  22/ 23
-  HSK 2 · Bài 2    ngữ pháp:   7/ 21 câu cần sửa · ví dụ từ dùng được:  24/ 33
-  HSK 2 · Bài 3    ngữ pháp:   6/ 14 câu cần sửa · ví dụ từ dùng được:  30/ 30
-  HSK 2 · Bài 4    ngữ pháp:   1/ 21 câu cần sửa · ví dụ từ dùng được:  24/ 29
-  HSK 2 · Bài 5    ngữ pháp:   4/ 14 câu cần sửa · ví dụ từ dùng được:  31/ 38
-  HSK 2 · Bài 6    ngữ pháp:  13/ 21 câu cần sửa · ví dụ từ dùng được:  23/ 24
-  HSK 2 · Bài 7    ngữ pháp:   5/ 14 câu cần sửa · ví dụ từ dùng được:  26/ 31
-  HSK 2 · Bài 8    ngữ pháp:   2/ 14 câu cần sửa · ví dụ từ dùng được:  26/ 31
-  HSK 2 · Bài 9    ngữ pháp:   3/ 21 câu cần sửa · ví dụ từ dùng được:  29/ 32
+  HSK 2 · Bài 1    ngữ pháp:   0/ 21 câu cần sửa · ví dụ từ dùng được:  22/ 23
+  HSK 2 · Bài 2    ngữ pháp:   0/ 21 câu cần sửa · ví dụ từ dùng được:  25/ 33
+  HSK 2 · Bài 3    ngữ pháp:   0/ 14 câu cần sửa · ví dụ từ dùng được:  30/ 30
+  HSK 2 · Bài 4    ngữ pháp:   0/ 21 câu cần sửa · ví dụ từ dùng được:  24/ 29
+  HSK 2 · Bài 5    ngữ pháp:   0/ 21 câu cần sửa · ví dụ từ dùng được:  32/ 38
+  HSK 2 · Bài 6    ngữ pháp:  11/ 21 câu cần sửa · ví dụ từ dùng được:  23/ 24
+  HSK 2 · Bài 7    ngữ pháp:   3/ 14 câu cần sửa · ví dụ từ dùng được:  26/ 31
+  HSK 2 · Bài 8    ngữ pháp:   1/ 14 câu cần sửa · ví dụ từ dùng được:  27/ 31
+  HSK 2 · Bài 9    ngữ pháp:   3/ 21 câu cần sửa · ví dụ từ dùng được:  30/ 32
   HSK 2 · Bài 10   ngữ pháp:   6/ 21 câu cần sửa · ví dụ từ dùng được:  26/ 26
-  HSK 2 · Bài 11   ngữ pháp:   2/ 14 câu cần sửa · ví dụ từ dùng được:  25/ 26
+  HSK 2 · Bài 11   ngữ pháp:   1/ 14 câu cần sửa · ví dụ từ dùng được:  26/ 26
   HSK 2 · Bài 12   ngữ pháp:   0/  7 câu cần sửa · ví dụ từ dùng được:  19/ 20
   HSK 2 · Bài 13   ngữ pháp:   0/  7 câu cần sửa · ví dụ từ dùng được:  23/ 23
   HSK 2 · Bài 14   ngữ pháp:   0/ 14 câu cần sửa · ví dụ từ dùng được:  27/ 28
-  HSK 2 · Bài 15   ngữ pháp:   2/ 21 câu cần sửa · ví dụ từ dùng được:  20/ 20
-  HSK 3 · Bài 1    ngữ pháp:   2/ 21 câu cần sửa · ví dụ từ dùng được:  44/ 54
-  HSK 3 · Bài 2    ngữ pháp:   5/ 14 câu cần sửa · ví dụ từ dùng được:  46/ 57
+  HSK 2 · Bài 15   ngữ pháp:   0/ 21 câu cần sửa · ví dụ từ dùng được:  20/ 20
+  HSK 3 · Bài 1    ngữ pháp:   1/ 21 câu cần sửa · ví dụ từ dùng được:  44/ 54
+  HSK 3 · Bài 2    ngữ pháp:   4/ 14 câu cần sửa · ví dụ từ dùng được:  48/ 57
   HSK 3 · Bài 3    ngữ pháp:   5/ 14 câu cần sửa · ví dụ từ dùng được:  52/ 57
   HSK 3 · Bài 4    ngữ pháp:   3/ 21 câu cần sửa · ví dụ từ dùng được:  48/ 58
-  HSK 3 · Bài 5    ngữ pháp:   2/ 21 câu cần sửa · ví dụ từ dùng được:  46/ 58
-  HSK 3 · Bài 6    ngữ pháp:   2/ 28 câu cần sửa · ví dụ từ dùng được:  55/ 61
-  HSK 3 · Bài 7    ngữ pháp:   4/ 14 câu cần sửa · ví dụ từ dùng được:  59/ 63
-  HSK 3 · Bài 8    ngữ pháp:   9/ 28 câu cần sửa · ví dụ từ dùng được:  49/ 55
+  HSK 3 · Bài 5    ngữ pháp:   2/ 21 câu cần sửa · ví dụ từ dùng được:  47/ 58
+  HSK 3 · Bài 6    ngữ pháp:   2/ 28 câu cần sửa · ví dụ từ dùng được:  56/ 61
+  HSK 3 · Bài 7    ngữ pháp:   3/ 14 câu cần sửa · ví dụ từ dùng được:  59/ 63
+  HSK 3 · Bài 8    ngữ pháp:   6/ 28 câu cần sửa · ví dụ từ dùng được:  51/ 55
   HSK 3 · Bài 9    ngữ pháp:   4/ 21 câu cần sửa · ví dụ từ dùng được:  53/ 56
-  HSK 3 · Bài 10   ngữ pháp:  11/ 28 câu cần sửa · ví dụ từ dùng được:  64/ 68
-  HSK 3 · Bài 11   ngữ pháp:   1/ 28 câu cần sửa · ví dụ từ dùng được:  59/ 61
-  HSK 3 · Bài 12   ngữ pháp:   1/ 14 câu cần sửa · ví dụ từ dùng được:  56/ 59
-  HSK 3 · Bài 13   ngữ pháp:   2/ 14 câu cần sửa · ví dụ từ dùng được:  55/ 59
-  HSK 3 · Bài 14   ngữ pháp:   1/ 21 câu cần sửa · ví dụ từ dùng được:  53/ 56
+  HSK 3 · Bài 10   ngữ pháp:   4/ 28 câu cần sửa · ví dụ từ dùng được:  65/ 68
+  HSK 3 · Bài 11   ngữ pháp:   1/ 28 câu cần sửa · ví dụ từ dùng được:  60/ 61
+  HSK 3 · Bài 12   ngữ pháp:   0/ 14 câu cần sửa · ví dụ từ dùng được:  56/ 59
+  HSK 3 · Bài 13   ngữ pháp:   1/ 14 câu cần sửa · ví dụ từ dùng được:  56/ 59
+  HSK 3 · Bài 14   ngữ pháp:   1/ 21 câu cần sửa · ví dụ từ dùng được:  56/ 56
   HSK 3 · Bài 15   ngữ pháp:   4/ 14 câu cần sửa · ví dụ từ dùng được:  58/ 61
-  HSK 3 · Bài 16   ngữ pháp:   3/ 14 câu cần sửa · ví dụ từ dùng được:  45/ 49
+  HSK 3 · Bài 16   ngữ pháp:   0/ 14 câu cần sửa · ví dụ từ dùng được:  45/ 49
   HSK 3 · Bài 17   ngữ pháp:   0/ 21 câu cần sửa · ví dụ từ dùng được:  57/ 57
   HSK 3 · Bài 18   ngữ pháp:   0/ 21 câu cần sửa · ví dụ từ dùng được:  53/ 53
 
 CHI TIẾT CÂU NGỮ PHÁP CẦN SỬA (theo thứ tự bài):
-[HSK 2 · Bài 1] ba-phong-doan: 你累了吧？   ← 累(HSK2-B3)
-[HSK 2 · Bài 1] ba-phong-doan: 这是你的书包吧？   ← 书包(HSK2-B4)
-[HSK 2 · Bài 1] shi-de: 我是坐公交车来的。   ← 公交车(HSK2-B2)
-[HSK 2 · Bài 1] kiem-ngu: 我想请你帮个忙。   ← 帮(HSK2-B10)
-[HSK 2 · Bài 1] kiem-ngu: 妈妈不让我一个人出门。   ← 出门(HSK2-B15)
-[HSK 2 · Bài 1] gei-gen: 我每天给妈妈打电话。   ← 每(HSK2-B3)
-[HSK 2 · Bài 1] gei-gen: 我给你买了一杯咖啡。   ← 咖啡(HSK2-B9)
-[HSK 2 · Bài 1] gei-gen: 你跟老师说了吗？   ← 跟(HSK2-B5)
-[HSK 2 · Bài 1] gei-gen: 我跟朋友一起去旅游。   ← 跟(HSK2-B5), 一起(HSK2-B3)
-[HSK 2 · Bài 1] gei-gen: 这件事你跟妈妈说了吗？   ← 跟(HSK2-B5)
-[HSK 2 · Bài 1] gei-gen: 我想跟他一起去看电影。   ← 跟(HSK2-B5), 一起(HSK2-B3)
-[HSK 2 · Bài 2] hai-shi-ba: 你不舒服，还是休息一下吧。   ← 舒服(HSK2-B6)
-[HSK 2 · Bài 2] hai-shi-ba: 太远了，我们还是坐地铁吧。   ← 地铁(HSK2-B12)
-[HSK 2 · Bài 2] hai-shi-ba: 外面很冷，你还是穿这件衣服吧。   ← 外面(HSK2-B12)
-[HSK 2 · Bài 2] hai-shi-ba: 这家饭馆人太多了，我们还是去别的饭馆吧。   ← 饭馆(HSK2-B8), 饭馆(HSK2-B8)
-[HSK 2 · Bài 2] so-uoc-luong: 我们班有二十多个学生。   ← 班(HSK2-B13)
-[HSK 2 · Bài 2] dinh-ngu-dong-tu: 你认识坐在前面的那个人吗？   ← 前面(HSK2-B14)
-[HSK 2 · Bài 2] dinh-ngu-dong-tu: 那个穿红色衣服的女孩儿是我妹妹。   ← 红色(HSK2-B4), 女孩儿(HSK2-B14)
-[HSK 2 · Bài 3] bo-ngu-ket-qua: 对不起，我写错了。   ← 错(HSK2-B10)
-[HSK 2 · Bài 3] bo-ngu-ket-qua: 老师说的话你听懂了吗？   ← 的话(HSK3-B13)
-[HSK 2 · Bài 3] bo-ngu-ket-qua: 饭做好了，快来吃吧！   ← 快(HSK2-B5)
-[HSK 2 · Bài 3] bo-ngu-ket-qua: 我已经学会游泳了。   ← 游泳(HSK2-B7)
-[HSK 2 · Bài 3] bo-ngu-ket-qua: 这个字你写错了，不是这样写的。   ← 错(HSK2-B10), 这样(HSK2-B9)
-[HSK 2 · Bài 3] bo-ngu-ket-qua: 老师说得太快，我没听懂。   ← 得(HSK2-B7), 快(HSK2-B5)
-[HSK 2 · Bài 4] guo-kinh-nghiem: 他以前在医院工作过。   ← 以前(HSK3-B6)
-[HSK 2 · Bài 5] xu-huong-don: 老师走进教室了。   ← 进(HSK2-B11)
-[HSK 2 · Bài 5] xu-huong-don: 我在楼上，你上来吧。   ← 楼(HSK2-B12)
-[HSK 2 · Bài 5] xu-huong-don: 他从外面跑进来了。   ← 从(HSK2-B7), 跑(HSK2-B7)
-[HSK 2 · Bài 5] dou-le: 他都八十岁了，身体还很好。   ← 身体(HSK2-B11)
 [HSK 2 · Bài 6] lap-tinh-tu: 她的眼睛大大的。   ← 眼睛(HSK2-B14)
-[HSK 2 · Bài 6] lap-tinh-tu: 孩子们高高兴兴地去学校了。   ← 高(HSK2-B9)
 [HSK 2 · Bài 6] lap-tinh-tu: 你慢慢走，别跑！   ← 慢(HSK2-B11), 慢(HSK2-B11), 跑(HSK2-B7)
-[HSK 2 · Bài 6] lap-tinh-tu: 他的个子高高的。   ← 个子(HSK2-B9), 高(HSK2-B9), 高(HSK2-B9)
-[HSK 2 · Bài 6] lap-tinh-tu: 我们高高兴兴地去旅游了。   ← 高(HSK2-B9)
-[HSK 2 · Bài 6] shenme-de: 他喜欢打篮球、踢足球什么的。   ← 打(HSK2-B7), 篮球(HSK2-B7), 踢(HSK2-B7), 足球(HSK2-B7)
+[HSK 2 · Bài 6] lap-tinh-tu: 他的个子高高的。   ← 个子(HSK2-B9)
+[HSK 2 · Bài 6] shenme-de: 他喜欢打篮球、踢足球什么的。   ← 篮球(HSK2-B7), 踢(HSK2-B7), 足球(HSK2-B7)
 [HSK 2 · Bài 6] shenme-de: 桌子上有书、本子、笔什么的。   ← 本子(HSK2-B10), 笔(HSK2-B10)
 [HSK 2 · Bài 6] shenme-de: 星期天我在家看书、上网什么的。   ← 上网(HSK2-B13)
 [HSK 2 · Bài 6] shenme-de: 他会唱歌、跳舞什么的。   ← 跳舞(HSK2-B14)
 [HSK 2 · Bài 6] tro-tu-di: 他高兴地笑了。   ← 笑(HSK2-B10)
 [HSK 2 · Bài 6] tro-tu-di: 请你慢慢地说。   ← 慢(HSK2-B11), 慢(HSK2-B11)
-[HSK 2 · Bài 6] tro-tu-di: 她慢慢地走进了教室。   ← 慢(HSK2-B11), 慢(HSK2-B11), 进(HSK2-B11)
+[HSK 2 · Bài 6] tro-tu-di: 她慢慢地走进了教室。   ← 慢(HSK2-B11), 慢(HSK2-B11)
 [HSK 2 · Bài 6] tro-tu-di: 孩子们高兴地跑过来了。   ← 跑(HSK2-B7)
 [HSK 2 · Bài 7] yi-jiu: 天一晴，我们就出去玩儿。   ← 晴(HSK2-B12)
 [HSK 2 · Bài 7] yi-jiu: 他一回家就上网。   ← 上网(HSK2-B13)
-[HSK 2 · Bài 7] yi-jiu: 这个字老师一教，我们就会了。   ← 教(HSK2-B13)
-[HSK 2 · Bài 7] bo-ngu-trang-thai: 我今天起得不早。   ← 起(HSK3-B18)
 [HSK 2 · Bài 7] bo-ngu-trang-thai: 你考得怎么样？   ← 考(HSK2-B10)
-[HSK 2 · Bài 8] so-sanh-bi: 我比我姐姐高。   ← 高(HSK2-B9)
-[HSK 2 · Bài 8] sui-ran: 他虽然个子不高，但是跑得很快。   ← 个子(HSK2-B9), 高(HSK2-B9)
+[HSK 2 · Bài 8] sui-ran: 他虽然个子不高，但是跑得很快。   ← 个子(HSK2-B9)
 [HSK 2 · Bài 9] so-sanh-you: 坐公交车没有坐地铁快。   ← 地铁(HSK2-B12)
 [HSK 2 · Bài 9] li-khoang-cach: 机场离这儿有多远？   ← 机场(HSK2-B15)
 [HSK 2 · Bài 9] li-khoang-cach: 离考试还有两个星期。   ← 考试(HSK2-B10)
@@ -110,15 +76,10 @@ CHI TIẾT CÂU NGỮ PHÁP CẦN SỬA (theo thứ tự bài):
 [HSK 2 · Bài 10] chu-vi-vi-ngu: 你身体好吗？   ← 身体(HSK2-B11)
 [HSK 2 · Bài 10] chu-vi-vi-ngu: 我今天头有点儿疼。   ← 头(HSK2-B11), 疼(HSK2-B11)
 [HSK 2 · Bài 10] hoi-lua-chon: 我们坐地铁还是打车？   ← 地铁(HSK2-B12)
-[HSK 2 · Bài 11] pho-tu-muc-do: 他是我们班个子最高的。   ← 班(HSK2-B13)
 [HSK 2 · Bài 11] pho-tu-muc-do: 那儿的鸟多漂亮啊！   ← 鸟(HSK2-B15)
-[HSK 2 · Bài 15] ly-hop-2: 我们跳了一会儿舞。   ← 跳(HSK3-B14)
-[HSK 2 · Bài 15] ly-hop-2: 昨天晚上我们跳了舞。   ← 跳(HSK3-B14)
 [HSK 3 · Bài 1] nghi-van-nhiem-chi: 周末我哪儿也不想去。   ← 周末(HSK3-B16)
-[HSK 3 · Bài 1] nghi-van-nhiem-chi: 谁先做完，谁就可以回家。   ← 先(HSK3-B4)
 [HSK 3 · Bài 2] nghi-van-bat-dinh: 周末我们去哪儿玩玩吧。   ← 周末(HSK3-B16)
 [HSK 3 · Bài 2] you-you: 她又聪明又漂亮。   ← 聪明(HSK3-B17)
-[HSK 3 · Bài 2] you-you: 孩子们又唱又跳。   ← 跳(HSK3-B14)
 [HSK 3 · Bài 2] you-you: 这个房间又干净又安静。   ← 干净(HSK3-B4), 安静(HSK3-B6)
 [HSK 3 · Bài 2] you-you: 外边又刮风又下雨。   ← 刮(HSK3-B12), 风(HSK3-B12)
 [HSK 3 · Bài 3] bo-ngu-muc-do: 今天的天气好极了。   ← 极(HSK3-B7)
@@ -134,42 +95,26 @@ CHI TIẾT CÂU NGỮ PHÁP CẦN SỬA (theo thứ tự bài):
 [HSK 3 · Bài 6] yue-lai-yue: 我越来越喜欢这个城市了。   ← 城市(HSK3-B11)
 [HSK 3 · Bài 6] bo-ngu-ket-qua-2: 外面很冷，快穿上衣服。   ← 上衣(HSK3-B7)
 [HSK 3 · Bài 7] bi-geng-hai: 我做的菜不比你做的差。   ← 差(HSK3-B10)
-[HSK 3 · Bài 7] bi-geng-hai: 这个问题比那个问题更难。   ← 难(HSK3-B10)
 [HSK 3 · Bài 7] budan-erqie: 她不但聪明，而且很努力。   ← 聪明(HSK3-B17), 努力(HSK3-B10)
 [HSK 3 · Bài 7] budan-erqie: 我喜欢春天，更喜欢秋天。   ← 春天(HSK3-B12), 秋天(HSK3-B12)
 [HSK 3 · Bài 8] xu-huong-ket-qua: 我想出来一个好办法。   ← 办法(HSK3-B11)
 [HSK 3 · Bài 8] xu-huong-ket-qua: 他走的时候留下了一本书。   ← 留(ngoài từ điển)
-[HSK 3 · Bài 8] xu-huong-ket-qua: 这个问题太难了，我想了很久也没想出来。   ← 难(HSK3-B10)
 [HSK 3 · Bài 8] xu-huong-ket-qua: 他走的时候留下了他的电话号码。   ← 留(ngoài từ điển)
-[HSK 3 · Bài 8] ly-hop-3: 我们放了七天假。   ← 放(HSK3-B13)
 [HSK 3 · Bài 8] ly-hop-3: 作业太多了，今天完不成。   ← 作业(HSK3-B10), 成(ngoài từ điển)
-[HSK 3 · Bài 8] ly-hop-3: 我们放了三天假。   ← 放(HSK3-B13)
 [HSK 3 · Bài 8] thoi-luong-cach: 我来中国一年了，还没去过长城。   ← 城(ngoài từ điển)
 [HSK 3 · Bài 8] yiqian-yihou: 我下课以后去图书馆。   ← 图书馆(HSK3-B14)
 [HSK 3 · Bài 9] weile: 他学习这么努力，是为了考上好大学。   ← 努力(HSK3-B10)
 [HSK 3 · Bài 9] kha-nang: 我听得懂老师的话。   ← 的话(HSK3-B13)
 [HSK 3 · Bài 9] kha-nang: 黑板上的字你看得见吗？   ← 黑板(HSK3-B10)
 [HSK 3 · Bài 9] yue-yue: 这个问题我越想越不明白。   ← 明白(HSK3-B10)
-[HSK 3 · Bài 10] ba-dia-diem: 请把书放在桌子上。   ← 放(HSK3-B13)
-[HSK 3 · Bài 10] ba-dia-diem: 别把水放在电脑旁边。   ← 放(HSK3-B13)
-[HSK 3 · Bài 10] ba-dia-diem: 我没把钱放在包里。   ← 放(HSK3-B13)
-[HSK 3 · Bài 10] ba-dia-diem: 你把手机放在哪儿了？   ← 放(HSK3-B13)
-[HSK 3 · Bài 10] ba-dia-diem: 别把衣服放在椅子上。   ← 放(HSK3-B13)
 [HSK 3 · Bài 10] ba-cho: 你能把你的词典借给我吗？   ← 词典(HSK3-B14), 借(HSK3-B12)
 [HSK 3 · Bài 10] ba-cho: 他把自己的车借给了朋友。   ← 借(HSK3-B12)
 [HSK 3 · Bài 10] zai-shang: 在大家的帮助下，我完成了工作。   ← 完成(HSK3-B18)
-[HSK 3 · Bài 10] zai-shang: 在这次比赛中，他跑得最快。   ← 中(HSK3-B15)
 [HSK 3 · Bài 10] zai-shang: 在生活上，朋友们给了我很多帮助。   ← 生活(HSK3-B11)
-[HSK 3 · Bài 10] zai-shang: 他在工作中遇到了很多问题。   ← 中(HSK3-B15)
 [HSK 3 · Bài 11] haishi-huozhe: 下课以后，我常常去图书馆或者去打球。   ← 图书馆(HSK3-B14)
-[HSK 3 · Bài 12] xu-huong-bat-dau: 外面下起雨来了。   ← 起(HSK3-B18)
 [HSK 3 · Bài 13] yibian-yihuir: 孩子一会儿哭，一会儿笑。   ← 哭(HSK3-B17)
-[HSK 3 · Bài 13] yibian-yihuir: 我们一边走一边聊天吧。   ← 聊(HSK3-B15)
 [HSK 3 · Bài 14] xian-zai: 你先想一想，再回答。   ← 回答(HSK3-B17)
 [HSK 3 · Bài 15] so-luong-lap: 老师让我们一个一个地回答问题。   ← 回答(HSK3-B17)
 [HSK 3 · Bài 15] gioi-tu-3: 关于这个问题，我们明天再说吧。   ← 关于(HSK3-B16)
 [HSK 3 · Bài 15] gioi-tu-3: 我们都要向他学习。   ← 向(HSK3-B17)
 [HSK 3 · Bài 15] gioi-tu-3: 我在看一本关于中国茶的书。   ← 关于(HSK3-B16)
-[HSK 3 · Bài 16] cum-co-dinh: 他刚出去，不一会儿又回来了。   ← 刚(HSK3-B18)
-[HSK 3 · Bài 16] cum-co-dinh: 我刚到车站，不一会儿车就来了。   ← 刚(HSK3-B18)
-[HSK 3 · Bài 16] bi-duo-zao: 今天我比平时晚起了一个小时。   ← 起(HSK3-B18)
