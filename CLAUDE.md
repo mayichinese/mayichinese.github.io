@@ -20,6 +20,10 @@
 ## Cấu trúc thư mục
 - `app/` – **app chính** (HTML/CSS/JS thuần, ES module, không build). PWA chạy offline.
   - `js/lich-on.js`: ôn tập ngắt quãng SM-2 (Quên/Khó/Nhớ/Dễ). `js/luu-tru.js`: lưu tiến độ localStorage.
+  - Thẻ từ (`js/man-the-tu.js`, #/on, #/hoc-moi) APP TỰ CHẤM – KHÔNG còn lật thẻ / tự bấm Quên…Dễ: mỗi thẻ là câu hỏi 4 lựa chọn
+    (`js/cau-hoi-tu.js`, dùng chung với trắc nghiệm: nghia | chu | nghe | pinyin). chamDiem(): sai → Quên, > 15 giây → Khó,
+    nhanh (≈5–6 giây) → Dễ (thẻ 'hoc' chỉ ở buoc ≥ 1), còn lại Nhớ. Thẻ 'hoc' buoc 0 hỏi nghe/nghĩa, sau đó chữ/pinyin;
+    `the.dangCuoi` để lần sau đổi dạng. Đã bỏ nút "Đã biết từ này".
   - `js/phien-hoc.js` (chọn thẻ tiếp theo), `js/phat-am.js` (Web Speech API zh-CN), `sw.js` (cache offline).
   - Điều hướng 6 mục kiểu Duolingo: Hôm nay `#/` · Bài học `#/bai` (lộ trình; trang bài = ① Từ mới ② Ngữ pháp của bài
     ③ Kiểm tra) · Ôn luyện `#/luyen-tap` (cần ôn + 4 kỹ năng) · Chữ & âm `#/chu-am` · Thi thử `#/thi-thu`
@@ -38,7 +42,7 @@
   - `js/man-tu-loai.js` (Từ loại & trật tự câu, `#/chu-am/tu-loai[/<mã>]`, tab thứ 4 của Chữ & âm): dữ liệu soạn tay `data/tu-loai.json`
     (13 loại; ví dụ TRỎ tới câu có sẵn {tu, so} – không chép câu mới; nguPhap = mã điểm). Kiểm tra: `python -X utf8 cong-cu/kiem-tra-tu-loai.py`
     (báo cả từ loại mới trong hsk*.json chưa có hướng dẫn). Nhãn từ loại trên thẻ = `nutTuLoai()` (giao-dien.js) → app.js `data-tu-loai` → moTuLoai().
-  - Kế hoạch đang làm (duyệt 2026-11-20): A từ loại (XONG) → B Ôn luyện tự chấm bằng câu hỏi thật (BỎ HẲN lật thẻ Quên/Khó/Nhớ/Dễ)
+  - Kế hoạch đang làm (duyệt 2026-11-20): A từ loại (XONG) → B Ôn luyện tự chấm bằng câu hỏi thật (XONG)
     → C bài = các chặng ~5 từ: Nghe → Nói theo → Viết → Ghép → Đọc, rồi Ngữ pháp, Đọc hiểu, Kiểm tra → D ngữ pháp mở sau từ vựng,
     chạm từ xem nghĩa, sửa dần câu có từ chưa học → E soạn đọc hiểu. Lộ trình CHỈ theo sách; "Theo chủ đề" thành danh mục tra cứu.
   - `js/man-luyen-noi.js` (Nói & phát âm, `#/luyen-noi[/doc-tu|doc-cau|nhac-lai|noi-nghia]`, ô rộng đầu "Luyện kỹ năng" của Ôn luyện;

@@ -84,14 +84,14 @@ Nút **Tiếp tục** trên khung chào chọn sẵn việc nên làm: ôn thẻ
 - Máy không chấm được (trình duyệt không hỗ trợ): bạn vẫn bấm 🎤 để **ghi âm**, nghe lại giọng mình, so với giọng mẫu và tự đánh giá.
 - Cách chấm là "máy có nghe hiểu bạn nói không" (giống một người Trung nghe), nên đọc rõ và đủ to; nơi ồn ào điểm sẽ thấp hơn thực tế.
 
-1. **Ôn từ đến hạn (~15 phút):** app đưa ra chữ Hán trong ô chữ điền. Bạn tự nhớ lại cách đọc và nghĩa → chạm vào thẻ hoặc bấm **Lật thẻ** → tự chấm điểm:
-   - **Quên:** không nhớ, sẽ hỏi lại sau vài phút.
-   - **Khó:** nhớ ra nhưng rất chật vật.
-   - **Nhớ:** nhớ được, cách ôn sẽ giãn ra.
-   - **Dễ:** nhớ ngay, cách ôn giãn ra rất xa.
+1. **Ôn từ đến hạn (~15 phút):** mỗi thẻ là **một câu hỏi thật** có 4 đáp án, lần lượt đổi dạng: nhìn chữ chọn nghĩa, đọc nghĩa chọn chữ, nghe chọn chữ, chọn pinyin đúng dấu thanh. Bạn **không phải tự chấm**: app chấm theo câu trả lời rồi xếp lịch ôn:
+   - **Sai:** gặp lại sau vài phút.
+   - **Đúng chậm** (quá 15 giây): ôn lại sớm hơn bình thường.
+   - **Đúng:** khoảng cách ôn giãn ra.
+   - **Đúng nhanh** (khoảng 5 giây): khoảng cách giãn ra rất xa.
 
-   Dưới mỗi nút có ghi thời gian đến lần ôn tiếp theo. Hết phiên, app hiện bảng tổng kết số lần Quên / Khó / Nhớ / Dễ.
-2. **Học từ mới (~15 phút, mặc định 15 từ/ngày):** học lần lượt theo bài (chủ đề hoặc theo sách, tùy cách chia bạn chọn ở Bài học). Mỗi từ mới hiện đầy đủ thông tin trước (bấm **Đã hiểu – luyện tiếp**, hoặc **Đã biết từ này** nếu bạn đã thuộc), rồi được hỏi lại sau 1 phút và 10 phút. Mỗi lúc chỉ luyện tối đa 5 từ mới, để không bị ngợp. Muốn học từ mới của một bài cụ thể: **Bài học** → chọn bài → **① Học từ mới**.
+   Trả lời xong, app hiện đáp án, lời chấm ("gặp lại sau 3 ngày"…) và đầy đủ thông tin của từ. Bấm **Tiếp tục** để sang câu sau. Hết phiên có bảng tổng kết.
+2. **Học từ mới (~15 phút, mặc định 15 từ/ngày):** học lần lượt theo bài (chủ đề hoặc theo sách, tùy cách chia bạn chọn ở Bài học). Mỗi từ mới hiện đầy đủ thông tin trước (bấm **Đã hiểu – luyện tiếp**), rồi app hỏi lại sau 1 phút (nghe hoặc nhìn chữ → chọn nghĩa) và 10 phút (đọc nghĩa → chọn chữ, hoặc chọn pinyin). Nếu bạn đã biết sẵn từ này, chỉ cần trả lời đúng và nhanh: app tự cho từ đó giãn lịch ôn xa hơn. Mỗi lúc chỉ luyện tối đa 5 từ mới, để không bị ngợp. Muốn học từ mới của một bài cụ thể: **Bài học** → chọn bài → **① Học từ mới**.
 
 3. **Nghe & thanh điệu (~10 phút):** **Ôn luyện → Nghe & thanh điệu**. Mỗi phiên 10 câu, app đọc bằng giọng tiếng Trung của máy. Có 5 dạng bài:
    - **Nghe 1 âm tiết:** nghe một chữ, chọn thanh 1–4.
@@ -144,7 +144,7 @@ Nút **Tiếp tục** trên khung chào chọn sẵn việc nên làm: ôn thẻ
 
 Khi đang học, góc trên có **đồng hồ** đếm số phút đã học cho phần đó (chỉ đếm khi bạn đang thao tác).
 
-Trên máy tính có phím tắt: **Space** để lật thẻ (hoặc nghe lại trong bài thanh điệu / bài nghe), các số **1 2 3 4** tương ứng Quên / Khó / Nhớ / Dễ, các nút chọn thanh, hoặc 4 đáp án trắc nghiệm; **Enter** sang câu tiếp.
+Trên máy tính có phím tắt: **Space** để nghe lại (câu nghe, bài thanh điệu), các số **1 2 3 4** để chọn đáp án (thẻ từ, trắc nghiệm) hoặc chọn thanh; **Enter** sang câu tiếp.
 
 Đổi số từ mới mỗi ngày, số chữ viết mới mỗi ngày, tốc độ đọc, giọng đọc, giao diện sáng/tối, hoặc kiểu chữ viết tay (Khải thư) trong **Cài đặt**.
 

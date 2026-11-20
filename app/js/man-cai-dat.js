@@ -48,7 +48,7 @@ export async function veCaiDat(khung) {
 
     <h3 class="tieu-de-muc">Phát âm</h3>
     <div class="khung khung-cai-dat">
-      <div class="dong-cai-dat"><label for="cd-tu-doc">Tự đọc khi lật thẻ</label>
+      <div class="dong-cai-dat"><label for="cd-tu-doc">Tự đọc khi hiện đáp án</label>
         <input id="cd-tu-doc" type="checkbox" ${cd.tuPhatAm ? 'checked' : ''}></div>
       <div class="dong-cai-dat"><label for="cd-toc-do">Tốc độ đọc: <b id="gt-toc-do">${cd.tocDoDoc}</b></label>
         <input id="cd-toc-do" type="range" min="0.5" max="1.2" step="0.1" value="${cd.tocDoDoc}"></div>

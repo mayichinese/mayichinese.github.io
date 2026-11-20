@@ -1017,3 +1017,13 @@ a.the-lo-trinh:active .the-phai { transform: translateY(3px); box-shadow: none; 
 .ghi-chu-vi-du { margin-top: 4px !important; font-size: .88rem; color: var(--chu-phu); }
 .ds-np-tu-loai .chip { border-radius: 14px; padding: 6px 12px; text-align: left; }
 .ds-np-tu-loai .chip small { white-space: nowrap; }
+
+/* ==================== THẺ TỪ TỰ CHẤM (man-the-tu.js) ==================== */
+.cau-the-tu { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center; }
+.cau-the-tu > .goc-the { align-self: stretch; margin-bottom: auto; }
+.cau-the-tu::after { content: ''; margin-top: auto; }   /* đẩy đề bài vào giữa thẻ */
+.ket-qua-cham { display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 12px 14px; border-radius: 16px; margin-bottom: 14px; line-height: 1.5; text-align: center; }
+.ket-qua-cham.la-dung { background: color-mix(in srgb, #22c55e 14%, var(--be-mat)); }
+.ket-qua-cham.la-sai { background: color-mix(in srgb, #ef4444 12%, var(--be-mat)); }
+.ket-qua-cham > b { font-size: 1.1rem; }
+.ket-qua-cham .han { font-size: 1.15rem; }
