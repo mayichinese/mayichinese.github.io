@@ -57,6 +57,7 @@ import { veThiThu, veLamBai } from './man-thi-thu.js';
 import { veChuAm, vePhienChuAm } from './man-chu-am.js';
 import { veTuLoai, moTuLoai } from './man-tu-loai.js';
 import { veChang, changTiepTheo } from './man-chang.js';
+import { moXemTu } from './cham-tu.js';
 import { capMo } from './cap-do.js';
 import { veLuyenNoi, vePhienNoi, moChamNhanh, CAC_DANG_NOI } from './man-luyen-noi.js';
 
@@ -204,6 +205,12 @@ document.addEventListener('click', (e) => {
   if (nutViet) {
     e.stopPropagation();
     moCachViet(nutViet.dataset.cachViet);
+    return;
+  }
+  const nutTu = e.target.closest('[data-xem-tu]');
+  if (nutTu) {
+    e.stopPropagation();
+    moXemTu(nutTu.dataset.xemTu);
     return;
   }
   const nutTL = e.target.closest('[data-tu-loai]');

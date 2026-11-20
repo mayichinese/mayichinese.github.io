@@ -14,6 +14,7 @@ import { esc, moHopThoai, nutLoa, dongTu } from './giao-dien.js';
 import { toMauPinyin } from './pinyin.js';
 import { bieuTuong } from './bieu-tuong.js';
 import { taiNguPhap } from './man-ngu-phap.js';
+import { htmlCauCham } from './cham-tu.js';
 
 let henDuLieu = null;
 export function taiTuLoai() {
@@ -39,7 +40,7 @@ function htmlViDu(v) {
   const tu = layTu(v.tu);
   const cau = tu?.viDu?.[v.so];
   if (!cau) return '';
-  const han = esc(cau.han).split(esc(tu.hanzi)).join(`<mark>${esc(tu.hanzi)}</mark>`);
+  const han = htmlCauCham(cau.han, { danh: tu.hanzi });
   return `
     <div class="vi-du">
       <div class="vi-du-chu">

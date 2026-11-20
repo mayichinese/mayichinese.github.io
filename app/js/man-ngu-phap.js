@@ -26,6 +26,7 @@ const CAC_FILE_NP = [
 import { doc } from './phat-am.js';
 import { esc, batDongHo, nutLoa, CHU_THICH_CHAM } from './giao-dien.js';
 import { toMauPinyin } from './pinyin.js';
+import { htmlCauCham, cauDaBiet } from './cham-tu.js';
 
 const SO_DIEM_MOI_LUOT_ON = 6;     // lượt ôn: tối đa 6 điểm, mỗi điểm 2 bài
 const TEN_DG = { 1: 'Quên', 2: 'Khó', 3: 'Nhớ', 4: 'Dễ' };
@@ -49,6 +50,13 @@ export function taiNguPhap() {
       .catch((e) => { henDuLieu = null; throw e; });
   }
   return henDuLieu;
+}
+
+/** Đưa bài tập có câu toàn từ đã học lên trước (giữ thứ tự còn lại) */
+const cauCuaBaiTap = (b) => (b.loai === 'sx' ? b.v.han : b.t.cau.replace('___', b.t.dapAn));
+function truocBiet(ds) {
+  const biet = ds.map((b) => cauDaBiet(cauCuaBaiTap(b)));
+  return [...ds.filter((_, i) => biet[i]), ...ds.filter((_, i) => !biet[i])];
 }
 
 function tron(mang) {
@@ -90,7 +98,7 @@ function chamDiem(laMoi, tiLe) {
 const htmlViDu = (v) => `
   <div class="vi-du">
     <div class="vi-du-chu">
-      <p class="han vi-du-han">${esc(v.han)}</p>
+      <p class="han vi-du-han">${htmlCauCham(v.han)}</p>
       <p class="pinyin vi-du-pinyin">${toMauPinyin(v.pinyin)}</p>
       <p class="vi-du-dich">${esc(v.dich)}</p>
     </div>
@@ -241,10 +249,11 @@ export function vePhienNguPhap(khung, ma) {
     for (const d of cacDiem) {
       const sx = d.viDu.filter((v) => v.manh.length >= 3).map((v) => ({ loai: 'sx', d, v }));
       const dt = d.dienTu.map((t) => ({ loai: 'dt', d, t }));
-      if (ma === 'on') baiTap.push(...tron(sx).slice(0, 1), ...tron(dt).slice(0, 1));
+      if (ma === 'on') baiTap.push(...truocBiet(tron(sx)).slice(0, 1), ...truocBiet(tron(dt)).slice(0, 1));
       else baiTap.push(...sx, ...dt);
     }
-    const hangDoi = tron(baiTap);
+    // Câu toàn từ đã học lên trước (câu có từ chưa học vẫn làm được: chạm từ gạch chân để xem nghĩa)
+    const hangDoi = truocBiet(tron(baiTap));
     const ketQuaDiem = new Map(cacDiem.map((d) => [d.id, { d, dung: 0, tong: 0 }]));
 
     document.body.classList.add('dang-hoc');
@@ -323,7 +332,7 @@ export function vePhienNguPhap(khung, ma) {
         $('#dong').classList.add(dung ? 'la-dung' : 'la-sai');
         const khacKhop = dung && traLoi !== v.manh.join('');
         xongCau(dung, `${dung ? `✅ Đúng!${khacKhop ? ' (cách sắp xếp khác cũng đúng)' : ''}` : '❌ Chưa đúng. Câu đúng:'}
-          <p class="han cau-dung">${esc(v.han)}</p>
+          <p class="han cau-dung">${htmlCauCham(v.han)}</p>
           ${(v.khac || []).length ? `<p class="chu-phu nho">Cũng đúng: <span class="han">${v.khac.map((m) => esc(m.join('') + v.dauCau)).join(' · ')}</span></p>` : ''}
           <p class="pinyin">${toMauPinyin(v.pinyin)}</p>
           <p class="chu-phu nho">${esc(v.dich)}</p>`, v.han);
@@ -338,7 +347,7 @@ export function vePhienNguPhap(khung, ma) {
       const [truoc, sau] = t.cau.split('___');
       $('#the').innerHTML = `${nhan}
         <p class="cau-hoi">Chọn từ điền vào chỗ trống</p>
-        <p class="han cau-dien">${esc(truoc)}<span class="o-dien" id="o-dien">＿＿</span>${esc(sau)}</p>
+        <p class="han cau-dien">${htmlCauCham(truoc, { chiChuaHoc: true })}<span class="o-dien" id="o-dien">＿＿</span>${htmlCauCham(sau, { chiChuaHoc: true })}</p>
         <p class="goi-y-dich">“${esc(t.dich)}”</p>
         <div id="dap-an" class="dap-an"></div>`;
       $('#vung-nut').innerHTML = `

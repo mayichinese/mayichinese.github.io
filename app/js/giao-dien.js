@@ -13,6 +13,7 @@ import { TEN_TU_LOAI, nghiaNgan } from './du-lieu.js';
 import { loaiThe } from './lich-on.js';
 import { bieuTuong } from './bieu-tuong.js';
 import { toMauPinyin, toMauChuHan, demChuHan } from './pinyin.js';
+import { htmlCauCham } from './cham-tu.js';
 
 // ---------- Tiện ích chữ ----------
 /** Chống lỗi hiển thị khi dữ liệu có ký tự đặc biệt như < > & " */
@@ -178,8 +179,8 @@ export function nutTuLoai(kyHieu, khoa = '', lop = 'nhan-chinh') {
 
 /** Mặt sau của thẻ (dùng cho flashcard và trang xem từ) */
 export function htmlMatSau(tu) {
-  // tô đậm từ đang học trong câu ví dụ
-  const toSang = (cau) => esc(cau).split(esc(tu.hanzi)).join(`<mark>${esc(tu.hanzi)}</mark>`);
+  // tô đậm từ đang học trong câu ví dụ; mọi từ khác chạm được để xem nghĩa (từ chưa học gạch chân chấm)
+  const toSang = (cau) => htmlCauCham(cau, { danh: tu.hanzi });
   const nghia = (tu.nghia || []).map((n, i) => {
     const viDu = (tu.viDu || []).filter((v) => (v.nghiaSo ?? 0) === i);
     return `

@@ -27,6 +27,7 @@ import { taiNetChu, taoBangVe, phatHoatCanh } from './net-chu.js';
 import { ganKhungNoi } from './man-luyen-noi.js';
 import { coNhanDang, coGhiAm } from './nhan-giong.js';
 import { DIEM_DAT } from './cham-phat-am.js';
+import { htmlCauCham } from './cham-tu.js';
 
 const CO_CHANG = 5;            // số từ mỗi chặng (chia đều: 13 từ → 5 + 4 + 4)
 const SO_NOI = 3;              // số từ nói theo mỗi chặng
@@ -507,7 +508,7 @@ export function veChang(khung, maBai, so) {
         $the.querySelector('#dong').classList.add(dung ? 'la-dung' : 'la-sai');
         $vung.innerHTML = '';
         hienPhanHoi(dung, `
-          <p class="han" style="margin:6px 0 0;font-size:1.3rem">${esc(m.cau.han)} ${nutLoa(m.cau.han, true)}</p>
+          <p class="han" style="margin:6px 0 0;font-size:1.3rem">${htmlCauCham(m.cau.han)} ${nutLoa(m.cau.han, true)}</p>
           <p class="pinyin" style="margin:0">${toMauPinyin(m.cau.pinyin)}</p>`);
         doc(m.cau.han);
       };
@@ -521,7 +522,7 @@ export function veChang(khung, maBai, so) {
         <div class="cau-the-tu">
           ${nhanKy(m, m.laiLan ? '<span class="nhan nhan-vang">↺ Đọc lại</span>' : '')}
           <p class="cau-hoi">Đọc câu rồi chọn nghĩa đúng</p>
-          <p class="han cau-vi-du">${esc(m.cau.han)}</p>
+          <p class="han cau-vi-du" id="cau-doc">${htmlCauCham(m.cau.han, { chiChuaHoc: true })}</p>
           <p class="pinyin cau-pinyin" id="py" ${m.coPinyin ? '' : 'hidden'}>${toMauPinyin(m.cau.pinyin)}</p>
           <div class="hang-nut" style="justify-content:center">
             ${m.coPinyin ? '' : '<button class="nut nut-nho" id="nut-py">Hiện pinyin</button>'}
@@ -546,6 +547,7 @@ export function veChang(khung, maBai, so) {
           if (dung) ketQua.doc.dung++;
           else if (!m.laiLan) hang.push({ ...m, laiLan: true });
           $the.querySelector('#py').hidden = false;
+          $the.querySelector('#cau-doc').innerHTML = htmlCauCham(m.cau.han);
           hienPhanHoi(dung);
           doc(m.cau.han);
         };

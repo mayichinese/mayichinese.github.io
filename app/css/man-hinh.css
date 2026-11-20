@@ -1078,3 +1078,14 @@ a.the-lo-trinh:active .the-phai { transform: translateY(3px); box-shadow: none; 
 .the-chang-bai.dang .nut-tron-chang { background: var(--chinh); color: var(--tren-chinh); }
 .the-chang-bai.xong .nut-tron-chang { background: var(--vang-nhat); color: var(--vang-chu); }
 .ky-nho { font-size: .85rem; letter-spacing: .1em; }
+
+/* ==================== CHẠM TỪ XEM NGHĨA (cham-tu.js) ==================== */
+.tu-cham {
+  all: unset; cursor: pointer; border-radius: 4px;
+  border-bottom: 2px solid transparent;
+}
+.tu-cham:hover { background: var(--chinh-nhat); }
+.tu-cham:focus-visible { outline: 2px solid var(--chinh-chu); outline-offset: 1px; }
+.tu-cham.chua-hoc { border-bottom: 2px dotted var(--vang); }
+mark .tu-cham { color: inherit; font-weight: inherit; }
+.dong-xem-tu { display: flex; align-items: center; gap: 10px; margin-top: 4px; }
