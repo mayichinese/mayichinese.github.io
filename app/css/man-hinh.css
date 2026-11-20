@@ -964,3 +964,56 @@ a.the-lo-trinh:active .the-phai { transform: translateY(3px); box-shadow: none; 
 .chip-am .pinyin { font-weight: 700; font-size: 1.05rem; }
 .the-doc-thu { display: flex; align-items: center; gap: 12px; justify-content: center; flex-wrap: wrap; }
 .the-doc-thu .tu-hoi { font-size: 3rem; }
+
+/* ==================== TỪ LOẠI & TRẬT TỰ CÂU (man-tu-loai.js) ==================== */
+/* Màn hình hẹp: 4 ô chọn phần của Chữ & âm xếp 2 × 2 cho khỏi tràn */
+@media (max-width: 440px) {
+  .chon-phan-chu-am { display: grid; grid-template-columns: 1fr 1fr; }
+}
+/* Nhãn từ loại bấm được (trên thẻ từ, trang xem từ) */
+.nut-tu-loai { border: none; font-family: inherit; cursor: pointer; line-height: 1.3; min-height: 30px; padding: 4px 10px; font-size: .8rem; }
+.nut-tu-loai:hover { filter: brightness(.95); }
+.nut-tu-loai .dau-hoi {
+  display: inline-grid; place-items: center; width: 15px; height: 15px; border-radius: 50%;
+  font-size: .68rem; border: 1.5px solid currentColor; opacity: .75;
+}
+/* Sơ đồ câu: mỗi mảnh có vạch màu theo vai trò (màu biểu đồ đã kiểm tra mù màu, chữ giữ màu thường) */
+.so-do-cau > b { font: 700 1.05rem var(--font-tieu-de); }
+.dong-so-do { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+.hang-manh { display: flex; flex-wrap: wrap; gap: 6px; }
+.manh-cau {
+  display: inline-flex; flex-direction: column; align-items: center; gap: 2px;
+  padding: 6px 10px; border-radius: 12px; background: var(--be-mat-2);
+  border-bottom: 4px solid var(--mau-vai, var(--vien-nhat));
+}
+.manh-cau .chu-manh { font-weight: 700; }
+.manh-cau .han.chu-manh { font-size: 1.35rem; }
+.manh-cau small { font-size: .7rem; color: var(--chu-phu); white-space: nowrap; }
+.vai-1 { --mau-vai: var(--bd-1); }
+.vai-2 { --mau-vai: var(--bd-2); }
+.vai-3 { --mau-vai: var(--bd-3); }
+.vai-4 { --mau-vai: var(--bd-4); }
+.vai-5 { --mau-vai: var(--bd-5); }
+.thu-tu-cau { margin: 10px 0 0; padding-left: 22px; display: flex; flex-direction: column; gap: 6px; }
+.thu-tu-cau li { padding-left: 6px; border-left: 4px solid var(--mau-vai); }
+.thu-tu-cau a { color: inherit; text-decoration: none; }
+.thu-tu-cau .han { color: var(--chu-phu); margin-left: 4px; }
+/* Danh sách từ loại */
+.ds-tu-loai { display: flex; flex-direction: column; gap: 10px; }
+.the-tu-loai { display: flex; align-items: center; gap: 12px; padding: 12px 14px; color: inherit; text-decoration: none; }
+.the-tu-loai .giua { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.o-emoji-tl { font-size: 1.8rem; flex: none; }
+/* Trang một từ loại */
+.dau-tu-loai { text-align: center; }
+.dau-tu-loai h2 { margin: 4px 0; }
+.dau-tu-loai .emoji-to { font-size: 3rem; }
+.ds-gach { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; }
+.ds-cong-thuc { display: flex; flex-direction: column; gap: 6px; margin-top: 8px; }
+.cong-thuc-tl {
+  padding: 10px 12px; border-radius: 12px; font-weight: 600;
+  background: var(--chinh-nhat); border-left: 4px solid var(--chinh-chu);
+}
+.can-nho-tl { background: var(--vang-nhat); }
+.ghi-chu-vi-du { margin-top: 4px !important; font-size: .88rem; color: var(--chu-phu); }
+.ds-np-tu-loai .chip { border-radius: 14px; padding: 6px 12px; text-align: left; }
+.ds-np-tu-loai .chip small { white-space: nowrap; }

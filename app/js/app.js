@@ -27,7 +27,8 @@
 //   #/ngu-phap     Ngữ pháp: danh sách điểm     → man-ngu-phap.js
 //   #/ngu-phap/<mã>           bài học một điểm      #/ngu-phap/<mã>/luyen  luyện tập điểm đó
 //   #/ngu-phap/on             ôn các điểm đến hạn
-//   #/chu-am[/phien-am|net|bo-thu]  Chữ & âm: tra cứu phiên âm, nét cơ bản, bộ thủ → man-chu-am.js
+//   #/chu-am[/phien-am|net|bo-thu|tu-loai]  Chữ & âm: tra cứu phiên âm, nét cơ bản, bộ thủ, từ loại → man-chu-am.js
+//   #/chu-am/tu-loai/<mã>  một từ loại (vị trí trong câu, công thức, lỗi hay nhầm) → man-tu-loai.js
 //   #/chu-am/luyen/<phien-am|bo-thu>  lượt luyện 10 câu
 //   #/luyen-noi[/<dạng>]  Nói & phát âm: chấm phát âm bằng micro → man-luyen-noi.js
 //   #/thi-thu[/cap/2] Thi thử HSK 1 / 2 / 3: giới thiệu → man-thi-thu.js  #/thi-thu/lam  đề HSK 1 · #/thi-thu/lam/2 · #/thi-thu/lam/3
@@ -52,6 +53,7 @@ import { veTracNghiem, vePhienTracNghiem, CAC_DANG as DANG_TRAC_NGHIEM } from '.
 import { veNguPhap, veDiemNguPhap, vePhienNguPhap } from './man-ngu-phap.js';
 import { veThiThu, veLamBai } from './man-thi-thu.js';
 import { veChuAm, vePhienChuAm } from './man-chu-am.js';
+import { veTuLoai, moTuLoai } from './man-tu-loai.js';
 import { capMo } from './cap-do.js';
 import { veLuyenNoi, vePhienNoi, moChamNhanh, CAC_DANG_NOI } from './man-luyen-noi.js';
 
@@ -126,6 +128,9 @@ function veTheoDiaChi() {
   } else if (muc === 'chu-am' && thamSo === 'luyen') {
     datTieuDe(duong[2] === 'bo-thu' ? 'Luyện bộ thủ' : 'Luyện phiên âm', `#/chu-am/${duong[2] === 'bo-thu' ? 'bo-thu' : 'phien-am'}`);
     donDep = vePhienChuAm(khung, duong[2] === 'bo-thu' ? 'bo-thu' : 'phien-am');
+  } else if (muc === 'chu-am' && thamSo === 'tu-loai' && duong[2]) {
+    datTieuDe('Từ loại', '#/chu-am/tu-loai');
+    veTuLoai(khung, duong[2]);
   } else if (muc === 'chu-am') {
     datTieuDe('Chữ & âm');
     veChuAm(khung, thamSo);
@@ -190,6 +195,12 @@ document.addEventListener('click', (e) => {
   if (nutViet) {
     e.stopPropagation();
     moCachViet(nutViet.dataset.cachViet);
+    return;
+  }
+  const nutTL = e.target.closest('[data-tu-loai]');
+  if (nutTL) {
+    e.stopPropagation();
+    moTuLoai(nutTL.dataset.tuLoai, nutTL.dataset.khoa || '');
     return;
   }
   const nutNoi = e.target.closest('[data-noi-thu]');

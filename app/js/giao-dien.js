@@ -166,6 +166,16 @@ export function oChuDien(hanzi) {
 /** Tên tiếng Việt của từ loại ("动" → "động từ") */
 export const tenTuLoai = (kyHieu) => TEN_TU_LOAI[kyHieu] || kyHieu || '';
 
+/**
+ * Nhãn từ loại bấm được: mở bảng "vị trí trong câu" (man-tu-loai.js, xử lý chung trong app.js qua data-tu-loai).
+ * `khoa` = từ đang xem, để bảng hiện câu ví dụ của chính từ đó.
+ */
+export function nutTuLoai(kyHieu, khoa = '', lop = 'nhan-chinh') {
+  const ten = tenTuLoai(kyHieu);
+  return `<button class="nhan ${lop} nut-tu-loai" data-tu-loai="${esc(kyHieu)}" data-khoa="${esc(khoa)}"
+    title="Cách dùng ${esc(ten)} trong câu" aria-label="${esc(ten)} – xem vị trí trong câu">${esc(ten)}<span class="dau-hoi" aria-hidden="true">?</span></button>`;
+}
+
 /** Mặt sau của thẻ (dùng cho flashcard và trang xem từ) */
 export function htmlMatSau(tu) {
   // tô đậm từ đang học trong câu ví dụ
@@ -175,7 +185,7 @@ export function htmlMatSau(tu) {
     return `
       <div class="nghia">
         <div class="dong-nghia">
-          ${n.tuLoai ? `<span class="nhan nhan-chinh">${esc(tenTuLoai(n.tuLoai))}</span>` : ''}
+          ${n.tuLoai ? nutTuLoai(n.tuLoai, tu.khoa) : ''}
           <span>${esc(n.nghia)}</span>
         </div>
         ${viDu.map((v) => `

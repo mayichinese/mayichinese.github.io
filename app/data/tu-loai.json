@@ -1,0 +1,747 @@
+{
+  "_ghiChu": "Hướng dẫn từ loại & trật tự câu (soạn tay). viDu trỏ tới câu ví dụ có sẵn: tu = khóa từ, so = thứ tự câu trong viDu của từ đó. nguPhap = mã điểm ngữ pháp liên quan. Kiểm tra: python -X utf8 cong-cu/kiem-tra-tu-loai.py",
+  "tratTu": {
+    "moTa": "Tiếng Trung và tiếng Việt đều xếp Chủ ngữ → Động từ → Tân ngữ. Khác nhau ở hai chỗ: (1) thời gian, nơi chốn, \"với ai\", phó từ đứng TRƯỚC động từ; (2) từ bổ nghĩa đứng TRƯỚC danh từ.",
+    "thuTu": [
+      {
+        "ten": "Chủ ngữ",
+        "vd": "我",
+        "loai": "dai-tu",
+        "mau": 1
+      },
+      {
+        "ten": "Thời gian",
+        "vd": "明天",
+        "loai": "danh-tu",
+        "mau": 4
+      },
+      {
+        "ten": "Phó từ",
+        "vd": "也 · 都 · 不",
+        "loai": "pho-tu",
+        "mau": 4
+      },
+      {
+        "ten": "Năng nguyện",
+        "vd": "想 · 会 · 要",
+        "loai": "dong-tu",
+        "mau": 4
+      },
+      {
+        "ten": "Nơi chốn / với ai",
+        "vd": "在学校 · 和你",
+        "loai": "gioi-tu",
+        "mau": 4
+      },
+      {
+        "ten": "Động từ",
+        "vd": "学习",
+        "loai": "dong-tu",
+        "mau": 2
+      },
+      {
+        "ten": "Tân ngữ",
+        "vd": "汉语",
+        "loai": "danh-tu",
+        "mau": 5
+      }
+    ],
+    "cau": {
+      "manh": [
+        {
+          "chu": "我",
+          "vai": "Chủ ngữ",
+          "mau": 1
+        },
+        {
+          "chu": "明天",
+          "vai": "Thời gian",
+          "mau": 4
+        },
+        {
+          "chu": "在学校",
+          "vai": "Nơi chốn",
+          "mau": 4
+        },
+        {
+          "chu": "学习",
+          "vai": "Động từ",
+          "mau": 2
+        },
+        {
+          "chu": "汉语",
+          "vai": "Tân ngữ",
+          "mau": 5
+        }
+      ],
+      "pinyin": "Wǒ míngtiān zài xuéxiào xuéxí Hànyǔ.",
+      "dich": "Ngày mai tôi học tiếng Trung ở trường.",
+      "tiengViet": [
+        {
+          "chu": "Tôi",
+          "mau": 1
+        },
+        {
+          "chu": "học",
+          "mau": 2
+        },
+        {
+          "chu": "tiếng Trung",
+          "mau": 5
+        },
+        {
+          "chu": "ở trường",
+          "mau": 4
+        },
+        {
+          "chu": "ngày mai",
+          "mau": 4
+        }
+      ]
+    },
+    "dinhNgu": {
+      "manh": [
+        {
+          "chu": "我的",
+          "vai": "Bổ nghĩa + 的",
+          "mau": 3
+        },
+        {
+          "chu": "汉语",
+          "vai": "Bổ nghĩa",
+          "mau": 3
+        },
+        {
+          "chu": "老师",
+          "vai": "Danh từ chính",
+          "mau": 5
+        }
+      ],
+      "pinyin": "wǒ de Hànyǔ lǎoshī",
+      "dich": "giáo viên tiếng Trung của tôi",
+      "giaiThich": "Tiếng Việt: danh từ chính đứng trước (giáo viên → tiếng Trung → của tôi). Tiếng Trung: ngược lại, danh từ chính đứng CUỐI.",
+      "tiengViet": [
+        {
+          "chu": "giáo viên",
+          "mau": 5
+        },
+        {
+          "chu": "tiếng Trung",
+          "mau": 3
+        },
+        {
+          "chu": "của tôi",
+          "mau": 3
+        }
+      ]
+    }
+  },
+  "loai": [
+    {
+      "ma": "danh-tu",
+      "kyHieu": [
+        "名"
+      ],
+      "ten": "Danh từ",
+      "tenTrung": "名词",
+      "pinyin": "míngcí",
+      "emoji": "📦",
+      "nhom": "chinh",
+      "vaiTro": "Gọi tên người, đồ vật, nơi chốn, thời gian: 老师 (giáo viên), 学校 (trường), 今天 (hôm nay).",
+      "viTri": [
+        "Làm chủ ngữ: đứng đầu câu, trước động từ.",
+        "Làm tân ngữ: đứng sau động từ.",
+        "Danh từ chỉ thời gian (今天, 明天…) đứng ĐẦU câu hoặc ngay sau chủ ngữ, luôn trước động từ."
+      ],
+      "congThuc": [
+        "Chủ ngữ (danh từ) + động từ + tân ngữ (danh từ)",
+        "Số + lượng từ + danh từ: 一个苹果",
+        "Bổ nghĩa + 的 + danh từ: 我的书"
+      ],
+      "luuY": [
+        "Từ bổ nghĩa đứng TRƯỚC danh từ, ngược tiếng Việt: 我的书 = sách của tôi.",
+        "Danh từ không đổi dạng số nhiều. 们 chỉ thêm sau từ chỉ người: 老师们 (không nói 书们).",
+        "Đếm danh từ phải có lượng từ ở giữa: 三个学生 (không nói 三学生)."
+      ],
+      "viDu": [
+        {
+          "tu": "1:今天",
+          "so": 0,
+          "ghiChu": "今天 (thời gian) đứng đầu câu, trước 很忙."
+        },
+        {
+          "tu": "1:学校",
+          "so": 0,
+          "ghiChu": "我们学校 (trường chúng tôi) làm chủ ngữ – 我们 bổ nghĩa đứng trước 学校."
+        },
+        {
+          "tu": "1:名字",
+          "so": 0,
+          "ghiChu": "名字 làm tân ngữ, đứng sau động từ 叫."
+        }
+      ],
+      "nguPhap": [
+        "vi-ngu-danh-tu",
+        "tro-tu-de",
+        "luong-tu",
+        "phuong-vi",
+        "cau-ton-tai"
+      ]
+    },
+    {
+      "ma": "dai-tu",
+      "kyHieu": [
+        "代"
+      ],
+      "ten": "Đại từ",
+      "tenTrung": "代词",
+      "pinyin": "dàicí",
+      "emoji": "👉",
+      "nhom": "chinh",
+      "vaiTro": "Thay cho danh từ: chỉ người (我, 你, 他), chỉ trỏ (这, 那) hoặc để hỏi (什么, 谁, 哪儿, 几, 多少).",
+      "viTri": [
+        "Đứng ở chỗ của danh từ mà nó thay: chủ ngữ, tân ngữ, hoặc trước 的.",
+        "Từ để hỏi (什么, 谁, 哪儿…) đứng ĐÚNG chỗ của thông tin cần hỏi – không đảo lên đầu câu."
+      ],
+      "congThuc": [
+        "Đại từ + 的 + danh từ: 我的书",
+        "这 / 那 + lượng từ + danh từ: 这个人",
+        "Hỏi: đặt từ để hỏi vào chỗ thông tin cần hỏi: 你去哪儿？"
+      ],
+      "luuY": [
+        "Câu hỏi đã có 什么, 谁, 哪儿, 几… thì KHÔNG thêm 吗 ở cuối.",
+        "Giống tiếng Việt: 你去哪儿？ = Bạn đi đâu? – từ để hỏi giữ nguyên vị trí.",
+        "这 / 那 thường cần lượng từ trước danh từ: 这个人, 那本书."
+      ],
+      "viDu": [
+        {
+          "tu": "1:这",
+          "so": 0,
+          "ghiChu": "这 làm chủ ngữ, đứng đầu câu."
+        },
+        {
+          "tu": "1:什么",
+          "so": 1,
+          "ghiChu": "什么 đứng ở chỗ tân ngữ (sau 吃); cuối câu không có 吗."
+        },
+        {
+          "tu": "1:多少",
+          "so": 1,
+          "ghiChu": "这个 + 手机: 这 cần lượng từ 个 trước danh từ."
+        }
+      ],
+      "nguPhap": [
+        "tu-de-hoi",
+        "ji-duoshao",
+        "zenme",
+        "nghi-van-nhiem-chi",
+        "nghi-van-bat-dinh"
+      ]
+    },
+    {
+      "ma": "dong-tu",
+      "kyHieu": [
+        "动"
+      ],
+      "ten": "Động từ",
+      "tenTrung": "动词",
+      "pinyin": "dòngcí",
+      "emoji": "🏃",
+      "nhom": "chinh",
+      "vaiTro": "Chỉ hành động, hoạt động hoặc trạng thái: 吃 (ăn), 去 (đi), 是 (là), 有 (có), 喜欢 (thích). Là phần chính của câu.",
+      "viTri": [
+        "Đứng sau chủ ngữ, trước tân ngữ: Chủ ngữ + động từ + tân ngữ.",
+        "Thời gian, nơi chốn, phó từ (不, 也, 都…) đứng TRƯỚC động từ.",
+        "Động từ năng nguyện (想, 要, 会, 能, 可以) đứng trước động từ chính."
+      ],
+      "congThuc": [
+        "Chủ ngữ + (trạng ngữ) + động từ + tân ngữ",
+        "Chủ ngữ + 想 / 会 / 能 + động từ",
+        "Động từ + 了 / 过: đã làm / đã từng làm"
+      ],
+      "luuY": [
+        "Nơi chốn đặt TRƯỚC động từ (khác tiếng Việt): 我在学校学习 = Tôi học ở trường.",
+        "Động từ không chia thì. Quá khứ, tương lai thể hiện bằng từ chỉ thời gian hoặc 了, 过, 要…",
+        "Phủ định: 不 + động từ (không / không muốn), 没 + động từ (chưa / đã không). Với 有 chỉ dùng 没有."
+      ],
+      "viDu": [
+        {
+          "tu": "1:是",
+          "so": 0,
+          "ghiChu": "是 nối hai danh từ: A 是 B."
+        },
+        {
+          "tu": "1:喝",
+          "so": 1,
+          "ghiChu": "不 đứng trước động từ 喝; tân ngữ 茶, 水 đứng sau."
+        },
+        {
+          "tu": "1:有",
+          "so": 1,
+          "ghiChu": "Nơi chốn + 有 + vật: ở đâu có cái gì."
+        }
+      ],
+      "nguPhap": [
+        "lien-dong",
+        "xiang-yao",
+        "hui-neng",
+        "ke-yi",
+        "dang-lam",
+        "le-xong",
+        "guo-kinh-nghiem",
+        "yi-xia",
+        "hai-tan-ngu",
+        "ly-hop",
+        "kiem-ngu"
+      ]
+    },
+    {
+      "ma": "tinh-tu",
+      "kyHieu": [
+        "形"
+      ],
+      "ten": "Tính từ",
+      "tenTrung": "形容词",
+      "pinyin": "xíngróngcí",
+      "emoji": "🎨",
+      "nhom": "chinh",
+      "vaiTro": "Chỉ tính chất, trạng thái: 大 (to), 好 (tốt), 高兴 (vui), 冷 (lạnh).",
+      "viTri": [
+        "Làm vị ngữ: đứng sau chủ ngữ, thường có 很 (hoặc 太, 非常…) đi trước.",
+        "Bổ nghĩa cho danh từ: đứng TRƯỚC danh từ. Tính từ một chữ thường nối thẳng (好人); có 很 thì thêm 的 (很好的朋友)."
+      ],
+      "congThuc": [
+        "Chủ ngữ + 很 + tính từ: 我很好",
+        "Tính từ + (的) + danh từ: 好人, 很好的朋友",
+        "太 + tính từ + 了: 太好了"
+      ],
+      "luuY": [
+        "Tính từ làm vị ngữ KHÔNG dùng 是: nói 我很忙, không nói 我是忙.",
+        "很 ở đây thường không nhấn mạnh \"rất\", chỉ để câu tự nhiên. Muốn nhấn mạnh dùng 非常, 太…了.",
+        "Tính từ đứng TRƯỚC danh từ, ngược tiếng Việt: 好人 = người tốt."
+      ],
+      "viDu": [
+        {
+          "tu": "1:高兴",
+          "so": 0,
+          "ghiChu": "很 + tính từ làm vị ngữ, không có 是."
+        },
+        {
+          "tu": "1:好",
+          "so": 0,
+          "ghiChu": "好 đứng trước 人: tính từ bổ nghĩa đứng trước danh từ."
+        },
+        {
+          "tu": "1:大",
+          "so": 0,
+          "ghiChu": "这个房间 (chủ ngữ) + 很大 (vị ngữ)."
+        }
+      ],
+      "nguPhap": [
+        "vi-ngu-tinh-tu",
+        "lap-tinh-tu",
+        "so-sanh-bi",
+        "so-sanh-you",
+        "bo-ngu-trang-thai",
+        "tro-tu-di"
+      ]
+    },
+    {
+      "ma": "pho-tu",
+      "kyHieu": [
+        "副"
+      ],
+      "ten": "Phó từ",
+      "tenTrung": "副词",
+      "pinyin": "fùcí",
+      "emoji": "⚡",
+      "nhom": "chinh",
+      "vaiTro": "Thêm ý cho động từ / tính từ: phủ định (不, 没), mức độ (很, 太), phạm vi (都), \"cũng\" (也), \"lại\" (再)…",
+      "viTri": [
+        "Đứng SAU chủ ngữ và TRƯỚC động từ / tính từ.",
+        "Hầu như không đứng đầu câu và không đứng sau động từ."
+      ],
+      "congThuc": [
+        "Chủ ngữ + phó từ + động từ / tính từ",
+        "Chủ ngữ + 都 + 不 + động từ: 我们都不去"
+      ],
+      "luuY": [
+        "也 (cũng), 都 (đều) đứng trước động từ, KHÔNG đứng đầu câu: 我也是学生 (không nói 也我是学生).",
+        "太 thường đi với 了: 太好了！",
+        "不 đổi thành bú trước thanh 4: 不是 (bú shì)."
+      ],
+      "viDu": [
+        {
+          "tu": "1:也",
+          "so": 0,
+          "ghiChu": "也 đứng sau chủ ngữ 我, trước động từ 是."
+        },
+        {
+          "tu": "1:都",
+          "so": 0,
+          "ghiChu": "都 đứng sau chủ ngữ 我们, trước 是."
+        },
+        {
+          "tu": "1:太",
+          "so": 1,
+          "ghiChu": "太 + tính từ + 了."
+        }
+      ],
+      "nguPhap": [
+        "phu-dinh-bu",
+        "dou-ye-hai",
+        "bu-mei",
+        "zai-lai",
+        "muc-do-tien-to",
+        "pho-tu-muc-do",
+        "cau-khien-cam-than"
+      ]
+    },
+    {
+      "ma": "so-tu",
+      "kyHieu": [
+        "数"
+      ],
+      "ten": "Số từ",
+      "tenTrung": "数词",
+      "pinyin": "shùcí",
+      "emoji": "🔢",
+      "nhom": "chinh",
+      "vaiTro": "Chỉ số lượng hoặc thứ tự: 一, 二, 三… 十, 百.",
+      "viTri": [
+        "Đứng trước lượng từ khi đếm: 三个人.",
+        "Nói ngày, giờ, tuổi, giá có thể không cần 是: 今天五号."
+      ],
+      "congThuc": [
+        "Số + lượng từ + danh từ: 三个人",
+        "第 + số: thứ tự (第一 = thứ nhất)",
+        "… 月 … 日 / 号: ngày tháng"
+      ],
+      "luuY": [
+        "Giữa số và danh từ phải có lượng từ: 三个学生 (không nói 三学生).",
+        "\"Hai\" trước lượng từ dùng 两: 两个人; đếm số thì dùng 二: 一、二、三.",
+        "一 đổi thanh: yí trước thanh 4 (一个 yí gè), yì trước thanh 1, 2, 3."
+      ],
+      "viDu": [
+        {
+          "tu": "1:三",
+          "so": 0,
+          "ghiChu": "三 + lượng từ 口 + 人."
+        },
+        {
+          "tu": "1:七",
+          "so": 0,
+          "ghiChu": "七天: 天 (ngày) đếm thẳng, không cần lượng từ – trường hợp đặc biệt."
+        }
+      ],
+      "nguPhap": [
+        "hai-er-liang",
+        "ngay-gio",
+        "tien",
+        "so-uoc-luong"
+      ]
+    },
+    {
+      "ma": "luong-tu",
+      "kyHieu": [
+        "量",
+        "数量"
+      ],
+      "ten": "Lượng từ",
+      "tenTrung": "量词",
+      "pinyin": "liàngcí",
+      "emoji": "📏",
+      "nhom": "chinh",
+      "vaiTro": "Đơn vị đếm đặt giữa số và danh từ, giống \"cái, con, quyển\" trong tiếng Việt: 个, 本, 口, 杯. Nhóm \"số lượng từ\" (一下, 一点儿, 一些) cũng xếp ở đây.",
+      "viTri": [
+        "Số / 这 / 那 / 几 + lượng từ + danh từ.",
+        "一下, 一点儿 đứng sau động từ hoặc tính từ: 看一下, 便宜一点儿; 一些, 一点儿 cũng đứng trước danh từ: 一点儿水."
+      ],
+      "congThuc": [
+        "Số + lượng từ + danh từ: 一本书",
+        "这 / 那 / 哪 + lượng từ + danh từ: 这个人",
+        "Động từ + 一下 / 一点儿"
+      ],
+      "luuY": [
+        "Tiếng Việt đôi khi bỏ \"cái, con\"; tiếng Trung gần như luôn phải có lượng từ.",
+        "Chưa biết dùng lượng từ nào thì 个 dùng được với rất nhiều danh từ.",
+        "一点儿 đứng SAU tính từ khi so sánh: 便宜一点儿 (rẻ hơn chút)."
+      ],
+      "viDu": [
+        {
+          "tu": "1:个",
+          "so": 1,
+          "ghiChu": "两 + 个 + 苹果."
+        },
+        {
+          "tu": "1:家",
+          "so": 2,
+          "ghiChu": "这 + lượng từ 家 + 超市."
+        },
+        {
+          "tu": "1:一点儿",
+          "so": 1,
+          "ghiChu": "一点儿 đứng sau tính từ 便宜."
+        }
+      ],
+      "nguPhap": [
+        "luong-tu",
+        "ji-duoshao",
+        "luong-tu-lap",
+        "bo-ngu-dong-luong"
+      ]
+    },
+    {
+      "ma": "gioi-tu",
+      "kyHieu": [
+        "介"
+      ],
+      "ten": "Giới từ",
+      "tenTrung": "介词",
+      "pinyin": "jiècí",
+      "emoji": "🧭",
+      "nhom": "chuc-nang",
+      "vaiTro": "Đi kèm danh từ để chỉ nơi chốn, đối tượng: 在 (ở), 和 (với), 对 (đối với), 给 (cho).",
+      "viTri": [
+        "Cụm giới từ (giới từ + danh từ) đứng TRƯỚC động từ chính.",
+        "Không đứng một mình: luôn có danh từ / đại từ theo sau."
+      ],
+      "congThuc": [
+        "Chủ ngữ + 在 + nơi chốn + động từ: 我在学校学习",
+        "Chủ ngữ + 和 / 给 / 对 + người + động từ / tính từ"
+      ],
+      "luuY": [
+        "Khác tiếng Việt: \"ở đâu\", \"với ai\" đặt TRƯỚC động từ: 我在学校学习 = Tôi học ở trường.",
+        "在 vừa là động từ (我在家 = tôi ở nhà) vừa là giới từ: sau cụm 在 + nơi chốn còn động từ khác thì 在 là giới từ."
+      ],
+      "viDu": [
+        {
+          "tu": "1:在",
+          "so": 2,
+          "ghiChu": "在学校 (ở trường) đứng trước động từ 学习."
+        },
+        {
+          "tu": "1:和1",
+          "so": 0,
+          "ghiChu": "和你 (với bạn) đứng trước 说话."
+        },
+        {
+          "tu": "1:对",
+          "so": 2,
+          "ghiChu": "对我 (đối với tôi) đứng trước 很好."
+        }
+      ],
+      "nguPhap": [
+        "trang-ngu",
+        "he-dui",
+        "gei-gen",
+        "li-khoang-cach",
+        "weile",
+        "gioi-tu-3"
+      ]
+    },
+    {
+      "ma": "lien-tu",
+      "kyHieu": [
+        "连"
+      ],
+      "ten": "Liên từ",
+      "tenTrung": "连词",
+      "pinyin": "liáncí",
+      "emoji": "🔗",
+      "nhom": "chuc-nang",
+      "vaiTro": "Nối từ với từ, vế câu với vế câu: 和 (và), 因为…所以… (vì… nên…), 但是 (nhưng), 还是 / 或者 (hay / hoặc).",
+      "viTri": [
+        "和 nối hai danh từ / đại từ: A 和 B.",
+        "Liên từ nối vế câu thường đứng đầu mỗi vế: 因为…，所以…"
+      ],
+      "congThuc": [
+        "Danh từ + 和 + danh từ",
+        "因为 + nguyên nhân，所以 + kết quả",
+        "虽然 …，但是 …"
+      ],
+      "luuY": [
+        "\"Và\" trong tiếng Việt nối được cả câu, còn 和 chủ yếu nối danh từ – không dùng 和 để nối hai câu.",
+        "Câu hỏi lựa chọn dùng 还是; câu kể dùng 或者."
+      ],
+      "viDu": [
+        {
+          "tu": "1:和1",
+          "so": 2,
+          "ghiChu": "猫和狗: 和 nối hai danh từ."
+        },
+        {
+          "tu": "1:和1",
+          "so": 1,
+          "ghiChu": "我和他: 和 nối hai đại từ làm chủ ngữ."
+        }
+      ],
+      "nguPhap": [
+        "he-dui",
+        "yin-wei-suo-yi",
+        "sui-ran",
+        "hoi-lua-chon",
+        "haishi-huozhe"
+      ]
+    },
+    {
+      "ma": "tro-tu",
+      "kyHieu": [
+        "助"
+      ],
+      "ten": "Trợ từ",
+      "tenTrung": "助词",
+      "pinyin": "zhùcí",
+      "emoji": "🪄",
+      "nhom": "chuc-nang",
+      "vaiTro": "Từ nhỏ không có nghĩa riêng, gắn vào từ / câu để thêm ý: 的 (của), 了 (đã / có thay đổi), 吗 (… không?), 呢, 吧.",
+      "viTri": [
+        "Trợ từ ngữ khí (吗, 呢, 吧) đứng CUỐI câu.",
+        "的 đứng giữa phần bổ nghĩa và danh từ: 我的书.",
+        "了, 过 đứng ngay sau động từ (了 còn đứng cuối câu)."
+      ],
+      "congThuc": [
+        "Câu kể + 吗？ → câu hỏi có / không",
+        "Bổ nghĩa + 的 + danh từ",
+        "Động từ + 了 + tân ngữ: 我买了一本书"
+      ],
+      "luuY": [
+        "吗 chỉ dùng cho câu hỏi có / không. Câu đã có 什么, 谁, 哪儿… thì không thêm 吗.",
+        "了 không phải \"thì quá khứ\": nó báo việc đã xảy ra / hoàn thành, hoặc có thay đổi.",
+        "Trợ từ đọc thanh nhẹ: ma, ne, ba, de, le."
+      ],
+      "viDu": [
+        {
+          "tu": "1:吗",
+          "so": 0,
+          "ghiChu": "吗 ở cuối câu biến câu kể thành câu hỏi."
+        },
+        {
+          "tu": "1:的",
+          "so": 0,
+          "ghiChu": "我的手机: 的 nối 我 với danh từ 手机."
+        },
+        {
+          "tu": "1:了",
+          "so": 0,
+          "ghiChu": "了 ngay sau động từ 买: đã mua."
+        }
+      ],
+      "nguPhap": [
+        "cau-hoi-ma",
+        "tro-tu-de",
+        "ne-ba",
+        "ba-phong-doan",
+        "le-xong",
+        "le-thay-doi",
+        "guo-kinh-nghiem",
+        "tro-tu-di"
+      ]
+    },
+    {
+      "ma": "than-tu",
+      "kyHieu": [
+        "叹"
+      ],
+      "ten": "Thán từ",
+      "tenTrung": "叹词",
+      "pinyin": "tàncí",
+      "emoji": "💬",
+      "nhom": "chuc-nang",
+      "vaiTro": "Tiếng gọi, tiếng đáp, tiếng cảm thán: 喂 (a lô, này).",
+      "viTri": [
+        "Đứng riêng ở đầu câu, sau đó thường có dấu phẩy hoặc dấu chấm than."
+      ],
+      "congThuc": [
+        "Thán từ + ， + câu: 喂，你好！"
+      ],
+      "luuY": [
+        "Không nằm trong cấu trúc câu: bỏ đi thì câu vẫn đủ nghĩa."
+      ],
+      "viDu": [
+        {
+          "tu": "1:喂1",
+          "so": 1,
+          "ghiChu": "喂 đứng riêng đầu câu, có dấu phẩy theo sau."
+        }
+      ],
+      "nguPhap": []
+    },
+    {
+      "ma": "phu-to",
+      "kyHieu": [
+        "前缀",
+        "后缀"
+      ],
+      "ten": "Tiền tố & hậu tố",
+      "tenTrung": "词缀",
+      "pinyin": "cízhuì",
+      "emoji": "🧷",
+      "nhom": "khac",
+      "vaiTro": "Phần gắn vào từ khác để tạo từ mới: 第 + số (thứ…), 小 + họ (gọi thân mật), từ chỉ người + 们 (số nhiều), …边 (phía…).",
+      "viTri": [
+        "Tiền tố đứng TRƯỚC: 第一 (thứ nhất), 小李.",
+        "Hậu tố đứng SAU: 我们, 老师们, 前边."
+      ],
+      "congThuc": [
+        "第 + số: 第十",
+        "Đại từ / danh từ chỉ người + 们"
+      ],
+      "luuY": [
+        "们 chỉ dùng cho người; đã có số đếm thì bỏ 们: 三个老师 (không nói 三个老师们)."
+      ],
+      "viDu": [
+        {
+          "tu": "1:第",
+          "so": 0,
+          "ghiChu": "第 + 十: thứ mười."
+        },
+        {
+          "tu": "1:们",
+          "so": 1,
+          "ghiChu": "老师们: các thầy cô."
+        }
+      ],
+      "nguPhap": [
+        "muc-do-tien-to",
+        "phuong-vi"
+      ]
+    },
+    {
+      "ma": "cum-tu",
+      "kyHieu": [
+        "cụm"
+      ],
+      "ten": "Cụm từ cố định",
+      "tenTrung": "短语",
+      "pinyin": "duǎnyǔ",
+      "emoji": "🧩",
+      "nhom": "khac",
+      "vaiTro": "Nhóm từ dùng như một khối, nên học thuộc cả cụm: 你好, 打电话, 做饭.",
+      "viTri": [
+        "Dùng như một từ: cụm động từ (打电话, 做饭) đứng ở chỗ của động từ."
+      ],
+      "congThuc": [
+        "Chủ ngữ + (trạng ngữ) + cụm động từ: 他在打电话"
+      ],
+      "luuY": [
+        "Nhiều cụm là động từ + tân ngữ nên tách ra được để chèn thêm: 打电话 → 打了一个电话."
+      ],
+      "viDu": [
+        {
+          "tu": "1:打电话",
+          "so": 0,
+          "ghiChu": "在 + 打电话: đang gọi điện."
+        },
+        {
+          "tu": "1:做饭",
+          "so": 0,
+          "ghiChu": "会 + 做饭: cụm 做饭 đứng ở chỗ động từ."
+        }
+      ],
+      "nguPhap": [
+        "ly-hop"
+      ]
+    }
+  ]
+}

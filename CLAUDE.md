@@ -35,6 +35,12 @@
     phiên âm / bộ thủ; tiến độ `tienDo.nenTang.dung/sai` theo "d:zh", "v:ang", "b:氵". Dữ liệu `data/nen-tang.json` tạo từ
     `cong-cu/nguon-nen-tang/*.txt` bằng `python -X utf8 cong-cu/tao-nen-tang.py` (cần makemeahanzi-dictionary.txt và
     Unihan_Readings.txt trong `cong-cu/tu-dien-doi-chieu/`; ví dụ nghe lấy tự động, bỏ chữ đa âm).
+  - `js/man-tu-loai.js` (Từ loại & trật tự câu, `#/chu-am/tu-loai[/<mã>]`, tab thứ 4 của Chữ & âm): dữ liệu soạn tay `data/tu-loai.json`
+    (13 loại; ví dụ TRỎ tới câu có sẵn {tu, so} – không chép câu mới; nguPhap = mã điểm). Kiểm tra: `python -X utf8 cong-cu/kiem-tra-tu-loai.py`
+    (báo cả từ loại mới trong hsk*.json chưa có hướng dẫn). Nhãn từ loại trên thẻ = `nutTuLoai()` (giao-dien.js) → app.js `data-tu-loai` → moTuLoai().
+  - Kế hoạch đang làm (duyệt 2026-11-20): A từ loại (XONG) → B Ôn luyện tự chấm bằng câu hỏi thật (BỎ HẲN lật thẻ Quên/Khó/Nhớ/Dễ)
+    → C bài = các chặng ~5 từ: Nghe → Nói theo → Viết → Ghép → Đọc, rồi Ngữ pháp, Đọc hiểu, Kiểm tra → D ngữ pháp mở sau từ vựng,
+    chạm từ xem nghĩa, sửa dần câu có từ chưa học → E soạn đọc hiểu. Lộ trình CHỈ theo sách; "Theo chủ đề" thành danh mục tra cứu.
   - `js/man-luyen-noi.js` (Nói & phát âm, `#/luyen-noi[/doc-tu|doc-cau|nhac-lai|noi-nghia]`, ô rộng đầu "Luyện kỹ năng" của Ôn luyện;
     nút "🎤 Đọc thử" trên mặt sau thẻ từ → moChamNhanh qua `data-noi-thu`). `js/nhan-giong.js`: Web Speech SpeechRecognition zh-CN
     (cần mạng) + MediaRecorder ghi âm tự chấm khi không có nhận dạng. `js/cham-phat-am.js`: dóng hàng chữ nghe được với câu đúng theo

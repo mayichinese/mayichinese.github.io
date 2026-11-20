@@ -14,10 +14,10 @@ import { layTienDo, caiDat, luu } from './luu-tru.js';
 import { loaiThe } from './lich-on.js';
 import {
   layTu, tatCaTu, nghiaNgan, danhSachBai, timBaiTheoMa, cheDoBai, coTheoSach, tenSach,
-  nhanBai, baiSachCuaTu, baiSachCuaNguPhap, cacCapCoDuLieu, coChuDe, chuDeCuaMotTu,
+  nhanBai, baiSachCuaTu, baiSachCuaNguPhap, cacCapCoDuLieu, coChuDe, chuDeCuaMotTu, TEN_TU_LOAI,
 } from './du-lieu.js';
 import { demHomNay, tuChuaHoc, baiDangHoc } from './phien-hoc.js';
-import { esc, boDau, htmlMatSau, dongTu, CHU_THICH_CHAM, CHU_THICH_MAU_THANH } from './giao-dien.js';
+import { esc, boDau, htmlMatSau, dongTu, nutTuLoai, CHU_THICH_CHAM, CHU_THICH_MAU_THANH } from './giao-dien.js';
 import { bieuTuong } from './bieu-tuong.js';
 import { taiNguPhap } from './man-ngu-phap.js';
 import { capMo, capHienTai, htmlCachMoKhoa } from './cap-do.js';
@@ -257,6 +257,11 @@ export function veTu(khung, khoa) {
       <div class="chu-phu nho">${tu.cap > 1
         ? `HSK ${tu.cap} · Bài ${tu.bai} trong sách 《新HSK教程 ${tu.cap}》${chuDeCuaMotTu(tu) ? ` · chủ đề Bài ${chuDeCuaMotTu(tu).so}: ${esc(chuDeCuaMotTu(tu).ten)}` : ''}`
         : `HSK 1 · Bài ${tu.bai} (theo chủ đề)${baiSach ? ` · Bài ${baiSach} trong sách` : ''}`}</div>
-      <div class="chu-phu nho">Danh sách chính thức: STT ${tu.soThuTu} · từ loại ${esc(tu.tuLoaiChinhThuc || '(cụm từ)')}</div>
+      <div class="chu-phu nho">Danh sách chính thức: STT ${tu.soThuTu} · từ loại ${tu.tuLoaiChinhThuc
+        ? tu.tuLoaiChinhThuc.split('、').map((k) => {
+          const goc = k.replace(/[（）()]/g, '');
+          return TEN_TU_LOAI[goc] ? nutTuLoai(goc, khoa, '') : esc(k);
+        }).join(' ')
+        : nutTuLoai('cụm', khoa, '')}</div>
     </div>`;
 }

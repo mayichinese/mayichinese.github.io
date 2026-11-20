@@ -3,6 +3,7 @@
 //   #/chu-am/phien-am  Phiên âm: bảng thanh điệu, 23 âm đầu, 35 vần (chạm để nghe, mẹo phát âm so với tiếng Việt)
 //   #/chu-am/net       Nét cơ bản (18 nét) + 7 quy tắc thứ tự nét (xem hoạt cảnh viết)
 //   #/chu-am/bo-thu    45 bộ thủ hay gặp, kèm chữ ví dụ trong HSK 1–3 (bộ thủ được tô màu trong chữ)
+//   #/chu-am/tu-loai   Từ loại & trật tự câu (man-tu-loai.js; trang một loại: #/chu-am/tu-loai/<mã>)
 //   #/chu-am/luyen/phien-am  10 câu: nghe rồi chọn phiên âm đúng (đáp án nhiễu là âm dễ nhầm: zh/z, an/ang…)
 //   #/chu-am/luyen/bo-thu    10 câu: bộ → nghĩa, nghĩa → bộ, chữ → bộ
 // Dữ liệu: data/nen-tang.json (tạo bởi cong-cu/tao-nen-tang.py). Nét chữ: data/net-chu-*.json.
@@ -15,6 +16,7 @@ import { esc, batDongHo, moHopThoai, nutLoa } from './giao-dien.js';
 import { bieuTuong } from './bieu-tuong.js';
 import { toMauPinyin } from './pinyin.js';
 import { taiNetChu } from './net-chu.js';
+import { htmlTongQuanTuLoai } from './man-tu-loai.js';
 
 const SO_CAU = 10;
 const DU_THAO = 5;   // trả lời đúng 5 lần → ô tô vàng "đã thạo"
@@ -50,12 +52,21 @@ const CAC_PHAN = [
   { ma: 'phien-am', ten: '🔤 Phiên âm' },
   { ma: 'net', ten: '✏️ Nét cơ bản' },
   { ma: 'bo-thu', ten: '🧱 Bộ thủ' },
+  { ma: 'tu-loai', ten: '🧩 Từ loại' },
 ];
 let phanXem = 'phien-am';
 
 export async function veChuAm(khung, phan) {
   if (CAC_PHAN.some((p) => p.ma === phan)) phanXem = phan;
   khung.innerHTML = '<div class="dang-tai">Đang tải…</div>';
+  const tab = `<div class="nhom-chon chon-phan-chu-am">${CAC_PHAN.map((p) => `
+    <a href="#/chu-am/${p.ma}" class="${p.ma === phanXem ? 'dang-chon' : ''}">${p.ten}</a>`).join('')}</div>`;
+  if (phanXem === 'tu-loai') {
+    let html;
+    try { html = await htmlTongQuanTuLoai(); } catch (e) { html = `<div class="loi">${esc(e.message)}</div>`; }
+    if (khung.isConnected) khung.innerHTML = tab + html;
+    return;
+  }
   let dl;
   let net = {};
   try {
@@ -64,8 +75,6 @@ export async function veChuAm(khung, phan) {
   } catch (e) { khung.innerHTML = `<div class="loi">${esc(e.message)}</div>`; return; }
   if (!khung.isConnected) return;
 
-  const tab = `<div class="nhom-chon chon-phan-chu-am">${CAC_PHAN.map((p) => `
-    <a href="#/chu-am/${p.ma}" class="${p.ma === phanXem ? 'dang-chon' : ''}">${p.ten}</a>`).join('')}</div>`;
   if (phanXem === 'net') khung.innerHTML = tab + htmlNet(dl, net);
   else if (phanXem === 'bo-thu') khung.innerHTML = tab + htmlBoThu(dl, net);
   else khung.innerHTML = tab + htmlPhienAm(dl);
