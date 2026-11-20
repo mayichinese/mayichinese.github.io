@@ -29,15 +29,15 @@
 - 有 nghĩa là "có" (sở hữu): 我有一个哥哥 – tôi có một anh trai.
 - Phủ định của 有 LUÔN là 没有 (nói ngắn: 没), không bao giờ là 不有.
 - Hỏi: 你有……吗？ hoặc 你有没有……？
-! Không nói 我不有钱 – phải nói 我没有钱.
-! "Có rất nhiều" nói là 有很多: 她有很多朋友 (cô ấy có rất nhiều bạn).
+! Không nói 我不有妹妹 – phải nói 我没有妹妹.
+! "Có rất nhiều" nói là 有很多: 她有很多同学 (cô ấy có rất nhiều bạn học).
 > 我/有/一个/哥哥。 | Wǒ yǒu yí gè gēge. | Tôi có một anh trai.
-> 她/有/很多/朋友。 | Tā yǒu hěn duō péngyou. | Cô ấy có rất nhiều bạn.
-> 我/没有/手机。 | Wǒ méiyǒu shǒujī. | Tôi không có điện thoại.
+> 他/有/两个/女儿。 | Tā yǒu liǎng gè nǚ'ér. | Anh ấy có hai cô con gái.
+> 我/没有/妹妹。 | Wǒ méiyǒu mèimei. | Tôi không có em gái.
 > 你/有/中文/名字/吗？ | Nǐ yǒu Zhōngwén míngzi ma? | Bạn có tên tiếng Trung không?
-? 我___有钱。 | 没 | 不; 吗; 的 | Wǒ méi yǒu qián. | Tôi không có tiền.
+? 我___有妹妹。 | 没 | 不; 吗; 的 | Wǒ méi yǒu mèimei. | Tôi không có em gái.
 ? 他___两个妹妹。 | 有 | 是; 很; 在 | Tā yǒu liǎng gè mèimei. | Anh ấy có hai em gái.
-? 你有___有电脑？ | 没 | 不; 很; 吗 | Nǐ yǒu méiyǒu diànnǎo? | Bạn có máy tính không?
+? 你有___有哥哥？ | 没 | 不; 很; 吗 | Nǐ yǒu méiyǒu gēge? | Bạn có anh trai không?
 
 ## cau-ton-tai
 @ Câu "ở đâu có gì" (câu tồn tại)
@@ -67,14 +67,14 @@
 - Với 这, 那, 几 cũng cần lượng từ: 这个人, 那本书, 几个学生.
 ! Không nói 三人, 一书 – phải có lượng từ: 三个人, 一本书.
 ! Chưa nhớ lượng từ riêng thì 个 dùng được với rất nhiều danh từ, nhưng sách nên dùng 本, quần áo dùng 件.
-> 我/有/三本/中文/书。 | Wǒ yǒu sān běn Zhōngwén shū. | Tôi có ba quyển sách tiếng Trung.
+> 我/有/三个/孩子。 | Wǒ yǒu sān gè háizi. | Tôi có ba đứa con.
 > 我家/有/四口/人。 | Wǒ jiā yǒu sì kǒu rén. | Nhà tôi có bốn người.
-> 这件/衣服/很/漂亮。 | Zhè jiàn yīfu hěn piàoliang. | Bộ quần áo này rất đẹp.
-> 那个/人/是/谁？ | Nàge rén shì shéi? | Người kia là ai?
-> 我/喝/一杯/茶。 | Wǒ hē yì bēi chá. | Tôi uống một cốc trà.
-? 我有一___书。 | 本 | 只; 件; 口 | Wǒ yǒu yì běn shū. | Tôi có một quyển sách.
+> 你/有/几个/孩子？ | Nǐ yǒu jǐ gè háizi? | Bạn có mấy đứa con?
+> 他/有/一个/女儿/和/一个/儿子。 | Tā yǒu yí gè nǚ'ér hé yí gè érzi. | Anh ấy có một con gái và một con trai.
+~ 他/有/一个/儿子/和/一个/女儿。
+? 我有三___孩子。 | 个 | 口; 本; 的 | Wǒ yǒu sān gè háizi. | Tôi có ba đứa con.
 ? 我家有五___人。 | 口 | 本; 只; 件 | Wǒ jiā yǒu wǔ kǒu rén. | Nhà tôi có năm người.
-? 这___衣服很漂亮。 | 件 | 本; 口; 只 | Zhè jiàn yīfu hěn piàoliang. | Bộ quần áo này rất đẹp.
+? 你有几___哥哥？ | 个 | 口; 本; 的 | Nǐ yǒu jǐ gè gēge? | Bạn có mấy anh trai?
 
 ## hai-er-liang
 @ 二 và 两 – cùng là "hai" nhưng dùng khác nhau
@@ -87,9 +87,9 @@
 ! Không nói 二个人 – phải nói 两个人.
 ! Số 12, 20, 22… vẫn dùng 二: 十二个人 (12 người), không nói 十两个人.
 > 我/有/两个/姐姐。 | Wǒ yǒu liǎng gè jiějie. | Tôi có hai chị gái.
-> 桌子上/有/两杯/茶。 | Zhuōzi shang yǒu liǎng bēi chá. | Trên bàn có hai cốc trà.
-> 今天/是/十二/号。 | Jīntiān shì shí'èr hào. | Hôm nay là ngày 12.
-> 他/是/我/的/第二个/老师。 | Tā shì wǒ de dì-èr gè lǎoshī. | Thầy ấy là giáo viên thứ hai của tôi.
-? 我有___个弟弟。 | 两 | 二; 第; 的 | Wǒ yǒu liǎng gè dìdi. | Tôi có hai em trai.
-? 今天是十___号。 | 二 | 两; 第; 个 | Jīntiān shì shí'èr hào. | Hôm nay là ngày 12.
-? 他是我的第___个老师。 | 二 | 两; 个; 本 | Tā shì wǒ de dì-èr gè lǎoshī. | Thầy ấy là giáo viên thứ hai của tôi.
+> 他/有/两个/孩子。 | Tā yǒu liǎng gè háizi. | Anh ấy có hai đứa con.
+> 我/女儿/十二/岁。 | Wǒ nǚ'ér shí'èr suì. | Con gái tôi 12 tuổi.
+> 我/哥哥/二十/岁。 | Wǒ gēge èrshí suì. | Anh trai tôi 20 tuổi.
+? 我有___个哥哥。 | 两 | 二; 第; 的 | Wǒ yǒu liǎng gè gēge. | Tôi có hai anh trai.
+? 我女儿十___岁。 | 二 | 两; 个; 口 | Wǒ nǚ'ér shí'èr suì. | Con gái tôi 12 tuổi.
+? 他有___个女儿。 | 两 | 二; 口; 的 | Tā yǒu liǎng gè nǚ'ér. | Anh ấy có hai cô con gái.

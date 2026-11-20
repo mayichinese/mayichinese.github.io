@@ -15,11 +15,11 @@
 ! Hỏi số lớn (học sinh cả trường, giá tiền) dùng 多少, không dùng 几.
 > 你/有/几个/哥哥？ | Nǐ yǒu jǐ gè gēge? | Bạn có mấy anh trai?
 > 你家/有/几口/人？ | Nǐ jiā yǒu jǐ kǒu rén? | Nhà bạn có mấy người?
-> 你们/学校/有/多少/学生？ | Nǐmen xuéxiào yǒu duōshao xuéshēng? | Trường các bạn có bao nhiêu học sinh?
-> 这个/苹果/多少/钱？ | Zhège píngguǒ duōshao qián? | Quả táo này bao nhiêu tiền?
+> 老师，/你/有/多少/学生？ | Lǎoshī, nǐ yǒu duōshao xuéshēng? | Thưa thầy, thầy có bao nhiêu học sinh?
+> 中国/有/多少/人？ | Zhōngguó yǒu duōshao rén? | Trung Quốc có bao nhiêu người?
 > 你/女儿/几/岁？ | Nǐ nǚ'ér jǐ suì? | Con gái bạn mấy tuổi?
 ? 你有___个妹妹？ | 几 | 多; 什么; 谁 | Nǐ yǒu jǐ gè mèimei? | Bạn có mấy em gái?
-? 这件衣服___钱？ | 多少 | 几; 什么; 谁 | Zhè jiàn yīfu duōshao qián? | Bộ quần áo này bao nhiêu tiền?
+? 中国有___人？ | 多少 | 几; 哪; 很 | Zhōngguó yǒu duōshao rén? | Trung Quốc có bao nhiêu người?
 ? 你儿子___岁？ | 几 | 什么; 哪; 谁 | Nǐ érzi jǐ suì? | Con trai bạn mấy tuổi?
 
 ## ngay-gio
@@ -30,17 +30,17 @@
 - Ngày tháng nói theo thứ tự từ lớn đến nhỏ: năm → tháng → ngày → thứ. Ngày 19 tháng 11 là 十一月十九号.
 - Năm đọc từng chữ số: 二零二六年 (èr líng èr liù nián).
 - Thứ: 星期一 … 星期六 là thứ Hai … thứ Bảy; Chủ nhật là 星期天 hoặc 星期日.
-- Giờ: 点 = giờ, 分 = phút, 半 = rưỡi: 八点 (8 giờ), 八点十分 (8 giờ 10), 八点半 (8 giờ rưỡi).
+- Giờ (sẽ gặp từ ở Bài 7): 点 = giờ, 分 = phút, 半 = rưỡi: 八点 (8 giờ), 八点十分 (8 giờ 10), 八点半 (8 giờ rưỡi).
 - Nói ngày thường dùng 号; 日 hay dùng trong văn viết.
 ! Ngược tiếng Việt: "ngày 19 tháng 11" là 十一月十九号 – tháng đứng trước, ngày đứng sau.
 ! 星期一 là thứ HAI (không phải "thứ Một"): số sau 星期 nhỏ hơn số "thứ" của tiếng Việt một đơn vị.
 > 今天/是/十一月/十九号。 | Jīntiān shì shíyī yuè shíjiǔ hào. | Hôm nay là ngày 19 tháng 11.
-> 明天/是/星期五。 | Míngtiān shì xīngqīwǔ. | Ngày mai là thứ Sáu.
-> 现在/八点/半。 | Xiànzài bā diǎn bàn. | Bây giờ là tám giờ rưỡi.
-> 我/早上/七点/起床。 | Wǒ zǎoshang qī diǎn qǐchuáng. | Tôi dậy lúc bảy giờ sáng.
-~ 早上/七点/我/起床。
-? 明天是星期___。 | 六 | 号; 点; 月 | Míngtiān shì xīngqīliù. | Ngày mai là thứ Bảy.
-? 现在三点___。 | 半 | 号; 年; 星期 | Xiànzài sān diǎn bàn. | Bây giờ là ba giờ rưỡi.
+> 今天/是/几月/几号？ | Jīntiān shì jǐ yuè jǐ hào? | Hôm nay là ngày mấy tháng mấy?
+> 今天/星期天，/我/休息。 | Jīntiān xīngqītiān, wǒ xiūxi. | Hôm nay Chủ nhật, tôi nghỉ.
+> 我/星期六/做饭。 | Wǒ xīngqīliù zuò fàn. | Thứ Bảy tôi nấu cơm.
+~ 星期六/我/做饭。
+? 今天是星期___。 | 六 | 号; 点; 月 | Jīntiān shì xīngqīliù. | Hôm nay là thứ Bảy.
+? 今天是___月几号？ | 几 | 多; 哪; 什么 | Jīntiān shì jǐ yuè jǐ hào? | Hôm nay là ngày mấy tháng mấy?
 ? 今天是五月一___。 | 号 | 点; 半; 星期 | Jīntiān shì wǔ yuè yī hào. | Hôm nay là ngày 1 tháng 5.
 
 ## trang-ngu
@@ -76,12 +76,12 @@
 ! Nói tuổi không cần 有 hay 是: 我二十岁 (tôi 20 tuổi), không nói 我有二十岁.
 > 今天/星期四。 | Jīntiān xīngqīsì. | Hôm nay thứ Năm.
 > 我/二十/岁。 | Wǒ èrshí suì. | Tôi hai mươi tuổi.
-> 现在/十点/十分。 | Xiànzài shí diǎn shí fēn. | Bây giờ là mười giờ mười phút.
-> 这个/苹果/三/块。 | Zhège píngguǒ sān kuài. | Quả táo này ba đồng.
+> 今天/五月/一号。 | Jīntiān wǔ yuè yī hào. | Hôm nay ngày 1 tháng 5.
+> 我/女儿/今年/五/岁。 | Wǒ nǚ'ér jīnnián wǔ suì. | Năm nay con gái tôi năm tuổi.
 > 今天/不是/星期天。 | Jīntiān bú shì xīngqītiān. | Hôm nay không phải Chủ nhật.
 ? 今天不___星期一。 | 是 | 有; 很; 吗 | Jīntiān bú shì xīngqīyī. | Hôm nay không phải thứ Hai.
 ? 我妹妹八___。 | 岁 | 年; 号; 点 | Wǒ mèimei bā suì. | Em gái tôi tám tuổi.
-? 这本书二十___。 | 块 | 岁; 号; 点 | Zhè běn shū èrshí kuài. | Quyển sách này hai mươi đồng.
+? 今天五月十___。 | 号 | 岁; 点; 年 | Jīntiān wǔ yuè shí hào. | Hôm nay ngày 10 tháng 5.
 
 ## tien
 @ Nói về tiền và hỏi giá

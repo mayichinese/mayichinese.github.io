@@ -1,15 +1,15 @@
 BÁO CÁO TỪ CHƯA HỌC TRONG CÂU (tạo bởi cong-cu/kiem-tra-tu-chua-hoc.py – không sửa tay)
 
-NGỮ PHÁP: 301/870 câu còn từ chưa học (hoặc chữ ngoài từ điển) tính tới bài của điểm.
+NGỮ PHÁP: 256/869 câu còn từ chưa học (hoặc chữ ngoài từ điển) tính tới bài của điểm.
 Câu ví dụ của từ dùng được cho chặng (toàn từ đã học tới bài đó):
   HSK 1 · Bài 1    ngữ pháp:   0/  0 câu cần sửa · ví dụ từ dùng được:   8/ 24
   HSK 1 · Bài 2    ngữ pháp:   0/  7 câu cần sửa · ví dụ từ dùng được:   9/ 29
   HSK 1 · Bài 3    ngữ pháp:   0/ 30 câu cần sửa · ví dụ từ dùng được:   8/ 46
-  HSK 1 · Bài 4    ngữ pháp:  29/ 44 câu cần sửa · ví dụ từ dùng được:  21/ 79
-  HSK 1 · Bài 5    ngữ pháp:  16/ 23 câu cần sửa · ví dụ từ dùng được:  12/ 43
+  HSK 1 · Bài 4    ngữ pháp:   0/ 36 câu cần sửa · ví dụ từ dùng được:  21/ 79
+  HSK 1 · Bài 5    ngữ pháp:   0/ 15 câu cần sửa · ví dụ từ dùng được:  12/ 43
   HSK 1 · Bài 6    ngữ pháp:  18/ 22 câu cần sửa · ví dụ từ dùng được:  11/ 39
-  HSK 1 · Bài 7    ngữ pháp:   7/  8 câu cần sửa · ví dụ từ dùng được:  31/ 50
-  HSK 1 · Bài 8    ngữ pháp:  11/ 16 câu cần sửa · ví dụ từ dùng được:  12/ 36
+  HSK 1 · Bài 7    ngữ pháp:   7/ 15 câu cần sửa · ví dụ từ dùng được:  31/ 50
+  HSK 1 · Bài 8    ngữ pháp:  11/ 24 câu cần sửa · ví dụ từ dùng được:  12/ 36
   HSK 1 · Bài 9    ngữ pháp:   3/  7 câu cần sửa · ví dụ từ dùng được:  26/ 40
   HSK 1 · Bài 10   ngữ pháp:   5/ 14 câu cần sửa · ví dụ từ dùng được:  28/ 44
   HSK 1 · Bài 11   ngữ pháp:   4/ 15 câu cần sửa · ví dụ từ dùng được:  26/ 46
@@ -52,51 +52,6 @@ Câu ví dụ của từ dùng được cho chặng (toàn từ đã học tới
   HSK 3 · Bài 18   ngữ pháp:   2/ 21 câu cần sửa · ví dụ từ dùng được:  45/ 53
 
 CHI TIẾT CÂU NGỮ PHÁP CẦN SỬA (theo thứ tự bài):
-[HSK 1 · Bài 4] cau-co-you: 她有很多朋友。   ← 朋友(HSK1-B9)
-[HSK 1 · Bài 4] cau-co-you: 我没有手机。   ← 手机(HSK1-B6)
-[HSK 1 · Bài 4] cau-co-you: 我没有钱。   ← 钱(HSK1-B10)
-[HSK 1 · Bài 4] cau-co-you: 你有没有电脑？   ← 电脑(HSK1-B5)
-[HSK 1 · Bài 4] luong-tu: 我有三本中文书。   ← 本(HSK1-B9), 书(HSK1-B9)
-[HSK 1 · Bài 4] luong-tu: 这件衣服很漂亮。   ← 件(HSK1-B10), 衣服(HSK1-B10), 漂亮(HSK1-B8)
-[HSK 1 · Bài 4] luong-tu: 那个人是谁？   ← 那个(HSK1-B9)
-[HSK 1 · Bài 4] luong-tu: 我喝一杯茶。   ← 喝(HSK1-B12), 茶(HSK1-B13), 杯(ngoài từ điển)
-[HSK 1 · Bài 4] luong-tu: 我有一本书。   ← 本(HSK1-B9), 书(HSK1-B9)
-[HSK 1 · Bài 4] luong-tu: 这件衣服很漂亮。   ← 件(HSK1-B10), 衣服(HSK1-B10), 漂亮(HSK1-B8)
-[HSK 1 · Bài 4] hai-er-liang: 桌子上有两杯茶。   ← 桌子(HSK1-B8), 上(HSK1-B9), 茶(HSK1-B13), 杯(ngoài từ điển)
-[HSK 1 · Bài 4] hai-er-liang: 今天是十二号。   ← 今天(HSK1-B5), 号(HSK1-B5)
-[HSK 1 · Bài 4] hai-er-liang: 他是我的第二个老师。   ← 第(HSK1-B9)
-[HSK 1 · Bài 4] hai-er-liang: 我有两个弟弟。   ← 弟弟(HSK1-B11)
-[HSK 1 · Bài 4] hai-er-liang: 今天是十二号。   ← 今天(HSK1-B5), 号(HSK1-B5)
-[HSK 1 · Bài 4] hai-er-liang: 他是我的第二个老师。   ← 第(HSK1-B9)
-[HSK 1 · Bài 4] ji-duoshao: 你们学校有多少学生？   ← 学校(HSK1-B8)
-[HSK 1 · Bài 4] ji-duoshao: 这个苹果多少钱？   ← 这个(HSK1-B13), 苹果(HSK1-B10), 钱(HSK1-B10)
-[HSK 1 · Bài 4] ji-duoshao: 这件衣服多少钱？   ← 件(HSK1-B10), 衣服(HSK1-B10), 钱(HSK1-B10)
-[HSK 1 · Bài 4] ne-ba: 我的手机呢？   ← 手机(HSK1-B6)
-[HSK 1 · Bài 4] ne-ba: 我们去吃饭吧。   ← 去(HSK1-B6), 吃(HSK1-B6), 饭(HSK1-B8), 吧(HSK1-B7)
-[HSK 1 · Bài 4] ne-ba: 你是老师吧？   ← 吧(HSK1-B7)
-[HSK 1 · Bài 4] ne-ba: 我们去吃饭吧。   ← 去(HSK1-B6), 吃(HSK1-B6), 饭(HSK1-B8), 吧(HSK1-B7)
-[HSK 1 · Bài 4] ne-ba: 我的书呢？   ← 书(HSK1-B9)
-[HSK 1 · Bài 4] he-dui: 我和妈妈去商店。   ← 去(HSK1-B6), 商店(HSK1-B10)
-[HSK 1 · Bài 4] he-dui: 爸爸和妈妈都是医生。   ← 都(HSK1-B14), 医生(HSK1-B8)
-[HSK 1 · Bài 4] he-dui: 我想和你说话。   ← 说话(HSK1-B14)
-[HSK 1 · Bài 4] he-dui: 我和妈妈都是老师。   ← 都(HSK1-B14)
-[HSK 1 · Bài 4] he-dui: 我想和你说话。   ← 说话(HSK1-B14)
-[HSK 1 · Bài 5] ngay-gio: 明天是星期五。   ← 明天(HSK1-B6)
-[HSK 1 · Bài 5] ngay-gio: 现在八点半。   ← 现在(HSK1-B7), 点(HSK1-B7), 半(HSK1-B7)
-[HSK 1 · Bài 5] ngay-gio: 我早上七点起床。   ← 早上(HSK1-B7), 点(HSK1-B7), 起床(HSK1-B11)
-[HSK 1 · Bài 5] ngay-gio: 明天是星期六。   ← 明天(HSK1-B6)
-[HSK 1 · Bài 5] ngay-gio: 现在三点半。   ← 现在(HSK1-B7), 点(HSK1-B7), 半(HSK1-B7)
-[HSK 1 · Bài 5] vi-ngu-danh-tu: 现在十点十分。   ← 现在(HSK1-B7), 点(HSK1-B7), 分(HSK1-B7)
-[HSK 1 · Bài 5] vi-ngu-danh-tu: 这个苹果三块。   ← 这个(HSK1-B13), 苹果(HSK1-B10), 块(HSK1-B10)
-[HSK 1 · Bài 5] vi-ngu-danh-tu: 这本书二十块。   ← 本(HSK1-B9), 书(HSK1-B9), 块(HSK1-B10)
-[HSK 1 · Bài 5] hui-neng: 我会说汉语。   ← 说(HSK1-B11), 汉语(HSK1-B14)
-[HSK 1 · Bài 5] hui-neng: 他不会开车。   ← 开车(HSK1-B11)
-[HSK 1 · Bài 5] hui-neng: 你明天能来吗？   ← 明天(HSK1-B6), 能(HSK1-B8), 来(HSK1-B12)
-[HSK 1 · Bài 5] hui-neng: 我今天不能去学校。   ← 能(HSK1-B8), 去(HSK1-B6), 学校(HSK1-B8)
-[HSK 1 · Bài 5] hui-neng: 明天会下雨。   ← 明天(HSK1-B6), 下雨(HSK1-B12)
-[HSK 1 · Bài 5] hui-neng: 我会说汉语。   ← 说(HSK1-B11), 汉语(HSK1-B14)
-[HSK 1 · Bài 5] hui-neng: 他不会开车。   ← 开车(HSK1-B11)
-[HSK 1 · Bài 5] hui-neng: 你明天能来吗？   ← 明天(HSK1-B6), 能(HSK1-B8), 来(HSK1-B12)
 [HSK 1 · Bài 6] xiang-yao: 我要喝茶。   ← 要(HSK1-B11), 喝(HSK1-B12), 茶(HSK1-B13)
 [HSK 1 · Bài 6] xiang-yao: 明天我要去医院。   ← 要(HSK1-B11), 医院(HSK1-B7)
 [HSK 1 · Bài 6] xiang-yao: 我不想看电视。   ← 看(HSK1-B7), 电视(HSK1-B9)

@@ -13,14 +13,16 @@
 - 对 + người = đối với: 老师对我们很好 (thầy giáo đối xử với chúng tôi rất tốt).
 ! 和 chỉ nối danh từ, không nối hai câu như chữ "và" trong tiếng Việt: "Tôi là học sinh và anh ấy là giáo viên" không dùng 和.
 ! 对 + người đứng TRƯỚC tính từ: 他对我很好, không nói 他很好对我.
-> 我/和/妈妈/去/商店。 | Wǒ hé māma qù shāngdiàn. | Tôi và mẹ đi cửa hàng.
-> 爸爸/和/妈妈/都/是/医生。 | Bàba hé māma dōu shì yīshēng. | Bố và mẹ đều là bác sĩ.
-~ 妈妈/和/爸爸/都/是/医生。
-> 我/想/和/你/说话。 | Wǒ xiǎng hé nǐ shuōhuà. | Tôi muốn nói chuyện với bạn.
+> 爸爸/和/妈妈/很/忙。 | Bàba hé māma hěn máng. | Bố và mẹ rất bận.
+~ 妈妈/和/爸爸/很/忙。
+> 我/和/她/是/同学。 | Wǒ hé tā shì tóngxué. | Tôi và cô ấy là bạn học.
+~ 她/和/我/是/同学。
+> 我/有/一个/哥哥/和/一个/妹妹。 | Wǒ yǒu yí gè gēge hé yí gè mèimei. | Tôi có một anh trai và một em gái.
+~ 我/有/一个/妹妹/和/一个/哥哥。
 > 老师/对/我们/很/好。 | Lǎoshī duì wǒmen hěn hǎo. | Thầy giáo đối xử với chúng tôi rất tốt.
-? 我___妈妈都是老师。 | 和 | 很; 对; 是 | Wǒ hé māma dōu shì lǎoshī. | Tôi và mẹ đều là giáo viên.
+? 爸爸___妈妈很忙。 | 和 | 很; 对; 是 | Bàba hé māma hěn máng. | Bố và mẹ rất bận.
 ? 她___我很好。 | 对 | 是; 的; 在 | Tā duì wǒ hěn hǎo. | Cô ấy đối xử với tôi rất tốt.
-? 我想___你说话。 | 和 | 是; 很; 的 | Wǒ xiǎng hé nǐ shuōhuà. | Tôi muốn nói chuyện với bạn.
+? 我___她是同学。 | 和 | 是; 很; 的 | Wǒ hé tā shì tóngxué. | Tôi và cô ấy là bạn học.
 
 ## phuong-vi
 @ Từ chỉ phương hướng: 上, 下, 里, 外, 前, 后 (+ 边)

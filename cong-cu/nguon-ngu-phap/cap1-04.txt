@@ -29,22 +29,23 @@
 § 词类 · 动词 · 能愿动词“会、能”
 = 会 + động từ: biết làm (kỹ năng học mới có)
 = 能 + động từ: có thể làm (hoàn cảnh, sức khỏe cho phép)
-- 会: kỹ năng phải học mới biết: 我会说汉语, 他会开车.
-- 能: làm được trong hoàn cảnh cụ thể (đủ sức, đủ điều kiện): 你明天能来吗？
+- 会: kỹ năng phải học mới biết: 我会做饭, 她会做饺子.
+- 能: làm được trong hoàn cảnh cụ thể (đủ sức, đủ điều kiện): 你明天能去学校吗？
 - Phủ định: 不会 (không biết làm), 不能 (không thể, không làm được).
-- 会 còn có nghĩa "sẽ" (dự đoán): 明天会下雨 (ngày mai sẽ mưa).
+- 会 còn có nghĩa "sẽ" (dự đoán): 她明天会去超市 (ngày mai cô ấy sẽ đi siêu thị).
 ! "Tôi biết nói tiếng Trung" là 我会说汉语 – không dùng 知道 (知道 = biết một thông tin, một sự việc).
 ! Biết bơi, biết lái xe nhưng hôm nay bận nên không đi được → dùng 不能, không dùng 不会.
-> 我/会/说/汉语。 | Wǒ huì shuō Hànyǔ. | Tôi biết nói tiếng Trung.
-> 他/不会/开车。 | Tā bú huì kāichē. | Anh ấy không biết lái xe.
-> 你/明天/能/来/吗？ | Nǐ míngtiān néng lái ma? | Ngày mai bạn đến được không?
-~ 明天/你/能/来/吗？
-> 我/今天/不能/去/学校。 | Wǒ jīntiān bù néng qù xuéxiào. | Hôm nay tôi không đi học được.
-~ 今天/我/不能/去/学校。
-> 明天/会/下雨。 | Míngtiān huì xià yǔ. | Ngày mai sẽ mưa.
-? 我___说汉语。 | 会 | 很; 吗; 的 | Wǒ huì shuō Hànyǔ. | Tôi biết nói tiếng Trung.
-? 他不___开车。 | 会 | 有; 很; 吗 | Tā bú huì kāichē. | Anh ấy không biết lái xe.
-? 你明天___来吗？ | 能 | 很; 吗; 的 | Nǐ míngtiān néng lái ma? | Ngày mai bạn đến được không?
+> 我/会/做饭。 | Wǒ huì zuò fàn. | Tôi biết nấu cơm.
+> 她/不会/做/饺子。 | Tā bú huì zuò jiǎozi. | Cô ấy không biết làm sủi cảo.
+> 你/明天/能/去/学校/吗？ | Nǐ míngtiān néng qù xuéxiào ma? | Ngày mai bạn đi học được không?
+~ 明天/你/能/去/学校/吗？
+> 我/今天/不能/去/上课。 | Wǒ jīntiān bù néng qù shàngkè. | Hôm nay tôi không đi học được.
+~ 今天/我/不能/去/上课。
+> 她/明天/会/去/超市。 | Tā míngtiān huì qù chāoshì. | Ngày mai cô ấy sẽ đi siêu thị.
+~ 明天/她/会/去/超市。
+? 我___做饭。 | 会 | 很; 吗; 的 | Wǒ huì zuò fàn. | Tôi biết nấu cơm.
+? 她不___做饺子。 | 会 | 有; 很; 吗 | Tā bú huì zuò jiǎozi. | Cô ấy không biết làm sủi cảo.
+? 你明天___去学校吗？ | 能 | 很; 吗; 的 | Nǐ míngtiān néng qù xuéxiào ma? | Ngày mai bạn đi học được không?
 
 ## ke-yi
 @ 可以: được phép, có thể

@@ -340,11 +340,11 @@ cau-co-you | 4
 luong-tu | 4
 hai-er-liang | 4
 ji-duoshao | 4
-ne-ba | 4
+ne-ba | 7
 he-dui | 4
 ngay-gio | 5
 vi-ngu-danh-tu | 5
-hui-neng | 5
+hui-neng | 8
 xiang-yao | 6
 lien-dong | 6
 zenme | 6

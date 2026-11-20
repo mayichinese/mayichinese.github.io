@@ -700,8 +700,8 @@
     "Hỏi: 你有……吗？ hoặc 你有没有……？"
    ],
    "loiHayMac": [
-    "Không nói 我不有钱 – phải nói 我没有钱.",
-    "\"Có rất nhiều\" nói là 有很多: 她有很多朋友 (cô ấy có rất nhiều bạn)."
+    "Không nói 我不有妹妹 – phải nói 我没有妹妹.",
+    "\"Có rất nhiều\" nói là 有很多: 她有很多同学 (cô ấy có rất nhiều bạn học)."
    ],
    "viDu": [
     {
@@ -718,29 +718,29 @@
      "dich": "Tôi có một anh trai."
     },
     {
-     "han": "她有很多朋友。",
+     "han": "他有两个女儿。",
      "manh": [
-      "她",
+      "他",
       "有",
-      "很多",
-      "朋友"
+      "两个",
+      "女儿"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Tā yǒu hěn duō péngyou.",
-     "dich": "Cô ấy có rất nhiều bạn."
+     "pinyin": "Tā yǒu liǎng gè nǚ'ér.",
+     "dich": "Anh ấy có hai cô con gái."
     },
     {
-     "han": "我没有手机。",
+     "han": "我没有妹妹。",
      "manh": [
       "我",
       "没有",
-      "手机"
+      "妹妹"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Wǒ méiyǒu shǒujī.",
-     "dich": "Tôi không có điện thoại."
+     "pinyin": "Wǒ méiyǒu mèimei.",
+     "dich": "Tôi không có em gái."
     },
     {
      "han": "你有中文名字吗？",
@@ -759,15 +759,15 @@
    ],
    "dienTu": [
     {
-     "cau": "我___有钱。",
+     "cau": "我___有妹妹。",
      "dapAn": "没",
      "nhieu": [
       "不",
       "吗",
       "的"
      ],
-     "pinyin": "Wǒ méi yǒu qián.",
-     "dich": "Tôi không có tiền."
+     "pinyin": "Wǒ méi yǒu mèimei.",
+     "dich": "Tôi không có em gái."
     },
     {
      "cau": "他___两个妹妹。",
@@ -781,19 +781,19 @@
      "dich": "Anh ấy có hai em gái."
     },
     {
-     "cau": "你有___有电脑？",
+     "cau": "你有___有哥哥？",
      "dapAn": "没",
      "nhieu": [
       "不",
       "很",
       "吗"
      ],
-     "pinyin": "Nǐ yǒu méiyǒu diànnǎo?",
-     "dich": "Bạn có máy tính không?"
+     "pinyin": "Nǐ yǒu méiyǒu gēge?",
+     "dich": "Bạn có anh trai không?"
     }
    ],
    "canKiemTra": [],
-   "hocSauBai": 10
+   "hocSauBai": 5
   },
   {
    "id": "cau-ton-tai",
@@ -924,18 +924,17 @@
    ],
    "viDu": [
     {
-     "han": "我有三本中文书。",
+     "han": "我有三个孩子。",
      "manh": [
       "我",
       "有",
-      "三本",
-      "中文",
-      "书"
+      "三个",
+      "孩子"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Wǒ yǒu sān běn Zhōngwén shū.",
-     "dich": "Tôi có ba quyển sách tiếng Trung."
+     "pinyin": "Wǒ yǒu sān gè háizi.",
+     "dich": "Tôi có ba đứa con."
     },
     {
      "han": "我家有四口人。",
@@ -951,56 +950,56 @@
      "dich": "Nhà tôi có bốn người."
     },
     {
-     "han": "这件衣服很漂亮。",
+     "han": "你有几个孩子？",
      "manh": [
-      "这件",
-      "衣服",
-      "很",
-      "漂亮"
-     ],
-     "dauCau": "。",
-     "khac": [],
-     "pinyin": "Zhè jiàn yīfu hěn piàoliang.",
-     "dich": "Bộ quần áo này rất đẹp."
-    },
-    {
-     "han": "那个人是谁？",
-     "manh": [
-      "那个",
-      "人",
-      "是",
-      "谁"
+      "你",
+      "有",
+      "几个",
+      "孩子"
      ],
      "dauCau": "？",
      "khac": [],
-     "pinyin": "Nàge rén shì shéi?",
-     "dich": "Người kia là ai?"
+     "pinyin": "Nǐ yǒu jǐ gè háizi?",
+     "dich": "Bạn có mấy đứa con?"
     },
     {
-     "han": "我喝一杯茶。",
+     "han": "他有一个女儿和一个儿子。",
      "manh": [
-      "我",
-      "喝",
-      "一杯",
-      "茶"
+      "他",
+      "有",
+      "一个",
+      "女儿",
+      "和",
+      "一个",
+      "儿子"
      ],
      "dauCau": "。",
-     "khac": [],
-     "pinyin": "Wǒ hē yì bēi chá.",
-     "dich": "Tôi uống một cốc trà."
+     "khac": [
+      [
+       "他",
+       "有",
+       "一个",
+       "儿子",
+       "和",
+       "一个",
+       "女儿"
+      ]
+     ],
+     "pinyin": "Tā yǒu yí gè nǚ'ér hé yí gè érzi.",
+     "dich": "Anh ấy có một con gái và một con trai."
     }
    ],
    "dienTu": [
     {
-     "cau": "我有一___书。",
-     "dapAn": "本",
+     "cau": "我有三___孩子。",
+     "dapAn": "个",
      "nhieu": [
-      "只",
-      "件",
-      "口"
+      "口",
+      "本",
+      "的"
      ],
-     "pinyin": "Wǒ yǒu yì běn shū.",
-     "dich": "Tôi có một quyển sách."
+     "pinyin": "Wǒ yǒu sān gè háizi.",
+     "dich": "Tôi có ba đứa con."
     },
     {
      "cau": "我家有五___人。",
@@ -1014,19 +1013,19 @@
      "dich": "Nhà tôi có năm người."
     },
     {
-     "cau": "这___衣服很漂亮。",
-     "dapAn": "件",
+     "cau": "你有几___哥哥？",
+     "dapAn": "个",
      "nhieu": [
-      "本",
       "口",
-      "只"
+      "本",
+      "的"
      ],
-     "pinyin": "Zhè jiàn yīfu hěn piàoliang.",
-     "dich": "Bộ quần áo này rất đẹp."
+     "pinyin": "Nǐ yǒu jǐ gè gēge?",
+     "dich": "Bạn có mấy anh trai?"
     }
    ],
    "canKiemTra": [],
-   "hocSauBai": 18
+   "hocSauBai": 5
   },
   {
    "id": "hai-er-liang",
@@ -1060,84 +1059,82 @@
      "dich": "Tôi có hai chị gái."
     },
     {
-     "han": "桌子上有两杯茶。",
-     "manh": [
-      "桌子上",
-      "有",
-      "两杯",
-      "茶"
-     ],
-     "dauCau": "。",
-     "khac": [],
-     "pinyin": "Zhuōzi shang yǒu liǎng bēi chá.",
-     "dich": "Trên bàn có hai cốc trà."
-    },
-    {
-     "han": "今天是十二号。",
-     "manh": [
-      "今天",
-      "是",
-      "十二",
-      "号"
-     ],
-     "dauCau": "。",
-     "khac": [],
-     "pinyin": "Jīntiān shì shí'èr hào.",
-     "dich": "Hôm nay là ngày 12."
-    },
-    {
-     "han": "他是我的第二个老师。",
+     "han": "他有两个孩子。",
      "manh": [
       "他",
-      "是",
-      "我",
-      "的",
-      "第二个",
-      "老师"
+      "有",
+      "两个",
+      "孩子"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Tā shì wǒ de dì-èr gè lǎoshī.",
-     "dich": "Thầy ấy là giáo viên thứ hai của tôi."
+     "pinyin": "Tā yǒu liǎng gè háizi.",
+     "dich": "Anh ấy có hai đứa con."
+    },
+    {
+     "han": "我女儿十二岁。",
+     "manh": [
+      "我",
+      "女儿",
+      "十二",
+      "岁"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ nǚ'ér shí'èr suì.",
+     "dich": "Con gái tôi 12 tuổi."
+    },
+    {
+     "han": "我哥哥二十岁。",
+     "manh": [
+      "我",
+      "哥哥",
+      "二十",
+      "岁"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Wǒ gēge èrshí suì.",
+     "dich": "Anh trai tôi 20 tuổi."
     }
    ],
    "dienTu": [
     {
-     "cau": "我有___个弟弟。",
+     "cau": "我有___个哥哥。",
      "dapAn": "两",
      "nhieu": [
       "二",
       "第",
       "的"
      ],
-     "pinyin": "Wǒ yǒu liǎng gè dìdi.",
-     "dich": "Tôi có hai em trai."
+     "pinyin": "Wǒ yǒu liǎng gè gēge.",
+     "dich": "Tôi có hai anh trai."
     },
     {
-     "cau": "今天是十___号。",
-     "dapAn": "二",
-     "nhieu": [
-      "两",
-      "第",
-      "个"
-     ],
-     "pinyin": "Jīntiān shì shí'èr hào.",
-     "dich": "Hôm nay là ngày 12."
-    },
-    {
-     "cau": "他是我的第___个老师。",
+     "cau": "我女儿十___岁。",
      "dapAn": "二",
      "nhieu": [
       "两",
       "个",
-      "本"
+      "口"
      ],
-     "pinyin": "Tā shì wǒ de dì-èr gè lǎoshī.",
-     "dich": "Thầy ấy là giáo viên thứ hai của tôi."
+     "pinyin": "Wǒ nǚ'ér shí'èr suì.",
+     "dich": "Con gái tôi 12 tuổi."
+    },
+    {
+     "cau": "他有___个女儿。",
+     "dapAn": "两",
+     "nhieu": [
+      "二",
+      "口",
+      "的"
+     ],
+     "pinyin": "Tā yǒu liǎng gè nǚ'ér.",
+     "dich": "Anh ấy có hai cô con gái."
     }
    ],
    "canKiemTra": [],
-   "hocSauBai": 14
+   "hocSauBai": 6
   },
   {
    "id": "ji-duoshao",
@@ -1185,31 +1182,31 @@
      "dich": "Nhà bạn có mấy người?"
     },
     {
-     "han": "你们学校有多少学生？",
+     "han": "老师，你有多少学生？",
      "manh": [
-      "你们",
-      "学校",
+      "老师，",
+      "你",
       "有",
       "多少",
       "学生"
      ],
      "dauCau": "？",
      "khac": [],
-     "pinyin": "Nǐmen xuéxiào yǒu duōshao xuéshēng?",
-     "dich": "Trường các bạn có bao nhiêu học sinh?"
+     "pinyin": "Lǎoshī, nǐ yǒu duōshao xuéshēng?",
+     "dich": "Thưa thầy, thầy có bao nhiêu học sinh?"
     },
     {
-     "han": "这个苹果多少钱？",
+     "han": "中国有多少人？",
      "manh": [
-      "这个",
-      "苹果",
+      "中国",
+      "有",
       "多少",
-      "钱"
+      "人"
      ],
      "dauCau": "？",
      "khac": [],
-     "pinyin": "Zhège píngguǒ duōshao qián?",
-     "dich": "Quả táo này bao nhiêu tiền?"
+     "pinyin": "Zhōngguó yǒu duōshao rén?",
+     "dich": "Trung Quốc có bao nhiêu người?"
     },
     {
      "han": "你女儿几岁？",
@@ -1238,15 +1235,15 @@
      "dich": "Bạn có mấy em gái?"
     },
     {
-     "cau": "这件衣服___钱？",
+     "cau": "中国有___人？",
      "dapAn": "多少",
      "nhieu": [
       "几",
-      "什么",
-      "谁"
+      "哪",
+      "很"
      ],
-     "pinyin": "Zhè jiàn yīfu duōshao qián?",
-     "dich": "Bộ quần áo này bao nhiêu tiền?"
+     "pinyin": "Zhōngguó yǒu duōshao rén?",
+     "dich": "Trung Quốc có bao nhiêu người?"
     },
     {
      "cau": "你儿子___岁？",
@@ -1275,7 +1272,7 @@
     "Ngày tháng nói theo thứ tự từ lớn đến nhỏ: năm → tháng → ngày → thứ. Ngày 19 tháng 11 là 十一月十九号.",
     "Năm đọc từng chữ số: 二零二六年 (èr líng èr liù nián).",
     "Thứ: 星期一 … 星期六 là thứ Hai … thứ Bảy; Chủ nhật là 星期天 hoặc 星期日.",
-    "Giờ: 点 = giờ, 分 = phút, 半 = rưỡi: 八点 (8 giờ), 八点十分 (8 giờ 10), 八点半 (8 giờ rưỡi).",
+    "Giờ (sẽ gặp từ ở Bài 7): 点 = giờ, 分 = phút, 半 = rưỡi: 八点 (8 giờ), 八点十分 (8 giờ 10), 八点半 (8 giờ rưỡi).",
     "Nói ngày thường dùng 号; 日 hay dùng trong văn viết."
    ],
    "loiHayMac": [
@@ -1297,72 +1294,72 @@
      "dich": "Hôm nay là ngày 19 tháng 11."
     },
     {
-     "han": "明天是星期五。",
+     "han": "今天是几月几号？",
      "manh": [
-      "明天",
+      "今天",
       "是",
-      "星期五"
+      "几月",
+      "几号"
      ],
-     "dauCau": "。",
+     "dauCau": "？",
      "khac": [],
-     "pinyin": "Míngtiān shì xīngqīwǔ.",
-     "dich": "Ngày mai là thứ Sáu."
+     "pinyin": "Jīntiān shì jǐ yuè jǐ hào?",
+     "dich": "Hôm nay là ngày mấy tháng mấy?"
     },
     {
-     "han": "现在八点半。",
+     "han": "今天星期天，我休息。",
      "manh": [
-      "现在",
-      "八点",
-      "半"
+      "今天",
+      "星期天，",
+      "我",
+      "休息"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Xiànzài bā diǎn bàn.",
-     "dich": "Bây giờ là tám giờ rưỡi."
+     "pinyin": "Jīntiān xīngqītiān, wǒ xiūxi.",
+     "dich": "Hôm nay Chủ nhật, tôi nghỉ."
     },
     {
-     "han": "我早上七点起床。",
+     "han": "我星期六做饭。",
      "manh": [
       "我",
-      "早上",
-      "七点",
-      "起床"
+      "星期六",
+      "做饭"
      ],
      "dauCau": "。",
      "khac": [
       [
-       "早上",
-       "七点",
+       "星期六",
        "我",
-       "起床"
+       "做饭"
       ]
      ],
-     "pinyin": "Wǒ zǎoshang qī diǎn qǐchuáng.",
-     "dich": "Tôi dậy lúc bảy giờ sáng."
+     "pinyin": "Wǒ xīngqīliù zuò fàn.",
+     "dich": "Thứ Bảy tôi nấu cơm."
     }
    ],
    "dienTu": [
     {
-     "cau": "明天是星期___。",
+     "cau": "今天是星期___。",
      "dapAn": "六",
      "nhieu": [
       "号",
       "点",
       "月"
      ],
-     "pinyin": "Míngtiān shì xīngqīliù.",
-     "dich": "Ngày mai là thứ Bảy."
+     "pinyin": "Jīntiān shì xīngqīliù.",
+     "dich": "Hôm nay là thứ Bảy."
     },
     {
-     "cau": "现在三点___。",
-     "dapAn": "半",
+     "cau": "今天是___月几号？",
+     "dapAn": "几",
      "nhieu": [
-      "号",
-      "年",
-      "星期"
+      "多",
+      "哪",
+      "什么"
      ],
-     "pinyin": "Xiànzài sān diǎn bàn.",
-     "dich": "Bây giờ là ba giờ rưỡi."
+     "pinyin": "Jīntiān shì jǐ yuè jǐ hào?",
+     "dich": "Hôm nay là ngày mấy tháng mấy?"
     },
     {
      "cau": "今天是五月一___。",
@@ -1377,7 +1374,7 @@
     }
    ],
    "canKiemTra": [],
-   "hocSauBai": 13
+   "hocSauBai": 14
   },
   {
    "id": "trang-ngu",
@@ -1571,29 +1568,30 @@
      "dich": "Tôi hai mươi tuổi."
     },
     {
-     "han": "现在十点十分。",
+     "han": "今天五月一号。",
      "manh": [
-      "现在",
-      "十点",
-      "十分"
+      "今天",
+      "五月",
+      "一号"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Xiànzài shí diǎn shí fēn.",
-     "dich": "Bây giờ là mười giờ mười phút."
+     "pinyin": "Jīntiān wǔ yuè yī hào.",
+     "dich": "Hôm nay ngày 1 tháng 5."
     },
     {
-     "han": "这个苹果三块。",
+     "han": "我女儿今年五岁。",
      "manh": [
-      "这个",
-      "苹果",
-      "三",
-      "块"
+      "我",
+      "女儿",
+      "今年",
+      "五",
+      "岁"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Zhège píngguǒ sān kuài.",
-     "dich": "Quả táo này ba đồng."
+     "pinyin": "Wǒ nǚ'ér jīnnián wǔ suì.",
+     "dich": "Năm nay con gái tôi năm tuổi."
     },
     {
      "han": "今天不是星期天。",
@@ -1632,19 +1630,19 @@
      "dich": "Em gái tôi tám tuổi."
     },
     {
-     "cau": "这本书二十___。",
-     "dapAn": "块",
+     "cau": "今天五月十___。",
+     "dapAn": "号",
      "nhieu": [
       "岁",
-      "号",
-      "点"
+      "点",
+      "年"
      ],
-     "pinyin": "Zhè běn shū èrshí kuài.",
-     "dich": "Quyển sách này hai mươi đồng."
+     "pinyin": "Jīntiān wǔ yuè shí hào.",
+     "dich": "Hôm nay ngày 10 tháng 5."
     }
    ],
    "canKiemTra": [],
-   "hocSauBai": 16
+   "hocSauBai": 11
   },
   {
    "id": "tien",
@@ -1898,10 +1896,10 @@
     "能 + động từ: có thể làm (hoàn cảnh, sức khỏe cho phép)"
    ],
    "giaiThich": [
-    "会: kỹ năng phải học mới biết: 我会说汉语, 他会开车.",
-    "能: làm được trong hoàn cảnh cụ thể (đủ sức, đủ điều kiện): 你明天能来吗？",
+    "会: kỹ năng phải học mới biết: 我会做饭, 她会做饺子.",
+    "能: làm được trong hoàn cảnh cụ thể (đủ sức, đủ điều kiện): 你明天能去学校吗？",
     "Phủ định: 不会 (không biết làm), 不能 (không thể, không làm được).",
-    "会 còn có nghĩa \"sẽ\" (dự đoán): 明天会下雨 (ngày mai sẽ mưa)."
+    "会 còn có nghĩa \"sẽ\" (dự đoán): 她明天会去超市 (ngày mai cô ấy sẽ đi siêu thị)."
    ],
    "loiHayMac": [
     "\"Tôi biết nói tiếng Trung\" là 我会说汉语 – không dùng 知道 (知道 = biết một thông tin, một sự việc).",
@@ -1909,37 +1907,38 @@
    ],
    "viDu": [
     {
-     "han": "我会说汉语。",
+     "han": "我会做饭。",
      "manh": [
       "我",
       "会",
-      "说",
-      "汉语"
+      "做饭"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Wǒ huì shuō Hànyǔ.",
-     "dich": "Tôi biết nói tiếng Trung."
+     "pinyin": "Wǒ huì zuò fàn.",
+     "dich": "Tôi biết nấu cơm."
     },
     {
-     "han": "他不会开车。",
+     "han": "她不会做饺子。",
      "manh": [
-      "他",
+      "她",
       "不会",
-      "开车"
+      "做",
+      "饺子"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Tā bú huì kāichē.",
-     "dich": "Anh ấy không biết lái xe."
+     "pinyin": "Tā bú huì zuò jiǎozi.",
+     "dich": "Cô ấy không biết làm sủi cảo."
     },
     {
-     "han": "你明天能来吗？",
+     "han": "你明天能去学校吗？",
      "manh": [
       "你",
       "明天",
       "能",
-      "来",
+      "去",
+      "学校",
       "吗"
      ],
      "dauCau": "？",
@@ -1948,21 +1947,22 @@
        "明天",
        "你",
        "能",
-       "来",
+       "去",
+       "学校",
        "吗"
       ]
      ],
-     "pinyin": "Nǐ míngtiān néng lái ma?",
-     "dich": "Ngày mai bạn đến được không?"
+     "pinyin": "Nǐ míngtiān néng qù xuéxiào ma?",
+     "dich": "Ngày mai bạn đi học được không?"
     },
     {
-     "han": "我今天不能去学校。",
+     "han": "我今天不能去上课。",
      "manh": [
       "我",
       "今天",
       "不能",
       "去",
-      "学校"
+      "上课"
      ],
      "dauCau": "。",
      "khac": [
@@ -1971,62 +1971,72 @@
        "我",
        "不能",
        "去",
-       "学校"
+       "上课"
       ]
      ],
-     "pinyin": "Wǒ jīntiān bù néng qù xuéxiào.",
+     "pinyin": "Wǒ jīntiān bù néng qù shàngkè.",
      "dich": "Hôm nay tôi không đi học được."
     },
     {
-     "han": "明天会下雨。",
+     "han": "她明天会去超市。",
      "manh": [
+      "她",
       "明天",
       "会",
-      "下雨"
+      "去",
+      "超市"
      ],
      "dauCau": "。",
-     "khac": [],
-     "pinyin": "Míngtiān huì xià yǔ.",
-     "dich": "Ngày mai sẽ mưa."
+     "khac": [
+      [
+       "明天",
+       "她",
+       "会",
+       "去",
+       "超市"
+      ]
+     ],
+     "pinyin": "Tā míngtiān huì qù chāoshì.",
+     "dich": "Ngày mai cô ấy sẽ đi siêu thị."
     }
    ],
    "dienTu": [
     {
-     "cau": "我___说汉语。",
+     "cau": "我___做饭。",
      "dapAn": "会",
      "nhieu": [
       "很",
       "吗",
       "的"
      ],
-     "pinyin": "Wǒ huì shuō Hànyǔ.",
-     "dich": "Tôi biết nói tiếng Trung."
+     "pinyin": "Wǒ huì zuò fàn.",
+     "dich": "Tôi biết nấu cơm."
     },
     {
-     "cau": "他不___开车。",
+     "cau": "她不___做饺子。",
      "dapAn": "会",
      "nhieu": [
       "有",
       "很",
       "吗"
      ],
-     "pinyin": "Tā bú huì kāichē.",
-     "dich": "Anh ấy không biết lái xe."
+     "pinyin": "Tā bú huì zuò jiǎozi.",
+     "dich": "Cô ấy không biết làm sủi cảo."
     },
     {
-     "cau": "你明天___来吗？",
+     "cau": "你明天___去学校吗？",
      "dapAn": "能",
      "nhieu": [
       "很",
       "吗",
       "的"
      ],
-     "pinyin": "Nǐ míngtiān néng lái ma?",
-     "dich": "Ngày mai bạn đến được không?"
+     "pinyin": "Nǐ míngtiān néng qù xuéxiào ma?",
+     "dich": "Ngày mai bạn đi học được không?"
     }
    ],
    "canKiemTra": [],
-   "hocSauBai": 18
+   "hocSauBai": 20
   },
   {
    "id": "ke-yi",
@@ -2945,18 +2955,18 @@
      "dich": "Điện thoại của tôi đâu rồi?"
     },
     {
-     "han": "我们去吃饭吧。",
+     "han": "我们去看电影吧。",
      "manh": [
       "我们",
       "去",
-      "吃",
-      "饭",
+      "看",
+      "电影",
       "吧"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Wǒmen qù chī fàn ba.",
-     "dich": "Chúng ta đi ăn cơm nhé."
+     "pinyin": "Wǒmen qù kàn diànyǐng ba.",
+     "dich": "Chúng ta đi xem phim nhé."
     },
     {
      "han": "你是老师吧？",
@@ -2985,30 +2995,30 @@
      "dich": "Tôi là người Trung Quốc, còn bạn?"
     },
     {
-     "cau": "我们去吃饭___。",
+     "cau": "我们去看电影___。",
      "dapAn": "吧",
      "nhieu": [
       "很",
       "个",
       "是"
      ],
-     "pinyin": "Wǒmen qù chī fàn ba.",
-     "dich": "Chúng ta đi ăn cơm nhé."
+     "pinyin": "Wǒmen qù kàn diànyǐng ba.",
+     "dich": "Chúng ta đi xem phim nhé."
     },
     {
-     "cau": "我的书___？",
+     "cau": "我的手机___？",
      "dapAn": "呢",
      "nhieu": [
       "很",
       "个",
       "是"
      ],
-     "pinyin": "Wǒ de shū ne?",
-     "dich": "Sách của tôi đâu rồi?"
+     "pinyin": "Wǒ de shǒujī ne?",
+     "dich": "Điện thoại của tôi đâu rồi?"
     }
    ],
    "canKiemTra": [],
-   "hocSauBai": 14
+   "hocSauBai": 19
   },
   {
    "id": "chinh-phan",
@@ -3608,28 +3618,13 @@
    ],
    "viDu": [
     {
-     "han": "我和妈妈去商店。",
-     "manh": [
-      "我",
-      "和",
-      "妈妈",
-      "去",
-      "商店"
-     ],
-     "dauCau": "。",
-     "khac": [],
-     "pinyin": "Wǒ hé māma qù shāngdiàn.",
-     "dich": "Tôi và mẹ đi cửa hàng."
-    },
-    {
-     "han": "爸爸和妈妈都是医生。",
+     "han": "爸爸和妈妈很忙。",
      "manh": [
       "爸爸",
       "和",
       "妈妈",
-      "都",
-      "是",
-      "医生"
+      "很",
+      "忙"
      ],
      "dauCau": "。",
      "khac": [
@@ -3637,27 +3632,60 @@
        "妈妈",
        "和",
        "爸爸",
-       "都",
-       "是",
-       "医生"
+       "很",
+       "忙"
       ]
      ],
-     "pinyin": "Bàba hé māma dōu shì yīshēng.",
-     "dich": "Bố và mẹ đều là bác sĩ."
+     "pinyin": "Bàba hé māma hěn máng.",
+     "dich": "Bố và mẹ rất bận."
     },
     {
-     "han": "我想和你说话。",
+     "han": "我和她是同学。",
      "manh": [
       "我",
-      "想",
       "和",
-      "你",
-      "说话"
+      "她",
+      "是",
+      "同学"
      ],
      "dauCau": "。",
-     "khac": [],
-     "pinyin": "Wǒ xiǎng hé nǐ shuōhuà.",
-     "dich": "Tôi muốn nói chuyện với bạn."
+     "khac": [
+      [
+       "她",
+       "和",
+       "我",
+       "是",
+       "同学"
+      ]
+     ],
+     "pinyin": "Wǒ hé tā shì tóngxué.",
+     "dich": "Tôi và cô ấy là bạn học."
+    },
+    {
+     "han": "我有一个哥哥和一个妹妹。",
+     "manh": [
+      "我",
+      "有",
+      "一个",
+      "哥哥",
+      "和",
+      "一个",
+      "妹妹"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "我",
+       "有",
+       "一个",
+       "妹妹",
+       "和",
+       "一个",
+       "哥哥"
+      ]
+     ],
+     "pinyin": "Wǒ yǒu yí gè gēge hé yí gè mèimei.",
+     "dich": "Tôi có một anh trai và một em gái."
     },
     {
      "han": "老师对我们很好。",
@@ -3676,15 +3704,15 @@
    ],
    "dienTu": [
     {
-     "cau": "我___妈妈都是老师。",
+     "cau": "爸爸___妈妈很忙。",
      "dapAn": "和",
      "nhieu": [
       "很",
       "对",
       "是"
      ],
-     "pinyin": "Wǒ hé māma dōu shì lǎoshī.",
-     "dich": "Tôi và mẹ đều là giáo viên."
+     "pinyin": "Bàba hé māma hěn máng.",
+     "dich": "Bố và mẹ rất bận."
     },
     {
      "cau": "她___我很好。",
@@ -3698,19 +3726,19 @@
      "dich": "Cô ấy đối xử với tôi rất tốt."
     },
     {
-     "cau": "我想___你说话。",
+     "cau": "我___她是同学。",
      "dapAn": "和",
      "nhieu": [
       "是",
       "很",
       "的"
      ],
-     "pinyin": "Wǒ xiǎng hé nǐ shuōhuà.",
-     "dich": "Tôi muốn nói chuyện với bạn."
+     "pinyin": "Wǒ hé tā shì tóngxué.",
+     "dich": "Tôi và cô ấy là bạn học."
     }
    ],
    "canKiemTra": [],
-   "hocSauBai": 18
+   "hocSauBai": 20
   },
   {
    "id": "phuong-vi",

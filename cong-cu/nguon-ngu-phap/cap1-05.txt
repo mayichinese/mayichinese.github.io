@@ -100,8 +100,8 @@
 ! "Còn bạn?" nói 你呢？, không nói 你吗？
 > 我/很/好，/你/呢？ | Wǒ hěn hǎo, nǐ ne? | Tôi khỏe, còn bạn?
 > 我/的/手机/呢？ | Wǒ de shǒujī ne? | Điện thoại của tôi đâu rồi?
-> 我们/去/吃/饭/吧。 | Wǒmen qù chī fàn ba. | Chúng ta đi ăn cơm nhé.
+> 我们/去/看/电影/吧。 | Wǒmen qù kàn diànyǐng ba. | Chúng ta đi xem phim nhé.
 > 你/是/老师/吧？ | Nǐ shì lǎoshī ba? | Bạn là giáo viên phải không?
 ? 我是中国人，你___？ | 呢 | 吗; 吧; 了 | Wǒ shì Zhōngguórén, nǐ ne? | Tôi là người Trung Quốc, còn bạn?
-? 我们去吃饭___。 | 吧 | 很; 个; 是 | Wǒmen qù chī fàn ba. | Chúng ta đi ăn cơm nhé.
-? 我的书___？ | 呢 | 很; 个; 是 | Wǒ de shū ne? | Sách của tôi đâu rồi?
+? 我们去看电影___。 | 吧 | 很; 个; 是 | Wǒmen qù kàn diànyǐng ba. | Chúng ta đi xem phim nhé.
+? 我的手机___？ | 呢 | 很; 个; 是 | Wǒ de shǒujī ne? | Điện thoại của tôi đâu rồi?
