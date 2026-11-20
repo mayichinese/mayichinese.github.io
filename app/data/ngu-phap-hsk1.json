@@ -248,16 +248,17 @@
      "dich": "Tôi khỏe."
     },
     {
-     "han": "今天很冷。",
+     "han": "这件衣服很贵。",
      "manh": [
-      "今天",
+      "这件",
+      "衣服",
       "很",
-      "冷"
+      "贵"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Jīntiān hěn lěng.",
-     "dich": "Hôm nay lạnh."
+     "pinyin": "Zhè jiàn yīfu hěn guì.",
+     "dich": "Bộ quần áo này rất đắt."
     },
     {
      "han": "学校很大。",
@@ -297,15 +298,15 @@
      "dich": "Anh ấy rất vui."
     },
     {
-     "cau": "今天不___。",
-     "dapAn": "冷",
+     "cau": "这个不___。",
+     "dapAn": "贵",
      "nhieu": [
       "很",
       "是",
       "吗"
      ],
-     "pinyin": "Jīntiān bù lěng.",
-     "dich": "Hôm nay không lạnh."
+     "pinyin": "Zhège bú guì.",
+     "dich": "Cái này không đắt."
     },
     {
      "cau": "学校很___。",
@@ -320,7 +321,7 @@
     }
    ],
    "canKiemTra": [],
-   "hocSauBai": 18
+   "hocSauBai": 16
   },
   {
    "id": "phu-dinh-bu",
@@ -2269,7 +2270,7 @@
     "再 + động từ"
    ],
    "giaiThich": [
-    "再 = lại, thêm lần nữa – dùng cho việc CHƯA xảy ra: 请再说一下 (xin nói lại một chút).",
+    "再 = lại, thêm lần nữa – dùng cho việc CHƯA xảy ra: 你明天再来吧 (mai bạn lại đến nhé).",
     "再见 = hẹn gặp lại, tạm biệt.",
     "再 + động từ còn có nghĩa \"để sau rồi hẵng làm\": 我们明天再去 (mai chúng ta hẵng đi)."
    ],
@@ -2279,17 +2280,26 @@
    ],
    "viDu": [
     {
-     "han": "请再说一下。",
+     "han": "你明天再来吧。",
      "manh": [
-      "请",
+      "你",
+      "明天",
       "再",
-      "说",
-      "一下"
+      "来",
+      "吧"
      ],
      "dauCau": "。",
-     "khac": [],
-     "pinyin": "Qǐng zài shuō yíxià.",
-     "dich": "Xin nói lại một chút."
+     "khac": [
+      [
+       "明天",
+       "你",
+       "再",
+       "来",
+       "吧"
+      ]
+     ],
+     "pinyin": "Nǐ míngtiān zài lái ba.",
+     "dich": "Mai bạn lại đến nhé."
     },
     {
      "han": "我们明天再去。",
@@ -2312,20 +2322,20 @@
      "dich": "Ngày mai chúng ta hẵng đi."
     },
     {
-     "han": "你想再喝一杯茶吗？",
+     "han": "你想再喝一杯水吗？",
      "manh": [
       "你",
       "想",
       "再",
       "喝",
       "一杯",
-      "茶",
+      "水",
       "吗"
      ],
      "dauCau": "？",
      "khac": [],
-     "pinyin": "Nǐ xiǎng zài hē yì bēi chá ma?",
-     "dich": "Bạn có muốn uống thêm một cốc trà không?"
+     "pinyin": "Nǐ xiǎng zài hē yì bēi shuǐ ma?",
+     "dich": "Bạn có muốn uống thêm một cốc nước không?"
     },
     {
      "han": "老师，再见！",
@@ -2341,15 +2351,15 @@
    ],
    "dienTu": [
     {
-     "cau": "请___说一下。",
+     "cau": "你明天___来吧。",
      "dapAn": "再",
      "nhieu": [
       "很",
       "是",
       "的"
      ],
-     "pinyin": "Qǐng zài shuō yíxià.",
-     "dich": "Xin nói lại một chút."
+     "pinyin": "Nǐ míngtiān zài lái ba.",
+     "dich": "Mai bạn lại đến nhé."
     },
     {
      "cau": "我们明天___去。",
@@ -2363,19 +2373,19 @@
      "dich": "Ngày mai chúng ta hẵng đi."
     },
     {
-     "cau": "你想___喝一杯茶吗？",
+     "cau": "你想___喝一杯水吗？",
      "dapAn": "再",
      "nhieu": [
       "很",
       "是",
       "的"
      ],
-     "pinyin": "Nǐ xiǎng zài hē yì bēi chá ma?",
-     "dich": "Bạn có muốn uống thêm một cốc trà không?"
+     "pinyin": "Nǐ xiǎng zài hē yì bēi shuǐ ma?",
+     "dich": "Bạn có muốn uống thêm một cốc nước không?"
     }
    ],
    "canKiemTra": [],
-   "hocSauBai": 20
+   "hocSauBai": 15
   },
   {
    "id": "le-xong",
@@ -3098,15 +3108,15 @@
    ],
    "dienTu": [
     {
-     "cau": "你喝不___茶？",
-     "dapAn": "喝",
+     "cau": "你去不___学校？",
+     "dapAn": "去",
      "nhieu": [
       "吗",
       "很",
       "了"
      ],
-     "pinyin": "Nǐ hē bu hē chá?",
-     "dich": "Bạn có uống trà không?"
+     "pinyin": "Nǐ qù bu qù xuéxiào?",
+     "dich": "Bạn có đi học không?"
     },
     {
      "cau": "他是___是老师？",
@@ -3489,7 +3499,7 @@
     "一下 đọc yíxià."
    ],
    "loiHayMac": [
-    "一下 đứng SAU động từ, trước tân ngữ: 写一下你的名字, không nói 一下写你的名字.",
+    "一下 đứng SAU động từ, trước tân ngữ: 看一下这个问题, không nói 一下看这个问题.",
     "Không dùng 一下 với động từ chỉ trạng thái như 是, 有, 认识."
    ],
    "viDu": [
@@ -3544,20 +3554,19 @@
      "dich": "Chúng ta nghỉ một chút nhé."
     },
     {
-     "han": "请你写一下你的名字。",
+     "han": "请你看一下这个问题。",
      "manh": [
       "请",
       "你",
-      "写",
+      "看",
       "一下",
-      "你",
-      "的",
-      "名字"
+      "这个",
+      "问题"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Qǐng nǐ xiě yíxià nǐ de míngzi.",
-     "dich": "Bạn hãy viết tên của bạn nhé."
+     "pinyin": "Qǐng nǐ kàn yíxià zhège wèntí.",
+     "dich": "Bạn xem giúp câu hỏi này nhé."
     }
    ],
    "dienTu": [
@@ -3584,15 +3593,15 @@
      "dich": "Chúng ta nghỉ một chút nhé."
     },
     {
-     "cau": "请你写___你的名字。",
+     "cau": "请你看___这个问题。",
      "dapAn": "一下",
      "nhieu": [
       "很",
       "是",
       "的"
      ],
-     "pinyin": "Qǐng nǐ xiě yíxià nǐ de míngzi.",
-     "dich": "Bạn hãy viết tên của bạn nhé."
+     "pinyin": "Qǐng nǐ kàn yíxià zhège wèntí.",
+     "dich": "Bạn xem giúp câu hỏi này nhé."
     }
    ],
    "canKiemTra": [],

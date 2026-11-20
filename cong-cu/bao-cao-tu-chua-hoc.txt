@@ -1,6 +1,6 @@
 BÁO CÁO TỪ CHƯA HỌC TRONG CÂU (tạo bởi cong-cu/kiem-tra-tu-chua-hoc.py – không sửa tay)
 
-NGỮ PHÁP: 134/869 câu còn từ chưa học (hoặc chữ ngoài từ điển) tính tới bài của điểm.
+NGỮ PHÁP: 121/869 câu còn từ chưa học (hoặc chữ ngoài từ điển) tính tới bài của điểm.
 Câu ví dụ của từ dùng được cho chặng (toàn từ đã học tới bài đó):
   HSK 1 · Bài 1    ngữ pháp:   0/  0 câu cần sửa · ví dụ từ dùng được:   8/ 24
   HSK 1 · Bài 2    ngữ pháp:   0/  7 câu cần sửa · ví dụ từ dùng được:   9/ 29
@@ -11,11 +11,11 @@ Câu ví dụ của từ dùng được cho chặng (toàn từ đã học tới
   HSK 1 · Bài 7    ngữ pháp:   0/ 15 câu cần sửa · ví dụ từ dùng được:  31/ 50
   HSK 1 · Bài 8    ngữ pháp:   0/ 16 câu cần sửa · ví dụ từ dùng được:  17/ 36
   HSK 1 · Bài 9    ngữ pháp:   0/ 15 câu cần sửa · ví dụ từ dùng được:  29/ 40
-  HSK 1 · Bài 10   ngữ pháp:   2/ 21 câu cần sửa · ví dụ từ dùng được:  32/ 44
-  HSK 1 · Bài 11   ngữ pháp:   1/ 23 câu cần sửa · ví dụ từ dùng được:  27/ 46
-  HSK 1 · Bài 12   ngữ pháp:   8/ 31 câu cần sửa · ví dụ từ dùng được:  39/ 44
-  HSK 1 · Bài 13   ngữ pháp:   2/ 22 câu cần sửa · ví dụ từ dùng được:  31/ 32
-  HSK 1 · Bài 14   ngữ pháp:   0/ 22 câu cần sửa · ví dụ từ dùng được:  46/ 49
+  HSK 1 · Bài 10   ngữ pháp:   0/ 21 câu cần sửa · ví dụ từ dùng được:  32/ 44
+  HSK 1 · Bài 11   ngữ pháp:   0/ 23 câu cần sửa · ví dụ từ dùng được:  27/ 46
+  HSK 1 · Bài 12   ngữ pháp:   0/ 23 câu cần sửa · ví dụ từ dùng được:  39/ 44
+  HSK 1 · Bài 13   ngữ pháp:   0/ 22 câu cần sửa · ví dụ từ dùng được:  31/ 32
+  HSK 1 · Bài 14   ngữ pháp:   0/ 30 câu cần sửa · ví dụ từ dùng được:  46/ 49
   HSK 1 · Bài 15   ngữ pháp:   0/  0 câu cần sửa · ví dụ từ dùng được:  23/ 24
   HSK 2 · Bài 1    ngữ pháp:  11/ 28 câu cần sửa · ví dụ từ dùng được:  22/ 23
   HSK 2 · Bài 2    ngữ pháp:   7/ 21 câu cần sửa · ví dụ từ dùng được:  24/ 33
@@ -52,19 +52,6 @@ Câu ví dụ của từ dùng được cho chặng (toàn từ đã học tới
   HSK 3 · Bài 18   ngữ pháp:   0/ 21 câu cần sửa · ví dụ từ dùng được:  53/ 53
 
 CHI TIẾT CÂU NGỮ PHÁP CẦN SỬA (theo thứ tự bài):
-[HSK 1 · Bài 10] vi-ngu-tinh-tu: 今天很冷。   ← 冷(HSK1-B12)
-[HSK 1 · Bài 10] vi-ngu-tinh-tu: 今天不冷。   ← 冷(HSK1-B12)
-[HSK 1 · Bài 11] chinh-phan: 你喝不喝茶？   ← 喝(HSK1-B12), 喝(HSK1-B12), 茶(HSK1-B13)
-[HSK 1 · Bài 12] zai-lai: 请再说一下。   ← 请(HSK1-B13)
-[HSK 1 · Bài 12] zai-lai: 你想再喝一杯茶吗？   ← 茶(HSK1-B13)
-[HSK 1 · Bài 12] zai-lai: 请再说一下。   ← 请(HSK1-B13)
-[HSK 1 · Bài 12] zai-lai: 你想再喝一杯茶吗？   ← 茶(HSK1-B13)
-[HSK 1 · Bài 12] cau-khien-cam-than: 请喝茶。   ← 请(HSK1-B13), 茶(HSK1-B13)
-[HSK 1 · Bài 12] cau-khien-cam-than: 上课了，不要说话。   ← 说话(HSK1-B14)
-[HSK 1 · Bài 12] cau-khien-cam-than: 不要说话！   ← 说话(HSK1-B14)
-[HSK 1 · Bài 12] cau-khien-cam-than: 请坐！   ← 请(HSK1-B13)
-[HSK 1 · Bài 13] yi-xia: 请你写一下你的名字。   ← 写(HSK1-B14)
-[HSK 1 · Bài 13] yi-xia: 请你写一下你的名字。   ← 写(HSK1-B14)
 [HSK 2 · Bài 1] ba-phong-doan: 你累了吧？   ← 累(HSK2-B3)
 [HSK 2 · Bài 1] ba-phong-doan: 这是你的书包吧？   ← 书包(HSK2-B4)
 [HSK 2 · Bài 1] shi-de: 我是坐公交车来的。   ← 公交车(HSK2-B2)

@@ -49,11 +49,11 @@
 ! Không nói 他是高兴 hay 我是很好 – bỏ 是: 他很高兴, 我很好.
 ! Câu khẳng định đứng một mình mà bỏ 很 thường mang ý so sánh (cái này to – còn cái kia thì không), nên người mới học hãy giữ 很.
 > 我/很/好。 | Wǒ hěn hǎo. | Tôi khỏe.
-> 今天/很/冷。 | Jīntiān hěn lěng. | Hôm nay lạnh.
+> 这件/衣服/很/贵。 | Zhè jiàn yīfu hěn guì. | Bộ quần áo này rất đắt.
 > 学校/很/大。 | Xuéxiào hěn dà. | Trường học rất rộng.
 > 我/不/高兴。 | Wǒ bù gāoxìng. | Tôi không vui.
 ? 他___高兴。 | 很 | 是; 吗; 有 | Tā hěn gāoxìng. | Anh ấy rất vui.
-? 今天不___。 | 冷 | 很; 是; 吗 | Jīntiān bù lěng. | Hôm nay không lạnh.
+? 这个不___。 | 贵 | 很; 是; 吗 | Zhège bú guì. | Cái này không đắt.
 ? 学校很___。 | 大 | 是; 吗; 不 | Xuéxiào hěn dà. | Trường học rất rộng.
 
 ## phu-dinh-bu

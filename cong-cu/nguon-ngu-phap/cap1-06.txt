@@ -16,7 +16,7 @@
 > 他/是/不是/你/哥哥？ | Tā shì bu shì nǐ gēge? | Anh ấy có phải anh trai bạn không?
 > 你/有/没有/中文/书？ | Nǐ yǒu méiyǒu Zhōngwén shū? | Bạn có sách tiếng Trung không?
 > 这个/菜/好吃/不/好吃？ | Zhège cài hǎochī bu hǎochī? | Món này có ngon không?
-? 你喝不___茶？ | 喝 | 吗; 很; 了 | Nǐ hē bu hē chá? | Bạn có uống trà không?
+? 你去不___学校？ | 去 | 吗; 很; 了 | Nǐ qù bu qù xuéxiào? | Bạn có đi học không?
 ? 他是___是老师？ | 不 | 没; 很; 吗 | Tā shì bu shì lǎoshī? | Anh ấy có phải là giáo viên không?
 ? 这个菜好吃不___？ | 好吃 | 吗; 很; 了 | Zhège cài hǎochī bu hǎochī? | Món này có ngon không?
 
@@ -82,13 +82,13 @@
 - 一下 đặt sau động từ = làm một chút, thử làm; giúp câu nhẹ nhàng, lịch sự hơn: 请看一下 (mời xem một chút).
 - Rất hay dùng khi nhờ vả, xin phép: 我想问一下…… (tôi muốn hỏi một chút…).
 - 一下 đọc yíxià.
-! 一下 đứng SAU động từ, trước tân ngữ: 写一下你的名字, không nói 一下写你的名字.
+! 一下 đứng SAU động từ, trước tân ngữ: 看一下这个问题, không nói 一下看这个问题.
 ! Không dùng 一下 với động từ chỉ trạng thái như 是, 有, 认识.
 > 请/看/一下。 | Qǐng kàn yíxià. | Mời xem một chút.
 > 我/想/问/一下。 | Wǒ xiǎng wèn yíxià. | Tôi muốn hỏi một chút.
 > 你/来/一下。 | Nǐ lái yíxià. | Bạn lại đây một chút.
 > 我们/休息/一下/吧。 | Wǒmen xiūxi yíxià ba. | Chúng ta nghỉ một chút nhé.
-> 请/你/写/一下/你/的/名字。 | Qǐng nǐ xiě yíxià nǐ de míngzi. | Bạn hãy viết tên của bạn nhé.
+> 请/你/看/一下/这个/问题。 | Qǐng nǐ kàn yíxià zhège wèntí. | Bạn xem giúp câu hỏi này nhé.
 ? 我想问___。 | 一下 | 很; 的; 是 | Wǒ xiǎng wèn yíxià. | Tôi muốn hỏi một chút.
 ? 我们休息一下___。 | 吧 | 很; 的; 是 | Wǒmen xiūxi yíxià ba. | Chúng ta nghỉ một chút nhé.
-? 请你写___你的名字。 | 一下 | 很; 是; 的 | Qǐng nǐ xiě yíxià nǐ de míngzi. | Bạn hãy viết tên của bạn nhé.
+? 请你看___这个问题。 | 一下 | 很; 是; 的 | Qǐng nǐ kàn yíxià zhège wèntí. | Bạn xem giúp câu hỏi này nhé.
