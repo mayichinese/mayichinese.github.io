@@ -451,6 +451,237 @@
      "dich": "Bữa tối họ ăn sủi cảo."
     }
    ]
+  },
+  {
+   "so": 7,
+   "ten": "Tối nay đi xem phim nhé!",
+   "kieu": "hoi-thoai",
+   "cau": [
+    {
+     "ai": "小文",
+     "han": "现在几点？",
+     "pinyin": "Xiànzài jǐ diǎn?",
+     "dich": "Bây giờ là mấy giờ?"
+    },
+    {
+     "ai": "小明",
+     "han": "现在下午五点半。",
+     "pinyin": "Xiànzài xiàwǔ wǔ diǎn bàn.",
+     "dich": "Bây giờ là năm giờ rưỡi chiều."
+    },
+    {
+     "ai": "小文",
+     "han": "晚上我们去看电影吧！",
+     "pinyin": "Wǎnshang wǒmen qù kàn diànyǐng ba!",
+     "dich": "Tối nay chúng mình đi xem phim nhé!"
+    },
+    {
+     "ai": "小明",
+     "han": "好！几点去？",
+     "pinyin": "Hǎo! Jǐ diǎn qù?",
+     "dich": "Được! Mấy giờ đi?"
+    },
+    {
+     "ai": "小文",
+     "han": "七点。我们在电影院见。",
+     "pinyin": "Qī diǎn. Wǒmen zài diànyǐngyuàn jiàn.",
+     "dich": "Bảy giờ. Chúng mình gặp nhau ở rạp chiếu phim."
+    },
+    {
+     "ai": "小明",
+     "han": "我六点下班。七点见！",
+     "pinyin": "Wǒ liù diǎn xiàbān. Qī diǎn jiàn!",
+     "dich": "Mình tan làm lúc sáu giờ. Bảy giờ gặp nhé!"
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "现在几点？",
+     "dapAn": "五点半",
+     "nhieu": [
+      "七点",
+      "六点半"
+     ],
+     "dich": "Bây giờ là mấy giờ?"
+    },
+    {
+     "loai": "chon",
+     "hoi": "他们晚上去哪儿？",
+     "dapAn": "电影院",
+     "nhieu": [
+      "医院",
+      "超市"
+     ],
+     "dich": "Buổi tối họ đi đâu?"
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小明六点下班。",
+     "dung": true,
+     "dich": "Tiểu Minh tan làm lúc sáu giờ."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "他们八点在电影院见。",
+     "dung": false,
+     "dich": "Tám giờ họ gặp nhau ở rạp chiếu phim."
+    }
+   ]
+  },
+  {
+   "so": 8,
+   "ten": "Con mèo của mình đâu rồi?",
+   "kieu": "doan-van",
+   "cau": [
+    {
+     "ai": "",
+     "han": "我家有一只小猫。",
+     "pinyin": "Wǒ jiā yǒu yì zhī xiǎo māo.",
+     "dich": "Nhà mình có một con mèo nhỏ."
+    },
+    {
+     "ai": "",
+     "han": "它很漂亮，我非常喜欢它。",
+     "pinyin": "Tā hěn piàoliang, wǒ fēicháng xǐhuan tā.",
+     "dich": "Nó rất xinh, mình rất thích nó."
+    },
+    {
+     "ai": "",
+     "han": "今天上午，我没看见它。",
+     "pinyin": "Jīntiān shàngwǔ, wǒ méi kànjiàn tā.",
+     "dich": "Sáng nay mình không thấy nó đâu."
+    },
+    {
+     "ai": "",
+     "han": "它不在房间里，也不在桌子下。",
+     "pinyin": "Tā bú zài fángjiān li, yě bú zài zhuōzi xia.",
+     "dich": "Nó không ở trong phòng, cũng không ở dưới bàn."
+    },
+    {
+     "ai": "",
+     "han": "晚上，它在我的房间里！",
+     "pinyin": "Wǎnshang, tā zài wǒ de fángjiān li!",
+     "dich": "Buổi tối, nó ở trong phòng mình!"
+    },
+    {
+     "ai": "",
+     "han": "我很高兴。",
+     "pinyin": "Wǒ hěn gāoxìng.",
+     "dich": "Mình rất vui."
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "他家有什么？",
+     "dapAn": "一只小猫",
+     "nhieu": [
+      "一个妹妹",
+      "一个哥哥"
+     ],
+     "dich": "Nhà bạn ấy có gì?"
+    },
+    {
+     "loai": "chon",
+     "hoi": "晚上猫在哪儿？",
+     "dapAn": "房间里",
+     "nhieu": [
+      "桌子下",
+      "学校里"
+     ],
+     "dich": "Buổi tối con mèo ở đâu?"
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "今天上午他没看见他的猫。",
+     "dung": true,
+     "dich": "Sáng nay bạn ấy không thấy con mèo của mình."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "上午，猫在桌子下。",
+     "dung": false,
+     "dich": "Buổi sáng, con mèo ở dưới bàn."
+    }
+   ]
+  },
+  {
+   "so": 9,
+   "ten": "Phòng của mình",
+   "kieu": "doan-van",
+   "cau": [
+    {
+     "ai": "",
+     "han": "我叫小文。这是我的房间。",
+     "pinyin": "Wǒ jiào Xiǎo Wén. Zhè shì wǒ de fángjiān.",
+     "dich": "Mình tên là Tiểu Văn. Đây là phòng của mình."
+    },
+    {
+     "ai": "",
+     "han": "房间里有桌子和椅子。",
+     "pinyin": "Fángjiān li yǒu zhuōzi hé yǐzi.",
+     "dich": "Trong phòng có bàn và ghế."
+    },
+    {
+     "ai": "",
+     "han": "桌子上有一本书和一个手机。",
+     "pinyin": "Zhuōzi shang yǒu yì běn shū hé yí gè shǒujī.",
+     "dich": "Trên bàn có một quyển sách và một cái điện thoại."
+    },
+    {
+     "ai": "",
+     "han": "椅子下边是我的小狗。",
+     "pinyin": "Yǐzi xiàbian shì wǒ de xiǎo gǒu.",
+     "dich": "Dưới ghế là con chó nhỏ của mình."
+    },
+    {
+     "ai": "",
+     "han": "白天我在学校学习，晚上我和朋友唱歌、看电视。",
+     "pinyin": "Báitiān wǒ zài xuéxiào xuéxí, wǎnshang wǒ hé péngyou chàng gē, kàn diànshì.",
+     "dich": "Ban ngày mình học ở trường, buổi tối mình cùng bạn hát, xem tivi."
+    },
+    {
+     "ai": "",
+     "han": "我朋友唱歌很好听。",
+     "pinyin": "Wǒ péngyou chàng gē hěn hǎotīng.",
+     "dich": "Bạn mình hát rất hay."
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "桌子上有什么？",
+     "dapAn": "书和手机",
+     "nhieu": [
+      "书和电脑",
+      "手机和狗"
+     ],
+     "dich": "Trên bàn có gì?"
+    },
+    {
+     "loai": "chon",
+     "hoi": "小狗在哪儿？",
+     "dapAn": "椅子下边",
+     "nhieu": [
+      "桌子上",
+      "房间外边"
+     ],
+     "dich": "Con chó nhỏ ở đâu?"
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "白天小文在学校学习。",
+     "dung": true,
+     "dich": "Ban ngày Tiểu Văn học ở trường."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小文的朋友唱歌不好听。",
+     "dung": false,
+     "dich": "Bạn của Tiểu Văn hát không hay."
+    }
+   ]
   }
  ]
 }

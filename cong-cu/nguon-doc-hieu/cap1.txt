@@ -106,3 +106,57 @@ $ 小明; 小文
 != Họ đi taxi đến siêu thị.
 ! 晚饭他们吃饺子。 | sai
 != Bữa tối họ ăn sủi cảo.
+
+## 7
+@ Tối nay đi xem phim nhé!
+% hoi-thoai
+> 小文 | 现在几点？ | Xiànzài jǐ diǎn? | Bây giờ là mấy giờ?
+> 小明 | 现在下午五点半。 | Xiànzài xiàwǔ wǔ diǎn bàn. | Bây giờ là năm giờ rưỡi chiều.
+> 小文 | 晚上我们去看电影吧！ | Wǎnshang wǒmen qù kàn diànyǐng ba! | Tối nay chúng mình đi xem phim nhé!
+> 小明 | 好！几点去？ | Hǎo! Jǐ diǎn qù? | Được! Mấy giờ đi?
+> 小文 | 七点。我们在电影院见。 | Qī diǎn. Wǒmen zài diànyǐngyuàn jiàn. | Bảy giờ. Chúng mình gặp nhau ở rạp chiếu phim.
+> 小明 | 我六点下班。七点见！ | Wǒ liù diǎn xiàbān. Qī diǎn jiàn! | Mình tan làm lúc sáu giờ. Bảy giờ gặp nhé!
+? 现在几点？ | 五点半 | 七点; 六点半
+?= Bây giờ là mấy giờ?
+? 他们晚上去哪儿？ | 电影院 | 医院; 超市
+?= Buổi tối họ đi đâu?
+! 小明六点下班。 | đúng
+!= Tiểu Minh tan làm lúc sáu giờ.
+! 他们八点在电影院见。 | sai
+!= Tám giờ họ gặp nhau ở rạp chiếu phim.
+
+## 8
+@ Con mèo của mình đâu rồi?
+% doan-van
+> 我家有一只小猫。 | Wǒ jiā yǒu yì zhī xiǎo māo. | Nhà mình có một con mèo nhỏ.
+> 它很漂亮，我非常喜欢它。 | Tā hěn piàoliang, wǒ fēicháng xǐhuan tā. | Nó rất xinh, mình rất thích nó.
+> 今天上午，我没看见它。 | Jīntiān shàngwǔ, wǒ méi kànjiàn tā. | Sáng nay mình không thấy nó đâu.
+> 它不在房间里，也不在桌子下。 | Tā bú zài fángjiān li, yě bú zài zhuōzi xia. | Nó không ở trong phòng, cũng không ở dưới bàn.
+> 晚上，它在我的房间里！ | Wǎnshang, tā zài wǒ de fángjiān li! | Buổi tối, nó ở trong phòng mình!
+> 我很高兴。 | Wǒ hěn gāoxìng. | Mình rất vui.
+? 他家有什么？ | 一只小猫 | 一个妹妹; 一个哥哥
+?= Nhà bạn ấy có gì?
+? 晚上猫在哪儿？ | 房间里 | 桌子下; 学校里
+?= Buổi tối con mèo ở đâu?
+! 今天上午他没看见他的猫。 | đúng
+!= Sáng nay bạn ấy không thấy con mèo của mình.
+! 上午，猫在桌子下。 | sai
+!= Buổi sáng, con mèo ở dưới bàn.
+
+## 9
+@ Phòng của mình
+% doan-van
+> 我叫小文。这是我的房间。 | Wǒ jiào Xiǎo Wén. Zhè shì wǒ de fángjiān. | Mình tên là Tiểu Văn. Đây là phòng của mình.
+> 房间里有桌子和椅子。 | Fángjiān li yǒu zhuōzi hé yǐzi. | Trong phòng có bàn và ghế.
+> 桌子上有一本书和一个手机。 | Zhuōzi shang yǒu yì běn shū hé yí gè shǒujī. | Trên bàn có một quyển sách và một cái điện thoại.
+> 椅子下边是我的小狗。 | Yǐzi xiàbian shì wǒ de xiǎo gǒu. | Dưới ghế là con chó nhỏ của mình.
+> 白天我在学校学习，晚上我和朋友唱歌、看电视。 | Báitiān wǒ zài xuéxiào xuéxí, wǎnshang wǒ hé péngyou chàng gē, kàn diànshì. | Ban ngày mình học ở trường, buổi tối mình cùng bạn hát, xem tivi.
+> 我朋友唱歌很好听。 | Wǒ péngyou chàng gē hěn hǎotīng. | Bạn mình hát rất hay.
+? 桌子上有什么？ | 书和手机 | 书和电脑; 手机和狗
+?= Trên bàn có gì?
+? 小狗在哪儿？ | 椅子下边 | 桌子上; 房间外边
+?= Con chó nhỏ ở đâu?
+! 白天小文在学校学习。 | đúng
+!= Ban ngày Tiểu Văn học ở trường.
+! 小文的朋友唱歌不好听。 | sai
+!= Bạn của Tiểu Văn hát không hay.
