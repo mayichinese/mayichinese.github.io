@@ -1,8 +1,9 @@
 // =========================================================
 // SERVICE WORKER – giúp app chạy được khi KHÔNG có mạng.
-// Cách làm trên điện thoại / trang web: "bộ nhớ trước, cập nhật ngầm" → mở app gần như tức thì
-//   - Lấy ngay bản đã cất trong máy để hiện, đồng thời tải bản mới ở nền và cất lại cho lần mở sau.
-//   - Có bản mới (tăng PHIEN_BAN): lần mở này tải sẵn trọn bộ, lần mở SAU dùng bản mới.
+// Cách làm trên điện thoại / trang web: "bộ nhớ trước" → mở app gần như tức thì, không tốn mạng
+//   - Lấy thẳng bản đã cất trong máy (KHÔNG tải lại mỗi lần mở – tiết kiệm mạng và bộ nhớ máy).
+//   - Có bản mới: trình duyệt tự thấy sw.js đổi (vì tăng PHIEN_BAN) → cài bản mới ở nền, tải trọn bộ file,
+//     rồi app.js tự tải lại trang. ⇒ SỬA FILE TRONG app/ MÀ QUÊN TĂNG PHIEN_BAN THÌ ĐIỆN THOẠI KHÔNG NHẬN.
 //   - Mất mạng: vẫn chạy bằng bản đã cất.
 // Trên máy tính khi chạy CHAY-APP.bat (localhost): "mạng trước" như cũ, sửa file JSON là thấy ngay.
 // Phông chữ Google (Lexend, Noto Sans): lấy từ bộ nhớ trước, chưa có mới tải
@@ -11,7 +12,7 @@
 // =========================================================
 
 // Tên bộ nhớ đệm (chỉ chứa file của app, KHÔNG chứa tiến độ học – tiến độ nằm ở localStorage)
-const PHIEN_BAN = 'mayi-v33';
+const PHIEN_BAN = 'mayi-v34';
 const BO_NHO_PHONG = 'mayi-phong-chu-v1';  // phông chữ – giữ qua các phiên bản
 const TAP_TIN = [
   './',
@@ -113,15 +114,12 @@ self.addEventListener('fetch', (e) => {
   if (nguon !== location.origin) return;
 
   if (!MAY_NHA) {
-    // Bộ nhớ trước, cập nhật ngầm
-    const taiMoi = fetch(req).then(async (res) => {
-      if (res.ok) await (await caches.open(PHIEN_BAN)).put(req, res.clone());
-      return res;
-    });
-    e.waitUntil(taiMoi.catch(() => {}));
+    // Bộ nhớ trước; chưa có (file lạ) thì tải về rồi cất
     e.respondWith(
-      caches.match(req, { ignoreSearch: true })
-        .then((daCo) => daCo || taiMoi.catch(() => caches.match('./index.html'))),
+      caches.match(req, { ignoreSearch: true }).then((daCo) => daCo || fetch(req).then(async (res) => {
+        if (res.ok) await (await caches.open(PHIEN_BAN)).put(req, res.clone());
+        return res;
+      }).catch(() => caches.match('./index.html'))),
     );
     return;
   }

@@ -91,6 +91,11 @@ export async function veCaiDat(khung) {
       <button class="nut" id="nut-xoa" style="color:#dc2626"><span class="emoji">🗑</span> Xóa toàn bộ tiến độ học</button>
     </div>
 
+    <h3 class="tieu-de-muc">Thông tin kỹ thuật</h3>
+    <div class="khung">
+      <p class="chu-phu nho" id="thong-tin-ky-thuat" style="margin:0;line-height:1.7">Đang kiểm tra…</p>
+    </div>
+
     <div class="chan-trang">
       <img src="icons/icon-192.png" alt="" width="56" height="56">
       <p class="chu-phu nho">Mayi Chinese · Giai đoạn 5</p>
@@ -155,6 +160,19 @@ export async function veCaiDat(khung) {
     thongBao('Đã xóa tiến độ');
     veLai();
   };
+
+  // --- Thông tin kỹ thuật: phiên bản đang chạy, thời gian mở app lần này (để báo lỗi chậm) ---
+  (async () => {
+    let tg = null;
+    try { tg = JSON.parse(localStorage.getItem('mayi-thoi-gian-mo') || 'null'); } catch { /* bỏ qua */ }
+    let banApp = 'không rõ';
+    try { banApp = (await caches.keys()).find((k) => /^mayi-v\d+$/.test(k)) || 'chưa cài bản offline'; } catch { /* bỏ qua */ }
+    const $tt = $('#thong-tin-ky-thuat');
+    if (!$tt?.isConnected) return;
+    $tt.innerHTML = `Phiên bản: <b>${esc(banApp)}</b><br>
+      Chế độ offline: <b>${navigator.serviceWorker?.controller ? 'đang bật' : 'chưa bật'}</b><br>
+      Lần mở app gần nhất: ${tg ? `<b>${(tg.ms / 1000).toFixed(1).replace('.', ',')} giây</b> (lúc ${new Date(tg.luc).toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' })})` : 'chưa đo'}`;
+  })();
 
   // --- Danh sách giọng đọc (tải chậm trên một số trình duyệt) ---
   await choGiong();

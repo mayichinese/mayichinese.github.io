@@ -24,16 +24,23 @@ const CAC_FILE = [
 let baiHoc = [];       // [{ cap, so, ma, ten, tu: [ ... ], soTu, sach: false }]
 let tuTheoKhoa = {};   // khóa "1:爱" → từ
 
+/** Lấy file: dùng yêu cầu đã bắt đầu sẵn trong index.html (nếu có, chỉ một lần), không thì tải mới */
+function taiFile(duongDan) {
+  const san = window.__taiTruoc?.[duongDan];
+  if (san) { delete window.__taiTruoc[duongDan]; return san; }
+  return fetch(duongDan, { cache: 'no-cache' });
+}
+
 /** Tải toàn bộ dữ liệu. Ném lỗi có giải thích tiếng Việt nếu file hỏng. */
 export async function taiDuLieu() {
   baiHoc = [];
   tuTheoKhoa = {};
   // Tải mọi file CÙNG LÚC (nhanh hơn tải lần lượt), rồi xử lý theo thứ tự cấp
-  const cacPhanHoi = CAC_FILE.map((f) => fetch(f.duongDan, { cache: 'no-cache' }));
+  const cacPhanHoi = CAC_FILE.map((f) => taiFile(f.duongDan));
   cacPhanHoi.forEach((p) => p.catch(() => {}));   // lỗi được xử lý bên dưới, tránh cảnh báo "chưa bắt lỗi"
-  const henTheoSach = fetch('data/theo-sach-hsk1.json', { cache: 'no-cache' }).catch(() => null);
+  const henTheoSach = taiFile('data/theo-sach-hsk1.json').catch(() => null);
   const henChuDe = Object.fromEntries([2, 3].map((cap) => [cap,
-    fetch(`data/chu-de-hsk${cap}.json`, { cache: 'no-cache' }).catch(() => null)]));
+    taiFile(`data/chu-de-hsk${cap}.json`).catch(() => null)]));
   for (const [i, f] of CAC_FILE.entries()) {
     let phanHoi;
     try {

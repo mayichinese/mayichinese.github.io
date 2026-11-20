@@ -114,7 +114,8 @@
   - Không đưa danh sách từ hay câu tiếng Trung vào code; code luôn đọc từ file JSON.
   - Viết từng file một, mỗi lần vừa phải. Soạn dữ liệu mới mỗi lần ≤ 15 từ.
 - Không làm mất tiến độ học đã lưu trong localStorage khi đổi cấu trúc dữ liệu (viết code chuyển đổi nếu cần).
-- Mỗi khi sửa file trong `app/`, tăng `PHIEN_BAN` trong `app/sw.js` để điện thoại nhận bản mới (sw.js: bộ nhớ trước + cập nhật
-  ngầm; riêng localhost là mạng trước. app.js nghe `controllerchange` để tự tải lại khi vừa mở hoặc khi về trang Hôm nay);
+- Mỗi khi sửa file trong `app/`, tăng `PHIEN_BAN` trong `app/sw.js` để điện thoại nhận bản mới (sw.js: bộ nhớ trước, KHÔNG tải lại
+  ngầm – quên tăng PHIEN_BAN thì điện thoại không nhận; riêng localhost là mạng trước. index.html tải sẵn data/hsk*.json
+  (window.__taiTruoc, du-lieu.js dùng lại); thời gian mở ghi ở khóa riêng `mayi-thoi-gian-mo`, xem Cài đặt → Thông tin kỹ thuật. app.js nghe `controllerchange` để tự tải lại khi vừa mở hoặc khi về trang Hôm nay);
   thêm file mới thì thêm vào danh sách `TAP_TIN`.
 - Chỉ một phiên AI được sửa `app/` tại một thời điểm.

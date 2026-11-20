@@ -220,6 +220,13 @@ async function khoiDong() {
   }
   window.addEventListener('hashchange', veTheoDiaChi);
   veTheoDiaChi();
+  // Ghi thời gian mở app (từ lúc trình duyệt bắt đầu tải trang đến khi hiện màn hình đầu) – xem ở Cài đặt → Thông tin kỹ thuật.
+  // Khóa riêng, không đụng tới tiến độ học.
+  try {
+    localStorage.setItem('mayi-thoi-gian-mo', JSON.stringify({
+      ms: Math.round(performance.now()), luc: Date.now(), offline: !!navigator.serviceWorker?.controller,
+    }));
+  } catch { /* không lưu được thì thôi */ }
 }
 
 khoiDong();

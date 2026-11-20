@@ -86,6 +86,14 @@
     document.getElementById('noi-dung').innerHTML =
       '<p class="loi">Trình duyệt này quá cũ. Hãy dùng Chrome, Edge hoặc Safari bản mới.</p>';
   </script>
+  <!-- Bắt đầu tải dữ liệu từ vựng NGAY, song song với việc tải mã JS (du-lieu.js dùng lại các yêu cầu này) -->
+  <script>
+    window.__taiTruoc = {};
+    ['data/hsk1.json', 'data/hsk2.json', 'data/hsk3.json', 'data/theo-sach-hsk1.json', 'data/chu-de-hsk2.json', 'data/chu-de-hsk3.json']
+      .forEach(function (f) {
+        try { var p = fetch(f, { cache: 'no-cache' }); p.catch(function () {}); window.__taiTruoc[f] = p; } catch (e) { /* bỏ qua */ }
+      });
+  </script>
   <script type="module" src="js/app.js"></script>
 </body>
 </html>
