@@ -2,9 +2,12 @@
 """
 GHÉP + KIỂM TRA BÀI ĐỌC HIỂU (bước E)
 
-Đọc cong-cu/nguon-doc-hieu/cap<N>.txt → app/data/doc-hieu-hsk<N>.json, báo cáo cong-cu/bao-cao-doc-hieu-hsk<N>.txt
+Đọc MỌI file cong-cu/nguon-doc-hieu/cap<N>.txt và cap<N>-*.txt (theo thứ tự tên)
+→ app/data/doc-hieu-hsk<N>.json, báo cáo cong-cu/bao-cao-doc-hieu-hsk<N>.txt
 Chạy:  python -X utf8 cong-cu/ghep-doc-hieu.py        (cấp 1)
        python -X utf8 cong-cu/ghep-doc-hieu.py 2      (cấp 2)
+       python -X utf8 cong-cu/ghep-doc-hieu.py 2 --chi-kiem cap2-a.txt
+              chỉ KIỂM TRA một file, KHÔNG ghi JSON / báo cáo (khi nhiều người soạn song song các file khác nhau)
 
 ĐỊNH DẠNG (mỗi bài đọc bắt đầu bằng "## số bài" – số bài theo SÁCH của cấp đó, mỗi bài một bài đọc):
     ## 3
@@ -52,9 +55,17 @@ tch = nap('kiem_tra_tu_chua_hoc', 'kiem-tra-tu-chua-hoc.py')   # tu_dien, chua_h
 kt = np_.kt
 
 
-def doc_nguon(cap):
-    tep = GOC / 'cong-cu' / 'nguon-doc-hieu' / f'cap{cap}.txt'
+def doc_nguon(cap, chi_tep=None):
+    thu_muc = GOC / 'cong-cu' / 'nguon-doc-hieu'
+    cac_tep = [thu_muc / chi_tep] if chi_tep else sorted(
+        t for t in thu_muc.glob(f'cap{cap}*.txt') if t.name == f'cap{cap}.txt' or t.name.startswith(f'cap{cap}-'))
     ds, ten_rieng, loi = [], set(), []
+    for tep in cac_tep:
+        doc_mot_tep(tep, ds, ten_rieng, loi)
+    return ds, ten_rieng, loi
+
+
+def doc_mot_tep(tep, ds, ten_rieng, loi):
     bai = None
     hoi_cuoi = None
     for so_dong, dong in enumerate(tep.read_text(encoding='utf-8').splitlines(), 1):
@@ -63,7 +74,7 @@ def doc_nguon(cap):
         if not dong or (dong.startswith('#') and not dong.startswith('## ')):
             continue
         if dong.startswith('$'):
-            ten_rieng |= {x.strip() for x in dong[1:].split(';') if x.strip()}
+            ten_rieng.update(x.strip() for x in dong[1:].split(';') if x.strip())
             continue
         if dong.startswith('## '):
             bai = {'so': int(dong[3:].strip()), 'ten': '', 'kieu': '', 'cau': [], 'hoi': [], '_noi': noi}
@@ -114,12 +125,12 @@ def doc_nguon(cap):
             bai['hoi'].append(hoi_cuoi)
         else:
             loi.append(f'{noi}: không hiểu dòng này')
-    return ds, ten_rieng, loi
 
 
 def main():
-    cap = int(sys.argv[1]) if len(sys.argv) > 1 else 1
-    ds, ten_rieng, loi = doc_nguon(cap)
+    cap = int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else 1
+    chi_kiem = sys.argv[sys.argv.index('--chi-kiem') + 1] if '--chi-kiem' in sys.argv else None
+    ds, ten_rieng, loi = doc_nguon(cap, chi_kiem)
     canh_bao = []
 
     # Bài có thật? (HSK 1: bài sách theo theo-sach-hsk1.json; HSK 2–3: bài trong hskN.json)
@@ -208,8 +219,11 @@ def main():
     bao_cao = [f'Bài đọc HSK {cap}: {len(ds)} bài · {sum(len(b["cau"]) for b in ds)} câu · {sum(len(b["hoi"]) for b in ds)} câu hỏi',
                f'LỖI: {len(loi)} · CẢNH BÁO: {len(canh_bao)}', '']
     bao_cao += [f'LỖI: {x}' for x in loi] + [f'CẢNH BÁO: {x}' for x in canh_bao]
-    (GOC / 'cong-cu' / f'bao-cao-doc-hieu-hsk{cap}.txt').write_text('\n'.join(bao_cao) + '\n', encoding='utf-8')
     print('\n'.join(bao_cao))
+    if chi_kiem:
+        print('(chỉ kiểm tra – không ghi file)')
+        sys.exit(1 if loi else 0)
+    (GOC / 'cong-cu' / f'bao-cao-doc-hieu-hsk{cap}.txt').write_text('\n'.join(bao_cao) + '\n', encoding='utf-8')
     if loi:
         print('Có lỗi – CHƯA ghi file JSON.')
         sys.exit(1)
