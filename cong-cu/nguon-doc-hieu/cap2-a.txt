@@ -1,0 +1,170 @@
+# ===== ĐỌC HIỂU HSK 2 – PHẦN A: bài 1–8 (soạn tay, tự đặt – không chép giáo trình) =====
+# Cách viết: xem đầu file cong-cu/ghep-doc-hieu.py. Chỉ dùng từ đã học tới bài đó (HSK 1 + HSK 2 các bài trước).
+# Kiểm tra riêng file này: python -X utf8 cong-cu/ghep-doc-hieu.py 2 --chi-kiem cap2-a.txt
+
+# Tên riêng dùng trong bài đọc (được phép dù không có trong danh sách từ)
+$ 小明; 小文; 小李; 小张; 李明
+
+## 1
+@ Bạn là Tiểu Lý phải không?
+% hoi-thoai
+> 小李 | 不好意思，请问，你是小明吧？ | Bù hǎoyìsi, qǐngwèn, nǐ shì Xiǎo Míng ba? | Xin lỗi, cho hỏi, bạn là Tiểu Minh phải không?
+> 小明 | 对，我是小明。你是小文的朋友小李吧？ | Duì, wǒ shì Xiǎo Míng. Nǐ shì Xiǎo Wén de péngyou Xiǎo Lǐ ba? | Đúng, mình là Tiểu Minh. Bạn là Tiểu Lý, bạn của Tiểu Văn phải không?
+> 小李 | 是我。小文今天很忙，她让我来找你。 | Shì wǒ. Xiǎo Wén jīntiān hěn máng, tā ràng wǒ lái zhǎo nǐ. | Là mình đây. Hôm nay Tiểu Văn rất bận, bạn ấy bảo mình đến tìm bạn.
+> 小明 | 你是什么时候来的？是来旅游的吧？ | Nǐ shì shénme shíhou lái de? Shì lái lǚyóu de ba? | Bạn đến lúc nào thế? Đến để du lịch phải không?
+> 小李 | 我是昨天来的。我来旅游，也想学汉语。 | Wǒ shì zuótiān lái de. Wǒ lái lǚyóu, yě xiǎng xué Hànyǔ. | Mình đến hôm qua. Mình đến du lịch, cũng muốn học tiếng Hán.
+> 小明 | 你已经会说汉语了！ | Nǐ yǐjīng huì shuō Hànyǔ le! | Bạn đã biết nói tiếng Hán rồi!
+> 小李 | 我会说一点儿，有时听不懂。这是我第一次来。 | Wǒ huì shuō yìdiǎnr, yǒushí tīng bù dǒng. Zhè shì wǒ dì yī cì lái. | Mình nói được một chút, có lúc nghe không hiểu. Đây là lần đầu tiên mình đến.
+> 小明 | 没关系，你有不懂的就问我。我给你介绍一下我们学校吧！ | Méi guānxi, nǐ yǒu bù dǒng de jiù wèn wǒ. Wǒ gěi nǐ jièshào yíxià wǒmen xuéxiào ba! | Không sao, có gì không hiểu thì cứ hỏi mình. Để mình giới thiệu trường bọn mình cho bạn nhé!
+> 小李 | 太好了！谢谢你帮忙！ | Tài hǎo le! Xièxie nǐ bāngmáng! | Tốt quá! Cảm ơn bạn đã giúp!
+? 谁让小李来找小明？ | 小文 | 小李的老师; 小明的姐姐
+?= Ai bảo Tiểu Lý đến tìm Tiểu Minh?
+? 小李是什么时候来的？ | 昨天 | 今天; 明天
+?= Tiểu Lý đến lúc nào?
+! 小李是来旅游的。 | đúng
+!= Tiểu Lý đến để du lịch.
+! 小李不会说汉语。 | sai
+!= Tiểu Lý không biết nói tiếng Hán.
+
+## 2
+@ Đi học bằng xe buýt
+% doan-van
+> 我是小文，是大学生。 | Wǒ shì Xiǎo Wén, shì dàxuéshēng. | Mình là Tiểu Văn, là sinh viên.
+> 我们大学很大，有一百多间教室，有两万多名学生。 | Wǒmen dàxué hěn dà, yǒu yìbǎi duō jiān jiàoshì, yǒu liǎng wàn duō míng xuéshēng. | Trường đại học của bọn mình rất lớn, có hơn một trăm phòng học, có hơn hai vạn sinh viên.
+> 学校里还有几十名外国学生。 | Xuéxiào li hái yǒu jǐ shí míng wàiguó xuéshēng. | Trong trường còn có vài chục sinh viên nước ngoài.
+> 我家很远，我坐公交车去学校。车站就在我家前边。 | Wǒ jiā hěn yuǎn, wǒ zuò gōngjiāochē qù xuéxiào. Chēzhàn jiù zài wǒ jiā qiánbian. | Nhà mình rất xa, mình đi xe buýt đến trường. Bến xe ở ngay trước nhà mình.
+> 坐公交车的人很多，但票很便宜，两块钱。 | Zuò gōngjiāochē de rén hěn duō, dàn piào hěn piányi, liǎng kuài qián. | Người đi xe buýt rất đông, nhưng vé rất rẻ, hai đồng.
+> 有时我起床晚了，就打车去学校。 | Yǒushí wǒ qǐchuáng wǎn le, jiù dǎchē qù xuéxiào. | Có lúc mình dậy muộn, thì đi taxi đến trường.
+> 打车不便宜，要三十多块钱。 | Dǎchē bù piányi, yào sānshí duō kuài qián. | Đi taxi không rẻ, mất hơn ba mươi đồng.
+> 妈妈说：“别打车了，还是早一点儿起床吧！” | Māma shuō: “Bié dǎchē le, háishi zǎo yìdiǎnr qǐchuáng ba!” | Mẹ nói: “Đừng đi taxi nữa, con dậy sớm một chút thì hơn!”
+? 小文坐什么去学校？ | 坐公交车 | 坐火车; 坐飞机
+?= Tiểu Văn đi gì đến trường?
+? 打车去学校要多少钱？ | 三十多块 | 两块; 一百多块
+?= Đi taxi đến trường mất bao nhiêu tiền?
+! 小文的学校有外国学生。 | đúng
+!= Trường của Tiểu Văn có sinh viên nước ngoài.
+! 车站在小文家后边。 | sai
+!= Bến xe ở sau nhà Tiểu Văn.
+
+## 3
+@ Đi du lịch về
+% hoi-thoai
+> 小文 | 小明，你旅游回来了！怎么样？ | Xiǎo Míng, nǐ lǚyóu huílái le! Zěnmeyàng? | Tiểu Minh, bạn đi du lịch về rồi à! Thế nào?
+> 小明 | 很不错！我和朋友们一起去的，每天都出去玩。 | Hěn búcuò! Wǒ hé péngyoumen yìqǐ qù de, měi tiān dōu chūqù wán. | Khá tuyệt! Mình đi cùng các bạn, ngày nào cũng ra ngoài chơi.
+> 小文 | 你为什么这么累？ | Nǐ wèi shénme zhème lèi? | Sao trông bạn mệt thế?
+> 小明 | 我们每天早上六点就起床，晚上十一点睡觉。 | Wǒmen měi tiān zǎoshang liù diǎn jiù qǐchuáng, wǎnshang shíyī diǎn shuìjiào. | Ngày nào bọn mình cũng sáu giờ sáng đã dậy, mười một giờ đêm mới ngủ.
+> 小文 | 你手里拿的是什么？ | Nǐ shǒu li ná de shì shénme? | Cái bạn cầm trong tay là gì vậy?
+> 小明 | 这是我送你的东西。你看看！ | Zhè shì wǒ sòng nǐ de dōngxi. Nǐ kànkan! | Đây là quà mình tặng bạn. Bạn xem thử đi!
+> 小文 | 是一本书！真好看，我想今天就看完。 | Shì yì běn shū! Zhēn hǎokàn, wǒ xiǎng jīntiān jiù kànwán. | Là một quyển sách! Hay thật, mình muốn đọc xong ngay hôm nay.
+> 小明 | 好。我回去休息休息，还要洗衣服。 | Hǎo. Wǒ huíqù xiūxi xiūxi, hái yào xǐ yīfu. | Ừ. Mình về nghỉ ngơi một chút, còn phải giặt quần áo nữa.
+> 小文 | 那你回去吧，明天见！ | Nà nǐ huíqù ba, míngtiān jiàn! | Vậy bạn về đi, mai gặp nhé!
+? 小明他们每天早上几点起床？ | 六点 | 七点; 十一点
+?= Mỗi sáng nhóm Tiểu Minh dậy lúc mấy giờ?
+? 小明送小文什么？ | 一本书 | 一件衣服; 一个手机
+?= Tiểu Minh tặng Tiểu Văn cái gì?
+! 小明是和朋友们一起去旅游的。 | đúng
+!= Tiểu Minh đi du lịch cùng các bạn.
+! 小文想明天看完这本书。 | sai
+!= Tiểu Văn muốn ngày mai đọc xong quyển sách này.
+
+## 4
+@ Mua quần áo ở trung tâm thương mại
+% doan-van
+> 我是小明。星期六，我和妈妈去商场买衣服。 | Wǒ shì Xiǎo Míng. Xīngqīliù, wǒ hé māma qù shāngchǎng mǎi yīfu. | Mình là Tiểu Minh. Thứ bảy, mình và mẹ đi trung tâm thương mại mua quần áo.
+> 我没去过这个商场，它很大。 | Wǒ méi qùguo zhège shāngchǎng, tā hěn dà. | Mình chưa đến trung tâm thương mại này bao giờ, nó rất lớn.
+> 我们进去看了看，这里衣服的颜色真多。 | Wǒmen jìnqù kàn le kàn, zhèli yīfu de yánsè zhēn duō. | Bọn mình vào xem thử, quần áo ở đây nhiều màu thật.
+> 妈妈说：“红色的好看，你买红色的吧。” | Māma shuō: “Hóngsè de hǎokàn, nǐ mǎi hóngsè de ba.” | Mẹ nói: “Cái màu đỏ đẹp đấy, con mua cái màu đỏ đi.”
+> 因为我的书包是黑色的，所以我想买一条黑色的裤子。 | Yīnwèi wǒ de shūbāo shì hēisè de, suǒyǐ wǒ xiǎng mǎi yì tiáo hēisè de kùzi. | Vì cặp sách của mình màu đen, nên mình muốn mua một cái quần màu đen.
+> 妈妈给我买了一条黑色的裤子，还买了一件白色的衣服。 | Māma gěi wǒ mǎile yì tiáo hēisè de kùzi, hái mǎile yí jiàn báisè de yīfu. | Mẹ mua cho mình một cái quần màu đen, còn mua một cái áo màu trắng.
+> 我还看见一个绿色的书包，但太贵了，我们没买。 | Wǒ hái kànjiàn yí gè lǜsè de shūbāo, dàn tài guì le, wǒmen méi mǎi. | Mình còn thấy một cái cặp màu xanh lá, nhưng đắt quá, bọn mình không mua.
+> 我很喜欢新买的裤子。 | Wǒ hěn xǐhuan xīn mǎi de kùzi. | Mình rất thích cái quần mới mua.
+? 他们去哪儿买衣服？ | 商场 | 书店; 饭店
+?= Họ đi đâu mua quần áo?
+? 妈妈给小明买了什么？ | 黑色的裤子和白色的衣服 | 红色的衣服和黑色的裤子; 绿色的书包和白色的衣服
+?= Mẹ mua cho Tiểu Minh những gì?
+! 小明的书包是黑色的。 | đúng
+!= Cặp sách của Tiểu Minh màu đen.
+! 他们买了绿色的书包。 | sai
+!= Họ đã mua cái cặp màu xanh lá.
+
+## 5
+@ Đến nhà Tiểu Văn chơi
+% hoi-thoai
+> 小明 | 喂，小文，我到你家下面了。 | Wéi, Xiǎo Wén, wǒ dào nǐ jiā xiàmiàn le. | A lô, Tiểu Văn, mình đến dưới nhà bạn rồi.
+> 小文 | 好，你等一会儿，我下去找你。 | Hǎo, nǐ děng yíhuìr, wǒ xiàqù zhǎo nǐ. | Được, bạn đợi một lát, mình xuống tìm bạn.
+> 小明 | 这是我给爷爷奶奶买的水果。 | Zhè shì wǒ gěi yéye nǎinai mǎi de shuǐguǒ. | Đây là hoa quả mình mua biếu ông bà.
+> 小文 | 谢谢你！快跟我上去吧，他们在家等你呢。 | Xièxie nǐ! Kuài gēn wǒ shàngqù ba, tāmen zài jiā děng nǐ ne. | Cảm ơn bạn! Mau cùng mình lên đi, ông bà đang ở nhà đợi bạn đấy.
+> 奶奶 | 小明来了！快进来坐吧，我给你们准备了奶茶。 | Xiǎo Míng lái le! Kuài jìnlái zuò ba, wǒ gěi nǐmen zhǔnbèile nǎichá. | Tiểu Minh đến rồi! Mau vào ngồi đi, bà đã chuẩn bị trà sữa cho các cháu.
+> 爷爷 | 小明，你今年多大了？ | Xiǎo Míng, nǐ jīnnián duō dà le? | Tiểu Minh, năm nay cháu bao nhiêu tuổi rồi?
+> 小明 | 我今年二十岁。 | Wǒ jīnnián èrshí suì. | Năm nay cháu hai mươi tuổi ạ.
+> 爷爷 | 都二十岁了！时间真快啊！ | Dōu èrshí suì le! Shíjiān zhēn kuài a! | Đã hai mươi tuổi rồi cơ à! Thời gian trôi nhanh thật!
+> 小明 | 都十点了，我要走了。爷爷奶奶再见！ | Dōu shí diǎn le, wǒ yào zǒu le. Yéye nǎinai zàijiàn! | Đã mười giờ rồi, cháu phải về đây. Cháu chào ông bà ạ!
+? 小明给爷爷奶奶买了什么？ | 水果 | 奶茶; 牛奶
+?= Tiểu Minh mua gì biếu ông bà?
+? 奶奶给他们准备了什么？ | 奶茶 | 水果; 米饭
+?= Bà chuẩn bị gì cho họ?
+! 小明今年二十岁。 | đúng
+!= Năm nay Tiểu Minh hai mươi tuổi.
+! 小文的爷爷奶奶不在家。 | sai
+!= Ông bà của Tiểu Văn không có ở nhà.
+
+## 6
+@ Sinh nhật của Tiểu Văn
+% doan-van
+> 我是小文。今天是我的生日，我二十一岁了。 | Wǒ shì Xiǎo Wén. Jīntiān shì wǒ de shēngrì, wǒ èrshíyī suì le. | Mình là Tiểu Văn. Hôm nay là sinh nhật mình, mình hai mươi mốt tuổi rồi.
+> 早上，我高高兴兴地起床了。 | Zǎoshang, wǒ gāogāoxìngxìng de qǐchuáng le. | Buổi sáng, mình vui vẻ thức dậy.
+> 妈妈给我做了很多菜：鱼、肉、饺子什么的。 | Māma gěi wǒ zuòle hěn duō cài: yú, ròu, jiǎozi shénme de. | Mẹ nấu cho mình rất nhiều món: cá, thịt, sủi cảo, v.v.
+> 姐姐给我画了一只大大的猫，真好看。 | Jiějie gěi wǒ huàle yì zhī dàdà de māo, zhēn hǎokàn. | Chị gái vẽ cho mình một con mèo to ơi là to, đẹp thật.
+> 晚上，朋友们来我家，我们一起过生日。 | Wǎnshang, péngyoumen lái wǒ jiā, wǒmen yìqǐ guò shēngrì. | Buổi tối, các bạn đến nhà mình, bọn mình cùng nhau tổ chức sinh nhật.
+> 小明送我一个东西，我打开一看，是一件红色的衣服。 | Xiǎo Míng sòng wǒ yí gè dōngxi, wǒ dǎkāi yí kàn, shì yí jiàn hóngsè de yīfu. | Tiểu Minh tặng mình một món quà, mình mở ra xem, là một cái áo màu đỏ.
+> 大家都说：“生日快乐！” | Dàjiā dōu shuō: “Shēngrì kuàilè!” | Mọi người đều nói: “Chúc mừng sinh nhật!”
+> 晚上我在床上想：这个生日真快乐，我不会忘了它！ | Wǎnshang wǒ zài chuáng shang xiǎng: zhège shēngrì zhēn kuàilè, wǒ bú huì wàngle tā! | Buổi tối nằm trên giường mình nghĩ: sinh nhật này thật vui, mình sẽ không quên nó!
+? 妈妈给小文做了什么菜？ | 鱼、肉和饺子 | 鱼、肉和包子; 面条儿和饺子
+?= Mẹ nấu những món gì cho Tiểu Văn?
+? 小明送小文什么？ | 一件红色的衣服 | 一本书; 一只猫
+?= Tiểu Minh tặng Tiểu Văn cái gì?
+! 姐姐给小文画了一只猫。 | đúng
+!= Chị gái vẽ cho Tiểu Văn một con mèo.
+! 小文今天二十岁了。 | sai
+!= Hôm nay Tiểu Văn tròn hai mươi tuổi.
+
+## 7
+@ Sở thích của bạn là gì?
+% hoi-thoai
+> 小张 | 小明，你的爱好是什么？ | Xiǎo Míng, nǐ de àihào shì shénme? | Tiểu Minh, sở thích của bạn là gì?
+> 小明 | 我爱运动。我喜欢打篮球，也喜欢踢足球。 | Wǒ ài yùndòng. Wǒ xǐhuan dǎ lánqiú, yě xǐhuan tī zúqiú. | Mình mê thể thao. Mình thích chơi bóng rổ, cũng thích đá bóng.
+> 小张 | 你篮球打得怎么样？ | Nǐ lánqiú dǎ de zěnmeyàng? | Bạn chơi bóng rổ thế nào?
+> 小明 | 打得不错。我从八岁就开始打篮球了。你呢？ | Dǎ de búcuò. Wǒ cóng bā suì jiù kāishǐ dǎ lánqiú le. Nǐ ne? | Cũng khá. Mình bắt đầu chơi bóng rổ từ năm tám tuổi rồi. Còn bạn?
+> 小张 | 我喜欢游泳和跑步。我每天一到家就去跑步。 | Wǒ xǐhuan yóuyǒng hé pǎobù. Wǒ měi tiān yí dào jiā jiù qù pǎobù. | Mình thích bơi và chạy bộ. Ngày nào mình cũng vừa về đến nhà là đi chạy bộ.
+> 小明 | 你跑得快吗？ | Nǐ pǎo de kuài ma? | Bạn chạy có nhanh không?
+> 小张 | 我跑得很快！明天早上我们一起去跑步吧！ | Wǒ pǎo de hěn kuài! Míngtiān zǎoshang wǒmen yìqǐ qù pǎobù ba! | Mình chạy nhanh lắm! Sáng mai bọn mình cùng đi chạy bộ nhé!
+> 小明 | 好啊！我们几点见？ | Hǎo a! Wǒmen jǐ diǎn jiàn? | Được đấy! Mấy giờ chúng mình gặp nhau?
+> 小张 | 早上六点，在学校前边见！ | Zǎoshang liù diǎn, zài xuéxiào qiánbian jiàn! | Sáu giờ sáng, gặp nhau ở phía trước trường nhé!
+? 小明从几岁开始打篮球？ | 八岁 | 六岁; 十岁
+?= Tiểu Minh bắt đầu chơi bóng rổ từ mấy tuổi?
+? 小张喜欢什么运动？ | 游泳和跑步 | 篮球和足球; 足球和跑步
+?= Tiểu Trương thích môn thể thao nào?
+! 小明篮球打得不错。 | đúng
+!= Tiểu Minh chơi bóng rổ khá giỏi.
+! 他们明天晚上一起去跑步。 | sai
+!= Tối mai họ cùng đi chạy bộ.
+
+## 8
+@ Mười năm bên nhau
+% doan-van
+> 我叫李明，我和妻子认识已经十年了。 | Wǒ jiào Lǐ Míng, wǒ hé qīzi rènshi yǐjīng shí nián le. | Tôi tên là Lý Minh, tôi và vợ quen nhau đã mười năm rồi.
+> 十年前的今天，我在一个小饭馆认识了她。 | Shí nián qián de jīntiān, wǒ zài yí gè xiǎo fànguǎn rènshile tā. | Đúng ngày này mười năm trước, tôi quen cô ấy ở một quán ăn nhỏ.
+> 那个饭馆在一个书店的右边。 | Nàge fànguǎn zài yí gè shūdiàn de yòubian. | Quán ăn đó ở bên phải một hiệu sách.
+> 今天晚上，我们还去那个饭馆吃饭。 | Jīntiān wǎnshang, wǒmen hái qù nàge fànguǎn chī fàn. | Tối nay, chúng tôi vẫn đến quán ăn đó ăn cơm.
+> 现在饭馆比十年前大一点儿，菜也很好吃。 | Xiànzài fànguǎn bǐ shí nián qián dà yìdiǎnr, cài yě hěn hǎochī. | Bây giờ quán ăn lớn hơn mười năm trước một chút, món ăn cũng rất ngon.
+> 我点了妻子爱吃的鱼，还送了她一块手表和一些花。 | Wǒ diǎnle qīzi ài chī de yú, hái sòngle tā yí kuài shǒubiǎo hé yìxiē huā. | Tôi gọi món cá vợ thích ăn, còn tặng cô ấy một chiếc đồng hồ và một ít hoa.
+> 妻子说：“虽然你工作很忙，但是你还记得今天，我很高兴！” | Qīzi shuō: “Suīrán nǐ gōngzuò hěn máng, dànshì nǐ hái jìde jīntiān, wǒ hěn gāoxìng!” | Vợ tôi nói: “Tuy anh làm việc rất bận, nhưng anh vẫn nhớ ngày hôm nay, em rất vui!”
+> 我觉得和她在一起的每一天都很有意思。 | Wǒ juéde hé tā zài yìqǐ de měi yì tiān dōu hěn yǒu yìsi. | Tôi thấy mỗi ngày ở bên cô ấy đều rất thú vị.
+? 李明和妻子是在哪儿认识的？ | 一个小饭馆 | 一个书店; 一个商场
+?= Lý Minh và vợ quen nhau ở đâu?
+? 李明送妻子什么？ | 手表和花 | 手表和衣服; 书和花
+?= Lý Minh tặng vợ những gì?
+! 李明和妻子认识已经十年了。 | đúng
+!= Lý Minh và vợ đã quen nhau mười năm.
+! 那个饭馆在书店的左边。 | sai
+!= Quán ăn đó ở bên trái hiệu sách.

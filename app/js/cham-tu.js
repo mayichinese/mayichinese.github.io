@@ -26,26 +26,45 @@ function layTuDien() {
 const LA_HAN = /\p{Script=Han}/u;
 
 /**
- * Tách câu thành các đoạn theo thứ tự: { chu, tu } – tu là từ HSK (nếu có), đoạn không phải chữ Hán giữ nguyên.
- * Khớp dài nhất (tối đa 4 chữ); chữ lẻ không có trong từ điển → { chu, tu: null }.
+ * Tách một chuỗi toàn chữ Hán thành từ: khớp dài nhất (≤ 4 chữ) theo HAI CHIỀU, chọn cách
+ * ít đoạn hơn → ít chữ lẻ hơn → dùng từ cấp thấp hơn (晚上 HSK1 hơn 上去 HSK2) → nếu vẫn hòa lấy chiều từ phải sang.
+ * Ví dụ: 一起床 → 一 / 起床 (không phải 一起 / 床); 穿上衣服 → 穿 / 上 / 衣服 (không phải 上衣).
+ * Cùng thuật toán với cong-cu/kiem-tra-tu-chua-hoc.py (tach_chuoi).
+ */
+export function tachChuoiHan(s, layTuCua) {
+  const coTu = (x) => !!layTuCua(x);
+  const c = [...s];
+  const xuoi = [];
+  for (let i = 0; i < c.length;) {
+    let l = Math.min(4, c.length - i);
+    while (l > 1 && !coTu(c.slice(i, i + l).join(''))) l--;
+    xuoi.push(c.slice(i, i + l).join(''));
+    i += l;
+  }
+  const nguoc = [];
+  for (let j = c.length; j > 0;) {
+    let l = Math.min(4, j);
+    while (l > 1 && !coTu(c.slice(j - l, j).join(''))) l--;
+    nguoc.unshift(c.slice(j - l, j).join(''));
+    j -= l;
+  }
+  const le = (ds) => ds.filter((x) => [...x].length === 1).length;
+  const capCao = (ds) => Math.max(...ds.map((x) => layTuCua(x)?.cap || 4));
+  if (xuoi.length !== nguoc.length) return xuoi.length < nguoc.length ? xuoi : nguoc;
+  if (le(xuoi) !== le(nguoc)) return le(xuoi) < le(nguoc) ? xuoi : nguoc;
+  return capCao(xuoi) < capCao(nguoc) ? xuoi : nguoc;
+}
+
+/**
+ * Tách câu thành các đoạn theo thứ tự: { chu, tu, han } – tu là từ HSK (nếu có), đoạn không phải chữ Hán giữ nguyên.
+ * Chữ lẻ không có trong từ điển → { chu, tu: null }.
  */
 export function tachTu(cau) {
   const td = layTuDien();
-  const chu = [...String(cau)];
   const ds = [];
-  for (let i = 0; i < chu.length;) {
-    if (!LA_HAN.test(chu[i])) {
-      let j = i;
-      while (j < chu.length && !LA_HAN.test(chu[j])) j++;
-      ds.push({ chu: chu.slice(i, j).join(''), tu: null, han: false });
-      i = j;
-      continue;
-    }
-    let l = 4;
-    while (l > 1 && !(i + l <= chu.length && chu.slice(i, i + l).every((c) => LA_HAN.test(c)) && td.has(chu.slice(i, i + l).join('')))) l--;
-    const doan = chu.slice(i, i + l).join('');
-    ds.push({ chu: doan, tu: td.get(doan) || null, han: true });
-    i += l;
+  for (const [doan] of String(cau).matchAll(/\p{Script=Han}+|[^\p{Script=Han}]+/gu)) {
+    if (!LA_HAN.test(doan)) { ds.push({ chu: doan, tu: null, han: false }); continue; }
+    for (const t of tachChuoiHan(doan, (x) => td.get(x))) ds.push({ chu: t, tu: td.get(t) || null, han: true });
   }
   return ds;
 }

@@ -1,0 +1,136 @@
+# ===== ĐỌC HIỂU HSK 3 – PHẦN B: bài 7–12 (soạn tay, tự đặt – không chép giáo trình) =====
+# Cách viết: xem đầu file cong-cu/ghep-doc-hieu.py. Chỉ dùng từ đã học tới bài đó (cấp dưới + bài trước).
+# Kiểm tra riêng file này: python -X utf8 cong-cu/ghep-doc-hieu.py 3 --chi-kiem cap3-b.txt
+
+# Tên riêng dùng trong bài đọc (được phép dù không có trong danh sách từ)
+$ 小明; 小文; 小李; 小张; 李明
+
+## 7
+@ Mua váy cho đám cưới của chị
+% hoi-thoai
+> 小文 | 小明，下个月我姐姐要结婚了，我想买一条新裙子。 | Xiǎo Míng, xià gè yuè wǒ jiějie yào jiéhūn le, wǒ xiǎng mǎi yì tiáo xīn qúnzi. | Tiểu Minh, tháng sau chị gái mình kết hôn rồi, mình muốn mua một chiếc váy mới.
+> 小明 | 你看这条黄色的怎么样？颜色好看极了。 | Nǐ kàn zhè tiáo huángsè de zěnmeyàng? Yánsè hǎokàn jí le. | Bạn xem chiếc màu vàng này thế nào? Màu đẹp cực kỳ.
+> 小文 | 我试了一下，这条有点儿短，大小也不太合适。 | Wǒ shì le yíxià, zhè tiáo yǒudiǎnr duǎn, dàxiǎo yě bú tài héshì. | Mình thử rồi, chiếc này hơi ngắn, cỡ cũng không vừa lắm.
+> 小明 | 那条红色的呢？它比这条更长。 | Nà tiáo hóngsè de ne? Tā bǐ zhè tiáo gèng cháng. | Thế chiếc màu đỏ kia thì sao? Nó còn dài hơn chiếc này.
+> 小文 | 红色的不但大小合适，而且穿着很舒服。 | Hóngsè de búdàn dàxiǎo héshì, érqiě chuānzhe hěn shūfu. | Chiếc màu đỏ không những vừa cỡ mà mặc vào còn rất thoải mái.
+> 小文 | 这条三百五十块，比黄色的贵一点儿，但是我很喜欢。 | Zhè tiáo sānbǎi wǔshí kuài, bǐ huángsè de guì yìdiǎnr, dànshì wǒ hěn xǐhuan. | Chiếc này ba trăm năm mươi tệ, đắt hơn chiếc màu vàng một chút, nhưng mình rất thích.
+> 小明 | 我也想买一件衬衫和一条短裤，我的衣服都太旧了。 | Wǒ yě xiǎng mǎi yí jiàn chènshān hé yì tiáo duǎnkù, wǒ de yīfu dōu tài jiù le. | Mình cũng muốn mua một chiếc áo sơ mi và một chiếc quần soóc, quần áo của mình cũ quá rồi.
+> 小文 | 这件白色的衬衫一百块，这条短裤八十块，一共一百八十块。 | Zhè jiàn báisè de chènshān yìbǎi kuài, zhè tiáo duǎnkù bāshí kuài, yígòng yìbǎi bāshí kuài. | Chiếc áo sơ mi màu trắng này một trăm tệ, chiếc quần soóc này tám mươi tệ, tổng cộng một trăm tám mươi tệ.
+> 小明 | 好，我决定了，都买！今天的东西便宜得很。 | Hǎo, wǒ juédìng le, dōu mǎi! Jīntiān de dōngxi piányi de hěn. | Được, mình quyết rồi, mua hết! Đồ hôm nay rẻ lắm.
+? 小文为什么想买新裙子？ | 她姐姐要结婚了 | 她的裙子太旧了; 明天是她的生日; 她要去旅游
+?= Vì sao Tiểu Văn muốn mua váy mới?
+? 小文买了哪条裙子？ | 红色的 | 黄色的; 白色的; 绿色的
+?= Tiểu Văn mua chiếc váy nào?
+! 黄色的裙子比红色的更长。 | sai
+!= Chiếc váy màu vàng dài hơn chiếc màu đỏ.
+! 小明的衬衫和短裤一共一百八十块。 | đúng
+!= Áo sơ mi và quần soóc của Tiểu Minh tổng cộng một trăm tám mươi tệ.
+
+## 8
+@ Một trận cảm sau buổi đánh cầu lông
+% doan-van
+> 我叫小明。最近我很忙，晚上常十一点以后才睡觉。 | Wǒ jiào Xiǎo Míng. Zuìjìn wǒ hěn máng, wǎnshang cháng shíyī diǎn yǐhòu cái shuìjiào. | Mình tên là Tiểu Minh. Dạo này mình rất bận, buổi tối thường sau mười một giờ mới đi ngủ.
+> 上个星期六，我和同学在体育馆打了两个小时羽毛球。 | Shàng gè xīngqīliù, wǒ hé tóngxué zài tǐyùguǎn dǎ le liǎng gè xiǎoshí yǔmáoqiú. | Thứ Bảy tuần trước, mình và bạn cùng lớp đánh cầu lông hai tiếng ở nhà thi đấu.
+> 回家以后，我突然发烧了，头和腿都很疼。 | Huí jiā yǐhòu, wǒ tūrán fāshāo le, tóu hé tuǐ dōu hěn téng. | Sau khi về nhà, mình đột nhiên bị sốt, đầu và chân đều rất đau.
+> 妈妈很担心，马上带我去了医院。 | Māma hěn dānxīn, mǎshàng dài wǒ qù le yīyuàn. | Mẹ rất lo, lập tức đưa mình đến bệnh viện.
+> 医生说我感冒了，不用住院，但是得吃药，多喝水，多休息。 | Yīshēng shuō wǒ gǎnmào le, búyòng zhùyuàn, dànshì děi chī yào, duō hē shuǐ, duō xiūxi. | Bác sĩ nói mình bị cảm, không cần nằm viện, nhưng phải uống thuốc, uống nhiều nước, nghỉ ngơi nhiều.
+> 医生还告诉我，要注意身体，不能每天睡得那么晚。 | Yīshēng hái gàosu wǒ, yào zhùyì shēntǐ, bù néng měi tiān shuì de nàme wǎn. | Bác sĩ còn dặn mình phải giữ gìn sức khỏe, không được ngày nào cũng ngủ muộn như thế.
+> 我的好朋友小李很关心我，每天给我打电话。 | Wǒ de hǎo péngyou Xiǎo Lǐ hěn guānxīn wǒ, měi tiān gěi wǒ dǎ diànhuà. | Bạn thân của mình là Tiểu Lý rất quan tâm mình, ngày nào cũng gọi điện cho mình.
+> 三天以后，我的病好了，心里非常开心。 | Sān tiān yǐhòu, wǒ de bìng hǎo le, xīnlǐ fēicháng kāixīn. | Ba ngày sau, mình khỏi bệnh, trong lòng vô cùng vui.
+> 病好以后，我想出来一个好方法：每天晚上十点以前睡觉，早上起床以后去跑步。现在这已经是我的习惯了。 | Bìng hǎo yǐhòu, wǒ xiǎng chūlai yí gè hǎo fāngfǎ: měi tiān wǎnshang shí diǎn yǐqián shuìjiào, zǎoshang qǐchuáng yǐhòu qù pǎobù. Xiànzài zhè yǐjīng shì wǒ de xíguàn le. | Khỏi bệnh rồi, mình nghĩ ra một cách hay: tối nào cũng đi ngủ trước mười giờ, sáng dậy xong thì đi chạy bộ. Bây giờ việc này đã thành thói quen của mình.
+> 我觉得，健康比其他东西都重要。 | Wǒ juéde, jiànkāng bǐ qítā dōngxi dōu zhòngyào. | Mình thấy sức khỏe quan trọng hơn mọi thứ khác.
+? 小明是在哪儿打羽毛球的？ | 体育馆 | 学校; 医院; 家里
+?= Tiểu Minh đánh cầu lông ở đâu?
+? 医生说小明怎么了？ | 他感冒了 | 他太胖了; 他得住院; 他的耳朵疼
+?= Bác sĩ nói Tiểu Minh bị làm sao?
+! 小明在医院住了三天。 | sai
+!= Tiểu Minh nằm viện ba ngày.
+! 小李很关心小明，每天给他打电话。 | đúng
+!= Tiểu Lý rất quan tâm Tiểu Minh, ngày nào cũng gọi điện cho cậu ấy.
+
+## 9
+@ Trận đấu quần vợt ở hội thao trường
+% hoi-thoai
+> 小明 | 小张，听说你要参加学校运动会的网球比赛？ | Xiǎo Zhāng, tīngshuō nǐ yào cānjiā xuéxiào yùndònghuì de wǎngqiú bǐsài? | Tiểu Trương, nghe nói bạn sắp tham gia trận quần vợt ở hội thao của trường à?
+> 小张 | 对！为了这次比赛，我几乎每天下午都去球场练两个小时。 | Duì! Wèile zhè cì bǐsài, wǒ jīhū měi tiān xiàwǔ dōu qù qiúchǎng liàn liǎng gè xiǎoshí. | Đúng! Để chuẩn bị cho trận này, gần như chiều nào mình cũng ra sân tập hai tiếng.
+> 小明 | 你练得怎么样？ | Nǐ liàn de zěnmeyàng? | Bạn tập thế nào rồi?
+> 小张 | 越练越好了！我的老师说，我主要的问题是跑得太慢。 | Yuè liàn yuè hǎo le! Wǒ de lǎoshī shuō, wǒ zhǔyào de wèntí shì pǎo de tài màn. | Càng tập càng tốt! Thầy mình nói vấn đề chính của mình là chạy chậm quá.
+> 小明 | 比赛那天我一定去看你！球场在校园里吗？ | Bǐsài nà tiān wǒ yídìng qù kàn nǐ! Qiúchǎng zài xiàoyuán lǐ ma? | Hôm thi đấu mình nhất định đến xem bạn! Sân bóng ở trong khuôn viên trường à?
+> 小张 | 在，就在体育馆旁边。那天去看的人好多，你来晚了就看不见了。 | Zài, jiù zài tǐyùguǎn pángbiān. Nà tiān qù kàn de rén hǎoduō, nǐ lái wǎn le jiù kàn bú jiàn le. | Có, ngay cạnh nhà thi đấu. Hôm đó người đi xem rất đông, bạn đến muộn là không nhìn thấy đâu.
+> 小明 | 去年谁得了第一名？ | Qùnián shéi dé le dì yī míng? | Năm ngoái ai được giải nhất?
+> 小张 | 是一个男生，他打得好极了。我那次只得到了第三名。 | Shì yí gè nánshēng, tā dǎ de hǎo jí le. Wǒ nà cì zhǐ dédào le dì sān míng. | Là một bạn nam, bạn ấy đánh giỏi cực kỳ. Lần đó mình chỉ được giải ba.
+> 小明 | 别着急，这次你一定能得到好成绩！ | Bié zháojí, zhè cì nǐ yídìng néng dédào hǎo chéngjì! | Đừng lo, lần này bạn nhất định sẽ đạt thành tích tốt!
+> 小张 | 谢谢！我不会受到他的影响，我只是想打好每一个球。 | Xièxie! Wǒ bú huì shòudào tā de yǐngxiǎng, wǒ zhǐshì xiǎng dǎhǎo měi yí gè qiú. | Cảm ơn! Mình sẽ không bị bạn ấy ảnh hưởng, mình chỉ muốn đánh tốt từng quả bóng.
+? 为了比赛，小张几乎每天下午做什么？ | 去球场练网球 | 去体育馆看比赛; 去教室学习; 去公司上班
+?= Để chuẩn bị thi đấu, gần như chiều nào Tiểu Trương cũng làm gì?
+? 去年的比赛，小张得了第几名？ | 第三名 | 第一名; 第二名
+?= Trận đấu năm ngoái, Tiểu Trương được giải mấy?
+! 球场就在体育馆旁边。 | đúng
+!= Sân bóng ở ngay cạnh nhà thi đấu.
+! 老师说，小张主要的问题是跑得太快。 | sai
+!= Thầy nói vấn đề chính của Tiểu Trương là chạy quá nhanh.
+
+## 10
+@ Chuyện học của Tiểu Văn
+% doan-van
+> 我叫小文，今年上初中二年级。 | Wǒ jiào Xiǎo Wén, jīnnián shàng chūzhōng èr niánjí. | Mình tên là Tiểu Văn, năm nay học lớp hai cấp hai.
+> 在学习上，我的历史和外语都不错，但是数学有点儿差。 | Zài xuéxí shang, wǒ de lìshǐ hé wàiyǔ dōu búcuò, dànshì shùxué yǒudiǎnr chà. | Về mặt học tập, môn lịch sử và ngoại ngữ của mình đều khá, nhưng môn toán hơi kém.
+> 我觉得数学题太难了，上课的时候常听不懂。 | Wǒ juéde shùxué tí tài nán le, shàngkè de shíhou cháng tīng bù dǒng. | Mình thấy bài toán khó quá, trong giờ học thường nghe không hiểu.
+> 我们的数学老师很认真，她讲得非常清楚，还要求我们每天复习。 | Wǒmen de shùxué lǎoshī hěn rènzhēn, tā jiǎng de fēicháng qīngchu, hái yāoqiú wǒmen měi tiān fùxí. | Cô giáo dạy toán của bọn mình rất tận tâm, cô giảng rất rõ ràng, còn yêu cầu bọn mình ngày nào cũng ôn bài.
+> 她常把重要的题写在黑板上，我就把它们记在笔记里。 | Tā cháng bǎ zhòngyào de tí xiě zài hēibǎn shang, wǒ jiù bǎ tāmen jì zài bǐjì lǐ. | Cô thường viết những bài quan trọng lên bảng, mình liền ghi chúng vào vở ghi.
+> 遇到不明白的问题，我就去办公室问她。 | Yùdào bù míngbai de wèntí, wǒ jiù qù bàngōngshì wèn tā. | Gặp câu nào không hiểu, mình liền đến văn phòng hỏi cô.
+> 上外语课，老师让我们先把课文读三遍，再两个人练习对话。 | Shàng wàiyǔ kè, lǎoshī ràng wǒmen xiān bǎ kèwén dú sān biàn, zài liǎng gè rén liànxí duìhuà. | Trong giờ ngoại ngữ, thầy cho bọn mình đọc bài khóa ba lượt trước, rồi hai người một cặp luyện hội thoại.
+> 昨天小明没有带课本，我就把我的课本拿给他看。 | Zuótiān Xiǎo Míng méiyǒu dài kèběn, wǒ jiù bǎ wǒ de kèběn ná gěi tā kàn. | Hôm qua Tiểu Minh không mang sách giáo khoa, mình liền đưa sách của mình cho bạn ấy xem.
+> 我觉得，学外语很有意思，学数学也很重要。 | Wǒ juéde, xué wàiyǔ hěn yǒu yìsi, xué shùxué yě hěn zhòngyào. | Mình thấy học ngoại ngữ rất thú vị, học toán cũng rất quan trọng.
+> 当然，我得更努力，让我的数学成绩提高一点儿。后年就要考高中了！ | Dāngrán, wǒ děi gèng nǔlì, ràng wǒ de shùxué chéngjì tígāo yìdiǎnr. Hòunián jiù yào kǎo gāozhōng le! | Tất nhiên, mình phải cố gắng hơn nữa để điểm toán tăng lên một chút. Năm sau nữa là thi vào cấp ba rồi!
+? 小文哪门课有点儿差？ | 数学 | 历史; 外语
+?= Môn nào của Tiểu Văn hơi kém?
+? 遇到不明白的问题，小文怎么做？ | 去办公室问老师 | 给小明打电话; 把课文读三遍; 回家问妈妈
+?= Gặp câu không hiểu, Tiểu Văn làm thế nào?
+! 上外语课的时候，老师让他们先读课文，再练习对话。 | đúng
+!= Trong giờ ngoại ngữ, thầy cho các bạn đọc bài khóa trước rồi mới luyện hội thoại.
+! 昨天小文没有带课本。 | sai
+!= Hôm qua Tiểu Văn không mang sách giáo khoa.
+
+## 11
+@ Xin nghỉ phép trước cuộc họp
+% hoi-thoai
+> 小张 | 经理，我想下个星期请假，回家休息三天，可以吗？ | Jīnglǐ, wǒ xiǎng xià gè xīngqī qǐngjià, huí jiā xiūxi sān tiān, kěyǐ ma? | Thưa giám đốc, tuần sau tôi muốn xin nghỉ, về nhà nghỉ ba ngày, được không ạ?
+> 经理 | 为什么？有什么事吗？ | Wèishénme? Yǒu shénme shì ma? | Sao vậy? Có việc gì à?
+> 小张 | 我妈妈病了，我得回家看看她。 | Wǒ māma bìng le, wǒ děi huí jiā kànkan tā. | Mẹ tôi bị ốm, tôi phải về nhà thăm mẹ.
+> 经理 | 那当然可以。只是后天有一个重要的会议，你能参加吗？ | Nà dāngrán kěyǐ. Zhǐshì hòutiān yǒu yí gè zhòngyào de huìyì, nǐ néng cānjiā ma? | Thế thì tất nhiên được. Có điều ngày kia có một cuộc họp quan trọng, cậu dự được không?
+> 小张 | 会议在公司开，还是在别的城市开？ | Huìyì zài gōngsī kāi, háishi zài biéde chéngshì kāi? | Cuộc họp tổ chức ở công ty hay ở thành phố khác ạ?
+> 经理 | 在公司，下午两点，地点是三楼会议室。 | Zài gōngsī, xiàwǔ liǎng diǎn, dìdiǎn shì sān lóu huìyìshì. | Ở công ty, hai giờ chiều, địa điểm là phòng họp tầng ba.
+> 小张 | 看来我只能开完会再走了。我今天晚上就把这个月的工作做完，再把下个星期的事情发到您的邮箱。 | Kànlái wǒ zhǐ néng kāi wán huì zài zǒu le. Wǒ jīntiān wǎnshang jiù bǎ zhège yuè de gōngzuò zuò wán, zài bǎ xià gè xīngqī de shìqing fā dào nín de yóuxiāng. | Xem ra tôi chỉ có thể họp xong rồi mới đi. Tối nay tôi sẽ làm xong việc của tháng này, rồi gửi các việc của tuần sau vào hộp thư của anh.
+> 小张 | 我不在的时候，我的同事小李愿意帮我。有问题您可以找他，或者给我打电话。 | Wǒ bú zài de shíhou, wǒ de tóngshì Xiǎo Lǐ yuànyì bāng wǒ. Yǒu wèntí nín kěyǐ zhǎo tā, huòzhě gěi wǒ dǎ diànhuà. | Lúc tôi vắng mặt, đồng nghiệp Tiểu Lý sẵn lòng giúp tôi. Có vấn đề gì anh có thể tìm cậu ấy, hoặc gọi điện cho tôi.
+> 经理 | 好，问题解决了！对每个人来说，家人都很重要。后天开完会，你就可以离开。 | Hǎo, wèntí jiějué le! Duì měi gè rén láishuō, jiārén dōu hěn zhòngyào. Hòutiān kāi wán huì, nǐ jiù kěyǐ líkāi. | Được, vấn đề giải quyết xong rồi! Đối với mỗi người, gia đình đều rất quan trọng. Ngày kia họp xong là cậu có thể đi.
+? 小张为什么想请假？ | 他妈妈病了 | 他要去旅游; 他自己生病了; 他要去别的城市开会
+?= Vì sao Tiểu Trương muốn xin nghỉ?
+? 后天的会议在哪儿开？ | 公司三楼的会议室 | 别的城市; 小张的家里
+?= Cuộc họp ngày kia tổ chức ở đâu?
+! 小张后天开完会才能离开。 | đúng
+!= Tiểu Trương phải họp xong ngày kia mới có thể đi.
+! 小李不愿意帮小张。 | sai
+!= Tiểu Lý không muốn giúp Tiểu Trương.
+
+## 12
+@ Bốn mùa ở thành phố của Tiểu Văn
+% doan-van
+> 我叫小文。我们这个城市一年有四季：春天、夏天、秋天和冬天。 | Wǒ jiào Xiǎo Wén. Wǒmen zhège chéngshì yì nián yǒu sìjì: chūntiān, xiàtiān, qiūtiān hé dōngtiān. | Mình tên là Tiểu Văn. Thành phố của bọn mình một năm có bốn mùa: xuân, hạ, thu và đông.
+> 春天常常刮风，公园里的树都开花了，好看极了。 | Chūntiān chángcháng guā fēng, gōngyuán lǐ de shù dōu kāihuā le, hǎokàn jí le. | Mùa xuân thường có gió, cây trong công viên đều nở hoa, đẹp cực kỳ.
+> 夏天热极了，大家都喜欢去公园坐船，或者吃冰激凌。 | Xiàtiān rè jí le, dàjiā dōu xǐhuan qù gōngyuán zuò chuán, huòzhě chī bīngjīlíng. | Mùa hè nóng kinh khủng, mọi người đều thích ra công viên đi thuyền, hoặc ăn kem.
+> 秋天不冷也不热，非常凉快，是我最喜欢的季节。 | Qiūtiān bù lěng yě bú rè, fēicháng liángkuai, shì wǒ zuì xǐhuan de jìjié. | Mùa thu không lạnh cũng không nóng, rất mát mẻ, là mùa mình thích nhất.
+> 冬天很冷，有时还会下雪，地上的水变成了冰。 | Dōngtiān hěn lěng, yǒushí hái huì xià xuě, dì shang de shuǐ biànchéng le bīng. | Mùa đông rất lạnh, có khi còn có tuyết rơi, nước trên mặt đất biến thành băng.
+> 这几年天气的变化很大，所以我每天都关注天气新闻。 | Zhè jǐ nián tiānqì de biànhuà hěn dà, suǒyǐ wǒ měi tiān dōu guānzhù tiānqì xīnwén. | Mấy năm nay thời tiết thay đổi nhiều, nên ngày nào mình cũng theo dõi bản tin thời tiết.
+> 今天是工作日，早上新闻说下午有雨，但是我忘了带伞。 | Jīntiān shì gōngzuòrì, zǎoshang xīnwén shuō xiàwǔ yǒu yǔ, dànshì wǒ wàng le dài sǎn. | Hôm nay là ngày làm việc, sáng nay bản tin nói chiều có mưa, nhưng mình quên mang ô.
+> 下午五点，雨突然下起来了，风也越刮越大。 | Xiàwǔ wǔ diǎn, yǔ tūrán xià qǐlai le, fēng yě yuè guā yuè dà. | Năm giờ chiều, trời đột nhiên đổ mưa, gió cũng càng thổi càng mạnh.
+> 我们办公室就有一把伞，是小李的。她把伞借给了我，自己穿上雨衣走了。 | Wǒmen bàngōngshì jiù yǒu yì bǎ sǎn, shì Xiǎo Lǐ de. Tā bǎ sǎn jiè gěi le wǒ, zìjǐ chuānshang yǔyī zǒu le. | Văn phòng bọn mình chỉ có một chiếc ô, là của Tiểu Lý. Bạn ấy cho mình mượn ô, còn bạn ấy thì mặc áo mưa đi về.
+> 小李真是一个关心别人的好同事！ | Xiǎo Lǐ zhēn shì yí gè guānxīn biérén de hǎo tóngshì! | Tiểu Lý thật là một đồng nghiệp tốt biết quan tâm người khác!
+? 小文最喜欢哪个季节？ | 秋天 | 春天; 夏天; 冬天
+?= Tiểu Văn thích mùa nào nhất?
+? 下午下雨的时候，小李把什么借给了小文？ | 伞 | 雨衣; 自行车; 冰激凌
+?= Lúc trời mưa buổi chiều, Tiểu Lý cho Tiểu Văn mượn cái gì?
+! 夏天，大家喜欢去公园坐船。 | đúng
+!= Mùa hè, mọi người thích ra công viên đi thuyền.
+! 冬天的时候，公园里的树都开花了。 | sai
+!= Vào mùa đông, cây trong công viên đều nở hoa.

@@ -1,6 +1,1397 @@
 {
  "_ghiChu": "File tạo tự động bởi cong-cu/ghep-doc-hieu.py 2 từ cong-cu/nguon-doc-hieu/cap2.txt – không sửa tay.",
  "capDo": 2,
- "tenRieng": [],
- "bai": []
+ "tenRieng": [
+  "小张",
+  "小文",
+  "小明",
+  "小李",
+  "李",
+  "李明"
+ ],
+ "bai": [
+  {
+   "so": 1,
+   "ten": "Bạn là Tiểu Lý phải không?",
+   "kieu": "hoi-thoai",
+   "cau": [
+    {
+     "ai": "小李",
+     "han": "不好意思，请问，你是小明吧？",
+     "pinyin": "Bù hǎoyìsi, qǐngwèn, nǐ shì Xiǎo Míng ba?",
+     "dich": "Xin lỗi, cho hỏi, bạn là Tiểu Minh phải không?"
+    },
+    {
+     "ai": "小明",
+     "han": "对，我是小明。你是小文的朋友小李吧？",
+     "pinyin": "Duì, wǒ shì Xiǎo Míng. Nǐ shì Xiǎo Wén de péngyou Xiǎo Lǐ ba?",
+     "dich": "Đúng, mình là Tiểu Minh. Bạn là Tiểu Lý, bạn của Tiểu Văn phải không?"
+    },
+    {
+     "ai": "小李",
+     "han": "是我。小文今天很忙，她让我来找你。",
+     "pinyin": "Shì wǒ. Xiǎo Wén jīntiān hěn máng, tā ràng wǒ lái zhǎo nǐ.",
+     "dich": "Là mình đây. Hôm nay Tiểu Văn rất bận, bạn ấy bảo mình đến tìm bạn."
+    },
+    {
+     "ai": "小明",
+     "han": "你是什么时候来的？是来旅游的吧？",
+     "pinyin": "Nǐ shì shénme shíhou lái de? Shì lái lǚyóu de ba?",
+     "dich": "Bạn đến lúc nào thế? Đến để du lịch phải không?"
+    },
+    {
+     "ai": "小李",
+     "han": "我是昨天来的。我来旅游，也想学汉语。",
+     "pinyin": "Wǒ shì zuótiān lái de. Wǒ lái lǚyóu, yě xiǎng xué Hànyǔ.",
+     "dich": "Mình đến hôm qua. Mình đến du lịch, cũng muốn học tiếng Hán."
+    },
+    {
+     "ai": "小明",
+     "han": "你已经会说汉语了！",
+     "pinyin": "Nǐ yǐjīng huì shuō Hànyǔ le!",
+     "dich": "Bạn đã biết nói tiếng Hán rồi!"
+    },
+    {
+     "ai": "小李",
+     "han": "我会说一点儿，有时听不懂。这是我第一次来。",
+     "pinyin": "Wǒ huì shuō yìdiǎnr, yǒushí tīng bù dǒng. Zhè shì wǒ dì yī cì lái.",
+     "dich": "Mình nói được một chút, có lúc nghe không hiểu. Đây là lần đầu tiên mình đến."
+    },
+    {
+     "ai": "小明",
+     "han": "没关系，你有不懂的就问我。我给你介绍一下我们学校吧！",
+     "pinyin": "Méi guānxi, nǐ yǒu bù dǒng de jiù wèn wǒ. Wǒ gěi nǐ jièshào yíxià wǒmen xuéxiào ba!",
+     "dich": "Không sao, có gì không hiểu thì cứ hỏi mình. Để mình giới thiệu trường bọn mình cho bạn nhé!"
+    },
+    {
+     "ai": "小李",
+     "han": "太好了！谢谢你帮忙！",
+     "pinyin": "Tài hǎo le! Xièxie nǐ bāngmáng!",
+     "dich": "Tốt quá! Cảm ơn bạn đã giúp!"
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "谁让小李来找小明？",
+     "dapAn": "小文",
+     "nhieu": [
+      "小李的老师",
+      "小明的姐姐"
+     ],
+     "dich": "Ai bảo Tiểu Lý đến tìm Tiểu Minh?"
+    },
+    {
+     "loai": "chon",
+     "hoi": "小李是什么时候来的？",
+     "dapAn": "昨天",
+     "nhieu": [
+      "今天",
+      "明天"
+     ],
+     "dich": "Tiểu Lý đến lúc nào?"
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小李是来旅游的。",
+     "dung": true,
+     "dich": "Tiểu Lý đến để du lịch."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小李不会说汉语。",
+     "dung": false,
+     "dich": "Tiểu Lý không biết nói tiếng Hán."
+    }
+   ]
+  },
+  {
+   "so": 2,
+   "ten": "Đi học bằng xe buýt",
+   "kieu": "doan-van",
+   "cau": [
+    {
+     "ai": "",
+     "han": "我是小文，是大学生。",
+     "pinyin": "Wǒ shì Xiǎo Wén, shì dàxuéshēng.",
+     "dich": "Mình là Tiểu Văn, là sinh viên."
+    },
+    {
+     "ai": "",
+     "han": "我们大学很大，有一百多间教室，有两万多名学生。",
+     "pinyin": "Wǒmen dàxué hěn dà, yǒu yìbǎi duō jiān jiàoshì, yǒu liǎng wàn duō míng xuéshēng.",
+     "dich": "Trường đại học của bọn mình rất lớn, có hơn một trăm phòng học, có hơn hai vạn sinh viên."
+    },
+    {
+     "ai": "",
+     "han": "学校里还有几十名外国学生。",
+     "pinyin": "Xuéxiào li hái yǒu jǐ shí míng wàiguó xuéshēng.",
+     "dich": "Trong trường còn có vài chục sinh viên nước ngoài."
+    },
+    {
+     "ai": "",
+     "han": "我家很远，我坐公交车去学校。车站就在我家前边。",
+     "pinyin": "Wǒ jiā hěn yuǎn, wǒ zuò gōngjiāochē qù xuéxiào. Chēzhàn jiù zài wǒ jiā qiánbian.",
+     "dich": "Nhà mình rất xa, mình đi xe buýt đến trường. Bến xe ở ngay trước nhà mình."
+    },
+    {
+     "ai": "",
+     "han": "坐公交车的人很多，但票很便宜，两块钱。",
+     "pinyin": "Zuò gōngjiāochē de rén hěn duō, dàn piào hěn piányi, liǎng kuài qián.",
+     "dich": "Người đi xe buýt rất đông, nhưng vé rất rẻ, hai đồng."
+    },
+    {
+     "ai": "",
+     "han": "有时我起床晚了，就打车去学校。",
+     "pinyin": "Yǒushí wǒ qǐchuáng wǎn le, jiù dǎchē qù xuéxiào.",
+     "dich": "Có lúc mình dậy muộn, thì đi taxi đến trường."
+    },
+    {
+     "ai": "",
+     "han": "打车不便宜，要三十多块钱。",
+     "pinyin": "Dǎchē bù piányi, yào sānshí duō kuài qián.",
+     "dich": "Đi taxi không rẻ, mất hơn ba mươi đồng."
+    },
+    {
+     "ai": "",
+     "han": "妈妈说：“别打车了，还是早一点儿起床吧！”",
+     "pinyin": "Māma shuō: “Bié dǎchē le, háishi zǎo yìdiǎnr qǐchuáng ba!”",
+     "dich": "Mẹ nói: “Đừng đi taxi nữa, con dậy sớm một chút thì hơn!”"
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "小文坐什么去学校？",
+     "dapAn": "坐公交车",
+     "nhieu": [
+      "坐火车",
+      "坐飞机"
+     ],
+     "dich": "Tiểu Văn đi gì đến trường?"
+    },
+    {
+     "loai": "chon",
+     "hoi": "打车去学校要多少钱？",
+     "dapAn": "三十多块",
+     "nhieu": [
+      "两块",
+      "一百多块"
+     ],
+     "dich": "Đi taxi đến trường mất bao nhiêu tiền?"
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小文的学校有外国学生。",
+     "dung": true,
+     "dich": "Trường của Tiểu Văn có sinh viên nước ngoài."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "车站在小文家后边。",
+     "dung": false,
+     "dich": "Bến xe ở sau nhà Tiểu Văn."
+    }
+   ]
+  },
+  {
+   "so": 3,
+   "ten": "Đi du lịch về",
+   "kieu": "hoi-thoai",
+   "cau": [
+    {
+     "ai": "小文",
+     "han": "小明，你旅游回来了！怎么样？",
+     "pinyin": "Xiǎo Míng, nǐ lǚyóu huílái le! Zěnmeyàng?",
+     "dich": "Tiểu Minh, bạn đi du lịch về rồi à! Thế nào?"
+    },
+    {
+     "ai": "小明",
+     "han": "很不错！我和朋友们一起去的，每天都出去玩。",
+     "pinyin": "Hěn búcuò! Wǒ hé péngyoumen yìqǐ qù de, měi tiān dōu chūqù wán.",
+     "dich": "Khá tuyệt! Mình đi cùng các bạn, ngày nào cũng ra ngoài chơi."
+    },
+    {
+     "ai": "小文",
+     "han": "你为什么这么累？",
+     "pinyin": "Nǐ wèi shénme zhème lèi?",
+     "dich": "Sao trông bạn mệt thế?"
+    },
+    {
+     "ai": "小明",
+     "han": "我们每天早上六点就起床，晚上十一点睡觉。",
+     "pinyin": "Wǒmen měi tiān zǎoshang liù diǎn jiù qǐchuáng, wǎnshang shíyī diǎn shuìjiào.",
+     "dich": "Ngày nào bọn mình cũng sáu giờ sáng đã dậy, mười một giờ đêm mới ngủ."
+    },
+    {
+     "ai": "小文",
+     "han": "你手里拿的是什么？",
+     "pinyin": "Nǐ shǒu li ná de shì shénme?",
+     "dich": "Cái bạn cầm trong tay là gì vậy?"
+    },
+    {
+     "ai": "小明",
+     "han": "这是我送你的东西。你看看！",
+     "pinyin": "Zhè shì wǒ sòng nǐ de dōngxi. Nǐ kànkan!",
+     "dich": "Đây là quà mình tặng bạn. Bạn xem thử đi!"
+    },
+    {
+     "ai": "小文",
+     "han": "是一本书！真好看，我想今天就看完。",
+     "pinyin": "Shì yì běn shū! Zhēn hǎokàn, wǒ xiǎng jīntiān jiù kànwán.",
+     "dich": "Là một quyển sách! Hay thật, mình muốn đọc xong ngay hôm nay."
+    },
+    {
+     "ai": "小明",
+     "han": "好。我回去休息休息，还要洗衣服。",
+     "pinyin": "Hǎo. Wǒ huíqù xiūxi xiūxi, hái yào xǐ yīfu.",
+     "dich": "Ừ. Mình về nghỉ ngơi một chút, còn phải giặt quần áo nữa."
+    },
+    {
+     "ai": "小文",
+     "han": "那你回去吧，明天见！",
+     "pinyin": "Nà nǐ huíqù ba, míngtiān jiàn!",
+     "dich": "Vậy bạn về đi, mai gặp nhé!"
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "小明他们每天早上几点起床？",
+     "dapAn": "六点",
+     "nhieu": [
+      "七点",
+      "十一点"
+     ],
+     "dich": "Mỗi sáng nhóm Tiểu Minh dậy lúc mấy giờ?"
+    },
+    {
+     "loai": "chon",
+     "hoi": "小明送小文什么？",
+     "dapAn": "一本书",
+     "nhieu": [
+      "一件衣服",
+      "一个手机"
+     ],
+     "dich": "Tiểu Minh tặng Tiểu Văn cái gì?"
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小明是和朋友们一起去旅游的。",
+     "dung": true,
+     "dich": "Tiểu Minh đi du lịch cùng các bạn."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小文想明天看完这本书。",
+     "dung": false,
+     "dich": "Tiểu Văn muốn ngày mai đọc xong quyển sách này."
+    }
+   ]
+  },
+  {
+   "so": 4,
+   "ten": "Mua quần áo ở trung tâm thương mại",
+   "kieu": "doan-van",
+   "cau": [
+    {
+     "ai": "",
+     "han": "我是小明。星期六，我和妈妈去商场买衣服。",
+     "pinyin": "Wǒ shì Xiǎo Míng. Xīngqīliù, wǒ hé māma qù shāngchǎng mǎi yīfu.",
+     "dich": "Mình là Tiểu Minh. Thứ bảy, mình và mẹ đi trung tâm thương mại mua quần áo."
+    },
+    {
+     "ai": "",
+     "han": "我没去过这个商场，它很大。",
+     "pinyin": "Wǒ méi qùguo zhège shāngchǎng, tā hěn dà.",
+     "dich": "Mình chưa đến trung tâm thương mại này bao giờ, nó rất lớn."
+    },
+    {
+     "ai": "",
+     "han": "我们进去看了看，这里衣服的颜色真多。",
+     "pinyin": "Wǒmen jìnqù kàn le kàn, zhèli yīfu de yánsè zhēn duō.",
+     "dich": "Bọn mình vào xem thử, quần áo ở đây nhiều màu thật."
+    },
+    {
+     "ai": "",
+     "han": "妈妈说：“红色的好看，你买红色的吧。”",
+     "pinyin": "Māma shuō: “Hóngsè de hǎokàn, nǐ mǎi hóngsè de ba.”",
+     "dich": "Mẹ nói: “Cái màu đỏ đẹp đấy, con mua cái màu đỏ đi.”"
+    },
+    {
+     "ai": "",
+     "han": "因为我的书包是黑色的，所以我想买一条黑色的裤子。",
+     "pinyin": "Yīnwèi wǒ de shūbāo shì hēisè de, suǒyǐ wǒ xiǎng mǎi yì tiáo hēisè de kùzi.",
+     "dich": "Vì cặp sách của mình màu đen, nên mình muốn mua một cái quần màu đen."
+    },
+    {
+     "ai": "",
+     "han": "妈妈给我买了一条黑色的裤子，还买了一件白色的衣服。",
+     "pinyin": "Māma gěi wǒ mǎile yì tiáo hēisè de kùzi, hái mǎile yí jiàn báisè de yīfu.",
+     "dich": "Mẹ mua cho mình một cái quần màu đen, còn mua một cái áo màu trắng."
+    },
+    {
+     "ai": "",
+     "han": "我还看见一个绿色的书包，但太贵了，我们没买。",
+     "pinyin": "Wǒ hái kànjiàn yí gè lǜsè de shūbāo, dàn tài guì le, wǒmen méi mǎi.",
+     "dich": "Mình còn thấy một cái cặp màu xanh lá, nhưng đắt quá, bọn mình không mua."
+    },
+    {
+     "ai": "",
+     "han": "我很喜欢新买的裤子。",
+     "pinyin": "Wǒ hěn xǐhuan xīn mǎi de kùzi.",
+     "dich": "Mình rất thích cái quần mới mua."
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "他们去哪儿买衣服？",
+     "dapAn": "商场",
+     "nhieu": [
+      "书店",
+      "饭店"
+     ],
+     "dich": "Họ đi đâu mua quần áo?"
+    },
+    {
+     "loai": "chon",
+     "hoi": "妈妈给小明买了什么？",
+     "dapAn": "黑色的裤子和白色的衣服",
+     "nhieu": [
+      "红色的衣服和黑色的裤子",
+      "绿色的书包和白色的衣服"
+     ],
+     "dich": "Mẹ mua cho Tiểu Minh những gì?"
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小明的书包是黑色的。",
+     "dung": true,
+     "dich": "Cặp sách của Tiểu Minh màu đen."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "他们买了绿色的书包。",
+     "dung": false,
+     "dich": "Họ đã mua cái cặp màu xanh lá."
+    }
+   ]
+  },
+  {
+   "so": 5,
+   "ten": "Đến nhà Tiểu Văn chơi",
+   "kieu": "hoi-thoai",
+   "cau": [
+    {
+     "ai": "小明",
+     "han": "喂，小文，我到你家下面了。",
+     "pinyin": "Wéi, Xiǎo Wén, wǒ dào nǐ jiā xiàmiàn le.",
+     "dich": "A lô, Tiểu Văn, mình đến dưới nhà bạn rồi."
+    },
+    {
+     "ai": "小文",
+     "han": "好，你等一会儿，我下去找你。",
+     "pinyin": "Hǎo, nǐ děng yíhuìr, wǒ xiàqù zhǎo nǐ.",
+     "dich": "Được, bạn đợi một lát, mình xuống tìm bạn."
+    },
+    {
+     "ai": "小明",
+     "han": "这是我给爷爷奶奶买的水果。",
+     "pinyin": "Zhè shì wǒ gěi yéye nǎinai mǎi de shuǐguǒ.",
+     "dich": "Đây là hoa quả mình mua biếu ông bà."
+    },
+    {
+     "ai": "小文",
+     "han": "谢谢你！快跟我上去吧，他们在家等你呢。",
+     "pinyin": "Xièxie nǐ! Kuài gēn wǒ shàngqù ba, tāmen zài jiā děng nǐ ne.",
+     "dich": "Cảm ơn bạn! Mau cùng mình lên đi, ông bà đang ở nhà đợi bạn đấy."
+    },
+    {
+     "ai": "奶奶",
+     "han": "小明来了！快进来坐吧，我给你们准备了奶茶。",
+     "pinyin": "Xiǎo Míng lái le! Kuài jìnlái zuò ba, wǒ gěi nǐmen zhǔnbèile nǎichá.",
+     "dich": "Tiểu Minh đến rồi! Mau vào ngồi đi, bà đã chuẩn bị trà sữa cho các cháu."
+    },
+    {
+     "ai": "爷爷",
+     "han": "小明，你今年多大了？",
+     "pinyin": "Xiǎo Míng, nǐ jīnnián duō dà le?",
+     "dich": "Tiểu Minh, năm nay cháu bao nhiêu tuổi rồi?"
+    },
+    {
+     "ai": "小明",
+     "han": "我今年二十岁。",
+     "pinyin": "Wǒ jīnnián èrshí suì.",
+     "dich": "Năm nay cháu hai mươi tuổi ạ."
+    },
+    {
+     "ai": "爷爷",
+     "han": "都二十岁了！时间真快啊！",
+     "pinyin": "Dōu èrshí suì le! Shíjiān zhēn kuài a!",
+     "dich": "Đã hai mươi tuổi rồi cơ à! Thời gian trôi nhanh thật!"
+    },
+    {
+     "ai": "小明",
+     "han": "都十点了，我要走了。爷爷奶奶再见！",
+     "pinyin": "Dōu shí diǎn le, wǒ yào zǒu le. Yéye nǎinai zàijiàn!",
+     "dich": "Đã mười giờ rồi, cháu phải về đây. Cháu chào ông bà ạ!"
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "小明给爷爷奶奶买了什么？",
+     "dapAn": "水果",
+     "nhieu": [
+      "奶茶",
+      "牛奶"
+     ],
+     "dich": "Tiểu Minh mua gì biếu ông bà?"
+    },
+    {
+     "loai": "chon",
+     "hoi": "奶奶给他们准备了什么？",
+     "dapAn": "奶茶",
+     "nhieu": [
+      "水果",
+      "米饭"
+     ],
+     "dich": "Bà chuẩn bị gì cho họ?"
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小明今年二十岁。",
+     "dung": true,
+     "dich": "Năm nay Tiểu Minh hai mươi tuổi."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小文的爷爷奶奶不在家。",
+     "dung": false,
+     "dich": "Ông bà của Tiểu Văn không có ở nhà."
+    }
+   ]
+  },
+  {
+   "so": 6,
+   "ten": "Sinh nhật của Tiểu Văn",
+   "kieu": "doan-van",
+   "cau": [
+    {
+     "ai": "",
+     "han": "我是小文。今天是我的生日，我二十一岁了。",
+     "pinyin": "Wǒ shì Xiǎo Wén. Jīntiān shì wǒ de shēngrì, wǒ èrshíyī suì le.",
+     "dich": "Mình là Tiểu Văn. Hôm nay là sinh nhật mình, mình hai mươi mốt tuổi rồi."
+    },
+    {
+     "ai": "",
+     "han": "早上，我高高兴兴地起床了。",
+     "pinyin": "Zǎoshang, wǒ gāogāoxìngxìng de qǐchuáng le.",
+     "dich": "Buổi sáng, mình vui vẻ thức dậy."
+    },
+    {
+     "ai": "",
+     "han": "妈妈给我做了很多菜：鱼、肉、饺子什么的。",
+     "pinyin": "Māma gěi wǒ zuòle hěn duō cài: yú, ròu, jiǎozi shénme de.",
+     "dich": "Mẹ nấu cho mình rất nhiều món: cá, thịt, sủi cảo, v.v."
+    },
+    {
+     "ai": "",
+     "han": "姐姐给我画了一只大大的猫，真好看。",
+     "pinyin": "Jiějie gěi wǒ huàle yì zhī dàdà de māo, zhēn hǎokàn.",
+     "dich": "Chị gái vẽ cho mình một con mèo to ơi là to, đẹp thật."
+    },
+    {
+     "ai": "",
+     "han": "晚上，朋友们来我家，我们一起过生日。",
+     "pinyin": "Wǎnshang, péngyoumen lái wǒ jiā, wǒmen yìqǐ guò shēngrì.",
+     "dich": "Buổi tối, các bạn đến nhà mình, bọn mình cùng nhau tổ chức sinh nhật."
+    },
+    {
+     "ai": "",
+     "han": "小明送我一个东西，我打开一看，是一件红色的衣服。",
+     "pinyin": "Xiǎo Míng sòng wǒ yí gè dōngxi, wǒ dǎkāi yí kàn, shì yí jiàn hóngsè de yīfu.",
+     "dich": "Tiểu Minh tặng mình một món quà, mình mở ra xem, là một cái áo màu đỏ."
+    },
+    {
+     "ai": "",
+     "han": "大家都说：“生日快乐！”",
+     "pinyin": "Dàjiā dōu shuō: “Shēngrì kuàilè!”",
+     "dich": "Mọi người đều nói: “Chúc mừng sinh nhật!”"
+    },
+    {
+     "ai": "",
+     "han": "晚上我在床上想：这个生日真快乐，我不会忘了它！",
+     "pinyin": "Wǎnshang wǒ zài chuáng shang xiǎng: zhège shēngrì zhēn kuàilè, wǒ bú huì wàngle tā!",
+     "dich": "Buổi tối nằm trên giường mình nghĩ: sinh nhật này thật vui, mình sẽ không quên nó!"
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "妈妈给小文做了什么菜？",
+     "dapAn": "鱼、肉和饺子",
+     "nhieu": [
+      "鱼、肉和包子",
+      "面条儿和饺子"
+     ],
+     "dich": "Mẹ nấu những món gì cho Tiểu Văn?"
+    },
+    {
+     "loai": "chon",
+     "hoi": "小明送小文什么？",
+     "dapAn": "一件红色的衣服",
+     "nhieu": [
+      "一本书",
+      "一只猫"
+     ],
+     "dich": "Tiểu Minh tặng Tiểu Văn cái gì?"
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "姐姐给小文画了一只猫。",
+     "dung": true,
+     "dich": "Chị gái vẽ cho Tiểu Văn một con mèo."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小文今天二十岁了。",
+     "dung": false,
+     "dich": "Hôm nay Tiểu Văn tròn hai mươi tuổi."
+    }
+   ]
+  },
+  {
+   "so": 7,
+   "ten": "Sở thích của bạn là gì?",
+   "kieu": "hoi-thoai",
+   "cau": [
+    {
+     "ai": "小张",
+     "han": "小明，你的爱好是什么？",
+     "pinyin": "Xiǎo Míng, nǐ de àihào shì shénme?",
+     "dich": "Tiểu Minh, sở thích của bạn là gì?"
+    },
+    {
+     "ai": "小明",
+     "han": "我爱运动。我喜欢打篮球，也喜欢踢足球。",
+     "pinyin": "Wǒ ài yùndòng. Wǒ xǐhuan dǎ lánqiú, yě xǐhuan tī zúqiú.",
+     "dich": "Mình mê thể thao. Mình thích chơi bóng rổ, cũng thích đá bóng."
+    },
+    {
+     "ai": "小张",
+     "han": "你篮球打得怎么样？",
+     "pinyin": "Nǐ lánqiú dǎ de zěnmeyàng?",
+     "dich": "Bạn chơi bóng rổ thế nào?"
+    },
+    {
+     "ai": "小明",
+     "han": "打得不错。我从八岁就开始打篮球了。你呢？",
+     "pinyin": "Dǎ de búcuò. Wǒ cóng bā suì jiù kāishǐ dǎ lánqiú le. Nǐ ne?",
+     "dich": "Cũng khá. Mình bắt đầu chơi bóng rổ từ năm tám tuổi rồi. Còn bạn?"
+    },
+    {
+     "ai": "小张",
+     "han": "我喜欢游泳和跑步。我每天一到家就去跑步。",
+     "pinyin": "Wǒ xǐhuan yóuyǒng hé pǎobù. Wǒ měi tiān yí dào jiā jiù qù pǎobù.",
+     "dich": "Mình thích bơi và chạy bộ. Ngày nào mình cũng vừa về đến nhà là đi chạy bộ."
+    },
+    {
+     "ai": "小明",
+     "han": "你跑得快吗？",
+     "pinyin": "Nǐ pǎo de kuài ma?",
+     "dich": "Bạn chạy có nhanh không?"
+    },
+    {
+     "ai": "小张",
+     "han": "我跑得很快！明天早上我们一起去跑步吧！",
+     "pinyin": "Wǒ pǎo de hěn kuài! Míngtiān zǎoshang wǒmen yìqǐ qù pǎobù ba!",
+     "dich": "Mình chạy nhanh lắm! Sáng mai bọn mình cùng đi chạy bộ nhé!"
+    },
+    {
+     "ai": "小明",
+     "han": "好啊！我们几点见？",
+     "pinyin": "Hǎo a! Wǒmen jǐ diǎn jiàn?",
+     "dich": "Được đấy! Mấy giờ chúng mình gặp nhau?"
+    },
+    {
+     "ai": "小张",
+     "han": "早上六点，在学校前边见！",
+     "pinyin": "Zǎoshang liù diǎn, zài xuéxiào qiánbian jiàn!",
+     "dich": "Sáu giờ sáng, gặp nhau ở phía trước trường nhé!"
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "小明从几岁开始打篮球？",
+     "dapAn": "八岁",
+     "nhieu": [
+      "六岁",
+      "十岁"
+     ],
+     "dich": "Tiểu Minh bắt đầu chơi bóng rổ từ mấy tuổi?"
+    },
+    {
+     "loai": "chon",
+     "hoi": "小张喜欢什么运动？",
+     "dapAn": "游泳和跑步",
+     "nhieu": [
+      "篮球和足球",
+      "足球和跑步"
+     ],
+     "dich": "Tiểu Trương thích môn thể thao nào?"
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小明篮球打得不错。",
+     "dung": true,
+     "dich": "Tiểu Minh chơi bóng rổ khá giỏi."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "他们明天晚上一起去跑步。",
+     "dung": false,
+     "dich": "Tối mai họ cùng đi chạy bộ."
+    }
+   ]
+  },
+  {
+   "so": 8,
+   "ten": "Mười năm bên nhau",
+   "kieu": "doan-van",
+   "cau": [
+    {
+     "ai": "",
+     "han": "我叫李明，我和妻子认识已经十年了。",
+     "pinyin": "Wǒ jiào Lǐ Míng, wǒ hé qīzi rènshi yǐjīng shí nián le.",
+     "dich": "Tôi tên là Lý Minh, tôi và vợ quen nhau đã mười năm rồi."
+    },
+    {
+     "ai": "",
+     "han": "十年前的今天，我在一个小饭馆认识了她。",
+     "pinyin": "Shí nián qián de jīntiān, wǒ zài yí gè xiǎo fànguǎn rènshile tā.",
+     "dich": "Đúng ngày này mười năm trước, tôi quen cô ấy ở một quán ăn nhỏ."
+    },
+    {
+     "ai": "",
+     "han": "那个饭馆在一个书店的右边。",
+     "pinyin": "Nàge fànguǎn zài yí gè shūdiàn de yòubian.",
+     "dich": "Quán ăn đó ở bên phải một hiệu sách."
+    },
+    {
+     "ai": "",
+     "han": "今天晚上，我们还去那个饭馆吃饭。",
+     "pinyin": "Jīntiān wǎnshang, wǒmen hái qù nàge fànguǎn chī fàn.",
+     "dich": "Tối nay, chúng tôi vẫn đến quán ăn đó ăn cơm."
+    },
+    {
+     "ai": "",
+     "han": "现在饭馆比十年前大一点儿，菜也很好吃。",
+     "pinyin": "Xiànzài fànguǎn bǐ shí nián qián dà yìdiǎnr, cài yě hěn hǎochī.",
+     "dich": "Bây giờ quán ăn lớn hơn mười năm trước một chút, món ăn cũng rất ngon."
+    },
+    {
+     "ai": "",
+     "han": "我点了妻子爱吃的鱼，还送了她一块手表和一些花。",
+     "pinyin": "Wǒ diǎnle qīzi ài chī de yú, hái sòngle tā yí kuài shǒubiǎo hé yìxiē huā.",
+     "dich": "Tôi gọi món cá vợ thích ăn, còn tặng cô ấy một chiếc đồng hồ và một ít hoa."
+    },
+    {
+     "ai": "",
+     "han": "妻子说：“虽然你工作很忙，但是你还记得今天，我很高兴！”",
+     "pinyin": "Qīzi shuō: “Suīrán nǐ gōngzuò hěn máng, dànshì nǐ hái jìde jīntiān, wǒ hěn gāoxìng!”",
+     "dich": "Vợ tôi nói: “Tuy anh làm việc rất bận, nhưng anh vẫn nhớ ngày hôm nay, em rất vui!”"
+    },
+    {
+     "ai": "",
+     "han": "我觉得和她在一起的每一天都很有意思。",
+     "pinyin": "Wǒ juéde hé tā zài yìqǐ de měi yì tiān dōu hěn yǒu yìsi.",
+     "dich": "Tôi thấy mỗi ngày ở bên cô ấy đều rất thú vị."
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "李明和妻子是在哪儿认识的？",
+     "dapAn": "一个小饭馆",
+     "nhieu": [
+      "一个书店",
+      "一个商场"
+     ],
+     "dich": "Lý Minh và vợ quen nhau ở đâu?"
+    },
+    {
+     "loai": "chon",
+     "hoi": "李明送妻子什么？",
+     "dapAn": "手表和花",
+     "nhieu": [
+      "手表和衣服",
+      "书和花"
+     ],
+     "dich": "Lý Minh tặng vợ những gì?"
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "李明和妻子认识已经十年了。",
+     "dung": true,
+     "dich": "Lý Minh và vợ đã quen nhau mười năm."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "那个饭馆在书店的左边。",
+     "dung": false,
+     "dich": "Quán ăn đó ở bên trái hiệu sách."
+    }
+   ]
+  },
+  {
+   "so": 9,
+   "ten": "Quán cà phê cạnh nhà",
+   "kieu": "hoi-thoai",
+   "cau": [
+    {
+     "ai": "小明",
+     "han": "小文，你家离这个咖啡店远吗？",
+     "pinyin": "Xiǎo Wén, nǐ jiā lí zhège kāfēi diàn yuǎn ma?",
+     "dich": "Tiểu Văn, nhà bạn có xa quán cà phê này không?"
+    },
+    {
+     "ai": "小文",
+     "han": "不远，很近，就在我家旁边。我走路五分钟就到了。",
+     "pinyin": "Bù yuǎn, hěn jìn, jiù zài wǒ jiā pángbiān. Wǒ zǒulù wǔ fēnzhōng jiù dào le.",
+     "dich": "Không xa, gần lắm, ngay cạnh nhà mình. Mình đi bộ năm phút là tới."
+    },
+    {
+     "ai": "小明",
+     "han": "我家离这儿很远，我坐公交车坐了四十分钟。",
+     "pinyin": "Wǒ jiā lí zhèr hěn yuǎn, wǒ zuò gōngjiāochē zuò le sìshí fēnzhōng.",
+     "dich": "Nhà mình cách đây xa lắm, mình ngồi xe buýt mất bốn mươi phút."
+    },
+    {
+     "ai": "小文",
+     "han": "你想喝什么？这儿的咖啡很不错。",
+     "pinyin": "Nǐ xiǎng hē shénme? Zhèr de kāfēi hěn búcuò.",
+     "dich": "Bạn muốn uống gì? Cà phê ở đây ngon lắm."
+    },
+    {
+     "ai": "小明",
+     "han": "我不太喜欢咖啡，我要红茶。你呢？",
+     "pinyin": "Wǒ bú tài xǐhuan kāfēi, wǒ yào hóngchá. Nǐ ne?",
+     "dich": "Mình không thích cà phê lắm, mình gọi trà đen. Còn bạn?"
+    },
+    {
+     "ai": "小文",
+     "han": "我要绿茶。你看，门口那个男孩儿个子真高！",
+     "pinyin": "Wǒ yào lǜchá. Nǐ kàn, ménkǒu nàge nánháir gèzi zhēn gāo!",
+     "dich": "Mình gọi trà xanh. Bạn nhìn kìa, cậu bé ở cửa cao thật!"
+    },
+    {
+     "ai": "小明",
+     "han": "那是我弟弟！他今年十三岁，但是已经有我这么高了。",
+     "pinyin": "Nà shì wǒ dìdi! Tā jīnnián shísān suì, dànshì yǐjīng yǒu wǒ zhème gāo le.",
+     "dich": "Đó là em trai mình! Năm nay nó mười ba tuổi, nhưng đã cao bằng mình rồi."
+    },
+    {
+     "ai": "小文",
+     "han": "真的吗？我哥哥都没有他那么高。",
+     "pinyin": "Zhēn de ma? Wǒ gēge dōu méiyǒu tā nàme gāo.",
+     "dich": "Thật à? Anh trai mình còn không cao bằng cậu ấy."
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "小文家离咖啡店远吗？",
+     "dapAn": "很近，走路五分钟",
+     "nhieu": [
+      "很远，走路四十分钟",
+      "不近，要坐公交车"
+     ],
+     "dich": "Nhà Tiểu Văn có xa quán cà phê không?"
+    },
+    {
+     "loai": "chon",
+     "hoi": "小明要喝什么？",
+     "dapAn": "红茶",
+     "nhieu": [
+      "咖啡",
+      "绿茶"
+     ],
+     "dich": "Tiểu Minh gọi uống gì?"
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小明坐公交车坐了四十分钟。",
+     "dung": true,
+     "dich": "Tiểu Minh ngồi xe buýt mất bốn mươi phút."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小文的哥哥比小明的弟弟高。",
+     "dung": false,
+     "dich": "Anh trai Tiểu Văn cao hơn em trai Tiểu Minh."
+    }
+   ]
+  },
+  {
+   "so": 10,
+   "ten": "Sắp thi rồi!",
+   "kieu": "doan-van",
+   "cau": [
+    {
+     "ai": "",
+     "han": "快要考试了，这几天我每天晚上都在家学习。",
+     "pinyin": "Kuàiyào kǎoshì le, zhè jǐ tiān wǒ měi tiān wǎnshang dōu zài jiā xuéxí.",
+     "dich": "Sắp thi rồi, mấy hôm nay tối nào mình cũng ở nhà học bài."
+    },
+    {
+     "ai": "",
+     "han": "这次考试要考两百个词和一百个汉字。",
+     "pinyin": "Zhè cì kǎoshì yào kǎo liǎng bǎi gè cí hé yì bǎi gè Hànzì.",
+     "dich": "Kỳ thi lần này sẽ thi hai trăm từ và một trăm chữ Hán."
+    },
+    {
+     "ai": "",
+     "han": "昨天我写错了很多字，有点儿不高兴。",
+     "pinyin": "Zuótiān wǒ xiěcuò le hěn duō zì, yǒudiǎnr bù gāoxìng.",
+     "dich": "Hôm qua mình viết sai rất nhiều chữ, hơi buồn."
+    },
+    {
+     "ai": "",
+     "han": "小文问我：“明天你想在家学习，还是去学校学习？”",
+     "pinyin": "Xiǎo Wén wèn wǒ: “Míngtiān nǐ xiǎng zài jiā xuéxí, háishi qù xuéxiào xuéxí?”",
+     "dich": "Tiểu Văn hỏi mình: “Ngày mai bạn muốn học ở nhà hay đến trường học?”"
+    },
+    {
+     "ai": "",
+     "han": "我说：“去学校吧，有问题能问老师。”",
+     "pinyin": "Wǒ shuō: “Qù xuéxiào ba, yǒu wèntí néng wèn lǎoshī.”",
+     "dich": "Mình nói: “Đến trường đi, có gì không hiểu thì hỏi được thầy cô.”"
+    },
+    {
+     "ai": "",
+     "han": "今天下午我们在教室里学习了三个小时。",
+     "pinyin": "Jīntiān xiàwǔ wǒmen zài jiàoshì li xuéxí le sān gè xiǎoshí.",
+     "dich": "Chiều nay chúng mình học trong lớp ba tiếng đồng hồ."
+    },
+    {
+     "ai": "",
+     "han": "我坐在小文后面，我写错的字，她都帮我看了。",
+     "pinyin": "Wǒ zuò zài Xiǎo Wén hòumiàn, wǒ xiěcuò de zì, tā dōu bāng wǒ kàn le.",
+     "dich": "Mình ngồi sau Tiểu Văn, những chữ mình viết sai bạn ấy đều xem giúp mình."
+    },
+    {
+     "ai": "",
+     "han": "她没有笑我。我想，这次考试我能考好！",
+     "pinyin": "Tā méiyǒu xiào wǒ. Wǒ xiǎng, zhè cì kǎoshì wǒ néng kǎo hǎo!",
+     "dich": "Bạn ấy không cười mình. Mình nghĩ, kỳ thi lần này mình sẽ thi tốt!"
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "这次考试要考多少个汉字？",
+     "dapAn": "一百个",
+     "nhieu": [
+      "两百个",
+      "三百个"
+     ],
+     "dich": "Kỳ thi lần này thi bao nhiêu chữ Hán?"
+    },
+    {
+     "loai": "chon",
+     "hoi": "今天下午他们在哪儿学习？",
+     "dapAn": "在教室里",
+     "nhieu": [
+      "在小明家",
+      "在小文家"
+     ],
+     "dich": "Chiều nay họ học ở đâu?"
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小明昨天写错了很多字。",
+     "dung": true,
+     "dich": "Hôm qua Tiểu Minh viết sai rất nhiều chữ."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小文笑了小明。",
+     "dung": false,
+     "dich": "Tiểu Văn cười Tiểu Minh."
+    }
+   ]
+  },
+  {
+   "so": 11,
+   "ten": "Bạn đau đầu à?",
+   "kieu": "hoi-thoai",
+   "cau": [
+    {
+     "ai": "小李",
+     "han": "小明，你怎么了？头疼吗？",
+     "pinyin": "Xiǎo Míng, nǐ zěnme le? Tóu téng ma?",
+     "dich": "Tiểu Minh, bạn sao thế? Đau đầu à?"
+    },
+    {
+     "ai": "小明",
+     "han": "对，我头很疼，一点儿也不想动。",
+     "pinyin": "Duì, wǒ tóu hěn téng, yìdiǎnr yě bù xiǎng dòng.",
+     "dich": "Ừ, mình đau đầu lắm, chẳng muốn cử động chút nào."
+    },
+    {
+     "ai": "小李",
+     "han": "你吃药了吗？",
+     "pinyin": "Nǐ chī yào le ma?",
+     "dich": "Bạn uống thuốc chưa?"
+    },
+    {
+     "ai": "小明",
+     "han": "还没有，家里没有药了。",
+     "pinyin": "Hái méiyǒu, jiā li méiyǒu yào le.",
+     "dich": "Chưa, nhà hết thuốc rồi."
+    },
+    {
+     "ai": "小李",
+     "han": "你在这儿坐着，别动。我去药店给你买药，路上再买一些水果。",
+     "pinyin": "Nǐ zài zhèr zuòzhe, bié dòng. Wǒ qù yàodiàn gěi nǐ mǎi yào, lùshang zài mǎi yìxiē shuǐguǒ.",
+     "dich": "Bạn cứ ngồi đây, đừng cử động. Mình ra hiệu thuốc mua thuốc cho bạn, dọc đường mua thêm ít hoa quả."
+    },
+    {
+     "ai": "小明",
+     "han": "谢谢你！你身体真好，很少生病。",
+     "pinyin": "Xièxie nǐ! Nǐ shēntǐ zhēn hǎo, hěn shǎo shēngbìng.",
+     "dich": "Cảm ơn bạn! Bạn khỏe thật đấy, ít khi bị ốm."
+    },
+    {
+     "ai": "小李",
+     "han": "因为我经常运动。我每天早上跑步，跑得很慢，但是跑一个小时。",
+     "pinyin": "Yīnwèi wǒ jīngcháng yùndòng. Wǒ měi tiān zǎoshang pǎobù, pǎo de hěn màn, dànshì pǎo yí gè xiǎoshí.",
+     "dich": "Vì mình hay tập thể dục. Sáng nào mình cũng chạy bộ, chạy chậm thôi nhưng chạy một tiếng."
+    },
+    {
+     "ai": "小明",
+     "han": "运动是我最不喜欢的事。",
+     "pinyin": "Yùndòng shì wǒ zuì bù xǐhuan de shì.",
+     "dich": "Tập thể dục là việc mình ghét nhất."
+    },
+    {
+     "ai": "小李",
+     "han": "吃药时要多喝水。你头不疼了，我们就一起去跑步吧！",
+     "pinyin": "Chī yào shí yào duō hē shuǐ. Nǐ tóu bù téng le, wǒmen jiù yìqǐ qù pǎobù ba!",
+     "dich": "Lúc uống thuốc phải uống nhiều nước. Khi nào bạn hết đau đầu, chúng mình cùng đi chạy bộ nhé!"
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "小明怎么了？",
+     "dapAn": "头疼",
+     "nhieu": [
+      "手疼",
+      "不想睡觉"
+     ],
+     "dich": "Tiểu Minh bị sao?"
+    },
+    {
+     "loai": "chon",
+     "hoi": "小李去哪儿给小明买药？",
+     "dapAn": "药店",
+     "nhieu": [
+      "医院",
+      "超市"
+     ],
+     "dich": "Tiểu Lý đi đâu mua thuốc cho Tiểu Minh?"
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小李经常运动，所以身体很好。",
+     "dung": true,
+     "dich": "Tiểu Lý hay tập thể dục nên rất khỏe."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小明最喜欢运动。",
+     "dung": false,
+     "dich": "Tiểu Minh thích tập thể dục nhất."
+    }
+   ]
+  },
+  {
+   "so": 12,
+   "ten": "Thành phố của mình",
+   "kieu": "doan-van",
+   "cau": [
+    {
+     "ai": "",
+     "han": "我从小就住在这儿。",
+     "pinyin": "Wǒ cóngxiǎo jiù zhù zài zhèr.",
+     "dich": "Mình sống ở đây từ nhỏ."
+    },
+    {
+     "ai": "",
+     "han": "小时候，这里没有地铁，也没有那么多高楼。",
+     "pinyin": "Xiǎoshíhou, zhèlǐ méiyǒu dìtiě, yě méiyǒu nàme duō gāo lóu.",
+     "dich": "Hồi bé, ở đây không có tàu điện ngầm, cũng không có nhiều nhà cao tầng như thế."
+    },
+    {
+     "ai": "",
+     "han": "现在我家门口就有一个地铁站，我每天坐地铁去公司，要二十分钟。",
+     "pinyin": "Xiànzài wǒ jiā ménkǒu jiù yǒu yí gè dìtiě zhàn, wǒ měi tiān zuò dìtiě qù gōngsī, yào èrshí fēnzhōng.",
+     "dich": "Bây giờ ngay trước cửa nhà mình có một ga tàu điện ngầm, ngày nào mình cũng đi tàu điện ngầm đến công ty, mất hai mươi phút."
+    },
+    {
+     "ai": "",
+     "han": "我哥哥每天开车去上班，但是路上车太多了。",
+     "pinyin": "Wǒ gēge měi tiān kāichē qù shàngbān, dànshì lùshang chē tài duō le.",
+     "dich": "Anh trai mình ngày nào cũng lái xe đi làm, nhưng trên đường xe cộ đông quá."
+    },
+    {
+     "ai": "",
+     "han": "早上我们都七点半从家里出去，我比他到得早。",
+     "pinyin": "Zǎoshang wǒmen dōu qī diǎn bàn cóng jiā li chūqù, wǒ bǐ tā dào de zǎo.",
+     "dich": "Buổi sáng hai anh em đều ra khỏi nhà lúc bảy rưỡi, mình đến sớm hơn anh ấy."
+    },
+    {
+     "ai": "",
+     "han": "今天天气不好，早上是阴天，下午下雨了。",
+     "pinyin": "Jīntiān tiānqì bù hǎo, zǎoshang shì yīn tiān, xiàwǔ xià yǔ le.",
+     "dich": "Hôm nay trời xấu, buổi sáng âm u, buổi chiều thì mưa."
+    },
+    {
+     "ai": "",
+     "han": "下午五点我正要回家，外面下着大雨。",
+     "pinyin": "Xiàwǔ wǔ diǎn wǒ zhèng yào huí jiā, wàimiàn xiàzhe dà yǔ.",
+     "dich": "Năm giờ chiều mình vừa định về nhà thì bên ngoài đang mưa to."
+    },
+    {
+     "ai": "",
+     "han": "我在楼里等了半个小时，雨不下了，我就坐地铁回家了。",
+     "pinyin": "Wǒ zài lóu li děng le bàn gè xiǎoshí, yǔ bú xià le, wǒ jiù zuò dìtiě huí jiā le.",
+     "dich": "Mình đợi trong tòa nhà nửa tiếng, tạnh mưa thì mình đi tàu điện ngầm về nhà."
+    },
+    {
+     "ai": "",
+     "han": "明天会是晴天吗？",
+     "pinyin": "Míngtiān huì shì qíng tiān ma?",
+     "dich": "Ngày mai liệu có nắng không nhỉ?"
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "坐地铁去公司要多长时间？",
+     "dapAn": "二十分钟",
+     "nhieu": [
+      "半个小时",
+      "一个小时"
+     ],
+     "dich": "Đi tàu điện ngầm đến công ty mất bao lâu?"
+    },
+    {
+     "loai": "chon",
+     "hoi": "“我”小时候，这里怎么样？",
+     "dapAn": "没有地铁，也没有那么多高楼",
+     "nhieu": [
+      "有地铁，也有很多高楼",
+      "有地铁，但是没有高楼"
+     ],
+     "dich": "Hồi “mình” còn bé, ở đây thế nào?"
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "哥哥到公司到得比“我”早。",
+     "dung": false,
+     "dich": "Anh trai đến công ty sớm hơn “mình”."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "下午下雨了，“我”在楼里等了半个小时。",
+     "dung": true,
+     "dich": "Buổi chiều trời mưa, “mình” đã đợi trong tòa nhà nửa tiếng."
+    }
+   ]
+  },
+  {
+   "so": 13,
+   "ten": "Lớp tiếng Trung của Tiểu Văn",
+   "kieu": "hoi-thoai",
+   "cau": [
+    {
+     "ai": "小张",
+     "han": "小文，你们班有多少个学生？",
+     "pinyin": "Xiǎo Wén, nǐmen bān yǒu duōshao gè xuéshēng?",
+     "dich": "Tiểu Văn, lớp bạn có bao nhiêu học viên?"
+    },
+    {
+     "ai": "小文",
+     "han": "我们班有二十个学生。教我们汉语的老师是中国人。",
+     "pinyin": "Wǒmen bān yǒu èrshí gè xuéshēng. Jiāo wǒmen Hànyǔ de lǎoshī shì Zhōngguórén.",
+     "dich": "Lớp mình có hai mươi học viên. Cô dạy tiếng Trung cho bọn mình là người Trung Quốc."
+    },
+    {
+     "ai": "小张",
+     "han": "她教得怎么样？",
+     "pinyin": "Tā jiāo de zěnmeyàng?",
+     "dich": "Cô ấy dạy thế nào?"
+    },
+    {
+     "ai": "小文",
+     "han": "教得很好，上课非常有意思。上个星期她送给我一本书，书里面有很多中国歌。",
+     "pinyin": "Jiāo de hěn hǎo, shàngkè fēicháng yǒu yìsi. Shàng gè xīngqī tā sòng gěi wǒ yì běn shū, shū lǐmiàn yǒu hěn duō Zhōngguó gē.",
+     "dich": "Dạy hay lắm, giờ học rất thú vị. Tuần trước cô tặng mình một quyển sách, trong sách có rất nhiều bài hát Trung Quốc."
+    },
+    {
+     "ai": "小张",
+     "han": "真好！你每天花多少时间学汉语？",
+     "pinyin": "Zhēn hǎo! Nǐ měi tiān huā duōshao shíjiān xué Hànyǔ?",
+     "dich": "Hay quá! Mỗi ngày bạn dành bao nhiêu thời gian học tiếng Trung?"
+    },
+    {
+     "ai": "小文",
+     "han": "我每天花两个小时。晚上我还上网听中文歌，看中文电影。",
+     "pinyin": "Wǒ měi tiān huā liǎng gè xiǎoshí. Wǎnshang wǒ hái shàngwǎng tīng Zhōngwén gē, kàn Zhōngwén diànyǐng.",
+     "dich": "Mỗi ngày mình dành hai tiếng. Buổi tối mình còn lên mạng nghe nhạc Trung, xem phim Trung."
+    },
+    {
+     "ai": "小张",
+     "han": "那样学汉语真有意思！我也想学，但是我可能没有那么多时间。",
+     "pinyin": "Nàyàng xué Hànyǔ zhēn yǒu yìsi! Wǒ yě xiǎng xué, dànshì wǒ kěnéng méiyǒu nàme duō shíjiān.",
+     "dich": "Học tiếng Trung như thế thú vị thật! Mình cũng muốn học, nhưng có lẽ mình không có nhiều thời gian như vậy."
+    },
+    {
+     "ai": "小文",
+     "han": "一天学半个小时也可以。星期六你来我们班听课吧，我告诉老师。",
+     "pinyin": "Yì tiān xué bàn gè xiǎoshí yě kěyǐ. Xīngqīliù nǐ lái wǒmen bān tīng kè ba, wǒ gàosu lǎoshī.",
+     "dich": "Mỗi ngày học nửa tiếng cũng được. Thứ Bảy bạn đến lớp mình nghe thử đi, mình sẽ báo với cô."
+    },
+    {
+     "ai": "小张",
+     "han": "太好了！我希望能跟你一起学习。",
+     "pinyin": "Tài hǎo le! Wǒ xīwàng néng gēn nǐ yìqǐ xuéxí.",
+     "dich": "Tuyệt quá! Mình mong được học cùng bạn."
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "小文的班有多少个学生？",
+     "dapAn": "二十个",
+     "nhieu": [
+      "十二个",
+      "二十二个"
+     ],
+     "dich": "Lớp của Tiểu Văn có bao nhiêu học viên?"
+    },
+    {
+     "loai": "chon",
+     "hoi": "小文每天花多少时间学汉语？",
+     "dapAn": "两个小时",
+     "nhieu": [
+      "半个小时",
+      "一个小时"
+     ],
+     "dich": "Mỗi ngày Tiểu Văn dành bao nhiêu thời gian học tiếng Trung?"
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "老师送给小文一本书。",
+     "dung": true,
+     "dich": "Cô giáo tặng Tiểu Văn một quyển sách."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小张已经在学汉语了。",
+     "dung": false,
+     "dich": "Tiểu Trương đã đang học tiếng Trung rồi."
+    }
+   ]
+  },
+  {
+   "so": 14,
+   "ten": "Về nhà ông bà ăn Tết",
+   "kieu": "doan-van",
+   "cau": [
+    {
+     "ai": "",
+     "han": "过年了，我和爸爸妈妈回爷爷奶奶家。",
+     "pinyin": "Guònián le, wǒ hé bàba māma huí yéye nǎinai jiā.",
+     "dich": "Tết đến rồi, mình và bố mẹ về nhà ông bà nội."
+    },
+    {
+     "ai": "",
+     "han": "奶奶家门口站着很多小孩儿，他们看见我们，就跑过来说：“过年好！”",
+     "pinyin": "Nǎinai jiā ménkǒu zhànzhe hěn duō xiǎoháir, tāmen kànjiàn wǒmen, jiù pǎo guòlái shuō: “Guònián hǎo!”",
+     "dich": "Trước cửa nhà bà có rất nhiều trẻ con đang đứng, thấy bọn mình liền chạy lại nói: “Chúc mừng năm mới!”"
+    },
+    {
+     "ai": "",
+     "han": "爷爷正在看电视，看见我们，就笑着站起来了。",
+     "pinyin": "Yéye zhèngzài kàn diànshì, kànjiàn wǒmen, jiù xiàozhe zhàn qǐlái le.",
+     "dich": "Ông đang xem ti vi, thấy bọn mình liền cười và đứng dậy."
+    },
+    {
+     "ai": "",
+     "han": "爸爸送给爷爷两包茶，爷爷非常高兴。",
+     "pinyin": "Bàba sòng gěi yéye liǎng bāo chá, yéye fēicháng gāoxìng.",
+     "dich": "Bố tặng ông hai gói trà, ông vui lắm."
+    },
+    {
+     "ai": "",
+     "han": "晚上我们一起包饺子。我包得没有妈妈那么好看。",
+     "pinyin": "Wǎnshang wǒmen yìqǐ bāo jiǎozi. Wǒ bāo de méiyǒu māma nàme hǎokàn.",
+     "dich": "Buổi tối cả nhà cùng gói sủi cảo. Mình gói không đẹp bằng mẹ."
+    },
+    {
+     "ai": "",
+     "han": "这时候，门口走进来一位先生，他姓李，是爷爷的朋友。",
+     "pinyin": "Zhè shíhou, ménkǒu zǒu jìnlái yí wèi xiānsheng, tā xìng Lǐ, shì yéye de péngyou.",
+     "dich": "Lúc đó, từ cửa có một ông bước vào, ông ấy họ Lý, là bạn của ông nội."
+    },
+    {
+     "ai": "",
+     "han": "吃完饭，几个女孩儿在桌子前面唱歌跳舞。",
+     "pinyin": "Chī wán fàn, jǐ gè nǚháir zài zhuōzi qiánmiàn chàng gē tiàowǔ.",
+     "dich": "Ăn xong, mấy cô bé hát và nhảy múa trước bàn."
+    },
+    {
+     "ai": "",
+     "han": "小时候我觉得过年没意思，现在我觉得过年最快乐！",
+     "pinyin": "Xiǎoshíhou wǒ juéde guònián méi yìsi, xiànzài wǒ juéde guònián zuì kuàilè!",
+     "dich": "Hồi bé mình thấy Tết chẳng có gì thú vị, giờ mình thấy Tết là vui nhất!"
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "爸爸送给爷爷什么？",
+     "dapAn": "两包茶",
+     "nhieu": [
+      "两包饺子",
+      "一些水果"
+     ],
+     "dich": "Bố tặng ông cái gì?"
+    },
+    {
+     "loai": "chon",
+     "hoi": "走进来的那位先生是谁？",
+     "dapAn": "爷爷的朋友",
+     "nhieu": [
+      "爸爸的朋友",
+      "奶奶的儿子"
+     ],
+     "dich": "Ông bước vào là ai?"
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "晚上他们一起包饺子。",
+     "dung": true,
+     "dich": "Buổi tối họ cùng nhau gói sủi cảo."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "“我”包的饺子比妈妈包的好看。",
+     "dung": false,
+     "dich": "Sủi cảo “mình” gói đẹp hơn sủi cảo mẹ gói."
+    }
+   ]
+  },
+  {
+   "so": 15,
+   "ten": "Mai bạn ra nước ngoài rồi à?",
+   "kieu": "hoi-thoai",
+   "cau": [
+    {
+     "ai": "小文",
+     "han": "小明，明天你就要出国旅游了吧？",
+     "pinyin": "Xiǎo Míng, míngtiān nǐ jiù yào chūguó lǚyóu le ba?",
+     "dich": "Tiểu Minh, mai bạn đi du lịch nước ngoài rồi phải không?"
+    },
+    {
+     "ai": "小明",
+     "han": "对！我的飞机早上八点飞，我六点就要出门。",
+     "pinyin": "Duì! Wǒ de fēijī zǎoshang bā diǎn fēi, wǒ liù diǎn jiù yào chūmén.",
+     "dich": "Đúng rồi! Máy bay của mình cất cánh lúc tám giờ sáng, sáu giờ mình đã phải ra khỏi nhà."
+    },
+    {
+     "ai": "小文",
+     "han": "你家离机场有多远？",
+     "pinyin": "Nǐ jiā lí jīchǎng yǒu duō yuǎn?",
+     "dich": "Nhà bạn cách sân bay bao xa?"
+    },
+    {
+     "ai": "小明",
+     "han": "不太近，坐出租车要一个多小时。",
+     "pinyin": "Bú tài jìn, zuò chūzūchē yào yí gè duō xiǎoshí.",
+     "dich": "Không gần lắm, đi taxi mất hơn một tiếng."
+    },
+    {
+     "ai": "小文",
+     "han": "你出过国吗？",
+     "pinyin": "Nǐ chūguo guó ma?",
+     "dich": "Bạn đã từng ra nước ngoài chưa?"
+    },
+    {
+     "ai": "小明",
+     "han": "出过一次。上高中的时候，我跟爸爸妈妈去过一次中国。这次我要去五天。",
+     "pinyin": "Chūguo yí cì. Shàng gāozhōng de shíhou, wǒ gēn bàba māma qùguo yí cì Zhōngguó. Zhè cì wǒ yào qù wǔ tiān.",
+     "dich": "Một lần rồi. Hồi học cấp ba, mình đã cùng bố mẹ đi Trung Quốc một lần. Lần này mình đi năm ngày."
+    },
+    {
+     "ai": "小文",
+     "han": "那儿有什么好玩儿的？",
+     "pinyin": "Nàr yǒu shénme hǎowánr de?",
+     "dich": "Ở đó có gì hay để chơi?"
+    },
+    {
+     "ai": "小明",
+     "han": "那儿有很多鸟，我想去看看。门票有一百多块，不太贵。",
+     "pinyin": "Nàr yǒu hěn duō niǎo, wǒ xiǎng qù kànkan. Ménpiào yǒu yìbǎi duō kuài, bú tài guì.",
+     "dich": "Ở đó có rất nhiều chim, mình muốn đi xem. Vé vào cửa hơn một trăm tệ, không đắt lắm."
+    },
+    {
+     "ai": "小文",
+     "han": "你能帮我一个忙吗？给我买一本那儿的书吧！",
+     "pinyin": "Nǐ néng bāng wǒ yí gè máng ma? Gěi wǒ mǎi yì běn nàr de shū ba!",
+     "dich": "Bạn giúp mình một việc được không? Mua cho mình một quyển sách ở đó nhé!"
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "小明的飞机几点飞？",
+     "dapAn": "早上八点",
+     "nhieu": [
+      "早上六点",
+      "晚上八点"
+     ],
+     "dich": "Máy bay của Tiểu Minh cất cánh lúc mấy giờ?"
+    },
+    {
+     "loai": "chon",
+     "hoi": "这次小明要去几天？",
+     "dapAn": "五天",
+     "nhieu": [
+      "一天",
+      "两天"
+     ],
+     "dich": "Lần này Tiểu Minh đi mấy ngày?"
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小明去过一次中国。",
+     "dung": true,
+     "dich": "Tiểu Minh đã đi Trung Quốc một lần."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "那儿的门票非常贵。",
+     "dung": false,
+     "dich": "Vé vào cửa ở đó rất đắt."
+    }
+   ]
+  }
+ ]
 }

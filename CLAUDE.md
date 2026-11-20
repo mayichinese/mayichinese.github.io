@@ -24,8 +24,11 @@
     `cong-cu/nguon-doc-hieu/capN.txt` (định dạng ở đầu script; `$` = tên riêng cho phép) → `python -X utf8 cong-cu/ghep-doc-hieu.py N`
     → `data/doc-hieu-hskN.json`. Script BÁO LỖI nếu chữ Hán (câu, câu hỏi, đáp án) có từ chưa học tới bài (dùng chua_hoc() của
     kiem-tra-tu-chua-hoc.py) hoặc pinyin sai. Kết quả `tienDo.docHieu[mã]={diem,tot,lan,luc}`, ghiLuot('docHieu'). Soạn mỗi lần ≤ 3 bài.
-    ĐÃ SOẠN: HSK 1 bài 1–9.
-  - CHẠM TỪ XEM NGHĨA (`js/cham-tu.js`): htmlCauCham(câu, {danh, chiChuaHoc}) tách câu bằng từ điển HSK (khớp dài nhất ≤4 chữ),
+    ĐÃ SOẠN ĐỦ 48 bài (HSK 1: 15, HSK 2: 15, HSK 3: 18) – nhiều file capN-*.txt được gộp; soạn song song thì mỗi người một file và
+    kiểm tra bằng `ghep-doc-hieu.py N --chi-kiem <file>`. Xem từ/ngữ pháp một bài: `python -X utf8 cong-cu/tu-cua-bai.py <cấp> <bài>`.
+    Tên riêng đã dùng: 小明, 小文, 小李, 小张, 李明, 李.
+  - CHẠM TỪ XEM NGHĨA (`js/cham-tu.js`): htmlCauCham(câu, {danh, chiChuaHoc}) tách câu bằng từ điển HSK (tachChuoiHan: khớp dài nhất
+    ≤4 chữ HAI CHIỀU, chọn ít đoạn → ít chữ lẻ → từ cấp thấp hơn → chiều phải sang; Python cùng thuật toán ở tach_chuoi),
     mỗi từ là nút data-xem-tu → moXemTu (app.js); từ chưa học gạch chân chấm. Dùng ở htmlMatSau, ngữ pháp, chặng, từ loại.
     Câu đang là câu hỏi dùng chiChuaHoc (không lộ đáp án). Luyện ngữ pháp đưa câu toàn từ đã học lên trước (cauDaBiet).
   - Danh sách ngữ pháp sắp theo cấp → bài sách (taiNguPhap); hocSauBai (bài chủ đề cũ) KHÔNG còn dùng.
@@ -66,7 +69,7 @@
     (báo cả từ loại mới trong hsk*.json chưa có hướng dẫn). Nhãn từ loại trên thẻ = `nutTuLoai()` (giao-dien.js) → app.js `data-tu-loai` → moTuLoai().
   - Kế hoạch đang làm (duyệt 2026-11-20): A từ loại (XONG) → B Ôn luyện tự chấm bằng câu hỏi thật (XONG)
     → C bài = các chặng ~5 từ: Nghe → Nói theo → Viết → Ghép → Đọc, rồi Ngữ pháp, Đọc hiểu, Kiểm tra (XONG đợt 1) → D ngữ pháp mở sau từ vựng,
-    chạm từ xem nghĩa (XONG), sửa câu có từ chưa học (XONG: 0/869) → E soạn đọc hiểu (ĐANG LÀM: khung + HSK 1 bài 1–9). Lộ trình CHỈ theo sách; "Theo chủ đề" thành danh mục tra cứu.
+    chạm từ xem nghĩa (XONG), sửa câu có từ chưa học (XONG: 0/869) → E soạn đọc hiểu (XONG: 48 bài). Lộ trình CHỈ theo sách; "Theo chủ đề" thành danh mục tra cứu.
   - `js/man-luyen-noi.js` (Nói & phát âm, `#/luyen-noi[/doc-tu|doc-cau|nhac-lai|noi-nghia]`, ô rộng đầu "Luyện kỹ năng" của Ôn luyện;
     nút "🎤 Đọc thử" trên mặt sau thẻ từ → moChamNhanh qua `data-noi-thu`). `js/nhan-giong.js`: Web Speech SpeechRecognition zh-CN
     (cần mạng) + MediaRecorder ghi âm tự chấm khi không có nhận dạng. `js/cham-phat-am.js`: dóng hàng chữ nghe được với câu đúng theo

@@ -1,0 +1,150 @@
+# ===== ĐỌC HIỂU HSK 2 – bài 9 → 15 (soạn tay, tự đặt – không chép giáo trình) =====
+# Cách viết: xem đầu file cong-cu/ghep-doc-hieu.py. Chỉ dùng từ đã học tới bài đó (cấp dưới + bài trước).
+# Kiểm tra riêng file này: python -X utf8 cong-cu/ghep-doc-hieu.py 2 --chi-kiem cap2-b.txt
+
+# Tên riêng dùng trong bài đọc (được phép dù không có trong danh sách từ)
+$ 小明; 小文; 小李; 小张; 李明; 李
+
+## 9
+@ Quán cà phê cạnh nhà
+% hoi-thoai
+> 小明 | 小文，你家离这个咖啡店远吗？ | Xiǎo Wén, nǐ jiā lí zhège kāfēi diàn yuǎn ma? | Tiểu Văn, nhà bạn có xa quán cà phê này không?
+> 小文 | 不远，很近，就在我家旁边。我走路五分钟就到了。 | Bù yuǎn, hěn jìn, jiù zài wǒ jiā pángbiān. Wǒ zǒulù wǔ fēnzhōng jiù dào le. | Không xa, gần lắm, ngay cạnh nhà mình. Mình đi bộ năm phút là tới.
+> 小明 | 我家离这儿很远，我坐公交车坐了四十分钟。 | Wǒ jiā lí zhèr hěn yuǎn, wǒ zuò gōngjiāochē zuò le sìshí fēnzhōng. | Nhà mình cách đây xa lắm, mình ngồi xe buýt mất bốn mươi phút.
+> 小文 | 你想喝什么？这儿的咖啡很不错。 | Nǐ xiǎng hē shénme? Zhèr de kāfēi hěn búcuò. | Bạn muốn uống gì? Cà phê ở đây ngon lắm.
+> 小明 | 我不太喜欢咖啡，我要红茶。你呢？ | Wǒ bú tài xǐhuan kāfēi, wǒ yào hóngchá. Nǐ ne? | Mình không thích cà phê lắm, mình gọi trà đen. Còn bạn?
+> 小文 | 我要绿茶。你看，门口那个男孩儿个子真高！ | Wǒ yào lǜchá. Nǐ kàn, ménkǒu nàge nánháir gèzi zhēn gāo! | Mình gọi trà xanh. Bạn nhìn kìa, cậu bé ở cửa cao thật!
+> 小明 | 那是我弟弟！他今年十三岁，但是已经有我这么高了。 | Nà shì wǒ dìdi! Tā jīnnián shísān suì, dànshì yǐjīng yǒu wǒ zhème gāo le. | Đó là em trai mình! Năm nay nó mười ba tuổi, nhưng đã cao bằng mình rồi.
+> 小文 | 真的吗？我哥哥都没有他那么高。 | Zhēn de ma? Wǒ gēge dōu méiyǒu tā nàme gāo. | Thật à? Anh trai mình còn không cao bằng cậu ấy.
+? 小文家离咖啡店远吗？ | 很近，走路五分钟 | 很远，走路四十分钟; 不近，要坐公交车
+?= Nhà Tiểu Văn có xa quán cà phê không?
+? 小明要喝什么？ | 红茶 | 咖啡; 绿茶
+?= Tiểu Minh gọi uống gì?
+! 小明坐公交车坐了四十分钟。 | đúng
+!= Tiểu Minh ngồi xe buýt mất bốn mươi phút.
+! 小文的哥哥比小明的弟弟高。 | sai
+!= Anh trai Tiểu Văn cao hơn em trai Tiểu Minh.
+
+## 10
+@ Sắp thi rồi!
+% doan-van
+> 快要考试了，这几天我每天晚上都在家学习。 | Kuàiyào kǎoshì le, zhè jǐ tiān wǒ měi tiān wǎnshang dōu zài jiā xuéxí. | Sắp thi rồi, mấy hôm nay tối nào mình cũng ở nhà học bài.
+> 这次考试要考两百个词和一百个汉字。 | Zhè cì kǎoshì yào kǎo liǎng bǎi gè cí hé yì bǎi gè Hànzì. | Kỳ thi lần này sẽ thi hai trăm từ và một trăm chữ Hán.
+> 昨天我写错了很多字，有点儿不高兴。 | Zuótiān wǒ xiěcuò le hěn duō zì, yǒudiǎnr bù gāoxìng. | Hôm qua mình viết sai rất nhiều chữ, hơi buồn.
+> 小文问我：“明天你想在家学习，还是去学校学习？” | Xiǎo Wén wèn wǒ: “Míngtiān nǐ xiǎng zài jiā xuéxí, háishi qù xuéxiào xuéxí?” | Tiểu Văn hỏi mình: “Ngày mai bạn muốn học ở nhà hay đến trường học?”
+> 我说：“去学校吧，有问题能问老师。” | Wǒ shuō: “Qù xuéxiào ba, yǒu wèntí néng wèn lǎoshī.” | Mình nói: “Đến trường đi, có gì không hiểu thì hỏi được thầy cô.”
+> 今天下午我们在教室里学习了三个小时。 | Jīntiān xiàwǔ wǒmen zài jiàoshì li xuéxí le sān gè xiǎoshí. | Chiều nay chúng mình học trong lớp ba tiếng đồng hồ.
+> 我坐在小文后面，我写错的字，她都帮我看了。 | Wǒ zuò zài Xiǎo Wén hòumiàn, wǒ xiěcuò de zì, tā dōu bāng wǒ kàn le. | Mình ngồi sau Tiểu Văn, những chữ mình viết sai bạn ấy đều xem giúp mình.
+> 她没有笑我。我想，这次考试我能考好！ | Tā méiyǒu xiào wǒ. Wǒ xiǎng, zhè cì kǎoshì wǒ néng kǎo hǎo! | Bạn ấy không cười mình. Mình nghĩ, kỳ thi lần này mình sẽ thi tốt!
+? 这次考试要考多少个汉字？ | 一百个 | 两百个; 三百个
+?= Kỳ thi lần này thi bao nhiêu chữ Hán?
+? 今天下午他们在哪儿学习？ | 在教室里 | 在小明家; 在小文家
+?= Chiều nay họ học ở đâu?
+! 小明昨天写错了很多字。 | đúng
+!= Hôm qua Tiểu Minh viết sai rất nhiều chữ.
+! 小文笑了小明。 | sai
+!= Tiểu Văn cười Tiểu Minh.
+
+## 11
+@ Bạn đau đầu à?
+% hoi-thoai
+> 小李 | 小明，你怎么了？头疼吗？ | Xiǎo Míng, nǐ zěnme le? Tóu téng ma? | Tiểu Minh, bạn sao thế? Đau đầu à?
+> 小明 | 对，我头很疼，一点儿也不想动。 | Duì, wǒ tóu hěn téng, yìdiǎnr yě bù xiǎng dòng. | Ừ, mình đau đầu lắm, chẳng muốn cử động chút nào.
+> 小李 | 你吃药了吗？ | Nǐ chī yào le ma? | Bạn uống thuốc chưa?
+> 小明 | 还没有，家里没有药了。 | Hái méiyǒu, jiā li méiyǒu yào le. | Chưa, nhà hết thuốc rồi.
+> 小李 | 你在这儿坐着，别动。我去药店给你买药，路上再买一些水果。 | Nǐ zài zhèr zuòzhe, bié dòng. Wǒ qù yàodiàn gěi nǐ mǎi yào, lùshang zài mǎi yìxiē shuǐguǒ. | Bạn cứ ngồi đây, đừng cử động. Mình ra hiệu thuốc mua thuốc cho bạn, dọc đường mua thêm ít hoa quả.
+> 小明 | 谢谢你！你身体真好，很少生病。 | Xièxie nǐ! Nǐ shēntǐ zhēn hǎo, hěn shǎo shēngbìng. | Cảm ơn bạn! Bạn khỏe thật đấy, ít khi bị ốm.
+> 小李 | 因为我经常运动。我每天早上跑步，跑得很慢，但是跑一个小时。 | Yīnwèi wǒ jīngcháng yùndòng. Wǒ měi tiān zǎoshang pǎobù, pǎo de hěn màn, dànshì pǎo yí gè xiǎoshí. | Vì mình hay tập thể dục. Sáng nào mình cũng chạy bộ, chạy chậm thôi nhưng chạy một tiếng.
+> 小明 | 运动是我最不喜欢的事。 | Yùndòng shì wǒ zuì bù xǐhuan de shì. | Tập thể dục là việc mình ghét nhất.
+> 小李 | 吃药时要多喝水。你头不疼了，我们就一起去跑步吧！ | Chī yào shí yào duō hē shuǐ. Nǐ tóu bù téng le, wǒmen jiù yìqǐ qù pǎobù ba! | Lúc uống thuốc phải uống nhiều nước. Khi nào bạn hết đau đầu, chúng mình cùng đi chạy bộ nhé!
+? 小明怎么了？ | 头疼 | 手疼; 不想睡觉
+?= Tiểu Minh bị sao?
+? 小李去哪儿给小明买药？ | 药店 | 医院; 超市
+?= Tiểu Lý đi đâu mua thuốc cho Tiểu Minh?
+! 小李经常运动，所以身体很好。 | đúng
+!= Tiểu Lý hay tập thể dục nên rất khỏe.
+! 小明最喜欢运动。 | sai
+!= Tiểu Minh thích tập thể dục nhất.
+
+## 12
+@ Thành phố của mình
+% doan-van
+> 我从小就住在这儿。 | Wǒ cóngxiǎo jiù zhù zài zhèr. | Mình sống ở đây từ nhỏ.
+> 小时候，这里没有地铁，也没有那么多高楼。 | Xiǎoshíhou, zhèlǐ méiyǒu dìtiě, yě méiyǒu nàme duō gāo lóu. | Hồi bé, ở đây không có tàu điện ngầm, cũng không có nhiều nhà cao tầng như thế.
+> 现在我家门口就有一个地铁站，我每天坐地铁去公司，要二十分钟。 | Xiànzài wǒ jiā ménkǒu jiù yǒu yí gè dìtiě zhàn, wǒ měi tiān zuò dìtiě qù gōngsī, yào èrshí fēnzhōng. | Bây giờ ngay trước cửa nhà mình có một ga tàu điện ngầm, ngày nào mình cũng đi tàu điện ngầm đến công ty, mất hai mươi phút.
+> 我哥哥每天开车去上班，但是路上车太多了。 | Wǒ gēge měi tiān kāichē qù shàngbān, dànshì lùshang chē tài duō le. | Anh trai mình ngày nào cũng lái xe đi làm, nhưng trên đường xe cộ đông quá.
+> 早上我们都七点半从家里出去，我比他到得早。 | Zǎoshang wǒmen dōu qī diǎn bàn cóng jiā li chūqù, wǒ bǐ tā dào de zǎo. | Buổi sáng hai anh em đều ra khỏi nhà lúc bảy rưỡi, mình đến sớm hơn anh ấy.
+> 今天天气不好，早上是阴天，下午下雨了。 | Jīntiān tiānqì bù hǎo, zǎoshang shì yīn tiān, xiàwǔ xià yǔ le. | Hôm nay trời xấu, buổi sáng âm u, buổi chiều thì mưa.
+> 下午五点我正要回家，外面下着大雨。 | Xiàwǔ wǔ diǎn wǒ zhèng yào huí jiā, wàimiàn xiàzhe dà yǔ. | Năm giờ chiều mình vừa định về nhà thì bên ngoài đang mưa to.
+> 我在楼里等了半个小时，雨不下了，我就坐地铁回家了。 | Wǒ zài lóu li děng le bàn gè xiǎoshí, yǔ bú xià le, wǒ jiù zuò dìtiě huí jiā le. | Mình đợi trong tòa nhà nửa tiếng, tạnh mưa thì mình đi tàu điện ngầm về nhà.
+> 明天会是晴天吗？ | Míngtiān huì shì qíng tiān ma? | Ngày mai liệu có nắng không nhỉ?
+? 坐地铁去公司要多长时间？ | 二十分钟 | 半个小时; 一个小时
+?= Đi tàu điện ngầm đến công ty mất bao lâu?
+? “我”小时候，这里怎么样？ | 没有地铁，也没有那么多高楼 | 有地铁，也有很多高楼; 有地铁，但是没有高楼
+?= Hồi “mình” còn bé, ở đây thế nào?
+! 哥哥到公司到得比“我”早。 | sai
+!= Anh trai đến công ty sớm hơn “mình”.
+! 下午下雨了，“我”在楼里等了半个小时。 | đúng
+!= Buổi chiều trời mưa, “mình” đã đợi trong tòa nhà nửa tiếng.
+
+## 13
+@ Lớp tiếng Trung của Tiểu Văn
+% hoi-thoai
+> 小张 | 小文，你们班有多少个学生？ | Xiǎo Wén, nǐmen bān yǒu duōshao gè xuéshēng? | Tiểu Văn, lớp bạn có bao nhiêu học viên?
+> 小文 | 我们班有二十个学生。教我们汉语的老师是中国人。 | Wǒmen bān yǒu èrshí gè xuéshēng. Jiāo wǒmen Hànyǔ de lǎoshī shì Zhōngguórén. | Lớp mình có hai mươi học viên. Cô dạy tiếng Trung cho bọn mình là người Trung Quốc.
+> 小张 | 她教得怎么样？ | Tā jiāo de zěnmeyàng? | Cô ấy dạy thế nào?
+> 小文 | 教得很好，上课非常有意思。上个星期她送给我一本书，书里面有很多中国歌。 | Jiāo de hěn hǎo, shàngkè fēicháng yǒu yìsi. Shàng gè xīngqī tā sòng gěi wǒ yì běn shū, shū lǐmiàn yǒu hěn duō Zhōngguó gē. | Dạy hay lắm, giờ học rất thú vị. Tuần trước cô tặng mình một quyển sách, trong sách có rất nhiều bài hát Trung Quốc.
+> 小张 | 真好！你每天花多少时间学汉语？ | Zhēn hǎo! Nǐ měi tiān huā duōshao shíjiān xué Hànyǔ? | Hay quá! Mỗi ngày bạn dành bao nhiêu thời gian học tiếng Trung?
+> 小文 | 我每天花两个小时。晚上我还上网听中文歌，看中文电影。 | Wǒ měi tiān huā liǎng gè xiǎoshí. Wǎnshang wǒ hái shàngwǎng tīng Zhōngwén gē, kàn Zhōngwén diànyǐng. | Mỗi ngày mình dành hai tiếng. Buổi tối mình còn lên mạng nghe nhạc Trung, xem phim Trung.
+> 小张 | 那样学汉语真有意思！我也想学，但是我可能没有那么多时间。 | Nàyàng xué Hànyǔ zhēn yǒu yìsi! Wǒ yě xiǎng xué, dànshì wǒ kěnéng méiyǒu nàme duō shíjiān. | Học tiếng Trung như thế thú vị thật! Mình cũng muốn học, nhưng có lẽ mình không có nhiều thời gian như vậy.
+> 小文 | 一天学半个小时也可以。星期六你来我们班听课吧，我告诉老师。 | Yì tiān xué bàn gè xiǎoshí yě kěyǐ. Xīngqīliù nǐ lái wǒmen bān tīng kè ba, wǒ gàosu lǎoshī. | Mỗi ngày học nửa tiếng cũng được. Thứ Bảy bạn đến lớp mình nghe thử đi, mình sẽ báo với cô.
+> 小张 | 太好了！我希望能跟你一起学习。 | Tài hǎo le! Wǒ xīwàng néng gēn nǐ yìqǐ xuéxí. | Tuyệt quá! Mình mong được học cùng bạn.
+? 小文的班有多少个学生？ | 二十个 | 十二个; 二十二个
+?= Lớp của Tiểu Văn có bao nhiêu học viên?
+? 小文每天花多少时间学汉语？ | 两个小时 | 半个小时; 一个小时
+?= Mỗi ngày Tiểu Văn dành bao nhiêu thời gian học tiếng Trung?
+! 老师送给小文一本书。 | đúng
+!= Cô giáo tặng Tiểu Văn một quyển sách.
+! 小张已经在学汉语了。 | sai
+!= Tiểu Trương đã đang học tiếng Trung rồi.
+
+## 14
+@ Về nhà ông bà ăn Tết
+% doan-van
+> 过年了，我和爸爸妈妈回爷爷奶奶家。 | Guònián le, wǒ hé bàba māma huí yéye nǎinai jiā. | Tết đến rồi, mình và bố mẹ về nhà ông bà nội.
+> 奶奶家门口站着很多小孩儿，他们看见我们，就跑过来说：“过年好！” | Nǎinai jiā ménkǒu zhànzhe hěn duō xiǎoháir, tāmen kànjiàn wǒmen, jiù pǎo guòlái shuō: “Guònián hǎo!” | Trước cửa nhà bà có rất nhiều trẻ con đang đứng, thấy bọn mình liền chạy lại nói: “Chúc mừng năm mới!”
+> 爷爷正在看电视，看见我们，就笑着站起来了。 | Yéye zhèngzài kàn diànshì, kànjiàn wǒmen, jiù xiàozhe zhàn qǐlái le. | Ông đang xem ti vi, thấy bọn mình liền cười và đứng dậy.
+> 爸爸送给爷爷两包茶，爷爷非常高兴。 | Bàba sòng gěi yéye liǎng bāo chá, yéye fēicháng gāoxìng. | Bố tặng ông hai gói trà, ông vui lắm.
+> 晚上我们一起包饺子。我包得没有妈妈那么好看。 | Wǎnshang wǒmen yìqǐ bāo jiǎozi. Wǒ bāo de méiyǒu māma nàme hǎokàn. | Buổi tối cả nhà cùng gói sủi cảo. Mình gói không đẹp bằng mẹ.
+> 这时候，门口走进来一位先生，他姓李，是爷爷的朋友。 | Zhè shíhou, ménkǒu zǒu jìnlái yí wèi xiānsheng, tā xìng Lǐ, shì yéye de péngyou. | Lúc đó, từ cửa có một ông bước vào, ông ấy họ Lý, là bạn của ông nội.
+> 吃完饭，几个女孩儿在桌子前面唱歌跳舞。 | Chī wán fàn, jǐ gè nǚháir zài zhuōzi qiánmiàn chàng gē tiàowǔ. | Ăn xong, mấy cô bé hát và nhảy múa trước bàn.
+> 小时候我觉得过年没意思，现在我觉得过年最快乐！ | Xiǎoshíhou wǒ juéde guònián méi yìsi, xiànzài wǒ juéde guònián zuì kuàilè! | Hồi bé mình thấy Tết chẳng có gì thú vị, giờ mình thấy Tết là vui nhất!
+? 爸爸送给爷爷什么？ | 两包茶 | 两包饺子; 一些水果
+?= Bố tặng ông cái gì?
+? 走进来的那位先生是谁？ | 爷爷的朋友 | 爸爸的朋友; 奶奶的儿子
+?= Ông bước vào là ai?
+! 晚上他们一起包饺子。 | đúng
+!= Buổi tối họ cùng nhau gói sủi cảo.
+! “我”包的饺子比妈妈包的好看。 | sai
+!= Sủi cảo “mình” gói đẹp hơn sủi cảo mẹ gói.
+
+## 15
+@ Mai bạn ra nước ngoài rồi à?
+% hoi-thoai
+> 小文 | 小明，明天你就要出国旅游了吧？ | Xiǎo Míng, míngtiān nǐ jiù yào chūguó lǚyóu le ba? | Tiểu Minh, mai bạn đi du lịch nước ngoài rồi phải không?
+> 小明 | 对！我的飞机早上八点飞，我六点就要出门。 | Duì! Wǒ de fēijī zǎoshang bā diǎn fēi, wǒ liù diǎn jiù yào chūmén. | Đúng rồi! Máy bay của mình cất cánh lúc tám giờ sáng, sáu giờ mình đã phải ra khỏi nhà.
+> 小文 | 你家离机场有多远？ | Nǐ jiā lí jīchǎng yǒu duō yuǎn? | Nhà bạn cách sân bay bao xa?
+> 小明 | 不太近，坐出租车要一个多小时。 | Bú tài jìn, zuò chūzūchē yào yí gè duō xiǎoshí. | Không gần lắm, đi taxi mất hơn một tiếng.
+> 小文 | 你出过国吗？ | Nǐ chūguo guó ma? | Bạn đã từng ra nước ngoài chưa?
+> 小明 | 出过一次。上高中的时候，我跟爸爸妈妈去过一次中国。这次我要去五天。 | Chūguo yí cì. Shàng gāozhōng de shíhou, wǒ gēn bàba māma qùguo yí cì Zhōngguó. Zhè cì wǒ yào qù wǔ tiān. | Một lần rồi. Hồi học cấp ba, mình đã cùng bố mẹ đi Trung Quốc một lần. Lần này mình đi năm ngày.
+> 小文 | 那儿有什么好玩儿的？ | Nàr yǒu shénme hǎowánr de? | Ở đó có gì hay để chơi?
+> 小明 | 那儿有很多鸟，我想去看看。门票有一百多块，不太贵。 | Nàr yǒu hěn duō niǎo, wǒ xiǎng qù kànkan. Ménpiào yǒu yìbǎi duō kuài, bú tài guì. | Ở đó có rất nhiều chim, mình muốn đi xem. Vé vào cửa hơn một trăm tệ, không đắt lắm.
+> 小文 | 你能帮我一个忙吗？给我买一本那儿的书吧！ | Nǐ néng bāng wǒ yí gè máng ma? Gěi wǒ mǎi yì běn nàr de shū ba! | Bạn giúp mình một việc được không? Mua cho mình một quyển sách ở đó nhé!
+? 小明的飞机几点飞？ | 早上八点 | 早上六点; 晚上八点
+?= Máy bay của Tiểu Minh cất cánh lúc mấy giờ?
+? 这次小明要去几天？ | 五天 | 一天; 两天
+?= Lần này Tiểu Minh đi mấy ngày?
+! 小明去过一次中国。 | đúng
+!= Tiểu Minh đã đi Trung Quốc một lần.
+! 那儿的门票非常贵。 | sai
+!= Vé vào cửa ở đó rất đắt.

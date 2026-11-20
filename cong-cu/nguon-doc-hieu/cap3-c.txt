@@ -1,0 +1,136 @@
+# ===== ĐỌC HIỂU HSK 3 – BÀI 13–18 (soạn tay, tự đặt – không chép giáo trình) =====
+# Cách viết: xem đầu file cong-cu/ghep-doc-hieu.py. Chỉ dùng từ đã học tới bài đó (cấp dưới + bài trước).
+# Kiểm tra: python -X utf8 cong-cu/ghep-doc-hieu.py 3 --chi-kiem cap3-c.txt
+
+# Tên riêng dùng trong bài đọc (được phép dù không có trong danh sách từ)
+$ 小明; 小文; 小李; 小张; 李明
+
+## 13
+@ Hàng xóm mới của Tiểu Văn
+% hoi-thoai
+> 小明 | 小文，听说你有新邻居了？ | Xiǎo Wén, tīngshuō nǐ yǒu xīn línjū le? | Tiểu Văn, nghe nói bạn có hàng xóm mới à?
+> 小文 | 对，是一对年轻的夫妻，他们来自南方。 | Duì, shì yí duì niánqīng de fūqī, tāmen láizì nánfāng. | Đúng vậy, là một đôi vợ chồng trẻ, họ đến từ miền Nam.
+> 小明 | 他们是做什么工作的？ | Tāmen shì zuò shénme gōngzuò de? | Họ làm nghề gì?
+> 小文 | 先生是画家，他爱人是中文老师。昨天他们请我去家里做客。 | Xiānsheng shì huàjiā, tā àiren shì Zhōngwén lǎoshī. Zuótiān tāmen qǐng wǒ qù jiā li zuòkè. | Anh chồng là họa sĩ, vợ anh ấy là giáo viên tiếng Trung. Hôm qua họ mời mình sang nhà chơi.
+> 小明 | 你给他们带礼物了吗？ | Nǐ gěi tāmen dài lǐwù le ma? | Bạn có mang quà cho họ không?
+> 小文 | 带了，我送了他们一张中国地图。他们说北方和南方的文化很不同。 | Dài le, wǒ sòng le tāmen yì zhāng Zhōngguó dìtú. Tāmen shuō běifāng hé nánfāng de wénhuà hěn bù tóng. | Có, mình tặng họ một tấm bản đồ Trung Quốc. Họ nói văn hóa miền Bắc và miền Nam rất khác nhau.
+> 小明 | 你们聊了多长时间？ | Nǐmen liáo le duō cháng shíjiān? | Các bạn nói chuyện bao lâu?
+> 小文 | 我们一边吃饭一边聊天儿，直到晚上十一点我才回家。 | Wǒmen yìbiān chīfàn yìbiān liáotiānr, zhídào wǎnshang shíyī diǎn wǒ cái huí jiā. | Bọn mình vừa ăn cơm vừa trò chuyện, mãi đến mười một giờ tối mình mới về nhà.
+> 小明 | 回家太晚的话，你妈妈会不放心吧？ | Huí jiā tài wǎn dehuà, nǐ māma huì bú fàngxīn ba? | Nếu về nhà muộn quá thì mẹ bạn sẽ không yên tâm chứ nhỉ?
+> 小文 | 他们家就在我家旁边，所以妈妈很放心。我感到很高兴，下次你也和我一起去吧！ | Tāmen jiā jiù zài wǒ jiā pángbiān, suǒyǐ māma hěn fàngxīn. Wǒ gǎndào hěn gāoxìng, xià cì nǐ yě hé wǒ yìqǐ qù ba! | Nhà họ ở ngay cạnh nhà mình nên mẹ rất yên tâm. Mình thấy rất vui, lần sau bạn cũng đi cùng mình nhé!
+? 新邻居来自哪儿？ | 南方 | 北方; 东方; 国外
+?= Hàng xóm mới đến từ đâu?
+? 小文送了邻居什么礼物？ | 一张中国地图 | 一些酒; 一个盘子; 一本书
+?= Tiểu Văn tặng hàng xóm món quà gì?
+! 小文一边吃饭一边和邻居聊天儿。 | đúng
+!= Tiểu Văn vừa ăn cơm vừa trò chuyện với hàng xóm.
+! 小文回家太晚了，所以她妈妈很不放心。 | sai
+!= Tiểu Văn về nhà quá muộn nên mẹ cô ấy rất không yên tâm.
+
+## 14
+@ Cuốn từ điển bị mượn mất
+% doan-van
+> 我叫小明。我们学校的图书馆很大，里面有很多书、报纸和词典。 | Wǒ jiào Xiǎo Míng. Wǒmen xuéxiào de túshūguǎn hěn dà, lǐmian yǒu hěn duō shū, bàozhǐ hé cídiǎn. | Mình tên là Tiểu Minh. Thư viện trường mình rất lớn, bên trong có rất nhiều sách, báo và từ điển.
+> 上个星期，我的词典被一个留学生借走了。 | Shàng gè xīngqī, wǒ de cídiǎn bèi yí gè liúxuéshēng jiè zǒu le. | Tuần trước, cuốn từ điển của mình bị một du học sinh mượn mất.
+> 我不知道怎么办，同学说：“去图书馆吧，那里也有词典。” | Wǒ bù zhīdào zěnme bàn, tóngxué shuō: “Qù túshūguǎn ba, nàli yě yǒu cídiǎn.” | Mình không biết làm sao, bạn cùng lớp nói: “Đến thư viện đi, ở đó cũng có từ điển.”
+> 我先在网站上看了看，然后去了图书馆。 | Wǒ xiān zài wǎngzhàn shang kàn le kàn, ránhòu qù le túshūguǎn. | Mình xem trên trang web trước, sau đó đến thư viện.
+> 在那里，我看到了我们班的一个女生，她正在看一本名人的故事书。 | Zài nàli, wǒ kàndào le wǒmen bān de yí gè nǚshēng, tā zhèngzài kàn yì běn míngrén de gùshi shū. | Ở đó, mình thấy một bạn nữ lớp mình, bạn ấy đang đọc một cuốn truyện về người nổi tiếng.
+> 她说：“新年晚会上，我们班要表演一个节目，我想在书里找一个好故事。” | Tā shuō: “Xīnnián wǎnhuì shang, wǒmen bān yào biǎoyǎn yí gè jiémù, wǒ xiǎng zài shū li zhǎo yí gè hǎo gùshi.” | Bạn ấy nói: “Ở buổi liên hoan năm mới, lớp mình sẽ biểu diễn một tiết mục, mình muốn tìm một câu chuyện hay trong sách.”
+> 我说：“你的中文那么好，最好自己写一个故事。” | Wǒ shuō: “Nǐ de Zhōngwén nàme hǎo, zuìhǎo zìjǐ xiě yí gè gùshi.” | Mình nói: “Tiếng Trung của bạn giỏi thế, tốt nhất là tự viết một câu chuyện.”
+> 她笑了笑说：“我的中文好什么啊！” | Tā xiào le xiào shuō: “Wǒ de Zhōngwén hǎo shénme a!” | Bạn ấy cười cười rồi nói: “Tiếng Trung của mình giỏi gì đâu!”
+> 最后，我们一块儿在图书馆看了两个小时的书。 | Zuìhòu, wǒmen yíkuàir zài túshūguǎn kàn le liǎng gè xiǎoshí de shū. | Cuối cùng, bọn mình cùng nhau đọc sách ở thư viện hai tiếng đồng hồ.
+? 小明的词典怎么了？ | 被一个留学生借走了 | 被一个女生借走了; 被老师拿走了; 被他忘在家里了
+?= Cuốn từ điển của Tiểu Minh làm sao?
+? 新年晚会上，他们班要做什么？ | 表演一个节目 | 去图书馆看书; 看报纸; 买电子书
+?= Ở buổi liên hoan năm mới, lớp họ sẽ làm gì?
+! 小明先在网站上看了看，然后去了图书馆。 | đúng
+!= Tiểu Minh xem trên trang web trước, sau đó đến thư viện.
+! 小明一个人在图书馆看了两个小时的书。 | sai
+!= Tiểu Minh đọc sách một mình ở thư viện hai tiếng đồng hồ.
+
+## 15
+@ Hỏi đường đến công viên
+% hoi-thoai
+> 小李 | 你好，我是从外地来的游客。请问，附近有什么有名的地方吗？ | Nǐ hǎo, wǒ shì cóng wàidì lái de yóukè. Qǐngwèn, fùjìn yǒu shénme yǒumíng de dìfang ma? | Chào bạn, mình là khách du lịch từ nơi khác đến. Cho hỏi, gần đây có chỗ nào nổi tiếng không?
+> 小张 | 往东走十分钟，有一条河，河旁边的公园很有名。 | Wǎng dōng zǒu shí fēnzhōng, yǒu yì tiáo hé, hé pángbiān de gōngyuán hěn yǒumíng. | Đi về phía đông mười phút có một con sông, công viên bên cạnh sông rất nổi tiếng.
+> 小李 | 怎么走？要经过马路吗？ | Zěnme zǒu? Yào jīngguò mǎlù ma? | Đi thế nào? Có phải đi qua đường cái không?
+> 小张 | 要经过一条大马路。根据地图，过了马路再往北走一段路就到了。 | Yào jīngguò yì tiáo dà mǎlù. Gēnjù dìtú, guò le mǎlù zài wǎng běi zǒu yí duàn lù jiù dào le. | Phải đi qua một con đường lớn. Theo bản đồ, qua đường rồi đi tiếp về phía bắc một đoạn là đến.
+> 小李 | 公园里人多吗？ | Gōngyuán li rén duō ma? | Trong công viên có đông người không?
+> 小张 | 平时人不多，可是星期天人很多。孩子们在草地上玩游戏，老人们在河旁边聊天儿。 | Píngshí rén bù duō, kěshì xīngqītiān rén hěn duō. Háizimen zài cǎodì shang wán yóuxì, lǎorénmen zài hé pángbiān liáotiānr. | Ngày thường không đông, nhưng Chủ nhật rất đông. Trẻ con chơi trò chơi trên bãi cỏ, các cụ già trò chuyện bên bờ sông.
+> 小李 | 进公园要买票吗？ | Jìn gōngyuán yào mǎi piào ma? | Vào công viên có phải mua vé không?
+> 小张 | 要买票。人多的时候，大家要一个一个地进去。六十岁以上的老人不用买票。 | Yào mǎi piào. Rén duō de shíhou, dàjiā yào yí gè yí gè de jìnqu. Liùshí suì yǐshàng de lǎorén bú yòng mǎi piào. | Phải mua vé. Lúc đông người, mọi người phải vào lần lượt từng người một. Người già từ sáu mươi tuổi trở lên không phải mua vé.
+> 小李 | 谢谢你！我对这里不太了解，遇见你真是太好了。 | Xièxie nǐ! Wǒ duì zhèli bú tài liǎojiě, yùjiàn nǐ zhēn shì tài hǎo le. | Cảm ơn bạn! Mình không hiểu rõ nơi này lắm, gặp được bạn thật là tốt quá.
+? 那个有名的公园在哪儿？ | 在河旁边 | 在马路旁边; 在学校附近; 在西北
+?= Công viên nổi tiếng đó ở đâu?
+? 什么人进公园不用买票？ | 六十岁以上的老人 | 六十岁以下的人; 外地来的游客; 玩游戏的孩子们
+?= Người nào vào công viên không phải mua vé?
+! 去公园要经过一条大马路。 | đúng
+!= Đến công viên phải đi qua một con đường lớn.
+! 平时公园里人很多。 | sai
+!= Ngày thường trong công viên rất đông người.
+
+## 16
+@ Đi sở thú xem gấu trúc
+% doan-van
+> 我叫小文。上个周末，我和弟弟去了动物园。 | Wǒ jiào Xiǎo Wén. Shàng gè zhōumò, wǒ hé dìdi qù le dòngwùyuán. | Mình tên là Tiểu Văn. Cuối tuần trước, mình và em trai đi sở thú.
+> 我们比开门的时间早到了二十分钟，可是门口已经有很多大人和孩子了。 | Wǒmen bǐ kāimén de shíjiān zǎo dào le èrshí fēnzhōng, kěshì ménkǒu yǐjīng yǒu hěn duō dàren hé háizi le. | Bọn mình đến sớm hơn giờ mở cửa hai mươi phút, nhưng ở cổng đã có rất nhiều người lớn và trẻ em rồi.
+> 弟弟最喜爱大熊猫。听说大熊猫来自中国的西南。 | Dìdi zuì xǐ'ài dàxióngmāo. Tīngshuō dàxióngmāo láizì Zhōngguó de xīnán. | Em trai mình thích nhất là gấu trúc. Nghe nói gấu trúc đến từ vùng tây nam Trung Quốc.
+> 我们在大熊猫的家前面等了半天，它才出来。 | Wǒmen zài dàxióngmāo de jiā qiánmiàn děng le bàntiān, tā cái chūlai. | Bọn mình đợi trước nhà của gấu trúc mãi, nó mới ra.
+> 它的脸是白的，眼睛和脚是黑的，非常可爱。 | Tā de liǎn shì bái de, yǎnjing hé jiǎo shì hēi de, fēicháng kě'ài. | Mặt nó màu trắng, mắt và chân màu đen, vô cùng đáng yêu.
+> 它一边吃东西，一边看着我们。不一会儿，它就吃饱了，在草地上睡觉了。 | Tā yìbiān chī dōngxi, yìbiān kàn zhe wǒmen. Bù yíhuìr, tā jiù chī bǎo le, zài cǎodì shang shuìjiào le. | Nó vừa ăn vừa nhìn bọn mình. Chẳng mấy chốc nó đã ăn no, rồi ngủ trên bãi cỏ.
+> 弟弟觉得很奇怪：“它怎么有点儿脏？” | Dìdi juéde hěn qíguài: “Tā zěnme yǒudiǎnr zāng?” | Em trai thấy rất lạ: “Sao nó hơi bẩn thế?”
+> 照顾大熊猫的人说：“一般来说，大熊猫喜欢在地上玩，所以会有点儿脏。” | Zhàogù dàxióngmāo de rén shuō: “Yìbān lái shuō, dàxióngmāo xǐhuan zài dì shang wán, suǒyǐ huì yǒudiǎnr zāng.” | Người chăm sóc gấu trúc nói: “Thông thường gấu trúc thích chơi dưới đất, nên sẽ hơi bẩn một chút.”
+> 他还说，其实每只大熊猫都有自己的名字，他都认得。 | Tā hái shuō, qíshí měi zhī dàxióngmāo dōu yǒu zìjǐ de míngzi, tā dōu rènde. | Anh ấy còn nói, thật ra mỗi con gấu trúc đều có tên riêng, anh ấy đều nhận ra hết.
+> 回家的路上，弟弟一直在说关于大熊猫的事。 | Huí jiā de lùshang, dìdi yìzhí zài shuō guānyú dàxióngmāo de shì. | Trên đường về nhà, em trai cứ nói mãi chuyện về gấu trúc.
+? 弟弟最喜爱什么动物？ | 大熊猫 | 小猫; 小狗; 鱼
+?= Em trai thích con vật gì nhất?
+? 大熊猫吃饱以后做什么了？ | 在草地上睡觉 | 在草地上玩游戏; 跟弟弟一起玩; 又吃了很多东西
+?= Gấu trúc ăn no xong thì làm gì?
+! 小文和弟弟比开门的时间早到了二十分钟。 | đúng
+!= Tiểu Văn và em trai đến sớm hơn giờ mở cửa hai mươi phút.
+! 大熊猫的脸是黑的。 | sai
+!= Mặt của gấu trúc màu đen.
+
+## 17
+@ Học ngôn ngữ thế nào?
+% hoi-thoai
+> 小明 | 李明，听说你会说三种语言，你真聪明！ | Lǐ Míng, tīngshuō nǐ huì shuō sān zhǒng yǔyán, nǐ zhēn cōngmíng! | Lý Minh, nghe nói bạn biết nói ba thứ tiếng, bạn thông minh thật!
+> 李明 | 我可不聪明。前年我去国外留学，到处都要用别的语言，所以学得比较快。 | Wǒ kě bù cōngmíng. Qiánnián wǒ qù guówài liúxué, dàochù dōu yào yòng bié de yǔyán, suǒyǐ xué de bǐjiào kuài. | Mình đâu có thông minh. Năm kia mình đi du học nước ngoài, chỗ nào cũng phải dùng tiếng khác, nên học khá nhanh.
+> 小明 | 学语言容易吗？我很害怕说错。 | Xué yǔyán róngyì ma? Wǒ hěn hàipà shuō cuò. | Học ngôn ngữ có dễ không? Mình rất sợ nói sai.
+> 李明 | 学语言是不容易的，可是只有多说，才能学好。 | Xué yǔyán shì bù róngyì de, kěshì zhǐyǒu duō shuō, cái néng xué hǎo. | Học ngôn ngữ đúng là không dễ, nhưng chỉ có nói nhiều mới học giỏi được.
+> 小明 | 有难题的时候，你怎么办？ | Yǒu nántí de shíhou, nǐ zěnme bàn? | Khi gặp vấn đề khó, bạn làm thế nào?
+> 李明 | 我先在词典里查一查，然后向老师和同学学习。比如常见的问题，问一问大家就知道了。 | Wǒ xiān zài cídiǎn li chá yi chá, ránhòu xiàng lǎoshī hé tóngxué xuéxí. Bǐrú chángjiàn de wèntí, wèn yi wèn dàjiā jiù zhīdào le. | Mình tra từ điển trước, sau đó học hỏi thầy cô và bạn bè. Ví dụ như những câu hỏi thường gặp, hỏi mọi người một chút là biết.
+> 小明 | 你问的问题太多的话，老师不会生气吗？ | Nǐ wèn de wèntí tài duō dehuà, lǎoshī bú huì shēngqì ma? | Nếu bạn hỏi nhiều câu quá, thầy cô không giận à?
+> 李明 | 老师是不会生气的。他认为问问题的学生才是好学生。 | Lǎoshī shì bú huì shēngqì de. Tā rènwéi wèn wèntí de xuéshēng cái shì hǎo xuéshēng. | Thầy chắc chắn không giận đâu. Thầy cho rằng học sinh biết đặt câu hỏi mới là học sinh giỏi.
+> 小明 | 可上课的时候，我很害怕回答老师的问题。 | Kě shàngkè de shíhou, wǒ hěn hàipà huídá lǎoshī de wèntí. | Nhưng lúc lên lớp, mình rất sợ trả lời câu hỏi của thầy.
+> 李明 | 你不是很喜欢中文吗？别害怕，多回答几次就好了。 | Nǐ bú shì hěn xǐhuan Zhōngwén ma? Bié hàipà, duō huídá jǐ cì jiù hǎo le. | Chẳng phải bạn rất thích tiếng Trung sao? Đừng sợ, trả lời nhiều lần là ổn thôi.
+? 李明前年做什么了？ | 去国外留学了 | 去国外工作了; 去中国旅游了; 在家学习语言
+?= Năm kia Lý Minh đã làm gì?
+? 有难题的时候，李明先做什么？ | 在词典里查一查 | 去图书馆; 打电话问爸爸; 什么都不做
+?= Khi gặp vấn đề khó, Lý Minh làm gì trước?
+! 李明认为，只有多说，才能学好语言。 | đúng
+!= Lý Minh cho rằng chỉ có nói nhiều mới học giỏi ngôn ngữ được.
+! 李明说，学生问的问题太多的话，老师会生气的。 | sai
+!= Lý Minh nói, nếu học sinh hỏi quá nhiều thì thầy cô sẽ giận.
+
+## 18
+@ Về quê bà ăn Tết
+% doan-van
+> 我叫小明。春节是中国人最重要的节日。 | Wǒ jiào Xiǎo Míng. Chūnjié shì Zhōngguórén zuì zhòngyào de jiérì. | Mình tên là Tiểu Minh. Tết Nguyên đán là ngày lễ quan trọng nhất của người Trung Quốc.
+> 我刚刚考完这个学期的考试，不久就要过春节了。 | Wǒ gānggāng kǎo wán zhège xuéqī de kǎoshì, bùjiǔ jiù yào guò Chūnjié le. | Mình vừa mới thi xong kỳ thi học kỳ này, chẳng bao lâu nữa là đến Tết.
+> 今年我们去奶奶家过节。我们早上六点就起来了，七点出发，坐了大概五六个小时的车。 | Jīnnián wǒmen qù nǎinai jiā guòjié. Wǒmen zǎoshang liù diǎn jiù qǐlai le, qī diǎn chūfā, zuò le dàgài wǔ liù gè xiǎoshí de chē. | Năm nay nhà mình về nhà bà nội ăn Tết. Bọn mình dậy từ sáu giờ sáng, bảy giờ xuất phát, ngồi xe khoảng năm sáu tiếng.
+> 路上，妈妈给我们带了矿泉水和糖。 | Lùshang, māma gěi wǒmen dài le kuàngquánshuǐ hé táng. | Trên đường, mẹ mang theo nước khoáng và kẹo cho cả nhà.
+> 到了奶奶家，叔叔和阿姨都来了，大家见面都很高兴。 | Dào le nǎinai jiā, shūshu hé āyí dōu lái le, dàjiā jiànmiàn dōu hěn gāoxìng. | Đến nhà bà, chú và cô đều đã tới, mọi người gặp nhau đều rất vui.
+> 奶奶说，她是在这里出生的。过去这里很小，现在发展得很快，到处都是新楼。 | Nǎinai shuō, tā shì zài zhèli chūshēng de. Guòqù zhèli hěn xiǎo, xiànzài fāzhǎn de hěn kuài, dàochù dōu shì xīn lóu. | Bà nói bà sinh ra ở đây. Trước đây nơi này rất nhỏ, bây giờ phát triển rất nhanh, khắp nơi đều là nhà cao tầng mới.
+> 吃饭的时候，叔叔问我这个学期学得怎样。我说：“我刚学了三百个汉字。” | Chīfàn de shíhou, shūshu wèn wǒ zhège xuéqī xué de zěnyàng. Wǒ shuō: “Wǒ gāng xué le sānbǎi gè Hànzì.” | Lúc ăn cơm, chú hỏi học kỳ này mình học thế nào. Mình nói: “Cháu vừa học được ba trăm chữ Hán.”
+> 叔叔说：“只要坚持每天学习，你就一定能学好。” | Shūshu shuō: “Zhǐyào jiānchí měi tiān xuéxí, nǐ jiù yídìng néng xué hǎo.” | Chú nói: “Chỉ cần kiên trì học mỗi ngày, cháu nhất định sẽ học giỏi.”
+> 晚上，我收到了很多礼物和糖，真开心！ | Wǎnshang, wǒ shōudào le hěn duō lǐwù hé táng, zhēn kāixīn! | Buổi tối, mình nhận được rất nhiều quà và kẹo, thật là vui!
+> 爸爸说：“从今年起，你要自己起床，不要总让妈妈叫你。” | Bàba shuō: “Cóng jīnnián qǐ, nǐ yào zìjǐ qǐchuáng, bú yào zǒng ràng māma jiào nǐ.” | Bố nói: “Từ năm nay, con phải tự dậy, đừng lúc nào cũng để mẹ gọi.”
+? 他们坐了多长时间的车？ | 大概五六个小时 | 大概两三个小时; 大概七八个小时; 大概一天
+?= Họ ngồi xe bao lâu?
+? 小明说他刚学了多少个汉字？ | 三百个 | 一百个; 两百个; 五百个
+?= Tiểu Minh nói cậu ấy vừa học được bao nhiêu chữ Hán?
+! 小明一家早上七点出发。 | đúng
+!= Cả nhà Tiểu Minh xuất phát lúc bảy giờ sáng.
+! 奶奶说，过去这里就有很多新楼。 | sai
+!= Bà nói trước đây nơi này đã có rất nhiều nhà cao tầng mới.

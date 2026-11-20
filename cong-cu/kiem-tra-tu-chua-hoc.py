@@ -52,22 +52,38 @@ for cap in (1, 2, 3):
                 vi_du_tu.append((cap, bai, t['hanzi'], v['han']))
 
 
+def tach_chuoi(s):
+    """Tách chuỗi toàn chữ Hán: khớp dài nhất (≤ 4 chữ) hai chiều, chọn ít đoạn → ít chữ lẻ → từ cấp thấp hơn → chiều từ phải sang.
+    Cùng thuật toán với app/js/cham-tu.js (tachChuoiHan): 一起床 → 一/起床, 穿上衣服 → 穿/上/衣服."""
+    xuoi, i = [], 0
+    while i < len(s):
+        l = min(4, len(s) - i)
+        while l > 1 and s[i:i + l] not in tu_dien:
+            l -= 1
+        xuoi.append(s[i:i + l])
+        i += l
+    nguoc, j = [], len(s)
+    while j > 0:
+        l = min(4, j)
+        while l > 1 and s[j - l:j] not in tu_dien:
+            l -= 1
+        nguoc.insert(0, s[j - l:j])
+        j -= l
+    if len(xuoi) != len(nguoc):
+        return xuoi if len(xuoi) < len(nguoc) else nguoc
+    le = lambda ds: sum(1 for x in ds if len(x) == 1)
+    if le(xuoi) != le(nguoc):
+        return xuoi if le(xuoi) < le(nguoc) else nguoc
+    cap_cao = lambda ds: max((tu_dien[x][0] if x in tu_dien else 4) for x in ds)
+    return xuoi if cap_cao(xuoi) < cap_cao(nguoc) else nguoc
+
+
 def tach(cau):
     """Tách câu → danh sách (đoạn, mốc (cấp, bài) hoặc None nếu ngoài từ điển); bỏ dấu câu"""
     ds = []
-    chu = list(cau)
-    i = 0
-    while i < len(chu):
-        if not LA_HAN.match(chu[i]):
-            i += 1
-            continue
-        l = 4
-        while l > 1 and not (i + l <= len(chu) and all(LA_HAN.match(c) for c in chu[i:i + l])
-                             and ''.join(chu[i:i + l]) in tu_dien):
-            l -= 1
-        doan = ''.join(chu[i:i + l])
-        ds.append((doan, tu_dien.get(doan)))
-        i += l
+    for chuoi in re.findall(r'[㐀-鿿]+', cau):
+        for doan in tach_chuoi(chuoi):
+            ds.append((doan, tu_dien.get(doan)))
     return ds
 
 

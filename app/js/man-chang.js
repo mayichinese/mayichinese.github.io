@@ -27,7 +27,7 @@ import { taiNetChu, taoBangVe, phatHoatCanh } from './net-chu.js';
 import { ganKhungNoi } from './man-luyen-noi.js';
 import { coNhanDang, coGhiAm } from './nhan-giong.js';
 import { DIEM_DAT } from './cham-phat-am.js';
-import { htmlCauCham } from './cham-tu.js';
+import { htmlCauCham, tachTu } from './cham-tu.js';
 
 const CO_CHANG = 5;            // số từ mỗi chặng (chia đều: 13 từ → 5 + 4 + 4)
 const SO_NOI = 3;              // số từ nói theo mỗi chặng
@@ -74,20 +74,8 @@ const rutGon = (s, toiDa = 34) => (s.length > toiDa ? `${s.slice(0, toiDa - 1).t
 /** Nghĩa đầu tiên, bỏ phần giải thích trong ngoặc – cho ô ghép cặp */
 const nghiaGon = (w) => rutGon(String(w.nghia?.[0]?.nghia || nghiaNgan(w)).replace(/\s*\([^)]*\)/g, '').trim(), 30);
 
-let tuDien = null;
-/** Tách câu thành mảnh theo từ điển HSK (khớp dài nhất, tối đa 4 chữ) – bỏ dấu câu */
-function tachManh(cau) {
-  if (!tuDien) tuDien = new Set(tatCaTu().map((t) => t.hanzi));
-  const chu = chuHan(cau);
-  const manh = [];
-  for (let i = 0; i < chu.length;) {
-    let l = Math.min(4, chu.length - i);
-    while (l > 1 && !tuDien.has(chu.slice(i, i + l).join(''))) l--;
-    manh.push(chu.slice(i, i + l).join(''));
-    i += l;
-  }
-  return manh;
-}
+/** Tách câu thành mảnh theo từ điển HSK (cùng cách tách với chạm-xem-nghĩa) – bỏ dấu câu */
+const tachManh = (cau) => tachTu(cau).filter((d) => d.han).map((d) => d.chu);
 
 /** Câu ví dụ dùng cho Ghép / Đọc */
 function chonCau(W, td) {
