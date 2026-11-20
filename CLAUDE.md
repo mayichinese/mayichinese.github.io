@@ -25,7 +25,7 @@
     Câu đang là câu hỏi dùng chiChuaHoc (không lộ đáp án). Luyện ngữ pháp đưa câu toàn từ đã học lên trước (cauDaBiet).
   - Câu ngữ pháp phải chỉ dùng từ đã học tới bài của điểm (HSK 1: bài theo theo-sach; HSK 2–3: `& N`): kiểm tra bằng
     `python -X utf8 cong-cu/kiem-tra-tu-chua-hoc.py [cấp bài-bài]` → `cong-cu/bao-cao-tu-chua-hoc.txt` (cả số câu ví dụ từ dùng được
-    cho chặng). Soạn lại dần, mỗi lần ≤ 15 câu, rồi chạy ghep-ngu-phap.py. ĐÃ SỬA: HSK 1 (cả 15 bài), HSK 2 bài 1–5 (gei-gen → & 5). Điểm có từ khóa học muộn
+    cho chặng). Soạn lại dần, mỗi lần ≤ 15 câu, rồi chạy ghep-ngu-phap.py. ĐÃ SỬA: HSK 1 (cả 15 bài), HSK 2 (cả 15 bài; gei-gen → & 5, chu-vi-vi-ngu → & 11). Điểm có từ khóa học muộn
     thì CHUYỂN BÀI trong theo-sach.txt (mục NGU PHAP, rồi tao-theo-sach.py): tu-de-hoi→3, ne-ba→7 (吧), hui-neng→8 (能),
     phuong-vi→9 (上/边), zenme→10 (怎么样), xiang-yao→11 (要), cau-khien-cam-than→14 (请/不要). Script coi là đã biết: chữ nằm trong từ đã học (没 ⊂ 没有),
     từ ghép mà mọi chữ là từ đơn đã học (这个, 他们), chữ lẻ có trong từ đã học (起 ⊂ 起床). Tránh cụm bị tách nhầm
@@ -59,7 +59,7 @@
     (báo cả từ loại mới trong hsk*.json chưa có hướng dẫn). Nhãn từ loại trên thẻ = `nutTuLoai()` (giao-dien.js) → app.js `data-tu-loai` → moTuLoai().
   - Kế hoạch đang làm (duyệt 2026-11-20): A từ loại (XONG) → B Ôn luyện tự chấm bằng câu hỏi thật (XONG)
     → C bài = các chặng ~5 từ: Nghe → Nói theo → Viết → Ghép → Đọc, rồi Ngữ pháp, Đọc hiểu, Kiểm tra (XONG đợt 1) → D ngữ pháp mở sau từ vựng,
-    chạm từ xem nghĩa (XONG), sửa dần câu có từ chưa học (ĐANG LÀM: HSK 1, HSK 2 bài 1–5 xong; còn 66 câu) → E soạn đọc hiểu. Lộ trình CHỈ theo sách; "Theo chủ đề" thành danh mục tra cứu.
+    chạm từ xem nghĩa (XONG), sửa dần câu có từ chưa học (ĐANG LÀM: HSK 1, HSK 2 xong; còn 41 câu ở HSK 3) → E soạn đọc hiểu. Lộ trình CHỈ theo sách; "Theo chủ đề" thành danh mục tra cứu.
   - `js/man-luyen-noi.js` (Nói & phát âm, `#/luyen-noi[/doc-tu|doc-cau|nhac-lai|noi-nghia]`, ô rộng đầu "Luyện kỹ năng" của Ôn luyện;
     nút "🎤 Đọc thử" trên mặt sau thẻ từ → moChamNhanh qua `data-noi-thu`). `js/nhan-giong.js`: Web Speech SpeechRecognition zh-CN
     (cần mạng) + MediaRecorder ghi âm tự chấm khi không có nhận dạng. `js/cham-phat-am.js`: dóng hàng chữ nghe được với câu đúng theo

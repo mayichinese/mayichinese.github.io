@@ -18,8 +18,8 @@
 ~ 你/是/明天去/还是/今天去？
 > 这/是/你的/还是/他的？ | Zhè shì nǐ de háishi tā de? | Cái này là của bạn hay của anh ấy?
 ~ 这/是/他的/还是/你的？
-> 我们/坐地铁/还是/打车？ | Wǒmen zuò dìtiě háishi dǎchē? | Chúng ta đi tàu điện ngầm hay đi taxi?
-~ 我们/打车/还是/坐地铁？
+> 我们/坐公交车/还是/打车？ | Wǒmen zuò gōngjiāochē háishi dǎchē? | Chúng ta đi xe buýt hay đi taxi?
+~ 我们/打车/还是/坐公交车？
 ? 你要红的___白的？ | 还是 | 但是; 所以; 因为 | Nǐ yào hóng de háishi bái de? | Bạn muốn cái đỏ hay cái trắng?
 ? 你是坐公交车来的___走路来的？ | 还是 | 但是; 所以; 吗 | Nǐ shì zuò gōngjiāochē lái de háishi zǒulù lái de? | Bạn đi xe buýt đến hay đi bộ đến?
 ? 我们今天去___明天去？ | 还是 | 但是; 因为; 虽然 | Wǒmen jīntiān qù háishi míngtiān qù? | Chúng ta đi hôm nay hay ngày mai?
@@ -82,7 +82,7 @@
 > 这儿/的/花/多/漂亮/啊！ | Zhèr de huā duō piàoliang a! | Hoa ở đây đẹp biết bao!
 > 商场/里/有/好多/人。 | Shāngchǎng li yǒu hǎoduō rén. | Trong trung tâm thương mại có rất nhiều người.
 ? 他是我们班个子___高的。 | 最 | 多; 都; 也 | Tā shì wǒmen bān gèzi zuì gāo de. | Cậu ấy cao nhất lớp tôi.
-? 那儿的鸟多漂亮___！ | 啊 | 吗; 吧; 了 | Nàr de niǎo duō piàoliang a! | Chim ở đó đẹp biết bao!
+? 那儿的花多漂亮___！ | 啊 | 吗; 吧; 了 | Nàr de huā duō piàoliang a! | Hoa ở đó đẹp biết bao!
 ? 今天来了___多人。 | 好 | 是; 都; 也 | Jīntiān lái le hǎoduō rén. | Hôm nay có rất nhiều người đến.
 
 ## so-sanh-dong-tu

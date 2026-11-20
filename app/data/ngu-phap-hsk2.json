@@ -1825,7 +1825,7 @@
     "AABB + 的 / 地   (高高兴兴, 舒舒服服)"
    ],
    "giaiThich": [
-    "Lặp tính từ làm lời mô tả sinh động hơn, thường có ý thích, khen: 她的眼睛大大的 (mắt cô ấy to tròn).",
+    "Lặp tính từ làm lời mô tả sinh động hơn, thường có ý thích, khen: 这个苹果大大的 (quả táo này to tròn).",
     "Sau tính từ lặp thường có 的 (trước danh từ, cuối câu) hoặc 地 (trước động từ): 高高兴兴地回家.",
     "Tính từ hai chữ lặp kiểu AABB: 高兴 → 高高兴兴, 舒服 → 舒舒服服."
    ],
@@ -1835,18 +1835,17 @@
    ],
    "viDu": [
     {
-     "han": "她的眼睛大大的。",
+     "han": "这个苹果大大的。",
      "manh": [
-      "她",
-      "的",
-      "眼睛",
+      "这个",
+      "苹果",
       "大大",
       "的"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Tā de yǎnjing dàdà de.",
-     "dich": "Mắt cô ấy to tròn."
+     "pinyin": "Zhège píngguǒ dàdà de.",
+     "dich": "Quả táo này to tròn."
     },
     {
      "han": "孩子们高高兴兴地去学校了。",
@@ -1864,18 +1863,20 @@
      "dich": "Bọn trẻ vui vẻ đến trường."
     },
     {
-     "han": "你慢慢走，别跑！",
+     "han": "你好好休息，别去上班了。",
      "manh": [
       "你",
-      "慢慢",
-      "走，",
+      "好好",
+      "休息，",
       "别",
-      "跑"
+      "去",
+      "上班",
+      "了"
      ],
-     "dauCau": "！",
+     "dauCau": "。",
      "khac": [],
-     "pinyin": "Nǐ mànmàn zǒu, bié pǎo!",
-     "dich": "Bạn đi từ từ thôi, đừng chạy!"
+     "pinyin": "Nǐ hǎohǎo xiūxi, bié qù shàngbān le.",
+     "dich": "Bạn nghỉ ngơi cho tốt, đừng đi làm nữa."
     },
     {
      "han": "今天我要舒舒服服地休息一天。",
@@ -1906,15 +1907,15 @@
    ],
    "dienTu": [
     {
-     "cau": "他的个子高___的。",
-     "dapAn": "高",
+     "cau": "这条裤子长___的。",
+     "dapAn": "长",
      "nhieu": [
       "很",
       "了",
       "是"
      ],
-     "pinyin": "Tā de gèzi gāogāo de.",
-     "dich": "Anh ấy người cao cao."
+     "pinyin": "Zhè tiáo kùzi chángcháng de.",
+     "dich": "Cái quần này dài dài."
     },
     {
      "cau": "我们高高兴兴___去旅游了。",
@@ -1941,7 +1942,7 @@
    ],
    "canKiemTra": [],
    "bai": 6,
-   "hocSauBai": 14
+   "hocSauBai": 6
   },
   {
    "id": "shenme-de",
@@ -1974,40 +1975,40 @@
      "dich": "Tôi mua táo, sữa các thứ."
     },
     {
-     "han": "他喜欢打篮球、踢足球什么的。",
+     "han": "他喜欢唱歌、看书什么的。",
      "manh": [
       "他",
       "喜欢",
-      "打篮球、踢足球",
+      "唱歌、看书",
       "什么的"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Tā xǐhuan dǎ lánqiú, tī zúqiú shénme de.",
-     "dich": "Anh ấy thích chơi bóng rổ, đá bóng các thứ."
+     "pinyin": "Tā xǐhuan chàng gē, kàn shū shénme de.",
+     "dich": "Anh ấy thích hát, đọc sách các thứ."
     },
     {
-     "han": "桌子上有书、本子、笔什么的。",
+     "han": "桌子上有书、手机、杯子什么的。",
      "manh": [
       "桌子",
       "上",
       "有",
-      "书、本子、笔",
+      "书、手机、杯子",
       "什么的"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Zhuōzi shang yǒu shū, běnzi, bǐ shénme de.",
-     "dich": "Trên bàn có sách, vở, bút các thứ."
+     "pinyin": "Zhuōzi shang yǒu shū, shǒujī, bēizi shénme de.",
+     "dich": "Trên bàn có sách, điện thoại, cốc các thứ."
     },
     {
-     "han": "星期天我在家看书、上网什么的。",
+     "han": "星期天我在家看书、做饭什么的。",
      "manh": [
       "星期天",
       "我",
       "在",
       "家",
-      "看书、上网",
+      "看书、做饭",
       "什么的"
      ],
      "dauCau": "。",
@@ -2017,12 +2018,12 @@
        "星期天",
        "在",
        "家",
-       "看书、上网",
+       "看书、做饭",
        "什么的"
       ]
      ],
-     "pinyin": "Xīngqītiān wǒ zài jiā kàn shū, shàngwǎng shénme de.",
-     "dich": "Chủ nhật tôi ở nhà đọc sách, lên mạng các thứ."
+     "pinyin": "Xīngqītiān wǒ zài jiā kàn shū, zuò fàn shénme de.",
+     "dich": "Chủ nhật tôi ở nhà đọc sách, nấu cơm các thứ."
     }
    ],
    "dienTu": [
@@ -2038,15 +2039,15 @@
      "dich": "Tôi muốn ăn mì, bánh bao các thứ."
     },
     {
-     "cau": "他会唱歌、跳舞___。",
+     "cau": "他会做饭、开车___。",
      "dapAn": "什么的",
      "nhieu": [
       "什么",
       "地",
       "也"
      ],
-     "pinyin": "Tā huì chàng gē, tiàowǔ shénme de.",
-     "dich": "Anh ấy biết hát, nhảy các thứ."
+     "pinyin": "Tā huì zuò fàn, kāichē shénme de.",
+     "dich": "Anh ấy biết nấu ăn, lái xe các thứ."
     },
     {
      "cau": "商店里有衣服、裤子什么___。",
@@ -2072,7 +2073,7 @@
     "Tính từ / tính từ lặp + 地 + động từ"
    ],
    "giaiThich": [
-    "地 nối phần mô tả CÁCH LÀM với động từ phía sau: 他高兴地笑了 (anh ấy vui vẻ cười).",
+    "地 nối phần mô tả CÁCH LÀM với động từ phía sau: 他高兴地回家了 (anh ấy vui vẻ về nhà).",
     "Ba chữ cùng đọc de: 的 + danh từ (我的书), 地 + động từ (慢慢地走), động từ + 得 (说得好).",
     "Tính từ một chữ thường lặp lại trước 地: 慢慢地, 好好地."
    ],
@@ -2082,32 +2083,32 @@
    ],
    "viDu": [
     {
-     "han": "他高兴地笑了。",
+     "han": "他高兴地回家了。",
      "manh": [
       "他",
       "高兴",
       "地",
-      "笑",
+      "回",
+      "家",
       "了"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Tā gāoxìng de xiào le.",
-     "dich": "Anh ấy vui vẻ cười."
+     "pinyin": "Tā gāoxìng de huí jiā le.",
+     "dich": "Anh ấy vui vẻ về nhà."
     },
     {
-     "han": "请你慢慢地说。",
+     "han": "孩子们快乐地唱歌。",
      "manh": [
-      "请",
-      "你",
-      "慢慢",
+      "孩子们",
+      "快乐",
       "地",
-      "说"
+      "唱歌"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Qǐng nǐ mànmàn de shuō.",
-     "dich": "Bạn nói từ từ thôi."
+     "pinyin": "Háizimen kuàilè de chàng gē.",
+     "dich": "Bọn trẻ vui vẻ hát."
     },
     {
      "han": "我们要好好地学习。",
@@ -2154,26 +2155,26 @@
    ],
    "dienTu": [
     {
-     "cau": "她慢慢___走进了教室。",
+     "cau": "她舒舒服服___睡了一觉。",
      "dapAn": "地",
      "nhieu": [
       "得",
       "很",
       "是"
      ],
-     "pinyin": "Tā mànmàn de zǒu jìn le jiàoshì.",
-     "dich": "Cô ấy chầm chậm đi vào lớp."
+     "pinyin": "Tā shūshūfúfú de shuì le yí jiào.",
+     "dich": "Cô ấy ngủ một giấc thật thoải mái."
     },
     {
-     "cau": "孩子们高兴___跑过来了。",
+     "cau": "孩子们高兴___走过来了。",
      "dapAn": "地",
      "nhieu": [
       "了",
       "是",
       "在"
      ],
-     "pinyin": "Háizimen gāoxìng de pǎo guòlái le.",
-     "dich": "Bọn trẻ vui vẻ chạy lại."
+     "pinyin": "Háizimen gāoxìng de zǒu guòlái le.",
+     "dich": "Bọn trẻ vui vẻ đi lại đây."
     },
     {
      "cau": "你要好好___休息。",
@@ -2189,7 +2190,7 @@
    ],
    "canKiemTra": [],
    "bai": 6,
-   "hocSauBai": 10
+   "hocSauBai": 6
   },
   {
    "id": "yi-jiu",
@@ -2271,20 +2272,20 @@
      "dich": "Thầy vừa nói là tôi hiểu ngay."
     },
     {
-     "han": "天一晴，我们就出去玩儿。",
+     "han": "他一到家就睡觉了。",
      "manh": [
-      "天",
+      "他",
       "一",
-      "晴，",
-      "我们",
+      "到",
+      "家",
       "就",
-      "出去",
-      "玩儿"
+      "睡觉",
+      "了"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Tiān yì qíng, wǒmen jiù chūqù wánr.",
-     "dich": "Trời vừa quang là chúng tôi ra ngoài chơi."
+     "pinyin": "Tā yí dào jiā jiù shuìjiào le.",
+     "dich": "Anh ấy vừa về đến nhà là đi ngủ ngay."
     }
    ],
    "dienTu": [
@@ -2300,15 +2301,15 @@
      "dich": "Tôi vừa tan học là đi ăn ngay."
     },
     {
-     "cau": "他___回家就上网。",
+     "cau": "他___回家就做饭。",
      "dapAn": "一",
      "nhieu": [
       "就",
       "都",
       "也"
      ],
-     "pinyin": "Tā yì huí jiā jiù shàngwǎng.",
-     "dich": "Anh ấy vừa về nhà là lên mạng."
+     "pinyin": "Tā yì huí jiā jiù zuò fàn.",
+     "dich": "Anh ấy vừa về nhà là nấu cơm ngay."
     },
     {
      "cau": "这个字老师一教，我们就___了。",
@@ -2338,7 +2339,7 @@
    "giaiThich": [
     "Dùng để nhận xét một hành động làm như thế nào: 他跑得很快 (anh ấy chạy rất nhanh).",
     "Có tân ngữ thì lặp động từ, hoặc đưa tân ngữ lên trước động từ: 他说汉语说得很好 / 他汉语说得很好.",
-    "Hỏi: động từ + 得 + 怎么样？ (你考得怎么样？)."
+    "Hỏi: động từ + 得 + 怎么样？ (你睡得怎么样？)."
    ],
    "loiHayMac": [
     "Phủ định đặt 不 sau 得: nói 他说得不好, không nói 他不说得好.",
@@ -2456,15 +2457,15 @@
      "dich": "Cô ấy hát rất hay."
     },
     {
-     "cau": "你考得___？",
+     "cau": "你睡得___？",
      "dapAn": "怎么样",
      "nhieu": [
       "什么",
       "怎么",
       "谁"
      ],
-     "pinyin": "Nǐ kǎo de zěnmeyàng?",
-     "dich": "Bạn thi thế nào?"
+     "pinyin": "Nǐ shuì de zěnmeyàng?",
+     "dich": "Bạn ngủ thế nào?"
     }
    ],
    "canKiemTra": [],
@@ -2756,15 +2757,15 @@
      "dich": "Bộ quần áo này tuy đẹp nhưng đắt quá."
     },
     {
-     "cau": "他虽然个子不高，___跑得很快。",
+     "cau": "他虽然很忙，___每天都跑步。",
      "dapAn": "但是",
      "nhieu": [
       "所以",
       "因为",
       "虽然"
      ],
-     "pinyin": "Tā suīrán gèzi bù gāo, dànshì pǎo de hěn kuài.",
-     "dich": "Cậu ấy tuy người không cao nhưng chạy rất nhanh."
+     "pinyin": "Tā suīrán hěn máng, dànshì měi tiān dōu pǎobù.",
+     "dich": "Anh ấy tuy rất bận nhưng ngày nào cũng chạy bộ."
     }
    ],
    "canKiemTra": [],
@@ -2816,16 +2817,16 @@
      "dich": "Hôm nay không lạnh bằng hôm qua."
     },
     {
-     "han": "坐公交车没有坐地铁快。",
+     "han": "坐公交车没有打车快。",
      "manh": [
       "坐公交车",
-      "没有坐地铁",
+      "没有打车",
       "快"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Zuò gōngjiāochē méiyǒu zuò dìtiě kuài.",
-     "dich": "Đi xe buýt không nhanh bằng đi tàu điện ngầm."
+     "pinyin": "Zuò gōngjiāochē méiyǒu dǎchē kuài.",
+     "dich": "Đi xe buýt không nhanh bằng đi taxi."
     },
     {
      "han": "你有你哥哥那么高吗？",
@@ -2892,7 +2893,7 @@
    ],
    "giaiThich": [
     "我家离学校很近 = nhà tôi cách trường rất gần.",
-    "Dùng cả cho thời gian: 离考试还有三天 (còn ba ngày nữa là thi).",
+    "Dùng cả cho thời gian: 离你的生日还有三天 (còn ba ngày nữa là sinh nhật bạn).",
     "A là nơi đang nói tới, B là mốc để tính khoảng cách."
    ],
    "loiHayMac": [
@@ -2914,9 +2915,9 @@
      "dich": "Nhà tôi cách trường rất gần."
     },
     {
-     "han": "机场离这儿有多远？",
+     "han": "车站离这儿有多远？",
      "manh": [
-      "机场",
+      "车站",
       "离这儿",
       "有",
       "多",
@@ -2924,8 +2925,8 @@
      ],
      "dauCau": "？",
      "khac": [],
-     "pinyin": "Jīchǎng lí zhèr yǒu duō yuǎn?",
-     "dich": "Sân bay cách đây bao xa?"
+     "pinyin": "Chēzhàn lí zhèr yǒu duō yuǎn?",
+     "dich": "Bến xe cách đây bao xa?"
     },
     {
      "han": "酒店离车站不远。",
@@ -2941,18 +2942,20 @@
      "dich": "Khách sạn cách bến xe không xa."
     },
     {
-     "han": "离考试还有两个星期。",
+     "han": "离你的生日还有几天？",
      "manh": [
       "离",
-      "考试",
+      "你",
+      "的",
+      "生日",
       "还有",
-      "两个",
-      "星期"
+      "几",
+      "天"
      ],
-     "dauCau": "。",
+     "dauCau": "？",
      "khac": [],
-     "pinyin": "Lí kǎoshì hái yǒu liǎng ge xīngqī.",
-     "dich": "Còn hai tuần nữa là thi."
+     "pinyin": "Lí nǐ de shēngrì hái yǒu jǐ tiān?",
+     "dich": "Còn mấy ngày nữa là sinh nhật bạn?"
     }
    ],
    "dienTu": [
@@ -2992,7 +2995,7 @@
    ],
    "canKiemTra": [],
    "bai": 9,
-   "hocSauBai": 15
+   "hocSauBai": 9
   },
   {
    "id": "bo-ngu-thoi-luong",
@@ -3169,20 +3172,20 @@
      "dich": "Tôi hơi đau đầu."
     },
     {
-     "han": "她个子不高，眼睛很大。",
+     "han": "她个子不高，学习很好。",
      "manh": [
       "她",
       "个子",
       "不",
       "高，",
-      "眼睛",
+      "学习",
       "很",
-      "大"
+      "好"
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Tā gèzi bù gāo, yǎnjing hěn dà.",
-     "dich": "Cô ấy người không cao, mắt rất to."
+     "pinyin": "Tā gèzi bù gāo, xuéxí hěn hǎo.",
+     "dich": "Cô ấy người không cao, học rất giỏi."
     },
     {
      "han": "这个饭馆菜很好吃。",
@@ -3235,8 +3238,8 @@
     }
    ],
    "canKiemTra": [],
-   "bai": 10,
-   "hocSauBai": 14
+   "bai": 11,
+   "hocSauBai": 11
   },
   {
    "id": "hoi-lua-chon",
@@ -3320,10 +3323,10 @@
      "dich": "Cái này là của bạn hay của anh ấy?"
     },
     {
-     "han": "我们坐地铁还是打车？",
+     "han": "我们坐公交车还是打车？",
      "manh": [
       "我们",
-      "坐地铁",
+      "坐公交车",
       "还是",
       "打车"
      ],
@@ -3333,11 +3336,11 @@
        "我们",
        "打车",
        "还是",
-       "坐地铁"
+       "坐公交车"
       ]
      ],
-     "pinyin": "Wǒmen zuò dìtiě háishi dǎchē?",
-     "dich": "Chúng ta đi tàu điện ngầm hay đi taxi?"
+     "pinyin": "Wǒmen zuò gōngjiāochē háishi dǎchē?",
+     "dich": "Chúng ta đi xe buýt hay đi taxi?"
     }
    ],
    "dienTu": [
@@ -3701,15 +3704,15 @@
      "dich": "Cậu ấy cao nhất lớp tôi."
     },
     {
-     "cau": "那儿的鸟多漂亮___！",
+     "cau": "那儿的花多漂亮___！",
      "dapAn": "啊",
      "nhieu": [
       "吗",
       "吧",
       "了"
      ],
-     "pinyin": "Nàr de niǎo duō piàoliang a!",
-     "dich": "Chim ở đó đẹp biết bao!"
+     "pinyin": "Nàr de huā duō piàoliang a!",
+     "dich": "Hoa ở đó đẹp biết bao!"
     },
     {
      "cau": "今天来了___多人。",

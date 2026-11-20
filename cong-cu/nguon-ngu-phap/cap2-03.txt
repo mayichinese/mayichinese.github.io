@@ -87,16 +87,16 @@
 & 6
 = AA + 的 / 地   (大大的, 慢慢地)
 = AABB + 的 / 地   (高高兴兴, 舒舒服服)
-- Lặp tính từ làm lời mô tả sinh động hơn, thường có ý thích, khen: 她的眼睛大大的 (mắt cô ấy to tròn).
+- Lặp tính từ làm lời mô tả sinh động hơn, thường có ý thích, khen: 这个苹果大大的 (quả táo này to tròn).
 - Sau tính từ lặp thường có 的 (trước danh từ, cuối câu) hoặc 地 (trước động từ): 高高兴兴地回家.
 - Tính từ hai chữ lặp kiểu AABB: 高兴 → 高高兴兴, 舒服 → 舒舒服服.
 ! Tính từ lặp không đi với 很, 非常: nói 大大的, không nói 很大大的.
 ! Khi mô tả, tính từ hai chữ lặp kiểu AABB: nói 高高兴兴, không nói 高兴高兴 (kiểu ABAB là lặp động từ).
-> 她/的/眼睛/大大/的。 | Tā de yǎnjing dàdà de. | Mắt cô ấy to tròn.
+> 这个/苹果/大大/的。 | Zhège píngguǒ dàdà de. | Quả táo này to tròn.
 > 孩子们/高高兴兴/地/去/学校/了。 | Háizimen gāogāoxìngxìng de qù xuéxiào le. | Bọn trẻ vui vẻ đến trường.
-> 你/慢慢/走，/别/跑！ | Nǐ mànmàn zǒu, bié pǎo! | Bạn đi từ từ thôi, đừng chạy!
+> 你/好好/休息，/别/去/上班/了。 | Nǐ hǎohǎo xiūxi, bié qù shàngbān le. | Bạn nghỉ ngơi cho tốt, đừng đi làm nữa.
 > 今天/我/要/舒舒服服/地/休息/一天。 | Jīntiān wǒ yào shūshūfúfú de xiūxi yì tiān. | Hôm nay tôi muốn nghỉ ngơi thật thoải mái một ngày.
 ~ 我/今天/要/舒舒服服/地/休息/一天。
-? 他的个子高___的。 | 高 | 很; 了; 是 | Tā de gèzi gāogāo de. | Anh ấy người cao cao.
+? 这条裤子长___的。 | 长 | 很; 了; 是 | Zhè tiáo kùzi chángcháng de. | Cái quần này dài dài.
 ? 我们高高兴兴___去旅游了。 | 地 | 得; 了; 是 | Wǒmen gāogāoxìngxìng de qù lǚyóu le. | Chúng tôi vui vẻ đi du lịch.
 ? 这个苹果红___的，真好看。 | 红 | 很; 了; 太 | Zhège píngguǒ hónghóng de, zhēn hǎokàn. | Quả táo này đỏ au, đẹp thật.

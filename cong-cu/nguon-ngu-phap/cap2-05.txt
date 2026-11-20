@@ -23,7 +23,7 @@
 ~ 虽然/学/了/一年，/但/我/还/说/得/不/好。
 ? ___他是中国人，但是不会写很多汉字。 | 虽然 | 因为; 所以; 还是 | Suīrán tā shì Zhōngguórén, dànshì bú huì xiě hěn duō Hànzì. | Tuy anh ấy là người Trung Quốc nhưng không biết viết nhiều chữ Hán.
 ? 这件衣服虽然很漂亮，___太贵了。 | 但是 | 所以; 因为; 和 | Zhè jiàn yīfu suīrán hěn piàoliang, dànshì tài guì le. | Bộ quần áo này tuy đẹp nhưng đắt quá.
-? 他虽然个子不高，___跑得很快。 | 但是 | 所以; 因为; 虽然 | Tā suīrán gèzi bù gāo, dànshì pǎo de hěn kuài. | Cậu ấy tuy người không cao nhưng chạy rất nhanh.
+? 他虽然很忙，___每天都跑步。 | 但是 | 所以; 因为; 虽然 | Tā suīrán hěn máng, dànshì měi tiān dōu pǎobù. | Anh ấy tuy rất bận nhưng ngày nào cũng chạy bộ.
 
 ## so-sanh-you
 @ So sánh với 有 / 没有: A (没)有 B (那么) + tính từ
@@ -39,7 +39,7 @@
 ! Không dùng 很 trước tính từ: không nói 我没有他很高.
 > 我/没有他/高。 | Wǒ méiyǒu tā gāo. | Tôi không cao bằng anh ấy.
 > 今天/没有昨天/那么/冷。 | Jīntiān méiyǒu zuótiān nàme lěng. | Hôm nay không lạnh bằng hôm qua.
-> 坐公交车/没有坐地铁/快。 | Zuò gōngjiāochē méiyǒu zuò dìtiě kuài. | Đi xe buýt không nhanh bằng đi tàu điện ngầm.
+> 坐公交车/没有打车/快。 | Zuò gōngjiāochē méiyǒu dǎchē kuài. | Đi xe buýt không nhanh bằng đi taxi.
 > 你/有你哥哥/那么/高/吗？ | Nǐ yǒu nǐ gēge nàme gāo ma? | Bạn có cao bằng anh trai bạn không?
 ? 我的汉语___你那么好。 | 没有 | 不是; 很; 比 | Wǒ de Hànyǔ méiyǒu nǐ nàme hǎo. | Tiếng Hán của tôi không giỏi bằng bạn.
 ? 这个房间没有那个房间___大。 | 那么 | 很; 非常; 太 | Zhège fángjiān méiyǒu nàge fángjiān nàme dà. | Phòng này không rộng bằng phòng kia.
@@ -53,14 +53,14 @@
 = Hỏi: A + 离 + B + (有) + 多远？
 = 离 + thời điểm + 还有 + khoảng thời gian
 - 我家离学校很近 = nhà tôi cách trường rất gần.
-- Dùng cả cho thời gian: 离考试还有三天 (còn ba ngày nữa là thi).
+- Dùng cả cho thời gian: 离你的生日还有三天 (còn ba ngày nữa là sinh nhật bạn).
 - A là nơi đang nói tới, B là mốc để tính khoảng cách.
 ! Không dùng 从 thay cho 离: nói 我家离学校很远, không nói 我家从学校很远.
 ! Hỏi khoảng cách dùng 多远, không dùng 多少远.
 > 我家/离学校/很/近。 | Wǒ jiā lí xuéxiào hěn jìn. | Nhà tôi cách trường rất gần.
-> 机场/离这儿/有/多/远？ | Jīchǎng lí zhèr yǒu duō yuǎn? | Sân bay cách đây bao xa?
+> 车站/离这儿/有/多/远？ | Chēzhàn lí zhèr yǒu duō yuǎn? | Bến xe cách đây bao xa?
 > 酒店/离车站/不/远。 | Jiǔdiàn lí chēzhàn bù yuǎn. | Khách sạn cách bến xe không xa.
-> 离/考试/还有/两个/星期。 | Lí kǎoshì hái yǒu liǎng ge xīngqī. | Còn hai tuần nữa là thi.
+> 离/你/的/生日/还有/几/天？ | Lí nǐ de shēngrì hái yǒu jǐ tiān? | Còn mấy ngày nữa là sinh nhật bạn?
 ? 商店___我家不远。 | 离 | 从; 在; 是 | Shāngdiàn lí wǒ jiā bù yuǎn. | Cửa hàng cách nhà tôi không xa.
 ? 你家离这儿多___？ | 远 | 少; 大; 长 | Nǐ jiā lí zhèr duō yuǎn? | Nhà bạn cách đây bao xa?
 ? ___过年还有十天。 | 离 | 从; 在; 是 | Lí guònián hái yǒu shí tiān. | Còn mười ngày nữa là Tết.
@@ -89,7 +89,7 @@
 ## chu-vi-vi-ngu
 @ Câu vị ngữ chủ vị: 他身体很好 (anh ấy sức khỏe rất tốt)
 § 句型 · 主谓句4：主谓谓语句
-& 10
+& 11
 = Chủ ngữ lớn + [chủ ngữ nhỏ + vị ngữ]
 - Câu nói về một người / vật (chủ ngữ lớn), rồi nói về một mặt của nó: 他身体很好 = anh ấy (thì) sức khỏe rất tốt.
 - Hay gặp: 我头疼 (tôi đau đầu), 她眼睛很大 (cô ấy mắt to), 这个饭馆菜很好吃.
@@ -99,7 +99,7 @@
 > 他/身体/很/好。 | Tā shēntǐ hěn hǎo. | Anh ấy sức khỏe rất tốt.
 > 我/头/有点儿/疼。 | Wǒ tóu yǒudiǎnr téng. | Tôi hơi đau đầu.
 ~ 我/有点儿/头/疼。
-> 她/个子/不/高，/眼睛/很/大。 | Tā gèzi bù gāo, yǎnjing hěn dà. | Cô ấy người không cao, mắt rất to.
+> 她/个子/不/高，/学习/很/好。 | Tā gèzi bù gāo, xuéxí hěn hǎo. | Cô ấy người không cao, học rất giỏi.
 > 这个/饭馆/菜/很/好吃。 | Zhège fànguǎn cài hěn hǎochī. | Quán này món ăn rất ngon.
 ? 你身体___吗？ | 好 | 是; 很; 在 | Nǐ shēntǐ hǎo ma? | Bạn có khỏe không?
 ? 我今天头___疼。 | 有点儿 | 一点儿; 得; 的 | Wǒ jīntiān tóu yǒudiǎnr téng. | Hôm nay tôi hơi đau đầu.
