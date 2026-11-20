@@ -22,7 +22,7 @@ import { esc, boDau, htmlMatSau, dongTu, nutTuLoai, CHU_THICH_CHAM, CHU_THICH_MA
 import { bieuTuong } from './bieu-tuong.js';
 import { taiNguPhap } from './man-ngu-phap.js';
 import { capMo, capHienTai, htmlCachMoKhoa } from './cap-do.js';
-import { trangThaiCacChang, CAC_KY } from './man-chang.js';
+import { trangThaiCacChang, BIEU_TUONG_CUA } from './man-chang.js';
 import { taiDocHieu, ketQuaDoc } from './man-doc-hieu.js';
 
 // Cấp đang xem trong lộ trình (mặc định: cấp của bài đang học dở)
@@ -69,7 +69,7 @@ export function veDanhSachBai(khung) {
   const dsBai = danhSachBai(cheDo, cap);
   const baiHienTai = dsBai.find((b) => b.tu.length && b.tu.some((t) => !td.the[t.khoa]));
   const htmlLoTrinh = () => `<ol class="lo-trinh">${dsBai.map((b) => {
-    const nhan = `Bài ${b.so}`;
+    const nhan = `Chặng ${b.so}`;
     if (!b.tu.length) {
       return `
       <li class="buoc-lo-trinh dang-soan">
@@ -113,7 +113,7 @@ export function veDanhSachBai(khung) {
     <div class="hang-chip chon-cap">${chipCap}</div>
     ${khoa ? `<div style="margin-top:12px">${htmlCachMoKhoa(cap)}</div>` : ''}
     <section class="khung tong-quan-cap">
-      <div class="dong-tren"><b>HSK ${cap} · ${tuCap.length} từ · ${dsBai.length} bài</b>
+      <div class="dong-tren"><b>HSK ${cap} · ${tuCap.length} từ · ${dsBai.length} chặng</b>
         ${tk.thuoc ? `<span class="nhan nhan-vang">⭐ Thuộc chắc ${tk.thuoc}</span>` : ''}</div>
       <span class="thanh-tien-do"><span style="width:${tk.phanTram}%"></span></span>
       <span class="chu-phu nho">Đã học ${tk.daHoc}/${tuCap.length} từ (${tk.phanTram}%) · theo thứ tự bài của ${esc(tenSachCap)}</span>
@@ -198,24 +198,33 @@ export async function veBai(khung, ma) {
   const dangHoc = dsChang.find((c) => !c.xong);
   const xongTu = !dangHoc;
 
-  const theChang = (c) => {
-    const lop = `khung the-chang-bai ${c.xong ? 'xong' : c === dangHoc ? 'dang' : ''} ${c.mo ? '' : 'khoa'}`;
-    const noiDung = `
-      <span class="nut-tron-chang">${c.xong ? '✓' : c.mo ? c.so + 1 : '🔒'}</span>
-      <span class="giua">
-        <b>Chặng ${c.so + 1}${c === dangHoc ? ' · học tiếp' : ''}</b>
-        <span class="han han-chang">${c.tu.map((x) => esc(x.hanzi)).join(' · ')}</span>
-        <span class="chu-phu nho"><span class="ky-nho">${CAC_KY.map((k) => k.emoji).join(' ')}</span> · ${c.tu.length} từ${c.xong ? ' · chạm để học lại' : c.mo ? '' : ' · xong chặng trước để mở'}</span>
-      </span>
-      <span class="cuoi-dong">${c.mo ? bieuTuong('phai') : ''}</span>`;
-    return c.mo ? `<a class="${lop}" href="#/chang/${b.ma}/${c.so}">${noiDung}</a>` : `<div class="${lop}" aria-disabled="true">${noiDung}</div>`;
+  // Một PHẦN: tên phần + từ của phần + hàng CỬA (chỉ biểu tượng; chạm để vào). Cửa đang học nổi bật.
+  const cuaDangHoc = dangHoc?.cua.find((x) => !x.xong);
+  const thePhan = (c) => {
+    const nut = c.cua.map((x) => {
+      const trangThai = x.xong ? 'xong' : x === cuaDangHoc ? 'dang' : 'khoa';
+      const nhanTiep = x.loai === 'tu' ? `Từ ${x.so + 1}: ${x.tu.hanzi}` : x.loai === 'ghep' ? 'Ghép câu' : 'Đọc';
+      const noiDung = `<span class="emoji">${BIEU_TUONG_CUA[x.loai]}</span>${x.xong ? '<i class="dau-xong-cua">✓</i>' : ''}`;
+      return c.mo && x.mo
+        ? `<a class="cua ${trangThai}" href="#/cua/${b.ma}/${c.so}/${x.so}" title="${esc(nhanTiep)}" aria-label="${esc(nhanTiep)}">${noiDung}</a>`
+        : `<span class="cua khoa" title="${esc(nhanTiep)} – chưa mở" aria-label="${esc(nhanTiep)} – chưa mở">${noiDung}</span>`;
+    }).join('<span class="noi-cua"></span>');
+    return `
+      <section class="khung the-phan ${c.xong ? 'xong' : c === dangHoc ? 'dang' : ''} ${c.mo ? '' : 'khoa'}">
+        <div class="dau-phan">
+          <b>Phần ${c.so + 1}</b>
+          ${c.xong ? '<span class="nhan nhan-vang">✓ Xong</span>' : c === dangHoc ? '<span class="nhan nhan-chinh">Đang học</span>' : c.mo ? '' : '<span class="nhan">🔒</span>'}
+        </div>
+        <p class="han han-chang">${c.tu.map((x) => esc(x.hanzi)).join(' · ')}</p>
+        <div class="hang-cua">${nut}</div>
+      </section>`;
   };
 
-  const khoaSau = 'Mở khi xong các chặng từ vựng – để mọi câu đều dùng từ bạn đã học.';
+  const khoaSau = 'Mở khi xong các phần từ vựng – để mọi câu đều dùng từ bạn đã học.';
   const buocDoc = '<div id="buoc-doc"></div>';
   const buocKiemTra = b.tu.length >= 4
-    ? buocBai({ so: dsChang.length + 3, ma: 'on', emoji: '📝', ten: 'Kiểm tra bài',
-      href: xongTu ? `#/trac-nghiem/bai/${b.ma}` : '', moTa: xongTu ? '10 câu trắc nghiệm về từ của bài' : `🔒 ${khoaSau}`, khoa: !xongTu })
+    ? buocBai({ so: dsChang.length + 3, ma: 'on', emoji: '📝', ten: 'Kiểm tra chặng',
+      href: xongTu ? `#/trac-nghiem/bai/${b.ma}` : '', moTa: xongTu ? '10 câu trắc nghiệm về từ của chặng' : `🔒 ${khoaSau}`, khoa: !xongTu })
     : '';
 
   khung.innerHTML = `
@@ -224,12 +233,12 @@ export async function veBai(khung, ma) {
       <h2>${esc(b.ten)}</h2>
       <span class="thanh-tien-do"><span style="width:${t.phanTram}%"></span></span>
       <p class="chu-phu nho" style="margin:6px 0 0">${t.daHoc}/${b.tu.length} từ đã học${t.thuoc ? ` · thuộc chắc ${t.thuoc}` : ''}
-        · ${dsChang.filter((c) => c.xong).length}/${dsChang.length} chặng</p>
+        · ${dsChang.filter((c) => c.xong).length}/${dsChang.length} phần</p>
     </section>
-    <p class="chu-phu nho" style="margin:12px 2px 0">Mỗi chặng ~5 từ, học như em bé: 👂 nghe → 🗣️ nói theo → ✍️ viết → 🧩 ghép câu → 📖 đọc. App tự chấm và xếp lịch ôn.</p>
-    <div class="ds-chang">${dsChang.map(theChang).join('')}</div>
+    <p class="chu-phu nho" style="margin:12px 2px 0">Mỗi phần ~5 từ. ⭐ = một từ (nghe → nói theo → viết → nhớ, sai thì hỏi lại tới khi đúng) · 🧩 ghép câu · 📖 đọc. App tự chấm và xếp lịch ôn.</p>
+    <div class="ds-chang">${dsChang.map(thePhan).join('')}</div>
     <div class="ke-hoach" style="margin-top:14px"><div id="buoc-ngu-phap"></div>${buocDoc}${buocKiemTra}</div>
-    <h3 class="tieu-de-muc">Từ vựng của bài <small>${b.tu.length} từ</small></h3>
+    <h3 class="tieu-de-muc">Từ vựng của chặng <small>${b.tu.length} từ</small></h3>
     ${CHU_THICH_CHAM}
     ${caiDat().tatMauThanh ? '' : CHU_THICH_MAU_THANH}
     <div class="khung ds-tu">${b.tu.map(dongTu).join('')}</div>`;
@@ -243,7 +252,7 @@ export async function veBai(khung, ma) {
     const so = dsChang.length + 2;
     $d.outerHTML = !bd
       ? buocBai({ so, ma: 'nghe', emoji: '📖', ten: 'Đọc hiểu', khoa: true,
-        moTa: 'Đoạn hội thoại / đoạn văn ngắn dùng từ của bài – đang soạn, sắp có.' })
+        moTa: 'Đoạn hội thoại / đoạn văn ngắn dùng từ của chặng – đang soạn, sắp có.' })
       : !xongTu
         ? buocBai({ so, ma: 'nghe', emoji: '📖', ten: `Đọc hiểu: ${esc(bd.ten)}`, khoa: true, moTa: `🔒 ${khoaSau}` })
         : buocBai({ so, ma: 'nghe', emoji: '📖', ten: `Đọc hiểu: ${esc(bd.ten)}`, href: `#/doc-hieu/${b.ma}`, xong: (kq?.tot || 0) >= 80,
@@ -260,13 +269,13 @@ export async function veBai(khung, ma) {
   const soBuoc = dsChang.length + 1;
   if (!cua.length) {
     vung.outerHTML = buocBai({ so: soBuoc, ma: 'nguPhap', emoji: '🧩', ten: 'Ngữ pháp', href: '#/ngu-phap',
-      moTa: 'Bài này không có điểm ngữ pháp mới. Ôn lại trong thư viện ngữ pháp.' });
+      moTa: 'Chặng này không có điểm ngữ pháp mới. Ôn lại trong thư viện ngữ pháp.' });
   } else if (!xongTu) {
-    vung.outerHTML = buocBai({ so: soBuoc, ma: 'nguPhap', emoji: '🧩', ten: `Ngữ pháp của bài · ${cua.length} điểm`,
+    vung.outerHTML = buocBai({ so: soBuoc, ma: 'nguPhap', emoji: '🧩', ten: `Ngữ pháp của chặng · ${cua.length} điểm`,
       moTa: `🔒 ${khoaSau}`, khoa: true });
   } else {
     const daLuyen = cua.filter((d) => ng[d.id]).length;
-    vung.outerHTML = buocBai({ so: soBuoc, ma: 'nguPhap', emoji: '🧩', ten: 'Ngữ pháp của bài', xong: daLuyen === cua.length,
+    vung.outerHTML = buocBai({ so: soBuoc, ma: 'nguPhap', emoji: '🧩', ten: 'Ngữ pháp của chặng', xong: daLuyen === cua.length,
       moTa: `${daLuyen}/${cua.length} điểm đã luyện · chạm từng điểm để học`,
       them: `<span class="ds-diem-bai">${cua.map((d) => `
         <a class="chip" href="#/ngu-phap/${d.id}"><i class="cham ${loaiThe(ng[d.id])}"></i>${esc(d.ten)}</a>`).join('')}</span>` });
@@ -287,8 +296,8 @@ export function veTu(khung, khoa) {
       <div><b>Trạng thái:</b> ${moTa}${the ? ` · đã ôn ${the.soLanOn || 0} lần · quên ${the.soLanQuen || 0} lần` : ''}</div>
       ${lanToi ? `<div><b>Lần ôn tới:</b> ${lanToi}</div>` : ''}
       <div class="chu-phu nho">${tu.cap > 1
-        ? `HSK ${tu.cap} · Bài ${tu.bai} trong sách 《新HSK教程 ${tu.cap}》${chuDeCuaMotTu(tu) ? ` · chủ đề Bài ${chuDeCuaMotTu(tu).so}: ${esc(chuDeCuaMotTu(tu).ten)}` : ''}`
-        : `HSK 1 · Bài ${tu.bai} (theo chủ đề)${baiSach ? ` · Bài ${baiSach} trong sách` : ''}`}</div>
+        ? `HSK ${tu.cap} · Chặng ${tu.bai} (bài ${tu.bai} sách 《新HSK教程 ${tu.cap}》)${chuDeCuaMotTu(tu) ? ` · chủ đề ${chuDeCuaMotTu(tu).so}: ${esc(chuDeCuaMotTu(tu).ten)}` : ''}`
+        : `HSK 1${baiSach ? ` · Chặng ${baiSach} (bài ${baiSach} sách)` : ''} · chủ đề ${tu.bai}`}</div>
       <div class="chu-phu nho">Danh sách chính thức: STT ${tu.soThuTu} · từ loại ${tu.tuLoaiChinhThuc
         ? tu.tuLoaiChinhThuc.split('、').map((k) => {
           const goc = k.replace(/[（）()]/g, '');

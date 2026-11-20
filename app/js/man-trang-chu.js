@@ -120,7 +120,7 @@ export function veTrangChu(khung) {
     const daHocBai = bai.tu.filter((t) => td.the[t.khoa]).length;
     const pt = Math.round((daHocBai / bai.tu.length) * 100);
     theBai = `
-    <h3 class="tieu-de-muc">Bài đang học <small><a href="#/bai">Xem lộ trình →</a></small></h3>
+    <h3 class="tieu-de-muc">Chặng đang học <small><a href="#/bai">Xem lộ trình →</a></small></h3>
     <a class="khung the-bai-dang-hoc" href="#/bai/${bai.ma}">
       <span class="nut-tron dang han">${esc([...(bai.tu[0]?.hanzi || '')].slice(0, 2).join(''))}</span>
       <span class="giua">

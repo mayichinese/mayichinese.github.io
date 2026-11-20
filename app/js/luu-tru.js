@@ -16,6 +16,7 @@ export const CAI_DAT_MAC_DINH = {
   soTuMoiMoiNgay: 15,     // số từ mới mỗi ngày
   gioiHanOnMoiNgay: 200,  // tối đa số thẻ ôn mỗi ngày
   tuPhatAm: true,         // tự đọc từ khi hiện đáp án (thẻ từ, trắc nghiệm)
+  amHieuUng: true,        // tiếng ting / bụp khi trả lời đúng / sai (am-thanh.js)
   tocDoDoc: 0.8,          // tốc độ giọng đọc (1 = bình thường)
   giongDoc: '',           // tên giọng đọc đã chọn ('' = tự chọn)
   kieuChuKhai: false,     // hiển thị chữ Hán kiểu viết tay (Khải thư)

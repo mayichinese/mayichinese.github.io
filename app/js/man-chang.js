@@ -1,18 +1,17 @@
 // =========================================================
-// CHẶNG BÀI HỌC – học như em bé: NGHE → NÓI THEO → VIẾT → GHÉP → ĐỌC
-//   #/chang/<mã bài>/<số chặng>   (số chặng đếm từ 0)
-// Mỗi bài (theo sách) chia thành các chặng ~5 từ (chiaChang). Một chặng gồm:
-//   👂 Nghe : giới thiệu từng từ (nghe trước) → nghe chọn nghĩa; thêm 2 câu nghe chọn chữ
-//   🗣️ Nói : nghe rồi nói theo 3 từ (máy chấm – ganKhungNoi; có nút "Không nói được lúc này")
-//   ✍️ Viết : tô theo nét ≤ 3 chữ mới của chặng (Hanzi Writer)
-//   🧩 Ghép : ghép cặp chữ ↔ nghĩa, nghĩa → chữ / pinyin, sắp xếp mảnh thành câu (câu chỉ gồm chữ đã biết)
-//   📖 Đọc : đọc câu ví dụ → chọn nghĩa
-// Câu trắc nghiệm sai được hỏi lại một lần cuối chặng.
-// APP TỰ CHẤM (không tự đánh giá): xong chặng, mỗi từ MỚI được xếp lịch SM-2 theo số lần sai của từ đó
-//   0 sai → ôn sau 1 ngày · 1–2 sai → gặp lại sau 10 phút · ≥ 3 sai → gặp lại sau 1 phút (ở Ôn luyện)
-// Học lại chặng đã xong: từ nào sai thì thẻ ôn đến hạn ngay.
-// Tiến độ: tienDo.chang[mã bài] = [số chặng đã xong]. Chặng cũng coi là xong khi mọi từ của chặng đã học
-// (tiến độ từ trước khi có chặng). Nói, viết, sắp xếp câu chỉ tính điểm chặng, không làm sai lịch ôn từ.
+// PHẦN & CỬA – học như em bé, từng từ một: NGHE → NÓI THEO → VIẾT → NHỚ, rồi GHÉP CÂU, ĐỌC
+// Cấu trúc: HSK → CHẶNG (= 1 bài giáo trình, trang #/bai/<mã>) → PHẦN (~5 từ) → CỬA (chỉ hiện biểu tượng)
+//   #/cua/<mã chặng>/<số phần>/<số cửa>    (đếm từ 0) · #/chang/<mã>/<phần> → chuyển tới cửa chưa xong của phần
+// Một phần n từ có n + 2 cửa:
+//   ⭐ Cửa TỪ (mỗi từ một cửa): giới thiệu (nghe trước) → nghe chọn nghĩa → nghe chọn chữ → nói theo (máy chấm)
+//      → tô từng chữ → nghĩa → chữ (+ pinyin). Câu trắc nghiệm SAI được hỏi lại tới khi ĐÚNG (tối đa 3 lần) –
+//      nhớ xong từ này mới sang từ sau. Xong cửa: từ (nếu mới) vào lịch SM-2 theo số lần sai
+//      (0 → ôn sau 1 ngày · 1–2 → 10 phút · ≥ 3 → 1 phút).
+//   🧩 Cửa GHÉP: ghép cặp chữ ↔ nghĩa cả phần, ôn nghe / nghĩa → chữ từng từ, sắp xếp mảnh thành câu.
+//   📖 Cửa ĐỌC: đọc câu ví dụ → chọn nghĩa.
+// Tiến độ: tienDo.cua['<mã>/<phần>'] = [số cửa đã xong]; xong cửa cuối → tienDo.chang[mã] thêm số phần (như cũ).
+// Tương thích tiến độ cũ: phần đã ghi trong tienDo.chang (hoặc chưa có tienDo.cua mà đã học hết từ) = xong hết cửa;
+// cửa từ của từ đã học trước đây coi là xong. Nói, viết, sắp xếp câu chỉ tính điểm cửa, không làm sai lịch ôn.
 // =========================================================
 
 import { layTienDo, luu, nhatKyHomNay, ghiLuot, caiDat } from './luu-tru.js';
@@ -28,25 +27,29 @@ import { ganKhungNoi } from './man-luyen-noi.js';
 import { coNhanDang, coGhiAm } from './nhan-giong.js';
 import { DIEM_DAT } from './cham-phat-am.js';
 import { htmlCauCham, tachTu } from './cham-tu.js';
+import { amCham, amDung, amSai, amXong } from './am-thanh.js';
 
-const CO_CHANG = 5;            // số từ mỗi chặng (chia đều: 13 từ → 5 + 4 + 4)
-const SO_NOI = 3;              // số từ nói theo mỗi chặng
-const SO_VIET = 3;             // số chữ tô mỗi chặng
+const CO_PHAN = 5;             // số từ mỗi phần (chia đều: 13 từ → 5 + 4 + 4)
+const HOI_LAI_TOI_DA = 3;      // một câu sai được hỏi lại tối đa 3 lần trong cửa
+let boNoiDen = 0;              // "Tạm bỏ phần nói": bỏ câu nói ở mọi cửa tới thời điểm này (30 phút)
 
 export const CAC_KY = [
   { ma: 'nghe', emoji: '👂', ten: 'Nghe' },
   { ma: 'noi', emoji: '🗣️', ten: 'Nói' },
   { ma: 'viet', emoji: '✍️', ten: 'Viết' },
+  { ma: 'nho', emoji: '🧠', ten: 'Nhớ' },
   { ma: 'ghep', emoji: '🧩', ten: 'Ghép' },
   { ma: 'doc', emoji: '📖', ten: 'Đọc' },
 ];
 const KY = Object.fromEntries(CAC_KY.map((k) => [k.ma, k]));
+/** Biểu tượng cửa (không tên): cửa từ ⭐, ghép 🧩, đọc 📖 */
+export const BIEU_TUONG_CUA = { tu: '⭐', ghep: '🧩', doc: '📖' };
 
-// ---------- Chia chặng + trạng thái ----------
-/** Chia từ của bài thành các chặng ~5 từ, giữ thứ tự bài: [{ so, tu }] */
+// ---------- Chia phần + trạng thái ----------
+/** Chia từ của chặng (bài) thành các phần ~5 từ, giữ thứ tự: [{ so, tu }] */
 export function chiaChang(b) {
   const n = b.tu.length;
-  const k = Math.max(1, Math.ceil(n / CO_CHANG));
+  const k = Math.max(1, Math.ceil(n / CO_PHAN));
   const ds = [];
   let dau = 0;
   for (let c = 0; c < k; c++) {
@@ -57,16 +60,48 @@ export function chiaChang(b) {
   return ds;
 }
 
-/** Các chặng kèm trạng thái: xong (đã làm hoặc đã học hết từ), mo (được vào: chặng đầu hoặc chặng trước đã xong) */
-export function trangThaiCacChang(b) {
+/** Danh sách cửa của một phần: mỗi từ một cửa, rồi cửa ghép, cửa đọc */
+export const cacCua = (phan) => [
+  ...phan.tu.map((w, i) => ({ so: i, loai: 'tu', tu: w })),
+  { so: phan.tu.length, loai: 'ghep' },
+  { so: phan.tu.length + 1, loai: 'doc' },
+];
+
+const khoaCua = (maBai, soPhan) => `${maBai}/${soPhan}`;
+
+/** Các cửa của phần kèm trạng thái xong / mo (mở: đã xong, hoặc là cửa đầu tiên chưa xong) */
+export function trangThaiCua(b, phan) {
   const td = layTienDo();
-  const daXong = new Set(td.chang?.[b.ma] || []);
-  const ds = chiaChang(b).map((c) => ({ ...c, xong: daXong.has(c.so) || (c.tu.length > 0 && c.tu.every((t) => td.the[t.khoa])) }));
+  const ghi = td.cua?.[khoaCua(b.ma, phan.so)];
+  const xongPhan = (td.chang?.[b.ma] || []).includes(phan.so)
+    || (!ghi && phan.tu.length > 0 && phan.tu.every((t) => td.the[t.khoa]));   // tiến độ cũ
+  const daXong = new Set(ghi || []);
+  const ds = cacCua(phan).map((c) => ({
+    ...c, xong: xongPhan || daXong.has(c.so) || (c.loai === 'tu' && !ghi && !!td.the[c.tu.khoa]),
+  }));
+  let daMo = false;
+  ds.forEach((c) => { c.mo = c.xong || !daMo; if (!c.xong) daMo = true; });
+  return ds;
+}
+
+/** Các phần kèm trạng thái: xong (mọi cửa xong), mo (phần đầu hoặc phần trước đã xong) */
+export function trangThaiCacChang(b) {
+  const ds = chiaChang(b).map((c) => {
+    const cua = trangThaiCua(b, c);
+    return { ...c, cua, xong: c.tu.length > 0 && cua.every((x) => x.xong) };
+  });
   ds.forEach((c, i) => { c.mo = c.xong || i === 0 || ds[i - 1].xong; });
   return ds;
 }
-/** Chặng đầu tiên chưa xong của bài (null nếu xong hết) */
+/** Phần đầu tiên chưa xong của chặng (null nếu xong hết) */
 export const changTiepTheo = (b) => trangThaiCacChang(b).find((c) => !c.xong) || null;
+/** Cửa tiếp theo của chặng: { phan, cua } (null nếu xong hết) */
+export function cuaTiepTheo(b) {
+  const p = changTiepTheo(b);
+  if (!p || !p.mo) return null;
+  const c = p.cua.find((x) => !x.xong);
+  return c ? { phan: p.so, cua: c.so } : null;
+}
 
 // ---------- Tiện ích ----------
 const chuHan = (s) => [...String(s).replace(/[^\p{Script=Han}]/gu, '')];
@@ -116,23 +151,24 @@ function chonCau(W, td) {
 }
 
 // =========================================================
-// MỘT CHẶNG
+// MỘT CỬA
 // =========================================================
 /**
- * @param maBai mã bài ('s3', '2-5'…) · @param so số chặng (từ 0)
+ * @param maBai mã chặng ('s3', '2-5'…) · @param so số phần (từ 0) · @param soCua số cửa (từ 0)
  * @returns {Function} hàm dọn dẹp
  */
-export function veChang(khung, maBai, so) {
+export function veChang(khung, maBai, so, soCua = 0) {
   const b = timBaiTheoMa(maBai);
   const dsChang = b ? trangThaiCacChang(b) : [];
   const chang = dsChang[so];
-  if (!b || !chang || !chang.tu.length) {
-    khung.innerHTML = '<p class="loi">Không tìm thấy chặng này.</p><a class="nut nut-rong" href="#/bai">← Về lộ trình</a>';
+  const cua = chang ? chang.cua[soCua] : null;
+  if (!b || !chang || !chang.tu.length || !cua) {
+    khung.innerHTML = '<p class="loi">Không tìm thấy cửa này.</p><a class="nut nut-rong" href="#/bai">← Về lộ trình</a>';
     return () => {};
   }
-  if (!chang.mo) {
-    khung.innerHTML = `<div class="chua-lam"><div class="emoji emoji-to">🔒</div><h2>Chặng này chưa mở</h2>
-      <p class="chu-phu">Hãy làm xong chặng trước của bài.</p><a class="nut nut-chinh" href="#/bai/${b.ma}">← Về bài</a></div>`;
+  if (!chang.mo || !cua.mo) {
+    khung.innerHTML = `<div class="chua-lam"><div class="emoji emoji-to">🔒</div><h2>Cửa này chưa mở</h2>
+      <p class="chu-phu">Hãy vượt qua các cửa trước.</p><a class="nut nut-chinh" href="#/bai/${b.ma}">← Về chặng</a></div>`;
     return () => {};
   }
 
@@ -141,21 +177,20 @@ export function veChang(khung, maBai, so) {
   let xuLyPhim = null;
   let huyHienTai = null;           // dọn dẹp mục đang hiện (micro, bảng viết…)
 
-  // Đã đủ số từ mới hôm nay → hỏi trước khi học thêm
+  // Cửa từ của một từ MỚI mà hôm nay đã đủ số từ mới → hỏi trước khi học thêm
   const W = chang.tu;
-  const td0 = layTienDo();
-  const soTuMoi = W.filter((w) => !td0.the[w.khoa]).length;
+  const laTuMoi = cua.loai === 'tu' && !layTienDo().the[cua.tu.khoa];
   const { conTuMoi } = demHomNay();
-  if (soTuMoi && conTuMoi < soTuMoi) {
+  if (laTuMoi && conTuMoi < 1) {
     khung.innerHTML = `
       <div class="chua-lam">
         <div class="emoji emoji-to">🌙</div>
         <h2>Hôm nay đã đủ từ mới</h2>
-        <p class="chu-phu">Mục tiêu là ${caiDat().soTuMoiMoiNgay} từ mới mỗi ngày${conTuMoi ? ` (còn ${conTuMoi})` : ''}; chặng này có ${soTuMoi} từ mới.
-          Học thêm vẫn được, nhưng ngày mai sẽ có nhiều thẻ cần ôn hơn.</p>
-        <button class="nut nut-chinh nut-rong" id="nut-van-hoc">Vẫn học chặng này</button>
+        <p class="chu-phu">Mục tiêu là ${caiDat().soTuMoiMoiNgay} từ mới mỗi ngày. Học thêm vẫn được,
+          nhưng ngày mai sẽ có nhiều thẻ cần ôn hơn.</p>
+        <button class="nut nut-chinh nut-rong" id="nut-van-hoc">Vẫn học từ này</button>
         <a class="nut nut-rong" href="#/on">🔁 Ôn từ đến hạn</a>
-        <a class="nut nut-rong" href="#/bai/${b.ma}">← Về bài</a>
+        <a class="nut nut-rong" href="#/bai/${b.ma}">← Về chặng</a>
       </div>`;
     khung.querySelector('#nut-van-hoc').onclick = () => batDau();
   } else {
@@ -163,7 +198,7 @@ export function veChang(khung, maBai, so) {
   }
 
   function batDau() {
-    khung.innerHTML = '<div class="dang-tai">Đang chuẩn bị chặng…</div>';
+    khung.innerHTML = '<div class="dang-tai">Đang mở cửa…</div>';
     Promise.all([taiDaAm(), taiNetChu().catch(() => ({ net: {} }))]).then(([daAm, netChu]) => {
       if (!daRoi) chay(daAm, netChu.net || {});
     });
@@ -176,30 +211,37 @@ export function veChang(khung, maBai, so) {
     const ngheDuoc = (w) => coGiong && !(demChuHan(w.hanzi) === 1 && daAm.has(w.hanzi));
     const pinyinDuoc = (w) => !w.pinyin.includes('/') && bienTheThanh(w.pinyin, demChuHan(w.hanzi)).length === 3;
 
-    // --- Hàng đợi bài tập theo thứ tự kỹ năng ---
+    // --- Hàng đợi bài tập của cửa ---
     const hang = [];
-    for (const w of W) {
+    if (cua.loai === 'tu') {
+      const w = cua.tu;
       hang.push({ ky: 'nghe', loai: 'gioi-thieu', tu: w });
       hang.push({ ky: 'nghe', loai: 'hoi', tu: w, dang: ngheDuoc(w) ? 'nghe-nghia' : 'nghia' });
+      hang.push({ ky: 'nghe', loai: 'hoi', tu: w, dang: ngheDuoc(w) ? 'nghe' : 'chu' });
+      if ((coNhanDang() || coGhiAm()) && Date.now() > boNoiDen) hang.push({ ky: 'noi', loai: 'noi', tu: w });
+      for (const c of [...new Set(chuHan(w.hanzi))].filter((x) => net[x]).slice(0, 3)) {
+        hang.push({ ky: 'viet', loai: 'viet', chu: c, tu: w });
+      }
+      hang.push({ ky: 'nho', loai: 'hoi', tu: w, dang: 'chu' });
+      if (pinyinDuoc(w)) hang.push({ ky: 'nho', loai: 'hoi', tu: w, dang: 'pinyin' });
+    } else if (cua.loai === 'ghep') {
+      if (W.length >= 3) hang.push({ ky: 'ghep', loai: 'ghep-cap', ds: W });
+      tron(W).forEach((w, i) => {
+        const dang = i % 3 === 1 && ngheDuoc(w) ? 'nghe' : i % 3 === 2 && pinyinDuoc(w) ? 'pinyin' : 'chu';
+        hang.push({ ky: 'ghep', loai: 'hoi', tu: w, dang });
+      });
+      const { sapXep } = chonCau(W, td);
+      if (sapXep) hang.push({ ky: 'ghep', loai: 'sap-xep', ...sapXep });
+    } else {
+      for (const d of chonCau(W, td).doc) hang.push({ ky: 'doc', loai: 'doc', ...d });
+      // thiếu câu dùng được → ôn nghĩa từng từ cho đủ bài
+      if (hang.length < 2) for (const w of W) hang.push({ ky: 'doc', loai: 'hoi', tu: w, dang: 'nghia' });
     }
-    for (const w of tron(W).slice(0, 2)) hang.push({ ky: 'nghe', loai: 'hoi', tu: w, dang: ngheDuoc(w) ? 'nghe' : 'chu' });
-    if (coNhanDang() || coGhiAm()) {
-      for (const w of tron(W).slice(0, SO_NOI)) hang.push({ ky: 'noi', loai: 'noi', tu: w });
-    }
-    const Wkhoa = new Set(W.map((w) => w.khoa));
-    const chuTruoc = new Set(tatCaTu().filter((t) => td.the[t.khoa] && !Wkhoa.has(t.khoa)).flatMap((t) => chuHan(t.hanzi)));
-    const chuCuaChang = [...new Set(W.flatMap((w) => chuHan(w.hanzi)))].filter((c) => net[c]);
-    const chuMoi = chuCuaChang.filter((c) => !chuTruoc.has(c));
-    for (const c of (chuMoi.length ? chuMoi : chuCuaChang).slice(0, SO_VIET)) {
-      hang.push({ ky: 'viet', loai: 'viet', chu: c, tu: W.find((w) => w.hanzi.includes(c)) });
-    }
-    if (W.length >= 3) hang.push({ ky: 'ghep', loai: 'ghep-cap', ds: W });
-    tron(W).slice(0, 3).forEach((w, i) => {
-      hang.push({ ky: 'ghep', loai: 'hoi', tu: w, dang: i === 0 && pinyinDuoc(w) ? 'pinyin' : 'chu' });
-    });
-    const { sapXep, doc: dsDoc } = chonCau(W, td);
-    if (sapXep) hang.push({ ky: 'ghep', loai: 'sap-xep', ...sapXep });
-    for (const d of dsDoc) hang.push({ ky: 'doc', loai: 'doc', ...d });
+    /** Câu sai → hỏi lại cuối cửa (cửa từ: tới khi đúng, tối đa HOI_LAI_TOI_DA lần; cửa khác: một lần) */
+    const hoiLai = (m) => {
+      const lan = (m.lanLai || 0) + 1;
+      if (lan <= (cua.loai === 'tu' ? HOI_LAI_TOI_DA : 1)) hang.push({ ...m, laiLan: true, lanLai: lan, nghe: undefined, nutTiep: undefined });
+    };
 
     const coKy = new Set(hang.map((m) => m.ky));
     const ketQua = Object.fromEntries(CAC_KY.map((k) => [k.ma, { dung: 0, tong: 0 }]));
@@ -216,8 +258,8 @@ export function veChang(khung, maBai, so) {
           <div class="thanh-tien-do"><span style="width:0%"></span></div>
           <span class="dem"></span>
         </div>
-        <div class="buoc-ky">${CAC_KY.map((k) => `
-          <span class="o-ky ${coKy.has(k.ma) ? '' : 'bo'}" data-ky="${k.ma}"><span class="emoji">${k.emoji}</span><small>${k.ten}</small></span>`).join('')}</div>
+        <div class="buoc-ky" style="grid-template-columns:repeat(${coKy.size}, 1fr)" ${coKy.size < 2 ? 'hidden' : ''}>${CAC_KY.filter((k) => coKy.has(k.ma)).map((k) => `
+          <span class="o-ky" data-ky="${k.ma}"><span class="emoji">${k.emoji}</span><small>${k.ten}</small></span>`).join('')}</div>
         <div class="the-tu the-chang"></div>
         <div class="vung-tra-loi"></div>
       </div>`;
@@ -227,9 +269,9 @@ export function veChang(khung, maBai, so) {
     function capNhatTienDo() {
       const tong = daLam + hang.length + (muc ? 1 : 0);
       khung.querySelector('.tien-do-phien .thanh-tien-do > span').style.width = `${tong ? (daLam / tong) * 100 : 0}%`;
-      khung.querySelector('.tien-do-phien .dem').textContent = muc?.laiLan ? '↺ Sửa câu sai' : `Chặng ${so + 1}/${dsChang.length}`;
-      const thuTu = CAC_KY.map((k) => k.ma);
-      // câu hỏi lại cuối chặng (laiLan) → coi như đã qua đủ 5 bước
+      khung.querySelector('.tien-do-phien .dem').textContent = muc?.laiLan ? '↺ Sửa câu sai' : `Phần ${so + 1}/${dsChang.length}`;
+      const thuTu = CAC_KY.map((k) => k.ma).filter((k) => coKy.has(k));
+      // câu hỏi lại cuối cửa (laiLan) → coi như đã qua đủ các bước
       const i = muc && !muc.laiLan ? thuTu.indexOf(muc.ky) : thuTu.length;
       khung.querySelectorAll('.o-ky').forEach((o) => {
         const j = thuTu.indexOf(o.dataset.ky);
@@ -310,11 +352,12 @@ export function veChang(khung, maBai, so) {
             x.classList.toggle('sai', x === nut && !dung);
             x.disabled = true;
           });
+          amCham(dung);
           ketQua[m.ky].tong++;
           if (dung) ketQua[m.ky].dung++;
           else {
             saiTu[m.tu.khoa] = (saiTu[m.tu.khoa] || 0) + 1;
-            if (!m.laiLan) hang.push({ ...m, laiLan: true });
+            hoiLai(m);
           }
           hienPhanHoi(dung, tuNho(m.tu));
           if (!cau.dang.startsWith('nghe')) doc(m.tu.hanzi);
@@ -337,7 +380,7 @@ export function veChang(khung, maBai, so) {
       $vung.innerHTML = `
         <div id="vung-noi"></div>
         <div class="hang-nut" style="margin-top:10px">
-          <button class="nut" id="nut-khong-noi">🔇 Tạm bỏ phần nói</button>
+          <button class="nut" id="nut-khong-noi">🔇 Tạm bỏ nói 30′</button>
           <button class="nut nut-chinh" id="nut-tiep-noi">Bỏ qua ▶</button>
         </div>`;
       let diem = null;
@@ -360,6 +403,7 @@ export function veChang(khung, maBai, so) {
       $vung.querySelector('#nut-tiep-noi').onclick = xong;
       // Không nói được (nơi đông người…) → bỏ mọi câu nói còn lại của chặng
       $vung.querySelector('#nut-khong-noi').onclick = () => {
+        boNoiDen = Date.now() + 30 * 60 * 1000;
         for (let i = hang.length - 1; i >= 0; i--) if (hang[i].loai === 'noi') hang.splice(i, 1);
         tiepTheo();
       };
@@ -395,6 +439,7 @@ export function veChang(khung, maBai, so) {
           if (daRoi || muc !== m) return;
           ketQua.viet.tong++;
           if (kq.totalMistakes <= 3) ketQua.viet.dung++;
+          amCham(kq.totalMistakes <= 3);
           const nk = nhatKyHomNay();
           nk.viet = (nk.viet || 0) + 1;
           $vung.innerHTML = '';
@@ -445,11 +490,13 @@ export function veChang(khung, maBai, so) {
         if (dung) {
           x.classList.add('xong'); y.classList.add('xong');
           x.disabled = true; y.disabled = true;
-          doc(a.hanzi);
+          amDung();
+          setTimeout(() => doc(a.hanzi), 250);
           ketQua.ghep.tong++;
           if (!saiCap.has(a.khoa)) ketQua.ghep.dung++;
           if (--conLai === 0) hienPhanHoi(saiCap.size === 0, saiCap.size ? '<span class="chu-phu nho">Đã ghép xong (có cặp phải chọn lại).</span>' : '');
         } else {
+          amSai();
           saiCap.add(a.khoa);
           saiTu[a.khoa] = (saiTu[a.khoa] || 0) + 1;
           x.classList.add('sai'); y.classList.add('sai');
@@ -490,9 +537,10 @@ export function veChang(khung, maBai, so) {
       $vung.querySelector('#nut-kiem-tra').onclick = () => {
         if (daXongMuc || daChon.length !== m.manh.length) return;
         const dung = daChon.map((i) => m.manh[i]).join('') === m.manh.join('');
+        amCham(dung);
         ketQua.ghep.tong++;
         if (dung) ketQua.ghep.dung++;
-        else if (!m.laiLan) hang.push({ ...m, laiLan: true });
+        else hoiLai(m);
         $the.querySelector('#dong').classList.add(dung ? 'la-dung' : 'la-sai');
         $vung.innerHTML = '';
         hienPhanHoi(dung, `
@@ -531,9 +579,10 @@ export function veChang(khung, maBai, so) {
             x.classList.toggle('sai', x === nut && !dung);
             x.disabled = true;
           });
+          amCham(dung);
           ketQua.doc.tong++;
           if (dung) ketQua.doc.dung++;
-          else if (!m.laiLan) hang.push({ ...m, laiLan: true });
+          else hoiLai(m);
           $the.querySelector('#py').hidden = false;
           $the.querySelector('#cau-doc').innerHTML = htmlCauCham(m.cau.han);
           hienPhanHoi(dung);
@@ -542,7 +591,7 @@ export function veChang(khung, maBai, so) {
       });
     }
 
-    // ----- Tổng kết: app tự chấm, xếp lịch ôn -----
+    // ----- Tổng kết cửa: app tự chấm, xếp lịch ôn, mở cửa tiếp -----
     function veKetThuc() {
       dungDongHo();
       document.body.classList.remove('dang-hoc');
@@ -550,7 +599,7 @@ export function veChang(khung, maBai, so) {
       const nk = nhatKyHomNay();
       const bayGio = Date.now();
       let soMoi = 0;
-      for (const w of W) {
+      for (const w of cua.loai === 'tu' ? [cua.tu] : W) {
         const m = saiTu[w.khoa] || 0;
         const cu = tdN.the[w.khoa];
         if (!cu) {
@@ -560,36 +609,47 @@ export function veChang(khung, maBai, so) {
           if (m === 0) t = tinhLichMoi(t, DANH_GIA.NHO, bayGio);
           tdN.the[w.khoa] = t;
         } else if (m > 0 && cu.trangThai === 'on' && cu.han > bayGio) {
-          cu.han = bayGio;   // học lại chặng mà còn sai → ôn từ này ngay
+          cu.han = bayGio;   // làm lại cửa mà còn sai → ôn từ này ngay
         }
       }
-      tdN.chang = tdN.chang || {};
-      const ds = new Set(tdN.chang[b.ma] || []);
-      ds.add(so);
-      tdN.chang[b.ma] = [...ds].sort((x, y) => x - y);
-      const tongDung = Object.values(ketQua).reduce((s, k) => s + k.dung, 0);
-      const tong = Object.values(ketQua).reduce((s, k) => s + k.tong, 0);
-      ghiLuot('chang', tongDung, tong - tongDung);   // ghiLuot đã lưu
+      // Ghi cửa đã xong (kèm các cửa đang được tính là xong theo tiến độ cũ, để không mất khi bắt đầu ghi)
+      tdN.cua = tdN.cua || {};
+      const k = khoaCua(b.ma, so);
+      const daXong = new Set(tdN.cua[k] || []);
+      chang.cua.forEach((c) => { if (c.xong) daXong.add(c.so); });
+      daXong.add(cua.so);
+      tdN.cua[k] = [...daXong].sort((x, y) => x - y);
+      const xongPhan = chang.cua.every((c) => daXong.has(c.so));
+      const tongDung = Object.values(ketQua).reduce((t, x) => t + x.dung, 0);
+      const tong = Object.values(ketQua).reduce((t, x) => t + x.tong, 0);
+      if (xongPhan) {
+        tdN.chang = tdN.chang || {};
+        tdN.chang[b.ma] = [...new Set([...(tdN.chang[b.ma] || []), so])].sort((x, y) => x - y);
+        ghiLuot('chang', tongDung, tong - tongDung);
+      }
+      ghiLuot('cua', tongDung, tong - tongDung);   // ghiLuot đã lưu
       luu();
+      setTimeout(amXong, 150);
 
       const ti = tong ? tongDung / tong : 1;
-      const sau = trangThaiCacChang(b).find((c) => !c.xong);
-      const canOn = W.filter((w) => saiTu[w.khoa]);
+      const tiep = cuaTiepTheo(b);
+      const canOn = (cua.loai === 'tu' ? [cua.tu] : W).filter((w) => saiTu[w.khoa]);
+      const tu = cua.loai === 'tu' ? cua.tu : null;
       khung.innerHTML = `
         <div class="ket-thuc">
-          <div class="emoji emoji-to">${ti >= 0.8 ? '🏆' : ti >= 0.5 ? '🎉' : '💪'}</div>
-          <h2>Xong chặng ${so + 1}!</h2>
-          <p class="chu-phu">${nhanBai(b)} · ${esc(b.ten)}</p>
-          <div class="bang-ky">${CAC_KY.filter((k) => ketQua[k.ma].tong).map((k) => `
-            <div class="o-ket-qua"><span class="emoji">${k.emoji}</span><b>${ketQua[k.ma].dung}/${ketQua[k.ma].tong}</b><span>${k.ten}</span></div>`).join('')}
+          <div class="emoji emoji-to">${xongPhan ? '🏆' : ti >= 0.8 ? '🌟' : '💪'}</div>
+          <h2>${xongPhan ? `Xong phần ${so + 1}!` : 'Qua cửa!'}</h2>
+          ${tu ? `<p class="han" style="font-size:2.2rem;margin:4px 0 0">${toMauChuHan(tu.hanzi, tu.pinyin)}</p>
+            <p class="chu-phu">${toMauPinyin(tu.pinyin, demChuHan(tu.hanzi))} · ${esc(nghiaNgan(tu))}</p>`
+            : `<p class="chu-phu">${nhanBai(b)} · ${esc(b.ten)}</p>`}
+          <div class="bang-ky">${CAC_KY.filter((x) => ketQua[x.ma].tong).map((x) => `
+            <div class="o-ket-qua"><span class="emoji">${x.emoji}</span><b>${ketQua[x.ma].dung}/${ketQua[x.ma].tong}</b><span>${x.ten}</span></div>`).join('')}
           </div>
-          <p class="chu-phu nho">${soMoi ? `${soMoi} từ mới đã vào lịch ôn. ` : ''}${canOn.length
-            ? `Từ còn sai sẽ gặp lại sớm ở Ôn luyện: <span class="han">${canOn.map((w) => esc(w.hanzi)).join('、')}</span>`
-            : 'Không sai từ nào – lần ôn tới sau 1 ngày.'}</p>
-          ${sau ? `<a class="nut nut-chinh nut-rong" href="#/chang/${b.ma}/${sau.so}">Chặng ${sau.so + 1} ▶</a>`
-            : `<a class="nut nut-chinh nut-rong" href="#/bai/${b.ma}">🎉 Đã xong từ vựng của bài – sang ngữ pháp ▶</a>`}
-          <a class="nut nut-rong" href="#/bai/${b.ma}">← Về bài</a>
-          <a class="nut nut-rong" href="#/">🏠 Về trang Hôm nay</a>
+          <p class="chu-phu nho">${soMoi ? (canOn.length ? 'Từ này còn sai vài lần – sẽ gặp lại sớm ở Ôn luyện.' : 'Đã nhớ – lần ôn tới sau 1 ngày.')
+            : canOn.length ? `Còn sai: <span class="han">${canOn.map((w) => esc(w.hanzi)).join('、')}</span> – sẽ gặp lại sớm ở Ôn luyện.` : ''}</p>
+          ${tiep ? `<a class="nut nut-chinh nut-rong" href="#/cua/${b.ma}/${tiep.phan}/${tiep.cua}" id="nut-cua-tiep">${tiep.phan === so ? 'Cửa tiếp theo ▶' : `Phần ${tiep.phan + 1} ▶`}</a>`
+            : `<a class="nut nut-chinh nut-rong" href="#/bai/${b.ma}">🎉 Xong từ vựng của chặng – sang ngữ pháp ▶</a>`}
+          <a class="nut nut-rong" href="#/bai/${b.ma}">← Về chặng</a>
         </div>`;
     }
 

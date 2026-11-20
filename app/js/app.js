@@ -12,8 +12,9 @@
 // Các địa chỉ:
 //   #/             Hôm nay (trang chủ)          → man-trang-chu.js
 //   #/on           Ôn từ đến hạn                → man-the-tu.js
-//   #/hoc-moi[/s5] Học từ mới → chuyển tới chặng tiếp theo của bài (hoặc bài đang học)
-//   #/chang/<mã bài>/<số>  một chặng bài học: nghe → nói → viết → ghép → đọc → man-chang.js
+//   #/hoc-moi[/s5] Học tiếp → cửa chưa xong đầu tiên (của chặng s5, hoặc trên cả lộ trình)
+//   #/cua/<mã chặng>/<phần>/<cửa>  một cửa: từ (nghe → nói → viết → nhớ) / ghép / đọc → man-chang.js
+//   #/chang/<mã>/<phần>  địa chỉ cũ → chuyển tới cửa chưa xong của phần
 //   #/doc-hieu/<mã bài>  đọc hiểu cuối bài (hội thoại / đoạn văn + câu hỏi) → man-doc-hieu.js
 //   #/bai[/5]      Bài học (lộ trình) / bài 5   → man-bai-hoc.js
 //   #/tu/<khóa>    Xem một từ                   → man-bai-hoc.js
@@ -39,7 +40,7 @@
 // =========================================================
 
 import { docTienDo, caiDat } from './luu-tru.js';
-import { taiDuLieu, layTu, timBaiTheoMa, maBaiTuDiaChi, nhanBai, maBaiCuaTu, cheDoBai } from './du-lieu.js';
+import { taiDuLieu, layTu, timBaiTheoMa, maBaiTuDiaChi, nhanBai, maBaiCuaTu, cheDoBai, danhSachBai } from './du-lieu.js';
 import { doc } from './phat-am.js';
 import { esc, datTieuDe, apDungGiaoDien, doiSangToi, dongHopThoai, thongBao } from './giao-dien.js';
 import { ganBieuTuong, bieuTuong } from './bieu-tuong.js';
@@ -57,7 +58,7 @@ import { veNguPhap, veDiemNguPhap, vePhienNguPhap } from './man-ngu-phap.js';
 import { veThiThu, veLamBai } from './man-thi-thu.js';
 import { veChuAm, vePhienChuAm } from './man-chu-am.js';
 import { veTuLoai, moTuLoai } from './man-tu-loai.js';
-import { veChang, changTiepTheo } from './man-chang.js';
+import { veChang, cuaTiepTheo, trangThaiCacChang } from './man-chang.js';
 import { moXemTu } from './cham-tu.js';
 import { veDocHieu } from './man-doc-hieu.js';
 import { capMo } from './cap-do.js';
@@ -81,7 +82,7 @@ function veTheoDiaChi() {
 
   // tô sáng mục đang chọn ở thanh điều hướng
   let mucChon = {
-    '': 'trang-chu', bai: 'bai', tu: 'bai', 'hoc-moi': 'bai', chang: 'bai', 'doc-hieu': 'bai',
+    '': 'trang-chu', bai: 'bai', tu: 'bai', 'hoc-moi': 'bai', chang: 'bai', cua: 'bai', 'doc-hieu': 'bai',
     on: 'luyen-tap', 'luyen-tap': 'luyen-tap', 'luyen-viet': 'luyen-tap', 'thanh-dieu': 'luyen-tap',
     'trac-nghiem': 'luyen-tap', 'ngu-phap': 'luyen-tap', 'luyen-noi': 'luyen-tap',
     'thi-thu': 'thi-thu', toi: 'toi', 'thong-ke': 'toi', 'cai-dat': 'toi', 'chu-am': 'chu-am',
@@ -97,21 +98,32 @@ function veTheoDiaChi() {
     datTieuDe('Ôn từ vựng', '#/luyen-tap');
     donDep = vePhien(khung, 'on');
   } else if (muc === 'hoc-moi') {
-    // "Học từ mới" = chặng tiếp theo của bài (thamSo) hoặc của bài đang học
-    let bai = thamSo ? timBaiTheoMa(maBaiTuDiaChi(thamSo)) : baiDangHoc();
-    if (bai && !bai.sach) bai = baiDangHoc();
-    const chang = bai && capMo(bai.cap) ? changTiepTheo(bai) : null;
-    location.replace(chang ? `#/chang/${bai.ma}/${chang.so}` : bai ? `#/bai/${bai.ma}` : '#/bai');
+    // "Học tiếp" = cửa chưa xong đầu tiên: của chặng (thamSo) hoặc chặng đầu tiên còn cửa trong các cấp đã mở
+    let bai = thamSo ? timBaiTheoMa(maBaiTuDiaChi(thamSo)) : null;
+    let tiep = bai && bai.sach && capMo(bai.cap) ? cuaTiepTheo(bai) : null;
+    if (!tiep) {
+      bai = danhSachBai(cheDoBai()).find((x) => x.sach && x.tu.length && capMo(x.cap) && cuaTiepTheo(x)) || null;
+      tiep = bai ? cuaTiepTheo(bai) : null;
+    }
+    location.replace(tiep ? `#/cua/${bai.ma}/${tiep.phan}/${tiep.cua}` : '#/bai');
     return;
   } else if (muc === 'doc-hieu' && thamSo) {
     const bai = timBaiTheoMa(maBaiTuDiaChi(thamSo));
     datTieuDe('Đọc hiểu', bai ? `#/bai/${bai.ma}` : '#/bai');
     donDep = veDocHieu(khung, bai ? bai.ma : thamSo);
   } else if (muc === 'chang' && thamSo) {
+    // địa chỉ cũ của "chặng" (nay là PHẦN) → cửa chưa xong đầu tiên của phần
+    const bai = timBaiTheoMa(maBaiTuDiaChi(thamSo));
+    const phan = bai ? trangThaiCacChang(bai)[Number(duong[2] || 0)] : null;
+    const c = phan ? (phan.cua.find((x) => !x.xong && x.mo) || phan.cua[0]) : null;
+    location.replace(bai && c ? `#/cua/${bai.ma}/${phan.so}/${c.so}` : '#/bai');
+    return;
+  } else if (muc === 'cua' && thamSo) {
     const bai = timBaiTheoMa(maBaiTuDiaChi(thamSo));
     if (bai && !capMo(bai.cap)) { location.replace(`#/bai/${bai.ma}`); return; }   // cấp đang khóa
-    datTieuDe(bai ? `${nhanBai(bai)} · Chặng ${Number(duong[2] || 0) + 1}` : 'Chặng', bai ? `#/bai/${bai.ma}` : '#/bai');
-    donDep = veChang(khung, bai ? bai.ma : thamSo, Number(duong[2] || 0));
+    const soPhan = Number(duong[2] || 0);
+    datTieuDe(bai ? `${nhanBai(bai)} · Phần ${soPhan + 1}` : 'Phần', bai ? `#/bai/${bai.ma}` : '#/bai');
+    donDep = veChang(khung, bai ? bai.ma : thamSo, soPhan, Number(duong[3] || 0));
   } else if (muc === 'bai' && thamSo) {
     const bai = timBaiTheoMa(maBaiTuDiaChi(thamSo));
     datTieuDe(bai ? nhanBai(bai) : 'Bài học', '#/bai');

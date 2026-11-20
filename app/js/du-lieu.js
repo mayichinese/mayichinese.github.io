@@ -170,7 +170,7 @@ export function maBaiCuaTu(tu, cheDo) {
   return tu.maBai;
 }
 /** Nhãn bài để hiện: "Bài 3" (bài sách – lộ trình), "HSK 2 · Bài 3", "Chủ đề 3" / "HSK 2 · Chủ đề 3" (danh mục) */
-export const nhanBai = (b) => `${b.cap > 1 ? `HSK ${b.cap} · ` : ''}${b.sach ? 'Bài' : 'Chủ đề'} ${b.so}`;
+export const nhanBai = (b) => `${b.cap > 1 ? `HSK ${b.cap} · ` : ''}${b.sach ? 'Chặng' : 'Chủ đề'} ${b.so}`;
 /** Bài trong sách của một điểm ngữ pháp (mã điểm → số bài), null nếu chưa gắn */
 export const baiSachCuaNguPhap = (ma) => theoSach?.nguPhap?.[ma] ?? null;
 /** Bài trong sách của một từ */
@@ -179,10 +179,10 @@ export const baiSachCuaTu = (tu) => theoSach?.tu?.[tu.khoa] ?? null;
 export function nhanBaiCuaTu(tu, cheDo) {
   if (tu.cap > 1) {
     const cd = cheDo === 'chu-de' ? chuDeCuaTu[tu.khoa] : null;
-    return cd ? `Chủ đề ${cd.so}` : `Bài ${tu.bai}`;
+    return cd ? `Chủ đề ${cd.so}` : `Chặng ${tu.bai}`;
   }
   const s = cheDo === 'sach' ? baiSachCuaTu(tu) : null;
-  return s ? `Bài ${s}` : `Chủ đề ${tu.bai}`;
+  return s ? `Chặng ${s}` : `Chủ đề ${tu.bai}`;
 }
 
 export const layBaiHoc = () => baiHoc;

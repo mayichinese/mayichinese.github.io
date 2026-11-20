@@ -40,11 +40,14 @@
     phuong-vi→9 (上/边), zenme→10 (怎么样), xiang-yao→11 (要), cau-khien-cam-than→14 (请/不要). Script coi là đã biết: chữ nằm trong từ đã học (没 ⊂ 没有),
     từ ghép mà mọi chữ là từ đơn đã học (这个, 他们), chữ lẻ có trong từ đã học (起 ⊂ 起床). Tránh cụm bị tách nhầm
     như 说的话 (app hiểu thành 的话 = nếu).
-  - CHẶNG (`js/man-chang.js`, `#/chang/<mã bài>/<số từ 0>`; `#/hoc-moi[/mã]` chuyển tới chặng tiếp theo): chiaChang chia đều ~5 từ.
-    Thứ tự Nghe (giới thiệu + nghe→nghĩa `nghe-nghia`, nghe→chữ) → Nói (ganKhungNoi, 3 từ) → Viết (tô ≤3 chữ mới, Hanzi Writer)
-    → Ghép (ghép cặp, nghĩa→chữ/pinyin, sắp xếp câu: chỉ câu viDu toàn chữ đã biết, tách mảnh bằng từ điển HSK) → Đọc (câu → nghĩa).
-    Xong chặng: từ MỚI xếp lịch SM-2 theo số lần sai (0 → 1 ngày, 1–2 → 10 phút, ≥3 → 1 phút); `tienDo.chang[mã]=[số chặng]`;
-    chặng cũng "xong" nếu mọi từ đã có thẻ (tiến độ cũ). ghiLuot('chang'), nhiệm vụ `luot-chang`. Nói/viết/sắp xếp không ảnh hưởng lịch ôn.
+  - CẤU TRÚC BÀI HỌC (2026-11-20, theo yêu cầu người dùng): HSK → CHẶNG (= 1 bài giáo trình; nhanBai() = "Chặng N";
+    trang #/bai/<mã>) → PHẦN (~5 từ, chiaChang) → CỬA (chỉ biểu tượng ⭐ từ / 🧩 ghép / 📖 đọc). `js/man-chang.js`:
+    `#/cua/<mã>/<phần>/<cửa>`; `#/chang/<mã>/<phần>` (cũ) và `#/hoc-moi` chuyển tới cửa chưa xong đầu tiên (cuaTiepTheo).
+    Cửa TỪ: giới thiệu → nghe→nghĩa → nghe→chữ → nói theo → tô từng chữ → nghĩa→chữ (+pinyin); câu sai hỏi lại tới khi đúng
+    (tối đa 3 lần) → xong cửa từ mới vào SM-2 (0 sai → 1 ngày, 1–2 → 10 phút, ≥3 → 1 phút). Cửa GHÉP: ghép cặp + ôn từng từ
+    + sắp xếp câu. Cửa ĐỌC: đọc câu → nghĩa. Tiến độ `tienDo.cua['<mã>/<phần>']=[cửa xong]`; đủ cửa → `tienDo.chang[mã]`
+    thêm phần (tên biến cũ). Tương thích: phần trong tienDo.chang / từ đã học trước khi có cửa = xong. ghiLuot('cua'), ghiLuot('chang').
+    "🔇 Tạm bỏ nói 30′" bỏ câu nói ở mọi cửa 30 phút. Âm thanh đúng/sai: `js/am-thanh.js` (Web Audio, caiDat.amHieuUng).
   - Thẻ từ (`js/man-the-tu.js`, #/on; chế độ 'moi' cũ không còn đường vào) APP TỰ CHẤM – KHÔNG còn lật thẻ / tự bấm Quên…Dễ: mỗi thẻ là câu hỏi 4 lựa chọn
     (`js/cau-hoi-tu.js`, dùng chung với trắc nghiệm: nghia | chu | nghe | pinyin). chamDiem(): sai → Quên, > 15 giây → Khó,
     nhanh (≈5–6 giây) → Dễ (thẻ 'hoc' chỉ ở buoc ≥ 1), còn lại Nhớ. Thẻ 'hoc' buoc 0 hỏi nghe/nghĩa, sau đó chữ/pinyin;

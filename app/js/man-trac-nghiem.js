@@ -16,6 +16,7 @@ import { esc, batDongHo, nutLoa, dongTu } from './giao-dien.js';
 import { toMauPinyin, toMauChuHan, demChuHan } from './pinyin.js';
 import { bieuTuong } from './bieu-tuong.js';
 import { tron, taiDaAm, dangDungDuoc, taoCau, htmlDeBai, htmlLuaChon } from './cau-hoi-tu.js';
+import { amCham } from './am-thanh.js';
 
 const SO_CAU = 10;
 const SO_TU_TOI_THIEU = 4;   // cần ít nhất 4 từ đã học mới làm trắc nghiệm theo "từ đã học"
@@ -113,7 +114,7 @@ export function veTracNghiem(khung) {
       ${duTu
         ? `<a class="nut nut-chinh nut-rong" href="#/trac-nghiem/tron"><span class="emoji">🔀</span> Bắt đầu: trộn 4 dạng (${SO_CAU} câu)</a>`
         : `<span class="can-kiem-tra" style="display:block">Bạn mới học ${daHoc.length} từ (cần ít nhất ${SO_TU_TOI_THIEU}).
-            Hãy <a href="#/hoc-moi">học thêm từ mới</a>, hoặc <b>kiểm tra theo bài</b> ở bên dưới.</span>`}
+            Hãy <a href="#/hoc-moi">học thêm từ mới</a>, hoặc <b>kiểm tra theo chặng</b> ở bên dưới.</span>`}
     </p>
 
     <h3 class="tieu-de-muc">Chọn dạng bài <small>${Math.floor((nk.giay.nguPhap || 0) / 60)} phút hôm nay</small></h3>
@@ -122,13 +123,13 @@ export function veTracNghiem(khung) {
       ${dongDang('so-sai', { emoji: '📒', ten: 'Ôn câu sai', moTa: 'Chỉ hỏi các từ trong sổ câu sai.' }, '#/trac-nghiem/so-sai', !soSai.length)}
     </div>
 
-    <h3 class="tieu-de-muc">Kiểm tra theo bài <small>hỏi cả từ chưa học</small></h3>
+    <h3 class="tieu-de-muc">Kiểm tra theo chặng <small>hỏi cả từ chưa học</small></h3>
     ${cacCapCoDuLieu().filter(capMo).map((cap) => {
       const ds = danhSachBai(cheDoBai(caiDat()), cap).filter((b) => b.tu.length >= 4);
       if (!ds.length) return '';
       return `${cacCapCoDuLieu().length > 1 ? `<p class="chu-phu nho" style="margin:10px 2px 6px"><b>HSK ${cap}</b></p>` : ''}
       <div class="hang-chip">
-        ${ds.map((b) => `<a class="chip" href="#/trac-nghiem/bai/${b.ma}" title="${esc(b.ten)}">${b.sach ? '📖 ' : ''}Bài ${b.so}</a>`).join('')}
+        ${ds.map((b) => `<a class="chip" href="#/trac-nghiem/bai/${b.ma}" title="${esc(b.ten)}">${b.sach ? '' : '🗂️ '}${b.sach ? 'Chặng' : 'Chủ đề'} ${b.so}</a>`).join('')}
       </div>`;
     }).join('')}
 
@@ -262,6 +263,7 @@ export function vePhienTracNghiem(khung, dang, soBai = null) {
       daTraLoi = true;
       daLam++;
       const dung = cau.luaChon[i].dung;
+      amCham(dung);
       ketQua[dung ? 'dung' : 'sai']++;
       $('#vung-nut').querySelectorAll('[data-i]').forEach((b) => {
         const l = cau.luaChon[Number(b.dataset.i)];

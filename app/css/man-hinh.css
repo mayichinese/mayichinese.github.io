@@ -1113,3 +1113,42 @@ mark .tu-cham { color: inherit; font-weight: inherit; }
 .cau-hoi-doc.la-sai { border-color: #dc2626; }
 .cau-hoi-doc .nut-lua-chon .han { font-size: 1.25rem; }
 .dinh-dau { white-space: nowrap; }
+
+/* Vùng trả lời cao (4 đáp án dài + phản hồi) mà vẫn ghim đáy thì bị đẩy lên ĐÈ thẻ câu hỏi (lỗi trên điện thoại)
+   → khi có lưới đáp án / phản hồi thì để chảy bình thường, chỉ ghim nút Tiếp tục. */
+.vung-tra-loi:has(.luoi-lua-chon), .vung-tra-loi:has(.phan-hoi), .vung-tra-loi:has(.luoi-ghep) {
+  position: static; background: none;
+}
+.vung-tra-loi:has(.luoi-lua-chon) #nut-tiep, .vung-tra-loi:has(.phan-hoi) #nut-tiep {
+  position: sticky; bottom: calc(10px + env(safe-area-inset-bottom)); z-index: 2;
+}
+
+/* ==================== TRANG CHẶNG: PHẦN + CỬA (biểu tượng) ==================== */
+.the-phan { display: flex; flex-direction: column; gap: 8px; padding: 14px; }
+.the-phan.dang { border-color: var(--chinh-chu); }
+.the-phan.khoa { opacity: .6; border-style: dashed; box-shadow: none; }
+.dau-phan { display: flex; align-items: center; gap: 8px; }
+.dau-phan b { font: 700 1.05rem var(--font-tieu-de); }
+.the-phan .han-chang { margin: 0; color: var(--chu-phu); }
+.hang-cua { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 0; }
+.noi-cua { flex: 0 0 10px; height: 4px; border-radius: 2px; background: var(--vien-nhat); }
+.cua {
+  position: relative; flex: none; width: 46px; height: 46px; border-radius: 50%;
+  display: grid; place-items: center; text-decoration: none; font-size: 1.3rem;
+  background: var(--be-mat-2); border: var(--vien-rong) solid var(--vien-nhat);
+  box-shadow: 0 3px 0 var(--vien-nhat);
+}
+.cua.xong { background: var(--vang-nhat); border-color: var(--vang); box-shadow: 0 3px 0 var(--vang); }
+.cua.dang {
+  background: var(--chinh); border-color: var(--canh-chinh, var(--chinh-chu)); box-shadow: 0 4px 0 var(--canh-chinh, var(--chinh-chu));
+  animation: nhip-cua 1.6s ease-in-out infinite;
+}
+.cua.khoa { filter: grayscale(1); opacity: .45; box-shadow: none; }
+.cua:active { transform: translateY(3px); box-shadow: none; }
+.dau-xong-cua {
+  position: absolute; right: -4px; bottom: -4px; width: 18px; height: 18px; border-radius: 50%;
+  display: grid; place-items: center; font: 700 .7rem var(--font-than); font-style: normal;
+  background: #15803d; color: #fff;
+}
+@keyframes nhip-cua { 50% { transform: scale(1.08); } }
+@media (prefers-reduced-motion: reduce) { .cua.dang { animation: none; } }

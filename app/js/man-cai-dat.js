@@ -7,6 +7,7 @@ import { tatCaTu } from './du-lieu.js';
 import { doc, giongTiengTrung, choGiong } from './phat-am.js';
 import { esc, thongBao, apDungGiaoDien, dongTu, CHU_THICH_MAU_THANH } from './giao-dien.js';
 import { bieuTuong } from './bieu-tuong.js';
+import { amDung } from './am-thanh.js';
 
 export async function veCaiDat(khung) {
   const cd = caiDat();
@@ -50,6 +51,8 @@ export async function veCaiDat(khung) {
     <div class="khung khung-cai-dat">
       <div class="dong-cai-dat"><label for="cd-tu-doc">Tự đọc khi hiện đáp án</label>
         <input id="cd-tu-doc" type="checkbox" ${cd.tuPhatAm ? 'checked' : ''}></div>
+      <div class="dong-cai-dat"><label for="cd-am-hieu-ung">Âm thanh khi trả lời đúng / sai</label>
+        <input id="cd-am-hieu-ung" type="checkbox" ${cd.amHieuUng !== false ? 'checked' : ''}></div>
       <div class="dong-cai-dat"><label for="cd-toc-do">Tốc độ đọc: <b id="gt-toc-do">${cd.tocDoDoc}</b></label>
         <input id="cd-toc-do" type="range" min="0.5" max="1.2" step="0.1" value="${cd.tocDoDoc}"></div>
       <div class="dong-cai-dat"><label for="cd-giong">Giọng đọc</label>
@@ -133,6 +136,7 @@ export async function veCaiDat(khung) {
   $('#cd-on').onchange = (e) => { cd.gioiHanOnMoiNgay = soNguyen(e.target, 10, 999, 200); e.target.value = cd.gioiHanOnMoiNgay; luu(); thongBao('Đã lưu'); };
   $('#cd-viet').onchange = (e) => { cd.soChuVietMoiMoiNgay = soNguyen(e.target, 1, 30, 5); e.target.value = cd.soChuVietMoiMoiNgay; luu(); thongBao('Đã lưu'); };
   $('#cd-tu-doc').onchange = (e) => { cd.tuPhatAm = e.target.checked; luu(); };
+  $('#cd-am-hieu-ung').onchange = (e) => { cd.amHieuUng = e.target.checked; luu(); if (cd.amHieuUng) amDung(); };
   $('#cd-toc-do').oninput = (e) => { cd.tocDoDoc = Number(e.target.value); $('#gt-toc-do').textContent = cd.tocDoDoc; luu(); };
 
   // --- Sao lưu ---

@@ -16,6 +16,7 @@ import { toMauPinyin } from './pinyin.js';
 import { htmlCauCham } from './cham-tu.js';
 import { tron } from './cau-hoi-tu.js';
 import { capMo, htmlCachMoKhoa } from './cap-do.js';
+import { amCham, amXong } from './am-thanh.js';
 
 let henDuLieu = null;
 /** Tải mọi bài đọc → { mã bài: bài đọc } (thiếu file của một cấp thì bỏ qua) */
@@ -134,6 +135,7 @@ export function veDocHieu(khung, ma) {
         nut.onclick = () => {
           if (ketQua[i] !== undefined) return;
           const dung = h._luaChon[Number(nut.dataset.j)].dung;
+          amCham(dung);
           ketQua[i] = dung;
           $c.querySelectorAll('[data-j]').forEach((x) => {
             x.classList.toggle('dung', h._luaChon[Number(x.dataset.j)].dung);
@@ -160,6 +162,7 @@ export function veDocHieu(khung, ma) {
       const nk = nhatKyHomNay();
       nk.docHieu = (nk.docHieu || 0) + 1;
       ghiLuot('docHieu', soDung, tong - soDung);   // đã lưu
+      setTimeout(amXong, 350);
       luu();
       dungDongHo();
       $('#ket-qua-doc').innerHTML = `

@@ -17,6 +17,7 @@ import { bieuTuong } from './bieu-tuong.js';
 import { toMauPinyin } from './pinyin.js';
 import { taiNetChu } from './net-chu.js';
 import { htmlTongQuanTuLoai } from './man-tu-loai.js';
+import { amCham } from './am-thanh.js';
 
 const SO_CAU = 10;
 const DU_THAO = 5;   // trả lời đúng 5 lần → ô tô vàng "đã thạo"
@@ -383,6 +384,7 @@ export function vePhienChuAm(khung, loai) {
       daTraLoi = true;
       daLam++;
       const dung = cau.luaChon[i].dung;
+      amCham(dung);
       ketQua[dung ? 'dung' : 'sai']++;
       // Ghi tiến độ từng âm / bộ
       const nt = layTienDo().nenTang;

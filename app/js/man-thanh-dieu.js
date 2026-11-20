@@ -17,6 +17,7 @@ import { doc } from './phat-am.js';
 import { esc, batDongHo, nutLoa } from './giao-dien.js';
 import { tachPinyin, toMauPinyin, toMauChuHan, demChuHan } from './pinyin.js';
 import { bieuTuong } from './bieu-tuong.js';
+import { amCham } from './am-thanh.js';
 
 const SO_CAU = 10;
 const HAN = /\p{Script=Han}/u;
@@ -478,6 +479,7 @@ export function vePhienThanh(khung, dang) {
     }
 
     function xongCau(dung, nham, html) {
+      amCham(dung);
       daTraLoi = true;
       daLam++;
       ketQua[dung ? 'dung' : 'sai']++;

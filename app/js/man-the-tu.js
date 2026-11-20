@@ -21,6 +21,7 @@ import { doc, tinhTrangPhatAm } from './phat-am.js';
 import { demHomNay, taoPhien, theTiepTheo, traLoi, daXemTuMoi, conLai, tuChuaHoc, baiDangHoc } from './phien-hoc.js';
 import { htmlMatSau, batDongHo, esc } from './giao-dien.js';
 import { taiDaAm, dangDungDuoc, taoCau, htmlDeBai, htmlLuaChon, TEN_DANG } from './cau-hoi-tu.js';
+import { amCham } from './am-thanh.js';
 
 const KET_QUA = [
   { dg: DANH_GIA.QUEN, muc: 'quen', ten: 'Sai', emoji: '😵' },
@@ -180,6 +181,7 @@ export function vePhien(khung, loai, soBai = null) {
     daTraLoi = true;
     const giay = (Date.now() - batDau) / 1000;
     const dung = cau.luaChon[i].dung;
+    amCham(dung);
     const theCu = layTienDo().the[hienTai.khoa];
     const dg = chamDiem(dung, giay, cau.dang, theCu);
     const kq = KET_QUA[dg - 1];
@@ -254,7 +256,7 @@ export function vePhien(khung, loai, soBai = null) {
       loiNhan = `Bạn đã học đủ ${cd.soTuMoiMoiNgay} từ mới hôm nay. Ngày mai các từ này sẽ xuất hiện trong phần Ôn tập.`;
     } else if (soBai != null && !tuChuaHoc(soBai).length) {
       const b = timBaiTheoMa(soBai);
-      loiNhan = `Bạn đã học hết các từ của ${b ? nhanBai(b) : 'bài này'}.`;
+      loiNhan = `Bạn đã học hết các từ của ${b ? nhanBai(b) : 'chặng này'}.`;
     } else {
       loiNhan = 'Đã xong phần học từ mới.';
     }

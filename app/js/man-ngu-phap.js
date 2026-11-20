@@ -27,6 +27,7 @@ import { doc } from './phat-am.js';
 import { esc, batDongHo, nutLoa, CHU_THICH_CHAM } from './giao-dien.js';
 import { toMauPinyin } from './pinyin.js';
 import { htmlCauCham, cauDaBiet } from './cham-tu.js';
+import { amCham } from './am-thanh.js';
 
 const SO_DIEM_MOI_LUOT_ON = 6;     // lượt ôn: tối đa 6 điểm, mỗi điểm 2 bài
 const TEN_DG = { 1: 'Quên', 2: 'Khó', 3: 'Nhớ', 4: 'Dễ' };
@@ -83,8 +84,8 @@ function xongTuCuaBai(d) {
 
 /** Nhãn bài sách của một điểm: HSK 1 theo bảng theo-sach, HSK 2 theo d.bai */
 const nhanSachCuaDiem = (d) => (d.cap > 1
-  ? (d.bai ? `📖 HSK ${d.cap} · Bài ${d.bai}` : '')
-  : (baiSachCuaNguPhap(d.id) ? `📖 Sách: Bài ${baiSachCuaNguPhap(d.id)}` : ''));
+  ? (d.bai ? `📖 HSK ${d.cap} · Chặng ${d.bai}` : '')
+  : (baiSachCuaNguPhap(d.id) ? `📖 Chặng ${baiSachCuaNguPhap(d.id)}` : ''));
 
 /** Các điểm đến hạn ôn (đang học dở hoặc đã đến hạn) */
 export function diemCanOn(diem, bayGio = Date.now()) {
@@ -165,7 +166,7 @@ export async function veNguPhap(khung) {
             <span class="cong-thuc-nho han">${esc(d.congThuc[0] || '')}</span>
             <span class="hang-nhan">
               ${nhanSachCuaDiem(d) ? `<span class="nhan nhan-chinh">${nhanSachCuaDiem(d)}</span>` : ''}
-              ${xongTuCuaBai(d) ? '' : `<span class="nhan">📚 học sau Bài ${baiCuaDiem(d)}${cap > 1 ? ` HSK ${cap}` : ''}</span>`}
+              ${xongTuCuaBai(d) ? '' : `<span class="nhan">📚 học sau Chặng ${baiCuaDiem(d)}${cap > 1 ? ` HSK ${cap}` : ''}</span>`}
             </span>
             ${(d.canKiemTra || []).length ? '<span class="nhan nhan-vang">⚠️ cần kiểm tra</span>' : ''}
           </span>
@@ -204,7 +205,7 @@ export async function veDiemNguPhap(khung, ma) {
   khung.innerHTML = `
     <article class="khung bai-ngu-phap">
       <div class="goc-the"><span class="nhan nhan-chinh">Điểm ${i + 1}/${cungCap.length} · HSK ${d.cap}</span>
-        <span class="chu-phu nho">${nhanSachCuaDiem(d)}${xongTuCuaBai(d) ? '' : ' · học sau khi xong từ của bài này'}</span></div>
+        <span class="chu-phu nho">${nhanSachCuaDiem(d)}${xongTuCuaBai(d) ? '' : ' · học sau khi xong từ của chặng này'}</span></div>
       <h2>${esc(d.ten)}</h2>
       <p class="de-cuong">Đề cương: <span class="han">${esc(d.deCuong)}</span></p>
       <div class="cong-thuc">${d.congThuc.map((c) => `<div class="han">${esc(c)}</div>`).join('')}</div>
@@ -383,6 +384,7 @@ export function vePhienNguPhap(khung, ma) {
     }
 
     function xongCau(dung, html, cauDoc) {
+      amCham(dung);
       daLam++;
       const kq = ketQuaDiem.get(bt.d.id);
       kq.tong++;
