@@ -119,7 +119,7 @@
   (tranh2.txt + cap2-*.txt) bằng `python -X utf8 cong-cu/ghep-thi-thu-2.py`. Viết tay dùng Hanzi Writer, chữ thuộc 100 chữ cấp 1–2.
   Câu bộ thủ KHÔNG lấy lại 帮忙/红色/但是/不懂/点菜 của đề sách.
 - Giai đoạn 5.3 (HSK 2: đủ 200 từ, 36 điểm ngữ pháp cấp 2, thi thử HSK 2 – XONG): `cong-cu/nguon-hsk2/phan-bai.txt` (200 từ chia theo 15 bài sách 《新HSK教程 2》,
-  tên bài tự đặt) + `bai-NN.txt` (định dạng như HSK 1) → `python -X utf8 cong-cu/ghep-du-lieu-cap.py 2` → `app/data/hsk2.json`
+  tên bài theo mục lục sách, dịch tiếng Việt – đổi 2026-11-20) + `bai-NN.txt` (định dạng như HSK 1) → `python -X utf8 cong-cu/ghep-du-lieu-cap.py 2` → `app/data/hsk2.json`
   + `cong-cu/bao-cao-hsk2.txt` (đã gồm kiểm tra pinyin câu ví dụ; chữ cho phép = cấp 1–2). Từ chưa soạn không hiện, bài hiện
   "Đang soạn". Mã bài HSK 2 = '2-3' (du-lieu.js), khóa thẻ '2:<dạng gốc>'; mục trùng mặt chữ trong cùng cấp: `过(guo)`.
   Từ mới đi theo thứ tự HSK 1 → HSK 2. `tao-du-lieu-thanh-dieu.py` đọc mọi `hsk[0-9].json`. Soạn HSK 2: dừng báo sau mỗi 3 bài.
