@@ -220,6 +220,237 @@
      "dich": "Chị gái của Tiểu Văn không bận."
     }
    ]
+  },
+  {
+   "so": 4,
+   "ten": "Nhà mình có bốn người",
+   "kieu": "doan-van",
+   "cau": [
+    {
+     "ai": "",
+     "han": "我叫小明。我家有四口人：爸爸、妈妈、姐姐和我。",
+     "pinyin": "Wǒ jiào Xiǎo Míng. Wǒ jiā yǒu sì kǒu rén: bàba, māma, jiějie hé wǒ.",
+     "dich": "Mình tên là Tiểu Minh. Nhà mình có bốn người: bố, mẹ, chị gái và mình."
+    },
+    {
+     "ai": "",
+     "han": "我爸爸是老师，他很忙。",
+     "pinyin": "Wǒ bàba shì lǎoshī, tā hěn máng.",
+     "dich": "Bố mình là giáo viên, bố rất bận."
+    },
+    {
+     "ai": "",
+     "han": "我妈妈不工作。",
+     "pinyin": "Wǒ māma bù gōngzuò.",
+     "dich": "Mẹ mình không đi làm."
+    },
+    {
+     "ai": "",
+     "han": "我姐姐今年二十岁，她是学生。",
+     "pinyin": "Wǒ jiějie jīnnián èrshí suì, tā shì xuéshēng.",
+     "dich": "Chị gái mình năm nay hai mươi tuổi, chị ấy là sinh viên."
+    },
+    {
+     "ai": "",
+     "han": "我没有哥哥，也没有妹妹。",
+     "pinyin": "Wǒ méiyǒu gēge, yě méiyǒu mèimei.",
+     "dich": "Mình không có anh trai, cũng không có em gái."
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "小明家有几口人？",
+     "dapAn": "四口",
+     "nhieu": [
+      "三口",
+      "五口"
+     ],
+     "dich": "Nhà Tiểu Minh có mấy người?"
+    },
+    {
+     "loai": "chon",
+     "hoi": "小明的姐姐今年多大？",
+     "dapAn": "二十岁",
+     "nhieu": [
+      "十二岁",
+      "二十二岁"
+     ],
+     "dich": "Năm nay chị gái của Tiểu Minh bao nhiêu tuổi?"
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小明的爸爸是老师。",
+     "dung": true,
+     "dich": "Bố của Tiểu Minh là giáo viên."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小明有一个哥哥。",
+     "dung": false,
+     "dich": "Tiểu Minh có một anh trai."
+    }
+   ]
+  },
+  {
+   "so": 5,
+   "ten": "Chủ nhật bạn làm gì?",
+   "kieu": "hoi-thoai",
+   "cau": [
+    {
+     "ai": "小文",
+     "han": "今天星期几？",
+     "pinyin": "Jīntiān xīngqī jǐ?",
+     "dich": "Hôm nay thứ mấy?"
+    },
+    {
+     "ai": "小明",
+     "han": "今天星期天。",
+     "pinyin": "Jīntiān xīngqītiān.",
+     "dich": "Hôm nay Chủ nhật."
+    },
+    {
+     "ai": "小文",
+     "han": "星期天你做什么？",
+     "pinyin": "Xīngqītiān nǐ zuò shénme?",
+     "dich": "Chủ nhật bạn làm gì?"
+    },
+    {
+     "ai": "小明",
+     "han": "我休息。我会做饭，我做饺子。",
+     "pinyin": "Wǒ xiūxi. Wǒ huì zuò fàn, wǒ zuò jiǎozi.",
+     "dich": "Mình nghỉ ngơi. Mình biết nấu ăn, mình làm sủi cảo."
+    },
+    {
+     "ai": "小文",
+     "han": "你真好！我很喜欢饺子。",
+     "pinyin": "Nǐ zhēn hǎo! Wǒ hěn xǐhuan jiǎozi.",
+     "dich": "Bạn giỏi thật! Mình rất thích sủi cảo."
+    },
+    {
+     "ai": "小明",
+     "han": "你也喜欢面条儿吗？",
+     "pinyin": "Nǐ yě xǐhuan miàntiáor ma?",
+     "dich": "Bạn có thích cả mì không?"
+    },
+    {
+     "ai": "小文",
+     "han": "我不喜欢面条儿，我喜欢饺子。",
+     "pinyin": "Wǒ bù xǐhuan miàntiáor, wǒ xǐhuan jiǎozi.",
+     "dich": "Mình không thích mì, mình thích sủi cảo."
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "今天星期几？",
+     "dapAn": "星期天",
+     "nhieu": [
+      "星期一",
+      "星期六"
+     ],
+     "dich": "Hôm nay thứ mấy?"
+    },
+    {
+     "loai": "chon",
+     "hoi": "星期天小明做什么？",
+     "dapAn": "做饺子",
+     "nhieu": [
+      "做面条儿",
+      "工作"
+     ],
+     "dich": "Chủ nhật Tiểu Minh làm gì?"
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小明会做饭。",
+     "dung": true,
+     "dich": "Tiểu Minh biết nấu ăn."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "小文喜欢面条儿。",
+     "dung": false,
+     "dich": "Tiểu Văn thích mì."
+    }
+   ]
+  },
+  {
+   "so": 6,
+   "ten": "Đi siêu thị",
+   "kieu": "hoi-thoai",
+   "cau": [
+    {
+     "ai": "妈妈",
+     "han": "小明，明天我们去超市买东西。",
+     "pinyin": "Xiǎo Míng, míngtiān wǒmen qù chāoshì mǎi dōngxi.",
+     "dich": "Tiểu Minh, ngày mai chúng ta đi siêu thị mua đồ nhé."
+    },
+    {
+     "ai": "小明",
+     "han": "好！我们怎么去？",
+     "pinyin": "Hǎo! Wǒmen zěnme qù?",
+     "dich": "Vâng ạ! Chúng ta đi bằng gì ạ?"
+    },
+    {
+     "ai": "妈妈",
+     "han": "我们坐出租车去。",
+     "pinyin": "Wǒmen zuò chūzūchē qù.",
+     "dich": "Chúng ta đi taxi."
+    },
+    {
+     "ai": "小明",
+     "han": "妈妈，我想买包子和牛奶。",
+     "pinyin": "Māma, wǒ xiǎng mǎi bāozi hé niúnǎi.",
+     "dich": "Mẹ ơi, con muốn mua bánh bao và sữa."
+    },
+    {
+     "ai": "妈妈",
+     "han": "好。晚饭我们吃米饭。",
+     "pinyin": "Hǎo. Wǎnfàn wǒmen chī mǐfàn.",
+     "dich": "Được. Bữa tối chúng ta ăn cơm."
+    },
+    {
+     "ai": "小明",
+     "han": "超市的包子非常好吃！",
+     "pinyin": "Chāoshì de bāozi fēicháng hǎochī!",
+     "dich": "Bánh bao ở siêu thị ngon lắm!"
+    }
+   ],
+   "hoi": [
+    {
+     "loai": "chon",
+     "hoi": "他们明天去哪儿？",
+     "dapAn": "超市",
+     "nhieu": [
+      "中国",
+      "老师家"
+     ],
+     "dich": "Ngày mai họ đi đâu?"
+    },
+    {
+     "loai": "chon",
+     "hoi": "小明想买什么？",
+     "dapAn": "包子和牛奶",
+     "nhieu": [
+      "米饭和牛奶",
+      "包子和手机"
+     ],
+     "dich": "Tiểu Minh muốn mua gì?"
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "他们坐出租车去超市。",
+     "dung": true,
+     "dich": "Họ đi taxi đến siêu thị."
+    },
+    {
+     "loai": "dungSai",
+     "hoi": "晚饭他们吃饺子。",
+     "dung": false,
+     "dich": "Bữa tối họ ăn sủi cảo."
+    }
+   ]
   }
  ]
 }

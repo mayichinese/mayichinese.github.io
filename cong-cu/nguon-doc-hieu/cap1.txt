@@ -52,3 +52,57 @@ $ 小明; 小文
 != Chị gái của Tiểu Văn là người Trung Quốc.
 ! 小文的姐姐不忙。 | sai
 != Chị gái của Tiểu Văn không bận.
+
+## 4
+@ Nhà mình có bốn người
+% doan-van
+> 我叫小明。我家有四口人：爸爸、妈妈、姐姐和我。 | Wǒ jiào Xiǎo Míng. Wǒ jiā yǒu sì kǒu rén: bàba, māma, jiějie hé wǒ. | Mình tên là Tiểu Minh. Nhà mình có bốn người: bố, mẹ, chị gái và mình.
+> 我爸爸是老师，他很忙。 | Wǒ bàba shì lǎoshī, tā hěn máng. | Bố mình là giáo viên, bố rất bận.
+> 我妈妈不工作。 | Wǒ māma bù gōngzuò. | Mẹ mình không đi làm.
+> 我姐姐今年二十岁，她是学生。 | Wǒ jiějie jīnnián èrshí suì, tā shì xuéshēng. | Chị gái mình năm nay hai mươi tuổi, chị ấy là sinh viên.
+> 我没有哥哥，也没有妹妹。 | Wǒ méiyǒu gēge, yě méiyǒu mèimei. | Mình không có anh trai, cũng không có em gái.
+? 小明家有几口人？ | 四口 | 三口; 五口
+?= Nhà Tiểu Minh có mấy người?
+? 小明的姐姐今年多大？ | 二十岁 | 十二岁; 二十二岁
+?= Năm nay chị gái của Tiểu Minh bao nhiêu tuổi?
+! 小明的爸爸是老师。 | đúng
+!= Bố của Tiểu Minh là giáo viên.
+! 小明有一个哥哥。 | sai
+!= Tiểu Minh có một anh trai.
+
+## 5
+@ Chủ nhật bạn làm gì?
+% hoi-thoai
+> 小文 | 今天星期几？ | Jīntiān xīngqī jǐ? | Hôm nay thứ mấy?
+> 小明 | 今天星期天。 | Jīntiān xīngqītiān. | Hôm nay Chủ nhật.
+> 小文 | 星期天你做什么？ | Xīngqītiān nǐ zuò shénme? | Chủ nhật bạn làm gì?
+> 小明 | 我休息。我会做饭，我做饺子。 | Wǒ xiūxi. Wǒ huì zuò fàn, wǒ zuò jiǎozi. | Mình nghỉ ngơi. Mình biết nấu ăn, mình làm sủi cảo.
+> 小文 | 你真好！我很喜欢饺子。 | Nǐ zhēn hǎo! Wǒ hěn xǐhuan jiǎozi. | Bạn giỏi thật! Mình rất thích sủi cảo.
+> 小明 | 你也喜欢面条儿吗？ | Nǐ yě xǐhuan miàntiáor ma? | Bạn có thích cả mì không?
+> 小文 | 我不喜欢面条儿，我喜欢饺子。 | Wǒ bù xǐhuan miàntiáor, wǒ xǐhuan jiǎozi. | Mình không thích mì, mình thích sủi cảo.
+? 今天星期几？ | 星期天 | 星期一; 星期六
+?= Hôm nay thứ mấy?
+? 星期天小明做什么？ | 做饺子 | 做面条儿; 工作
+?= Chủ nhật Tiểu Minh làm gì?
+! 小明会做饭。 | đúng
+!= Tiểu Minh biết nấu ăn.
+! 小文喜欢面条儿。 | sai
+!= Tiểu Văn thích mì.
+
+## 6
+@ Đi siêu thị
+% hoi-thoai
+> 妈妈 | 小明，明天我们去超市买东西。 | Xiǎo Míng, míngtiān wǒmen qù chāoshì mǎi dōngxi. | Tiểu Minh, ngày mai chúng ta đi siêu thị mua đồ nhé.
+> 小明 | 好！我们怎么去？ | Hǎo! Wǒmen zěnme qù? | Vâng ạ! Chúng ta đi bằng gì ạ?
+> 妈妈 | 我们坐出租车去。 | Wǒmen zuò chūzūchē qù. | Chúng ta đi taxi.
+> 小明 | 妈妈，我想买包子和牛奶。 | Māma, wǒ xiǎng mǎi bāozi hé niúnǎi. | Mẹ ơi, con muốn mua bánh bao và sữa.
+> 妈妈 | 好。晚饭我们吃米饭。 | Hǎo. Wǎnfàn wǒmen chī mǐfàn. | Được. Bữa tối chúng ta ăn cơm.
+> 小明 | 超市的包子非常好吃！ | Chāoshì de bāozi fēicháng hǎochī! | Bánh bao ở siêu thị ngon lắm!
+? 他们明天去哪儿？ | 超市 | 中国; 老师家
+?= Ngày mai họ đi đâu?
+? 小明想买什么？ | 包子和牛奶 | 米饭和牛奶; 包子和手机
+?= Tiểu Minh muốn mua gì?
+! 他们坐出租车去超市。 | đúng
+!= Họ đi taxi đến siêu thị.
+! 晚饭他们吃饺子。 | sai
+!= Bữa tối họ ăn sủi cảo.
