@@ -21,7 +21,7 @@ import { diemThiCaoNhat, thangDiem, diemCuaLan } from './man-thi-thu.js';
 const CAC_PHAN = [
   { ma: 'on', ten: 'Ôn từ' },
   { ma: 'moi', ten: 'Từ mới' },
-  { ma: 'nghe', ten: 'Thanh điệu' },
+  { ma: 'nghe', ten: 'Nghe & nói' },
   { ma: 'viet', ten: 'Viết chữ' },
   { ma: 'nguPhap', ten: 'Trắc nghiệm & ngữ pháp' },
 ];

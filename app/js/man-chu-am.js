@@ -117,6 +117,7 @@ function htmlPhienAm(dl) {
       <b>Cùng học phiên âm tiếng Trung!</b>
       <span class="chu-phu nho">Mỗi âm tiết = âm đầu + vần + thanh điệu. Chạm vào ô để nghe và xem mẹo đọc.</span>
       <a class="nut nut-chinh nut-rong" href="#/chu-am/luyen/phien-am">🎧 Luyện nghe phiên âm (${SO_CAU} câu)</a>
+      <a class="nut nut-rong" href="#/luyen-noi/doc-tu">🎤 Luyện đọc: máy chấm phát âm</a>
     </section>
 
     <h3 class="tieu-de-muc">Thanh điệu <small>chạm để nghe</small></h3>

@@ -21,6 +21,7 @@ const NET_VE = {
   'thi':       '<rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V2.5h6V4"/><path d="m9 13 2 2 4-4"/>',
   'chu':       '<path d="M4 7V5h16v2"/><path d="M12 5v14"/><path d="M8 19h8"/><path d="M5 12h4M15 12h4"/>',
   'nguoi':     '<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>',
+  'mic':       '<rect x="9" y="2.5" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3.5M8.5 21.5h7"/>',
 };
 
 /**

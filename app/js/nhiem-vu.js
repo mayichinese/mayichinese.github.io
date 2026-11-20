@@ -12,6 +12,7 @@
 import { layTienDo, nhatKyHomNay, ngayHoc, phutMoiNgay, tongPhutNgay, luu, GIO_BAT_DAU_NGAY } from './luu-tru.js';
 import { tatCaTu } from './du-lieu.js';
 import { demHomNay, tuChuaHoc } from './phien-hoc.js';
+import { coNhanDang } from './nhan-giong.js';
 
 export const MUC_THANG = 50;
 const luot = (nk, loai) => nk.luot?.[loai] || 0;
@@ -29,10 +30,12 @@ const MAU = [
     href: '#/luyen-viet/phien', cac: [3, 5, 8] },
   { ma: 'cau-tn', nhom: 'so-luong', emoji: '📝', ten: (n) => `Trả lời ${n} câu trắc nghiệm`, dem: (nk) => nk.tracNghiem || 0,
     href: '#/trac-nghiem/tron', cac: [10, 20, 30], dk: (ng) => ng.daHoc >= 4 },
+  { ma: 'noi', nhom: 'so-luong', emoji: '🎤', ten: (n) => `Nói đạt ${n} câu (từ 70 điểm)`, dem: (nk) => nk.noi || 0,
+    href: '#/luyen-noi/doc-tu', cac: [5, 10, 15], dk: (ng) => ng.coMic },
   // ----- Thời gian -----
   { ma: 'phut', nhom: 'thoi-gian', emoji: '⏱️', ten: (n) => `Học đủ ${n} phút`, dem: (nk) => tongPhutNgay(nk),
     href: '', cac: (ng) => [Math.max(5, Math.round(ng.mucTieu / 2)), ng.mucTieu] },
-  { ma: 'phut-nghe', nhom: 'thoi-gian', emoji: '🎧', ten: (n) => `Luyện nghe & thanh điệu ${n} phút`,
+  { ma: 'phut-nghe', nhom: 'thoi-gian', emoji: '🎧', ten: (n) => `Luyện nghe & nói ${n} phút`,
     dem: (nk) => Math.floor((nk.giay?.nghe || 0) / 60), href: '#/thanh-dieu', cac: [3, 5, 10] },
   { ma: 'phut-viet', nhom: 'thoi-gian', emoji: '✍️', ten: (n) => `Luyện viết chữ ${n} phút`,
     dem: (nk) => Math.floor((nk.giay?.viet || 0) / 60), href: '#/luyen-viet/phien', cac: [3, 5, 10] },
@@ -47,6 +50,8 @@ const MAU = [
     href: '#/chu-am/luyen/phien-am', cac: [1, 2] },
   { ma: 'luot-bt', nhom: 'dang-bai', emoji: '🧱', ten: (n) => `Hoàn thành ${n} lượt luyện bộ thủ`, dem: (nk) => luot(nk, 'boThu'),
     href: '#/chu-am/luyen/bo-thu', cac: [1] },
+  { ma: 'luot-noi', nhom: 'dang-bai', emoji: '🗣️', ten: (n) => `Hoàn thành ${n} lượt luyện nói`, dem: (nk) => luot(nk, 'noi'),
+    href: '#/luyen-noi', cac: [1, 2], dk: (ng) => ng.coMic },
   // ----- Độ chính xác -----
   { ma: 'tot', nhom: 'chinh-xac', emoji: '🎯', ten: (n) => `Hoàn thành ${n} lượt đúng từ 80% trở lên`, dem: (nk) => nk.luotTot || 0,
     href: '#/luyen-tap', cac: [1, 2, 3] },
@@ -57,7 +62,7 @@ const MAU_THEO_MA = Object.fromEntries(MAU.map((m) => [m.ma, m]));
 // Chủ đề của từng mẫu: 3 nhiệm vụ trong ngày không trùng chủ đề (vd. không giao 2 nhiệm vụ đều về thanh điệu)
 const CHU_DE = {
   on: 'on', moi: 'moi', thanh: 'nghe', 'phut-nghe': 'nghe', 'luot-thanh': 'nghe', viet: 'viet', 'phut-viet': 'viet',
-  'cau-tn': 'tn', 'luot-tn': 'tn', 'luot-np': 'np', 'luot-pa': 'pa', 'luot-bt': 'bt', phut: 'phut', tot: 'chinh-xac', 'hoan-hao': 'chinh-xac',
+  'cau-tn': 'tn', 'luot-tn': 'tn', 'luot-np': 'np', 'luot-pa': 'pa', 'luot-bt': 'bt', noi: 'noi', 'luot-noi': 'noi', phut: 'phut', tot: 'chinh-xac', 'hoan-hao': 'chinh-xac',
 };
 
 /** Số ngẫu nhiên "có hạt giống" theo ngày: cùng một ngày luôn ra cùng kết quả */
@@ -80,6 +85,7 @@ function nguCanh() {
     conTuMoi: Math.min(dem.conTuMoi, tuChuaHoc().length),
     daHoc: tatCaTu().filter((t) => td.the[t.khoa]).length,
     mucTieu: phutMoiNgay(),
+    coMic: coNhanDang(),   // máy chấm phát âm được thì mới giao nhiệm vụ nói
   };
 }
 

@@ -35,6 +35,13 @@
     phiên âm / bộ thủ; tiến độ `tienDo.nenTang.dung/sai` theo "d:zh", "v:ang", "b:氵". Dữ liệu `data/nen-tang.json` tạo từ
     `cong-cu/nguon-nen-tang/*.txt` bằng `python -X utf8 cong-cu/tao-nen-tang.py` (cần makemeahanzi-dictionary.txt và
     Unihan_Readings.txt trong `cong-cu/tu-dien-doi-chieu/`; ví dụ nghe lấy tự động, bỏ chữ đa âm).
+  - `js/man-luyen-noi.js` (Nói & phát âm, `#/luyen-noi[/doc-tu|doc-cau|nhac-lai|noi-nghia]`, ô rộng đầu "Luyện kỹ năng" của Ôn luyện;
+    nút "🎤 Đọc thử" trên mặt sau thẻ từ → moChamNhanh qua `data-noi-thu`). `js/nhan-giong.js`: Web Speech SpeechRecognition zh-CN
+    (cần mạng) + MediaRecorder ghi âm tự chấm khi không có nhận dạng. `js/cham-phat-am.js`: dóng hàng chữ nghe được với câu đúng theo
+    CÁCH ĐỌC (đồng âm cùng thanh = đúng, cùng âm khác thanh = ½), đổi số Ả Rập → chữ Hán. Bảng `data/am-doc.json` (8105 chữ
+    kTGHZ2013) tạo bằng `python -X utf8 cong-cu/tao-am-doc.py` (cần Unihan_Readings.txt). Tiến độ `tienDo.noi` (tu/dung/sai theo
+    âm tiết), `nk.noi` = số câu ≥ 70 điểm, ghiLuot('noi'); thời gian tính vào phần `nghe` ("Nghe & nói"). Nhiệm vụ `noi`/`luot-noi`
+    chỉ giao khi máy có SpeechRecognition.
   - Giao diện: `js/app.js` (khởi động, chuyển màn hình), `js/giao-dien.js` (mảnh dùng chung, sáng/tối),
     mỗi màn hình một file `js/man-*.js`; `js/pinyin.js` tô màu thanh điệu (tắt được: caiDat.tatMauThanh → lớp body .khong-mau-thanh; chú thích CHU_THICH_MAU_THANH); `css/style.css` (biến màu
     sáng/tối theo logo) + `css/man-hinh.css`.

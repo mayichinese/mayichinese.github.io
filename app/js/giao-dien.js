@@ -208,6 +208,7 @@ export function htmlMatSau(tu) {
       ${kiemTra}
       <div class="chan-mat-sau">
         <button class="nut nut-nho" data-cach-viet="${esc(tu.hanzi)}"><span class="emoji">✍️</span> Cách viết</button>
+        <button class="nut nut-nho" data-noi-thu="${esc(tu.hanzi)}" data-py="${esc(tu.pinyin)}"><span class="emoji">🎤</span> Đọc thử</button>
         <a class="lien-ket-ngoai" href="https://hanzii.net/search/word/${encodeURIComponent(tu.hanzi)}?hl=vi" target="_blank" rel="noopener">Tra thêm trên Hanzii ↗</a>
       </div>
     </div>`;

@@ -59,6 +59,8 @@ function tienDoTrong() {
     capDaMo: [1],
     // Chữ & âm: số lần đúng/sai theo từng âm đầu / vần ("d:b", "v:ang") và từng bộ thủ ("b:氵")
     nenTang: { dung: {}, sai: {} },
+    // Nói & phát âm (man-luyen-noi.js): điểm gần nhất của từng từ, số lần đọc đúng/sai theo âm tiết ("shì")
+    noi: { tu: {}, dung: {}, sai: {}, soCau: 0, tongDiem: 0 },
     caiDat: { ...CAI_DAT_MAC_DINH },
     saoLuuLanCuoi: null,
   };
@@ -98,6 +100,10 @@ function hopNhat(cu) {
     thiThu: Array.isArray(cu.thiThu) ? cu.thiThu : [],
     capDaMo: Array.isArray(cu.capDaMo) && cu.capDaMo.length ? cu.capDaMo : [1],
     nenTang: { dung: { ...(cu.nenTang?.dung || {}) }, sai: { ...(cu.nenTang?.sai || {}) } },
+    noi: {
+      ...moi.noi, ...(cu.noi || {}),
+      tu: { ...(cu.noi?.tu || {}) }, dung: { ...(cu.noi?.dung || {}) }, sai: { ...(cu.noi?.sai || {}) },
+    },
   };
 }
 
@@ -145,7 +151,7 @@ export function tongPhutNgay(nk = nhatKyHomNay()) {
 
 /**
  * Ghi lại một LƯỢT bài đã làm xong (dùng cho nhiệm vụ hằng ngày).
- * @param {string} loai  tracNghiem | thanh | nguPhap | phienAm | boThu
+ * @param {string} loai  tracNghiem | thanh | nguPhap | phienAm | boThu | noi
  *   nk.luot[loai]: số lượt · nk.luotTot: số lượt đúng ≥ 80% · nk.luotHoanHao: số lượt không sai câu nào
  */
 export function ghiLuot(loai, dung, sai) {
@@ -167,7 +173,7 @@ export function congGiay(phan, soGiay) {
 /** Ngày này có học không: học/ôn thẻ từ, luyện viết, luyện thanh điệu hoặc làm trắc nghiệm. */
 export function coHocNgay(nk) {
   return !!nk && (nk.moi > 0 || nk.on > 0 || nk.viet > 0 || nk.thanh > 0 || nk.tracNghiem > 0 || nk.nguPhap > 0 || nk.thiThu > 0
-    || nk.nenTang > 0);
+    || nk.nenTang > 0 || nk.noi > 0);
 }
 
 /** Số ngày học liên tục tính đến hôm nay (hoặc hôm qua nếu hôm nay chưa học). */

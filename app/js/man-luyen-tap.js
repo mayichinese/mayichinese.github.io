@@ -3,7 +3,7 @@
 //   1. Cần ôn hôm nay: mọi thứ đã đến hạn, mỗi dòng bấm là vào ôn ngay
 //        🔁 Từ vựng  → #/on                 🧩 Ngữ pháp → #/ngu-phap/on
 //        ✍️ Chữ viết → #/luyen-viet/phien    📒 Sổ câu sai → #/trac-nghiem/so-sai
-//   2. Luyện kỹ năng (4 ô):
+//   2. Luyện kỹ năng (ô rộng 🎤 Nói & phát âm → #/luyen-noi, rồi 4 ô):
 //        🎧 Nghe & thanh điệu → #/thanh-dieu    ✍️ Viết chữ Hán → #/luyen-viet
 //        📝 Trắc nghiệm từ    → #/trac-nghiem   🧩 Ngữ pháp     → #/ngu-phap
 // Thi thử có mục riêng trên thanh điều hướng.
@@ -17,6 +17,8 @@ import { demHomNay } from './phien-hoc.js';
 import { bieuTuong } from './bieu-tuong.js';
 
 const KY_NANG = [
+  { ma: 'noi', emoji: '🎤', ten: 'Nói & phát âm', href: '#/luyen-noi', rong: true,
+    moTa: 'Đọc to, máy chấm từng chữ · nghe và nhắc lại · nói theo nghĩa' },
   { ma: 'nghe', emoji: '🎧', ten: 'Nghe & thanh điệu', href: '#/thanh-dieu', phut: 'nghe',
     moTa: 'Nghe chọn thanh, biến điệu 不/一' },
   { ma: 'viet', emoji: '✍️', ten: 'Viết chữ Hán', href: '#/luyen-viet', phut: 'viet',
@@ -65,12 +67,12 @@ export function veLuyenTap(khung) {
     <h3 class="tieu-de-muc">Luyện kỹ năng</h3>
     <div class="luoi-ky-nang">
       ${KY_NANG.map((k) => `
-        <a class="o-ky-nang khung phan-${k.ma}" href="${k.href}">
+        <a class="o-ky-nang khung phan-${k.ma}${k.rong ? ' o-ky-nang-rong' : ''}" href="${k.href}">
           <span class="o-emoji emoji">${k.emoji}</span>
           <b>${k.ten}</b>
           <span class="chu-phu nho">${k.moTa}</span>
         </a>`).join('')}
     </div>
-    <p class="chu-phu nho" style="margin-top:14px">Hôm nay: thanh điệu ${Math.floor((nk.giay.nghe || 0) / 60)}′ ·
+    <p class="chu-phu nho" style="margin-top:14px">Hôm nay: nghe & nói ${Math.floor((nk.giay.nghe || 0) / 60)}′ ·
       viết ${Math.floor((nk.giay.viet || 0) / 60)}′ · ngữ pháp & trắc nghiệm ${Math.floor((nk.giay.nguPhap || 0) / 60)}′</p>`;
 }

@@ -58,7 +58,7 @@ Tiến độ trên máy tính và trên điện thoại là **hai bản riêng**
 |---|---|
 | 🏠 **Hôm nay** | Trả lời câu hỏi "hôm nay học gì?": nút lớn **Tiếp tục** (app tự chọn việc nên làm tiếp), số phút đã học so với **mục tiêu bạn tự chọn**, chuỗi ngày học, **3 nhiệm vụ hằng ngày**, **nhiệm vụ tháng** và **bài đang học** |
 | 📚 **Bài học** | **Lộ trình** học: chọn cấp (**HSK 1 / 2 / 3**, mỗi nút hiện % đã học), các bài nối nhau theo thứ tự, bài đang học tô đỏ, bài xong có dấu ✓. Tra từ (chữ Hán, pinyin, nghĩa, Hán Việt) ở ô tìm kiếm. Hai cách chia bài: **🗂️ Theo chủ đề** (HSK 1: 20 bài, HSK 2: 16 bài, HSK 3: 31 bài) hoặc **📖 Theo sách** 《新HSK教程》 (15 / 15 / 18 bài, có ngữ pháp từng bài) – đổi lúc nào cũng được, tiến độ giữ nguyên. Mở một bài sẽ thấy **3 bước: ① Học từ mới → ② Ngữ pháp của bài → ③ Kiểm tra bài**, rồi danh sách từ |
-| 🏋️ **Ôn luyện** | **Cần ôn hôm nay**: từ vựng, ngữ pháp, chữ viết đến hạn và sổ câu sai – mỗi dòng bấm là vào ôn. **Luyện kỹ năng**: 🎧 Nghe & thanh điệu, ✍️ Viết chữ Hán, 📝 Trắc nghiệm từ, 🧩 Ngữ pháp (thư viện 122 điểm HSK 1–3) |
+| 🏋️ **Ôn luyện** | **Cần ôn hôm nay**: từ vựng, ngữ pháp, chữ viết đến hạn và sổ câu sai – mỗi dòng bấm là vào ôn. **Luyện kỹ năng**: 🎤 Nói & phát âm (mới), 🎧 Nghe & thanh điệu, ✍️ Viết chữ Hán, 📝 Trắc nghiệm từ, 🧩 Ngữ pháp (thư viện 122 điểm HSK 1–3) |
 | 🔤 **Chữ & âm** | Nền tảng: **Phiên âm** (bảng thanh điệu, 23 âm đầu, 35 vần – chạm để nghe, có mẹo đọc so với tiếng Việt; bài **Luyện nghe phiên âm** 10 câu), **Nét cơ bản** (18 nét + 7 quy tắc thứ tự nét, chạm để xem viết), **Bộ thủ** (45 bộ hay gặp, chữ ví dụ trong HSK 1–3 có tô màu bộ thủ; bài **Luyện bộ thủ** 10 câu). Ô chuyển vàng khi bạn đã đúng 5 lần |
 | 📋 **Thi thử** | Đề mô phỏng HSK 1 · 2 · 3, tính giờ, chấm điểm, lịch sử điểm |
 | 👤 **Tôi** | Lối vào **Cài đặt & sao lưu**, chuỗi ngày học (hiện tại, dài nhất), biểu đồ số phút học 7 / 30 ngày, tiến độ từng cấp, tỉ lệ đúng, **những từ hay sai nhất**, chữ viết hay sai, thanh hay nhầm |
@@ -78,6 +78,11 @@ thanh 1 **đỏ**, thanh 2 **cam**, thanh 3 **xanh lá**, thanh 4 **xanh dương
 **Mở khóa cấp HSK:** bắt đầu từ HSK 1; **HSK 2 mở khi bạn học hết HSK 1** hoặc **học vượt** bằng cách đạt bài **thi thử HSK 1** (từ 120/200). HSK 3 mở tương tự sau HSK 2. Cấp đang khóa hiện 🔒: vẫn xem được tên bài nhưng chưa học được từ, ngữ pháp, chữ viết cấp 3 và thi thử của cấp đó. Cấp đã mở thì không bao giờ bị khóa lại.
 
 Nút **Tiếp tục** trên khung chào chọn sẵn việc nên làm: ôn thẻ đến hạn → học từ mới → nhiệm vụ chưa xong. Các phần học dưới đây vẫn vào được bất cứ lúc nào từ **Bài học**, **Ôn luyện** và **Chữ & âm**.
+
+**🎤 Nói & phát âm (chấm bằng micro):** vào **Ôn luyện → Nói & phát âm**. Có 4 dạng: **Đọc từ**, **Đọc câu**, **Nghe & nhắc lại** (chỉ nghe, không nhìn chữ) và **Nói theo nghĩa** (nhìn nghĩa tiếng Việt, tự nói tiếng Trung). Bấm nút 🎤 màu vàng rồi đọc to: máy nghe, viết ra chữ Hán và chấm **từng chữ** – ô xanh là đúng, ô cam là **đúng âm nhưng sai thanh** (có ghi "bạn: shí" để biết bạn đã đọc thành gì), ô đỏ là sai hoặc thiếu. Điểm từ 70 trở lên là đạt; được thử lại nhiều lần, app giữ điểm cao nhất. Trên thẻ từ (mặt sau) cũng có nút **🎤 Đọc thử** để kiểm tra nhanh một từ.
+- Cần **kết nối mạng** và cho phép app dùng micro (lần đầu điện thoại sẽ hỏi). Dùng tốt nhất trên **Chrome** (Android, máy tính). iPhone: dùng Safari và bật *Cài đặt → Cài đặt chung → Bàn phím → Đọc chính tả*. App không lưu giọng nói của bạn.
+- Máy không chấm được (trình duyệt không hỗ trợ): bạn vẫn bấm 🎤 để **ghi âm**, nghe lại giọng mình, so với giọng mẫu và tự đánh giá.
+- Cách chấm là "máy có nghe hiểu bạn nói không" (giống một người Trung nghe), nên đọc rõ và đủ to; nơi ồn ào điểm sẽ thấp hơn thực tế.
 
 1. **Ôn từ đến hạn (~15 phút):** app đưa ra chữ Hán trong ô chữ điền. Bạn tự nhớ lại cách đọc và nghĩa → chạm vào thẻ hoặc bấm **Lật thẻ** → tự chấm điểm:
    - **Quên:** không nhớ, sẽ hỏi lại sau vài phút.

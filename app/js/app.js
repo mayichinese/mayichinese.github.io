@@ -29,6 +29,7 @@
 //   #/ngu-phap/on             ôn các điểm đến hạn
 //   #/chu-am[/phien-am|net|bo-thu]  Chữ & âm: tra cứu phiên âm, nét cơ bản, bộ thủ → man-chu-am.js
 //   #/chu-am/luyen/<phien-am|bo-thu>  lượt luyện 10 câu
+//   #/luyen-noi[/<dạng>]  Nói & phát âm: chấm phát âm bằng micro → man-luyen-noi.js
 //   #/thi-thu[/cap/2] Thi thử HSK 1 / 2 / 3: giới thiệu → man-thi-thu.js  #/thi-thu/lam  đề HSK 1 · #/thi-thu/lam/2 · #/thi-thu/lam/3
 //   #/toi          Tôi: tiến độ, thống kê       → man-thong-ke.js   (#/thong-ke: địa chỉ cũ, vẫn dùng được)
 //   #/cai-dat      Cài đặt, sao lưu (mở từ "Tôi") → man-cai-dat.js
@@ -52,6 +53,7 @@ import { veNguPhap, veDiemNguPhap, vePhienNguPhap } from './man-ngu-phap.js';
 import { veThiThu, veLamBai } from './man-thi-thu.js';
 import { veChuAm, vePhienChuAm } from './man-chu-am.js';
 import { capMo } from './cap-do.js';
+import { veLuyenNoi, vePhienNoi, moChamNhanh, CAC_DANG_NOI } from './man-luyen-noi.js';
 
 const $noiDung = () => document.getElementById('noi-dung');
 let donDep = null; // hàm dọn dẹp của màn hình trước (tắt đồng hồ, bỏ phím tắt…)
@@ -71,7 +73,7 @@ function veTheoDiaChi() {
   let mucChon = {
     '': 'trang-chu', bai: 'bai', tu: 'bai', 'hoc-moi': 'bai',
     on: 'luyen-tap', 'luyen-tap': 'luyen-tap', 'luyen-viet': 'luyen-tap', 'thanh-dieu': 'luyen-tap',
-    'trac-nghiem': 'luyen-tap', 'ngu-phap': 'luyen-tap',
+    'trac-nghiem': 'luyen-tap', 'ngu-phap': 'luyen-tap', 'luyen-noi': 'luyen-tap',
     'thi-thu': 'thi-thu', toi: 'toi', 'thong-ke': 'toi', 'cai-dat': 'toi', 'chu-am': 'chu-am',
   }[muc] ?? '';
   if (muc === 'trac-nghiem' && thamSo === 'bai') mucChon = 'bai'; // kiểm tra một bài = bước 3 của bài học
@@ -147,6 +149,12 @@ function veTheoDiaChi() {
   } else if (muc === 'trac-nghiem') {
     datTieuDe('Trắc nghiệm', '#/luyen-tap');
     veTracNghiem(khung);
+  } else if (muc === 'luyen-noi' && CAC_DANG_NOI[thamSo]) {
+    datTieuDe(CAC_DANG_NOI[thamSo].ten, '#/luyen-noi');
+    donDep = vePhienNoi(khung, thamSo);
+  } else if (muc === 'luyen-noi') {
+    datTieuDe('Nói & phát âm', '#/luyen-tap');
+    veLuyenNoi(khung);
   } else if (muc === 'thanh-dieu' && thamSo) {
     datTieuDe(CAC_DANG[thamSo]?.ten || 'Thanh điệu', '#/thanh-dieu');
     donDep = vePhienThanh(khung, thamSo);
@@ -168,7 +176,7 @@ function veTheoDiaChi() {
   }
 }
 
-// Bấm vào bất kỳ nút loa nào, hoặc nút "✍️ Cách viết" (dùng chung cho mọi màn hình)
+// Bấm vào bất kỳ nút loa nào, nút "✍️ Cách viết" hoặc "🎤 Đọc thử" (dùng chung cho mọi màn hình)
 document.addEventListener('click', (e) => {
   const nut = e.target.closest('[data-doc]');
   if (nut) {
@@ -180,6 +188,12 @@ document.addEventListener('click', (e) => {
   if (nutViet) {
     e.stopPropagation();
     moCachViet(nutViet.dataset.cachViet);
+    return;
+  }
+  const nutNoi = e.target.closest('[data-noi-thu]');
+  if (nutNoi) {
+    e.stopPropagation();
+    moChamNhanh(nutNoi.dataset.noiThu, nutNoi.dataset.py || '');
   }
 });
 

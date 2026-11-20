@@ -104,11 +104,13 @@
 .phan-nghe    { --mau: #7c3aed; }
 .phan-viet    { --mau: #be185d; }
 .phan-nguPhap { --mau: #047857; }
+.phan-noi     { --mau: #b81f1a; }
 :root[data-giao-dien="toi"] .phan-on      { --mau: #60a5fa; }
 :root[data-giao-dien="toi"] .phan-moi     { --mau: #fbbf24; }
 :root[data-giao-dien="toi"] .phan-nghe    { --mau: #a78bfa; }
 :root[data-giao-dien="toi"] .phan-viet    { --mau: #f472b6; }
 :root[data-giao-dien="toi"] .phan-nguPhap { --mau: #34d399; }
+:root[data-giao-dien="toi"] .phan-noi     { --mau: #f87171; }
 
 /* ---------- 5. Phông chữ & nền tảng ---------- */
 :root {
