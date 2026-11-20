@@ -35,7 +35,7 @@
 - Câu hỏi lựa chọn nằm trong câu kể (sau 不知道, 想好, 问…) vẫn dùng 还是: 我不知道他去还是不去.
 - 或者……，或者……: nêu hai khả năng, chọn cái nào cũng được: 或者你来，或者我去.
 ! Câu hỏi để người nghe chọn không dùng 或者: nói 你去还是我去？, không nói 你去或者我去？
-! Câu kể bình thường không dùng 还是: nói 下课以后我常常去图书馆或者去打球, không nói 我常常去图书馆还是去打球.
+! Câu kể bình thường không dùng 还是: nói 下课以后我常常去跑步或者去打球, không nói 我常常去跑步还是去打球.
 > 你/想/去/中国/还是/日本？ | Nǐ xiǎng qù Zhōngguó háishi Rìběn? | Bạn muốn đi Trung Quốc hay Nhật Bản?
 ~ 你/想/去/日本/还是/中国？
 > 我/想/去/爬山/或者/游泳。 | Wǒ xiǎng qù páshān huòzhě yóuyǒng. | Tôi muốn đi leo núi hoặc đi bơi.
@@ -44,7 +44,7 @@
 ~ 或者/我/去，/或者/你/来，/都/行。
 > 我/不/知道/他/去/还是/不/去。 | Wǒ bù zhīdào tā qù háishi bú qù. | Tôi không biết anh ấy đi hay không đi.
 ? 你是今天走___明天走呢？ | 还是 | 或者; 但是; 因为 | Nǐ shì jīntiān zǒu háishi míngtiān zǒu ne? | Bạn đi hôm nay hay ngày mai?
-? 下课以后，我常常去图书馆___去打球。 | 或者 | 还是; 但是; 因为 | Xiàkè yǐhòu, wǒ chángcháng qù túshūguǎn huòzhě qù dǎ qiú. | Tan học, tôi thường đến thư viện hoặc đi chơi bóng.
+? 下课以后，我常常去跑步___去打球。 | 或者 | 还是; 但是; 因为 | Xiàkè yǐhòu, wǒ chángcháng qù pǎobù huòzhě qù dǎ qiú. | Tan học, tôi thường đi chạy bộ hoặc đi chơi bóng.
 ? 我不知道他明天来___不来。 | 还是 | 或者; 但是; 而且 | Wǒ bù zhīdào tā míngtiān lái háishi bù lái. | Tôi không biết ngày mai anh ấy có đến hay không.
 
 ## kanlai
@@ -165,7 +165,7 @@
 ~ 我/喜欢/一边/跑步/一边/听/音乐。
 > 今天/天气/一会儿/冷/一会儿/热。 | Jīntiān tiānqì yíhuìr lěng yíhuìr rè. | Hôm nay trời lúc lạnh lúc nóng.
 ~ 今天/天气/一会儿/热/一会儿/冷。
-> 孩子/一会儿/哭，/一会儿/笑。 | Háizi yíhuìr kū, yíhuìr xiào. | Đứa trẻ lúc thì khóc, lúc thì cười.
+> 天/一会儿/晴，/一会儿/下雨。 | Tiān yíhuìr qíng, yíhuìr xià yǔ. | Trời lúc thì nắng, lúc thì mưa.
 ? 我们一边走___聊天吧。 | 一边 | 一会儿; 一起; 一下 | Wǒmen yìbiān zǒu yìbiān liáotiān ba. | Chúng ta vừa đi vừa nói chuyện nhé.
 ? 这个孩子___要喝水，一会儿要吃东西。 | 一会儿 | 一边; 一起; 一点儿 | Zhège háizi yíhuìr yào hē shuǐ, yíhuìr yào chī dōngxi. | Đứa trẻ này lúc thì đòi uống nước, lúc thì đòi ăn.
 ? 这家饭馆的菜___便宜又好吃。 | 又 | 一边; 一会儿; 一起 | Zhè jiā fànguǎn de cài yòu piányi yòu hǎochī. | Món ăn ở quán này vừa rẻ vừa ngon.
@@ -203,7 +203,7 @@
 ! 再 đứng sau chủ ngữ: nói 你先走，我再走, không nói 你先走，再我走.
 ! 先 đứng sau chủ ngữ: nói 我先洗澡, không nói 先我洗澡.
 > 我们/先/吃饭，/再/去/看/电影。 | Wǒmen xiān chīfàn, zài qù kàn diànyǐng. | Chúng ta ăn cơm trước rồi đi xem phim.
-> 你/先/想/一/想，/再/回答。 | Nǐ xiān xiǎng yi xiǎng, zài huídá. | Bạn nghĩ một chút trước rồi hãy trả lời.
+> 你/先/想/一/想，/再/说。 | Nǐ xiān xiǎng yi xiǎng, zài shuō. | Bạn nghĩ một chút trước rồi hãy nói.
 > 先/洗/手，/然后/吃/东西。 | Xiān xǐ shǒu, ránhòu chī dōngxi. | Rửa tay trước rồi mới ăn.
 > 他/先/去/了/银行，/然后/去/了/超市。 | Tā xiān qù le yínháng, ránhòu qù le chāoshì. | Anh ấy đến ngân hàng trước, sau đó đi siêu thị.
 ? 你___做作业，然后再玩儿。 | 先 | 最; 更; 太 | Nǐ xiān zuò zuòyè, ránhòu zài wánr. | Con làm bài tập trước, sau đó hãy chơi.

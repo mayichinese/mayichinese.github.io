@@ -13,12 +13,12 @@
 - Một số danh từ một chữ cũng lặp được như vậy: 天天 (ngày nào cũng), 人人 (ai cũng), 家家 (nhà nào cũng).
 ! Không thêm 每 hay 一 trước lượng từ lặp: nói 个个都很好, không nói 每个个都很好.
 ! Lượng từ lặp không đứng sau động từ làm tân ngữ: nói 这几件衣服件件都好看, không nói 我喜欢件件衣服.
-> 我们/班/的/同学/个个/都/很/努力。 | Wǒmen bān de tóngxué gègè dōu hěn nǔlì. | Bạn nào trong lớp chúng tôi cũng rất chăm chỉ.
+> 我们/班/的/同学/个个/都/会/游泳。 | Wǒmen bān de tóngxué gègè dōu huì yóuyǒng. | Bạn nào trong lớp chúng tôi cũng biết bơi.
 > 他/天天/去/跑步。 | Tā tiāntiān qù pǎobù. | Ngày nào anh ấy cũng đi chạy bộ.
 > 这些/照片/张张/都/很/漂亮。 | Zhèxiē zhàopiàn zhāngzhāng dōu hěn piàoliang. | Tấm ảnh nào trong số này cũng rất đẹp.
 > 人人/都/喜欢/他/做/的/菜。 | Rénrén dōu xǐhuan tā zuò de cài. | Ai cũng thích món anh ấy nấu.
 ~ 他/做/的/菜/人人/都/喜欢。
-? 这些苹果___都很甜。 | 个个 | 个; 一个; 每 | Zhèxiē píngguǒ gègè dōu hěn tián. | Quả táo nào trong số này cũng rất ngọt.
+? 这些苹果___都很大。 | 个个 | 个; 一个; 每 | Zhèxiē píngguǒ gègè dōu hěn dà. | Quả táo nào trong số này cũng rất to.
 ? 他___早上都喝一杯牛奶。 | 天天 | 天; 日; 年 | Tā tiāntiān zǎoshang dōu hē yì bēi niúnǎi. | Sáng nào anh ấy cũng uống một cốc sữa.
 ? 这几本书我___都看过。 | 本本 | 本; 一本; 书 | Zhè jǐ běn shū wǒ běnběn dōu kàn guo. | Mấy cuốn sách này cuốn nào tôi cũng đọc rồi.
 
@@ -119,8 +119,7 @@
 ! Chủ ngữ đứng trước 越来越: nói 他的汉语越来越好, không nói 越来越他的汉语好.
 > 天气/越来越/冷/了。 | Tiānqì yuèláiyuè lěng le. | Trời ngày càng lạnh.
 > 他/的/汉语/说/得/越来越/好/了。 | Tā de Hànyǔ shuō de yuèláiyuè hǎo le. | Anh ấy nói tiếng Trung ngày càng giỏi.
-> 我/越来越/喜欢/这个/城市/了。 | Wǒ yuèláiyuè xǐhuan zhège chéngshì le. | Tôi ngày càng thích thành phố này.
-~ 这个/城市/我/越来越/喜欢/了。
+> 我/越来越/喜欢/学/汉语/了。 | Wǒ yuèláiyuè xǐhuan xué Hànyǔ le. | Tôi ngày càng thích học tiếng Trung.
 > 来/这儿/学习/的/人/越来越/多。 | Lái zhèr xuéxí de rén yuèláiyuè duō. | Người đến đây học ngày càng đông.
 ? 他的身体___好了。 | 越来越 | 越; 更来更; 很来很 | Tā de shēntǐ yuèláiyuè hǎo le. | Sức khỏe của ông ấy ngày càng tốt.
 ? 天气越来越___了。 | 冷 | 很冷; 非常冷; 太冷 | Tiānqì yuèláiyuè lěng le. | Trời ngày càng lạnh.
@@ -149,7 +148,7 @@
 ~ 外面/很/冷，/门/关/上/吧。
 ? 我找了很久，终于找___了。 | 到 | 住; 走; 懂 | Wǒ zhǎo le hěn jiǔ, zhōngyú zhǎodào le. | Tôi tìm rất lâu, cuối cùng cũng tìm thấy.
 ? 这个词很重要，大家要记___。 | 住 | 走; 开; 懂 | Zhège cí hěn zhòngyào, dàjiā yào jìzhù. | Từ này rất quan trọng, mọi người phải nhớ kỹ.
-? 外面很冷，快穿___衣服。 | 上 | 走; 住; 到 | Wàimiàn hěn lěng, kuài chuānshang yīfu. | Ngoài trời rất lạnh, mau mặc áo vào.
+? 外面很冷，快穿___这件衣服。 | 上 | 走; 住; 到 | Wàimiàn hěn lěng, kuài chuānshang zhè jiàn yīfu. | Ngoài trời rất lạnh, mau mặc chiếc áo này vào.
 
 ## bi-geng-hai
 @ A 比 B 更 / 还 + tính từ; A 不比 B + tính từ
@@ -165,7 +164,7 @@
 > 今天/比昨天/更/冷。 | Jīntiān bǐ zuótiān gèng lěng. | Hôm nay còn lạnh hơn hôm qua.
 > 他/比我/还/高。 | Tā bǐ wǒ hái gāo. | Anh ấy còn cao hơn cả tôi.
 > 这/件/衣服/比那件/更/好看。 | Zhè jiàn yīfu bǐ nà jiàn gèng hǎokàn. | Bộ quần áo này còn đẹp hơn bộ kia.
-> 我/做/的/菜/不比你/做/的/差。 | Wǒ zuò de cài bù bǐ nǐ zuò de chà. | Món tôi nấu đâu có kém món bạn nấu.
+> 我/做/的/菜/不比你/做/的/好吃。 | Wǒ zuò de cài bù bǐ nǐ zuò de hǎochī. | Món tôi nấu không ngon hơn món bạn nấu (cũng tương đương).
 ? 他已经很高了，他哥哥比他___高。 | 还 | 很; 太; 真 | Tā yǐjīng hěn gāo le, tā gēge bǐ tā hái gāo. | Anh ấy đã cao lắm rồi, anh trai anh ấy còn cao hơn.
 ? 我的房间___你的房间大。 | 不比 | 不是; 很比; 比不 | Wǒ de fángjiān bù bǐ nǐ de fángjiān dà. | Phòng của tôi đâu có to hơn phòng của bạn.
 ? 这个问题比那个问题___难。 | 更 | 很; 太; 真 | Zhège wèntí bǐ nàge wèntí gèng nán. | Câu hỏi này còn khó hơn câu hỏi kia.
@@ -187,28 +186,27 @@
 > 他/不但/会/说/汉语，/而且/会/写/汉字。 | Tā búdàn huì shuō Hànyǔ, érqiě huì xiě Hànzì. | Anh ấy không những biết nói tiếng Trung mà còn biết viết chữ Hán.
 > 不但/我/喜欢/她，/而且/大家/都/喜欢/她。 | Búdàn wǒ xǐhuan tā, érqiě dàjiā dōu xǐhuan tā. | Không chỉ tôi thích cô ấy mà mọi người đều thích cô ấy.
 > 我/喜欢/唱歌，/更/喜欢/跳舞。 | Wǒ xǐhuan chànggē, gèng xǐhuan tiàowǔ. | Tôi thích hát, càng thích nhảy hơn.
-? 她不但聪明，___很努力。 | 而且 | 但是; 所以; 虽然 | Tā búdàn cōngming, érqiě hěn nǔlì. | Cô ấy không những thông minh mà còn rất chăm chỉ.
+? 她不但会唱歌，___会跳舞。 | 而且 | 但是; 所以; 虽然 | Tā búdàn huì chàng gē, érqiě huì tiàowǔ. | Cô ấy không những biết hát mà còn biết nhảy.
 ? 他___会做饭，而且做得很好吃。 | 不但 | 虽然; 因为; 如果 | Tā búdàn huì zuò fàn, érqiě zuò de hěn hǎochī. | Anh ấy không những biết nấu ăn mà còn nấu rất ngon.
-? 我喜欢春天，___喜欢秋天。 | 更 | 比; 得; 的 | Wǒ xǐhuan chūntiān, gèng xǐhuan qiūtiān. | Tôi thích mùa xuân, càng thích mùa thu hơn.
+? 我喜欢喝茶，___喜欢喝咖啡。 | 更 | 比; 得; 的 | Wǒ xǐhuan hē chá, gèng xǐhuan hē kāfēi. | Tôi thích uống trà, càng thích uống cà phê hơn.
 
 ## xu-huong-ket-qua
-@ Bổ ngữ xu hướng chỉ kết quả: 想出来, 想起来, 写下来, 留下
+@ Bổ ngữ xu hướng chỉ kết quả: 想出来, 想起来, 写下来, 写下
 § 补语 · 趋向补语引申用法：结果意义（出来、起来、下来、下）
 & 8
 = Động từ + 出来   (làm ra cái chưa có / nhận ra: 想出来, 看出来)
 = 想 + 起来   (nhớ lại điều đã biết)
-= Động từ + 下来 / 下   (giữ lại, ghi lại: 写下来, 留下)
-- 出来: từ chỗ chưa có thành có, hoặc nhận ra được: 我想出来一个好办法 (tôi nghĩ ra một cách hay), 我看出来了，你不高兴 (tôi nhận ra rồi, bạn không vui).
+= Động từ + 下来 / 下   (giữ lại, ghi lại: 写下来, 写下)
+- 出来: từ chỗ chưa có thành có, hoặc nhận ra được: 我想出来一个好名字 (tôi nghĩ ra một cái tên hay), 我看出来了，你不高兴 (tôi nhận ra rồi, bạn không vui).
 - 想起来: nhớ ra điều đã quên: 我想起来了，他姓张.
-- 下来 / 下: làm cho cái gì ở lại, cố định lại: 写下来 (ghi lại), 留下电话号码 (để lại số điện thoại).
+- 下来 / 下: làm cho cái gì ở lại, cố định lại: 写下来 (ghi lại), 写下电话号码 (ghi lại số điện thoại).
 - Ở đây 出来, 起来, 下来 không còn chỉ hướng đi lại mà chỉ KẾT QUẢ của hành động.
 ! Nhớ lại điều đã biết dùng 想起来, nghĩ ra cái mới dùng 想出来: 我想起来了 (tôi nhớ ra rồi) khác 我想出来了 (tôi nghĩ ra rồi).
 ! “Chưa nghĩ ra” là 我还没想出来; 我不想出来 lại là “tôi không muốn ra ngoài”.
-> 我/想/出来/一个/好/办法。 | Wǒ xiǎng chūlái yí ge hǎo bànfǎ. | Tôi đã nghĩ ra một cách hay.
+> 我/想/出来/一个/好/名字。 | Wǒ xiǎng chūlái yí ge hǎo míngzi. | Tôi đã nghĩ ra một cái tên hay.
 > 我/想/起来/了，/他/姓/张。 | Wǒ xiǎng qǐlái le, tā xìng Zhāng. | Tôi nhớ ra rồi, anh ấy họ Trương.
 > 请/写/下/你/的/电话/号码。 | Qǐng xiě xià nǐ de diànhuà hàomǎ. | Xin hãy ghi lại số điện thoại của bạn.
-> 他/走/的/时候/留/下/了/一/本/书。 | Tā zǒu de shíhou liú xià le yì běn shū. | Lúc đi anh ấy để lại một cuốn sách.
-~ 走/的/时候/他/留/下/了/一/本/书。
+> 他/写/下/了/自己/的/电话/号码。 | Tā xiě xià le zìjǐ de diànhuà hàomǎ. | Anh ấy đã ghi lại số điện thoại của mình.
 ? 这个问题太难了，我想了很久也没想___。 | 出来 | 下来; 进去; 回来 | Zhège wèntí tài nán le, wǒ xiǎng le hěn jiǔ yě méi xiǎng chūlái. | Câu hỏi này khó quá, tôi nghĩ rất lâu mà vẫn chưa nghĩ ra.
 ? 他叫什么？我想___了，他叫小张。 | 起来 | 下来; 进来; 回去 | Tā jiào shénme? Wǒ xiǎng qǐlái le, tā jiào Xiǎo Zhāng. | Anh ấy tên gì nhỉ? Tôi nhớ ra rồi, anh ấy tên là Tiểu Trương.
-? 他走的时候留___了他的电话号码。 | 下 | 起; 进; 回 | Tā zǒu de shíhou liú xià le tā de diànhuà hàomǎ. | Lúc đi anh ấy để lại số điện thoại của mình.
+? 请你写___你的电话号码。 | 下 | 去; 进; 回 | Qǐng nǐ xiě xià nǐ de diànhuà hàomǎ. | Bạn hãy ghi lại số điện thoại của bạn.

@@ -15,7 +15,7 @@
 import { layTienDo, luu, nhatKyHomNay, caiDat, ghiLuot } from './luu-tru.js';
 import { capMo, htmlCachMoKhoa } from './cap-do.js';
 import { tinhLichMoi, moTaKhoangCach, loaiThe, dangHoc, DANH_GIA } from './lich-on.js';
-import { tatCaTu, baiSachCuaNguPhap } from './du-lieu.js';
+import { baiSachCuaNguPhap, timBaiTheoMa } from './du-lieu.js';
 
 // Các file ngữ pháp theo cấp. tuyChon: thiếu file thì bỏ qua (cấp đang soạn).
 const CAC_FILE_NP = [
@@ -46,7 +46,10 @@ export function taiNguPhap() {
       })
       .catch((e) => { if (f.tuyChon) return { diem: [] }; throw e; })
       .then((j) => (j.diem || []).map((d) => ({ ...d, cap: f.cap })))))
-      .then((ds) => ds.flat())
+      // Sắp xếp theo lộ trình: cấp → bài sách của điểm (giữ thứ tự file trong cùng một bài)
+      .then((ds) => ds.flat().map((d, i) => ({ d, i }))
+        .sort((a, b) => a.d.cap - b.d.cap || (baiCuaDiem(a.d) ?? 99) - (baiCuaDiem(b.d) ?? 99) || a.i - b.i)
+        .map((x) => x.d))
       .catch((e) => { henDuLieu = null; throw e; });
   }
   return henDuLieu;
@@ -68,10 +71,14 @@ function tron(mang) {
   return m;
 }
 
-/** Bài từ vựng xa nhất (của một cấp) mà người học đã học ít nhất một từ */
-function baiDaHocToi(cap = 1) {
-  const td = layTienDo();
-  return tatCaTu().reduce((m, t) => (t.cap === cap && td.the[t.khoa] ? Math.max(m, t.bai) : m), 0);
+/** Bài sách của một điểm (HSK 1: bảng theo-sach; HSK 2–3: dòng "& N" trong nguồn) */
+const baiCuaDiem = (d) => (d.cap > 1 ? d.bai : baiSachCuaNguPhap(d.id)) ?? null;
+/** Người học đã học hết từ của bài sách chứa điểm này chưa (câu ví dụ chỉ dùng từ tới bài đó) */
+function xongTuCuaBai(d) {
+  const so = baiCuaDiem(d);
+  const b = so ? timBaiTheoMa(d.cap > 1 ? `${d.cap}-${so}` : `s${so}`) : null;
+  const the = layTienDo().the;
+  return !b || b.tu.every((t) => the[t.khoa]);
 }
 
 /** Nhãn bài sách của một điểm: HSK 1 theo bảng theo-sach, HSK 2 theo d.bai */
@@ -142,7 +149,6 @@ export async function veNguPhap(khung) {
     ${CHU_THICH_CHAM.replace('thuộc chắc (≥ 21 ngày)', 'thuộc chắc')}
     ${cacCap.map((cap) => {
       const ds = diem.filter((d) => d.cap === cap);
-      const toiBai = baiDaHocToi(cap);
       if (!capMo(cap)) {
         return `
     <h3 class="tieu-de-muc">Ngữ pháp HSK ${cap} <small>🔒 ${ds.length} điểm</small></h3>
@@ -159,7 +165,7 @@ export async function veNguPhap(khung) {
             <span class="cong-thuc-nho han">${esc(d.congThuc[0] || '')}</span>
             <span class="hang-nhan">
               ${nhanSachCuaDiem(d) ? `<span class="nhan nhan-chinh">${nhanSachCuaDiem(d)}</span>` : ''}
-              ${d.hocSauBai > toiBai ? `<span class="nhan">📚 dùng từ đến Bài ${d.hocSauBai}${cap > 1 ? ` HSK ${cap}` : ''}</span>` : ''}
+              ${xongTuCuaBai(d) ? '' : `<span class="nhan">📚 học sau Bài ${baiCuaDiem(d)}${cap > 1 ? ` HSK ${cap}` : ''}</span>`}
             </span>
             ${(d.canKiemTra || []).length ? '<span class="nhan nhan-vang">⚠️ cần kiểm tra</span>' : ''}
           </span>
@@ -198,7 +204,7 @@ export async function veDiemNguPhap(khung, ma) {
   khung.innerHTML = `
     <article class="khung bai-ngu-phap">
       <div class="goc-the"><span class="nhan nhan-chinh">Điểm ${i + 1}/${cungCap.length} · HSK ${d.cap}</span>
-        <span class="chu-phu nho">${nhanSachCuaDiem(d)}${nhanSachCuaDiem(d) && d.hocSauBai ? ' · ' : ''}${d.hocSauBai ? `từ vựng đến Bài ${d.hocSauBai}` : ''}</span></div>
+        <span class="chu-phu nho">${nhanSachCuaDiem(d)}${xongTuCuaBai(d) ? '' : ' · học sau khi xong từ của bài này'}</span></div>
       <h2>${esc(d.ten)}</h2>
       <p class="de-cuong">Đề cương: <span class="han">${esc(d.deCuong)}</span></p>
       <div class="cong-thuc">${d.congThuc.map((c) => `<div class="han">${esc(c)}</div>`).join('')}</div>

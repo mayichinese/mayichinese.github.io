@@ -41,8 +41,8 @@
 ~ 什么/我/都/想/吃。
 > 这件事/谁/都/知道。 | Zhè jiàn shì shéi dōu zhīdào. | Chuyện này ai cũng biết.
 ~ 谁/都/知道/这件事。
-> 周末/我/哪儿也/不想/去。 | Zhōumò wǒ nǎr yě bù xiǎng qù. | Cuối tuần tôi chẳng muốn đi đâu cả.
-~ 我/周末/哪儿也/不想/去。
+> 星期天/我/哪儿也/不想/去。 | Xīngqītiān wǒ nǎr yě bù xiǎng qù. | Chủ nhật tôi chẳng muốn đi đâu cả.
+~ 我/星期天/哪儿也/不想/去。
 > 谁/想/去/谁/就/去。 | Shéi xiǎng qù shéi jiù qù. | Ai muốn đi thì người đó đi.
 ? 我女儿什么___爱吃。 | 都 | 很; 太; 就 | Wǒ nǚ'ér shénme dōu ài chī. | Con gái tôi cái gì cũng thích ăn.
 ? 谁先做完，___就可以回家。 | 谁 | 什么; 哪儿; 几 | Shéi xiān zuò wán, shéi jiù kěyǐ huí jiā. | Ai làm xong trước thì người đó được về nhà.
@@ -81,8 +81,8 @@
 > 我/想/吃/点儿/什么。 | Wǒ xiǎng chī diǎnr shénme. | Tôi muốn ăn chút gì đó.
 > 我/好像在哪儿/见过/他。 | Wǒ hǎoxiàng zài nǎr jiànguo tā. | Hình như tôi đã gặp anh ấy ở đâu đó.
 ~ 他/我/好像在哪儿/见过。
-> 周末/我们/去/哪儿/玩玩/吧。 | Zhōumò wǒmen qù nǎr wánwan ba. | Cuối tuần chúng mình đi đâu đó chơi đi.
-~ 我们/周末/去/哪儿/玩玩/吧。
+> 星期天/我们/去/哪儿/玩玩/吧。 | Xīngqītiān wǒmen qù nǎr wánwan ba. | Chủ nhật chúng mình đi đâu đó chơi đi.
+~ 我们/星期天/去/哪儿/玩玩/吧。
 > 他/好像/有/什么/事。 | Tā hǎoxiàng yǒu shénme shì. | Hình như anh ấy có chuyện gì đó.
 ~ 好像/他/有/什么/事。
 ? 我渴了，想喝点儿___。 | 什么 | 谁; 哪儿; 怎么 | Wǒ kě le, xiǎng hē diǎnr shénme. | Tôi khát rồi, muốn uống chút gì đó.
@@ -98,23 +98,23 @@
 - Hai phần sau 又 thường cùng chiều (cùng tốt hoặc cùng không tốt): 又累又饿 (vừa mệt vừa đói).
 - Sau 又 thường dùng tính từ trực tiếp, không thêm 很.
 ! Sau 又 thường dùng tính từ trực tiếp: hay nói 又高又大 hơn 又很高又很大.
-! Không dùng 和 để nối hai tính từ làm vị ngữ: nói 她又聪明又漂亮, không nói 她聪明和漂亮.
+! Không dùng 和 để nối hai tính từ làm vị ngữ: nói 她又高又漂亮, không nói 她高和漂亮.
 > 这家饭馆的菜/又/好吃/又/便宜。 | Zhè jiā fànguǎn de cài yòu hǎochī yòu piányi. | Món ăn quán này vừa ngon vừa rẻ.
 ~ 这家饭馆的菜/又/便宜/又/好吃。
-> 她/又/聪明/又/漂亮。 | Tā yòu cōngming yòu piàoliang. | Cô ấy vừa thông minh vừa xinh đẹp.
-~ 她/又/漂亮/又/聪明。
+> 她/又/高/又/漂亮。 | Tā yòu gāo yòu piàoliang. | Cô ấy vừa cao vừa xinh đẹp.
+~ 她/又/漂亮/又/高。
 > 我今天/又/累/又/饿。 | Wǒ jīntiān yòu lèi yòu è. | Hôm nay tôi vừa mệt vừa đói.
 ~ 我今天/又/饿/又/累。
 > 孩子们/又/唱/又/跳。 | Háizimen yòu chàng yòu tiào. | Bọn trẻ vừa hát vừa nhảy.
 ~ 孩子们/又/跳/又/唱。
-? 这个房间又干净___安静。 | 又 | 和; 很; 都 | Zhège fángjiān yòu gānjìng yòu ānjìng. | Căn phòng này vừa sạch sẽ vừa yên tĩnh.
+? 这家饭馆的菜又便宜___好吃。 | 又 | 和; 很; 都 | Zhè jiā fànguǎn de cài yòu piányi yòu hǎochī. | Món ăn của quán này vừa rẻ vừa ngon.
 ? 这件衣服___便宜又好看。 | 又 | 和; 地; 吗 | Zhè jiàn yīfu yòu piányi yòu hǎokàn. | Bộ quần áo này vừa rẻ vừa đẹp.
-? 外边又刮风又___雨。 | 下 | 是; 去; 开 | Wàibian yòu guā fēng yòu xià yǔ. | Bên ngoài vừa có gió vừa mưa.
+? 他又会唱歌又会___舞。 | 跳 | 是; 去; 开 | Tā yòu huì chàng gē yòu huì tiàowǔ. | Anh ấy vừa biết hát vừa biết nhảy.
 
 ## bo-ngu-muc-do
 @ Bổ ngữ mức độ: 好极了, 便宜得很, 累坏了
 § 补语 · 程度补语1：形容词+得很／极了／坏了
-& 3
+& 7
 = Tính từ + 得很  (… lắm, rất…)
 = Tính từ / động từ tâm lý + 极了  (… cực kỳ, … quá)
 = Tính từ / động từ + 坏了  (… muốn chết, … lắm)
@@ -130,7 +130,7 @@
 > 听说/你/要/来，/他/高兴/极了。 | Tīngshuō nǐ yào lái, tā gāoxìng jí le. | Nghe nói bạn sắp đến, anh ấy vui lắm.
 ~ 他/听说/你/要/来，/高兴/极了。
 ? 这个菜好吃___了！ | 极 | 很; 太; 非常 | Zhège cài hǎochī jí le! | Món này ngon cực kỳ!
-? 这里的冬天冷___很。 | 得 | 地; 了; 着 | Zhèlǐ de dōngtiān lěng de hěn. | Mùa đông ở đây lạnh lắm.
+? 今天冷___很。 | 得 | 地; 了; 着 | Jīntiān lěng de hěn. | Hôm nay lạnh lắm.
 ? 一天没吃饭，我饿___了。 | 坏 | 很; 太; 得 | Yì tiān méi chī fàn, wǒ è huài le. | Cả ngày chưa ăn gì, tôi đói muốn chết.
 
 ## jiu-cai
@@ -154,7 +154,7 @@
 ~ 三天/他/就/学会/了。
 > 他/今年/才/十八/岁。 | Tā jīnnián cái shíbā suì. | Năm nay cậu ấy mới có mười tám tuổi.
 ~ 今年/他/才/十八/岁。
-? 他很聪明，十分钟___做完了。 | 就 | 很; 再; 太 | Tā hěn cōngming, shí fēnzhōng jiù zuò wán le. | Cậu ấy rất thông minh, mười phút đã làm xong rồi.
+? 他做得很快，十分钟___做完了。 | 就 | 很; 再; 太 | Tā zuò de hěn kuài, shí fēnzhōng jiù zuò wán le. | Cậu ấy làm rất nhanh, mười phút đã làm xong rồi.
 ? 我等了你一个小时，你怎么现在___来？ | 才 | 很; 太; 把 | Wǒ děng le nǐ yí ge xiǎoshí, nǐ zěnme xiànzài cái lái? | Tôi đợi bạn một tiếng rồi, sao giờ bạn mới đến?
 ? 这个孩子___五岁，已经会写很多字了。 | 才 | 很; 太; 再 | Zhège háizi cái wǔ suì, yǐjīng huì xiě hěn duō zì le. | Đứa bé này mới năm tuổi mà đã biết viết nhiều chữ rồi.
 
@@ -166,12 +166,12 @@
 = 一点儿 + 也 / 都 + 不 / 没 + tính từ / động từ
 - Nhấn mạnh phủ định hoàn toàn: 教室里一个人也没有 (Trong lớp không có một ai).
 - 一点儿也不 + tính từ: không… chút nào: 这件衣服一点儿也不贵 (Bộ quần áo này không đắt chút nào).
-- Vật bị phủ định (tân ngữ) phải đưa lên TRƯỚC động từ: 他一句话也没说 (Anh ấy không nói một câu nào).
-! Không để 一……也 sau động từ: nói 我一句话也没说, không nói 我没说一句话也.
+- Vật bị phủ định (tân ngữ) phải đưa lên TRƯỚC động từ: 他一口饭也没吃 (Anh ấy không ăn một miếng cơm nào).
+! Không để 一……也 sau động từ: nói 我一口饭也没吃, không nói 我没吃一口饭也.
 ! 一点儿也不 đứng TRƯỚC tính từ: nói 一点儿也不累, không nói 不累一点儿 (theo kiểu “không mệt chút nào”).
 > 教室里/一个人/也/没有。 | Jiàoshì li yí ge rén yě méiyǒu. | Trong lớp học không có một ai.
-> 他/一句话/也/没/说。 | Tā yí jù huà yě méi shuō. | Anh ấy không nói một câu nào.
-~ 一句话/他/也/没/说。
+> 他/一口饭/也/没/吃。 | Tā yì kǒu fàn yě méi chī. | Anh ấy không ăn một miếng cơm nào.
+~ 一口饭/他/也/没/吃。
 > 这件/衣服/一点儿/也/不/贵。 | Zhè jiàn yīfu yìdiǎnr yě bú guì. | Bộ quần áo này không đắt chút nào.
 > 我/一点儿/都/不/饿。 | Wǒ yìdiǎnr dōu bú è. | Tôi không đói chút nào.
 ? 冰箱里一个鸡蛋___没有了。 | 也 | 很; 就; 才 | Bīngxiāng li yí ge jīdàn yě méiyǒu le. | Trong tủ lạnh không còn một quả trứng nào.
@@ -210,13 +210,13 @@
 = A + 跟 + B + 不一样
 - 一样 = giống nhau: 你的手机跟我的一样 (Điện thoại của bạn giống của tôi).
 - Thêm tính từ sau 一样 để nói “… bằng”: 我跟哥哥一样高 (Tôi cao bằng anh trai).
-- Phủ định: 不 đặt trước 一样: 他的想法跟我的不一样. Có thể dùng 和 thay 跟.
+- Phủ định: 不 đặt trước 一样: 他的手机跟我的不一样. Có thể dùng 和 thay 跟.
 ! Tính từ đứng SAU 一样: nói 我跟他一样高, không nói 我跟他高一样 (theo kiểu “cao bằng”).
 ! Trong câu so sánh, 不 đứng trước 一样: nói 我跟他不一样高, không nói 我不跟他一样高.
 > 我/跟哥哥/一样/高。 | Wǒ gēn gēge yíyàng gāo. | Tôi cao bằng anh trai.
 > 今天/跟昨天/一样/热。 | Jīntiān gēn zuótiān yíyàng rè. | Hôm nay nóng như hôm qua.
-> 他的/想法/跟我的/不/一样。 | Tā de xiǎngfǎ gēn wǒ de bù yíyàng. | Suy nghĩ của anh ấy không giống của tôi.
+> 他的/手机/跟我的/不/一样。 | Tā de shǒujī gēn wǒ de bù yíyàng. | Điện thoại của anh ấy không giống của tôi.
 > 你的/手机/跟我的/一样。 | Nǐ de shǒujī gēn wǒ de yíyàng. | Điện thoại của bạn giống của tôi.
 ? 他跟他爸爸___高。 | 一样 | 一起; 一下; 一点 | Tā gēn tā bàba yíyàng gāo. | Anh ấy cao bằng bố.
 ? 这件衣服___那件一样漂亮。 | 跟 | 比; 是; 在 | Zhè jiàn yīfu gēn nà jiàn yíyàng piàoliang. | Bộ quần áo này đẹp như bộ kia.
-? 我的看法跟你___一样。 | 不 | 没; 别; 再 | Wǒ de kànfǎ gēn nǐ bù yíyàng. | Cách nhìn của tôi không giống bạn.
+? 我的手机跟你的___一样。 | 不 | 没; 别; 再 | Wǒ de shǒujī gēn nǐ de bù yíyàng. | Điện thoại của tôi không giống của bạn.

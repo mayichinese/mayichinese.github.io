@@ -18,8 +18,7 @@
 > 我/每天/晚上/洗/个/澡/再/睡觉。 | Wǒ měi tiān wǎnshang xǐ ge zǎo zài shuìjiào. | Tối nào tôi cũng tắm rồi mới đi ngủ.
 ~ 每天/晚上/我/洗/个/澡/再/睡觉。
 > 我们/放/了/七/天/假。 | Wǒmen fàng le qī tiān jià. | Chúng tôi được nghỉ bảy ngày.
-> 作业/太/多/了，/今天/完/不/成。 | Zuòyè tài duō le, jīntiān wán bù chéng. | Bài tập nhiều quá, hôm nay không làm xong được.
-~ 今天/作业/太/多/了，/完/不/成。
+> 我们/两个/人/分/不/开。 | Wǒmen liǎng ge rén fēn bù kāi. | Hai chúng tôi không thể tách rời nhau.
 ? 明天我要___老朋友见面。 | 跟 | 是; 很; 把 | Míngtiān wǒ yào gēn lǎo péngyou jiànmiàn. | Ngày mai tôi sẽ gặp bạn cũ.
 ? 我们放了三天___。 | 假 | 节; 期; 号 | Wǒmen fàng le sān tiān jià. | Chúng tôi được nghỉ ba ngày.
 ? 他昨天离___了上海。 | 开 | 到; 在; 过 | Tā zuótiān líkāi le Shànghǎi. | Hôm qua anh ấy đã rời Thượng Hải.
@@ -41,7 +40,7 @@
 > 我/认识他/十年/了。 | Wǒ rènshi tā shí nián le. | Tôi quen anh ấy mười năm rồi.
 > 他/到/上海/三天/了。 | Tā dào Shànghǎi sān tiān le. | Anh ấy đến Thượng Hải được ba ngày rồi.
 ? 你来中国多长时间___？ | 了 | 的; 过; 着 | Nǐ lái Zhōngguó duō cháng shíjiān le? | Bạn sang Trung Quốc bao lâu rồi?
-? 我来中国一___了，还没去过长城。 | 年 | 号; 岁; 位 | Wǒ lái Zhōngguó yì nián le, hái méi qù guo Chángchéng. | Tôi sang Trung Quốc một năm rồi mà chưa đi Vạn Lý Trường Thành.
+? 我来中国一___了，还没去过他家。 | 年 | 号; 岁; 位 | Wǒ lái Zhōngguó yì nián le, hái méi qù guo tā jiā. | Tôi sang Trung Quốc một năm rồi mà chưa đến nhà anh ấy.
 ? 电影开始半个小时___，他才来。 | 了 | 着; 过; 的 | Diànyǐng kāishǐ bàn ge xiǎoshí le, tā cái lái. | Phim bắt đầu được nửa tiếng rồi anh ấy mới đến.
 
 ## yiqian-yihou
@@ -56,8 +55,8 @@
 ! Không đặt 以前 / 以后 trước việc như tiếng Việt: nói 吃饭以前, không nói 以前吃饭 (以前吃饭 lại thành “trước đây ăn cơm”).
 ! “Ba ngày sau” nói 三天以后 / 三天后; còn 以后三天 lại là “ba ngày tới (sắp tới)”.
 > 吃饭/以前/要/洗手。 | Chīfàn yǐqián yào xǐ shǒu. | Trước khi ăn phải rửa tay.
-> 我/下课/以后/去/图书馆。 | Wǒ xiàkè yǐhòu qù túshūguǎn. | Sau khi tan học tôi đến thư viện.
-~ 下课/以后/我/去/图书馆。
+> 我/下课/以后/去/超市。 | Wǒ xiàkè yǐhòu qù chāoshì. | Sau khi tan học tôi đi siêu thị.
+~ 下课/以后/我/去/超市。
 > 来/中国/以前，/我/没/学/过/汉语。 | Lái Zhōngguó yǐqián, wǒ méi xué guo Hànyǔ. | Trước khi sang Trung Quốc, tôi chưa học tiếng Hán.
 ~ 我/来/中国/以前，/没/学/过/汉语。
 > 睡觉/前/别/喝/咖啡。 | Shuìjiào qián bié hē kāfēi. | Trước khi ngủ đừng uống cà phê.
@@ -85,7 +84,7 @@
 > 为了/不/迟到，/他/六点/就/起床/了。 | Wèile bù chídào, tā liù diǎn jiù qǐchuáng le. | Để không bị muộn, sáu giờ anh ấy đã dậy.
 ~ 他/为了/不/迟到，/六点/就/起床/了。
 ? ___买到火车票，他很早就去了。 | 为了 | 所以; 虽然; 但是 | Wèile mǎidào huǒchē piào, tā hěn zǎo jiù qù le. | Để mua được vé tàu, anh ấy đi từ rất sớm.
-? 他学习这么努力，是___考上好大学。 | 为了 | 所以; 但是; 还是 | Tā xuéxí zhème nǔlì, shì wèile kǎoshàng hǎo dàxué. | Cậu ấy học chăm như vậy là để đỗ vào trường đại học tốt.
+? 他每天学习到很晚，是___考上好大学。 | 为了 | 所以; 但是; 还是 | Tā měi tiān xuéxí dào hěn wǎn, shì wèile kǎoshàng hǎo dàxué. | Ngày nào cậu ấy cũng học đến khuya là để đỗ vào trường đại học tốt.
 ? 为了___生病，你要多穿点儿衣服。 | 不 | 没; 很; 太 | Wèile bù shēngbìng, nǐ yào duō chuān diǎnr yīfu. | Để không bị ốm, bạn phải mặc thêm áo vào.
 
 ## kha-nang
@@ -100,14 +99,14 @@
 - Tân ngữ đặt sau, hoặc đưa lên đầu câu: 我看不懂这本书 / 这本书我看不懂.
 ! Muốn nói “nghe không hiểu” thì đặt 不 vào giữa: nói 听不懂, không nói 不听懂.
 ! 不 thay chỗ của 得, không đi cùng 得: nói 看不见, không nói 看得不见.
-> 我/听/得/懂/老师/的/话。 | Wǒ tīng de dǒng lǎoshī de huà. | Tôi nghe hiểu lời thầy giáo.
-~ 老师/的/话/我/听/得/懂。
+> 老师/说/的/汉语/我/听/得/懂。 | Lǎoshī shuō de Hànyǔ wǒ tīng de dǒng. | Tiếng Trung thầy nói tôi nghe hiểu được.
+~ 我/听/得/懂/老师/说/的/汉语。
 > 字/太/小/了，/我/看/不/见。 | Zì tài xiǎo le, wǒ kàn bú jiàn. | Chữ nhỏ quá, tôi nhìn không thấy.
 > 火车票/已经/买/不/到/了。 | Huǒchē piào yǐjīng mǎi bú dào le. | Vé tàu đã không mua được nữa rồi.
 > 他/今天/回/不/来/了。 | Tā jīntiān huí bù lái le. | Hôm nay anh ấy không về được nữa.
 ~ 今天/他/回/不/来/了。
 ? 你说得太快了，我听不___。 | 懂 | 会; 是; 很 | Nǐ shuō de tài kuài le, wǒ tīng bù dǒng. | Bạn nói nhanh quá, tôi nghe không hiểu.
-? 黑板上的字你看___见吗？ | 得 | 很; 是; 了 | Hēibǎn shàng de zì nǐ kàn de jiàn ma? | Chữ trên bảng bạn có nhìn thấy không?
+? 那儿的字你看___见吗？ | 得 | 很; 是; 了 | Nàr de zì nǐ kàn de jiàn ma? | Chữ ở đằng kia bạn có nhìn thấy không?
 ? 我的钱包找___到了。 | 不 | 没; 很; 是 | Wǒ de qiánbāo zhǎo bú dào le. | Ví của tôi không tìm thấy nữa rồi.
 
 ## yue-yue
@@ -128,7 +127,7 @@
 > 汉语/越学/越/有意思。 | Hànyǔ yuè xué yuè yǒu yìsi. | Tiếng Hán càng học càng thú vị.
 > 妈妈越说，/他/越/不/听。 | Māma yuè shuō, tā yuè bù tīng. | Mẹ càng nói, nó càng không nghe.
 ? 他越跑___快。 | 越 | 很; 太; 更 | Tā yuè pǎo yuè kuài. | Anh ấy càng chạy càng nhanh.
-? 这个问题我___想越不明白。 | 越 | 更; 很; 再 | Zhège wèntí wǒ yuè xiǎng yuè bù míngbai. | Vấn đề này tôi càng nghĩ càng không hiểu.
+? 这个问题我___想越不懂。 | 越 | 更; 很; 再 | Zhège wèntí wǒ yuè xiǎng yuè bù dǒng. | Vấn đề này tôi càng nghĩ càng không hiểu.
 ? 东西越便宜，买的人就越___。 | 多 | 很; 太; 非常 | Dōngxi yuè piányi, mǎi de rén jiù yuè duō. | Đồ càng rẻ thì người mua càng đông.
 
 ## ba-dia-diem
@@ -164,11 +163,11 @@
 ! 了 không chen giữa động từ và 给: nói 把书还给他了 / 把书还给了他, không nói 把书还了给他.
 > 我/把/书/还给他/了。 | Wǒ bǎ shū huán gěi tā le. | Tôi đã trả sách cho anh ấy rồi.
 > 请/把/这/本/书/交给/老师。 | Qǐng bǎ zhè běn shū jiāo gěi lǎoshī. | Hãy nộp cuốn sách này cho thầy giáo.
-> 你/能/把/你的/词典/借给我/吗？ | Nǐ néng bǎ nǐ de cídiǎn jiè gěi wǒ ma? | Bạn cho tôi mượn từ điển của bạn được không?
+> 你/能/把/你的/书/送给我/吗？ | Nǐ néng bǎ nǐ de shū sòng gěi wǒ ma? | Bạn tặng tôi cuốn sách của bạn được không?
 > 爸爸/把/新/手机/送给我/了。 | Bàba bǎ xīn shǒujī sòng gěi wǒ le. | Bố đã tặng tôi chiếc điện thoại mới.
 ? 请你把这个包交___张老师。 | 给 | 在; 是; 对 | Qǐng nǐ bǎ zhège bāo jiāo gěi Zhāng lǎoshī. | Bạn hãy giao cái túi này cho thầy Trương.
 ? 我已经___钱还给他了。 | 把 | 是; 对; 在 | Wǒ yǐjīng bǎ qián huán gěi tā le. | Tôi đã trả tiền cho anh ấy rồi.
-? 他把自己的车借给___朋友。 | 了 | 着; 得; 地 | Tā bǎ zìjǐ de chē jiè gěi le péngyou. | Anh ấy đã cho bạn mượn xe của mình.
+? 他把自己的车送给___朋友。 | 了 | 着; 得; 地 | Tā bǎ zìjǐ de chē sòng gěi le péngyou. | Anh ấy đã tặng xe của mình cho bạn.
 
 ## zai-shang
 @ 在……上 / 中 / 下: về mặt…, trong…, dưới (sự giúp đỡ)…
@@ -185,12 +184,12 @@
 ! 上 / 中 / 下 đặt ở CUỐI cụm: nói 在大家的帮助下, không nói 在下大家的帮助.
 > 他/在学习上/很/努力。 | Tā zài xuéxí shàng hěn nǔlì. | Về mặt học tập, cậu ấy rất chăm chỉ.
 ~ 在学习上/他/很/努力。
-> 在/大家/的/帮助/下，/我/完成了/工作。 | Zài dàjiā de bāngzhù xià, wǒ wánchéng le gōngzuò. | Nhờ mọi người giúp đỡ, tôi đã làm xong công việc.
-~ 我/在/大家/的/帮助/下，/完成了/工作。
+> 在/大家/的/帮助/下，/我/做/完/了/工作。 | Zài dàjiā de bāngzhù xià, wǒ zuò wán le gōngzuò. | Nhờ mọi người giúp đỡ, tôi đã làm xong công việc.
+~ 我/在/大家/的/帮助/下，/做/完/了/工作。
 > 在/这/次/比赛/中，/他/跑/得/最/快。 | Zài zhè cì bǐsài zhōng, tā pǎo de zuì kuài. | Trong cuộc thi lần này, anh ấy chạy nhanh nhất.
 ~ 他/在/这/次/比赛/中，/跑/得/最/快。
-> 在/生活/上，/朋友们/给/了/我/很多/帮助。 | Zài shēnghuó shàng, péngyoumen gěi le wǒ hěn duō bāngzhù. | Về mặt cuộc sống, bạn bè đã giúp tôi rất nhiều.
-~ 朋友们/在/生活/上，/给/了/我/很多/帮助。
+> 在/工作/上，/朋友们/给/了/我/很多/帮助。 | Zài gōngzuò shàng, péngyoumen gěi le wǒ hěn duō bāngzhù. | Về mặt công việc, bạn bè đã giúp tôi rất nhiều.
+~ 朋友们/在/工作/上，/给/了/我/很多/帮助。
 ? 在老师的帮助___，我的汉语进步很快。 | 下 | 上; 外; 左 | Zài lǎoshī de bāngzhù xià, wǒ de Hànyǔ jìnbù hěn kuài. | Nhờ thầy giúp đỡ, tiếng Hán của tôi tiến bộ rất nhanh.
 ? 他在工作___遇到了很多问题。 | 中 | 下; 外; 左 | Tā zài gōngzuò zhōng yùdào le hěn duō wèntí. | Trong công việc anh ấy đã gặp rất nhiều vấn đề.
 ? 在学习___，他是我们班最努力的。 | 上 | 下; 外; 左 | Zài xuéxí shàng, tā shì wǒmen bān zuì nǔlì de. | Về mặt học tập, cậu ấy chăm nhất lớp chúng tôi.

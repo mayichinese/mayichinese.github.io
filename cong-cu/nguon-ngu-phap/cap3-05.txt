@@ -38,7 +38,7 @@
 > 孩子们/一个一个地/上/了/车。 | Háizimen yí ge yí ge de shàng le chē. | Bọn trẻ lần lượt từng đứa lên xe.
 > 他/把/照片/一张一张地/看/了/一遍。 | Tā bǎ zhàopiàn yì zhāng yì zhāng de kàn le yí biàn. | Anh ấy xem lại từng tấm ảnh một lượt.
 ~ 他/一张一张地/把/照片/看/了/一遍。
-> 老师/让/我们/一个一个地/回答/问题。 | Lǎoshī ràng wǒmen yí ge yí ge de huídá wèntí. | Cô giáo cho chúng tôi lần lượt từng người trả lời câu hỏi.
+> 老师/让/我们/一个一个地/进来。 | Lǎoshī ràng wǒmen yí ge yí ge de jìnlái. | Cô giáo cho chúng tôi lần lượt từng người đi vào.
 ? 请大家一个___地说，不要一起说。 | 一个 | 两个; 这个; 那个 | Qǐng dàjiā yí ge yí ge de shuō, bú yào yìqǐ shuō. | Mời mọi người nói lần lượt từng người, đừng nói cùng lúc.
 ? 他把衣服一___一件地放进了箱子。 | 件 | 个; 本; 张 | Tā bǎ yīfu yí jiàn yí jiàn de fàngjìn le xiāngzi. | Anh ấy xếp từng chiếc áo một vào va li.
 ? 他一张一张___看那些照片。 | 地 | 得; 了; 着 | Tā yì zhāng yì zhāng de kàn nàxiē zhàopiàn. | Anh ấy xem từng tấm một những bức ảnh đó.
@@ -46,7 +46,7 @@
 ## gioi-tu-3
 @ Giới từ 根据, 关于, 向, 为: theo, về, hướng về / với, vì / cho
 § 介词 · 根据、关于、向、为
-& 15
+& 17
 = 根据 + căn cứ，+ câu   (根据这张地图，……)
 = 关于 + chủ đề，+ câu   /   一本 + 关于 + chủ đề + 的 + 书
 = 向 + hướng / người + động từ   (向左走, 向他学习)
