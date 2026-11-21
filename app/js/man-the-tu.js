@@ -11,10 +11,15 @@
 //     (thẻ đang học lần đầu chỉ được "Dễ" ở bước cuối – nghĩa là đã đúng ít nhất 2 lần).
 //   - Dạng câu: thẻ mới học hỏi nghe/nghĩa trước (nhận ra), bước sau hỏi chữ/pinyin (nhớ lại);
 //     thẻ ôn đổi dạng so với lần trước (lưu the.dangCuoi).
+//   - Thẻ ÔN đôi khi hỏi dạng NHỚ CHỦ ĐỘNG (đánh giá tester 2026-11-21): ⌨️ gõ pinyin (dấu hoặc số thanh: ni3 hao3),
+//     ✍️ viết chữ không có nét mờ (từ một chữ). Đã sai từ trong ngày (the.saiNgay) thì không được chấm "Dễ".
 // Phím tắt: 1–4 chọn đáp án · Space = nghe lại (câu nghe) · Enter/Space = tiếp tục
 // =========================================================
 
-import { caiDat, layTienDo, luu } from './luu-tru.js';
+import { caiDat, layTienDo, luu, ngayHoc } from './luu-tru.js';
+import { toMauPinyin, toMauChuHan, demChuHan, tachPinyin } from './pinyin.js';
+import { amSo } from './cham-phat-am.js';
+import { taiNetChu, taoBangVe, saiToiDa } from './net-chu.js';
 import { DANH_GIA, moTaKhoangCach } from './lich-on.js';
 import { layTu, nhanBaiCuaTu, cheDoBai, timBaiTheoMa, nhanBai, tiengDoc } from './du-lieu.js';
 import { doc, tinhTrangPhatAm } from './phat-am.js';
@@ -40,8 +45,11 @@ const CHAM = 15;
  */
 export function chamDiem(dung, giay, dang, the) {
   if (!dung) return DANH_GIA.QUEN;
-  if (giay > CHAM) return DANH_GIA.KHO;
-  if (giay <= (NHANH[dang] || 5)) {
+  if (dang === 'viet') return DANH_GIA.NHO;          // viết tay: đúng là nhớ (không tính nhanh/chậm)
+  if (giay > (dang === 'go-pinyin' ? CHAM * 2 : CHAM)) return DANH_GIA.KHO;
+  // Đã sai từ này trong hôm nay (ở cửa học hoặc lần ôn trước) → tối đa "Nhớ" (đánh giá tester 2026-11-21)
+  if (the?.saiNgay === ngayHoc()) return DANH_GIA.NHO;
+  if (giay <= (dang === 'go-pinyin' ? 12 : NHANH[dang] || 5)) {
     // Thẻ đang học: chỉ cho "Dễ" ở bước cuối (đã đúng ít nhất một lần trước đó trong giai đoạn học)
     const dangHocLanDau = the && the.trangThai === 'hoc';
     if (!dangHocLanDau || (the.buoc || 0) >= 1) return DANH_GIA.DE;
@@ -49,8 +57,14 @@ export function chamDiem(dung, giay, dang, the) {
   return DANH_GIA.NHO;
 }
 
-/** Chọn dạng câu hỏi cho một thẻ */
-function chonDang(tu, the, kieu, daAm, coGiong) {
+/** Chọn dạng câu hỏi cho một thẻ. Thẻ ÔN đôi khi hỏi dạng nhớ chủ động: gõ pinyin, viết chữ (không nét mờ) */
+function chonDang(tu, the, kieu, daAm, coGiong, net = {}) {
+  if (kieu === 'on' && the?.trangThai === 'on') {
+    const r = Math.random();
+    const motChu = demChuHan(tu.hanzi) === 1 && net[tu.hanzi];
+    if (motChu && r < 0.15 && the.dangCuoi !== 'viet') return 'viet';
+    if (r < 0.35 && !tu.pinyin.includes('/') && the.dangCuoi !== 'go-pinyin') return 'go-pinyin';
+  }
   const ds = dangDungDuoc(tu, daAm, coGiong);
   let uuTien = ds;
   if (kieu === 'luyen' && the?.trangThai === 'hoc') {
@@ -83,6 +97,8 @@ export function vePhien(khung, loai, soBai = null) {
   let luotThe = 0;                   // tăng mỗi khi sang thẻ mới (bỏ các hẹn giờ cũ)
   let daAm = new Set();
   let coGiong = false;
+  let net = {};                      // dữ liệu nét (cho dạng viết chữ)
+  let huyViet = null;
   let daRoi = false;
 
   document.body.classList.add('dang-hoc');
@@ -110,7 +126,7 @@ export function vePhien(khung, loai, soBai = null) {
       if (laTiep) { e.preventDefault(); khung.querySelector('#nut-tiep')?.click(); }
       return;
     }
-    if (!cau) return;
+    if (!cau || cau.dang === 'go-pinyin' || cau.dang === 'viet') return;
     if (e.key === ' ' && cau.dang === 'nghe' && !dangONut) { e.preventDefault(); nghe(); return; }
     if (/^[1-4]$/.test(e.key)) $vung.querySelectorAll('[data-i]')[Number(e.key) - 1]?.click();
   };
@@ -132,6 +148,7 @@ export function vePhien(khung, loai, soBai = null) {
   // --- Thẻ tiếp theo ---
   function tiepTheo() {
     if (daRoi) return;
+    if (huyViet) { huyViet(); huyViet = null; }
     luotThe++;
     cau = null;
     daTraLoi = false;
@@ -154,7 +171,9 @@ export function vePhien(khung, loai, soBai = null) {
   /** Thẻ luyện / thẻ ôn: một câu hỏi 4 lựa chọn */
   function veCauHoi(tu) {
     const the = layTienDo().the[hienTai.khoa];
-    cau = taoCau(tu, chonDang(tu, the, hienTai.kieu, daAm, coGiong));
+    const dang = chonDang(tu, the, hienTai.kieu, daAm, coGiong, net);
+    if (dang === 'go-pinyin' || dang === 'viet') { veNhoChuDong(tu, dang); return; }
+    cau = taoCau(tu, dang);
     const nhan = hienTai.kieu === 'luyen'
       ? '<span class="nhan nhan-vang">📖 Đang học</span>'
       : '<span class="nhan">🔁 Ôn tập</span>';
@@ -175,6 +194,119 @@ export function vePhien(khung, loai, soBai = null) {
     }
   }
 
+  // ----- Nhớ chủ động: gõ pinyin / viết chữ không nét mờ -----
+  /** Chuẩn hóa pinyin thành ["ni3","hao3"] (thanh nhẹ = 5). Nhận cả dấu thanh lẫn số thanh, bỏ dấu cách / dấu nháy. */
+  function amTietPinyin(chuoi, soChu) {
+    const s = String(chuoi || '').toLowerCase().replace(/v/g, 'ü').replace(/u:/g, 'ü').trim();
+    if (/\d/.test(s)) {
+      // "ni3hao3" → ["ni","3","hao","3",""]; âm tiết cuối không có số = thanh nhẹ
+      const phan = s.replace(/[^a-zü0-5]/g, '').replace(/ü/g, 'v').split(/([0-5])/);
+      const kq = [];
+      for (let i = 0; i < phan.length; i += 2) {
+        if (phan[i]) kq.push(`${phan[i]}${phan[i + 1] && phan[i + 1] !== '0' ? phan[i + 1] : '5'}`);
+      }
+      return kq;
+    }
+    return tachPinyin(s, soChu).filter((x) => x.thanh !== undefined).map((x) => amSo(x.chu));
+  }
+  function veNhoChuDong(tu, dang) {
+    cau = { tu, dang, luaChon: [] };
+    const nhan = '<span class="nhan">🔁 Ôn tập · nhớ chủ động</span>';
+    batDau = Date.now();
+    if (dang === 'go-pinyin') {
+      $the.innerHTML = `
+        <div class="cau-the-tu">
+          <div class="goc-the">${nhan}<span class="chu-phu nho">⌨️ Gõ pinyin · HSK ${tu.cap}</span></div>
+          <p class="cau-hoi">Gõ pinyin của từ này (dấu thanh hoặc số: <b>ni3 hao3</b>)</p>
+          <p class="han tu-hoi">${esc(tu.hanzi)}</p>
+          <p class="chu-phu nho" style="margin:0">${esc(nghiaNganThe(tu))}</p>
+        </div>`;
+      $vung.innerHTML = `
+        <div class="hang-tu-viet"><input id="o-pinyin" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="vd. xue2 sheng5">
+          <button class="nut nut-chinh" id="nut-kiem">Kiểm tra</button></div>
+        <button class="nut nut-rong" id="nut-khong-biet" style="margin-top:8px">Không nhớ – xem đáp án</button>`;
+      const $o = $vung.querySelector('#o-pinyin');
+      $o.focus();
+      const kiem = (boQua) => {
+        if (daTraLoi) return;
+        const n = demChuHan(tu.hanzi);
+        const dapAn = amTietPinyin(tu.pinyin, n);
+        const ban = boQua ? [] : amTietPinyin($o.value, n);
+        // 不 / 一: chấp nhận cả thanh gốc lẫn thanh đã biến điệu (bù / bú, yī / yí / yì)
+        const chu = [...tu.hanzi].filter((c) => /\p{Script=Han}/u.test(c));
+        const khop = (a, b, i) => a === b || (a.slice(0, -1) === b.slice(0, -1)
+          && ((chu[i] === '不' && a.startsWith('bu')) || (chu[i] === '一' && a.startsWith('yi'))));
+        const dung = !boQua && ban.length === dapAn.length && ban.every((a, i) => khop(a, dapAn[i], i));
+        ketThucCau(dung, dang, boQua ? '(không nhớ)' : $o.value, tu.pinyin, 'pinyin');
+      };
+      $vung.querySelector('#nut-kiem').onclick = () => kiem(false);
+      $o.onkeydown = (e) => { if (e.key === 'Enter') { e.preventDefault(); kiem(false); } };
+      $vung.querySelector('#nut-khong-biet').onclick = () => kiem(true);
+      return;
+    }
+    // Viết chữ (từ một chữ), không có nét mờ
+    $the.innerHTML = `
+      <div class="cau-the-tu">
+        <div class="goc-the">${nhan}<span class="chu-phu nho">✍️ Viết chữ · HSK ${tu.cap}</span></div>
+        <p class="cau-hoi">Viết chữ Hán có nghĩa:</p>
+        <p class="nghia-hoi">${esc(nghiaNganThe(tu))}</p>
+        <p class="pinyin" style="margin:0">${toMauPinyin(tu.pinyin, demChuHan(tu.hanzi))}</p>
+        <div class="o-viet" id="o-viet-on"></div>
+        <p class="chu-phu nho" id="loi-viet" style="margin:0">Viết theo đúng thứ tự nét – không có nét mờ để tô.</p>
+      </div>`;
+    $vung.innerHTML = '<button class="nut nut-rong" id="nut-khong-biet">Không nhớ – xem đáp án</button>';
+    const luc = luotThe;
+    $vung.querySelector('#nut-khong-biet').onclick = () => { if (!daTraLoi) ketThucCau(false, dang, '(không nhớ)', tu.hanzi, 'han'); };
+    taoBangVe($the.querySelector('#o-viet-on'), tu.hanzi, { showCharacter: false, showOutline: false }).then((wr) => {
+      if (daRoi || luc !== luotThe) return;
+      const nguong = saiToiDa(net[tu.hanzi]?.strokes.length || 5);
+      wr.quiz({ showHintAfterMisses: 3,
+        onMistake: (d) => { const $l = $the.querySelector('#loi-viet'); if ($l) $l.textContent = `Sai nét (${d.totalMistakes} lần).`; },
+        onComplete: (kq) => {
+          if (daRoi || luc !== luotThe || daTraLoi) return;
+          ketThucCau(kq.totalMistakes <= nguong, dang, `sai ${kq.totalMistakes} nét`, tu.hanzi, 'han');
+        } });
+      huyViet = () => { try { wr.cancelQuiz(); } catch { /* đã hủy */ } };
+    }).catch(() => { if (!daTraLoi) ketThucCau(false, dang, '(không tải được nét)', tu.hanzi, 'han'); });
+  }
+  const nghiaNganThe = (tu) => (tu.nghia || []).map((n) => n.nghia).join('; ');
+
+  /** Chấm điểm SM-2 + ghi lịch + lật sang mặt sau (dùng cho mọi dạng câu) */
+  function ketThucCau(dung, dang, banTraLoi, dapAnDung, lop) {
+    daTraLoi = true;
+    const giay = (Date.now() - batDau) / 1000;
+    amCham(dung);
+    const theCu = layTienDo().the[hienTai.khoa];
+    const dg = chamDiem(dung, giay, dang, theCu);
+    const kq = KET_QUA[dg - 1];
+    const khiNao = moTaKhoangCach(theCu, dg);
+    ketQua[kq.muc]++;
+    traLoi(phien, hienTai.khoa, dg);
+    const theMoi = layTienDo().the[hienTai.khoa];
+    if (theMoi) {
+      theMoi.dangCuoi = dang;                       // lần sau hỏi dạng khác
+      if (!dung) theMoi.saiNgay = ngayHoc();        // sai hôm nay → lần ôn sau trong ngày không được "Dễ"
+      luu();
+    }
+    const tu = cau.tu;
+    const luc = luotThe;
+    setTimeout(() => {
+      if (luc !== luotThe || daRoi) return;
+      $the.innerHTML = `
+        <div class="ket-qua-cham ${dung ? 'la-dung' : 'la-sai'}">
+          <b>${dung ? '✅ Đúng!' : '❌ Chưa đúng'}</b>
+          ${dung ? '' : `<span>Bạn: <span class="${lop}">${esc(banTraLoi)}</span> – đáp án: <b class="${lop}">${esc(dapAnDung)}</b></span>`}
+          <span class="chu-phu nho">App chấm: <b>${kq.ten}</b>${dung && dang !== 'viet' ? ` (${Math.round(giay)} giây)` : ''} · gặp lại sau ${khiNao}</span>
+        </div>
+        ${htmlMatSau(tu)}`;
+      $vung.innerHTML = `
+        <button class="nut nut-chinh nut-rong" id="nut-tiep">Tiếp tục ▶</button>
+        <p class="phim-tat">Phím tắt: Enter / Space = tiếp tục</p>`;
+      $vung.querySelector('#nut-tiep').onclick = tiepTheo;
+      if (dang !== 'nghe' && cd.tuPhatAm) doc(tiengDoc(tu));
+    }, dung ? 450 : 900);
+  }
+
   /** Người học chọn đáp án → app chấm, xếp lịch, hiện mặt sau */
   function chon(i) {
     if (daTraLoi || !cau || !hienTai) return;
@@ -189,7 +321,11 @@ export function vePhien(khung, loai, soBai = null) {
     ketQua[kq.muc]++;
     traLoi(phien, hienTai.khoa, dg);
     const theMoi = layTienDo().the[hienTai.khoa];
-    if (theMoi) { theMoi.dangCuoi = cau.dang; luu(); }   // lần sau hỏi dạng khác
+    if (theMoi) {
+      theMoi.dangCuoi = cau.dang;                   // lần sau hỏi dạng khác
+      if (!dung) theMoi.saiNgay = ngayHoc();        // sai hôm nay → lần ôn sau trong ngày không được "Dễ"
+      luu();
+    }
 
     // Tô màu đáp án ngay trên các nút
     $vung.querySelectorAll('[data-i]').forEach((b) => {
@@ -281,11 +417,16 @@ export function vePhien(khung, loai, soBai = null) {
   // Tải danh sách chữ đa âm (để không hỏi nghe chữ đa âm) rồi bắt đầu
   const ttGiong = tinhTrangPhatAm();
   coGiong = ttGiong !== 'khong-ho-tro' && ttGiong !== 'khong-co-giong';
-  taiDaAm().then((ds) => { daAm = ds; if (!daRoi) tiepTheo(); });
+  Promise.all([taiDaAm(), taiNetChu().catch(() => ({ net: {} }))]).then(([ds, nc]) => {
+    daAm = ds;
+    net = nc.net || {};
+    if (!daRoi) tiepTheo();
+  });
 
   // --- Dọn dẹp khi rời màn hình ---
   return () => {
     daRoi = true;
+    if (huyViet) huyViet();
     dungDongHo();
     document.removeEventListener('keydown', phim);
     if (window.speechSynthesis) window.speechSynthesis.cancel();

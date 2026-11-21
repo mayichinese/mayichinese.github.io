@@ -14,7 +14,7 @@
 // cửa từ của từ đã học trước đây coi là xong. Nói, viết, sắp xếp câu chỉ tính điểm cửa, không làm sai lịch ôn.
 // =========================================================
 
-import { layTienDo, luu, nhatKyHomNay, ghiLuot, caiDat } from './luu-tru.js';
+import { layTienDo, luu, nhatKyHomNay, ghiLuot, caiDat, ngayHoc } from './luu-tru.js';
 import { tinhLichMoi, DANH_GIA } from './lich-on.js';
 import { tatCaTu, timBaiTheoMa, nhanBai, nghiaNgan, tiengDoc } from './du-lieu.js';
 import { doc, tinhTrangPhatAm } from './phat-am.js';
@@ -133,16 +133,29 @@ function chonCau(W, td) {
     if (manh.length >= 3 && manh.length <= 6) { sapXep = { cau: x.v, manh }; break; }
   }
 
-  // Đọc: 2 câu (ưu tiên câu khác câu sắp xếp, khác từ), đáp án nhiễu là nghĩa của câu khác
-  const nguonNhieu = [...new Set([...tuBiet, ...tatCaTu().filter((t) => t.cap === W[0].cap)]
-    .flatMap((t) => (t.viDu || []).map((v) => v.dich)))];
+  // Đọc: 2 câu (ưu tiên câu khác câu sắp xếp, khác từ). Đáp án nhiễu là nghĩa của câu GẦN chủ đề
+  // (đánh giá tester: nhiễu lệch chủ đề thì không cần đọc cũng loại được) – ưu tiên: câu khác của cùng từ →
+  // câu của các từ cùng phần → câu của các từ cùng chặng → câu khác cùng cấp.
+  const dichCua = (ds) => ds.flatMap((t) => (t.viDu || []).map((v) => v.dich));
+  const tuCungChang = tatCaTu().filter((t) => t.maBai === W[0].maBai);
+  const nhieuTheoTang = (x) => {
+    const tang = [dichCua([x.w]), dichCua(W), dichCua(tuCungChang), dichCua([...tuBiet, ...tatCaTu().filter((t) => t.cap === W[0].cap)])];
+    const kq = [];
+    for (const ds of tang) {
+      for (const d of tron([...new Set(ds)])) {
+        if (kq.length === 2) return kq;
+        if (d !== x.v.dich && !kq.includes(d)) kq.push(d);
+      }
+    }
+    return kq;
+  };
   const doc2 = [];
   const daDung = new Set([sapXep?.cau.han]);
   const tuDaDung = new Set();
   for (const x of deDoc) {
     if (doc2.length === 2) break;
     if (daDung.has(x.v.han) || (tuDaDung.has(x.w.khoa) && deDoc.length > 3)) continue;
-    const nhieu = tron(nguonNhieu.filter((d) => d !== x.v.dich)).slice(0, 2);
+    const nhieu = nhieuTheoTang(x);
     if (nhieu.length < 2) continue;
     daDung.add(x.v.han);
     tuDaDung.add(x.w.khoa);
@@ -227,13 +240,14 @@ export function veChang(khung, maBai, so, soCua = 0) {
       const w = cua.tu;
       hang.push({ ky: 'nghe', loai: 'gioi-thieu', tu: w });
       hang.push({ ky: 'nghe', loai: 'hoi', tu: w, dang: ngheDuoc(w) ? 'nghe-nghia' : 'nghia' });
-      hang.push({ ky: 'nghe', loai: 'hoi', tu: w, dang: ngheDuoc(w) ? 'nghe' : 'chu' });
+      // Không nghe được: câu 2 hỏi pinyin (nếu được) để không trùng câu "nghĩa → chữ" của bước Nhớ
+      hang.push({ ky: 'nghe', loai: 'hoi', tu: w, dang: ngheDuoc(w) ? 'nghe' : pinyinDuoc(w) ? 'pinyin' : 'chu' });
       if ((coNhanDang() || coGhiAm()) && Date.now() > boNoiDen) hang.push({ ky: 'noi', loai: 'noi', tu: w });
       for (const c of [...new Set(chuHan(w.hanzi))].filter((x) => net[x]).slice(0, 3)) {
         hang.push({ ky: 'viet', loai: 'viet', chu: c, tu: w });
       }
       hang.push({ ky: 'nho', loai: 'hoi', tu: w, dang: 'chu' });
-      if (pinyinDuoc(w)) hang.push({ ky: 'nho', loai: 'hoi', tu: w, dang: 'pinyin' });
+      if (pinyinDuoc(w) && ngheDuoc(w)) hang.push({ ky: 'nho', loai: 'hoi', tu: w, dang: 'pinyin' });
     } else if (cua.loai === 'ghep') {
       if (W.length >= 3) hang.push({ ky: 'ghep', loai: 'ghep-cap', ds: W });
       tron(W).forEach((w, i) => {
@@ -625,6 +639,7 @@ export function veChang(khung, maBai, so, soCua = 0) {
         } else if (m > 0 && cu.trangThai === 'on' && cu.han > bayGio) {
           cu.han = bayGio;   // làm lại cửa mà còn sai → ôn từ này ngay
         }
+        if (m > 0) tdN.the[w.khoa].saiNgay = ngayHoc();   // sai trong ngày → khi ôn hôm nay không được chấm "Dễ"
       }
       // Tỉ lệ đúng (không tính Nói – micro/nơi ồn không nên làm trượt cửa)
       const tongDung = Object.values(ketQua).reduce((t, x) => t + x.dung, 0);

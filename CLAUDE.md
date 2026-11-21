@@ -147,6 +147,9 @@
 - Lộ trình `#/bai` là đường đi uốn lượn (nút tròn, tự cuộn tới chặng đang học, ☰ Mục lục). Cửa đúng < 60% (TI_LE_QUA_CUA,
   không tính phần Nói) thì chưa qua – vẫn ghi `tienDo.cua[k]` (mảng có thể rỗng) để luật tiến độ cũ không tự tính là xong.
 
+- Ôn từ (`man-the-tu.js`): thẻ ÔN đôi khi hỏi NHỚ CHỦ ĐỘNG – ⌨️ gõ pinyin (dấu hoặc số thanh; 不/一 nhận cả thanh gốc) và
+  ✍️ viết chữ không nét mờ (từ một chữ). `the.saiNgay` = ngày sai gần nhất (ở cửa hoặc khi ôn) → hôm đó không được chấm "Dễ".
+  Cửa Đọc: đáp án nhiễu ưu tiên câu cùng từ → cùng phần → cùng chặng. Không có giọng đọc: câu 2 của cửa từ hỏi pinyin.
 - NHẬP MÔN (cấp 0, chip đầu ở Bài học): `js/man-nhap-mon.js`, dữ liệu `cong-cu/nguon-nhap-mon/nhap-mon.txt` →
   `python -X utf8 cong-cu/tao-nhap-mon.py` → `data/nhap-mon.json` (6 chặng, cửa: hoc/nghe/cap/tu/noi/to/bo; dùng nen-tang.json).
   Tiến độ `tienDo.nhapMon = {cua, xong, boQua}`. HSK 1 · Chặng 1 mở khi `nhapMonXong()` (xong / qua kiểm tra bỏ qua 15 câu ≥ 80% /
