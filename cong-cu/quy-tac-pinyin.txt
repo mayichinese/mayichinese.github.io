@@ -1,0 +1,21 @@
+# QUY TẮC VIẾT PINYIN CÂU – dùng cho cong-cu/chuan-hoa-pinyin.py
+# (theo bản soát chuyên gia 2026-11-21, mục 1.6 và 4.1; dựa trên GB/T 16159-2012)
+#
+#  1. Bổ ngữ xu hướng kép (起来, 回来…) đứng sau một động từ: 来/去 ghi thanh nhẹ, viết rời khỏi động từ:
+#     看起来 kàn qǐlai, 拿回来 ná huílai. Làm động từ chính (他回来了) thì giữ thanh gốc như đề cương.
+#  2. Động từ MỘT âm tiết + bổ ngữ kết quả MỘT âm tiết: viết liền (找到 zhǎodào, 看完 kànwán).
+#     Động từ hai âm tiết + bổ ngữ: viết rời (整理好 zhěnglǐ hǎo).
+#  3. 了, 着, 过 viết rời (kàn le). Bổ ngữ khả năng viết rời (tīng de dǒng).
+#
+# Mỗi dòng: tên nhóm = các mục, cách nhau bằng dấu cách.
+
+bo-ngu-xu-huong-kep = 起来 回来 出来 进来 上来 下来 过来 回去 出去 进去 上去 下去 过去
+bo-ngu-xu-huong-don = 来 去
+dong-tu-mang-don = 带 拿 送 寄 跑 搬 传 借 买 开 飞
+bo-ngu-ket-qua = 到 完 懂 见 会 错 对 好 开 住 走 掉 饱 满 成 上 下 进 出 回 起 坏 醒 惯 倒
+# Động từ đứng trước nhưng KHÔNG nhận bổ ngữ (động từ năng nguyện, 是, 有…): bỏ qua
+khong-nhan-bo-ngu = 是 有 在 要 想 会 能 可以 应该 愿意 得 让 叫 请 别 给 爱 喜欢 打算 准备 开始 希望 记得 需要 必须 觉得 知道 来 去 跟 像 姓 当 点 还 病 比 到 该 上 下 过 完 多 里 旅游
+# Ngoại lệ: các cặp động từ + bổ ngữ xu hướng kép vẫn là bổ ngữ dù động từ nằm trong danh sách trên
+ngoai-le-bo-ngu = 想起来 想到 想好 想出来 跟上 来到 回到
+# Câu chứa các cụm sau thì bỏ qua (động từ + tính từ làm vị ngữ, không phải bổ ngữ): 都说好 = đều nói là hay
+bo-qua-cum = 都说好

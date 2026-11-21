@@ -5,7 +5,7 @@
 //   moXemTu(khoa)          bảng nhỏ: chữ, pinyin, nghĩa, Hán Việt, trạng thái + "Xem đầy đủ" (gọi từ app.js)
 // =========================================================
 
-import { tatCaTu, layTu, nghiaNgan } from './du-lieu.js';
+import { tatCaTu, layTu, nghiaNgan, tiengDoc } from './du-lieu.js';
 import { layTienDo } from './luu-tru.js';
 import { loaiThe } from './lich-on.js';
 import { esc, moHopThoai, nutLoa } from './giao-dien.js';
@@ -122,7 +122,7 @@ export function moXemTu(khoa) {
     </div>
     <div class="dong-xem-tu">
       <span class="pinyin pinyin-to">${toMauPinyin(t.pinyin, demChuHan(t.hanzi))}</span>
-      ${nutLoa(t.hanzi, true)}
+      ${nutLoa(tiengDoc(t), true)}
     </div>
     ${t.hanViet ? `<p class="chu-phu" style="margin:4px 0 0">Hán Việt: <b>${esc(t.hanViet)}</b></p>` : ''}
     <p style="margin:8px 0 0;font-weight:700">${esc(nghiaNgan(t))}</p>

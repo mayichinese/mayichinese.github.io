@@ -11,7 +11,7 @@
 @时候 | thời hậu
 - 名 | lúc, khi, thời điểm
 > 你什么时候去中国？ | Nǐ shénme shíhou qù Zhōngguó? | Khi nào bạn đi Trung Quốc?
-> 我在中国的时候，学了很多汉语。 | Wǒ zài Zhōngguó de shíhou, xuéle hěn duō Hànyǔ. | Lúc ở Trung Quốc, tôi đã học được nhiều tiếng Trung.
+> 我在中国的时候，学了很多汉语。 | Wǒ zài Zhōngguó de shíhou, xué le hěn duō Hànyǔ. | Lúc ở Trung Quốc, tôi đã học được nhiều tiếng Trung.
 * “… 的时候” = khi …, lúc … — sự việc đứng TRƯỚC 的时候 (ngược với tiếng Việt).
 
 @时间 | thời gian
@@ -37,18 +37,18 @@
 @分钟 | phân chung
 - 量 | phút (khoảng thời gian)
 > 我休息十分钟。 | Wǒ xiūxi shí fēnzhōng. | Tôi nghỉ mười phút.
-> 他看了二十分钟书。 | Tā kànle èrshí fēnzhōng shū. | Anh ấy đọc sách hai mươi phút.
+> 他看了二十分钟书。 | Tā kàn le èrshí fēnzhōng shū. | Anh ấy đọc sách hai mươi phút.
 
 @小时 | tiểu thời
 - 名 | giờ, tiếng đồng hồ (khoảng thời gian)
-> 我学习了两个小时。 | Wǒ xuéxíle liǎng gè xiǎoshí. | Tôi đã học hai tiếng.
+> 我学习了两个小时。 | Wǒ xuéxí le liǎng gè xiǎoshí. | Tôi đã học hai tiếng.
 > 一天有二十四个小时。 | Yì tiān yǒu èrshísì gè xiǎoshí. | Một ngày có hai mươi bốn giờ.
 * Phân biệt: 两点 = lúc hai giờ (thời điểm); 两个小时 = hai tiếng (khoảng thời gian).
 
 @半 | bán
 - 数 | rưỡi, nửa
 > 现在三点半。 | Xiànzài sān diǎn bàn. | Bây giờ là ba giờ rưỡi.
-> 我学了半年汉语。 | Wǒ xuéle bàn nián Hànyǔ. | Tôi đã học tiếng Trung nửa năm.
+> 我学了半年汉语。 | Wǒ xué le bàn nián Hànyǔ. | Tôi đã học tiếng Trung nửa năm.
 * 半 + lượng từ = nửa … (半个小时, 半年); số + lượng từ + 半 = … rưỡi (一个半小时 = một tiếng rưỡi).
 * Theo danh sách chính thức, 半 dùng như phó từ thuộc cấp 4.
 

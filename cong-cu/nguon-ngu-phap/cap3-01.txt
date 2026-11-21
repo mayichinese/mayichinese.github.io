@@ -45,7 +45,7 @@
 ~ 我/星期天/哪儿也/不想/去。
 > 谁/想/去/谁/就/去。 | Shéi xiǎng qù shéi jiù qù. | Ai muốn đi thì người đó đi.
 ? 我女儿什么___爱吃。 | 都 | 很; 太; 就 | Wǒ nǚ'ér shénme dōu ài chī. | Con gái tôi cái gì cũng thích ăn.
-? 谁先做完，___就可以回家。 | 谁 | 什么; 哪儿; 几 | Shéi xiān zuò wán, shéi jiù kěyǐ huí jiā. | Ai làm xong trước thì người đó được về nhà.
+? 谁先做完，___就可以回家。 | 谁 | 什么; 哪儿; 几 | Shéi xiān zuòwán, shéi jiù kěyǐ huí jiā. | Ai làm xong trước thì người đó được về nhà.
 ? 星期天我哪儿___没去，在家休息。 | 也 | 很; 就; 才 | Xīngqītiān wǒ nǎr yě méi qù, zài jiā xiūxi. | Chủ nhật tôi chẳng đi đâu cả, ở nhà nghỉ ngơi.
 
 ## da-dinh-ngu
@@ -79,14 +79,14 @@
 ! Đừng hiểu nhầm thành câu hỏi: 我好像在哪儿见过他。 là “hình như đã gặp ở đâu đó”, không phải “đã gặp ở đâu?”.
 ! Từ để hỏi dùng để hỏi thật thì không thêm 吗: không nói 你叫什么名字吗？ (吗 chỉ đi với từ để hỏi theo nghĩa “gì đó”: 你想买点儿什么吗？).
 > 我/想/吃/点儿/什么。 | Wǒ xiǎng chī diǎnr shénme. | Tôi muốn ăn chút gì đó.
-> 我/好像在哪儿/见过/他。 | Wǒ hǎoxiàng zài nǎr jiànguo tā. | Hình như tôi đã gặp anh ấy ở đâu đó.
+> 我/好像在哪儿/见过/他。 | Wǒ hǎoxiàng zài nǎr jiàn guo tā. | Hình như tôi đã gặp anh ấy ở đâu đó.
 ~ 他/我/好像在哪儿/见过。
 > 星期天/我们/去/哪儿/玩玩/吧。 | Xīngqītiān wǒmen qù nǎr wánwan ba. | Chủ nhật chúng mình đi đâu đó chơi đi.
 ~ 我们/星期天/去/哪儿/玩玩/吧。
 > 他/好像/有/什么/事。 | Tā hǎoxiàng yǒu shénme shì. | Hình như anh ấy có chuyện gì đó.
 ~ 好像/他/有/什么/事。
 ? 我渴了，想喝点儿___。 | 什么 | 谁; 哪儿; 怎么 | Wǒ kě le, xiǎng hē diǎnr shénme. | Tôi khát rồi, muốn uống chút gì đó.
-? 这个人我好像在___见过。 | 哪儿 | 什么; 谁; 怎么 | Zhège rén wǒ hǎoxiàng zài nǎr jiànguo. | Người này hình như tôi đã gặp ở đâu đó.
+? 这个人我好像在___见过。 | 哪儿 | 什么; 谁; 怎么 | Zhège rén wǒ hǎoxiàng zài nǎr jiàn guo. | Người này hình như tôi đã gặp ở đâu đó.
 ? 门外好像有___在说话。 | 谁 | 哪儿; 怎么; 几 | Mén wài hǎoxiàng yǒu shéi zài shuōhuà. | Ngoài cửa hình như có ai đó đang nói chuyện.
 
 ## you-you
@@ -110,6 +110,29 @@
 ? 这家饭馆的菜又便宜___好吃。 | 又 | 和; 很; 都 | Zhè jiā fànguǎn de cài yòu piányi yòu hǎochī. | Món ăn của quán này vừa rẻ vừa ngon.
 ? 这件衣服___便宜又好看。 | 又 | 和; 地; 吗 | Zhè jiàn yīfu yòu piányi yòu hǎokàn. | Bộ quần áo này vừa rẻ vừa đẹp.
 ? 他又会唱歌又会___舞。 | 跳 | 是; 去; 开 | Tā yòu huì chàng gē yòu huì tiàowǔ. | Anh ấy vừa biết hát vừa biết nhảy.
+
+## you-zai
+@ 又 và 再: đều dịch là “lại”
+§ 副词 · 又、再（重复）
+& 2
+= 又 + động từ (+ 了): việc ĐÃ lặp lại
+= 再 + động từ: việc CHƯA xảy ra, sẽ làm lại / làm thêm
+- 又 nói việc đã xảy ra thêm một lần nữa: 他今天又没来 (Hôm nay anh ấy lại không đến).
+- 再 nói việc chưa xảy ra: 明天再来吧 (Mai lại đến nhé), 请再说一次 (Xin nói lại một lần nữa).
+- Việc chưa xảy ra nhưng chắc chắn sẽ lặp lại (thường có 是, 要, 快……了) vẫn dùng 又: 明天又是星期一了 (Mai lại là thứ Hai rồi).
+- 再 còn nghĩa “rồi mới”: 先吃饭，再看电视 (đã học ở HSK 1).
+! Việc đã xảy ra không dùng 再: nói 你怎么又买了一件衣服, không nói 你怎么再买了一件衣服.
+! Lời mời, lời hẹn cho lần sau dùng 再: nói 欢迎你再来, không nói 欢迎你又来.
+> 他/今天/又/没/来。 | Tā jīntiān yòu méi lái. | Hôm nay anh ấy lại không đến.
+~ 今天/他/又/没/来。
+> 我/明天/再/给你/打电话。 | Wǒ míngtiān zài gěi nǐ dǎ diànhuà. | Mai tôi sẽ gọi lại cho bạn.
+~ 明天/我/再/给你/打电话。
+> 请你/再/说/一次。 | Qǐng nǐ zài shuō yí cì. | Bạn nói lại một lần nữa đi.
+> 明天/又/是/星期一/了。 | Míngtiān yòu shì xīngqīyī le. | Mai lại là thứ Hai rồi.
+? 他昨天没来上课，今天___没来。 | 又 | 再; 很; 太 | Tā zuótiān méi lái shàngkè, jīntiān yòu méi lái. | Hôm qua anh ấy không đến lớp, hôm nay lại không đến.
+? 这个菜很好吃，我想___吃一次。 | 再 | 又; 很; 的 | Zhège cài hěn hǎochī, wǒ xiǎng zài chī yí cì. | Món này rất ngon, tôi muốn ăn thêm lần nữa.
+? 现在太晚了，我们明天___去吧。 | 再 | 又; 很; 太 | Xiànzài tài wǎn le, wǒmen míngtiān zài qù ba. | Bây giờ muộn quá rồi, mai chúng ta hãy đi.
+? 你怎么___买了一件衣服？ | 又 | 再; 很; 太 | Nǐ zěnme yòu mǎi le yí jiàn yīfu? | Sao bạn lại mua thêm một bộ quần áo nữa?
 
 ## bo-ngu-muc-do
 @ Bổ ngữ mức độ: 好极了, 便宜得很, 累坏了
@@ -144,7 +167,7 @@
 - 才 cho thấy người nói thấy việc xảy ra muộn, chậm, khó: 他十点才起床 (Mãi 10 giờ anh ấy mới dậy). 我看了三遍才看懂 (Tôi đọc ba lần mới hiểu).
 - 才 đứng trước số lượng nghĩa là “mới có, chỉ có” (ít): 他今年才十八岁.
 - 就 / 才 đứng sau từ chỉ thời gian, trước động từ.
-! Câu có 才 (nghĩa muộn) không thêm 了 cuối câu: nói 他十点才来, không nói 他十点才来了.
+! 才 nghĩa “muộn, mãi mới” thì không thêm 了 cuối câu: nói 他十点才来, không nói 他十点才来了. (Khi 才 nghĩa “mới chỉ” đi với số lượng thì vẫn có 了 sau động từ: 他才来了三天 = anh ấy mới đến được ba ngày.)
 ! Khi nói việc xảy ra sớm / muộn, 就 / 才 đứng SAU từ chỉ thời gian: nói 他八点就到了, không nói 他就八点到了.
 > 他/七点/就/来/了。 | Tā qī diǎn jiù lái le. | Mới bảy giờ anh ấy đã đến rồi.
 ~ 七点/他/就/来/了。
@@ -154,7 +177,7 @@
 ~ 三天/他/就/学会/了。
 > 他/今年/才/十八/岁。 | Tā jīnnián cái shíbā suì. | Năm nay cậu ấy mới có mười tám tuổi.
 ~ 今年/他/才/十八/岁。
-? 他做得很快，十分钟___做完了。 | 就 | 很; 再; 太 | Tā zuò de hěn kuài, shí fēnzhōng jiù zuò wán le. | Cậu ấy làm rất nhanh, mười phút đã làm xong rồi.
+? 他做得很快，十分钟___做完了。 | 就 | 很; 再; 太 | Tā zuò de hěn kuài, shí fēnzhōng jiù zuòwán le. | Cậu ấy làm rất nhanh, mười phút đã làm xong rồi.
 ? 我等了你一个小时，你怎么现在___来？ | 才 | 很; 太; 把 | Wǒ děng le nǐ yí ge xiǎoshí, nǐ zěnme xiànzài cái lái? | Tôi đợi bạn một tiếng rồi, sao giờ bạn mới đến?
 ? 这个孩子___五岁，已经会写很多字了。 | 才 | 很; 太; 再 | Zhège háizi cái wǔ suì, yǐjīng huì xiě hěn duō zì le. | Đứa bé này mới năm tuổi mà đã biết viết nhiều chữ rồi.
 
@@ -212,7 +235,7 @@
 - Thêm tính từ sau 一样 để nói “… bằng”: 我跟哥哥一样高 (Tôi cao bằng anh trai).
 - Phủ định: 不 đặt trước 一样: 他的手机跟我的不一样. Có thể dùng 和 thay 跟.
 ! Tính từ đứng SAU 一样: nói 我跟他一样高, không nói 我跟他高一样 (theo kiểu “cao bằng”).
-! Trong câu so sánh, 不 đứng trước 一样: nói 我跟他不一样高, không nói 我不跟他一样高.
+! Trong câu so sánh, 不 đứng trước 一样: nói 我跟他不一样高; ít ai nói 我不跟他一样高 (nghe gượng; đặt 不 trước 跟 thường mang nghĩa “không muốn làm giống ai”).
 > 我/跟哥哥/一样/高。 | Wǒ gēn gēge yíyàng gāo. | Tôi cao bằng anh trai.
 > 今天/跟昨天/一样/热。 | Jīntiān gēn zuótiān yíyàng rè. | Hôm nay nóng như hôm qua.
 > 他的/手机/跟我的/不/一样。 | Tā de shǒujī gēn wǒ de bù yíyàng. | Điện thoại của anh ấy không giống của tôi.

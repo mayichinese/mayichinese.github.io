@@ -16,7 +16,7 @@ import { tinhTrangPhatAm } from './phat-am.js';
 import { demHomNay, baiDangHoc, tuChuaHoc } from './phien-hoc.js';
 import { nhiemVuHomNay, nhiemVuThang, gioConLai } from './nhiem-vu.js';
 import { layCapVuaMo } from './cap-do.js';
-import { esc, thongBao } from './giao-dien.js';
+import { esc, thongBao, duKienHsk3, moTaThoiGian } from './giao-dien.js';
 import { bieuTuong } from './bieu-tuong.js';
 
 const THU = ['Chủ nhật', 'Thứ Hai', 'Thứ Ba', 'Thứ Tư', 'Thứ Năm', 'Thứ Sáu', 'Thứ Bảy'];
@@ -55,8 +55,10 @@ function htmlChonMucTieu() {
       <b>Bạn muốn học bao nhiêu phút mỗi ngày?</b>
       <p class="chu-phu nho" style="margin:2px 0 10px">Chọn mức vừa sức – học đều mỗi ngày quan trọng hơn học nhiều. Đổi lại được trong Cài đặt.</p>
       <div class="luoi-muc-tieu">
-        ${CAC_MUC_TIEU.map((m) => `<button class="o-muc-tieu" data-phut="${m.phut}"><b>${m.phut} phút</b><span>${m.ten}</span></button>`).join('')}
+        ${CAC_MUC_TIEU.map((m) => `<button class="o-muc-tieu" data-phut="${m.phut}"><b>${m.phut} phút</b><span>${m.ten}</span>
+          <span>xong HSK 3 ${moTaThoiGian(duKienHsk3(m.phut).ngay)}</span></button>`).join('')}
       </div>
+      <p class="chu-phu nho du-kien">Khuyên học tối thiểu 30 phút mỗi ngày. Thời gian là ước tính theo kinh nghiệm, không phải số liệu chính thức.</p>
     </section>`;
 }
 

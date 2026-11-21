@@ -55,6 +55,6 @@
 
 @姓名 | tính danh
 - 名 | họ tên
-> 请写上你的姓名。 | Qǐng xiě shang nǐ de xìngmíng. | Hãy viết họ tên của bạn.
+> 请写上你的姓名。 | Qǐng xiěshang nǐ de xìngmíng. | Hãy viết họ tên của bạn.
 > 本子上有他的姓名。 | Běnzi shang yǒu tā de xìngmíng. | Trên vở có họ tên của cậu ấy.
 * Trang trọng hơn 名字; hay gặp trên giấy tờ, phiếu điền.

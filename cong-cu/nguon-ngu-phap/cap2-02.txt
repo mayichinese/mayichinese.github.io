@@ -11,7 +11,7 @@
 = Số 1–9 + lượng từ + 多  (hơn… một chút: 两个多小时)
 - 几 trong câu kể (không phải câu hỏi) nghĩa là “vài”: 我有几个中国朋友 (tôi có vài người bạn Trung Quốc).
 - Số tròn chục (十, 二十, 一百…) + 多 + lượng từ = hơn…: 十多个学生 (hơn mười học sinh).
-- Số từ 1 đến 9 + lượng từ + 多 = hơn… một chút: 三个多月 (hơn ba tháng), 五块多 (hơn năm tệ). Cách này chỉ dùng với đơn vị chia nhỏ được (小时, 天, 月, 年, 块…); không nói 三个多学生.
+- Số từ 1 đến 9 + lượng từ + 多 = hơn… một chút: 三个多月 (hơn ba tháng), 五块多 (hơn năm tệ). Cách này chỉ dùng với đơn vị chia nhỏ được (小时, 天, 月, 年, 块…); không nói 三个多学生. Với số tròn chục (10, 20, 100…) thì 多 đứng TRƯỚC lượng từ và dùng được với mọi danh từ: 十多个学生 (hơn mười học sinh), 二十多本书.
 - 十几 = mười mấy; 几十 = mấy chục.
 ! Với số tròn chục, 多 đứng TRƯỚC lượng từ: nói 二十多个, không nói 二十个多.
 ! Với số 1–9, 多 đứng SAU lượng từ: nói 两个多小时, không nói 两多个小时.
@@ -53,14 +53,14 @@
 - Phủ định dùng 没: 我没听懂 (tôi không nghe hiểu).
 ! Phủ định bổ ngữ kết quả dùng 没, không dùng 不: nói 我没听懂, không nói 我不听懂.
 ! Không chen tân ngữ vào giữa: nói 看完这本书, không nói 看这本书完.
-> 对不起，/我/写/错/了。 | Duìbuqǐ, wǒ xiě cuò le. | Xin lỗi, tôi viết sai rồi.
-> 老师/说/的/你/听/懂/了/吗？ | Lǎoshī shuō de nǐ tīng dǒng le ma? | Điều thầy nói bạn nghe hiểu chưa?
+> 对不起，/我/写/错/了。 | Duìbuqǐ, wǒ xiěcuò le. | Xin lỗi, tôi viết sai rồi.
+> 老师/说/的/你/听/懂/了/吗？ | Lǎoshī shuō de nǐ tīngdǒng le ma? | Điều thầy nói bạn nghe hiểu chưa?
 ~ 你/听/懂/了/老师/说/的/吗？
-> 饭/做/好/了，/来/吃/吧！ | Fàn zuò hǎo le, lái chī ba! | Cơm nấu xong rồi, lại ăn đi!
-> 我/已经/学/会/做饭/了。 | Wǒ yǐjīng xué huì zuò fàn le. | Tôi đã học được cách nấu ăn rồi.
-? 这个字你写___了，不对。 | 错 | 是; 很; 吗 | Zhège zì nǐ xiě cuò le, bú duì. | Chữ này bạn viết sai rồi, không đúng.
-? 这个问题我没听___。 | 懂 | 会; 是; 很 | Zhège wèntí wǒ méi tīng dǒng. | Câu hỏi này tôi nghe không hiểu.
-? 这本书我已经看___了。 | 完 | 很; 是; 去 | Zhè běn shū wǒ yǐjīng kàn wán le. | Cuốn sách này tôi đọc xong rồi.
+> 饭/做/好/了，/来/吃/吧！ | Fàn zuòhǎo le, lái chī ba! | Cơm nấu xong rồi, lại ăn đi!
+> 我/已经/学/会/做饭/了。 | Wǒ yǐjīng xuéhuì zuò fàn le. | Tôi đã học được cách nấu ăn rồi.
+? 这个字你写___了，不对。 | 错 | 是; 很; 吗 | Zhège zì nǐ xiěcuò le, bú duì. | Chữ này bạn viết sai rồi, không đúng.
+? 这个问题我没听___。 | 懂 | 会; 是; 很 | Zhège wèntí wǒ méi tīngdǒng. | Câu hỏi này tôi nghe không hiểu.
+? 这本书我已经看___了。 | 完 | 很; 是; 去 | Zhè běn shū wǒ yǐjīng kànwán le. | Cuốn sách này tôi đọc xong rồi.
 
 ## lap-dong-tu
 @ Lặp động từ: 看看, 问一问, 休息休息 – làm thử, làm một chút

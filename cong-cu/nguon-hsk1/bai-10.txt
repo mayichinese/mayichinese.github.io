@@ -41,7 +41,7 @@
 @前 | tiền
 - 名 | trước, phía trước; trước (thời gian)
 > 我家前边有一个超市。 | Wǒ jiā qiánbian yǒu yí gè chāoshì. | Trước nhà tôi có một siêu thị.
-> 三天前我去了医院。 | Sān tiān qián wǒ qùle yīyuàn. | Ba ngày trước tôi đã đi bệnh viện.
+> 三天前我去了医院。 | Sān tiān qián wǒ qù le yīyuàn. | Ba ngày trước tôi đã đi bệnh viện.
 * Chỉ thời gian: số lượng đứng trước 前 — 三天前 = ba ngày trước.
 
 @后 | hậu

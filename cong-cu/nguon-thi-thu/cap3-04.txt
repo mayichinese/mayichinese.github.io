@@ -21,7 +21,7 @@ X 工作太多 | gōngzuò tài duō
 X 运动太少 | yùndòng tài shǎo
 
 ### doan3
-P 这件衬衫是我上个星期在网上买的，颜色和样子都不错，就是有点儿小。我打算拿去换一件大一点儿的。 | Zhè jiàn chènshān shì wǒ shàng ge xīngqī zài wǎng shang mǎi de, yánsè hé yàngzi dōu búcuò, jiùshì yǒudiǎnr xiǎo. Wǒ dǎsuàn ná qù huàn yí jiàn dà yìdiǎnr de.
+P 这件衬衫是我上个星期在网上买的，颜色和样子都不错，就是有点儿小。我打算拿去换一件大一点儿的。 | Zhè jiàn chènshān shì wǒ shàng ge xīngqī zài wǎng shang mǎi de, yánsè hé yàngzi dōu búcuò, jiùshì yǒudiǎnr xiǎo. Wǒ dǎsuàn náqu huàn yí jiàn dà yìdiǎnr de.
 H 他觉得这件衬衫： | Tā juéde zhè jiàn chènshān:
 A 有点儿小 | yǒudiǎnr xiǎo
 X 颜色不好看 | yánsè bù hǎokàn
@@ -98,7 +98,7 @@ X 四十分钟 | sìshí fēnzhōng
 X 一个小时 | yí ge xiǎoshí
 
 ### doan14
-P 学习汉语的时候，我觉得最难的不是说，而是写汉字。老师告诉我，只要每天都认真练习，就一定能写好。 | Xuéxí Hànyǔ de shíhou, wǒ juéde zuì nán de bú shì shuō, ér shì xiě Hànzì. Lǎoshī gàosu wǒ, zhǐyào měi tiān dōu rènzhēn liànxí, jiù yídìng néng xiě hǎo.
+P 学习汉语的时候，我觉得最难的不是说，而是写汉字。老师告诉我，只要每天都认真练习，就一定能写好。 | Xuéxí Hànyǔ de shíhou, wǒ juéde zuì nán de bú shì shuō, ér shì xiě Hànzì. Lǎoshī gàosu wǒ, zhǐyào měi tiān dōu rènzhēn liànxí, jiù yídìng néng xiěhǎo.
 H 他觉得学汉语什么最难？ | Tā juéde xué Hànyǔ shénme zuì nán?
 A 写汉字 | xiě Hànzì
 X 说汉语 | shuō Hànyǔ
@@ -114,7 +114,7 @@ X 十岁 | shí suì
 ### doan16
 P 我以前很少运动，所以经常感冒。去年开始，我每个星期游三次泳，现在身体比以前好多了，很少生病。 | Wǒ yǐqián hěn shǎo yùndòng, suǒyǐ jīngcháng gǎnmào. Qùnián kāishǐ, wǒ měi ge xīngqī yóu sān cì yǒng, xiànzài shēntǐ bǐ yǐqián hǎo duō le, hěn shǎo shēngbìng.
 H 根据这段话，他现在： | Gēnjù zhè duàn huà, tā xiànzài:
-A 身体变好了 | shēntǐ biàn hǎo le
+A 身体变好了 | shēntǐ biànhǎo le
 X 经常感冒 | jīngcháng gǎnmào
 X 不爱运动 | bú ài yùndòng
 
@@ -207,7 +207,7 @@ P 昨天下大雨，我没带伞，在雨里走了半个小时才到家。今天
 H 他今天为什么没去上班？ | Tā jīntiān wèi shénme méi qù shàngbān?
 A 生病了 | shēngbìng le
 X 要去机场 | yào qù jīchǎng
-X 下大雨了 | xià dà yǔ le
+X 今天下大雨 | jīntiān xià dà yǔ
 
 ### doan30
 P 下个星期六是我奶奶的生日，我想送她一个特别的礼物。我打算把我们家这些年的照片放在一起，做成一本书。 | Xià ge xīngqīliù shì wǒ nǎinai de shēngrì, wǒ xiǎng sòng tā yí ge tèbié de lǐwù. Wǒ dǎsuàn bǎ wǒmen jiā zhèxiē nián de zhàopiàn fàng zài yìqǐ, zuòchéng yì běn shū.
@@ -217,16 +217,16 @@ X 一个蛋糕 | yí ge dàngāo
 X 一件衣服 | yí jiàn yīfu
 
 ### doan31
-P 同学们，明天的会议换到三楼的大教室开，不在二楼了。请大家下午两点以前到，别忘了带上笔和本子。 | Tóngxuémen, míngtiān de huìyì huàn dào sān lóu de dà jiàoshì kāi, bú zài èr lóu le. Qǐng dàjiā xiàwǔ liǎng diǎn yǐqián dào, bié wàng le dàishàng bǐ hé běnzi.
+P 同学们，明天的会议换到三楼的大教室开，不在二楼了。请大家下午两点以前到，别忘了带上笔和本子。 | Tóngxuémen, míngtiān de huìyì huàndào sān lóu de dà jiàoshì kāi, bú zài èr lóu le. Qǐng dàjiā xiàwǔ liǎng diǎn yǐqián dào, bié wàng le dàishàng bǐ hé běnzi.
 H 明天的会议在哪儿开？ | Míngtiān de huìyì zài nǎr kāi?
 A 三楼的教室 | sān lóu de jiàoshì
 X 二楼的教室 | èr lóu de jiàoshì
 X 老师的办公室 | lǎoshī de bàngōngshì
 
 ### doan32
-P 以前我的东西总是到处放，一要用就找不到。现在我每次用完都把东西放回同一个地方，找东西方便多了。 | Yǐqián wǒ de dōngxi zǒngshì dàochù fàng, yí yào yòng jiù zhǎo bu dào. Xiànzài wǒ měi cì yòng wán dōu bǎ dōngxi fàng huí tóng yí ge dìfang, zhǎo dōngxi fāngbiàn duō le.
+P 以前我的东西总是到处放，一要用就找不到。现在我每次用完都把东西放回同一个地方，找东西方便多了。 | Yǐqián wǒ de dōngxi zǒngshì dàochù fàng, yí yào yòng jiù zhǎo bu dào. Xiànzài wǒ měi cì yòngwán dōu bǎ dōngxi fànghuí tóng yí ge dìfang, zhǎo dōngxi fāngbiàn duō le.
 H 关于他，可以知道： | Guānyú tā, kěyǐ zhīdào:
-A 找东西很快 | zhǎo dōngxi hěn kuài
+A 找东西比以前方便 | zhǎo dōngxi bǐ yǐqián fāngbiàn
 X 经常找不到东西 | jīngcháng zhǎo bu dào dōngxi
 X 东西到处放 | dōngxi dàochù fàng
 

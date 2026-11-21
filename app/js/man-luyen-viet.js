@@ -17,7 +17,7 @@ import { tatCaTu, nghiaNgan } from './du-lieu.js';
 import { doc } from './phat-am.js';
 import { esc, batDongHo, moHopThoai, nutLoa, CHU_THICH_CHAM } from './giao-dien.js';
 import { toMauPinyin, demChuHan } from './pinyin.js';
-import { taiNetChu, taoBangVe, phatHoatCanh } from './net-chu.js';
+import { taiNetChu, taoBangVe, phatHoatCanh, saiToiDa } from './net-chu.js';
 import { capMo } from './cap-do.js';
 
 const LAP_TOI_DA = 3;          // một chữ chưa thuộc được đưa lại tối đa 3 lần trong một phiên
@@ -26,9 +26,12 @@ const LA_CHU_HAN = /\p{Script=Han}/u;
 const TEN_DANH_GIA = { 1: 'Quên', 2: 'Khó', 3: 'Nhớ', 4: 'Dễ' };
 const MUC_DANH_GIA = { 1: 'quen', 2: 'kho', 3: 'nho', 4: 'de' };
 
-/** Tự chấm theo số nét sai ở bước "viết không nhìn" */
-function chamDiem(soLoi, dungGoiY) {
-  if (dungGoiY || soLoi >= 4) return DANH_GIA.QUEN;
+/**
+ * Tự chấm theo số nét sai ở bước "viết không nhìn".
+ * Sai quá saiToiDa(số nét) (chữ ≤ 5 nét: 1 · 6–9: 2 · ≥ 10: 3) hoặc phải xem gợi ý → Quên.
+ */
+function chamDiem(soLoi, dungGoiY, soNet = 10) {
+  if (dungGoiY || soLoi > saiToiDa(soNet)) return DANH_GIA.QUEN;
   if (soLoi >= 1) return DANH_GIA.KHO;
   return DANH_GIA.NHO;
 }
@@ -299,7 +302,7 @@ export function vePhienViet(khung, chuChon = null) {
     function ghiKetQua(chu, soLoi, dungGoiY, writer) {
       const tdNay = layTienDo();
       const cu = tdNay.theViet[chu];
-      const dg = chamDiem(soLoi, dungGoiY);
+      const dg = chamDiem(soLoi, dungGoiY, duLieu.net[chu]?.strokes.length);
       const sauBao = moTaKhoangCach(cu, dg);
       tdNay.theViet[chu] = tinhLichMoi(cu, dg);
       const nk = nhatKyHomNay();

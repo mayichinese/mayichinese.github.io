@@ -16,6 +16,7 @@ D 你能用这个相机帮我们拍张照片吗？ | Nǐ néng yòng zhège xià
 C 相机 | 他/每次旅游/都带着/这个相机。 | Tā měi cì lǚyóu dōu dài zhe zhège xiàngjī. | Mỗi lần đi du lịch anh ấy đều mang theo chiếc máy ảnh này.
 ~ 每次旅游/他/都带着/这个相机。
 ~ 这个相机/他/每次旅游/都带着。
+~ 他/这个相机/每次旅游/都带着。
 
 ## 爬山 | 🏔️ | giaitri
 D 这个周末天气不错，我们去爬山吧？ | Zhège zhōumò tiānqì búcuò, wǒmen qù páshān ba? | 好啊，不过山很高，我们要早点儿出发。 | Hǎo a, búguò shān hěn gāo, wǒmen yào zǎo diǎnr chūfā. | – Cuối tuần này thời tiết đẹp, chúng mình đi leo núi nhé? – Được đấy, nhưng núi cao lắm, chúng mình phải xuất phát sớm một chút.
@@ -42,8 +43,8 @@ C 羽毛球 | 他们/正在/球场上/打羽毛球。 | Tāmen zhèngzài qiúch
 ## 熊猫 | 🐼 | dongvat
 D 这个周末带孩子去哪儿玩儿？ | Zhège zhōumò dài háizi qù nǎr wánr? | 去动物园吧，孩子们最喜欢看大熊猫了。 | Qù dòngwùyuán ba, háizimen zuì xǐhuan kàn dàxióngmāo le. | – Cuối tuần này đưa con đi đâu chơi? – Đi sở thú đi, bọn trẻ thích xem gấu trúc nhất.
 D 你知道大熊猫一天吃多少东西吗？ | Nǐ zhīdào dàxióngmāo yì tiān chī duōshao dōngxi ma? | 听说大概要吃三十公斤，真是太多了！ | Tīngshuō dàgài yào chī sānshí gōngjīn, zhēn shì tài duō le! | – Bạn có biết gấu trúc một ngày ăn bao nhiêu không? – Nghe nói khoảng ba mươi cân, nhiều quá đi mất!
-C 大熊猫 | 那只大熊猫/一边吃东西/一边/看着游客。 | Nà zhī dàxióngmāo yìbiān chī dōngxi yìbiān kàn zhe yóukè. | Con gấu trúc kia vừa ăn vừa nhìn du khách.
-~ 那只大熊猫/一边/看着游客/一边吃东西。
+C 大熊猫 | 那只/大熊猫/一边吃东西/一边看着游客。 | Nà zhī dàxióngmāo yìbiān chī dōngxi yìbiān kàn zhe yóukè. | Con gấu trúc kia vừa ăn vừa nhìn du khách.
+~ 那只/大熊猫/一边看着游客/一边吃东西。
 
 ## 月亮 | 🌕 | thiennhien
 D 你看，今天晚上的月亮又大又亮。 | Nǐ kàn, jīntiān wǎnshang de yuèliang yòu dà yòu liàng. | 是啊，明天就是中秋节了。 | Shì a, míngtiān jiù shì Zhōngqiū Jié le. | – Bạn nhìn kìa, trăng tối nay vừa to vừa sáng. – Đúng thế, mai là Tết Trung thu rồi.
@@ -58,7 +59,7 @@ C 伞 | 小张/把雨伞/放在/门口了。 | Xiǎo Zhāng bǎ yǔsǎn fàng z�
 
 ## 风 | 🌬️ | thoitiet
 D 今天风怎么这么大？ | Jīntiān fēng zěnme zhème dà? | 听说下午还要刮大风，你多穿点儿衣服吧。 | Tīngshuō xiàwǔ hái yào guā dà fēng, nǐ duō chuān diǎnr yīfu ba. | – Sao hôm nay gió to thế? – Nghe nói chiều nay còn có gió lớn nữa, bạn mặc thêm áo vào đi.
-D 外面刮风了，快把门关上吧。 | Wàimiàn guā fēng le, kuài bǎ mén guān shang ba. | 好的，这么大的风，今天还是别出去了。 | Hǎo de, zhème dà de fēng, jīntiān háishi bié chūqù le. | – Ngoài trời nổi gió rồi, mau đóng cửa lại đi. – Được, gió to thế này, hôm nay đừng ra ngoài nữa.
+D 外面刮风了，快把门关上吧。 | Wàimiàn guā fēng le, kuài bǎ mén guānshang ba. | 好的，这么大的风，今天还是别出去了。 | Hǎo de, zhème dà de fēng, jīntiān háishi bié chūqù le. | – Ngoài trời nổi gió rồi, mau đóng cửa lại đi. – Được, gió to thế này, hôm nay đừng ra ngoài nữa.
 
 ## 树 | 🌳 | thiennhien
 D 公园里的这些树真高啊！ | Gōngyuán li de zhèxiē shù zhēn gāo a! | 是啊，听说它们都有一百多年了。 | Shì a, tīngshuō tāmen dōu yǒu yìbǎi duō nián le. | – Những cái cây trong công viên này cao thật! – Đúng thế, nghe nói chúng đều hơn một trăm năm tuổi rồi.

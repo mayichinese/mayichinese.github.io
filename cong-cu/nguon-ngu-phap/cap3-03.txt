@@ -143,11 +143,11 @@
 ! 没 / 别 đứng trước 把: nói 我没把钱放在包里, không nói 我把钱没放在包里.
 > 请/把书/放在/桌子上。 | Qǐng bǎ shū fàng zài zhuōzi shàng. | Hãy đặt cuốn sách lên bàn.
 > 别/把水/放在/电脑旁边。 | Bié bǎ shuǐ fàng zài diànnǎo pángbiān. | Đừng để nước cạnh máy tính.
-> 他/每天/把/孩子/送到/学校。 | Tā měi tiān bǎ háizi sòng dào xuéxiào. | Ngày nào anh ấy cũng đưa con đến trường.
+> 他/每天/把/孩子/送到/学校。 | Tā měi tiān bǎ háizi sòngdào xuéxiào. | Ngày nào anh ấy cũng đưa con đến trường.
 ~ 每天/他/把/孩子/送到/学校。
 > 我/没/把/钱/放在/包里。 | Wǒ méi bǎ qián fàng zài bāo lǐ. | Tôi không để tiền trong túi.
 ? 你___手机放在哪儿了？ | 把 | 是; 很; 对 | Nǐ bǎ shǒujī fàng zài nǎr le? | Bạn để điện thoại ở đâu rồi?
-? 请把这些东西搬___楼上去。 | 到 | 了; 过; 着 | Qǐng bǎ zhèxiē dōngxi bān dào lóu shàng qù. | Hãy chuyển những đồ này lên lầu.
+? 请把这些东西搬___楼上去。 | 到 | 了; 过; 着 | Qǐng bǎ zhèxiē dōngxi bāndào lóu shàng qù. | Hãy chuyển những đồ này lên lầu.
 ? 别把衣服放___椅子上。 | 在 | 过; 着; 是 | Bié bǎ yīfu fàng zài yǐzi shàng. | Đừng để quần áo lên ghế.
 
 ## ba-cho
@@ -184,7 +184,7 @@
 ! 上 / 中 / 下 đặt ở CUỐI cụm: nói 在大家的帮助下, không nói 在下大家的帮助.
 > 他/在学习上/很/努力。 | Tā zài xuéxí shàng hěn nǔlì. | Về mặt học tập, cậu ấy rất chăm chỉ.
 ~ 在学习上/他/很/努力。
-> 在/大家/的/帮助/下，/我/做/完/了/工作。 | Zài dàjiā de bāngzhù xià, wǒ zuò wán le gōngzuò. | Nhờ mọi người giúp đỡ, tôi đã làm xong công việc.
+> 在/大家/的/帮助/下，/我/做/完/了/工作。 | Zài dàjiā de bāngzhù xià, wǒ zuòwán le gōngzuò. | Nhờ mọi người giúp đỡ, tôi đã làm xong công việc.
 ~ 我/在/大家/的/帮助/下，/做/完/了/工作。
 > 在/这/次/比赛/中，/他/跑/得/最/快。 | Zài zhè cì bǐsài zhōng, tā pǎo de zuì kuài. | Trong cuộc thi lần này, anh ấy chạy nhanh nhất.
 ~ 他/在/这/次/比赛/中，/跑/得/最/快。

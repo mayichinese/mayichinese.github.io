@@ -6,18 +6,20 @@
 #   > <câu ví dụ chữ Hán> | <pinyin> | <dịch tiếng Việt>
 #   * <ghi chú cách dùng>
 #   ? <trường cần kiểm tra: hanViet / nghia / viDu> | <lý do>
+#
+# Âm Hán Việt (soát chuyên môn 2026-11-21): chữ giản thể gộp từ nhiều chữ phồn thể thì lấy âm của chữ phồn thể
+# ĐÚNG NGHĨA (面 = 麵 → miến khi là mì; 只 = 隻 → chích khi là lượng từ; 后 = 後; 发 = 發 hoặc 髮).
+# 你 ghi “nhĩ” (cách người học quen gọi, khớp Hanzii); 時 ghi “thời” (thời gian); 吃 ghi “cật”.
 
 # 1 | Chào hỏi và lịch sự
 
-@你好 | nễ hảo
+@你好 | nhĩ hảo
 - cụm | xin chào (câu chào thông dụng)
-? hanViet | mình ghi “nễ”, Hanzii ghi “nhĩ hảo” — chọn một cách đọc
 > 你好！ | Nǐ hǎo! | Xin chào!
 > 老师，你好！ | Lǎoshī, nǐ hǎo! | Em chào thầy/cô ạ!
 
-@你 | nễ
+@你 | nhĩ
 - 代 | bạn, anh, chị, em… (ngôi thứ hai số ít)
-? hanViet | mình ghi “nễ”, Hanzii ghi “nhĩ” — chọn một cách đọc
 > 你是学生吗？ | Nǐ shì xuéshēng ma? | Bạn là học sinh phải không?
 > 我爱你。 | Wǒ ài nǐ. | Anh yêu em. / Tôi yêu bạn.
 
@@ -111,9 +113,8 @@
 > 我们是同学。 | Wǒmen shì tóngxué. | Chúng tôi là bạn học.
 > 我们去吃饭吧。 | Wǒmen qù chī fàn ba. | Chúng ta đi ăn cơm đi.
 
-@你们 | nễ môn
+@你们 | nhĩ môn
 - 代 | các bạn, các anh chị
-? hanViet | mình ghi “nễ”, Hanzii ghi “nhĩ môn” — chọn một cách đọc
 > 你们好！ | Nǐmen hǎo! | Chào các bạn!
 > 你们是哪国人？ | Nǐmen shì nǎ guó rén? | Các bạn là người nước nào?
 
@@ -270,12 +271,12 @@
 @三 | tam
 - 数 | ba
 > 我家有三口人。 | Wǒ jiā yǒu sān kǒu rén. | Nhà tôi có ba người.
-> 我学了三个月汉语。 | Wǒ xuéle sān gè yuè Hànyǔ. | Tôi đã học tiếng Trung ba tháng.
+> 我学了三个月汉语。 | Wǒ xué le sān gè yuè Hànyǔ. | Tôi đã học tiếng Trung ba tháng.
 
 @四 | tứ
 - 数 | bốn
 > 他今年四岁。 | Tā jīnnián sì suì. | Năm nay cậu bé bốn tuổi.
-> 我买了四个苹果。 | Wǒ mǎile sì gè píngguǒ. | Tôi đã mua bốn quả táo.
+> 我买了四个苹果。 | Wǒ mǎi le sì gè píngguǒ. | Tôi đã mua bốn quả táo.
 * Chú ý phân biệt sì (bốn, 四) và shí (mười, 十).
 
 @五 | ngũ
@@ -338,9 +339,8 @@
 
 # 5 | Gia đình
 
-@爸爸 | bá bá
+@爸爸 | bả bả
 - 名 | bố, ba
-? hanViet | mình ghi “bá”, Hanzii ghi “bả bả” — cần đối chiếu
 > 我爸爸是医生。 | Wǒ bàba shì yīshēng. | Bố tôi là bác sĩ.
 > 爸爸在公司工作。 | Bàba zài gōngsī gōngzuò. | Bố làm việc ở công ty.
 

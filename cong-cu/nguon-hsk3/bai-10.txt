@@ -6,7 +6,7 @@
 
 @把 | bả
 - 介 | đem, lấy (đưa tân ngữ lên trước động từ để nói đã xử lý nó thế nào)
-> 我把作业写完了。 | Wǒ bǎ zuòyè xiě wán le. | Tôi làm xong bài tập rồi.
+> 我把作业写完了。 | Wǒ bǎ zuòyè xiěwán le. | Tôi làm xong bài tập rồi.
 > 请把你的笔记给我看看。 | Qǐng bǎ nǐ de bǐjì gěi wǒ kànkan. | Cho tôi xem vở ghi của bạn với.
 - 量 | cái (đồ vật có tay cầm, chỗ cầm: ghế, ô…)
 > 教室里有三十把椅子。 | Jiàoshì li yǒu sānshí bǎ yǐzi. | Trong lớp có ba mươi cái ghế.
@@ -117,7 +117,7 @@
 - 形 | chăm chỉ, cố gắng
 > 他学习很努力。 | Tā xuéxí hěn nǔlì. | Anh ấy học rất chăm chỉ.
 - 动 | cố gắng, nỗ lực
-> 我会努力学好汉语。 | Wǒ huì nǔlì xué hǎo Hànyǔ. | Tôi sẽ cố gắng học giỏi tiếng Hán.
+> 我会努力学好汉语。 | Wǒ huì nǔlì xuéhǎo Hànyǔ. | Tôi sẽ cố gắng học giỏi tiếng Hán.
 > 大家再努力一下，就快完了。 | Dàjiā zài nǔlì yíxià, jiù kuài wán le. | Mọi người cố thêm chút nữa, sắp xong rồi.
 * 努力 + động từ = cố gắng làm gì. 很努力 = rất chăm.
 
@@ -182,7 +182,7 @@
 @作业 | tác nghiệp
 - 名 | bài tập (về nhà)
 > 今天的作业很多。 | Jīntiān de zuòyè hěn duō. | Bài tập hôm nay rất nhiều.
-> 你写完作业了吗？ | Nǐ xiě wán zuòyè le ma? | Con làm xong bài tập chưa?
+> 你写完作业了吗？ | Nǐ xiěwán zuòyè le ma? | Con làm xong bài tập chưa?
 * 写作业 / 做作业 = làm bài tập. Không phải “tác nghiệp” (thao tác công việc) như tiếng Việt.
 
 @课本 | khóa bản

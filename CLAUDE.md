@@ -63,7 +63,7 @@
     (luu-tru.js) → `nk.luot[loai]`, `nk.luotTot` (≥80%), `nk.luotHoanHao`. Nhiệm vụ tháng: 50.
   - `js/cap-do.js`: mở khóa cấp dần – HSK N mở khi học hết từ cấp N−1, hoặc đạt thi thử cấp N−1 (học vượt), hoặc đã có từ cấp N
     (tiến độ cũ). Ghi `tienDo.capDaMo`. Khóa: học từ mới, bài, ngữ pháp, thi thử, chữ viết cấp 3 của cấp đang khóa.
-  - `js/man-chu-am.js` (Chữ & âm): phiên âm (thanh, 23 âm đầu, 35 vần), 18 nét + 7 quy tắc thứ tự nét, 45 bộ thủ; luyện 10 câu
+  - `js/man-chu-am.js` (Chữ & âm): phiên âm (thanh, 23 âm đầu, 35 vần), 25 nét (18 + 7 nét ghép) + 10 quy tắc thứ tự nét, 49 bộ thủ; luyện 10 câu
     phiên âm / bộ thủ; tiến độ `tienDo.nenTang.dung/sai` theo "d:zh", "v:ang", "b:氵". Dữ liệu `data/nen-tang.json` tạo từ
     `cong-cu/nguon-nen-tang/*.txt` bằng `python -X utf8 cong-cu/tao-nen-tang.py` (cần makemeahanzi-dictionary.txt và
     Unihan_Readings.txt trong `cong-cu/tu-dien-doi-chieu/`; ví dụ nghe lấy tự động, bỏ chữ đa âm).
@@ -123,11 +123,11 @@
   + `cong-cu/bao-cao-hsk2.txt` (đã gồm kiểm tra pinyin câu ví dụ; chữ cho phép = cấp 1–2). Từ chưa soạn không hiện, bài hiện
   "Đang soạn". Mã bài HSK 2 = '2-3' (du-lieu.js), khóa thẻ '2:<dạng gốc>'; mục trùng mặt chữ trong cùng cấp: `过(guo)`.
   Từ mới đi theo thứ tự HSK 1 → HSK 2. `tao-du-lieu-thanh-dieu.py` đọc mọi `hsk[0-9].json`. Soạn HSK 2: dừng báo sau mỗi 3 bài.
-- Giai đoạn 5.4 (HSK 3 – XONG: 500 từ, 150 chữ viết tay cấp 3, 51 điểm ngữ pháp cấp 3, thi thử HSK 3): `cong-cu/nguon-hsk3/phan-bai.txt` (500 từ theo 18 bài sách 《新HSK教程 3》; 450 từ khớp
+- Giai đoạn 5.4 (HSK 3 – XONG: 500 từ, 150 chữ viết tay cấp 3, 52 điểm ngữ pháp cấp 3, thi thử HSK 3): `cong-cu/nguon-hsk3/phan-bai.txt` (500 từ theo 18 bài sách 《新HSK教程 3》; 450 từ khớp
   bảng từ sách, 49 từ xếp tay theo chủ đề; mục trùng: `得(děi)`) + `bai-NN.txt` → `python -X utf8 cong-cu/ghep-du-lieu-cap.py 3`
   → `app/data/hsk3.json` (chữ cho phép cấp 1–3). Mã bài '3-5'. Chữ viết tay cấp 3 (150) XONG: `data/net-chu-hsk23.json` (khóa vietTay3 + nét của
   mọi chữ trong từ HSK 2–3; file 1 net-chu-hsk1.json giữ nguyên), net-chu.js gộp hai file; Luyện viết có chip Cấp 1–2 / Cấp 3,
-  chữ mới hết cấp 1–2 mới sang cấp 3. Ngữ pháp cấp 3 XONG: 51 điểm `cap3-01…05.txt`
+  chữ mới hết cấp 1–2 mới sang cấp 3. Ngữ pháp cấp 3 XONG: 52 điểm `cap3-01…05.txt` (thêm `you-zai` 又/再 ở bài 2, 2026-11-21)
   (`ghep-ngu-phap.py 3` → `data/ngu-phap-hsk3.json`; danh sách điểm theo thứ tự bài sách, soạn song song rồi soát độc lập).
 - Thi thử HSK 3 (5.4): cùng `js/man-thi-thu.js` (CAU_HINH[3], taoDe3; kiểu mới `xepCau`). Nghe 30 + đọc 30 (30′) + viết 10 (20′).
   Viết P2 của đề thật (nhìn tranh tự viết câu) đổi thành sắp xếp mảnh có từ cho sẵn – mọi thứ tự khác cũng đúng phải có dòng `~`.
@@ -135,6 +135,22 @@
   bằng `python -X utf8 cong-cu/ghep-thi-thu-3.py`. Chữ 王, 京, 戴, 镜, 美, 油… nằm NGOÀI cấp 1–3 – không dùng (tên người: 小李, 小张, 李明).
 - Giai đoạn 5.1: `js/man-thong-ke.js` (chỉ đọc tiến độ; biểu đồ SVG tự vẽ, màu `--bd-1…5` đã kiểm tra mù màu).
 - `CHAY-APP.bat` – chạy app trên máy (máy chủ nhỏ ở localhost). `HUONG-DAN.md` – hướng dẫn người dùng.
+
+## Soát chuyên môn 2026-11-21 (tai-lieu/Mayi Chinese – Các điểm cần chuyên gia xác nhận.md) – ĐÃ ÁP DỤNG, giữ nguyên khi soạn mới
+- PINYIN CÂU (`cong-cu/quy-tac-pinyin.txt` + `python -X utf8 cong-cu/chuan-hoa-pinyin.py [--sua]`, chạy sau khi soạn câu mới, rồi ghép lại dữ liệu):
+  bổ ngữ xu hướng kép sau động từ ghi 来/去 thanh nhẹ, viết rời khỏi động từ (kàn qǐlai); làm động từ chính giữ thanh gốc (huílái);
+  động từ 1 âm tiết + bổ ngữ 1 âm tiết viết liền (zhǎodào, kànwán); động từ 2 âm tiết + bổ ngữ viết rời; 了/着/过 viết rời.
+- Âm Hán Việt: chữ giản thể gộp nhiều chữ phồn thể → âm của chữ phồn thể đúng nghĩa (面=麵 miến, 只=隻 chích); 你 nhĩ, 吃 cật, 爸爸 bả bả, 爱好 ái hiếu.
+- Chấm nói (`cham-phat-am.js`): đọc TỪ sai thanh → tối đa 60 (không đạt); 二/两 chỉ coi là một khi máy trả CHỮ SỐ; `nhacBienDieu()` nhắc
+  biến điệu trước khi đọc; thống kê nói tính LẦN ĐỌC ĐẦU (`tienDo.noi.tu[k].dau`); "Nói theo nghĩa" chấp nhận từ đồng nghĩa (cùng nghĩa tiếng Việt).
+- Thi thử: HSK 3 ẩn pinyin (CAU_HINH[3].anPinyin, viết P1 chỉ ghi pinyin chữ cần viết); học vượt = ≥ 70% tổng VÀ mọi phần ≥ 60
+  (`datHocVuot`); mức đạt 60% ghi "ước tính theo kỳ thi cũ"; sau khi nộp HSK 3 có ô tự gõ câu (không tính điểm) ở Viết P2.
+- Viết tay: số nét sai tối đa `saiToiDa(soNet)` (net-chu.js): ≤5 nét → 1, 6–9 → 2, ≥10 → 3 (thi thử, Luyện viết, cửa từ).
+- Chữ đa âm nhiều mục (得 还 长 只 地 过): thẻ có dòng "Chữ này còn đọc là…" (`cachDocKhac`), loa đọc câu ví dụ (`tiengDoc(tu)` – dùng thay `tu.hanzi` khi phát âm một từ).
+- Mục tiêu mặc định 30 phút; 10 phút = "Ôn tập, giữ chuỗi"; ước tính ngày xong HSK 3 = 250 giờ × phần từ còn lại (`duKienHsk3`, giao-dien.js).
+- Chữ & âm: ví dụ nghe có TỪ HAI CHỮ (`vdTu`), mục "⚠️ Lưu ý cho người Việt" (`@ luu-y` trong phien-am.txt); 25 nét, 10 quy tắc, 49 bộ thủ.
+- Bài sắp xếp: không cho 在+nơi chốn lên đầu câu (trừ nơi chốn trừu tượng); chủ ngữ A和/跟B phải chấp nhận cả B和/跟A;
+  không chấp nhận phó từ trước chủ ngữ (trừ 都……了); hai mảnh giống hệt nhau thì ghep-thi-thu-3 báo lỗi.
 
 ## Dữ liệu
 - Sửa nguồn trong `cong-cu/nguon-hsk1/`, rồi chạy lại cả hai lệnh (không viết lại hai script này):

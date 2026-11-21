@@ -11,6 +11,9 @@
 //        - khác âm / thiếu chữ                                             → sai
 //      Hai chuỗi được dóng hàng như so văn bản (cho phép thiếu / thừa chữ).
 //   3. Điểm = (số chữ đúng + ½ số chữ sai thanh) / số chữ  (chữ thừa trừ nhẹ) × 100.
+//      Đọc TỪ (không phải câu) thì phải đúng mọi thanh mới đạt: sai thanh → tối đa DIEM_TU_SAI_THANH
+//      (theo bản soát chuyên gia: từ 2 âm tiết sai 1 thanh trước đây vẫn được 75 điểm = đạt).
+//   4. 二 và 两 chỉ coi là một khi máy viết ra CHỮ SỐ (2): máy viết chữ Hán 二 mà câu đúng là 两 thì là đọc sai.
 // Lưu ý: đây là chấm "máy có hiểu bạn nói gì không", gần với người Trung nghe hiểu,
 // không phải chấm từng âm vị như phòng thí nghiệm.
 // =========================================================
@@ -84,12 +87,22 @@ function soThanhChu(chuoi) {
   });
   return kq;
 }
+/** → [{ c: chữ Hán, so: true nếu chữ này đổi từ chữ số máy viết ra }] */
 function chuanHoaCauNoi(chuoi) {
-  return String(chuoi || '')
-    .replace(/(\d{4})(?=年)/g, (s) => [...s].map((c) => CHU_SO[c]).join(''))   // năm đọc từng số
-    .replace(/(\d+):(\d+)/g, (_, h, p) => `${soThanhChu(h)}点${soThanhChu(p)}`)
-    .replace(/\d+/g, soThanhChu)
-    .replace(/[^\p{Script=Han}]/gu, '');
+  const DAU_SO = '#';   // dấu (không phải chữ Hán) đặt trước mỗi chữ Hán đổi từ chữ số
+  const danhDau = (t) => [...t].map((c) => DAU_SO + c).join('');
+  const s = String(chuoi || '')
+    .replace(/(\d{4})(?=年)/g, (x) => danhDau([...x].map((c) => CHU_SO[c]).join('')))   // năm đọc từng số
+    .replace(/(\d+):(\d+)/g, (_, h, p) => `${danhDau(soThanhChu(h))}点${danhDau(soThanhChu(p))}`)
+    .replace(/\d+/g, (x) => danhDau(soThanhChu(x)));
+  const kq = [];
+  let tuSo = false;
+  for (const c of s) {
+    if (c === DAU_SO) { tuSo = true; continue; }
+    if (/\p{Script=Han}/u.test(c)) kq.push({ c, so: tuSo });
+    tuSo = false;
+  }
+  return kq;
 }
 
 /** Âm tiết mong đợi của từng chữ Hán trong câu đúng (lấy theo pinyin của dữ liệu nếu khớp số chữ) */
@@ -100,13 +113,13 @@ function amCauDung(hanzi, pinyin) {
   return chu.map((c, i) => ({ chu: c, py: khop ? am[i].chu : '', am: khop ? amSo(am[i].chu) : null }));
 }
 
-// Hai chữ hay bị máy viết lẫn nhau dù người nói đúng
-const TUONG_DUONG = [['二', '两']];
+// Máy viết chữ số "2" thì không biết người học nói 二 hay 两 → coi như đúng chữ của câu đúng
+const TUONG_DUONG_SO = [['二', '两']];
 
-/** So một chữ của câu đúng (o) với một chữ máy nghe được (r): 'dung' | 'thanh' | 'sai' */
-function soChu(o, r) {
+/** So một chữ của câu đúng (o) với một chữ máy nghe được ({c, so}): 'dung' | 'thanh' | 'sai' */
+function soChu(o, { c: r, so: tuSo }) {
   if (o.chu === r) return { kq: 'dung' };
-  if (TUONG_DUONG.some((cap) => cap.includes(o.chu) && cap.includes(r))) return { kq: 'dung' };
+  if (tuSo && TUONG_DUONG_SO.some((cap) => cap.includes(o.chu) && cap.includes(r))) return { kq: 'dung' };
   const amR = amCuaChu?.get(r) || [];
   const amO = o.am ? [o.am] : (amCuaChu?.get(o.chu) || []);
   if (!amR.length || !amO.length) return { kq: 'sai' };
@@ -153,7 +166,7 @@ function chamMot(cauDung, vanBan) {
     if (i > 0 && j > 0 && Math.abs(f[i][j] - (f[i - 1][j - 1] + PHAT[so[i - 1][j - 1].kq])) < 1e-9) {
       const s = so[i - 1][j - 1];
       chiTiet[i - 1].kq = s.kq;
-      chiTiet[i - 1].nghe = nghe[j - 1];
+      chiTiet[i - 1].nghe = nghe[j - 1].c;
       if (s.nghe) chiTiet[i - 1].ngheAm = amDau(s.nghe);
       i--; j--;
     } else if (i > 0 && Math.abs(f[i][j] - (f[i - 1][j] + PHAT_THIEU)) < 1e-9) {
@@ -166,7 +179,7 @@ function chamMot(cauDung, vanBan) {
   const dung = chiTiet.filter((c) => c.kq === 'dung').length;
   const saiThanh = chiTiet.filter((c) => c.kq === 'thanh').length;
   const diem = n ? Math.round((100 * (dung + 0.5 * saiThanh)) / (n + 0.5 * thua)) : 0;
-  return { diem, chiTiet, thua, vanBan: nghe.join('') };
+  return { diem, chiTiet, thua, vanBan: nghe.map((x) => x.c).join('') };
 }
 
 /**
@@ -174,16 +187,47 @@ function chamMot(cauDung, vanBan) {
  * @param {string} hanzi   câu/từ đúng (chữ Hán, có thể có dấu câu)
  * @param {string} pinyin  pinyin của câu đúng (để biết chữ đa âm đọc thế nào); có thể rỗng
  * @param {string[]} cacCachNghe  các phương án máy nhận dạng được (lấy phương án điểm cao nhất)
- * @returns {{ diem, chiTiet: [{chu, py, kq: 'dung'|'thanh'|'sai'|'thieu', nghe, ngheAm}], thua, vanBan }}
+ * @param {{laTu?: boolean}} [tuyChon]  laTu: đang đọc một TỪ → sai thanh thì không đạt
+ * @returns {{ diem, chiTiet: [{chu, py, kq: 'dung'|'thanh'|'sai'|'thieu', nghe, ngheAm}], thua, vanBan, saiThanh }}
+ *   saiThanh: danh sách chữ đúng âm nhưng sai thanh
  */
-export function chamPhatAm(hanzi, pinyin, cacCachNghe) {
+export function chamPhatAm(hanzi, pinyin, cacCachNghe, tuyChon = {}) {
   const cauDung = amCauDung(hanzi, pinyin);
   let tot = null;
   for (const v of cacCachNghe || []) {
     const kq = chamMot(cauDung, v);
     if (!tot || kq.diem > tot.diem) tot = kq;
   }
-  return tot || chamMot(cauDung, '');
+  tot = tot || chamMot(cauDung, '');
+  tot.saiThanh = tot.chiTiet.filter((c) => c.kq === 'thanh');
+  if (tuyChon.laTu && tot.saiThanh.length) tot.diem = Math.min(tot.diem, DIEM_TU_SAI_THANH);
+  return tot;
+}
+
+/**
+ * Nhắc biến điệu trước khi đọc (máy nhận dạng KHÔNG bắt được lỗi biến điệu).
+ * @returns {string[]} tối đa 2 lời nhắc, ví dụ "不去 đọc là bú qù (不 trước thanh 4 → thanh 2)"
+ */
+export function nhacBienDieu(hanzi, pinyin) {
+  const chu = [...(hanzi || '')].filter((c) => LA_HAN.test(c));
+  const am = pinyin ? tachPinyin(pinyin, demChuHan(hanzi)).filter((p) => p.thanh !== undefined) : [];
+  if (am.length !== chu.length) return [];
+  const nhac = [];
+  const daCo = new Set();
+  const them = (loai, chuoi) => { if (!daCo.has(loai)) { daCo.add(loai); nhac.push(chuoi); } };
+  for (let i = 0; i + 1 < chu.length; i++) {
+    const a = am[i].chu.toLowerCase();
+    const cap = `${chu[i]}${chu[i + 1]}`;
+    const doc = `${a} ${am[i + 1].chu.toLowerCase()}`;
+    if (chu[i] === '不' && a === 'bú') them('bu', `${cap} đọc là ${doc} (不 đứng trước thanh 4 thì đổi sang thanh 2)`);
+    else if (chu[i] === '一' && a === 'yí') them('yi2', `${cap} đọc là ${doc} (一 đứng trước thanh 4 thì đổi sang thanh 2)`);
+    else if (chu[i] === '一' && a === 'yì') them('yi4', `${cap} đọc là ${doc} (一 đứng trước thanh 1, 2, 3 thì đổi sang thanh 4)`);
+    else if (am[i].thanh === 3 && am[i + 1].thanh === 3) {
+      them('33', `${cap} ghi ${doc} nhưng chữ đầu đọc gần thanh 2 (hai thanh 3 liền nhau)`);
+    }
+    if (nhac.length >= 2) break;
+  }
+  return nhac;
 }
 
 /** Lời nhận xét theo điểm */
@@ -194,3 +238,5 @@ export function nhanXet(diem) {
   return { muc: 'yeu', emoji: '🔁', chu: 'Máy chưa nghe ra. Nói chậm, rõ từng chữ và thử lại.' };
 }
 export const DIEM_DAT = 70;
+/** Điểm tối đa của bài đọc TỪ khi có chữ sai thanh (dưới mức đạt) */
+export const DIEM_TU_SAI_THANH = 60;

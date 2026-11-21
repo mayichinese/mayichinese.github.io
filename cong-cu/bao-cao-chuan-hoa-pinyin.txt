@@ -1,0 +1,12 @@
+Cặp câu chữ Hán + pinyin: 5202 · không dóng được (bỏ qua): 347
+CHẾ ĐỘ: chỉ báo cáo (thêm --sua để sửa)
+
+===== R1 · Bổ ngữ xu hướng kép sau động từ (viết rời, 来/去 nhẹ): 0 câu =====
+
+===== R1b · Động từ mang + 来/去 (viết liền, nhẹ): 0 câu =====
+
+===== R2 · Động từ 1 âm tiết + bổ ngữ 1 âm tiết (viết liền): 0 câu =====
+
+===== R3 · Động từ ≥ 2 âm tiết + bổ ngữ (viết rời): 0 câu =====
+
+===== R4 · 了 / 着 / 过 viết rời: 0 câu =====

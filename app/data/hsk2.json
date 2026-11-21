@@ -1253,13 +1253,13 @@
      "viDu": [
       {
        "han": "我看完这本书了。",
-       "pinyin": "Wǒ kàn wán zhè běn shū le.",
+       "pinyin": "Wǒ kànwán zhè běn shū le.",
        "dich": "Tôi đọc xong cuốn sách này rồi.",
        "nghiaSo": 0
       },
       {
        "han": "水喝完了，我去买吧。",
-       "pinyin": "Shuǐ hē wán le, wǒ qù mǎi ba.",
+       "pinyin": "Shuǐ hēwán le, wǒ qù mǎi ba.",
        "dich": "Nước uống hết rồi, để tôi đi mua.",
        "nghiaSo": 0
       }
@@ -2470,7 +2470,7 @@
       }
      ],
      "ghiChu": [
-      "走 = đi (bộ), không phải “chạy”; chạy là 跑 (bài 7). 走路 = đi bộ (bài 9)."
+      "走 = đi (bộ), rời đi – không phải “chạy” như chữ “tẩu” trong “tẩu thoát”; chạy là 跑 (bài 7). 走路 = đi bộ (bài 9)."
      ],
      "canKiemTra": []
     },
@@ -2930,7 +2930,7 @@
      "tuLoaiChinhThuc": "动、名",
      "soThuTu": 302,
      "daSoan": true,
-     "hanViet": "ái hảo",
+     "hanViet": "ái hiếu",
      "nghia": [
       {
        "tuLoai": "名",
@@ -2956,7 +2956,8 @@
       }
      ],
      "ghiChu": [
-      "Hỏi sở thích: 你有什么爱好？"
+      "Hỏi sở thích: 你有什么爱好？",
+      "Dễ đọc nhầm: 好 ở đây đọc hào (thích), không phải hǎo; vì vậy Hán Việt là “ái hiếu”."
      ],
      "canKiemTra": []
     },
@@ -3321,7 +3322,7 @@
       },
       {
        "han": "我们游过去吧。",
-       "pinyin": "Wǒmen yóu guòqù ba.",
+       "pinyin": "Wǒmen yóu guòqu ba.",
        "dich": "Chúng mình bơi qua đó đi.",
        "nghiaSo": 0
       }
@@ -4611,13 +4612,13 @@
      "viDu": [
       {
        "han": "你说错了。",
-       "pinyin": "Nǐ shuō cuò le.",
+       "pinyin": "Nǐ shuōcuò le.",
        "dich": "Bạn nói sai rồi.",
        "nghiaSo": 0
       },
       {
        "han": "这个字写错了。",
-       "pinyin": "Zhège zì xiě cuò le.",
+       "pinyin": "Zhège zì xiěcuò le.",
        "dich": "Chữ này viết sai rồi.",
        "nghiaSo": 0
       }
@@ -6000,7 +6001,7 @@
       },
       {
        "han": "希望你们都能考好！",
-       "pinyin": "Xīwàng nǐmen dōu néng kǎo hǎo!",
+       "pinyin": "Xīwàng nǐmen dōu néng kǎohǎo!",
        "dich": "Mong các bạn đều thi tốt!",
        "nghiaSo": 0
       }
@@ -6810,7 +6811,7 @@
      "viDu": [
       {
        "han": "请写上你的姓名。",
-       "pinyin": "Qǐng xiě shang nǐ de xìngmíng.",
+       "pinyin": "Qǐng xiěshang nǐ de xìngmíng.",
        "dich": "Hãy viết họ tên của bạn.",
        "nghiaSo": 0
       },

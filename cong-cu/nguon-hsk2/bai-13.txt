@@ -38,7 +38,7 @@
 @希望 | hy vọng
 - 动 | hy vọng, mong
 > 我希望明天是晴天。 | Wǒ xīwàng míngtiān shì qíngtiān. | Tôi mong mai trời nắng.
-> 希望你们都能考好！ | Xīwàng nǐmen dōu néng kǎo hǎo! | Mong các bạn đều thi tốt!
+> 希望你们都能考好！ | Xīwàng nǐmen dōu néng kǎohǎo! | Mong các bạn đều thi tốt!
 * 希望 + cả một câu = mong rằng….
 
 @上网 | thượng võng

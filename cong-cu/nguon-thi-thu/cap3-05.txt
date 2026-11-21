@@ -24,7 +24,7 @@ X 周末去爬山 | zhōumò qù páshān
 X 上音乐课 | shàng yīnyuè kè
 
 ### dai2
-P 饺子是中国北方人很爱吃的东西。过年的时候，一家人常常坐在一起包饺子，一边包一边聊天。有的人会在一个饺子里放一块糖，吃到这个饺子的人，新的一年会很甜。现在超市里也能买到饺子，但是很多老人还是觉得自己包的更好吃。 | Jiǎozi shì Zhōngguó běifāng rén hěn ài chī de dōngxi. Guònián de shíhou, yì jiā rén chángcháng zuò zài yìqǐ bāo jiǎozi, yìbiān bāo yìbiān liáotiān. Yǒude rén huì zài yí ge jiǎozi lǐ fàng yí kuài táng, chī dào zhège jiǎozi de rén, xīn de yì nián huì hěn tián. Xiànzài chāoshì lǐ yě néng mǎi dào jiǎozi, dànshì hěn duō lǎorén háishi juéde zìjǐ bāo de gèng hǎochī.
+P 饺子是中国北方人很爱吃的东西。过年的时候，一家人常常坐在一起包饺子，一边包一边聊天。有的人会在一个饺子里放一块糖，吃到这个饺子的人，新的一年会很甜。现在超市里也能买到饺子，但是很多老人还是觉得自己包的更好吃。 | Jiǎozi shì Zhōngguó běifāng rén hěn ài chī de dōngxi. Guònián de shíhou, yì jiā rén chángcháng zuò zài yìqǐ bāo jiǎozi, yìbiān bāo yìbiān liáotiān. Yǒude rén huì zài yí ge jiǎozi lǐ fàng yí kuài táng, chīdào zhège jiǎozi de rén, xīn de yì nián huì hěn tián. Xiànzài chāoshì lǐ yě néng mǎidào jiǎozi, dànshì hěn duō lǎorén háishi juéde zìjǐ bāo de gèng hǎochī.
 H 过年的时候，一家人常常： | Guònián de shíhou, yì jiā rén chángcháng:
 A 一起包饺子 | yìqǐ bāo jiǎozi
 X 去超市买饺子 | qù chāoshì mǎi jiǎozi
@@ -57,7 +57,7 @@ X 玩儿一会儿手机 | wánr yíhuìr shǒujī
 X 把手机放在床边 | bǎ shǒujī fàng zài chuángbiān
 
 ### dai5
-P 我家附近有一个很大的公园，公园里有一条河，河边种了很多花和树。每天早上，很多老人在那儿锻炼身体，有的跑步，有的跳舞。到了周末，年轻人喜欢带着孩子去河边骑自行车。公园不要钱，所以去的人特别多。 | Wǒ jiā fùjìn yǒu yí ge hěn dà de gōngyuán, gōngyuán lǐ yǒu yì tiáo hé, hé biān zhòng le hěn duō huā hé shù. Měi tiān zǎoshang, hěn duō lǎorén zài nàr duànliàn shēntǐ, yǒude pǎobù, yǒude tiàowǔ. Dào le zhōumò, niánqīng rén xǐhuan dàizhe háizi qù hé biān qí zìxíngchē. Gōngyuán bú yào qián, suǒyǐ qù de rén tèbié duō.
+P 我家附近有一个很大的公园，公园里有一条河，河边种了很多花和树。每天早上，很多老人在那儿锻炼身体，有的跑步，有的跳舞。到了周末，年轻人喜欢带着孩子去河边骑自行车。公园不要钱，所以去的人特别多。 | Wǒ jiā fùjìn yǒu yí ge hěn dà de gōngyuán, gōngyuán lǐ yǒu yì tiáo hé, hé biān zhòng le hěn duō huā hé shù. Měi tiān zǎoshang, hěn duō lǎorén zài nàr duànliàn shēntǐ, yǒude pǎobù, yǒude tiàowǔ. Dào le zhōumò, niánqīng rén xǐhuan dài zhe háizi qù hé biān qí zìxíngchē. Gōngyuán bú yào qián, suǒyǐ qù de rén tèbié duō.
 H 关于这个公园，可以知道： | Guānyú zhège gōngyuán, kěyǐ zhīdào:
 A 去公园不用花钱 | qù gōngyuán bú yòng huā qián
 X 公园里没有河 | gōngyuán lǐ méiyǒu hé
@@ -68,7 +68,7 @@ X 跑步 | pǎobù
 X 跳舞 | tiàowǔ
 
 ### dai6
-P 今天是我的生日，可是爸爸妈妈都在外地出差，我以为没有人记得。下班回到家，打开门一看，桌子上放着一个大蛋糕，我的好朋友们都在房间里等我。后来我才知道，是我的妹妹给他们打的电话。我感动得说不出话来。 | Jīntiān shì wǒ de shēngrì, kěshì bàba māma dōu zài wàidì chūchāi, wǒ yǐwéi méiyǒu rén jìde. Xiàbān huí dào jiā, dǎkāi mén yí kàn, zhuōzi shang fàngzhe yí ge dà dàngāo, wǒ de hǎo péngyoumen dōu zài fángjiān lǐ děng wǒ. Hòulái wǒ cái zhīdào, shì wǒ de mèimei gěi tāmen dǎ de diànhuà. Wǒ gǎndòng de shuō bu chū huà lái.
+P 今天是我的生日，可是爸爸妈妈都在外地出差，我以为没有人记得。下班回到家，打开门一看，桌子上放着一个大蛋糕，我的好朋友们都在房间里等我。后来我才知道，是我的妹妹给他们打的电话。我感动得说不出话来。 | Jīntiān shì wǒ de shēngrì, kěshì bàba māma dōu zài wàidì chūchāi, wǒ yǐwéi méiyǒu rén jìde. Xiàbān huídào jiā, dǎkāi mén yí kàn, zhuōzi shang fàng zhe yí ge dà dàngāo, wǒ de hǎo péngyoumen dōu zài fángjiān lǐ děng wǒ. Hòulái wǒ cái zhīdào, shì wǒ de mèimei gěi tāmen dǎ de diànhuà. Wǒ gǎndòng de shuō bu chū huà lái.
 H 他回家以前以为： | Tā huí jiā yǐqián yǐwéi:
 A 没人记得他的生日 | méi rén jìde tā de shēngrì
 X 爸爸妈妈在家等他 | bàba māma zài jiā děng tā
@@ -123,7 +123,7 @@ X 很累 | hěn lèi
 X 太贵了 | tài guì le
 
 ### dai11
-P 学校东边新开了一家面馆，老板是一个年轻人。他们的面条又便宜又好吃，一碗只要十五块钱。中午的时候，店里总是坐满了学生，去晚了就得等很长时间。所以我一般早一点儿去，十一点半就到了。 | Xuéxiào dōngbian xīn kāi le yì jiā miànguǎn, lǎobǎn shì yí ge niánqīng rén. Tāmen de miàntiáo yòu piányi yòu hǎochī, yì wǎn zhǐ yào shíwǔ kuài qián. Zhōngwǔ de shíhou, diàn lǐ zǒngshì zuò mǎn le xuésheng, qù wǎn le jiù děi děng hěn cháng shíjiān. Suǒyǐ wǒ yìbān zǎo yìdiǎnr qù, shíyī diǎn bàn jiù dào le.
+P 学校东边新开了一家面馆，老板是一个年轻人。他们的面条又便宜又好吃，一碗只要十五块钱。中午的时候，店里总是坐满了学生，去晚了就得等很长时间。所以我一般早一点儿去，十一点半就到了。 | Xuéxiào dōngbian xīn kāi le yì jiā miànguǎn, lǎobǎn shì yí ge niánqīng rén. Tāmen de miàntiáo yòu piányi yòu hǎochī, yì wǎn zhǐ yào shíwǔ kuài qián. Zhōngwǔ de shíhou, diàn lǐ zǒngshì zuòmǎn le xuésheng, qù wǎn le jiù děi děng hěn cháng shíjiān. Suǒyǐ wǒ yìbān zǎo yìdiǎnr qù, shíyī diǎn bàn jiù dào le.
 H 关于这家面馆，可以知道： | Guānyú zhè jiā miànguǎn, kěyǐ zhīdào:
 A 面条很便宜 | miàntiáo hěn piányi
 X 老板是老人 | lǎobǎn shì lǎorén

@@ -303,7 +303,7 @@
     {
      "ai": "",
      "han": "我没去过这个商场，它很大。",
-     "pinyin": "Wǒ méi qùguo zhège shāngchǎng, tā hěn dà.",
+     "pinyin": "Wǒ méi qù guo zhège shāngchǎng, tā hěn dà.",
      "dich": "Mình chưa đến trung tâm thương mại này bao giờ, nó rất lớn."
     },
     {
@@ -327,7 +327,7 @@
     {
      "ai": "",
      "han": "妈妈给我买了一条黑色的裤子，还买了一件白色的衣服。",
-     "pinyin": "Māma gěi wǒ mǎile yì tiáo hēisè de kùzi, hái mǎile yí jiàn báisè de yīfu.",
+     "pinyin": "Māma gěi wǒ mǎi le yì tiáo hēisè de kùzi, hái mǎi le yí jiàn báisè de yīfu.",
      "dich": "Mẹ mua cho mình một cái quần màu đen, còn mua một cái áo màu trắng."
     },
     {
@@ -410,7 +410,7 @@
     {
      "ai": "奶奶",
      "han": "小明来了！快进来坐吧，我给你们准备了奶茶。",
-     "pinyin": "Xiǎo Míng lái le! Kuài jìnlái zuò ba, wǒ gěi nǐmen zhǔnbèile nǎichá.",
+     "pinyin": "Xiǎo Míng lái le! Kuài jìnlái zuò ba, wǒ gěi nǐmen zhǔnbèi le nǎichá.",
      "dich": "Tiểu Minh đến rồi! Mau vào ngồi đi, bà đã chuẩn bị trà sữa cho các cháu."
     },
     {
@@ -493,13 +493,13 @@
     {
      "ai": "",
      "han": "妈妈给我做了很多菜：鱼、肉、饺子什么的。",
-     "pinyin": "Māma gěi wǒ zuòle hěn duō cài: yú, ròu, jiǎozi shénme de.",
+     "pinyin": "Māma gěi wǒ zuò le hěn duō cài: yú, ròu, jiǎozi shénme de.",
      "dich": "Mẹ nấu cho mình rất nhiều món: cá, thịt, sủi cảo, v.v."
     },
     {
      "ai": "",
      "han": "姐姐给我画了一只大大的猫，真好看。",
-     "pinyin": "Jiějie gěi wǒ huàle yì zhī dàdà de māo, zhēn hǎokàn.",
+     "pinyin": "Jiějie gěi wǒ huà le yì zhī dàdà de māo, zhēn hǎokàn.",
      "dich": "Chị gái vẽ cho mình một con mèo to ơi là to, đẹp thật."
     },
     {
@@ -523,7 +523,7 @@
     {
      "ai": "",
      "han": "晚上我在床上想：这个生日真快乐，我不会忘了它！",
-     "pinyin": "Wǎnshang wǒ zài chuáng shang xiǎng: zhège shēngrì zhēn kuàilè, wǒ bú huì wàngle tā!",
+     "pinyin": "Wǎnshang wǒ zài chuáng shang xiǎng: zhège shēngrì zhēn kuàilè, wǒ bú huì wàng le tā!",
      "dich": "Buổi tối nằm trên giường mình nghĩ: sinh nhật này thật vui, mình sẽ không quên nó!"
     }
    ],
@@ -671,7 +671,7 @@
     {
      "ai": "",
      "han": "十年前的今天，我在一个小饭馆认识了她。",
-     "pinyin": "Shí nián qián de jīntiān, wǒ zài yí gè xiǎo fànguǎn rènshile tā.",
+     "pinyin": "Shí nián qián de jīntiān, wǒ zài yí gè xiǎo fànguǎn rènshi le tā.",
      "dich": "Đúng ngày này mười năm trước, tôi quen cô ấy ở một quán ăn nhỏ."
     },
     {
@@ -695,7 +695,7 @@
     {
      "ai": "",
      "han": "我点了妻子爱吃的鱼，还送了她一块手表和一些花。",
-     "pinyin": "Wǒ diǎnle qīzi ài chī de yú, hái sòngle tā yí kuài shǒubiǎo hé yìxiē huā.",
+     "pinyin": "Wǒ diǎn le qīzi ài chī de yú, hái sòng le tā yí kuài shǒubiǎo hé yìxiē huā.",
      "dich": "Tôi gọi món cá vợ thích ăn, còn tặng cô ấy một chiếc đồng hồ và một ít hoa."
     },
     {
@@ -885,7 +885,7 @@
     {
      "ai": "",
      "han": "她没有笑我。我想，这次考试我能考好！",
-     "pinyin": "Tā méiyǒu xiào wǒ. Wǒ xiǎng, zhè cì kǎoshì wǒ néng kǎo hǎo!",
+     "pinyin": "Tā méiyǒu xiào wǒ. Wǒ xiǎng, zhè cì kǎoshì wǒ néng kǎohǎo!",
      "dich": "Bạn ấy không cười mình. Mình nghĩ, kỳ thi lần này mình sẽ thi tốt!"
     }
    ],
@@ -956,7 +956,7 @@
     {
      "ai": "小李",
      "han": "你在这儿坐着，别动。我去药店给你买药，路上再买一些水果。",
-     "pinyin": "Nǐ zài zhèr zuòzhe, bié dòng. Wǒ qù yàodiàn gěi nǐ mǎi yào, lùshang zài mǎi yìxiē shuǐguǒ.",
+     "pinyin": "Nǐ zài zhèr zuò zhe, bié dòng. Wǒ qù yàodiàn gěi nǐ mǎi yào, lùshang zài mǎi yìxiē shuǐguǒ.",
      "dich": "Bạn cứ ngồi đây, đừng cử động. Mình ra hiệu thuốc mua thuốc cho bạn, dọc đường mua thêm ít hoa quả."
     },
     {
@@ -1063,7 +1063,7 @@
     {
      "ai": "",
      "han": "下午五点我正要回家，外面下着大雨。",
-     "pinyin": "Xiàwǔ wǔ diǎn wǒ zhèng yào huí jiā, wàimiàn xiàzhe dà yǔ.",
+     "pinyin": "Xiàwǔ wǔ diǎn wǒ zhèng yào huí jiā, wàimiàn xià zhe dà yǔ.",
      "dich": "Năm giờ chiều mình vừa định về nhà thì bên ngoài đang mưa to."
     },
     {
@@ -1223,13 +1223,13 @@
     {
      "ai": "",
      "han": "奶奶家门口站着很多小孩儿，他们看见我们，就跑过来说：“过年好！”",
-     "pinyin": "Nǎinai jiā ménkǒu zhànzhe hěn duō xiǎoháir, tāmen kànjiàn wǒmen, jiù pǎo guòlái shuō: “Guònián hǎo!”",
+     "pinyin": "Nǎinai jiā ménkǒu zhàn zhe hěn duō xiǎoháir, tāmen kànjiàn wǒmen, jiù pǎo guòlai shuō: “Guònián hǎo!”",
      "dich": "Trước cửa nhà bà có rất nhiều trẻ con đang đứng, thấy bọn mình liền chạy lại nói: “Chúc mừng năm mới!”"
     },
     {
      "ai": "",
      "han": "爷爷正在看电视，看见我们，就笑着站起来了。",
-     "pinyin": "Yéye zhèngzài kàn diànshì, kànjiàn wǒmen, jiù xiàozhe zhàn qǐlái le.",
+     "pinyin": "Yéye zhèngzài kàn diànshì, kànjiàn wǒmen, jiù xiào zhe zhàn qǐlai le.",
      "dich": "Ông đang xem ti vi, thấy bọn mình liền cười và đứng dậy."
     },
     {
@@ -1247,13 +1247,13 @@
     {
      "ai": "",
      "han": "这时候，门口走进来一位先生，他姓李，是爷爷的朋友。",
-     "pinyin": "Zhè shíhou, ménkǒu zǒu jìnlái yí wèi xiānsheng, tā xìng Lǐ, shì yéye de péngyou.",
+     "pinyin": "Zhè shíhou, ménkǒu zǒu jìnlai yí wèi xiānsheng, tā xìng Lǐ, shì yéye de péngyou.",
      "dich": "Lúc đó, từ cửa có một ông bước vào, ông ấy họ Lý, là bạn của ông nội."
     },
     {
      "ai": "",
      "han": "吃完饭，几个女孩儿在桌子前面唱歌跳舞。",
-     "pinyin": "Chī wán fàn, jǐ gè nǚháir zài zhuōzi qiánmiàn chàng gē tiàowǔ.",
+     "pinyin": "Chīwán fàn, jǐ gè nǚháir zài zhuōzi qiánmiàn chàng gē tiàowǔ.",
      "dich": "Ăn xong, mấy cô bé hát và nhảy múa trước bàn."
     },
     {
@@ -1330,13 +1330,13 @@
     {
      "ai": "小文",
      "han": "你出过国吗？",
-     "pinyin": "Nǐ chūguo guó ma?",
+     "pinyin": "Nǐ chū guo guó ma?",
      "dich": "Bạn đã từng ra nước ngoài chưa?"
     },
     {
      "ai": "小明",
      "han": "出过一次。上高中的时候，我跟爸爸妈妈去过一次中国。这次我要去五天。",
-     "pinyin": "Chūguo yí cì. Shàng gāozhōng de shíhou, wǒ gēn bàba māma qùguo yí cì Zhōngguó. Zhè cì wǒ yào qù wǔ tiān.",
+     "pinyin": "Chū guo yí cì. Shàng gāozhōng de shíhou, wǒ gēn bàba māma qù guo yí cì Zhōngguó. Zhè cì wǒ yào qù wǔ tiān.",
      "dich": "Một lần rồi. Hồi học cấp ba, mình đã cùng bố mẹ đi Trung Quốc một lần. Lần này mình đi năm ngày."
     },
     {

@@ -400,7 +400,7 @@
      "viDu": [
       {
        "han": "她妈妈看起来很年轻。",
-       "pinyin": "Tā māma kàn qǐlái hěn niánqīng.",
+       "pinyin": "Tā māma kàn qǐlai hěn niánqīng.",
        "dich": "Mẹ cô ấy trông rất trẻ.",
        "nghiaSo": 0
       },
@@ -1080,7 +1080,7 @@
       }
      ],
      "ghiChu": [
-      "Không phải “phương tiện” (xe cộ) trong tiếng Việt: 方便 = tiện, thuận tiện."
+      "Không phải “phương tiện” (xe cộ) trong tiếng Việt: 方便 = tiện, thuận tiện. Hay gặp trong 方便面 (mì ăn liền)."
      ],
      "canKiemTra": []
     },
@@ -1839,7 +1839,7 @@
       },
       {
        "han": "他们上个月搬到这个小区了。",
-       "pinyin": "Tāmen shàng ge yuè bān dào zhège xiǎoqū le.",
+       "pinyin": "Tāmen shàng ge yuè bāndào zhège xiǎoqū le.",
        "dich": "Tháng trước họ chuyển đến khu nhà này.",
        "nghiaSo": 0
       }
@@ -2229,7 +2229,7 @@
       },
       {
        "han": "这本书你看完了就还给我吧。",
-       "pinyin": "Zhè běn shū nǐ kàn wán le jiù huán gěi wǒ ba.",
+       "pinyin": "Zhè běn shū nǐ kànwán le jiù huán gěi wǒ ba.",
        "dich": "Cuốn sách này bạn đọc xong thì trả lại tôi nhé.",
        "nghiaSo": 0
       }
@@ -2268,7 +2268,7 @@
       }
      ],
      "ghiChu": [
-      "Thường nghĩa là “môi trường, khung cảnh sống”, ít dùng như “hoàn cảnh (gia đình)” trong tiếng Việt."
+      "Nghĩa là “môi trường, khung cảnh xung quanh”. “Hoàn cảnh (khó khăn)” của tiếng Việt thì tiếng Trung thường nói bằng từ khác; 家庭环境 vẫn có nhưng nghĩa là “môi trường trong gia đình”."
      ],
      "canKiemTra": []
     },
@@ -2593,7 +2593,9 @@
        "nghiaSo": 0
       }
      ],
-     "ghiChu": [],
+     "ghiChu": [
+      "Dễ đọc nhầm: 行 ở đây đọc háng (hàng, ngành); trong 不行, 自行车 đọc xíng."
+     ],
      "canKiemTra": []
     },
     {
@@ -3746,7 +3748,7 @@
      "viDu": [
       {
        "han": "外面很冷，穿上大衣吧。",
-       "pinyin": "Wàimiàn hěn lěng, chuān shàng dàyī ba.",
+       "pinyin": "Wàimiàn hěn lěng, chuānshàng dàyī ba.",
        "dich": "Bên ngoài lạnh lắm, mặc áo khoác vào đi.",
        "nghiaSo": 0
       },
@@ -4836,7 +4838,7 @@
       },
       {
        "han": "电梯坏了，我们只能走上去。",
-       "pinyin": "Diàntī huài le, wǒmen zhǐ néng zǒu shàngqù.",
+       "pinyin": "Diàntī huài le, wǒmen zhǐ néng zǒu shàngqu.",
        "dich": "Thang máy hỏng rồi, chúng ta đành đi bộ lên.",
        "nghiaSo": 0
       }
@@ -5153,7 +5155,7 @@
       },
       {
        "han": "写完作业以后，再检查一下。",
-       "pinyin": "Xiě wán zuòyè yǐhòu, zài jiǎnchá yíxià.",
+       "pinyin": "Xiěwán zuòyè yǐhòu, zài jiǎnchá yíxià.",
        "dich": "Làm xong bài tập rồi thì kiểm tra lại một lượt.",
        "nghiaSo": 0
       }
@@ -7324,7 +7326,7 @@
       },
       {
        "han": "有什么事别放在心里，说出来吧。",
-       "pinyin": "Yǒu shénme shì bié fàng zài xīnlǐ, shuō chūlái ba.",
+       "pinyin": "Yǒu shénme shì bié fàng zài xīnlǐ, shuō chūlai ba.",
        "dich": "Có chuyện gì thì đừng giữ trong lòng, nói ra đi.",
        "nghiaSo": 0
       }
@@ -7884,7 +7886,7 @@
       },
       {
        "han": "今天的练习你做完了吗？",
-       "pinyin": "Jīntiān de liànxí nǐ zuò wán le ma?",
+       "pinyin": "Jīntiān de liànxí nǐ zuòwán le ma?",
        "dich": "Bài tập hôm nay bạn làm xong chưa?",
        "nghiaSo": 1
       }
@@ -8471,7 +8473,7 @@
      "viDu": [
       {
        "han": "我把作业写完了。",
-       "pinyin": "Wǒ bǎ zuòyè xiě wán le.",
+       "pinyin": "Wǒ bǎ zuòyè xiěwán le.",
        "dich": "Tôi làm xong bài tập rồi.",
        "nghiaSo": 0
       },
@@ -9074,7 +9076,7 @@
       },
       {
        "han": "我会努力学好汉语。",
-       "pinyin": "Wǒ huì nǔlì xué hǎo Hànyǔ.",
+       "pinyin": "Wǒ huì nǔlì xuéhǎo Hànyǔ.",
        "dich": "Tôi sẽ cố gắng học giỏi tiếng Hán.",
        "nghiaSo": 1
       },
@@ -9434,7 +9436,7 @@
       },
       {
        "han": "你写完作业了吗？",
-       "pinyin": "Nǐ xiě wán zuòyè le ma?",
+       "pinyin": "Nǐ xiěwán zuòyè le ma?",
        "dich": "Con làm xong bài tập chưa?",
        "nghiaSo": 0
       }
@@ -12105,7 +12107,7 @@
       },
       {
        "han": "吃完饭，我来洗盘子。",
-       "pinyin": "Chī wán fàn, wǒ lái xǐ pánzi.",
+       "pinyin": "Chīwán fàn, wǒ lái xǐ pánzi.",
        "dich": "Ăn xong, để tôi rửa đĩa.",
        "nghiaSo": 0
       }
@@ -12138,7 +12140,7 @@
       },
       {
        "han": "他找到了新工作，晚上要请客。",
-       "pinyin": "Tā zhǎo dào le xīn gōngzuò, wǎnshang yào qǐngkè.",
+       "pinyin": "Tā zhǎodào le xīn gōngzuò, wǎnshang yào qǐngkè.",
        "dich": "Anh ấy tìm được việc mới, tối nay sẽ khao.",
        "nghiaSo": 0
       }
@@ -12534,13 +12536,13 @@
      "viDu": [
       {
        "han": "我的自行车被人骑走了。",
-       "pinyin": "Wǒ de zìxíngchē bèi rén qí zǒu le.",
+       "pinyin": "Wǒ de zìxíngchē bèi rén qízǒu le.",
        "dich": "Xe đạp của tôi bị người ta đạp đi mất rồi.",
        "nghiaSo": 0
       },
       {
        "han": "蛋糕被弟弟吃完了。",
-       "pinyin": "Dàngāo bèi dìdi chī wán le.",
+       "pinyin": "Dàngāo bèi dìdi chīwán le.",
        "dich": "Bánh ngọt bị em trai ăn hết rồi.",
        "nghiaSo": 0
       }
@@ -12928,7 +12930,7 @@
      "viDu": [
       {
        "han": "小狗跳到了桌子上。",
-       "pinyin": "Xiǎo gǒu tiào dào le zhuōzi shang.",
+       "pinyin": "Xiǎo gǒu tiàodào le zhuōzi shang.",
        "dich": "Con chó nhỏ nhảy lên bàn.",
        "nghiaSo": 0
       },
@@ -13060,7 +13062,7 @@
      "viDu": [
       {
        "han": "我相信你一定能考好。",
-       "pinyin": "Wǒ xiāngxìn nǐ yídìng néng kǎo hǎo.",
+       "pinyin": "Wǒ xiāngxìn nǐ yídìng néng kǎohǎo.",
        "dich": "Tôi tin bạn nhất định sẽ thi tốt.",
        "nghiaSo": 0
       },
@@ -14272,7 +14274,7 @@
       },
       {
        "han": "一直往西走，你会看到一个公园。",
-       "pinyin": "Yìzhí wǎng xī zǒu, nǐ huì kàn dào yí ge gōngyuán.",
+       "pinyin": "Yìzhí wǎng xī zǒu, nǐ huì kàndào yí ge gōngyuán.",
        "dich": "Cứ đi thẳng về hướng tây, bạn sẽ thấy một công viên.",
        "nghiaSo": 0
       }
@@ -14746,7 +14748,7 @@
      "viDu": [
       {
        "han": "他看起来很年轻，其实已经五十岁了。",
-       "pinyin": "Tā kàn qǐlái hěn niánqīng, qíshí yǐjīng wǔshí suì le.",
+       "pinyin": "Tā kàn qǐlai hěn niánqīng, qíshí yǐjīng wǔshí suì le.",
        "dich": "Anh ấy trông rất trẻ, thật ra đã năm mươi tuổi rồi.",
        "nghiaSo": 0
       },
@@ -15443,7 +15445,7 @@
      "viDu": [
       {
        "han": "你去过哪些国家？",
-       "pinyin": "Nǐ qùguo nǎxiē guójiā?",
+       "pinyin": "Nǐ qù guo nǎxiē guójiā?",
        "dich": "Bạn đã đến những nước nào?",
        "nghiaSo": 0
       },
@@ -15997,7 +15999,7 @@
      "viDu": [
       {
        "han": "只有多练习，才能说好汉语。",
-       "pinyin": "Zhǐyǒu duō liànxí, cái néng shuō hǎo Hànyǔ.",
+       "pinyin": "Zhǐyǒu duō liànxí, cái néng shuōhǎo Hànyǔ.",
        "dich": "Chỉ có luyện tập nhiều mới nói giỏi tiếng Hán được.",
        "nghiaSo": 0
       },
@@ -16063,7 +16065,7 @@
      "viDu": [
       {
        "han": "我前年去过中国。",
-       "pinyin": "Wǒ qiánnián qùguo Zhōngguó.",
+       "pinyin": "Wǒ qiánnián qù guo Zhōngguó.",
        "dich": "Năm kia tôi đã từng đi Trung Quốc.",
        "nghiaSo": 0
       },

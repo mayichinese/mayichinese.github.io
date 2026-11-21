@@ -30,11 +30,12 @@ export const CAI_DAT_MAC_DINH = {
   // (cũ) chia 60 phút cho 5 phần – không còn dùng làm mục tiêu, giữ lại để đọc được bản sao lưu cũ
   phutMucTieu: { on: 15, moi: 15, nghe: 10, viet: 10, nguPhap: 10 },
 };
-export const MUC_TIEU_MAC_DINH = 20;
+// Bản soát chuyên gia (6.9): khuyên tối thiểu 30 phút; 10 phút chỉ đủ ôn tập, giữ chuỗi ngày học.
+export const MUC_TIEU_MAC_DINH = 30;
 export const CAC_MUC_TIEU = [
-  { phut: 10, ten: 'Thoải mái' },
+  { phut: 10, ten: 'Ôn tập, giữ chuỗi' },
   { phut: 20, ten: 'Vừa phải' },
-  { phut: 30, ten: 'Nghiêm túc' },
+  { phut: 30, ten: 'Nên chọn' },
   { phut: 60, ten: 'Chuyên sâu' },
 ];
 

@@ -26,6 +26,13 @@
 横折钩 | héngzhégōu | Ngang gập móc | Ngang, gập xuống rồi móc sang trái. | 月 | 2
 竖弯钩 | shùwāngōu | Sổ cong móc | Sổ, cong sang phải rồi móc lên. | 七 | 2
 撇折 | piězhé | Phẩy gập | Phẩy rồi gập sang phải thành hất. | 么 | 2
+横折弯钩 | héngzhéwāngōu | Ngang gập cong móc | Ngang, gập xuống, cong sang phải rồi móc lên. | 九 | 2
+横撇弯钩 | héngpiěwāngōu | Ngang phẩy cong móc | Ngang ngắn, phẩy xuống, cong rồi móc – nét đầu của bộ 阝 bên phải. | 都 | 9
+竖折折钩 | shùzhézhégōu | Sổ gập gập móc | Sổ ngắn, gập ngang, gập xuống rồi móc sang trái (như trong 马). | 马 | 2
+横折折撇 | héngzhézhépiě | Ngang gập gập phẩy | Ngang ngắn, gập, gập lần nữa rồi phẩy – nét giữa của bộ 辶. | 这 | 6
+卧钩 | wògōu | Móc nằm | Nét cong nằm ngang, từ trái đi xuống rồi móc lên phía giữa chữ. | 心 | 2
+横折提 | héngzhétí | Ngang gập hất | Ngang, gập xuống rồi hất lên phải – nét thứ hai của bộ 讠. | 说 | 2
+竖弯 | shùwān | Sổ cong | Sổ xuống rồi cong sang phải, không móc. | 四 | 4
 
 @ quy-tac
 Ngang trước, sổ sau | Nét ngang và nét sổ cắt nhau thì viết ngang trước. | 十
@@ -35,3 +42,6 @@ Trái trước, phải sau | Viết từ trái sang phải. | 好
 Ngoài trước, trong sau | Viết khung ngoài trước rồi viết phần bên trong. | 月
 Vào nhà trước, đóng cửa sau | Khung kín: viết khung, viết phần trong, cuối cùng mới đóng nét đáy. | 回
 Giữa trước, hai bên sau | Phần giữa nổi bật thì viết trước, rồi mới viết hai bên. | 小
+Chấm trên bên phải viết cuối | Chấm nằm ở góc trên bên phải của chữ thì viết sau cùng (我, 书, 发). | 我
+Bộ 辶 / 廴 viết sau | Phần bao bên trái và bên dưới (辶, 廴) viết SAU phần bên trong – ngược với “ngoài trước, trong sau” (这, 还, 进, 过, 道). | 这
+Nét xuyên qua viết cuối | Nét sổ hoặc nét ngang xuyên qua giữa cả chữ thì viết sau cùng (中, 年, 半; nét ngang của 女). | 中

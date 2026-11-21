@@ -194,3 +194,35 @@ export const timBai = (cap, so) => baiHoc.find((b) => b.cap === cap && b.so === 
 export function nghiaNgan(tu) {
   return (tu.nghia || []).map((n) => n.nghia).join('; ');
 }
+
+// ---------- Chữ đa âm có nhiều mục từ (得 de / dé / děi, 还 hái / huán, 长, 只, 地, 过) ----------
+let nhomDaAm = null;
+let soTuKhiTinh = -1;
+function bangDaAm() {
+  const ds = tatCaTu();
+  if (!nhomDaAm || ds.length !== soTuKhiTinh) {
+    nhomDaAm = new Map();
+    for (const t of ds) {
+      if (!nhomDaAm.has(t.hanzi)) nhomDaAm.set(t.hanzi, new Map());
+      const nhom = nhomDaAm.get(t.hanzi);
+      const py = String(t.pinyin).toLowerCase();
+      if (!nhom.has(py)) nhom.set(py, t);
+    }
+    soTuKhiTinh = ds.length;
+  }
+  return nhomDaAm;
+}
+/** Các mục từ CÙNG chữ nhưng đọc khác (để ghi "Chữ này còn đọc là …" trên thẻ) */
+export function cachDocKhac(tu) {
+  const nhom = bangDaAm().get(tu.hanzi);
+  if (!nhom || nhom.size < 2) return [];
+  return [...nhom.values()].filter((t) => String(t.pinyin).toLowerCase() !== String(tu.pinyin).toLowerCase());
+}
+/**
+ * Chữ để giọng máy đọc khi phát âm một từ. Chữ đa âm đọc riêng thì máy hầu như luôn đọc âm phổ biến
+ * (得 → dé dù thẻ là děi) → phát CÂU VÍ DỤ đầu tiên thay cho chữ đứng một mình (bản soát chuyên gia 6.6).
+ */
+export function tiengDoc(tu) {
+  if (!tu) return '';
+  return cachDocKhac(tu).length && tu.viDu?.[0]?.han ? tu.viDu[0].han : tu.hanzi;
+}

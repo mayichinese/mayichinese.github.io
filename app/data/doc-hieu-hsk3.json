@@ -29,7 +29,7 @@
     {
      "ai": "小明",
      "han": "我好像看见他了！门口站着一个人，旁边有两个黑色的大箱子。",
-     "pinyin": "Wǒ hǎoxiàng kànjiàn tā le! Ménkǒu zhànzhe yí gè rén, pángbiān yǒu liǎng gè hēisè de dà xiāngzi.",
+     "pinyin": "Wǒ hǎoxiàng kànjiàn tā le! Ménkǒu zhàn zhe yí gè rén, pángbiān yǒu liǎng gè hēisè de dà xiāngzi.",
      "dich": "Hình như mình thấy anh ấy rồi! Ở cửa có một người đang đứng, bên cạnh có hai cái vali to màu đen."
     },
     {
@@ -126,7 +126,7 @@
     {
      "ai": "",
      "han": "我们好久没去那儿了。走到饭馆的时候，我们又饿又渴。",
-     "pinyin": "Wǒmen hǎojiǔ méi qù nàr le. Zǒu dào fànguǎn de shíhou, wǒmen yòu è yòu kě.",
+     "pinyin": "Wǒmen hǎojiǔ méi qù nàr le. Zǒudào fànguǎn de shíhou, wǒmen yòu è yòu kě.",
      "dich": "Lâu lắm rồi bọn mình không đến đó. Lúc đi tới quán, bọn mình vừa đói vừa khát."
     },
     {
@@ -253,7 +253,7 @@
     {
      "ai": "小明",
      "han": "东西不多，我和哥哥两个小时就搬完了。但是打扫房间用了很长时间，晚上十一点才打扫完。",
-     "pinyin": "Dōngxi bù duō, wǒ hé gēge liǎng gè xiǎoshí jiù bān wán le. Dànshì dǎsǎo fángjiān yòng le hěn cháng shíjiān, wǎnshang shíyī diǎn cái dǎsǎo wán.",
+     "pinyin": "Dōngxi bù duō, wǒ hé gēge liǎng gè xiǎoshí jiù bānwán le. Dànshì dǎsǎo fángjiān yòng le hěn cháng shíjiān, wǎnshang shíyī diǎn cái dǎsǎo wán.",
      "dich": "Đồ đạc không nhiều, mình với anh trai hai tiếng là chuyển xong. Nhưng dọn phòng mất rất nhiều thời gian, mười một giờ tối mới dọn xong."
     },
     {
@@ -338,7 +338,7 @@
     {
      "ai": "",
      "han": "到了那儿，宾馆的司机来机场接她们，他笑着说：\"欢迎欢迎！\"",
-     "pinyin": "Dào le nàr, bīnguǎn de sījī lái jīchǎng jiē tāmen, tā xiàozhe shuō: \"Huānyíng huānyíng!\"",
+     "pinyin": "Dào le nàr, bīnguǎn de sījī lái jīchǎng jiē tāmen, tā xiào zhe shuō: \"Huānyíng huānyíng!\"",
      "dich": "Đến nơi, tài xế của khách sạn ra sân bay đón hai mẹ con, anh ấy cười nói: \"Chào mừng, chào mừng!\""
     },
     {
@@ -368,13 +368,13 @@
     {
      "ai": "",
      "han": "晚上海边一个人也没有，她们一起坐着看月亮。",
-     "pinyin": "Wǎnshang hǎi biān yí gè rén yě méiyǒu, tāmen yìqǐ zuòzhe kàn yuèliang.",
+     "pinyin": "Wǎnshang hǎi biān yí gè rén yě méiyǒu, tāmen yìqǐ zuò zhe kàn yuèliang.",
      "dich": "Buổi tối bờ biển không có lấy một người, hai mẹ con cùng ngồi ngắm trăng."
     },
     {
      "ai": "",
      "han": "妈妈笑着说：\"这里的月亮跟家里的一样，但是在海边看特别漂亮。\"",
-     "pinyin": "Māma xiàozhe shuō: \"Zhèlǐ de yuèliang gēn jiā li de yíyàng, dànshì zài hǎi biān kàn tèbié piàoliang.\"",
+     "pinyin": "Māma xiào zhe shuō: \"Zhèlǐ de yuèliang gēn jiā li de yíyàng, dànshì zài hǎi biān kàn tèbié piàoliang.\"",
      "dich": "Mẹ cười nói: \"Mặt trăng ở đây cũng giống ở nhà, nhưng ngắm ở bờ biển thì đẹp lạ thường.\""
     },
     {
@@ -586,7 +586,7 @@
     {
      "ai": "",
      "han": "下午一点，小明拿上行李，对自己说：\"该下车了！\"",
-     "pinyin": "Xiàwǔ yì diǎn, Xiǎo Míng ná shang xíngli, duì zìjǐ shuō: \"Gāi xià chē le!\"",
+     "pinyin": "Xiàwǔ yì diǎn, Xiǎo Míng náshang xíngli, duì zìjǐ shuō: \"Gāi xià chē le!\"",
      "dich": "Một giờ chiều, Tiểu Minh cầm hành lý lên, tự nói với mình: \"Đến lúc xuống tàu rồi!\""
     }
    ],
@@ -659,7 +659,7 @@
     {
      "ai": "小文",
      "han": "红色的不但大小合适，而且穿着很舒服。",
-     "pinyin": "Hóngsè de búdàn dàxiǎo héshì, érqiě chuānzhe hěn shūfu.",
+     "pinyin": "Hóngsè de búdàn dàxiǎo héshì, érqiě chuān zhe hěn shūfu.",
      "dich": "Chiếc màu đỏ không những vừa cỡ mà mặc vào còn rất thoải mái."
     },
     {
@@ -1075,7 +1075,7 @@
     {
      "ai": "小张",
      "han": "看来我只能开完会再走了。我今天晚上就把这个月的工作做完，再把下个星期的事情发到您的邮箱。",
-     "pinyin": "Kànlái wǒ zhǐ néng kāi wán huì zài zǒu le. Wǒ jīntiān wǎnshang jiù bǎ zhège yuè de gōngzuò zuò wán, zài bǎ xià gè xīngqī de shìqing fā dào nín de yóuxiāng.",
+     "pinyin": "Kànlái wǒ zhǐ néng kāiwán huì zài zǒu le. Wǒ jīntiān wǎnshang jiù bǎ zhège yuè de gōngzuò zuòwán, zài bǎ xià gè xīngqī de shìqing fādào nín de yóuxiāng.",
      "dich": "Xem ra tôi chỉ có thể họp xong rồi mới đi. Tối nay tôi sẽ làm xong việc của tháng này, rồi gửi các việc của tuần sau vào hộp thư của anh."
     },
     {
@@ -1087,7 +1087,7 @@
     {
      "ai": "经理",
      "han": "好，问题解决了！对每个人来说，家人都很重要。后天开完会，你就可以离开。",
-     "pinyin": "Hǎo, wèntí jiějué le! Duì měi gè rén láishuō, jiārén dōu hěn zhòngyào. Hòutiān kāi wán huì, nǐ jiù kěyǐ líkāi.",
+     "pinyin": "Hǎo, wèntí jiějué le! Duì měi gè rén láishuō, jiārén dōu hěn zhòngyào. Hòutiān kāiwán huì, nǐ jiù kěyǐ líkāi.",
      "dich": "Được, vấn đề giải quyết xong rồi! Đối với mỗi người, gia đình đều rất quan trọng. Ngày kia họp xong là cậu có thể đi."
     }
    ],
@@ -1347,7 +1347,7 @@
     {
      "ai": "",
      "han": "上个星期，我的词典被一个留学生借走了。",
-     "pinyin": "Shàng gè xīngqī, wǒ de cídiǎn bèi yí gè liúxuéshēng jiè zǒu le.",
+     "pinyin": "Shàng gè xīngqī, wǒ de cídiǎn bèi yí gè liúxuéshēng jièzǒu le.",
      "dich": "Tuần trước, cuốn từ điển của mình bị một du học sinh mượn mất."
     },
     {
@@ -1565,7 +1565,7 @@
     {
      "ai": "",
      "han": "它一边吃东西，一边看着我们。不一会儿，它就吃饱了，在草地上睡觉了。",
-     "pinyin": "Tā yìbiān chī dōngxi, yìbiān kàn zhe wǒmen. Bù yíhuìr, tā jiù chī bǎo le, zài cǎodì shang shuìjiào le.",
+     "pinyin": "Tā yìbiān chī dōngxi, yìbiān kàn zhe wǒmen. Bù yíhuìr, tā jiù chībǎo le, zài cǎodì shang shuìjiào le.",
      "dich": "Nó vừa ăn vừa nhìn bọn mình. Chẳng mấy chốc nó đã ăn no, rồi ngủ trên bãi cỏ."
     },
     {
@@ -1650,13 +1650,13 @@
     {
      "ai": "小明",
      "han": "学语言容易吗？我很害怕说错。",
-     "pinyin": "Xué yǔyán róngyì ma? Wǒ hěn hàipà shuō cuò.",
+     "pinyin": "Xué yǔyán róngyì ma? Wǒ hěn hàipà shuōcuò.",
      "dich": "Học ngôn ngữ có dễ không? Mình rất sợ nói sai."
     },
     {
      "ai": "李明",
      "han": "学语言是不容易的，可是只有多说，才能学好。",
-     "pinyin": "Xué yǔyán shì bù róngyì de, kěshì zhǐyǒu duō shuō, cái néng xué hǎo.",
+     "pinyin": "Xué yǔyán shì bù róngyì de, kěshì zhǐyǒu duō shuō, cái néng xuéhǎo.",
      "dich": "Học ngôn ngữ đúng là không dễ, nhưng chỉ có nói nhiều mới học giỏi được."
     },
     {
@@ -1747,7 +1747,7 @@
     {
      "ai": "",
      "han": "我刚刚考完这个学期的考试，不久就要过春节了。",
-     "pinyin": "Wǒ gānggāng kǎo wán zhège xuéqī de kǎoshì, bùjiǔ jiù yào guò Chūnjié le.",
+     "pinyin": "Wǒ gānggāng kǎowán zhège xuéqī de kǎoshì, bùjiǔ jiù yào guò Chūnjié le.",
      "dich": "Mình vừa mới thi xong kỳ thi học kỳ này, chẳng bao lâu nữa là đến Tết."
     },
     {
@@ -1783,7 +1783,7 @@
     {
      "ai": "",
      "han": "叔叔说：“只要坚持每天学习，你就一定能学好。”",
-     "pinyin": "Shūshu shuō: “Zhǐyào jiānchí měi tiān xuéxí, nǐ jiù yídìng néng xué hǎo.”",
+     "pinyin": "Shūshu shuō: “Zhǐyào jiānchí měi tiān xuéxí, nǐ jiù yídìng néng xuéhǎo.”",
      "dich": "Chú nói: “Chỉ cần kiên trì học mỗi ngày, cháu nhất định sẽ học giỏi.”"
     },
     {

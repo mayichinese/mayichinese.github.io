@@ -258,7 +258,7 @@
       "哪儿",
       "几"
      ],
-     "pinyin": "Shéi xiān zuò wán, shéi jiù kěyǐ huí jiā.",
+     "pinyin": "Shéi xiān zuòwán, shéi jiù kěyǐ huí jiā.",
      "dich": "Ai làm xong trước thì người đó được về nhà."
     },
     {
@@ -452,7 +452,7 @@
        "见过"
       ]
      ],
-     "pinyin": "Wǒ hǎoxiàng zài nǎr jiànguo tā.",
+     "pinyin": "Wǒ hǎoxiàng zài nǎr jiàn guo tā.",
      "dich": "Hình như tôi đã gặp anh ấy ở đâu đó."
     },
     {
@@ -522,7 +522,7 @@
       "谁",
       "怎么"
      ],
-     "pinyin": "Zhège rén wǒ hǎoxiàng zài nǎr jiànguo.",
+     "pinyin": "Zhège rén wǒ hǎoxiàng zài nǎr jiàn guo.",
      "dich": "Người này hình như tôi đã gặp ở đâu đó."
     },
     {
@@ -687,6 +687,147 @@
    "hocSauBai": 14
   },
   {
+   "id": "you-zai",
+   "ten": "又 và 再: đều dịch là “lại”",
+   "deCuong": "副词 · 又、再（重复）",
+   "congThuc": [
+    "又 + động từ (+ 了): việc ĐÃ lặp lại",
+    "再 + động từ: việc CHƯA xảy ra, sẽ làm lại / làm thêm"
+   ],
+   "giaiThich": [
+    "又 nói việc đã xảy ra thêm một lần nữa: 他今天又没来 (Hôm nay anh ấy lại không đến).",
+    "再 nói việc chưa xảy ra: 明天再来吧 (Mai lại đến nhé), 请再说一次 (Xin nói lại một lần nữa).",
+    "Việc chưa xảy ra nhưng chắc chắn sẽ lặp lại (thường có 是, 要, 快……了) vẫn dùng 又: 明天又是星期一了 (Mai lại là thứ Hai rồi).",
+    "再 còn nghĩa “rồi mới”: 先吃饭，再看电视 (đã học ở HSK 1)."
+   ],
+   "loiHayMac": [
+    "Việc đã xảy ra không dùng 再: nói 你怎么又买了一件衣服, không nói 你怎么再买了一件衣服.",
+    "Lời mời, lời hẹn cho lần sau dùng 再: nói 欢迎你再来, không nói 欢迎你又来."
+   ],
+   "viDu": [
+    {
+     "han": "他今天又没来。",
+     "manh": [
+      "他",
+      "今天",
+      "又",
+      "没",
+      "来"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "今天",
+       "他",
+       "又",
+       "没",
+       "来"
+      ]
+     ],
+     "pinyin": "Tā jīntiān yòu méi lái.",
+     "dich": "Hôm nay anh ấy lại không đến."
+    },
+    {
+     "han": "我明天再给你打电话。",
+     "manh": [
+      "我",
+      "明天",
+      "再",
+      "给你",
+      "打电话"
+     ],
+     "dauCau": "。",
+     "khac": [
+      [
+       "明天",
+       "我",
+       "再",
+       "给你",
+       "打电话"
+      ]
+     ],
+     "pinyin": "Wǒ míngtiān zài gěi nǐ dǎ diànhuà.",
+     "dich": "Mai tôi sẽ gọi lại cho bạn."
+    },
+    {
+     "han": "请你再说一次。",
+     "manh": [
+      "请你",
+      "再",
+      "说",
+      "一次"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Qǐng nǐ zài shuō yí cì.",
+     "dich": "Bạn nói lại một lần nữa đi."
+    },
+    {
+     "han": "明天又是星期一了。",
+     "manh": [
+      "明天",
+      "又",
+      "是",
+      "星期一",
+      "了"
+     ],
+     "dauCau": "。",
+     "khac": [],
+     "pinyin": "Míngtiān yòu shì xīngqīyī le.",
+     "dich": "Mai lại là thứ Hai rồi."
+    }
+   ],
+   "dienTu": [
+    {
+     "cau": "他昨天没来上课，今天___没来。",
+     "dapAn": "又",
+     "nhieu": [
+      "再",
+      "很",
+      "太"
+     ],
+     "pinyin": "Tā zuótiān méi lái shàngkè, jīntiān yòu méi lái.",
+     "dich": "Hôm qua anh ấy không đến lớp, hôm nay lại không đến."
+    },
+    {
+     "cau": "这个菜很好吃，我想___吃一次。",
+     "dapAn": "再",
+     "nhieu": [
+      "又",
+      "很",
+      "的"
+     ],
+     "pinyin": "Zhège cài hěn hǎochī, wǒ xiǎng zài chī yí cì.",
+     "dich": "Món này rất ngon, tôi muốn ăn thêm lần nữa."
+    },
+    {
+     "cau": "现在太晚了，我们明天___去吧。",
+     "dapAn": "再",
+     "nhieu": [
+      "又",
+      "很",
+      "太"
+     ],
+     "pinyin": "Xiànzài tài wǎn le, wǒmen míngtiān zài qù ba.",
+     "dich": "Bây giờ muộn quá rồi, mai chúng ta hãy đi."
+    },
+    {
+     "cau": "你怎么___买了一件衣服？",
+     "dapAn": "又",
+     "nhieu": [
+      "再",
+      "很",
+      "太"
+     ],
+     "pinyin": "Nǐ zěnme yòu mǎi le yí jiàn yīfu?",
+     "dich": "Sao bạn lại mua thêm một bộ quần áo nữa?"
+    }
+   ],
+   "canKiemTra": [],
+   "bai": 2,
+   "hocSauBai": 2
+  },
+  {
    "id": "bo-ngu-muc-do",
    "ten": "Bổ ngữ mức độ: 好极了, 便宜得很, 累坏了",
    "deCuong": "补语 · 程度补语1：形容词+得很／极了／坏了",
@@ -833,7 +974,7 @@
     "就 / 才 đứng sau từ chỉ thời gian, trước động từ."
    ],
    "loiHayMac": [
-    "Câu có 才 (nghĩa muộn) không thêm 了 cuối câu: nói 他十点才来, không nói 他十点才来了.",
+    "才 nghĩa “muộn, mãi mới” thì không thêm 了 cuối câu: nói 他十点才来, không nói 他十点才来了. (Khi 才 nghĩa “mới chỉ” đi với số lượng thì vẫn có 了 sau động từ: 他才来了三天 = anh ấy mới đến được ba ngày.)",
     "Khi nói việc xảy ra sớm / muộn, 就 / 才 đứng SAU từ chỉ thời gian: nói 他八点就到了, không nói 他就八点到了."
    ],
    "viDu": [
@@ -933,7 +1074,7 @@
       "再",
       "太"
      ],
-     "pinyin": "Tā zuò de hěn kuài, shí fēnzhōng jiù zuò wán le.",
+     "pinyin": "Tā zuò de hěn kuài, shí fēnzhōng jiù zuòwán le.",
      "dich": "Cậu ấy làm rất nhanh, mười phút đã làm xong rồi."
     },
     {
@@ -1259,7 +1400,7 @@
    ],
    "loiHayMac": [
     "Tính từ đứng SAU 一样: nói 我跟他一样高, không nói 我跟他高一样 (theo kiểu “cao bằng”).",
-    "Trong câu so sánh, 不 đứng trước 一样: nói 我跟他不一样高, không nói 我不跟他一样高."
+    "Trong câu so sánh, 不 đứng trước 一样: nói 我跟他不一样高; ít ai nói 我不跟他一样高 (nghe gượng; đặt 不 trước 跟 thường mang nghĩa “không muốn làm giống ai”)."
    ],
    "viDu": [
     {
@@ -1513,7 +1654,7 @@
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Qiánmiàn zǒu guòlái yí ge rén.",
+     "pinyin": "Qiánmiàn zǒu guòlai yí ge rén.",
      "dich": "Phía trước có một người đi tới."
     },
     {
@@ -1559,7 +1700,7 @@
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Lóu shàng bān zǒu le yì jiā rén.",
+     "pinyin": "Lóu shàng bānzǒu le yì jiā rén.",
      "dich": "Trên lầu có một gia đình chuyển đi rồi."
     }
    ],
@@ -1583,7 +1724,7 @@
       "得",
       "地"
      ],
-     "pinyin": "Qiánmiàn zǒu guòlái yí ge rén.",
+     "pinyin": "Qiánmiàn zǒu guòlai yí ge rén.",
      "dich": "Phía trước có một người đi tới."
     },
     {
@@ -2283,7 +2424,7 @@
        "了"
       ]
      ],
-     "pinyin": "Shéi ná zǒu le wǒ de bēizi?",
+     "pinyin": "Shéi názǒu le wǒ de bēizi?",
      "dich": "Ai cầm mất cái cốc của tôi rồi?"
     },
     {
@@ -2630,7 +2771,7 @@
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Wǒ xiǎng chūlái yí ge hǎo míngzi.",
+     "pinyin": "Wǒ xiǎng chūlai yí ge hǎo míngzi.",
      "dich": "Tôi đã nghĩ ra một cái tên hay."
     },
     {
@@ -2646,7 +2787,7 @@
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Wǒ xiǎng qǐlái le, tā xìng Zhāng.",
+     "pinyin": "Wǒ xiǎng qǐlai le, tā xìng Zhāng.",
      "dich": "Tôi nhớ ra rồi, anh ấy họ Trương."
     },
     {
@@ -2662,7 +2803,7 @@
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Qǐng xiě xià nǐ de diànhuà hàomǎ.",
+     "pinyin": "Qǐng xiěxià nǐ de diànhuà hàomǎ.",
      "dich": "Xin hãy ghi lại số điện thoại của bạn."
     },
     {
@@ -2679,7 +2820,7 @@
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Tā xiě xià le zìjǐ de diànhuà hàomǎ.",
+     "pinyin": "Tā xiěxià le zìjǐ de diànhuà hàomǎ.",
      "dich": "Anh ấy đã ghi lại số điện thoại của mình."
     }
    ],
@@ -2692,7 +2833,7 @@
       "进去",
       "回来"
      ],
-     "pinyin": "Zhège wèntí tài nán le, wǒ xiǎng le hěn jiǔ yě méi xiǎng chūlái.",
+     "pinyin": "Zhège wèntí tài nán le, wǒ xiǎng le hěn jiǔ yě méi xiǎng chūlai.",
      "dich": "Câu hỏi này khó quá, tôi nghĩ rất lâu mà vẫn chưa nghĩ ra."
     },
     {
@@ -2703,7 +2844,7 @@
       "进来",
       "回去"
      ],
-     "pinyin": "Tā jiào shénme? Wǒ xiǎng qǐlái le, tā jiào Xiǎo Zhāng.",
+     "pinyin": "Tā jiào shénme? Wǒ xiǎng qǐlai le, tā jiào Xiǎo Zhāng.",
      "dich": "Anh ấy tên gì nhỉ? Tôi nhớ ra rồi, anh ấy tên là Tiểu Trương."
     },
     {
@@ -2714,7 +2855,7 @@
       "进",
       "回"
      ],
-     "pinyin": "Qǐng nǐ xiě xià nǐ de diànhuà hàomǎ.",
+     "pinyin": "Qǐng nǐ xiěxià nǐ de diànhuà hàomǎ.",
      "dich": "Bạn hãy ghi lại số điện thoại của bạn."
     }
    ],
@@ -3587,7 +3728,7 @@
        "学校"
       ]
      ],
-     "pinyin": "Tā měi tiān bǎ háizi sòng dào xuéxiào.",
+     "pinyin": "Tā měi tiān bǎ háizi sòngdào xuéxiào.",
      "dich": "Ngày nào anh ấy cũng đưa con đến trường."
     },
     {
@@ -3626,7 +3767,7 @@
       "过",
       "着"
      ],
-     "pinyin": "Qǐng bǎ zhèxiē dōngxi bān dào lóu shàng qù.",
+     "pinyin": "Qǐng bǎ zhèxiē dōngxi bāndào lóu shàng qù.",
      "dich": "Hãy chuyển những đồ này lên lầu."
     },
     {
@@ -3833,7 +3974,7 @@
        "工作"
       ]
      ],
-     "pinyin": "Zài dàjiā de bāngzhù xià, wǒ zuò wán le gōngzuò.",
+     "pinyin": "Zài dàjiā de bāngzhù xià, wǒ zuòwán le gōngzuò.",
      "dich": "Nhờ mọi người giúp đỡ, tôi đã làm xong công việc."
     },
     {
@@ -4108,7 +4249,7 @@
        "出去"
       ]
      ],
-     "pinyin": "Tāmen bǎ zhuōzi bān chūqù le.",
+     "pinyin": "Tāmen bǎ zhuōzi bān chūqu le.",
      "dich": "Họ khiêng cái bàn ra ngoài rồi."
     },
     {
@@ -4138,7 +4279,7 @@
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Tā méi bǎ qián dàilái.",
+     "pinyin": "Tā méi bǎ qián dàilai.",
      "dich": "Anh ấy không mang tiền đến."
     }
    ],
@@ -4173,7 +4314,7 @@
       "从",
       "是"
      ],
-     "pinyin": "Wàimiàn xià yǔ le, kuài bǎ yīfu ná jìnlái!",
+     "pinyin": "Wàimiàn xià yǔ le, kuài bǎ yīfu ná jìnlai!",
      "dich": "Ngoài trời mưa rồi, mau mang quần áo vào!"
     }
    ],
@@ -4345,7 +4486,7 @@
     "看来 = xem ra, có vẻ như: dựa vào tình hình trước mắt để đoán: 天黑了，看来要下雨了.",
     "看来 thường đứng đầu vế câu, sau vế nêu lý do.",
     "在……看来 = theo cách nghĩ của ai: 在我看来，这个办法不错 (theo tôi, cách này được đấy).",
-    "Khác 看起来 (bài 1): 看起来 hay dùng để tả vẻ ngoài (他看起来很累), cũng có thể dùng để đoán; 看来 chủ yếu để rút ra kết luận về sự việc."
+    "Khác 看起来 (bài 1): 看起来 hay dùng để tả vẻ ngoài (他看起来很累), cũng có thể dùng để đoán; 看来 chủ yếu để rút ra kết luận về sự việc. Dấu hiệu vị trí: 看来 thường đứng đầu câu, có dấu phẩy sau (看来，他今天不来了); 看起来 thường đứng sau chủ ngữ (他看起来很累)."
    ],
    "loiHayMac": [
     "看来 không có nghĩa “nhìn thấy”: nói 我看见他了, không nói 我看来他了.",
@@ -4624,7 +4765,7 @@
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Dàjiā dōu xiào qǐlái le.",
+     "pinyin": "Dàjiā dōu xiào qǐlai le.",
      "dich": "Mọi người đều bật cười."
     },
     {
@@ -4672,7 +4813,7 @@
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Zhè běn shū hěn yǒu yìsi, wǒ xiǎng kàn xiàqù.",
+     "pinyin": "Zhè běn shū hěn yǒu yìsi, wǒ xiǎng kàn xiàqu.",
      "dich": "Cuốn sách này rất hay, tôi muốn đọc tiếp."
     }
    ],
@@ -4696,7 +4837,7 @@
       "过来",
       "进来"
      ],
-     "pinyin": "Nǐ shuō de hěn hǎo, qǐng shuō xiàqù.",
+     "pinyin": "Nǐ shuō de hěn hǎo, qǐng shuō xiàqu.",
      "dich": "Bạn nói rất hay, mời nói tiếp."
     },
     {
@@ -4729,7 +4870,7 @@
     "就 còn nghĩa “sớm, ngay” (bài 3: 他八点就来了). Phân biệt nhờ ngữ cảnh: có số lượng nhỏ, có 一个人 thì thường là “chỉ”."
    ],
    "loiHayMac": [
-    "Muốn nói “chỉ anh ấy đến” thì 就 đứng trước 他: nói 就他来了; nói 他就来了 thành “anh ấy đến ngay”.",
+    "Muốn nói “chỉ anh ấy đến” thì 就 đứng trước 他: nói 就他来了. Câu 他就来了 không có nghĩa “chỉ anh ấy” mà là “anh ấy đến ngay đây” hoặc “thế là anh ấy đến” (我一打电话，他就来了).",
     "就 đứng trước động từ, không đứng sau: nói 我就买了一本, không nói 我买就一本."
    ],
    "viDu": [
@@ -6069,7 +6210,7 @@
      ],
      "dauCau": "？",
      "khac": [],
-     "pinyin": "Nǐ bú shì qùguo Shànghǎi ma?",
+     "pinyin": "Nǐ bú shì qù guo Shànghǎi ma?",
      "dich": "Chẳng phải bạn đã đến Thượng Hải rồi sao?"
     },
     {
@@ -6117,7 +6258,7 @@
       "别",
       "很"
      ],
-     "pinyin": "Nǐ bú shì qùguo Zhōngguó ma? Gěi wǒmen jièshào yíxià ba.",
+     "pinyin": "Nǐ bú shì qù guo Zhōngguó ma? Gěi wǒmen jièshào yíxià ba.",
      "dich": "Chẳng phải bạn đã đến Trung Quốc rồi sao? Giới thiệu cho chúng tôi một chút đi."
     }
    ],
@@ -6158,7 +6299,7 @@
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Zhǐyǒu duō liànxí, cái néng shuō hǎo Hànyǔ.",
+     "pinyin": "Zhǐyǒu duō liànxí, cái néng shuōhǎo Hànyǔ.",
      "dich": "Chỉ có luyện tập nhiều mới nói giỏi tiếng Hán được."
     },
     {
@@ -6186,7 +6327,7 @@
        "好"
       ]
      ],
-     "pinyin": "Zhǐyào nǐ nǔlì, jiù yídìng néng xué hǎo.",
+     "pinyin": "Zhǐyào nǐ nǔlì, jiù yídìng néng xuéhǎo.",
      "dich": "Chỉ cần bạn cố gắng là nhất định học tốt được."
     },
     {
@@ -6243,7 +6384,7 @@
       "刚",
       "都"
      ],
-     "pinyin": "Zhǐyǒu rènzhēn fùxí, cái néng kǎo hǎo.",
+     "pinyin": "Zhǐyǒu rènzhēn fùxí, cái néng kǎohǎo.",
      "dich": "Chỉ có ôn tập chăm chỉ mới thi tốt được."
     },
     {

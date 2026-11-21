@@ -23,13 +23,14 @@
 import { layTienDo, luu, nhatKyHomNay, congGiay } from './luu-tru.js';
 import { docLanLuot, tinhTrangPhatAm } from './phat-am.js';
 import { esc, thongBao } from './giao-dien.js';
+import { tatCaTu } from './du-lieu.js';
 import { bieuTuong } from './bieu-tuong.js';
-import { toMauPinyin } from './pinyin.js';
-import { taoBangVe } from './net-chu.js';
+import { toMauPinyin, tachPinyin, demChuHan } from './pinyin.js';
+import { taoBangVe, taiNetChu, saiToiDa } from './net-chu.js';
 import { capMo, htmlCachMoKhoa, layCapVuaMo } from './cap-do.js';
 
 const CHU_CAI = 'ABCDEF';
-const LOI_VIET_TOI_DA = 3;      // viết chữ: hoàn thành với tối đa 3 nét sai thì tính đúng
+// viết chữ: hoàn thành với số nét sai ≤ saiToiDa(số nét của chữ) thì tính đúng (net-chu.js)
 const LOI_VIET_DUNG_LAI = 8;    // sai từ 8 nét thì dừng, tính sai
 
 const PHAN_1 = [
@@ -90,8 +91,20 @@ function tron(mang) {
 }
 const layNgauNhien = (mang, n) => tron(mang).slice(0, n);
 
-/** Chữ Hán có pinyin nhỏ phía trên (như đề cấp 1–2) */
-const hanPy = (han, py, lop = '') => `<span class="han-py ${lop}"><span class="py-tren">${esc(py)}</span><span class="han">${esc(han)}</span></span>`;
+/** Đề đang làm có ẩn pinyin không (HSK 3: đề thật không in pinyin – mẫu đề 汉考国际 12/2025) */
+let anPinyin = false;
+/** Chữ Hán có pinyin nhỏ phía trên (như đề cấp 1–2); đề ẩn pinyin thì chỉ có chữ Hán */
+const hanPy = (han, py, lop = '') => (anPinyin
+  ? `<span class="han-py ${lop}"><span class="han">${esc(han)}</span></span>`
+  : `<span class="han-py ${lop}"><span class="py-tren">${esc(py)}</span><span class="han">${esc(han)}</span></span>`);
+
+/** Pinyin của chữ ở chỗ trống （ ） trong câu (đề viết HSK 3 chỉ ghi pinyin của chữ cần viết) */
+function pinyinChoTrong(cau, chu, pinyin) {
+  const [truoc] = cau.split('（ ）');
+  const viTri = demChuHan(truoc);
+  const am = tachPinyin(pinyin, demChuHan(cau.replace('（ ）', chu))).filter((x) => x.thanh !== undefined);
+  return am[viTri] ? am[viTri].chu.toLowerCase() : null;
+}
 
 /** Sắp đề theo thứ tự phần (sort ổn định nên giữ thứ tự trong cùng phần) */
 const sapTheoPhan = (de, phan) => {
@@ -391,20 +404,34 @@ const CAU_HINH = {
       ['📖 Đọc', '25 câu · 25 phút', ['P1 · Đọc câu, chọn tranh (A–F)', 'P2 · Chọn từ điền vào chỗ trống', 'P3 · Ghép câu hỏi với câu trả lời', 'P4 · Đọc đoạn văn, trả lời câu hỏi']],
       ['✍️ Viết', '10 câu · 10 phút', ['P1 · Chọn phần còn thiếu của chữ', 'P2 · Viết tay chữ còn thiếu (có pinyin)']],
     ] },
-  3: { phan: PHAN_3, taoDe: taoDe3, soCau: 70, phut: 75, gioiHan: { d: 30, v: 20 }, soKy: { n: 30, d: 30, v: 10 }, sach: '《新HSK教程 3》',
+  3: { phan: PHAN_3, taoDe: taoDe3, soCau: 70, phut: 75, gioiHan: { d: 30, v: 20 }, soKy: { n: 30, d: 30, v: 10 }, sach: '《新HSK教程 3》', anPinyin: true,
     cauTruc: [
       ['🎧 Nghe', '30 câu', ['P1 · Nghe hội thoại, chọn tranh (2 nhóm)', 'P2 · Nghe hội thoại + câu hỏi, chọn đáp án', 'P3 · Nghe một đoạn + câu hỏi, chọn đáp án']],
       ['📖 Đọc', '30 câu · 30 phút', ['P1 · Chọn câu đáp lại phù hợp (2 nhóm)', 'P2 · Chọn từ điền vào câu và hội thoại', 'P3 · Đọc đoạn văn, trả lời câu hỏi']],
-      ['✍️ Viết', '10 câu · 20 phút', ['P1 · Viết tay chữ còn thiếu (có pinyin)', 'P2 · Nhìn tranh, sắp xếp câu có từ cho sẵn']],
+      ['✍️ Viết', '10 câu · 20 phút', ['P1 · Viết tay chữ còn thiếu (có pinyin của chữ đó)', 'P2 · Nhìn tranh, sắp xếp câu có từ cho sẵn']],
     ] },
 };
 
 // ---------- Thang điểm ----------
-/** Thang điểm của một cấp: mỗi phần 100 điểm; đạt từ 60% tổng. HSK 1: 200/120 · HSK 2, 3: 300/180 */
+/**
+ * Thang điểm của một cấp: mỗi phần 100 điểm; đạt từ 60% tổng (ƯỚC TÍNH theo kỳ thi cũ). HSK 1: 200/120 · HSK 2, 3: 300/180.
+ * Học vượt (mở cấp sau): cần ≥ 70% tổng VÀ không phần nào dưới 60 (bản soát chuyên gia, mục 6.8).
+ */
 export function thangDiem(cap = 1) {
   const soPhan = Object.keys((CAU_HINH[cap] || CAU_HINH[1]).soKy).length;
-  return { toiDa: soPhan * 100, dat: soPhan * 60 };
+  return { toiDa: soPhan * 100, dat: soPhan * 60, vuot: soPhan * 70, vuotPhan: 60 };
 }
+/** Một lần thi có đủ điều kiện học vượt không */
+export function datHocVuot(x) {
+  const thang = thangDiem(x.cap || 1);
+  const { phan, tong } = diemCuaLan(x);
+  return tong >= thang.vuot && Object.values(phan).every((d) => d >= thang.vuotPhan);
+}
+/** Điều kiện học vượt viết thành chữ */
+export const moTaHocVuot = (cap) => {
+  const t = thangDiem(cap);
+  return `từ ${t.vuot}/${t.toiDa} điểm và không phần nào dưới ${t.vuotPhan}`;
+};
 /**
  * Điểm từng phần + tổng của một lần thi đã lưu.
  * HSK 1 lưu sẵn điểm từng phần (5 điểm/câu); HSK 2, 3 lưu số câu đúng → quy ra 100 điểm mỗi phần.
@@ -426,9 +453,23 @@ function moTaDiemPhan(x) {
   return Object.keys(so).map((k) => `${TEN_KY[k]} ${phan[k]}${cap > 1 ? ` (${dem[k]}/${so[k]} câu)` : ''}`).join(' · ');
 }
 
+// ---------- Viết P2 (HSK 3): bước tự viết câu, không tính điểm (bản soát chuyên gia 6.3) ----------
+// Đề thật yêu cầu tự viết câu có từ cho sẵn; app chấm được phần sắp xếp, còn câu tự viết thì chỉ kiểm tra
+// hai điều: có dùng từ bắt buộc không, mọi chữ có trong HSK 1–3 không – rồi hiện câu mẫu để tự so.
+let chuChoPhep = null;
+function kiemCauTuViet(cau, tu) {
+  if (!chuChoPhep) chuChoPhep = new Set(tatCaTu().filter((t) => t.cap <= 3).flatMap((t) => [...t.hanzi]));
+  const chu = [...cau].filter((c) => /\p{Script=Han}/u.test(c));
+  if (chu.length < 4) return { tot: false, chu: '✏️ Câu hơi ngắn – thử viết ít nhất 4 chữ Hán.' };
+  if (!cau.includes(tu)) return { tot: false, chu: `❌ Câu chưa dùng từ ${tu}.` };
+  const ngoai = [...new Set(chu.filter((c) => !chuChoPhep.has(c)))];
+  if (ngoai.length) return { tot: false, chu: `⚠️ Có chữ ngoài HSK 1–3: ${ngoai.join(' ')} – thử dùng từ đã học.` };
+  return { tot: true, chu: `✅ Có dùng ${tu}, mọi chữ đều trong HSK 1–3. App không chấm được ngữ pháp – hãy tự so với câu mẫu bên trên.` };
+}
+
 /** Câu trả lời có đúng không */
 function laDung(c, tl) {
-  if (c.kieu === 'vietChu') return !!(tl && tl.xong && tl.loi <= LOI_VIET_TOI_DA);
+  if (c.kieu === 'vietChu') return !!(tl && tl.xong && tl.loi <= saiToiDa(tl.soNet ?? 10));
   if (c.kieu === 'xepCau') {
     if (!daLamCau(c, tl)) return false;
     const cau = tl.map((i) => c.xc.manh[i]).join('');
@@ -453,7 +494,7 @@ export function veThiThu(khung, capChon) {
     return;
   }
   const moTiep = CAU_HINH[cap + 1] && !capMo(cap + 1)
-    ? `<p class="can-kiem-tra" style="margin-top:0">🔓 <b>Học vượt:</b> đạt từ ${thangDiem(cap).dat} điểm bài này sẽ mở khóa <b>HSK ${cap + 1}</b>.</p>` : '';
+    ? `<p class="can-kiem-tra" style="margin-top:0">🔓 <b>Học vượt:</b> bài này đạt ${moTaHocVuot(cap)} sẽ mở khóa <b>HSK ${cap + 1}</b>.</p>` : '';
   const lichSu = (layTienDo().thiThu || []).filter((x) => (x.cap || 1) === cap).reverse();
   const tt = tinhTrangPhatAm();
   const thang = thangDiem(cap);
@@ -468,8 +509,9 @@ export function veThiThu(khung, capChon) {
       <h2>Thi thử HSK ${cap}</h2>
       <table class="bang-cau-truc">${bang}</table>
       <p class="chu-phu nho">Mỗi phần (${Object.keys(ch.soKy).map((k) => TEN_KY[k].toLowerCase()).join(', ')}) tối đa 100 điểm, tổng <b>${thang.toiDa}</b> · <b>đạt từ ${thang.dat} điểm</b>
-        (cách chấm của 汉考国际 cho kỳ thi cũ; thang chính thức của kỳ thi mới chưa công bố). Mỗi câu nghe được đọc 2 lần (như thi thật).
-        ${cap > 1 ? 'Phần viết tay: viết đúng thứ tự nét, sai tối đa 3 nét vẫn tính đúng. ' : ''}
+        – <b>mức đạt ước tính theo kỳ thi cũ</b> (thang điểm chính thức của kỳ thi mới chưa công bố). Mỗi câu nghe được đọc 2 lần (như thi thật).
+        ${ch.anPinyin ? 'Đề không có pinyin (như đề thật HSK 3); pinyin hiện khi xem lại đáp án. ' : ''}
+        ${cap > 1 ? 'Phần viết tay: viết đúng thứ tự nét; chữ đến 5 nét được sai 1 nét, 6–9 nét sai 2, từ 10 nét sai 3 vẫn tính đúng. ' : ''}
         ${cap > 2 ? 'Phần 2 của Viết: đề thật yêu cầu tự viết câu; app đổi thành sắp xếp mảnh có sẵn để tự chấm được. ' : ''}
         Cấu trúc theo đề thi thử trong sách bài tập ${ch.sach} (2026); câu hỏi tự soạn, tranh là biểu tượng – <b>không phải đề chính thức</b>.</p>
       ${tt === 'khong-ho-tro' || tt === 'khong-co-giong' ? '<p class="can-kiem-tra">⚠️ Máy chưa có giọng đọc tiếng Trung nên phần Nghe sẽ không có tiếng. Xem cách cài trong Cài đặt.</p>' : ''}
@@ -510,6 +552,7 @@ export function veLamBai(khung, cap = 1) {
 
   taiDuLieuThi(cap).then((dl) => {
     if (daRoi) return;
+    anPinyin = !!ch.anPinyin;
     const de = ch.taoDe(dl);
     const traLoi = new Array(de.length).fill(null);
     if (typeof window.__ghiDeThi === 'function') window.__ghiDeThi(de);   // chỉ dùng khi chạy thử tự động
@@ -588,7 +631,7 @@ export function veLamBai(khung, cap = 1) {
             const [truoc, sau] = d.han.split('（ ）');
             const han = sau === undefined ? esc(d.han)
               : `${esc(truoc)}<span class="o-dien">（${daChon !== null ? esc(c.tuChung[daChon].h) : '　'}）</span>${esc(sau)}`;
-            return `<p class="cau-thi ${c.hoiThoai ? 'luot' : ''}">${nhanLuot}<span class="khoi-luot">${d.py ? `<span class="py-tren-cau">${esc(d.py)}</span>` : ''}<span class="han">${han}</span></span></p>`;
+            return `<p class="cau-thi ${c.hoiThoai ? 'luot' : ''}">${nhanLuot}<span class="khoi-luot">${d.py && !anPinyin ? `<span class="py-tren-cau">${esc(d.py)}</span>` : ''}<span class="han">${han}</span></span></p>`;
           }).join('');
           return `<div class="kho-tu-thi">${c.tuChung.map((w, i) => `<span class="o-tu-thi"><b>${CHU_CAI[i]}</b> ${hanPy(w.h, w.p)}</span>`).join('')}</div>
             ${dongCau}
@@ -624,7 +667,10 @@ export function veLamBai(khung, cap = 1) {
           const v = c.vc;
           const [truoc, sau] = v.cau.split('（ ）');
           const tl = daChon;
-          return `<p class="cau-thi"><span class="py-tren-cau">${esc(v.pinyin)}</span><span class="han">${esc(truoc)}<span class="o-dien">（${tl?.xong ? esc(v.chu) : '　'}）</span>${esc(sau)}</span></p>
+          // Đề ẩn pinyin (HSK 3): như đề thật, chỉ ghi pinyin của chữ cần viết trong ngoặc
+          const pyO = anPinyin ? pinyinChoTrong(v.cau, v.chu, v.pinyin) : null;
+          const pyCau = anPinyin && pyO ? '' : `<span class="py-tren-cau">${esc(v.pinyin)}</span>`;
+          return `<p class="cau-thi">${pyCau}<span class="han">${esc(truoc)}<span class="o-dien">（${tl?.xong ? esc(v.chu) : (pyO ? ` <span class="pinyin">${esc(pyO)}</span> ` : '　')}）</span>${esc(sau)}</span></p>
             <div class="o-viet o-viet-thi" id="o-viet-thi"></div>
             <p class="chu-phu nho" id="loi-nhan-viet" style="text-align:center">${tl
               ? (tl.xong ? '✓ Đã viết xong câu này.' : 'Đã bỏ qua câu này.')
@@ -649,6 +695,7 @@ export function veLamBai(khung, cap = 1) {
         }
         writer = await taoBangVe($o, c.vc.chu, { showCharacter: false, showOutline: false });
         if (daRoi || viTri !== idx) { huyViet(); return; }
+        const soNet = (await taiNetChu()).net[c.vc.chu]?.strokes.length ?? 10;
         const $nhan = khung.querySelector('#loi-nhan-viet');
         writer.quiz({
           showHintAfterMisses: 3,
@@ -656,12 +703,12 @@ export function veLamBai(khung, cap = 1) {
             if ($nhan) $nhan.textContent = `Nét chưa đúng (đã sai ${d.totalMistakes} lần).`;
             if (d.totalMistakes >= LOI_VIET_DUNG_LAI && !traLoi[idx]) {
               huyViet();
-              traLoi[idx] = { xong: false, loi: d.totalMistakes };
+              traLoi[idx] = { xong: false, loi: d.totalMistakes, soNet };
               if (viTri === idx) veCau();
             }
           },
           onComplete: (kq) => {
-            traLoi[idx] = { xong: true, loi: kq.totalMistakes };
+            traLoi[idx] = { xong: true, loi: kq.totalMistakes, soNet };
             writer = null;
             if (viTri === idx) veCau();
           },
@@ -813,6 +860,12 @@ export function veLamBai(khung, cap = 1) {
             ${lg.cungDung ? `<br><span class="chu-phu nho">Cũng đúng: <span class="han">${esc(lg.cungDung)}</span></span>` : ''}
             ${lg.hoi ? `<br><span class="chu-phu nho">Câu hỏi: <span class="han">${esc(lg.hoi)}</span></span>` : ''}</span>
           </div>
+          ${c.kieu === 'xepCau' ? `<div class="tu-viet-cau">
+            <label class="chu-phu nho" for="tu-viet-${i}">✍️ Luyện thêm (không tính điểm): tự gõ một câu KHÁC có dùng <b class="han">${esc(c.xc.tu)}</b></label>
+            <div class="hang-tu-viet"><input id="tu-viet-${i}" type="text" lang="zh" autocomplete="off" placeholder="Gõ câu tiếng Trung…">
+              <button class="nut nut-nho" data-kiem-cau="${i}">Kiểm tra</button></div>
+            <p class="chu-phu nho kq-tu-viet" id="kq-tu-viet-${i}"></p>
+          </div>` : ''}
         </div>`;
       }).join('');
       const tomTat = moTaDiemPhan(kq);
@@ -822,6 +875,8 @@ export function veLamBai(khung, cap = 1) {
           <div class="emoji emoji-to">${dat ? '🏆' : '💪'}</div>
           <h2>${tong}/${thang.toiDa} điểm</h2>
           <p><span class="nhan ${dat ? 'nhan-dat' : ''}" style="font-size:.95rem">${dat ? `✅ Đạt (từ ${thang.dat} điểm)` : `Chưa đạt – cần thêm ${thang.dat - tong} điểm`}</span></p>
+          <p class="chu-phu nho" style="margin:0">Mức đạt ước tính theo kỳ thi cũ.${CAU_HINH[cap + 1] && !capMo(cap + 1) && !vuaMo.length
+            ? ` Học vượt sang HSK ${cap + 1} cần ${moTaHocVuot(cap)}.` : ''}</p>
           ${vuaMo.length ? `<div class="khung the-mo-khoa"><span class="emoji">🔓</span><b>Đã mở khóa HSK ${vuaMo.join(', ')}!</b>
             <a class="nut nut-chinh nut-rong" href="#/bai">Vào học HSK ${vuaMo[0]}</a></div>` : ''}
           <p class="chu-phu">${tomTat} · ${Math.round(giayDaLam / 60)} phút</p>
@@ -831,6 +886,15 @@ export function veLamBai(khung, cap = 1) {
         </div>
         <h3 class="tieu-de-muc">Xem lại từng câu</h3>
         <div class="ds-xem-lai">${xemLai}</div>`;
+      khung.querySelectorAll('[data-kiem-cau]').forEach((nut) => {
+        nut.onclick = () => {
+          const i = Number(nut.dataset.kiemCau);
+          const kq = kiemCauTuViet(khung.querySelector(`#tu-viet-${i}`).value.trim(), de[i].xc.tu);
+          const $kq = khung.querySelector(`#kq-tu-viet-${i}`);
+          $kq.textContent = kq.chu;
+          $kq.classList.toggle('tot', kq.tot);
+        };
+      });
     }
 
     // Nút quay lại khi đang thi: hỏi trước khi bỏ bài
@@ -845,6 +909,7 @@ export function veLamBai(khung, cap = 1) {
 
   return () => {
     daRoi = true;
+    anPinyin = false;
     huyViet();
     clearInterval(henGio);
     if (window.speechSynthesis) window.speechSynthesis.cancel();

@@ -10,7 +10,7 @@
 
 import { caiDat, layTienDo, luu, nhatKyHomNay, ghiLuot } from './luu-tru.js';
 import { capMo } from './cap-do.js';
-import { tatCaTu, layTu, nghiaNgan, danhSachBai, timBaiTheoMa, cheDoBai, nhanBai, cacCapCoDuLieu } from './du-lieu.js';
+import { tatCaTu, layTu, nghiaNgan, danhSachBai, timBaiTheoMa, cheDoBai, nhanBai, cacCapCoDuLieu, tiengDoc } from './du-lieu.js';
 import { doc, tinhTrangPhatAm } from './phat-am.js';
 import { esc, batDongHo, nutLoa, dongTu } from './giao-dien.js';
 import { toMauPinyin, toMauChuHan, demChuHan } from './pinyin.js';
@@ -226,7 +226,7 @@ export function vePhienTracNghiem(khung, dang, soBai = null) {
         <div class="vung-tra-loi" id="vung-nut"></div>
       </div>`;
     const $ = (s) => khung.querySelector(s);
-    const nghe = (cham = false) => { if (cau) doc(cau.tu.hanzi, cham ? 0.55 : undefined); };
+    const nghe = (cham = false) => { if (cau) doc(tiengDoc(cau.tu), cham ? 0.55 : undefined); };
 
     function capNhatTienDo() {
       const tongCau = Math.max(tong, daLam + hangDoi.length + (daTraLoi ? 0 : 1));
@@ -288,7 +288,7 @@ export function vePhienTracNghiem(khung, dang, soBai = null) {
         <div class="tu-sau-tra-loi">
           <span class="han tu-lon">${toMauChuHan(tu.hanzi, tu.pinyin)}</span>
           <span class="giua"><span class="pinyin">${toMauPinyin(tu.pinyin, demChuHan(tu.hanzi))}</span>
-          <span class="chu-phu nho">${esc(nghiaNgan(tu))}</span></span>${nutLoa(tu.hanzi, true)}
+          <span class="chu-phu nho">${esc(nghiaNgan(tu))}</span></span>${nutLoa(tiengDoc(tu), true)}
         </div>
         ${thongTin ? `<p class="chu-phu nho" style="margin:8px 0 0">${thongTin}</p>` : ''}`;
       $('#dap-an').classList.add(dung ? 'la-dung' : 'la-sai');
@@ -296,7 +296,7 @@ export function vePhienTracNghiem(khung, dang, soBai = null) {
       $('#vung-nut').insertAdjacentHTML('beforeend',
         `<button class="nut nut-chinh nut-rong" id="nut-tiep" style="margin-top:10px">${hangDoi.length ? 'Câu tiếp ▶' : 'Xem kết quả ▶'}</button>`);
       $('#nut-tiep').onclick = cauTiepTheo;
-      if (cau.dang !== 'nghe' && caiDat().tuPhatAm) doc(tu.hanzi);
+      if (cau.dang !== 'nghe' && caiDat().tuPhatAm) doc(tiengDoc(tu));
       capNhatTienDo();
       $('#nut-tiep').scrollIntoView({ block: 'nearest', behavior: 'smooth' });
     }

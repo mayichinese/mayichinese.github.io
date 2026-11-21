@@ -67,7 +67,7 @@
 
 @本1 | bản
 - 量 | quyển, cuốn (lượng từ cho sách, vở)
-> 我买了两本书。 | Wǒ mǎile liǎng běn shū. | Tôi đã mua hai quyển sách.
+> 我买了两本书。 | Wǒ mǎi le liǎng běn shū. | Tôi đã mua hai quyển sách.
 > 这本书很好看。 | Zhè běn shū hěn hǎokàn. | Quyển sách này rất hay.
 
 @读 | độc

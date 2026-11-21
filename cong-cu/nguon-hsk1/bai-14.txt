@@ -4,7 +4,7 @@
 
 # 14 | Ăn uống (1)
 
-@吃 | ngật
+@吃 | cật
 - 动 | ăn
 > 我不吃鸡蛋。 | Wǒ bù chī jīdàn. | Tôi không ăn trứng gà.
 > 你吃饭了吗？ | Nǐ chī fàn le ma? | Bạn ăn cơm chưa?
@@ -52,7 +52,7 @@
 > 杯子里有水。 | Bēizi li yǒu shuǐ. | Trong cốc có nước.
 * Khi làm lượng từ thì dùng 杯: 一杯茶 = một cốc trà.
 
-@好吃 | hảo ngật
+@好吃 | hảo cật
 - 形 | ngon (đồ ăn)
 > 这个包子很好吃。 | Zhège bāozi hěn hǎochī. | Cái bánh bao này rất ngon.
 > 中国菜很好吃。 | Zhōngguó cài hěn hǎochī. | Món Trung Quốc rất ngon.
@@ -67,7 +67,7 @@
 @早饭 | tảo phạn
 - 名 | bữa sáng
 > 你吃早饭了吗？ | Nǐ chī zǎofàn le ma? | Bạn ăn sáng chưa?
-> 我早饭吃了两个包子。 | Wǒ zǎofàn chīle liǎng gè bāozi. | Bữa sáng tôi ăn hai cái bánh bao.
+> 我早饭吃了两个包子。 | Wǒ zǎofàn chī le liǎng gè bāozi. | Bữa sáng tôi ăn hai cái bánh bao.
 
 @午饭 | ngọ phạn
 - 名 | bữa trưa

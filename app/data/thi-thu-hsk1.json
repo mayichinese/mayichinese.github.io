@@ -12,7 +12,7 @@
    "cau": [
     {
      "han": "我买了四个苹果。",
-     "pinyin": "Wǒ mǎile sì gè píngguǒ.",
+     "pinyin": "Wǒ mǎi le sì gè píngguǒ.",
      "dich": "Tôi đã mua bốn quả táo.",
      "coTranh": [
       "1:苹果",
@@ -64,7 +64,7 @@
     },
     {
      "han": "他买了五个苹果。",
-     "pinyin": "Tā mǎile wǔ gè píngguǒ.",
+     "pinyin": "Tā mǎi le wǔ gè píngguǒ.",
      "dich": "Anh ấy đã mua năm quả táo.",
      "coTranh": [
       "1:苹果",
@@ -146,7 +146,7 @@
     },
     {
      "han": "我吃了一块面包。",
-     "pinyin": "Wǒ chīle yí kuài miànbāo.",
+     "pinyin": "Wǒ chī le yí kuài miànbāo.",
      "dich": "Tôi đã ăn một miếng bánh mì.",
      "coTranh": [
       "1:面包"
@@ -172,7 +172,7 @@
     },
     {
      "han": "我早饭吃了一个鸡蛋。",
-     "pinyin": "Wǒ zǎofàn chīle yí gè jīdàn.",
+     "pinyin": "Wǒ zǎofàn chī le yí gè jīdàn.",
      "dich": "Bữa sáng tôi đã ăn một quả trứng gà.",
      "coTranh": [
       "1:鸡蛋"
@@ -686,7 +686,7 @@
     },
     {
      "han": "我买了两本书。",
-     "pinyin": "Wǒ mǎile liǎng běn shū.",
+     "pinyin": "Wǒ mǎi le liǎng běn shū.",
      "dich": "Tôi đã mua hai quyển sách.",
      "coTranh": [
       "1:书",
@@ -759,7 +759,7 @@
     },
     {
      "han": "他看了二十分钟书。",
-     "pinyin": "Tā kànle èrshí fēnzhōng shū.",
+     "pinyin": "Tā kàn le èrshí fēnzhōng shū.",
      "dich": "Anh ấy đọc sách hai mươi phút.",
      "coTranh": [
       "1:书"
@@ -767,7 +767,7 @@
     },
     {
      "han": "我买了一本书。",
-     "pinyin": "Wǒ mǎile yì běn shū.",
+     "pinyin": "Wǒ mǎi le yì běn shū.",
      "dich": "Tôi đã mua một quyển sách.",
      "coTranh": [
       "1:书",
@@ -809,7 +809,7 @@
     },
     {
      "han": "我的书少了一本。",
-     "pinyin": "Wǒ de shū shǎole yì běn.",
+     "pinyin": "Wǒ de shū shǎo le yì běn.",
      "dich": "Sách của tôi bị mất một quyển.",
      "coTranh": [
       "1:书"
@@ -931,7 +931,7 @@
     },
     {
      "han": "我买了两件衣服。",
-     "pinyin": "Wǒ mǎile liǎng jiàn yīfu.",
+     "pinyin": "Wǒ mǎi le liǎng jiàn yīfu.",
      "dich": "Tôi đã mua hai cái áo.",
      "coTranh": [
       "1:衣服",
@@ -940,7 +940,7 @@
     },
     {
      "han": "她穿了一件新衣服。",
-     "pinyin": "Tā chuānle yí jiàn xīn yīfu.",
+     "pinyin": "Tā chuān le yí jiàn xīn yīfu.",
      "dich": "Cô ấy mặc một cái áo mới.",
      "coTranh": [
       "1:衣服"
@@ -1067,7 +1067,7 @@
     },
     {
      "han": "妈妈给了我一百块钱。",
-     "pinyin": "Māma gěile wǒ yìbǎi kuài qián.",
+     "pinyin": "Māma gěi le wǒ yìbǎi kuài qián.",
      "dich": "Mẹ cho tôi một trăm đồng.",
      "coTranh": [
       "1:钱"
@@ -1271,7 +1271,7 @@
     },
     {
      "han": "三天前我去了医院。",
-     "pinyin": "Sān tiān qián wǒ qùle yīyuàn.",
+     "pinyin": "Sān tiān qián wǒ qù le yīyuàn.",
      "dich": "Ba ngày trước tôi đã đi bệnh viện.",
      "coTranh": [
       "1:医院"
@@ -1287,7 +1287,7 @@
     },
     {
      "han": "第二天他去了医院。",
-     "pinyin": "Dì-èr tiān tā qùle yīyuàn.",
+     "pinyin": "Dì-èr tiān tā qù le yīyuàn.",
      "dich": "Ngày hôm sau anh ấy đã đi bệnh viện.",
      "coTranh": [
       "1:医院"
@@ -1328,7 +1328,7 @@
     },
     {
      "han": "他在医院住了一个星期。",
-     "pinyin": "Tā zài yīyuàn zhùle yí gè xīngqī.",
+     "pinyin": "Tā zài yīyuàn zhù le yí gè xīngqī.",
      "dich": "Anh ấy nằm viện một tuần.",
      "coTranh": [
       "1:医院"
@@ -2261,7 +2261,7 @@
     },
     {
      "han": "今天多了一个学生。",
-     "pinyin": "Jīntiān duōle yí gè xuéshēng.",
+     "pinyin": "Jīntiān duō le yí gè xuéshēng.",
      "dich": "Hôm nay có thêm một học sinh.",
      "coTranh": [
       "1:学生"
@@ -2721,7 +2721,7 @@
     },
     {
      "han": "我买了四个苹果。",
-     "pinyin": "Wǒ mǎile sì gè píngguǒ.",
+     "pinyin": "Wǒ mǎi le sì gè píngguǒ.",
      "dich": "Tôi đã mua bốn quả táo.",
      "coTranh": [
       "1:苹果",
@@ -2730,7 +2730,7 @@
     },
     {
      "han": "我买了两本书。",
-     "pinyin": "Wǒ mǎile liǎng běn shū.",
+     "pinyin": "Wǒ mǎi le liǎng běn shū.",
      "dich": "Tôi đã mua hai quyển sách.",
      "coTranh": [
       "1:书",
@@ -2748,7 +2748,7 @@
     },
     {
      "han": "我买了些水果。",
-     "pinyin": "Wǒ mǎile xiē shuǐguǒ.",
+     "pinyin": "Wǒ mǎi le xiē shuǐguǒ.",
      "dich": "Tôi đã mua ít hoa quả.",
      "coTranh": [
       "1:买"
@@ -2772,7 +2772,7 @@
     },
     {
      "han": "我买了一本书。",
-     "pinyin": "Wǒ mǎile yì běn shū.",
+     "pinyin": "Wǒ mǎi le yì běn shū.",
      "dich": "Tôi đã mua một quyển sách.",
      "coTranh": [
       "1:书",
@@ -2789,7 +2789,7 @@
     },
     {
      "han": "他买了五个苹果。",
-     "pinyin": "Tā mǎile wǔ gè píngguǒ.",
+     "pinyin": "Tā mǎi le wǔ gè píngguǒ.",
      "dich": "Anh ấy đã mua năm quả táo.",
      "coTranh": [
       "1:苹果",
@@ -2842,7 +2842,7 @@
     },
     {
      "han": "我买了两件衣服。",
-     "pinyin": "Wǒ mǎile liǎng jiàn yīfu.",
+     "pinyin": "Wǒ mǎi le liǎng jiàn yīfu.",
      "dich": "Tôi đã mua hai cái áo.",
      "coTranh": [
       "1:衣服",
@@ -2994,7 +2994,7 @@
     },
     {
      "han": "今天我工作了十个小时。",
-     "pinyin": "Jīntiān wǒ gōngzuòle shí gè xiǎoshí.",
+     "pinyin": "Jīntiān wǒ gōngzuò le shí gè xiǎoshí.",
      "dich": "Hôm nay tôi đã làm việc mười tiếng.",
      "coTranh": [
       "1:工作"

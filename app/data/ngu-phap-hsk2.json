@@ -460,7 +460,16 @@
       "旅游"
      ],
      "dauCau": "。",
-     "khac": [],
+     "khac": [
+      [
+       "朋友",
+       "跟",
+       "我",
+       "一起",
+       "去",
+       "旅游"
+      ]
+     ],
      "pinyin": "Wǒ gēn péngyou yìqǐ qù lǚyóu.",
      "dich": "Tôi đi du lịch cùng bạn bè."
     }
@@ -680,7 +689,7 @@
    "giaiThich": [
     "几 trong câu kể (không phải câu hỏi) nghĩa là “vài”: 我有几个中国朋友 (tôi có vài người bạn Trung Quốc).",
     "Số tròn chục (十, 二十, 一百…) + 多 + lượng từ = hơn…: 十多个学生 (hơn mười học sinh).",
-    "Số từ 1 đến 9 + lượng từ + 多 = hơn… một chút: 三个多月 (hơn ba tháng), 五块多 (hơn năm tệ). Cách này chỉ dùng với đơn vị chia nhỏ được (小时, 天, 月, 年, 块…); không nói 三个多学生.",
+    "Số từ 1 đến 9 + lượng từ + 多 = hơn… một chút: 三个多月 (hơn ba tháng), 五块多 (hơn năm tệ). Cách này chỉ dùng với đơn vị chia nhỏ được (小时, 天, 月, 年, 块…); không nói 三个多学生. Với số tròn chục (10, 20, 100…) thì 多 đứng TRƯỚC lượng từ và dùng được với mọi danh từ: 十多个学生 (hơn mười học sinh), 二十多本书.",
     "十几 = mười mấy; 几十 = mấy chục."
    ],
    "loiHayMac": [
@@ -950,7 +959,7 @@
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Duìbuqǐ, wǒ xiě cuò le.",
+     "pinyin": "Duìbuqǐ, wǒ xiěcuò le.",
      "dich": "Xin lỗi, tôi viết sai rồi."
     },
     {
@@ -978,7 +987,7 @@
        "吗"
       ]
      ],
-     "pinyin": "Lǎoshī shuō de nǐ tīng dǒng le ma?",
+     "pinyin": "Lǎoshī shuō de nǐ tīngdǒng le ma?",
      "dich": "Điều thầy nói bạn nghe hiểu chưa?"
     },
     {
@@ -994,7 +1003,7 @@
      ],
      "dauCau": "！",
      "khac": [],
-     "pinyin": "Fàn zuò hǎo le, lái chī ba!",
+     "pinyin": "Fàn zuòhǎo le, lái chī ba!",
      "dich": "Cơm nấu xong rồi, lại ăn đi!"
     },
     {
@@ -1009,7 +1018,7 @@
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Wǒ yǐjīng xué huì zuò fàn le.",
+     "pinyin": "Wǒ yǐjīng xuéhuì zuò fàn le.",
      "dich": "Tôi đã học được cách nấu ăn rồi."
     }
    ],
@@ -1022,7 +1031,7 @@
       "很",
       "吗"
      ],
-     "pinyin": "Zhège zì nǐ xiě cuò le, bú duì.",
+     "pinyin": "Zhège zì nǐ xiěcuò le, bú duì.",
      "dich": "Chữ này bạn viết sai rồi, không đúng."
     },
     {
@@ -1033,7 +1042,7 @@
       "是",
       "很"
      ],
-     "pinyin": "Zhège wèntí wǒ méi tīng dǒng.",
+     "pinyin": "Zhège wèntí wǒ méi tīngdǒng.",
      "dich": "Câu hỏi này tôi nghe không hiểu."
     },
     {
@@ -1044,7 +1053,7 @@
       "是",
       "去"
      ],
-     "pinyin": "Zhè běn shū wǒ yǐjīng kàn wán le.",
+     "pinyin": "Zhè běn shū wǒ yǐjīng kànwán le.",
      "dich": "Cuốn sách này tôi đọc xong rồi."
     }
    ],
@@ -1618,7 +1627,7 @@
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Lǎoshī zǒu jìn jiàoshì le.",
+     "pinyin": "Lǎoshī zǒujìn jiàoshì le.",
      "dich": "Thầy giáo đi vào lớp rồi."
     },
     {
@@ -1638,7 +1647,7 @@
        "下"
       ]
      ],
-     "pinyin": "Qǐng dàjiā zuò xià.",
+     "pinyin": "Qǐng dàjiā zuòxià.",
      "dich": "Mời mọi người ngồi xuống."
     }
    ],
@@ -1662,7 +1671,7 @@
       "是",
       "很"
      ],
-     "pinyin": "Yéye zǒu jìnlái le.",
+     "pinyin": "Yéye zǒu jìnlai le.",
      "dich": "Ông nội đi vào rồi."
     },
     {
@@ -2149,7 +2158,7 @@
        "了"
       ]
      ],
-     "pinyin": "Tā hěn kuài de chī wán le fàn.",
+     "pinyin": "Tā hěn kuài de chīwán le fàn.",
      "dich": "Anh ấy ăn xong cơm rất nhanh."
     }
    ],
@@ -2173,7 +2182,7 @@
       "是",
       "在"
      ],
-     "pinyin": "Háizimen gāoxìng de zǒu guòlái le.",
+     "pinyin": "Háizimen gāoxìng de zǒu guòlai le.",
      "dich": "Bọn trẻ vui vẻ đi lại đây."
     },
     {
@@ -4136,7 +4145,7 @@
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Lǎoshī zǒu jìnlái le.",
+     "pinyin": "Lǎoshī zǒu jìnlai le.",
      "dich": "Thầy giáo đi vào rồi."
     },
     {
@@ -4150,7 +4159,7 @@
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Háizimen pǎo chūqù wánr le.",
+     "pinyin": "Háizimen pǎo chūqu wánr le.",
      "dich": "Bọn trẻ chạy ra ngoài chơi rồi."
     },
     {
@@ -4166,7 +4175,7 @@
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Tā cóng yǐzi shang zhàn qǐlái le.",
+     "pinyin": "Tā cóng yǐzi shang zhàn qǐlai le.",
      "dich": "Anh ấy đứng dậy khỏi ghế."
     },
     {
@@ -4184,7 +4193,7 @@
      ],
      "dauCau": "。",
      "khac": [],
-     "pinyin": "Tā cóng shūbāo li ná chūlái yì běn shū.",
+     "pinyin": "Tā cóng shūbāo li ná chūlai yì běn shū.",
      "dich": "Anh ấy lấy ra một cuốn sách từ trong cặp."
     }
    ],
@@ -4197,7 +4206,7 @@
       "过",
       "着"
      ],
-     "pinyin": "Tā pǎo jìn jiàoshì lái le.",
+     "pinyin": "Tā pǎojìn jiàoshì lái le.",
      "dich": "Anh ấy chạy vào lớp."
     },
     {
@@ -4208,7 +4217,7 @@
       "着",
       "得"
      ],
-     "pinyin": "Wàimiàn tài lěng le, nǐ kuài pǎo jìnlái ba.",
+     "pinyin": "Wàimiàn tài lěng le, nǐ kuài pǎo jìnlai ba.",
      "dich": "Ngoài trời lạnh lắm, bạn mau chạy vào đây đi."
     },
     {
@@ -4219,7 +4228,7 @@
       "在",
       "很"
      ],
-     "pinyin": "Tā ná chūlái yì běn shū.",
+     "pinyin": "Tā ná chūlai yì běn shū.",
      "dich": "Anh ấy lấy ra một cuốn sách."
     }
    ],

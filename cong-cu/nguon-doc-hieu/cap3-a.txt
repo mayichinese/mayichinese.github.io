@@ -10,7 +10,7 @@ $ 小明; 小文; 小李; 小张; 李明
 % hoi-thoai
 > 小明 | 喂，小文，我已经到机场了，但是人太多，我找不到你哥哥。 | Wèi, Xiǎo Wén, wǒ yǐjīng dào jīchǎng le, dànshì rén tài duō, wǒ zhǎo bú dào nǐ gēge. | A lô, Tiểu Văn, mình đến sân bay rồi, nhưng đông người quá, mình không tìm thấy anh trai bạn.
 > 小文 | 别着急。我哥哥个子很高，身高一米八，头发很短，有点儿瘦。 | Bié zháojí. Wǒ gēge gèzi hěn gāo, shēngāo yì mǐ bā, tóufa hěn duǎn, yǒudiǎnr shòu. | Đừng sốt ruột. Anh mình dáng cao, cao một mét tám, tóc rất ngắn, hơi gầy.
-> 小明 | 我好像看见他了！门口站着一个人，旁边有两个黑色的大箱子。 | Wǒ hǎoxiàng kànjiàn tā le! Ménkǒu zhànzhe yí gè rén, pángbiān yǒu liǎng gè hēisè de dà xiāngzi. | Hình như mình thấy anh ấy rồi! Ở cửa có một người đang đứng, bên cạnh có hai cái vali to màu đen.
+> 小明 | 我好像看见他了！门口站着一个人，旁边有两个黑色的大箱子。 | Wǒ hǎoxiàng kànjiàn tā le! Ménkǒu zhàn zhe yí gè rén, pángbiān yǒu liǎng gè hēisè de dà xiāngzi. | Hình như mình thấy anh ấy rồi! Ở cửa có một người đang đứng, bên cạnh có hai cái vali to màu đen.
 > 小文 | 他看起来多大？我哥哥很年轻，今年二十五岁。 | Tā kàn qǐlai duō dà? Wǒ gēge hěn niánqīng, jīnnián èrshíwǔ suì. | Người đó trông bao nhiêu tuổi? Anh mình còn rất trẻ, năm nay hai mươi lăm tuổi.
 > 小明 | 那个人看起来有四十岁，应该不是你哥哥。 | Nà ge rén kàn qǐlai yǒu sìshí suì, yīnggāi bú shì nǐ gēge. | Người đó trông khoảng bốn mươi tuổi, chắc không phải anh bạn đâu.
 > 小文 | 我给哥哥打个电话，让他去门口找你。 | Wǒ gěi gēge dǎ ge diànhuà, ràng tā qù ménkǒu zhǎo nǐ. | Mình gọi điện cho anh, bảo anh ấy ra cửa tìm bạn.
@@ -31,7 +31,7 @@ $ 小明; 小文; 小李; 小张; 李明
 @ Đi ăn ở quán cạnh trường
 % doan-van
 > 上个星期六，我和小文去学校旁边的一家饭馆吃饭。 | Shàng ge xīngqīliù, wǒ hé Xiǎo Wén qù xuéxiào pángbiān de yì jiā fànguǎn chī fàn. | Thứ Bảy tuần trước, mình và Tiểu Văn đi ăn ở một quán ăn cạnh trường.
-> 我们好久没去那儿了。走到饭馆的时候，我们又饿又渴。 | Wǒmen hǎojiǔ méi qù nàr le. Zǒu dào fànguǎn de shíhou, wǒmen yòu è yòu kě. | Lâu lắm rồi bọn mình không đến đó. Lúc đi tới quán, bọn mình vừa đói vừa khát.
+> 我们好久没去那儿了。走到饭馆的时候，我们又饿又渴。 | Wǒmen hǎojiǔ méi qù nàr le. Zǒudào fànguǎn de shíhou, wǒmen yòu è yòu kě. | Lâu lắm rồi bọn mình không đến đó. Lúc đi tới quán, bọn mình vừa đói vừa khát.
 > 服务员很热情，马上给了我们一张菜单。 | Fúwùyuán hěn rèqíng, mǎshàng gěi le wǒmen yì zhāng càidān. | Nhân viên phục vụ rất nhiệt tình, đưa ngay cho bọn mình một tờ thực đơn.
 > 她问我们想喝点儿什么，我们选了两杯饮料。 | Tā wèn wǒmen xiǎng hē diǎnr shénme, wǒmen xuǎn le liǎng bēi yǐnliào. | Cô ấy hỏi bọn mình muốn uống chút gì, bọn mình chọn hai cốc đồ uống.
 > 菜单上的菜很多，我什么都想尝尝。 | Càidān shang de cài hěn duō, wǒ shénme dōu xiǎng chángchang. | Món trong thực đơn rất nhiều, món gì mình cũng muốn nếm thử.
@@ -57,7 +57,7 @@ $ 小明; 小文; 小李; 小张; 李明
 > 小李 | 你住几层？房间大不大？ | Nǐ zhù jǐ céng? Fángjiān dà bu dà? | Cậu ở tầng mấy? Phòng có rộng không?
 > 小明 | 我住六层。房间不大，但是有空调、冰箱和洗衣机，卫生间也挺大。 | Wǒ zhù liù céng. Fángjiān bú dà, dànshì yǒu kōngtiáo, bīngxiāng hé xǐyījī, wèishēngjiān yě tǐng dà. | Mình ở tầng sáu. Phòng không rộng, nhưng có điều hòa, tủ lạnh và máy giặt, phòng tắm cũng khá rộng.
 > 小李 | 搬家累不累？你们搬了多长时间？ | Bānjiā lèi bu lèi? Nǐmen bān le duō cháng shíjiān? | Chuyển nhà có mệt không? Các cậu chuyển mất bao lâu?
-> 小明 | 东西不多，我和哥哥两个小时就搬完了。但是打扫房间用了很长时间，晚上十一点才打扫完。 | Dōngxi bù duō, wǒ hé gēge liǎng gè xiǎoshí jiù bān wán le. Dànshì dǎsǎo fángjiān yòng le hěn cháng shíjiān, wǎnshang shíyī diǎn cái dǎsǎo wán. | Đồ đạc không nhiều, mình với anh trai hai tiếng là chuyển xong. Nhưng dọn phòng mất rất nhiều thời gian, mười một giờ tối mới dọn xong.
+> 小明 | 东西不多，我和哥哥两个小时就搬完了。但是打扫房间用了很长时间，晚上十一点才打扫完。 | Dōngxi bù duō, wǒ hé gēge liǎng gè xiǎoshí jiù bānwán le. Dànshì dǎsǎo fángjiān yòng le hěn cháng shíjiān, wǎnshang shíyī diǎn cái dǎsǎo wán. | Đồ đạc không nhiều, mình với anh trai hai tiếng là chuyển xong. Nhưng dọn phòng mất rất nhiều thời gian, mười một giờ tối mới dọn xong.
 > 小李 | 下次你需要帮忙就告诉我，咱们是好朋友！ | Xià cì nǐ xūyào bāngmáng jiù gàosu wǒ, zánmen shì hǎo péngyou! | Lần sau cần giúp thì cứ bảo mình, chúng mình là bạn thân mà!
 > 小明 | 谢谢！明天我还要去银行办一张银行卡。 | Xièxie! Míngtiān wǒ hái yào qù yínháng bàn yì zhāng yínhángkǎ. | Cảm ơn! Ngày mai mình còn phải ra ngân hàng làm một thẻ ngân hàng.
 > 小李 | 银行九点才开门，你别去得太早。还有，出门的时候别忘了关灯和空调！ | Yínháng jiǔ diǎn cái kāi mén, nǐ bié qù de tài zǎo. Hái yǒu, chū mén de shíhou bié wàng le guān dēng hé kōngtiáo! | Ngân hàng chín giờ mới mở cửa, cậu đừng đi sớm quá. Còn nữa, lúc ra ngoài đừng quên tắt đèn và điều hòa nhé!
@@ -76,13 +76,13 @@ $ 小明; 小文; 小李; 小张; 李明
 % doan-van
 > 这个假期，小文和妈妈去海边玩了五天。 | Zhè ge jiàqī, Xiǎo Wén hé māma qù hǎi biān wán le wǔ tiān. | Kỳ nghỉ này, Tiểu Văn và mẹ đi biển chơi năm ngày.
 > 她们的飞机晚点了，下午三点一刻才起飞。 | Tāmen de fēijī wǎndiǎn le, xiàwǔ sān diǎn yí kè cái qǐfēi. | Máy bay của hai mẹ con bị trễ, ba giờ mười lăm chiều mới cất cánh.
-> 到了那儿，宾馆的司机来机场接她们，他笑着说："欢迎欢迎！" | Dào le nàr, bīnguǎn de sījī lái jīchǎng jiē tāmen, tā xiàozhe shuō: "Huānyíng huānyíng!" | Đến nơi, tài xế của khách sạn ra sân bay đón hai mẹ con, anh ấy cười nói: "Chào mừng, chào mừng!"
+> 到了那儿，宾馆的司机来机场接她们，他笑着说："欢迎欢迎！" | Dào le nàr, bīnguǎn de sījī lái jīchǎng jiē tāmen, tā xiào zhe shuō: "Huānyíng huānyíng!" | Đến nơi, tài xế của khách sạn ra sân bay đón hai mẹ con, anh ấy cười nói: "Chào mừng, chào mừng!"
 > 宾馆离海特别近，房间又大又干净，她们都很满意。 | Bīnguǎn lí hǎi tèbié jìn, fángjiān yòu dà yòu gānjìng, tāmen dōu hěn mǎnyì. | Khách sạn rất gần biển, phòng vừa rộng vừa sạch, hai mẹ con đều rất hài lòng.
 > 除了牙刷以外，房间里什么都有。小文忘了带牙刷，就去楼下买了一个。 | Chúle yáshuā yǐwài, fángjiān li shénme dōu yǒu. Xiǎo Wén wàng le dài yáshuā, jiù qù lóu xià mǎi le yí gè. | Ngoài bàn chải đánh răng ra, trong phòng cái gì cũng có. Tiểu Văn quên mang bàn chải, nên xuống dưới nhà mua một cái.
 > 每天早上，她们先去海里游泳，再回宾馆洗澡、吃早饭。 | Měi tiān zǎoshang, tāmen xiān qù hǎi li yóuyǒng, zài huí bīnguǎn xǐzǎo, chī zǎofàn. | Sáng nào hai mẹ con cũng ra biển bơi trước, rồi mới về khách sạn tắm và ăn sáng.
 > 宾馆旁边可以骑马，小文是第一次骑马，觉得特别有意思。 | Bīnguǎn pángbiān kěyǐ qí mǎ, Xiǎo Wén shì dì-yī cì qí mǎ, juéde tèbié yǒu yìsi. | Cạnh khách sạn có thể cưỡi ngựa, Tiểu Văn lần đầu cưỡi ngựa, thấy cực kỳ thú vị.
-> 晚上海边一个人也没有，她们一起坐着看月亮。 | Wǎnshang hǎi biān yí gè rén yě méiyǒu, tāmen yìqǐ zuòzhe kàn yuèliang. | Buổi tối bờ biển không có lấy một người, hai mẹ con cùng ngồi ngắm trăng.
-> 妈妈笑着说："这里的月亮跟家里的一样，但是在海边看特别漂亮。" | Māma xiàozhe shuō: "Zhèlǐ de yuèliang gēn jiā li de yíyàng, dànshì zài hǎi biān kàn tèbié piàoliang." | Mẹ cười nói: "Mặt trăng ở đây cũng giống ở nhà, nhưng ngắm ở bờ biển thì đẹp lạ thường."
+> 晚上海边一个人也没有，她们一起坐着看月亮。 | Wǎnshang hǎi biān yí gè rén yě méiyǒu, tāmen yìqǐ zuò zhe kàn yuèliang. | Buổi tối bờ biển không có lấy một người, hai mẹ con cùng ngồi ngắm trăng.
+> 妈妈笑着说："这里的月亮跟家里的一样，但是在海边看特别漂亮。" | Māma xiào zhe shuō: "Zhèlǐ de yuèliang gēn jiā li de yíyàng, dànshì zài hǎi biān kàn tèbié piàoliang." | Mẹ cười nói: "Mặt trăng ở đây cũng giống ở nhà, nhưng ngắm ở bờ biển thì đẹp lạ thường."
 > 小文说："下次假期，我一定还要来这家宾馆！" | Xiǎo Wén shuō: "Xià cì jiàqī, wǒ yídìng hái yào lái zhè jiā bīnguǎn!" | Tiểu Văn nói: "Kỳ nghỉ lần sau, con nhất định còn muốn đến khách sạn này!"
 ? 她们的飞机几点起飞？ | 三点一刻 | 三点; 三点半; 五点一刻
 ?= Máy bay của hai mẹ con mấy giờ cất cánh?
@@ -127,7 +127,7 @@ $ 小明; 小文; 小李; 小张; 李明
 > 检票的时候必须刷一下手机，小明刷了手机就进去了。 | Jiǎnpiào de shíhou bìxū shuā yíxià shǒujī, Xiǎo Míng shuā le shǒujī jiù jìnqu le. | Lúc soát vé phải quẹt điện thoại một cái, Tiểu Minh quẹt điện thoại xong là vào ngay.
 > 车上很安静，有的人在看书，有的人用耳机听音乐。 | Chē shang hěn ānjìng, yǒude rén zài kàn shū, yǒude rén yòng ěrjī tīng yīnyuè. | Trên tàu rất yên tĩnh, có người đang đọc sách, có người dùng tai nghe nghe nhạc.
 > 离家越来越近，小明越来越高兴，他觉得选择坐高铁是对的。 | Lí jiā yuè lái yuè jìn, Xiǎo Míng yuè lái yuè gāoxìng, tā juéde xuǎnzé zuò gāotiě shì duì de. | Càng ngày càng gần nhà, Tiểu Minh càng lúc càng vui, cậu ấy thấy chọn đi tàu cao tốc là đúng.
-> 下午一点，小明拿上行李，对自己说："该下车了！" | Xiàwǔ yì diǎn, Xiǎo Míng ná shang xíngli, duì zìjǐ shuō: "Gāi xià chē le!" | Một giờ chiều, Tiểu Minh cầm hành lý lên, tự nói với mình: "Đến lúc xuống tàu rồi!"
+> 下午一点，小明拿上行李，对自己说："该下车了！" | Xiàwǔ yì diǎn, Xiǎo Míng náshang xíngli, duì zìjǐ shuō: "Gāi xià chē le!" | Một giờ chiều, Tiểu Minh cầm hành lý lên, tự nói với mình: "Đến lúc xuống tàu rồi!"
 ? 以前小明坐什么回家？ | 汽车 | 高铁; 飞机; 火车
 ?= Trước đây Tiểu Minh về nhà bằng gì?
 ? 现在坐高铁回家要多长时间？ | 三个小时 | 八个小时; 五个小时; 一个小时

@@ -69,7 +69,7 @@
 
 @些 | ta
 - 量 | một vài, một ít (lượng từ chỉ số lượng không xác định)
-> 我买了些水果。 | Wǒ mǎile xiē shuǐguǒ. | Tôi đã mua ít hoa quả.
+> 我买了些水果。 | Wǒ mǎi le xiē shuǐguǒ. | Tôi đã mua ít hoa quả.
 * 些 thường đi sau 这, 那, 哪, 一: 这些, 那些, 哪些, 一些.
 
 @有的 | hữu đích

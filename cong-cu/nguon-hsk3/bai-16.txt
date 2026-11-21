@@ -66,7 +66,7 @@
 
 @其实 | kỳ thực
 - 副 | thật ra, thực ra
-> 他看起来很年轻，其实已经五十岁了。 | Tā kàn qǐlái hěn niánqīng, qíshí yǐjīng wǔshí suì le. | Anh ấy trông rất trẻ, thật ra đã năm mươi tuổi rồi.
+> 他看起来很年轻，其实已经五十岁了。 | Tā kàn qǐlai hěn niánqīng, qíshí yǐjīng wǔshí suì le. | Anh ấy trông rất trẻ, thật ra đã năm mươi tuổi rồi.
 > 这个问题其实不难。 | Zhège wèntí qíshí bù nán. | Vấn đề này thật ra không khó.
 * Dùng khi sự thật khác với vẻ bề ngoài hoặc điều người ta nghĩ.
 

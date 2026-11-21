@@ -16,7 +16,7 @@
 
 import { caiDat, layTienDo, luu } from './luu-tru.js';
 import { DANH_GIA, moTaKhoangCach } from './lich-on.js';
-import { layTu, nhanBaiCuaTu, cheDoBai, timBaiTheoMa, nhanBai } from './du-lieu.js';
+import { layTu, nhanBaiCuaTu, cheDoBai, timBaiTheoMa, nhanBai, tiengDoc } from './du-lieu.js';
 import { doc, tinhTrangPhatAm } from './phat-am.js';
 import { demHomNay, taoPhien, theTiepTheo, traLoi, daXemTuMoi, conLai, tuChuaHoc, baiDangHoc } from './phien-hoc.js';
 import { htmlMatSau, batDongHo, esc } from './giao-dien.js';
@@ -99,7 +99,7 @@ export function vePhien(khung, loai, soBai = null) {
     </div>`;
   const $the = khung.querySelector('.the-tu');
   const $vung = khung.querySelector('.vung-tra-loi');
-  const nghe = (cham = false) => { if (cau) doc(cau.tu.hanzi, cham ? 0.55 : undefined); };
+  const nghe = (cham = false) => { if (cau) doc(tiengDoc(cau.tu), cham ? 0.55 : undefined); };
 
   // --- Phím tắt trên máy tính ---
   const phim = (e) => {
@@ -216,7 +216,7 @@ export function vePhien(khung, loai, soBai = null) {
         <button class="nut nut-chinh nut-rong" id="nut-tiep">Tiếp tục ▶</button>
         <p class="phim-tat">Phím tắt: Enter / Space = tiếp tục</p>`;
       $vung.querySelector('#nut-tiep').onclick = tiepTheo;
-      if (cau.dang !== 'nghe' && cd.tuPhatAm) doc(tu.hanzi);
+      if (cau.dang !== 'nghe' && cd.tuPhatAm) doc(tiengDoc(tu));
     }, dung ? 450 : 900);
   }
 
@@ -231,7 +231,7 @@ export function vePhien(khung, loai, soBai = null) {
       <button class="nut nut-chinh nut-rong" id="nut-tiep">Đã hiểu – luyện tiếp ▶</button>
       <p class="phim-tat">Lát nữa app sẽ hỏi lại từ này để kiểm tra · Phím tắt: Space</p>`;
     $vung.querySelector('#nut-tiep').onclick = xemXongTuMoi;
-    if (cd.tuPhatAm) doc(tu.hanzi);
+    if (cd.tuPhatAm) doc(tiengDoc(tu));
   }
 
   function xemXongTuMoi() {

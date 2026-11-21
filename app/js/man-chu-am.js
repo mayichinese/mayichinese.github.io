@@ -1,8 +1,8 @@
 // =========================================================
 // CHỮ & ÂM (#/chu-am) – nền tảng trước khi học từ: tra cứu + luyện tập
 //   #/chu-am/phien-am  Phiên âm: bảng thanh điệu, 23 âm đầu, 35 vần (chạm để nghe, mẹo phát âm so với tiếng Việt)
-//   #/chu-am/net       Nét cơ bản (18 nét) + 7 quy tắc thứ tự nét (xem hoạt cảnh viết)
-//   #/chu-am/bo-thu    45 bộ thủ hay gặp, kèm chữ ví dụ trong HSK 1–3 (bộ thủ được tô màu trong chữ)
+//   #/chu-am/net       Nét cơ bản (25 nét: 18 nét + 7 nét ghép) + 10 quy tắc thứ tự nét (xem hoạt cảnh viết)
+//   #/chu-am/bo-thu    49 bộ thủ hay gặp, kèm chữ ví dụ trong HSK 1–3 (bộ thủ được tô màu trong chữ)
 //   #/chu-am/tu-loai   Từ loại & trật tự câu (man-tu-loai.js; trang một loại: #/chu-am/tu-loai/<mã>)
 //   #/chu-am/luyen/phien-am  10 câu: nghe rồi chọn phiên âm đúng (đáp án nhiễu là âm dễ nhầm: zh/z, an/ang…)
 //   #/chu-am/luyen/bo-thu    10 câu: bộ → nghĩa, nghĩa → bộ, chữ → bộ
@@ -139,12 +139,17 @@ function htmlPhienAm(dl) {
     </div>
     <p class="chu-phu nho meo-thanh" id="meo-thanh">Mỗi âm tiết có 4 thanh và thanh nhẹ – cùng âm nhưng khác thanh là khác nghĩa.</p>
 
+    ${(pa.luuY || []).length ? `<details class="khung luu-y-am">
+      <summary><b>⚠️ Lưu ý cho người Việt</b> <small class="chu-phu">${pa.luuY.length} điểm hay đọc sai</small></summary>
+      <ul>${pa.luuY.map((l) => `<li><b>${esc(l.ten)}:</b> ${esc(l.noi)}</li>`).join('')}</ul>
+    </details>` : ''}
+
     <h3 class="tieu-de-muc">Âm đầu <small>${pa.amDau.length} âm</small></h3>
     ${luoiTheoNhom(pa.amDau, 'd')}
 
     <h3 class="tieu-de-muc">Vần <small>${pa.van.length} vần</small></h3>
     ${luoiTheoNhom(pa.van, 'v')}
-    <p class="chu-phu nho" style="margin-top:16px">Thanh màu vàng = đã nghe đúng ${DU_THAO} lần trong bài luyện. Ví dụ nghe lấy từ chữ trong HSK 1–3;
+    <p class="chu-phu nho" style="margin-top:16px">Thanh màu vàng = đã nghe đúng ${DU_THAO} lần trong bài luyện. Ví dụ nghe lấy từ chữ và từ hai chữ trong HSK 1–3;
       giọng đọc là giọng tiếng Trung có sẵn trong máy.</p>`;
 }
 
@@ -152,14 +157,18 @@ function moAm(dl, ma, loai) {
   const ds = loai === 'd' ? dl.phienAm.amDau : dl.phienAm.van;
   const x = ds.find((a) => a.ma === ma);
   if (!x) return;
-  if (x.vd[0]) doc(x.vd[0].h);
+  const vdTu = x.vdTu || [];
+  if (vdTu[0] || x.vd[0]) doc((vdTu[0] || x.vd[0]).h);
   moHopThoai(`
     <div class="dau-hop">
       <h2><span class="pinyin">${esc(x.ma)}</span> <small class="chu-phu">${loai === 'd' ? 'âm đầu' : 'vần'}${x.nhom ? ` · ${esc(x.nhom)}` : ''}</small></h2>
       <button class="nut-bieu-tuong" data-dong aria-label="Đóng">✕</button>
     </div>
     <p class="meo-doc">💡 ${esc(x.meo)}</p>
-    ${x.vd.length ? `<p class="chu-phu nho" style="margin:12px 0 6px">Chạm để nghe ví dụ:</p>
+    ${vdTu.length ? `<p class="chu-phu nho" style="margin:12px 0 6px">Nghe trong từ (chữ tô đậm chứa âm này):</p>
+      <div class="luoi-vd-am">${vdTu.map((v) => `
+        <button class="o-vd-am" data-doc="${esc(v.h)}"><span class="han">${[...v.h].map((c, i) => (i === v.i ? `<b class="chu-khop">${esc(c)}</b>` : esc(c))).join('')}</span><span class="pinyin">${toMauPinyin(v.p)}</span></button>`).join('')}</div>` : ''}
+    ${x.vd.length ? `<p class="chu-phu nho" style="margin:12px 0 6px">${vdTu.length ? 'Chữ đơn:' : 'Chạm để nghe ví dụ:'}</p>
       <div class="luoi-vd-am">${x.vd.map((v) => `
         <button class="o-vd-am" data-doc="${esc(v.h)}"><span class="han">${esc(v.h)}</span><span class="pinyin">${toMauPinyin(v.p)}</span></button>`).join('')}</div>`
       : '<p class="chu-phu nho">Âm này ít gặp đứng riêng trong HSK 1–3 nên chưa có ví dụ nghe.</p>'}

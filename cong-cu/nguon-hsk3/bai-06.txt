@@ -38,7 +38,7 @@
 @电梯 | điện thê
 - 名 | thang máy
 > 我们坐电梯上去吧。 | Wǒmen zuò diàntī shàngqù ba. | Chúng mình đi thang máy lên đi.
-> 电梯坏了，我们只能走上去。 | Diàntī huài le, wǒmen zhǐ néng zǒu shàngqù. | Thang máy hỏng rồi, chúng ta đành đi bộ lên.
+> 电梯坏了，我们只能走上去。 | Diàntī huài le, wǒmen zhǐ néng zǒu shàngqu. | Thang máy hỏng rồi, chúng ta đành đi bộ lên.
 * 坐电梯 = đi thang máy. 电 (điện) + 梯 (thang).
 
 @耳机 | nhĩ cơ
@@ -96,7 +96,7 @@
 @检查 | kiểm tra
 - 动 | kiểm tra; khám (sức khỏe)
 > 上车以前要检查行李。 | Shàng chē yǐqián yào jiǎnchá xíngli. | Trước khi lên tàu phải kiểm tra hành lý.
-> 写完作业以后，再检查一下。 | Xiě wán zuòyè yǐhòu, zài jiǎnchá yíxià. | Làm xong bài tập rồi thì kiểm tra lại một lượt.
+> 写完作业以后，再检查一下。 | Xiěwán zuòyè yǐhòu, zài jiǎnchá yíxià. | Làm xong bài tập rồi thì kiểm tra lại một lượt.
 * Nghĩa giống tiếng Việt. 检查身体 = khám sức khỏe.
 
 @检票 | kiểm phiếu

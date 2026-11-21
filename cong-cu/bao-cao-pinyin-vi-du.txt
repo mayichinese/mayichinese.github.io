@@ -1,4 +1,4 @@
-Đã kiểm tra 625 câu ví dụ trong D:\Project\HocTieng\app\data\hsk1.json
+Đã kiểm tra 625 câu ví dụ trong D:\Project\MayiChinese\app\data\hsk1.json
 LỖI (pinyin không khớp chữ): 0
 SAI THANH (nên xem lại): 0
 

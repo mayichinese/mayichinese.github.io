@@ -204,16 +204,72 @@ if ung_vien:
     _, _, han, py = min(ung_vien)
     mau_thanh.append({'t': 0, 'h': han, 'p': py})
 
-am_dau = [{**x, 'vd': vi_du(lambda y, d=x['ma']: y['d'] == d)} for x in nguon['am-dau']]
-van = [{**x, 'vd': vi_du(lambda y, v=x['ma']: y['v'] == v)} for x in nguon['van']]
+# ---------- Ví dụ TỪ HAI CHỮ (máy đọc cả từ chuẩn hơn đọc chữ đứng riêng) ----------
+# Tách pinyin của từ hai chữ thành hai âm tiết hợp lệ (bảng âm tiết lấy từ ngân hàng + Unihan nếu có)
+am_hop_le = {x['g'] for x in ngan_hang}
+if UNIHAN.exists():
+    am_hop_le |= {bo_dau(a)[0] for a in doc_chuan.values()}
+
+
+def tach_hai_am(py):
+    py = py.replace("'", '').replace('’', '')
+    if not re.fullmatch(r'[^\s·]+', py) or py[0].isupper():
+        return None
+    cach = []
+    for k in range(1, len(py)):
+        a, b = bo_dau(py[:k]), bo_dau(py[k:])
+        if a[0] in am_hop_le and b[0] in am_hop_le:
+            cach.append((py[:k], py[k:]))
+    return cach[0] if len(cach) == 1 else None
+
+
+tu_hai = []   # {h, p, am: [(dau, van), …]}
+da_tu = set()
+for cap, han, py, nghia in cac_tu:
+    if len(han) != 2 or han in da_tu or han[0] == han[1] or set(han) & {'不', '一'}:
+        continue   # bỏ từ có 不 / 一 (pinyin ghi biến điệu, dễ rối khi học âm)
+    hai = tach_hai_am(py)
+    if not hai:
+        continue
+    am = []
+    for mot in hai:
+        g, t = bo_dau(mot)
+        if not t:            # bỏ từ có thanh nhẹ (khó nghe rõ âm)
+            break
+        am.append(tach_am(g))
+    if len(am) != 2:
+        continue
+    da_tu.add(han)
+    tu_hai.append({'h': han, 'p': py, 'am': am, 'c': cap})
+
+
+def vi_du_tu(dk, toi_da=4):
+    """Từ hai chữ có âm tiết khớp điều kiện; ưu tiên HSK 1 và âm tiết khớp đứng đầu. i = vị trí âm tiết khớp"""
+    ds = []
+    for x in tu_hai:
+        for i, (d, v) in enumerate(x['am']):
+            if dk(d, v):
+                ds.append((x['c'], i, x['h'], x['p']))
+                break
+    ds.sort()
+    return [{'h': h, 'p': p, 'i': i} for c, i, h, p in ds[:toi_da]]
+
+
+am_dau = [{**x, 'vd': vi_du(lambda y, d=x['ma']: y['d'] == d),
+           'vdTu': vi_du_tu(lambda d, v, m=x['ma']: d == m)} for x in nguon['am-dau']]
+van = [{**x, 'vd': vi_du(lambda y, v=x['ma']: y['v'] == v),
+        'vdTu': vi_du_tu(lambda d, v, m=x['ma']: v == m and not (m == 'i' and d in ('z', 'c', 's', 'zh', 'ch', 'sh', 'r')))}
+       for x in nguon['van']]
 # Vần i: ví dụ đọc "i" thật lên trước, ví dụ đọc gần "ư" (sau z c s zh ch sh r) xuống sau
 for x in van:
     if x['ma'] == 'i':
         tach = lambda y: bo_dau(y['p'])[0].startswith(('z', 'c', 's', 'r'))
         x['vd'] = vi_du(lambda y: y['v'] == 'i' and not tach(y), 4) + vi_du(lambda y: y['v'] == 'i' and tach(y), 2)
 for x in am_dau + van:
-    if not x['vd']:
-        bao_cao.append(f"⚠️ Phiên âm '{x['ma']}': không có ví dụ nghe trong từ một chữ HSK 1–3")
+    if not x['vd'] and not x['vdTu']:
+        bao_cao.append(f"⚠️ Phiên âm '{x['ma']}': không có ví dụ nghe trong HSK 1–3")
+    elif not x['vdTu']:
+        bao_cao.append(f"⚠️ Phiên âm '{x['ma']}': không có từ hai chữ làm ví dụ")
 
 # ---------- Nét cơ bản ----------
 net_du_lieu = {}
@@ -281,6 +337,7 @@ for dong in (NGUON / 'bo-thu.txt').read_text(encoding='utf8').splitlines():
 ra = {
     '_ghiChu': 'File tạo tự động bởi cong-cu/tao-nen-tang.py – không sửa tay. Nguồn: cong-cu/nguon-nen-tang/.',
     'phienAm': {'thanh': thanh, 'mauThanh': mau_thanh, 'amDau': am_dau, 'van': van,
+                'luuY': [{'ten': x['ma'], 'noi': x['meo']} for x in nguon.get('luu-y', [])],
                 'nganHang': [{k: x[k] for k in ('h', 'p', 'd', 'v', 't')} for x in ngan_hang]},
     'net': net,
     'quyTac': quy_tac,
@@ -290,6 +347,7 @@ FILE_RA.write_text(json.dumps(ra, ensure_ascii=False, separators=(',', ':')), en
 bao_cao[:0] = [
     f'Ngân hàng âm tiết nghe: {len(ngan_hang)} (từ một chữ HSK 1–3, bỏ chữ đa âm)',
     f'Bảng mẫu thanh: âm "{goc_mau}" – ' + ', '.join(f"{x['p']}" for x in mau_thanh),
+    f'Từ hai chữ làm ví dụ nghe: {len(tu_hai)}',
     f'Âm đầu: {len(am_dau)} · vần: {len(van)} · nét: {len(net)} · quy tắc: {len(quy_tac)} · bộ thủ: {len(bo_thu)}',
     *[f"  bộ {b['bo']} ({b['hv']}): {b['soChu']} chữ" for b in bo_thu],
 ]

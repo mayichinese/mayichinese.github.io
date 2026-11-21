@@ -55,11 +55,11 @@
 ! Chọn 来 hay 去 theo chỗ người nói: ở trong nhà gọi người bên ngoài thì dùng 进来, không dùng 进去.
 > 外面/冷，/快/进来/吧！ | Wàimiàn lěng, kuài jìnlái ba! | Ngoài trời lạnh, mau vào đi!
 > 他/回/家/去/了。 | Tā huí jiā qù le. | Anh ấy về nhà rồi.
-> 老师/走/进/教室/了。 | Lǎoshī zǒu jìn jiàoshì le. | Thầy giáo đi vào lớp rồi.
-> 请/大家/坐/下。 | Qǐng dàjiā zuò xià. | Mời mọi người ngồi xuống.
+> 老师/走/进/教室/了。 | Lǎoshī zǒujìn jiàoshì le. | Thầy giáo đi vào lớp rồi.
+> 请/大家/坐/下。 | Qǐng dàjiā zuòxià. | Mời mọi người ngồi xuống.
 ~ 大家/请/坐/下。
 ? 我在上面，你上___吧。 | 来 | 去; 了; 过 | Wǒ zài shàngmiàn, nǐ shànglái ba. | Tôi ở trên này, bạn lên đây đi.
-? 爷爷走___来了。 | 进 | 在; 是; 很 | Yéye zǒu jìnlái le. | Ông nội đi vào rồi.
+? 爷爷走___来了。 | 进 | 在; 是; 很 | Yéye zǒu jìnlai le. | Ông nội đi vào rồi.
 ? 妈妈回家___了。 | 来 | 过; 着; 很 | Māma huí jiā lái le. | Mẹ về nhà rồi.
 
 ## dou-le

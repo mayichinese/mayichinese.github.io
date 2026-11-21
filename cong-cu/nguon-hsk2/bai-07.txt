@@ -10,12 +10,13 @@
 > 每天运动一个小时，身体会很好。 | Měi tiān yùndòng yí ge xiǎoshí, shēntǐ huì hěn hǎo. | Mỗi ngày vận động một tiếng, sức khỏe sẽ rất tốt.
 * Khác “vận động” (kêu gọi, vận động ai làm gì) trong tiếng Việt: 运动 là chơi thể thao, tập luyện.
 
-@爱好 | ái hảo
+@爱好 | ái hiếu
 - 名 | sở thích
 > 你的爱好是什么？ | Nǐ de àihào shì shénme? | Sở thích của bạn là gì?
 - 动 | thích, ham thích
 > 他从小就爱好运动。 | Tā cóngxiǎo jiù àihào yùndòng. | Từ nhỏ anh ấy đã thích thể thao.
 * Hỏi sở thích: 你有什么爱好？
+* Dễ đọc nhầm: 好 ở đây đọc hào (thích), không phải hǎo; vì vậy Hán Việt là “ái hiếu”.
 
 @球 | cầu
 - 名 | quả bóng; môn bóng
@@ -61,7 +62,7 @@
 @游 | du
 - 动 | bơi
 > 他游得很快。 | Tā yóu de hěn kuài. | Anh ấy bơi rất nhanh.
-> 我们游过去吧。 | Wǒmen yóu guòqù ba. | Chúng mình bơi qua đó đi.
+> 我们游过去吧。 | Wǒmen yóu guòqu ba. | Chúng mình bơi qua đó đi.
 * Thường dùng 游泳; 游 đứng một mình khi có từ bổ sung phía sau: 游得快, 游过去.
 
 @游泳 | du vịnh

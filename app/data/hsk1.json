@@ -15,7 +15,7 @@
      "tuLoaiChinhThuc": "",
      "soThuTu": 147,
      "daSoan": true,
-     "hanViet": "nễ hảo",
+     "hanViet": "nhĩ hảo",
      "nghia": [
       {
        "tuLoai": "cụm",
@@ -37,12 +37,7 @@
       }
      ],
      "ghiChu": [],
-     "canKiemTra": [
-      {
-       "truong": "hanViet",
-       "lyDo": "mình ghi “nễ”, Hanzii ghi “nhĩ hảo” — chọn một cách đọc"
-      }
-     ]
+     "canKiemTra": []
     },
     {
      "dangGoc": "你",
@@ -51,7 +46,7 @@
      "tuLoaiChinhThuc": "代",
      "soThuTu": 146,
      "daSoan": true,
-     "hanViet": "nễ",
+     "hanViet": "nhĩ",
      "nghia": [
       {
        "tuLoai": "代",
@@ -73,12 +68,7 @@
       }
      ],
      "ghiChu": [],
-     "canKiemTra": [
-      {
-       "truong": "hanViet",
-       "lyDo": "mình ghi “nễ”, Hanzii ghi “nhĩ” — chọn một cách đọc"
-      }
-     ]
+     "canKiemTra": []
     },
     {
      "dangGoc": "我",
@@ -624,7 +614,7 @@
      "tuLoaiChinhThuc": "代",
      "soThuTu": 148,
      "daSoan": true,
-     "hanViet": "nễ môn",
+     "hanViet": "nhĩ môn",
      "nghia": [
       {
        "tuLoai": "代",
@@ -646,12 +636,7 @@
       }
      ],
      "ghiChu": [],
-     "canKiemTra": [
-      {
-       "truong": "hanViet",
-       "lyDo": "mình ghi “nễ”, Hanzii ghi “nhĩ môn” — chọn một cách đọc"
-      }
-     ]
+     "canKiemTra": []
     },
     {
      "dangGoc": "他们",
@@ -1546,7 +1531,7 @@
       },
       {
        "han": "我学了三个月汉语。",
-       "pinyin": "Wǒ xuéle sān gè yuè Hànyǔ.",
+       "pinyin": "Wǒ xué le sān gè yuè Hànyǔ.",
        "dich": "Tôi đã học tiếng Trung ba tháng.",
        "nghiaSo": 0
       }
@@ -1577,7 +1562,7 @@
       },
       {
        "han": "我买了四个苹果。",
-       "pinyin": "Wǒ mǎile sì gè píngguǒ.",
+       "pinyin": "Wǒ mǎi le sì gè píngguǒ.",
        "dich": "Tôi đã mua bốn quả táo.",
        "nghiaSo": 0
       }
@@ -1955,7 +1940,7 @@
      "tuLoaiChinhThuc": "名",
      "soThuTu": 3,
      "daSoan": true,
-     "hanViet": "bá bá",
+     "hanViet": "bả bả",
      "nghia": [
       {
        "tuLoai": "名",
@@ -1977,12 +1962,7 @@
       }
      ],
      "ghiChu": [],
-     "canKiemTra": [
-      {
-       "truong": "hanViet",
-       "lyDo": "mình ghi “bá”, Hanzii ghi “bả bả” — cần đối chiếu"
-      }
-     ]
+     "canKiemTra": []
     },
     {
      "dangGoc": "妈妈",
@@ -2806,7 +2786,7 @@
       },
       {
        "han": "今天多了一个学生。",
-       "pinyin": "Jīntiān duōle yí gè xuéshēng.",
+       "pinyin": "Jīntiān duō le yí gè xuéshēng.",
        "dich": "Hôm nay có thêm một học sinh.",
        "nghiaSo": 1
       },
@@ -3375,7 +3355,7 @@
      "viDu": [
       {
        "han": "我买了两本书。",
-       "pinyin": "Wǒ mǎile liǎng běn shū.",
+       "pinyin": "Wǒ mǎi le liǎng běn shū.",
        "dich": "Tôi đã mua hai quyển sách.",
        "nghiaSo": 0
       },
@@ -4388,7 +4368,7 @@
      "viDu": [
       {
        "han": "我买了些水果。",
-       "pinyin": "Wǒ mǎile xiē shuǐguǒ.",
+       "pinyin": "Wǒ mǎi le xiē shuǐguǒ.",
        "dich": "Tôi đã mua ít hoa quả.",
        "nghiaSo": 0
       }
@@ -4683,7 +4663,7 @@
       },
       {
        "han": "三天前我去了医院。",
-       "pinyin": "Sān tiān qián wǒ qùle yīyuàn.",
+       "pinyin": "Sān tiān qián wǒ qù le yīyuàn.",
        "dich": "Ba ngày trước tôi đã đi bệnh viện.",
        "nghiaSo": 0
       }
@@ -5143,7 +5123,7 @@
       },
       {
        "han": "我在中国住了三天。",
-       "pinyin": "Wǒ zài Zhōngguó zhùle sān tiān.",
+       "pinyin": "Wǒ zài Zhōngguó zhù le sān tiān.",
        "dich": "Tôi đã ở Trung Quốc ba ngày.",
        "nghiaSo": 1
       },
@@ -5238,7 +5218,7 @@
      "viDu": [
       {
        "han": "我去年去了中国。",
-       "pinyin": "Wǒ qùnián qùle Zhōngguó.",
+       "pinyin": "Wǒ qùnián qù le Zhōngguó.",
        "dich": "Năm ngoái tôi đã đi Trung Quốc.",
        "nghiaSo": 0
       },
@@ -5281,7 +5261,7 @@
       },
       {
        "han": "我学了两年汉语。",
-       "pinyin": "Wǒ xuéle liǎng nián Hànyǔ.",
+       "pinyin": "Wǒ xué le liǎng nián Hànyǔ.",
        "dich": "Tôi đã học tiếng Trung hai năm.",
        "nghiaSo": 1
       }
@@ -5515,7 +5495,7 @@
       },
       {
        "han": "第二天他去了医院。",
-       "pinyin": "Dì-èr tiān tā qùle yīyuàn.",
+       "pinyin": "Dì-èr tiān tā qù le yīyuàn.",
        "dich": "Ngày hôm sau anh ấy đã đi bệnh viện.",
        "nghiaSo": 0
       }
@@ -5587,7 +5567,7 @@
       },
       {
        "han": "我在中国的时候，学了很多汉语。",
-       "pinyin": "Wǒ zài Zhōngguó de shíhou, xuéle hěn duō Hànyǔ.",
+       "pinyin": "Wǒ zài Zhōngguó de shíhou, xué le hěn duō Hànyǔ.",
        "dich": "Lúc ở Trung Quốc, tôi đã học được nhiều tiếng Trung.",
        "nghiaSo": 0
       }
@@ -5721,7 +5701,7 @@
       },
       {
        "han": "他看了二十分钟书。",
-       "pinyin": "Tā kànle èrshí fēnzhōng shū.",
+       "pinyin": "Tā kàn le èrshí fēnzhōng shū.",
        "dich": "Anh ấy đọc sách hai mươi phút.",
        "nghiaSo": 0
       }
@@ -5746,7 +5726,7 @@
      "viDu": [
       {
        "han": "我学习了两个小时。",
-       "pinyin": "Wǒ xuéxíle liǎng gè xiǎoshí.",
+       "pinyin": "Wǒ xuéxí le liǎng gè xiǎoshí.",
        "dich": "Tôi đã học hai tiếng.",
        "nghiaSo": 0
       },
@@ -5785,7 +5765,7 @@
       },
       {
        "han": "我学了半年汉语。",
-       "pinyin": "Wǒ xuéle bàn nián Hànyǔ.",
+       "pinyin": "Wǒ xué le bàn nián Hànyǔ.",
        "dich": "Tôi đã học tiếng Trung nửa năm.",
        "nghiaSo": 0
       }
@@ -6075,13 +6055,13 @@
      "viDu": [
       {
        "han": "你睡了吗？",
-       "pinyin": "Nǐ shuìle ma?",
+       "pinyin": "Nǐ shuì le ma?",
        "dich": "Bạn ngủ chưa?",
        "nghiaSo": 0
       },
       {
        "han": "我昨天睡了八个小时。",
-       "pinyin": "Wǒ zuótiān shuìle bā gè xiǎoshí.",
+       "pinyin": "Wǒ zuótiān shuì le bā gè xiǎoshí.",
        "dich": "Hôm qua tôi ngủ tám tiếng.",
        "nghiaSo": 0
       }
@@ -6237,7 +6217,7 @@
      "viDu": [
       {
        "han": "我买了一本书。",
-       "pinyin": "Wǒ mǎile yì běn shū.",
+       "pinyin": "Wǒ mǎi le yì běn shū.",
        "dich": "Tôi đã mua một quyển sách.",
        "nghiaSo": 0
       },
@@ -6532,7 +6512,7 @@
      "tuLoaiChinhThuc": "动",
      "soThuTu": 21,
      "daSoan": true,
-     "hanViet": "ngật",
+     "hanViet": "cật",
      "nghia": [
       {
        "tuLoai": "动",
@@ -6813,7 +6793,7 @@
      "tuLoaiChinhThuc": "形",
      "soThuTu": 72,
      "daSoan": true,
-     "hanViet": "hảo ngật",
+     "hanViet": "hảo cật",
      "nghia": [
       {
        "tuLoai": "形",
@@ -6895,7 +6875,7 @@
       },
       {
        "han": "我早饭吃了两个包子。",
-       "pinyin": "Wǒ zǎofàn chīle liǎng gè bāozi.",
+       "pinyin": "Wǒ zǎofàn chī le liǎng gè bāozi.",
        "dich": "Bữa sáng tôi ăn hai cái bánh bao.",
        "nghiaSo": 0
       }
@@ -7035,12 +7015,7 @@
      "ghiChu": [
       "面 ở đây là chữ giản thể của 麵 (bột mì) nên âm Hán Việt là “miến”, khác 面 (mặt) đọc là “diện”."
      ],
-     "canKiemTra": [
-      {
-       "truong": "hanViet",
-       "lyDo": "面 ở đây = 麵 nên mình ghi “miến”; Hanzii ghi “miến bao” cho 面包 nhưng “diện điều nhi” cho 面条儿 — cần đối chiếu thêm"
-      }
-     ]
+     "canKiemTra": []
     },
     {
      "dangGoc": "面包",
@@ -7154,7 +7129,7 @@
      "viDu": [
       {
        "han": "我早饭吃了一个鸡蛋。",
-       "pinyin": "Wǒ zǎofàn chīle yí gè jīdàn.",
+       "pinyin": "Wǒ zǎofàn chī le yí gè jīdàn.",
        "dich": "Bữa sáng tôi đã ăn một quả trứng gà.",
        "nghiaSo": 0
       },
@@ -7222,7 +7197,7 @@
       },
       {
        "han": "他买了五个苹果。",
-       "pinyin": "Tā mǎile wǔ gè píngguǒ.",
+       "pinyin": "Tā mǎi le wǔ gè píngguǒ.",
        "dich": "Anh ấy đã mua năm quả táo.",
        "nghiaSo": 0
       }
@@ -7634,7 +7609,7 @@
       },
       {
        "han": "我吃了一块面包。",
-       "pinyin": "Wǒ chīle yí kuài miànbāo.",
+       "pinyin": "Wǒ chī le yí kuài miànbāo.",
        "dich": "Tôi đã ăn một miếng bánh mì.",
        "nghiaSo": 0
       }
@@ -7948,7 +7923,7 @@
      "viDu": [
       {
        "han": "我买了两件衣服。",
-       "pinyin": "Wǒ mǎile liǎng jiàn yīfu.",
+       "pinyin": "Wǒ mǎi le liǎng jiàn yīfu.",
        "dich": "Tôi đã mua hai cái áo.",
        "nghiaSo": 0
       },
@@ -7979,7 +7954,7 @@
      "viDu": [
       {
        "han": "她穿了一件新衣服。",
-       "pinyin": "Tā chuānle yí jiàn xīn yīfu.",
+       "pinyin": "Tā chuān le yí jiàn xīn yīfu.",
        "dich": "Cô ấy mặc một cái áo mới.",
        "nghiaSo": 0
       },
@@ -8383,7 +8358,7 @@
      "viDu": [
       {
        "han": "妈妈给了我一百块钱。",
-       "pinyin": "Māma gěile wǒ yìbǎi kuài qián.",
+       "pinyin": "Māma gěi le wǒ yìbǎi kuài qián.",
        "dich": "Mẹ cho tôi một trăm đồng.",
        "nghiaSo": 0
       },
@@ -8515,7 +8490,7 @@
       },
       {
        "han": "我的书少了一本。",
-       "pinyin": "Wǒ de shū shǎole yì běn.",
+       "pinyin": "Wǒ de shū shǎo le yì běn.",
        "dich": "Sách của tôi bị mất một quyển.",
        "nghiaSo": 1
       }
@@ -8572,7 +8547,7 @@
       },
       {
        "han": "妈妈病了三天。",
-       "pinyin": "Māma bìngle sān tiān.",
+       "pinyin": "Māma bìng le sān tiān.",
        "dich": "Mẹ ốm ba ngày rồi.",
        "nghiaSo": 1
       }
@@ -8700,7 +8675,7 @@
       },
       {
        "han": "他在医院住了一个星期。",
-       "pinyin": "Tā zài yīyuàn zhùle yí gè xīngqī.",
+       "pinyin": "Tā zài yīyuàn zhù le yí gè xīngqī.",
        "dich": "Anh ấy nằm viện một tuần.",
        "nghiaSo": 0
       }
@@ -9606,7 +9581,7 @@
       },
       {
        "han": "今天我工作了十个小时。",
-       "pinyin": "Jīntiān wǒ gōngzuòle shí gè xiǎoshí.",
+       "pinyin": "Jīntiān wǒ gōngzuò le shí gè xiǎoshí.",
        "dich": "Hôm nay tôi đã làm việc mười tiếng.",
        "nghiaSo": 0
       },
@@ -9764,7 +9739,7 @@
       },
       {
        "han": "他忙了一天。",
-       "pinyin": "Tā mángle yì tiān.",
+       "pinyin": "Tā máng le yì tiān.",
        "dich": "Anh ấy bận cả ngày.",
        "nghiaSo": 1
       }

@@ -21,12 +21,12 @@ D 你在卫生间里做什么呢？这么长时间。 | Nǐ zài wèishēngjiān
 
 ## 搬家 | 📦 | nhacua
 D 这几天你怎么这么忙？ | Zhè jǐ tiān nǐ zěnme zhème máng? | 我下个星期要搬家，东西太多了。 | Wǒ xià ge xīngqī yào bānjiā, dōngxi tài duō le. | – Mấy hôm nay sao bạn bận thế? – Tuần sau tôi chuyển nhà, đồ đạc nhiều quá.
-D 你找到新房子了吗？离公司远不远？ | Nǐ zhǎo dào xīn fángzi le ma? Lí gōngsī yuǎn bu yuǎn? | 找到了，很近，我打算下个月就搬家。 | Zhǎo dào le, hěn jìn, wǒ dǎsuàn xià ge yuè jiù bānjiā. | – Bạn tìm được nhà mới chưa? Có xa công ty không? – Tìm được rồi, rất gần, tôi định tháng sau chuyển nhà luôn.
+D 你找到新房子了吗？离公司远不远？ | Nǐ zhǎodào xīn fángzi le ma? Lí gōngsī yuǎn bu yuǎn? | 找到了，很近，我打算下个月就搬家。 | Zhǎodào le, hěn jìn, wǒ dǎsuàn xià ge yuè jiù bānjiā. | – Bạn tìm được nhà mới chưa? Có xa công ty không? – Tìm được rồi, rất gần, tôi định tháng sau chuyển nhà luôn.
 C 搬家 | 他们/正在/帮邻居/搬家。 | Tāmen zhèngzài bāng línjū bānjiā. | Họ đang giúp hàng xóm chuyển nhà.
 
 ## 沙发 | 🛋️ | nhacua
 D 这个沙发是新买的吗？颜色真不错。 | Zhège shāfā shì xīn mǎi de ma? Yánsè zhēn búcuò. | 是啊，坐上去特别舒服，你也来试试。 | Shì a, zuò shàngqu tèbié shūfu, nǐ yě lái shìshi. | – Cái ghế sofa này mới mua à? Màu đẹp thật. – Ừ, ngồi lên rất êm, bạn cũng thử đi.
-D 爸爸呢？我有事想问他。 | Bàba ne? Wǒ yǒu shì xiǎng wèn tā. | 他吃完饭就在沙发上睡着了，你别叫他。 | Tā chī wán fàn jiù zài shāfā shang shuìzháo le, nǐ bié jiào tā. | – Bố đâu rồi? Con có việc muốn hỏi bố. – Bố ăn cơm xong là ngủ quên trên sofa rồi, con đừng gọi bố.
+D 爸爸呢？我有事想问他。 | Bàba ne? Wǒ yǒu shì xiǎng wèn tā. | 他吃完饭就在沙发上睡着了，你别叫他。 | Tā chīwán fàn jiù zài shāfā shang shuìzháo le, nǐ bié jiào tā. | – Bố đâu rồi? Con có việc muốn hỏi bố. – Bố ăn cơm xong là ngủ quên trên sofa rồi, con đừng gọi bố.
 
 ## 筷子 | 🥢 | anuong
 D 你来中国以前就会用筷子吃饭吗？ | Nǐ lái Zhōngguó yǐqián jiù huì yòng kuàizi chī fàn ma? | 刚来的时候不会，现在用得很好了。 | Gāng lái de shíhou bú huì, xiànzài yòng de hěn hǎo le. | – Trước khi sang Trung Quốc bạn đã biết dùng đũa ăn cơm chưa? – Lúc mới đến thì chưa, giờ dùng giỏi rồi.
@@ -35,7 +35,7 @@ C 筷子 | 小李/还/不太会/用筷子。 | Xiǎo Lǐ hái bú tài huì yòn
 
 ## 蛋糕 | 🍰 | anuong
 D 这个蛋糕是你自己做的吗？看起来真不错。 | Zhège dàngāo shì nǐ zìjǐ zuò de ma? Kàn qǐlai zhēn búcuò. | 对，我第一次做，你尝一下吧。 | Duì, wǒ dì yī cì zuò, nǐ cháng yíxià ba. | – Cái bánh ngọt này bạn tự làm à? Trông ngon thật. – Ừ, lần đầu tôi làm, bạn nếm thử đi.
-D 我有点儿饿了，家里有吃的吗？ | Wǒ yǒudiǎnr è le, jiā li yǒu chī de ma? | 桌子上还有半块蛋糕，你拿去吃吧。 | Zhuōzi shang hái yǒu bàn kuài dàngāo, nǐ ná qù chī ba. | – Con hơi đói, nhà có gì ăn không? – Trên bàn còn nửa miếng bánh ngọt, con lấy ăn đi.
+D 我有点儿饿了，家里有吃的吗？ | Wǒ yǒudiǎnr è le, jiā li yǒu chī de ma? | 桌子上还有半块蛋糕，你拿去吃吧。 | Zhuōzi shang hái yǒu bàn kuài dàngāo, nǐ náqu chī ba. | – Con hơi đói, nhà có gì ăn không? – Trên bàn còn nửa miếng bánh ngọt, con lấy ăn đi.
 
 ## 西瓜 | 🍉 | anuong
 D 老板，这个西瓜多少钱一斤？ | Lǎobǎn, zhège xīguā duōshao qián yì jīn? | 两块五一斤，又大又甜，您买一个吧。 | Liǎng kuài wǔ yì jīn, yòu dà yòu tián, nín mǎi yí ge ba. | – Ông chủ, quả dưa hấu này bao nhiêu tiền một cân? – Hai tệ rưỡi một cân, vừa to vừa ngọt, chị mua một quả đi.
@@ -44,7 +44,7 @@ C 西瓜 | 妈妈/从超市/买回来/一个大西瓜。 | Māma cóng chāoshì
 
 ## 信用卡,银行卡 | 💳 | muasam
 D 您好，一共三百八十块。 | Nín hǎo, yígòng sānbǎi bāshí kuài. | 我没带那么多钱，可以用信用卡吗？ | Wǒ méi dài nàme duō qián, kěyǐ yòng xìnyòngkǎ ma? | – Chào anh, tổng cộng ba trăm tám mươi tệ. – Tôi không mang nhiều tiền thế, dùng thẻ tín dụng được không?
-D 你的银行卡找到了吗？ | Nǐ de yínhángkǎ zhǎo dào le ma? | 还没有，我得马上给银行打个电话。 | Hái méiyǒu, wǒ děi mǎshàng gěi yínháng dǎ ge diànhuà. | – Bạn tìm thấy thẻ ngân hàng chưa? – Chưa, tôi phải gọi điện cho ngân hàng ngay.
+D 你的银行卡找到了吗？ | Nǐ de yínhángkǎ zhǎodào le ma? | 还没有，我得马上给银行打个电话。 | Hái méiyǒu, wǒ děi mǎshàng gěi yínháng dǎ ge diànhuà. | – Bạn tìm thấy thẻ ngân hàng chưa? – Chưa, tôi phải gọi điện cho ngân hàng ngay.
 C 信用卡 | 他/用信用卡/买了/一件/新衬衫。 | Tā yòng xìnyòngkǎ mǎi le yí jiàn xīn chènshān. | Anh ấy dùng thẻ tín dụng mua một chiếc áo sơ mi mới.
 
 ## 裙子 | 👗 | muasam
@@ -53,8 +53,8 @@ D 你穿这条裙子真好看，在哪儿买的？ | Nǐ chuān zhè tiáo qúnz
 C 合适 | 她买的/那条裙子/大小/很合适。 | Tā mǎi de nà tiáo qúnzi dàxiǎo hěn héshì. | Chiếc váy cô ấy mua vừa cỡ lắm.
 
 ## 作业 | 📝 | hoctap
-D 已经十一点了，你怎么还不睡觉？ | Yǐjīng shíyī diǎn le, nǐ zěnme hái bú shuìjiào? | 明天要交的作业我还没写完呢。 | Míngtiān yào jiāo de zuòyè wǒ hái méi xiě wán ne. | – Đã mười một giờ rồi, sao con còn chưa ngủ? – Bài tập phải nộp ngày mai con vẫn chưa viết xong.
-D 今天的数学作业你做完了吗？ | Jīntiān de shùxué zuòyè nǐ zuò wán le ma? | 还差两道题，有一道我怎么也不会做。 | Hái chà liǎng dào tí, yǒu yí dào wǒ zěnme yě bú huì zuò. | – Bài tập toán hôm nay bạn làm xong chưa? – Còn hai bài nữa, có một bài tôi làm thế nào cũng không ra.
+D 已经十一点了，你怎么还不睡觉？ | Yǐjīng shíyī diǎn le, nǐ zěnme hái bú shuìjiào? | 明天要交的作业我还没写完呢。 | Míngtiān yào jiāo de zuòyè wǒ hái méi xiěwán ne. | – Đã mười một giờ rồi, sao con còn chưa ngủ? – Bài tập phải nộp ngày mai con vẫn chưa viết xong.
+D 今天的数学作业你做完了吗？ | Jīntiān de shùxué zuòyè nǐ zuòwán le ma? | 还差两道题，有一道我怎么也不会做。 | Hái chà liǎng dào tí, yǒu yí dào wǒ zěnme yě bú huì zuò. | – Bài tập toán hôm nay bạn làm xong chưa? – Còn hai bài nữa, có một bài tôi làm thế nào cũng không ra.
 C 认真 | 他/正在/认真地/写/作业。 | Tā zhèngzài rènzhēn de xiě zuòyè. | Cậu ấy đang chăm chú làm bài tập.
 
 ## 词典,字典 | 📖 | hoctap
@@ -67,7 +67,7 @@ D 孩子昨天晚上发烧了，今天不能去上学。 | Háizi zuótiān wǎn
 
 ## 牙,刷牙 | 🦷 | suckhoe
 D 你怎么不吃了？这些菜不好吃吗？ | Nǐ zěnme bù chī le? Zhèxiē cài bù hǎochī ma? | 不是，这两天我牙疼，一吃东西就疼。 | Bú shì, zhè liǎng tiān wǒ yá téng, yì chī dōngxi jiù téng. | – Sao bạn không ăn nữa? Mấy món này không ngon à? – Không phải, hai hôm nay tôi đau răng, cứ ăn là đau.
-D 睡觉以前别忘了刷牙，知道吗？ | Shuìjiào yǐqián bié wàng le shuāyá, zhīdào ma? | 知道了，我洗完脸就去刷牙。 | Zhīdào le, wǒ xǐ wán liǎn jiù qù shuāyá. | – Trước khi ngủ đừng quên đánh răng, biết chưa? – Con biết rồi, con rửa mặt xong là đi đánh răng.
+D 睡觉以前别忘了刷牙，知道吗？ | Shuìjiào yǐqián bié wàng le shuāyá, zhīdào ma? | 知道了，我洗完脸就去刷牙。 | Zhīdào le, wǒ xǐwán liǎn jiù qù shuāyá. | – Trước khi ngủ đừng quên đánh răng, biết chưa? – Con biết rồi, con rửa mặt xong là đi đánh răng.
 C 检查 | 医生/正在/给他/检查/牙。 | Yīshēng zhèngzài gěi tā jiǎnchá yá. | Bác sĩ đang khám răng cho anh ấy.
 
 ## 电脑 | 💻 | dienthoai
@@ -77,4 +77,4 @@ C 邮件 | 他/正在/用电脑/给经理发邮件。 | Tā zhèngzài yòng di�
 
 ## 手机 | 📱 | dienthoai
 D 你怎么一直不接我的电话？ | Nǐ zěnme yìzhí bù jiē wǒ de diànhuà? | 对不起，我的手机没电了，刚才关机了。 | Duìbuqǐ, wǒ de shǒujī méi diàn le, gāngcái guānjī le. | – Sao bạn cứ không nghe máy của tôi vậy? – Xin lỗi, điện thoại tôi hết pin, lúc nãy tắt máy rồi.
-D 你别总看手机了，对眼睛不好。 | Nǐ bié zǒng kàn shǒujī le, duì yǎnjing bù hǎo. | 好，我看完这条新闻就不看了。 | Hǎo, wǒ kàn wán zhè tiáo xīnwén jiù bú kàn le. | – Con đừng lúc nào cũng xem điện thoại, hại mắt lắm. – Vâng, con đọc xong tin này thì thôi.
+D 你别总看手机了，对眼睛不好。 | Nǐ bié zǒng kàn shǒujī le, duì yǎnjing bù hǎo. | 好，我看完这条新闻就不看了。 | Hǎo, wǒ kànwán zhè tiáo xīnwén jiù bú kàn le. | – Con đừng lúc nào cũng xem điện thoại, hại mắt lắm. – Vâng, con đọc xong tin này thì thôi.

@@ -50,13 +50,13 @@
 - Nơi chốn đứng trước 来 / 去: 走进教室来, 跑回家去.
 ! Nơi chốn không đứng sau 来 / 去: nói 走进教室来, không nói 走进来教室.
 ! Thứ tự luôn là 进 / 出 / 上… rồi mới đến 来 / 去: nói 走进来, không nói 走来进.
-> 老师/走/进来/了。 | Lǎoshī zǒu jìnlái le. | Thầy giáo đi vào rồi.
-> 孩子们/跑/出去/玩儿/了。 | Háizimen pǎo chūqù wánr le. | Bọn trẻ chạy ra ngoài chơi rồi.
-> 他/从/椅子/上/站/起来/了。 | Tā cóng yǐzi shang zhàn qǐlái le. | Anh ấy đứng dậy khỏi ghế.
-> 他/从/书包/里/拿/出来/一/本/书。 | Tā cóng shūbāo li ná chūlái yì běn shū. | Anh ấy lấy ra một cuốn sách từ trong cặp.
-? 他跑进教室___了。 | 来 | 得; 过; 着 | Tā pǎo jìn jiàoshì lái le. | Anh ấy chạy vào lớp.
-? 外面太冷了，你快跑进___吧。 | 来 | 过; 着; 得 | Wàimiàn tài lěng le, nǐ kuài pǎo jìnlái ba. | Ngoài trời lạnh lắm, bạn mau chạy vào đây đi.
-? 他拿___来一本书。 | 出 | 是; 在; 很 | Tā ná chūlái yì běn shū. | Anh ấy lấy ra một cuốn sách.
+> 老师/走/进来/了。 | Lǎoshī zǒu jìnlai le. | Thầy giáo đi vào rồi.
+> 孩子们/跑/出去/玩儿/了。 | Háizimen pǎo chūqu wánr le. | Bọn trẻ chạy ra ngoài chơi rồi.
+> 他/从/椅子/上/站/起来/了。 | Tā cóng yǐzi shang zhàn qǐlai le. | Anh ấy đứng dậy khỏi ghế.
+> 他/从/书包/里/拿/出来/一/本/书。 | Tā cóng shūbāo li ná chūlai yì běn shū. | Anh ấy lấy ra một cuốn sách từ trong cặp.
+? 他跑进教室___了。 | 来 | 得; 过; 着 | Tā pǎojìn jiàoshì lái le. | Anh ấy chạy vào lớp.
+? 外面太冷了，你快跑进___吧。 | 来 | 过; 着; 得 | Wàimiàn tài lěng le, nǐ kuài pǎo jìnlai ba. | Ngoài trời lạnh lắm, bạn mau chạy vào đây đi.
+? 他拿___来一本书。 | 出 | 是; 在; 很 | Tā ná chūlai yì běn shū. | Anh ấy lấy ra một cuốn sách.
 
 ## bo-ngu-dong-luong
 @ Số lần làm việc gì: 去过两次, 见过他一次

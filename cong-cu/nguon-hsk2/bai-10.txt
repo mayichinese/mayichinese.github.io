@@ -53,8 +53,8 @@
 
 @错 | thác
 - 形 | sai
-> 你说错了。 | Nǐ shuō cuò le. | Bạn nói sai rồi.
-> 这个字写错了。 | Zhège zì xiě cuò le. | Chữ này viết sai rồi.
+> 你说错了。 | Nǐ shuōcuò le. | Bạn nói sai rồi.
+> 这个字写错了。 | Zhège zì xiěcuò le. | Chữ này viết sai rồi.
 * Trái nghĩa: 对 (đúng). Động từ + 错 = làm sai: 写错, 说错, 听错. 不错 = khá tốt (bài 3).
 
 @帮 | bang

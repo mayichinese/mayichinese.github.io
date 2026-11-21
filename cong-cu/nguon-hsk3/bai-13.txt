@@ -116,13 +116,13 @@
 @盘子 | bàn tử
 - 名 | cái đĩa
 > 桌子上放着几个盘子。 | Zhuōzi shang fàng zhe jǐ ge pánzi. | Trên bàn có để mấy cái đĩa.
-> 吃完饭，我来洗盘子。 | Chī wán fàn, wǒ lái xǐ pánzi. | Ăn xong, để tôi rửa đĩa.
+> 吃完饭，我来洗盘子。 | Chīwán fàn, wǒ lái xǐ pánzi. | Ăn xong, để tôi rửa đĩa.
 * 盘 (bàn) ở đây là cái đĩa, KHÔNG phải cái bàn (cái bàn là 桌子).
 
 @请客 | thỉnh khách
 - 动 | mời (ăn uống), đãi, bao
 > 今天我请客，大家别客气。 | Jīntiān wǒ qǐngkè, dàjiā bié kèqi. | Hôm nay tôi mời, mọi người đừng khách sáo.
-> 他找到了新工作，晚上要请客。 | Tā zhǎo dào le xīn gōngzuò, wǎnshang yào qǐngkè. | Anh ấy tìm được việc mới, tối nay sẽ khao.
+> 他找到了新工作，晚上要请客。 | Tā zhǎodào le xīn gōngzuò, wǎnshang yào qǐngkè. | Anh ấy tìm được việc mới, tối nay sẽ khao.
 * 请客 = người nói trả tiền. Muốn nói rõ mời ai: 请 + người + 吃饭 (请你吃饭).
 
 @晚会 | vãn hội

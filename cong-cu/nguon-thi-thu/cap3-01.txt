@@ -9,7 +9,7 @@
 #   - Chữ cần viết phải thuộc 250 chữ viết tay cấp 1–3 (có dữ liệu nét trong app).
 
 ### hd1
-Q 我们一会儿要去机场，你的护照带好了吗？ | Wǒmen yíhuìr yào qù jīchǎng, nǐ de hùzhào dài hǎo le ma?
+Q 我们一会儿要去机场，你的护照带好了吗？ | Wǒmen yíhuìr yào qù jīchǎng, nǐ de hùzhào dàihǎo le ma?
 A 放心吧，就在我的包里。 | Fàngxīn ba, jiù zài wǒ de bāo li.
 Q 坐高铁去上海比坐飞机方便多了。 | Zuò gāotiě qù Shànghǎi bǐ zuò fēijī fāngbiàn duō le.
 A 是啊，而且火车站离市中心很近。 | Shì a, érqiě huǒchēzhàn lí shì zhōngxīn hěn jìn.
@@ -24,7 +24,7 @@ A 那我们先去吃点儿东西吧。 | Nà wǒmen xiān qù chī diǎnr dōngx
 Q 这条裙子你穿着挺合适的。 | Zhè tiáo qúnzi nǐ chuān zhe tǐng héshì de.
 A 真的吗？那我就买这条吧。 | Zhēn de ma? Nà wǒ jiù mǎi zhè tiáo ba.
 Q 老板，这西瓜新鲜吗？ | Lǎobǎn, zhè xīguā xīnxiān ma?
-A 早上刚送来的，您尝尝。 | Zǎoshang gāng sòng lái de, nín chángchang.
+A 早上刚送来的，您尝尝。 | Zǎoshang gāng sònglai de, nín chángchang.
 Q 这双鞋我很喜欢，可是穿着有点儿小。 | Zhè shuāng xié wǒ hěn xǐhuan, kěshì chuān zhe yǒudiǎnr xiǎo.
 A 您试试这双大一点儿的。 | Nín shìshi zhè shuāng dà yìdiǎnr de.
 Q 我想买一个冰箱，你觉得哪种好？ | Wǒ xiǎng mǎi yí ge bīngxiāng, nǐ juéde nǎ zhǒng hǎo?
@@ -34,13 +34,13 @@ A 当然可以，用手机也行。 | Dāngrán kěyǐ, yòng shǒujī yě xíng
 
 ### hd3
 Q 你脸色不太好，是不是感冒了？ | Nǐ liǎnsè bú tài hǎo, shì bu shì gǎnmào le?
-A 有点儿发烧，昨天晚上没睡好。 | Yǒudiǎnr fāshāo, zuótiān wǎnshang méi shuì hǎo.
+A 有点儿发烧，昨天晚上没睡好。 | Yǒudiǎnr fāshāo, zuótiān wǎnshang méi shuìhǎo.
 Q 医生说我得在医院住一个星期。 | Yīshēng shuō wǒ děi zài yīyuàn zhù yí ge xīngqī.
 A 别担心，我们每天都来看你。 | Bié dānxīn, wǒmen měi tiān dōu lái kàn nǐ.
 Q 你每天都去锻炼身体吗？ | Nǐ měi tiān dōu qù duànliàn shēntǐ ma?
 A 差不多，我一般早上跑半个小时。 | Chàbuduō, wǒ yìbān zǎoshang pǎo bàn ge xiǎoshí.
 Q 我的脚突然很疼，走不了路了。 | Wǒ de jiǎo tūrán hěn téng, zǒu bu liǎo lù le.
-A 那你先坐下休息，别再走了。 | Nà nǐ xiān zuò xià xiūxi, bié zài zǒu le.
+A 那你先坐下休息，别再走了。 | Nà nǐ xiān zuòxià xiūxi, bié zài zǒu le.
 Q 这个药一天吃几次？ | Zhège yào yì tiān chī jǐ cì?
 A 早上一次，晚上一次，饭后吃。 | Zǎoshang yí cì, wǎnshang yí cì, fàn hòu chī.
 
@@ -66,7 +66,7 @@ A 别一个人想了，问问同事有什么办法。 | Bié yí ge rén xiǎng 
 Q 你在这家公司工作多长时间了？ | Nǐ zài zhè jiā gōngsī gōngzuò duō cháng shíjiān le?
 A 快五年了，时间过得真快。 | Kuài wǔ nián le, shíjiān guò de zhēn kuài.
 Q 小张，这封邮件你收到了没有？ | Xiǎo Zhāng, zhè fēng yóujiàn nǐ shōudào le méiyǒu?
-A 还没看到，可能是我的电脑出问题了。 | Hái méi kàn dào, kěnéng shì wǒ de diànnǎo chū wèntí le.
+A 还没看到，可能是我的电脑出问题了。 | Hái méi kàndào, kěnéng shì wǒ de diànnǎo chū wèntí le.
 
 ### hd6
 Q 外面刮大风了，好像快要下雨了。 | Wàimiàn guā dà fēng le, hǎoxiàng kuài yào xià yǔ le.
@@ -99,7 +99,7 @@ Q 我太饿了，中午一直忙，没时间吃饭。 | Wǒ tài è le, zhōngw�
 A 冰箱里有蛋糕，你先吃一点儿。 | Bīngxiāng li yǒu dàngāo, nǐ xiān chī yìdiǎnr.
 Q 周六晚上我请客，你能来吗？ | Zhōuliù wǎnshang wǒ qǐngkè, nǐ néng lái ma?
 A 太好了，我一定准时到。 | Tài hǎo le, wǒ yídìng zhǔnshí dào.
-Q 你来中国以后学会用筷子了吗？ | Nǐ lái Zhōngguó yǐhòu xué huì yòng kuàizi le ma?
+Q 你来中国以后学会用筷子了吗？ | Nǐ lái Zhōngguó yǐhòu xuéhuì yòng kuàizi le ma?
 A 会是会，但是还用得不太好。 | Huì shì huì, dànshì hái yòng de bú tài hǎo.
 Q 这家饭馆的鱼做得特别好吃。 | Zhè jiā fànguǎn de yú zuò de tèbié hǎochī.
 A 那下次带我妈妈来尝尝。 | Nà xià cì dài wǒ māma lái chángchang.
@@ -124,7 +124,7 @@ V 孩子找不到妈妈，急得（ ）了。 | Háizi zhǎo bu dào māma, jí 
 V 我常常去（ ）书馆借书。 | Wǒ chángcháng qù túshūguǎn jiè shū. | 图 | Tôi thường đến thư viện mượn sách.
 V 这是我送给你的生日（ ）物。 | Zhè shì wǒ sòng gěi nǐ de shēngrì lǐwù. | 礼 | Đây là quà sinh nhật tôi tặng bạn.
 V 我家后面有一条小（ ），夏天常有人在那儿游泳。 | Wǒ jiā hòumiàn yǒu yì tiáo xiǎo hé, xiàtiān cháng yǒu rén zài nàr yóuyǒng. | 河 | Sau nhà tôi có một con sông nhỏ, mùa hè hay có người bơi ở đó.
-V 我已经吃（ ）了，不能再吃了。 | Wǒ yǐjīng chī bǎo le, bù néng zài chī le. | 饱 | Tôi ăn no rồi, không ăn thêm được nữa.
+V 我已经吃（ ）了，不能再吃了。 | Wǒ yǐjīng chībǎo le, bù néng zài chī le. | 饱 | Tôi ăn no rồi, không ăn thêm được nữa.
 V 我爸爸每天早上都要喝一杯（ ）。 | Wǒ bàba měi tiān zǎoshang dōu yào hē yì bēi chá. | 茶 | Bố tôi sáng nào cũng phải uống một cốc trà.
 V 我们中（ ）十二点在饭馆门口见吧。 | Wǒmen zhōngwǔ shí'èr diǎn zài fànguǎn ménkǒu jiàn ba. | 午 | Chúng ta gặp nhau ở cửa nhà hàng lúc mười hai giờ trưa nhé.
 V 大熊猫很可（ ），大家都喜欢它。 | Dàxióngmāo hěn kě'ài, dàjiā dōu xǐhuan tā. | 爱 | Gấu trúc lớn rất đáng yêu, ai cũng thích nó.

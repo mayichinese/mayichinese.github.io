@@ -18,8 +18,8 @@
 
 @被 | bị
 - 介 | bị, được (câu bị động)
-> 我的自行车被人骑走了。 | Wǒ de zìxíngchē bèi rén qí zǒu le. | Xe đạp của tôi bị người ta đạp đi mất rồi.
-> 蛋糕被弟弟吃完了。 | Dàngāo bèi dìdi chī wán le. | Bánh ngọt bị em trai ăn hết rồi.
+> 我的自行车被人骑走了。 | Wǒ de zìxíngchē bèi rén qízǒu le. | Xe đạp của tôi bị người ta đạp đi mất rồi.
+> 蛋糕被弟弟吃完了。 | Dàngāo bèi dìdi chīwán le. | Bánh ngọt bị em trai ăn hết rồi.
 * Mẫu: A + 被 + B + động từ + 了/kết quả (A bị B làm gì). Sau động từ phải có thêm thành phần (了, 完, 走…), không để động từ trần.
 
 @表演 | biểu diễn
@@ -88,7 +88,7 @@
 
 @跳 | khiêu
 - 动 | nhảy
-> 小狗跳到了桌子上。 | Xiǎo gǒu tiào dào le zhuōzi shang. | Con chó nhỏ nhảy lên bàn.
+> 小狗跳到了桌子上。 | Xiǎo gǒu tiàodào le zhuōzi shang. | Con chó nhỏ nhảy lên bàn.
 > 她跳舞跳得很好。 | Tā tiàowǔ tiào de hěn hǎo. | Cô ấy nhảy múa rất giỏi.
 * 跳舞 = nhảy múa, khiêu vũ.
 
@@ -112,7 +112,7 @@
 
 @相信 | tương tín
 - 动 | tin, tin tưởng
-> 我相信你一定能考好。 | Wǒ xiāngxìn nǐ yídìng néng kǎo hǎo. | Tôi tin bạn nhất định sẽ thi tốt.
+> 我相信你一定能考好。 | Wǒ xiāngxìn nǐ yídìng néng kǎohǎo. | Tôi tin bạn nhất định sẽ thi tốt.
 > 他说的话，你别相信。 | Tā shuō de huà, nǐ bié xiāngxìn. | Lời anh ta nói, bạn đừng tin.
 * 相 ở đây đọc xiāng (thanh 1).
 

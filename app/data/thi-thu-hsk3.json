@@ -67,6 +67,12 @@
        "他",
        "每次旅游",
        "都带着"
+      ],
+      [
+       "他",
+       "这个相机",
+       "每次旅游",
+       "都带着"
       ]
      ],
      "dauCau": "。",
@@ -368,16 +374,16 @@
     {
      "tu": "大熊猫",
      "manh": [
-      "那只大熊猫",
+      "那只",
+      "大熊猫",
       "一边吃东西",
-      "一边",
-      "看着游客"
+      "一边看着游客"
      ],
      "khac": [
       [
-       "那只大熊猫",
-       "一边",
-       "看着游客",
+       "那只",
+       "大熊猫",
+       "一边看着游客",
        "一边吃东西"
       ]
      ],
@@ -539,7 +545,7 @@
      "cau": [
       {
        "han": "外面刮风了，快把门关上吧。",
-       "pinyin": "Wàimiàn guā fēng le, kuài bǎ mén guān shang ba."
+       "pinyin": "Wàimiàn guā fēng le, kuài bǎ mén guānshang ba."
       },
       {
        "han": "好的，这么大的风，今天还是别出去了。",
@@ -1013,11 +1019,11 @@
      "cau": [
       {
        "han": "你找到新房子了吗？离公司远不远？",
-       "pinyin": "Nǐ zhǎo dào xīn fángzi le ma? Lí gōngsī yuǎn bu yuǎn?"
+       "pinyin": "Nǐ zhǎodào xīn fángzi le ma? Lí gōngsī yuǎn bu yuǎn?"
       },
       {
        "han": "找到了，很近，我打算下个月就搬家。",
-       "pinyin": "Zhǎo dào le, hěn jìn, wǒ dǎsuàn xià ge yuè jiù bānjiā."
+       "pinyin": "Zhǎodào le, hěn jìn, wǒ dǎsuàn xià ge yuè jiù bānjiā."
       }
      ],
      "dich": "– Bạn tìm được nhà mới chưa? Có xa công ty không? – Tìm được rồi, rất gần, tôi định tháng sau chuyển nhà luôn.",
@@ -1075,7 +1081,7 @@
       },
       {
        "han": "他吃完饭就在沙发上睡着了，你别叫他。",
-       "pinyin": "Tā chī wán fàn jiù zài shāfā shang shuìzháo le, nǐ bié jiào tā."
+       "pinyin": "Tā chīwán fàn jiù zài shāfā shang shuìzháo le, nǐ bié jiào tā."
       }
      ],
      "dich": "– Bố đâu rồi? Con có việc muốn hỏi bố. – Bố ăn cơm xong là ngủ quên trên sofa rồi, con đừng gọi bố.",
@@ -1176,7 +1182,7 @@
       },
       {
        "han": "桌子上还有半块蛋糕，你拿去吃吧。",
-       "pinyin": "Zhuōzi shang hái yǒu bàn kuài dàngāo, nǐ ná qù chī ba."
+       "pinyin": "Zhuōzi shang hái yǒu bàn kuài dàngāo, nǐ náqu chī ba."
       }
      ],
      "dich": "– Con hơi đói, nhà có gì ăn không? – Trên bàn còn nửa miếng bánh ngọt, con lấy ăn đi.",
@@ -1274,7 +1280,7 @@
      "cau": [
       {
        "han": "你的银行卡找到了吗？",
-       "pinyin": "Nǐ de yínhángkǎ zhǎo dào le ma?"
+       "pinyin": "Nǐ de yínhángkǎ zhǎodào le ma?"
       },
       {
        "han": "还没有，我得马上给银行打个电话。",
@@ -1379,7 +1385,7 @@
       },
       {
        "han": "明天要交的作业我还没写完呢。",
-       "pinyin": "Míngtiān yào jiāo de zuòyè wǒ hái méi xiě wán ne."
+       "pinyin": "Míngtiān yào jiāo de zuòyè wǒ hái méi xiěwán ne."
       }
      ],
      "dich": "– Đã mười một giờ rồi, sao con còn chưa ngủ? – Bài tập phải nộp ngày mai con vẫn chưa viết xong.",
@@ -1391,7 +1397,7 @@
      "cau": [
       {
        "han": "今天的数学作业你做完了吗？",
-       "pinyin": "Jīntiān de shùxué zuòyè nǐ zuò wán le ma?"
+       "pinyin": "Jīntiān de shùxué zuòyè nǐ zuòwán le ma?"
       },
       {
        "han": "还差两道题，有一道我怎么也不会做。",
@@ -1542,7 +1548,7 @@
       },
       {
        "han": "知道了，我洗完脸就去刷牙。",
-       "pinyin": "Zhīdào le, wǒ xǐ wán liǎn jiù qù shuāyá."
+       "pinyin": "Zhīdào le, wǒ xǐwán liǎn jiù qù shuāyá."
       }
      ],
      "dich": "– Trước khi ngủ đừng quên đánh răng, biết chưa? – Con biết rồi, con rửa mặt xong là đi đánh răng.",
@@ -1659,7 +1665,7 @@
       },
       {
        "han": "好，我看完这条新闻就不看了。",
-       "pinyin": "Hǎo, wǒ kàn wán zhè tiáo xīnwén jiù bú kàn le."
+       "pinyin": "Hǎo, wǒ kànwán zhè tiáo xīnwén jiù bú kàn le."
       }
      ],
      "dich": "– Con đừng lúc nào cũng xem điện thoại, hại mắt lắm. – Vâng, con đọc xong tin này thì thôi.",
@@ -1676,7 +1682,7 @@
    "cap": [
     {
      "q": "我们一会儿要去机场，你的护照带好了吗？",
-     "qp": "Wǒmen yíhuìr yào qù jīchǎng, nǐ de hùzhào dài hǎo le ma?",
+     "qp": "Wǒmen yíhuìr yào qù jīchǎng, nǐ de hùzhào dàihǎo le ma?",
      "a": "放心吧，就在我的包里。",
      "ap": "Fàngxīn ba, jiù zài wǒ de bāo li."
     },
@@ -1718,7 +1724,7 @@
      "q": "老板，这西瓜新鲜吗？",
      "qp": "Lǎobǎn, zhè xīguā xīnxiān ma?",
      "a": "早上刚送来的，您尝尝。",
-     "ap": "Zǎoshang gāng sòng lái de, nín chángchang."
+     "ap": "Zǎoshang gāng sònglai de, nín chángchang."
     },
     {
      "q": "这双鞋我很喜欢，可是穿着有点儿小。",
@@ -1746,7 +1752,7 @@
      "q": "你脸色不太好，是不是感冒了？",
      "qp": "Nǐ liǎnsè bú tài hǎo, shì bu shì gǎnmào le?",
      "a": "有点儿发烧，昨天晚上没睡好。",
-     "ap": "Yǒudiǎnr fāshāo, zuótiān wǎnshang méi shuì hǎo."
+     "ap": "Yǒudiǎnr fāshāo, zuótiān wǎnshang méi shuìhǎo."
     },
     {
      "q": "医生说我得在医院住一个星期。",
@@ -1764,7 +1770,7 @@
      "q": "我的脚突然很疼，走不了路了。",
      "qp": "Wǒ de jiǎo tūrán hěn téng, zǒu bu liǎo lù le.",
      "a": "那你先坐下休息，别再走了。",
-     "ap": "Nà nǐ xiān zuò xià xiūxi, bié zài zǒu le."
+     "ap": "Nà nǐ xiān zuòxià xiūxi, bié zài zǒu le."
     },
     {
      "q": "这个药一天吃几次？",
@@ -1838,7 +1844,7 @@
      "q": "小张，这封邮件你收到了没有？",
      "qp": "Xiǎo Zhāng, zhè fēng yóujiàn nǐ shōudào le méiyǒu?",
      "a": "还没看到，可能是我的电脑出问题了。",
-     "ap": "Hái méi kàn dào, kěnéng shì wǒ de diànnǎo chū wèntí le."
+     "ap": "Hái méi kàndào, kěnéng shì wǒ de diànnǎo chū wèntí le."
     }
    ]
   },
@@ -1932,7 +1938,7 @@
     },
     {
      "q": "你来中国以后学会用筷子了吗？",
-     "qp": "Nǐ lái Zhōngguó yǐhòu xué huì yòng kuàizi le ma?",
+     "qp": "Nǐ lái Zhōngguó yǐhòu xuéhuì yòng kuàizi le ma?",
      "a": "会是会，但是还用得不太好。",
      "ap": "Huì shì huì, dànshì hái yòng de bú tài hǎo."
     },
@@ -1976,7 +1982,7 @@
    "cau": [
     {
      "cau": "出国旅行的时候，一定要带好你的（ ）。",
-     "pinyin": "Chūguó lǚxíng de shíhou, yídìng yào dài hǎo nǐ de hùzhào.",
+     "pinyin": "Chūguó lǚxíng de shíhou, yídìng yào dàihǎo nǐ de hùzhào.",
      "dapAn": "护照"
     },
     {
@@ -2036,7 +2042,7 @@
     },
     {
      "cau": "这道题很（ ），我一分钟就做完了。",
-     "pinyin": "Zhè dào tí hěn jiǎndān, wǒ yì fēnzhōng jiù zuò wán le.",
+     "pinyin": "Zhè dào tí hěn jiǎndān, wǒ yì fēnzhōng jiù zuòwán le.",
      "dapAn": "简单"
     },
     {
@@ -2091,7 +2097,7 @@
     },
     {
      "cau": "我弟弟做作业非常（ ），一个字也没写错。",
-     "pinyin": "Wǒ dìdi zuò zuòyè fēicháng rènzhēn, yí ge zì yě méi xiě cuò.",
+     "pinyin": "Wǒ dìdi zuò zuòyè fēicháng rènzhēn, yí ge zì yě méi xiěcuò.",
      "dapAn": "认真"
     },
     {
@@ -2146,7 +2152,7 @@
     },
     {
      "cau": "这些西瓜是今天早上刚送来的，非常（ ）。",
-     "pinyin": "Zhèxiē xīguā shì jīntiān zǎoshang gāng sòng lái de, fēicháng xīnxiān.",
+     "pinyin": "Zhèxiē xīguā shì jīntiān zǎoshang gāng sònglai de, fēicháng xīnxiān.",
      "dapAn": "新鲜"
     },
     {
@@ -2323,7 +2329,7 @@
     },
     {
      "cau": "去上海的票买好了吗？／买好了，一共两（ ）。",
-     "pinyin": "Qù Shànghǎi de piào mǎi hǎo le ma?／Mǎi hǎo le, yígòng liǎng zhāng.",
+     "pinyin": "Qù Shànghǎi de piào mǎihǎo le ma?／Mǎihǎo le, yígòng liǎng zhāng.",
      "dapAn": "张"
     },
     {
@@ -2378,7 +2384,7 @@
     },
     {
      "cau": "这本书你看到哪儿了？／看到第五十（ ）了。",
-     "pinyin": "Zhè běn shū nǐ kàn dào nǎr le?／Kàn dào dì wǔshí yè le.",
+     "pinyin": "Zhè běn shū nǐ kàndào nǎr le?／Kàndào dì wǔshí yè le.",
      "dapAn": "页"
     },
     {
@@ -2418,7 +2424,7 @@
    "cau": [
     {
      "cau": "你是怎么找到这儿的？／我是看手机上的（ ）找到的。",
-     "pinyin": "Nǐ shì zěnme zhǎo dào zhèr de?／Wǒ shì kàn shǒujī shang de dìtú zhǎo dào de.",
+     "pinyin": "Nǐ shì zěnme zhǎodào zhèr de?／Wǒ shì kàn shǒujī shang de dìtú zhǎodào de.",
      "dapAn": "地图"
     },
     {
@@ -2488,7 +2494,7 @@
     },
     {
      "cau": "你吃饱了吗？／还没有，我还想再吃一（ ）米饭。",
-     "pinyin": "Nǐ chī bǎo le ma?／Hái méiyǒu, wǒ hái xiǎng zài chī yì wǎn mǐfàn.",
+     "pinyin": "Nǐ chībǎo le ma?／Hái méiyǒu, wǒ hái xiǎng zài chī yì wǎn mǐfàn.",
      "dapAn": "碗"
     },
     {
@@ -2667,13 +2673,13 @@
     },
     {
      "han": "我的自行车被我弟弟骑走了。",
-     "pinyin": "Wǒ de zìxíngchē bèi wǒ dìdi qí zǒu le."
+     "pinyin": "Wǒ de zìxíngchē bèi wǒ dìdi qízǒu le."
     }
    ],
    "h": "男的为什么走路来上班？",
    "hp": "Nán de wèi shénme zǒulù lái shàngbān?",
    "a": "自行车被骑走了",
-   "ap": "zìxíngchē bèi qí zǒu le",
+   "ap": "zìxíngchē bèi qízǒu le",
    "x": [
     {
      "h": "他想锻炼身体",
@@ -2823,7 +2829,7 @@
     },
     {
      "han": "看不清楚，我坐得太远了，我们换到前面去吧。",
-     "pinyin": "Kàn bu qīngchu, wǒ zuò de tài yuǎn le, wǒmen huàn dào qiánmiàn qù ba."
+     "pinyin": "Kàn bu qīngchu, wǒ zuò de tài yuǎn le, wǒmen huàndào qiánmiàn qù ba."
     }
    ],
    "h": "男的为什么看不清楚？",
@@ -2958,8 +2964,8 @@
    ],
    "h": "男的怎么了？",
    "hp": "Nán de zěnme le?",
-   "a": "没睡好",
-   "ap": "méi shuì hǎo",
+   "a": "睡得很少",
+   "ap": "shuì de hěn shǎo",
    "x": [
     {
      "h": "生病了",
@@ -3005,7 +3011,7 @@
     },
     {
      "han": "经理那天要去外地，所以换到星期五了。",
-     "pinyin": "Jīnglǐ nà tiān yào qù wàidì, suǒyǐ huàn dào xīngqīwǔ le."
+     "pinyin": "Jīnglǐ nà tiān yào qù wàidì, suǒyǐ huàndào xīngqīwǔ le."
     }
    ],
    "h": "会议现在是星期几？",
@@ -3053,7 +3059,7 @@
    "n": [
     {
      "han": "你能帮我把这个箱子拿到楼上去吗？太重了。",
-     "pinyin": "Nǐ néng bāng wǒ bǎ zhège xiāngzi ná dào lóu shang qù ma? Tài zhòng le."
+     "pinyin": "Nǐ néng bāng wǒ bǎ zhège xiāngzi nádào lóu shang qù ma? Tài zhòng le."
     },
     {
      "han": "好，你先上去把门打开，我马上就来。",
@@ -3135,7 +3141,7 @@
     },
     {
      "han": "对不起，我的手机被我忘在办公室了，我刚回到家。",
-     "pinyin": "Duìbuqǐ, wǒ de shǒujī bèi wǒ wàng zài bàngōngshì le, wǒ gāng huí dào jiā."
+     "pinyin": "Duìbuqǐ, wǒ de shǒujī bèi wǒ wàng zài bàngōngshì le, wǒ gāng huídào jiā."
     }
    ],
    "h": "男的为什么没接电话？",
@@ -3209,11 +3215,11 @@
    "n": [
     {
      "han": "这本书你看完了吗？明天就得还给图书馆了。",
-     "pinyin": "Zhè běn shū nǐ kàn wán le ma? Míngtiān jiù děi huán gěi túshūguǎn le."
+     "pinyin": "Zhè běn shū nǐ kànwán le ma? Míngtiān jiù děi huán gěi túshūguǎn le."
     },
     {
      "han": "还差两页，我今天晚上一定看完还给你。",
-     "pinyin": "Hái chà liǎng yè, wǒ jīntiān wǎnshang yídìng kàn wán huán gěi nǐ."
+     "pinyin": "Hái chà liǎng yè, wǒ jīntiān wǎnshang yídìng kànwán huán gěi nǐ."
     }
    ],
    "h": "关于那本书，可以知道什么？",
@@ -3227,7 +3233,7 @@
     },
     {
      "h": "男的已经看完了",
-     "p": "nán de yǐjīng kàn wán le"
+     "p": "nán de yǐjīng kànwán le"
     }
    ]
   },
@@ -3239,7 +3245,7 @@
     },
     {
      "han": "住在海边的那家，从房间里就能看到大海。",
-     "pinyin": "Zhù zài hǎibiān de nà jiā, cóng fángjiān li jiù néng kàn dào dàhǎi."
+     "pinyin": "Zhù zài hǎibiān de nà jiā, cóng fángjiān li jiù néng kàndào dàhǎi."
     }
    ],
    "h": "他们要住的宾馆在哪儿？",
@@ -3375,7 +3381,7 @@
   },
   {
    "p": "这件衬衫是我上个星期在网上买的，颜色和样子都不错，就是有点儿小。我打算拿去换一件大一点儿的。",
-   "pp": "Zhè jiàn chènshān shì wǒ shàng ge xīngqī zài wǎng shang mǎi de, yánsè hé yàngzi dōu búcuò, jiùshì yǒudiǎnr xiǎo. Wǒ dǎsuàn ná qù huàn yí jiàn dà yìdiǎnr de.",
+   "pp": "Zhè jiàn chènshān shì wǒ shàng ge xīngqī zài wǎng shang mǎi de, yánsè hé yàngzi dōu búcuò, jiùshì yǒudiǎnr xiǎo. Wǒ dǎsuàn náqu huàn yí jiàn dà yìdiǎnr de.",
    "h": "他觉得这件衬衫：",
    "hp": "Tā juéde zhè jiàn chènshān:",
    "a": "有点儿小",
@@ -3573,7 +3579,7 @@
   },
   {
    "p": "学习汉语的时候，我觉得最难的不是说，而是写汉字。老师告诉我，只要每天都认真练习，就一定能写好。",
-   "pp": "Xuéxí Hànyǔ de shíhou, wǒ juéde zuì nán de bú shì shuō, ér shì xiě Hànzì. Lǎoshī gàosu wǒ, zhǐyào měi tiān dōu rènzhēn liànxí, jiù yídìng néng xiě hǎo.",
+   "pp": "Xuéxí Hànyǔ de shíhou, wǒ juéde zuì nán de bú shì shuō, ér shì xiě Hànzì. Lǎoshī gàosu wǒ, zhǐyào měi tiān dōu rènzhēn liànxí, jiù yídìng néng xiěhǎo.",
    "h": "他觉得学汉语什么最难？",
    "hp": "Tā juéde xué Hànyǔ shénme zuì nán?",
    "a": "写汉字",
@@ -3613,7 +3619,7 @@
    "h": "根据这段话，他现在：",
    "hp": "Gēnjù zhè duàn huà, tā xiànzài:",
    "a": "身体变好了",
-   "ap": "shēntǐ biàn hǎo le",
+   "ap": "shēntǐ biànhǎo le",
    "x": [
     {
      "h": "经常感冒",
@@ -3854,8 +3860,8 @@
      "p": "yào qù jīchǎng"
     },
     {
-     "h": "下大雨了",
-     "p": "xià dà yǔ le"
+     "h": "今天下大雨",
+     "p": "jīntiān xià dà yǔ"
     }
    ]
   },
@@ -3879,7 +3885,7 @@
   },
   {
    "p": "同学们，明天的会议换到三楼的大教室开，不在二楼了。请大家下午两点以前到，别忘了带上笔和本子。",
-   "pp": "Tóngxuémen, míngtiān de huìyì huàn dào sān lóu de dà jiàoshì kāi, bú zài èr lóu le. Qǐng dàjiā xiàwǔ liǎng diǎn yǐqián dào, bié wàng le dàishàng bǐ hé běnzi.",
+   "pp": "Tóngxuémen, míngtiān de huìyì huàndào sān lóu de dà jiàoshì kāi, bú zài èr lóu le. Qǐng dàjiā xiàwǔ liǎng diǎn yǐqián dào, bié wàng le dàishàng bǐ hé běnzi.",
    "h": "明天的会议在哪儿开？",
    "hp": "Míngtiān de huìyì zài nǎr kāi?",
    "a": "三楼的教室",
@@ -3897,11 +3903,11 @@
   },
   {
    "p": "以前我的东西总是到处放，一要用就找不到。现在我每次用完都把东西放回同一个地方，找东西方便多了。",
-   "pp": "Yǐqián wǒ de dōngxi zǒngshì dàochù fàng, yí yào yòng jiù zhǎo bu dào. Xiànzài wǒ měi cì yòng wán dōu bǎ dōngxi fàng huí tóng yí ge dìfang, zhǎo dōngxi fāngbiàn duō le.",
+   "pp": "Yǐqián wǒ de dōngxi zǒngshì dàochù fàng, yí yào yòng jiù zhǎo bu dào. Xiànzài wǒ měi cì yòngwán dōu bǎ dōngxi fànghuí tóng yí ge dìfang, zhǎo dōngxi fāngbiàn duō le.",
    "h": "关于他，可以知道：",
    "hp": "Guānyú tā, kěyǐ zhīdào:",
-   "a": "找东西很快",
-   "ap": "zhǎo dōngxi hěn kuài",
+   "a": "找东西比以前方便",
+   "ap": "zhǎo dōngxi bǐ yǐqián fāngbiàn",
    "x": [
     {
      "h": "经常找不到东西",
@@ -4099,7 +4105,7 @@
   },
   {
    "p": "饺子是中国北方人很爱吃的东西。过年的时候，一家人常常坐在一起包饺子，一边包一边聊天。有的人会在一个饺子里放一块糖，吃到这个饺子的人，新的一年会很甜。现在超市里也能买到饺子，但是很多老人还是觉得自己包的更好吃。",
-   "pp": "Jiǎozi shì Zhōngguó běifāng rén hěn ài chī de dōngxi. Guònián de shíhou, yì jiā rén chángcháng zuò zài yìqǐ bāo jiǎozi, yìbiān bāo yìbiān liáotiān. Yǒude rén huì zài yí ge jiǎozi lǐ fàng yí kuài táng, chī dào zhège jiǎozi de rén, xīn de yì nián huì hěn tián. Xiànzài chāoshì lǐ yě néng mǎi dào jiǎozi, dànshì hěn duō lǎorén háishi juéde zìjǐ bāo de gèng hǎochī.",
+   "pp": "Jiǎozi shì Zhōngguó běifāng rén hěn ài chī de dōngxi. Guònián de shíhou, yì jiā rén chángcháng zuò zài yìqǐ bāo jiǎozi, yìbiān bāo yìbiān liáotiān. Yǒude rén huì zài yí ge jiǎozi lǐ fàng yí kuài táng, chīdào zhège jiǎozi de rén, xīn de yì nián huì hěn tián. Xiànzài chāoshì lǐ yě néng mǎidào jiǎozi, dànshì hěn duō lǎorén háishi juéde zìjǐ bāo de gèng hǎochī.",
    "cau": [
     {
      "h": "过年的时候，一家人常常：",
@@ -4213,7 +4219,7 @@
   },
   {
    "p": "我家附近有一个很大的公园，公园里有一条河，河边种了很多花和树。每天早上，很多老人在那儿锻炼身体，有的跑步，有的跳舞。到了周末，年轻人喜欢带着孩子去河边骑自行车。公园不要钱，所以去的人特别多。",
-   "pp": "Wǒ jiā fùjìn yǒu yí ge hěn dà de gōngyuán, gōngyuán lǐ yǒu yì tiáo hé, hé biān zhòng le hěn duō huā hé shù. Měi tiān zǎoshang, hěn duō lǎorén zài nàr duànliàn shēntǐ, yǒude pǎobù, yǒude tiàowǔ. Dào le zhōumò, niánqīng rén xǐhuan dàizhe háizi qù hé biān qí zìxíngchē. Gōngyuán bú yào qián, suǒyǐ qù de rén tèbié duō.",
+   "pp": "Wǒ jiā fùjìn yǒu yí ge hěn dà de gōngyuán, gōngyuán lǐ yǒu yì tiáo hé, hé biān zhòng le hěn duō huā hé shù. Měi tiān zǎoshang, hěn duō lǎorén zài nàr duànliàn shēntǐ, yǒude pǎobù, yǒude tiàowǔ. Dào le zhōumò, niánqīng rén xǐhuan dài zhe háizi qù hé biān qí zìxíngchē. Gōngyuán bú yào qián, suǒyǐ qù de rén tèbié duō.",
    "cau": [
     {
      "h": "关于这个公园，可以知道：",
@@ -4251,7 +4257,7 @@
   },
   {
    "p": "今天是我的生日，可是爸爸妈妈都在外地出差，我以为没有人记得。下班回到家，打开门一看，桌子上放着一个大蛋糕，我的好朋友们都在房间里等我。后来我才知道，是我的妹妹给他们打的电话。我感动得说不出话来。",
-   "pp": "Jīntiān shì wǒ de shēngrì, kěshì bàba māma dōu zài wàidì chūchāi, wǒ yǐwéi méiyǒu rén jìde. Xiàbān huí dào jiā, dǎkāi mén yí kàn, zhuōzi shang fàngzhe yí ge dà dàngāo, wǒ de hǎo péngyoumen dōu zài fángjiān lǐ děng wǒ. Hòulái wǒ cái zhīdào, shì wǒ de mèimei gěi tāmen dǎ de diànhuà. Wǒ gǎndòng de shuō bu chū huà lái.",
+   "pp": "Jīntiān shì wǒ de shēngrì, kěshì bàba māma dōu zài wàidì chūchāi, wǒ yǐwéi méiyǒu rén jìde. Xiàbān huídào jiā, dǎkāi mén yí kàn, zhuōzi shang fàng zhe yí ge dà dàngāo, wǒ de hǎo péngyoumen dōu zài fángjiān lǐ děng wǒ. Hòulái wǒ cái zhīdào, shì wǒ de mèimei gěi tāmen dǎ de diànhuà. Wǒ gǎndòng de shuō bu chū huà lái.",
    "cau": [
     {
      "h": "他回家以前以为：",
@@ -4441,7 +4447,7 @@
   },
   {
    "p": "学校东边新开了一家面馆，老板是一个年轻人。他们的面条又便宜又好吃，一碗只要十五块钱。中午的时候，店里总是坐满了学生，去晚了就得等很长时间。所以我一般早一点儿去，十一点半就到了。",
-   "pp": "Xuéxiào dōngbian xīn kāi le yì jiā miànguǎn, lǎobǎn shì yí ge niánqīng rén. Tāmen de miàntiáo yòu piányi yòu hǎochī, yì wǎn zhǐ yào shíwǔ kuài qián. Zhōngwǔ de shíhou, diàn lǐ zǒngshì zuò mǎn le xuésheng, qù wǎn le jiù děi děng hěn cháng shíjiān. Suǒyǐ wǒ yìbān zǎo yìdiǎnr qù, shíyī diǎn bàn jiù dào le.",
+   "pp": "Xuéxiào dōngbian xīn kāi le yì jiā miànguǎn, lǎobǎn shì yí ge niánqīng rén. Tāmen de miàntiáo yòu piányi yòu hǎochī, yì wǎn zhǐ yào shíwǔ kuài qián. Zhōngwǔ de shíhou, diàn lǐ zǒngshì zuòmǎn le xuésheng, qù wǎn le jiù děi děng hěn cháng shíjiān. Suǒyǐ wǒ yìbān zǎo yìdiǎnr qù, shíyī diǎn bàn jiù dào le.",
    "cau": [
     {
      "h": "关于这家面馆，可以知道：",
@@ -4633,7 +4639,7 @@
   },
   {
    "cau": "我已经吃（ ）了，不能再吃了。",
-   "pinyin": "Wǒ yǐjīng chī bǎo le, bù néng zài chī le.",
+   "pinyin": "Wǒ yǐjīng chībǎo le, bù néng zài chī le.",
    "chu": "饱",
    "dich": "Tôi ăn no rồi, không ăn thêm được nữa."
   },

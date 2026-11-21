@@ -1,6 +1,6 @@
 BÁO CÁO TỪ CHƯA HỌC TRONG CÂU (tạo bởi cong-cu/kiem-tra-tu-chua-hoc.py – không sửa tay)
 
-NGỮ PHÁP: 0/869 câu còn từ chưa học (hoặc chữ ngoài từ điển) tính tới bài của điểm.
+NGỮ PHÁP: 0/877 câu còn từ chưa học (hoặc chữ ngoài từ điển) tính tới bài của điểm.
 Câu ví dụ của từ dùng được cho chặng (toàn từ đã học tới bài đó):
   HSK 1 · Bài 1    ngữ pháp:   0/  0 câu cần sửa · ví dụ từ dùng được:  10/ 24
   HSK 1 · Bài 2    ngữ pháp:   0/  7 câu cần sửa · ví dụ từ dùng được:   9/ 29
@@ -33,7 +33,7 @@ Câu ví dụ của từ dùng được cho chặng (toàn từ đã học tới
   HSK 2 · Bài 14   ngữ pháp:   0/ 14 câu cần sửa · ví dụ từ dùng được:  27/ 28
   HSK 2 · Bài 15   ngữ pháp:   0/ 21 câu cần sửa · ví dụ từ dùng được:  20/ 20
   HSK 3 · Bài 1    ngữ pháp:   0/ 21 câu cần sửa · ví dụ từ dùng được:  44/ 54
-  HSK 3 · Bài 2    ngữ pháp:   0/ 14 câu cần sửa · ví dụ từ dùng được:  48/ 57
+  HSK 3 · Bài 2    ngữ pháp:   0/ 22 câu cần sửa · ví dụ từ dùng được:  48/ 57
   HSK 3 · Bài 3    ngữ pháp:   0/  7 câu cần sửa · ví dụ từ dùng được:  52/ 57
   HSK 3 · Bài 4    ngữ pháp:   0/ 21 câu cần sửa · ví dụ từ dùng được:  48/ 58
   HSK 3 · Bài 5    ngữ pháp:   0/ 21 câu cần sửa · ví dụ từ dùng được:  47/ 58

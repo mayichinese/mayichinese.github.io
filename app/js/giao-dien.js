@@ -9,7 +9,7 @@
 // =========================================================
 
 import { caiDat, luu, layTienDo, nhatKyHomNay, congGiay, phutMoiNgay } from './luu-tru.js';
-import { TEN_TU_LOAI, nghiaNgan } from './du-lieu.js';
+import { TEN_TU_LOAI, nghiaNgan, cachDocKhac, tiengDoc, tatCaTu } from './du-lieu.js';
 import { loaiThe } from './lich-on.js';
 import { bieuTuong } from './bieu-tuong.js';
 import { toMauPinyin, toMauChuHan, demChuHan } from './pinyin.js';
@@ -177,6 +177,33 @@ export function nutTuLoai(kyHieu, khoa = '', lop = 'nhan-chinh') {
     title="Cách dùng ${esc(ten)} trong câu" aria-label="${esc(ten)} – xem vị trí trong câu">${esc(ten)}<span class="dau-hoi" aria-hidden="true">?</span></button>`;
 }
 
+// ---------- Ước tính ngày xong HSK 3 theo mục tiêu phút ----------
+// Theo kinh nghiệm (bản soát chuyên gia 6.9, KHÔNG phải số liệu chính thức): từ số 0 đến HSK 3 (1000 từ)
+// cần khoảng 200–300 giờ học thật → lấy 250 giờ, trừ phần từ đã học.
+const GIO_HOC_HSK3 = 250;
+export function duKienHsk3(phut) {
+  const ds = [...new Map(tatCaTu().filter((t) => t.cap <= 3).map((t) => [t.khoa, t])).values()];
+  const the = layTienDo().the || {};
+  const conLai = ds.length ? 1 - ds.filter((t) => the[t.khoa]).length / ds.length : 1;
+  const ngay = Math.ceil((GIO_HOC_HSK3 * 60 * conLai) / Math.max(1, phut));
+  return { ngay, thang: Math.max(1, Math.round(ngay / 30)), luc: new Date(Date.now() + ngay * 864e5), xong: conLai <= 0 };
+}
+/** "≈ 14 tháng" / "≈ 3,5 năm" */
+export function moTaThoiGian(ngay) {
+  const thang = ngay / 30;
+  if (thang < 1) return '< 1 tháng';
+  if (thang < 24) return `≈ ${Math.round(thang)} tháng`;
+  return `≈ ${(Math.round((thang / 12) * 2) / 2).toLocaleString('vi-VN')} năm`;
+}
+/** Dòng giải thích dưới bảng chọn mục tiêu */
+export function htmlDuKienHsk3(phut) {
+  const d = duKienHsk3(phut);
+  if (d.xong) return '<p class="chu-phu nho du-kien">🎉 Bạn đã học hết từ HSK 1–3!</p>';
+  const thangNam = `${d.luc.getMonth() + 1}/${d.luc.getFullYear()}`;
+  return `<p class="chu-phu nho du-kien">📅 Học ${phut} phút mỗi ngày: dự kiến xong HSK 3 khoảng <b>${thangNam}</b> (${moTaThoiGian(d.ngay)}).
+    ${phut < 20 ? 'Mức 10 phút chỉ đủ ôn để không quên – học từ mới sẽ rất chậm. ' : ''}Ước tính theo kinh nghiệm (~${GIO_HOC_HSK3} giờ học cho 1000 từ), không phải số liệu chính thức.</p>`;
+}
+
 /** Mặt sau của thẻ (dùng cho flashcard và trang xem từ) */
 export function htmlMatSau(tu) {
   // tô đậm từ đang học trong câu ví dụ; mọi từ khác chạm được để xem nghĩa (từ chưa học gạch chân chấm)
@@ -204,16 +231,23 @@ export function htmlMatSau(tu) {
     ? `<div class="ghi-chu"><span class="emoji">💡</span><div><b>Ghi chú</b>
          <ul>${tu.ghiChu.map((g) => `<li>${esc(g)}</li>`).join('')}</ul></div></div>`
     : '';
+  const khac = cachDocKhac(tu);
+  const daAm = khac.length
+    ? `<div class="doc-khac"><span class="emoji">🔀</span><div>Chữ này còn đọc là ${khac.map((k) => `<b class="pinyin">${esc(k.pinyin)}</b> – ${esc(nghiaNgan(k))}
+        <span class="chu-phu nho">(HSK ${k.cap}${layTienDo().the?.[k.khoa] ? ', đã học' : ''})</span>`).join('; ')}.
+        <span class="chu-phu nho">Loa đọc câu ví dụ vì giọng máy dễ đọc nhầm chữ này khi đứng riêng.</span></div></div>`
+    : '';
   const kiemTra = (tu.canKiemTra || []).length
     ? `<div class="can-kiem-tra">⚠️ Cần kiểm tra: ${tu.canKiemTra.map((k) => esc(k.lyDo)).join('; ')}</div>` : '';
   return `
     <div class="mat-sau">
       <div class="dau-mat-sau">
         <div class="han chu-han-vua">${toMauChuHan(tu.hanzi, tu.pinyin)}</div>
-        ${nutLoa(tu.hanzi)}
+        ${nutLoa(tiengDoc(tu))}
       </div>
       <div class="pinyin pinyin-to">${toMauPinyin(tu.pinyin, demChuHan(tu.hanzi))}</div>
       ${tu.hanViet ? `<div class="han-viet"><span>Hán Việt</span><b>${esc(tu.hanViet)}</b></div>` : ''}
+      ${daAm}
       ${nghia}
       ${ghiChu}
       ${kiemTra}

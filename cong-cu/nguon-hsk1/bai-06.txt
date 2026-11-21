@@ -58,7 +58,7 @@
 > 这里人很多。 | Zhèlǐ rén hěn duō. | Ở đây rất đông người.
 > 他有很多书。 | Tā yǒu hěn duō shū. | Anh ấy có rất nhiều sách.
 - 动 | thêm, nhiều hơn, thừa ra (so với số vốn có)
-> 今天多了一个学生。 | Jīntiān duōle yí gè xuéshēng. | Hôm nay có thêm một học sinh.
+> 今天多了一个学生。 | Jīntiān duō le yí gè xuéshēng. | Hôm nay có thêm một học sinh.
 - 代 | bao nhiêu, bao (hỏi mức độ, đứng trước tính từ: 多大)
 > 你今年多大？ | Nǐ jīnnián duō dà? | Năm nay bạn bao nhiêu tuổi?
 * Theo danh sách chính thức, cách dùng của 多 như số từ (二十多 – hơn hai mươi) và phó từ thuộc cấp 2.

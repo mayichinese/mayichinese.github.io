@@ -24,7 +24,7 @@
 @块 | khối
 - 量 | đồng (đơn vị tiền trong khẩu ngữ, = 元); miếng, cục
 > 这本书三十块。 | Zhè běn shū sānshí kuài. | Quyển sách này ba mươi đồng.
-> 我吃了一块面包。 | Wǒ chīle yí kuài miànbāo. | Tôi đã ăn một miếng bánh mì.
+> 我吃了一块面包。 | Wǒ chī le yí kuài miànbāo. | Tôi đã ăn một miếng bánh mì.
 * Khi nói giá: 块 dùng trong khẩu ngữ; 元 dùng trong văn viết (giá ghi trên nhãn).
 
 @元 | nguyên
@@ -78,10 +78,10 @@
 
 @件 | kiện
 - 量 | cái, chiếc (áo, quần áo phần trên); việc, chuyện (lượng từ cho sự việc)
-> 我买了两件衣服。 | Wǒ mǎile liǎng jiàn yīfu. | Tôi đã mua hai cái áo.
+> 我买了两件衣服。 | Wǒ mǎi le liǎng jiàn yīfu. | Tôi đã mua hai cái áo.
 > 我有一件事想问你。 | Wǒ yǒu yí jiàn shì xiǎng wèn nǐ. | Tôi có một chuyện muốn hỏi bạn.
 
 @穿 | xuyên
 - 动 | mặc (quần áo); đi, mang (giày, tất)
-> 她穿了一件新衣服。 | Tā chuānle yí jiàn xīn yīfu. | Cô ấy mặc một cái áo mới.
+> 她穿了一件新衣服。 | Tā chuān le yí jiàn xīn yīfu. | Cô ấy mặc một cái áo mới.
 > 你穿这件很漂亮。 | Nǐ chuān zhè jiàn hěn piàoliang. | Bạn mặc cái này rất đẹp.

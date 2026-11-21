@@ -71,11 +71,11 @@ $ 小明; 小文; 小李; 小张; 李明
 @ Mua quần áo ở trung tâm thương mại
 % doan-van
 > 我是小明。星期六，我和妈妈去商场买衣服。 | Wǒ shì Xiǎo Míng. Xīngqīliù, wǒ hé māma qù shāngchǎng mǎi yīfu. | Mình là Tiểu Minh. Thứ bảy, mình và mẹ đi trung tâm thương mại mua quần áo.
-> 我没去过这个商场，它很大。 | Wǒ méi qùguo zhège shāngchǎng, tā hěn dà. | Mình chưa đến trung tâm thương mại này bao giờ, nó rất lớn.
+> 我没去过这个商场，它很大。 | Wǒ méi qù guo zhège shāngchǎng, tā hěn dà. | Mình chưa đến trung tâm thương mại này bao giờ, nó rất lớn.
 > 我们进去看了看，这里衣服的颜色真多。 | Wǒmen jìnqù kàn le kàn, zhèli yīfu de yánsè zhēn duō. | Bọn mình vào xem thử, quần áo ở đây nhiều màu thật.
 > 妈妈说：“红色的好看，你买红色的吧。” | Māma shuō: “Hóngsè de hǎokàn, nǐ mǎi hóngsè de ba.” | Mẹ nói: “Cái màu đỏ đẹp đấy, con mua cái màu đỏ đi.”
 > 因为我的书包是黑色的，所以我想买一条黑色的裤子。 | Yīnwèi wǒ de shūbāo shì hēisè de, suǒyǐ wǒ xiǎng mǎi yì tiáo hēisè de kùzi. | Vì cặp sách của mình màu đen, nên mình muốn mua một cái quần màu đen.
-> 妈妈给我买了一条黑色的裤子，还买了一件白色的衣服。 | Māma gěi wǒ mǎile yì tiáo hēisè de kùzi, hái mǎile yí jiàn báisè de yīfu. | Mẹ mua cho mình một cái quần màu đen, còn mua một cái áo màu trắng.
+> 妈妈给我买了一条黑色的裤子，还买了一件白色的衣服。 | Māma gěi wǒ mǎi le yì tiáo hēisè de kùzi, hái mǎi le yí jiàn báisè de yīfu. | Mẹ mua cho mình một cái quần màu đen, còn mua một cái áo màu trắng.
 > 我还看见一个绿色的书包，但太贵了，我们没买。 | Wǒ hái kànjiàn yí gè lǜsè de shūbāo, dàn tài guì le, wǒmen méi mǎi. | Mình còn thấy một cái cặp màu xanh lá, nhưng đắt quá, bọn mình không mua.
 > 我很喜欢新买的裤子。 | Wǒ hěn xǐhuan xīn mǎi de kùzi. | Mình rất thích cái quần mới mua.
 ? 他们去哪儿买衣服？ | 商场 | 书店; 饭店
@@ -94,7 +94,7 @@ $ 小明; 小文; 小李; 小张; 李明
 > 小文 | 好，你等一会儿，我下去找你。 | Hǎo, nǐ děng yíhuìr, wǒ xiàqù zhǎo nǐ. | Được, bạn đợi một lát, mình xuống tìm bạn.
 > 小明 | 这是我给爷爷奶奶买的水果。 | Zhè shì wǒ gěi yéye nǎinai mǎi de shuǐguǒ. | Đây là hoa quả mình mua biếu ông bà.
 > 小文 | 谢谢你！快跟我上去吧，他们在家等你呢。 | Xièxie nǐ! Kuài gēn wǒ shàngqù ba, tāmen zài jiā děng nǐ ne. | Cảm ơn bạn! Mau cùng mình lên đi, ông bà đang ở nhà đợi bạn đấy.
-> 奶奶 | 小明来了！快进来坐吧，我给你们准备了奶茶。 | Xiǎo Míng lái le! Kuài jìnlái zuò ba, wǒ gěi nǐmen zhǔnbèile nǎichá. | Tiểu Minh đến rồi! Mau vào ngồi đi, bà đã chuẩn bị trà sữa cho các cháu.
+> 奶奶 | 小明来了！快进来坐吧，我给你们准备了奶茶。 | Xiǎo Míng lái le! Kuài jìnlái zuò ba, wǒ gěi nǐmen zhǔnbèi le nǎichá. | Tiểu Minh đến rồi! Mau vào ngồi đi, bà đã chuẩn bị trà sữa cho các cháu.
 > 爷爷 | 小明，你今年多大了？ | Xiǎo Míng, nǐ jīnnián duō dà le? | Tiểu Minh, năm nay cháu bao nhiêu tuổi rồi?
 > 小明 | 我今年二十岁。 | Wǒ jīnnián èrshí suì. | Năm nay cháu hai mươi tuổi ạ.
 > 爷爷 | 都二十岁了！时间真快啊！ | Dōu èrshí suì le! Shíjiān zhēn kuài a! | Đã hai mươi tuổi rồi cơ à! Thời gian trôi nhanh thật!
@@ -113,12 +113,12 @@ $ 小明; 小文; 小李; 小张; 李明
 % doan-van
 > 我是小文。今天是我的生日，我二十一岁了。 | Wǒ shì Xiǎo Wén. Jīntiān shì wǒ de shēngrì, wǒ èrshíyī suì le. | Mình là Tiểu Văn. Hôm nay là sinh nhật mình, mình hai mươi mốt tuổi rồi.
 > 早上，我高高兴兴地起床了。 | Zǎoshang, wǒ gāogāoxìngxìng de qǐchuáng le. | Buổi sáng, mình vui vẻ thức dậy.
-> 妈妈给我做了很多菜：鱼、肉、饺子什么的。 | Māma gěi wǒ zuòle hěn duō cài: yú, ròu, jiǎozi shénme de. | Mẹ nấu cho mình rất nhiều món: cá, thịt, sủi cảo, v.v.
-> 姐姐给我画了一只大大的猫，真好看。 | Jiějie gěi wǒ huàle yì zhī dàdà de māo, zhēn hǎokàn. | Chị gái vẽ cho mình một con mèo to ơi là to, đẹp thật.
+> 妈妈给我做了很多菜：鱼、肉、饺子什么的。 | Māma gěi wǒ zuò le hěn duō cài: yú, ròu, jiǎozi shénme de. | Mẹ nấu cho mình rất nhiều món: cá, thịt, sủi cảo, v.v.
+> 姐姐给我画了一只大大的猫，真好看。 | Jiějie gěi wǒ huà le yì zhī dàdà de māo, zhēn hǎokàn. | Chị gái vẽ cho mình một con mèo to ơi là to, đẹp thật.
 > 晚上，朋友们来我家，我们一起过生日。 | Wǎnshang, péngyoumen lái wǒ jiā, wǒmen yìqǐ guò shēngrì. | Buổi tối, các bạn đến nhà mình, bọn mình cùng nhau tổ chức sinh nhật.
 > 小明送我一个东西，我打开一看，是一件红色的衣服。 | Xiǎo Míng sòng wǒ yí gè dōngxi, wǒ dǎkāi yí kàn, shì yí jiàn hóngsè de yīfu. | Tiểu Minh tặng mình một món quà, mình mở ra xem, là một cái áo màu đỏ.
 > 大家都说：“生日快乐！” | Dàjiā dōu shuō: “Shēngrì kuàilè!” | Mọi người đều nói: “Chúc mừng sinh nhật!”
-> 晚上我在床上想：这个生日真快乐，我不会忘了它！ | Wǎnshang wǒ zài chuáng shang xiǎng: zhège shēngrì zhēn kuàilè, wǒ bú huì wàngle tā! | Buổi tối nằm trên giường mình nghĩ: sinh nhật này thật vui, mình sẽ không quên nó!
+> 晚上我在床上想：这个生日真快乐，我不会忘了它！ | Wǎnshang wǒ zài chuáng shang xiǎng: zhège shēngrì zhēn kuàilè, wǒ bú huì wàng le tā! | Buổi tối nằm trên giường mình nghĩ: sinh nhật này thật vui, mình sẽ không quên nó!
 ? 妈妈给小文做了什么菜？ | 鱼、肉和饺子 | 鱼、肉和包子; 面条儿和饺子
 ?= Mẹ nấu những món gì cho Tiểu Văn?
 ? 小明送小文什么？ | 一件红色的衣服 | 一本书; 一只猫
@@ -153,11 +153,11 @@ $ 小明; 小文; 小李; 小张; 李明
 @ Mười năm bên nhau
 % doan-van
 > 我叫李明，我和妻子认识已经十年了。 | Wǒ jiào Lǐ Míng, wǒ hé qīzi rènshi yǐjīng shí nián le. | Tôi tên là Lý Minh, tôi và vợ quen nhau đã mười năm rồi.
-> 十年前的今天，我在一个小饭馆认识了她。 | Shí nián qián de jīntiān, wǒ zài yí gè xiǎo fànguǎn rènshile tā. | Đúng ngày này mười năm trước, tôi quen cô ấy ở một quán ăn nhỏ.
+> 十年前的今天，我在一个小饭馆认识了她。 | Shí nián qián de jīntiān, wǒ zài yí gè xiǎo fànguǎn rènshi le tā. | Đúng ngày này mười năm trước, tôi quen cô ấy ở một quán ăn nhỏ.
 > 那个饭馆在一个书店的右边。 | Nàge fànguǎn zài yí gè shūdiàn de yòubian. | Quán ăn đó ở bên phải một hiệu sách.
 > 今天晚上，我们还去那个饭馆吃饭。 | Jīntiān wǎnshang, wǒmen hái qù nàge fànguǎn chī fàn. | Tối nay, chúng tôi vẫn đến quán ăn đó ăn cơm.
 > 现在饭馆比十年前大一点儿，菜也很好吃。 | Xiànzài fànguǎn bǐ shí nián qián dà yìdiǎnr, cài yě hěn hǎochī. | Bây giờ quán ăn lớn hơn mười năm trước một chút, món ăn cũng rất ngon.
-> 我点了妻子爱吃的鱼，还送了她一块手表和一些花。 | Wǒ diǎnle qīzi ài chī de yú, hái sòngle tā yí kuài shǒubiǎo hé yìxiē huā. | Tôi gọi món cá vợ thích ăn, còn tặng cô ấy một chiếc đồng hồ và một ít hoa.
+> 我点了妻子爱吃的鱼，还送了她一块手表和一些花。 | Wǒ diǎn le qīzi ài chī de yú, hái sòng le tā yí kuài shǒubiǎo hé yìxiē huā. | Tôi gọi món cá vợ thích ăn, còn tặng cô ấy một chiếc đồng hồ và một ít hoa.
 > 妻子说：“虽然你工作很忙，但是你还记得今天，我很高兴！” | Qīzi shuō: “Suīrán nǐ gōngzuò hěn máng, dànshì nǐ hái jìde jīntiān, wǒ hěn gāoxìng!” | Vợ tôi nói: “Tuy anh làm việc rất bận, nhưng anh vẫn nhớ ngày hôm nay, em rất vui!”
 > 我觉得和她在一起的每一天都很有意思。 | Wǒ juéde hé tā zài yìqǐ de měi yì tiān dōu hěn yǒu yìsi. | Tôi thấy mỗi ngày ở bên cô ấy đều rất thú vị.
 ? 李明和妻子是在哪儿认识的？ | 一个小饭馆 | 一个书店; 一个商场

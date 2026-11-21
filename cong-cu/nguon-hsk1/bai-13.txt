@@ -10,8 +10,8 @@
 
 @睡 | thụy
 - 动 | ngủ
-> 你睡了吗？ | Nǐ shuìle ma? | Bạn ngủ chưa?
-> 我昨天睡了八个小时。 | Wǒ zuótiān shuìle bā gè xiǎoshí. | Hôm qua tôi ngủ tám tiếng.
+> 你睡了吗？ | Nǐ shuì le ma? | Bạn ngủ chưa?
+> 我昨天睡了八个小时。 | Wǒ zuótiān shuì le bā gè xiǎoshí. | Hôm qua tôi ngủ tám tiếng.
 
 @睡觉 | thụy giác
 - 动 | ngủ, đi ngủ
@@ -39,7 +39,7 @@
 
 @了 | liễu
 - 助 | trợ từ: (sau động từ) hành động đã hoàn thành; (cuối câu) sự thay đổi, tình huống mới
-> 我买了一本书。 | Wǒ mǎile yì běn shū. | Tôi đã mua một quyển sách.
+> 我买了一本书。 | Wǒ mǎi le yì běn shū. | Tôi đã mua một quyển sách.
 > 下雨了。 | Xià yǔ le. | Trời mưa rồi.
 * 了 không hoàn toàn giống “đã”. Phủ định việc đã xảy ra dùng 没(有) và bỏ 了: 我没买书, không nói 我没买了书.
 

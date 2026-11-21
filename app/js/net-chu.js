@@ -51,6 +51,12 @@ export function taiNetChu() {
   return henDuLieu;
 }
 
+/**
+ * Số nét sai tối đa mà vẫn tính là viết đúng, theo độ dài chữ (bản soát chuyên gia 6.5):
+ * chữ ≤ 5 nét → 1 · 6–9 nét → 2 · ≥ 10 nét → 3. (Trước đây mọi chữ đều cho sai 3 nét – quá rộng với 口, 人, 大.)
+ */
+export const saiToiDa = (soNet) => (soNet <= 5 ? 1 : soNet <= 9 ? 2 : 3);
+
 /** Màu nét theo giao diện sáng/tối đang dùng (đọc từ biến CSS). */
 function mauNet() {
   const css = getComputedStyle(document.documentElement);

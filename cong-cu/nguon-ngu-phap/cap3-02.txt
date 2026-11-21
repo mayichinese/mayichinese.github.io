@@ -33,12 +33,12 @@
 - Ở cấp 2 đã học 门口坐着一个人 (trạng thái, dùng 着); ở đây là sự thay đổi nên dùng 了 hoặc bổ ngữ.
 ! Đầu câu là nơi chốn, không thêm 在: nói 前面走过来一个人, không nói 在前面走过来一个人.
 ! Kể chuyện đã xảy ra thì sau động từ phải có 了 hoặc bổ ngữ: nói 我们班来了一个新同学, không nói 我们班来一个新同学.
-> 前面/走/过来/一个/人。 | Qiánmiàn zǒu guòlái yí ge rén. | Phía trước có một người đi tới.
+> 前面/走/过来/一个/人。 | Qiánmiàn zǒu guòlai yí ge rén. | Phía trước có một người đi tới.
 > 我们/班/来/了/两个/新/同学。 | Wǒmen bān lái le liǎng ge xīn tóngxué. | Lớp chúng tôi có hai bạn mới đến.
 > 我/家/少/了/一个/碗。 | Wǒ jiā shǎo le yí ge wǎn. | Nhà tôi mất một cái bát.
-> 楼上/搬/走/了/一家/人。 | Lóu shàng bān zǒu le yì jiā rén. | Trên lầu có một gia đình chuyển đi rồi.
+> 楼上/搬/走/了/一家/人。 | Lóu shàng bānzǒu le yì jiā rén. | Trên lầu có một gia đình chuyển đi rồi.
 ? 我的包里少___一百块钱。 | 了 | 的; 着; 得 | Wǒ de bāo lǐ shǎo le yìbǎi kuài qián. | Trong túi tôi mất một trăm tệ.
-? 前面走___一个人。 | 过来 | 起来; 得; 地 | Qiánmiàn zǒu guòlái yí ge rén. | Phía trước có một người đi tới.
+? 前面走___一个人。 | 过来 | 起来; 得; 地 | Qiánmiàn zǒu guòlai yí ge rén. | Phía trước có một người đi tới.
 ? 我们班___了一位新老师。 | 来 | 在; 是; 对 | Wǒmen bān lái le yí wèi xīn lǎoshī. | Lớp chúng tôi có một thầy giáo mới đến.
 
 ## le-jiu
@@ -142,7 +142,7 @@
 > 请/大家/记/住/这/个/字。 | Qǐng dàjiā jìzhù zhège zì. | Mời mọi người nhớ kỹ chữ này.
 ~ 大家/请/记/住/这/个/字。
 ~ 这/个/字/请/大家/记/住。
-> 谁/拿/走/了/我/的/杯子？ | Shéi ná zǒu le wǒ de bēizi? | Ai cầm mất cái cốc của tôi rồi?
+> 谁/拿/走/了/我/的/杯子？ | Shéi názǒu le wǒ de bēizi? | Ai cầm mất cái cốc của tôi rồi?
 ~ 我/的/杯子/谁/拿/走/了？
 > 外面/很/冷，/关/上/门/吧。 | Wàimiàn hěn lěng, guānshang mén ba. | Ngoài trời lạnh lắm, đóng cửa lại đi.
 ~ 外面/很/冷，/门/关/上/吧。
@@ -203,10 +203,10 @@
 - Ở đây 出来, 起来, 下来 không còn chỉ hướng đi lại mà chỉ KẾT QUẢ của hành động.
 ! Nhớ lại điều đã biết dùng 想起来, nghĩ ra cái mới dùng 想出来: 我想起来了 (tôi nhớ ra rồi) khác 我想出来了 (tôi nghĩ ra rồi).
 ! “Chưa nghĩ ra” là 我还没想出来; 我不想出来 lại là “tôi không muốn ra ngoài”.
-> 我/想/出来/一个/好/名字。 | Wǒ xiǎng chūlái yí ge hǎo míngzi. | Tôi đã nghĩ ra một cái tên hay.
-> 我/想/起来/了，/他/姓/张。 | Wǒ xiǎng qǐlái le, tā xìng Zhāng. | Tôi nhớ ra rồi, anh ấy họ Trương.
-> 请/写/下/你/的/电话/号码。 | Qǐng xiě xià nǐ de diànhuà hàomǎ. | Xin hãy ghi lại số điện thoại của bạn.
-> 他/写/下/了/自己/的/电话/号码。 | Tā xiě xià le zìjǐ de diànhuà hàomǎ. | Anh ấy đã ghi lại số điện thoại của mình.
-? 这个问题太难了，我想了很久也没想___。 | 出来 | 下来; 进去; 回来 | Zhège wèntí tài nán le, wǒ xiǎng le hěn jiǔ yě méi xiǎng chūlái. | Câu hỏi này khó quá, tôi nghĩ rất lâu mà vẫn chưa nghĩ ra.
-? 他叫什么？我想___了，他叫小张。 | 起来 | 下来; 进来; 回去 | Tā jiào shénme? Wǒ xiǎng qǐlái le, tā jiào Xiǎo Zhāng. | Anh ấy tên gì nhỉ? Tôi nhớ ra rồi, anh ấy tên là Tiểu Trương.
-? 请你写___你的电话号码。 | 下 | 去; 进; 回 | Qǐng nǐ xiě xià nǐ de diànhuà hàomǎ. | Bạn hãy ghi lại số điện thoại của bạn.
+> 我/想/出来/一个/好/名字。 | Wǒ xiǎng chūlai yí ge hǎo míngzi. | Tôi đã nghĩ ra một cái tên hay.
+> 我/想/起来/了，/他/姓/张。 | Wǒ xiǎng qǐlai le, tā xìng Zhāng. | Tôi nhớ ra rồi, anh ấy họ Trương.
+> 请/写/下/你/的/电话/号码。 | Qǐng xiěxià nǐ de diànhuà hàomǎ. | Xin hãy ghi lại số điện thoại của bạn.
+> 他/写/下/了/自己/的/电话/号码。 | Tā xiěxià le zìjǐ de diànhuà hàomǎ. | Anh ấy đã ghi lại số điện thoại của mình.
+? 这个问题太难了，我想了很久也没想___。 | 出来 | 下来; 进去; 回来 | Zhège wèntí tài nán le, wǒ xiǎng le hěn jiǔ yě méi xiǎng chūlai. | Câu hỏi này khó quá, tôi nghĩ rất lâu mà vẫn chưa nghĩ ra.
+? 他叫什么？我想___了，他叫小张。 | 起来 | 下来; 进来; 回去 | Tā jiào shénme? Wǒ xiǎng qǐlai le, tā jiào Xiǎo Zhāng. | Anh ấy tên gì nhỉ? Tôi nhớ ra rồi, anh ấy tên là Tiểu Trương.
+? 请你写___你的电话号码。 | 下 | 去; 进; 回 | Qǐng nǐ xiěxià nǐ de diànhuà hàomǎ. | Bạn hãy ghi lại số điện thoại của bạn.

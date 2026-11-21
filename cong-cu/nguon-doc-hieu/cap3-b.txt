@@ -12,7 +12,7 @@ $ 小明; 小文; 小李; 小张; 李明
 > 小明 | 你看这条黄色的怎么样？颜色好看极了。 | Nǐ kàn zhè tiáo huángsè de zěnmeyàng? Yánsè hǎokàn jí le. | Bạn xem chiếc màu vàng này thế nào? Màu đẹp cực kỳ.
 > 小文 | 我试了一下，这条有点儿短，大小也不太合适。 | Wǒ shì le yíxià, zhè tiáo yǒudiǎnr duǎn, dàxiǎo yě bú tài héshì. | Mình thử rồi, chiếc này hơi ngắn, cỡ cũng không vừa lắm.
 > 小明 | 那条红色的呢？它比这条更长。 | Nà tiáo hóngsè de ne? Tā bǐ zhè tiáo gèng cháng. | Thế chiếc màu đỏ kia thì sao? Nó còn dài hơn chiếc này.
-> 小文 | 红色的不但大小合适，而且穿着很舒服。 | Hóngsè de búdàn dàxiǎo héshì, érqiě chuānzhe hěn shūfu. | Chiếc màu đỏ không những vừa cỡ mà mặc vào còn rất thoải mái.
+> 小文 | 红色的不但大小合适，而且穿着很舒服。 | Hóngsè de búdàn dàxiǎo héshì, érqiě chuān zhe hěn shūfu. | Chiếc màu đỏ không những vừa cỡ mà mặc vào còn rất thoải mái.
 > 小文 | 这条三百五十块，比黄色的贵一点儿，但是我很喜欢。 | Zhè tiáo sānbǎi wǔshí kuài, bǐ huángsè de guì yìdiǎnr, dànshì wǒ hěn xǐhuan. | Chiếc này ba trăm năm mươi tệ, đắt hơn chiếc màu vàng một chút, nhưng mình rất thích.
 > 小明 | 我也想买一件衬衫和一条短裤，我的衣服都太旧了。 | Wǒ yě xiǎng mǎi yí jiàn chènshān hé yì tiáo duǎnkù, wǒ de yīfu dōu tài jiù le. | Mình cũng muốn mua một chiếc áo sơ mi và một chiếc quần soóc, quần áo của mình cũ quá rồi.
 > 小文 | 这件白色的衬衫一百块，这条短裤八十块，一共一百八十块。 | Zhè jiàn báisè de chènshān yìbǎi kuài, zhè tiáo duǎnkù bāshí kuài, yígòng yìbǎi bāshí kuài. | Chiếc áo sơ mi màu trắng này một trăm tệ, chiếc quần soóc này tám mươi tệ, tổng cộng một trăm tám mươi tệ.
@@ -101,9 +101,9 @@ $ 小明; 小文; 小李; 小张; 李明
 > 经理 | 那当然可以。只是后天有一个重要的会议，你能参加吗？ | Nà dāngrán kěyǐ. Zhǐshì hòutiān yǒu yí gè zhòngyào de huìyì, nǐ néng cānjiā ma? | Thế thì tất nhiên được. Có điều ngày kia có một cuộc họp quan trọng, cậu dự được không?
 > 小张 | 会议在公司开，还是在别的城市开？ | Huìyì zài gōngsī kāi, háishi zài biéde chéngshì kāi? | Cuộc họp tổ chức ở công ty hay ở thành phố khác ạ?
 > 经理 | 在公司，下午两点，地点是三楼会议室。 | Zài gōngsī, xiàwǔ liǎng diǎn, dìdiǎn shì sān lóu huìyìshì. | Ở công ty, hai giờ chiều, địa điểm là phòng họp tầng ba.
-> 小张 | 看来我只能开完会再走了。我今天晚上就把这个月的工作做完，再把下个星期的事情发到您的邮箱。 | Kànlái wǒ zhǐ néng kāi wán huì zài zǒu le. Wǒ jīntiān wǎnshang jiù bǎ zhège yuè de gōngzuò zuò wán, zài bǎ xià gè xīngqī de shìqing fā dào nín de yóuxiāng. | Xem ra tôi chỉ có thể họp xong rồi mới đi. Tối nay tôi sẽ làm xong việc của tháng này, rồi gửi các việc của tuần sau vào hộp thư của anh.
+> 小张 | 看来我只能开完会再走了。我今天晚上就把这个月的工作做完，再把下个星期的事情发到您的邮箱。 | Kànlái wǒ zhǐ néng kāiwán huì zài zǒu le. Wǒ jīntiān wǎnshang jiù bǎ zhège yuè de gōngzuò zuòwán, zài bǎ xià gè xīngqī de shìqing fādào nín de yóuxiāng. | Xem ra tôi chỉ có thể họp xong rồi mới đi. Tối nay tôi sẽ làm xong việc của tháng này, rồi gửi các việc của tuần sau vào hộp thư của anh.
 > 小张 | 我不在的时候，我的同事小李愿意帮我。有问题您可以找他，或者给我打电话。 | Wǒ bú zài de shíhou, wǒ de tóngshì Xiǎo Lǐ yuànyì bāng wǒ. Yǒu wèntí nín kěyǐ zhǎo tā, huòzhě gěi wǒ dǎ diànhuà. | Lúc tôi vắng mặt, đồng nghiệp Tiểu Lý sẵn lòng giúp tôi. Có vấn đề gì anh có thể tìm cậu ấy, hoặc gọi điện cho tôi.
-> 经理 | 好，问题解决了！对每个人来说，家人都很重要。后天开完会，你就可以离开。 | Hǎo, wèntí jiějué le! Duì měi gè rén láishuō, jiārén dōu hěn zhòngyào. Hòutiān kāi wán huì, nǐ jiù kěyǐ líkāi. | Được, vấn đề giải quyết xong rồi! Đối với mỗi người, gia đình đều rất quan trọng. Ngày kia họp xong là cậu có thể đi.
+> 经理 | 好，问题解决了！对每个人来说，家人都很重要。后天开完会，你就可以离开。 | Hǎo, wèntí jiějué le! Duì měi gè rén láishuō, jiārén dōu hěn zhòngyào. Hòutiān kāiwán huì, nǐ jiù kěyǐ líkāi. | Được, vấn đề giải quyết xong rồi! Đối với mỗi người, gia đình đều rất quan trọng. Ngày kia họp xong là cậu có thể đi.
 ? 小张为什么想请假？ | 他妈妈病了 | 他要去旅游; 他自己生病了; 他要去别的城市开会
 ?= Vì sao Tiểu Trương muốn xin nghỉ?
 ? 后天的会议在哪儿开？ | 公司三楼的会议室 | 别的城市; 小张的家里

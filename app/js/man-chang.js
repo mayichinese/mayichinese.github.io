@@ -16,13 +16,13 @@
 
 import { layTienDo, luu, nhatKyHomNay, ghiLuot, caiDat } from './luu-tru.js';
 import { tinhLichMoi, DANH_GIA } from './lich-on.js';
-import { tatCaTu, timBaiTheoMa, nhanBai, nghiaNgan } from './du-lieu.js';
+import { tatCaTu, timBaiTheoMa, nhanBai, nghiaNgan, tiengDoc } from './du-lieu.js';
 import { doc, tinhTrangPhatAm } from './phat-am.js';
 import { demHomNay } from './phien-hoc.js';
 import { esc, batDongHo, htmlMatSau, nutLoa } from './giao-dien.js';
 import { toMauPinyin, toMauChuHan, demChuHan, bienTheThanh } from './pinyin.js';
 import { tron, taiDaAm, taoCau, htmlDeBai, htmlLuaChon } from './cau-hoi-tu.js';
-import { taiNetChu, taoBangVe, phatHoatCanh } from './net-chu.js';
+import { taiNetChu, taoBangVe, phatHoatCanh, saiToiDa } from './net-chu.js';
 import { ganKhungNoi } from './man-luyen-noi.js';
 import { coNhanDang, coGhiAm } from './nhan-giong.js';
 import { DIEM_DAT } from './cham-phat-am.js';
@@ -285,7 +285,7 @@ export function veChang(khung, maBai, so, soCua = 0) {
       <div class="tu-sau-tra-loi">
         <span class="han tu-lon">${toMauChuHan(w.hanzi, w.pinyin)}</span>
         <span class="giua"><span class="pinyin">${toMauPinyin(w.pinyin, demChuHan(w.hanzi))}</span>
-          <span class="chu-phu nho">${esc(nghiaNgan(w))}</span></span>${nutLoa(w.hanzi, true)}
+          <span class="chu-phu nho">${esc(nghiaNgan(w))}</span></span>${nutLoa(tiengDoc(w), true)}
       </div>`;
 
     /** Hiện phản hồi + nút Tiếp ở cuối vùng trả lời */
@@ -321,7 +321,7 @@ export function veChang(khung, maBai, so, soCua = 0) {
       $the.innerHTML = `${nhanKy(m, '<span class="nhan nhan-vang">✨ Từ mới</span>')}${htmlMatSau(m.tu)}`;
       $vung.innerHTML = '';
       hienPhanHoi(null, '<span class="chu-phu nho">Nghe vài lần, đọc theo khẽ, nhìn câu ví dụ – lát nữa app sẽ hỏi lại.</span>', 'Đã hiểu – tiếp ▶');
-      doc(m.tu.hanzi);
+      doc(tiengDoc(m.tu));
     }
 
     // ----- Câu trắc nghiệm về một từ (nghe / ghép) -----
@@ -334,7 +334,7 @@ export function veChang(khung, maBai, so, soCua = 0) {
         </div>`;
       $vung.innerHTML = `${htmlLuaChon(cau)}
         <p class="phim-tat">Phím tắt: 1–4 chọn đáp án${cau.dang.startsWith('nghe') ? ' · Space = nghe lại' : ''}</p>`;
-      const nghe = (cham) => doc(m.tu.hanzi, cham ? 0.55 : undefined);
+      const nghe = (cham) => doc(tiengDoc(m.tu), cham ? 0.55 : undefined);
       if (cau.dang.startsWith('nghe')) {
         $the.querySelector('#nut-nghe').onclick = () => nghe(false);
         $the.querySelector('#nut-cham').onclick = () => nghe(true);
@@ -360,7 +360,7 @@ export function veChang(khung, maBai, so, soCua = 0) {
             hoiLai(m);
           }
           hienPhanHoi(dung, tuNho(m.tu));
-          if (!cau.dang.startsWith('nghe')) doc(m.tu.hanzi);
+          if (!cau.dang.startsWith('nghe')) doc(tiengDoc(m.tu));
         };
       });
     }
@@ -375,7 +375,7 @@ export function veChang(khung, maBai, so, soCua = 0) {
           <p class="han tu-hoi">${toMauChuHan(w.hanzi, w.pinyin)}</p>
           <p class="pinyin pinyin-to" style="margin:0">${toMauPinyin(w.pinyin, demChuHan(w.hanzi))}</p>
           <p class="chu-phu" style="margin:0">${esc(nghiaNgan(w))}</p>
-          ${nutLoa(w.hanzi)}
+          ${nutLoa(tiengDoc(w))}
         </div>`;
       $vung.innerHTML = `
         <div id="vung-noi"></div>
@@ -408,7 +408,7 @@ export function veChang(khung, maBai, so, soCua = 0) {
         tiepTheo();
       };
       m.nutTiep = '#nut-tiep-noi';
-      setTimeout(() => { if (muc === m) doc(w.hanzi); }, 250);
+      setTimeout(() => { if (muc === m) doc(tiengDoc(w)); }, 250);
     }
 
     // ----- ✍️ Tô theo nét -----
@@ -429,6 +429,8 @@ export function veChang(khung, maBai, so, soCua = 0) {
         </div>`;
       $vung.querySelector('#nut-bo-viet').onclick = tiepTheo;
       let writer = null;
+      let nguong = 3;   // số nét sai tối đa vẫn tính đúng, theo số nét của chữ (net-chu.js saiToiDa)
+      taiNetChu().then((d) => { const n = d.net[m.chu]?.strokes.length; if (n) nguong = saiToiDa(n); }).catch(() => {});
       const batDauTo = () => writer.quiz({
         showHintAfterMisses: 2,
         onMistake: (d) => {
@@ -438,12 +440,12 @@ export function veChang(khung, maBai, so, soCua = 0) {
         onComplete: (kq) => {
           if (daRoi || muc !== m) return;
           ketQua.viet.tong++;
-          if (kq.totalMistakes <= 3) ketQua.viet.dung++;
-          amCham(kq.totalMistakes <= 3);
+          if (kq.totalMistakes <= nguong) ketQua.viet.dung++;
+          amCham(kq.totalMistakes <= nguong);
           const nk = nhatKyHomNay();
           nk.viet = (nk.viet || 0) + 1;
           $vung.innerHTML = '';
-          hienPhanHoi(kq.totalMistakes <= 3,
+          hienPhanHoi(kq.totalMistakes <= nguong,
             `<span class="chu-phu nho">${kq.totalMistakes ? `Sai ${kq.totalMistakes} nét` : 'Không sai nét nào'} · luyện thêm ở Ôn luyện → Viết chữ.</span>`);
         },
       });

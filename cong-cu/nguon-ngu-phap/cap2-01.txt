@@ -77,6 +77,7 @@
 ~ 我/买/了/一杯/茶/给/你。
 > 你/跟/老师/说/了/吗？ | Nǐ gēn lǎoshī shuō le ma? | Bạn đã nói với thầy chưa?
 > 我/跟/朋友/一起/去/旅游。 | Wǒ gēn péngyou yìqǐ qù lǚyóu. | Tôi đi du lịch cùng bạn bè.
+~ 朋友/跟/我/一起/去/旅游。
 ? 晚上我___你打电话。 | 给 | 在; 是; 有 | Wǎnshang wǒ gěi nǐ dǎ diànhuà. | Tối tôi gọi điện cho bạn.
 ? 这件事你___妈妈说了吗？ | 跟 | 是; 在; 也 | Zhè jiàn shì nǐ gēn māma shuō le ma? | Chuyện này bạn đã nói với mẹ chưa?
 ? 我想___他一起去看电影。 | 跟 | 给; 是; 在 | Wǒ xiǎng gēn tā yìqǐ qù kàn diànyǐng. | Tôi muốn đi xem phim cùng anh ấy.

@@ -6,7 +6,7 @@
 @搬 | ban
 - 动 | khiêng, bê, chuyển
 > 这个箱子太重了，我们一起搬吧。 | Zhège xiāngzi tài zhòng le, wǒmen yìqǐ bān ba. | Cái thùng này nặng quá, chúng mình cùng khiêng đi.
-> 他们上个月搬到这个小区了。 | Tāmen shàng ge yuè bān dào zhège xiǎoqū le. | Tháng trước họ chuyển đến khu nhà này.
+> 他们上个月搬到这个小区了。 | Tāmen shàng ge yuè bāndào zhège xiǎoqū le. | Tháng trước họ chuyển đến khu nhà này.
 * 搬 + đồ = khiêng, chuyển đồ; 搬到 + nơi chốn = chuyển đến ở đâu.
 
 @搬家 | ban gia
@@ -75,14 +75,14 @@
 @还 | hoàn
 - 动 | trả (lại)
 > 我明天还你钱。 | Wǒ míngtiān huán nǐ qián. | Mai tôi trả tiền bạn.
-> 这本书你看完了就还给我吧。 | Zhè běn shū nǐ kàn wán le jiù huán gěi wǒ ba. | Cuốn sách này bạn đọc xong thì trả lại tôi nhé.
+> 这本书你看完了就还给我吧。 | Zhè běn shū nǐ kànwán le jiù huán gěi wǒ ba. | Cuốn sách này bạn đọc xong thì trả lại tôi nhé.
 * Đọc huán (thanh 2). Khác 还 hái (vẫn, còn – cấp 1).
 
 @环境 | hoàn cảnh
 - 名 | môi trường, khung cảnh
 > 这个小区环境很好。 | Zhège xiǎoqū huánjìng hěn hǎo. | Môi trường khu nhà này rất tốt.
 > 我很喜欢这里的学习环境。 | Wǒ hěn xǐhuan zhèlǐ de xuéxí huánjìng. | Tôi rất thích môi trường học tập ở đây.
-* Thường nghĩa là “môi trường, khung cảnh sống”, ít dùng như “hoàn cảnh (gia đình)” trong tiếng Việt.
+* Nghĩa là “môi trường, khung cảnh xung quanh”. “Hoàn cảnh (khó khăn)” của tiếng Việt thì tiếng Trung thường nói bằng từ khác; 家庭环境 vẫn có nhưng nghĩa là “môi trường trong gia đình”.
 
 @换 | hoán
 - 动 | đổi, thay
@@ -137,6 +137,7 @@
 - 名 | ngân hàng
 > 银行几点开门？ | Yínháng jǐ diǎn kāimén? | Mấy giờ ngân hàng mở cửa?
 > 我要去银行换钱。 | Wǒ yào qù yínháng huàn qián. | Tôi phải ra ngân hàng đổi tiền.
+* Dễ đọc nhầm: 行 ở đây đọc háng (hàng, ngành); trong 不行, 自行车 đọc xíng.
 
 @咱们 | cha môn
 - 代 | chúng ta, chúng mình (gồm cả người nghe)

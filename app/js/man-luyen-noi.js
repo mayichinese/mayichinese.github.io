@@ -10,7 +10,8 @@
 //
 // Chấm: cham-phat-am.js (so theo cách đọc từng chữ). Micro: nhan-giong.js.
 // Máy không nhận dạng được giọng nói → ghi âm, nghe lại và tự đánh giá.
-// Tiến độ: tienDo.noi = { tu: { khóa: { diem, lan, luc } }, dung: { "shi4": n }, sai: { "shi4": n }, soCau, tongDiem }
+// Tiến độ: tienDo.noi = { tu: { khóa: { diem, dau, lan, luc } }, dung: { "shi4": n }, sai: { "shi4": n }, soCau, tongDiem }
+//   diem = điểm cao nhất (để chọn từ cần luyện); soCau/tongDiem/dung/sai tính theo LẦN ĐỌC ĐẦU (phản ánh trình độ thật)
 //   nk.noi = số câu nói đạt (≥ 70 điểm) trong ngày; lượt xong → ghiLuot('noi', ...)
 // Thời gian luyện nói tính vào phần "nghe" (Nghe & nói) của biểu đồ.
 // =========================================================
@@ -23,7 +24,7 @@ import { esc, batDongHo, moHopThoai, dongHopThoai, nutLoa, tenTuLoai } from './g
 import { toMauPinyin, toMauChuHan, demChuHan, tachPinyin } from './pinyin.js';
 import { doc } from './phat-am.js';
 import { bieuTuong } from './bieu-tuong.js';
-import { napAmDoc, chamPhatAm, nhanXet, DIEM_DAT } from './cham-phat-am.js';
+import { napAmDoc, chamPhatAm, nhanXet, nhacBienDieu, DIEM_DAT } from './cham-phat-am.js';
 import { coNhanDang, coGhiAm, ngheNoi, ghiAm } from './nhan-giong.js';
 
 export const CAC_DANG_NOI = {
@@ -49,16 +50,36 @@ function khoTu() {
   return { ds: [...daHoc, ...(bai?.tu || []).filter((t) => !td.the[t.khoa])].slice(0, 15), daHoc: false, bai };
 }
 
+const KHONG_HOI_NGHIA = ['助', '后缀', '前缀', '量', '介', '副', '叹'];
+// Từ nghĩa tiếng Việt quá rộng hoặc chỉ khác từ khác ở cách dùng: không hỏi "nói theo nghĩa"
+const TU_KHONG_HOI_NGHIA = ['打', '要', '看', '上', '下', '二', '两', '刚', '刚才', '不', '没'];
+
+/** Các phần nghĩa của một từ (tách theo dấu phẩy / chấm phẩy, bỏ phần trong ngoặc) */
+function phanNghia(t, chiNghiaDau) {
+  const ds = (t.nghia || []).slice(0, chiNghiaDau ? 1 : undefined);
+  return new Set(ds.flatMap((n) => String(n.nghia || '').replace(/\([^)]*\)/g, '').split(/[,;，；/]/))
+    .map((x) => x.trim().toLowerCase()).filter((x) => x.length >= 2));
+}
+/** Từ HSK khác có cùng một nghĩa tiếng Việt với từ đang hỏi (nói từ này cũng tính đúng nghĩa) */
+function tuDongNghia(t) {
+  const can = phanNghia(t, true);
+  if (!can.size) return [];
+  return tatCaTu().filter((x) => x.hanzi !== t.hanzi && [...phanNghia(x)].some((n) => can.has(n)))
+    .slice(0, 6).map((x) => ({ hanzi: x.hanzi, pinyin: x.pinyin }));
+}
+
 const tron = (mang) => mang.map((x) => [Math.random(), x]).sort((a, b) => a[0] - b[0]).map((x) => x[1]);
 
 /** Chọn câu hỏi: ưu tiên từ chưa luyện nói hoặc điểm thấp */
 function taoCauHoi(dang) {
   let { ds } = khoTu();
   const noi = tienDoNoi();
-  // "Nói theo nghĩa": bỏ trợ từ, tiền tố, hậu tố (nghĩa kiểu "hậu tố chỉ số nhiều" không nói ra được)
-  const KHONG_HOI_NGHIA = ['助', '后缀', '前缀'];
+  // "Nói theo nghĩa": không hỏi lượng từ, trợ từ, giới từ, phó từ, tiền tố/hậu tố, thán từ và các từ nghĩa quá rộng
+  // hoặc chỉ khác nhau về cách dùng (theo bản soát chuyên gia, mục 8.7)
   if (dang === 'noi-nghia') {
-    const loc = ds.filter((t) => !KHONG_HOI_NGHIA.includes((t.tuLoaiChinhThuc || '').split('、')[0]));
+    const loc = ds.filter((t) => !KHONG_HOI_NGHIA.includes((t.tuLoaiChinhThuc || '').split('、')[0])
+      && !(t.nghia || []).every((n) => KHONG_HOI_NGHIA.includes(n.tuLoai))
+      && !TU_KHONG_HOI_NGHIA.includes(t.hanzi));
     if (loc.length >= 4) ds = loc;
   }
   // ưu tiên từ chưa luyện nói (-10) hoặc điểm thấp, có trộn ngẫu nhiên
@@ -66,7 +87,8 @@ function taoCauHoi(dang) {
   const tu = [...ds].sort((a, b) => khoaUuTien.get(a) - khoaUuTien.get(b));
   const so = CAC_DANG_NOI[dang].so;
   if (dang === 'doc-tu' || dang === 'noi-nghia') {
-    return tron(tu.slice(0, so)).map((t) => ({ hanzi: t.hanzi, pinyin: t.pinyin, khoa: t.khoa, tu: t }));
+    return tron(tu.slice(0, so)).map((t) => ({ hanzi: t.hanzi, pinyin: t.pinyin, khoa: t.khoa, tu: t,
+      dongNghia: dang === 'noi-nghia' ? tuDongNghia(t) : [] }));
   }
   // câu ví dụ: câu ngắn (nhắc lại cần ngắn hơn vì phải nhớ)
   const toiDa = dang === 'nhac-lai' ? 9 : 12;
@@ -133,8 +155,15 @@ export function ganKhungNoi(vung, muc, khiCham) {
     $('.chu-dang-nghe').hidden = true;
     trangThai('Bấm 🎤 để đọc lại');
     if (!cacCach.length) return;
-    const kq = chamPhatAm(muc.hanzi, muc.pinyin, cacCach);
-    $('.ket-qua-noi').innerHTML = htmlKetQua(kq);
+    let kq = chamPhatAm(muc.hanzi, muc.pinyin, cacCach, { laTu: !muc.laCau });
+    // Nói một từ khác cùng nghĩa (知道 thay cho 认识…) → tính đúng nghĩa, nhắc từ đang học
+    if (kq.diem < DIEM_DAT) {
+      for (const dn of muc.dongNghia || []) {
+        const kq2 = chamPhatAm(dn.hanzi, dn.pinyin, cacCach, { laTu: true });
+        if (kq2.diem >= DIEM_DAT) { kq = { ...kq2, dongNghia: dn, tuDangHoc: muc }; break; }
+      }
+    }
+    $('.ket-qua-noi').innerHTML = htmlKetQua(kq, muc);
     khiCham(kq);
   }
 
@@ -192,32 +221,47 @@ export function ganKhungNoi(vung, muc, khiCham) {
   };
 }
 
-function htmlKetQua(kq) {
+function htmlKetQua(kq, muc) {
   const nx = nhanXet(kq.diem);
   const ghiChu = { thanh: (c) => `bạn: ${esc(c.ngheAm || '?')}`, sai: () => 'sai', thieu: () => 'thiếu' };
+  const saiThanh = (kq.saiThanh || []).map((c) => `<span class="han">${esc(c.chu)}</span> (bạn đọc ${esc(c.ngheAm || '?')}, đúng là ${esc((c.py || '').toLowerCase())})`);
+  const coBienDieu = muc && nhacBienDieu(muc.hanzi, muc.pinyin).length;
   return `
     <div class="ket-qua-cham muc-${nx.muc}">
       <div class="diem-noi"><b>${kq.diem}</b><span>điểm</span></div>
       <p class="nhan-xet-noi">${nx.emoji} ${esc(nx.chu)}</p>
     </div>
+    ${kq.dongNghia ? `<p class="nhac-noi dung-nghia">✅ Đúng nghĩa! Bạn nói <span class="han">${esc(kq.dongNghia.hanzi)}</span>. Từ đang học là
+      <span class="han">${esc(kq.tuDangHoc.hanzi)}</span> <span class="pinyin">${esc(kq.tuDangHoc.pinyin)}</span>.</p>` : ''}
+    ${saiThanh.length ? `<p class="nhac-noi">🎵 Sai thanh ở chữ ${saiThanh.join(', ')}.${muc && !muc.laCau ? ' Đọc từ phải đúng mọi thanh mới đạt.' : ''}</p>` : ''}
     <div class="chu-cham">${kq.chiTiet.map((c) => `
       <span class="o-cham ${c.kq}">
         <span class="han">${esc(c.chu)}</span>
         ${c.py ? `<small class="pinyin">${esc(c.py.toLowerCase())}</small>` : ''}
         ${ghiChu[c.kq] ? `<small class="ghi-chu-cham">${ghiChu[c.kq](c)}</small>` : ''}
       </span>`).join('')}</div>
-    <p class="chu-phu nho may-nghe">Máy nghe được: <span class="han">${esc(kq.vanBan) || '…'}</span></p>`;
+    <p class="chu-phu nho may-nghe">Máy nghe được: <span class="han">${esc(kq.vanBan) || '…'}</span></p>
+    ${coBienDieu ? '<p class="chu-phu nho may-nghe">ℹ️ Máy không chấm được biến điệu – hãy nghe mẫu và tự so.</p>' : ''}`;
 }
 
-/** Ghi kết quả một câu vào tiến độ */
-function ghiKetQua(muc, kq, coGhiTu) {
+/** Lời nhắc biến điệu hiện trước khi đọc */
+function htmlNhacBienDieu(hanzi, pinyin) {
+  const nhac = nhacBienDieu(hanzi, pinyin);
+  return nhac.length ? `<p class="nhac-bien-dieu">💡 ${nhac.map((x) => esc(x)).join('<br>💡 ')}</p>` : '';
+}
+
+/**
+ * Ghi kết quả một câu vào tiến độ.
+ * kq = lần tốt nhất (để chọn từ cần luyện, tính câu đạt); kqDau = lần đọc ĐẦU TIÊN (thống kê trình độ)
+ */
+function ghiKetQua(muc, kq, coGhiTu, kqDau = kq) {
   const noi = tienDoNoi();
   if (coGhiTu && muc.khoa) {
     const cu = noi.tu[muc.khoa] || { lan: 0 };
-    noi.tu[muc.khoa] = { diem: kq.diem, lan: cu.lan + 1, luc: Date.now() };
+    noi.tu[muc.khoa] = { diem: kq.diem, dau: kqDau.diem, lan: cu.lan + 1, luc: Date.now() };
   }
-  if (!kq.tuCham) {
-    for (const c of kq.chiTiet) {
+  if (!kqDau.tuCham) {
+    for (const c of kqDau.chiTiet) {
       if (!c.py) continue;
       const am = c.py.toLowerCase();
       const bang = c.kq === 'dung' ? noi.dung : noi.sai;
@@ -225,7 +269,7 @@ function ghiKetQua(muc, kq, coGhiTu) {
     }
   }
   noi.soCau = (noi.soCau || 0) + 1;
-  noi.tongDiem = (noi.tongDiem || 0) + kq.diem;
+  noi.tongDiem = (noi.tongDiem || 0) + kqDau.diem;
   const nk = nhatKyHomNay();
   if (kq.diem >= DIEM_DAT) nk.noi = (nk.noi || 0) + 1;
   luu();
@@ -266,7 +310,7 @@ export function veLuyenNoi(khung) {
     </div>
     <h3 class="tieu-de-muc">Kết quả của bạn</h3>
     <div class="khung">
-      ${noi.soCau ? `<p style="margin:0">Đã nói <b>${noi.soCau}</b> câu · điểm trung bình <b>${tb}</b></p>` : '<p class="chu-phu" style="margin:0">Chưa luyện câu nào.</p>'}
+      ${noi.soCau ? `<p style="margin:0">Đã nói <b>${noi.soCau}</b> câu · điểm trung bình lần đọc đầu <b>${tb}</b></p>` : '<p class="chu-phu" style="margin:0">Chưa luyện câu nào.</p>'}
       ${amSai.length ? `
         <p class="chu-phu nho" style="margin:10px 0 6px">Âm bạn hay đọc chưa đúng (chạm để nghe):</p>
         <div class="hang-am-sai">${amSai.map(([am, s]) => `<button class="chip-am" data-am="${esc(am)}"><span class="pinyin">${esc(am)}</span><small>${s}×</small></button>`).join('')}</div>
@@ -301,6 +345,7 @@ export function vePhienNoi(khung, dang) {
   const ketQua = [];   // [{ muc, diem }]
   let muc = null;
   let diemTot = null;
+  let diemDau = null;
   let lanThu = 0;
 
   khung.innerHTML = `
@@ -339,6 +384,7 @@ export function vePhienNoi(khung, dang) {
         <p class="han ${muc.laCau ? 'cau-doc' : 'tu-hoi'}">${toMauChuHan(muc.hanzi, muc.pinyin)}</p>
         <p class="pinyin ${muc.laCau ? '' : 'pinyin-to'}">${toMauPinyin(muc.pinyin, demChuHan(muc.hanzi))}</p>
         ${muc.laCau ? `<p class="chu-phu nho" style="margin:0">${esc(muc.dich)}</p>` : `<p class="chu-phu nho" style="margin:0">${esc(nghiaNgan(muc.tu))}</p>`}
+        ${htmlNhacBienDieu(muc.hanzi, muc.pinyin)}
         ${nghe}`;
     }
     $('#de-bai').innerHTML = noiDung;
@@ -355,6 +401,7 @@ export function vePhienNoi(khung, dang) {
     muc = hangDoi.shift();
     if (!muc) { ketThuc(); return; }
     diemTot = null;
+    diemDau = null;
     lanThu = 0;
     capNhat();
     $('#the').innerHTML = `
@@ -366,12 +413,13 @@ export function vePhienNoi(khung, dang) {
     $('#nut-bo-qua').onclick = () => { ketQua.push({ muc, diem: null }); cauTiep(); };
     huyKhung = ganKhungNoi($('#vung-mic'), muc, (kq) => {
       lanThu++;
+      if (diemDau === null) diemDau = kq;
       if (diemTot === null || kq.diem > diemTot.diem) diemTot = kq;
       if (lanThu === 1) hienDeBai(true);
       $('#vung-nut').innerHTML = `<button class="nut nut-chinh nut-rong" id="nut-tiep">${hangDoi.length ? 'Câu tiếp ▶' : 'Xem kết quả ▶'}</button>
-        ${diemTot.diem < DIEM_DAT ? '<p class="chu-phu nho" style="text-align:center;margin:6px 0 0">Có thể bấm 🎤 thử lại: app giữ điểm cao nhất.</p>' : ''}`;
+        ${diemTot.diem < DIEM_DAT ? '<p class="chu-phu nho" style="text-align:center;margin:6px 0 0">Có thể bấm 🎤 thử lại: app giữ điểm cao nhất (thống kê tiến bộ tính lần đọc đầu).</p>' : ''}`;
       $('#nut-tiep').onclick = () => {
-        ghiKetQua(muc, diemTot, dang === 'doc-tu' || dang === 'noi-nghia');
+        ghiKetQua(muc, diemTot, dang === 'doc-tu' || dang === 'noi-nghia', diemDau);
         ketQua.push({ muc, diem: diemTot.diem });
         cauTiep();
       };
@@ -424,11 +472,14 @@ export function moChamNhanh(hanzi, pinyin) {
       <span class="pinyin pinyin-to">${toMauPinyin(pinyin, demChuHan(hanzi))}</span>
       ${nutLoa(hanzi)}
     </div>
+    ${htmlNhacBienDieu(hanzi, pinyin)}
     <div id="vung-mic-nhanh"></div>
     <button class="nut nut-rong" data-dong style="margin-top:12px">Đóng</button>`, () => huy());
   napAmDoc().catch(() => {});
+  let daGhi = false;   // chỉ lần đọc đầu vào thống kê
   huy = ganKhungNoi(hop.querySelector('#vung-mic-nhanh'), { hanzi, pinyin, laCau: demChuHan(hanzi) > 4 }, (kq) => {
-    ghiKetQua({ hanzi, pinyin }, kq, false);
+    if (!daGhi) ghiKetQua({ hanzi, pinyin }, kq, false);
+    daGhi = true;
   });
   return dongHopThoai;
 }

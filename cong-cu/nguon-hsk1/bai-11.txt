@@ -23,7 +23,7 @@
 - 名 | trời; ngày
 > 天很热。 | Tiān hěn rè. | Trời rất nóng.
 - 量 | ngày (đếm số ngày)
-> 我在中国住了三天。 | Wǒ zài Zhōngguó zhùle sān tiān. | Tôi đã ở Trung Quốc ba ngày.
+> 我在中国住了三天。 | Wǒ zài Zhōngguó zhù le sān tiān. | Tôi đã ở Trung Quốc ba ngày.
 > 一个星期有七天。 | Yí gè xīngqī yǒu qī tiān. | Một tuần có bảy ngày.
 * Đếm ngày nói 三天, không thêm 个 (không nói 三个天).
 
@@ -39,7 +39,7 @@
 
 @去年 | khứ niên
 - 名 | năm ngoái, năm trước
-> 我去年去了中国。 | Wǒ qùnián qùle Zhōngguó. | Năm ngoái tôi đã đi Trung Quốc.
+> 我去年去了中国。 | Wǒ qùnián qù le Zhōngguó. | Năm ngoái tôi đã đi Trung Quốc.
 > 去年我在大学工作。 | Qùnián wǒ zài dàxué gōngzuò. | Năm ngoái tôi làm việc ở trường đại học.
 * 去 ở đây nghĩa là “đã qua”, không phải “đi”.
 
@@ -47,7 +47,7 @@
 - 名 | năm
 > 新年好！ | Xīnnián hǎo! | Chúc mừng năm mới!
 - 量 | năm (đếm số năm)
-> 我学了两年汉语。 | Wǒ xuéle liǎng nián Hànyǔ. | Tôi đã học tiếng Trung hai năm.
+> 我学了两年汉语。 | Wǒ xué le liǎng nián Hànyǔ. | Tôi đã học tiếng Trung hai năm.
 * Đếm năm nói 两年, không thêm 个 (không nói 两个年).
 
 @月 | nguyệt
@@ -90,5 +90,5 @@
 @第 | đệ
 - 前缀 | thứ (đặt trước số để chỉ thứ tự)
 > 我们学习第十课。 | Wǒmen xuéxí dì-shí kè. | Chúng ta học bài thứ mười.
-> 第二天他去了医院。 | Dì-èr tiān tā qùle yīyuàn. | Ngày hôm sau anh ấy đã đi bệnh viện.
+> 第二天他去了医院。 | Dì-èr tiān tā qù le yīyuàn. | Ngày hôm sau anh ấy đã đi bệnh viện.
 * 第一 = thứ nhất; 一 trong 第一 vẫn đọc yī (số thứ tự không biến điệu).

@@ -35,7 +35,7 @@ $ 小明; 小文; 小李; 小张; 李明; 李
 > 我说：“去学校吧，有问题能问老师。” | Wǒ shuō: “Qù xuéxiào ba, yǒu wèntí néng wèn lǎoshī.” | Mình nói: “Đến trường đi, có gì không hiểu thì hỏi được thầy cô.”
 > 今天下午我们在教室里学习了三个小时。 | Jīntiān xiàwǔ wǒmen zài jiàoshì li xuéxí le sān gè xiǎoshí. | Chiều nay chúng mình học trong lớp ba tiếng đồng hồ.
 > 我坐在小文后面，我写错的字，她都帮我看了。 | Wǒ zuò zài Xiǎo Wén hòumiàn, wǒ xiěcuò de zì, tā dōu bāng wǒ kàn le. | Mình ngồi sau Tiểu Văn, những chữ mình viết sai bạn ấy đều xem giúp mình.
-> 她没有笑我。我想，这次考试我能考好！ | Tā méiyǒu xiào wǒ. Wǒ xiǎng, zhè cì kǎoshì wǒ néng kǎo hǎo! | Bạn ấy không cười mình. Mình nghĩ, kỳ thi lần này mình sẽ thi tốt!
+> 她没有笑我。我想，这次考试我能考好！ | Tā méiyǒu xiào wǒ. Wǒ xiǎng, zhè cì kǎoshì wǒ néng kǎohǎo! | Bạn ấy không cười mình. Mình nghĩ, kỳ thi lần này mình sẽ thi tốt!
 ? 这次考试要考多少个汉字？ | 一百个 | 两百个; 三百个
 ?= Kỳ thi lần này thi bao nhiêu chữ Hán?
 ? 今天下午他们在哪儿学习？ | 在教室里 | 在小明家; 在小文家
@@ -52,7 +52,7 @@ $ 小明; 小文; 小李; 小张; 李明; 李
 > 小明 | 对，我头很疼，一点儿也不想动。 | Duì, wǒ tóu hěn téng, yìdiǎnr yě bù xiǎng dòng. | Ừ, mình đau đầu lắm, chẳng muốn cử động chút nào.
 > 小李 | 你吃药了吗？ | Nǐ chī yào le ma? | Bạn uống thuốc chưa?
 > 小明 | 还没有，家里没有药了。 | Hái méiyǒu, jiā li méiyǒu yào le. | Chưa, nhà hết thuốc rồi.
-> 小李 | 你在这儿坐着，别动。我去药店给你买药，路上再买一些水果。 | Nǐ zài zhèr zuòzhe, bié dòng. Wǒ qù yàodiàn gěi nǐ mǎi yào, lùshang zài mǎi yìxiē shuǐguǒ. | Bạn cứ ngồi đây, đừng cử động. Mình ra hiệu thuốc mua thuốc cho bạn, dọc đường mua thêm ít hoa quả.
+> 小李 | 你在这儿坐着，别动。我去药店给你买药，路上再买一些水果。 | Nǐ zài zhèr zuò zhe, bié dòng. Wǒ qù yàodiàn gěi nǐ mǎi yào, lùshang zài mǎi yìxiē shuǐguǒ. | Bạn cứ ngồi đây, đừng cử động. Mình ra hiệu thuốc mua thuốc cho bạn, dọc đường mua thêm ít hoa quả.
 > 小明 | 谢谢你！你身体真好，很少生病。 | Xièxie nǐ! Nǐ shēntǐ zhēn hǎo, hěn shǎo shēngbìng. | Cảm ơn bạn! Bạn khỏe thật đấy, ít khi bị ốm.
 > 小李 | 因为我经常运动。我每天早上跑步，跑得很慢，但是跑一个小时。 | Yīnwèi wǒ jīngcháng yùndòng. Wǒ měi tiān zǎoshang pǎobù, pǎo de hěn màn, dànshì pǎo yí gè xiǎoshí. | Vì mình hay tập thể dục. Sáng nào mình cũng chạy bộ, chạy chậm thôi nhưng chạy một tiếng.
 > 小明 | 运动是我最不喜欢的事。 | Yùndòng shì wǒ zuì bù xǐhuan de shì. | Tập thể dục là việc mình ghét nhất.
@@ -75,7 +75,7 @@ $ 小明; 小文; 小李; 小张; 李明; 李
 > 我哥哥每天开车去上班，但是路上车太多了。 | Wǒ gēge měi tiān kāichē qù shàngbān, dànshì lùshang chē tài duō le. | Anh trai mình ngày nào cũng lái xe đi làm, nhưng trên đường xe cộ đông quá.
 > 早上我们都七点半从家里出去，我比他到得早。 | Zǎoshang wǒmen dōu qī diǎn bàn cóng jiā li chūqù, wǒ bǐ tā dào de zǎo. | Buổi sáng hai anh em đều ra khỏi nhà lúc bảy rưỡi, mình đến sớm hơn anh ấy.
 > 今天天气不好，早上是阴天，下午下雨了。 | Jīntiān tiānqì bù hǎo, zǎoshang shì yīn tiān, xiàwǔ xià yǔ le. | Hôm nay trời xấu, buổi sáng âm u, buổi chiều thì mưa.
-> 下午五点我正要回家，外面下着大雨。 | Xiàwǔ wǔ diǎn wǒ zhèng yào huí jiā, wàimiàn xiàzhe dà yǔ. | Năm giờ chiều mình vừa định về nhà thì bên ngoài đang mưa to.
+> 下午五点我正要回家，外面下着大雨。 | Xiàwǔ wǔ diǎn wǒ zhèng yào huí jiā, wàimiàn xià zhe dà yǔ. | Năm giờ chiều mình vừa định về nhà thì bên ngoài đang mưa to.
 > 我在楼里等了半个小时，雨不下了，我就坐地铁回家了。 | Wǒ zài lóu li děng le bàn gè xiǎoshí, yǔ bú xià le, wǒ jiù zuò dìtiě huí jiā le. | Mình đợi trong tòa nhà nửa tiếng, tạnh mưa thì mình đi tàu điện ngầm về nhà.
 > 明天会是晴天吗？ | Míngtiān huì shì qíng tiān ma? | Ngày mai liệu có nắng không nhỉ?
 ? 坐地铁去公司要多长时间？ | 二十分钟 | 半个小时; 一个小时
@@ -112,12 +112,12 @@ $ 小明; 小文; 小李; 小张; 李明; 李
 @ Về nhà ông bà ăn Tết
 % doan-van
 > 过年了，我和爸爸妈妈回爷爷奶奶家。 | Guònián le, wǒ hé bàba māma huí yéye nǎinai jiā. | Tết đến rồi, mình và bố mẹ về nhà ông bà nội.
-> 奶奶家门口站着很多小孩儿，他们看见我们，就跑过来说：“过年好！” | Nǎinai jiā ménkǒu zhànzhe hěn duō xiǎoháir, tāmen kànjiàn wǒmen, jiù pǎo guòlái shuō: “Guònián hǎo!” | Trước cửa nhà bà có rất nhiều trẻ con đang đứng, thấy bọn mình liền chạy lại nói: “Chúc mừng năm mới!”
-> 爷爷正在看电视，看见我们，就笑着站起来了。 | Yéye zhèngzài kàn diànshì, kànjiàn wǒmen, jiù xiàozhe zhàn qǐlái le. | Ông đang xem ti vi, thấy bọn mình liền cười và đứng dậy.
+> 奶奶家门口站着很多小孩儿，他们看见我们，就跑过来说：“过年好！” | Nǎinai jiā ménkǒu zhàn zhe hěn duō xiǎoháir, tāmen kànjiàn wǒmen, jiù pǎo guòlai shuō: “Guònián hǎo!” | Trước cửa nhà bà có rất nhiều trẻ con đang đứng, thấy bọn mình liền chạy lại nói: “Chúc mừng năm mới!”
+> 爷爷正在看电视，看见我们，就笑着站起来了。 | Yéye zhèngzài kàn diànshì, kànjiàn wǒmen, jiù xiào zhe zhàn qǐlai le. | Ông đang xem ti vi, thấy bọn mình liền cười và đứng dậy.
 > 爸爸送给爷爷两包茶，爷爷非常高兴。 | Bàba sòng gěi yéye liǎng bāo chá, yéye fēicháng gāoxìng. | Bố tặng ông hai gói trà, ông vui lắm.
 > 晚上我们一起包饺子。我包得没有妈妈那么好看。 | Wǎnshang wǒmen yìqǐ bāo jiǎozi. Wǒ bāo de méiyǒu māma nàme hǎokàn. | Buổi tối cả nhà cùng gói sủi cảo. Mình gói không đẹp bằng mẹ.
-> 这时候，门口走进来一位先生，他姓李，是爷爷的朋友。 | Zhè shíhou, ménkǒu zǒu jìnlái yí wèi xiānsheng, tā xìng Lǐ, shì yéye de péngyou. | Lúc đó, từ cửa có một ông bước vào, ông ấy họ Lý, là bạn của ông nội.
-> 吃完饭，几个女孩儿在桌子前面唱歌跳舞。 | Chī wán fàn, jǐ gè nǚháir zài zhuōzi qiánmiàn chàng gē tiàowǔ. | Ăn xong, mấy cô bé hát và nhảy múa trước bàn.
+> 这时候，门口走进来一位先生，他姓李，是爷爷的朋友。 | Zhè shíhou, ménkǒu zǒu jìnlai yí wèi xiānsheng, tā xìng Lǐ, shì yéye de péngyou. | Lúc đó, từ cửa có một ông bước vào, ông ấy họ Lý, là bạn của ông nội.
+> 吃完饭，几个女孩儿在桌子前面唱歌跳舞。 | Chīwán fàn, jǐ gè nǚháir zài zhuōzi qiánmiàn chàng gē tiàowǔ. | Ăn xong, mấy cô bé hát và nhảy múa trước bàn.
 > 小时候我觉得过年没意思，现在我觉得过年最快乐！ | Xiǎoshíhou wǒ juéde guònián méi yìsi, xiànzài wǒ juéde guònián zuì kuàilè! | Hồi bé mình thấy Tết chẳng có gì thú vị, giờ mình thấy Tết là vui nhất!
 ? 爸爸送给爷爷什么？ | 两包茶 | 两包饺子; 一些水果
 ?= Bố tặng ông cái gì?
@@ -135,8 +135,8 @@ $ 小明; 小文; 小李; 小张; 李明; 李
 > 小明 | 对！我的飞机早上八点飞，我六点就要出门。 | Duì! Wǒ de fēijī zǎoshang bā diǎn fēi, wǒ liù diǎn jiù yào chūmén. | Đúng rồi! Máy bay của mình cất cánh lúc tám giờ sáng, sáu giờ mình đã phải ra khỏi nhà.
 > 小文 | 你家离机场有多远？ | Nǐ jiā lí jīchǎng yǒu duō yuǎn? | Nhà bạn cách sân bay bao xa?
 > 小明 | 不太近，坐出租车要一个多小时。 | Bú tài jìn, zuò chūzūchē yào yí gè duō xiǎoshí. | Không gần lắm, đi taxi mất hơn một tiếng.
-> 小文 | 你出过国吗？ | Nǐ chūguo guó ma? | Bạn đã từng ra nước ngoài chưa?
-> 小明 | 出过一次。上高中的时候，我跟爸爸妈妈去过一次中国。这次我要去五天。 | Chūguo yí cì. Shàng gāozhōng de shíhou, wǒ gēn bàba māma qùguo yí cì Zhōngguó. Zhè cì wǒ yào qù wǔ tiān. | Một lần rồi. Hồi học cấp ba, mình đã cùng bố mẹ đi Trung Quốc một lần. Lần này mình đi năm ngày.
+> 小文 | 你出过国吗？ | Nǐ chū guo guó ma? | Bạn đã từng ra nước ngoài chưa?
+> 小明 | 出过一次。上高中的时候，我跟爸爸妈妈去过一次中国。这次我要去五天。 | Chū guo yí cì. Shàng gāozhōng de shíhou, wǒ gēn bàba māma qù guo yí cì Zhōngguó. Zhè cì wǒ yào qù wǔ tiān. | Một lần rồi. Hồi học cấp ba, mình đã cùng bố mẹ đi Trung Quốc một lần. Lần này mình đi năm ngày.
 > 小文 | 那儿有什么好玩儿的？ | Nàr yǒu shénme hǎowánr de? | Ở đó có gì hay để chơi?
 > 小明 | 那儿有很多鸟，我想去看看。门票有一百多块，不太贵。 | Nàr yǒu hěn duō niǎo, wǒ xiǎng qù kànkan. Ménpiào yǒu yìbǎi duō kuài, bú tài guì. | Ở đó có rất nhiều chim, mình muốn đi xem. Vé vào cửa hơn một trăm tệ, không đắt lắm.
 > 小文 | 你能帮我一个忙吗？给我买一本那儿的书吧！ | Nǐ néng bāng wǒ yí gè máng ma? Gěi wǒ mǎi yì běn nàr de shū ba! | Bạn giúp mình một việc được không? Mua cho mình một quyển sách ở đó nhé!

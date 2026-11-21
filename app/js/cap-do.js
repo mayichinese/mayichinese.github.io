@@ -3,19 +3,19 @@
 //   - HSK 1 luôn mở.
 //   - HSK N mở khi cấp N−1 đã mở VÀ một trong các điều kiện:
 //       ① đã học hết mọi từ của cấp N−1, hoặc
-//       ② "học vượt": thi thử HSK N−1 đạt (≥ 60% tổng điểm), hoặc
+//       ② "học vượt": thi thử HSK N−1 từ 70% tổng điểm VÀ không phần nào dưới 60 (bản soát chuyên gia 6.8;
+//          mức "đạt" của bài thi thử vẫn là 60%), hoặc
 //       ③ đã học từ của cấp N từ trước (bản cũ cho chọn cấp tự do – không khóa lại tiến độ đã có).
 //   - Cấp đã mở được ghi vào tienDo.capDaMo nên không bị khóa lại (kể cả khi lịch sử thi cũ bị xóa bớt).
 // =========================================================
 
 import { layTienDo, luu } from './luu-tru.js';
 import { tatCaTu, cacCapCoDuLieu } from './du-lieu.js';
-import { thangDiem, diemCuaLan } from './man-thi-thu.js';
+import { datHocVuot, moTaHocVuot } from './man-thi-thu.js';
 
-/** Đã đạt thi thử của một cấp chưa */
+/** Đã có lần thi thử của một cấp đủ điều kiện học vượt chưa */
 export function daDatThiThu(cap) {
-  const thang = thangDiem(cap);
-  return (layTienDo().thiThu || []).some((x) => (x.cap || 1) === cap && diemCuaLan(x).tong >= thang.dat);
+  return (layTienDo().thiThu || []).some((x) => (x.cap || 1) === cap && datHocVuot(x));
 }
 
 /** Số từ của một cấp chưa học */
@@ -67,7 +67,6 @@ export function htmlCachMoKhoa(cap) {
       <p class="chu-phu nho">Hãy mở khóa HSK ${truoc} trước.</p></div>`;
   }
   const con = soTuChuaHoc(truoc);
-  const thang = thangDiem(truoc);
   return `
     <div class="khung the-khoa">
       <span class="emoji khoa-to">🔒</span>
@@ -75,7 +74,7 @@ export function htmlCachMoKhoa(cap) {
       <p class="chu-phu nho" style="margin:0">Mở khóa bằng một trong hai cách:</p>
       <ol class="cach-mo-khoa">
         <li><b>Học hết HSK ${truoc}</b> – còn <b>${con}</b> từ chưa học.</li>
-        <li><b>Học vượt:</b> làm bài thi thử HSK ${truoc} và đạt từ <b>${thang.dat}/${thang.toiDa}</b> điểm.</li>
+        <li><b>Học vượt:</b> làm bài thi thử HSK ${truoc} và đạt <b>${moTaHocVuot(truoc)}</b>.</li>
       </ol>
       <a class="nut nut-chinh nut-rong" href="#/thi-thu/cap/${truoc}">📋 Thi thử HSK ${truoc} để học vượt</a>
     </div>`;

@@ -65,7 +65,7 @@
 > 我们一起练习说汉语吧。 | Wǒmen yìqǐ liànxí shuō Hànyǔ ba. | Chúng ta cùng luyện nói tiếng Hán đi.
 > 比赛以前要多练习。 | Bǐsài yǐqián yào duō liànxí. | Trước trận đấu phải luyện tập nhiều.
 - 名 | bài tập
-> 今天的练习你做完了吗？ | Jīntiān de liànxí nǐ zuò wán le ma? | Bài tập hôm nay bạn làm xong chưa?
+> 今天的练习你做完了吗？ | Jīntiān de liànxí nǐ zuòwán le ma? | Bài tập hôm nay bạn làm xong chưa?
 * Là danh từ = bài tập (gần nghĩa 作业).
 
 @男生 | nam sinh

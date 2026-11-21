@@ -5,43 +5,43 @@
 #   @ thanh | @ am-dau | @ van        bắt đầu một phần
 #   = Tên nhóm                         bắt đầu một nhóm trong phần
 #   mã | mẹo phát âm (so với tiếng Việt)
-# Ví dụ nghe (chữ Hán + pinyin) do script tự lấy từ các từ một chữ trong hsk1/2/3.json,
-# nên file này KHÔNG chứa chữ Hán.
+# Ví dụ nghe (chữ Hán + pinyin) do script tự lấy từ hsk1/2/3.json: chữ đơn và TỪ HAI CHỮ
+# (máy đọc cả từ chuẩn hơn đọc một chữ đứng riêng). Phần @ luu-y cuối file: tiêu đề | nội dung.
 
 @ thanh
-1 | Cao và bằng, giữ giọng ở mức cao như khi ngân một nốt nhạc. Giống thanh ngang nhưng cao hơn.
+1 | Cao và bằng, giữ giọng ở mức cao như khi ngân một nốt nhạc. Phải cao hơn hẳn thanh ngang tiếng Việt – người Việt hay đọc thấp quá.
 2 | Đi lên từ giữa lên cao, giống thanh sắc tiếng Việt (như khi hỏi lại "hả?").
-3 | Xuống thấp rồi lên, gần thanh hỏi. Khi nói nhanh thường chỉ đọc phần thấp, trầm.
-4 | Rơi mạnh từ cao xuống thấp, dứt khoát, giống thanh huyền đọc mạnh và nhanh (như khi ra lệnh).
+3 | Xuống thấp rồi lên, gần thanh hỏi. Đọc riêng hoặc đứng cuối câu thì có đoạn đi lên rõ; đứng giữa câu, nói nhanh thì thường chỉ đọc phần thấp, trầm.
+4 | Bắt đầu CAO như thanh sắc rồi rơi mạnh xuống thấp, dứt khoát như khi quát "Đi!". Đừng đọc như thanh huyền: thanh huyền bắt đầu thấp và yếu.
 0 | Thanh nhẹ: đọc ngắn và nhẹ, không có dấu; thường là chữ thứ hai của từ hoặc trợ từ.
 
 @ am-dau
 = Âm môi
-b | Gần âm "p" không bật hơi (dây thanh không rung) – nhẹ hơn "b" tiếng Việt.
-p | Như "p" nhưng bật mạnh hơi ra (để tờ giấy trước miệng sẽ thấy giấy rung).
+b | Gần "p" tiếng Việt, không bật hơi (dây thanh không rung) – không phải "b" tiếng Việt.
+p | Như "p" nhưng bật mạnh hơi ra (để tờ giấy trước miệng sẽ thấy giấy rung). Không đọc như "ph" – "ph" tiếng Việt chính là f.
 m | Như "m" tiếng Việt.
 f | Như "ph" tiếng Việt.
 = Âm đầu lưỡi
-d | Gần "t" tiếng Việt, không bật hơi – không phải "đ".
+d | Gần "t" tiếng Việt, không bật hơi – không đọc thành "đ" ("đ" là âm khác hẳn).
 t | Như "th" tiếng Việt: "t" bật hơi.
 n | Như "n" tiếng Việt.
-l | Như "l" tiếng Việt.
+l | Như "l" tiếng Việt. Ai hay lẫn n và l: n thoát hơi qua mũi, l thoát hơi hai bên lưỡi.
 = Âm cuống lưỡi
 g | Gần "c/k" tiếng Việt, không bật hơi – không phải "g".
-k | Âm "k" bật mạnh hơi (khác "kh" tiếng Việt vốn là âm xát).
+k | Như "c/k" tiếng Việt nhưng bật mạnh hơi. Không đọc như "kh" – "kh" tiếng Việt chính là h.
 h | Gần "kh" tiếng Việt: hơi cọ xát ở cuống lưỡi.
 = Âm mặt lưỡi (chỉ đi với i, ü)
-j | Gần "ch" tiếng Việt, mặt lưỡi áp vào ngạc, không bật hơi.
-q | Như j nhưng bật hơi mạnh: "ch" bật hơi.
+j | Gần "ch" tiếng Việt: môi dẹt, đầu lưỡi chạm chân răng dưới, mặt lưỡi áp vào ngạc, không bật hơi.
+q | Như j nhưng bật hơi mạnh: "ch" bật hơi. Không đọc như "qu" tiếng Việt ("qu" đọc là "cw").
 x | Gần "x" tiếng Việt nhưng mặt lưỡi nâng lên, môi dẹt như khi cười.
 = Âm uốn lưỡi
-zh | Uốn đầu lưỡi lên ngạc cứng, đọc như "tr" tiếng Việt, không bật hơi.
-ch | Như zh nhưng bật hơi: "tr" bật hơi mạnh.
+zh | Cong đầu lưỡi lên chạm vòm miệng rồi bật ra, không bật hơi – gần "tr" giọng miền Nam, miền Trung. Giọng miền Bắc đọc "tr" giống "ch" nên phải nhớ cong lưỡi.
+ch | Như zh (cong lưỡi) nhưng bật hơi mạnh.
 sh | Uốn lưỡi, gần "s" uốn lưỡi (kiểu đọc "s" chuẩn miền Bắc trong sách).
-r | Uốn lưỡi như sh nhưng dây thanh rung – gần "r" nhẹ, không rung lưỡi.
+r | Uốn lưỡi như sh nhưng dây thanh rung – gần "r" cong lưỡi giọng miền Nam, không rung lưỡi. Không đọc thành "gi/d" kiểu miền Bắc.
 = Âm đầu lưỡi trước
 z | Đầu lưỡi thẳng chạm sau răng trên: "t" và "x" đọc liền (như "ts"), không bật hơi.
-c | Như z nhưng bật hơi mạnh: "ts" bật hơi.
+c | Như z nhưng bật hơi mạnh: "ts" bật hơi. Không đọc như "c/k" tiếng Việt.
 s | Như "x" tiếng Việt, đầu lưỡi thẳng.
 = Bán nguyên âm
 y | Thực chất là "i" đứng đầu âm tiết (yi đọc như i, ya như ia).
@@ -51,26 +51,26 @@ w | Thực chất là "u" đứng đầu âm tiết (wu đọc như u, wa như o
 = Vần đơn
 a | Như "a" tiếng Việt, miệng mở to.
 o | Sau b, p, m, f đọc lướt như "ua" (bo ≈ "pua"); một mình gần "ô".
-e | Gần "ơ" nhưng lưỡi lùi về sau, nghe hơi giống "ưa".
+e | Gần "ơ" nhưng lưỡi lùi về sau, nghe hơi giống "ưa". Trong vần ghép thì khác: ie, üe đọc gần "ê"; ei ≈ "ây"; en ≈ "ân"; eng ≈ "âng".
 i | Như "i". Riêng sau z, c, s, zh, ch, sh, r thì đọc gần "ư".
-u | Như "u", môi tròn.
-ü | Môi tròn như "u" nhưng lưỡi để như "i" – gần "uy" đọc liền. Sau j, q, x, y viết là u.
+u | Như "u", môi tròn. Chú ý: ju, qu, xu, yu viết u nhưng đọc là ü.
+ü | Là MỘT âm: miệng để như đọc "i" rồi chu tròn môi, giữ nguyên từ đầu đến cuối – không trượt từ u sang i như "uy". Sau j, q, x, y viết là u (ju, qu, xu, yu) nhưng vẫn đọc ü.
 = Vần ghép
 ai | Như "ai".
 ei | Như "ây".
 ui | Viết gọn của uei: như "uây".
 ao | Như "ao".
 ou | Như "âu".
-iu | Viết gọn của iou: như "iêu".
+iu | Viết gọn của iou (giữa có o ẩn): gần "iêu".
 ie | Như "iê".
-üe | ü rồi ê, gần "uyê".
+üe | ü (môi tròn, giữ nguyên) rồi ê. Sau j, q, x, y viết là ue.
 er | Đọc "ơ" rồi cong đầu lưỡi lên – âm cuộn lưỡi.
 = Vần mũi trước (-n)
 an | Như "an".
 en | Như "ân".
 in | Như "in".
 un | Viết gọn của uen: như "uân".
-ün | Như "uyn".
+ün | ü (môi tròn) rồi n. Sau j, q, x, y viết là un.
 = Vần mũi sau (-ng)
 ang | Như "ang".
 eng | Như "âng".
@@ -78,7 +78,7 @@ ing | Như "inh" nhưng lưỡi lùi về sau.
 ong | Như "ung".
 = Vần có i, u, ü đứng trước
 ia | "i" rồi "a" đọc liền.
-iao | "i" rồi "ao" đọc liền, gần "eo" kéo dài.
+iao | "i" rồi "ao" đọc liền: gần "eo" nhưng miệng mở rộng như "ao".
 ian | Như "iên".
 iang | "i" rồi "ang" đọc liền.
 iong | Gần "i-ung" đọc liền.
@@ -87,4 +87,12 @@ uo | Như "uô".
 uai | Như "oai".
 uan | Như "oan".
 uang | Như "oang".
-üan | Như "uyên".
+üan | Gần "uyên" nhưng mở đầu bằng ü (môi tròn). Sau j, q, x, y viết là uan.
+
+@ luu-y
+Thanh 4 không phải thanh huyền | Thanh 4 bắt đầu ở mức cao nhất rồi rơi mạnh. So với thanh huyền sẽ đọc vừa thấp vừa yếu – lỗi hay gặp nhất của người Việt.
+Biến điệu 不 và 一 | App ghi theo cách đọc thật: 不去 bú qù, 一个 yí ge, 一天 yì tiān. Trong từ điển bạn sẽ thấy bù / yī – đó là thanh gốc.
+Hai thanh 3 liền nhau | Vẫn ghi thanh 3 (你好 nǐ hǎo) nhưng chữ đầu đọc gần thanh 2: ní hǎo.
+Chữ viết giống tiếng Việt, đọc khác | p không phải "ph", k không phải "kh", q không phải "qu", c không phải "c/k", d không phải "đ", ü không phải "uy".
+-n hay -ng | an/ang, en/eng, in/ing: cuối -n thì đầu lưỡi chạm chân răng trên; cuối -ng thì lưỡi lùi về sau, không chạm răng. Giọng miền Nam hay lẫn hai nhóm này.
+Thanh nhẹ đổi nghĩa | 东西 dōngxi = đồ vật; dōngxī = phía đông và phía tây.

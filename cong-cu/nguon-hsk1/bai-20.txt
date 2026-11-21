@@ -6,7 +6,7 @@
 @工作 | công tác
 - 动 | làm việc
 > 你在哪儿工作？ | Nǐ zài nǎr gōngzuò? | Bạn làm việc ở đâu?
-> 今天我工作了十个小时。 | Jīntiān wǒ gōngzuòle shí gè xiǎoshí. | Hôm nay tôi đã làm việc mười tiếng.
+> 今天我工作了十个小时。 | Jīntiān wǒ gōngzuò le shí gè xiǎoshí. | Hôm nay tôi đã làm việc mười tiếng.
 - 名 | công việc, việc làm
 > 我想找一个新工作。 | Wǒ xiǎng zhǎo yí gè xīn gōngzuò. | Tôi muốn tìm một công việc mới.
 > 他的工作很忙。 | Tā de gōngzuò hěn máng. | Công việc của anh ấy rất bận.
@@ -35,7 +35,7 @@
 > 这个星期我非常忙。 | Zhège xīngqī wǒ fēicháng máng. | Tuần này tôi vô cùng bận.
 - 动 | bận (làm việc gì)
 > 你在忙什么？ | Nǐ zài máng shénme? | Bạn đang bận làm gì thế?
-> 他忙了一天。 | Tā mángle yì tiān. | Anh ấy bận cả ngày.
+> 他忙了一天。 | Tā máng le yì tiān. | Anh ấy bận cả ngày.
 
 @事 | sự
 - 名 | việc, chuyện

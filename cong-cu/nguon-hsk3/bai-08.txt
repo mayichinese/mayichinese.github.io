@@ -126,7 +126,7 @@
 @心里 | tâm lý
 - 名 | trong lòng
 > 他心里很着急。 | Tā xīnlǐ hěn zháojí. | Trong lòng anh ấy rất sốt ruột.
-> 有什么事别放在心里，说出来吧。 | Yǒu shénme shì bié fàng zài xīnlǐ, shuō chūlái ba. | Có chuyện gì thì đừng giữ trong lòng, nói ra đi.
+> 有什么事别放在心里，说出来吧。 | Yǒu shénme shì bié fàng zài xīnlǐ, shuō chūlai ba. | Có chuyện gì thì đừng giữ trong lòng, nói ra đi.
 * 里 = bên trong: 心里 = trong lòng (cảm xúc, suy nghĩ). Dễ nhầm với “tâm lý” trong tiếng Việt (là 心理, chữ khác).
 
 @以后 | dĩ hậu

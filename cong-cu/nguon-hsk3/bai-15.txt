@@ -163,7 +163,7 @@
 @西 | tây
 - 名 | phía tây, hướng tây
 > 他家在河的西边。 | Tā jiā zài hé de xībian. | Nhà anh ấy ở phía tây con sông.
-> 一直往西走，你会看到一个公园。 | Yìzhí wǎng xī zǒu, nǐ huì kàn dào yí ge gōngyuán. | Cứ đi thẳng về hướng tây, bạn sẽ thấy một công viên.
+> 一直往西走，你会看到一个公园。 | Yìzhí wǎng xī zǒu, nǐ huì kàndào yí ge gōngyuán. | Cứ đi thẳng về hướng tây, bạn sẽ thấy một công viên.
 * Dễ nhầm: 东西 đọc dōngxi (thanh nhẹ) = đồ vật; còn "phía đông và phía tây" mới đọc dōngxī.
 
 @中 | trung

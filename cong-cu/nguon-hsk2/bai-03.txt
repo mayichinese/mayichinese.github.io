@@ -60,8 +60,8 @@
 
 @完 | hoàn
 - 动 | xong, hết
-> 我看完这本书了。 | Wǒ kàn wán zhè běn shū le. | Tôi đọc xong cuốn sách này rồi.
-> 水喝完了，我去买吧。 | Shuǐ hē wán le, wǒ qù mǎi ba. | Nước uống hết rồi, để tôi đi mua.
+> 我看完这本书了。 | Wǒ kànwán zhè běn shū le. | Tôi đọc xong cuốn sách này rồi.
+> 水喝完了，我去买吧。 | Shuǐ hēwán le, wǒ qù mǎi ba. | Nước uống hết rồi, để tôi đi mua.
 * Hay đứng sau động từ: 做完 (làm xong), 吃完 (ăn xong), 说完 (nói xong).
 
 @为什么 | vị thập ma

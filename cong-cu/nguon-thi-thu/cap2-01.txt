@@ -34,7 +34,7 @@ A 是那位穿红衣服的老师。 | Shì nà wèi chuān hóng yīfu de lǎosh
 
 ### hd3
 Q 你会游泳吗？ | Nǐ huì yóuyǒng ma?
-A 会，我从小就学会了。 | Huì, wǒ cóngxiǎo jiù xué huì le.
+A 会，我从小就学会了。 | Huì, wǒ cóngxiǎo jiù xuéhuì le.
 Q 现在几点了？ | Xiànzài jǐ diǎn le?
 A 快十二点了。 | Kuài shí'èr diǎn le.
 Q 你在做什么呢？ | Nǐ zài zuò shénme ne?
@@ -47,8 +47,8 @@ A 在书包里。 | Zài shūbāo li.
 ### hd4
 Q 你身体怎么样？ | Nǐ shēntǐ zěnmeyàng?
 A 很好，我每天都跑步。 | Hěn hǎo, wǒ měi tiān dōu pǎobù.
-Q 这本书你看完了吗？ | Zhè běn shū nǐ kàn wán le ma?
-A 还没有，明天能看完。 | Hái méiyǒu, míngtiān néng kàn wán.
+Q 这本书你看完了吗？ | Zhè běn shū nǐ kànwán le ma?
+A 还没有，明天能看完。 | Hái méiyǒu, míngtiān néng kànwán.
 Q 这个字是什么意思？ | Zhège zì shì shénme yìsi?
 A 我也不知道，问问老师吧。 | Wǒ yě bù zhīdào, wènwen lǎoshī ba.
 Q 你们班有多少学生？ | Nǐmen bān yǒu duōshao xuésheng?
@@ -93,4 +93,4 @@ F 他跑（ ）很快。 | Tā pǎo de hěn kuài. | 得
 F 门开（ ）呢。 | Mén kāi zhe ne. | 着
 F 我没去（ ）那个商场。 | Wǒ méi qù guo nàge shāngchǎng. | 过
 F 明天（ ）会下雨。 | Míngtiān kěnéng huì xià yǔ. | 可能
-F 我（ ）你们都能考好。 | Wǒ xīwàng nǐmen dōu néng kǎo hǎo. | 希望
+F 我（ ）你们都能考好。 | Wǒ xīwàng nǐmen dōu néng kǎohǎo. | 希望

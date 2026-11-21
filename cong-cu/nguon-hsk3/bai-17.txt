@@ -46,7 +46,7 @@
 
 @国家 | quốc gia
 - 名 | đất nước, quốc gia
-> 你去过哪些国家？ | Nǐ qùguo nǎxiē guójiā? | Bạn đã đến những nước nào?
+> 你去过哪些国家？ | Nǐ qù guo nǎxiē guójiā? | Bạn đã đến những nước nào?
 > 中国是一个很大的国家。 | Zhōngguó shì yí ge hěn dà de guójiā. | Trung Quốc là một đất nước rất lớn.
 * Lượng từ: 个 (一个国家).
 
@@ -147,7 +147,7 @@
 
 @只有 | chỉ hữu
 - 连 | chỉ có (… mới…)
-> 只有多练习，才能说好汉语。 | Zhǐyǒu duō liànxí, cái néng shuō hǎo Hànyǔ. | Chỉ có luyện tập nhiều mới nói giỏi tiếng Hán được.
+> 只有多练习，才能说好汉语。 | Zhǐyǒu duō liànxí, cái néng shuōhǎo Hànyǔ. | Chỉ có luyện tập nhiều mới nói giỏi tiếng Hán được.
 > 只有你去，他才会来。 | Zhǐyǒu nǐ qù, tā cái huì lái. | Chỉ khi bạn đi thì anh ấy mới đến.
 * Mẫu 只有……才…… (điều kiện duy nhất). Khác 只要……就…… (chỉ cần… là…, bài 18).
 
@@ -159,7 +159,7 @@
 
 @前年 | tiền niên
 - 名 | năm kia (hai năm trước)
-> 我前年去过中国。 | Wǒ qiánnián qùguo Zhōngguó. | Năm kia tôi đã từng đi Trung Quốc.
+> 我前年去过中国。 | Wǒ qiánnián qù guo Zhōngguó. | Năm kia tôi đã từng đi Trung Quốc.
 > 前年我还在上大学。 | Qiánnián wǒ hái zài shàng dàxué. | Năm kia tôi vẫn còn học đại học.
 * 前年 – 去年 – 今年 – 明年 – 后年 (năm kia – năm ngoái – năm nay – năm sau – năm sau nữa).
 

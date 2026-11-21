@@ -248,6 +248,12 @@ a.dong-ke-hoach:active { transform: translateY(3px); box-shadow: none; }
 }
 .ghi-chu .emoji { font-size: 1.3rem; }
 .ghi-chu ul { margin: 4px 0 0; padding-left: 18px; }
+/* Chữ đa âm: "Chữ này còn đọc là …" */
+.doc-khac {
+  display: flex; gap: 10px; margin-top: 12px; padding: 10px 14px;
+  border-radius: 16px; font-size: .95rem; border: 2px dashed var(--vien-nhat);
+}
+.doc-khac .emoji { font-size: 1.2rem; }
 .lien-ket-ngoai { display: inline-block; margin-top: 14px; font-size: .9rem; font-weight: 600; }
 
 /* Vùng nút trả lời (dính ở đáy màn hình) */
@@ -631,6 +637,12 @@ a.dong-ke-hoach:active { transform: translateY(3px); box-shadow: none; }
 .dong-xem-lai { padding: 10px 12px; border-radius: 14px; border: 1px solid var(--vien-nhat); background: var(--be-mat); font-size: .9rem; }
 .dong-xem-lai.sai { border-color: color-mix(in srgb, #dc2626 50%, transparent); background: color-mix(in srgb, #ef4444 7%, var(--be-mat)); }
 .dong-xem-lai .dong-tren { flex-wrap: wrap; }
+.tu-viet-cau { margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--vien-nhat); display: grid; gap: 6px; }
+.hang-tu-viet { display: flex; gap: 6px; }
+.hang-tu-viet input { flex: 1; min-width: 0; padding: 8px 10px; border-radius: 10px; border: 2px solid var(--vien-nhat);
+  background: var(--be-mat); color: var(--chu); font-size: 1.05rem; }
+.kq-tu-viet { margin: 0; }
+.kq-tu-viet.tot { color: var(--chu); font-weight: 600; }
 .noi-dung-xem-lai { display: flex; gap: 10px; align-items: flex-start; margin-top: 6px; }
 .noi-dung-xem-lai .han { font-size: 1.1rem; }
 .tranh-nho { font-size: 1.8rem; line-height: 1; }
@@ -778,6 +790,7 @@ a.the-lo-trinh:active .the-phai { transform: translateY(3px); box-shadow: none; 
 .o-muc-tieu b { font-size: 1.05rem; }
 .o-muc-tieu span { font-size: .8rem; color: var(--chu-phu); }
 .o-muc-tieu:hover { border-color: var(--chinh-chu); }
+.du-kien { margin: 10px 0 0; }
 #chon-muc-tieu-cd button { flex-direction: column; line-height: 1.2; }
 #chon-muc-tieu-cd small { font-weight: 500; font-size: .75rem; }
 
@@ -860,6 +873,10 @@ a.the-lo-trinh:active .the-phai { transform: translateY(3px); box-shadow: none; 
   border: 2px solid var(--vien-nhat); border-radius: 12px; background: var(--be-mat); cursor: pointer; color: var(--chu);
 }
 .o-vd-am .han { font-size: 1.6rem; line-height: 1.2; }
+.o-vd-am .chu-khop { color: var(--chinh-chu); }
+.luu-y-am { margin-top: 14px; }
+.luu-y-am summary { cursor: pointer; }
+.luu-y-am ul { margin: 10px 0 0; padding-left: 20px; display: grid; gap: 6px; }
 
 /* Chữ vẽ bằng SVG (nét cơ bản, bộ thủ) */
 .svg-chu { width: 88px; height: 88px; display: block; }
@@ -954,6 +971,9 @@ a.the-lo-trinh:active .the-phai { transform: translateY(3px); box-shadow: none; 
 .o-cham.sai, .o-cham.thieu { background: color-mix(in srgb, #ef4444 13%, var(--be-mat)); border-color: #dc2626; }
 .o-cham .ghi-chu-cham { font-weight: 700; }
 .may-nghe { text-align: center; margin: 4px 0 0; }
+.nhac-noi { margin: 8px 0 0; padding: 8px 12px; border-radius: 12px; background: color-mix(in srgb, #f59e0b 14%, var(--be-mat)); text-align: center; }
+.nhac-noi.dung-nghia { background: color-mix(in srgb, #22c55e 14%, var(--be-mat)); }
+.nhac-bien-dieu { margin: 8px 0 0; padding: 8px 12px; border-radius: 12px; background: var(--vang-nhat); font-size: .9rem; text-align: left; }
 .tu-cham { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; }
 .tu-cham audio { width: 100%; max-width: 320px; }
 .hang-tu-cham { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }

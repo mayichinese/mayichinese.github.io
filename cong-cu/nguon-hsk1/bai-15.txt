@@ -8,7 +8,6 @@
 > 我想吃面条儿。 | Wǒ xiǎng chī miàntiáor. | Tôi muốn ăn mì.
 > 这家的面条儿很好吃。 | Zhè jiā de miàntiáor hěn hǎochī. | Mì của quán này rất ngon.
 * 面 ở đây là chữ giản thể của 麵 (bột mì) nên âm Hán Việt là “miến”, khác 面 (mặt) đọc là “diện”.
-? hanViet | 面 ở đây = 麵 nên mình ghi “miến”; Hanzii ghi “miến bao” cho 面包 nhưng “diện điều nhi” cho 面条儿 — cần đối chiếu thêm
 
 @面包 | miến bao
 - 名 | bánh mì
@@ -28,7 +27,7 @@
 
 @鸡蛋 | kê đản
 - 名 | trứng gà
-> 我早饭吃了一个鸡蛋。 | Wǒ zǎofàn chīle yí gè jīdàn. | Bữa sáng tôi đã ăn một quả trứng gà.
+> 我早饭吃了一个鸡蛋。 | Wǒ zǎofàn chī le yí gè jīdàn. | Bữa sáng tôi đã ăn một quả trứng gà.
 > 鸡蛋多少钱一个？ | Jīdàn duōshao qián yí gè? | Trứng gà bao nhiêu tiền một quả?
 
 @水果 | thủy quả
@@ -39,7 +38,7 @@
 @苹果 | bình quả
 - 名 | quả táo
 > 一个苹果多少钱？ | Yí gè píngguǒ duōshao qián? | Một quả táo bao nhiêu tiền?
-> 他买了五个苹果。 | Tā mǎile wǔ gè píngguǒ. | Anh ấy đã mua năm quả táo.
+> 他买了五个苹果。 | Tā mǎi le wǔ gè píngguǒ. | Anh ấy đã mua năm quả táo.
 
 @想 | tưởng
 - 动 | muốn; nhớ (người, nơi chốn); nghĩ

@@ -118,11 +118,11 @@
 ! 不 trong 不是 đọc bú (vì 是 thanh 4), không đọc bù.
 > 你/不是/说/不/来/吗？ | Nǐ bú shì shuō bù lái ma? | Chẳng phải bạn nói không đến sao?
 > 这/不是/你/的/书/吗？ | Zhè bú shì nǐ de shū ma? | Đây chẳng phải sách của bạn sao?
-> 你/不是/去过/上海/吗？ | Nǐ bú shì qùguo Shànghǎi ma? | Chẳng phải bạn đã đến Thượng Hải rồi sao?
+> 你/不是/去过/上海/吗？ | Nǐ bú shì qù guo Shànghǎi ma? | Chẳng phải bạn đã đến Thượng Hải rồi sao?
 > 今天/不是/星期六/吗？ | Jīntiān bú shì xīngqīliù ma? | Hôm nay chẳng phải thứ bảy sao?
 ? 你___已经吃过饭了吗？怎么又吃？ | 不是 | 不; 没; 别 | Nǐ bú shì yǐjīng chī guo fàn le ma? Zěnme yòu chī? | Chẳng phải bạn ăn cơm rồi sao? Sao lại ăn nữa?
 ? 他___你的好朋友吗？你怎么不认识他？ | 不是 | 不; 别; 也 | Tā bú shì nǐ de hǎo péngyou ma? Nǐ zěnme bú rènshi tā? | Chẳng phải anh ấy là bạn thân của bạn sao? Sao bạn lại không quen anh ấy?
-? 你___去过中国吗？给我们介绍一下吧。 | 不是 | 不; 别; 很 | Nǐ bú shì qùguo Zhōngguó ma? Gěi wǒmen jièshào yíxià ba. | Chẳng phải bạn đã đến Trung Quốc rồi sao? Giới thiệu cho chúng tôi một chút đi.
+? 你___去过中国吗？给我们介绍一下吧。 | 不是 | 不; 别; 很 | Nǐ bú shì qù guo Zhōngguó ma? Gěi wǒmen jièshào yíxià ba. | Chẳng phải bạn đã đến Trung Quốc rồi sao? Giới thiệu cho chúng tôi một chút đi.
 
 ## zhiyou-zhiyao
 @ 只有……才…… (chỉ khi… mới…) và 只要……就…… (chỉ cần… là…)
@@ -136,13 +136,13 @@
 - 才 / 就 đứng sau chủ ngữ của vế sau, trước động từ: 只要你来，我就高兴.
 ! Không ghép sai cặp: không nói 只有……就…… hay 只要……才…….
 ! 才 / 就 không đứng trước chủ ngữ: nói 只要你来，我就很高兴, không nói 只要你来，就我很高兴.
-> 只有/多/练习，/才/能/说/好/汉语。 | Zhǐyǒu duō liànxí, cái néng shuō hǎo Hànyǔ. | Chỉ có luyện tập nhiều mới nói giỏi tiếng Hán được.
-> 只要/你/努力，/就/一定/能/学/好。 | Zhǐyào nǐ nǔlì, jiù yídìng néng xué hǎo. | Chỉ cần bạn cố gắng là nhất định học tốt được.
+> 只有/多/练习，/才/能/说/好/汉语。 | Zhǐyǒu duō liànxí, cái néng shuōhǎo Hànyǔ. | Chỉ có luyện tập nhiều mới nói giỏi tiếng Hán được.
+> 只要/你/努力，/就/一定/能/学/好。 | Zhǐyào nǐ nǔlì, jiù yídìng néng xuéhǎo. | Chỉ cần bạn cố gắng là nhất định học tốt được.
 ~ 你/只要/努力，/就/一定/能/学/好。
 > 只有/周末，/我/才/有/时间/看/电影。 | Zhǐyǒu zhōumò, wǒ cái yǒu shíjiān kàn diànyǐng. | Chỉ có cuối tuần tôi mới có thời gian xem phim.
 > 只要/不/下雨，/我们/就/去/公园。 | Zhǐyào bú xià yǔ, wǒmen jiù qù gōngyuán. | Chỉ cần trời không mưa là chúng ta đi công viên.
 ? ___你喜欢，就买吧。 | 只要 | 只有; 虽然; 但是 | Zhǐyào nǐ xǐhuan, jiù mǎi ba. | Chỉ cần bạn thích thì mua đi.
-? 只有认真复习，___能考好。 | 才 | 就; 刚; 都 | Zhǐyǒu rènzhēn fùxí, cái néng kǎo hǎo. | Chỉ có ôn tập chăm chỉ mới thi tốt được.
+? 只有认真复习，___能考好。 | 才 | 就; 刚; 都 | Zhǐyǒu rènzhēn fùxí, cái néng kǎohǎo. | Chỉ có ôn tập chăm chỉ mới thi tốt được.
 ? 只要有时间，他___去看爷爷奶奶。 | 就 | 才; 刚; 别 | Zhǐyào yǒu shíjiān, tā jiù qù kàn yéye nǎinai. | Chỉ cần có thời gian là anh ấy đi thăm ông bà.
 
 ## shi-de-2

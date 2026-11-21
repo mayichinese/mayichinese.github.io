@@ -9,7 +9,7 @@
 > 这是什么病？ | Zhè shì shénme bìng? | Đây là bệnh gì?
 - 动 | ốm, bị bệnh
 > 我病了。 | Wǒ bìng le. | Tôi ốm rồi.
-> 妈妈病了三天。 | Māma bìngle sān tiān. | Mẹ ốm ba ngày rồi.
+> 妈妈病了三天。 | Māma bìng le sān tiān. | Mẹ ốm ba ngày rồi.
 
 @生病 | sinh bệnh
 - 动 | ốm, bị bệnh
@@ -31,7 +31,7 @@
 @医院 | y viện
 - 名 | bệnh viện
 > 医院在哪儿？ | Yīyuàn zài nǎr? | Bệnh viện ở đâu?
-> 他在医院住了一个星期。 | Tā zài yīyuàn zhùle yí gè xīngqī. | Anh ấy nằm viện một tuần.
+> 他在医院住了一个星期。 | Tā zài yīyuàn zhù le yí gè xīngqī. | Anh ấy nằm viện một tuần.
 
 @天气 | thiên khí
 - 名 | thời tiết

@@ -1,6 +1,7 @@
 Ngân hàng âm tiết nghe: 338 (từ một chữ HSK 1–3, bỏ chữ đa âm)
 Bảng mẫu thanh: âm "shi" – shī, shí, shǐ, shì, gēge
-Âm đầu: 23 · vần: 35 · nét: 18 · quy tắc: 7 · bộ thủ: 45
+Từ hai chữ làm ví dụ nghe: 462
+Âm đầu: 23 · vần: 35 · nét: 25 · quy tắc: 10 · bộ thủ: 49
   bộ 人 (Nhân): 25 chữ
   bộ 口 (Khẩu): 37 chữ
   bộ 女 (Nữ): 12 chữ
@@ -46,6 +47,9 @@ Bảng mẫu thanh: âm "shi" – shī, shí, shǐ, shì, gēge
   bộ 彳 (Xích): 3 chữ
   bộ 阝 (Phụ / Ấp): 10 chữ
   bộ 攵 (Phộc): 5 chữ
-⚠️ Phiên âm 'o': không có ví dụ nghe trong từ một chữ HSK 1–3
+  bộ 囗 (Vi): 6 chữ
+  bộ 冫 (Băng): 8 chữ
+  bộ 犬 (Khuyển): 2 chữ
+  bộ 欠 (Khiếm): 3 chữ
 ⚠️ Bộ 马: chỉ có 1 chữ ví dụ trong HSK 1–3
 ⚠️ Bộ 山: chỉ có 1 chữ ví dụ trong HSK 1–3

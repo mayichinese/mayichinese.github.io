@@ -21,7 +21,7 @@ D 你个子这么高，会打篮球吗？ | Nǐ gèzi zhème gāo, huì dǎ lán
 ## 游泳,游 | 🏊 | thethao
 S 天气太热了，我们去游泳吧。 | Tiānqì tài rè le, wǒmen qù yóuyǒng ba. | Trời nóng quá, chúng mình đi bơi đi.
 S 我妹妹游得很快。 | Wǒ mèimei yóu de hěn kuài. | Em gái tôi bơi rất nhanh.
-D 你会游泳吗？ | Nǐ huì yóuyǒng ma? | 会，我小时候就学会了。 | Huì, wǒ xiǎoshíhou jiù xué huì le. | – Bạn biết bơi không? – Biết, hồi nhỏ tôi đã học được rồi.
+D 你会游泳吗？ | Nǐ huì yóuyǒng ma? | 会，我小时候就学会了。 | Huì, wǒ xiǎoshíhou jiù xuéhuì le. | – Bạn biết bơi không? – Biết, hồi nhỏ tôi đã học được rồi.
 
 ## 跑步,跑 | 🏃 | thethao
 S 爸爸每天早上都去跑步。 | Bàba měi tiān zǎoshang dōu qù pǎobù. | Sáng nào bố cũng đi chạy bộ.

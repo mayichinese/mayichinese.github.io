@@ -49,7 +49,7 @@ V 我很（ ）我的家人。 | Wǒ hěn ài wǒ de jiārén. | 爱 | Tôi rấ
 V 他在公司（ ）作。 | Tā zài gōngsī gōngzuò. | 工 | Anh ấy làm việc ở công ty.
 V 我们是（ ）年来的。 | Wǒmen shì qùnián lái de. | 去 | Chúng tôi đến từ năm ngoái.
 V 这件衣服（ ）那件贵。 | Zhè jiàn yīfu bǐ nà jiàn guì. | 比 | Bộ này đắt hơn bộ kia.
-V 他慢慢（ ）走进了教室。 | Tā mànmàn de zǒu jìn le jiàoshì. | 地 | Anh ấy chầm chậm đi vào lớp.
+V 他慢慢（ ）走进了教室。 | Tā mànmàn de zǒujìn le jiàoshì. | 地 | Anh ấy chầm chậm đi vào lớp.
 V 你去（ ）中国吗？ | Nǐ qù guo Zhōngguó ma? | 过 | Bạn đã từng đến Trung Quốc chưa?
 V 这条路很（ ）。 | Zhè tiáo lù hěn cháng. | 长 | Con đường này rất dài.
 V 我（ ）吃饭，一会儿给你打电话。 | Wǒ zài chī fàn, yíhuìr gěi nǐ dǎ diànhuà. | 在 | Tôi đang ăn cơm, lát nữa gọi cho bạn.

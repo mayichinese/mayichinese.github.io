@@ -126,7 +126,7 @@
       },
       {
        "han": "会，我小时候就学会了。",
-       "pinyin": "Huì, wǒ xiǎoshíhou jiù xué huì le."
+       "pinyin": "Huì, wǒ xiǎoshíhou jiù xuéhuì le."
       }
      ],
      "dich": "– Bạn biết bơi không? – Biết, hồi nhỏ tôi đã học được rồi.",
@@ -1539,7 +1539,7 @@
      "q": "你会游泳吗？",
      "qp": "Nǐ huì yóuyǒng ma?",
      "a": "会，我从小就学会了。",
-     "ap": "Huì, wǒ cóngxiǎo jiù xué huì le."
+     "ap": "Huì, wǒ cóngxiǎo jiù xuéhuì le."
     },
     {
      "q": "现在几点了？",
@@ -1577,9 +1577,9 @@
     },
     {
      "q": "这本书你看完了吗？",
-     "qp": "Zhè běn shū nǐ kàn wán le ma?",
+     "qp": "Zhè běn shū nǐ kànwán le ma?",
      "a": "还没有，明天能看完。",
-     "ap": "Hái méiyǒu, míngtiān néng kàn wán."
+     "ap": "Hái méiyǒu, míngtiān néng kànwán."
     },
     {
      "q": "这个字是什么意思？",
@@ -1763,7 +1763,7 @@
     },
     {
      "cau": "我（ ）你们都能考好。",
-     "pinyin": "Wǒ xīwàng nǐmen dōu néng kǎo hǎo.",
+     "pinyin": "Wǒ xīwàng nǐmen dōu néng kǎohǎo.",
      "dapAn": "希望"
     }
    ]
@@ -2774,7 +2774,7 @@
   },
   {
    "cau": "他慢慢（ ）走进了教室。",
-   "pinyin": "Tā mànmàn de zǒu jìn le jiàoshì.",
+   "pinyin": "Tā mànmàn de zǒujìn le jiàoshì.",
    "chu": "地",
    "dich": "Anh ấy chầm chậm đi vào lớp."
   },

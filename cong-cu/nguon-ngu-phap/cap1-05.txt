@@ -11,7 +11,7 @@
 - Tân ngữ sau 了 thường có số lượng hoặc phần bổ nghĩa (一本书, 两杯茶); chỉ có danh từ trơn thì câu nghe như chưa nói hết.
 - Phủ định việc đã không / chưa xảy ra: 没 + động từ, và bỏ 了: 我没买书.
 - Hỏi: ……了吗？ – 你吃饭了吗？ (bạn ăn cơm chưa?).
-! Việc trong quá khứ không phủ định bằng 不: "hôm qua tôi không đi học" là 我昨天没去学校, không nói 我昨天不去学校.
+! Việc trong quá khứ không phủ định bằng 不: "hôm qua tôi không đi học" là 我昨天没去学校, không nói 我昨天不去学校 với nghĩa này (不 với chuyện hôm qua chỉ dùng khi nói ý muốn, thói quen: 昨天是星期天，我不去学校).
 ! Phủ định thì bỏ 了: nói 我没买, không nói 我没买了.
 > 我/买/了/一本/书。 | Wǒ mǎi le yì běn shū. | Tôi đã mua một quyển sách.
 > 他/喝/了/两杯/茶。 | Tā hē le liǎng bēi chá. | Anh ấy đã uống hai cốc trà.

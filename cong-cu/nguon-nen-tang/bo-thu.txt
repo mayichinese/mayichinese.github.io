@@ -19,7 +19,7 @@
 手 | 扌 | shǒu | Thủ | tay | Động tác dùng tay: cầm, đánh, kéo.
 言 | 讠 | yán | Ngôn | lời nói | Nói, kể, hỏi, đọc.
 金 | 钅 | jīn | Kim | kim loại, vàng | Đồ bằng kim loại, tiền.
-门 | - | mén | Môn | cửa | Cửa, nghe, hỏi qua cửa.
+门 | - | mén | Môn | cửa | Cửa, cổng (开门, 门口). Trong 们, 问, 闻 bộ 门 thường là phần chỉ ÂM (men, wèn), không phải nghĩa.
 艹 | - | cǎo | Thảo | cỏ | Cây cỏ, rau, hoa, trà.
 宀 | - | mián | Miên | mái nhà | Nhà cửa, chỗ ở.
 辶 | - | chuò | Sước | đi, bước đi | Đi lại, xa gần, đường sá.
@@ -47,6 +47,10 @@
 走 | - | zǒu | Tẩu | đi, chạy | Đi lại, rời đi.
 广 | - | guǎng | Nghiễm | mái hiên | Nhà rộng, cửa hàng, nơi chốn.
 疒 | - | nè | Nạch | bệnh | Ốm đau, bệnh tật.
-彳 | - | chì | Xích | bước chân trái | Đi, đường, hành động.
+彳 | - | chì | Xích | bước ngắn, đi | Đi, đường, hành động (往, 很, 得).
 阝 | - | fù | Phụ / Ấp | gò đất / thành ấp | Bên trái là gò đất, bên phải là thành ấp.
 攵 | - | pū | Phộc | đánh nhẹ | Hành động, dạy bảo.
+囗 | - | wéi | Vi | vây quanh | Khung vuông bao kín bốn phía: 国, 回, 四, 图.
+冫 | - | bīng | Băng | băng, lạnh | Hai chấm bên trái = băng, lạnh (冷, 冰); khác ba chấm 氵 là nước.
+犬 | 犭 | quǎn | Khuyển | chó | Dạng 犭 bên trái: thường là con vật (狗, 猫).
+欠 | - | qiàn | Khiếm | há miệng; thiếu | Người há miệng: liên quan hơi thở, hát, vui (欢, 歌).

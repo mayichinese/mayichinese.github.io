@@ -31,7 +31,7 @@ $ 小明; 小文; 小李; 小张; 李明
 @ Cuốn từ điển bị mượn mất
 % doan-van
 > 我叫小明。我们学校的图书馆很大，里面有很多书、报纸和词典。 | Wǒ jiào Xiǎo Míng. Wǒmen xuéxiào de túshūguǎn hěn dà, lǐmian yǒu hěn duō shū, bàozhǐ hé cídiǎn. | Mình tên là Tiểu Minh. Thư viện trường mình rất lớn, bên trong có rất nhiều sách, báo và từ điển.
-> 上个星期，我的词典被一个留学生借走了。 | Shàng gè xīngqī, wǒ de cídiǎn bèi yí gè liúxuéshēng jiè zǒu le. | Tuần trước, cuốn từ điển của mình bị một du học sinh mượn mất.
+> 上个星期，我的词典被一个留学生借走了。 | Shàng gè xīngqī, wǒ de cídiǎn bèi yí gè liúxuéshēng jièzǒu le. | Tuần trước, cuốn từ điển của mình bị một du học sinh mượn mất.
 > 我不知道怎么办，同学说：“去图书馆吧，那里也有词典。” | Wǒ bù zhīdào zěnme bàn, tóngxué shuō: “Qù túshūguǎn ba, nàli yě yǒu cídiǎn.” | Mình không biết làm sao, bạn cùng lớp nói: “Đến thư viện đi, ở đó cũng có từ điển.”
 > 我先在网站上看了看，然后去了图书馆。 | Wǒ xiān zài wǎngzhàn shang kàn le kàn, ránhòu qù le túshūguǎn. | Mình xem trên trang web trước, sau đó đến thư viện.
 > 在那里，我看到了我们班的一个女生，她正在看一本名人的故事书。 | Zài nàli, wǒ kàndào le wǒmen bān de yí gè nǚshēng, tā zhèngzài kàn yì běn míngrén de gùshi shū. | Ở đó, mình thấy một bạn nữ lớp mình, bạn ấy đang đọc một cuốn truyện về người nổi tiếng.
@@ -77,7 +77,7 @@ $ 小明; 小文; 小李; 小张; 李明
 > 弟弟最喜爱大熊猫。听说大熊猫来自中国的西南。 | Dìdi zuì xǐ'ài dàxióngmāo. Tīngshuō dàxióngmāo láizì Zhōngguó de xīnán. | Em trai mình thích nhất là gấu trúc. Nghe nói gấu trúc đến từ vùng tây nam Trung Quốc.
 > 我们在大熊猫的家前面等了半天，它才出来。 | Wǒmen zài dàxióngmāo de jiā qiánmiàn děng le bàntiān, tā cái chūlai. | Bọn mình đợi trước nhà của gấu trúc mãi, nó mới ra.
 > 它的脸是白的，眼睛和脚是黑的，非常可爱。 | Tā de liǎn shì bái de, yǎnjing hé jiǎo shì hēi de, fēicháng kě'ài. | Mặt nó màu trắng, mắt và chân màu đen, vô cùng đáng yêu.
-> 它一边吃东西，一边看着我们。不一会儿，它就吃饱了，在草地上睡觉了。 | Tā yìbiān chī dōngxi, yìbiān kàn zhe wǒmen. Bù yíhuìr, tā jiù chī bǎo le, zài cǎodì shang shuìjiào le. | Nó vừa ăn vừa nhìn bọn mình. Chẳng mấy chốc nó đã ăn no, rồi ngủ trên bãi cỏ.
+> 它一边吃东西，一边看着我们。不一会儿，它就吃饱了，在草地上睡觉了。 | Tā yìbiān chī dōngxi, yìbiān kàn zhe wǒmen. Bù yíhuìr, tā jiù chībǎo le, zài cǎodì shang shuìjiào le. | Nó vừa ăn vừa nhìn bọn mình. Chẳng mấy chốc nó đã ăn no, rồi ngủ trên bãi cỏ.
 > 弟弟觉得很奇怪：“它怎么有点儿脏？” | Dìdi juéde hěn qíguài: “Tā zěnme yǒudiǎnr zāng?” | Em trai thấy rất lạ: “Sao nó hơi bẩn thế?”
 > 照顾大熊猫的人说：“一般来说，大熊猫喜欢在地上玩，所以会有点儿脏。” | Zhàogù dàxióngmāo de rén shuō: “Yìbān lái shuō, dàxióngmāo xǐhuan zài dì shang wán, suǒyǐ huì yǒudiǎnr zāng.” | Người chăm sóc gấu trúc nói: “Thông thường gấu trúc thích chơi dưới đất, nên sẽ hơi bẩn một chút.”
 > 他还说，其实每只大熊猫都有自己的名字，他都认得。 | Tā hái shuō, qíshí měi zhī dàxióngmāo dōu yǒu zìjǐ de míngzi, tā dōu rènde. | Anh ấy còn nói, thật ra mỗi con gấu trúc đều có tên riêng, anh ấy đều nhận ra hết.
@@ -96,8 +96,8 @@ $ 小明; 小文; 小李; 小张; 李明
 % hoi-thoai
 > 小明 | 李明，听说你会说三种语言，你真聪明！ | Lǐ Míng, tīngshuō nǐ huì shuō sān zhǒng yǔyán, nǐ zhēn cōngmíng! | Lý Minh, nghe nói bạn biết nói ba thứ tiếng, bạn thông minh thật!
 > 李明 | 我可不聪明。前年我去国外留学，到处都要用别的语言，所以学得比较快。 | Wǒ kě bù cōngmíng. Qiánnián wǒ qù guówài liúxué, dàochù dōu yào yòng bié de yǔyán, suǒyǐ xué de bǐjiào kuài. | Mình đâu có thông minh. Năm kia mình đi du học nước ngoài, chỗ nào cũng phải dùng tiếng khác, nên học khá nhanh.
-> 小明 | 学语言容易吗？我很害怕说错。 | Xué yǔyán róngyì ma? Wǒ hěn hàipà shuō cuò. | Học ngôn ngữ có dễ không? Mình rất sợ nói sai.
-> 李明 | 学语言是不容易的，可是只有多说，才能学好。 | Xué yǔyán shì bù róngyì de, kěshì zhǐyǒu duō shuō, cái néng xué hǎo. | Học ngôn ngữ đúng là không dễ, nhưng chỉ có nói nhiều mới học giỏi được.
+> 小明 | 学语言容易吗？我很害怕说错。 | Xué yǔyán róngyì ma? Wǒ hěn hàipà shuōcuò. | Học ngôn ngữ có dễ không? Mình rất sợ nói sai.
+> 李明 | 学语言是不容易的，可是只有多说，才能学好。 | Xué yǔyán shì bù róngyì de, kěshì zhǐyǒu duō shuō, cái néng xuéhǎo. | Học ngôn ngữ đúng là không dễ, nhưng chỉ có nói nhiều mới học giỏi được.
 > 小明 | 有难题的时候，你怎么办？ | Yǒu nántí de shíhou, nǐ zěnme bàn? | Khi gặp vấn đề khó, bạn làm thế nào?
 > 李明 | 我先在词典里查一查，然后向老师和同学学习。比如常见的问题，问一问大家就知道了。 | Wǒ xiān zài cídiǎn li chá yi chá, ránhòu xiàng lǎoshī hé tóngxué xuéxí. Bǐrú chángjiàn de wèntí, wèn yi wèn dàjiā jiù zhīdào le. | Mình tra từ điển trước, sau đó học hỏi thầy cô và bạn bè. Ví dụ như những câu hỏi thường gặp, hỏi mọi người một chút là biết.
 > 小明 | 你问的问题太多的话，老师不会生气吗？ | Nǐ wèn de wèntí tài duō dehuà, lǎoshī bú huì shēngqì ma? | Nếu bạn hỏi nhiều câu quá, thầy cô không giận à?
@@ -117,13 +117,13 @@ $ 小明; 小文; 小李; 小张; 李明
 @ Về quê bà ăn Tết
 % doan-van
 > 我叫小明。春节是中国人最重要的节日。 | Wǒ jiào Xiǎo Míng. Chūnjié shì Zhōngguórén zuì zhòngyào de jiérì. | Mình tên là Tiểu Minh. Tết Nguyên đán là ngày lễ quan trọng nhất của người Trung Quốc.
-> 我刚刚考完这个学期的考试，不久就要过春节了。 | Wǒ gānggāng kǎo wán zhège xuéqī de kǎoshì, bùjiǔ jiù yào guò Chūnjié le. | Mình vừa mới thi xong kỳ thi học kỳ này, chẳng bao lâu nữa là đến Tết.
+> 我刚刚考完这个学期的考试，不久就要过春节了。 | Wǒ gānggāng kǎowán zhège xuéqī de kǎoshì, bùjiǔ jiù yào guò Chūnjié le. | Mình vừa mới thi xong kỳ thi học kỳ này, chẳng bao lâu nữa là đến Tết.
 > 今年我们去奶奶家过节。我们早上六点就起来了，七点出发，坐了大概五六个小时的车。 | Jīnnián wǒmen qù nǎinai jiā guòjié. Wǒmen zǎoshang liù diǎn jiù qǐlai le, qī diǎn chūfā, zuò le dàgài wǔ liù gè xiǎoshí de chē. | Năm nay nhà mình về nhà bà nội ăn Tết. Bọn mình dậy từ sáu giờ sáng, bảy giờ xuất phát, ngồi xe khoảng năm sáu tiếng.
 > 路上，妈妈给我们带了矿泉水和糖。 | Lùshang, māma gěi wǒmen dài le kuàngquánshuǐ hé táng. | Trên đường, mẹ mang theo nước khoáng và kẹo cho cả nhà.
 > 到了奶奶家，叔叔和阿姨都来了，大家见面都很高兴。 | Dào le nǎinai jiā, shūshu hé āyí dōu lái le, dàjiā jiànmiàn dōu hěn gāoxìng. | Đến nhà bà, chú và cô đều đã tới, mọi người gặp nhau đều rất vui.
 > 奶奶说，她是在这里出生的。过去这里很小，现在发展得很快，到处都是新楼。 | Nǎinai shuō, tā shì zài zhèli chūshēng de. Guòqù zhèli hěn xiǎo, xiànzài fāzhǎn de hěn kuài, dàochù dōu shì xīn lóu. | Bà nói bà sinh ra ở đây. Trước đây nơi này rất nhỏ, bây giờ phát triển rất nhanh, khắp nơi đều là nhà cao tầng mới.
 > 吃饭的时候，叔叔问我这个学期学得怎样。我说：“我刚学了三百个汉字。” | Chīfàn de shíhou, shūshu wèn wǒ zhège xuéqī xué de zěnyàng. Wǒ shuō: “Wǒ gāng xué le sānbǎi gè Hànzì.” | Lúc ăn cơm, chú hỏi học kỳ này mình học thế nào. Mình nói: “Cháu vừa học được ba trăm chữ Hán.”
-> 叔叔说：“只要坚持每天学习，你就一定能学好。” | Shūshu shuō: “Zhǐyào jiānchí měi tiān xuéxí, nǐ jiù yídìng néng xué hǎo.” | Chú nói: “Chỉ cần kiên trì học mỗi ngày, cháu nhất định sẽ học giỏi.”
+> 叔叔说：“只要坚持每天学习，你就一定能学好。” | Shūshu shuō: “Zhǐyào jiānchí měi tiān xuéxí, nǐ jiù yídìng néng xuéhǎo.” | Chú nói: “Chỉ cần kiên trì học mỗi ngày, cháu nhất định sẽ học giỏi.”
 > 晚上，我收到了很多礼物和糖，真开心！ | Wǎnshang, wǒ shōudào le hěn duō lǐwù hé táng, zhēn kāixīn! | Buổi tối, mình nhận được rất nhiều quà và kẹo, thật là vui!
 > 爸爸说：“从今年起，你要自己起床，不要总让妈妈叫你。” | Bàba shuō: “Cóng jīnnián qǐ, nǐ yào zìjǐ qǐchuáng, bú yào zǒng ràng māma jiào nǐ.” | Bố nói: “Từ năm nay, con phải tự dậy, đừng lúc nào cũng để mẹ gọi.”
 ? 他们坐了多长时间的车？ | 大概五六个小时 | 大概两三个小时; 大概七八个小时; 大概一天

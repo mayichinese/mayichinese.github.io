@@ -41,9 +41,9 @@ X 椅子上 | yǐzi shang
 
 ### hoi5
 N 你今天怎么走路来上班了？ | Nǐ jīntiān zěnme zǒulù lái shàngbān le?
-N 我的自行车被我弟弟骑走了。 | Wǒ de zìxíngchē bèi wǒ dìdi qí zǒu le.
+N 我的自行车被我弟弟骑走了。 | Wǒ de zìxíngchē bèi wǒ dìdi qízǒu le.
 H 男的为什么走路来上班？ | Nán de wèi shénme zǒulù lái shàngbān?
-A 自行车被骑走了 | zìxíngchē bèi qí zǒu le
+A 自行车被骑走了 | zìxíngchē bèi qízǒu le
 X 他想锻炼身体 | tā xiǎng duànliàn shēntǐ
 X 自行车坏了 | zìxíngchē huài le
 
@@ -89,7 +89,7 @@ X 比较满意 | bǐjiào mǎnyì
 
 ### hoi11
 N 黑板上的字你看得清楚吗？ | Hēibǎn shang de zì nǐ kàn de qīngchu ma?
-N 看不清楚，我坐得太远了，我们换到前面去吧。 | Kàn bu qīngchu, wǒ zuò de tài yuǎn le, wǒmen huàn dào qiánmiàn qù ba.
+N 看不清楚，我坐得太远了，我们换到前面去吧。 | Kàn bu qīngchu, wǒ zuò de tài yuǎn le, wǒmen huàndào qiánmiàn qù ba.
 H 男的为什么看不清楚？ | Nán de wèi shénme kàn bu qīngchu?
 A 坐得太远 | zuò de tài yuǎn
 X 眼睛不舒服 | yǎnjing bù shūfu
@@ -131,7 +131,7 @@ X 很生气 | hěn shēngqì
 N 你脸色不太好，是不是哪儿不舒服？ | Nǐ liǎnsè bú tài hǎo, shì bu shì nǎr bù shūfu?
 N 没事儿，昨天晚上一直在复习，只睡了三个小时。 | Méi shìr, zuótiān wǎnshang yìzhí zài fùxí, zhǐ shuì le sān ge xiǎoshí.
 H 男的怎么了？ | Nán de zěnme le?
-A 没睡好 | méi shuì hǎo
+A 睡得很少 | shuì de hěn shǎo
 X 生病了 | shēngbìng le
 X 饿了 | è le
 
@@ -145,7 +145,7 @@ X 南方 | nánfāng
 
 ### hoi18
 N 你们的会议不是星期三吗？怎么变了？ | Nǐmen de huìyì bú shì xīngqīsān ma? Zěnme biàn le?
-N 经理那天要去外地，所以换到星期五了。 | Jīnglǐ nà tiān yào qù wàidì, suǒyǐ huàn dào xīngqīwǔ le.
+N 经理那天要去外地，所以换到星期五了。 | Jīnglǐ nà tiān yào qù wàidì, suǒyǐ huàndào xīngqīwǔ le.
 H 会议现在是星期几？ | Huìyì xiànzài shì xīngqī jǐ?
 A 星期五 | xīngqīwǔ
 X 星期三 | xīngqīsān
@@ -160,7 +160,7 @@ X 踢足球 | tī zúqiú
 X 唱歌 | chàng gē
 
 ### hoi20
-N 你能帮我把这个箱子拿到楼上去吗？太重了。 | Nǐ néng bāng wǒ bǎ zhège xiāngzi ná dào lóu shang qù ma? Tài zhòng le.
+N 你能帮我把这个箱子拿到楼上去吗？太重了。 | Nǐ néng bāng wǒ bǎ zhège xiāngzi nádào lóu shang qù ma? Tài zhòng le.
 N 好，你先上去把门打开，我马上就来。 | Hǎo, nǐ xiān shàngqu bǎ mén dǎkāi, wǒ mǎshàng jiù lái.
 H 女的让男的做什么？ | Nǚ de ràng nán de zuò shénme?
 A 拿箱子 | ná xiāngzi
@@ -185,7 +185,7 @@ X 一个小时 | yí ge xiǎoshí
 
 ### hoi23
 N 我给你打了好几次电话，你怎么一直不接？ | Wǒ gěi nǐ dǎ le hǎo jǐ cì diànhuà, nǐ zěnme yìzhí bù jiē?
-N 对不起，我的手机被我忘在办公室了，我刚回到家。 | Duìbuqǐ, wǒ de shǒujī bèi wǒ wàng zài bàngōngshì le, wǒ gāng huí dào jiā.
+N 对不起，我的手机被我忘在办公室了，我刚回到家。 | Duìbuqǐ, wǒ de shǒujī bèi wǒ wàng zài bàngōngshì le, wǒ gāng huídào jiā.
 H 男的为什么没接电话？ | Nán de wèi shénme méi jiē diànhuà?
 A 手机不在身边 | shǒujī bú zài shēnbiān
 X 他在开会 | tā zài kāihuì
@@ -208,16 +208,16 @@ X 这个周末 | zhège zhōumò
 X 明年 | míngnián
 
 ### hoi26
-N 这本书你看完了吗？明天就得还给图书馆了。 | Zhè běn shū nǐ kàn wán le ma? Míngtiān jiù děi huán gěi túshūguǎn le.
-N 还差两页，我今天晚上一定看完还给你。 | Hái chà liǎng yè, wǒ jīntiān wǎnshang yídìng kàn wán huán gěi nǐ.
+N 这本书你看完了吗？明天就得还给图书馆了。 | Zhè běn shū nǐ kànwán le ma? Míngtiān jiù děi huán gěi túshūguǎn le.
+N 还差两页，我今天晚上一定看完还给你。 | Hái chà liǎng yè, wǒ jīntiān wǎnshang yídìng kànwán huán gěi nǐ.
 H 关于那本书，可以知道什么？ | Guānyú nà běn shū, kěyǐ zhīdao shénme?
 A 是从图书馆借的 | shì cóng túshūguǎn jiè de
 X 是男的买的 | shì nán de mǎi de
-X 男的已经看完了 | nán de yǐjīng kàn wán le
+X 男的已经看完了 | nán de yǐjīng kànwán le
 
 ### hoi27
 N 我们这次去旅游，住哪个宾馆？ | Wǒmen zhè cì qù lǚyóu, zhù nǎge bīnguǎn?
-N 住在海边的那家，从房间里就能看到大海。 | Zhù zài hǎibiān de nà jiā, cóng fángjiān li jiù néng kàn dào dàhǎi.
+N 住在海边的那家，从房间里就能看到大海。 | Zhù zài hǎibiān de nà jiā, cóng fángjiān li jiù néng kàndào dàhǎi.
 H 他们要住的宾馆在哪儿？ | Tāmen yào zhù de bīnguǎn zài nǎr?
 A 海边 | hǎibiān
 X 山上 | shān shang

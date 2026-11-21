@@ -66,7 +66,7 @@
 
 @给 | cấp
 - 动 | cho, đưa
-> 妈妈给了我一百块钱。 | Māma gěile wǒ yìbǎi kuài qián. | Mẹ cho tôi một trăm đồng.
+> 妈妈给了我一百块钱。 | Māma gěi le wǒ yìbǎi kuài qián. | Mẹ cho tôi một trăm đồng.
 > 请给我一杯水。 | Qǐng gěi wǒ yì bēi shuǐ. | Làm ơn cho tôi một cốc nước.
 * 给 có thể mang hai tân ngữ: 给 + người + vật.
 * Theo danh sách chính thức, 给 dùng như giới từ (“cho, giúp”) thuộc cấp 2.
@@ -91,5 +91,5 @@
 > 我的钱太少了。 | Wǒ de qián tài shǎo le. | Tiền của tôi ít quá.
 - 动 | thiếu, mất (so với số đúng)
 > 我们少一个人。 | Wǒmen shǎo yí gè rén. | Chúng ta thiếu một người.
-> 我的书少了一本。 | Wǒ de shū shǎole yì běn. | Sách của tôi bị mất một quyển.
+> 我的书少了一本。 | Wǒ de shū shǎo le yì běn. | Sách của tôi bị mất một quyển.
 * Chữ 少 còn đọc shào (trẻ, như trong 少年) — là một từ khác.

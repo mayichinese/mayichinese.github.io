@@ -33,10 +33,10 @@
 > 他/高兴/地/回/家/了。 | Tā gāoxìng de huí jiā le. | Anh ấy vui vẻ về nhà.
 > 孩子们/快乐/地/唱歌。 | Háizimen kuàilè de chàng gē. | Bọn trẻ vui vẻ hát.
 > 我们/要/好好/地/学习。 | Wǒmen yào hǎohǎo de xuéxí. | Chúng ta phải học hành chăm chỉ.
-> 他/很/快/地/吃/完/了/饭。 | Tā hěn kuài de chī wán le fàn. | Anh ấy ăn xong cơm rất nhanh.
+> 他/很/快/地/吃/完/了/饭。 | Tā hěn kuài de chīwán le fàn. | Anh ấy ăn xong cơm rất nhanh.
 ~ 他/很/快/地/吃/完/饭/了。
 ? 她舒舒服服___睡了一觉。 | 地 | 得; 很; 是 | Tā shūshūfúfú de shuì le yí jiào. | Cô ấy ngủ một giấc thật thoải mái.
-? 孩子们高兴___走过来了。 | 地 | 了; 是; 在 | Háizimen gāoxìng de zǒu guòlái le. | Bọn trẻ vui vẻ đi lại đây.
+? 孩子们高兴___走过来了。 | 地 | 了; 是; 在 | Háizimen gāoxìng de zǒu guòlai le. | Bọn trẻ vui vẻ đi lại đây.
 ? 你要好好___休息。 | 地 | 了; 过; 很 | Nǐ yào hǎohǎo de xiūxi. | Bạn phải nghỉ ngơi cho tốt.
 
 ## yi-jiu

@@ -13,7 +13,7 @@
 
 @大衣 | đại y
 - 名 | áo khoác dài, áo măng tô
-> 外面很冷，穿上大衣吧。 | Wàimiàn hěn lěng, chuān shàng dàyī ba. | Bên ngoài lạnh lắm, mặc áo khoác vào đi.
+> 外面很冷，穿上大衣吧。 | Wàimiàn hěn lěng, chuānshàng dàyī ba. | Bên ngoài lạnh lắm, mặc áo khoác vào đi.
 > 这件大衣是我妈妈买的。 | Zhè jiàn dàyī shì wǒ māma mǎi de. | Cái áo khoác này là mẹ tôi mua.
 * Lượng từ: 件. 大衣 là áo khoác dày, dài, mặc mùa đông.
 
