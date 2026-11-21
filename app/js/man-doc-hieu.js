@@ -16,6 +16,7 @@ import { toMauPinyin } from './pinyin.js';
 import { htmlCauCham } from './cham-tu.js';
 import { tron } from './cau-hoi-tu.js';
 import { capMo, htmlCachMoKhoa } from './cap-do.js';
+import { trangThaiCacChang } from './man-chang.js';
 import { amCham, amXong } from './am-thanh.js';
 
 let henDuLieu = null;
@@ -60,6 +61,13 @@ export function veDocHieu(khung, ma) {
       return;
     }
     if (!capMo(b.cap)) { khung.innerHTML = htmlCachMoKhoa(b.cap); return; }
+    // Đọc hiểu là bước sau từ vựng: chưa xong mọi phần của chặng thì chưa mở (kể cả khi vào thẳng bằng địa chỉ)
+    if (b.sach && trangThaiCacChang(b).some((c) => c.tu.length && !c.xong)) {
+      khung.innerHTML = `<div class="chua-lam"><div class="emoji emoji-to">🔒</div><h2>Bài đọc chưa mở</h2>
+        <p class="chu-phu">Học xong các phần từ vựng của ${esc(nhanBai(b))} rồi mới đọc bài này.</p>
+        <a class="nut nut-chinh" href="#/bai/${esc(ma)}">← Về chặng</a></div>`;
+      return;
+    }
 
     dungDongHo = batDongHo('nguPhap');
     // Bài đầu HSK 1 hiện sẵn pinyin; về sau ẩn để luyện đọc chữ

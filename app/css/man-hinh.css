@@ -1143,6 +1143,16 @@ mark .tu-cham { color: inherit; font-weight: inherit; }
   position: sticky; bottom: calc(10px + env(safe-area-inset-bottom)); z-index: 2;
 }
 
+/* Cửa học trên điện thoại: nút Tiếp tục luôn nằm ở đáy màn hình (cả màn giới thiệu từ dài),
+   chừa chỗ phía dưới để khung phản hồi không bị nút che (đánh giá tester 2026-11-21) */
+@media (max-width: 959px) {
+  .phien-chang { padding-bottom: 86px; }
+  .phien-chang .vung-tra-loi #nut-tiep {
+    position: fixed; left: 16px; right: 16px; width: auto; margin: 0;
+    bottom: calc(12px + env(safe-area-inset-bottom)); z-index: 25;
+  }
+}
+
 /* ==================== TRANG CHẶNG: PHẦN + CỬA (biểu tượng) ==================== */
 .the-phan { display: flex; flex-direction: column; gap: 8px; padding: 14px; }
 .the-phan.dang { border-color: var(--chinh-chu); }

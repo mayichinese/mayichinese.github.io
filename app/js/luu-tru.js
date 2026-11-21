@@ -113,6 +113,22 @@ function hopNhat(cu) {
   };
 }
 
+/**
+ * Xin trình duyệt GIỮ dữ liệu của app (không tự xóa khi máy thiếu bộ nhớ / Safari không mở lâu ngày).
+ * Không phải trình duyệt nào cũng đồng ý; kết quả ghi vào tienDo.giuDuLieu để trang Cài đặt hiện.
+ */
+export async function xinGiuDuLieu() {
+  try {
+    if (!navigator.storage?.persist) return null;
+    const daGiu = (await navigator.storage.persisted?.()) || (await navigator.storage.persist());
+    tienDo.giuDuLieu = !!daGiu;
+    return daGiu;
+  } catch { return null; }
+}
+/** Đang chạy trên iPhone/iPad bằng trình duyệt (chưa "Thêm vào màn hình chính") */
+export const laIosChuaCai = () => /iPhone|iPad|iPod/.test(navigator.userAgent)
+  && !navigator.standalone && !window.matchMedia?.('(display-mode: standalone)').matches;
+
 /** Ghi tiến độ xuống máy. Gọi sau mỗi lần thay đổi. */
 export function luu() {
   if (!luuDuoc) return false;

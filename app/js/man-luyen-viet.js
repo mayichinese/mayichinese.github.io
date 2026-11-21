@@ -42,13 +42,18 @@ function tuChuaChu(chu) {
   return ds.find((t) => t.hanzi === chu) || ds[0] || null;
 }
 
-/** Danh sách chữ mới chưa luyện, chữ thuộc từ đã học được xếp lên trước. */
+/**
+ * Danh sách chữ mới chưa luyện: chữ đã bấm "Bỏ qua" ở bước tô chữ của cửa (tienDo.vietBoQua) lên đầu,
+ * rồi chữ thuộc từ đã học, rồi các chữ còn lại.
+ */
 function chuMoiTheoThuTu(vietTay) {
   const td = layTienDo();
   const tuDaHoc = tatCaTu().filter((t) => td.the[t.khoa]);
   const daGapTrongTu = (c) => tuDaHoc.some((t) => t.hanzi.includes(c));
+  const boQua = new Set(td.vietBoQua || []);
   const chua = vietTay.filter((c) => !td.theViet[c]);
-  return [...chua.filter(daGapTrongTu), ...chua.filter((c) => !daGapTrongTu(c))];
+  return [...chua.filter((c) => boQua.has(c)), ...chua.filter((c) => !boQua.has(c) && daGapTrongTu(c)),
+    ...chua.filter((c) => !boQua.has(c) && !daGapTrongTu(c))];
 }
 
 /** Mọi chữ cần viết tay (cấp 1–2 rồi cấp 3) */

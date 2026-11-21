@@ -9,7 +9,7 @@
 // =========================================================
 
 import {
-  caiDat, luu, chuoiNgayHoc, coLuuDuoc, layTienDo, ngayHoc, coHocNgay, phutMoiNgay, tongPhutNgay, CAC_MUC_TIEU,
+  caiDat, luu, chuoiNgayHoc, coLuuDuoc, layTienDo, ngayHoc, coHocNgay, phutMoiNgay, tongPhutNgay, CAC_MUC_TIEU, laIosChuaCai,
 } from './luu-tru.js';
 import { tatCaTu, nhanBai } from './du-lieu.js';
 import { tinhTrangPhatAm } from './phat-am.js';
@@ -110,6 +110,9 @@ export function veTrangChu(khung) {
   if (ttPhatAm === 'khong-ho-tro') canhBao.push('⚠️ Trình duyệt này không hỗ trợ đọc phát âm. Hãy dùng Chrome, Edge hoặc Safari.');
   if (ttPhatAm === 'khong-co-giong') canhBao.push('⚠️ Máy chưa có giọng đọc tiếng Trung nên nút 🔊 sẽ không có tiếng. Xem cách cài trong <a href="#/cai-dat">Cài đặt</a>.');
   const ngaySaoLuu = td.saoLuuLanCuoi ? new Date(td.saoLuuLanCuoi) : null;
+  if (daHoc >= 1 && laIosChuaCai()) {
+    canhBao.push('📱 Trên iPhone, Safari có thể xóa tiến độ nếu lâu không mở app. Bấm <b>Chia sẻ → Thêm vào MH chính</b> để cài app và giữ tiến độ an toàn.');
+  }
   if (daHoc >= 10 && (!ngaySaoLuu || Date.now() - ngaySaoLuu > 7 * 86400000)) {
     canhBao.push(`💾 ${ngaySaoLuu ? 'Đã hơn 7 ngày bạn chưa sao lưu.' : 'Bạn chưa sao lưu lần nào.'} <a href="#/cai-dat">Sao lưu ngay</a> để không mất tiến độ.`);
   }

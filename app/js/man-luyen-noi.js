@@ -245,7 +245,7 @@ function htmlKetQua(kq, muc) {
 }
 
 /** Lời nhắc biến điệu hiện trước khi đọc */
-function htmlNhacBienDieu(hanzi, pinyin) {
+export function htmlNhacBienDieu(hanzi, pinyin) {
   const nhac = nhacBienDieu(hanzi, pinyin);
   return nhac.length ? `<p class="nhac-bien-dieu">💡 ${nhac.map((x) => esc(x)).join('<br>💡 ')}</p>` : '';
 }

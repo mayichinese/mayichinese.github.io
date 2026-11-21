@@ -39,7 +39,7 @@
 //   #/cai-dat      Cài đặt, sao lưu (mở từ "Tôi") → man-cai-dat.js
 // =========================================================
 
-import { docTienDo, caiDat } from './luu-tru.js';
+import { docTienDo, caiDat, xinGiuDuLieu } from './luu-tru.js';
 import { taiDuLieu, layTu, timBaiTheoMa, maBaiTuDiaChi, nhanBai, maBaiCuaTu, cheDoBai, danhSachBai } from './du-lieu.js';
 import { doc } from './phat-am.js';
 import { esc, datTieuDe, apDungGiaoDien, doiSangToi, dongHopThoai, thongBao } from './giao-dien.js';
@@ -249,6 +249,7 @@ document.addEventListener('click', (e) => {
 // =========================================================
 async function khoiDong() {
   docTienDo();
+  xinGiuDuLieu();   // xin trình duyệt không tự xóa tiến độ (localStorage)
   apDungGiaoDien();
   document.body.classList.toggle('kieu-khai', !!caiDat().kieuChuKhai);
 

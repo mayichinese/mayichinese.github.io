@@ -13,8 +13,8 @@
 
 import { caiDat, layTienDo, luu, nhatKyHomNay, ghiLuot } from './luu-tru.js';
 import { tatCaTu, nghiaNgan } from './du-lieu.js';
-import { doc } from './phat-am.js';
-import { esc, batDongHo, nutLoa } from './giao-dien.js';
+import { doc, tinhTrangPhatAm } from './phat-am.js';
+import { esc, batDongHo, nutLoa, htmlChanBaiNghe } from './giao-dien.js';
 import { tachPinyin, toMauPinyin, toMauChuHan, demChuHan } from './pinyin.js';
 import { bieuTuong } from './bieu-tuong.js';
 import { amCham } from './am-thanh.js';
@@ -224,8 +224,10 @@ function pinyinChe(pinyin, chiSo) {
 export async function veThanhDieu(khung) {
   khung.innerHTML = '<div class="dang-tai">Đang chuẩn bị câu hỏi…</div>';
   let nh;
+  let mauCoDinh = null;   // bảng mẫu cố định: cùng một âm tiết với 4 thanh (lấy từ data/nen-tang.json như mục Chữ & âm)
   try {
     nh = taoNganHang(await taiDaAm());
+    mauCoDinh = await fetch('data/nen-tang.json').then((r) => (r.ok ? r.json() : null)).then((j) => j?.phienAm?.mauThanh || null).catch(() => null);
   } catch (e) {
     khung.innerHTML = `<div class="loi">${esc(e.message)}</div>`;
     return;
@@ -236,13 +238,16 @@ export async function veThanhDieu(khung) {
   const nk = nhatKyHomNay();
 
   // Âm mẫu cho từng thanh (chữ đầu tiên của mỗi thanh trong bài nghe 1 âm tiết)
-  const mau = [1, 2, 3, 4].map((t) => uuTienDaHoc(nh.mot.filter((c) => c.dapAn[0] === t))[0]);
+  const mau = [1, 2, 3, 4].map((t) => {
+    const x = mauCoDinh?.find((m) => m.t === t);
+    return x ? { doc: x.h, py: x.p } : uuTienDaHoc(nh.mot.filter((c) => c.dapAn[0] === t))[0];
+  });
   const bangThanh = [1, 2, 3, 4].map((t, i) => `
     <div class="o-thanh t${t}">
       <span class="pinyin dau-thanh">${DAU_MAU[t]}</span>
       <b>Thanh ${t}</b>
       ${mau[i] ? `<button class="nut nut-nho nut-mau" data-doc="${esc(mau[i].doc)}">${bieuTuong('loa')}
-        <span class="han">${esc(mau[i].doc)}</span></button>` : ''}
+        <span class="han">${esc(mau[i].doc)}</span>${mau[i].py ? ` <span class="pinyin">${esc(mau[i].py)}</span>` : ''}</button>` : ''}
     </div>`).join('');
 
   const hayNham = Object.entries(tk.nham).sort((a, b) => b[1] - a[1]).slice(0, 3)
@@ -287,6 +292,8 @@ export function vePhienThanh(khung, dang) {
   let xuLyPhim = null;
   const d = CAC_DANG[dang];
   if (!d) { khung.innerHTML = '<p class="loi">Không có dạng bài này.</p>'; return () => {}; }
+  const chan = htmlChanBaiNghe(tinhTrangPhatAm(), '#/thanh-dieu');
+  if (chan) { khung.innerHTML = chan; return () => {}; }
   khung.innerHTML = '<div class="dang-tai">Đang chuẩn bị câu hỏi…</div>';
 
   taiDaAm().then((daAm) => {

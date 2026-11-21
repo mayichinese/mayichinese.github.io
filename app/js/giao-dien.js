@@ -204,6 +204,20 @@ export function htmlDuKienHsk3(phut) {
     ${phut < 20 ? 'Mức 10 phút chỉ đủ ôn để không quên – học từ mới sẽ rất chậm. ' : ''}Ước tính theo kinh nghiệm (~${GIO_HOC_HSK3} giờ học cho 1000 từ), không phải số liệu chính thức.</p>`;
 }
 
+/**
+ * Khung thay cho bài NGHE khi máy chắc chắn không có giọng đọc tiếng Trung (tránh đoán bừa – đánh giá tester 2026-11-21).
+ * Trả về '' nếu đọc được hoặc chưa rõ (danh sách giọng chưa tải xong).
+ */
+export function htmlChanBaiNghe(tinhTrang, quayLai) {
+  if (tinhTrang !== 'khong-ho-tro' && tinhTrang !== 'khong-co-giong') return '';
+  return `<div class="chua-lam"><div class="emoji emoji-to">🔇</div><h2>Máy chưa đọc được tiếng Trung</h2>
+    <p class="chu-phu">Bài này cần nghe. ${tinhTrang === 'khong-ho-tro'
+      ? 'Trình duyệt này không hỗ trợ đọc – hãy mở app bằng Chrome, Edge hoặc Safari.'
+      : 'Máy chưa cài giọng đọc tiếng Trung.'}</p>
+    <a class="nut nut-chinh" href="#/cai-dat">Xem cách cài giọng đọc</a>
+    <a class="nut" href="${quayLai}">← Quay lại</a></div>`;
+}
+
 /** Mặt sau của thẻ (dùng cho flashcard và trang xem từ) */
 export function htmlMatSau(tu) {
   // tô đậm từ đang học trong câu ví dụ; mọi từ khác chạm được để xem nghĩa (từ chưa học gạch chân chấm)

@@ -11,8 +11,8 @@
 // =========================================================
 
 import { layTienDo, luu, nhatKyHomNay, ghiLuot } from './luu-tru.js';
-import { doc } from './phat-am.js';
-import { esc, batDongHo, moHopThoai, nutLoa } from './giao-dien.js';
+import { doc, tinhTrangPhatAm } from './phat-am.js';
+import { esc, batDongHo, moHopThoai, nutLoa, htmlChanBaiNghe } from './giao-dien.js';
 import { bieuTuong } from './bieu-tuong.js';
 import { toMauPinyin } from './pinyin.js';
 import { taiNetChu } from './net-chu.js';
@@ -319,6 +319,8 @@ export function vePhienChuAm(khung, loai) {
   let daRoi = false;
   let dungDongHo = () => {};
   khung.innerHTML = '<div class="dang-tai">Đang chuẩn bị câu hỏi…</div>';
+  const chan = loai === 'bo-thu' ? '' : htmlChanBaiNghe(tinhTrangPhatAm(), '#/chu-am/phien-am');
+  if (chan) { khung.innerHTML = chan; return () => {}; }
   Promise.all([taiDuLieu(), loai === 'bo-thu' ? taiNetChu() : null]).then(([dl, netChu]) => {
     if (daRoi) return;
     const net = netChu?.net || {};

@@ -68,6 +68,8 @@ export async function veCaiDat(khung) {
       <p class="chu-phu" style="margin-top:0">Tiến độ được lưu trong trình duyệt của máy này (${soTheDaHoc} từ đã học).
         Hãy sao lưu thường xuyên. Muốn học tiếp trên máy khác: xuất file ở máy này → nhập file ở máy kia.</p>
       <p class="chu-phu">Lần sao lưu gần nhất: <b>${td.saoLuuLanCuoi ? new Date(td.saoLuuLanCuoi).toLocaleString('vi-VN') : 'chưa có'}</b></p>
+      <p class="chu-phu nho">${td.giuDuLieu ? '🔒 Trình duyệt đã đồng ý giữ dữ liệu của app (không tự xóa).'
+        : '⚠️ Trình duyệt chưa cam kết giữ dữ liệu – hãy sao lưu định kỳ, trên điện thoại nên “Thêm vào màn hình chính”.'}</p>
       <div class="hang-nut">
         <button class="nut nut-chinh" id="nut-xuat"><span class="emoji">💾</span> Xuất file sao lưu</button>
         <label class="nut" for="file-nhap"><span class="emoji">📂</span> Nhập file sao lưu</label>

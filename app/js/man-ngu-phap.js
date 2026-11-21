@@ -165,8 +165,9 @@ export async function veNguPhap(khung) {
             <b>${esc(d.ten)}</b>
             <span class="cong-thuc-nho han">${esc(d.congThuc[0] || '')}</span>
             <span class="hang-nhan">
-              ${nhanSachCuaDiem(d) ? `<span class="nhan nhan-chinh">${nhanSachCuaDiem(d)}</span>` : ''}
-              ${xongTuCuaBai(d) ? '' : `<span class="nhan">📚 học sau Chặng ${baiCuaDiem(d)}${cap > 1 ? ` HSK ${cap}` : ''}</span>`}
+              ${xongTuCuaBai(d)
+                ? (nhanSachCuaDiem(d) ? `<span class="nhan nhan-chinh">${nhanSachCuaDiem(d)}</span>` : '')
+                : `<span class="nhan">📚 Chặng ${baiCuaDiem(d)}${cap > 1 ? ` HSK ${cap}` : ''} · mở sau khi học xong từ</span>`}
             </span>
             ${(d.canKiemTra || []).length ? '<span class="nhan nhan-vang">⚠️ cần kiểm tra</span>' : ''}
           </span>

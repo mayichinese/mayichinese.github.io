@@ -23,7 +23,7 @@ import { esc, batDongHo, htmlMatSau, nutLoa } from './giao-dien.js';
 import { toMauPinyin, toMauChuHan, demChuHan, bienTheThanh } from './pinyin.js';
 import { tron, taiDaAm, taoCau, htmlDeBai, htmlLuaChon } from './cau-hoi-tu.js';
 import { taiNetChu, taoBangVe, phatHoatCanh, saiToiDa } from './net-chu.js';
-import { ganKhungNoi } from './man-luyen-noi.js';
+import { ganKhungNoi, htmlNhacBienDieu } from './man-luyen-noi.js';
 import { coNhanDang, coGhiAm } from './nhan-giong.js';
 import { DIEM_DAT } from './cham-phat-am.js';
 import { htmlCauCham, tachTu } from './cham-tu.js';
@@ -31,6 +31,8 @@ import { amCham, amDung, amSai, amXong } from './am-thanh.js';
 
 const CO_PHAN = 5;             // số từ mỗi phần (chia đều: 13 từ → 5 + 4 + 4)
 const HOI_LAI_TOI_DA = 3;      // một câu sai được hỏi lại tối đa 3 lần trong cửa
+// Đúng dưới tỉ lệ này (tính cả câu hỏi lại, không tính phần Nói) thì CHƯA qua cửa → làm lại (đánh giá tester 2026-11-21)
+export const TI_LE_QUA_CUA = 0.6;
 let boNoiDen = 0;              // "Tạm bỏ phần nói": bỏ câu nói ở mọi cửa tới thời điểm này (30 phút)
 
 export const CAC_KY = [
@@ -246,6 +248,7 @@ export function veChang(khung, maBai, so, soCua = 0) {
     const coKy = new Set(hang.map((m) => m.ky));
     const ketQua = Object.fromEntries(CAC_KY.map((k) => [k.ma, { dung: 0, tong: 0 }]));
     const saiTu = {};                 // khóa từ → số lần sai (chỉ câu trắc nghiệm + ghép cặp)
+    const boQuaViet = new Set();      // chữ bấm "Bỏ qua" ở bước tô chữ → đưa lên đầu hàng Luyện viết
     let daLam = 0;
     let muc = null;
     let daXongMuc = false;            // mục hiện tại đã trả lời / làm xong → Enter = tiếp
@@ -298,7 +301,7 @@ export function veChang(khung, maBai, so, soCua = 0) {
         </div>
         <button class="nut nut-chinh nut-rong" id="nut-tiep">${chuNut}</button>`);
       $vung.querySelector('#nut-tiep').onclick = tiepTheo;
-      $vung.querySelector('#nut-tiep').scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      if (dung !== null) $vung.querySelector('.phan-hoi').scrollIntoView({ block: 'center', behavior: 'smooth' });
     }
 
     function tiepTheo() {
@@ -318,7 +321,7 @@ export function veChang(khung, maBai, so, soCua = 0) {
 
     // ----- 👂 Giới thiệu từ mới: nghe trước, xem đầy đủ -----
     function veGioiThieu(m) {
-      $the.innerHTML = `${nhanKy(m, '<span class="nhan nhan-vang">✨ Từ mới</span>')}${htmlMatSau(m.tu)}`;
+      $the.innerHTML = `${nhanKy(m, '<span class="nhan nhan-vang">✨ Từ mới</span>')}${htmlNhacBienDieu(m.tu.hanzi, m.tu.pinyin)}${htmlMatSau(m.tu)}`;
       $vung.innerHTML = '';
       hienPhanHoi(null, '<span class="chu-phu nho">Nghe vài lần, đọc theo khẽ, nhìn câu ví dụ – lát nữa app sẽ hỏi lại.</span>', 'Đã hiểu – tiếp ▶');
       doc(tiengDoc(m.tu));
@@ -375,6 +378,7 @@ export function veChang(khung, maBai, so, soCua = 0) {
           <p class="han tu-hoi">${toMauChuHan(w.hanzi, w.pinyin)}</p>
           <p class="pinyin pinyin-to" style="margin:0">${toMauPinyin(w.pinyin, demChuHan(w.hanzi))}</p>
           <p class="chu-phu" style="margin:0">${esc(nghiaNgan(w))}</p>
+          ${htmlNhacBienDieu(w.hanzi, w.pinyin)}
           ${nutLoa(tiengDoc(w))}
         </div>`;
       $vung.innerHTML = `
@@ -427,7 +431,7 @@ export function veChang(khung, maBai, so, soCua = 0) {
           <button class="nut" id="nut-xem-viet">▶ Xem cách viết</button>
           <button class="nut" id="nut-bo-viet">Bỏ qua ▶</button>
         </div>`;
-      $vung.querySelector('#nut-bo-viet').onclick = tiepTheo;
+      $vung.querySelector('#nut-bo-viet').onclick = () => { boQuaViet.add(m.chu); tiepTheo(); };
       let writer = null;
       let nguong = 3;   // số nét sai tối đa vẫn tính đúng, theo số nét của chữ (net-chu.js saiToiDa)
       taiNetChu().then((d) => { const n = d.net[m.chu]?.strokes.length; if (n) nguong = saiToiDa(n); }).catch(() => {});
@@ -614,16 +618,24 @@ export function veChang(khung, maBai, so, soCua = 0) {
           cu.han = bayGio;   // làm lại cửa mà còn sai → ôn từ này ngay
         }
       }
-      // Ghi cửa đã xong (kèm các cửa đang được tính là xong theo tiến độ cũ, để không mất khi bắt đầu ghi)
+      // Tỉ lệ đúng (không tính Nói – micro/nơi ồn không nên làm trượt cửa)
+      const tongDung = Object.values(ketQua).reduce((t, x) => t + x.dung, 0);
+      const tong = Object.values(ketQua).reduce((t, x) => t + x.tong, 0);
+      const chamDung = CAC_KY.filter((x) => x.ma !== 'noi').reduce((t, x) => t + ketQua[x.ma].dung, 0);
+      const chamTong = CAC_KY.filter((x) => x.ma !== 'noi').reduce((t, x) => t + ketQua[x.ma].tong, 0);
+      const ti = chamTong ? chamDung / chamTong : 1;
+      const quaCua = ti >= TI_LE_QUA_CUA;
+      // Ghi cửa đã xong (kèm các cửa đang được tính là xong theo tiến độ cũ, để không mất khi bắt đầu ghi).
+      // Trượt cửa vẫn ghi mảng (có thể rỗng) để luật "tiến độ cũ" (từ đã học = cửa xong) không tự tính cửa này là xong.
       tdN.cua = tdN.cua || {};
       const k = khoaCua(b.ma, so);
       const daXong = new Set(tdN.cua[k] || []);
       chang.cua.forEach((c) => { if (c.xong) daXong.add(c.so); });
-      daXong.add(cua.so);
+      if (quaCua) daXong.add(cua.so);
       tdN.cua[k] = [...daXong].sort((x, y) => x - y);
-      const xongPhan = chang.cua.every((c) => daXong.has(c.so));
-      const tongDung = Object.values(ketQua).reduce((t, x) => t + x.dung, 0);
-      const tong = Object.values(ketQua).reduce((t, x) => t + x.tong, 0);
+      const xongPhan = quaCua && chang.cua.every((c) => daXong.has(c.so));
+      // Chữ bỏ qua bước viết → Luyện viết đưa lên trước
+      if (boQuaViet.size) tdN.vietBoQua = [...new Set([...(tdN.vietBoQua || []), ...boQuaViet])];
       if (xongPhan) {
         tdN.chang = tdN.chang || {};
         tdN.chang[b.ma] = [...new Set([...(tdN.chang[b.ma] || []), so])].sort((x, y) => x - y);
@@ -631,16 +643,16 @@ export function veChang(khung, maBai, so, soCua = 0) {
       }
       ghiLuot('cua', tongDung, tong - tongDung);   // ghiLuot đã lưu
       luu();
-      setTimeout(amXong, 150);
+      setTimeout(quaCua ? amXong : amSai, 150);
 
-      const ti = tong ? tongDung / tong : 1;
       const tiep = cuaTiepTheo(b);
       const canOn = (cua.loai === 'tu' ? [cua.tu] : W).filter((w) => saiTu[w.khoa]);
       const tu = cua.loai === 'tu' ? cua.tu : null;
       khung.innerHTML = `
         <div class="ket-thuc">
-          <div class="emoji emoji-to">${xongPhan ? '🏆' : ti >= 0.8 ? '🌟' : '💪'}</div>
-          <h2>${xongPhan ? `Xong phần ${so + 1}!` : 'Qua cửa!'}</h2>
+          <div class="emoji emoji-to">${!quaCua ? '💪' : xongPhan ? '🏆' : ti >= 0.8 ? '🌟' : '👍'}</div>
+          <h2>${!quaCua ? 'Chưa qua cửa' : xongPhan ? `Xong phần ${so + 1}!` : 'Qua cửa!'}</h2>
+          ${quaCua ? '' : `<p class="chu-phu">Đúng ${Math.round(ti * 100)}% – cần từ ${Math.round(TI_LE_QUA_CUA * 100)}% để qua. Xem lại từ rồi làm lại cửa này nhé.</p>`}
           ${tu ? `<p class="han" style="font-size:2.2rem;margin:4px 0 0">${toMauChuHan(tu.hanzi, tu.pinyin)}</p>
             <p class="chu-phu">${toMauPinyin(tu.pinyin, demChuHan(tu.hanzi))} · ${esc(nghiaNgan(tu))}</p>`
             : `<p class="chu-phu">${nhanBai(b)} · ${esc(b.ten)}</p>`}
@@ -649,10 +661,14 @@ export function veChang(khung, maBai, so, soCua = 0) {
           </div>
           <p class="chu-phu nho">${soMoi ? (canOn.length ? 'Từ này còn sai vài lần – sẽ gặp lại sớm ở Ôn luyện.' : 'Đã nhớ – lần ôn tới sau 1 ngày.')
             : canOn.length ? `Còn sai: <span class="han">${canOn.map((w) => esc(w.hanzi)).join('、')}</span> – sẽ gặp lại sớm ở Ôn luyện.` : ''}</p>
-          ${tiep ? `<a class="nut nut-chinh nut-rong" href="#/cua/${b.ma}/${tiep.phan}/${tiep.cua}" id="nut-cua-tiep">${tiep.phan === so ? 'Cửa tiếp theo ▶' : `Phần ${tiep.phan + 1} ▶`}</a>`
+          ${boQuaViet.size ? `<p class="chu-phu nho">✍️ Bỏ qua viết: <span class="han">${[...boQuaViet].map(esc).join(' ')}</span> – đã đưa lên đầu hàng Luyện viết.</p>` : ''}
+          ${!quaCua ? `<button class="nut nut-chinh nut-rong" id="nut-lam-lai">↺ Làm lại cửa này</button>`
+            : tiep ? `<a class="nut nut-chinh nut-rong" href="#/cua/${b.ma}/${tiep.phan}/${tiep.cua}" id="nut-cua-tiep">${tiep.phan === so ? 'Cửa tiếp theo ▶' : `Phần ${tiep.phan + 1} ▶`}</a>`
             : `<a class="nut nut-chinh nut-rong" href="#/bai/${b.ma}">🎉 Xong từ vựng của chặng – sang ngữ pháp ▶</a>`}
           <a class="nut nut-rong" href="#/bai/${b.ma}">← Về chặng</a>
         </div>`;
+      const $lai = khung.querySelector('#nut-lam-lai');
+      if ($lai) $lai.onclick = () => window.dispatchEvent(new HashChangeEvent('hashchange'));
     }
 
     xuLyPhim = (e) => {

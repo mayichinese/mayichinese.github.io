@@ -423,6 +423,7 @@ export function thangDiem(cap = 1) {
 }
 /** Một lần thi có đủ điều kiện học vượt không */
 export function datHocVuot(x) {
+  if (x.khongGiong) return false;   // lần thi máy không đọc được phần Nghe
   const thang = thangDiem(x.cap || 1);
   const { phan, tong } = diemCuaLan(x);
   return tong >= thang.vuot && Object.values(phan).every((d) => d >= thang.vuotPhan);
@@ -514,7 +515,7 @@ export function veThiThu(khung, capChon) {
         ${cap > 1 ? 'Phần viết tay: viết đúng thứ tự nét; chữ đến 5 nét được sai 1 nét, 6–9 nét sai 2, từ 10 nét sai 3 vẫn tính đúng. ' : ''}
         ${cap > 2 ? 'Phần 2 của Viết: đề thật yêu cầu tự viết câu; app đổi thành sắp xếp mảnh có sẵn để tự chấm được. ' : ''}
         Cấu trúc theo đề thi thử trong sách bài tập ${ch.sach} (2026); câu hỏi tự soạn, tranh là biểu tượng – <b>không phải đề chính thức</b>.</p>
-      ${tt === 'khong-ho-tro' || tt === 'khong-co-giong' ? '<p class="can-kiem-tra">⚠️ Máy chưa có giọng đọc tiếng Trung nên phần Nghe sẽ không có tiếng. Xem cách cài trong Cài đặt.</p>' : ''}
+      ${tt === 'khong-ho-tro' || tt === 'khong-co-giong' ? '<p class="can-kiem-tra">⚠️ Máy chưa có giọng đọc tiếng Trung nên phần Nghe sẽ không có tiếng; kết quả thi lúc này <b>không dùng để học vượt</b>. Xem cách cài trong Cài đặt.</p>' : ''}
       <label class="dong-cai-dat" style="border:0;padding:6px 0"><span>Cho phép bấm nghe lại (thi thật không có)</span>
         <input type="checkbox" id="cho-nghe-lai"></label>
       <a class="nut nut-chinh nut-rong" href="#/thi-thu/lam${cap > 1 ? `/${cap}` : ''}" id="nut-bat-dau"><span class="emoji">📋</span> Bắt đầu thi HSK ${cap}</a>
@@ -790,7 +791,11 @@ export function veLamBai(khung, cap = 1) {
           if (daRoi || de[viTri] !== c) return;
           docLanLuot(c.doc).then(() => {
             const $tt = khung.querySelector('#trang-thai-nghe');
-            if ($tt && de[viTri] === c) $tt.textContent = 'Đã đọc xong – chọn đáp án.';
+            if ($tt && de[viTri] === c) {
+              $tt.textContent = ['khong-ho-tro', 'khong-co-giong'].includes(tinhTrangPhatAm())
+                ? '⚠️ Máy không có giọng đọc – câu này không nghe được (lần thi này không dùng để học vượt).'
+                : 'Đã đọc xong – chọn đáp án.';
+            }
           });
           const $tt = khung.querySelector('#trang-thai-nghe');
           if ($tt) $tt.textContent = 'Đang đọc (2 lần)…';
@@ -815,6 +820,8 @@ export function veLamBai(khung, cap = 1) {
       const ketQua = cap === 1
         ? { cap: 1, nghe: dem('n') * 5, doc: dem('d') * 5 }
         : { cap, nghe: dem('n'), doc: dem('d'), viet: dem('v') };
+      // Máy không có giọng đọc → phần Nghe không nghe được: vẫn lưu điểm nhưng KHÔNG dùng để học vượt
+      if (['khong-ho-tro', 'khong-co-giong'].includes(tinhTrangPhatAm())) ketQua.khongGiong = true;
       const tong = diemCuaLan(ketQua).tong;
       const td = layTienDo();
       td.thiThu = [...(td.thiThu || []), { ...ketQua, luc: new Date().toISOString(), diem: tong, giay: giayDaLam }].slice(-30);
@@ -875,6 +882,7 @@ export function veLamBai(khung, cap = 1) {
           <div class="emoji emoji-to">${dat ? '🏆' : '💪'}</div>
           <h2>${tong}/${thang.toiDa} điểm</h2>
           <p><span class="nhan ${dat ? 'nhan-dat' : ''}" style="font-size:.95rem">${dat ? `✅ Đạt (từ ${thang.dat} điểm)` : `Chưa đạt – cần thêm ${thang.dat - tong} điểm`}</span></p>
+          ${kq.khongGiong ? '<p class="can-kiem-tra" style="margin:0">🔇 Máy không có giọng đọc nên phần Nghe không nghe được – lần thi này không dùng để học vượt.</p>' : ''}
           <p class="chu-phu nho" style="margin:0">Mức đạt ước tính theo kỳ thi cũ.${CAU_HINH[cap + 1] && !capMo(cap + 1) && !vuaMo.length
             ? ` Học vượt sang HSK ${cap + 1} cần ${moTaHocVuot(cap)}.` : ''}</p>
           ${vuaMo.length ? `<div class="khung the-mo-khoa"><span class="emoji">🔓</span><b>Đã mở khóa HSK ${vuaMo.join(', ')}!</b>
