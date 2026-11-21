@@ -73,7 +73,7 @@ thanh 1 **đỏ**, thanh 2 **cam**, thanh 3 **xanh lá**, thanh 4 **xanh dương
 
 **Mục tiêu mỗi ngày:** lần đầu mở app, trang **Hôm nay** hỏi bạn muốn học bao nhiêu phút mỗi ngày: **10** (thoải mái), **20** (vừa phải), **30** (nghiêm túc) hoặc **60** (chuyên sâu). Đổi lại lúc nào cũng được trong **Tôi → Cài đặt → Học tập**. Đồng hồ ⏱ khi học cho biết tổng số phút hôm nay so với mục tiêu.
 
-**Nhiệm vụ hằng ngày:** mỗi ngày app giao **3 nhiệm vụ ngẫu nhiên**, mỗi cái một kiểu khác nhau – theo **số lượng** (vd. ôn 20 thẻ), **thời gian** (vd. học đủ 20 phút), **dạng bài** (vd. hoàn thành 1 bài ngữ pháp) hoặc **độ chính xác** (vd. 2 lượt đúng từ 80%). Nhiệm vụ hợp với trình độ hiện tại và to/nhỏ theo mục tiêu phút; chạm vào nhiệm vụ để làm ngay. Ngày mới (4 giờ sáng) có nhiệm vụ mới. **Nhiệm vụ tháng**: hoàn thành 50 nhiệm vụ hằng ngày trong tháng.
+**Nhiệm vụ hằng ngày:** mỗi ngày app giao **3 nhiệm vụ ngẫu nhiên**, mỗi cái một kiểu khác nhau – theo **số lượng** (vd. ôn 20 thẻ), **thời gian** (vd. học đủ 20 phút), **dạng bài** (vd. hoàn thành 1 bài ngữ pháp) hoặc **độ chính xác** (vd. 2 lượt đúng từ 80%). Nhiệm vụ hợp với trình độ hiện tại và to/nhỏ theo mục tiêu phút; chạm vào nhiệm vụ để làm ngay. Ngày mới (4 giờ sáng) có nhiệm vụ mới. **Nhiệm vụ tháng**: làm đủ cả 3 nhiệm vụ hằng ngày trong 20 ngày của tháng (bắt đầu giữa tháng thì mục tiêu ít ngày hơn).
 
 **Mở khóa cấp HSK:** bắt đầu từ HSK 1; **HSK 2 mở khi bạn học hết HSK 1** hoặc **học vượt** bằng cách đạt bài **thi thử HSK 1** (từ 120/200). HSK 3 mở tương tự sau HSK 2. Cấp đang khóa hiện 🔒: vẫn xem được tên bài nhưng chưa học được từ, ngữ pháp, chữ viết cấp 3 và thi thử của cấp đó. Cấp đã mở thì không bao giờ bị khóa lại.
 

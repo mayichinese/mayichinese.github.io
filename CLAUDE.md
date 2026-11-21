@@ -60,7 +60,7 @@
     60 phút cho 5 phần) KHÔNG còn dùng làm mục tiêu. Đồng hồ `batDongHo` hiện tổng phút hôm nay / mục tiêu.
   - `js/nhiem-vu.js`: 3 nhiệm vụ/ngày ngẫu nhiên (hạt giống = ngày) từ 3 trong 4 nhóm (số lượng, thời gian, dạng bài, chính xác),
     không trùng chủ đề; lưu `nk.nhiemVu=[{ma,muc}]`, tiến độ tính từ bộ đếm nhật ký. Lượt bài xong gọi `ghiLuot(loai, dung, sai)`
-    (luu-tru.js) → `nk.luot[loai]`, `nk.luotTot` (≥80%), `nk.luotHoanHao`. Nhiệm vụ tháng: 50.
+    (luu-tru.js) → `nk.luot[loai]`, `nk.luotTot` (≥80%), `nk.luotHoanHao`. Nhiệm vụ tháng: số NGÀY làm đủ 3 nhiệm vụ, mục tiêu 20 (giảm nếu bắt đầu giữa tháng).
   - `js/cap-do.js`: mở khóa cấp dần – HSK N mở khi học hết từ cấp N−1, hoặc đạt thi thử cấp N−1 (học vượt), hoặc đã có từ cấp N
     (tiến độ cũ). Ghi `tienDo.capDaMo`. Khóa: học từ mới, bài, ngữ pháp, thi thử, chữ viết cấp 3 của cấp đang khóa.
   - `js/man-chu-am.js` (Chữ & âm): phiên âm (thanh, 23 âm đầu, 35 vần), 25 nét (18 + 7 nét ghép) + 10 quy tắc thứ tự nét, 49 bộ thủ; luyện 10 câu

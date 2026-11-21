@@ -6,7 +6,8 @@
 //   - Số lượng to/nhỏ theo mục tiêu phút mỗi ngày.
 //   - Chọn xong thì lưu vào nhật ký ngày (nk.nhiemVu = [{ ma, muc }]) nên trong ngày không đổi.
 //   - Tiến độ tính thẳng từ các bộ đếm trong nhật ký (nk.on, nk.moi, nk.luot…), không lưu riêng.
-//   - Nhiệm vụ tháng: hoàn thành MUC_THANG nhiệm vụ hằng ngày trong tháng.
+//   - Nhiệm vụ tháng: số NGÀY làm đủ cả 3 nhiệm vụ trong tháng, mục tiêu MUC_THANG ngày (bắt đầu dùng app giữa tháng
+//     thì mục tiêu giảm theo số ngày còn lại). Trước 2026-11-21 là "50 nhiệm vụ" – người dùng thấy khó hiểu.
 // =========================================================
 
 import { layTienDo, nhatKyHomNay, ngayHoc, phutMoiNgay, tongPhutNgay, luu, GIO_BAT_DAU_NGAY } from './luu-tru.js';
@@ -14,7 +15,7 @@ import { tatCaTu } from './du-lieu.js';
 import { demHomNay, tuChuaHoc } from './phien-hoc.js';
 import { coNhanDang } from './nhan-giong.js';
 
-export const MUC_THANG = 50;
+export const MUC_THANG = 20;   // số ngày làm đủ 3 nhiệm vụ trong tháng
 const luot = (nk, loai) => nk.luot?.[loai] || 0;
 
 // Mẫu nhiệm vụ. cac: các mức có thể giao · dk(ng): có giao được không (ng = ngữ cảnh hiện tại)
@@ -132,15 +133,27 @@ function moTa(x, nk) {
   return { ma: m.ma, emoji: m.emoji, ten: m.ten(x.muc), muc: x.muc, daLam, xong: daLam >= x.muc, href: m.href };
 }
 
-/** Nhiệm vụ tháng: số nhiệm vụ hằng ngày đã xong trong tháng này */
+/** Nhiệm vụ tháng: số ngày trong tháng này đã làm đủ mọi nhiệm vụ hằng ngày */
 export function nhiemVuThang() {
-  const khoa = ngayHoc().slice(0, 7);   // "2026-11"
+  const homNay = ngayHoc();               // "2026-11-21"
+  const khoa = homNay.slice(0, 7);        // "2026-11"
+  const nhatKy = layTienDo().nhatKy;
   let xong = 0;
-  for (const [ngay, nk] of Object.entries(layTienDo().nhatKy)) {
-    if (!ngay.startsWith(khoa) || !Array.isArray(nk.nhiemVu)) continue;
-    xong += nk.nhiemVu.map((x) => moTa(x, nk)).filter((x) => x?.xong).length;
+  for (const [ngay, nk] of Object.entries(nhatKy)) {
+    if (!ngay.startsWith(khoa) || !Array.isArray(nk.nhiemVu) || !nk.nhiemVu.length) continue;
+    const ds = nk.nhiemVu.map((x) => moTa(x, nk)).filter(Boolean);
+    if (ds.length && ds.every((x) => x.xong)) xong++;
   }
-  return { thang: Number(khoa.slice(5)), xong: Math.min(xong, MUC_THANG), muc: MUC_THANG };
+  // Bắt đầu dùng app trong tháng này → mục tiêu tỉ lệ với số ngày còn lại (2/3 số ngày, tối thiểu 3)
+  const [nam, thang] = khoa.split('-').map(Number);
+  const soNgayThang = new Date(nam, thang, 0).getDate();
+  const ngayDau = Object.keys(nhatKy).sort()[0] || homNay;
+  let muc = MUC_THANG;
+  if (ngayDau.startsWith(khoa)) {
+    const conLai = soNgayThang - Number(ngayDau.slice(8, 10)) + 1;
+    muc = Math.max(3, Math.min(MUC_THANG, Math.round((conLai * 2) / 3)));
+  }
+  return { thang, xong: Math.min(xong, muc), muc };
 }
 
 /** Số giờ còn lại đến khi đổi nhiệm vụ (ngày học mới bắt đầu lúc 4 giờ sáng) */

@@ -171,7 +171,7 @@ export function veTrangChu(khung) {
 
     <section class="khung nhiem-vu-thang">
       <div class="dong-tren"><b>Nhiệm vụ tháng ${thang.thang}</b><span class="emoji">🏆</span></div>
-      <span class="chu-phu nho">Hoàn thành ${thang.muc} nhiệm vụ hằng ngày trong tháng</span>
+      <span class="chu-phu nho">Làm đủ cả 3 nhiệm vụ hằng ngày trong <b>${thang.muc} ngày</b> của tháng ${thang.thang} · đã được ${thang.xong} ngày</span>
       <span class="thanh-nhiem-vu"><span style="width:${Math.round((thang.xong / thang.muc) * 100)}%"></span><i>${thang.xong} / ${thang.muc}</i></span>
     </section>
     ${theBai}
