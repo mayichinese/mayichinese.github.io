@@ -21,6 +21,7 @@
 //   #/bai[/5]      Bài học (lộ trình) / bài 5   → man-bai-hoc.js
 //   #/tu/<khóa>    Xem một từ                   → man-bai-hoc.js
 //   #/luyen-tap    Luyện tập: cần ôn + kỹ năng + chủ đề + thi thử → man-luyen-tap.js
+//   #/ky-nang/<nghe|noi|doc|viet>  trang một kỹ năng: danh sách bài luyện của kỹ năng đó
 //   #/chu-de[/<mã>] Ôn theo chủ đề: danh sách chủ đề / từ của một chủ đề (+ trắc nghiệm #/trac-nghiem/chu-de/<mã>)
 //   #/luyen-viet   Luyện viết: tổng quan        → man-luyen-viet.js
 //   #/luyen-viet/phien        phiên luyện viết hôm nay
@@ -53,7 +54,7 @@ import { baiDangHoc } from './phien-hoc.js';
 import { veDanhSachBai, veBai, veTu, veChuDe, xemCap } from './man-bai-hoc.js';
 import { veCaiDat } from './man-cai-dat.js';
 import { veThongKe } from './man-thong-ke.js';
-import { veLuyenTap, veDanhSachChuDe } from './man-luyen-tap.js';
+import { veLuyenTap, veDanhSachChuDe, veKyNang, KY_NANG } from './man-luyen-tap.js';
 import { veLuyenViet, vePhienViet, moCachViet } from './man-luyen-viet.js';
 import { veThanhDieu, vePhienThanh, CAC_DANG } from './man-thanh-dieu.js';
 import { veTracNghiem, vePhienTracNghiem, CAC_DANG as DANG_TRAC_NGHIEM } from './man-trac-nghiem.js';
@@ -92,7 +93,7 @@ function veTheoDiaChi() {
     '': 'trang-chu', bai: 'bai', tu: 'bai', 'hoc-moi': 'bai', chang: 'bai', cua: 'bai', 'doc-hieu': 'bai', 'kiem-tra': 'bai', 'nhap-mon': 'bai',
     on: 'luyen-tap', 'luyen-tap': 'luyen-tap', 'luyen-viet': 'luyen-tap', 'thanh-dieu': 'luyen-tap',
     'trac-nghiem': 'luyen-tap', 'ngu-phap': 'luyen-tap', 'luyen-noi': 'luyen-tap',
-    'thi-thu': 'luyen-tap', 'chu-de': 'luyen-tap', toi: 'toi', 'thong-ke': 'toi', 'cai-dat': 'toi', 'chu-am': 'chu-am',
+    'thi-thu': 'luyen-tap', 'chu-de': 'luyen-tap', 'ky-nang': 'luyen-tap', toi: 'toi', 'thong-ke': 'toi', 'cai-dat': 'toi', 'chu-am': 'chu-am',
   }[muc] ?? '';
   if (muc === 'trac-nghiem' && thamSo === 'bai') mucChon = 'bai'; // kiểm tra một bài = bước 3 của bài học
   // Kiểm tra bài sách cũ (#/trac-nghiem/bai/<mã>) → kiểm tra chặng mới
@@ -178,7 +179,7 @@ function veTheoDiaChi() {
     datTieuDe(`Luyện viết · ${duong[2]}`, '#/luyen-viet');
     donDep = vePhienViet(khung, duong[2]);
   } else if (muc === 'luyen-viet') {
-    datTieuDe('Luyện viết', '#/luyen-tap');
+    datTieuDe('Luyện viết', '#/ky-nang/viet');
     veLuyenViet(khung);
   } else if (muc === 'thi-thu' && thamSo === 'lam') {
     const capThi = ['2', '3'].includes(duong[2]) ? Number(duong[2]) : 1;
@@ -227,20 +228,23 @@ function veTheoDiaChi() {
     datTieuDe(thamSo === 'so-sai' ? 'Ôn câu sai' : DANG_TRAC_NGHIEM[thamSo]?.ten || 'Trắc nghiệm', '#/trac-nghiem');
     donDep = vePhienTracNghiem(khung, thamSo);
   } else if (muc === 'trac-nghiem') {
-    datTieuDe('Trắc nghiệm', '#/luyen-tap');
+    datTieuDe('Trắc nghiệm', '#/ky-nang/doc');
     veTracNghiem(khung);
   } else if (muc === 'luyen-noi' && CAC_DANG_NOI[thamSo]) {
     datTieuDe(CAC_DANG_NOI[thamSo].ten, '#/luyen-noi');
     donDep = vePhienNoi(khung, thamSo);
   } else if (muc === 'luyen-noi') {
-    datTieuDe('Nói & phát âm', '#/luyen-tap');
+    datTieuDe('Nói & phát âm', '#/ky-nang/noi');
     veLuyenNoi(khung);
   } else if (muc === 'thanh-dieu' && thamSo) {
     datTieuDe(CAC_DANG[thamSo]?.ten || 'Thanh điệu', '#/thanh-dieu');
     donDep = vePhienThanh(khung, thamSo);
   } else if (muc === 'thanh-dieu') {
-    datTieuDe('Thanh điệu', '#/luyen-tap');
+    datTieuDe('Thanh điệu', '#/ky-nang/nghe');
     veThanhDieu(khung);
+  } else if (muc === 'ky-nang' && KY_NANG[thamSo]) {
+    datTieuDe(`Luyện ${KY_NANG[thamSo].ten.toLowerCase()}`, '#/luyen-tap');
+    veKyNang(khung, thamSo);
   } else if (muc === 'luyen-tap') {
     datTieuDe('Luyện tập');
     veLuyenTap(khung);

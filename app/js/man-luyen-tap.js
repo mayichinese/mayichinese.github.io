@@ -3,33 +3,37 @@
 //   1. Cần ôn hôm nay: mọi thứ đã đến hạn, mỗi dòng bấm là vào ôn ngay
 //        🔁 Từ vựng  → #/on                 🧩 Ngữ pháp → #/ngu-phap/on
 //        ✍️ Chữ viết → #/luyen-viet/phien    📒 Sổ câu sai → #/trac-nghiem/so-sai
-//   2. Luyện kỹ năng (ô rộng 🎤 Nói & phát âm → #/luyen-noi, rồi 4 ô):
-//        🎧 Nghe & thanh điệu → #/thanh-dieu    ✍️ Viết chữ Hán → #/luyen-viet
-//        📝 Trắc nghiệm từ    → #/trac-nghiem   🧩 Ngữ pháp     → #/ngu-phap
+//   2. Luyện kỹ năng – 4 kỹ năng (2026-11-21), mỗi ô mở trang con #/ky-nang/<nghe|noi|doc|viet> liệt kê các bài:
+//        🎧 Nghe: thanh điệu · nghe → chọn chữ · nghe phiên âm
+//        🗣️ Nói: đọc từ · đọc câu · nghe & nhắc lại · nói theo nghĩa
+//        📖 Đọc: đọc hiểu các chặng đã mở · chữ → nghĩa · nghĩa → chữ · pinyin · trắc nghiệm tổng hợp
+//        ✍️ Viết: viết chữ Hán · ôn chữ đến hạn · bộ thủ · nét cơ bản
+//      + ô rộng 🧩 Ngữ pháp → #/ngu-phap (dùng cho cả 4 kỹ năng)
 //   3. Chủ đề & thi thử: 🗂️ Ôn theo chủ đề → #/chu-de · 📋 Thi thử → #/thi-thu (trước 2026-11-21 Thi thử có mục riêng)
 // Chỉ ĐỌC tiến độ, đếm thẳng từ lịch ôn (không cần tải dữ liệu ngữ pháp / nét chữ).
 // =========================================================
 
 import { caiDat, nhatKyHomNay, layTienDo } from './luu-tru.js';
 import { dangHoc } from './lich-on.js';
-import { tatCaTu, danhSachBai, coChuDe, cacCapCoDuLieu } from './du-lieu.js';
+import { tatCaTu, danhSachBai, coChuDe, cacCapCoDuLieu, nhanBai } from './du-lieu.js';
 import { capMo } from './cap-do.js';
 import { esc } from './giao-dien.js';
 import { demHomNay } from './phien-hoc.js';
 import { bieuTuong } from './bieu-tuong.js';
+import { CAC_DANG as DANG_TN } from './man-trac-nghiem.js';
+import { CAC_DANG_NOI } from './man-luyen-noi.js';
+import { tinhTrangPhatAm } from './phat-am.js';
+import { trangThaiCacChang } from './man-chang.js';
+import { taiDocHieu, ketQuaDoc } from './man-doc-hieu.js';
 
-const KY_NANG = [
-  { ma: 'noi', emoji: '🎤', ten: 'Nói & phát âm', href: '#/luyen-noi', rong: true,
-    moTa: 'Đọc to, máy chấm từng chữ · nghe và nhắc lại · nói theo nghĩa' },
-  { ma: 'nghe', emoji: '🎧', ten: 'Nghe & thanh điệu', href: '#/thanh-dieu', phut: 'nghe',
-    moTa: 'Nghe chọn thanh, biến điệu 不/一' },
-  { ma: 'viet', emoji: '✍️', ten: 'Viết chữ Hán', href: '#/luyen-viet', phut: 'viet',
-    moTa: '250 chữ viết tay cấp 1–3' },
-  { ma: 'on', emoji: '📝', ten: 'Trắc nghiệm từ', href: '#/trac-nghiem', phut: 'nguPhap',
-    moTa: 'Nghĩa, chữ, nghe, pinyin' },
-  { ma: 'nguPhap', emoji: '🧩', ten: 'Ngữ pháp', href: '#/ngu-phap', phut: 'nguPhap',
-    moTa: 'Công thức, sắp xếp câu, điền từ' },
-];
+/** 4 kỹ năng: ô ở trang Luyện tập → trang con #/ky-nang/<ma> */
+export const KY_NANG = {
+  nghe: { emoji: '🎧', ten: 'Nghe', lop: 'nghe', moTa: 'Thanh điệu · nghe chọn chữ · phiên âm' },
+  noi: { emoji: '🗣️', ten: 'Nói', lop: 'noi', moTa: 'Đọc to, máy chấm · nhắc lại · nói theo nghĩa' },
+  doc: { emoji: '📖', ten: 'Đọc', lop: 'on', moTa: 'Đọc hiểu · chữ → nghĩa · pinyin' },
+  viet: { emoji: '✍️', ten: 'Viết', lop: 'viet', moTa: 'Viết chữ Hán · bộ thủ · nét' },
+};
+const SO_TU_TRAC_NGHIEM = 4;   // trắc nghiệm cần ít nhất 4 từ đã học (như man-trac-nghiem.js)
 
 export function veLuyenTap(khung) {
   const td = layTienDo();
@@ -68,12 +72,17 @@ export function veLuyenTap(khung) {
 
     <h3 class="tieu-de-muc">Luyện kỹ năng</h3>
     <div class="luoi-ky-nang">
-      ${KY_NANG.map((k) => `
-        <a class="o-ky-nang khung phan-${k.ma}${k.rong ? ' o-ky-nang-rong' : ''}" href="${k.href}">
+      ${Object.entries(KY_NANG).map(([ma, k]) => `
+        <a class="o-ky-nang khung phan-${k.lop}" href="#/ky-nang/${ma}">
           <span class="o-emoji emoji">${k.emoji}</span>
           <b>${k.ten}</b>
           <span class="chu-phu nho">${k.moTa}</span>
         </a>`).join('')}
+      <a class="o-ky-nang khung phan-nguPhap o-ky-nang-rong" href="#/ngu-phap">
+        <span class="o-emoji emoji">🧩</span>
+        <b>Ngữ pháp</b>
+        <span class="chu-phu nho">Dùng cho cả 4 kỹ năng: công thức, sắp xếp câu, điền từ</span>
+      </a>
     </div>
     <h3 class="tieu-de-muc">Chủ đề & thi thử</h3>
     <div class="luoi-ky-nang">
@@ -116,4 +125,86 @@ export function veDanhSachChuDe(khung) {
             <span class="chu-phu nho">${daHoc}/${b.tu.length} từ đã học</span></a>`;
         }).join('')}</div>`;
     }).join('') || '<p class="chu-phu">Chưa có chủ đề nào.</p>'}`;
+}
+
+// ---------- Trang một kỹ năng (#/ky-nang/<nghe|noi|doc|viet>) ----------
+/** Một dòng bài luyện; có `khoa` (lý do) thì hiện mờ, không bấm được */
+function dongBai(x, lop) {
+  const the = x.khoa ? 'div' : 'a';
+  return `
+    <${the} class="dong-ke-hoach khung phan-${lop}${x.khoa ? ' sap-co' : ''}"${x.khoa ? '' : ` href="${x.href}"`}>
+      <span class="o-emoji emoji">${x.emoji}</span>
+      <span class="giua">
+        <span class="dong-tren"><b>${x.ten}</b>${x.phai ? `<span class="so-phut">${x.phai}</span>` : ''}</span>
+        <span class="mo-ta">${x.khoa ? `🔒 ${x.khoa}` : x.moTa}</span>
+      </span>
+      <span class="cuoi-dong">${x.khoa ? '' : bieuTuong('phai')}</span>
+    </${the}>`;
+}
+
+/** @param {string} ma  nghe | noi | doc | viet */
+export function veKyNang(khung, ma) {
+  const k = KY_NANG[ma];
+  const td = layTienDo();
+  const coGiong = !['khong-ho-tro', 'khong-co-giong'].includes(tinhTrangPhatAm());
+  const khongGiong = coGiong ? '' : 'Máy chưa có giọng đọc tiếng Trung (xem Cài đặt)';
+  const soTuDaHoc = tatCaTu().filter((t) => td.the[t.khoa]).length;
+  const thieuTu = soTuDaHoc >= SO_TU_TRAC_NGHIEM ? '' : `Cần học ít nhất ${SO_TU_TRAC_NGHIEM} từ (đã học ${soTuDaHoc})`;
+  const tn = (d) => ({ ...DANG_TN[d], href: `#/trac-nghiem/${d}`, khoa: thieuTu });
+  const bayGio = Date.now();
+  const vietDenHan = Object.values(td.theViet).filter((t) => dangHoc(t) || t.han <= bayGio).length;
+
+  const DS = {
+    nghe: [
+      { emoji: '🎵', ten: 'Thanh điệu', href: '#/thanh-dieu', khoa: khongGiong,
+        moTa: 'Nghe chọn thanh · thanh 2 hay 3 · từ 2 âm tiết · biến điệu 不/一' },
+      { ...tn('nghe'), khoa: thieuTu || khongGiong },
+      { emoji: '🎧', ten: 'Nghe phiên âm', href: '#/chu-am/luyen/phien-am', khoa: khongGiong,
+        moTa: 'Phân biệt thanh mẫu, vận mẫu dễ nhầm: zh/z, an/ang…' },
+    ],
+    noi: [
+      ...Object.entries(CAC_DANG_NOI).map(([d, x]) => ({ ...x, href: `#/luyen-noi/${d}`, phai: `${x.so} câu`,
+        khoa: d === 'nhac-lai' ? khongGiong : '' })),
+      { emoji: '📊', ten: 'Tiến độ nói', href: '#/luyen-noi', moTa: 'Điểm trung bình, âm hay đọc sai' },
+    ],
+    doc: [
+      tn('nghia'), tn('chu'), tn('pinyin'),
+      { emoji: '📝', ten: 'Trắc nghiệm tổng hợp', href: '#/trac-nghiem', moTa: 'Trộn 4 dạng · sổ câu sai · kiểm tra theo chặng' },
+    ],
+    viet: [
+      { emoji: '✍️', ten: 'Viết chữ Hán', href: '#/luyen-viet', moTa: 'Học viết chữ mới theo thứ tự nét, 250 chữ cấp 1–3' },
+      { emoji: '🔁', ten: 'Ôn chữ đến hạn', href: '#/luyen-viet/phien', phai: vietDenHan ? `${vietDenHan} chữ` : '',
+        khoa: vietDenHan ? '' : 'Chưa có chữ nào đến hạn ôn', moTa: 'Viết lại các chữ đã học theo lịch ôn' },
+      { emoji: '🧱', ten: 'Luyện bộ thủ', href: '#/chu-am/luyen/bo-thu', moTa: 'Bộ → nghĩa, nghĩa → bộ, chữ → bộ' },
+      { emoji: '〰️', ten: 'Nét & thứ tự nét', href: '#/chu-am/net', moTa: '25 nét cơ bản, 10 quy tắc viết' },
+    ],
+  }[ma];
+
+  khung.innerHTML = `
+    <p class="chu-phu nho" style="margin:4px 2px 12px">${k.emoji} <b>${k.ten}</b>: chọn một bài để luyện. Bài luyện dùng từ bạn đã học.</p>
+    <div class="ke-hoach">${DS.map((x) => dongBai(x, k.lop)).join('')}</div>
+    ${ma === 'doc' ? '<h3 class="tieu-de-muc">Đọc hiểu <small>bài đọc của các chặng</small></h3><div class="ke-hoach" id="ds-doc-hieu"><div class="dang-tai">Đang tải…</div></div>' : ''}
+    <div class="hang-chip" style="margin-top:16px">${Object.entries(KY_NANG).filter(([m]) => m !== ma)
+      .map(([m, x]) => `<a class="chip" href="#/ky-nang/${m}">${x.emoji} ${x.ten}</a>`).join('')}
+      <a class="chip" href="#/ngu-phap">🧩 Ngữ pháp</a></div>`;
+
+  if (ma !== 'doc') return;
+  // Đọc hiểu: bài của các chặng đã xong phần từ vựng (cấp đã mở)
+  taiDocHieu().then((tatCa) => {
+    const $ds = khung.querySelector('#ds-doc-hieu');
+    if (!$ds?.isConnected) return;
+    const moDuoc = cacCapCoDuLieu().filter(capMo)
+      .flatMap((cap) => danhSachBai('sach', cap).filter((b) => b.sach && tatCa[b.ma]))
+      .filter((b) => trangThaiCacChang(b).every((c) => c.xong));
+    $ds.innerHTML = moDuoc.length
+      ? moDuoc.map((b) => {
+        const bd = tatCa[b.ma];
+        const kq = ketQuaDoc(b.ma);
+        return dongBai({ emoji: (kq?.tot || 0) >= 80 ? '✅' : '📖', ten: esc(bd.ten), href: `#/doc-hieu/${b.ma}`,
+          moTa: `HSK ${b.cap} · ${nhanBai(b)}: ${esc(b.ten)}<br>${kq ? `Lần gần nhất đúng ${kq.diem}% · cao nhất ${kq.tot}%`
+            : `${bd.kieu === 'hoi-thoai' ? 'Hội thoại' : 'Đoạn văn'} ${bd.cau.length} câu · ${bd.hoi.length} câu hỏi`}` }, 'on');
+      }).join('')
+      : `<p class="chu-phu nho" style="margin:0 2px">Chưa có bài đọc nào. Học xong các phần từ vựng của một chặng ở
+          <a href="#/bai">Bài học</a> để mở bài đọc hiểu của chặng đó.</p>`;
+  });
 }

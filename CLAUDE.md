@@ -54,7 +54,7 @@
     `the.dangCuoi` để lần sau đổi dạng. Đã bỏ nút "Đã biết từ này".
   - `js/phien-hoc.js` (chọn thẻ tiếp theo), `js/phat-am.js` (Web Speech API zh-CN), `sw.js` (cache offline).
   - Điều hướng 5 mục (2026-11-21): Hôm nay `#/` · Bài học `#/bai` (lộ trình CHỈ theo bài sách; trang bài = các CHẶNG ~5 từ
-    → Ngữ pháp của bài → Đọc hiểu → Kiểm tra; Ngữ pháp/Kiểm tra khóa tới khi xong chặng) · Luyện tập `#/luyen-tap` (cần ôn + kỹ năng
+    → Ngữ pháp của bài → Đọc hiểu → Kiểm tra; Ngữ pháp/Kiểm tra khóa tới khi xong chặng) · Luyện tập `#/luyen-tap` (cần ôn + kỹ năng: 4 ô Nghe/Nói/Đọc/Viết → `#/ky-nang/<nghe|noi|doc|viet>` (veKyNang, man-luyen-tap.js; Đọc liệt kê đọc hiểu các chặng đã xong từ) + ô Ngữ pháp
     + 🗂️ Ôn theo chủ đề `#/chu-de[/<mã>]` + 📋 Thi thử `#/thi-thu`) · Chữ & âm `#/chu-am`
     · Tôi `#/toi` (thống kê + lối vào Cài đặt; `#/thong-ke` là địa chỉ cũ). Không có nút Cài đặt trên thanh trên cùng.
     `#/bai/<mã chủ đề>` chuyển sang `#/chu-de/<mã>`. Màn chào 3 bước lần đầu (caiDat.daChao) ở man-trang-chu.js.
@@ -75,7 +75,7 @@
   - Kế hoạch đang làm (duyệt 2026-11-20): A từ loại (XONG) → B Ôn luyện tự chấm bằng câu hỏi thật (XONG)
     → C bài = các chặng ~5 từ: Nghe → Nói theo → Viết → Ghép → Đọc, rồi Ngữ pháp, Đọc hiểu, Kiểm tra (XONG đợt 1) → D ngữ pháp mở sau từ vựng,
     chạm từ xem nghĩa (XONG), sửa câu có từ chưa học (XONG: 0/869) → E soạn đọc hiểu (XONG: 48 bài). Lộ trình CHỈ theo sách; "Theo chủ đề" thành danh mục tra cứu.
-  - `js/man-luyen-noi.js` (Nói & phát âm, `#/luyen-noi[/doc-tu|doc-cau|nhac-lai|noi-nghia]`, ô rộng đầu "Luyện kỹ năng" của Ôn luyện;
+  - `js/man-luyen-noi.js` (Nói & phát âm, `#/luyen-noi[/doc-tu|doc-cau|nhac-lai|noi-nghia]`, trong ô 🗣️ Nói của "Luyện kỹ năng";
     nút "🎤 Đọc thử" trên mặt sau thẻ từ → moChamNhanh qua `data-noi-thu`). `js/nhan-giong.js`: Web Speech SpeechRecognition zh-CN
     (cần mạng) + MediaRecorder ghi âm tự chấm khi không có nhận dạng. `js/cham-phat-am.js`: dóng hàng chữ nghe được với câu đúng theo
     CÁCH ĐỌC (đồng âm cùng thanh = đúng, cùng âm khác thanh = ½), đổi số Ả Rập → chữ Hán. Bảng `data/am-doc.json` (8105 chữ
