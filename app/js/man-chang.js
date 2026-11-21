@@ -136,10 +136,16 @@ function chonCau(W, td) {
   // Đọc: 2 câu (ưu tiên câu khác câu sắp xếp, khác từ). Đáp án nhiễu là nghĩa của câu GẦN chủ đề
   // (đánh giá tester: nhiễu lệch chủ đề thì không cần đọc cũng loại được) – ưu tiên: câu khác của cùng từ →
   // câu của các từ cùng phần → câu của các từ cùng chặng → câu khác cùng cấp.
-  const dichCua = (ds) => ds.flatMap((t) => (t.viDu || []).map((v) => v.dich));
+  // Không lấy câu có thể cũng đúng (kiểm tra lại của tester: 您好 ↔ "Em chào thầy/cô ạ!"): bỏ câu chứa chính từ khóa,
+  // câu của từ gần nghĩa với từ khóa (你好 ↔ 您好) và câu thuộc từ mà câu đúng có chứa.
+  const phanNghia = (t) => new Set(String(nghiaNgan(t)).toLowerCase().replace(/\([^)]*\)/g, '').split(/[,;/]/)
+    .map((x) => x.trim()).filter((x) => x.length >= 3));
+  const ganNghia = (a, b) => { const na = phanNghia(a); return [...phanNghia(b)].some((x) => na.has(x)); };
+  const cauCua = (ds, x) => ds.filter((t) => t.khoa !== x.w.khoa && !ganNghia(t, x.w) && !x.v.han.includes(t.hanzi))
+    .flatMap((t) => (t.viDu || []).filter((v) => !v.han.includes(x.w.hanzi)).map((v) => v.dich));
   const tuCungChang = tatCaTu().filter((t) => t.maBai === W[0].maBai);
   const nhieuTheoTang = (x) => {
-    const tang = [dichCua([x.w]), dichCua(W), dichCua(tuCungChang), dichCua([...tuBiet, ...tatCaTu().filter((t) => t.cap === W[0].cap)])];
+    const tang = [cauCua(W, x), cauCua(tuCungChang, x), cauCua([...tuBiet, ...tatCaTu().filter((t) => t.cap === W[0].cap)], x)];
     const kq = [];
     for (const ds of tang) {
       for (const d of tron([...new Set(ds)])) {

@@ -43,12 +43,17 @@ function demTu(dsTu, the) {
 const LECH = [0, 58, 88, 58, 0, -58, -88, -58];   // độ lệch ngang (px) tạo đường uốn lượn
 const htmlSao = (n) => `<span class="sao-duong" aria-label="${n} sao">${'⭐'.repeat(n)}${'<i>☆</i>'.repeat(3 - n)}</span>`;
 
-/** Chọn cấp đang xem ở lộ trình (0 = Nhập môn) – dùng cho #/nhap-mon */
-export const xemCap = (c) => { capDangXem = c; };
+/** Chọn cấp đang xem ở lộ trình (0 = Nhập môn) – dùng cho #/nhap-mon (giữ tab Nhập môn dù đã xong) */
+let giuNhapMon = false;
+export const xemCap = (c) => { capDangXem = c; giuNhapMon = c === 0; };
 
-export function veDanhSachBai(khung) {
+/** @param {boolean} tuChip  vẽ lại do bấm chip cấp (giữ lựa chọn của người dùng) */
+export function veDanhSachBai(khung, tuChip = false) {
   const td = layTienDo();
   const coCap = cacCapCoDuLieu();
+  // Vào từ địa chỉ #/bai: Nhập môn đã xong / bỏ qua thì mở cấp đang học thay vì tab Nhập môn
+  if (!tuChip && capDangXem === 0 && nhapMonXong() && !giuNhapMon) capDangXem = null;
+  giuNhapMon = false;
   if (capDangXem !== 0 && !coCap.includes(capDangXem)) {
     capDangXem = !nhapMonXong() ? 0 : viecTiepTheo()?.b?.cap || baiDangHoc()?.cap || capHienTai();
   }
@@ -57,7 +62,7 @@ export function veDanhSachBai(khung) {
   if (cap === 0) {
     khung.innerHTML = `<div class="hang-chip chon-cap">${chipNhapMon}${[1, 2, 3].map((c) => `<button class="chip ${capMo(c) ? '' : 'chip-khoa'}" data-cap="${c}">HSK ${c}${capMo(c) ? '' : ' <span class="emoji">🔒</span>'}</button>`).join('')}</div>
       <div id="duong-nhap-mon"></div>`;
-    khung.querySelectorAll('[data-cap]').forEach((nut) => { nut.onclick = () => { capDangXem = Number(nut.dataset.cap); veDanhSachBai(khung); }; });
+    khung.querySelectorAll('[data-cap]').forEach((nut) => { nut.onclick = () => { capDangXem = Number(nut.dataset.cap); veDanhSachBai(khung, true); }; });
     veDuongNhapMon(khung.querySelector('#duong-nhap-mon'));
     return;
   }
@@ -95,7 +100,7 @@ export function veDanhSachBai(khung) {
     <div id="ket-qua"><div class="dang-tai">Đang vẽ lộ trình…</div></div>`;
 
   khung.querySelectorAll('[data-cap]').forEach((nut) => {
-    nut.onclick = () => { capDangXem = Number(nut.dataset.cap); veDanhSachBai(khung); };
+    nut.onclick = () => { capDangXem = Number(nut.dataset.cap); veDanhSachBai(khung, true); };
   });
 
   const $kq = khung.querySelector('#ket-qua');

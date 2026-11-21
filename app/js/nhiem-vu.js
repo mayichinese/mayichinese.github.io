@@ -14,6 +14,7 @@ import { layTienDo, nhatKyHomNay, ngayHoc, phutMoiNgay, tongPhutNgay, luu, GIO_B
 import { tatCaTu } from './du-lieu.js';
 import { demHomNay, tuChuaHoc } from './phien-hoc.js';
 import { coNhanDang } from './nhan-giong.js';
+import { tinhTrangPhatAm } from './phat-am.js';
 
 export const MUC_THANG = 20;   // số ngày làm đủ 3 nhiệm vụ trong tháng
 const luot = (nk, loai) => nk.luot?.[loai] || 0;
@@ -26,7 +27,7 @@ const MAU = [
   { ma: 'moi', nhom: 'so-luong', emoji: '✨', ten: (n) => `Học ${n} từ mới`, dem: (nk) => nk.moi || 0,
     href: '#/hoc-moi', cac: [5, 8, 10], dk: (ng) => ng.conTuMoi >= 5, toiDa: (ng) => ng.conTuMoi },
   { ma: 'thanh', nhom: 'so-luong', emoji: '🎧', ten: (n) => `Trả lời ${n} câu thanh điệu`, dem: (nk) => nk.thanh || 0,
-    href: '#/thanh-dieu', cac: [10, 20, 30] },
+    href: '#/thanh-dieu', cac: [10, 20, 30], dk: (ng) => ng.coGiong },
   { ma: 'viet', nhom: 'so-luong', emoji: '✍️', ten: (n) => `Luyện viết ${n} chữ Hán`, dem: (nk) => nk.viet || 0,
     href: '#/luyen-viet/phien', cac: [3, 5, 8] },
   { ma: 'cau-tn', nhom: 'so-luong', emoji: '📝', ten: (n) => `Trả lời ${n} câu trắc nghiệm`, dem: (nk) => nk.tracNghiem || 0,
@@ -37,7 +38,7 @@ const MAU = [
   { ma: 'phut', nhom: 'thoi-gian', emoji: '⏱️', ten: (n) => `Học đủ ${n} phút`, dem: (nk) => tongPhutNgay(nk),
     href: '', cac: (ng) => [Math.max(5, Math.round(ng.mucTieu / 2)), ng.mucTieu] },
   { ma: 'phut-nghe', nhom: 'thoi-gian', emoji: '🎧', ten: (n) => `Luyện nghe & nói ${n} phút`,
-    dem: (nk) => Math.floor((nk.giay?.nghe || 0) / 60), href: '#/thanh-dieu', cac: [3, 5, 10] },
+    dem: (nk) => Math.floor((nk.giay?.nghe || 0) / 60), href: '#/thanh-dieu', cac: [3, 5, 10], dk: (ng) => ng.coGiong },
   { ma: 'phut-viet', nhom: 'thoi-gian', emoji: '✍️', ten: (n) => `Luyện viết chữ ${n} phút`,
     dem: (nk) => Math.floor((nk.giay?.viet || 0) / 60), href: '#/luyen-viet/phien', cac: [3, 5, 10] },
   // ----- Dạng bài -----
@@ -48,9 +49,9 @@ const MAU = [
   { ma: 'luot-np', nhom: 'dang-bai', emoji: '🧩', ten: (n) => `Hoàn thành ${n} bài luyện ngữ pháp`, dem: (nk) => luot(nk, 'nguPhap'),
     href: '#/ngu-phap', cac: [1, 2] },
   { ma: 'luot-thanh', nhom: 'dang-bai', emoji: '🎵', ten: (n) => `Hoàn thành ${n} lượt luyện thanh điệu`, dem: (nk) => luot(nk, 'thanh'),
-    href: '#/thanh-dieu', cac: [1, 2] },
+    href: '#/thanh-dieu', cac: [1, 2], dk: (ng) => ng.coGiong },
   { ma: 'luot-pa', nhom: 'dang-bai', emoji: '🔤', ten: (n) => `Hoàn thành ${n} lượt luyện phiên âm`, dem: (nk) => luot(nk, 'phienAm'),
-    href: '#/chu-am/luyen/phien-am', cac: [1, 2] },
+    href: '#/chu-am/luyen/phien-am', cac: [1, 2], dk: (ng) => ng.coGiong },
   { ma: 'luot-bt', nhom: 'dang-bai', emoji: '🧱', ten: (n) => `Hoàn thành ${n} lượt luyện bộ thủ`, dem: (nk) => luot(nk, 'boThu'),
     href: '#/chu-am/luyen/bo-thu', cac: [1] },
   { ma: 'luot-noi', nhom: 'dang-bai', emoji: '🗣️', ten: (n) => `Hoàn thành ${n} lượt luyện nói`, dem: (nk) => luot(nk, 'noi'),
@@ -89,6 +90,8 @@ function nguCanh() {
     daHoc: tatCaTu().filter((t) => td.the[t.khoa]).length,
     mucTieu: phutMoiNgay(),
     coMic: coNhanDang(),   // máy chấm phát âm được thì mới giao nhiệm vụ nói
+    // máy có giọng đọc tiếng Trung thì mới giao nhiệm vụ nghe (bài nghe bị chặn khi không có giọng)
+    coGiong: !['khong-ho-tro', 'khong-co-giong'].includes(tinhTrangPhatAm()),
   };
 }
 

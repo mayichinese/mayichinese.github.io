@@ -5,7 +5,8 @@
 //   #/nhap-mon/<chặng>            → trang chặng: các phần, mỗi phần một hàng cửa
 //   #/nhap-mon/<chặng>/<phần>/<cửa> → làm một cửa: 📖 học · 🎧 nghe · ⚖️ cặp dễ nhầm · 🎵 nghe từ · 🎤 đọc · ✍️ tô · 🧱 bộ thủ
 //   #/nhap-mon/tiep               → cửa chưa xong đầu tiên       #/nhap-mon/bo-qua → kiểm tra 15 câu để bỏ qua
-// Tiến độ: tienDo.nhapMon = { cua: { "<chặng>/<phần>": [số cửa xong] }, xong, boQua }.
+// Tiến độ: tienDo.nhapMon = { cua: { "<chặng>/<phần>": [số cửa xong] }, boQuaCua: { "<chặng>/<phần>": [cửa tạm bỏ qua] }, xong, boQua }.
+// Cửa tạm bỏ qua (máy không có giọng đọc) cho đi tiếp nhưng KHÔNG tính là xong (hiện ⏭); có giọng rồi thì trang Hôm nay nhắc làm lại.
 // Xong cả 6 chặng (hoặc qua kiểm tra bỏ qua) → mở Chặng 1 của HSK 1 (lo-trinh.js nhapMonXong).
 // =========================================================
 
@@ -43,6 +44,7 @@ const tienDoNM = () => {
   const td = layTienDo();
   td.nhapMon = td.nhapMon || { cua: {} };
   td.nhapMon.cua = td.nhapMon.cua || {};
+  td.nhapMon.boQuaCua = td.nhapMon.boQuaCua || {};
   return td.nhapMon;
 };
 
@@ -54,14 +56,17 @@ export function trangThaiNhapMon(nm) {
     let phanTruocXong = true;
     const phan = c.phan.map((p, ip) => {
       const xongDs = new Set(t.cua[`${c.so}/${ip}`] || []);
+      const boQuaDs = new Set(t.boQuaCua[`${c.so}/${ip}`] || []);
       let mo = true;
       const cua = p.cua.map((x, ic) => {
         const xong = xongDs.has(ic);
-        const r = { cua: x, so: ic, xong, mo: xong || mo };
-        if (!xong) mo = false;
+        const boQua = !xong && boQuaDs.has(ic);
+        const r = { cua: x, so: ic, xong, boQua, qua: xong || boQua, mo: xong || boQua || mo };
+        if (!r.qua) mo = false;
         return r;
       });
-      const r = { p, so: ip, xong: cua.every((x) => x.xong), mo: phanTruocXong, cua };
+      // "xong" của phần/chặng tính cả cửa tạm bỏ qua (để đi tiếp được); cửa bỏ qua vẫn hiện ⏭ và được nhắc làm lại
+      const r = { p, so: ip, xong: cua.every((x) => x.qua), mo: phanTruocXong, cua };
       phanTruocXong = r.xong;
       return r;
     });
@@ -76,7 +81,7 @@ export function cuaTiepNM(nm) {
   for (const c of trangThaiNhapMon(nm)) {
     if (!c.mo) return null;
     for (const p of c.phan) {
-      const x = p.mo && p.cua.find((y) => !y.xong);
+      const x = p.mo && p.cua.find((y) => !y.qua);
       if (x) return { chang: c.so, phan: p.so, cua: x.so };
     }
   }
@@ -90,7 +95,7 @@ export function veDuongNhapMon(vung) {
     if (!vung.isConnected) return;
     const t = tienDoNM();
     const ds = trangThaiNhapMon(nm);
-    const dang = ds.find((c) => c.mo && !c.xong);
+    const dang = t.xong || t.boQua ? null : ds.find((c) => c.mo && !c.xong);
     const LECH = [0, 58, 88, 58, 0, -58, -88, -58];
     vung.innerHTML = `
       <section class="khung tong-quan-cap">
@@ -130,7 +135,7 @@ export function veChangNhapMon(khung, so) {
       return;
     }
     const dangHoc = c.phan.find((p) => !p.xong);
-    const cuaDang = dangHoc?.cua.find((x) => !x.xong);
+    const cuaDang = dangHoc?.cua.find((x) => !x.qua);
     khung.innerHTML = `
       <section class="khung dau-bai"><span class="so-bai">Nhập môn ${so}</span><h2>${esc(c.c.ten)}</h2>
         <p class="chu-phu nho" style="margin:6px 0 0">${esc(c.c.moTa)}</p></section>
@@ -141,10 +146,10 @@ export function veChangNhapMon(khung, so) {
           <div class="dau-phan"><b>Phần ${p.so + 1} · ${esc(p.p.ten)}</b>
             ${p.xong ? '<span class="nhan nhan-vang">✓ Xong</span>' : p === dangHoc ? '<span class="nhan nhan-chinh">Đang học</span>' : p.mo ? '' : '<span class="nhan">🔒</span>'}</div>
           <div class="hang-cua">${p.cua.map((x) => {
-            const nd = `<span class="emoji">${BIEU_TUONG_NM[x.cua.loai]}</span>${x.xong ? '<i class="dau-xong-cua">✓</i>' : ''}`;
+            const nd = `<span class="emoji">${BIEU_TUONG_NM[x.cua.loai]}</span>${x.xong ? '<i class="dau-xong-cua">✓</i>' : x.boQua ? '<i class="dau-xong-cua bo-qua">⏭</i>' : ''}`;
             const ten = `${TEN_CUA[x.cua.loai]}`;
             return p.mo && x.mo
-              ? `<a class="cua ${x.xong ? 'xong' : x === cuaDang ? 'dang' : 'khoa'}" href="#/nhap-mon/${so}/${p.so}/${x.so}" title="${ten}" aria-label="${ten}">${nd}</a>`
+              ? `<a class="cua ${x.xong ? 'xong' : x === cuaDang ? 'dang' : x.boQua ? 'bo-qua' : 'khoa'}" href="#/nhap-mon/${so}/${p.so}/${x.so}" title="${ten}" aria-label="${ten}">${nd}</a>`
               : `<span class="cua khoa" title="${ten} – chưa mở">${nd}</span>`;
           }).join('<span class="noi-cua"></span>')}</div>
         </section>`).join('')}</div>
@@ -285,7 +290,7 @@ export function veCuaNhapMon(khung, so, soPhan, soCua) {
       if (CAN_GIONG.has(cua.loai) && !giongOk()) {
         khung.innerHTML = `${htmlChanBaiNghe(tinhTrangPhatAm(), `#/nhap-mon/${so}`)}
           <button class="nut nut-rong" id="nut-bo-cua" style="margin-top:10px">Tạm bỏ qua cửa này ▶</button>`;
-        khung.querySelector('#nut-bo-cua').onclick = () => { ghiXong(); location.hash = `#/nhap-mon/${so}`; };
+        khung.querySelector('#nut-bo-cua').onclick = () => { ghiBoQua(); location.hash = `#/nhap-mon/${so}`; };
         return;
       }
       if (cua.loai === 'noi' && !(coNhanDang() || coGhiAm())) {
@@ -298,10 +303,20 @@ export function veCuaNhapMon(khung, so, soPhan, soCua) {
       hang = taoMuc(cua, nt, net);
     }
 
+    /** Tạm bỏ qua cửa (máy không có giọng đọc): đi tiếp được nhưng không tính là xong */
+    function ghiBoQua() {
+      const t = tienDoNM();
+      const k = `${so}/${soPhan}`;
+      t.boQuaCua[k] = [...new Set([...(t.boQuaCua[k] || []), soCua])].sort((a, b) => a - b);
+      if (trangThaiNhapMon(nm).every((c) => c.xong)) t.xong = true;
+      luu();
+    }
+
     function ghiXong() {
       const t = tienDoNM();
       const k = `${so}/${soPhan}`;
       t.cua[k] = [...new Set([...(t.cua[k] || []), soCua])].sort((a, b) => a - b);
+      t.boQuaCua[k] = (t.boQuaCua[k] || []).filter((x) => x !== soCua);
       const ds = trangThaiNhapMon(nm);
       if (ds.every((c) => c.xong)) t.xong = true;
       luu();
@@ -472,4 +487,15 @@ export function chuyenCuaTiepNM() {
     const t = cuaTiepNM(nm);
     location.replace(t ? `#/nhap-mon/${t.chang}/${t.phan}/${t.cua}` : '#/nhap-mon');
   }).catch(() => location.replace('#/bai'));
+}
+
+/** Cửa Nhập môn đã tạm bỏ qua (để trang Hôm nay nhắc làm lại khi máy có giọng đọc): địa chỉ cửa đầu tiên hoặc null */
+export function cuaBoQuaDauTien() {
+  const ds = layTienDo().nhapMon?.boQuaCua || {};
+  const k = Object.keys(ds).filter((x) => ds[x].length).sort((a, b) => {
+    const [a1, a2] = a.split('/').map(Number);
+    const [b1, b2] = b.split('/').map(Number);
+    return a1 - b1 || a2 - b2;
+  })[0];
+  return k ? `#/nhap-mon/${k}/${ds[k][0]}` : null;
 }

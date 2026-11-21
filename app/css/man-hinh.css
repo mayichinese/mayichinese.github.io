@@ -730,8 +730,11 @@ input[type=range] { accent-color: var(--chinh); }
 .the-bai-dang-hoc .nut-tron { margin-left: 4px; }
 
 /* ---- Bài học: chọn cấp + tổng quan cấp ---- */
-.chon-cap { flex-wrap: nowrap; }
-.chon-cap .chip { flex: 1; justify-content: center; padding: 0 8px; white-space: nowrap; }
+/* 4 chip (Nhập môn · HSK 1 · 2 · 3) trên điện thoại hẹp: cuộn ngang trong hàng, không làm tràn trang */
+.chon-cap { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; gap: 6px; }
+.chon-cap::-webkit-scrollbar { display: none; }
+.chon-cap .chip { flex: 1 0 auto; justify-content: center; padding: 0 8px; white-space: nowrap; }
+@media (max-width: 420px) { .chon-cap .chip { padding: 0 6px; font-size: .88rem; } .chon-cap .chip small { display: none; } }
 .chon-cap .chip small { font-size: .8rem; font-weight: 600; opacity: .85; }
 .tong-quan-cap { display: flex; flex-direction: column; gap: 8px; margin-top: 12px; }
 .tong-quan-cap .chon-che-do-bai { margin-top: 6px; }
@@ -1260,3 +1263,5 @@ mark .tu-cham { color: inherit; font-weight: inherit; }
 .ma-am { font-size: 2.6rem; font-weight: 800; margin: 0; line-height: 1.1; }
 .ma-am small { font-size: 1.2rem; color: var(--chu-phu); }
 .hinh-net .svg-chu { width: 120px; height: 120px; }
+.dau-xong-cua.bo-qua { background: var(--chu-phu); }
+.cua.bo-qua { opacity: .8; }

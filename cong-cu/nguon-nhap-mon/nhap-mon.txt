@@ -19,8 +19,8 @@
 
 ## 1 | Thanh điệu | Bốn thanh và thanh nhẹ – đọc sai thanh là sai nghĩa
 ### Bốn thanh
-hoc | luu-y | 1
 hoc | thanh | 1 2 3 4
+hoc | luu-y | 1
 nghe | thanh | 1 2 3 4
 ### Cặp thanh dễ nhầm và thanh nhẹ
 cap | thanh | 2/3 1/4 3/4 1/2
