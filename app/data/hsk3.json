@@ -4,7 +4,7 @@
  "baiHoc": [
   {
    "so": 1,
-   "ten": "Chúng tôi ra sân bay đón các bạn",
+   "ten": "Đón ở sân bay // Chúng tôi ra sân bay đón các bạn",
    "soTu": 26,
    "daSoanXong": true,
    "tu": [
@@ -884,7 +884,7 @@
   },
   {
    "so": 2,
-   "ten": "Các bạn muốn ăn gì thì gọi món đó",
+   "ten": "Gọi món // Các bạn muốn ăn gì thì gọi món đó",
    "soTu": 28,
    "daSoanXong": true,
    "tu": [
@@ -1812,7 +1812,7 @@
   },
   {
    "so": 3,
-   "ten": "Khu dân cư này khá tốt",
+   "ten": "Khu nhà ở // Khu dân cư này khá tốt",
    "soTu": 28,
    "daSoanXong": true,
    "tu": [
@@ -2732,7 +2732,7 @@
   },
   {
    "so": 4,
-   "ten": "Khách sạn này không giống nơi nào khác",
+   "ten": "Khách sạn // Khách sạn này không giống nơi nào khác",
    "soTu": 28,
    "daSoanXong": true,
    "tu": [
@@ -3684,7 +3684,7 @@
   },
   {
    "so": 5,
-   "ten": "Ảnh như thế này mới đẹp",
+   "ten": "Chụp ảnh và sở thích // Ảnh như thế này mới đẹp",
    "soTu": 28,
    "daSoanXong": true,
    "tu": [
@@ -4636,7 +4636,7 @@
   },
   {
    "so": 6,
-   "ten": "Trên tàu cao tốc còn gọi được đồ ăn",
+   "ten": "Đi tàu cao tốc // Trên tàu cao tốc còn gọi được đồ ăn",
    "soTu": 28,
    "daSoanXong": true,
    "tu": [
@@ -5618,7 +5618,7 @@
   },
   {
    "so": 7,
-   "ten": "Chiếc váy kia đẹp hơn quần short",
+   "ten": "Mua quần áo // Chiếc váy kia đẹp hơn quần short",
    "soTu": 30,
    "daSoanXong": true,
    "tu": [
@@ -6642,7 +6642,7 @@
   },
   {
    "so": 8,
-   "ten": "Hôm nay tôi ra viện",
+   "ten": "Sức khỏe và bệnh viện // Hôm nay tôi ra viện",
    "soTu": 26,
    "daSoanXong": true,
    "tu": [
@@ -7538,7 +7538,7 @@
   },
   {
    "so": 9,
-   "ten": "Đánh chưa giỏi cũng không sao",
+   "ten": "Thi đấu thể thao // Đánh chưa giỏi cũng không sao",
    "soTu": 26,
    "daSoanXong": true,
    "tu": [
@@ -8448,7 +8448,7 @@
   },
   {
    "so": 10,
-   "ten": "Mai bạn hãy trả sách cho tôi",
+   "ten": "Học tập ở trường // Mai bạn hãy trả sách cho tôi",
    "soTu": 30,
    "daSoanXong": true,
    "tu": [
@@ -9514,7 +9514,7 @@
   },
   {
    "so": 11,
-   "ten": "Xem ra tôi không giải quyết được việc này",
+   "ten": "Công việc và giải quyết vấn đề // Xem ra tôi không giải quyết được việc này",
    "soTu": 29,
    "daSoanXong": true,
    "tu": [
@@ -10509,7 +10509,7 @@
   },
   {
    "so": 12,
-   "ten": "Mùa này thời tiết thay đổi rất nhanh",
+   "ten": "Bốn mùa // Mùa này thời tiết thay đổi rất nhanh",
    "soTu": 29,
    "daSoanXong": true,
    "tu": [
@@ -11476,7 +11476,7 @@
   },
   {
    "so": 13,
-   "ten": "Hàng xóm mới của tôi đến từ nước Anh",
+   "ten": "Hàng xóm mới // Hàng xóm mới của tôi đến từ nước Anh",
    "soTu": 29,
    "daSoanXong": true,
    "tu": [
@@ -12449,7 +12449,7 @@
   },
   {
    "so": 14,
-   "ten": "Cuốn sách này bị người khác mượn mất rồi",
+   "ten": "Thư viện và sách báo // Cuốn sách này bị người khác mượn mất rồi",
    "soTu": 28,
    "daSoanXong": true,
    "tu": [
@@ -13383,7 +13383,7 @@
   },
   {
    "so": 15,
-   "ten": "Tôi là nửa người Nam Kinh",
+   "ten": "Thành phố và phương hướng // Tôi là nửa người Nam Kinh",
    "soTu": 30,
    "daSoanXong": true,
    "tu": [
@@ -14391,7 +14391,7 @@
   },
   {
    "so": 16,
-   "ten": "Nghe nói có những chú gấu trúc đã ra nước ngoài",
+   "ten": "Động vật // Nghe nói có những chú gấu trúc đã ra nước ngoài",
    "soTu": 24,
    "daSoanXong": true,
    "tu": [
@@ -15195,7 +15195,7 @@
   },
   {
    "so": 17,
-   "ten": "Tôi phải học hỏi nhiều từ người chăm chỉ",
+   "ten": "Học hỏi người khác // Tôi phải học hỏi nhiều từ người chăm chỉ",
    "soTu": 27,
    "daSoanXong": true,
    "tu": [
@@ -16118,7 +16118,7 @@
   },
   {
    "so": 18,
-   "ten": "Tôi đã biết gói sủi cảo",
+   "ten": "Lễ Tết // Tôi đã biết gói sủi cảo",
    "soTu": 26,
    "daSoanXong": true,
    "tu": [

@@ -1,23 +1,23 @@
 Đã ghi app\data\hsk3.json
 Từ chính thức cấp 3: 500 | đã xếp bài: 500 | đã soạn: 500 | còn thiếu: 0 | câu ví dụ: 1042 | có mục cần kiểm tra: 0
-  Bài  1: 26/26 ✓ Chúng tôi ra sân bay đón các bạn
-  Bài  2: 28/28 ✓ Các bạn muốn ăn gì thì gọi món đó
-  Bài  3: 28/28 ✓ Khu dân cư này khá tốt
-  Bài  4: 28/28 ✓ Khách sạn này không giống nơi nào khác
-  Bài  5: 28/28 ✓ Ảnh như thế này mới đẹp
-  Bài  6: 28/28 ✓ Trên tàu cao tốc còn gọi được đồ ăn
-  Bài  7: 30/30 ✓ Chiếc váy kia đẹp hơn quần short
-  Bài  8: 26/26 ✓ Hôm nay tôi ra viện
-  Bài  9: 26/26 ✓ Đánh chưa giỏi cũng không sao
-  Bài 10: 30/30 ✓ Mai bạn hãy trả sách cho tôi
-  Bài 11: 29/29 ✓ Xem ra tôi không giải quyết được việc này
-  Bài 12: 29/29 ✓ Mùa này thời tiết thay đổi rất nhanh
-  Bài 13: 29/29 ✓ Hàng xóm mới của tôi đến từ nước Anh
-  Bài 14: 28/28 ✓ Cuốn sách này bị người khác mượn mất rồi
-  Bài 15: 30/30 ✓ Tôi là nửa người Nam Kinh
-  Bài 16: 24/24 ✓ Nghe nói có những chú gấu trúc đã ra nước ngoài
-  Bài 17: 27/27 ✓ Tôi phải học hỏi nhiều từ người chăm chỉ
-  Bài 18: 26/26 ✓ Tôi đã biết gói sủi cảo
+  Bài  1: 26/26 ✓ Đón ở sân bay // Chúng tôi ra sân bay đón các bạn
+  Bài  2: 28/28 ✓ Gọi món // Các bạn muốn ăn gì thì gọi món đó
+  Bài  3: 28/28 ✓ Khu nhà ở // Khu dân cư này khá tốt
+  Bài  4: 28/28 ✓ Khách sạn // Khách sạn này không giống nơi nào khác
+  Bài  5: 28/28 ✓ Chụp ảnh và sở thích // Ảnh như thế này mới đẹp
+  Bài  6: 28/28 ✓ Đi tàu cao tốc // Trên tàu cao tốc còn gọi được đồ ăn
+  Bài  7: 30/30 ✓ Mua quần áo // Chiếc váy kia đẹp hơn quần short
+  Bài  8: 26/26 ✓ Sức khỏe và bệnh viện // Hôm nay tôi ra viện
+  Bài  9: 26/26 ✓ Thi đấu thể thao // Đánh chưa giỏi cũng không sao
+  Bài 10: 30/30 ✓ Học tập ở trường // Mai bạn hãy trả sách cho tôi
+  Bài 11: 29/29 ✓ Công việc và giải quyết vấn đề // Xem ra tôi không giải quyết được việc này
+  Bài 12: 29/29 ✓ Bốn mùa // Mùa này thời tiết thay đổi rất nhanh
+  Bài 13: 29/29 ✓ Hàng xóm mới // Hàng xóm mới của tôi đến từ nước Anh
+  Bài 14: 28/28 ✓ Thư viện và sách báo // Cuốn sách này bị người khác mượn mất rồi
+  Bài 15: 30/30 ✓ Thành phố và phương hướng // Tôi là nửa người Nam Kinh
+  Bài 16: 24/24 ✓ Động vật // Nghe nói có những chú gấu trúc đã ra nước ngoài
+  Bài 17: 27/27 ✓ Học hỏi người khác // Tôi phải học hỏi nhiều từ người chăm chỉ
+  Bài 18: 26/26 ✓ Lễ Tết // Tôi đã biết gói sủi cảo
 
 LỖI (0):
 

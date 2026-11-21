@@ -4,7 +4,7 @@
  "baiHoc": [
   {
    "so": 1,
-   "ten": "Cô ấy mời chúng tôi ăn vịt quay Bắc Kinh",
+   "ten": "Gặp gỡ và nhờ giúp đỡ // Cô ấy mời chúng tôi ăn vịt quay Bắc Kinh",
    "soTu": 11,
    "daSoanXong": true,
    "tu": [
@@ -385,7 +385,7 @@
   },
   {
    "so": 2,
-   "ten": "Hay là bắt taxi đến Bắc Đại đi",
+   "ten": "Đi xe trong thành phố // Hay là bắt taxi đến Bắc Đại đi",
    "soTu": 16,
    "daSoanXong": true,
    "tu": [
@@ -931,7 +931,7 @@
   },
   {
    "so": 3,
-   "ten": "Tôi muốn đi du lịch Tây An",
+   "ten": "Đi du lịch // Tôi muốn đi du lịch Tây An",
    "soTu": 15,
    "daSoanXong": true,
    "tu": [
@@ -1438,7 +1438,7 @@
   },
   {
    "so": 4,
-   "ten": "Bạn mặc màu đỏ rất đẹp",
+   "ten": "Màu sắc và quần áo // Bạn mặc màu đỏ rất đẹp",
    "soTu": 14,
    "daSoanXong": true,
    "tu": [
@@ -1910,7 +1910,7 @@
   },
   {
    "so": 5,
-   "ten": "Lần đầu đến nhà bạn Trung Quốc",
+   "ten": "Đến chơi nhà bạn // Lần đầu đến nhà bạn Trung Quốc",
    "soTu": 17,
    "daSoanXong": true,
    "tu": [
@@ -2511,7 +2511,7 @@
   },
   {
    "so": 6,
-   "ten": "Tiểu Tuyết, sinh nhật vui vẻ!",
+   "ten": "Sinh nhật // Tiểu Tuyết, sinh nhật vui vẻ!",
    "soTu": 12,
    "daSoanXong": true,
    "tu": [
@@ -2919,7 +2919,7 @@
   },
   {
    "so": 7,
-   "ten": "Anh ấy chơi bóng rổ rất giỏi",
+   "ten": "Thể thao // Anh ấy chơi bóng rổ rất giỏi",
    "soTu": 15,
    "daSoanXong": true,
    "tu": [
@@ -3439,7 +3439,7 @@
   },
   {
    "so": 8,
-   "ten": "Tuy bạn quên rồi, nhưng tôi vẫn nhớ",
+   "ten": "Vợ chồng và kỷ niệm // Tuy bạn quên rồi, nhưng tôi vẫn nhớ",
    "soTu": 15,
    "daSoanXong": true,
    "tu": [
@@ -3948,7 +3948,7 @@
   },
   {
    "so": 9,
-   "ten": "Tôi đi mua cốc trà sữa",
+   "ten": "Đồ uống và khoảng cách // Tôi đi mua cốc trà sữa",
    "soTu": 15,
    "daSoanXong": true,
    "tu": [
@@ -4459,7 +4459,7 @@
   },
   {
    "so": 10,
-   "ten": "Sắp thi rồi",
+   "ten": "Học hành và thi cử // Sắp thi rồi",
    "soTu": 13,
    "daSoanXong": true,
    "tu": [
@@ -4896,7 +4896,7 @@
   },
   {
    "so": 11,
-   "ten": "Tôi thích ăn món Trung Quốc nhất",
+   "ten": "Sức khỏe // Tôi thích ăn món Trung Quốc nhất",
    "soTu": 13,
    "daSoanXong": true,
    "tu": [
@@ -5331,7 +5331,7 @@
   },
   {
    "so": 12,
-   "ten": "Ở đây lạnh hơn Bắc Kinh nhiều",
+   "ten": "Thời tiết và thành phố // Ở đây lạnh hơn Bắc Kinh nhiều",
    "soTu": 10,
    "daSoanXong": true,
    "tu": [
@@ -5667,7 +5667,7 @@
   },
   {
    "so": 13,
-   "ten": "Chúng tôi mê giờ học tiếng Trung",
+   "ten": "Lớp học tiếng Trung // Chúng tôi mê giờ học tiếng Trung",
    "soTu": 11,
    "daSoanXong": true,
    "tu": [
@@ -6048,7 +6048,7 @@
   },
   {
    "so": 14,
-   "ten": "Ăn Tết một mình chán biết bao",
+   "ten": "Năm mới // Ăn Tết một mình chán biết bao",
    "soTu": 13,
    "daSoanXong": true,
    "tu": [
@@ -6501,7 +6501,7 @@
   },
   {
    "so": 15,
-   "ten": "Tôi muốn đến Trung Quốc thêm lần nữa",
+   "ten": "Chuyến đi xa // Tôi muốn đến Trung Quốc thêm lần nữa",
    "soTu": 10,
    "daSoanXong": true,
    "tu": [

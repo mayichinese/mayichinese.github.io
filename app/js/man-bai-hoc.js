@@ -15,7 +15,7 @@ import { layTienDo, caiDat } from './luu-tru.js';
 import { loaiThe } from './lich-on.js';
 import {
   layTu, tatCaTu, nghiaNgan, danhSachBai, timBaiTheoMa, cheDoBai, coTheoSach, tenSach,
-  nhanBai, baiSachCuaTu, baiSachCuaNguPhap, cacCapCoDuLieu, chuDeCuaMotTu, TEN_TU_LOAI,
+  nhanBai, baiSachCuaTu, baiSachCuaNguPhap, cacCapCoDuLieu, chuDeCuaMotTu, chuDeChinh, TEN_TU_LOAI,
 } from './du-lieu.js';
 import { baiDangHoc } from './phien-hoc.js';
 import { esc, boDau, htmlMatSau, dongTu, nutTuLoai, moHopThoai, CHU_THICH_CHAM, CHU_THICH_MAU_THANH } from './giao-dien.js';
@@ -244,6 +244,14 @@ export async function veBai(khung, ma) {
   const dangHoc = dsChang.find((c) => !c.xong);
   const xongTu = !dangHoc;
 
+  // Tên phần theo chủ đề chiếm nhiều từ nhất; chủ đề lặp lại thì đánh số: "Gia đình", "Gia đình (2)"
+  const demTen = {};
+  const tenPhan = dsChang.map((c) => {
+    const ten = chuDeChinh(c.tu);
+    if (!ten) return '';
+    demTen[ten] = (demTen[ten] || 0) + 1;
+    return demTen[ten] > 1 ? `${ten} (${demTen[ten]})` : ten;
+  });
   // Một PHẦN: tên phần + từ của phần + hàng CỬA (chỉ biểu tượng; chạm để vào). Cửa đang học nổi bật.
   const cuaDangHoc = dangHoc?.cua.find((x) => !x.xong);
   const thePhan = (c) => {
@@ -258,7 +266,7 @@ export async function veBai(khung, ma) {
     return `
       <section class="khung the-phan ${c.xong ? 'xong' : c === dangHoc ? 'dang' : ''} ${c.mo ? '' : 'khoa'}">
         <div class="dau-phan">
-          <b>Phần ${c.so + 1}</b>
+          <b>Phần ${c.so + 1}${tenPhan[c.so] ? ` · ${esc(tenPhan[c.so])}` : ''}</b>
           ${c.xong ? '<span class="nhan nhan-vang">✓ Xong</span>' : c === dangHoc ? '<span class="nhan nhan-chinh">Đang học</span>' : c.mo ? '' : '<span class="nhan">🔒</span>'}
         </div>
         <p class="han han-chang">${c.tu.map((x) => esc(x.hanzi)).join(' · ')}</p>
@@ -280,6 +288,7 @@ export async function veBai(khung, ma) {
     <section class="khung dau-bai">
       <span class="so-bai">${nhanBai(b)}</span>
       <h2>${esc(b.ten)}</h2>
+      ${b.tenSach ? `<p class="chu-phu nho" style="margin:2px 0 0">📖 Bài sách: ${esc(b.tenSach)}</p>` : ''}
       <span class="thanh-tien-do"><span style="width:${t.phanTram}%"></span></span>
       <p class="chu-phu nho" style="margin:6px 0 0">${t.daHoc}/${b.tu.length} từ đã học${t.thuoc ? ` · thuộc chắc ${t.thuoc}` : ''}
         · ${dsChang.filter((c) => c.xong).length}/${dsChang.length} phần</p>

@@ -6,21 +6,22 @@
 # Sửa xong chạy: python -X utf8 cong-cu/tao-theo-sach.py
 
 ## TEN BAI
-1 | Xin chào, AI Tiểu Ngữ!
-2 | Tôi tên là Lý Văn
-3 | Tôi là người Trung Quốc
-4 | Tôi có hai đứa con
-5 | Hôm nay tôi nghỉ
-6 | Số điện thoại của bạn là bao nhiêu?
-7 | Sáu rưỡi tối tôi tan làm
-8 | Bố tôi cũng làm ở bệnh viện
-9 | Sáng mai tôi học ở trường
-10 | Táo ở đây rẻ thật!
-11 | Tôi đang học đại học
-12 | Hôm qua tuyết rơi
-13 | Cho tôi một cốc trà
-14 | Tôi đã xem một bộ phim
-15 | Hẹn gặp ở sân bay Đại Hưng!
+# Mỗi dòng: số bài | tên chủ đề (hiện trong app) // tên bài theo mục lục sách (dịch)
+1 | Chào hỏi và cảm ơn // Xin chào, AI Tiểu Ngữ!
+2 | Làm quen, hỏi tên // Tôi tên là Lý Văn
+3 | Quốc tịch và công việc // Tôi là người Trung Quốc
+4 | Gia đình và số đếm // Tôi có hai đứa con
+5 | Ngày tháng và món ăn // Hôm nay tôi nghỉ
+6 | Ăn uống và mua đồ // Số điện thoại của bạn là bao nhiêu?
+7 | Giờ giấc, đi xem phim // Sáu rưỡi tối tôi tan làm
+8 | Nơi làm việc, trường học // Bố tôi cũng làm ở bệnh viện
+9 | Sở thích và vị trí đồ vật // Sáng mai tôi học ở trường
+10 | Mua sắm, giá cả // Táo ở đây rẻ thật!
+11 | Học tập và sinh hoạt // Tôi đang học đại học
+12 | Thời tiết và sức khỏe // Hôm qua tuyết rơi
+13 | Bữa sáng và lời mời // Cho tôi một cốc trà
+14 | Đi lại và trò chuyện // Tôi đã xem một bộ phim
+15 | Đón người thân ở sân bay // Hẹn gặp ở sân bay Đại Hưng!
 
 ## TU
 ài | 15

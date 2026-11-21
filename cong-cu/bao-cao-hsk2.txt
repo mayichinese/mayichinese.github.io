@@ -1,20 +1,20 @@
 Đã ghi app\data\hsk2.json
 Từ chính thức cấp 2: 200 | đã xếp bài: 200 | đã soạn: 200 | còn thiếu: 0 | câu ví dụ: 414 | có mục cần kiểm tra: 0
-  Bài  1: 11/11 ✓ Cô ấy mời chúng tôi ăn vịt quay Bắc Kinh
-  Bài  2: 16/16 ✓ Hay là bắt taxi đến Bắc Đại đi
-  Bài  3: 15/15 ✓ Tôi muốn đi du lịch Tây An
-  Bài  4: 14/14 ✓ Bạn mặc màu đỏ rất đẹp
-  Bài  5: 17/17 ✓ Lần đầu đến nhà bạn Trung Quốc
-  Bài  6: 12/12 ✓ Tiểu Tuyết, sinh nhật vui vẻ!
-  Bài  7: 15/15 ✓ Anh ấy chơi bóng rổ rất giỏi
-  Bài  8: 15/15 ✓ Tuy bạn quên rồi, nhưng tôi vẫn nhớ
-  Bài  9: 15/15 ✓ Tôi đi mua cốc trà sữa
-  Bài 10: 13/13 ✓ Sắp thi rồi
-  Bài 11: 13/13 ✓ Tôi thích ăn món Trung Quốc nhất
-  Bài 12: 10/10 ✓ Ở đây lạnh hơn Bắc Kinh nhiều
-  Bài 13: 11/11 ✓ Chúng tôi mê giờ học tiếng Trung
-  Bài 14: 13/13 ✓ Ăn Tết một mình chán biết bao
-  Bài 15: 10/10 ✓ Tôi muốn đến Trung Quốc thêm lần nữa
+  Bài  1: 11/11 ✓ Gặp gỡ và nhờ giúp đỡ // Cô ấy mời chúng tôi ăn vịt quay Bắc Kinh
+  Bài  2: 16/16 ✓ Đi xe trong thành phố // Hay là bắt taxi đến Bắc Đại đi
+  Bài  3: 15/15 ✓ Đi du lịch // Tôi muốn đi du lịch Tây An
+  Bài  4: 14/14 ✓ Màu sắc và quần áo // Bạn mặc màu đỏ rất đẹp
+  Bài  5: 17/17 ✓ Đến chơi nhà bạn // Lần đầu đến nhà bạn Trung Quốc
+  Bài  6: 12/12 ✓ Sinh nhật // Tiểu Tuyết, sinh nhật vui vẻ!
+  Bài  7: 15/15 ✓ Thể thao // Anh ấy chơi bóng rổ rất giỏi
+  Bài  8: 15/15 ✓ Vợ chồng và kỷ niệm // Tuy bạn quên rồi, nhưng tôi vẫn nhớ
+  Bài  9: 15/15 ✓ Đồ uống và khoảng cách // Tôi đi mua cốc trà sữa
+  Bài 10: 13/13 ✓ Học hành và thi cử // Sắp thi rồi
+  Bài 11: 13/13 ✓ Sức khỏe // Tôi thích ăn món Trung Quốc nhất
+  Bài 12: 10/10 ✓ Thời tiết và thành phố // Ở đây lạnh hơn Bắc Kinh nhiều
+  Bài 13: 11/11 ✓ Lớp học tiếng Trung // Chúng tôi mê giờ học tiếng Trung
+  Bài 14: 13/13 ✓ Năm mới // Ăn Tết một mình chán biết bao
+  Bài 15: 10/10 ✓ Chuyến đi xa // Tôi muốn đến Trung Quốc thêm lần nữa
 
 LỖI (0):
 

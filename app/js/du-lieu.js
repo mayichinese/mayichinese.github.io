@@ -69,7 +69,7 @@ export async function taiDuLieu() {
       dsTu.forEach((t) => { tuTheoKhoa[t.khoa] = t; });
       // soTu: số từ chính thức của bài (kể cả từ chưa soạn) – để hiện "đang soạn"
       // cấp 1 trong hsk1.json chia theo chủ đề; cấp 2 trở lên chia theo bài sách
-      baiHoc.push({ cap: f.cap, so: b.so, ma, ten: b.ten, tu: dsTu, soTu: b.soTu ?? dsTu.length, sach: f.cap > 1 });
+      baiHoc.push({ cap: f.cap, so: b.so, ma, ...tachTenChang(b.ten), tu: dsTu, soTu: b.soTu ?? dsTu.length, sach: f.cap > 1 });
     }
   }
   if (!baiHoc.length) throw new Error('File dữ liệu không có bài học nào.');
@@ -86,6 +86,10 @@ let chuDeCuaTu = {};       // khóa → { so, ten }
 async function taiChuDe(henSan = {}) {
   baiChuDe = [];
   chuDeCuaTu = {};
+  // HSK 1: hsk1.json chia theo 20 chủ đề → chủ đề của từng từ (để đặt tên PHẦN theo chủ đề)
+  for (const b of baiHoc) {
+    if (b.cap === 1 && !b.sach) b.tu.forEach((t) => { chuDeCuaTu[t.khoa] = { so: b.so, ten: b.ten }; });
+  }
   for (const cap of cacCapCoDuLieu().filter((c) => c > 1)) {
     try {
       const r = await (henSan[cap] || fetch(`data/chu-de-hsk${cap}.json`, { cache: 'no-cache' }));
@@ -109,6 +113,15 @@ export const chuDeCuaMotTu = (tu) => chuDeCuaTu[tu.khoa] || null;
 // ---------- Học "Theo sách" 《新HSK教程 1》 (Giai đoạn 5) ----------
 // data/theo-sach-hsk1.json (tạo bởi cong-cu/tao-theo-sach.py): từ nào thuộc bài nào của sách.
 // Bài theo chủ đề có mã là SỐ (3); bài theo sách có mã là chuỗi 's3'.
+/**
+ * Tên chặng trong nguồn ghi "Tên chủ đề // Tên bài theo sách" (2026-11-21: người dùng muốn tên dễ hiểu theo chủ đề).
+ * → { ten: tên chủ đề (hiện chính), tenSach: tên theo mục lục sách (hiện phụ) }
+ */
+function tachTenChang(ten) {
+  const [a, b] = String(ten || '').split('//').map((x) => x.trim());
+  return b ? { ten: a, tenSach: b } : { ten: a, tenSach: null };
+}
+
 let theoSach = null;       // { bai: [{ so, ten }], tu: { khoa: số bài }, nguPhap: { mã: số bài } }
 let baiSach = [];          // [{ ma: 's3', so, ten, tu: [...], sach: true }]
 
@@ -120,7 +133,7 @@ async function taiTheoSach(henSan = null) {
     if (!r?.ok) return;
     theoSach = await r.json();
     baiSach = theoSach.bai.map((b) => ({
-      ma: `s${b.so}`, cap: 1, so: b.so, ten: b.ten, sach: true,
+      ma: `s${b.so}`, cap: 1, so: b.so, ...tachTenChang(b.ten), sach: true,
       tu: tatCaTu().filter((t) => theoSach.tu[t.khoa] === b.so),
     })).map((b) => ({ ...b, soTu: b.tu.length }));
   } catch {
@@ -189,6 +202,16 @@ export const layBaiHoc = () => baiHoc;
 export const layTu = (khoa) => tuTheoKhoa[khoa];
 export const tatCaTu = () => baiHoc.flatMap((b) => b.tu);
 export const timBai = (cap, so) => baiHoc.find((b) => b.cap === cap && b.so === so);
+
+/** Chủ đề chiếm nhiều từ nhất trong một nhóm từ (tên PHẦN của chặng); null nếu không rõ */
+export function chuDeChinh(dsTu) {
+  const dem = new Map();
+  for (const t of dsTu) {
+    const c = chuDeCuaTu[t.khoa]?.ten;
+    if (c) dem.set(c, (dem.get(c) || 0) + 1);
+  }
+  return [...dem.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] || null;
+}
 
 /** Nghĩa ngắn gọn để hiện trong danh sách: "yêu; thích". */
 export function nghiaNgan(tu) {

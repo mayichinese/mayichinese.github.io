@@ -3,8 +3,8 @@ Số từ mỗi bài: B1=12, B2=15, B3=20, B4=35, B5=22, B6=20, B7=24, B8=17, B9
 LỖI: 0 · CẢNH BÁO: 3
 
 ===== CẢNH BÁO =====
-  - dòng 34: "bēi" có trong sách nhưng không phải mục riêng trong 300 từ HSK 1 – bỏ qua
-  - dòng 144: "méi" có trong sách nhưng không phải mục riêng trong 300 từ HSK 1 – bỏ qua
-  - dòng 189: "qiánbian" có trong sách nhưng không phải mục riêng trong 300 từ HSK 1 – bỏ qua
+  - dòng 35: "bēi" có trong sách nhưng không phải mục riêng trong 300 từ HSK 1 – bỏ qua
+  - dòng 145: "méi" có trong sách nhưng không phải mục riêng trong 300 từ HSK 1 – bỏ qua
+  - dòng 190: "qiánbian" có trong sách nhưng không phải mục riêng trong 300 từ HSK 1 – bỏ qua
 
 Đã ghi app\data\theo-sach-hsk1.json
