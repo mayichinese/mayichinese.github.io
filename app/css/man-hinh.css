@@ -1182,3 +1182,18 @@ mark .tu-cham { color: inherit; font-weight: inherit; }
 }
 @keyframes nhip-cua { 50% { transform: scale(1.08); } }
 @media (prefers-reduced-motion: reduce) { .cua.dang { animation: none; } }
+
+/* ==================== ÔN THEO CHỦ ĐỀ (#/chu-de) ==================== */
+.ds-chu-de { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+.dong-chu-de { display: flex; flex-direction: column; gap: 6px; padding: 12px 14px; color: inherit; text-decoration: none; }
+.dong-chu-de b { font-size: .98rem; line-height: 1.3; }
+.dong-chu-de:active { transform: translateY(2px); box-shadow: none; }
+
+/* ==================== MÀN CHÀO LẦN ĐẦU ==================== */
+.man-chao { display: flex; flex-direction: column; align-items: center; gap: 12px; text-align: center; padding: 22px 18px; margin-top: 8px; }
+.man-chao h2 { margin: 0; }
+.man-chao p { margin: 0; }
+.ds-gioi-thieu { text-align: left; margin: 4px 0; padding-left: 4px; list-style: none; display: grid; gap: 10px; }
+.cham-buoc { display: flex; gap: 6px; }
+.cham-buoc span { width: 26px; height: 6px; border-radius: 3px; background: var(--vien-nhat); }
+.cham-buoc span.dang, .cham-buoc span.xong { background: var(--chinh-chu); }

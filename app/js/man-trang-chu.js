@@ -75,9 +75,56 @@ function dongNhiemVu(nv, hrefMacDinh) {
     </a>`;
 }
 
+// ---------- Màn chào lần đầu mở app (đánh giá tester 2026-11-21) ----------
+// 3 bước: app dạy gì → chọn số phút → bắt đầu. Chỉ hiện khi chưa có tiến độ và chưa chọn mục tiêu.
+function veManChao(khung, buoc = 1) {
+  const cd = caiDat();
+  const cham = [1, 2, 3].map((i) => `<span class="${i === buoc ? 'dang' : i < buoc ? 'xong' : ''}"></span>`).join('');
+  let noiDung;
+  if (buoc === 1) {
+    noiDung = `
+      <img src="icons/icon-192.png" alt="" width="84" height="84" style="border-radius:22px">
+      <h2>Chào mừng đến Mayi Chinese!</h2>
+      <p class="chu-phu">Tự học tiếng Trung từ số 0 đến <b>HSK 3</b> (chuẩn HSK 3.0, 1000 từ).</p>
+      <ul class="ds-gioi-thieu">
+        <li>🗺️ <b>Lộ trình theo bài sách:</b> mỗi chặng chia phần nhỏ khoảng 5 từ; mỗi từ đi qua <b>nghe → nói → viết → nhớ</b>.</li>
+        <li>✅ <b>App tự chấm</b> và nhắc ôn đúng lúc sắp quên, nên học ít mà nhớ lâu.</li>
+        <li>🔤 <b>Chữ & âm:</b> phiên âm, thanh điệu, nét chữ – nền tảng cho người mới.</li>
+        <li>💾 Tiến độ lưu ngay trên máy này – nhớ sao lưu trong <b>Tôi → Cài đặt</b>.</li>
+      </ul>
+      <button class="nut nut-chinh nut-rong" data-buoc="2">Tiếp ▶</button>`;
+  } else if (buoc === 2) {
+    noiDung = `
+      <div class="emoji emoji-to">⏱️</div>
+      <h2>Mỗi ngày bạn học bao nhiêu phút?</h2>
+      <p class="chu-phu">Học đều mỗi ngày quan trọng hơn học nhiều. Đổi lại được trong Cài đặt.</p>
+      <div class="luoi-muc-tieu" style="width:100%">
+        ${CAC_MUC_TIEU.map((m) => `<button class="o-muc-tieu" data-phut="${m.phut}"><b>${m.phut} phút</b><span>${m.ten}</span>
+          <span>xong HSK 3 ${moTaThoiGian(duKienHsk3(m.phut).ngay)}</span></button>`).join('')}
+      </div>
+      <p class="chu-phu nho du-kien">Khuyên học tối thiểu 30 phút mỗi ngày. Thời gian là ước tính theo kinh nghiệm.</p>`;
+  } else {
+    noiDung = `
+      <div class="emoji emoji-to">🚀</div>
+      <h2>Sẵn sàng rồi!</h2>
+      <p class="chu-phu">Mục tiêu: <b>${cd.phutMoiNgay} phút</b> mỗi ngày. Bắt đầu với chặng đầu tiên nhé.</p>
+      <button class="nut nut-chinh nut-rong" data-bat-dau="#/hoc-moi">▶ Bắt đầu học</button>
+      <button class="nut nut-rong" data-bat-dau="#/bai">Tôi đã học tiếng Trung – xem lộ trình</button>`;
+  }
+  khung.innerHTML = `<section class="khung man-chao"><div class="cham-buoc">${cham}</div>${noiDung}</section>`;
+  khung.querySelectorAll('[data-buoc]').forEach((b) => { b.onclick = () => veManChao(khung, Number(b.dataset.buoc)); });
+  khung.querySelectorAll('[data-phut]').forEach((b) => {
+    b.onclick = () => { cd.phutMoiNgay = Number(b.dataset.phut); luu(); veManChao(khung, 3); };
+  });
+  khung.querySelectorAll('[data-bat-dau]').forEach((b) => {
+    b.onclick = () => { cd.daChao = true; luu(); location.hash = b.dataset.batDau; };
+  });
+}
+
 export function veTrangChu(khung) {
   const cd = caiDat();
   const td = layTienDo();
+  if (!cd.daChao && !cd.phutMoiNgay && !Object.keys(td.the || {}).length) { veManChao(khung); return; }
   const dem = demHomNay();
   const bai = baiDangHoc();
   const chuoi = chuoiNgayHoc();
@@ -98,7 +145,8 @@ export function veTrangChu(khung) {
   const onXong = dem.onDenHan === 0 && dem.dangHocDenHan === 0;
   const nvChuaXong = nhiemVu.find((x) => !x.xong && x.href);
   let tiepTuc;
-  if (!onXong) tiepTuc = { chu: `Ôn ${dem.onDenHan + dem.dangHocDenHan} thẻ từ`, href: '#/on' };
+  if (!daHoc && onXong) tiepTuc = { chu: 'Bắt đầu học', href: '#/hoc-moi', batDau: true };
+  else if (!onXong) tiepTuc = { chu: `Ôn ${dem.onDenHan + dem.dangHocDenHan} thẻ từ`, href: '#/on' };
   else if (dem.conTuMoi && bai) tiepTuc = { chu: `Học tiếp · ${nhanBai(bai)}`, href: '#/hoc-moi' };
   else if (nvChuaXong) tiepTuc = { chu: nvChuaXong.ten, href: nvChuaXong.href };
   else tiepTuc = { chu: 'Luyện thêm', href: '#/luyen-tap' };
@@ -151,7 +199,7 @@ export function veTrangChu(khung) {
           <span class="thanh-tien-do"><span style="width:${Math.min(100, Math.round((tongPhut / mucTieu) * 100))}%"></span></span>
           <a class="chu-phu nho" href="#/cai-dat" title="Đổi mục tiêu">${tongPhut}/${mucTieu}′</a>
         </div>
-        <a class="nut nut-chinh nut-bat-dau" href="${tiepTuc.href}">${bieuTuong('bat-dau')} Tiếp tục: ${tiepTuc.chu}</a>
+        <a class="nut nut-chinh nut-bat-dau" href="${tiepTuc.href}">${bieuTuong('bat-dau')} ${tiepTuc.batDau ? '' : 'Tiếp tục: '}${tiepTuc.chu}</a>
       </div>
       ${tuTiepTheo ? `<div class="hero-han han" aria-hidden="true">${esc(tuTiepTheo.hanzi)}</div>` : ''}
     </section>

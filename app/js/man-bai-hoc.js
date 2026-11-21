@@ -15,7 +15,7 @@ import { layTienDo, caiDat } from './luu-tru.js';
 import { loaiThe } from './lich-on.js';
 import {
   layTu, tatCaTu, nghiaNgan, danhSachBai, timBaiTheoMa, cheDoBai, coTheoSach, tenSach,
-  nhanBai, baiSachCuaTu, baiSachCuaNguPhap, cacCapCoDuLieu, coChuDe, chuDeCuaMotTu, TEN_TU_LOAI,
+  nhanBai, baiSachCuaTu, baiSachCuaNguPhap, cacCapCoDuLieu, chuDeCuaMotTu, TEN_TU_LOAI,
 } from './du-lieu.js';
 import { baiDangHoc } from './phien-hoc.js';
 import { esc, boDau, htmlMatSau, dongTu, nutTuLoai, CHU_THICH_CHAM, CHU_THICH_MAU_THANH } from './giao-dien.js';
@@ -58,12 +58,8 @@ export function veDanhSachBai(khung) {
   const tuCap = tatCaTu().filter((t) => t.cap === cap);
   const tk = demTu(tuCap, td.the);
 
-  // Lộ trình đi theo thứ tự bài sách 《新HSK教程 N》; nhóm "theo chủ đề" chỉ còn là danh mục tra từ (cuối trang)
+  // Lộ trình đi theo thứ tự bài sách 《新HSK教程 N》; nhóm "theo chủ đề" nay ở Luyện tập → Ôn theo chủ đề (#/chu-de)
   const tenSachCap = cap === 1 ? tenSach().split('–')[0].trim() : `《新HSK教程 ${cap}》`;
-  const chuDe = coChuDe(cap) ? danhSachBai('chu-de', cap).filter((x) => !x.sach && x.tu.length) : [];
-  const htmlChuDe = chuDe.length && !khoa ? `
-    <h3 class="tieu-de-muc">🗂️ Tra từ theo chủ đề <small>${chuDe.length} nhóm</small></h3>
-    <div class="hang-chip">${chuDe.map((x) => `<a class="chip" href="#/bai/${x.ma}">${esc(x.ten)}</a>`).join('')}</div>` : '';
 
   // Lộ trình: bài đang học = bài đầu tiên của cấp còn từ chưa học
   const dsBai = danhSachBai(cheDo, cap);
@@ -119,8 +115,7 @@ export function veDanhSachBai(khung) {
       <span class="chu-phu nho">Đã học ${tk.daHoc}/${tuCap.length} từ (${tk.phanTram}%) · theo thứ tự bài của ${esc(tenSachCap)}</span>
     </section>
     <input class="o-tim" id="o-tim" type="search" placeholder="🔍 Tra từ: chữ Hán, pinyin, nghĩa, Hán Việt…" autocomplete="off">
-    <div id="ket-qua">${htmlLoTrinh()}</div>
-    <div id="chu-de">${htmlChuDe}</div>`;
+    <div id="ket-qua">${htmlLoTrinh()}</div>`;
 
   // Đổi cấp
   khung.querySelectorAll('[data-cap]').forEach((nut) => {
@@ -138,7 +133,6 @@ export function veDanhSachBai(khung) {
   $tim.oninput = () => {
     const goc = $tim.value.trim();
     const q = boDau(goc);
-    khung.querySelector('#chu-de').hidden = !!q;
     if (!q) { $kq.innerHTML = htmlLoTrinh(); return; }
     const qLien = q.replace(/\s/g, '');
     const kq = tatCaTu().filter((t) =>
@@ -167,7 +161,15 @@ function buocBai({ so, ma, emoji, ten, moTa, href, xong, them = '', khoa = false
     </${the}>`;
 }
 
-/** Bài theo chủ đề (không nằm trên lộ trình): chỉ là danh mục từ để tra cứu */
+/** Một chủ đề (#/chu-de/<mã>): danh sách từ theo nhóm nghĩa + trắc nghiệm ôn theo chủ đề */
+export function veChuDe(khung, ma) {
+  const b = timBaiTheoMa(ma);
+  if (!b || b.sach) { khung.innerHTML = '<p class="loi">Không tìm thấy chủ đề này.</p><a class="nut" href="#/chu-de">← Các chủ đề</a>'; return; }
+  if (!capMo(b.cap)) { khung.innerHTML = htmlCachMoKhoa(b.cap); return; }
+  veDanhMucChuDe(khung, b);
+}
+
+/** Bài theo chủ đề (không nằm trên lộ trình): danh mục từ + nút ôn theo chủ đề */
 function veDanhMucChuDe(khung, b) {
   const td = layTienDo();
   const t = demTu(b.tu, td.the);
@@ -175,8 +177,10 @@ function veDanhMucChuDe(khung, b) {
     <section class="khung dau-bai">
       <span class="so-bai">🗂️ Chủ đề${b.cap > 1 ? ` · HSK ${b.cap}` : ''}</span>
       <h2>${esc(b.ten)}</h2>
-      <p class="chu-phu nho" style="margin:6px 0 0">${t.daHoc}/${b.tu.length} từ đã học · danh mục để tra cứu theo nhóm nghĩa.
-        Học từ mới theo lộ trình ở <a href="#/bai">Bài học</a> (theo bài sách, có nghe – nói – viết – đọc).</p>
+      <span class="thanh-tien-do" style="margin-top:8px"><span style="width:${t.phanTram}%"></span></span>
+      <p class="chu-phu nho" style="margin:6px 0 10px">${t.daHoc}/${b.tu.length} từ đã học. Học từ mới theo lộ trình ở
+        <a href="#/bai">Bài học</a>; ở đây ôn lại theo nhóm nghĩa.</p>
+      <a class="nut nut-chinh nut-rong" href="#/trac-nghiem/chu-de/${b.ma}">📝 Trắc nghiệm chủ đề (10 câu${t.daHoc >= 4 ? ', từ đã học' : ''})</a>
     </section>
     <h3 class="tieu-de-muc">Từ trong chủ đề <small>${b.tu.length} từ</small></h3>
     ${CHU_THICH_CHAM}

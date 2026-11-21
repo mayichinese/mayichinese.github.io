@@ -1,18 +1,20 @@
 // =========================================================
-// ÔN LUYỆN (#/luyen-tap) – nơi ôn lại và luyện kỹ năng (giống "Practice hub" của Duolingo)
+// LUYỆN TẬP (#/luyen-tap) – nơi ôn lại và luyện kỹ năng (giống "Practice hub" của Duolingo)
 //   1. Cần ôn hôm nay: mọi thứ đã đến hạn, mỗi dòng bấm là vào ôn ngay
 //        🔁 Từ vựng  → #/on                 🧩 Ngữ pháp → #/ngu-phap/on
 //        ✍️ Chữ viết → #/luyen-viet/phien    📒 Sổ câu sai → #/trac-nghiem/so-sai
 //   2. Luyện kỹ năng (ô rộng 🎤 Nói & phát âm → #/luyen-noi, rồi 4 ô):
 //        🎧 Nghe & thanh điệu → #/thanh-dieu    ✍️ Viết chữ Hán → #/luyen-viet
 //        📝 Trắc nghiệm từ    → #/trac-nghiem   🧩 Ngữ pháp     → #/ngu-phap
-// Thi thử có mục riêng trên thanh điều hướng.
+//   3. Chủ đề & thi thử: 🗂️ Ôn theo chủ đề → #/chu-de · 📋 Thi thử → #/thi-thu (trước 2026-11-21 Thi thử có mục riêng)
 // Chỉ ĐỌC tiến độ, đếm thẳng từ lịch ôn (không cần tải dữ liệu ngữ pháp / nét chữ).
 // =========================================================
 
 import { caiDat, nhatKyHomNay, layTienDo } from './luu-tru.js';
 import { dangHoc } from './lich-on.js';
-import { tatCaTu } from './du-lieu.js';
+import { tatCaTu, danhSachBai, coChuDe, cacCapCoDuLieu } from './du-lieu.js';
+import { capMo } from './cap-do.js';
+import { esc } from './giao-dien.js';
 import { demHomNay } from './phien-hoc.js';
 import { bieuTuong } from './bieu-tuong.js';
 
@@ -73,6 +75,39 @@ export function veLuyenTap(khung) {
           <span class="chu-phu nho">${k.moTa}</span>
         </a>`).join('')}
     </div>
+    <h3 class="tieu-de-muc">Chủ đề & thi thử</h3>
+    <div class="luoi-ky-nang">
+      <a class="o-ky-nang khung phan-on" href="#/chu-de">
+        <span class="o-emoji emoji">🗂️</span><b>Ôn theo chủ đề</b>
+        <span class="chu-phu nho">Từ vựng theo nhóm nghĩa: gia đình, ăn uống, thời gian…</span>
+      </a>
+      <a class="o-ky-nang khung phan-nguPhap" href="#/thi-thu">
+        <span class="o-emoji emoji">📋</span><b>Thi thử</b>
+        <span class="chu-phu nho">Đề mô phỏng HSK 1 · 2 · 3, chấm điểm từng phần</span>
+      </a>
+    </div>
     <p class="chu-phu nho" style="margin-top:14px">Hôm nay: nghe & nói ${Math.floor((nk.giay.nghe || 0) / 60)}′ ·
       viết ${Math.floor((nk.giay.viet || 0) / 60)}′ · ngữ pháp & trắc nghiệm ${Math.floor((nk.giay.nguPhap || 0) / 60)}′</p>`;
+}
+
+// ---------- Ôn theo chủ đề (#/chu-de) ----------
+/** Danh sách chủ đề của các cấp đã mở, mỗi chủ đề kèm số từ đã học */
+export function veDanhSachChuDe(khung) {
+  const td = layTienDo();
+  const cacCap = cacCapCoDuLieu().filter((c) => coChuDe(c) && capMo(c));
+  khung.innerHTML = `
+    <p class="chu-phu nho" style="margin:4px 2px 12px">Từ vựng xếp theo nhóm nghĩa. Chọn một chủ đề để xem từ và làm trắc nghiệm ôn
+      (ưu tiên từ đã học). Học từ mới thì theo lộ trình ở <a href="#/bai">Bài học</a>.</p>
+    ${cacCap.map((cap) => {
+      const ds = danhSachBai('chu-de', cap).filter((b) => !b.sach && b.tu.length);
+      return `<h3 class="tieu-de-muc">HSK ${cap} <small>${ds.length} chủ đề</small></h3>
+        <div class="ds-chu-de">${ds.map((b) => {
+          const daHoc = b.tu.filter((t) => td.the[t.khoa]).length;
+          const pt = Math.round((daHoc / b.tu.length) * 100);
+          return `<a class="dong-chu-de khung" href="#/chu-de/${b.ma}">
+            <b>${esc(b.ten)}</b>
+            <span class="thanh-tien-do"><span style="width:${pt}%"></span></span>
+            <span class="chu-phu nho">${daHoc}/${b.tu.length} từ đã học</span></a>`;
+        }).join('')}</div>`;
+    }).join('') || '<p class="chu-phu">Chưa có chủ đề nào.</p>'}`;
 }

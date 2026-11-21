@@ -53,9 +53,11 @@
     nhanh (≈5–6 giây) → Dễ (thẻ 'hoc' chỉ ở buoc ≥ 1), còn lại Nhớ. Thẻ 'hoc' buoc 0 hỏi nghe/nghĩa, sau đó chữ/pinyin;
     `the.dangCuoi` để lần sau đổi dạng. Đã bỏ nút "Đã biết từ này".
   - `js/phien-hoc.js` (chọn thẻ tiếp theo), `js/phat-am.js` (Web Speech API zh-CN), `sw.js` (cache offline).
-  - Điều hướng 6 mục kiểu Duolingo: Hôm nay `#/` · Bài học `#/bai` (lộ trình CHỈ theo bài sách; trang bài = các CHẶNG ~5 từ
-    → Ngữ pháp của bài → Đọc hiểu → Kiểm tra; Ngữ pháp/Kiểm tra khóa tới khi xong chặng) · Ôn luyện `#/luyen-tap` (cần ôn + 4 kỹ năng) · Chữ & âm `#/chu-am` · Thi thử `#/thi-thu`
+  - Điều hướng 5 mục (2026-11-21): Hôm nay `#/` · Bài học `#/bai` (lộ trình CHỈ theo bài sách; trang bài = các CHẶNG ~5 từ
+    → Ngữ pháp của bài → Đọc hiểu → Kiểm tra; Ngữ pháp/Kiểm tra khóa tới khi xong chặng) · Luyện tập `#/luyen-tap` (cần ôn + kỹ năng
+    + 🗂️ Ôn theo chủ đề `#/chu-de[/<mã>]` + 📋 Thi thử `#/thi-thu`) · Chữ & âm `#/chu-am`
     · Tôi `#/toi` (thống kê + lối vào Cài đặt; `#/thong-ke` là địa chỉ cũ). Không có nút Cài đặt trên thanh trên cùng.
+    `#/bai/<mã chủ đề>` chuyển sang `#/chu-de/<mã>`. Màn chào 3 bước lần đầu (caiDat.daChao) ở man-trang-chu.js.
   - Mục tiêu phút do người học chọn: `caiDat.phutMoiNgay` (10/20/30/60; null = chưa chọn → Hôm nay hỏi). `phutMucTieu` (chia
     60 phút cho 5 phần) KHÔNG còn dùng làm mục tiêu. Đồng hồ `batDongHo` hiện tổng phút hôm nay / mục tiêu.
   - `js/nhiem-vu.js`: 3 nhiệm vụ/ngày ngẫu nhiên (hạt giống = ngày) từ 3 trong 4 nhóm (số lượng, thời gian, dạng bài, chính xác),

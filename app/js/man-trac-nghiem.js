@@ -172,6 +172,13 @@ export function vePhienTracNghiem(khung, dang, soBai = null) {
       const b = timBaiTheoMa(soBai);
       nguon = b ? b.tu : [];
       nhanLuot = `📝 Kiểm tra ${b ? nhanBai(b) : 'bài'}`;
+    } else if (dang === 'chu-de') {
+      // Ôn theo chủ đề: ưu tiên từ đã học của chủ đề (đủ 4 từ), chưa đủ thì lấy cả chủ đề
+      const b = timBaiTheoMa(soBai);
+      const tuChuDe = b ? b.tu : [];
+      const daHoc = tuChuDe.filter((t) => layTienDo().the[t.khoa]);
+      nguon = daHoc.length >= SO_TU_TOI_THIEU ? daHoc : tuChuDe;
+      nhanLuot = `🗂️ ${b ? b.ten : 'Chủ đề'}`;
     } else if (dang === 'so-sai') {
       nguon = tuTrongSoSai();
       nhanLuot = '📒 Ôn câu sai';
@@ -182,7 +189,7 @@ export function vePhienTracNghiem(khung, dang, soBai = null) {
       khung.innerHTML = '<p class="loi">Không có dạng bài này.</p>';
       return;
     }
-    if (dang !== 'bai' && dang !== 'so-sai' && nguon.length < SO_TU_TOI_THIEU) {
+    if (dang !== 'bai' && dang !== 'chu-de' && dang !== 'so-sai' && nguon.length < SO_TU_TOI_THIEU) {
       khung.innerHTML = `<div class="chua-lam"><div class="emoji emoji-to">📚</div><h2>Chưa đủ từ đã học</h2>
         <p class="chu-phu">Cần ít nhất ${SO_TU_TOI_THIEU} từ đã học. Hãy học thêm từ mới, hoặc kiểm tra theo bài.</p>
         <a class="nut nut-chinh" href="#/trac-nghiem">Quay lại</a></div>`;
@@ -194,7 +201,7 @@ export function vePhienTracNghiem(khung, dang, soBai = null) {
     const soSaiHienTai = layTienDo().tracNghiem.soSai;
     const sapXep = [...tron(nguon.filter((t) => soSaiHienTai[t.khoa])), ...tron(nguon.filter((t) => !soSaiHienTai[t.khoa]))];
     const hangDoi = [];
-    for (const tu of (dang === 'bai' || dang === 'so-sai') ? tron(nguon) : sapXep) {
+    for (const tu of (dang === 'bai' || dang === 'chu-de' || dang === 'so-sai') ? tron(nguon) : sapXep) {
       if (hangDoi.length >= SO_CAU) break;
       const dsDang = dangDungDuoc(tu, daAm, coGiong);
       if (coDinh && !dsDang.includes(coDinh)) continue;
@@ -244,7 +251,7 @@ export function vePhienTracNghiem(khung, dang, soBai = null) {
       const hoiLai = daHoiLai.has(cau) ? '<span class="nhan nhan-vang">↺ Hỏi lại</span>' : '';
       const deBai = htmlDeBai(cau);
       $('#the').innerHTML = `
-        <div class="goc-the"><span class="nhan">${nhanLuot}${dang === 'tron' || dang === 'bai' || dang === 'so-sai' ? ` · ${esc(CAC_DANG[cau.dang].ten)}` : ''}</span>${hoiLai}</div>
+        <div class="goc-the"><span class="nhan">${nhanLuot}${dang === 'tron' || dang === 'bai' || dang === 'chu-de' || dang === 'so-sai' ? ` · ${esc(CAC_DANG[cau.dang].ten)}` : ''}</span>${hoiLai}</div>
         ${deBai}
         <div id="dap-an" class="dap-an"></div>`;
       $('#vung-nut').innerHTML = `

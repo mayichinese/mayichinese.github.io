@@ -6,7 +6,7 @@
 // 4. Đăng ký chạy offline (service worker)
 //
 // Thanh điều hướng (5 mục, sắp xếp kiểu Duolingo):
-//   Hôm nay (#/) · Bài học (#/bai) · Ôn luyện (#/luyen-tap) · Chữ & âm (#/chu-am) · Thi thử (#/thi-thu) · Tôi (#/toi)
+//   Hôm nay (#/) · Bài học (#/bai) · Luyện tập (#/luyen-tap: ôn, kỹ năng, chủ đề, thi thử) · Chữ & âm (#/chu-am) · Tôi (#/toi)
 //   Cấp HSK mở khóa dần (cap-do.js): bài / thi thử của cấp đang khóa không vào được.
 //
 // Các địa chỉ:
@@ -18,7 +18,8 @@
 //   #/doc-hieu/<mã bài>  đọc hiểu cuối bài (hội thoại / đoạn văn + câu hỏi) → man-doc-hieu.js
 //   #/bai[/5]      Bài học (lộ trình) / bài 5   → man-bai-hoc.js
 //   #/tu/<khóa>    Xem một từ                   → man-bai-hoc.js
-//   #/luyen-tap    Ôn luyện: cần ôn + kỹ năng   → man-luyen-tap.js
+//   #/luyen-tap    Luyện tập: cần ôn + kỹ năng + chủ đề + thi thử → man-luyen-tap.js
+//   #/chu-de[/<mã>] Ôn theo chủ đề: danh sách chủ đề / từ của một chủ đề (+ trắc nghiệm #/trac-nghiem/chu-de/<mã>)
 //   #/luyen-viet   Luyện viết: tổng quan        → man-luyen-viet.js
 //   #/luyen-viet/phien        phiên luyện viết hôm nay
 //   #/luyen-viet/chu/<chữ>    luyện riêng một chữ
@@ -47,10 +48,10 @@ import { ganBieuTuong, bieuTuong } from './bieu-tuong.js';
 import { veTrangChu } from './man-trang-chu.js';
 import { vePhien } from './man-the-tu.js';
 import { baiDangHoc } from './phien-hoc.js';
-import { veDanhSachBai, veBai, veTu } from './man-bai-hoc.js';
+import { veDanhSachBai, veBai, veTu, veChuDe } from './man-bai-hoc.js';
 import { veCaiDat } from './man-cai-dat.js';
 import { veThongKe } from './man-thong-ke.js';
-import { veLuyenTap } from './man-luyen-tap.js';
+import { veLuyenTap, veDanhSachChuDe } from './man-luyen-tap.js';
 import { veLuyenViet, vePhienViet, moCachViet } from './man-luyen-viet.js';
 import { veThanhDieu, vePhienThanh, CAC_DANG } from './man-thanh-dieu.js';
 import { veTracNghiem, vePhienTracNghiem, CAC_DANG as DANG_TRAC_NGHIEM } from './man-trac-nghiem.js';
@@ -85,9 +86,14 @@ function veTheoDiaChi() {
     '': 'trang-chu', bai: 'bai', tu: 'bai', 'hoc-moi': 'bai', chang: 'bai', cua: 'bai', 'doc-hieu': 'bai',
     on: 'luyen-tap', 'luyen-tap': 'luyen-tap', 'luyen-viet': 'luyen-tap', 'thanh-dieu': 'luyen-tap',
     'trac-nghiem': 'luyen-tap', 'ngu-phap': 'luyen-tap', 'luyen-noi': 'luyen-tap',
-    'thi-thu': 'thi-thu', toi: 'toi', 'thong-ke': 'toi', 'cai-dat': 'toi', 'chu-am': 'chu-am',
+    'thi-thu': 'luyen-tap', 'chu-de': 'luyen-tap', toi: 'toi', 'thong-ke': 'toi', 'cai-dat': 'toi', 'chu-am': 'chu-am',
   }[muc] ?? '';
   if (muc === 'trac-nghiem' && thamSo === 'bai') mucChon = 'bai'; // kiểm tra một bài = bước 3 của bài học
+  // Bài theo chủ đề (không phải bài sách) nay là mục "Ôn theo chủ đề" của Luyện tập
+  if (muc === 'bai' && thamSo) {
+    const bChuDe = timBaiTheoMa(maBaiTuDiaChi(thamSo));
+    if (bChuDe && !bChuDe.sach) { location.replace(`#/chu-de/${bChuDe.ma}`); return; }
+  }
   document.querySelectorAll('.dieu-huong a[data-muc]').forEach((a) => {
     const chon = a.dataset.muc === mucChon;
     a.classList.toggle('dang-chon', chon);
@@ -151,7 +157,7 @@ function veTheoDiaChi() {
     datTieuDe(`Thi thử HSK ${capThi}`, '#/thi-thu');
     donDep = veLamBai(khung, capThi);
   } else if (muc === 'thi-thu') {
-    datTieuDe('Thi thử');
+    datTieuDe('Thi thử', '#/luyen-tap');
     veThiThu(khung, thamSo === 'cap' && ['1', '2', '3'].includes(duong[2]) ? Number(duong[2]) : null);
   } else if (muc === 'chu-am' && thamSo === 'luyen') {
     datTieuDe(duong[2] === 'bo-thu' ? 'Luyện bộ thủ' : 'Luyện phiên âm', `#/chu-am/${duong[2] === 'bo-thu' ? 'bo-thu' : 'phien-am'}`);
@@ -174,6 +180,16 @@ function veTheoDiaChi() {
   } else if (muc === 'ngu-phap') {
     datTieuDe('Ngữ pháp', '#/luyen-tap');
     veNguPhap(khung);
+  } else if (muc === 'trac-nghiem' && thamSo === 'chu-de' && duong[2]) {
+    const bai = timBaiTheoMa(maBaiTuDiaChi(duong[2]));
+    datTieuDe(bai ? `Chủ đề: ${bai.ten}` : 'Chủ đề', bai ? `#/chu-de/${bai.ma}` : '#/chu-de');
+    donDep = vePhienTracNghiem(khung, 'chu-de', bai ? bai.ma : null);
+  } else if (muc === 'chu-de' && thamSo) {
+    datTieuDe('Chủ đề', '#/chu-de');
+    veChuDe(khung, maBaiTuDiaChi(thamSo));
+  } else if (muc === 'chu-de') {
+    datTieuDe('Ôn theo chủ đề', '#/luyen-tap');
+    veDanhSachChuDe(khung);
   } else if (muc === 'trac-nghiem' && thamSo === 'bai' && duong[2]) {
     const bai = timBaiTheoMa(maBaiTuDiaChi(duong[2]));
     datTieuDe(bai ? `Kiểm tra ${nhanBai(bai)}` : 'Kiểm tra bài', bai ? `#/bai/${bai.ma}` : '#/bai');
@@ -197,7 +213,7 @@ function veTheoDiaChi() {
     datTieuDe('Thanh điệu', '#/luyen-tap');
     veThanhDieu(khung);
   } else if (muc === 'luyen-tap') {
-    datTieuDe('Ôn luyện');
+    datTieuDe('Luyện tập');
     veLuyenTap(khung);
   } else if (muc === 'toi' || muc === 'thong-ke') {
     datTieuDe('Tôi');

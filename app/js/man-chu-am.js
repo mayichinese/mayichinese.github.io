@@ -202,7 +202,7 @@ function htmlNet(dl, net) {
           ${svgChu(net, q.chu, [], 'nho')}
         </button>`).join('')}
     </div>
-    <p class="chu-phu nho" style="margin-top:16px">Luyện viết từng chữ ở <a href="#/luyen-viet">Ôn luyện → Viết chữ Hán</a>.</p>`;
+    <p class="chu-phu nho" style="margin-top:16px">Luyện viết từng chữ ở <a href="#/luyen-viet">Luyện tập → Viết chữ Hán</a>.</p>`;
 }
 
 // ---------- Bộ thủ ----------

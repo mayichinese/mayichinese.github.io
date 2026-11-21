@@ -450,7 +450,7 @@ export function veChang(khung, maBai, so, soCua = 0) {
           nk.viet = (nk.viet || 0) + 1;
           $vung.innerHTML = '';
           hienPhanHoi(kq.totalMistakes <= nguong,
-            `<span class="chu-phu nho">${kq.totalMistakes ? `Sai ${kq.totalMistakes} nét` : 'Không sai nét nào'} · luyện thêm ở Ôn luyện → Viết chữ.</span>`);
+            `<span class="chu-phu nho">${kq.totalMistakes ? `Sai ${kq.totalMistakes} nét` : 'Không sai nét nào'} · luyện thêm ở Luyện tập → Viết chữ.</span>`);
         },
       });
       taoBangVe(khung.querySelector('#o-viet'), m.chu, { showCharacter: false }).then((wr) => {
@@ -659,8 +659,8 @@ export function veChang(khung, maBai, so, soCua = 0) {
           <div class="bang-ky">${CAC_KY.filter((x) => ketQua[x.ma].tong).map((x) => `
             <div class="o-ket-qua"><span class="emoji">${x.emoji}</span><b>${ketQua[x.ma].dung}/${ketQua[x.ma].tong}</b><span>${x.ten}</span></div>`).join('')}
           </div>
-          <p class="chu-phu nho">${soMoi ? (canOn.length ? 'Từ này còn sai vài lần – sẽ gặp lại sớm ở Ôn luyện.' : 'Đã nhớ – lần ôn tới sau 1 ngày.')
-            : canOn.length ? `Còn sai: <span class="han">${canOn.map((w) => esc(w.hanzi)).join('、')}</span> – sẽ gặp lại sớm ở Ôn luyện.` : ''}</p>
+          <p class="chu-phu nho">${soMoi ? (canOn.length ? 'Từ này còn sai vài lần – sẽ gặp lại sớm ở Luyện tập.' : 'Đã nhớ – lần ôn tới sau 1 ngày.')
+            : canOn.length ? `Còn sai: <span class="han">${canOn.map((w) => esc(w.hanzi)).join('、')}</span> – sẽ gặp lại sớm ở Luyện tập.` : ''}</p>
           ${boQuaViet.size ? `<p class="chu-phu nho">✍️ Bỏ qua viết: <span class="han">${[...boQuaViet].map(esc).join(' ')}</span> – đã đưa lên đầu hàng Luyện viết.</p>` : ''}
           ${!quaCua ? `<button class="nut nut-chinh nut-rong" id="nut-lam-lai">↺ Làm lại cửa này</button>`
             : tiep ? `<a class="nut nut-chinh nut-rong" href="#/cua/${b.ma}/${tiep.phan}/${tiep.cua}" id="nut-cua-tiep">${tiep.phan === so ? 'Cửa tiếp theo ▶' : `Phần ${tiep.phan + 1} ▶`}</a>`
