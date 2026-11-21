@@ -12,7 +12,7 @@
 // =========================================================
 
 // Tên bộ nhớ đệm (chỉ chứa file của app, KHÔNG chứa tiến độ học – tiến độ nằm ở localStorage)
-const PHIEN_BAN = 'mayi-v47';
+const PHIEN_BAN = 'mayi-v48';
 const BO_NHO_PHONG = 'mayi-phong-chu-v1';  // phông chữ – giữ qua các phiên bản
 const TAP_TIN = [
   './',
@@ -42,6 +42,7 @@ const TAP_TIN = [
   './js/man-chang.js',
   './js/lo-trinh.js',
   './js/man-kiem-tra.js',
+  './js/man-nhap-mon.js',
   './js/am-thanh.js',
   './js/cham-tu.js',
   './js/man-doc-hieu.js',
@@ -50,6 +51,7 @@ const TAP_TIN = [
   './data/doc-hieu-hsk3.json',
   './data/tu-loai.json',
   './data/nen-tang.json',
+  './data/nhap-mon.json',
   './js/man-luyen-noi.js',
   './js/cham-phat-am.js',
   './js/nhan-giong.js',

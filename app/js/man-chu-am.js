@@ -36,7 +36,7 @@ const soDung = (khoa) => layTienDo().nenTang.dung[khoa] || 0;
 const phanTramThao = (khoa) => Math.min(100, Math.round((soDung(khoa) / DU_THAO) * 100));
 
 /** Chữ Hán vẽ bằng SVG từ dữ liệu nét; các nét trong `toMau` được tô màu nhấn */
-function svgChu(net, chu, toMau = [], lop = '') {
+export function svgChu(net, chu, toMau = [], lop = '') {
   const d = net[chu];
   if (!d) return `<span class="han svg-thay">${esc(chu)}</span>`;
   const to = new Set(toMau);

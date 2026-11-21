@@ -9,7 +9,7 @@
 // =========================================================
 
 import { layTienDo, luu } from './luu-tru.js';
-import { danhSachBai, cheDoBai, baiSachCuaNguPhap, cacCapCoDuLieu } from './du-lieu.js';
+import { danhSachBai, cheDoBai, baiSachCuaNguPhap, cacCapCoDuLieu, tatCaTu } from './du-lieu.js';
 import { trangThaiCacChang, cuaTiepTheo } from './man-chang.js';
 import { capMo } from './cap-do.js';
 
@@ -31,6 +31,16 @@ export function coTienDo(b) {
     || !!ketQuaKiemTra(b.ma);
 }
 
+/**
+ * Đã xong (hoặc bỏ qua) mục Nhập môn chưa. Người đã có tiến độ HSK 1 / đã mở HSK 2 từ trước được coi là xong.
+ * Nhập môn chưa xong → Chặng 1 của HSK 1 còn khóa (man-nhap-mon.js).
+ */
+export function nhapMonXong() {
+  const td = layTienDo();
+  if (td.nhapMon?.xong || td.nhapMon?.boQua) return true;
+  return tatCaTu().some((t) => t.cap === 1 && td.the[t.khoa]) || capMo(2);
+}
+
 /** Đã xong mọi phần từ vựng của chặng chưa */
 export const xongTuVung = (b) => trangThaiCacChang(b).every((c) => !c.tu.length || c.xong);
 
@@ -45,7 +55,7 @@ export function trangThaiLoTrinh(cap) {
     const kt = ketQuaKiemTra(b.ma);
     return {
       b, kt, dat: !!kt?.dat,
-      mo: capDaMo && (i === 0 || daQuaKiemTra(ds[i - 1].ma) || coTienDo(b)),
+      mo: capDaMo && ((i === 0 && (cap !== 1 || nhapMonXong())) || (i > 0 && daQuaKiemTra(ds[i - 1].ma)) || coTienDo(b)),
       xongTu: xongTuVung(b),
     };
   });
@@ -117,6 +127,7 @@ export function changBiNhayQua(b) {
  * @returns {{ href, chu, b } | null}
  */
 export function viecTiepTheo() {
+  if (!nhapMonXong()) return { href: '#/nhap-mon/tiep', chu: 'Nhập môn', nhapMon: true, b: null };
   for (const cap of cacCapCoDuLieu().sort((a, b) => a - b)) {
     if (!capMo(cap)) continue;
     for (const x of trangThaiLoTrinh(cap)) {

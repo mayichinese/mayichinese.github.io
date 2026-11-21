@@ -1,0 +1,23 @@
+Nhập môn: 6 chặng · 17 phần · 49 cửa
+LỖI: 0
+Cặp âm tiết dễ nhầm:
+  cặp 2/3: qíng/qǐng, shí/shǐ, yóu/yǒu, yé/yě, xué/xuě, xié/xiě, wán/wǎn, zuó/zuǒ
+  cặp 1/4: shī/shì, jiāo/jiào, yī/yì, wū/wù, bā/bà, suī/suì, shū/shù, xiē/xiè
+  cặp 3/4: shǐ/shì, jiǎo/jiào, wǔ/wù, jiǔ/jiù, liǎng/liàng, yǒu/yòu, xiǎo/xiào, yě/yè
+  cặp 1/2: qīng/qíng, shī/shí, yī/yí, qiān/qián, xiē/xié, tiān/tián, chī/chí, chuān/chuán
+  cặp b/p: bà/pà, bā/pá, bàn/pán, bìng/píng, bǐ/pí, bān/pán, bīng/píng, bà/pá
+  cặp d/t: dài/tài, duì/tuǐ, dì/tī, diǎn/tiān, diàn/tiān, děng/téng, dēng/téng, dìng/tǐng
+  cặp n/l: nǐ/lǐ, nín/lín, nán/lán, nǚ/lǚ, nǎo/lǎo
+  cặp g/k: gè/kè, gǒu/kǒu, gāi/kāi, gù/kù, guài/kuài
+  cặp k/h: kuài/huài, kū/hū, kù/hù, kǒu/hòu, kè/hé, kāi/hǎi, kě/hé, kū/hù
+  cặp zh/ch: zhàng/chàng, zhí/chí, zhēn/chèn, zhù/chū, zhāng/chàng, zhǐ/chī, zhàng/cháng, zhí/chī
+  cặp sh/r: shì/rì, shàng/ràng, shòu/ròu, shí/rì, shū/rú, shǒu/ròu, shān/rán, shù/rú
+  cặp z/zh: zǎo/zhǎo, zì/zhǐ, zǎo/zhào, zuò/zhuō, zǒu/zhōu, zuǒ/zhuō, zǒng/zhōng, zuó/zhuō
+  cặp c/ch: cí/chí, céng/chéng, cì/chī, cí/chī
+  cặp s/sh: sān/shān, sì/shì, suì/shuì, sù/shù
+  cặp j/q: jī/qī, jù/qù, jiān/qiān, jiǔ/qiú, jiàn/qiān, jiù/qiú, jī/qǐ, jì/qī
+  cặp q/x: qī/xī, qiān/xiān, qǐ/xǐ, qīng/xīng
+  cặp j/zh: jí/zhí, jī/zhǐ, jì/zhǐ, jí/zhǐ
+  cặp an/ang: fàn/fàng, zhàn/zhàng, bān/bāng, shān/shāng
+  cặp in/ing: xīn/xīng, jìn/jìng, xìn/xìng, bīn/bīng, lín/líng
+  cặp ü/u: nǚ/nǔ, lǚ/lù

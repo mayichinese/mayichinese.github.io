@@ -96,3 +96,4 @@ Hai thanh 3 liền nhau | Vẫn ghi thanh 3 (你好 nǐ hǎo) nhưng chữ đầ
 Chữ viết giống tiếng Việt, đọc khác | p không phải "ph", k không phải "kh", q không phải "qu", c không phải "c/k", d không phải "đ", ü không phải "uy".
 -n hay -ng | an/ang, en/eng, in/ing: cuối -n thì đầu lưỡi chạm chân răng trên; cuối -ng thì lưỡi lùi về sau, không chạm răng. Giọng miền Nam hay lẫn hai nhóm này.
 Thanh nhẹ đổi nghĩa | 东西 dōngxi = đồ vật; dōngxī = phía đông và phía tây.
+Âm cuốn lưỡi 儿 | 哪儿 nǎr, 一点儿 yìdiǎnr: 儿 không đọc thành một âm tiết riêng mà cong đầu lưỡi lên ở cuối chữ đứng trước.

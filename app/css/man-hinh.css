@@ -1251,3 +1251,12 @@ mark .tu-cham { color: inherit; font-weight: inherit; }
   100% { opacity: 0; transform: translate(-50%, 0) rotate(var(--goc)) translateY(-120px) scale(1.1); }
 }
 @media (prefers-reduced-motion: reduce) { .phao-hoa { display: none; } }
+
+/* ==================== NHẬP MÔN: thẻ học ==================== */
+.the-nhap-mon { display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center; }
+.the-nhap-mon h3 { margin: 0; }
+.the-nhap-mon .meo-doc { text-align: left; width: 100%; }
+.the-nhap-mon .luoi-vd-am { width: 100%; }
+.ma-am { font-size: 2.6rem; font-weight: 800; margin: 0; line-height: 1.1; }
+.ma-am small { font-size: 1.2rem; color: var(--chu-phu); }
+.hinh-net .svg-chu { width: 120px; height: 120px; }

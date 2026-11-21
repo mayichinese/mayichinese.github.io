@@ -147,6 +147,11 @@
 - Lộ trình `#/bai` là đường đi uốn lượn (nút tròn, tự cuộn tới chặng đang học, ☰ Mục lục). Cửa đúng < 60% (TI_LE_QUA_CUA,
   không tính phần Nói) thì chưa qua – vẫn ghi `tienDo.cua[k]` (mảng có thể rỗng) để luật tiến độ cũ không tự tính là xong.
 
+- NHẬP MÔN (cấp 0, chip đầu ở Bài học): `js/man-nhap-mon.js`, dữ liệu `cong-cu/nguon-nhap-mon/nhap-mon.txt` →
+  `python -X utf8 cong-cu/tao-nhap-mon.py` → `data/nhap-mon.json` (6 chặng, cửa: hoc/nghe/cap/tu/noi/to/bo; dùng nen-tang.json).
+  Tiến độ `tienDo.nhapMon = {cua, xong, boQua}`. HSK 1 · Chặng 1 mở khi `nhapMonXong()` (xong / qua kiểm tra bỏ qua 15 câu ≥ 80% /
+  đã có tiến độ HSK 1). Địa chỉ: `#/nhap-mon[/<chặng>[/<phần>/<cửa>]]`, `#/nhap-mon/tiep`, `#/nhap-mon/bo-qua`.
+
 ## Soát chuyên môn 2026-11-21 (tai-lieu/Mayi Chinese – Các điểm cần chuyên gia xác nhận.md) – ĐÃ ÁP DỤNG, giữ nguyên khi soạn mới
 - PINYIN CÂU (`cong-cu/quy-tac-pinyin.txt` + `python -X utf8 cong-cu/chuan-hoa-pinyin.py [--sua]`, chạy sau khi soạn câu mới, rồi ghép lại dữ liệu):
   bổ ngữ xu hướng kép sau động từ ghi 来/去 thanh nhẹ, viết rời khỏi động từ (kàn qǐlai); làm động từ chính giữ thanh gốc (huílái);

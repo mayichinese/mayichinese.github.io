@@ -50,7 +50,7 @@ import { ganBieuTuong, bieuTuong } from './bieu-tuong.js';
 import { veTrangChu } from './man-trang-chu.js';
 import { vePhien } from './man-the-tu.js';
 import { baiDangHoc } from './phien-hoc.js';
-import { veDanhSachBai, veBai, veTu, veChuDe } from './man-bai-hoc.js';
+import { veDanhSachBai, veBai, veTu, veChuDe, xemCap } from './man-bai-hoc.js';
 import { veCaiDat } from './man-cai-dat.js';
 import { veThongKe } from './man-thong-ke.js';
 import { veLuyenTap, veDanhSachChuDe } from './man-luyen-tap.js';
@@ -66,6 +66,7 @@ import { changMo } from './lo-trinh.js';
 import { moXemTu } from './cham-tu.js';
 import { veDocHieu } from './man-doc-hieu.js';
 import { veKiemTra } from './man-kiem-tra.js';
+import { veChangNhapMon, veCuaNhapMon, chuyenCuaTiepNM } from './man-nhap-mon.js';
 import { viecTiepTheo } from './lo-trinh.js';
 import { capMo } from './cap-do.js';
 import { veLuyenNoi, vePhienNoi, moChamNhanh, CAC_DANG_NOI } from './man-luyen-noi.js';
@@ -88,7 +89,7 @@ function veTheoDiaChi() {
 
   // tô sáng mục đang chọn ở thanh điều hướng
   let mucChon = {
-    '': 'trang-chu', bai: 'bai', tu: 'bai', 'hoc-moi': 'bai', chang: 'bai', cua: 'bai', 'doc-hieu': 'bai', 'kiem-tra': 'bai',
+    '': 'trang-chu', bai: 'bai', tu: 'bai', 'hoc-moi': 'bai', chang: 'bai', cua: 'bai', 'doc-hieu': 'bai', 'kiem-tra': 'bai', 'nhap-mon': 'bai',
     on: 'luyen-tap', 'luyen-tap': 'luyen-tap', 'luyen-viet': 'luyen-tap', 'thanh-dieu': 'luyen-tap',
     'trac-nghiem': 'luyen-tap', 'ngu-phap': 'luyen-tap', 'luyen-noi': 'luyen-tap',
     'thi-thu': 'luyen-tap', 'chu-de': 'luyen-tap', toi: 'toi', 'thong-ke': 'toi', 'cai-dat': 'toi', 'chu-am': 'chu-am',
@@ -119,6 +120,22 @@ function veTheoDiaChi() {
     const bai = thamSo ? timBaiTheoMa(maBaiTuDiaChi(thamSo)) : null;
     const tiep = bai && bai.sach && capMo(bai.cap) && changMo(bai) ? cuaTiepTheo(bai) : null;
     location.replace(tiep ? `#/cua/${bai.ma}/${tiep.phan}/${tiep.cua}` : (viecTiepTheo()?.href || '#/bai'));
+    return;
+  } else if (muc === 'nhap-mon' && thamSo === 'tiep') {
+    chuyenCuaTiepNM();
+    return;
+  } else if (muc === 'nhap-mon' && thamSo === 'bo-qua') {
+    datTieuDe('Bỏ qua Nhập môn', '#/nhap-mon');
+    donDep = veCuaNhapMon(khung, null);
+  } else if (muc === 'nhap-mon' && thamSo && duong[3] !== undefined) {
+    datTieuDe(`Nhập môn ${thamSo} · Phần ${Number(duong[2]) + 1}`, `#/nhap-mon/${thamSo}`);
+    donDep = veCuaNhapMon(khung, Number(thamSo), Number(duong[2]), Number(duong[3]));
+  } else if (muc === 'nhap-mon' && thamSo) {
+    datTieuDe(`Nhập môn ${thamSo}`, '#/nhap-mon');
+    veChangNhapMon(khung, Number(thamSo));
+  } else if (muc === 'nhap-mon') {
+    xemCap(0);
+    location.replace('#/bai');
     return;
   } else if (muc === 'kiem-tra' && thamSo) {
     const nhay = thamSo === 'nhay';

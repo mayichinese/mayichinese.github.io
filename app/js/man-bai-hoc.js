@@ -19,7 +19,8 @@ import {
 } from './du-lieu.js';
 import { baiDangHoc } from './phien-hoc.js';
 import { esc, boDau, htmlMatSau, dongTu, nutTuLoai, moHopThoai, CHU_THICH_CHAM, CHU_THICH_MAU_THANH } from './giao-dien.js';
-import { trangThaiLoTrinh, saoCuaChang, changMo, changBiNhayQua, ketQuaKiemTra, viecTiepTheo, DIEM_QUA_KIEM_TRA } from './lo-trinh.js';
+import { trangThaiLoTrinh, saoCuaChang, changMo, changBiNhayQua, ketQuaKiemTra, viecTiepTheo, nhapMonXong, DIEM_QUA_KIEM_TRA } from './lo-trinh.js';
+import { veDuongNhapMon } from './man-nhap-mon.js';
 import { bieuTuong } from './bieu-tuong.js';
 import { taiNguPhap } from './man-ngu-phap.js';
 import { capMo, capHienTai, htmlCachMoKhoa } from './cap-do.js';
@@ -42,11 +43,24 @@ function demTu(dsTu, the) {
 const LECH = [0, 58, 88, 58, 0, -58, -88, -58];   // độ lệch ngang (px) tạo đường uốn lượn
 const htmlSao = (n) => `<span class="sao-duong" aria-label="${n} sao">${'⭐'.repeat(n)}${'<i>☆</i>'.repeat(3 - n)}</span>`;
 
+/** Chọn cấp đang xem ở lộ trình (0 = Nhập môn) – dùng cho #/nhap-mon */
+export const xemCap = (c) => { capDangXem = c; };
+
 export function veDanhSachBai(khung) {
   const td = layTienDo();
   const coCap = cacCapCoDuLieu();
-  if (!coCap.includes(capDangXem)) capDangXem = viecTiepTheo()?.b?.cap || baiDangHoc()?.cap || capHienTai();
+  if (capDangXem !== 0 && !coCap.includes(capDangXem)) {
+    capDangXem = !nhapMonXong() ? 0 : viecTiepTheo()?.b?.cap || baiDangHoc()?.cap || capHienTai();
+  }
   const cap = capDangXem;
+  const chipNhapMon = `<button class="chip ${cap === 0 ? 'dang-chon' : ''}" data-cap="0">Nhập môn${nhapMonXong() ? ' <small>✓</small>' : ''}</button>`;
+  if (cap === 0) {
+    khung.innerHTML = `<div class="hang-chip chon-cap">${chipNhapMon}${[1, 2, 3].map((c) => `<button class="chip ${capMo(c) ? '' : 'chip-khoa'}" data-cap="${c}">HSK ${c}${capMo(c) ? '' : ' <span class="emoji">🔒</span>'}</button>`).join('')}</div>
+      <div id="duong-nhap-mon"></div>`;
+    khung.querySelectorAll('[data-cap]').forEach((nut) => { nut.onclick = () => { capDangXem = Number(nut.dataset.cap); veDanhSachBai(khung); }; });
+    veDuongNhapMon(khung.querySelector('#duong-nhap-mon'));
+    return;
+  }
   const khoa = !capMo(cap);   // cấp đang xem còn khóa → chỉ xem trước tên chặng, không vào học
 
   // Chọn cấp: mỗi chip kèm % đã học; cấp chưa mở khóa hiện 🔒 (vẫn bấm được để xem cách mở khóa)
@@ -65,8 +79,12 @@ export function veDanhSachBai(khung) {
   const soQua = ds.filter((x) => x.dat).length;
 
   khung.innerHTML = `
-    <div class="hang-chip chon-cap">${chipCap}</div>
+    <div class="hang-chip chon-cap">${chipNhapMon}${chipCap}</div>
     ${khoa ? `<div style="margin-top:12px">${htmlCachMoKhoa(cap)}</div>` : ''}
+    ${cap === 1 && !nhapMonXong() ? `<div class="khung the-nhay" style="margin-top:12px"><b>🔒 Chặng 1 mở sau khi xong Nhập môn</b>
+      <p class="chu-phu nho" style="margin:4px 0 10px">Nhập môn dạy phiên âm, thanh điệu, nét chữ – nền móng để học từ vựng.</p>
+      <a class="nut nut-chinh nut-rong" href="#/nhap-mon/tiep">▶ Học Nhập môn</a>
+      <a class="nut nut-rong" href="#/nhap-mon/bo-qua" style="margin-top:8px">⏭️ Đã biết pinyin – kiểm tra để bỏ qua</a></div>` : ''}
     <section class="khung tong-quan-cap">
       <div class="dong-tren"><b>HSK ${cap} · ${tuCap.length} từ · ${ds.length} chặng</b>
         <button class="nut nut-nho" id="nut-muc-luc">☰ Mục lục</button></div>
@@ -192,6 +210,13 @@ export async function veBai(khung, ma) {
     return;
   }
   if (!b.sach) { veDanhMucChuDe(khung, b); return; }
+  if (!changMo(b) && b.cap === 1 && b.so === 1 && !nhapMonXong()) {
+    khung.innerHTML = `<div class="chua-lam"><div class="emoji emoji-to">🔒</div><h2>Chặng 1 mở sau khi xong Nhập môn</h2>
+      <p class="chu-phu">Học phiên âm và thanh điệu trước để đọc đúng ngay từ đầu.</p>
+      <a class="nut nut-chinh" href="#/nhap-mon/tiep">▶ Học Nhập môn</a>
+      <a class="nut" href="#/nhap-mon/bo-qua">⏭️ Đã biết pinyin – kiểm tra để bỏ qua</a></div>`;
+    return;
+  }
   if (!changMo(b)) {
     const bo = changBiNhayQua(b);
     khung.innerHTML = `

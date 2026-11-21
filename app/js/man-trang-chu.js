@@ -16,7 +16,7 @@ import { tinhTrangPhatAm } from './phat-am.js';
 import { demHomNay, baiDangHoc, tuChuaHoc } from './phien-hoc.js';
 import { nhiemVuHomNay, nhiemVuThang, gioConLai } from './nhiem-vu.js';
 import { layCapVuaMo } from './cap-do.js';
-import { viecTiepTheo } from './lo-trinh.js';
+import { viecTiepTheo, nhapMonXong } from './lo-trinh.js';
 import { esc, thongBao, duKienHsk3, moTaThoiGian } from './giao-dien.js';
 import { bieuTuong } from './bieu-tuong.js';
 
@@ -108,9 +108,9 @@ function veManChao(khung, buoc = 1) {
     noiDung = `
       <div class="emoji emoji-to">🚀</div>
       <h2>Sẵn sàng rồi!</h2>
-      <p class="chu-phu">Mục tiêu: <b>${cd.phutMoiNgay} phút</b> mỗi ngày. Bắt đầu với chặng đầu tiên nhé.</p>
+      <p class="chu-phu">Mục tiêu: <b>${cd.phutMoiNgay} phút</b> mỗi ngày. Bắt đầu với <b>Nhập môn</b>: phiên âm, thanh điệu, nét chữ – mỗi cửa vài phút.</p>
       <button class="nut nut-chinh nut-rong" data-bat-dau="#/hoc-moi">▶ Bắt đầu học</button>
-      <button class="nut nut-rong" data-bat-dau="#/bai">Tôi đã học tiếng Trung – xem lộ trình</button>`;
+      <button class="nut nut-rong" data-bat-dau="#/nhap-mon/bo-qua">Tôi đã biết pinyin – kiểm tra để bỏ qua Nhập môn</button>`;
   }
   khung.innerHTML = `<section class="khung man-chao"><div class="cham-buoc">${cham}</div>${noiDung}</section>`;
   khung.querySelectorAll('[data-buoc]').forEach((b) => { b.onclick = () => veManChao(khung, Number(b.dataset.buoc)); });
@@ -149,6 +149,7 @@ export function veTrangChu(khung) {
   let tiepTuc;
   if (!daHoc && onXong) tiepTuc = { chu: 'Bắt đầu học', href: '#/hoc-moi', batDau: true };
   else if (!onXong) tiepTuc = { chu: `Ôn ${dem.onDenHan + dem.dangHocDenHan} thẻ từ`, href: '#/on' };
+  else if (viec?.nhapMon) tiepTuc = { chu: 'Học Nhập môn', href: viec.href };
   else if (viec?.kiemTra) tiepTuc = { chu: `Kiểm tra ${nhanBai(viec.b)} để mở chặng sau`, href: viec.href };
   else if (dem.conTuMoi && viec) tiepTuc = { chu: `Học tiếp · ${nhanBai(viec.b)}`, href: viec.href };
   else if (nvChuaXong) tiepTuc = { chu: nvChuaXong.ten, href: nvChuaXong.href };
@@ -172,7 +173,16 @@ export function veTrangChu(khung) {
 
   // Bài đang học (bài đầu tiên còn từ chưa học, theo cách chia bài đang chọn)
   let theBai = '';
-  if (bai) {
+  if (!nhapMonXong()) {
+    theBai = `
+    <h3 class="tieu-de-muc">Đang học <small><a href="#/nhap-mon">Xem lộ trình →</a></small></h3>
+    <a class="khung the-bai-dang-hoc" href="#/nhap-mon/tiep">
+      <span class="nut-tron dang">🔤</span>
+      <span class="giua"><span class="so-bai">Nhập môn</span><b>Phiên âm, thanh điệu, nét chữ</b>
+        <span class="chu-phu nho">Nền móng trước khi học từ vựng HSK 1</span></span>
+      <span class="cuoi-dong">${bieuTuong('phai')}</span>
+    </a>`;
+  } else if (bai) {
     const daHocBai = bai.tu.filter((t) => td.the[t.khoa]).length;
     const pt = Math.round((daHocBai / bai.tu.length) * 100);
     theBai = `
