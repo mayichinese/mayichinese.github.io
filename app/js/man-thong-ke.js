@@ -52,14 +52,15 @@ function thanhNhieuDoan(tk, tong) {
   return `
     <div class="thanh-nhieu-doan" role="img" aria-label="${doan.map(([k, t]) => `${tk[k]} ${t}`).join(', ')} trên ${tong}">
       ${doan.map(([k]) => (tk[k] ? `<span class="${k}" style="width:${(tk[k] / tong) * 100}%"></span>` : '')).join('')}
-    </div>
-    <div class="chu-thich-cham">
-      <span><i class="cham da-thuoc"></i>thuộc chắc ${tk['da-thuoc']}</span>
-      <span><i class="cham dang-on"></i>đang ôn ${tk['dang-on']}</span>
-      <span><i class="cham dang-hoc"></i>đang học ${tk['dang-hoc']}</span>
-      <span><i class="cham"></i>chưa học ${tk['chua-hoc']}</span>
     </div>`;
 }
+/** Chú thích màu (hiện MỘT lần dưới các thanh của một cấp) */
+const CHU_THICH_THANH = `
+    <div class="chu-thich-cham">
+      <span><i class="cham da-thuoc"></i>thuộc chắc</span><span><i class="cham dang-on"></i>đang ôn</span>
+      <span><i class="cham dang-hoc"></i>đang học</span><span><i class="cham"></i>chưa học</span>
+    </div>`;
+let capThongKe = null;   // cấp đang xem ở mục "Theo cấp HSK"
 
 function demTheoLoai(danhSach, layThe) {
   const tk = { 'chua-hoc': 0, 'dang-hoc': 0, 'dang-on': 0, 'da-thuoc': 0 };
@@ -144,12 +145,7 @@ export async function veThongKe(khung) {
   const tongPhut = Math.round(Object.values(nk).reduce((s, n) => s + Object.values(n.giay || {}).reduce((a, b) => a + b, 0), 0) / 60);
 
   // --- Theo cấp ---
-  const tuCap1 = tatCaTu().filter((t) => t.cap === 1);
-  const tkTu = demTheoLoai(tuCap1, (t) => td.the[t.khoa]);
   const vietTay = netChu?.vietTay12 || Object.keys(td.theViet);
-  const tkViet = demTheoLoai(vietTay, (c) => td.theViet[c]);
-  const np1 = nguPhap.filter((d) => (d.cap || 1) === 1);
-  const tkNp = demTheoLoai(np1, (d) => td.nguPhap.the[d.id]);
 
   // --- Hay sai ---
   const soSai = td.tracNghiem.soSai;
@@ -168,9 +164,26 @@ export async function veThongKe(khung) {
 
   const khoiCap = (tieuDe, tk, tong, ghiChu) => `
     <div class="khoi-cap">
-      <div class="dong-tren"><b>${tieuDe}</b><span class="chu-phu nho">${tong - tk['chua-hoc']}/${tong}${ghiChu ? ` · ${ghiChu}` : ''}</span></div>
+      <div class="dong-tren"><b>${tieuDe}</b><span class="chu-phu nho">${tong - tk['chua-hoc']}/${tong}
+        <small>· thuộc ${tk['da-thuoc']}</small>${ghiChu ? ` · ${ghiChu}` : ''}</span></div>
       ${thanhNhieuDoan(tk, Math.max(1, tong))}
     </div>`;
+  // Nội dung "Theo cấp HSK" của một cấp
+  const htmlCap = (cap) => {
+    const tuCap = tatCaTu().filter((t) => t.cap === cap);
+    const npCap = nguPhap.filter((d) => (d.cap || 1) === cap);
+    const vt = cap === 1 ? vietTay : cap === 3 ? (netChu?.vietTay3 || []) : [];
+    const tong = tongTuCap(cap);
+    return `
+      ${khoiCap('Từ vựng', demTheoLoai(tuCap, (t) => td.the[t.khoa]), tuCap.length, tuCap.length < tong ? `đã soạn ${tuCap.length}/${tong}` : '')}
+      ${vt.length ? khoiCap(cap === 1 ? 'Chữ viết tay (cấp 1–2)' : 'Chữ viết tay (cấp 3)', demTheoLoai(vt, (c) => td.theViet[c]), vt.length) : ''}
+      ${npCap.length ? khoiCap('Ngữ pháp', demTheoLoai(npCap, (d) => td.nguPhap.the[d.id]), npCap.length) : ''}
+      ${CHU_THICH_THANH}`;
+  };
+  const cacCapTk = [1, 2, 3].filter((c) => tatCaTu().some((t) => t.cap === c));
+  if (!cacCapTk.includes(capThongKe)) {
+    capThongKe = [...cacCapTk].reverse().find((c) => tatCaTu().some((t) => t.cap === c && td.the[t.khoa])) || cacCapTk[0];
+  }
 
   const daHocTatCa = tatCaTu().filter((t) => td.the[t.khoa]).length;
   const ngaySaoLuu = td.saoLuuLanCuoi ? new Date(td.saoLuuLanCuoi).toLocaleDateString('vi-VN') : 'chưa có';
@@ -207,26 +220,8 @@ export async function veThongKe(khung) {
     </section>
 
     <h3 class="tieu-de-muc">Theo cấp HSK</h3>
-    <section class="khung">
-      <div class="dong-tren"><b class="nhan nhan-chinh">HSK 1</b></div>
-      ${khoiCap('Từ vựng', tkTu, tuCap1.length)}
-      ${khoiCap('Chữ viết tay (cấp 1–2)', tkViet, vietTay.length)}
-      ${np1.length ? khoiCap('Ngữ pháp', tkNp, np1.length) : ''}
-    </section>
-    ${[2, 3].map((cap) => {
-      // Khung cho từng cấp 2, 3 (chỉ hiện khi đã có dữ liệu)
-      const tuCap = tatCaTu().filter((t) => t.cap === cap);
-      if (!tuCap.length) return '';
-      const tong = tongTuCap(cap);
-      const npCap = nguPhap.filter((d) => d.cap === cap);
-      return `
-    <section class="khung" style="margin-top:12px">
-      <div class="dong-tren"><b class="nhan nhan-chinh">HSK ${cap}</b></div>
-      ${khoiCap('Từ vựng', demTheoLoai(tuCap, (t) => td.the[t.khoa]), tuCap.length, tuCap.length < tong ? `đã soạn ${tuCap.length}/${tong} từ` : '')}
-      ${cap === 3 && netChu?.vietTay3?.length ? khoiCap('Chữ viết tay (cấp 3)', demTheoLoai(netChu.vietTay3, (c) => td.theViet[c]), netChu.vietTay3.length) : ''}
-      ${npCap.length ? khoiCap('Ngữ pháp', demTheoLoai(npCap, (d) => td.nguPhap.the[d.id]), npCap.length) : ''}
-    </section>`;
-    }).join('')}
+    <div class="hang-chip chon-cap" id="chip-tk-cap">${cacCapTk.map((c) => `<button class="chip ${c === capThongKe ? 'dang-chon' : ''}" data-tk-cap="${c}">HSK ${c}</button>`).join('')}</div>
+    <section class="khung" id="tk-cap" style="margin-top:10px">${htmlCap(capThongKe)}</section>
 
     <h3 class="tieu-de-muc">Kết quả luyện tập</h3>
     <div class="hang-chi-so">
@@ -258,7 +253,14 @@ export async function veThongKe(khung) {
 
     <h3 class="tieu-de-muc">Thanh hay nhầm</h3>
     ${nham.length
-      ? `<div class="khung"><ul class="ds-nham" style="margin:0">${nham.map(([k, n]) => { const [a, b] = k.split('>'); return `<li>Nghe <b class="t${a}">${TEN_THANH[a]}</b> nhưng chọn <b class="t${b}">${TEN_THANH[b]}</b>: ${n} lần</li>`; }).join('')}</ul></div>`
+      ? `<div class="khung"><ul class="ds-nham" style="margin:0">${nham.map(([k, n]) => { const [a, b] = k.split('>'); return `<li>Nghe <b class="t${a}">${TEN_THANH[a]}</b> nhưng chọn <b class="t${b}">${TEN_THANH[b]}</b>: ${n} lần</li>`;
+  khung.querySelectorAll('[data-tk-cap]').forEach((nut) => {
+    nut.onclick = () => {
+      capThongKe = Number(nut.dataset.tkCap);
+      khung.querySelectorAll('[data-tk-cap]').forEach((b) => b.classList.toggle('dang-chon', b === nut));
+      khung.querySelector('#tk-cap').innerHTML = htmlCap(capThongKe);
+    };
+  }); }).join('')}</ul></div>`
       : '<p class="chu-phu">Chưa nhầm thanh nào.</p>'}`;
 
   // --- Biểu đồ: đổi 7 / 30 ngày, chạm cột để xem chi tiết ---

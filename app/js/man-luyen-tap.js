@@ -94,12 +94,18 @@ export function veLuyenTap(khung) {
 /** Danh sách chủ đề của các cấp đã mở, mỗi chủ đề kèm số từ đã học */
 export function veDanhSachChuDe(khung) {
   const td = layTienDo();
-  const cacCap = cacCapCoDuLieu().filter((c) => coChuDe(c) && capMo(c));
+  const cacCap = cacCapCoDuLieu().filter((c) => coChuDe(c)).sort((a, b) => a - b);
   khung.innerHTML = `
     <p class="chu-phu nho" style="margin:4px 2px 12px">Từ vựng xếp theo nhóm nghĩa. Chọn một chủ đề để xem từ và làm trắc nghiệm ôn
       (ưu tiên từ đã học). Học từ mới thì theo lộ trình ở <a href="#/bai">Bài học</a>.</p>
     ${cacCap.map((cap) => {
       const ds = danhSachBai('chu-de', cap).filter((b) => !b.sach && b.tu.length);
+      if (!capMo(cap)) {
+        // Cấp đang khóa: xem trước tên chủ đề, chưa vào ôn được
+        return `<h3 class="tieu-de-muc">HSK ${cap} 🔒 <small>${ds.length} chủ đề</small></h3>
+          <p class="chu-phu nho" style="margin:-4px 2px 8px">Mở khi mở khóa HSK ${cap} (học hết HSK ${cap - 1} hoặc học vượt bằng thi thử).</p>
+          <div class="hang-chip">${ds.map((b) => `<span class="chip chip-khoa">${esc(b.ten)}</span>`).join('')}</div>`;
+      }
       return `<h3 class="tieu-de-muc">HSK ${cap} <small>${ds.length} chủ đề</small></h3>
         <div class="ds-chu-de">${ds.map((b) => {
           const daHoc = b.tu.filter((t) => td.the[t.khoa]).length;
