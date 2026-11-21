@@ -155,6 +155,10 @@
   Tiến độ `tienDo.nhapMon = {cua, xong, boQua}`. HSK 1 · Chặng 1 mở khi `nhapMonXong()` (xong / qua kiểm tra bỏ qua 15 câu ≥ 80% /
   đã có tiến độ HSK 1). Địa chỉ: `#/nhap-mon[/<chặng>[/<phần>/<cửa>]]`, `#/nhap-mon/tiep`, `#/nhap-mon/bo-qua`.
 
+- Tên chặng (2026-11-21): nguồn ghi `Tên chủ đề // Tên bài theo sách` (theo-sach.txt mục TEN BAI, phan-bai.txt cấp 2–3);
+  du-lieu.js tách thành `b.ten` (chủ đề, hiện chính) + `b.tenSach`. Tên PHẦN = `chuDeChinh(tu)` (chủ đề nhiều từ nhất, lặp thì đánh số).
+  Bảng mẫu thanh điệu cố định ở `@ mau-thanh` trong phien-am.txt (mā má mǎ mà ma). Giao diện gọi âm đầu = "thanh mẫu", vần = "vận mẫu".
+
 ## Soát chuyên môn 2026-11-21 (tai-lieu/Mayi Chinese – Các điểm cần chuyên gia xác nhận.md) – ĐÃ ÁP DỤNG, giữ nguyên khi soạn mới
 - PINYIN CÂU (`cong-cu/quy-tac-pinyin.txt` + `python -X utf8 cong-cu/chuan-hoa-pinyin.py [--sua]`, chạy sau khi soạn câu mới, rồi ghép lại dữ liệu):
   bổ ngữ xu hướng kép sau động từ ghi 来/去 thanh nhẹ, viết rời khỏi động từ (kàn qǐlai); làm động từ chính giữ thanh gốc (huílái);
