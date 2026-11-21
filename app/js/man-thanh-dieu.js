@@ -470,7 +470,7 @@ export function vePhienThanh(khung, dang) {
       });
       const [a1, a2] = cau.am;
       const lyDo = cau.doi
-        ? `<b class="t3">${esc(a1.chu)}</b> + <b class="t3">${esc(a2.chu)}</b>: hai thanh 3 liền nhau → âm đầu đọc thành <b class="t2">thanh 2</b> (vẫn viết dấu thanh 3).`
+        ? `<b class="t3">${esc(a1.chu)}</b> + <b class="t3">${esc(a2.chu)}</b>: hai thanh 3 liền nhau → âm tiết đầu đọc thành <b class="t2">thanh 2</b> (vẫn viết dấu thanh 3).`
         : `<b class="t3">${esc(a1.chu)}</b> đứng trước ${TEN_THANH[a2.thanh]} → <b class="t3">giữ thanh 3</b>, chỉ đọc nửa đầu (xuống thấp).`;
       xongCau(dung, [], `${dung ? '✅ Đúng!' : '❌ Chưa đúng.'}<br>${lyDo}`);
       nghe();

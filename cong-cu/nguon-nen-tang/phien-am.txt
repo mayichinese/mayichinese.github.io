@@ -2,11 +2,20 @@
 # Chạy: python -X utf8 cong-cu/tao-nen-tang.py   (tạo app/data/nen-tang.json)
 #
 # Định dạng:
-#   @ thanh | @ am-dau | @ van        bắt đầu một phần
+#   @ thanh | @ am-dau (thanh mẫu) | @ van (vận mẫu)   bắt đầu một phần
 #   = Tên nhóm                         bắt đầu một nhóm trong phần
 #   mã | mẹo phát âm (so với tiếng Việt)
 # Ví dụ nghe (chữ Hán + pinyin) do script tự lấy từ hsk1/2/3.json: chữ đơn và TỪ HAI CHỮ
 # (máy đọc cả từ chuẩn hơn đọc một chữ đứng riêng). Phần @ luu-y cuối file: tiêu đề | nội dung.
+
+@ mau-thanh
+# Bảng mẫu thanh điệu cố định: cùng âm "ma" với 4 thanh + thanh nhẹ (dễ phát âm, quen thuộc với người học)
+# thanh | chữ | pinyin
+1 | 妈 | mā
+2 | 麻 | má
+3 | 马 | mǎ
+4 | 骂 | mà
+0 | 吗 | ma
 
 @ thanh
 1 | Cao và bằng, giữ giọng ở mức cao như khi ngân một nốt nhạc. Phải cao hơn hẳn thanh ngang tiếng Việt – người Việt hay đọc thấp quá.
@@ -48,14 +57,14 @@ y | Thực chất là "i" đứng đầu âm tiết (yi đọc như i, ya như i
 w | Thực chất là "u" đứng đầu âm tiết (wu đọc như u, wa như oa).
 
 @ van
-= Vần đơn
+= Vận mẫu đơn
 a | Như "a" tiếng Việt, miệng mở to.
 o | Sau b, p, m, f đọc lướt như "ua" (bo ≈ "pua"); một mình gần "ô".
-e | Gần "ơ" nhưng lưỡi lùi về sau, nghe hơi giống "ưa". Trong vần ghép thì khác: ie, üe đọc gần "ê"; ei ≈ "ây"; en ≈ "ân"; eng ≈ "âng".
+e | Gần "ơ" nhưng lưỡi lùi về sau, nghe hơi giống "ưa". Trong vận mẫu kép thì khác: ie, üe đọc gần "ê"; ei ≈ "ây"; en ≈ "ân"; eng ≈ "âng".
 i | Như "i". Riêng sau z, c, s, zh, ch, sh, r thì đọc gần "ư".
 u | Như "u", môi tròn. Chú ý: ju, qu, xu, yu viết u nhưng đọc là ü.
 ü | Là MỘT âm: miệng để như đọc "i" rồi chu tròn môi, giữ nguyên từ đầu đến cuối – không trượt từ u sang i như "uy". Sau j, q, x, y viết là u (ju, qu, xu, yu) nhưng vẫn đọc ü.
-= Vần ghép
+= Vận mẫu kép
 ai | Như "ai".
 ei | Như "ây".
 ui | Viết gọn của uei: như "uây".
@@ -65,18 +74,18 @@ iu | Viết gọn của iou (giữa có o ẩn): gần "iêu".
 ie | Như "iê".
 üe | ü (môi tròn, giữ nguyên) rồi ê. Sau j, q, x, y viết là ue.
 er | Đọc "ơ" rồi cong đầu lưỡi lên – âm cuộn lưỡi.
-= Vần mũi trước (-n)
+= Vận mẫu mũi trước (-n)
 an | Như "an".
 en | Như "ân".
 in | Như "in".
 un | Viết gọn của uen: như "uân".
 ün | ü (môi tròn) rồi n. Sau j, q, x, y viết là un.
-= Vần mũi sau (-ng)
+= Vận mẫu mũi sau (-ng)
 ang | Như "ang".
 eng | Như "âng".
 ing | Như "inh" nhưng lưỡi lùi về sau.
 ong | Như "ung".
-= Vần có i, u, ü đứng trước
+= Vận mẫu có i, u, ü đứng đầu
 ia | "i" rồi "a" đọc liền.
 iao | "i" rồi "ao" đọc liền: gần "eo" nhưng miệng mở rộng như "ao".
 ian | Như "iên".

@@ -195,7 +195,7 @@ function taoMuc(cua, nt, net) {
       if (nhom === 'am-dau' || nhom === 'van') {
         const x = (nhom === 'am-dau' ? pa.amDau : pa.van).find((y) => y.ma === m);
         const vd = [...(x.vdTu || []), ...(x.vd || []).slice(0, 4)];
-        return { loai: 'the', html: `<p class="ma-am pinyin">${esc(m)}</p><h3>${nhom === 'am-dau' ? 'Âm đầu' : 'Vần'}${x.nhom ? ` · ${esc(x.nhom)}` : ''}</h3>
+        return { loai: 'the', html: `<p class="ma-am pinyin">${esc(m)}</p><h3>${nhom === 'am-dau' ? 'Thanh mẫu' : 'Vận mẫu'}${x.nhom ? ` · ${esc(x.nhom)}` : ''}</h3>
           <p class="meo-doc">💡 ${esc(x.meo)}</p>
           <div class="luoi-vd-am">${vd.map((v) => `<button class="o-vd-am" data-doc="${esc(v.h)}"><span class="han">${esc(v.h)}</span><span class="pinyin">${toMauPinyin(v.p)}</span></button>`).join('')}</div>`,
         doc: vd[0]?.h };

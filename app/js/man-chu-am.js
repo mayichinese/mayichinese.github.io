@@ -1,6 +1,6 @@
 // =========================================================
 // CHỮ & ÂM (#/chu-am) – nền tảng trước khi học từ: tra cứu + luyện tập
-//   #/chu-am/phien-am  Phiên âm: bảng thanh điệu, 23 âm đầu, 35 vần (chạm để nghe, mẹo phát âm so với tiếng Việt)
+//   #/chu-am/phien-am  Phiên âm: bảng thanh điệu, 23 thanh mẫu (âm đầu), 35 vận mẫu (vần) (chạm để nghe, mẹo phát âm so với tiếng Việt)
 //   #/chu-am/net       Nét cơ bản (25 nét: 18 nét + 7 nét ghép) + 10 quy tắc thứ tự nét (xem hoạt cảnh viết)
 //   #/chu-am/bo-thu    49 bộ thủ hay gặp, kèm chữ ví dụ trong HSK 1–3 (bộ thủ được tô màu trong chữ)
 //   #/chu-am/tu-loai   Từ loại & trật tự câu (man-tu-loai.js; trang một loại: #/chu-am/tu-loai/<mã>)
@@ -125,7 +125,7 @@ function htmlPhienAm(dl) {
   return `
     <section class="khung gioi-thieu-chu-am">
       <b>Cùng học phiên âm tiếng Trung!</b>
-      <span class="chu-phu nho">Mỗi âm tiết = âm đầu + vần + thanh điệu. Chạm vào ô để nghe và xem mẹo đọc.</span>
+      <span class="chu-phu nho">Mỗi âm tiết = <b>thanh mẫu</b> (âm đầu) + <b>vận mẫu</b> (vần) + <b>thanh điệu</b>. Chạm vào ô để nghe và xem mẹo đọc.</span>
       <a class="nut nut-chinh nut-rong" href="#/chu-am/luyen/phien-am">🎧 Luyện nghe phiên âm (${SO_CAU} câu)</a>
       <a class="nut nut-rong" href="#/luyen-noi/doc-tu">🎤 Luyện đọc: máy chấm phát âm</a>
     </section>
@@ -144,10 +144,10 @@ function htmlPhienAm(dl) {
       <ul>${pa.luuY.map((l) => `<li><b>${esc(l.ten)}:</b> ${esc(l.noi)}</li>`).join('')}</ul>
     </details>` : ''}
 
-    <h3 class="tieu-de-muc">Âm đầu <small>${pa.amDau.length} âm</small></h3>
+    <h3 class="tieu-de-muc">Thanh mẫu <small>${pa.amDau.length} âm đầu</small></h3>
     ${luoiTheoNhom(pa.amDau, 'd')}
 
-    <h3 class="tieu-de-muc">Vần <small>${pa.van.length} vần</small></h3>
+    <h3 class="tieu-de-muc">Vận mẫu <small>${pa.van.length} vần</small></h3>
     ${luoiTheoNhom(pa.van, 'v')}
     <p class="chu-phu nho" style="margin-top:16px">Thanh màu vàng = đã nghe đúng ${DU_THAO} lần trong bài luyện. Ví dụ nghe lấy từ chữ và từ hai chữ trong HSK 1–3;
       giọng đọc là giọng tiếng Trung có sẵn trong máy.</p>`;
@@ -161,7 +161,7 @@ function moAm(dl, ma, loai) {
   if (vdTu[0] || x.vd[0]) doc((vdTu[0] || x.vd[0]).h);
   moHopThoai(`
     <div class="dau-hop">
-      <h2><span class="pinyin">${esc(x.ma)}</span> <small class="chu-phu">${loai === 'd' ? 'âm đầu' : 'vần'}${x.nhom ? ` · ${esc(x.nhom)}` : ''}</small></h2>
+      <h2><span class="pinyin">${esc(x.ma)}</span> <small class="chu-phu">${loai === 'd' ? 'thanh mẫu' : 'vận mẫu'}${x.nhom ? ` · ${esc(x.nhom)}` : ''}</small></h2>
       <button class="nut-bieu-tuong" data-dong aria-label="Đóng">✕</button>
     </div>
     <p class="meo-doc">💡 ${esc(x.meo)}</p>

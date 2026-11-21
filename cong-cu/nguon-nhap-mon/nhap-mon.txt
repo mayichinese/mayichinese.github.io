@@ -30,12 +30,12 @@ nghe | thanh | 1 2 3 4
 tu | tu | 中国 老师 学生 朋友 谢谢 再见 米饭 电视
 noi | tu | 中国 老师 再见 谢谢
 
-## 2 | Âm đầu dễ và vần đơn | Những âm gần tiếng Việt – và vài bẫy nhỏ
+## 2 | Thanh mẫu dễ và vận mẫu đơn | Những âm gần tiếng Việt – và vài bẫy nhỏ
 ### Âm môi và âm đầu lưỡi
 hoc | am-dau | b p m f d t n l
 nghe | am-dau | b p m f d t n l
 cap | am-dau | b/p d/t n/l
-### Âm cuống lưỡi và vần đơn
+### Âm cuống lưỡi và vận mẫu đơn
 hoc | am-dau | g k h
 hoc | van | a o e i u ü
 cap | am-dau | g/k k/h
@@ -45,7 +45,7 @@ hoc | luu-y | 4
 nghe | am-dau | b p m f d t n l g k h
 noi | tu | 爸爸 妈妈 哥哥 弟弟
 
-## 3 | Âm đầu khó với người Việt | zh ch sh r · z c s · j q x
+## 3 | Thanh mẫu khó với người Việt | zh ch sh r · z c s · j q x
 ### Âm uốn lưỡi
 hoc | am-dau | zh ch sh r
 nghe | am-dau | zh ch sh r
@@ -60,16 +60,16 @@ cap | am-dau | j/q q/x j/zh
 nghe | am-dau | j q x
 noi | tu | 吃 是 去 喜欢
 
-## 4 | Vần ghép và vần mũi | ai ei ao ou · -n và -ng · ü
-### Vần ghép
+## 4 | Vận mẫu kép và vận mẫu mũi | ai ei ao ou · -n và -ng · ü
+### Vận mẫu kép
 hoc | van | ai ei ao ou ia ie ua uo
 nghe | van | ai ei ao ou ia ie ua uo
-### Vần mũi -n và -ng
+### Vận mẫu mũi -n và -ng
 hoc | luu-y | 5
 hoc | van | an ang en eng in ing ong
 cap | van | an/ang in/ing
 nghe | van | an ang en eng in ing ong
-### Vần có ü và vần viết gọn
+### Vận mẫu có ü và vận mẫu viết gọn
 hoc | van | ü üe üan ün iu ui un
 cap | van | ü/u
 nghe | van | iu ui un üe üan

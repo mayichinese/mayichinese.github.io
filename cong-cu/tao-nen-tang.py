@@ -157,6 +157,9 @@ def doc_nguon_phien_am():
             nhom = None
         elif dong.startswith('='):
             nhom = dong[1:].strip()
+        elif hien_tai == 'mau-thanh':
+            t, h, py = [x.strip() for x in dong.split('|')]
+            phan[hien_tai].append({'t': int(t), 'h': h, 'p': py})
         else:
             ma, meo = [x.strip() for x in dong.split('|', 1)]
             phan[hien_tai].append({'ma': ma, 'nhom': nhom, 'meo': meo})
@@ -203,6 +206,10 @@ for cap, han, py, nghia in cac_tu:
 if ung_vien:
     _, _, han, py = min(ung_vien)
     mau_thanh.append({'t': 0, 'h': han, 'p': py})
+# Bảng mẫu cố định trong nguồn (@ mau-thanh, mặc định "ma") được ưu tiên hơn bảng tự chọn
+if nguon.get('mau-thanh'):
+    mau_thanh = sorted(nguon['mau-thanh'], key=lambda x: (x['t'] == 0, x['t']))
+    goc_mau = bo_dau(mau_thanh[0]['p'])[0]
 
 # ---------- Ví dụ TỪ HAI CHỮ (máy đọc cả từ chuẩn hơn đọc chữ đứng riêng) ----------
 # Tách pinyin của từ hai chữ thành hai âm tiết hợp lệ (bảng âm tiết lấy từ ngân hàng + Unihan nếu có)
