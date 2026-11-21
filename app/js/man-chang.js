@@ -28,6 +28,8 @@ import { coNhanDang, coGhiAm } from './nhan-giong.js';
 import { DIEM_DAT } from './cham-phat-am.js';
 import { htmlCauCham, tachTu } from './cham-tu.js';
 import { amCham, amDung, amSai, amXong } from './am-thanh.js';
+import { changMo } from './lo-trinh.js';
+import { htmlPhaoHoa } from './man-kiem-tra.js';
 
 const CO_PHAN = 5;             // số từ mỗi phần (chia đều: 13 từ → 5 + 4 + 4)
 const HOI_LAI_TOI_DA = 3;      // một câu sai được hỏi lại tối đa 3 lần trong cửa
@@ -166,6 +168,12 @@ export function veChang(khung, maBai, so, soCua = 0) {
   const cua = chang ? chang.cua[soCua] : null;
   if (!b || !chang || !chang.tu.length || !cua) {
     khung.innerHTML = '<p class="loi">Không tìm thấy cửa này.</p><a class="nut nut-rong" href="#/bai">← Về lộ trình</a>';
+    return () => {};
+  }
+  if (!changMo(b)) {
+    khung.innerHTML = `<div class="chua-lam"><div class="emoji emoji-to">🔒</div><h2>${esc(nhanBai(b))} chưa mở</h2>
+      <p class="chu-phu">Qua kiểm tra chặng trước để mở, hoặc làm kiểm tra nhảy chặng.</p>
+      <a class="nut nut-chinh" href="#/bai/${b.ma}">Xem cách mở</a><a class="nut" href="#/bai">← Lộ trình</a></div>`;
     return () => {};
   }
   if (!chang.mo || !cua.mo) {
@@ -650,6 +658,7 @@ export function veChang(khung, maBai, so, soCua = 0) {
       const tu = cua.loai === 'tu' ? cua.tu : null;
       khung.innerHTML = `
         <div class="ket-thuc">
+          ${xongPhan ? htmlPhaoHoa() : ''}
           <div class="emoji emoji-to">${!quaCua ? '💪' : xongPhan ? '🏆' : ti >= 0.8 ? '🌟' : '👍'}</div>
           <h2>${!quaCua ? 'Chưa qua cửa' : xongPhan ? `Xong phần ${so + 1}!` : 'Qua cửa!'}</h2>
           ${quaCua ? '' : `<p class="chu-phu">Đúng ${Math.round(ti * 100)}% – cần từ ${Math.round(TI_LE_QUA_CUA * 100)}% để qua. Xem lại từ rồi làm lại cửa này nhé.</p>`}
@@ -664,7 +673,8 @@ export function veChang(khung, maBai, so, soCua = 0) {
           ${boQuaViet.size ? `<p class="chu-phu nho">✍️ Bỏ qua viết: <span class="han">${[...boQuaViet].map(esc).join(' ')}</span> – đã đưa lên đầu hàng Luyện viết.</p>` : ''}
           ${!quaCua ? `<button class="nut nut-chinh nut-rong" id="nut-lam-lai">↺ Làm lại cửa này</button>`
             : tiep ? `<a class="nut nut-chinh nut-rong" href="#/cua/${b.ma}/${tiep.phan}/${tiep.cua}" id="nut-cua-tiep">${tiep.phan === so ? 'Cửa tiếp theo ▶' : `Phần ${tiep.phan + 1} ▶`}</a>`
-            : `<a class="nut nut-chinh nut-rong" href="#/bai/${b.ma}">🎉 Xong từ vựng của chặng – sang ngữ pháp ▶</a>`}
+            : `<p class="chu-phu nho" style="margin:0">🎉 Xong từ vựng của ${esc(nhanBai(b))}! Làm kiểm tra (đạt 80%) để mở chặng sau.</p>
+              <a class="nut nut-chinh nut-rong" href="#/kiem-tra/${b.ma}">🔑 Kiểm tra ${esc(nhanBai(b))} ▶</a>`}
           <a class="nut nut-rong" href="#/bai/${b.ma}">← Về chặng</a>
         </div>`;
       const $lai = khung.querySelector('#nut-lam-lai');

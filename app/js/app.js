@@ -14,6 +14,8 @@
 //   #/on           Ôn từ đến hạn                → man-the-tu.js
 //   #/hoc-moi[/s5] Học tiếp → cửa chưa xong đầu tiên (của chặng s5, hoặc trên cả lộ trình)
 //   #/cua/<mã chặng>/<phần>/<cửa>  một cửa: từ (nghe → nói → viết → nhớ) / ghép / đọc → man-chang.js
+//   #/kiem-tra/<mã chặng>          kiểm tra cuối chặng (≥ 80% mở chặng sau) → man-kiem-tra.js
+//   #/kiem-tra/nhay/<mã chặng>     kiểm tra để nhảy tới một chặng đang khóa
 //   #/chang/<mã>/<phần>  địa chỉ cũ → chuyển tới cửa chưa xong của phần
 //   #/doc-hieu/<mã bài>  đọc hiểu cuối bài (hội thoại / đoạn văn + câu hỏi) → man-doc-hieu.js
 //   #/bai[/5]      Bài học (lộ trình) / bài 5   → man-bai-hoc.js
@@ -60,8 +62,11 @@ import { veThiThu, veLamBai } from './man-thi-thu.js';
 import { veChuAm, vePhienChuAm } from './man-chu-am.js';
 import { veTuLoai, moTuLoai } from './man-tu-loai.js';
 import { veChang, cuaTiepTheo, trangThaiCacChang } from './man-chang.js';
+import { changMo } from './lo-trinh.js';
 import { moXemTu } from './cham-tu.js';
 import { veDocHieu } from './man-doc-hieu.js';
+import { veKiemTra } from './man-kiem-tra.js';
+import { viecTiepTheo } from './lo-trinh.js';
 import { capMo } from './cap-do.js';
 import { veLuyenNoi, vePhienNoi, moChamNhanh, CAC_DANG_NOI } from './man-luyen-noi.js';
 
@@ -83,12 +88,17 @@ function veTheoDiaChi() {
 
   // tô sáng mục đang chọn ở thanh điều hướng
   let mucChon = {
-    '': 'trang-chu', bai: 'bai', tu: 'bai', 'hoc-moi': 'bai', chang: 'bai', cua: 'bai', 'doc-hieu': 'bai',
+    '': 'trang-chu', bai: 'bai', tu: 'bai', 'hoc-moi': 'bai', chang: 'bai', cua: 'bai', 'doc-hieu': 'bai', 'kiem-tra': 'bai',
     on: 'luyen-tap', 'luyen-tap': 'luyen-tap', 'luyen-viet': 'luyen-tap', 'thanh-dieu': 'luyen-tap',
     'trac-nghiem': 'luyen-tap', 'ngu-phap': 'luyen-tap', 'luyen-noi': 'luyen-tap',
     'thi-thu': 'luyen-tap', 'chu-de': 'luyen-tap', toi: 'toi', 'thong-ke': 'toi', 'cai-dat': 'toi', 'chu-am': 'chu-am',
   }[muc] ?? '';
   if (muc === 'trac-nghiem' && thamSo === 'bai') mucChon = 'bai'; // kiểm tra một bài = bước 3 của bài học
+  // Kiểm tra bài sách cũ (#/trac-nghiem/bai/<mã>) → kiểm tra chặng mới
+  if (muc === 'trac-nghiem' && thamSo === 'bai' && duong[2]) {
+    const bKt = timBaiTheoMa(maBaiTuDiaChi(duong[2]));
+    if (bKt?.sach) { location.replace(`#/kiem-tra/${bKt.ma}`); return; }
+  }
   // Bài theo chủ đề (không phải bài sách) nay là mục "Ôn theo chủ đề" của Luyện tập
   if (muc === 'bai' && thamSo) {
     const bChuDe = timBaiTheoMa(maBaiTuDiaChi(thamSo));
@@ -104,15 +114,17 @@ function veTheoDiaChi() {
     datTieuDe('Ôn từ vựng', '#/luyen-tap');
     donDep = vePhien(khung, 'on');
   } else if (muc === 'hoc-moi') {
-    // "Học tiếp" = cửa chưa xong đầu tiên: của chặng (thamSo) hoặc chặng đầu tiên còn cửa trong các cấp đã mở
-    let bai = thamSo ? timBaiTheoMa(maBaiTuDiaChi(thamSo)) : null;
-    let tiep = bai && bai.sach && capMo(bai.cap) ? cuaTiepTheo(bai) : null;
-    if (!tiep) {
-      bai = danhSachBai(cheDoBai()).find((x) => x.sach && x.tu.length && capMo(x.cap) && cuaTiepTheo(x)) || null;
-      tiep = bai ? cuaTiepTheo(bai) : null;
-    }
-    location.replace(tiep ? `#/cua/${bai.ma}/${tiep.phan}/${tiep.cua}` : '#/bai');
+    // "Học tiếp" = cửa chưa xong đầu tiên của chặng (thamSo) nếu chặng đó đang mở;
+    // không thì theo lộ trình: cửa chưa xong của chặng đang mở, hoặc kiểm tra chặng nếu đã xong từ (lo-trinh.js)
+    const bai = thamSo ? timBaiTheoMa(maBaiTuDiaChi(thamSo)) : null;
+    const tiep = bai && bai.sach && capMo(bai.cap) && changMo(bai) ? cuaTiepTheo(bai) : null;
+    location.replace(tiep ? `#/cua/${bai.ma}/${tiep.phan}/${tiep.cua}` : (viecTiepTheo()?.href || '#/bai'));
     return;
+  } else if (muc === 'kiem-tra' && thamSo) {
+    const nhay = thamSo === 'nhay';
+    const bai = timBaiTheoMa(maBaiTuDiaChi(nhay ? duong[2] : thamSo));
+    datTieuDe(bai ? `${nhay ? 'Nhảy tới' : 'Kiểm tra'} ${nhanBai(bai)}` : 'Kiểm tra', bai ? `#/bai/${bai.ma}` : '#/bai');
+    donDep = veKiemTra(khung, bai ? bai.ma : thamSo, nhay);
   } else if (muc === 'doc-hieu' && thamSo) {
     const bai = timBaiTheoMa(maBaiTuDiaChi(thamSo));
     datTieuDe('Đọc hiểu', bai ? `#/bai/${bai.ma}` : '#/bai');

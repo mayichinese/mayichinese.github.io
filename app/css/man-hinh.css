@@ -1197,3 +1197,57 @@ mark .tu-cham { color: inherit; font-weight: inherit; }
 .cham-buoc { display: flex; gap: 6px; }
 .cham-buoc span { width: 26px; height: 6px; border-radius: 3px; background: var(--vien-nhat); }
 .cham-buoc span.dang, .cham-buoc span.xong { background: var(--chinh-chu); }
+
+/* ==================== LỘ TRÌNH ĐƯỜNG ĐI (game hóa) ==================== */
+.duong-di { display: flex; flex-direction: column; align-items: center; gap: 22px; padding: 18px 0 34px; overflow-x: clip; }
+.nut-duong { display: flex; flex-direction: column; align-items: center; width: 190px; text-align: center; transform: translateX(var(--lech, 0)); }
+.tron-duong {
+  position: relative; width: 74px; height: 74px; border-radius: 50%;
+  display: grid; place-items: center; font-size: 1.45rem; font-weight: 700; line-height: 1; text-decoration: none;
+  border: var(--vien-rong) solid var(--vien-the); background: var(--be-mat-2); color: var(--chu);
+  box-shadow: 0 6px 0 var(--khoi); transition: transform .08s;
+}
+.tron-duong:active { transform: translateY(4px); box-shadow: 0 2px 0 var(--khoi); }
+.nut-duong.xong .tron-duong { background: var(--vang); color: #3a2200; }
+.nut-duong.do-dang .tron-duong { background: var(--vang-nhat); }
+.nut-duong.dang .tron-duong {
+  width: 88px; height: 88px; font-size: 1.7rem;
+  background: var(--chinh); color: var(--tren-chinh); border-color: var(--canh-chinh);
+  box-shadow: 0 6px 0 var(--canh-chinh), 0 0 0 8px var(--chinh-nhat); animation: nhip-duong 1.8s ease-in-out infinite;
+}
+.nut-duong.khoa .tron-duong { opacity: .55; filter: grayscale(.8); }
+.nut-duong.khoa .nhan-duong { opacity: .6; }
+.nhan-duong { margin-top: 10px; display: flex; flex-direction: column; gap: 2px; color: inherit; text-decoration: none; font-size: .9rem; line-height: 1.3; }
+.nhan-duong .so-bai { font-size: .75rem; }
+.sao-duong { font-size: .95rem; letter-spacing: 1px; }
+.sao-duong i { font-style: normal; color: var(--chu-phu); }
+.bong-noi {
+  margin-bottom: 10px; padding: 4px 12px; border-radius: 12px; font-weight: 800; font-size: .76rem; letter-spacing: .5px;
+  background: var(--be-mat); color: var(--chinh-chu); border: 2px solid var(--chinh-chu); box-shadow: 0 3px 0 var(--chinh-chu);
+}
+@keyframes nhip-duong { 50% { transform: scale(1.06); } }
+@media (prefers-reduced-motion: reduce) { .nut-duong.dang .tron-duong { animation: none; } }
+.ds-muc-luc { display: flex; flex-direction: column; gap: 4px; max-height: 65vh; overflow-y: auto; }
+.dong-muc-luc { display: flex; align-items: center; gap: 10px; padding: 10px 8px; border-radius: 12px; color: inherit; text-decoration: none; }
+.dong-muc-luc:hover { background: var(--be-mat-2); }
+.dong-muc-luc.dang { background: var(--chinh-nhat); }
+.dong-muc-luc .so { flex: none; width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 700; background: var(--be-mat-2); font-size: .85rem; }
+.dong-muc-luc .giua { flex: 1; min-width: 0; }
+.the-nhay { margin-top: 12px; padding: 14px; }
+.diem-kiem-tra { font-size: 1.05rem; margin: 0; }
+.diem-kiem-tra b { font-size: 1.5rem; }
+.sao-lon { font-size: 1.1rem; font-weight: 700; margin: 0; }
+
+/* Pháo hoa khi qua kiểm tra / xong phần */
+.ket-thuc { position: relative; }
+.phao-hoa { position: absolute; inset: 0 0 auto 0; height: 0; pointer-events: none; }
+.phao-hoa span {
+  position: absolute; left: 50%; top: 40px; font-size: 1.4rem; opacity: 0;
+  animation: phao-hoa 1.4s ease-out forwards; animation-delay: calc(var(--i) * 60ms);
+  --goc: calc(var(--i) * 45deg);
+}
+@keyframes phao-hoa {
+  0% { opacity: 1; transform: translate(-50%, 0) rotate(var(--goc)) translateY(0) scale(.6); }
+  100% { opacity: 0; transform: translate(-50%, 0) rotate(var(--goc)) translateY(-120px) scale(1.1); }
+}
+@media (prefers-reduced-motion: reduce) { .phao-hoa { display: none; } }

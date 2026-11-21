@@ -138,6 +138,15 @@
 - Giai đoạn 5.1: `js/man-thong-ke.js` (chỉ đọc tiến độ; biểu đồ SVG tự vẽ, màu `--bd-1…5` đã kiểm tra mù màu).
 - `CHAY-APP.bat` – chạy app trên máy (máy chủ nhỏ ở localhost). `HUONG-DAN.md` – hướng dẫn người dùng.
 
+## Game hóa lộ trình (2026-11-21, theo đánh giá tester `tai-lieu/danh-gia-tester-2026-11-21.md`)
+- `js/lo-trinh.js`: chặng mở theo thứ tự – chặng đầu của cấp đã mở; chặng sau mở khi chặng trước QUA KIỂM TRA (≥ 80%);
+  chặng đã có tiến độ không bị khóa lại. Sao: ⭐ qua KT · ⭐⭐ + ngữ pháp & đọc hiểu xong · ⭐⭐⭐ + KT 100%.
+  `viecTiepTheo()` = cửa chưa xong của chặng đang mở, hoặc kiểm tra nếu đã xong từ (dùng cho #/hoc-moi và nút Tiếp tục).
+- `js/man-kiem-tra.js`: `#/kiem-tra/<mã>` (15 câu: từ + ≤ 4 câu điền từ ngữ pháp) và `#/kiem-tra/nhay/<mã>` (nhảy chặng: hỏi các
+  chặng bị bỏ qua). Kết quả `tienDo.kiemTraChang[mã] = {tot, lan, luc, dat, nhay}`. `#/trac-nghiem/bai/<mã sách>` chuyển sang đây.
+- Lộ trình `#/bai` là đường đi uốn lượn (nút tròn, tự cuộn tới chặng đang học, ☰ Mục lục). Cửa đúng < 60% (TI_LE_QUA_CUA,
+  không tính phần Nói) thì chưa qua – vẫn ghi `tienDo.cua[k]` (mảng có thể rỗng) để luật tiến độ cũ không tự tính là xong.
+
 ## Soát chuyên môn 2026-11-21 (tai-lieu/Mayi Chinese – Các điểm cần chuyên gia xác nhận.md) – ĐÃ ÁP DỤNG, giữ nguyên khi soạn mới
 - PINYIN CÂU (`cong-cu/quy-tac-pinyin.txt` + `python -X utf8 cong-cu/chuan-hoa-pinyin.py [--sua]`, chạy sau khi soạn câu mới, rồi ghép lại dữ liệu):
   bổ ngữ xu hướng kép sau động từ ghi 来/去 thanh nhẹ, viết rời khỏi động từ (kàn qǐlai); làm động từ chính giữ thanh gốc (huílái);

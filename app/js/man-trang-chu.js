@@ -16,6 +16,7 @@ import { tinhTrangPhatAm } from './phat-am.js';
 import { demHomNay, baiDangHoc, tuChuaHoc } from './phien-hoc.js';
 import { nhiemVuHomNay, nhiemVuThang, gioConLai } from './nhiem-vu.js';
 import { layCapVuaMo } from './cap-do.js';
+import { viecTiepTheo } from './lo-trinh.js';
 import { esc, thongBao, duKienHsk3, moTaThoiGian } from './giao-dien.js';
 import { bieuTuong } from './bieu-tuong.js';
 
@@ -144,10 +145,12 @@ export function veTrangChu(khung) {
   // Nút "Tiếp tục": thẻ đến hạn → từ mới → nhiệm vụ chưa xong → ôn luyện
   const onXong = dem.onDenHan === 0 && dem.dangHocDenHan === 0;
   const nvChuaXong = nhiemVu.find((x) => !x.xong && x.href);
+  const viec = viecTiepTheo();
   let tiepTuc;
   if (!daHoc && onXong) tiepTuc = { chu: 'Bắt đầu học', href: '#/hoc-moi', batDau: true };
   else if (!onXong) tiepTuc = { chu: `Ôn ${dem.onDenHan + dem.dangHocDenHan} thẻ từ`, href: '#/on' };
-  else if (dem.conTuMoi && bai) tiepTuc = { chu: `Học tiếp · ${nhanBai(bai)}`, href: '#/hoc-moi' };
+  else if (viec?.kiemTra) tiepTuc = { chu: `Kiểm tra ${nhanBai(viec.b)} để mở chặng sau`, href: viec.href };
+  else if (dem.conTuMoi && viec) tiepTuc = { chu: `Học tiếp · ${nhanBai(viec.b)}`, href: viec.href };
   else if (nvChuaXong) tiepTuc = { chu: nvChuaXong.ten, href: nvChuaXong.href };
   else tiepTuc = { chu: 'Luyện thêm', href: '#/luyen-tap' };
 
