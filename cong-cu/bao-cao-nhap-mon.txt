@@ -1,23 +1,42 @@
-Nhập môn: 6 chặng · 17 phần · 49 cửa
+Nhập môn: 7 chặng · 21 phần · 63 cửa
 LỖI: 0
-Cặp âm tiết dễ nhầm:
-  cặp 2/3: qíng/qǐng, shí/shǐ, yóu/yǒu, yé/yě, xué/xuě, xié/xiě, wán/wǎn, zuó/zuǒ
-  cặp 1/4: shī/shì, jiāo/jiào, yī/yì, wū/wù, bā/bà, suī/suì, shū/shù, xiē/xiè
-  cặp 3/4: shǐ/shì, jiǎo/jiào, wǔ/wù, jiǔ/jiù, liǎng/liàng, yǒu/yòu, xiǎo/xiào, yě/yè
-  cặp 1/2: qīng/qíng, shī/shí, yī/yí, qiān/qián, xiē/xié, tiān/tián, chī/chí, chuān/chuán
-  cặp b/p: bà/pà, bā/pá, bàn/pán, bìng/píng, bǐ/pí, bān/pán, bīng/píng, bà/pá
-  cặp d/t: dài/tài, duì/tuǐ, dì/tī, diǎn/tiān, diàn/tiān, děng/téng, dēng/téng, dìng/tǐng
-  cặp n/l: nǐ/lǐ, nín/lín, nán/lán, nǚ/lǚ, nǎo/lǎo
-  cặp g/k: gè/kè, gǒu/kǒu, gāi/kāi, gù/kù, guài/kuài
-  cặp k/h: kuài/huài, kū/hū, kù/hù, kǒu/hòu, kè/hé, kāi/hǎi, kě/hé, kū/hù
+Cặp âm tiết dễ nhầm / số âm tiết nghe:
+  ⚠️ dòng 31: o không có ví dụ gồm âm đã học (thẻ chỉ hiện mẹo)
+  cặp b/p: bà/pà, bā/pá, bǐ/pí, bà/pá, bì/pí
+  nghe van a e i u ü: 22 âm tiết
+  cặp 1/4: yī/yì, wū/wù, bā/bà
+  cặp 3/4: wǔ/wù, bǐ/bì
+  nghe thanh 1 2 3 4: 22 âm tiết
+  cặp n/l: nǐ/lǐ, nǚ/lǚ, nǐ/lì, nǔ/lù
+  nghe am-dau b p m f d t n l: 29 âm tiết
+  cặp d/t: dài/tài, dì/tī
+  cặp g/k: gè/kè, gǒu/kǒu, gāi/kāi, gù/kù
+  cặp k/h: kū/hū, kù/hù, kǒu/hòu, kè/hé, kāi/hǎi, kě/hé, kū/hù, kù/hū
+  nghe am-dau d t n l g k h: 43 âm tiết
+  nghe van ai ei ao ou: 34 âm tiết
+  cặp 1/2: yī/yí, māo/máo, tī/tí, tū/tú
+  cặp an/ang: fàn/fàng, bān/bāng, bàn/bāng, màn/máng, mǎn/máng, bǎn/bāng
+  cặp eng/ong: děng/dǒng, dēng/dōng, děng/dòng, dēng/dǒng
+  nghe van an en ang eng ong: 32 âm tiết
+  cặp j/q: jī/qī, jù/qù, jiān/qiān, jiǔ/qiú, jiàn/qiān, jiù/qiú, jī/qǐ, jì/qī
+  cặp q/x: qī/xī, qiān/xiān, qǐ/xǐ, qīng/xīng
+  nghe am-dau j q x: 50 âm tiết
+  cặp in/ing: xīn/xīng, jìn/jìng, xìn/xìng, bīn/bīng, lín/líng
+  cặp ian/iang: xiān/xiāng, liàn/liàng, liǎn/liǎng, xiàn/xiàng, yán/yáng, jiǎn/jiǎng
+  nghe van ia ie iao iu ian in iang ing: 83 âm tiết
+  cặp ü/u: nǚ/nǔ, lǚ/lù
+  nghe van ü üe üan ün: 15 âm tiết
+  cặp 2/3: qíng/qǐng, yóu/yǒu, yé/yě, xué/xuě, xié/xiě, xí/xǐ, hái/hǎi, yáng/yǎng
+  cặp z/c: zì/cì, zài/cài, zǎo/cǎo, zì/cí, zài/cái, zǒng/cóng
+  cặp j/z: jì/zì, jī/zì, jí/zì
+  cặp q/c: qī/cì, qǐ/cì
+  cặp x/s: xǐ/sì, xī/sì, xí/sì
+  nghe am-dau z c s j q x: 76 âm tiết
+  nghe van ua uo uai ui uan un uang: 45 âm tiết
   cặp zh/ch: zhàng/chàng, zhí/chí, zhēn/chèn, zhù/chū, zhāng/chàng, zhǐ/chī, zhàng/cháng, zhí/chī
   cặp sh/r: shì/rì, shàng/ràng, shòu/ròu, shí/rì, shū/rú, shǒu/ròu, shān/rán, shù/rú
+  nghe am-dau zh ch sh r: 53 âm tiết
   cặp z/zh: zǎo/zhǎo, zì/zhǐ, zǎo/zhào, zuò/zhuō, zǒu/zhōu, zuǒ/zhuō, zǒng/zhōng, zuó/zhuō
   cặp c/ch: cí/chí, céng/chéng, cì/chī, cí/chī
   cặp s/sh: sān/shān, sì/shì, suì/shuì, sù/shù
-  cặp j/q: jī/qī, jù/qù, jiān/qiān, jiǔ/qiú, jiàn/qiān, jiù/qiú, jī/qǐ, jì/qī
-  cặp q/x: qī/xī, qiān/xiān, qǐ/xǐ, qīng/xīng
-  cặp j/zh: jí/zhí, jī/zhǐ, jì/zhǐ, jí/zhǐ
-  cặp an/ang: fàn/fàng, zhàn/zhàng, bān/bāng, shān/shāng
-  cặp in/ing: xīn/xīng, jìn/jìng, xìn/xìng, bīn/bīng, lín/líng
-  cặp ü/u: nǚ/nǔ, lǚ/lù
+  nghe am-dau z c s zh ch sh: 75 âm tiết

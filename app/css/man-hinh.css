@@ -1139,10 +1139,11 @@ mark .tu-cham { color: inherit; font-weight: inherit; }
 
 /* Vùng trả lời cao (4 đáp án dài + phản hồi) mà vẫn ghim đáy thì bị đẩy lên ĐÈ thẻ câu hỏi (lỗi trên điện thoại)
    → khi có lưới đáp án / phản hồi thì để chảy bình thường, chỉ ghim nút Tiếp tục. */
-.vung-tra-loi:has(.luoi-lua-chon), .vung-tra-loi:has(.phan-hoi), .vung-tra-loi:has(.luoi-ghep) {
+/* Khung đọc theo (nút micro + điểm + chữ máy nghe được) cũng cao → chảy bình thường, không đè chữ/pinyin (lỗi 2026-11-23) */
+.vung-tra-loi:has(.luoi-lua-chon), .vung-tra-loi:has(.phan-hoi), .vung-tra-loi:has(.luoi-ghep), .vung-tra-loi:has(.khung-noi) {
   position: static; background: none;
 }
-.vung-tra-loi:has(.luoi-lua-chon) #nut-tiep, .vung-tra-loi:has(.phan-hoi) #nut-tiep {
+.vung-tra-loi:has(.luoi-lua-chon) #nut-tiep, .vung-tra-loi:has(.phan-hoi) #nut-tiep, .vung-tra-loi:has(.khung-noi) #nut-tiep {
   position: sticky; bottom: calc(10px + env(safe-area-inset-bottom)); z-index: 2;
 }
 

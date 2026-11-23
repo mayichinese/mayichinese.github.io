@@ -3,6 +3,12 @@
 # Script kiểm tra mọi mã (thanh, âm đầu, vần, lưu ý, nét, quy tắc, bộ thủ) có trong app/data/nen-tang.json,
 # chữ tô có dữ liệu nét, từ có trong HSK 1–3; tìm sẵn cặp âm tiết cho cửa "cap".
 #
+# NGUYÊN TẮC "CHỈ DÙNG ÂM ĐÃ HỌC" (sửa 2026-11-23, tham khảo trình tự bài phát âm của giáo trình HSK 2.0:
+#   thanh + vận mẫu đơn + âm môi → đầu lưỡi, cuống lưỡi, vận mẫu kép → vận mẫu mũi → j q x + vận mẫu i/ü
+#   → z c s + vận mẫu u, er → zh ch sh r):
+#   âm đã học = mọi mục "hoc" (thanh / am-dau / van) từ đầu tới HẾT PHẦN đang soạn (y, w, không âm đầu luôn được dùng).
+#   Âm nghe, cặp dễ nhầm, ví dụ trên thẻ học chỉ lấy âm tiết gồm âm đã học; từ ở cửa tu / noi có âm chưa học → BÁO LỖI.
+#
 # Định dạng:
 #   ## <số> | <tên chặng> | <mô tả ngắn>
 #   ### <tên phần>
@@ -17,74 +23,94 @@
 # Nhóm: thanh (1 2 3 4, 0 = thanh nhẹ) · am-dau · van · luu-y (số thứ tự 1, 2…) · net (tên Hán) · quy-tac (số thứ tự)
 #       · bo (bộ thủ) · chu (chữ Hán để tô) · tu (từ HSK)
 
-## 1 | Thanh điệu | Bốn thanh và thanh nhẹ – đọc sai thanh là sai nghĩa
+## 1 | Thanh điệu và vận mẫu đơn | Bốn thanh · a o e i u ü · âm môi b p m f
 ### Bốn thanh
 hoc | thanh | 1 2 3 4
 hoc | luu-y | 1
-nghe | thanh | 1 2 3 4
-### Cặp thanh dễ nhầm và thanh nhẹ
-cap | thanh | 2/3 1/4 3/4 1/2
-hoc | thanh | 0
-nghe | thanh | 1 2 3 4
-### Nghe cả từ
-tu | tu | 中国 老师 学生 朋友 谢谢 再见 米饭 电视
-noi | tu | 中国 老师 再见 谢谢
-
-## 2 | Thanh mẫu dễ và vận mẫu đơn | Những âm gần tiếng Việt – và vài bẫy nhỏ
-### Âm môi và âm đầu lưỡi
-hoc | am-dau | b p m f d t n l
-nghe | am-dau | b p m f d t n l
-cap | am-dau | b/p d/t n/l
-### Âm cuống lưỡi và vận mẫu đơn
-hoc | am-dau | g k h
+### Vận mẫu đơn và âm môi
 hoc | van | a o e i u ü
-cap | am-dau | g/k k/h
+hoc | am-dau | b p m f y w
+cap | am-dau | b/p
 nghe | van | a e i u ü
-### Luyện tổng hợp
-hoc | luu-y | 4
-nghe | am-dau | b p m f d t n l g k h
-noi | tu | 爸爸 妈妈 哥哥 弟弟
+### Luyện bốn thanh
+cap | thanh | 1/4 3/4
+nghe | thanh | 1 2 3 4
+tu | tu | 一 五 八 不 雨 米 笔 马
+noi | tu | 一 五 八 马
 
-## 3 | Thanh mẫu khó với người Việt | zh ch sh r · z c s · j q x
+## 2 | Thanh mẫu d t n l g k h · vận mẫu kép | ai ei ao ou · thanh nhẹ · hai thanh 3 liền nhau
+### Âm đầu lưỡi
+hoc | am-dau | d t n l
+cap | am-dau | n/l
+nghe | am-dau | b p m f d t n l
+### Âm cuống lưỡi và vận mẫu kép
+hoc | am-dau | g k h
+hoc | van | ai ei ao ou
+cap | am-dau | d/t g/k k/h
+nghe | am-dau | d t n l g k h
+nghe | van | ai ei ao ou
+### Thanh nhẹ và từ đầu tiên
+hoc | thanh | 0
+hoc | luu-y | 3 4
+cap | thanh | 1/2
+tu | tu | 你好 爸爸 妈妈 哥哥 弟弟 妹妹 可以 口
+noi | tu | 你好 爸爸 妈妈 哥哥
+
+## 3 | Vận mẫu mũi | an en ang eng ong – phân biệt -n và -ng
+### Vận mẫu mũi -n và -ng
+hoc | van | an en ang eng ong
+hoc | luu-y | 5
+cap | van | an/ang eng/ong
+nghe | van | an en ang eng ong
+### Đọc từ có vận mẫu mũi
+tu | tu | 汉语 米饭 好看 他们 很 忙 冷 能
+noi | tu | 汉语 米饭 好看 他们
+
+## 4 | Âm mặt lưỡi j q x · vận mẫu có i, ü | ia ie iao iu ian in iang ing iong · üe üan ün · biến điệu 不 一
+### Âm mặt lưỡi j q x
+hoc | am-dau | j q x
+hoc | van | ia ie iao iu ian in iang ing iong
+cap | am-dau | j/q q/x
+nghe | am-dau | j q x
+### Vận mẫu có i đứng đầu
+cap | van | in/ing ian/iang
+nghe | van | ia ie iao iu ian in iang ing
+### Vận mẫu có ü
+hoc | van | ü üe üan ün
+cap | van | ü/u
+nghe | van | ü üe üan ün
+### Biến điệu 不 và 一
+hoc | luu-y | 2
+cap | thanh | 2/3
+tu | tu | 谢谢 朋友 学习 今天 明天 不客气 一下 一起
+noi | tu | 谢谢 朋友 不客气 一下
+
+## 5 | Thanh mẫu z c s · vận mẫu có u | ua uo uai ui uan un uang · er
+### Âm đầu lưỡi trước z c s
+hoc | am-dau | z c s
+cap | am-dau | z/c j/z q/c x/s
+nghe | am-dau | z c s j q x
+### Vận mẫu có u đứng đầu và er
+hoc | van | ua uo uai ui uan un uang er
+nghe | van | ua uo uai ui uan un uang
+### Luyện từ
+tu | tu | 再见 对不起 我们 名字 喜欢 苹果 现在 怎么
+noi | tu | 再见 对不起 我们 喜欢
+
+## 6 | Thanh mẫu uốn lưỡi zh ch sh r | Âm khó nhất với người Việt – học xong là đọc được mọi từ
 ### Âm uốn lưỡi
 hoc | am-dau | zh ch sh r
-nghe | am-dau | zh ch sh r
 cap | am-dau | zh/ch sh/r
-### Âm đầu lưỡi trước
-hoc | am-dau | z c s
+nghe | am-dau | zh ch sh r
+### Phân biệt z c s và zh ch sh
 cap | am-dau | z/zh c/ch s/sh
 nghe | am-dau | z c s zh ch sh
-### Âm mặt lưỡi
-hoc | am-dau | j q x
-cap | am-dau | j/q q/x j/zh
-nghe | am-dau | j q x
-noi | tu | 吃 是 去 喜欢
-
-## 4 | Vận mẫu kép và vận mẫu mũi | ai ei ao ou · -n và -ng · ü
-### Vận mẫu kép
-hoc | van | ai ei ao ou ia ie ua uo
-nghe | van | ai ei ao ou ia ie ua uo
-### Vận mẫu mũi -n và -ng
-hoc | luu-y | 5
-hoc | van | an ang en eng in ing ong
-cap | van | an/ang in/ing
-nghe | van | an ang en eng in ing ong
-### Vận mẫu có ü và vận mẫu viết gọn
-hoc | van | ü üe üan ün iu ui un
-cap | van | ü/u
-nghe | van | iu ui un üe üan
-
-## 5 | Đọc cả từ | Biến điệu, thanh nhẹ, âm cuốn lưỡi
-### Biến điệu 不 và 一, hai thanh 3
-hoc | luu-y | 2 3
-tu | tu | 不错 不用 一下 一起 一样 你好 可以 水果
-noi | tu | 不错 一下 你好 不客气
-### Thanh nhẹ và âm cuốn lưỡi
+### Thanh nhẹ đổi nghĩa và âm cuốn lưỡi 儿
 hoc | luu-y | 6 7
-tu | tu | 哪儿 一点儿 东西 朋友 妈妈 名字 谢谢 喜欢
-noi | tu | 哪儿 朋友 东西
+tu | tu | 中国 老师 学生 知道 水果 什么 哪儿 一点儿
+noi | tu | 中国 老师 学生 哪儿
 
-## 6 | Chữ Hán: nét và bộ thủ | Viết đúng nét, nhận ra bộ thủ
+## 7 | Chữ Hán: nét và bộ thủ | Viết đúng nét, nhận ra bộ thủ
 ### Nét cơ bản
 hoc | net | 横 竖 撇 点 捺 提
 to | chu | 一 二 三 十 人 八

@@ -1,13 +1,15 @@
 // =========================================================
-// NHẬP MÔN (trước HSK 1) – 6 chặng phiên âm, thanh điệu, đọc cả từ, nét và bộ thủ (đánh giá tester 2026-11-21)
+// NHẬP MÔN (trước HSK 1) – 7 chặng: phiên âm theo từng nhóm âm (chỉ dùng âm đã học), rồi nét và bộ thủ
+//   (đánh giá tester 2026-11-21; sắp lại thứ tự 2026-11-23 – nghe, cặp dễ nhầm, ví dụ, từ chỉ gồm âm đã học)
 //   Dữ liệu: data/nhap-mon.json (cong-cu/tao-nhap-mon.py) + data/nen-tang.json (mẹo, ví dụ nghe, nét, bộ thủ).
 //   #/nhap-mon                    → lộ trình Nhập môn (chip "Nhập môn" ở Bài học)
 //   #/nhap-mon/<chặng>            → trang chặng: các phần, mỗi phần một hàng cửa
 //   #/nhap-mon/<chặng>/<phần>/<cửa> → làm một cửa: 📖 học · 🎧 nghe · ⚖️ cặp dễ nhầm · 🎵 nghe từ · 🎤 đọc · ✍️ tô · 🧱 bộ thủ
 //   #/nhap-mon/tiep               → cửa chưa xong đầu tiên       #/nhap-mon/bo-qua → kiểm tra 15 câu để bỏ qua
 // Tiến độ: tienDo.nhapMon = { cua: { "<chặng>/<phần>": [số cửa xong] }, boQuaCua: { "<chặng>/<phần>": [cửa tạm bỏ qua] }, xong, boQua }.
+//   tienDo.nhapMon.pb = phiên bản cấu trúc (nhap-mon.json phienBan); khác thì chuyenTienDoNM() đổi cửa đã xong theo nội dung.
 // Cửa tạm bỏ qua (máy không có giọng đọc) cho đi tiếp nhưng KHÔNG tính là xong (hiện ⏭); có giọng rồi thì trang Hôm nay nhắc làm lại.
-// Xong cả 6 chặng (hoặc qua kiểm tra bỏ qua) → mở Chặng 1 của HSK 1 (lo-trinh.js nhapMonXong).
+// Xong cả 7 chặng (hoặc qua kiểm tra bỏ qua) → mở Chặng 1 của HSK 1 (lo-trinh.js nhapMonXong).
 // =========================================================
 
 import { layTienDo, luu, ghiLuot } from './luu-tru.js';
@@ -35,7 +37,7 @@ export function taiNhapMon() {
   if (!hen) {
     const json = (f) => fetch(f).then((r) => { if (!r.ok) throw new Error(`Không tìm thấy ${f}`); return r.json(); });
     hen = Promise.all([json('data/nhap-mon.json'), json('data/nen-tang.json')])
-      .then(([nm, nt]) => ({ nm, nt })).catch((e) => { hen = null; throw e; });
+      .then(([nm, nt]) => { chuyenTienDoNM(nm); return { nm, nt }; }).catch((e) => { hen = null; throw e; });
   }
   return hen;
 }
@@ -47,6 +49,49 @@ const tienDoNM = () => {
   td.nhapMon.boQuaCua = td.nhapMon.boQuaCua || {};
   return td.nhapMon;
 };
+
+/**
+ * Đổi cấu trúc Nhập môn (thêm / sắp lại chặng) → giữ tiến độ theo NỘI DUNG: cửa mới tính là xong khi mọi mục của nó
+ * (cùng loại cửa, cùng nhóm) đã nằm trong một cửa cũ đã xong. Cấu trúc cũ ghi ở nm.cu.
+ */
+function chuyenTienDoNM(nm) {
+  const td = layTienDo();
+  const t = td.nhapMon;
+  const pb = nm.phienBan || 1;
+  if (!t) return;
+  if ((t.pb || 1) === pb) return;
+  const coCu = Object.keys(t.cua || {}).length || Object.keys(t.boQuaCua || {}).length;
+  if (coCu && nm.cu && (t.pb || 1) < pb) {
+    const gom = (ds) => {
+      const da = new Set();
+      for (const [k, cacCua] of Object.entries(ds || {})) {
+        for (const i of cacCua) {
+          const x = nm.cu[k]?.[i];
+          if (x) x[2].forEach((m) => da.add(`${x[0]}|${x[1]}|${m}`));
+        }
+      }
+      return da;
+    };
+    const xong = gom(t.cua);
+    const boQua = gom(t.boQuaCua);
+    const cua = {};
+    const boQuaCua = {};
+    for (const c of nm.chang) {
+      c.phan.forEach((p, ip) => {
+        p.cua.forEach((x, ic) => {
+          const k = `${c.so}/${ip}`;
+          const muc = x.muc.map((m) => `${x.loai}|${x.nhom}|${m}`);
+          if (muc.every((m) => xong.has(m))) (cua[k] = cua[k] || []).push(ic);
+          else if (muc.every((m) => xong.has(m) || boQua.has(m))) (boQuaCua[k] = boQuaCua[k] || []).push(ic);
+        });
+      });
+    }
+    t.cua = cua;
+    t.boQuaCua = boQuaCua;
+  }
+  t.pb = pb;
+  luu();
+}
 
 /** Trạng thái: [{ c, so, xong, mo, phan: [{ p, so, xong, mo, cua: [{ cua, so, xong, mo }] }] }] */
 export function trangThaiNhapMon(nm) {
@@ -70,7 +115,8 @@ export function trangThaiNhapMon(nm) {
       phanTruocXong = r.xong;
       return r;
     });
-    const r = { c, so: c.so, phan, xong: phan.every((x) => x.xong), mo: changTruocXong || !!t.boQua };
+    // Đã xong / đã bỏ qua Nhập môn (kể cả trước khi thêm chặng mới) → mọi chặng đều mở để ôn lại
+    const r = { c, so: c.so, phan, xong: phan.every((x) => x.xong), mo: changTruocXong || !!t.boQua || !!t.xong };
     changTruocXong = r.xong;
     return r;
   });
@@ -161,8 +207,10 @@ export function veChangNhapMon(khung, so) {
 const giongOk = () => !['khong-ho-tro', 'khong-co-giong'].includes(tinhTrangPhatAm());
 
 /** Câu nghe một âm tiết: phát chữ, chọn pinyin */
-function cauNghe(nt, nhom, muc, soCau = 8) {
-  const nh = nt.phienAm.nganHang;
+function cauNghe(nt, nhom, muc, soCau = 8, daHoc = null) {
+  // Chỉ hỏi (và lấy đáp án nhiễu) trong các âm tiết gồm âm đã học – y, w, không âm đầu luôn dùng được
+  const nh = nt.phienAm.nganHang.filter((x) => !daHoc
+    || ((daHoc.d.includes(x.d) || ['y', 'w', ''].includes(x.d)) && daHoc.v.includes(x.v)));
   const k = { thanh: 't', 'am-dau': 'd', van: 'v' }[nhom];
   const nguon = tron(nh.filter((x) => muc.includes(String(x[k]))));
   return nguon.slice(0, soCau).map((x) => {
@@ -194,7 +242,8 @@ function taoMuc(cua, nt, net) {
       }
       if (nhom === 'am-dau' || nhom === 'van') {
         const x = (nhom === 'am-dau' ? pa.amDau : pa.van).find((y) => y.ma === m);
-        const vd = [...(x.vdTu || []), ...(x.vd || []).slice(0, 4)];
+        // Ví dụ chỉ gồm âm đã học (tao-nhap-mon.py ghi sẵn ở cua.vd); dữ liệu cũ thì lấy ví dụ của Chữ & âm
+        const vd = cua.vd ? cua.vd[m] || [] : [...(x.vdTu || []), ...(x.vd || []).slice(0, 4)];
         return { loai: 'the', html: `<p class="ma-am pinyin">${esc(m)}</p><h3>${nhom === 'am-dau' ? 'Thanh mẫu' : 'Vận mẫu'}${x.nhom ? ` · ${esc(x.nhom)}` : ''}</h3>
           <p class="meo-doc">💡 ${esc(x.meo)}</p>
           <div class="luoi-vd-am">${vd.map((v) => `<button class="o-vd-am" data-doc="${esc(v.h)}"><span class="han">${esc(v.h)}</span><span class="pinyin">${toMauPinyin(v.p)}</span></button>`).join('')}</div>`,
@@ -221,7 +270,7 @@ function taoMuc(cua, nt, net) {
         <div class="luoi-vd-am">${b.vd.slice(0, 4).map((v) => `<button class="o-vd-am" data-doc="${esc(v.c)}"><span class="han">${esc(v.c)}</span><span class="chu-phu nho">${esc(v.tu)}</span></button>`).join('')}</div>` };
     });
   }
-  if (loai === 'nghe') return cauNghe(nt, nhom, muc);
+  if (loai === 'nghe') return cauNghe(nt, nhom, muc, 8, cua.daHoc);
   if (loai === 'cap') {
     const ds = [];
     for (const c of cua.capAm) for (const cap of c.cap.slice(0, 3)) {

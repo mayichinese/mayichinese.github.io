@@ -151,7 +151,11 @@
   ✍️ viết chữ không nét mờ (từ một chữ). `the.saiNgay` = ngày sai gần nhất (ở cửa hoặc khi ôn) → hôm đó không được chấm "Dễ".
   Cửa Đọc: đáp án nhiễu ưu tiên câu cùng từ → cùng phần → cùng chặng. Không có giọng đọc: câu 2 của cửa từ hỏi pinyin.
 - NHẬP MÔN (cấp 0, chip đầu ở Bài học): `js/man-nhap-mon.js`, dữ liệu `cong-cu/nguon-nhap-mon/nhap-mon.txt` →
-  `python -X utf8 cong-cu/tao-nhap-mon.py` → `data/nhap-mon.json` (6 chặng, cửa: hoc/nghe/cap/tu/noi/to/bo; dùng nen-tang.json).
+  `python -X utf8 cong-cu/tao-nhap-mon.py` → `data/nhap-mon.json` (7 chặng, cửa: hoc/nghe/cap/tu/noi/to/bo; dùng nen-tang.json).
+  THỨ TỰ (2026-11-23, tham khảo slide HSK 2.0 `tai-lieu/hsk1_2.0/` – gitignore): thanh + vận mẫu đơn + b p m f → d t n l g k h + ai ei ao ou + thanh nhẹ
+  → vận mẫu mũi → j q x + vận mẫu i/ü + biến điệu → z c s + vận mẫu u/er → zh ch sh r → chữ Hán. CHỈ DÙNG ÂM ĐÃ HỌC (tới hết phần):
+  script lọc âm nghe (`daHoc`), cặp dễ nhầm, ví dụ thẻ học (`vd`) và BÁO LỖI từ tu/noi có âm chưa học. Đổi cấu trúc → tăng PHIEN_BAN
+  trong script + lưu bản cũ `nhap-mon-cu-N.json`; app (chuyenTienDoNM) chuyển cửa đã xong theo nội dung, `tienDo.nhapMon.pb`.
   Tiến độ `tienDo.nhapMon = {cua, xong, boQua}`. HSK 1 · Chặng 1 mở khi `nhapMonXong()` (xong / qua kiểm tra bỏ qua 15 câu ≥ 80% /
   đã có tiến độ HSK 1). Địa chỉ: `#/nhap-mon[/<chặng>[/<phần>/<cửa>]]`, `#/nhap-mon/tiep`, `#/nhap-mon/bo-qua`.
 
