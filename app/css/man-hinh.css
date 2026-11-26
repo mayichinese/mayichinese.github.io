@@ -670,6 +670,12 @@ input[type=range] { accent-color: var(--chinh); }
 .khung-cai-dat .nhom-chon { margin: 12px 0; }
 .chan-trang { text-align: center; margin-top: 28px; }
 .chan-trang img { width: 56px; height: 56px; border-radius: 16px; }
+/* Logo công ty phát triển (Siten): hai bản theo giao diện sáng/tối */
+.chan-trang .logo-cong-ty { display: inline-block; }
+.chan-trang .logo-cong-ty img { width: auto; height: 40px; border-radius: 0; }
+.chan-trang .logo-toi { display: none; }
+html[data-giao-dien="toi"] .chan-trang .logo-toi { display: inline; }
+html[data-giao-dien="toi"] .chan-trang .logo-sang { display: none; }
 
 /* =========================================================
    SẮP XẾP LẠI KIỂU DUOLINGO: Hôm nay · Bài học (lộ trình) · Ôn luyện · Tôi

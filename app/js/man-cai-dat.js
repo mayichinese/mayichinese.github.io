@@ -103,7 +103,11 @@ export async function veCaiDat(khung) {
     </div>
 
     <div class="chan-trang">
-      <img src="icons/icon-192.png" alt="" width="56" height="56">
+      <a href="https://siten.vn/vi/siten" target="_blank" rel="noopener" class="logo-cong-ty" aria-label="Siten JSC.">
+        <!-- Logo gốc chữ trắng (nền tối); bản -sang chữ xám đậm (nền sáng). CSS chọn theo html[data-giao-dien] -->
+        <img class="logo-toi" src="icons/logo-siten.svg" alt="Siten JSC." width="113" height="40">
+        <img class="logo-sang" src="icons/logo-siten-sang.svg" alt="Siten JSC." width="113" height="40">
+      </a>
       <p class="chu-phu nho">Mayi Chinese · Phát triển bởi
         <a href="https://siten.vn/vi/siten" target="_blank" rel="noopener">Công Ty Cổ Phần Phần Mềm Siten (Siten JSC.)</a></p>
     </div>`;

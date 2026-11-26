@@ -12,7 +12,7 @@
 // =========================================================
 
 // Tên bộ nhớ đệm (chỉ chứa file của app, KHÔNG chứa tiến độ học – tiến độ nằm ở localStorage)
-const PHIEN_BAN = 'mayi-v54';
+const PHIEN_BAN = 'mayi-v55';
 const BO_NHO_PHONG = 'mayi-phong-chu-v1';  // phông chữ – giữ qua các phiên bản
 const TAP_TIN = [
   './',
@@ -83,6 +83,8 @@ const TAP_TIN = [
   './icons/favicon-32.png',
   './icons/icon-180.png',
   './icons/icon-192.png',
+  './icons/logo-siten.svg',
+  './icons/logo-siten-sang.svg',
   './icons/icon-512.png',
   './icons/icon-maskable-192.png',
   './icons/icon-maskable-512.png',

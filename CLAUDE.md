@@ -9,6 +9,8 @@
     vừa vùng an toàn của icon maskable. Ở cỡ nhỏ không đọc được chữ nên không đưa chữ vào icon.
   - Trang chủ KHÔNG hiện logo lớn (người dùng đã bỏ). Logo nhỏ chú kiến ở thanh trên cùng / cột trái.
 - Màu thương hiệu lấy từ logo: đỏ nền, cam/vàng vòng tròn, vàng chữ.
+- Công ty phát triển: Công Ty Cổ Phần Phần Mềm Siten (Siten JSC., https://siten.vn/vi/siten) – logo + dòng chữ ở chân trang Cài đặt.
+  `icons/logo-siten.svg` (bản gốc tải từ siten.vn, chữ trắng – giao diện tối), `icons/logo-siten-sang.svg` (chữ #2B2B2B – giao diện sáng).
 - **Không đổi khóa localStorage `hoc-hsk-tien-do`** trong `app/js/luu-tru.js` khi đổi tên,
   nếu không sẽ mất tiến độ đã học.
 
