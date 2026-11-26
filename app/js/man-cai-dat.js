@@ -104,7 +104,8 @@ export async function veCaiDat(khung) {
 
     <div class="chan-trang">
       <img src="icons/icon-192.png" alt="" width="56" height="56">
-      <p class="chu-phu nho">Mayi Chinese · Giai đoạn 5</p>
+      <p class="chu-phu nho">Mayi Chinese · Phát triển bởi
+        <a href="https://siten.vn/vi/siten" target="_blank" rel="noopener">Công Ty Cổ Phần Phần Mềm Siten (Siten JSC.)</a></p>
     </div>`;
 
   const $ = (sel) => khung.querySelector(sel);
